@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>4851</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Karl</entity> und <entity>Greta</entity> </greeting> <par/>Ich hatte <error>
+        <errorType/>
+
+        <originalForm>gewust</originalForm>
+
+        <targetForm>gewusst</targetForm>
+      </error> dass <strikeover>
+        <expansion>I</expansion>
+
+        <expansion>i</expansion>
+      </strikeover>hr <correction>
+        <insertion><sic>volte</sic></insertion>
+      </correction> <correction>
+        <deletion>machte einne</deletion>
+      </correction> eine <error>
+        <errorType/>
+
+        <originalForm>urlaub</originalForm>
+
+        <targetForm>Urlaub</targetForm>
+      </error> machen aber Ihre kann nicht entschieden wohin gehen. <par/><error>
+        <errorType/>
+
+        <originalForm>wen</originalForm>
+
+        <targetForm>Wenn</targetForm>
+      </error> Ihr geht an Berge <sic>stehn</sic> Ihr in <error>
+        <errorType/>
+
+        <originalForm>kontakt</originalForm>
+
+        <targetForm>Kontakt</targetForm>
+      </error> mit <error>
+        <errorType/>
+
+        <originalForm>natur</originalForm>
+
+        <targetForm>Natur</targetForm>
+      </error> und kann Ihr lange Wanderung machen und <correction>
+        <deletion><unreadable/></deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>wiele</originalForm>
+
+        <targetForm>viele</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>Sprot</originalForm>
+
+        <targetForm>Sport</targetForm>
+      </error> treiben wie <error>
+        <errorType/>
+
+        <originalForm>Treching</originalForm>
+
+        <targetForm>Trekking</targetForm>
+      </error> und <error>
+        <errorType/>
+
+        <originalForm>Schi fahren</originalForm>
+
+        <targetForm>Skifahren</targetForm>
+      </error><overwrite>
+        <over>.</over>
+
+        <under>,</under>
+      </overwrite> und die <error>
+        <errorType/>
+
+        <originalForm>Frisce</originalForm>
+
+        <targetForm>frische</targetForm>
+      </error> Luft von der Bergen ist wunderbar. <correction>
+        <deletion>Ach</deletion>
+      </correction> Aber <correction>
+        <deletion>ve</deletion>
+      </correction> wenn Ihr die Meer <correction>
+        <deletion>wält</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>wahlt</originalForm>
+
+        <targetForm>wählt</targetForm>
+      </error> <correction>
+        <deletion>Ich</deletion>
+      </correction> Ihr <sic>kan</sic> in die Sonnen <error>
+        <errorType/>
+
+        <originalForm>ligen</originalForm>
+
+        <targetForm>liegen</targetForm>
+      </error>, in eine <error>
+        <errorType/>
+
+        <originalForm>vunderbaren</originalForm>
+
+        <targetForm>wunderbaren</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>mee<correction>
+            <deletion>t</deletion>
+          </correction>r</originalForm>
+
+        <targetForm>Meer</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>swimmen</originalForm>
+
+        <targetForm>schwimmen</targetForm>
+      </error> und <error>
+        <errorType/>
+
+        <originalForm><strikeover>
+            <expansion>p</expansion>
+
+            <expansion>P</expansion>
+          </strikeover>fantastische</originalForm>
+
+        <targetForm>fantastische</targetForm>
+      </error> <overwrite>
+        <over>S</over>
+
+        <under>s</under>
+      </overwrite>port treiben, <correction>
+        <deletion>Sub Sub</deletion>
+      </correction> zum Beispiel <sic>Sub</sic>, <foreign_word foreign_language="English"> Snorkeling</foreign_word> und <error>
+        <errorType/>
+
+        <originalForm>Blinge</originalForm>
+
+        <targetForm>Blinde</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>Khu</originalForm>
+
+        <targetForm>Kuh</targetForm>
+      </error> an die Strand spielen. <error>
+        <errorType/>
+
+        <originalForm>und</originalForm>
+
+        <targetForm>Und</targetForm>
+      </error> eine andere <correction>
+        <deletion>menke</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>menge</originalForm>
+
+        <targetForm>Menge</targetForm>
+      </error> dumme Spielen. Ich kann nicht <correction>
+        <deletion>sf</deletion>
+      </correction> für Ihr <sic>wolen</sic> und auch <correction>
+        <deletion>mich</deletion>
+      </correction> ich <error>
+        <errorType/>
+
+        <originalForm>veis</originalForm>
+
+        <targetForm>weiß</targetForm>
+      </error> nicht <error>
+        <errorType/>
+
+        <originalForm>vas</originalForm>
+
+        <targetForm>was</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>welen</originalForm>
+
+        <targetForm>wählen</targetForm>
+      </error> für <error>
+        <errorType/>
+
+        <originalForm>mier</originalForm>
+
+        <targetForm>mir</targetForm>
+      </error> alle zwei sind wunderba<overwrite>
+        <over>r</over>
+
+        <under>n</under>
+      </overwrite> <correction>
+        <deletion>aber</deletion>
+      </correction> ich ich wurde alle zu machen <error>
+        <errorType/>
+
+        <originalForm>veil</originalForm>
+
+        <targetForm>weil</targetForm>
+      </error> alle sind alle <error>
+        <errorType/>
+
+        <originalForm>zei</originalForm>
+
+        <targetForm>zwei</targetForm>
+      </error> zu wunderbar zu <correction>
+        <insertion><unreadable/></insertion>
+      </correction> eine <correction>
+        <deletion>zu farla</deletion>
+      </correction> eine <correction>
+        <deletion>mare</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>wolen</originalForm>
+
+        <targetForm>wollen</targetForm>
+      </error>. Aber <error>
+        <errorType/>
+
+        <originalForm>Wen</originalForm>
+
+        <targetForm>wenn</targetForm>
+      </error> <correction>
+        <deletion><unreadable/></deletion>
+      </correction> nur eine <correction>
+        <deletion>wolen</deletion>
+      </correction> <sic>when</sic> <sic>solst</sic> ich <correction>
+        <deletion>wol</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>wohle</originalForm>
+
+        <targetForm>wähle</targetForm>
+      </error> das <error>
+        <errorType/>
+
+        <originalForm>mer</originalForm>
+
+        <targetForm>Meer</targetForm>
+      </error> nein die Berge. <correction>
+        <deletion>abe</deletion>
+      </correction> Ich <sic>kämte</sic> mich <sic>für</sic> <correction>
+        <deletion>sir</deletion>
+      </correction>ihr <sic>entstieden</sic>. <par/><closing>Ihre <error>
+          <errorType/>
+
+          <originalForm>freund</originalForm>
+
+          <targetForm>Freund</targetForm>
+        </error> <entity>Mirko</entity></closing></exercise>
+  </body>
+</kolipsi_document>

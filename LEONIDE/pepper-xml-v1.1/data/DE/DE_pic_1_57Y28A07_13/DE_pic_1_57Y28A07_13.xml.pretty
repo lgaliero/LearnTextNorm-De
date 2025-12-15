@@ -1,0 +1,70 @@
+<body>
+ <page page_number="1" transcanno_page_id="214">
+  <paragraph class="medium-paragraph" tagcode="1540844316125">
+   <div>
+    Ein tag in den USA war
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1540844243769" tran_correction_original="EAIN">
+     ein
+    </tran_word_correction_id25>
+    Feuer.
+   </div>
+   <div>
+    Herr T-Dog war
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="NERVÖS" tagcode="1540844252852">
+     nerwös
+    </orth_error_id12>
+    und geht in
+   </div>
+   <div>
+    den feueredhaus zum ihren sachen holen.
+   </div>
+   <div>
+    Sein Sohn hilft ihm.
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1540844266429" tran_word_deletion_target="_#_">
+     Ab
+    </tran_word_deletion_id8>
+    Carl geht
+   </div>
+   <div>
+    von seiner
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Schultasche" tagcode="1540844274684">
+     schultasche
+    </orth_error_id12>
+    2
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1540844279060" tran_word_deletion_target="_#_">
+     plakate
+    </tran_word_deletion_id8>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1540844283908">
+     Hefte
+    </tran_word_insertion_id9>
+    holen:
+   </div>
+   <div>
+    Den Diktat Heft und
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1540844291282" tran_word_deletion_target="_#_">
+     Mhate
+    </tran_word_deletion_id8>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1540844296340">
+     Mathe
+    </tran_word_insertion_id9>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1540844299460" tran_word_deletion_target="_#_">
+     <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1540844302724">
+      Matke
+     </tran_word_insertion_id9>
+    </tran_word_deletion_id8>
+    Heft.
+   </div>
+   <div>
+    Er wirft
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1540844308671" tran_word_deletion_target="_#_">
+     das
+    </tran_word_deletion_id8>
+    die
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1540844316124" tran_correction_original="Hefter">
+     Hefte
+    </tran_word_correction_id25>
+    in den Feuer.
+   </div>
+  </paragraph>
+ </page>
+</body>

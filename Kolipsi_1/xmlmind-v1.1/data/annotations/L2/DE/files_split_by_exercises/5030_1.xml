@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5030</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><par/><greeting>Liebe <entity>Nadine</entity>,</greeting> <par/>ich muss dir etwas erzählen; letzte Woche war meine Freundin <entity>Maria</entity> einkaufen. <par/>Sie ist am <palimpsest>Morgen</palimpsest> in den <foreign_word foreign_language="Italiano">Supermarket</foreign_word> gegangen und sie hat Obst und Gemüse <correction>
+        <insertion>und Brot</insertion>
+      </correction> gekauft; dann ist sie an der Kasse gegangen, <palimpsest>hat sie beza</palimpsest><correction>
+        <insertion>hlen</insertion>
+      </correction> und <correction>
+        <insertion>ist sie</insertion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>weg gegangen</originalForm>
+
+        <targetForm>weggegangen</targetForm>
+      </error>. <par/>Wenn sie <palimpsest>zu</palimpsest> Hause gekommen ist, bemerkt sich dass sie <correction>
+        <insertion>um zu kochen</insertion>
+      </correction> etwas vergessen hat und sie muss in den <foreign_word foreign_language="Italiano">Supermarket</foreign_word> zurückgehen. <par/>Wenn sie in den <foreign_word foreign_language="Italiano">Supermarket</foreign_word> war, kaufte Öl, <error>
+        <errorType/>
+
+        <originalForm>Sals</originalForm>
+
+        <targetForm>Salz</targetForm>
+      </error>, Nudeln und Pfeffer ein und geht sie an der Kassa um zu bezahlen. <par/>Hier an der Kassa, die Frau die hier arbeitet, sieht dass <entity>Maria</entity> den Brot in der Tasche hat und denkt dass sie das Brot <error>
+        <errorType/>
+
+        <originalForm>gestholen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> <palimpsest>wo</palimpsest>llte. <entity>Maria</entity> wollte nicht stehlen, sie hat nur den Brot in die Tasche vergessen. <par/>So <entity>Maria</entity> erzählt die Frau wie die Sache gegangen sind; die Frau entschuldigt sich mit <entity>Maria</entity> und <entity>Maria</entity> kann nach Hause fahren. <par/><closing>Liebe Grüße <par/> <entity>Tania</entity> </closing> </exercise>
+
+    
+  </body>
+</kolipsi_document>

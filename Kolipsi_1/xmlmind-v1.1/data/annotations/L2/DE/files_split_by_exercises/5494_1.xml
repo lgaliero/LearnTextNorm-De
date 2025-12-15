@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5494</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Manuel</entity>!</greeting> <par/>Ich muss dir etwas erzählen! Du weißt schon dass ich am Morgen im Supermarkt gehe, weil es in der <error>
+        <errorType/>
+
+        <originalForm>nähe</originalForm>
+
+        <targetForm>Nähe</targetForm>
+      </error> <correction>
+        <deletion>ist</deletion>
+      </correction> und es auch billiger ist. <par/>Heute habe ich <correction>
+        <deletion>me</deletion>
+      </correction> meine Freundin <entity>Maria</entity> dort gesehen, sie war auch beim <error>
+        <errorType/>
+
+        <originalForm>einkaufen</originalForm>
+
+        <targetForm>Einkaufen</targetForm>
+      </error>, und ich habe dann gedacht, es wäre unterhaltsam mit ihr zu bleiben. <par/>Sie hatte schon Gemüse beim Obsthändler gekauft und <correction>
+        <deletion>hatte</deletion>
+      </correction> als sie den Kassenzettel gesucht hatte, hatte sie sich erinnert dass sie es beim Obsthän<overwrite>
+        <over>d</over>
+
+        <under>l</under>
+      </overwrite>ler vergessen hatte. <par/>Wir haben wirklich viel gekauft und <correction>
+        <insertion>ich</insertion>
+      </correction> habe alles für <correction>
+        <insertion>unseren</insertion>
+      </correction> <foreign_word foreign_language="English">Lunch</foreign_word> genommen. <par/>Wir sind nach 20 Minuten <correction>
+        <deletion>a</deletion>
+
+        <insertion>zu</insertion>
+      </correction> der Kasse gegangen und <correction>
+        <deletion>w</deletion>
+      </correction> ich wusste nicht warum die Kassiererin <entity>Maria</entity> sehr schlecht anschaute. <direct_speech>“Werden sie d<strikeover>
+          <expansion>ie</expansion>
+
+          <expansion>as</expansion>
+        </strikeover> Gemüse bezahlen?“</direct_speech> sagte die Kassiererin. <direct_speech>„Oh nein, nein. Ich bi<overwrite>
+          <over>n</over>
+
+          <under>m</under>
+        </overwrite> beim Obsthändler heute Morgen früh gegangen.“</direct_speech> <direct_speech>“Aber wie soll ich denn sie glauben? Haben <error>
+          <errorType/>
+
+          <originalForm>sie</originalForm>
+
+          <targetForm>Sie</targetForm>
+        </error> noch den Kassenzettel?“</direct_speech> <par/>Aber <entity>Maria</entity> hatte es nicht und ich war mit ihr, was sollte denn jetzt passieren? <par/><direct_speech>“Ich kann nichts machen. Ich muss dann die Polizei anrufen <correction>
+          <deletion>ung</deletion>
+        </correction> und erzählen <error>
+          <errorType/>
+
+          <originalForm>sie</originalForm>
+
+          <targetForm>Sie</targetForm>
+        </error> es ihnen!“</direct_speech> <par/>Ich habe <arrow end="head" id="1">ihr</arrow> dann <arrow end="open" id="1"> </arrow> gesagt i<overwrite>
+        <over>c</over>
+
+        <under>h</under>
+      </overwrite>h würde schnell <correction>
+        <deletion>bem</deletion>
+
+        <insertion>zum</insertion>
+      </correction> Obsthändler rennen und den Kassenzettel suchen, wenn er es nicht geschm<palimpsest>issen</palimpsest> h<correction>
+        <deletion>ä</deletion>
+
+        <insertion>a</insertion>
+      </correction>tte. <par/>Ich konnte fast nicht mehr atmen als ich dort ankam, <gap>_</gap> <correction>
+        <deletion>a</deletion>
+      </correction> aber ich habe<correction>
+        <deletion><unreadable/></deletion>
+      </correction> den Kassenzettel <correction>
+        <deletion>auf en</deletion>
+      </correction> in einem Papierkorb gefunden. <par/>Ich war so erleichtert und die Situation hatte sich am <overwrite>
+        <over>E</over>
+
+        <under>e</under>
+      </overwrite>nde <correction>
+        <deletion>er</deletion>
+      </correction> gelöst: <correction>
+        <deletion>der Kassenzettel</deletion>
+      </correction> die Kassiererin hatte den <overwrite>
+        <over>Kass</over>
+
+        <under>Kass</under>
+      </overwrite>enzettel akzeptiert und ich <correction>
+        <deletion>ha</deletion>
+      </correction> bin <gap>_</gap> endlich n<overwrite>
+        <over>a</over>
+
+        <under>z</under>
+      </overwrite>ch Hause gegangen und habe <correction>
+        <deletion>n</deletion>
+      </correction> meinen <overwrite>
+        <over>Mittagessen</over>
+
+        <under><unreadable/></under>
+      </overwrite> <correction>
+        <deletion><unreadable/></deletion>
+      </correction> gekocht.</exercise>
+
+    
+  </body>
+</kolipsi_document>

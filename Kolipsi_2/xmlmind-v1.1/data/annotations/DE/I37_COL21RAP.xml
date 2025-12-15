@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I37_COL21RAP</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo Joussef,</greeting><par />wie geht es dir? Bei mir alles gut. Ich schreib dir, <correction>
+        <deletion>um</deletion>
+      </correction> was heute geschehen ist. Heute <correction>
+        <insertion>Nachmittag</insertion>
+      </correction> war ich einkaufen und habe ich meine Freundin Maria gesehen. Sie hat mir gesagt, dass auch sie <correction>
+        <deletion>Nach</deletion>
+      </correction> Vormittag einkaufen war, aber sie hatte Probleme. Erst ging sie in einem Obstladen um eine <foreign_word
+        foreign_language="Italiano">Banana</foreign_word> zu kaufen und dann ging sie in einem Gemüseladen um Salat zu kaufen. Eine Stunde später ging sie im Supermarkt. Hier wollte sie zwei Kilo Fleisch und eine Weinflasche kaufen. Wenn sie <correction>
+        <deletion>an</deletion>
+      </correction> die Kasse erreicht hat, wurde die <correction>
+        <deletion>U</deletion>
+      </correction> Angestellte zornig, weil sie den Ticket für <correction>
+        <deletion>das</deletion>
+      </correction> das Fleisch vergessen hatte. <correction>
+        <deletion>So muss</deletion>
+      </correction> Deshalb müsste sie wieder <correction>
+        <deletion><unreadable /> züruck<unreadable /></deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>züruckgehen</originalForm>
+
+        <targetForm>zurückgehen</targetForm>
+      </error>, um den Ticket machen. <error>
+        <errorType />
+
+        <originalForm>Dan</originalForm>
+
+        <targetForm>Dann</targetForm>
+      </error> sieht die Angestellte die Weinflasche, und fragte Maria die Dokumenten. Du weißt nicht, aber Maria 27 Jahre alt ist und sie schaut aus als ob sie 16 Jahre alt <correction>
+        <deletion>s<unreadable /></deletion>
+      </correction> ist. <correction>
+        <deletion>Sie Leider Leider hat sie</deletion>
+      </correction> Maria war deshalb sehr froh, <correction>
+        <deletion>und sie ging</deletion>
+      </correction> weil die Angestellte ihr die Dokumente gefragt hat, weil sie jung aussieht.</exercise>
+
+    <exercise number="2" xml:space="preserve"><correction>
+        <deletion>Hallo</deletion>
+      </correction> <greeting>Lieber <correction>
+          <deletion>Pauel</deletion>
+        </correction> Paul,</greeting><par />ich <correction>
+        <deletion>h<unreadable /></deletion>
+      </correction> habe deine Geschichte in der Rubrik "Persönliche Briefe" der Zeitung "Junge Woche" gelesen. <error>
+        <errorType />
+
+        <originalForm>Personlich</originalForm>
+
+        <targetForm>Persönlich</targetForm>
+      </error> verstehe ich dich sehr, weil auch ich letztes Jahre das <correction>
+        <deletion>Gle</deletion>
+      </correction> gleiche Problem hatte. <correction>
+        <deletion>Ich</deletion>
+      </correction> Es gefällt mir sehr, mit Leute von anderen Stadt im Internet geschrieben. Mit Facebook, Whatsapp oder Skype war<correction>
+        <deletion>e</deletion>
+      </correction> ich immer im Kontakt mit ihnen. Jetzt denke ich, dass <correction>
+        <deletion>ist</deletion>
+      </correction> es nicht eine <correction>
+        <deletion>S <unreadable />lec</deletion>
+      </correction> schlechte Sache ist, um mit <correction>
+        <deletion>ver</deletion>
+      </correction> Leute von verschiedenen Stadt zu schreiben. Aber es ist besser ausgehen und sich mit seinem Freunden unterhalten. Virtuelle <correction>
+        <deletion>Freundschaften</deletion>
+      </correction> Freundschaften kann eine gute Sache sind wenn du mit jemandem <correction>
+        <deletion>brauchst zu reden</deletion>
+      </correction> <correction>
+        <deletion>von</deletion>
+
+        <insertion>aus</insertion>
+      </correction> einem anderen Stadt brauchst zu reden. <correction>
+        <deletion>Ich den</deletion>
+      </correction> Für mich steht es <error>
+        <errorType />
+
+        <originalForm>Fest</originalForm>
+
+        <targetForm>fest</targetForm>
+      </error>, dass du mehr herausgehen musst.</exercise>
+  </body>
+</kolipsi_II_document>

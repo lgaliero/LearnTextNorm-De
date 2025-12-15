@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0135</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Lieber <entity>Michael</entity></greeting>...<par/>Ich habe nochmal über unseren Urlaub nachgedacht. Aber ich komme trotzdem nicht weiter... Ich weiß einfach nicht ob <error>
+        <errorType/>
+
+        <originalForm>i</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> mich am Mee<overwrite>
+        <under><unreadable/></under>
+
+        <over>r</over>
+      </overwrite> oder in den Bergen wohler fühle...<par/>Auf beiden Orten ist es gleich ruhig und erholen kann man sich in den Bergen genauso gut wie am Meer... Man kann auch auf beiden Orten viel erleben...<par/>Ich würde mich einerseits darauf freuen ans Meer zu fahren und es die ganze Nacht rauschen zu hören, <error>
+        <errorType/>
+
+        <originalForm>anderer Seits</originalForm>
+
+        <targetForm>andererseits</targetForm>
+      </error> gibt es in den Bergen ja auch Bäche die man rauschen hört.<par/>In den Bergen wäre es auch kühler, aber es kann auch wiederum zu kalt sein!<par/>Allerdings bräuchte ich unbedingt wieder ein bisschen <correction>
+        <deletion>Sa</deletion>
+      </correction> Meeressand und Muscheln zur Dekoration... Und ich war schon lange nicht mehr am Meer... <correction>
+        <deletion>In</deletion>
+      </correction> Das Meer ist auch viel weiter weg... Wenn wir zu den Bergen wollen brauchen wir nicht lang zu fahren..<par/>Kurz gesagt, ich finde beides super, aber jetzt wo ich so nachdenke wäre ich eigentlich mehr für einen Urlaub am Meer... Was sagst du dazu?<par/><closing>Liebe Grüße!</closing>     </exercise>
+  </body>
+</kolipsi_document>

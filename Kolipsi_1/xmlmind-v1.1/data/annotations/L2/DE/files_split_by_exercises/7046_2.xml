@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>N7046</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve">
+      <par/><greeting><sic>Liebe</sic> <entity>Florian</entity> !</greeting> <par/>Wie <sic>gehst du</sic>? Alles gut?<par/>Ich bin sehr gut.<par/>Hast du festsetzen wo willst du einen gemeinsamen Urlaub mit mich gehen?<par/>Ich wolle ans Meer fahren. Weil das Meer, ist der ideale Platz für die <error>
+        <errorType/>
+
+        <originalForm>Sommer ferien</originalForm>
+
+        <targetForm>Sommerferien</targetForm>
+      </error>.<par/>Wenn du <correction>
+        <deletion>hast</deletion>
+      </correction> sehr warm hast, kannst du <sic>ans</sic> Meer springen. Am Meer du <sic>könnst</sic> in <error>
+        <errorType/>
+
+        <originalForm>Viele</originalForm>
+
+        <targetForm>viele</targetForm>
+      </error> Disco gehen und viele schöne Mädchen treffen.<par/>Am Meer du <sic>könnst</sic> viele Sport treiben, zum <error>
+        <errorType/>
+
+        <originalForm>beispiel</originalForm>
+
+        <targetForm>Beispiel</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>skifahren</originalForm>
+
+        <targetForm>Ski fahren</targetForm>
+      </error>, <foreign_word foreign_language="Italiano">surf</foreign_word>, <foreign_word foreign_language="English"><error>
+          <errorType/>
+
+          <originalForm>snorkelling</originalForm>
+
+          <targetForm>snorkeling</targetForm>
+        </error></foreign_word>, <error>
+        <errorType/>
+
+        <originalForm>swimmen</originalForm>
+
+        <targetForm>Schwimmen</targetForm>
+      </error> und mit Schiffe weit weg. Bitte kommst du mit mir a<ambiguous>
+        <alternative>m</alternative>
+
+        <alternative>n</alternative>
+      </ambiguous> Meer.<par/>Ist eine schöne Platz.<par/>Das ist alles!<par/><closing>Tschüs <entity>Florian</entity>!</closing> </exercise>
+  </body>
+</kolipsi_document>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5489</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Peter</entity>,</greeting> wie geht es dir? Ich muss dir etwas erzählen… <par />Kennst du meine Freundin <entity>Maria</entity>, <error>
+        <errorType />
+
+        <originalForm>die jenige</originalForm>
+
+        <targetForm>diejenige</targetForm>
+      </error> die mit mir wohnt? <par />Also heute ist sie einkaufen gegangen, zuerst ist sie beim Obsthändler gegangen um ein bisschen Gemüse zu kaufen weil es zu Hause fertig war. Sie hatte <error>
+        <errorType />
+
+        <originalForm>Salad</originalForm>
+
+        <targetForm>Salat</targetForm>
+      </error>. Bananen und Kartoffeln gekauft. <par />Sie ging an die Kasse und bezahlte was sie genommen hatte und, dann packte sie alles in dem Sack hinein. Beim <error>
+        <errorType />
+
+        <originalForm>einpacken</originalForm>
+
+        <targetForm>Einpacken</targetForm>
+      </error> hatte sie den Kassenzettel vergessen. <par />Nach dem Obsthändler ging sie zum <foreign_word
+        foreign_language="Italiano">Supermarket</foreign_word> um andere Sache zu kaufen. Sie nahm die Putzmitteln, das Öl und alles anderes mögliches. Als sie an die Kasse ging die <error>
+        <errorType />
+
+        <originalForm>Kassirerin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> glötzte sie komisch an, weil sie dachte dass <entity>Maria</entity>, etwas gestohlen hat. Sie konnte nicht beweisen, dass das Obst nicht geklaut wurde, weil <palimpsest>sie</palimpsest> den Kassazettel <sic>un</sic> Obsthändler vergessen hatte. Ich musste schnell beim Obsthändler laufen und <palimpsest>unreadable</palimpsest> den Kassazettel nehmen um sein Unschuldigkeit zu beweisen. <par />Was denkst du über die Geschi<overwrite>
+        <over>c</over>
+
+        <under>s</under>
+      </overwrite>hte?</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Mein lieber Schatz,</greeting> <par />dieses Jahr möchte ich mit dir die Sommerurlaube verbringen. Deiner Meinung <palimpsest>unreadable</palimpsest> welcher Urlaub ist besser in die Berge oder ans Meer. <par />In die Berge haben wir die Möglichkeit ganz allein zu sein in eine Hütte ohne, dass jemand uns <error>
+        <errorType />
+
+        <originalForm>stöhrt</originalForm>
+
+        <targetForm>stört</targetForm>
+      </error> Wir könnte nur wir beide auf der Wiese liegen. Aber auch der Urlaub ins Meer könnte eine Möglichkeit sein. Zusammen schwimmen und <correction>
+        <deletion> </deletion>
+      </correction> der Sonnenuntergang zusammenschauen. <correction>
+        <deletion>zw</deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>wir</originalForm>
+
+        <targetForm>Wir</targetForm>
+      </error> könnten <sic>nehr</sic> ein ander sonnenliegen. <par />Was denkst du darüber mein Schatz? <par />Es ist sehr schwierig sich zu entscheiden…</exercise>
+  </body>
+</kolipsi_document>

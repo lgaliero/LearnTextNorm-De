@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0143</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Hallo <entity>Sven</entity></greeting>,<par/>alles klar bei dir!<par/>Wie du weißt, wollten wir ja mit den <overwrite>
+        <under>a</under>
+
+        <over>A</over>
+      </overwrite>nderen im Juli wieder in den Urlaub fahren. Ich habe mich im Reisebüro beraten lassen und kann dir nun zwei Alternativen vorstellen.<par/>Zum <error>
+        <errorType/>
+
+        <originalForm>Einen</originalForm>
+
+        <targetForm>einen</targetForm>
+      </error> ei<overwrite>
+        <under><unreadable/></under>
+
+        <over>n</over>
+      </overwrite> Urlaub in den Bergen. Dort würden wir in einem ruhigen, <sic>abgelegenem</sic> Hotel wohnen. Tagsüber könnten <over>w</over>ir in den Bergen wandern gehen und die frische Luft genießen. Außerdem würde es unserem Körper <error>
+        <errorType/>
+
+        <originalForm>gut tun</originalForm>
+
+        <targetForm>guttun</targetForm>
+      </error>, <overwrite>
+        <under>w</under>
+
+        <over>d</over>
+      </overwrite>enn <error>
+        <errorType/>
+
+        <originalForm>wandern</originalForm>
+
+        <targetForm>Wandern</targetForm>
+      </error> ist ja auch eine sportliche Betätig<over>un</over>g.<par/>Zum <error>
+        <errorType/>
+
+        <originalForm>Anderen</originalForm>
+
+        <targetForm>anderen</targetForm>
+      </error> könnten wir ans Meer fahren. Dort könnten wir tagsüber am Strand liegen und <sic>was</sic> schwimmen gehen. Unser Hotel dort würde direkt an der Promenade li<over>e</over>gen<over>,</over> also mitten im Geschehen. Wir könnten dort abends eine der zahl<over>r</over>eichen <over>D</over>iscos aufsuchen und feiern gehen.<par/>Zusammenfassend kann man sagen, dass der Urlaub in den Bergen eher ruhig und sportlich <correction>
+        <deletion>wäre</deletion>
+      </correction>, der Urlaub am Meer dagegen eher viel mit Party und <error>
+        <errorType/>
+
+        <originalForm>relaxen</originalForm>
+
+        <targetForm>Relaxen</targetForm>
+      </error> wäre.<par/>Du kannst dich in den nächsten Tagen ja nochmal melden und mir deinen Urlaubswunsch sagen.<par/><closing>Bis dann,<par/><entity>Th<over>o</over>mas</entity></closing>   </exercise>
+  </body>
+</kolipsi_document>

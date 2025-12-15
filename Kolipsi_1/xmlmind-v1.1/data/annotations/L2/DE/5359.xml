@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5359</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><par /><greeting>Liebe <entity>Anna</entity>,</greeting> <par /><error>
+        <errorType />
+
+        <originalForm>Wie</originalForm>
+
+        <targetForm>wie</targetForm>
+      </error> geht es dir? Ich muss dir erz<overwrite>
+        <under><unreadable /></under>
+
+        <over>ä</over>
+      </overwrite>hlen was <entity>Maria</entity> passiert ist! <error>
+        <errorType />
+
+        <originalForm>Letze</originalForm>
+
+        <targetForm>Letzte</targetForm>
+      </error> Woche war <entity>Maria</entity> einkaufen. Sie hat zuerst in einem Obst- und Gemüseladen eingekauft, dann war sie im Supermarkt. An der Kasse gab es ein Problem, die <sic>Kommesse</sic> dachte, dass <entity>Maria</entity> Obst und Gemüse <error>
+        <errorType />
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hat<palimpsest>.</palimpsest><palimpsest>unreadable</palimpsest><par />Gemüse und Obst waren in die Tasche von <entity>Maria</entity>. <par /><entity>Maria</entity> konnte keine Rechnung zeigen, weil es an dem Obst- und Gemüseladen stand! Die Kommesse glaube <palimpsest>ihn</palimpsest> nicht und sie sagte ihn, dass die Prod<palimpsest>u</palimpsest>kte in Ordnung stellen müssen. <par /><entity>Maria</entity> hat <sic>gefragen</sic> ob sie an die Laden telefonieren konnte. Es war nicht seinen Schuld! <entity>Maria</entity> <sic>darfte</sic> <strikeover>
+        <expansion>a</expansion>
+
+        <expansion>u</expansion>
+      </strikeover>n die <error>
+        <errorType />
+
+        <originalForm>Obst</originalForm>
+
+        <targetForm>Obst-</targetForm>
+      </error> und Gemüseladen telefonieren. Die Kommesse des ersten Geschäft hat an der zweite Kommesse alles erzählen. <entity>Maria</entity> ist nicht ein Dieb! <par />Die Kommesse des <error>
+        <errorType />
+
+        <originalForm>Supermakts</originalForm>
+
+        <targetForm>Supermarkts</targetForm>
+      </error> hat <palimpsest>si</palimpsest>ch <error>
+        <errorType />
+
+        <originalForm>endschuldigt</originalForm>
+
+        <targetForm>entschuldigt</targetForm>
+      </error> mit <entity>Maria</entity>. <par />Einen sehr komisch T<overwrite>
+        <under>u</under>
+
+        <over>a</over>
+      </overwrite>g! Glaubst es du auch? Jetzt muss ich in de<ambiguous>
+        <alternative>n</alternative>
+
+        <alternative>m</alternative>
+      </ambiguous> Supermarkt gehen! Ich muss <palimpsest>die Rechnung</palimpsest> nicht vergessen! <par /><closing>Vielen <error>
+          <errorType />
+
+          <originalForm>Grüsen</originalForm>
+
+          <targetForm>Grüßen</targetForm>
+        </error> <par /> <entity>Sara</entity> </closing> </exercise>
+
+    <exercise number="2" xml:space="preserve"><par /><greeting>Liebe <entity>Serena</entity>,</greeting> <par /><error>
+        <errorType />
+
+        <originalForm>Wie</originalForm>
+
+        <targetForm>wie</targetForm>
+      </error> geht es dir? Ich bin sehr müde, ich will eine Urlaub machen! Ich und Giulia wollen eine Urlaub machen. Gestern wollte ich nach <entity>Griechenland</entity> fahren, heute will ich auf den Berg fahren. Das Meer ist so schön! Aber auch die Berge sind wunderschön... Auf den Berg gibt es ruhig. <palimpsest>unreadable</palimpsest> <par /><entity>Griechenland</entity> ist ein <error>
+        <errorType />
+
+        <originalForm>bischen</originalForm>
+
+        <targetForm>bisschen</targetForm>
+      </error> <sic>kaotik</sic>. <entity>Giulia</entity> hat gesagt, dass für sich gleich ist. Ich kann nicht allein entscheiden! <palimpsest>unreadable</palimpsest> In meine Meinung <palimpsest>ist</palimpsest> das Meer zu populiert! <palimpsest>unreadable</palimpsest> <par /><palimpsest>Jetzt bin ich sicher</palimpsest>! Ich will lieber in die Berge fahren! Oder nicht? Ich weiß es nicht! Es ist zu schwierig entscheiden. <par />Ich <error>
+        <errorType />
+
+        <originalForm>mochte</originalForm>
+
+        <targetForm>möchte</targetForm>
+      </error> nur mit meiner Freundin <entity>Giulia</entity> bleiben. Meer oder Berg ist gleich. Das Landschaft ist sehr <error>
+        <errorType />
+
+        <originalForm>schon</originalForm>
+
+        <targetForm>schön</targetForm>
+      </error> bei beiden. <par />Das <error>
+        <errorType />
+
+        <originalForm>letze</originalForm>
+
+        <targetForm>letzte</targetForm>
+      </error> Jahr bin ich nach <entity>Spanien</entity> gefahren und das vorletzte Jahr bin ich nach <entity>Ortisei</entity> gefahren. Sie waren <palimpsest>zwei</palimpsest> schönen Erfahrungen. Welche ist deine Meinung? Wo sollen wir fahren? <par />Ich liebe Berge und Meer... <par />Ich warte deinen Brief! <par /><closing>Vielen <error>
+          <errorType />
+
+          <originalForm>Grüsen</originalForm>
+
+          <targetForm>Grüßen</targetForm>
+        </error> <par /> <entity>Sara</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0028</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Hey <entity>Lisa</entity></greeting>,<par/>ich schreibe dir, weil ich <error>
+        <errorType/>
+
+        <originalForm>nocheinmal</originalForm>
+
+        <targetForm>noch einmal</targetForm>
+      </error> die wesentlichen Punkte von einer Reise in die Berge /ans Meer zusammenfassen möchte. Der Urlaub in den Bergen hat den <ambiguous>
+        <alternative>V</alternative>
+
+        <alternative>v</alternative>
+      </ambiguous>orteil, dass wir viel wandern würden und die schöne Landschaft besichtigen könnten. Das kann man am Meer aber auch! Dort kann man sogar noch braun werden und schwimmen gehen. Außerdem gibt es an der Strandpromenade viele Diskos und Cocktailbars. Das hat man in den Bergen nicht. Dort könnten wir lediglich in einer Berghütte etwas trinken. Ich denke, dass wir am Meer mehr Spaß haben werden, weil man da auch viel schneller neue Leute kennen lernt. Bitte schreib mir doch zurück und sag mir, für welchen Urlaub du bist! <closing>Alles Liebe, deine <entity>XY</entity></closing>   </exercise>
+  </body>
+</kolipsi_document>

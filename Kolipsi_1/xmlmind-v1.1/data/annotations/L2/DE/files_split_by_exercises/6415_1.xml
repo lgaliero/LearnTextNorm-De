@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>6415</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Nicolas</entity>,</greeting> <par/>wie geht es? <error>
+        <errorType/>
+
+        <originalForm>alles</originalForm>
+
+        <targetForm>Alles</targetForm>
+      </error> in Ordnung bei dir? Ich wollte dir schreiben, weil ich musste dir erzäheln, was <entity>Maria</entity> passiert ist. Letzte Woche war sie einkaufen. Zuerst kaufte sie in einem <error>
+        <errorType/>
+
+        <originalForm>Gemüse</originalForm>
+
+        <targetForm>Gemüse-</targetForm>
+      </error> und Obstladen und eine Stunde später war sie im Supermarkt. Beim Obsthändler hat sie Obst und Gemüse für seine Familie eingekauft, aber später ist sie in Supermarkt gegangen, um andere Lebensmittel einzukaufen. Leider hat sie den Kassenzettel beim <correction>
+        <insertion>Obst-</insertion>
+      </correction> und Gemüseladen vergessen, und wenn sie im Supermarkt bezahlen wollte, gab es ein Problem: <error>
+        <errorType/>
+
+        <originalForm>der</originalForm>
+
+        <targetForm>Der</targetForm>
+      </error> Kassierer des Supermarkts dachte, dass sie das Obst und die Gemüse nicht bezahlen wollte. Zuerst konnte <entity>Maria</entity> <correction>
+        <deletion>da</deletion>
+      </correction> ihn nicht verstehen und sie hat ihm erklärt, dass sie die anderen Lebensmittel <correction>
+        <deletion>in</deletion>
+      </correction> beim Obsthändler gekauft hatte. Später ist sie wieder in den Laden <correction>
+        <deletion>get</deletion>
+      </correction> zurückgegangen und zum Glück hat sie den Kassenzettel wiedergefunden. Am Ende hat sie den Kassenzettel dem Kassierer des Supermarkts gebracht und <correction>
+        <deletion>konnte</deletion>
+      </correction> hat die Lebensmittel bezahlt. Danke für deine Aufmerksamkeit. Schreib mir bald wieder, wenn du Lust hat! <closing>Dein Freund <entity>Alessandro</entity></closing> </exercise>
+
+    
+  </body>
+</kolipsi_document>

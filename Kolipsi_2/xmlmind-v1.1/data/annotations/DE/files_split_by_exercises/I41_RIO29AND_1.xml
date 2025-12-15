@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I41_RIO29AND</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Liebe Anna,</greeting><par/><error>
+        <errorType/>
+
+        <originalForm>Gestern</originalForm>
+
+        <targetForm>gestern</targetForm>
+      </error> habe ich Maria gesehen und ich wollte dir erzählen was <correction>
+        <deletion>sie</deletion>
+
+        <insertion>ihr</insertion>
+      </correction> passiert ist. Maria ist zuerst in eine<correction>
+        <deletion>m</deletion>
+
+        <insertion>n</insertion>
+      </correction> Obst- und Gemüseladen gegangen, <correction>
+        <deletion>um zum</deletion>
+      </correction> um die Einkäuf<correction>
+        <deletion>en</deletion>
+
+        <insertion>n</insertion>
+      </correction> zu machen. <correction>
+        <deletion>S</deletion>
+
+        <insertion>Z</insertion>
+      </correction>uerst hat sie d<correction>
+        <deletion>ie</deletion>
+
+        <insertion>as</insertion>
+      </correction> Obst und Gemüse genommen, <correction>
+        <deletion>und</deletion>
+      </correction> dann hat sie beim der Kasse bezahl<correction>
+        <deletion>en</deletion>
+
+        <insertion>t</insertion>
+      </correction> und dann hat sie alles in ihre <error>
+        <errorType/>
+
+        <originalForm>Tache</originalForm>
+
+        <targetForm>Tasche</targetForm>
+      </error> gestellt, weil sie musste später zum Supermarkt gehen. Als Maria in dem Supermarkt war, hat sie einen Wagen genommen und dann begann sie <correction>
+        <deletion>um</deletion>
+      </correction> die Produkte, die sie unbedingt brauchte, <correction>
+        <deletion>zu</deletion>
+      </correction> aus<correction>
+        <insertion>zu</insertion>
+      </correction>wählen. Sie hat eine Flasche Saft, Milch, Brot, Käse, <correction>
+        <deletion>ein Packet</deletion>
+      </correction> Spaghetti, Zahnpasta und noch ein paar Sachen genommen. <correction>
+        <deletion>Nachher</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>Nacher</originalForm>
+
+        <targetForm>Nachher</targetForm>
+      </error> ist die <correction>
+        <deletion>zum</deletion>
+      </correction> zu der Kasse gegangen, zu einer Verkäuferin, die sie schon ein bisschen kannte, aber die nicht so nett zu ihr war. Diese Verkäuferin, als sie die Tasche von Maria mit allen<correction>
+        <deletion><unreadable/></deletion>
+      </correction> Obst und Gemüse gesehen hat, hat Maria <correction>
+        <deletion><unreadable/></deletion>
+      </correction> gefragt, um <correction>
+        <deletion>alles <unreadable/></deletion>
+      </correction> die Tasche zu <error>
+        <errorType/>
+
+        <originalForm>leehren</originalForm>
+
+        <targetForm>leeren</targetForm>
+      </error>. <correction>
+        <deletion>Maria</deletion>
+      </correction> So Maria hat die Tasche <error>
+        <errorType/>
+
+        <originalForm>gelehrt</originalForm>
+
+        <targetForm>geleert</targetForm>
+      </error> und die Verkäuferin hat <correction>
+        <deletion>zu<unreadable/></deletion>
+      </correction> die Polizei gesagt, dass sie kein<correction>
+        <deletion>en</deletion>
+      </correction> Dieb ist und so <correction>
+        <insertion>war</insertion>
+      </correction> alles okay. Was <correction>
+        <deletion>denkst</deletion>
+      </correction> denkst du Anna über das? <correction>
+        <deletion>Es ist <unreadable/></deletion>
+      </correction> Ist es möglich?<par/><closing>Liebe Grüße,</closing><par/>Andrea. </exercise>
+
+    
+  </body>
+</kolipsi_II_document>

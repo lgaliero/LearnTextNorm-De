@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>N7021</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Mareike</entity>!</greeting> <par/>Wie g<palimpsest>eht es</palimpsest> dir? Ich wollte dir erzählen, was eine Freundin von mir, <entity>Maria</entity>, passiert ist! <par/>Sie <palimpsest>war</palimpsest> letzte Woche einkaufen, zuerst in einem Obst– und Gemüseladen und eine Stunde später war sie im <foreign_word foreign_language="Italiano">Supermarket</foreign_word>. <par/>Aber als sie im Obst- und Gemüseladen war, hat sie den Kassenzettel vergessen! Und später. im <foreign_word foreign_language="Italiano">Supermarket</foreign_word>, hat die Frau an der Kasse gedacht, dass <entity>Maria</entity> <overwrite>
+        <over>G</over>
+
+        <under>g</under>
+      </overwrite>emüse und Obst gesto<palimpsest>hlen</palimpsest> hatte, weil sie ohne Kassenzettel war. <entity>Maria</entity> hat dann aber den Obst- und Gemüseladen angerufen und sie haben gesagt, dass es wahr war, dass sie dort Gemüse und Obst gekauft hat. <par/>Gott sei <error>
+        <errorType/>
+
+        <originalForm>dank</originalForm>
+
+        <targetForm>Dank</targetForm>
+      </error> ist es am Ende <gap>_</gap> gut gegangen! Ich habe dir das erzählt, weil ich gedacht habe, dass du vielleicht auch manchmal den Kassenzettel vergisst. So wirdst du darauf aufpassen! <par/>Ich <error>
+        <errorType/>
+
+        <originalForm>wunsche</originalForm>
+
+        <targetForm>wünsche</targetForm>
+      </error> dir noch einen schönen Tag. <closing>Deine Freundin <par/><entity>Sara</entity></closing></exercise>
+
+    
+  </body>
+</kolipsi_document>

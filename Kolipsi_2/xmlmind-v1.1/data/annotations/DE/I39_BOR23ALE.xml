@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I39_BOR23ALE</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo Nicole,</greeting><par />wie geht es dir? Heute habe ich unsere Freundin Maria gesehen und sie hat mir erzählt etwas <error>
+        <errorType />
+
+        <originalForm>ungewohnliches</originalForm>
+
+        <targetForm>Ungewöhnliches</targetForm>
+      </error>.<par />Maria war letzte Woche einkaufen. Sie kaufte zuerst in einem Obst- und Gemüseladen ein. Eine Stunde später ging <correction>
+        <deletion><unreadable /></deletion>
+      </correction> sie im Supermarkt. Sie <correction>
+        <deletion><unreadable /></deletion>
+      </correction> nimmt alles was sie braucht: Brot, <correction>
+        <deletion>m</deletion>
+
+        <insertion>M</insertion>
+      </correction>ilch, Fleisch, Marmelade und viele andere Sachen. Einmal an der Kasse gab es ein Problem: <error>
+        <errorType />
+
+        <originalForm>sie</originalForm>
+
+        <targetForm>Sie</targetForm>
+      </error> hätte die Obst und die Gemüse, die sie vorher gekauft hätte, in d<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>er</insertion>
+      </correction> Tasche, und die Verkäuferin dachte dass sie diese Sachen klauen wollte. Es war nicht wahr und Maria probiert es zu erklären: <error>
+        <errorType />
+
+        <originalForm>sie</originalForm>
+
+        <targetForm>Sie</targetForm>
+      </error> bleibt zwei Stunden mehr im Supermarkt bis die Verkäuferin <correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>versteht</insertion>
+      </correction> was passiert war.<par />Am Ende hat Maria geschafft, zu Hause zurückkommen.<par />Welche für ein Tag!<par /><closing>Bis bald Nicole!<par />Ich warte auf deine Antwort.</closing><par />Deine Alessia.</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber Paul,</greeting><par /><error>
+        <errorType />
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> habe deinen Brief sehr interessan<correction>
+        <deletion>d</deletion>
+
+        <insertion>t</insertion>
+      </correction> gefunden. <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Ich persönlich denke dass chatten um neue Leute kennenzulernen ist nicht so eine gute Idee. In den letzten Jahren Internet hat sich verändert und immer mehr die Menschen versuchen sich hinter eine falsche Identität zu verstecken. Wenn man im Internet chattet weiß er nicht wirklich ob diese Person existiert oder nicht.<par />Ich denke dass chatten mit neue Leute die wir nicht kennen, ist nicht eine gute Idee um neue Freunde zu finden weil wir kennen diese Personen nicht und wir wissen nicht ob was sie sag<correction>
+        <deletion>t</deletion>
+
+        <insertion>en</insertion>
+      </correction> wahr ist.<par />Ich denke dass du sollst alle die Nummern löschen, die <correction>
+        <deletion><unreadable /></deletion>
+      </correction> von Personen die du nie gesehen hast, sind. Man braucht nicht die Freunde<correction>
+        <deletion><unreadable /></deletion>
+      </correction> zu "suchen"; unsere Freunde sind um uns herum und wir brauchen nicht Internet um sie zu finden.<par />Also passt auf weil viele <correction>
+        <deletion>s</deletion>
+
+        <insertion>S</insertion>
+      </correction>achen des Internets <correction>
+        <deletion>sind</deletion>
+      </correction> falsch <correction>
+        <insertion>sind</insertion>
+      </correction>.<par />Ich <error>
+        <errorType />
+
+        <originalForm>wunsche</originalForm>
+
+        <targetForm>wünsche</targetForm>
+      </error> dass ich in der Lage war, dir zu helfen.<par /><closing>Mit freundlichen Grußen,</closing><par />Alessia</exercise>
+  </body>
+</kolipsi_II_document>

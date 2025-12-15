@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I07_PAL23PET</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Sehr gee<correction>
+          <deletion>he</deletion>
+
+          <insertion>h</insertion>
+        </correction>rte Paul,</greeting><par/>ich bin Paola und habe ich deine "Persönliche Briefe" der Zeitung "Junge Woche" gelesen.<par/><correction>
+        <deletion>Ich</deletion>
+      </correction> Meine Meinung an der Virtuelle <error>
+        <errorType/>
+
+        <originalForm>Freundschaf</originalForm>
+
+        <targetForm>Freundschaft</targetForm>
+      </error> ist nicht positive. Ab<correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>e</insertion>
+      </correction>r es ist gut <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> du hast verstanden dass <error>
+        <errorType/>
+
+        <originalForm>Virtuelle</originalForm>
+
+        <targetForm>virtuelle</targetForm>
+      </error> Freundschaften nicht <error>
+        <errorType/>
+
+        <originalForm>reali</originalForm>
+
+        <targetForm>real</targetForm>
+      </error> sind. Eine <error>
+        <errorType/>
+
+        <originalForm>Intelligent</originalForm>
+
+        <targetForm>intelligent</targetForm>
+      </error> Beispiel kannst du in Catfish, <error>
+        <errorType/>
+
+        <originalForm>programm</originalForm>
+
+        <targetForm>Programm</targetForm>
+      </error> von <error>
+        <errorType/>
+
+        <originalForm>Mtv</originalForm>
+
+        <targetForm>MTV</targetForm>
+      </error> schauen. Viele Leute im Internet fühlen sich <correction>
+        <deletion>B</deletion>
+
+        <insertion>b</insertion>
+      </correction>esser weil identifiziert sich als etwas anderes aber es ist nicht so.<par/>Leute müssen sich fallen und <correction>
+        <deletion>nicht</deletion>
+      </correction> gelten wie <correction>
+        <deletion>sie</deletion>
+
+        <insertion>du</insertion>
+      </correction> <correction>
+        <insertion>bist</insertion>
+
+        <deletion>sind</deletion>
+      </correction>. Paul das <error>
+        <errorType/>
+
+        <originalForm>besten</originalForm>
+
+        <targetForm>Besten</targetForm>
+      </error> das du kannst machen ist eine Sport <error>
+        <errorType/>
+
+        <originalForm>traiben</originalForm>
+
+        <targetForm>treiben</targetForm>
+      </error> und so neue Personen kennen lernen. Du musst sich gelten wie du bist und positiv sein. Die Welt ist <foreign_word foreign_language="English">full</foreign_word> von Personen und niemand ist alleine. Die Verwendung des Internets ist ein <error>
+        <errorType/>
+
+        <originalForm>biessien</originalForm>
+
+        <targetForm>bisschen</targetForm>
+      </error> schwierig in irgendeine <error>
+        <errorType/>
+
+        <originalForm>moglichkeit</originalForm>
+
+        <targetForm>Möglichkeit</targetForm>
+      </error>. Weil viele blöse Le<correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>u</insertion>
+      </correction>te gibt es beim Netz. Du musst ein <error>
+        <errorType/>
+
+        <originalForm>Intelligente</originalForm>
+
+        <targetForm>intelligente</targetForm>
+      </error> Verwendung des Internets machen; Zum Beispiel nur Freunde das du konntest, kannst du melden wenn diese Freunde entfern ist. An deiner Stelle würde ich keine <error>
+        <errorType/>
+
+        <originalForm>sorgen</originalForm>
+
+        <targetForm>Sorgen</targetForm>
+      </error> machen.<par/><correction>
+        <deletion>Viele G</deletion>
+      </correction> <closing>Liebe Grüße</closing><par/>Paola</exercise>
+  </body>
+</kolipsi_II_document>

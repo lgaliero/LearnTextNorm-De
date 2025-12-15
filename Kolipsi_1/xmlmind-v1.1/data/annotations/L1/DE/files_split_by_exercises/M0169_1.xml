@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0169</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hey <entity>x</entity></greeting>!<par/>Ich muss dir etwas erzählen, was <entity>Maria</entity> <palimpsest>letzte Woche beim</palimpsest> einkaufen passiert ist.<par/>Zuerst war sie in einem Obst- und Gemüseladen und hat dort ein paar Sachen gekauft.<par/><palimpsest>Nachdem sie an der Kasse bezahlt</palimpsest> hat, hat sie jedoch ihren Kassenzettel vergessen und ist dann mit ihren Einkäufen im Rucksack, in den Super<hyphen>-</hyphen>markt gegangen, um dort noch ein paar andere Sachen zu kaufen. Als sie dann an der Kasse steht, <palimpsest>sagt</palimpsest> die Kassiererin ,<palimpsest>dass</palimpsest> sie die Sachen in ihrem Rucksack auch bezahlen <palimpsest>muss</palimpsest> und nicht einfach mitnehmen darf. Da<palimpsest>nn</palimpsest> meinte <entity>Maria</entity> <error>
+        <errorType/>
+
+        <originalForm><overwrite>
+            <under>s</under>
+
+            <over>d</over>
+          </overwrite>as</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> sie die Sachen woanders gekauft hat, aber die Kassiererin hat ihr nicht geglaubt und hat den Sicherheitsdienst gerufen. Der meinte dann, dass <entity>Maria</entity> die Sachen entweder bezahlt oder er ruft die Polizei und <entity>Maria</entity> <palimpsest>musste</palimpsest> für ihr Gemüse und Obst nochmal bezahlen. Ich <sic>musst</sic> so lachen als sie mir die Geschichte <gap>_</gap>, <palimpsest>weil ihr das doch schonmal passiert ist.</palimpsest><par/><palimpsest>Die ist echt manc</palimpsest>hmal voll dumm, dass die <error>
+        <errorType/>
+
+        <originalForm>den selben</originalForm>
+
+        <targetForm>denselben</targetForm>
+      </error> Fehler einfach <error>
+        <errorType/>
+
+        <originalForm><emphasis>2</emphasis> mal</originalForm>
+
+        <targetForm>2-mal</targetForm>
+      </error> macht.<par/>Super <palimpsest><error>
+          <errorType/>
+
+          <originalForm>story</originalForm>
+
+          <targetForm>Story</targetForm>
+        </error> oder?</palimpsest> <emoticon>:D</emoticon><par/><closing><palimpsest>Mb, lol</palimpsest> <emoticon>;)</emoticon><par/><palimpsest><reduction>
+            <reductionType rType="02 abbreviation"/>
+
+            <reducedForm>lg</reducedForm>
+
+            <unfoldedForm>Liebe Grüße</unfoldedForm>
+          </reduction></palimpsest><par/><entity><palimpsest>xxx</palimpsest></entity></closing>   </exercise>
+
+    
+  </body>
+</kolipsi_document>

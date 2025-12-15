@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I10_CEN27ELI</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve">27.03.15<par/><greeting>Liebe Julia,</greeting><par/><error>
+        <errorType/>
+
+        <originalForm>Wie</originalForm>
+
+        <targetForm>wie</targetForm>
+      </error> geht es dir? Wie geht es in der Schule? Mir ganz gut.<par/>Ich möchte <correction>
+        <deletion>dir</deletion>
+
+        <insertion>dich</insertion>
+      </correction> erzählen was Maria passiert ist!<par/><correction>
+        <deletion>Gestern Maria</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>Letze</originalForm>
+
+        <targetForm>Letzte</targetForm>
+      </error> Woche Maria war einkaufen. <correction>
+        <deletion>Sie kauft</deletion>
+      </correction> Zuerst hat sie in einem Obst- und Gemüseladen eingekauft. Sie hat Salade, <error>
+        <errorType/>
+
+        <originalForm>Karoten</originalForm>
+
+        <targetForm>Karotten</targetForm>
+      </error> und Tomaten gekauft.<par/>Sie hat in einer <correction>
+        <deletion>Kasse</deletion>
+
+        <insertion>Kasse</insertion>
+      </correction> bezahlt. Der Mann an der Kasse war <correction>
+        <deletion>ser</deletion>
+
+        <insertion>sehr</insertion>
+      </correction> nett und die beiden haben zusammen ein bisschen gesprochen.<par/>Maria, aber, muss<correction>
+        <deletion>te</deletion>
+      </correction> schnell zum Supermarkt fahren und sie hat ihre Kassenzettel an der <correction>
+        <deletion>Kasse</deletion>
+
+        <insertion>Kasse</insertion>
+      </correction> vergessen.<par/><correction>
+        <deletion>Im Supermarkt</deletion>
+      </correction> Sie hat im Supermarkt vielen Sachen gekauft. Maria hat<correction>
+        <deletion>te</deletion>
+      </correction> eine Tasche<correction>
+        <deletion>,</deletion>
+      </correction> <correction>
+        <deletion><correction>
+            <insertion>gehabt</insertion>
+          </correction></deletion>
+      </correction> und in der Tasche sie hat die Gemüse <correction>
+        <deletion>gehabt</deletion>
+      </correction>. Als sie <correction>
+        <deletion>in der Kass bezahlt</deletion>
+      </correction> an der Kasse für bezahlen geht, die Frau an der Kasse sieht die Gemüse in <correction>
+        <deletion>die Tasc<unreadable/></deletion>
+
+        <insertion>der</insertion>
+      </correction> Tasche <correction>
+        <deletion><unreadable/></deletion>
+      </correction> und sie denkt dass Maria wollte Gemüse stehlen.<par/>Maria hat gesagt, dass <correction>
+        <deletion><unreadable/></deletion>
+      </correction> sie hat in einem andere <error>
+        <errorType/>
+
+        <originalForm>laden</originalForm>
+
+        <targetForm>Laden</targetForm>
+      </error> gekauft, aber sie muss wieder die Gemüse bezahlen, <correction>
+        <deletion>weil die Frau <unreadable/></deletion>
+      </correction> weil die Frau glaubt ihm nicht.<par/>Pech<correction>
+        <deletion>,</deletion>
+      </correction> gehabt!<par/><closing>Mit freundlichem Gruß</closing><par/>Lisa </exercise>
+
+    
+  </body>
+</kolipsi_II_document>

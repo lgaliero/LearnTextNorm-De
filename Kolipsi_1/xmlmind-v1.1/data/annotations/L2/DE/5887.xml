@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5887</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Ingrid</entity>!</greeting> <par />Wie geht´s dir? <par />Ich bin nur jetzt vom Arbeit nach Hause <error>
+        <errorType />
+
+        <originalForm>züruck</originalForm>
+
+        <targetForm>zurück</targetForm>
+      </error>, endlich <palimpsest>unreadable</palimpsest> bin ich am Computer und <palimpsest>unreadable </palimpsest> kann <correction>
+        <insertion>ich</insertion>
+      </correction> dich schreiben. Heute habe ich <correction>
+        <insertion>mich</insertion>
+      </correction> mit <entity>Maria</entity> <sic>getrefft</sic>, für Mittags<hyphen>-</hyphen>pause. Wir haben in ein netten Bar gegessen. <par /><entity>Maria</entity> war ganz nervös <palimpsest>weil</palimpsest> sie gerade einkaufen war, und es gab ein Problem an der Kasse. <par />Sie kaufte zuerst Obst und Gemüse, aber sie hat das <sic>Konto-blatt</sic> auf den Bank gelassen. Dann war sie im Supermarkt um<palimpsest> </palimpsest> einige Hausprodukte zu kaufen, und als sie an die Kasse war, das Fräulein glaubte dass sie Obst und Gemüse von Supermarkt sei. <entity>Maria</entity> sagte ihr dass sie in ein anderen Laden <correction>
+        <deletion>kal</deletion>
+      </correction> gekauft hat, aber sie hatte keinen <sic>Konto-blatt</sic> zu zeigen. Die Fräulein <error>
+        <errorType />
+
+        <originalForm>glabte</originalForm>
+
+        <targetForm>glaubte</targetForm>
+      </error> nicht an <entity>Maria</entity>, s<overwrite>
+        <over>o</over>
+
+        <under><unreadable /></under>
+      </overwrite> wurde sie böse. <entity>Maria</entity> <correction>
+        <deletion><unreadable /></deletion>
+      </correction> hat den <error>
+        <errorType />
+
+        <originalForm>Supermarkt <overwrite>
+            <over>D</over>
+
+            <under>d</under>
+          </overwrite>irector</originalForm>
+
+        <targetForm>Supermarktdirektor</targetForm>
+      </error> gerufen.<correction>
+        <deletion>und er</deletion>
+      </correction> Er ist beim Mann der<arrow end="open" id="1"> </arrow>in <error>
+        <errorType />
+
+        <originalForm>Obst</originalForm>
+
+        <targetForm>Obst-</targetForm>
+      </error> und <error>
+        <errorType />
+
+        <originalForm>Gemüse Teil</originalForm>
+
+        <targetForm>Gemüseteil</targetForm>
+      </error> von <error>
+        <errorType />
+
+        <originalForm>Supermark</originalForm>
+
+        <targetForm>Supermarkt</targetForm>
+      </error> <arrow end="head" id="1">arbeitet</arrow>, um ihn zu fragen ob <entity>Maria</entity> dort etwas <sic>genehmen</sic> hat. <par />Er sagte dass <entity>Maria</entity> in <correction>
+        <deletion>die</deletion>
+      </correction> seiner Teil von Supermarkt nicht gewesen sei. Der <error>
+        <errorType />
+
+        <originalForm>Director</originalForm>
+
+        <targetForm>Direktor</targetForm>
+      </error> entschuldigte sich mit <entity>Maria</entity> und <correction>
+        <deletion>lass</deletion>
+      </correction> hat <correction>
+        <deletion>sie</deletion>
+      </correction> ihr ein Geschenk gemacht, der sonst mit 500 Punkte <correction>
+        <deletion>gewonnen</deletion>
+      </correction> bekommen. <par />Ich lachte als sie mir die ganze Geschich<correction>
+        <insertion>t</insertion>
+      </correction>e erzählen hat. <entity>Maria</entity> ist immer die selbe, sie sagte dass sie nie <error>
+        <errorType />
+
+        <originalForm>wider</originalForm>
+
+        <targetForm>wieder</targetForm>
+      </error> in diesen Supermarkt einkaufen wird, statt d<palimpsest>as</palimpsest> <error>
+        <errorType />
+
+        <originalForm>500 Punkte Gesc<overwrite>
+            <over>h</over>
+
+            <under>e</under>
+          </overwrite>enk</originalForm>
+
+        <targetForm>500-Punkte-Geschenk</targetForm>
+      </error>! <par />Wann treffen wir uns drei? Es wäre nett <error>
+        <errorType />
+
+        <originalForm>einmahl</originalForm>
+
+        <targetForm>einmal</targetForm>
+      </error> wie drei zusammen eine Pizza essen! <par />Rufe mich, oder <entity>Maria</entity> an, ok? <par />Ich will dich bald sehen!<par /> <par /><closing>Tschüs liebe <entity>Ingrid</entity>! <par /> <par />Ein <error>
+          <errorType />
+
+          <originalForm>Küss</originalForm>
+
+          <targetForm>Kuss</targetForm>
+        </error> <emoticon>=)</emoticon>  <par /><par />deine <entity>Lucia</entity> </closing></exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting><correction>
+          <deletion>Liebe</deletion>
+        </correction> Lieber <entity>Maurizio</entity>!</greeting> <par />Ich weiß dass wir uns bald sehen werden, aber ich schreibe dich dieses Brief, weil ich muss dich etwas fragen. <par />Erinnerst du dich an le<correction>
+        <deletion><unreadable /></deletion>
+      </correction>ztes Samstag, als wir <correction>
+        <insertion>uns</insertion>
+      </correction> mit <entity>Heidy</entity>, <entity>Martino</entity> und<entity> Federico</entity> <sic>getreffen</sic> haben? Wir wollen zusammen ein <error>
+        <errorType />
+
+        <originalForm>Urlab</originalForm>
+
+        <targetForm>Urlaub</targetForm>
+      </error> machen, und ich <error>
+        <errorType />
+
+        <originalForm>glabe</originalForm>
+
+        <targetForm>glaube</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>dass</originalForm>
+
+        <targetForm>das</targetForm>
+      </error> wäre eine ganz nett <overwrite>
+        <over>I</over>
+
+        <under>i</under>
+      </overwrite>dee <correction>
+        <deletion>will</deletion>
+      </correction> wir alle zusammen wegfahren! <par />Wir <error>
+        <errorType />
+
+        <originalForm>mussen</originalForm>
+
+        <targetForm>müssen</targetForm>
+      </error> aber alles schon jetzt planen. <par />Ich schreibe <correction>
+        <deletion>dich,</deletion>
+      </correction> dich weil du der beste v<overwrite>
+        <over>o</over>
+
+        <under>e</under>
+      </overwrite>n uns in <error>
+        <errorType />
+
+        <originalForm>planen</originalForm>
+
+        <targetForm>Planen</targetForm>
+      </error> bist!<emoticon>=)</emoticon> <par />Zuerst: <error>
+        <errorType />
+
+        <originalForm>fahren</originalForm>
+
+        <targetForm>Fahren</targetForm>
+      </error> wir ans Meer oder in die Berge? Ich weiß dass du die Berge sehr magst, aber ich und <entity>Martino</entity> <sic>magen</sic> das Meer… <par />Berge sind sehr ruhig, das ideal um sich zu <sic>relaxieren</sic>, aber am Meer <error>
+        <errorType />
+
+        <originalForm>vielle<correction>
+            <insertion>i</insertion>
+          </correction>ch</originalForm>
+
+        <targetForm>vielleicht</targetForm>
+      </error> haben wir mehr Spaß! <entity>Federico</entity> hat eine <error>
+        <errorType />
+
+        <originalForm>alergie</originalForm>
+
+        <targetForm>Allergie</targetForm>
+      </error> für einige Bergpflanzen… <par />Meiner Meinung nach es ist besser ein Haus am <overwrite>
+        <over>M</over>
+
+        <under>m</under>
+      </overwrite>eer zu mieten, und dort ein paar Wochen bleiben. Was <error>
+        <errorType />
+
+        <originalForm>glabst</originalForm>
+
+        <targetForm>glaubst</targetForm>
+      </error> du? <par />Ich denken wir <correction>
+        <deletion>muss</deletion>
+      </correction> sollen uns wieder alle treffen <correction>
+        <deletion>und</deletion>
+
+        <insertion>um</insertion>
+      </correction> zusammen zu entscheiden ob besser Meer oder Berge sein. Ich bin sicher wir werden ein wunderbares Urlaub machen, am Meer oder Berge ist nicht <overwrite>
+        <over>w</over>
+
+        <under>v</under>
+      </overwrite>ichtig. Wichtig ist nur dass wir zusammen sind! <emoticon>=)</emoticon> <par />Rufe mich an, <correction>
+        <deletion>du</deletion>
+      </correction> sage mich wann <arrow end="open" id="1"> </arrow> <overwrite>
+        <over>d</over>
+
+        <under><unreadable /></under>
+      </overwrite>u Zeit <arrow end="head" id="1">hast</arrow> um mit uns alles zu planen. <par /><closing>Bis bald! <par /> <entity>Lucia</entity> </closing></exercise>
+  </body>
+</kolipsi_document>

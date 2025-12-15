@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I23_PAP26ARI</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Lieber Paul,</greeting><par/>ich habe über dein Problem gelesen, reale und <error>
+        <errorType/>
+
+        <originalForm>"Internet" Freunde</originalForm>
+
+        <targetForm>"Internetfreunde"</targetForm>
+      </error> zu haben, aus deinem Brief verstehe ich, dass du sehr viel Wert auf deine realem Freundschaften legst, doch trotzdem die <correction>
+        <insertion>beim <correction>
+            <deletion>c</deletion>
+
+            <insertion>C</insertion>
+          </correction>hatten</insertion>
+      </correction> gefundenen Freunde <correction>
+        <deletion>beim <correction>
+            <deletion>c</deletion>
+
+            <insertion>C</insertion>
+          </correction>hatten</deletion>
+      </correction> nicht verlieren möchtest.<par/>Ich vertrete die Meinung, dass man auch über das Internet wunderbare Freundschaften schließen kann. Natürlich gibt<correction>
+        <deletion>e</deletion>
+      </correction> es auch dort Menschen deren Freundschaft nicht so gut für uns ist<correction>
+        <deletion>,</deletion>
+
+        <insertion>.</insertion>
+      </correction> <correction>
+        <deletion>d</deletion>
+
+        <insertion>D</insertion>
+      </correction>och man kann Leute kennenlernen die auf der ganzen Welt leben und von Erlebnissen hören die in der eigenen Stadt nicht möglich <error>
+        <errorType/>
+
+        <originalForm>währen</originalForm>
+
+        <targetForm>wären</targetForm>
+      </error>.<par/>Es gibt auch im Internet <correction>
+        <deletion><unreadable/></deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>gutes</originalForm>
+
+        <targetForm>Gutes</targetForm>
+      </error> und <error>
+        <errorType/>
+
+        <originalForm>böses</originalForm>
+
+        <targetForm>Böses</targetForm>
+      </error>, man muss lernen es zu unterscheiden. Alles im Leben hat irgendwo ein Limit, sonst ist es schädlich, so soll auch die Benutzung des Internets immer in Maßen gehalten werden. Man kann vieles damit machen und sehen wozu man sonst nicht die Möglichkeit hätte, zur Sucht <correction>
+        <deletion><unreadable/></deletion>
+      </correction> darf es aber nicht kommen, man muss immer die Kraft haben um "nein" sagen zu können.<par/>Ich denke nicht, dass du deine Internetfreundschaften kategorisch beenden musst, aber du musst dich daran erinnern, dass du ein wahres Leben hast und Freunde die du auch nicht vernachlässigen darfst.<par/>Hoffentlich habe ich dir ein bisschen geholfen, ich wünsche dir noch viele Freunde zum <correction>
+        <deletion>c</deletion>
+
+        <insertion>C</insertion>
+      </correction>hatten und viele zum sich wirklich zu treffen.<par/><closing>Liebe Grüße,</closing><par/>Sandra </exercise>
+  </body>
+</kolipsi_II_document>

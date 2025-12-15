@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I06_NEG02SIL</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Lieber Paul,</greeting><par/>da ich selber mal in deiner gleichen Situation gesteckt habe, kann ich dich sehr gut verstehen.<par/>Virtuelle Freundschaften können anfangs sehr interessant erscheinen, denn man entdeckt das Internet und die Internetseiten auf eine ganz andere <correction>
+        <deletion>(Weiße)</deletion>
+      </correction> Weise. Die Menschen scheinen alle nett, aufgeschlossen und selbstsicher zu sein. Man kann mit ihnen über alle möglichen Dinge sprechen und sie helfen gerne weiter. Aber man weiß nie wer wirklich hinter dem Profil steckt, man kann nie 100% sicher sein, dass es sich wirklich um die Person handelt die sie vorgibt zu sein. Man sollte Freunde im echten Leben schätzen, sie gut behandeln und sie nicht vernachlässigen, denn das sind die Personen die einen im echten Leben unterstützen. Ich hatte mal einen sehr guten Freund den ich nur übers Internet kenne, ich habe mich <correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>nur einmal</insertion>
+      </correction> mit ihm getroffen, für ihn habe ich meine besten Freunde vernachlässigt. Doch als ich ihn <correction>
+        <deletion>(das erste mal)</deletion>
+      </correction> getroffen habe war ich sehr enttäuscht, er <correction>
+        <deletion>s<unreadable/>hne</deletion>
+      </correction> glich der Person auf dem Profilbild überhaupt nicht er verhielt sich total anders und war <correction>
+        <deletion>(nicht)</deletion>
+      </correction> unfreundlich. Ich brach den Kontakt gleich ab und entschloss <correction>
+        <deletion>(<unreadable/>)</deletion>
+      </correction> wieder <correction>
+        <insertion>mich</insertion>
+      </correction> meinen echten Freunden anzuschließen. Ich rate dir deshalb den Kontakt zu deinen Freunden im echten Leben wieder aufzunehmen und sich bei ihnen zu entschuldigen. Wenn du aber mit manchen anderen Internet<hyphen>-</hyphen>freundschaften in Kontakt bleiben willst, rate ich dir sie persönlich kennenzulernen. Ich hoffe du schaffst deine zwei getrennten Leben <correction>
+        <deletion>(<unreadable/>)</deletion>
+      </correction> vereinen zu können.<par/>Viel Glück für die Zukunft<par/><closing>Mit freundlichen Grüßen</closing><par/>Silvia</exercise>
+  </body>
+</kolipsi_II_document>

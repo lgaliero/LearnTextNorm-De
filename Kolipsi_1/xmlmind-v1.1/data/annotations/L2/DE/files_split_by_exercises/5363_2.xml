@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5363</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve">
+ <par/><greeting>Hallo <entity>Luca</entity>!</greeting> <par/>wie geht<palimpsest> </palimpsest> es dir?<par/>Wir müssen welche <overwrite>
+        <under>r</under>
+
+        <over>R</over>
+      </overwrite>eise machen wollen.<par/>Am Meer oder in den Bergen?<par/>Ich habe eine <foreign_word foreign_language="Italiano">Ricerca</foreign_word> gemacht.<par/>Am Meer wir können <foreign_word foreign_language="Italiano">prendere</foreign_word> <foreign_word foreign_language="Italiano">il</foreign_word> <foreign_word foreign_language="Italiano">Sole</foreign_word> aber auch in den Bergen. Aber am Meer <error>
+        <errorType/>
+
+        <originalForm>konnen</originalForm>
+
+        <targetForm>können</targetForm>
+      </error> wir ins Meer schwimmen und <foreign_word foreign_language="Italiano">Sub</foreign_word> machen. Auch in den Bergen konnen wir <foreign_word foreign_language="Italiano">Sub</foreign_word> machen aber in der See und du weißt wie ich die See <foreign_word foreign_language="Italiano">odio</foreign_word>. In den Bergen ist die Luft frisch dass <correction>
+        <insertion>wir</insertion>
+      </correction> <correction>
+        <deletion>in das</deletion>
+
+        <insertion>am</insertion>
+      </correction> Meer nicht finden <error>
+        <errorType/>
+
+        <originalForm>konnen</originalForm>
+
+        <targetForm>können</targetForm>
+      </error>. <correction>
+        <insertion>Aber</insertion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>In</originalForm>
+
+        <targetForm>in</targetForm>
+      </error> den Bergen kann es regnen<palimpsest> </palimpsest> <correction>
+        <insertion>es</insertion>
+      </correction> am Meer<palimpsest> </palimpsest> nicht passier<overwrite>
+        <under><unreadable/></under>
+
+        <over>en</over>
+      </overwrite> kann. Auch in den Bergen und am <overwrite>
+        <under>See</under>
+
+        <over>M</over>
+      </overwrite>eer <error>
+        <errorType/>
+
+        <originalForm>konnen</originalForm>
+
+        <targetForm>können</targetForm>
+      </error> wir <error>
+        <errorType/>
+
+        <originalForm>schone</originalForm>
+
+        <targetForm>schöne</targetForm>
+      </error> <strikeover>
+        <expansion>S</expansion>
+
+        <expansion>s</expansion>
+      </strikeover>pazierengang machen.<par/>Ich denke dass wir treffen <error>
+        <errorType/>
+
+        <originalForm>mussen</originalForm>
+
+        <targetForm>müssen</targetForm>
+      </error> um zu <foreign_word foreign_language="Italiano">scegliere</foreign_word> weil es <foreign_word foreign_language="Italiano"><error>
+          <errorType/>
+
+          <originalForm>piu</originalForm>
+
+          <targetForm>più</targetForm>
+        </error></foreign_word> eine Woche fehlt. Mach<correction>
+        <deletion><unreadable/></deletion>
+      </correction> auch du eine <foreign_word foreign_language="Italiano">Ricerca</foreign_word>, so wir können <correction>
+        <deletion>benützen</deletion>
+      </correction> auch anderen Sachen <overwrite>
+        <under><unreadable/></under>
+
+        <over>um</over>
+      </overwrite> zu <foreign_word foreign_language="Italiano">scegliere</foreign_word> benutzen.<par/><closing>Bis bald. Mit he<overwrite>
+          <under><unreadable/></under>
+
+          <over>r</over>
+        </overwrite>zlichen Grüßen<par/> <entity>Simone</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

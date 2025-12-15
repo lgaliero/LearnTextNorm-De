@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0139</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Lieber <entity>Martin</entity></greeting>,<par/>ich habe mir einmal ein paar Gedanken über unseren gemeinsamen Urlaub gemacht. Jedoch kann ich mich immer noch nicht ganz entscheiden.<par/>Einerseits würde ich gerne in die Berge zum Wandern, und Zelten fahren, um etwas zu <error>
+        <errorType/>
+
+        <originalForm>Erleben</originalForm>
+
+        <targetForm>erleben</targetForm>
+      </error> und mich selbst fit zu halten. Doch andererseits möchte ich mich auch einmal richtig entspannen können und am Strand relaxen. Auch kann man an Meer <correction>
+        <deletion>f</deletion>
+      </correction> viel besser <correction>
+        <deletion>P</deletion>
+      </correction> ausgehen und Party machen, wo man in den Bergen eher romantisch auf einer Berghütte <correction>
+        <deletion>übernachtet</deletion>
+      </correction> zu Abend isst und dort übernachtet.<par/>Ich habe, wie ich dir schon einmal erzählt habe, bereits beides schon ausprobiert. Ich war für 5 Tage in den Bergen und mehrere Male am Meer.  <correction>
+        <deletion>W</deletion>
+      </correction> Mir hat beides sehr gefallen, da <correction>
+        <deletion>m</deletion>
+      </correction> ich sowohl in den Bergen als auch am Meer sehr viel Neues gesehen habe und vieles mitgenommen habe. Ich <error>
+        <errorType/>
+
+        <originalForm>weiss</originalForm>
+
+        <targetForm>weiß</targetForm>
+      </error> jetzt <error>
+        <errorType/>
+
+        <originalForm>zB</originalForm>
+
+        <targetForm>z. B.</targetForm>
+      </error>, wie verschiedene Vögel <correction>
+        <deletion>schreien</deletion>
+      </correction> <correction>
+        <insertion>zwitschern</insertion>
+      </correction>, oder welche Pilze giftig <correction>
+        <deletion>sin</deletion>
+      </correction> und welche essbar sind! Am Meer habe ich dafür das Windsurfen gelernt, das großen Spaß gemacht hat.<par/>Tja, ich glaube, es wird noch eine Weile dauern, <correction>
+        <deletion>wie</deletion>
+      </correction> bis wir uns entschieden haben ... <emoticon>:)</emoticon><par/><closing>Liebe Grüße, deine <entity>Verena</entity></closing>            </exercise>
+  </body>
+</kolipsi_document>

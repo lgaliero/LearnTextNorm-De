@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I11_TOU14HAM</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve">Maria ist heute beim Obst- <error>
+        <errorType/>
+
+        <originalForm>Gemuseladen</originalForm>
+
+        <targetForm>Gemüseladen</targetForm>
+      </error> gegangen. Sie kauft viele Dinge <correction>
+        <deletion><unreadable/></deletion>
+      </correction>. Sie <correction>
+        <deletion>gebt</deletion>
+      </correction> gibt ihre <foreign_word foreign_language="Italiano">Bancomat</foreign_word> und <correction>
+        <deletion>n</deletion>
+      </correction> zahlt die Dinge. Sie nimmt alles <correction>
+        <deletion>ih<unreadable/></deletion>
+      </correction> in ihre Tasche und geht aus. Aber sie vergesst das wichtige Dinge, <correction>
+        <deletion>der</deletion>
+
+        <insertion>den</insertion>
+      </correction> Kassenzettel. Und eine Stunde später war sie im <foreign_word foreign_language="Italiano">Supermarket</foreign_word>. Immer <error>
+        <errorType/>
+
+        <originalForm>die selbe</originalForm>
+
+        <targetForm>dieselbe</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>situation</originalForm>
+
+        <targetForm>Situation</targetForm>
+      </error>, sie kauft andere Dinge das in Obst- <error>
+        <errorType/>
+
+        <originalForm>Gemuse</originalForm>
+
+        <targetForm>Gemüse</targetForm>
+      </error> war nicht. Sie geht nach <correction>
+        <deletion>das</deletion>
+
+        <insertion>das</insertion>
+      </correction> Kassen in der <foreign_word foreign_language="Italiano">Supermarket</foreign_word>. Aber gibt es ein Problem. Die Frau, das arbeitet in der <foreign_word foreign_language="Italiano">Supermarket</foreign_word> fragt Maria was war die Dinge in der Tasche, <correction>
+        <deletion>da</deletion>
+      </correction> weil die Frau denkt <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> Maria hat diese Dinge <error>
+        <errorType/>
+
+        <originalForm>gestollen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error>. Die Frau fragt Maria, wo ist der Kassenzettel. Aber Maria hat keine Ahnung und dann sagt <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> der Kassenzettel hat <correction>
+        <deletion>in</deletion>
+      </correction> beim Obst- <error>
+        <errorType/>
+
+        <originalForm>Gemuseladen</originalForm>
+
+        <targetForm>Gemüseladen</targetForm>
+      </error> vergessen. So <correction>
+        <deletion>m</deletion>
+
+        <insertion>M</insertion>
+      </correction>aria geht schneller <correction>
+        <deletion>zu</deletion>
+      </correction> beim Obst- <error>
+        <errorType/>
+
+        <originalForm>Gemuseladen</originalForm>
+
+        <targetForm>Gemüseladen</targetForm>
+      </error> zum den Kassenzettel nehmen und bringen zum <foreign_word foreign_language="Italiano">Supermarket</foreign_word>. </exercise>
+
+    
+  </body>
+</kolipsi_II_document>

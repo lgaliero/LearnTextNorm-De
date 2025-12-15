@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>3548</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><par/><greeting>Liebe <entity>Rossy</entity>,</greeting> <par/>wie geht's dir? Bist du noch <correction>
+        <insertion>nicht</insertion>
+      </correction> sicher, ob in die Berge oder ans Meer fahren? <par/>Welche sind deine Sorgen? <par/>Willst du meine Denken wissen? <par/>Also, ich wünsche ans Meer fahren. Du weißt, dass ich die Phobie von die Insekten habe. In die Berge geben es viele Insekten! Ich wünsche mich ausruhen. <par/>Das Wasser vom Meer ist eine positiv Dinge auch für unsere Gesichte. Am Abend können wir in die Disco gehen. Wir können auch viele Personen kennen. Ich spreche es dich wegen meine Erfahrungen. Der Nachteil vom Meer ist der Preis. <par/>Ich mag nicht die Natur vom Berg. Wir können im Winter <correction>
+        <deletion>geh</deletion>
+      </correction> in die Berge gehen, um <foreign_word foreign_language="English">Sky</foreign_word> zu fahren. So, bitte, können wir in <entity>Sardi<correction>
+          <deletion>e</deletion>
+        </correction>nien</entity> fahren??? <emoticon>=)</emoticon> <closing>Deine <entity>Valeria</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

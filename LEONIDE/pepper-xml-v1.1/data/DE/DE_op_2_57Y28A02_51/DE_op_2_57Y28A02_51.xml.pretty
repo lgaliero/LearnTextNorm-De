@@ -1,0 +1,91 @@
+<body>
+ <page page_number="1" transcanno_page_id="894">
+  <paragraph class="medium-paragraph" tagcode="1526745270233">
+   <div>
+    1) Neue Spreche lernen Schüler gut,
+   </div>
+   <div>
+    wenn sie sich in der Schule
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1526744443423">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1526745270232" tran_word_deletion_target="_#_">
+      *
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1526744463862" tran_correction_original="konzentrieren">
+     konzentrieren
+    </tran_word_correction_id25>
+    .
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1526745270234">
+   <div>
+    2)
+    <tran_symbol_id32 class="medium-tran_symbol_id32" tagcode="1526745042875" tran_symbol_target="U+2198">
+     ↘
+    </tran_symbol_id32>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1526744492513">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1526744497682" tran_word_deletion_target="_#_">
+      Und
+     </tran_word_deletion_id8>
+    </tran_word_insertion_id9>
+    Ich
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1526745134194">
+     sprechen
+    </tran_word_insertion_id9>
+    <tran_symbol_id32 class="medium-tran_symbol_id32" tagcode="1526745232566" tran_symbol_target="U+2193">
+     ↓
+    </tran_symbol_id32>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1526744565316" tran_correction_original="sprechen">
+     spreche
+    </tran_word_correction_id25>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="ihren" tagcode="1526744577382">
+     ieren
+    </orth_error_id12>
+    Schüler gut,
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="wenn" tagcode="1526744588712">
+     wen
+    </orth_error_id12>
+    sie
+   </div>
+   <div>
+    konzentrieren und die
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Hausaufgaben" tagcode="1526744615725">
+     Hausafgaber
+    </orth_error_id12>
+    machen.
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1526745270235">
+   <div>
+    3)
+    <tran_symbol_id32 class="medium-tran_symbol_id32" tagcode="1526744997602" tran_symbol_target="U+2197">
+     ↗
+    </tran_symbol_id32>
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1526745270236">
+   <div>
+    4)
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1526744756652" tran_word_deletion_target="_#_">
+     <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1526744761653">
+      *
+     </tran_unreadable_id17>
+    </tran_word_deletion_id8>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Funktioniert" tagcode="1526744673005">
+     Funktionirt
+    </orth_error_id12>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1526744683126">
+     schlecht
+    </tran_word_insertion_id9>
+    keine
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Hausaufgaben" tagcode="1526744657883">
+     Hausfgaber
+    </orth_error_id12>
+    machen,
+   </div>
+   <div>
+    dann vergisst man alles.
+   </div>
+  </paragraph>
+ </page>
+</body>

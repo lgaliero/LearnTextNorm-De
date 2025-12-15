@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0199</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hi <entity>Anita</entity></greeting>!<par/>Wie geht es dir? <correction>
+        <deletion>Mir</deletion>
+      </correction> <correction>
+        <insertion><entity>Maria</entity></insertion>
+      </correction> ist letz<correction>
+        <insertion>t</insertion>
+      </correction>ens ein Missgeschick passiert. <correction>
+        <deletion>Ich</deletion>
+      </correction> <correction>
+        <insertion>Sie</insertion>
+      </correction> <correction>
+        <deletion>habe</deletion>
+      </correction> <correction>
+        <insertion>hat</insertion>
+      </correction> letzte Woche mal wieder <correction>
+        <deletion>meinen</deletion>
+      </correction> <correction>
+        <insertion>ihren</insertion>
+      </correction> Einkauf für die ganze Woche getätigt. Zuerst war <correction>
+        <deletion>ich</deletion>
+      </correction> <correction>
+        <insertion><entity>Maria</entity></insertion>
+      </correction> beim Obsthändler, weil di<over>e</over> Qualität und die Frische des Obstes dort besser ist. Danach <correction>
+        <deletion>bin</deletion>
+      </correction> <correction>
+        <insertion>ist</insertion>
+      </correction> <correction>
+        <deletion>ich</deletion>
+      </correction> <correction>
+        <insertion>sie</insertion>
+      </correction> dann zum Supermarkt gegangen, um dort die restlichen Lebensmittel zu besorgen. Weil <correction>
+        <deletion>ich</deletion>
+      </correction> <correction>
+        <insertion>sie</insertion>
+      </correction> kein Auto <correction>
+        <deletion>habe</deletion>
+      </correction> <correction>
+        <insertion>hat</insertion>
+      </correction> , <correction>
+        <deletion>habe</deletion>
+      </correction> <correction>
+        <insertion>hat</insertion>
+      </correction> <correction>
+        <deletion>ich</deletion>
+      </correction> <correction>
+        <insertion>sie</insertion>
+      </correction> natürlich das Obst in eine Tasche getan und mitgenommen. <correction>
+        <deletion>Als ich</deletion>
+      </correction> Dann war <correction>
+        <deletion>ich</deletion>
+      </correction> <correction>
+        <insertion><entity>Maria</entity></insertion>
+      </correction> an der Kasse, <correction>
+        <deletion>hab</deletion>
+      </correction> <correction>
+        <insertion>hat sich</insertion>
+      </correction> <correction>
+        <deletion>mir</deletion>
+      </correction> <correction>
+        <insertion><correction>
+            <deletion>nichts</deletion>
+          </correction></insertion>
+      </correction> nichts Böses gedacht und <error>
+        <errorType/>
+
+        <originalForm>aufeinmal</originalForm>
+
+        <targetForm>auf einmal</targetForm>
+      </error> guckt die Verkäuferin <correction>
+        <deletion>mich</deletion>
+      </correction> <correction>
+        <insertion>sie</insertion>
+      </correction> erzürnt an und fragt <correction>
+        <deletion>mich</deletion>
+      </correction> <correction>
+        <insertion>sie</insertion>
+      </correction> nach dem Kassenzettel von dem Obst. <correction>
+        <deletion>Ich</deletion>
+      </correction> <correction>
+        <insertion><entity>Maria</entity></insertion>
+      </correction> wollte ihn grad rausholen, aber dann fiel <correction>
+        <deletion>mir</deletion>
+      </correction> <correction>
+        <insertion>ihr</insertion>
+      </correction> ein, dass <correction>
+        <deletion>ich</deletion>
+      </correction> <correction>
+        <insertion>sie</insertion>
+      </correction> ihn beim Obsthändler hatte liegen lassen. Die Kassiererin schickte <correction>
+        <deletion>mich</deletion>
+      </correction> <correction>
+        <insertion>sie</insertion>
+      </correction> sofort zu der Obstabteilung um das Obst abzuwiegen, damit <correction>
+        <deletion>ich</deletion>
+      </correction> <correction>
+        <insertion>sie</insertion>
+      </correction> es bezahlen konnte. Du kannst dir gar nicht vorstellen was das für <correction>
+        <insertion>sie</insertion>
+      </correction> <gap>_</gap> ein anstrengender Tag war. Ich hoffe dir ist <error>
+        <errorType/>
+
+        <originalForm>nich</originalForm>
+
+        <targetForm>nicht</targetForm>
+      </error> sowas <error>
+        <errorType/>
+
+        <originalForm>ähnliches</originalForm>
+
+        <targetForm>Ähnliches</targetForm>
+      </error> in den letzten Tagen passiert!!<par/><closing>Viele liebe Grüße,<par/><correction>
+          <deletion><entity>Maria</entity></deletion>
+        </correction> <entity>Henriette</entity></closing></exercise>
+
+    
+  </body>
+</kolipsi_document>

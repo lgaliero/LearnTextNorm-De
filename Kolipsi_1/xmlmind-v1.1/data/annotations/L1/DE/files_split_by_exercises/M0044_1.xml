@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0044</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hey <entity>Natalie</entity></greeting>,<par/>Du wirst mir nicht glauben was mir heute beim Einkauf passiert ist. Du weißt ja, dass ich jeden Mittwoch meinen wöchentlichen Einkauf mache <correction>
+        <deletion>un</deletion>
+      </correction> <overwrite>
+        <under>.</under>
+
+        <over>,</over>
+      </overwrite> daher bin ich schon am frühen Morgen zum Obsthändler gegangen. Ahhh... Am frühen Morgen ist das Obst <error>
+        <errorType/>
+
+        <originalForm>immernoch</originalForm>
+
+        <targetForm>immer noch</targetForm>
+      </error> so schön frisch. Als ich meinen Gemüsekauf erledigt hatte, ging es wie gewohnt zum Supermarkt an der Ecke. Alles war eigentlich wie gewohnt, doch dann kam der Hammer! Du wirst es nicht glauben <entity>Natalie</entity>!! Schon auf dem Weg zur Kasse <correction>
+        <deletion>,</deletion>
+      </correction> merkte ich, dass <entity>Agate</entity>, meine Freundin, heute keinen Kassendienst hat<correction>
+        <deletion>te</deletion>
+      </correction> und daher irgendein Azubi <correction>
+        <insertion>da</insertion>
+      </correction> <correction>
+        <deletion>da</deletion>
+      </correction> saß. Wie dem auch sei... Ich tat alles wie gewohnt, als der Azubi plötzlich das Gemüse aus meiner Tasche haben wollte. Ich hätte es <correction>
+        <deletion>geklaut</deletion>
+      </correction> einfach mitgehen lassen wollen, meinte sie. Du kannst dir vorstellen, wie ich da stand. Ich war schockiert. Natürlich versuchte ich ihr zu erklären, dass das Gemüse von einem anderen Laden komme. Dennoch der Azubi wollte einen Kassenbon, den ich natürlich nicht hatte. Das ist wieder typisch für mich! Jedenfalls wollte der Azubi die Polizei rufen, bis rein zufällig der Chef an d<overwrite>
+        <under>er</under>
+
+        <over>ie</over>
+      </overwrite> Kasse kam <correction>
+        <deletion>,</deletion>
+      </correction> um zu sehen was los war. <entity>Bernd</entity>, auch einer meiner Freunde, wusste, dass ich <error>
+        <errorType/>
+
+        <originalForm>Mittwochs</originalForm>
+
+        <targetForm>mittwochs</targetForm>
+      </error> immer erst in den Gemüseladen geh, daher sprach er mit dem Azubi und sie entschuldigte sich. War auch besser für sie! Als ich bezahlt hatte und wieder zu Hause war, war ich so froh wie noch nie von meinem wöchentlichen Einkauf <error>
+        <errorType/>
+
+        <originalForm>heile</originalForm>
+
+        <targetForm>heil</targetForm>
+      </error> nach Hause zu kommen. Na ja das <reduction>
+        <reductionType/>
+
+        <reducedForm>wars</reducedForm>
+
+        <unfoldedForm>war es</unfoldedForm>
+      </reduction> für heute. Wünsch dir noch nen schönen Abend, Schätzchen!<par/><closing>Küsschen<par/><entity>Maria</entity></closing>          </exercise>
+
+    
+  </body>
+</kolipsi_document>

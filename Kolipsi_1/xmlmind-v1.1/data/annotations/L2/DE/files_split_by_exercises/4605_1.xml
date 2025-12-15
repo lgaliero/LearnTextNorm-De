@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Jessica</transcriber>
+
+  <author_id>4605</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Liebe Freundin<par/><par/><par/><error>
+          <errorType/>
+
+          <originalForm>Hallo</originalForm>
+
+          <targetForm>hallo</targetForm>
+        </error>! Wie <sic>gehst</sic>? Ich bin gut!!!<par/></greeting><par/>Wie <sic>gehst</sic> deine <error>
+        <errorType/>
+
+        <originalForm>schule</originalForm>
+
+        <targetForm>Schule</targetForm>
+      </error>? Weißt du letzte Woche meine Freundin <entity>Maria</entity> war in einkaufen. Sie geh<correction>
+        <deletion>s</deletion>
+      </correction>t in die Obst für ein<palimpsest>k</palimpsest>aufen, sie kaufte zuest in einem Obst, und da sie hat die Gemüseladen ein. Sie hat die <sic>Krafel</sic> gekauft und sie hat spaghetti gekauft für <error>
+        <errorType/>
+
+        <originalForm>vormittag</originalForm>
+
+        <targetForm>Vormittag</targetForm>
+      </error>, <error>
+        <errorType/>
+
+        <originalForm>Für</originalForm>
+
+        <targetForm>für</targetForm>
+      </error> <palimpsest> </palimpsest> <error>
+        <errorType/>
+
+        <originalForm>Früchtück</originalForm>
+
+        <targetForm>Frühstück</targetForm>
+      </error> sie die <error>
+        <errorType/>
+
+        <originalForm>marmelate</originalForm>
+
+        <targetForm>Marmelade</targetForm>
+      </error> und viele <foreign_word foreign_language="Italiano">cose</foreign_word> gekauft. Und <error>
+        <errorType/>
+
+        <originalForm>dan</originalForm>
+
+        <targetForm>dann</targetForm>
+      </error> sie <palimpsest>geht</palimpsest> in die <foreign_word foreign_language="English">center</foreign_word> <error>
+        <errorType/>
+
+        <originalForm>stadt</originalForm>
+
+        <targetForm>Stadt</targetForm>
+      </error> für spazieren und später geht in die <error>
+        <errorType/>
+
+        <originalForm>supermarkt</originalForm>
+
+        <targetForm>Supermarkt</targetForm>
+      </error>, da sie kauft <foreign_word foreign_language="English">Milk</foreign_word> und <foreign_word foreign_language="Italiano"><error>
+          <errorType/>
+
+          <originalForm>Buro</originalForm>
+
+          <targetForm>Burro</targetForm>
+        </error></foreign_word> und Wein <error>
+        <errorType/>
+
+        <originalForm>dan</originalForm>
+
+        <targetForm>dann</targetForm>
+      </error> sie hat <error>
+        <errorType/>
+
+        <originalForm>ketchap</originalForm>
+
+        <targetForm>Ketchup</targetForm>
+      </error> gekauft und <foreign_word foreign_language="Italiano">Patate</foreign_word>, und <foreign_word foreign_language="Italiano"><error>
+          <errorType/>
+
+          <originalForm>cipole</originalForm>
+
+          <targetForm>cipolle</targetForm>
+        </error></foreign_word> und <error>
+        <errorType/>
+
+        <originalForm>dan</originalForm>
+
+        <targetForm>dann</targetForm>
+      </error> sie hat Pasta gekauft und drei <foreign_word foreign_language="Italiano">Panini</foreign_word> und ein <foreign_word foreign_language="Italiano">Yogurt</foreign_word> und <foreign_word foreign_language="Italiano">Patatine</foreign_word> gekauft. Und <error>
+        <errorType/>
+
+        <originalForm>Dort</originalForm>
+
+        <targetForm>dort</targetForm>
+      </error> <overwrite>
+        <over>s</over>
+
+        <under><unreadable/></under>
+      </overwrite>ie <palimpsest>hat</palimpsest> gab es ein Problem an der Kasse, weil sie hat die <foreign_word foreign_language="Italiano">Yogurt rubato, per questo ha dovuto pagare di piú</foreign_word><greeting> okay! <error>
+          <errorType/>
+
+          <originalForm>Dan</originalForm>
+
+          <targetForm>Dann</targetForm>
+        </error> <foreign_word foreign_language="Dialekt-Deutsch">fierti</foreign_word><par/><par/>Deine Freundin <unreadable/> </greeting></exercise>
+
+    
+  </body>
+</kolipsi_document>

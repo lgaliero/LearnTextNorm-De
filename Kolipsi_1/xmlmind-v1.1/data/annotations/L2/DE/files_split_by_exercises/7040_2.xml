@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>N7040</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve">
+      <par/><greeting>Hallo <entity>Francesca</entity>,</greeting> <par/>diesen Sommer ich möchte eine Urlaub mache. Wo gehen wir? <error>
+        <errorType/>
+
+        <originalForm>im</originalForm>
+
+        <targetForm>Im</targetForm>
+      </error> Meer oder am Berg? Das Meer ist schön, wir k<strikeover>
+        <expansion>ä</expansion>
+
+        <expansion>ö</expansion>
+      </strikeover>nnen <error>
+        <errorType/>
+
+        <originalForm><palimpsest>b</palimpsest>ad</originalForm>
+
+        <targetForm>Bad</targetForm>
+      </error> machen, <error>
+        <errorType/>
+
+        <originalForm>windserf</originalForm>
+
+        <targetForm>Windsurf</targetForm>
+      </error>, und auch <palimpsest>unreadable</palimpsest> <error>
+        <errorType/>
+
+        <originalForm>skilaufen</originalForm>
+
+        <targetForm>Ski laufen</targetForm>
+      </error>. Das Meer ist am teuer über d<strikeover>
+        <expansion>as</expansion>
+
+        <expansion>ie</expansion>
+      </strikeover> Berg<strikeover>
+        <expansion>en</expansion>
+
+        <expansion>e.</expansion>
+      </strikeover> Am Berge wir können mit Schnee <error>
+        <errorType/>
+
+        <originalForm>spilen</originalForm>
+
+        <targetForm>spielen</targetForm>
+      </error>, <error>
+        <errorType/>
+
+        <originalForm>skilaufen</originalForm>
+
+        <targetForm>Ski laufen</targetForm>
+      </error>, mit <error>
+        <errorType/>
+
+        <originalForm>bob</originalForm>
+
+        <targetForm>Bob</targetForm>
+      </error> laufen und auch <error>
+        <errorType/>
+
+        <originalForm>Eislaufen</originalForm>
+
+        <targetForm>eislaufen</targetForm>
+      </error>. Wir können auch <error>
+        <errorType/>
+
+        <originalForm>breunen</originalForm>
+
+        <targetForm>bräunen</targetForm>
+      </error> a<overwrite>
+        <under><unreadable/></under>
+
+        <over>b</over>
+      </overwrite>er <error>
+        <errorType/>
+
+        <originalForm>nich</originalForm>
+
+        <targetForm>nicht</targetForm>
+      </error> so viel wie im <overwrite>
+        <under><unreadable/></under>
+
+        <over>S</over>
+      </overwrite>ommer. Wo gehen wir? Ich w<overwrite>
+        <under>h</under>
+
+        <over>ä</over>
+      </overwrite>hle das Meer aber wenn du willst wir gehen au<overwrite>
+        <under>S</under>
+
+        <over>c</over>
+      </overwrite>h  an Berg. Lass <correction>
+        <deletion>es</deletion>
+      </correction> mir es wissen!! <closing>Tschüss <entity>Valentina</entity>.</closing> </exercise>
+  </body>
+</kolipsi_document>

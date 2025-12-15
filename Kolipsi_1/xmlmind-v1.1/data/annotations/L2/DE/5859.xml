@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5859</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><par /><greeting>Hallo <entity>Sabine</entity>,</greeting> <par />wie geht´s dir? Gestern ist etwas <error>
+        <errorType />
+
+        <originalForm>unglaublich</originalForm>
+
+        <targetForm>Unglaublich</targetForm>
+      </error> an <entity>Maria</entity> geschehen, erinnerst du dich noch an sie? Gestern ist sie <correction>
+        <deletion>bei</deletion>
+
+        <insertion>in</insertion>
+      </correction> einem Obsthändler gegangen und hat viele Sachen <error>
+        <errorType />
+
+        <originalForm>gek<strikeover>
+            <expansion>a</expansion>
+
+            <expansion>e</expansion>
+          </strikeover>ft</originalForm>
+
+        <targetForm>gekauft</targetForm>
+      </error>, weil sie heute mit seiner Familie wandern wollte. Sie hat alles bezahlt und ist sie in einem Supermakt gegangen <correction>
+        <deletion>,</deletion>
+
+        <insertion>.</insertion>
+      </correction> <correction>
+        <deletion>Dort</deletion>
+
+        <insertion>Dort</insertion>
+      </correction> hat sie die letzte Sachen gekauft, aber als sie an<correction>
+        <deletion><unreadable /></deletion>
+      </correction> der Kassa angekommen ist, die Frau sagte ihr, dass sie eine Büchse Aprikosen gestohlen hat. <entity>Maria</entity> suchte den Kassenzettel von dem Gemüsehändler, aber sie hat er nicht <correction>
+        <deletion>gefangen</deletion>
+
+        <insertion>gefunden</insertion>
+      </correction>. So hat sie alles im Supermarkt gelassen und ist sie wieder im Obstgeschäft gegangen. Hier die Frau an der Kassa hat <entity>Maria</entity> erkennt und hat ihr den Kassenzettel gegeben. <par />Dann ist <entity>Maria</entity> im Supermarkt <error>
+        <errorType />
+
+        <originalForm>zurück gegangen</originalForm>
+
+        <targetForm>zurückgegangen</targetForm>
+      </error> und hat genommen was sie gekauft hatte. Die Frau von dem Supermarkt hat ihr eine Flasche Wein geschenkt, um sie zu entschuldigen. <par /><closing>Das ist alles, schöne <error>
+          <errorType />
+
+          <originalForm>grüße</originalForm>
+
+          <targetForm>Grüße</targetForm>
+        </error> an alle. <entity>Marta</entity> </closing> </exercise>
+
+    <exercise number="2" xml:space="preserve"><par /><greeting>Hallo <entity>Sara</entity>,</greeting> <par />hast du dich entschieden für <correction>
+        <deletion><unreadable /></deletion>
+      </correction>die Ferien? Vielleicht kann ich dir helfen. Ich habe ein bisschen im Internet gesucht und habe zwei Plätze gefunden: Hotel in <entity>Sardinien</entity>, in der Nähe von dem Meer <correction>
+        <deletion>,</deletion>
+      </correction> mit einem super Panorama, oder <entity>Chalet</entity> in <entity>Tirol</entity>. <correction>
+        <deletion>mit</deletion>
+      </correction> Die Preise sind fast egal. In Sardinien der Hotel ist direkt am Strand, Vollpension und wir haben die Möglichkeit ein Auto zu mieten und machen was wir wollen. In den Bergen können wir <correction>
+        <deletion><unreadable /></deletion>
+      </correction> spazieren gehen. <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Ich bin schon in <entity><strikeover>
+          <expansion>S</expansion>
+
+          <expansion>s</expansion>
+        </strikeover>ardinien</entity> gewesen, und es ist fantastisch aber im <entity>Tirol</entity> gibt es ein wunderschönen Landschaft. Wenn du willst kann ich eine Bergexkursion planen, aber wir brauchen einen Bergführer. Wir können auch zwei Freunden mitbringen. <par />In <entity>Sardinien</entity> gibt es kein Problem mit dem Wetter, es ist immer sehr heiß und sonnig. Da werden wir eine ganze Woche <foreign_word
+        foreign_language="Italiano">Relax</foreign_word> haben, und vielleicht lernen wir auch neue Leute kennen! <par />Was denkst du? <correction>
+        <deletion>Sch</deletion>
+      </correction> Antworte bitte in weniger Zeit, weil ich anrufen muss und alles planen. <par /><closing>Danke, <entity>Marta</entity>.</closing> </exercise>
+  </body>
+</kolipsi_document>

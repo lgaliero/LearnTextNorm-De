@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0173</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Anika</entity></greeting>,<par/>um dir eine Entscheidungshilfe für unseren gemeinsamen Urlaub zu geben, stelle ich dir im folgenden Text unsere beiden Urlaubsmöglichkeiten vor.<par/>Die erste Möglichkeit wäre ein Urlaub in den Bergen. Dort hätten wir verschiedene, interessante Möglichkeiten, unsere Urlaubstage zu gestalten. Wir könnten beispielsweise in den Bergen wandern gehen, Ausflüge in die nahegelegenen Städte machen und mit der Gondel auf einen Berg fahren, um dort die Aussicht zu genießen.<par/>Falls wir uns jedoch für einen Urlaub am Meer entscheiden sollten, fallen mir ebenfalls viele Aktivitäten ein, mit denen wir unsere Freizeit gestalten können. Um ein paar Beispiele zu nennen: <error>
+        <errorType/>
+
+        <originalForm>wir</originalForm>
+
+        <targetForm>Wir</targetForm>
+      </error> können uns am Strand sonnen, im Meer schwimmen gehen oder aber auch Ausflüge in die Stadt unternehmen.<par/>Meinen Urlaub letzten Sommer habe ich am Meer in <entity>Spanien</entity> verbracht und kann sagen, dass so ein Urlaub am Meer viele Vorteile mit sich bringt. Würden wir uns für diese Möglichkeit entscheiden, würden wir den ganzen Tag am Strand entspannen können, allerdings wäre dieser Urlaub ein Entspannungsurlaub ohne viel Aktion.<par/>Ich persönlich würde jedoch die Variante des Urlaubs am Meer bevorzugen, da das Wetter dort besser ist als in den Bergen.<par/>Abschließend kann ich sagen, dass der Urlaub am Meer verlockende Möglichkeiten bietet. Bitte mache dir Gedanken und melde dich bei mir, damit wir uns gemeinsam für eine der beiden Möglichkeiten entschließen können.<par/><closing>Liebe Grüße und bis bald!</closing>    </exercise>
+  </body>
+</kolipsi_document>

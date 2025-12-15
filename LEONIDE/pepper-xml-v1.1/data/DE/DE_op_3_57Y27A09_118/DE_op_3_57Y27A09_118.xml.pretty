@@ -1,0 +1,44 @@
+<body>
+ <page page_number="1" transcanno_page_id="2494">
+  <paragraph class="medium-paragraph" tagcode="1589276716530">
+   <div>
+    Mein Traumberuf ist
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553019717658" tran_correction_original="Stiliste*in">
+     Stilisterin
+    </tran_word_correction_id25>
+    . Ich liebe Mathematik
+   </div>
+   <div>
+    und Kunst. Ich
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="möchte" tagcode="1553019800698">
+     muchte
+    </orth_error_id12>
+    an der Universität studieren.
+   </div>
+   <div>
+    Vor Juli 2017 ich habe eine
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Passion" tagcode="1553019793649">
+     Passione
+    </orth_error_id12>
+    für die Mode.
+   </div>
+   <div>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553019750824" tran_word_deletion_target="_#_">
+     In
+    </tran_word_deletion_id8>
+    Am 2018
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1553019755676">
+     Jahre
+    </tran_word_insertion_id9>
+    ich lerne in "
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1589276710558" tran_foreign_word_language="Italian">
+     Scienze
+    </tran_foreign_word_id13>
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1589276716529" tran_foreign_word_language="Italian">
+     Umane
+    </tran_foreign_word_id13>
+    ".
+   </div>
+  </paragraph>
+ </page>
+</body>

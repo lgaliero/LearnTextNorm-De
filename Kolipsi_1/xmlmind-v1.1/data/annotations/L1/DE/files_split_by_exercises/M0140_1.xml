@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0140</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo!</greeting><par/>Letzte Woche ist meine Freundin <entity>Maria</entity> in einem Obst- und Gemüseladen <correction>
+        <deletion>ein Ka</deletion>
+      </correction> einkaufen gegangen. <correction>
+        <deletion>Dort kaufte sie</deletion>
+      </correction> Beim Bezahlen hat sie jedoch ihre <palimpsest/><palimpsest>Geld</palimpsest>karte liegen gelassen. Eine Stunde später geht sie in den Supermarkt, wo <entity>Maria</entity> ihren restlichen Einkauf erledigte.<par/>Beim Bezahlen bemerkte sie, dass sie ihre Karte beim Obsthändler vergessen hatte.<par/>Die Verkäuferin war sehr verärgert.<par/><correction>
+        <deletion><unreadable/></deletion>
+      </correction> <entity>Maria</entity> <correction>
+        <deletion>bittete</deletion>
+      </correction> <correction>
+        <insertion>bat</insertion>
+      </correction> sie um Verständnis und fragte, ob sie das Vergessene schnell holen gehen könne. Weiters ließe <entity>Maria</entity> ihre Sachen an der Kassa stehen.<par/>Nach mehrmaliger Überlegung war die Verkäuferin einverstanden. Somit konnte <entity>Maria</entity> die Geldkarte holen und ihre Sachen bezahlen.<par/>Sie bedankte sich noch einmal <correction>
+        <deletion>ganz</deletion>
+      </correction> <correction>
+        <insertion>recht</insertion>
+      </correction> herzlich. <palimpsest>Bei</palimpsest>m <palimpsest>H</palimpsest>inausgehen dachte sich <entity>Maria</entity> wie sie nur so vergesslich sein könne. Es war ein etwas anderer <correction>
+        <deletion>Tag</deletion>
+      </correction>, auch ein wenig ein chaotischer Tag für sie.<par/>Von nun an wird sie <palimpsest>mehr</palimpsest> <gap>_</gap> achten, ob sie wohl alles dabei hat.<par/><closing>Liebe Grüße<par/><entity><palimpsest>X</palimpsest>Y</entity></closing>             </exercise>
+
+    
+  </body>
+</kolipsi_document>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5882</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo,</greeting> weißt was <correction>
+        <deletion>ist</deletion>
+      </correction> zu <entity>Maria</entity> geschehen ist? Sie <overwrite>
+        <over>k</over>
+
+        <under>f</under>
+      </overwrite>aufte zuerst Obs<overwrite>
+        <over>t</over>
+
+        <under><unreadable/></under>
+      </overwrite> und Gemüse dann sie ging ins Supermarkt aber sie hat nich<overwrite>
+        <over>t</over>
+
+        <under>e</under>
+      </overwrite> der Kassenzettel der Gemüse<overwrite>
+        <over>l</over>
+
+        <under><unreadable/></under>
+      </overwrite>aden mit, so die <overwrite>
+        <over>V</over>
+
+        <under>v</under>
+      </overwrite>erkäuferin wollte dass sie das Obst und <overwrite>
+        <over>G</over>
+
+        <under>g</under>
+      </overwrite>emüse wieder <sic>zählt</sic>. <entity>Maria</entity> erzählte dass sie es schon bezahlt hatte aber sie hatte es in eine anderen Markt <overwrite>
+        <over>v</over>
+
+        <under>w</under>
+      </overwrite>erkauft, die Verkäuferin glaubte es nicht so sie <sic>rufte</sic> die <error>
+        <errorType/>
+
+        <originalForm><overwrite>
+            <over>P</over>
+
+            <under>D</under>
+          </overwrite>slizei</originalForm>
+
+        <targetForm>Polizei</targetForm>
+      </error>. <par/>D<overwrite>
+        <over>i</over>
+
+        <under>e</under>
+      </overwrite>e <error>
+        <errorType/>
+
+        <originalForm>Polizesten</originalForm>
+
+        <targetForm>Polizisten</targetForm>
+      </error> denken dass sie eine Lügnerin ist<sic> ss </sic>sie wollten s<overwrite>
+        <over>e</over>
+
+        <under>i</under>
+      </overwrite>ine <error>
+        <errorType/>
+
+        <originalForm>Identitätkarte</originalForm>
+
+        <targetForm>Identitätskarte</targetForm>
+      </error> kontrollieren <gap>_</gap> weil sie glauben dass sie eine Räuberin ist, aber sie hat es nicht mit, sie hatte es zu <overwrite>
+        <over>H</over>
+
+        <under>h</under>
+      </overwrite>ause vergessen, <sic>ss</sic> <correction>
+        <deletion>sie</deletion>
+      </correction> die Poliziste<correction>
+        <insertion>n</insertion>
+      </correction> trugen sie ins Gefängnis. Jetzt sie ist ins Gefängnis bei vier Tagen, vielleicht wir sollten was mach<palimpsest>e</palimpsest>n , was denkst du <gap>_</gap> von dieses <sic>merkwwistige</sic> Geschic<overwrite>
+        <over>h</over>
+
+        <under><unreadable/></under>
+      </overwrite>te? Ins Gefängnis für eine <correction>
+        <deletion>b</deletion>
+      </correction> blöde Kassenzettel.</exercise>
+
+    
+  </body>
+</kolipsi_document>

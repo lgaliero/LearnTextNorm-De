@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5878</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Karin</entity> </greeting> <par/>wie geht es dir? Ich hoffe gut. Ich schreibe dir, weil ich dir etwas <error>
+        <errorType/>
+
+        <originalForm>unglaubliches</originalForm>
+
+        <targetForm>Unglaubliches</targetForm>
+      </error> erzählen muss. Kannst du dich noch an <entity>Maria</entity> erinnern, meine <error>
+        <errorType/>
+
+        <originalForm>Fraundin</originalForm>
+
+        <targetForm>Freundin</targetForm>
+      </error>, die ich dir vor ein paar Tagen vorgestellt habe? Ihr ist ein kleines Missgeschick passiert. <par/>Letzte Woche war <entity>Maria</entity> wie üblich einkaufen. Sie kaufte zuerst in einem Obst- und Gemüseladen <error>
+        <errorType/>
+
+        <originalForm>ei</originalForm>
+
+        <targetForm>ein</targetForm>
+      </error> und ließ an der Kasse ihren K<palimpsest>a</palimpsest>ssenzettel liegen, als sie aus dem Laden ging. Daraufhin ging sie sofort in den Supermarkt wo sie den Rest ihrer Einkäufe erledigte. Doch an der Kasse gab es ein kleines Problem: Als Karin den Supermarkt <error>
+        <errorType/>
+
+        <originalForm>verassen</originalForm>
+
+        <targetForm>verlassen</targetForm>
+      </error> wollte <error>
+        <errorType/>
+
+        <originalForm>hö<palimpsest>hrte</palimpsest></originalForm>
+
+        <targetForm>hörte</targetForm>
+      </error> sie die Angestellte hinter ihr schreien. Diese dachte nämlich, <palimpsest>Karin wollte</palimpsest> das Obst aus dem Supermarkt <error>
+        <errorType/>
+
+        <originalForm>stehelen</originalForm>
+
+        <targetForm>stehlen</targetForm>
+      </error>. <palimpsest>Und dazu</palimpsest> kam auch noch, dass <entity>Karin</entity> nicht beweisen konnte, dass das Obst nicht aus dem Supermarkt stammte, denn sie hatte ja keinen Kassenzettel? <par/>Gott sei <palimpsest>D</palimpsest>ank ging die ganze Geschichte noch einmal gut aus: <error>
+        <errorType/>
+
+        <originalForm><ambiguous>
+            <alternative>p</alternative>
+
+            <alternative>g</alternative>
+          </ambiguous>as</originalForm>
+
+        <targetForm>Das</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>Freulein</originalForm>
+
+        <targetForm>Fräulein</targetForm>
+      </error> schaute sich die Überwachungsvideos an und <entity>Karin</entity> durfte endlich wieder nach Hause gehen. <par/>Was lernen wir daruas? Immer den Kassenzettel mitnehmen! <par/><closing>Tschüss <entity>Patrick</entity> </closing></exercise>
+
+    
+  </body>
+</kolipsi_document>

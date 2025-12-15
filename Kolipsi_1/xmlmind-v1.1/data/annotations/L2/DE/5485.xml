@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5485</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe <entity>Anna</entity></greeting>, <error>
+        <errorType />
+
+        <originalForm>Wie</originalForm>
+
+        <targetForm>wie</targetForm>
+      </error> geht es dir? Letzte Woch ist meiner Freundin <entity>Maria</entity> etwas <error>
+        <errorType />
+
+        <originalForm>peinliches</originalForm>
+
+        <targetForm>Peinliches</targetForm>
+      </error> passiert. <entity>Maria</entity> war letzte Woche einkaufen. Zuerst kaufte sie in einem Obst- und Gemüseladen ein. Dort vergaß sie jedoch den Kassazettel. Du weißt ja, wie schusselig <entity>Maria</entity> manchmal sein kann. Später kaufte sie in einem Supermarkt ein. <error>
+        <errorType />
+
+        <originalForm>doch</originalForm>
+
+        <targetForm>Doch</targetForm>
+      </error> als sie an d<overwrite>
+        <under>er</under>
+
+        <over>ie</over>
+      </overwrite> Kasse ging gab es ein Problem. Die Kassiererin meinte, dass auch das Obst, <correction>
+        <deletion><unreadable /></deletion>
+      </correction> welches si<palimpsest>c</palimpsest>h in einem Korb, den sie über die Schulter trug, befand, vom Supermarkt stammte. Als die Kassiererin <entity>Maria</entity> darauf ansprach wurde <entity>Maria</entity> feuerrot im Gesicht. Sie erklärte der Kassiererin, dass <overwrite>
+        <over>s</over>
+
+        <under>e</under>
+      </overwrite>ie das Obst in einem Obst- und Gemüseladen gekauft hätte. Als aber die Kassiererin nach dem Kass<palimpsest>es</palimpsest>zettel verlangte, fand <entity>Maria</entity> i<overwrite>
+        <over>hn</over>
+
+        <under>m</under>
+      </overwrite> nicht, obwohl sie vergeblich in ihrem Korb suchte. Die Kassiererin wurde allmählich zornig und wollte schon den <error>
+        <errorType />
+
+        <originalForm>sicherheitsdienst</originalForm>
+
+        <targetForm>Sicherheitsdienst</targetForm>
+      </error> holen. Da <entity>Maria</entity> aber nicht weiteres Aufsehen erregen <error>
+        <errorType />
+
+        <originalForm>wolten</originalForm>
+
+        <targetForm>wollten</targetForm>
+      </error> zahlte sie rasch die Produkte, die sich in ihrem Einkaufs<hyphen>-</hyphen>wagen befanden und noch dazu das Obst in ihrem Korb, da sie ohne Kassenzettel nichts beweisen konnte. Ich glaube dies wird ihr eine Lehre sein. In Zukunft wird sie die Kass<palimpsest>en</palimpsest>zettel nicht mehr so schnell liegenlassen oder vergessen. <par />Ich hoffe wir sehen und bald wieder! <closing>Tschüss <entity>Anna</entity> </closing> </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber <entity>Thomas</entity>!</greeting> Nun ist es an der Zeit unseren gemeinsamen Urlaub zu organisieren. Fahren wir li<overwrite>
+        <over>e</over>
+
+        <under>b</under>
+      </overwrite>ber in die Berge oder lieber ans Meer? Ich weiß nicht <error>
+        <errorType />
+
+        <originalForm>si</originalForm>
+
+        <targetForm>so</targetForm>
+      </error> recht. <par />In den Bergen ist man sehr mit der Natur verbunden. Man kann zahlreiche Wanderungen organi<correction>
+        <deletion>e</deletion>
+      </correction>sieren. Die Luft in den Bergen ist einfach wunderbar, frei von Smog. Schön ist es dort auf der Wiese zu liegen und die Sonne <correction>
+        <insertion>zu</insertion>
+      </correction> genießen. Ob man Pilze sammeln geht oder ein Picknick <palimpsest>organi<overwrite>
+          <over>s</over>
+
+          <under><unreadable /></under>
+        </overwrite>iert in den Bergen genie<overwrite>
+          <over>ß</over>
+
+          <under>s</under>
+        </overwrite>t man vor allem</palimpsest> die Ruhe. A<overwrite>
+        <over>m</over>
+
+        <under>n</under>
+      </overwrite> Meer hingegen liegt man am Strand, <error>
+        <errorType />
+
+        <originalForm>speilt</originalForm>
+
+        <targetForm>spielt</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>Beach-Volleyball</originalForm>
+
+        <targetForm>Beachvolleyball</targetForm>
+      </error> und kühlt sich im Meer ab. <par />Außerdem kann man im Meer segeln oder schnorcheln. Ich persönlich verbringe am liebsten meinen Sommeruralub am Meer. Dort gefällt mir vor allem die Atmosphäre. Außerdem liebe ich es im Meer zu schwimmen und am Strand <error>
+        <errorType />
+
+        <originalForm>Beach Volleyball</originalForm>
+
+        <targetForm>Beachvolleyball</targetForm>
+      </error> zu spielen. <par />Wie du siehst bevorzuge ich Urlaub am Meer. <palimpsest>W</palimpsest>as bevorzugst du? <error>
+        <errorType />
+
+        <originalForm>schreib</originalForm>
+
+        <targetForm>Schreib</targetForm>
+      </error> mir bald zurück! <closing>Deine <entity>Stephi</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

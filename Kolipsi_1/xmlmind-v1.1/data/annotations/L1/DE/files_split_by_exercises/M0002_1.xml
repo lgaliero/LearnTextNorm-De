@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0002</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hi <entity>Otto</entity></greeting>,<par/>du glaubst gar nicht was <entity>Maria</entity> gestern passiert ist ! <correction>
+        <deletion>Sie wollte bloß</deletion>
+      </correction> Sie hat beim Obsthändler Gemüse gekauft und danach noch im Supermarkt eingekauft.<par/>Als sie dann an der Kasse stand hat die Kassiererin das Gemüse im Rucksack gesehen und wollte nicht glauben, dass <entity>Maria</entity> das Obst woanders gekauft hat. Da man ja keine <correction>
+        <deletion>gekauften</deletion>
+      </correction> Sachen aus dem Supermarkt, die man noch nicht bezahlt hat, in einen Rucksack oder eine Tasche packen darf, hat die Kassiererin behauptet sie hätte <correction>
+        <deletion>die</deletion>
+      </correction> das <correction>
+        <deletion>Obst</deletion>
+      </correction> <correction>
+        <insertion>Gemüse</insertion>
+      </correction> geklaut. <entity>Maria</entity> musste in das Büro des Supermarktes gehen und erst als die Polizei kam wurde aufgeklärt, dass <entity>Maria</entity> die Sachen nicht geklaut hatte, weil man manche <correction>
+        <deletion><unreadable/></deletion>
+      </correction> Gemüsesorten gar nicht in dem Supermarkt kaufen konnte!<par/>Ich finde das unglaublich - es kann doch nicht sein <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> wegen ein <correction>
+        <deletion>paar Gemüs</deletion>
+      </correction> bisschen Gemüse so ein Aufstand gemacht wird .... Oder wie siehst du das? Wenn ich <entity>Maria</entity> wäre, würde ich nicht mehr da einkaufen - so eine Frechheit! <correction>
+        <deletion>Ich</deletion>
+      </correction> Gibt es sonst bei dir noch was zu erzählen?<par/><closing>Bis <error>
+          <errorType/>
+
+          <originalForm>Bald</originalForm>
+
+          <targetForm>bald</targetForm>
+        </error>!<par/>Viele Grüße   <entity>Hans Gustav Eichel Peter von Neundorff zu Mengenbroch</entity>    </closing>            </exercise>
+
+    
+  </body>
+</kolipsi_document>

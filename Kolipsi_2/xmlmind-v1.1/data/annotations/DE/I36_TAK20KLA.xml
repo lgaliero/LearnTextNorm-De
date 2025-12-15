@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I36_TAK20KLA</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo Maria!</greeting><par />Wie geht's? Maria sagt mich du hast nicht seine <correction>
+        <deletion>g</deletion>
+
+        <insertion>G</insertion>
+      </correction>eschichte gehört. Letzte <error>
+        <errorType />
+
+        <originalForm>Woch</originalForm>
+
+        <targetForm>Woche</targetForm>
+      </error> Maria <correction>
+        <deletion>w f<unreadable /></deletion>
+      </correction> kaufte in einem <error>
+        <errorType />
+
+        <originalForm>Obst</originalForm>
+
+        <targetForm>Obst-</targetForm>
+      </error> und Gemüseladen ein. Eine Stunde später war sie in Supermarkt aber gab es ein Problem an der Kasse. Die <error>
+        <errorType />
+
+        <originalForm>Kassiern</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> glaubt sie <correction>
+        <deletion>hat</deletion>
+      </correction> gestohlen hat, weil sie die Kassenzettel vergessen hat.<par /><closing>Liebe Grüße,</closing><par /><correction>
+        <deletion>K</deletion>
+      </correction> Clary</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo Paul!</greeting><par />Ich habe deine <error>
+        <errorType />
+
+        <originalForm>e-Mail</originalForm>
+
+        <targetForm>E-Mail</targetForm>
+      </error> gelesen und wollte dich geh<correction>
+        <deletion>e</deletion>
+
+        <insertion>i</insertion>
+      </correction>lfen. Du hast bis vor einigen Monaten gechattet und schließlich machst du damit Schluss, löschte die Num<correction>
+        <deletion>e</deletion>
+
+        <insertion>m</insertion>
+      </correction>ern aller Personen aus deinem Handy, mit denen du gechattet hast, und du brachst alle Kontakte ab. Ich denke das ist <error>
+        <errorType />
+
+        <originalForm><correction>
+            <deletion>t</deletion>
+
+            <insertion>T</insertion>
+          </correction>ypisch</originalForm>
+
+        <targetForm>typisch</targetForm>
+      </error> für alle Jungen und auch <correction>
+        <deletion>Menschen</deletion>
+      </correction> Mädchen, aber ich finde dies ein Problem, weil du diese Personen k<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>ö</insertion>
+      </correction>nnst nicht.</exercise>
+  </body>
+</kolipsi_II_document>

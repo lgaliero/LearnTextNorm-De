@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I08_SHE14ENO</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Lieber Karl,</greeting><par />ich muss<correction>
+        <deletion><unreadable /></deletion>
+      </correction> dir unbedingt erzählen was mit Maria heute Nachmittag los war. Ich hab sie vorhin getroffen und hat mir alles erzählt.<par />Sie war heute beim Obsthänd<correction>
+        <deletion>dl</deletion>
+
+        <insertion>l</insertion>
+      </correction>er und hat etwas Gemüse für eine Suppe gekauft. Nachher ist sie beim Supermarkt gegangen. Sie brauchte noch welche Sachen für ihre Suppe. Sie war heute erstaunlich müde und deswegen ist im Supermarkt etwas <error>
+        <errorType />
+
+        <originalForm>schlim<correction>
+            <deletion>e</deletion>
+
+            <insertion>m</insertion>
+          </correction>es</originalForm>
+
+        <targetForm>Schlimmes</targetForm>
+      </error> passiert.  Als sie an der Kasse gekommen ist war ein Kunde vor ihr. Dieser <error>
+        <errorType />
+
+        <originalForm>Kund</originalForm>
+
+        <targetForm>Kunde</targetForm>
+      </error> hatte einige Produkte vergessen, hat aber nichts gemerkt und ist sehr schnell weggegangen. Die Verkäuferin <correction>
+        <deletion><unreadable /></deletion>
+      </correction> an der Kasse hat, nachdem der <error>
+        <errorType />
+
+        <originalForm>Kund</originalForm>
+
+        <targetForm>Kunde</targetForm>
+      </error> wegge<correction>
+        <deletion>ng</deletion>
+
+        <insertion>ga</insertion>
+      </correction>ngen ist, die Produkte <error>
+        <errorType />
+
+        <originalForm>bei Seite</originalForm>
+
+        <targetForm>beiseite</targetForm>
+      </error> gelegen. Als Maria <correction>
+        <deletion>beim</deletion>
+      </correction> bezahlt hat nahm sie ihre <correction>
+        <deletion>s</deletion>
+
+        <insertion>S</insertion>
+      </correction>achen mit. Und wegen ihrer Müdigkeit, ohne was zu merken hat sie die Sachen von dem anderen Kunde auch mitgenommen. Die Verkäuferin hat alles gesehen und hat ihr <error>
+        <errorType />
+
+        <originalForm>angeschriehen</originalForm>
+
+        <targetForm>angeschrien</targetForm>
+      </error>. Maria war überzeugt dass sie nichts falsch gemacht hatte. Dann hat die Verkäuferin ihre Tasche geöffnet und hat diese Sachen gefunden. Maria hat sich <error>
+        <errorType />
+
+        <originalForm>100 mal</originalForm>
+
+        <targetForm>100-mal</targetForm>
+      </error> entschuldigt und alles wurden wieder klar.<par /><closing>Liebe Grüße</closing><par />Eno</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber Paul,</greeting><par />ich kenne deine Problem nicht gut weil mir so was noch nie passiert ist. Ich chatte <error>
+        <errorType />
+
+        <originalForm>fasst</originalForm>
+
+        <targetForm>fast</targetForm>
+      </error> nie und benutze wenig das Internet.<par />Über virtuelle Freundschaften denke ich dass es nie funktionieren solang ihr euch nicht trifft. Daraus kann nie etwas <error>
+        <errorType />
+
+        <originalForm>konkretes</originalForm>
+
+        <targetForm>Konkretes</targetForm>
+      </error> werden.<par />Ich möchte dir einen Rat geben, und zwar du solltest das Internet nicht so viel benutzen und etwas <correction>
+        <insertion>mit</insertion>
+
+        <deletion><unreadable /></deletion>
+      </correction> "echte" <correction>
+        <deletion>m</deletion>
+
+        <insertion>M</insertion>
+      </correction>enschen anfangen.<par />Meine Meinung für das Internet ist dass man das nur für wichtige Sachen verwenden sollte und nicht um neue Personen kennenzulernen.<par />Ich hoff dass es dir bald wieder gut geht.<par /><closing>Liebe Grüße</closing><par />Eno Shehu</exercise>
+  </body>
+</kolipsi_II_document>

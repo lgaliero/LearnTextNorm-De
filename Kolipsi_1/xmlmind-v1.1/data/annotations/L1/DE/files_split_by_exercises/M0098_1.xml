@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0098</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Marko</entity></greeting>,<par/>wie geht es dir? Ich habe mir gedacht ich schreibe dir mal wieder, um dir folgende Geschichte zu erzählen, die einer Freundin von mir gestern im Supermarkt passiert ist. Du hast <correction>
+        <deletion>sie</deletion>
+      </correction> <correction>
+        <insertion><entity>Maria</entity></insertion>
+      </correction> schon ein paar mal getroffen, oder?<par/>Jedenfalls war sie gestern bei dem Obst- und <error>
+        <errorType/>
+
+        <originalForm>Gemüsehandler</originalForm>
+
+        <targetForm>Gemüsehändler</targetForm>
+      </error> um die Ecke <correction>
+        <insertion>zum</insertion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>einkaufen</originalForm>
+
+        <targetForm>Einkaufen</targetForm>
+      </error>. <correction>
+        <deletion>Sie</deletion>
+      </correction> <entity>Maria</entity> geht dort regelmäßig hin, denn das Gemüse dort ist immer sehr frisch, und die Verkäufer kennen sie bereits. Da sie immer sehr zufrieden mit den <correction>
+        <deletion>Waaren</deletion>
+      </correction> Waren ist, steckt sie <correction>
+        <insertion>mittlerweile sogar</insertion>
+      </correction> den Kassenbon <correction>
+        <deletion>mittlerweile auch</deletion>
+      </correction> gar nicht mehr ein. Allerdings führt das Geschäft keine Milchprodukte <error>
+        <errorType/>
+
+        <originalForm>o.ä.</originalForm>
+
+        <targetForm>o. Ä.</targetForm>
+      </error>, deshalb ist sie <correction>
+        <deletion>anschlie</deletion>
+      </correction> <correction>
+        <deletion><unreadable/></deletion>
+      </correction> anschließend noch in die Innenstadt gefahren, mit dem ganzen Gemüse. Als sie dann in dem Laden in der Stadt an der Kasse stand, wollte die Kassiererin t<overwrite>
+        <under>ä</under>
+
+        <over>a</over>
+      </overwrite>tsächlich den Bon für das <error>
+        <errorType/>
+
+        <originalForm>Gemuse</originalForm>
+
+        <targetForm>Gemüse</targetForm>
+      </error> von dem anderen Händler sehen<overwrite>
+        <under>,</under>
+
+        <over>.</over>
+      </overwrite> <correction>
+        <deletion>denn <entity>Maria</entity></deletion>
+      </correction> <entity>Maria</entity> war in dem großen Einkaufszentrum am <entity>Kaiserplatz</entity>, und die führen natürlich auch Salat und <correction>
+        <deletion>Gr</deletion>
+      </correction> Gurken und was sie noch alles so dabei hatte.<par/>Allerdings <correction>
+        <deletion>steckt</deletion>
+      </correction> k<overwrite>
+        <under>ö</under>
+
+        <over>o</over>
+      </overwrite>nnte <entity>Maria</entity> den Bon natürlich nicht vorweisen, und die Kassiererin muss einen riesigen Aufstand gemacht haben. Angeblich hat sie <entity>Maria</entity> als Diebin beschimpft, was natürlich total absurd ist, und wollte dann sogar die Polizei rufen. <entity>Maria</entity> ist dann tatsächlich zu dem Obst- und Gemüsehändler <error>
+        <errorType/>
+
+        <originalForm>zurück gefahren</originalForm>
+
+        <targetForm>zurückgefahren</targetForm>
+      </error>, und hat ihre ganzen Sachen am <entity>Kaiserplatz</entity> gelassen. Glücklicherweise hatten die den Bon tatsächlich aufbewahrt und <entity>Maria</entity> konnte ihre Lebensmittel letztenendes in Ruhe mit nach Hause nehmen.<par/>Trotzdem hat sie mir ges<overwrite>
+        <under><unreadable/></under>
+
+        <over>a</over>
+      </overwrite>gt, dass sie von jetzt an immer den Kassen<hyphen>-</hyphen>zettel einstecken wird. Das ist wohl auch die Moral der Geschichte. Jetzt muss ich aber los, ich habe gleich noch Bandprobe. <correction>
+        <deletion><unreadable/></deletion>
+      </correction><par/>Melde dich in den nächsten Tagen, wenn du die Zeit findest, dann können wir <correction>
+        <deletion>ma</deletion>
+      </correction> mal wieder Fußball spielen oder so.<par/><closing>Bis dann, viele Grüße<par/>[Name] </closing></exercise>
+
+    
+  </body>
+</kolipsi_document>

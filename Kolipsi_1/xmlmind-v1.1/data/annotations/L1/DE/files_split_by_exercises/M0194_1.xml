@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0194</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Danni</entity></greeting>,<par/>na wie geht es dir denn so? Ich hoffe doch, dass es dir gut geht. Wir haben uns ja leider lange nicht mehr gesehen. Ich finde es recht schade, dass du umgezogen bist. Aber wir können ja per <error>
+        <errorType/>
+
+        <originalForm>e-mail</originalForm>
+
+        <targetForm>E-Mail</targetForm>
+      </error> schreiben und das tröstet mich ein wenig.<par/>Sicherlich möchtest du ein paar neue Dinge aus meinem Leben wissen. Du weißt ja wie meine Mutter ist. Sie vergisst öfter mal was. Lässt hier und dort was liegen und kommt in außerordentlich peinliche Situationen. So auch heute beim wöchentlichen Einkauf. Natürlich hat sie schon dazugelernt und einen Einkaufszettel geschrieben.<par/>Als <error>
+        <errorType/>
+
+        <originalForm>erstes</originalForm>
+
+        <targetForm>Erstes</targetForm>
+      </error> ist sie dann zum Obst- und Gemüsehändler gegangen. Denn momentan ist sie sehr darauf fixiert die Ernährung der Familie umzustellen.<par/>Sie hat also verschiedene Sachen gekauft. Nach dem Einkauf ist sie wie gewohnt an die Kasse gegangen um zu bezahlen. Sicherlich fragst du <error>
+        <errorType/>
+
+        <originalForm>die</originalForm>
+
+        <targetForm>dich</targetForm>
+      </error> wieso ich es dir im Zusammenhang mit dem Verhalten meiner Mutter erzähle.<par/>Natürlich geht es weiter. Nachdem meine Mutter bezahlt hatte, <sic>packe</sic> sie wie üblich die Einkäufe ein. Aber sie hat ihr gesamtes Wechselgeld, welches sie von der Kassiererin bekommen hatte während sie am <error>
+        <errorType/>
+
+        <originalForm>einpacken</originalForm>
+
+        <targetForm>Einpacken</targetForm>
+      </error> war, auf dem Tresen der Kasse vergessen. Sie ging also ohne weiteres Geld in den nächsten Supermarkt um <correction>
+        <insertion>die</insertion>
+      </correction> restlichen, auf dem Zettel stehenden Sachen zu besorgen. Sie merkte gar nicht dass sie kein Geld mehr hatte. Sie erledigte seelenruhig ihren Einkauf und ging auch diesmal wie gewohnt zur Kasse. Sie legte die Sachen auf das Band an der Kasse und bemerkte erst als die Kassiererin den Betrag sagte und meine Mutter ihr <error>
+        <errorType/>
+
+        <originalForm>Portemonai</originalForm>
+
+        <targetForm>Portemonnaie</targetForm>
+      </error> herausholte, dass sie das Geld vergesse<overwrite>
+        <under><unreadable/></under>
+
+        <over>n</over>
+      </overwrite> hatte.<par/>Meine Mutter brach in pure <error>
+        <errorType/>
+
+        <originalForm>hektik</originalForm>
+
+        <targetForm>Hektik</targetForm>
+      </error> aus und die Situation war ihr dermaßen peinlich. Also rief sie mich über Handy an und bat mich ihr doch bitte <error>
+        <errorType/>
+
+        <originalForm>schnellst möglich</originalForm>
+
+        <targetForm>schnellstmöglich</targetForm>
+      </error> ein wenig Geld in den Supermarkt zu bringen.<par/>Ich bin es gewohnt meiner Mutter zu helfen, doch dieses <error>
+        <errorType/>
+
+        <originalForm>mal</originalForm>
+
+        <targetForm>Mal</targetForm>
+      </error> musste ich mich am Riemen reißen, dass ich nicht noch im Supermarkt angefangen hätte darüber zu lachen.<par/>Aber genug mit meinen Geschichten und meiner Familie. Ich hoffe du kommst mich bald wieder besuchen. Ich vermisse dich.<par/><closing>Liebe Grüße (auch an deine Familie)</closing>   </exercise>
+
+    
+  </body>
+</kolipsi_document>

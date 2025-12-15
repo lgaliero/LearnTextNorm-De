@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>N7049</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve">
+      <par/><greeting>Liebe Philine,</greeting> <par/>ich habe gehört, dass du Probleme mit de<overwrite>
+        <under><unreadable/></under>
+
+        <over>r</over>
+      </overwrite> Urlaub hast! Die Entscheidung ist immer zwischen <correction>
+        <deletion>das</deletion>
+      </correction> Bergen oder Meer? <error>
+        <errorType/>
+
+        <originalForm>Nah ja</originalForm>
+
+        <targetForm>Na ja</targetForm>
+      </error>, ich wohne <correction>
+        <deletion>am</deletion>
+
+        <insertion>in dem</insertion>
+      </correction> Bergen, deswegen kann ich dir <error>
+        <errorType/>
+
+        <originalForm>etzwas</originalForm>
+
+        <targetForm>etwas</targetForm>
+      </error> erzählen. <correction>
+        <deletion><unreadable/></deletion>
+      </correction> Wenn du in den Bergen gehen will, muss du wissen, dass <correction>
+        <deletion>du hier <unreadable/>nicht</deletion>
+      </correction> die Temperatur nicht wie am Meer ist. Hier ist ein bisschen frischer. Dann, muss du denken, dass du in dem Natur bist. Es gibt tausende <correction>
+        <deletion>von</deletion>
+      </correction> Insekten und Tieren, die <overwrite>
+        <under>N</under>
+
+        <over>n</over>
+      </overwrite>eben dir spazieren oder fliegen <error>
+        <errorType/>
+
+        <originalForm>konnen</originalForm>
+
+        <targetForm>können</targetForm>
+      </error><strikeover>
+        <expansion>.</expansion>
+
+        <expansion>,</expansion>
+      </strikeover>und es gibt keines Meer, wo du schwimmen kann. Aber <correction>
+        <deletion><unreadable/></deletion>
+      </correction> am Bergen hast du d<overwrite>
+        <under>ie</under>
+
+        <over>as</over>
+      </overwrite> beste <correction>
+        <deletion>Blick</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>Außblick</originalForm>
+
+        <targetForm>Ausblick</targetForm>
+      </error> des Welt hast!<par/>Auch am Meer <correction>
+        <deletion>ist d</deletion>
+      </correction> gibt es Insekten, aber hier <correction>
+        <deletion>sind ganz</deletion>
+      </correction> sehen sie ganz anders <error>
+        <errorType/>
+
+        <originalForm>auß</originalForm>
+
+        <targetForm>aus</targetForm>
+      </error>. Am Meer hast du <correction>
+        <deletion><unreadable/></deletion>
+      </correction> eine super Strand, <correction>
+        <deletion>gibt es</deletion>
+      </correction> wo du der ganzen Tag an der Sonne li<strikeover>
+        <expansion>o</expansion>
+
+        <expansion>e</expansion>
+      </strikeover>gen kann. Ja, am Meer gibt es fast jedem Tag die Sonne und die <correction>
+        <deletion>bes</deletion>
+      </correction> wichtigste <correction>
+        <deletion>Sache</deletion>
+
+        <insertion>Dinge</insertion>
+      </correction>, das Meer!<par/>Du <error>
+        <errorType/>
+
+        <originalForm>must</originalForm>
+
+        <targetForm>musst</targetForm>
+      </error> in Afrika gehen, hier gibt es das beste Meer des Welt. Die Hotels sind alle luxuriös und die Plätzchen <correction>
+        <deletion>scheinen</deletion>
+      </correction> <correction>
+        <deletion><unreadable/></deletion>
+      </correction> sind <correction>
+        <deletion><unreadable/></deletion>
+      </correction> wunderbar. Es wird wie einen Traum sein.<par/>Sooo, <error>
+        <errorType/>
+
+        <originalForm>jetz</originalForm>
+
+        <targetForm>jetzt</targetForm>
+      </error>, glaube ich, dass du die richtige Entscheidung machen kannst.<par/>Viel Glück und viel Spa<overwrite>
+        <under><unreadable/></under>
+
+        <over>ß</over>
+      </overwrite>! <closing><par/>Tschüüüs,<par/> <entity>Simone</entity>.</closing> </exercise>
+  </body>
+</kolipsi_document>

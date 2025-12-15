@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I08_STA23GAB</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><correction>
+        <deletion>Hallo <correction>
+            <deletion><unreadable/></deletion>
+          </correction> Mario,<par/>Am Montag war ich mi Maria nach Supermarkt. Sie hat etwas gekauft. <correction>
+            <deletion><unreadable/></deletion>
+          </correction> Und dann <correction>
+            <deletion>haben</deletion>
+
+            <insertion>sind</insertion>
+          </correction> wir nach andere Supermarkt gegangen. <correction>
+            <deletion>Aber</deletion>
+          </correction> Da war ein Problem an der Kasse. D<correction>
+            <deletion>ie</deletion>
+
+            <insertion>en</insertion>
+          </correction> Kassenzettel denkt, dass sie gestellen hat. Zen minuten später <correction>
+            <deletion><unreadable/></deletion>
+          </correction> haben die Polizei gekommen. Ich musste für sie z<correction>
+            <deletion>ä</deletion>
+
+            <insertion>a</insertion>
+          </correction>hlen.</deletion>
+      </correction><par/><greeting>Hallo Mario,</greeting><par/><error>
+        <errorType/>
+
+        <originalForm>Am</originalForm>
+
+        <targetForm>am</targetForm>
+      </error> Montag war ich mit Maria nach Supermarkt. <correction>
+        <deletion><unreadable/></deletion>
+      </correction> Wir kauften etwas zu essen, weil wir ein <correction>
+        <deletion><unreadable/></deletion>
+      </correction> Party möchten haben.<par/>Aber, es spaziert ein Problem, sie hat den Kassenzettel vergessen und wir sind nach andere Supermarkt <error>
+        <errorType/>
+
+        <originalForm>gegan<correction>
+            <deletion>e</deletion>
+
+            <insertion>d</insertion>
+          </correction>en</originalForm>
+
+        <targetForm>gegangen</targetForm>
+      </error>. Die <correction>
+        <deletion>ver</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>Verkauferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> denket, dass Maria <correction>
+        <deletion>hat</deletion>
+      </correction> die Produkten <error>
+        <errorType/>
+
+        <originalForm><correction>
+            <deletion>ver</deletion>
+
+            <insertion>ge</insertion>
+          </correction>stollen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hat.<par/>Die <error>
+        <errorType/>
+
+        <originalForm>Verkauferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> wollte die Polizei <error>
+        <errorType/>
+
+        <originalForm>einruffen</originalForm>
+
+        <targetForm>einrufen</targetForm>
+      </error>. Am die Ende habe ich alles gezahlen. Von deine Freund,<par/>Gabriel<par/>gabriel1996@gmail.com</exercise>
+
+    
+  </body>
+</kolipsi_II_document>

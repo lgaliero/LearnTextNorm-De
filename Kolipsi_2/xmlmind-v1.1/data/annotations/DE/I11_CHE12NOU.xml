@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I11_CHE12NOU</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><correction>
+        <deletion>Liebe Francesca, letzte Woche meine Freundin Maria war letzte Woche einkaufen</deletion>
+      </correction><par /><greeting>Liebe Francesca,</greeting> wie geht es dir? <error>
+        <errorType />
+
+        <originalForm>hast</originalForm>
+
+        <targetForm>Hast</targetForm>
+      </error> du etwas <error>
+        <errorType />
+
+        <originalForm>neues</originalForm>
+
+        <targetForm>Neues</targetForm>
+      </error> zu erzählen? Ich schon...<par />Meine Freundin Maria <correction>
+        <insertion>war</insertion>
+      </correction> letzte Woche einkaufen. Sie kaufte zuerst in einem Obst- und Gemüseladen. <correction>
+        <deletion>Sie hat viele gekaufen gekauft. Wenn sie <unreadable /> woll Als sie einkaufen wollte</deletion>
+      </correction> Wenn sie einkaufen war, sie hat alle Sachen gepackt aber sie hat die <error>
+        <errorType />
+
+        <originalForm>Kassenbilge</originalForm>
+
+        <targetForm>Kassenbeleg</targetForm>
+      </error> vergessen.<par />Eine Stunde spä<correction>
+        <deletion>d</deletion>
+
+        <insertion>t</insertion>
+      </correction>er war sie im Supermarkt. <correction>
+        <deletion>Doch <unreadable /> gekauft: An die Kasse gab es ein Problem</deletion>
+      </correction> Dort gab es ein Problem an der Kasse. Die Käuferin hat gedacht dass Maria <error>
+        <errorType />
+
+        <originalForm>gestolt</originalForm>
+
+        <targetForm>gestohlt</targetForm>
+      </error> hat. Sie hat <error>
+        <errorType />
+
+        <originalForm>Ihn</originalForm>
+
+        <targetForm>ihn</targetForm>
+      </error> <correction>
+        <deletion>gefragt o</deletion>
+      </correction> gestopft und gefragt <correction>
+        <deletion>wo die Sache</deletion>
+      </correction> warum nimmt die Sachen ohne zahlen. Maria antwortete dass sie zuerst <correction>
+        <deletion><unreadable /> im</deletion>
+      </correction> in einem Obst- und Gemüseladen war und dort hat sie die Sachen gekauft. Die Käuferin hat sie nicht <correction>
+        <deletion>gebl</deletion>
+      </correction> geglaubt und <error>
+        <errorType />
+
+        <originalForm>wollthe</originalForm>
+
+        <targetForm>wollte</targetForm>
+      </error> der <error>
+        <errorType />
+
+        <originalForm>Kassenbilg</originalForm>
+
+        <targetForm>Kassenbeleg</targetForm>
+      </error> schauen aber Maria hatte es nicht. S<correction>
+        <deletion>ie</deletion>
+
+        <insertion>o</insertion>
+      </correction> ist sie <error>
+        <errorType />
+
+        <originalForm>zurück gegangen</originalForm>
+
+        <targetForm>zurückgegangen</targetForm>
+      </error> hat den <error>
+        <errorType />
+
+        <originalForm>Kassenbild</originalForm>
+
+        <targetForm>Kassenbeleg</targetForm>
+      </error> gefunden. Sie ist im Supermarkt gekommen und hat der <error>
+        <errorType />
+
+        <originalForm>Kassenbilg</originalForm>
+
+        <targetForm>Kassenbeleg</targetForm>
+      </error> an die Käuferin gezeigt. So konnte <correction>
+        <deletion>s</deletion>
+      </correction> gehen. Ist ein bisschen <error>
+        <errorType />
+
+        <originalForm>komich</originalForm>
+
+        <targetForm>komisch</targetForm>
+      </error>!<par /><closing>Viele Dank</closing> <correction>
+        <deletion><unreadable /></deletion>
+      </correction></exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Liebe Paul,</greeting> ich habe dein Brief <correction>
+        <deletion>gel<unreadable /></deletion>
+      </correction> in der Rubrik gelesen, und <correction>
+        <deletion>s</deletion>
+
+        <insertion>j</insertion>
+      </correction>etzt ich schreibe dich um <correction>
+        <deletion>vor</deletion>
+      </correction> dir zu helfen. Diese <correction>
+        <deletion>Thema</deletion>
+
+        <insertion>Situa<correction>
+            <deletion>z</deletion>
+
+            <insertion>t</insertion>
+          </correction>ion</insertion>
+      </correction> ist sehr <error>
+        <errorType />
+
+        <originalForm>schwirig</originalForm>
+
+        <targetForm>schwierig</targetForm>
+      </error>. Ich glaube, dass <emphasis>fast</emphasis> alle <correction>
+        <deletion>Freundsc</deletion>
+      </correction> virtuelle Freundschaften sind <correction>
+        <deletion>ein bischen</deletion>
+      </correction> falsch, weil viele Leut<correction>
+        <deletion>h</deletion>
+      </correction>e hinter ein Computer sind ganz anders als <error>
+        <errorType />
+
+        <originalForm>realität</originalForm>
+
+        <targetForm>Realität</targetForm>
+      </error>. Du kannst nicht wissen wie sie wirklich sind, du <correction>
+        <deletion><unreadable /></deletion>
+      </correction> musst persönliche kennen<correction>
+        <deletion>zu</deletion>
+      </correction>lernen. Die virtuelle <error>
+        <errorType />
+
+        <originalForm>Lebe<correction>
+            <deletion>n</deletion>
+          </correction></originalForm>
+
+        <targetForm>Leben</targetForm>
+      </error> ist anders als die <error>
+        <errorType />
+
+        <originalForm>realität</originalForm>
+
+        <targetForm>Realität</targetForm>
+      </error>. Du kannst nicht für diese Leute <error>
+        <errorType />
+
+        <originalForm>Leben</originalForm>
+
+        <targetForm>leben</targetForm>
+      </error> die du noch nie gesehen hast.<par /><correction>
+        <deletion><unreadable />ei Du</deletion>
+      </correction> Ich glaube, dass du mit ein paar Leute noch chatten kannst, aber nicht nur. Du musst mit deine Freunde treffen, in ein Bar gehen, quatschen und nicht zu Hause blei<correction>
+        <deletion><unreadable />b</deletion>
+
+        <insertion>b</insertion>
+      </correction>en und mit ein "Computer reden". Es ist sehr traurig.<par />Die Verwendung des Internets kann sehr schlecht sein. Es muss man intelligent sein und <correction>
+        <deletion>vie</deletion>
+      </correction> sehr gut <correction>
+        <insertion>Internet</insertion>
+      </correction> benützen.<par />Paul, du musst antworten und sagen dass du nicht viel Zeit hast. Du musst nicht alle Schluss machen, aber nur ein richtige <error>
+        <errorType />
+
+        <originalForm>mitte</originalForm>
+
+        <targetForm>Mitte</targetForm>
+      </error> suchen. Du musst mehr Zeit mit Realität <correction>
+        <deletion>verbringen</deletion>
+      </correction> und nicht im Vi<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>r</insertion>
+      </correction>tuelle verbringen.<par /><closing>Vielen Dank</closing> Nonala El Maakaen </exercise>
+  </body>
+</kolipsi_II_document>

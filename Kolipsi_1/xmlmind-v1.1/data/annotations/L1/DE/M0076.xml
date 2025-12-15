@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0076</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hey mein Freund <emoticon>=)</emoticon></greeting>,<par />kennst du noch <entity>Maria</entity>? Das ist die kleine <error>
+        <errorType />
+
+        <originalForm>blonde</originalForm>
+
+        <targetForm>Blonde</targetForm>
+      </error>, mit der wir das letzte <overwrite>
+        <under>m</under>
+
+        <over>M</over>
+      </overwrite>al schwimmen waren.<par />Letzte <error>
+        <errorType />
+
+        <originalForm>woche</originalForm>
+
+        <targetForm>Woche</targetForm>
+      </error> <palimpsest>als sie einkaufen war, musste</palimpsest> sie fast zur Polizei! Sie war erst in einem Obst- und Gemüseladen, weil das Obst bei uns im Supermarkt meistens etwas gammelig und alt aus<hyphen>-</hyphen>sieht und ist dann danach in den Supermarkt gefahren. Als sie mit ihren Sachen an der Kasse stand und bezahlt hat, hat auf einmal die <palimpsest>Kassiererin</palimpsest> hinter ihr gerufen: <direct_speech>"Sie hat Obst in der Tasche! Sie wollte es klauen!"</direct_speech> <entity>Maria</entity> wollte sie beschwichtigen und ihr erklären, dass sie das Obst woanders gekauft habe, aber die <error>
+        <errorType />
+
+        <originalForm>Kassierein</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> glaubte ihr nicht und wollte den Kassenbon sehen. Das Problem war nur, dass <entity>Maria</entity> den Kassenbon nicht mitgenommen hatte und somit der Frau keine Beweise dafür, dass sie das Obst woanders gekauft hatte, geben konnte. Erst als die, dazugeeilten Angestellten, das Obst aus<hyphen>-</hyphen>packten und feststellten, dass es eine andere Apfel<hyphen>-</hyphen>sorte war, als die, die sie fü<overwrite>
+        <under>r</under>
+
+        <over>h</over>
+      </overwrite>rten, bemerkten sie den Irrtum.<par />Als <error>
+        <errorType />
+
+        <originalForm>entschädigung</originalForm>
+
+        <targetForm>Entschädigung</targetForm>
+      </error> hat <entity>Maria </entity>einen <error>
+        <errorType />
+
+        <originalForm>Einkaufgutschein</originalForm>
+
+        <targetForm>Einkaufsgutschein</targetForm>
+      </error> über <unreadable /> € bekommen.<par />Stell dir mal vor es wäre <error>
+        <errorType />
+
+        <originalForm>die selbe</originalForm>
+
+        <targetForm>dieselbe</targetForm>
+      </error> Apfelsorte gewesen!<par />Also, merk<correction>
+        <deletion>e</deletion>
+      </correction> dir "immer die Kassenzettel mitnehmen" <emoticon>=D</emoticon>!<par /><closing><error>
+          <errorType />
+
+          <originalForm>bis</originalForm>
+
+          <targetForm>Bis</targetForm>
+        </error> bald<par />deine Freundin <emoticon>=)</emoticon></closing>    </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hey meine Freundin <emoticon>=)</emoticon></greeting>,<par />also, noch einmal zu unserem Urlaub. Ich habe mir die unterschiedlichen Reiseziele mal angesehen und es würde jetzt wirklich darauf ankommen was wir uns von unserem Urlaub erhoffen.<par />Wenn wir in die Berge fahren, hätten wir die Möglichkeit zu wandern oder Fahrrad zu fahren. Das wäre dann eher ein sportlicher Urlaub. Obwohl wir auch auf eine Farm könnten, d.h. so eine Art Bauernhof. Das wäre deutlich billiger, aber dafür müssten wir mitarbeiten. Da stand etwas von 'den halben Tag arbeiten und danach Freizeit'. Wir dürften auch reiten!<par />Wobei wir auch reiten könnten, wenn wir ans Meer fahren! Da kann man sich die Pferde <overwrite>
+        <under><unreadable /></under>
+
+        <over>l</over>
+      </overwrite>eihen und durch die <error>
+        <errorType />
+
+        <originalForm>Dühnen</originalForm>
+
+        <targetForm>Dünen</targetForm>
+      </error> reiten.<par /><palimpsest>Oder man fährt mit</palimpsest> dem Fahrrad durch die <error>
+        <errorType />
+
+        <originalForm>Dühnen</originalForm>
+
+        <targetForm>Dünen</targetForm>
+      </error>! In <entity>Holland</entity> z.B. gibt es wunderschöne Radwege!<par />Wir könnten dann eine Kombination aus Sport- und Badeurlaub machen.<par />Nur, dass wir nicht wie auf der Farm versorgt werden sondern entweder, wenn wir zelten uns komplett selbst versorgen müssen oder wenn wir in ein Hotel gehen nur selbst für unser Mittag<hyphen>-</hyphen>essen sorgen müssen.<par />Aber um ehrlich zu sein würde ich lieber in ein Hotel, auch wenn es etwas te<overwrite>
+        <under>r</under>
+
+        <over>u</over>
+      </overwrite>rer ist, weil man immer so viel Sand überall hat, wenn man am Strand war und der sich dann im ganzen Zelt verteilt. Im Hotelzimmer ist es leichter die Betten sandfrei zu halten.<par />Außerdem wird es morgens, wenn die Sonne auf das Zelt <error>
+        <errorType />
+
+        <originalForm>schein</originalForm>
+
+        <targetForm>scheint</targetForm>
+      </error> so warm, dass man höchstens bis 8 Uhr schlafen kann und wenn wir mal abends feiern waren würde ich auch gerne mal länger schlafen <emoticon>=D</emoticon>.<par />Also alles in allem würde ich lieber ans Meer, als in die Berge fahren, weil ich keine Lust auf einen puren Sporturlaub habe und sehr gerne bei warmen Wetter auch mal ins Meer hüpfen würde <emoticon>=)</emoticon>. Aber dann lass uns bitte ins Hotel gehen!<par />Sag mir mal wie du darüber denkst, weil wir auch bald mal buchen sollten, wenn wir noch was <error>
+        <errorType />
+
+        <originalForm>gutes</originalForm>
+
+        <targetForm>Gutes</targetForm>
+      </error> bekommen wollen!<par /><closing>Liebe Grüße<par />deine Freundin! <symbol>Herz</symbol></closing>  </exercise>
+  </body>
+</kolipsi_document>

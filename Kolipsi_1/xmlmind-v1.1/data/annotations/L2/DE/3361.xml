@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Jessica</transcriber>
+
+  <author_id>3361</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe <entity>Gulia</entity>,<par /><par /><error>
+          <errorType />
+
+          <originalForm>Wie</originalForm>
+
+          <targetForm>wie</targetForm>
+        </error> gehst du?<par /></greeting><par />Ihre Freundin <entity>Maria</entity> war letzte Wochen einkaufen. Sie <sic>kaufen</sic> zuerst in einem <error>
+        <errorType />
+
+        <originalForm>Obst-und</originalForm>
+
+        <targetForm>Obst- und</targetForm>
+      </error> Gemüseladen ein. Ein Stunde später war sie im Supermarkt. Dort gab es ein Problem an der Kasse. <palimpsest>Die <error>
+          <errorType />
+
+          <originalForm>Kassererin</originalForm>
+
+          <targetForm>Kassiererin</targetForm>
+        </error> fragen <entity>Maria</entity> wo</palimpsest> <palimpsest>haben Sie</palimpsest> der Brot nehmen, weil <entity>Maria</entity> kauft in <error>
+        <errorType />
+
+        <originalForm>Backrei</originalForm>
+
+        <targetForm>Bäckerei</targetForm>
+      </error> nicht in Supermarkt.<par />Später <entity>Maria </entity><error>
+        <errorType />
+
+        <originalForm>züruck</originalForm>
+
+        <targetForm>zurück</targetForm>
+      </error> kommen <sic>Hause</sic>, aber in die Straße <error>
+        <errorType />
+
+        <originalForm>wehren</originalForm>
+
+        <targetForm>während</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> gehen auf <error>
+        <errorType />
+
+        <originalForm>Zebronschriefen</originalForm>
+
+        <targetForm>Zebrastreifen</targetForm>
+      </error>, ein Auto <error>
+        <errorType />
+
+        <originalForm>toten</originalForm>
+
+        <targetForm>töten</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error>. Weniger später kommen in <error>
+        <errorType />
+
+        <originalForm>Ambulance</originalForm>
+
+        <targetForm>Ambulanz</targetForm>
+      </error>, <palimpsest><error>
+          <errorType />
+
+          <originalForm>Sie</originalForm>
+
+          <targetForm>sie</targetForm>
+        </error> werden</palimpsest> in Krankenhaus. <palimpsest>Der <error>
+          <errorType />
+
+          <originalForm>Docktor</originalForm>
+
+          <targetForm>Doktor</targetForm>
+        </error></palimpsest> machen alles von helfen <entity>Maria</entity>, aber <unreadable /> <sic>gestorbe</sic>.<par />Alles Freunde haben von <entity>Maria</entity> traurig.</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Alessandro</entity>,<par /><par />wie gehst du?</greeting> <par />Wo in Urlaub in der Bergen oder Urlaub am Meer gehen?<par />In Urlaub in der Bergen ist <foreign_word
+        foreign_language="Italiano">relax</foreign_word>, aber <sic>nich</sic> Meer, in Bergen war <error>
+        <errorType />
+
+        <originalForm><palimpsest>Wi</palimpsest>sen</originalForm>
+
+        <targetForm>Wiesen</targetForm>
+      </error>, <palimpsest>Bl</palimpsest>umen, <sic>Schaft</sic>, K<palimpsest>u</palimpsest>h, <palimpsest>grüne, <sic>Baume</sic>.</palimpsest><par />In Urlaub in Meer ist <sic>Speis</sic>, war Strand, Sonne <correction>
+        <deletion><unreadable /></deletion>
+      </correction> alles <sic>hungen</sic>, <error>
+        <errorType />
+
+        <originalForm>kocktail</originalForm>
+
+        <targetForm>Cocktail</targetForm>
+      </error>, <palimpsest>in Disco <error>
+          <errorType />
+
+          <originalForm>nacht</originalForm>
+
+          <targetForm>Nacht</targetForm>
+        </error></palimpsest>.<par /><palimpsest>Für mich der</palimpsest> Meer ist ein Urla<palimpsest>ub</palimpsest> <sic>fantastic</sic>.<par />Schreiben mir <palimpsest>bald</palimpsest>!!<par /><par /><greeting>Grüßen<par /><entity><par />Alexa</entity></greeting></exercise>
+  </body>
+</kolipsi_document>

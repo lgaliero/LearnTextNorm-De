@@ -1,0 +1,87 @@
+<body>
+ <page page_number="1" transcanno_page_id="2488">
+  <paragraph class="medium-paragraph" tagcode="1611830443162">
+   <div>
+    <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611315685553" tran_capitalisation_target="Mein" tran_capitalisation_type="01 completely capitalised">
+     MEIN
+    </tran_capitalisation_id85>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Traumberuf" tagcode="1553011026855">
+     <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611830443161" tran_capitalisation_target="Traumberuf" tran_capitalisation_type="01 completely capitalised">
+      TRAUBERUF
+     </tran_capitalisation_id85>
+    </orth_error_id12>
+    <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611315777165" tran_capitalisation_target="ist" tran_capitalisation_type="01 completely capitalised">
+     IST
+    </tran_capitalisation_id85>
+    <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611315792202" tran_capitalisation_target="gesinghst" tran_capitalisation_type="01 completely capitalised">
+     GESINGHST
+    </tran_capitalisation_id85>
+   </div>
+   <div>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553011161825" tran_correction_original="(">
+     (
+    </tran_word_correction_id25>
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1589276477718" tran_foreign_word_language="Italian">
+     <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611315833917" tran_capitalisation_target="non" tran_capitalisation_type="01 completely capitalised">
+      NON
+     </tran_capitalisation_id85>
+    </tran_foreign_word_id13>
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1589276489572" tran_foreign_word_language="Italian">
+     <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611315847199" tran_capitalisation_target="so" tran_capitalisation_type="01 completely capitalised">
+      SO
+     </tran_capitalisation_id85>
+    </tran_foreign_word_id13>
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1553011151524">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553011153489" tran_word_deletion_target="_#_">
+      *
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1589276506333" tran_foreign_word_language="Italian">
+     <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611315860485" tran_capitalisation_target="come" tran_capitalisation_type="01 completely capitalised">
+      COME
+     </tran_capitalisation_id85>
+    </tran_foreign_word_id13>
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1589276511962" tran_foreign_word_language="Italian">
+     <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611315868594" tran_capitalisation_target="si" tran_capitalisation_type="01 completely capitalised">
+      SI
+     </tran_capitalisation_id85>
+    </tran_foreign_word_id13>
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1589276517483" tran_foreign_word_language="Italian">
+     <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611315879068" tran_capitalisation_target="scrive" tran_capitalisation_type="01 completely capitalised">
+      SCRIVE
+     </tran_capitalisation_id85>
+    </tran_foreign_word_id13>
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1589276524582" tran_foreign_word_language="Italian">
+     <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611315891957" tran_capitalisation_target="comunque" tran_capitalisation_type="01 completely capitalised">
+      COMUNQUE
+     </tran_capitalisation_id85>
+    </tran_foreign_word_id13>
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1589276469150" tran_foreign_word_language="Italian">
+     <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611315902983" tran_capitalisation_target="voglio" tran_capitalisation_type="01 completely capitalised">
+      VOGLIO
+     </tran_capitalisation_id85>
+    </tran_foreign_word_id13>
+   </div>
+   <div>
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1553011166700" tran_foreign_word_language="Italian">
+     <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611315911619" tran_capitalisation_target="cantare" tran_capitalisation_type="01 completely capitalised">
+      CANTARE
+     </tran_capitalisation_id85>
+    </tran_foreign_word_id13>
+    )
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1553011098377">
+     *
+    </tran_unreadable_id17>
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1611830443163">
+   <div>
+    Ich
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="möchte" tagcode="1556653479960">
+     mochte
+    </orth_error_id12>
+    nicht an der Universität.
+   </div>
+  </paragraph>
+ </page>
+</body>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>6396</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Lieber <entity>Hans</entity> </greeting> <par/>Wie geht es dir in die Schule? <par/>Wir sind <error>
+        <errorType/>
+
+        <originalForm>schön</originalForm>
+
+        <targetForm>schon</targetForm>
+      </error> im März und ich will dann unsere Urlaub planen. <par/>Ich bin aber nicht sicher, ob ich li<strikeover>
+        <expansion>e</expansion>
+
+        <expansion>b</expansion>
+      </strikeover>er in die Berge oder lieber ans Meer fahren soll. Was denkst du? <par/>Sicher ist in die Berge frischer und manchmal gibt es nicht so viele Leute, wie ans Meer. <par/>Ich muss dann aber auch sagen dass, wir ans Meer viel mehr Entspannung mit Freunden haben könn<strikeover>
+        <expansion>t</expansion>
+
+        <expansion>e</expansion>
+      </strikeover>n. <par/>Von den Photos die ich gesehen habe, kann ich sagen, dass das Meer wirklich wunderbar ist. <par/>Als ich zehn Jahre alt war, bin ich schon in <palimpsest>unreadable</palimpsest> die Berge während des Sommers gegangen. <error>
+        <errorType/>
+
+        <originalForm>und</originalForm>
+
+        <targetForm>Und</targetForm>
+      </error> ich habe viel Leute kennengelernt, mit dem ich noch <sic>Kontakts</sic> habe. <par/>Wir konnten auch hier arbeiten, weil hier auch ein kleinem Gasthof gibt, wo mein Vater während des Sommers arbeiten sollte. <par/>Wir können auch ein bisschen klettern und viel laufen. Sicher gibt es auch ans Meer viele Möglichkeiten um Entspannung zu haben, wie zum Beispiel schwimmen oder auf dem Strand <error>
+        <errorType/>
+
+        <originalForm>Voleyball</originalForm>
+
+        <targetForm>Volleyball</targetForm>
+      </error> spielen. <par/>Also was sagst du mir? <par/>Ich warte auf deine Antwort, <par/><closing>Viele Grüße! <par/> Deine <entity>Giulia</entity> </closing></exercise>
+  </body>
+</kolipsi_document>

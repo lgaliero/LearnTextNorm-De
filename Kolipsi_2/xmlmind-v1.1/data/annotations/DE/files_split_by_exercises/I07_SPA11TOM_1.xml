@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I07_SPA11TOM</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo Alessandro,</greeting><par/><error>
+        <errorType/>
+
+        <originalForm>Wie</originalForm>
+
+        <targetForm>wie</targetForm>
+      </error> geht es dir? Mir geht es gut danke, aber ich wollte dir etwas erzählen.<par/><correction>
+        <deletion>Meine Freundin</deletion>
+      </correction> Eine Freundin von mir, Maria, <correction>
+        <insertion>war</insertion>
+      </correction> ein Tag letztes Woche einkaufen. Sie kaufte zuerst in einem Obst- und Gemüseladen ein.<par/>Eine Stunde war sie im Supermarkt und in diesem Supermarkt waren verschiedene Produkte. <correction>
+        <deletion><unreadable/></deletion>
+      </correction> Als sie alles eingekauft hat geht sie bei der Kasse. Dort gab es ein Problem an der Kasse. Die Kassiererin sagt dass <correction>
+        <deletion>sie</deletion>
+      </correction> Maria die Gemüse stehlen wollte. Aber Maria sagte dass<correction>
+        <deletion><unreadable/></deletion>
+      </correction> sie nicht etwas für die Gemüse zahlen sollte. Sie hatte schon bei dem andere Geschäft <correction>
+        <deletion><unreadable/></deletion>
+      </correction> bezahlt. <correction>
+        <deletion><unreadable/> Die Kasiererin</deletion>
+      </correction> Die Kassiererin hatte<correction>
+        <deletion>t</deletion>
+      </correction> sie nicht geglaubt und sie hatte<correction>
+        <deletion>t</deletion>
+      </correction> die Polizei <correction>
+        <deletion><unreadable/></deletion>
+      </correction> angerufen. Wenn die Polizei gekommen war, musste Maria alles erklären. Sie ging mit den Polizei bei den andere Geschäft und mit der <error>
+        <errorType/>
+
+        <originalForm>Verkauferins</originalForm>
+
+        <targetForm>Verkäuferins</targetForm>
+      </error> Hilfe war alles in <correction>
+        <deletion>o</deletion>
+
+        <insertion>O</insertion>
+      </correction>rdnung. Am <correction>
+        <deletion>e</deletion>
+
+        <insertion>E</insertion>
+      </correction>nde mit de<correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>r</insertion>
+      </correction> Situation unter <error>
+        <errorType/>
+
+        <originalForm>kontrolle</originalForm>
+
+        <targetForm>Kontrolle</targetForm>
+      </error>, die Kassiererin <correction>
+        <deletion><unreadable/></deletion>
+      </correction> hatte<correction>
+        <deletion>t</deletion>
+      </correction> mit Maria <error>
+        <errorType/>
+
+        <originalForm>entschuldigd</originalForm>
+
+        <targetForm>entschuldigt</targetForm>
+      </error>.<par/><closing>Viele Grüße.</closing><par/><correction>
+        <deletion><unreadable/></deletion>
+      </correction> Franz Joseph</exercise>
+
+    
+  </body>
+</kolipsi_II_document>

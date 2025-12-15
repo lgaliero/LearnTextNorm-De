@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Romy</transcriber>
+
+  <author_id>N7027</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo liebe <entity>Katharina</entity>!</greeting><par /><error>
+        <errorType />
+
+        <originalForm>wie</originalForm>
+
+        <targetForm>Wie</targetForm>
+      </error> geht es dir? Ich alles ok: <palimpsest>Schule,</palimpsest> Freunde und <palimpsest>L</palimpsest>iebe, aber ich muss dir unbedingt etwas er<strikeover>
+        <expansion>z</expansion>
+
+        <expansion>ä</expansion>
+      </strikeover>hlen. Letzte Woche war meine Freundin <entity>Maria</entity> in einem Obst- und <error>
+        <errorType />
+
+        <originalForm>gemüse</originalForm>
+
+        <targetForm>Gemüse</targetForm>
+      </error> ei<overwrite>
+        <over>n</over>
+
+        <under>n</under>
+      </overwrite><palimpsest>kaufen.</palimpsest> <par />Sie kaufte eine Tasche voller Obst und <error>
+        <errorType />
+
+        <originalForm>gemüse</originalForm>
+
+        <targetForm>Gemüse</targetForm>
+      </error>, aber als sie bezahlte, vergaß sie den Kassenzettel bei der Kasse und das wurde später ein Problem. Eine Stunde später ging sie <error>
+        <errorType />
+
+        <originalForm>nähmlich</originalForm>
+
+        <targetForm>nämlich</targetForm>
+      </error> in einem Supermarkt und kaufte <error>
+        <errorType />
+
+        <originalForm>verschidene</originalForm>
+
+        <targetForm>verschiedene</targetForm>
+      </error> <sic>Lebensmitteln</sic> ein. Als sie bei der Kasse <palimpsest>war, um zu bezahlen,</palimpsest> sah das <palimpsest>Fräu</palimpsest>lein die dort arbeitete, dass <entity>Maria</entity> eine Tasche voller Obst und Gemüse hatte und ahnte dass sie die <error>
+        <errorType />
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hätte. <entity>Maria</entity> konnte leider nicht beurteilen, dass das nicht <error>
+        <errorType />
+
+        <originalForm>war</originalForm>
+
+        <targetForm>wahr</targetForm>
+      </error> sei, denn sie merkte <palimpsest>sie</palimpsest> habe den Kassenzettel des anderen Geschäftes nicht mitgenommen. Das war wirklich ein großes Problem, und <entity>Maria</entity> wusste nicht was machen <error>
+        <errorType />
+
+        <originalForm>un</originalForm>
+
+        <targetForm>um</targetForm>
+      </error> <palimpsest>es</palimpsest> zu lösen. Sie versuchte <palimpsest>sich zu erklären</palimpsest> aber das <error>
+        <errorType />
+
+        <originalForm>Freulein</originalForm>
+
+        <targetForm>Fräulein</targetForm>
+      </error> glaubte ihr nicht. Deshalb gingen <entity>Maria</entity> und das <error>
+        <errorType />
+
+        <originalForm>Freulein</originalForm>
+
+        <targetForm>Fräulein</targetForm>
+      </error> zu dem andren Geschäft und fanden <palimpsest>den</palimpsest> Kassenzettel noch bei der Kasse. Somit war das <palimpsest>Problem</palimpsest> gelöst und <entity>Maria</entity> konnte wieder ruhig einkaufen. <par />Deswegen <entity>Katharina</entity> erinnere dich immer die Kassenzetteln mitzunehmen um keine <palimpsest>Probleme</palimpsest> zu haben.<par /><closing>Viele Grüße und viel Liebe <par /><entity>Valentina</entity> </closing></exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo liebe <entity>Hannah</entity>!</greeting><par />Erinnerst du di<palimpsest>r</palimpsest> wenn wir <palimpsest>über</palimpsest> einen gemeinsamen Urlaub gesprochen haben?<par />Ich denke, dass das eine sehr schöne Idee wäre und deswegen habe ich mir ein paar <error>
+        <errorType />
+
+        <originalForm>gedanken</originalForm>
+
+        <targetForm>Gedanken</targetForm>
+      </error> gemacht <par />Ich kann noch nicht <error>
+        <errorType />
+
+        <originalForm>bescheid</originalForm>
+
+        <targetForm>Bescheid</targetForm>
+      </error> sagen ob ich lieber in die Berge oder ans Me<palimpsest>er</palimpsest> fahren möchte, de<overwrite>
+        <over>n</over>
+
+        <under>r</under>
+      </overwrite><palimpsest>n</palimpsest> mich würde beides sehr begeistern. <par />In die Berge würden wir uns besser entspannen. <overwrite>
+        <over>I</over>
+
+        <under>i</under>
+      </overwrite>n die ruhige Stille der Berge könnten wir manche <error>
+        <errorType />
+
+        <originalForm>Spatziergänge</originalForm>
+
+        <targetForm>Spaziergänge</targetForm>
+      </error> machen, frische und saubere Luft <error>
+        <errorType />
+
+        <originalForm>amten</originalForm>
+
+        <targetForm>atmen</targetForm>
+      </error> und ich hätte weniger Problemen mit meinem Hund, denn ich könnte ihn <palimpsest>mitbringen</palimpsest> ohne mich <error>
+        <errorType />
+
+        <originalForm>sorgen</originalForm>
+
+        <targetForm>Sorgen</targetForm>
+      </error> zu machen.<par />Ans Meer würde alles ein bisschen lebendiger sein; wir könnte mehrere <overwrite>
+        <over>L</over>
+
+        <under>l</under>
+      </overwrite>eute <error>
+        <errorType />
+
+        <originalForm><correction>
+            <deletion>kennen lernen</deletion>
+
+            <insertion>kennen_lernen</insertion>
+          </correction></originalForm>
+
+        <targetForm>kennen lernen</targetForm>
+      </error><comment>kennen lernen wurde durch einen Bogen verbunden – kennen_lernen – Korrektur -Trennung-Verbindung</comment> und da es <palimpsest>bald</palimpsest> auch Frühling ist würde es auch schon ganz schön warm sein und wir könnte baden und unter der Sonne liegen. <par />Ja, wie du auch sehen kannst ist es überhaupt <palimpsest>nicht</palimpsest> einfach zu entscheiden, aber wenn ich <error>
+        <errorType />
+
+        <originalForm>erlich</originalForm>
+
+        <targetForm>ehrlich</targetForm>
+      </error> bin, würde ich lieber ein<palimpsest>e schöne und</palimpsest> entspannte Woche in die Berge verbringen, denn ich <palimpsest>habe</palimpsest> letzter Zeit immer <error>
+        <errorType />
+
+        <originalForm>si</originalForm>
+
+        <targetForm>so</targetForm>
+      </error> viel zu tun, dass ich nie einen Moment für mich selbst habe. Wir könnte <gap>_</gap> diesen Sommer, wenn es auch wärmer sein wird, eine andere Wochen zusammen ans Meer verbringen; aber wie gesagt für mich ist es eigentlich egal wo wir gehen, hauptsäch<hyphen>-</hyphen>lich wir verbringen eine Woche zusammen!! <par />Deswegen <palimpsest>sag<correction>
+          <deletion>t</deletion>
+        </correction></palimpsest> du mir auch was du lieber machen würdest, und dann können wir zusammen eine <error>
+        <errorType />
+
+        <originalForm>Destinazion</originalForm>
+
+        <targetForm> Destination</targetForm>
+      </error> finden! <par /><closing>Liebe <palimpsest>G</palimpsest>rüße <par /><entity>Valentina</entity> </closing></exercise>
+  </body>
+</kolipsi_document>

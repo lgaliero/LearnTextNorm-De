@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>4910</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Liebe<entity> Anna</entity>,</greeting> <par/> wie gehts es dir? Ich hoffe alles gut… <par/><error>
+        <errorType/>
+
+        <originalForm>wie</originalForm>
+
+        <targetForm>Wie</targetForm>
+      </error> geht’s mit die Arbeit? <par/>Die Schule ist fertig! Ich bin sehr froh! <par/>Jetzt planen ich eine Urlaub mit meine Freunden, aber wir sind nicht noch sicher ob wir in den Bergen oder am Meer fahren sollen. <par/>Ich <correction>
+        <deletion>wir</deletion>
+      </correction> liebe das Meer aber mein Freund liebt die Bergen Die andere Freunden <sic>weissen</sic> nicht wo sie gehen wollen <correction>
+        <deletion>Am Meer</deletion>
+      </correction> Als wir am Meer fahren, fahren wir nach <entity>Pugua</entity> und als wir in die Bergen fahren, fahren wir nach <entity>Bozen</entity>. Das Meer ist schön weil ich liebe die Wasser und die Sonne Die Bergen sind schön weil wir können viele <sic>Sparzierung</sic> machen. In den Bergen sind vielen Park und wir lieben die Natur. <par/>Wir <sic>weissen</sic> nicht wo <correction>
+        <deletion><unreadable/></deletion>
+      </correction> <strikeover>
+        <expansion>s</expansion>
+
+        <expansion>m</expansion>
+      </strikeover>ehr schön ist. <par/><correction>
+        <deletion>D</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>was</originalForm>
+
+        <targetForm>Was</targetForm>
+      </error> denkst du?! <par/>Was <correction>
+        <deletion>s</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>gefäht</originalForm>
+
+        <targetForm>gefällt</targetForm>
+      </error> am besten? <par/>Ich warte deine Antworte! <closing>Viele <error>
+          <errorType/>
+
+          <originalForm>Grüss</originalForm>
+
+          <targetForm>Grüße</targetForm>
+        </error> <par/> Kuss <gap>_</gap> bis bald <par/> <entity>Debby</entity> </closing></exercise>
+  </body>
+</kolipsi_document>

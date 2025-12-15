@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0170</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo, mein geliebter Freund.</greeting><par/>Ich muss dir was total <error>
+        <errorType/>
+
+        <originalForm>lustiges</originalForm>
+
+        <targetForm>Lustiges</targetForm>
+      </error> erzählen. Du kennst doch meine Freundin <entity>Maria</entity>, oder? Sie war heute zuerst in einem Obst- bzw. Gemüseladen einkaufen, hat aber dann da den Kassenbon liegen lassen. Anschließend ging sie in einen Supermarkt und kaufte da noch voll viele Sachen.<par/>Als sie dann aber <correction>
+        <deletion>d</deletion>
+      </correction> da an der Kasse stand, hat die Kassierer<overwrite>
+        <under>e</under>
+
+        <over>i</over>
+      </overwrite>n die ganzen Sachen gesehen die <entity>Maria</entity> in ihrem Rucksack hatte, weil sie ja vorher in dem Obstladen war. Also hat die Kassiererin <entity>Maria</entity> angemotzt weil die dachte, die Sachen wären geklaut. <entity>Maria</entity> bekam totale Panik weil sie sowieso ein kleines Sensibelchen ist. Sie hat versucht zu erklären, dass die Sachen nicht aus dem Supermarkt sind, sondern aus dem Bioladen um die Ecke. Aber die Kassiererin hat ihr leider nicht geglaubt und die Polizei gerufen. Die haben sich dann erstmal schön Zeit gelassen, und sind nach einer halben Stunde eingetrudelt. Später sind die dann um die Ecke zum Bioladen gegangen, und - Gott sei Dank - konnte sich die Verkäuferin dort an <entity>Maria</entity> <error>
+        <errorType/>
+
+        <originalForm>errinnern</originalForm>
+
+        <targetForm>erinnern</targetForm>
+      </error>. Da ist sie ja nochmal mit dem Schreck <error>
+        <errorType/>
+
+        <originalForm>davon gekommen</originalForm>
+
+        <targetForm>davongekommen</targetForm>
+      </error>. Lustige Geschichte, oder???<par/><closing><reduction>
+          <reductionType rType="02 abbreviation"/>
+
+          <reducedForm>Lg</reducedForm>
+
+          <unfoldedForm>Liebe Grüße</unfoldedForm>
+        </reduction>, ....</closing>    </exercise>
+
+    
+  </body>
+</kolipsi_document>

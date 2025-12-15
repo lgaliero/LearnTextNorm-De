@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0026</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity><error>
+            <errorType/>
+
+            <originalForm>Mr.</originalForm>
+
+            <targetForm>Mr</targetForm>
+          </error> X</entity></greeting>,<par/>ich möchte dir gerne eine Geschichte erzählen, die meiner Freundin <entity>Maria</entity> passiert ist. Meine Freundin wollte eines Tages einen Einkauf tätigen.<par/><palimpsest>Anfangs ist sie zum Obst- und Gemüsehändler</palimpsest> gegangen, aber sie hat dort ihren Kassenbon liegen lassen. Danach ist <entity>Maria</entity> zum Supermarkt gefahren. An diesem Ort hat sie auch ihren Einkauf getätigt. An der Kasse gab es ein Problem, da die Kassiererin dachte, dass <entity>Maria</entity> die Sachen, die sie beim Obst- und Gemüsehändler gekauft hat, geklaut hat. Dann kam zufällig die Kassiererin des Obst- und Gemüseladens vorbei und bestätigte der Kassiererin, dass <entity>Maria</entity> vorher dort war und die Produkte dort eingekauft hat. Dadurch war das Missverständnis aufgeklärt. <closing>Also noch einen schönen Tag, <par/>mit freundlichen Grüßen<par/><entity>Mr. Y</entity>   </closing>      </exercise>
+
+    
+  </body>
+</kolipsi_document>

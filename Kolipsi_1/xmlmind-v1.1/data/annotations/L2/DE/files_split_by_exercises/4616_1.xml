@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Alena</transcriber>
+
+  <author_id>4616</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve">A: <unreadable/>@yahoo.it <comment>name made unreadable</comment><par/>Objekt: Der Kassenzettel <par/><greeting>Hallo</greeting>,<par/>Wie geht es dir? Mit der Schule ist alles in <error>
+        <errorType/>
+
+        <originalForm>ordnung</originalForm>
+
+        <targetForm>Ordnung</targetForm>
+      </error>? <par/>Ich will <correction>
+        <deletion><unreadable/></deletion>
+      </correction> dir erzählen, was in Maria passiert ist. <par/>Meine Freundin Maria war letzte Woche einkaufen. Sie kaufte zuerst in einem Obst- und Gemüseladen ein. Dann <correction>
+        <deletion>ist</deletion>
+      </correction> sie <correction>
+        <deletion>ist</deletion>
+
+        <insertion>hat</insertion>
+      </correction> ein <error>
+        <errorType/>
+
+        <originalForm>Kafee</originalForm>
+
+        <targetForm>Kaffee</targetForm>
+      </error> getrunken. Sie hat diese <error>
+        <errorType/>
+
+        <originalForm>Kafee</originalForm>
+
+        <targetForm>Kaffee</targetForm>
+      </error> getrunken in <correction>
+        <deletion>uns</deletion>
+      </correction> unsere Lieblingsbar: "Splash Kafee". Da der <error>
+        <errorType/>
+
+        <originalForm>Kafee</originalForm>
+
+        <targetForm>Kaffee</targetForm>
+      </error> ist sehr sehr gut. Du solltest kommen <error>
+        <errorType/>
+
+        <originalForm>einmahl</originalForm>
+
+        <targetForm>einmal</targetForm>
+      </error> mit uns. <par/>Eine Stunde später war sie im Supermarkt. Dort einkauft sie anderen Sachen zum <error>
+        <errorType/>
+
+        <originalForm>essen</originalForm>
+
+        <targetForm>Essen</targetForm>
+      </error> und für das Haus: Milch, Brot, <error>
+        <errorType/>
+
+        <originalForm>sachen</originalForm>
+
+        <targetForm>Sachen</targetForm>
+      </error> für <correction>
+        <deletion>all</deletion>
+      </correction> putzen das Haus und anderen Sachen. Aber im Supermarkt gab es ein Problem an der Kasse. Da der Verkäuferin denkt <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> sie das Obst und die Gemüse <error>
+        <errorType/>
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hat. Sie sagt dass sie <correction>
+        <insertion>hat</insertion>
+      </correction> diese Sachen in ein andere Geschäft gekauft. Der Verkäuferin glaubt sie nicht, weil Maria hat keine Kassenzettel für diese Sachen. Sie hat den Kassenzettel in der andere Geschäft vergessen. Dann Maria erklärt an <correction>
+        <insertion>die</insertion>
+      </correction> Verkäuferin was passiert ist und geht alles in <error>
+        <errorType/>
+
+        <originalForm>ordnung</originalForm>
+
+        <targetForm>Ordnung</targetForm>
+      </error>. <par/>Ist eine sehr interessante <error>
+        <errorType/>
+
+        <originalForm>Geschicht</originalForm>
+
+        <targetForm>Geschichte</targetForm>
+      </error>.<par/>Schreib du auch mir eine.<par/><greeting><correction>
+          <deletion><unreadable/></deletion>
+        </correction>Tschüss</greeting></exercise>
+
+    
+  </body>
+</kolipsi_document>

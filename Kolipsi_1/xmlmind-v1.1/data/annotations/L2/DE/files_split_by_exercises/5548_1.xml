@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5548</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Liebe <entity>Annika</entity>,</greeting> <par/><error>
+        <errorType/>
+
+        <originalForm>Wie</originalForm>
+
+        <targetForm>wie</targetForm>
+      </error> geht es dir? Mir sehr gut. Und mit deine neue <sic>Nachbarer</sic>? Ich will jetzt dir eine komische <error>
+        <errorType/>
+
+        <originalForm>episode</originalForm>
+
+        <targetForm>Episode</targetForm>
+      </error> erzählen. Es ist in Supermarkt passiert; <error>
+        <errorType/>
+
+        <originalForm>dir</originalForm>
+
+        <targetForm>die</targetForm>
+      </error> Protagonistin ist unsere alte Freundin <entity>Maria</entity>. Letzte <error>
+        <errorType/>
+
+        <originalForm>woche</originalForm>
+
+        <targetForm>Woche</targetForm>
+      </error> ist <entity>Maria</entity> im Supermarkt gegangen um zu einkaufen. Zuerst hat sie einem Obst- und Gemüseladen einkaufen. <error>
+        <errorType/>
+
+        <originalForm>sie</originalForm>
+
+        <targetForm>Sie</targetForm>
+      </error> geht an der Kasse und sie hat es <error>
+        <errorType/>
+
+        <originalForm>bezählt</originalForm>
+
+        <targetForm>bezahlt</targetForm>
+      </error>. Wenn sie weggegangen ist, hat sie seinen Kassenzettel vergessen. Sie hat ihre Obst- und Gemüseladen in eine Tasche gelegt. <par/>Eine Stunde später war sie wieder in Supermarkt. Sie will anderen Produkten einkaufen, <error>
+        <errorType/>
+
+        <originalForm>So</originalForm>
+
+        <targetForm>so</targetForm>
+      </error> ist sie an der Kasse gegangen. Aber an der Kasse gab es ein Problem. Die Verkäuferin hat die Obst- und Gemüseladen die <entity>Maria</entity> vorher gekauft hat gesehen. Sie dachte dass sie hat diese Produkte <error>
+        <errorType/>
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error>!! <entity>Maria</entity> <foreign_word foreign_language="English">was</foreign_word> <error>
+        <errorType/>
+
+        <originalForm>chochiert</originalForm>
+
+        <targetForm>schockiert</targetForm>
+      </error>!!! Später haben sie die Kassenzettel in eine andere Kasse gefunden. Nachdem das passiert ist, will sie <error>
+        <errorType/>
+
+        <originalForm>nich</originalForm>
+
+        <targetForm>nicht</targetForm>
+      </error> mehr einkaufen gehen!!! Sie hat gelernt dass ein Kassenzettel zu vergessen ist sehr gefährlich!! <par/>Ich muss jetzt gehen. Ich warte deine <error>
+        <errorType/>
+
+        <originalForm>antworte</originalForm>
+
+        <targetForm>Antworte</targetForm>
+      </error>!! <par/><closing>Viele <error>
+          <errorType/>
+
+          <originalForm>grüße</originalForm>
+
+          <targetForm>Grüße</targetForm>
+        </error> <entity>Giulia</entity> </closing></exercise>
+
+    
+  </body>
+</kolipsi_document>

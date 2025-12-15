@@ -1,0 +1,95 @@
+<body>
+ <page page_number="1" transcanno_page_id="1077">
+  <paragraph class="medium-paragraph" tagcode="1589358875818">
+   <div>
+    1) Eine Tage zwei Freundin gehen in der Wald.
+   </div>
+   <div>
+    Danach
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="dreißig" tagcode="1552810065721">
+     dreizig
+    </orth_error_id12>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Minuten" tagcode="1552810058492">
+     minuten
+    </orth_error_id12>
+    ,
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1552810073315" tran_correction_original="d**">
+     die
+    </tran_word_correction_id25>
+    Freundin
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1552810098834" tran_correction_original="hö***">
+     hören
+    </tran_word_correction_id25>
+   </div>
+   <div>
+    eine
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Lärm" tagcode="1552810142447">
+     lerm
+    </orth_error_id12>
+    .
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1589358875820">
+   <div>
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1552810114706">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552810117267" tran_word_deletion_target="_#_">
+      * * *
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+   </div>
+   <div>
+    2) Danach gehen
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552810164604" tran_word_deletion_target="_#_">
+     int
+    </tran_word_deletion_id8>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="hinter" tagcode="1552810176674">
+     inter
+    </orth_error_id12>
+    der Baum .
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1589358875822">
+   <div>
+    3) Hören
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552810223579" tran_word_deletion_target="_#_">
+     <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1589358869436" tran_foreign_word_language="Italian">
+      di
+     </tran_foreign_word_id13>
+     <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1589358875817" tran_foreign_word_language="Italian">
+      nuovo
+     </tran_foreign_word_id13>
+    </tran_word_deletion_id8>
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1552810213333">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552810215708" tran_word_deletion_target="_#_">
+      *
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1556637877429" tran_correction_original="ei*e">
+     eine
+    </tran_word_correction_id25>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Lärm" tagcode="1552810230678">
+     <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1552810267895" tran_correction_original="ler*">
+      lerm
+     </tran_word_correction_id25>
+    </orth_error_id12>
+    ,
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552810288868" tran_word_deletion_target="_#_">
+     si
+    </tran_word_deletion_id8>
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1552810292162">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552810296001" tran_word_deletion_target="_#_">
+      un*
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+    und
+   </div>
+   <div>
+    sagh es ist
+    <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1552810315965" tran_alternative_1="ein" tran_alternative_2="eim">
+     ein
+    </tran_ambiguous_id3>
+    Bär , ...
+   </div>
+  </paragraph>
+ </page>
+</body>

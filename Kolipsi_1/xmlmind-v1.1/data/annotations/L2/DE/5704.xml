@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5704</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><comment>Text in Dialogform/Chat verfasst</comment><error>
+        <errorType />
+
+        <originalForm>Freundi<ambiguous>
+            <alternative>ne</alternative>
+
+            <alternative>m</alternative>
+          </ambiguous></originalForm>
+
+        <targetForm>Freundin</targetForm>
+      </error>: Hallo <palimpsest>….</palimpsest> <par />Ich: Hallo <error>
+        <errorType />
+
+        <originalForm>Freundi<ambiguous>
+            <alternative>nn</alternative>
+
+            <alternative>m</alternative>
+          </ambiguous></originalForm>
+
+        <targetForm>Freundin</targetForm>
+      </error> wie geht es dir? <par />F<overwrite>
+        <over>r</over>
+
+        <under>u</under>
+      </overwrite>eund: Gut danke. <par />Ich: <error>
+        <errorType />
+
+        <originalForm>w<overwrite>
+            <over>eiß</over>
+
+            <under><unreadable /></under>
+          </overwrite>t</originalForm>
+
+        <targetForm>Weißt</targetForm>
+      </error>, was es heute <error>
+        <errorType />
+
+        <originalForm>na<overwrite>
+            <over>c</over>
+
+            <under><unreadable /></under>
+          </overwrite>hmitag</originalForm>
+
+        <targetForm>Nachmittag</targetForm>
+      </error> passiert ist? Ken<overwrite>
+        <over>n</over>
+
+        <under>s</under>
+      </overwrite>st du <entity>Maria</entity>, das Mädchen mit blonden Haaren, sie von 3F. Und kennst du sie. <par />Freund…: Ah ja, ja und was ist es passiert <overwrite>
+        <over>I</over>
+
+        <under><unreadable /></under>
+      </overwrite>ch: <error>
+        <errorType />
+
+        <originalForm>heute</originalForm>
+
+        <targetForm>Heute</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>nachmitag</originalForm>
+
+        <targetForm>Nachmittag</targetForm>
+      </error> ist sie in einem Obst- und <error>
+        <errorType />
+
+        <originalForm>Gemüselader</originalForm>
+
+        <targetForm>Gemüseladen</targetForm>
+      </error> gengan<unreadable />en, und eine, und eine <overwrite>
+        <over>S</over>
+
+        <under>s</under>
+      </overwrite>tunde später ging sie in <correction>
+        <deletion><unreadable /></deletion>
+      </correction> <foreign_word foreign_language="Italiano">Supermarket</foreign_word> <unreadable /> dort ga<overwrite>
+        <over>b</over>
+
+        <under>s</under>
+      </overwrite> es ei<overwrite>
+        <over>n</over>
+
+        <under><unreadable /></under>
+      </overwrite> Problem an der Kasse. Wenn <entity>Maria</entity> zu der Kasse war hat <correction>
+        <insertion>sie</insertion>
+      </correction> <correction>
+        <deletion>die sachen</deletion>
+      </correction> <correction>
+        <insertion>bezahlt</insertion>
+      </correction> <correction>
+        <deletion>was sie eingekauft hat</deletion>
+      </correction> Aber die <error>
+        <errorType />
+
+        <originalForm><overwrite>
+            <over>V</over>
+
+            <under>v</under>
+          </overwrite>erkeuferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> sagt<overwrite>
+        <over>:</over>
+
+        <under><unreadable /></under>
+      </overwrite> <direct_speech>“<error>
+          <errorType />
+
+          <originalForm>du</originalForm>
+
+          <targetForm>Du</targetForm>
+        </error> musst d<overwrite>
+          <over>a</over>
+
+          <under>i</under>
+        </overwrite>s Obst <correction>
+          <deletion>bezahlen, aber Maria</deletion>
+        </correction> was du in die Ta<overwrite>
+          <over>s</over>
+
+          <under>c</under>
+        </overwrite>che ha<overwrite>
+          <over>s</over>
+
+          <under>t</under>
+        </overwrite>t bezahlen</direct_speech>, <overwrite>
+        <over>a</over>
+
+        <under>A</under>
+      </overwrite>ber <entity>Maria</entity> <correction>
+        <deletion>hatte</deletion>
+      </correction> hat es schon beza<overwrite>
+        <over>hl</over>
+
+        <under>lt</under>
+      </overwrite>t <error>
+        <errorType />
+
+        <originalForm>wen</originalForm>
+
+        <targetForm>wenn</targetForm>
+      </error> sie bei <error>
+        <errorType />
+
+        <originalForm>Gemüselader</originalForm>
+
+        <targetForm>Gemüseladen</targetForm>
+      </error> war. Die <error>
+        <errorType />
+
+        <originalForm>Verkeuferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>ergärt</originalForm>
+
+        <targetForm>ärgert</targetForm>
+      </error> si<overwrite>
+        <over>c</over>
+
+        <under>e</under>
+      </overwrite>h weil <entity><overwrite>
+          <over>M</over>
+
+          <under>m</under>
+        </overwrite>aria</entity> ging ohne <error>
+        <errorType />
+
+        <originalForm>zubezahlen</originalForm>
+
+        <targetForm>zu bezahlen</targetForm>
+      </error>. <error>
+        <errorType />
+
+        <originalForm>aber</originalForm>
+
+        <targetForm>Aber</targetForm>
+      </error> es war <error>
+        <errorType />
+
+        <originalForm>nich</originalForm>
+
+        <targetForm>nicht</targetForm>
+      </error> wahr <ambiguous>
+        <alternative>.</alternative>
+
+        <alternative>,</alternative>
+      </ambiguous> <correction>
+        <deletion>und</deletion>
+      </correction> <entity>Maria</entity> war total erschreckt, aber zum <error>
+        <errorType />
+
+        <originalForm>schluß</originalForm>
+
+        <targetForm>Schluss</targetForm>
+      </error> ging sie. <par /><error>
+        <errorType />
+
+        <originalForm>Freundi</originalForm>
+
+        <targetForm>Freundin</targetForm>
+      </error>…: <foreign_word foreign_language="Italiano">Ma</foreign_word> , die <error>
+        <errorType />
+
+        <originalForm>Verkeuferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> war ei<ambiguous>
+        <alternative>n</alternative>
+
+        <alternative>m</alternative>
+      </ambiguous>e… <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Ich: We<ambiguous>
+        <alternative>nn</alternative>
+
+        <alternative>m</alternative>
+      </ambiguous> ich <correction>
+        <deletion>ins</deletion>
+      </correction> sie <error>
+        <errorType />
+
+        <originalForm>währe</originalForm>
+
+        <targetForm>wäre</targetForm>
+      </error> hatte ich weggehen.</exercise>
+
+    <exercise number="2" xml:space="preserve">Le<overwrite>
+        <over>tz</over>
+
+        <under>z</under>
+      </overwrite>tes Sommer <correction>
+        <deletion>ging</deletion>
+
+        <insertion>hatte</insertion>
+      </correction> ich <correction>
+        <deletion><unreadable /></deletion>
+      </correction> einen <error>
+        <errorType />
+
+        <originalForm>Url<ambiguous>
+            <alternative>o</alternative>
+
+            <alternative>a</alternative>
+          </ambiguous>b</originalForm>
+
+        <targetForm>Urlaub</targetForm>
+      </error> am Meer gemacht und es war so schön, wunderbar, dort gehen. Es war so heiß, <correction>
+        <deletion>das</deletion>
+      </correction> die Sonne <sic>seinte</sic> und <error>
+        <errorType />
+
+        <originalForm>währmte</originalForm>
+
+        <targetForm>wärmte</targetForm>
+      </error> unsere Körper und das Meer. Das Wasser war <overwrite>
+        <over>s</over>
+
+        <under>e</under>
+      </overwrite>o warm, so schön. <error>
+        <errorType />
+
+        <originalForm><overwrite>
+            <over>e</over>
+
+            <under><unreadable /></under>
+          </overwrite>s</originalForm>
+
+        <targetForm>Es</targetForm>
+      </error> war auch durchsichtig. Man k<ambiguous>
+        <alternative>a</alternative>
+
+        <alternative>o</alternative>
+      </ambiguous>nn Sonnenuntergang am Wasser seh<correction>
+        <insertion>en</insertion>
+
+        <deletion>e</deletion>
+      </correction>, man kann Volleyball <overwrite>
+        <over>sp</over>
+
+        <under>shp</under>
+      </overwrite>ielen und dort können wir mit <error>
+        <errorType />
+
+        <originalForm>bickin</originalForm>
+
+        <targetForm>Bikini</targetForm>
+      </error> spazieren ge<ambiguous>
+        <alternative>h</alternative>
+
+        <alternative>b</alternative>
+      </ambiguous>en, und so weiter…. Aber in den Bergen können wir ein <error>
+        <errorType />
+
+        <originalForm>por</originalForm>
+
+        <targetForm>paar</targetForm>
+      </error> Sachen nicht <sic>mache</sic> was wir <correction>
+        <deletion>in</deletion>
+      </correction> zu <overwrite>
+        <over>M</over>
+
+        <under><unreadable /></under>
+      </overwrite>e<ambiguous>
+        <alternative>e</alternative>
+
+        <alternative>o</alternative>
+      </ambiguous>r machen. Die Bergen sind nur <error>
+        <errorType />
+
+        <originalForm>steine</originalForm>
+
+        <targetForm>Steine</targetForm>
+      </error> und mir gefallen die Bergen <ambiguous>
+        <alternative>mich</alternative>
+
+        <alternative>nich</alternative>
+      </ambiguous> lieber würde i<overwrite>
+        <over>ch</over>
+
+        <under>ek</under>
+      </overwrite> ins <error>
+        <errorType />
+
+        <originalForm>mehr</originalForm>
+
+        <targetForm>Meer</targetForm>
+      </error> gehen</exercise>
+  </body>
+</kolipsi_document>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>4352</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve">
+ <par/><greeting>Hallo <entity>BiBi</entity>,</greeting> <par/>wie <error>
+        <errorType/>
+
+        <originalForm>gehts</originalForm>
+
+        <targetForm>geht´s</targetForm>
+      </error>? Mir alles gut.<par/>Also, ich habe gedacht auf die unsere <strikeover>
+        <expansion>S</expansion>
+
+        <expansion>s</expansion>
+      </strikeover>o<correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>mm</insertion>
+      </correction>erfe<hyphen>-</hyphen>rien: "Berge oder Meer?"<par/>Jetzt stelle ich d<palimpsest>ir</palimpsest> einige Möglichkeiten vor.<palimpsest> </palimpsest> Wir können ins <entity>Apulien</entity> <correction>
+        <deletion>gehen</deletion>
+      </correction> <arrow end="open" id="1"> </arrow> sondern ins <error>
+        <errorType/>
+
+        <originalForm>berg</originalForm>
+
+        <targetForm>Berg</targetForm>
+      </error>, neben <entity>Ruffré</entity> <arrow end="head" id="1">fahren</arrow> .<par/>Für mich ist gleich, weil wie du <error>
+        <errorType/>
+
+        <originalForm>weist</originalForm>
+
+        <targetForm>weißt</targetForm>
+      </error> ich <arrow end="open" id="2"> </arrow> alle zwei Möglichkeiten <arrow end="head" id="2">liebe</arrow>.<par/>Aber <correction>
+        <deletion>ans</deletion>
+      </correction> wi<overwrite>
+        <under><unreadable/></under>
+
+        <over>r</over>
+      </overwrite> leben im <entity>Bozen</entity>!, also möchte ich <error>
+        <errorType/>
+
+        <originalForm>dies<palimpsest> </palimpsest> mal</originalForm>
+
+        <targetForm>diesmal</targetForm>
+      </error> <strikeover>
+        <expansion>n</expansion>
+
+        <expansion>i</expansion>
+      </strikeover>ach Meer<palimpsest> </palimpsest> <correction>
+        <deletion><palimpsest> </palimpsest></deletion>
+
+        <insertion>fahren</insertion>
+      </correction>! Ich habe <entity>Apulien</entity> <error>
+        <errorType/>
+
+        <originalForm>guewält</originalForm>
+
+        <targetForm>gewählt</targetForm>
+      </error>, weil sehr sehr schön ist, aber wenn du es nicht magst, musst du mir sagen. Ja, auch Berg ist schön, wir können ins <error>
+        <errorType/>
+
+        <originalForm>shöne</originalForm>
+
+        <targetForm>schöne</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>disko</originalForm>
+
+        <targetForm>Disko</targetForm>
+      </error><arrow end="open" id="3"> </arrow> oder spazieren <arrow end="head" id="3">gehen</arrow>. Ich habe eines Haus auf die Berge aber ich gehe dort nur im <correction>
+        <deletion>Som</deletion>
+      </correction> Winterferien. Der <strikeover>
+        <expansion>O</expansion>
+
+        <expansion>o</expansion>
+      </strikeover>rt ist schön, aber <correction>
+        <insertion>ist</insertion>
+      </correction> kalt auch im Sommer.<par/>Ich warte deine <error>
+        <errorType/>
+
+        <originalForm>antworte<correction>
+            <deletion>n</deletion>
+          </correction></originalForm>
+
+        <targetForm>Antworte</targetForm>
+      </error>.<par/><closing>K<overwrite>
+          <under><unreadable/></under>
+
+          <over>ü</over>
+        </overwrite>ssch<correction>
+          <deletion>i</deletion>
+        </correction>en <entity>Miriam</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

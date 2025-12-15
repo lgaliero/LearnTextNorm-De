@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>4905</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Francesco</entity> </greeting> <error>
+        <errorType />
+
+        <originalForm>Wie</originalForm>
+
+        <targetForm>wie</targetForm>
+      </error> geht es dir, ich <error>
+        <errorType />
+
+        <originalForm>erzahle</originalForm>
+
+        <targetForm>erzähle</targetForm>
+      </error> dich etwas. Ich habe eine <error>
+        <errorType />
+
+        <originalForm>Freunden</originalForm>
+
+        <targetForm>Freundin</targetForm>
+      </error> das <entity>Maria</entity> heißt, und ihr ist etwas sehr <error>
+        <errorType />
+
+        <originalForm>komisches</originalForm>
+
+        <targetForm>Komisches</targetForm>
+      </error> passiert. Letzte Woche ist sie einkaufen gegangen. <error>
+        <errorType />
+
+        <originalForm>Zuert</originalForm>
+
+        <targetForm>Zuerst</targetForm>
+      </error> kaufte sie in einem <correction>
+        <deletion>Obst</deletion>
+      </correction> Obst- und Gemüseladen ein. Eine Stunde später war sie im Supermarkt. Dort gab es ein großes Problem an der Kasse, weil die Kasse <error>
+        <errorType />
+
+        <originalForm>liesst</originalForm>
+
+        <targetForm>liest</targetForm>
+      </error> nicht der <error>
+        <errorType />
+
+        <originalForm>Preiß</originalForm>
+
+        <targetForm>Preis</targetForm>
+      </error> einer <error>
+        <errorType />
+
+        <originalForm>Speiße</originalForm>
+
+        <targetForm>Speise</targetForm>
+      </error> das im <foreign_word foreign_language="Italiano">S<correction>
+          <deletion>o</deletion>
+
+          <insertion>c</insertion>
+        </correction>onto</foreign_word> war. <entity>Mari<overwrite>
+          <under><unreadable /></under>
+
+          <over>a</over>
+        </overwrite></entity> wollte nicht das normaler <error>
+        <errorType />
+
+        <originalForm>Preiß</originalForm>
+
+        <targetForm>Preis</targetForm>
+      </error> bezahlen. Sie ging mit der Frau <error>
+        <errorType />
+
+        <originalForm>schauhen</originalForm>
+
+        <targetForm>schauen</targetForm>
+      </error>, wer recht hat. Sie sehen das war einen <foreign_word
+        foreign_language="Italiano">S<correction>
+          <deletion>o</deletion>
+
+          <insertion>c</insertion>
+        </correction>onto</foreign_word> von 20%, aber die <error>
+        <errorType />
+
+        <originalForm>Verkauferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> war nicht sicher und deshalb rufte sie jemanden an. Das <error>
+        <errorType />
+
+        <originalForm>Kapiten</originalForm>
+
+        <targetForm>Kapitän</targetForm>
+      </error> sagte <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> die <error>
+        <errorType />
+
+        <originalForm>Verkauferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> musste sie in <entity>Maria</entity> noch eine Schachte<strikeover>
+        <expansion>l</expansion>
+
+        <expansion>n</expansion>
+      </strikeover> schenken. Dann <entity>Maria</entity> gingt <error>
+        <errorType />
+
+        <originalForm>fröh</originalForm>
+
+        <targetForm>froh</targetForm>
+      </error> nach Hause. Was glaubst du? Schreib mir eine <error>
+        <errorType />
+
+        <originalForm>Email</originalForm>
+
+        <targetForm>E-Mail</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>zuruck</originalForm>
+
+        <targetForm>zurück</targetForm>
+      </error></exercise>
+
+    <exercise number="2" xml:space="preserve">
+ <par /><greeting>L<strikeover>
+          <expansion>ie</expansion>
+
+          <expansion>e</expansion>
+        </strikeover>be <entity>Giulia</entity>,</greeting> wir sehen uns von langer Zeit nicht. Aber jetzt werden wir uns für die Ferien sehen. Ich weiße noch nicht wohin wir fahren <error>
+        <errorType />
+
+        <originalForm>konnen</originalForm>
+
+        <targetForm>können</targetForm>
+      </error>. Ich habe zwei Ideen. Eine ist das wir auf den Be<correction>
+        <deletion>g</deletion>
+
+        <insertion>r</insertion>
+      </correction>g gehen, dort <error>
+        <errorType />
+
+        <originalForm>konnen</originalForm>
+
+        <targetForm>können</targetForm>
+      </error> wir sehr lange spazieren gehen, und ich weiß <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> es dir sehr gut gefä<overwrite>
+        <under><unreadable /></under>
+
+        <over>l</over>
+      </overwrite>lt. Dort <error>
+        <errorType />
+
+        <originalForm>konnen</originalForm>
+
+        <targetForm>können</targetForm>
+      </error> wir einen k<correction>
+        <deletion>e</deletion>
+
+        <insertion>l</insertion>
+      </correction>einen See finden. Ich habe einen kleinen Haus auf einen Pass, es kostet nicht so viel und wir <error>
+        <errorType />
+
+        <originalForm>konnen</originalForm>
+
+        <targetForm>können</targetForm>
+      </error> bleiben wie lange wir wollen. Und von dort <error>
+        <errorType />
+
+        <originalForm>konnen</originalForm>
+
+        <targetForm>können</targetForm>
+      </error> wir auf viele Bergen gehen. Oder wir <error>
+        <errorType />
+
+        <originalForm>konnen</originalForm>
+
+        <targetForm>können</targetForm>
+      </error> ans Meer fahren, ich weiß <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> es dir so gut gefällt. A<ambiguous>
+        <alternative>ns</alternative>
+
+        <alternative>m</alternative>
+      </ambiguous> Meer <error>
+        <errorType />
+
+        <originalForm>konnen</originalForm>
+
+        <targetForm>können</targetForm>
+      </error> wir am Abend im<strikeover>
+        <expansion>m</expansion>
+
+        <expansion>n</expansion>
+      </strikeover>er <error>
+        <errorType />
+
+        <originalForm>hinaus gehen</originalForm>
+
+        <targetForm>hinausgehen</targetForm>
+      </error> oder in der Disko. Also ich wieder<correction>
+        <insertion>h</insertion>
+      </correction>ole dir alles, auf den Meer sind <strikeover>
+        <expansion>vi</expansion>
+
+        <expansion>w</expansion>
+      </strikeover>ele Leuten und ist sehr <gap>_</gap>. Aber auf den Berg ist viel Ruhe und ist einen <error>
+        <errorType />
+
+        <originalForm>schonen</originalForm>
+
+        <targetForm>schönen</targetForm>
+      </error> <correction>
+        <deletion>Passage</deletion>
+      </correction> <foreign_word foreign_language="Italiano">Paesaggio</foreign_word>. Schreib mir einen <error>
+        <errorType />
+
+        <originalForm>Brif</originalForm>
+
+        <targetForm>Brief</targetForm>
+      </error> wo du mir sagst was dir besser gefällt. Antworte mir früher als du kannst.<par /><closing>Deinen <entity>Kevin</entity>.</closing> </exercise>
+  </body>
+</kolipsi_document>

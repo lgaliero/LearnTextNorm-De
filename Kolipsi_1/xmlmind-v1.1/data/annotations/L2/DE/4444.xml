@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>4444</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve">
+ <par /><greeting>Hallo <entity>Denisa</entity>,</greeting> <par />wie geht es dir? In<palimpsest> </palimpsest> der Schule, passt alles? Habt ihr viel zum studieren? Ich bin sehr müde wegen der Schule, aber zum Glück ist es fast <error>
+        <errorType />
+
+        <originalForm>vertig</originalForm>
+
+        <targetForm>fertig</targetForm>
+      </error>, fast am Ende. Erinnest du dich meine F<palimpsest>reundin</palimpsest> <entity>Maria</entity>, <palimpsest> </palimpsest>die von meiner Klasse? Na ja, <error>
+        <errorType />
+
+        <originalForm>troztdem</originalForm>
+
+        <targetForm>trotzdem</targetForm>
+      </error>, gestern hat sie mir telefoniert und hat mir erzählt was ihr im Supermarkt passiert war: <error>
+        <errorType />
+
+        <originalForm>ich</originalForm>
+
+        <targetForm>Ich</targetForm>
+      </error> werde dich das erzählen. Sie war beim Obsthändler einkaufen gegangen, aber, wenn sie das Obst bezahlt hatte, vergaß sie den <error>
+        <errorType />
+
+        <originalForm>Kassenzeltel</originalForm>
+
+        <targetForm>Kassenzettel</targetForm>
+      </error>. Später <palimpsest>ist</palimpsest> sie im Superm<overwrite>
+        <under><unreadable /></under>
+
+        <over>a</over>
+      </overwrite>rkt gegangen um die letzten Sachen zu kaufen. Wenn <error>
+        <errorType />
+
+        <originalForm><correction>
+            <deletion>S</deletion>
+          </correction>ie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> zahlen gegangen ist, hat die <error>
+        <errorType />
+
+        <originalForm>Kassierin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> ihre Tasche voll Obst und Gemüse gesehen, und hatte gedacht dass <entity>Maria</entity> es gestohlen hat. <entity>Maria</entity> werdet nicht gegl<overwrite>
+        <under><unreadable /></under>
+
+        <over>a</over>
+      </overwrite>ubt weil sie keinen <error>
+        <errorType />
+
+        <originalForm>Kassenzeltel</originalForm>
+
+        <targetForm>Kassenzettel</targetForm>
+      </error> hatte, deswegen müsste sie die ganze Sachen die sie beim Obsthändler und im Supermarkt gekauft hat dort lassen, noch ein<overwrite>
+        <under>e</under>
+
+        <over>m</over>
+      </overwrite>al zum Obsthändler rennen und <overwrite>
+        <under><unreadable /></under>
+
+        <over>d</over>
+      </overwrite>en Kassenzeltel nehmen. Als sie mir das erzählt hat, habe ich so viel gelacht und an dir gedenken, weil du hast immer mir gesagt dass <error>
+        <errorType />
+
+        <originalForm>Kassenzelteln</originalForm>
+
+        <targetForm>Kassenzetteln</targetForm>
+      </error> sind nicht <overwrite>
+        <under><unreadable /></under>
+
+        <over>w</over>
+      </overwrite>ichtig um <overwrite>
+        <under>es</under>
+
+        <over>di</over>
+      </overwrite>e zu halten! Hast du es gesehen!? Ich warte eine Antwort von dir.<par /><closing>Tschüss und... halt die <error>
+          <errorType />
+
+          <originalForm>Kassenzelteln</originalForm>
+
+          <targetForm>Kassenzetteln</targetForm>
+        </error>!<par />Deine Freundin <entity>Fjori</entity> </closing> </exercise>
+
+    <exercise number="2" xml:space="preserve">
+ <par /><greeting>Hallo <entity>Iva</entity>,</greeting> <par />wie geht es dir? Mir passt alles, weil es ist fast Sommer! Wohin wolltes du diesem Sommer fahren? Wir könnten eine Woche am Berg oder am Meer gehen.<par />Die frische <error>
+        <errorType />
+
+        <originalForm>Atmosfere</originalForm>
+
+        <targetForm>Atmosphäre</targetForm>
+      </error> der Bergen, könnte uns viel <sic>Relay</sic> schenken. Magst du <correction>
+        <insertion>das</insertion>
+      </correction>? Die grünen Wiesen, die Bäumen, die Blumen... Wir könnten<palimpsest> </palimpsest> <error>
+        <errorType />
+
+        <originalForm>spatzieren</originalForm>
+
+        <targetForm>spazieren</targetForm>
+      </error> gehen und was anders?? Lass mich denken?? Na ja, aber es ist Sommer und am Berg ist <error>
+        <errorType />
+
+        <originalForm>bessen</originalForm>
+
+        <targetForm>besser</targetForm>
+      </error> wenn wir im Winters Urlaub gehen. Oder? Am <error>
+        <errorType />
+
+        <originalForm>erlichkeit</originalForm>
+
+        <targetForm>Ehrlichkeit</targetForm>
+      </error> wollte ich nach Meer fahren! Ich wollte dass Meer <palimpsest>unseres</palimpsest> Land sehen! Erinnerst du dich? Auch im Winter war es seh<palimpsest>r</palimpsest> schön. Der Sand, das Meer, die Sonne... <error>
+        <errorType />
+
+        <originalForm>ich</originalForm>
+
+        <targetForm>Ich</targetForm>
+      </error> mag <error>
+        <errorType />
+
+        <originalForm>dass</originalForm>
+
+        <targetForm>das</targetForm>
+      </error> über alles! Viel <error>
+        <errorType />
+
+        <originalForm>spaß</originalForm>
+
+        <targetForm>Spaß</targetForm>
+      </error> werden wir haben und auch eine schöne <sic>Abronzatur</sic>. Ja, d<overwrite>
+        <under>i</under>
+
+        <over>a</over>
+      </overwrite>s erste Tag werden wir ein <error>
+        <errorType />
+
+        <originalForm>bisschien</originalForm>
+
+        <targetForm>bisschen</targetForm>
+      </error> rot, aber später braun! Sommer ist gleich mit Urlaub, und Urlaub im Sommer ist gleich mit Meer!<par />Schreibt mich bitte schnell z<palimpsest>u</palimpsest>rück. Was denkst du? Ich muss es organisieren!<par /><closing>Deine <entity>Fjori</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

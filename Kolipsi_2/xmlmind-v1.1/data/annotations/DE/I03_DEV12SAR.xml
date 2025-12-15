@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I03_DEV12SAR</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo Julia!</greeting><par />Wie geht es dir? Ich muss dir was erzählen.<par />Gestern war ich im Supermarkt und hatte eine komische Situation gesehen. Ich war beim Obstladen und hatte meine Tante Maria getroffen. Sie hat<correction>
+        <deletion>te</deletion>
+      </correction> Salat und Kartoffeln gekauft. Sie hat alles in eine Tasche gelegt. Dann war sie zum Supermarkt gegangen. Sie hat ein Kästchen genommen und <error>
+        <errorType />
+
+        <originalForm>begant</originalForm>
+
+        <targetForm>begannt</targetForm>
+      </error> Shampoo zu kaufen.<par />Sie war glücklich, weil sie alles was sie brauchte gefunden hatte. Sie geht an die Kasse um zu zahlen. Sie hat alles in ihre Tasche gelegt. Als sie die Kasse erreichte, begannte die Verkäuferin zu schreien, weil sie denkt, dass Maria ohne zahlen weglaufen wollte. Aber Maria wollte zahlen. So <error>
+        <errorType />
+
+        <originalForm>erklährte</originalForm>
+
+        <targetForm>erklärte</targetForm>
+      </error> sie alles zum Verkäuferin. Meine Tante ist ein bisschen verrückt.<par />Und du? Hast du eigene Situationen mir zu erzählen?<par /><closing>Viele Grüße,</closing><par />Sara</exercise>
+
+    <exercise number="2" xml:space="preserve">Mit großem Interesse habe ich deinen Artikel gelesen.<par />Ich weiß, dass mit diese <correction>
+        <deletion><unreadable /></deletion>
+      </correction> neuen virtuellen Chat, <correction>
+        <deletion>es</deletion>
+      </correction> ist es streng. Wir melden auf vielen <error>
+        <errorType />
+
+        <originalForm>Web Siten</originalForm>
+
+        <targetForm>Websiten</targetForm>
+      </error> an. Wir <correction>
+        <deletion>könne <unreadable /></deletion>
+
+        <insertion>lernen</insertion>
+      </correction> neuen Freunden lernen aber sie sind keine richtigen Freundschaften. Ich <correction>
+        <deletion><unreadable /></deletion>
+      </correction> probiere dir ein Rat geben. Wenn du neuen Freunden kennenlernt mit denen du gut gehst <correction>
+        <deletion>,</deletion>
+      </correction> und gut fühlst, geh weiter mit diesen Freundschaften. Ich hatte auch vielen <error>
+        <errorType />
+
+        <originalForm>Chatten</originalForm>
+
+        <targetForm>Chaten</targetForm>
+      </error>, aber mir gefällt nicht. Ich hätte gerne Freunde, die nicht virtuellen sind. Die Jugendlichen, <correction>
+        <deletion>können</deletion>
+      </correction> die mit seinen Computer schreiben, können auch ein falsch Profil <correction>
+        <deletion><unreadable /></deletion>
+      </correction> machen.<par />Ich hatte eine Chatfreundin aus London. Ich schrieb mit ihr den ganzen Tag, weil sie an mir hörte. Eines Tages <correction>
+        <deletion>finde</deletion>
+      </correction> fand ich aus dass sie ein Mann war und ich schließte meine Chat und mein Computer. Wir können <error>
+        <errorType />
+
+        <originalForm>nich</originalForm>
+
+        <targetForm>nicht</targetForm>
+      </error> wie man gibt unter <correction>
+        <deletion>den</deletion>
+      </correction> die <error>
+        <errorType />
+
+        <originalForm>Chatten</originalForm>
+
+        <targetForm>Chaten</targetForm>
+      </error>.<par /><closing>Mit freundlichen Grüßen,</closing><par />Sara D.  </exercise>
+  </body>
+</kolipsi_II_document>

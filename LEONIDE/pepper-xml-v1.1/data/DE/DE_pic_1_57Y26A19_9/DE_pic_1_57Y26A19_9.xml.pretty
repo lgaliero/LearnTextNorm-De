@@ -1,0 +1,95 @@
+<body>
+ <page page_number="1" transcanno_page_id="151">
+  <paragraph class="medium-paragraph" tagcode="1611823601102">
+   <div>
+    Der
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1527271723983" tran_correction_original="vater">
+     Vater
+    </tran_word_correction_id25>
+    von der
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Kinder" tagcode="1526740116472">
+     kinder
+    </orth_error_id12>
+    <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1526740193002" tran_alternative_1="" tran_alternative_2="">
+     bauen
+    </tran_ambiguous_id3>
+    eine "
+    <tran_emphasis_id11 class="medium-tran_emphasis_id11" tagcode="1526740106861">
+     <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1526740121979" tran_foreign_word_language="Italian">
+      <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611823601101" tran_capitalisation_target="pipa" tran_capitalisation_type="01 completely capitalised">
+       PIPA
+      </tran_capitalisation_id85>
+     </tran_foreign_word_id13>
+    </tran_emphasis_id11>
+    ".
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1611823601103">
+   <div>
+    Die "
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1526740208539" tran_foreign_word_language="Italian">
+     Pipa
+    </tran_foreign_word_id13>
+    " macht
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Feuer" tagcode="1526740203377">
+     feuer
+    </orth_error_id12>
+    und auch
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="den" tagcode="1526740227073">
+     <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1526740275148" tran_correction_original="den">
+      Den
+     </tran_word_correction_id25>
+    </orth_error_id12>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1526740288071" tran_correction_original="haus">
+     Haus
+    </tran_word_correction_id25>
+    bringt
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Feuer" tagcode="1526740233019">
+     feuer
+    </orth_error_id12>
+    .
+   </div>
+   <div>
+    Der
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1526740302983" tran_correction_original="vater">
+     Vater
+    </tran_word_correction_id25>
+    und der Kinder bringen alles
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="das" tagcode="1526740240191">
+     dass
+    </orth_error_id12>
+    in den Haus ist
+   </div>
+   <div>
+    und der Kinder werfen die
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Bücher" tagcode="1526740247910">
+     Bucher
+    </orth_error_id12>
+    in
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1526740315965">
+     den
+    </tran_word_insertion_id9>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Feuer" tagcode="1526740254376">
+     feuer
+    </orth_error_id12>
+    .
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1526740359057" tran_correction_original="*enn">
+     Wenn
+    </tran_word_correction_id25>
+   </div>
+   <div>
+    die Buben sind in Haus sie laufen weg. Der Kinder liebe
+   </div>
+   <div>
+    nicht
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1526740371026">
+     <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1526740377123">
+      *
+     </tran_unreadable_id17>
+     viel
+    </tran_word_insertion_id9>
+    die Schule !!!
+   </div>
+  </paragraph>
+ </page>
+</body>

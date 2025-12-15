@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0098</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Hallo <entity>Marko</entity></greeting>,<par/>ich sitze gerade an meinem Schreibtisch und mache mir Gedanken über die nächsten Sommerferien. Ich freue mich schon total, dass wir und die anderen Jungs wegfahren, allerdings kann ich mich <correction>
+        <deletion>echt</deletion>
+      </correction> noch nicht en<overwrite>
+        <under>d</under>
+
+        <over>t</over>
+      </overwrite>scheiden, wo <correction>
+        <deletion>d<unreadable/></deletion>
+      </correction> ich am liebsten die Ferien verbringen würde.<par/>Ich glaube, meine beiden favorisierten Reiseziele für den Sommer wären entweder das Meer oder die Berge, weil man in beiden Fällen viel an der frischen Luft <correction>
+        <deletion>sein würde</deletion>
+      </correction> ist.<par/>Auf der einen Seite denke ich, dass ein Gebirge bestimmt ziemlich interessant ist, wenn man gerne draußen ist und wandert. Ich bin mir <correction>
+        <deletion>zi</deletion>
+      </correction> sicher, dass wir dort Naturspektakel entdecken w<overwrite>
+        <under><unreadable/></under>
+
+        <over>ü</over>
+      </overwrite>rden, die wir noch nie zuvor gesehen haben. Und auch wenn wir an dem ein oder anderen Tag vielleicht Gefahr laufen <correction>
+        <deletion>werden</deletion>
+      </correction>, uns zu langweilen, wäre ein Urlaub dort sicher sehr erholsam. Auf der anderen Seite machen Strandurlaube natürlich einfach riesigen Spaß, man kann sich wunderbar <error>
+        <errorType/>
+
+        <originalForm>Sonnen</originalForm>
+
+        <targetForm>sonnen</targetForm>
+      </error> und im Meer baden. Des <error>
+        <errorType/>
+
+        <originalForm>weiteren</originalForm>
+
+        <targetForm>Weiteren</targetForm>
+      </error> hat man dort eher die Möglichkeit, neue Leute kennen zu lernen. Das würde <error>
+        <errorType/>
+
+        <originalForm>wiederrum</originalForm>
+
+        <targetForm>wiederum</targetForm>
+      </error> bedeuten, dass man <correction>
+        <deletion>aben</deletion>
+      </correction> am Abend vielleicht ausgeht und nicht sonderlich viel schlafen kann, alles <correction>
+        <deletion>wi</deletion>
+      </correction> wird sehr viel voller und somit hektischer <correction>
+        <deletion>werden</deletion>
+      </correction> sein als in den Bergen. Ich fühle mich <correction>
+        <insertion><error>
+            <errorType/>
+
+            <originalForm>zur Zeit</originalForm>
+
+            <targetForm>zurzeit</targetForm>
+          </error></insertion>
+      </correction> ein wenig gestresst <correction>
+        <deletion>zur Zeit</deletion>
+      </correction>, des<hyphen>-</hyphen>halb habe ich schon Lust auf ein bisschen Ruhe.<par/>Ich denke, dass beide Urlaube eine tolle Erfahrung sein würden, und da ich mich nicht so wirklich entscheiden kann, richte ich mich da auch gerne nach dir. Natürlich sollten wir vorher auch noch mit den anderen <correction>
+        <insertion>r<overwrite>
+            <under><unreadable/></under>
+
+            <over>e</over>
+          </overwrite>den</insertion>
+      </correction>, die mitkommen, <correction>
+        <deletion><unreadable/></deletion>
+      </correction> bevor wir etwas <error>
+        <errorType/>
+
+        <originalForm>konkretes</originalForm>
+
+        <targetForm>Konkretes</targetForm>
+      </error> buchen, wir haben ja auch noch etwas Zeit bis dahin. Ich wollte dir mit diesem Brief nur einen kleinen <error>
+        <errorType/>
+
+        <originalForm>Gedankenastoss</originalForm>
+
+        <targetForm>Gedankenanstoß</targetForm>
+      </error> geben und dich daran erinnern darüber nachzudenken. Sobald du Ideen zu dem Thema hast, schreib mir einfach zurück.<par/><closing>Viele Grüße<par/>[Name]</closing>      </exercise>
+  </body>
+</kolipsi_document>

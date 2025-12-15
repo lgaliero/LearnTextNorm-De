@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I23_STE05GAB</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Lieber Wolfgang,</greeting><par />wie geht es dir? Haben uns lange schon nicht mehr gehört.<par />Der Anlass dieser <error>
+        <errorType />
+
+        <originalForm>Email</originalForm>
+
+        <targetForm>E-Mail</targetForm>
+      </error> ist, dass ich dir gerne eine Geschichte erzählen würde, die vor <error>
+        <errorType />
+
+        <originalForm>kurzem</originalForm>
+
+        <targetForm>Kurzem</targetForm>
+      </error> meiner Freundin Maria <correction>
+        <deletion>zugestoßen</deletion>
+      </correction> wiederfahren ist.<par />Sie hatte mich zum Abendessen eingeladen und war deshalb einkaufen am Morgen. Beim Obst- und Gemüsehändler suchte sie frische Mangostreifen und spanische Tomaten. Allerdings <error>
+        <errorType />
+
+        <originalForm>vergas</originalForm>
+
+        <targetForm>vergaß</targetForm>
+      </error> sie zu bezahlen und vierließ den Laden mit der Ware.<par />Da ihr noch einige Zutaten für das geplante Abendessen fehlten <correction>
+        <deletion>be</deletion>
+      </correction>suchte sie auch noch einen Supermarkt auf. Dort fand sie alle gesuchten Produkte. Jedoch spazierte sie wieder aus dem Supermarkt raus ohne <correction>
+        <deletion>zu zu</deletion>
+      </correction> zu bezahlen. Eine der Angestellten, die an der Kassa arbeitete, wurde stutzig und lief ihr nach um <correction>
+        <deletion>sie z</deletion>
+      </correction> Maria zur <error>
+        <errorType />
+
+        <originalForm>rede</originalForm>
+
+        <targetForm>Rede</targetForm>
+      </error> zu stellen. Diese <error>
+        <errorType />
+
+        <originalForm>beteurte</originalForm>
+
+        <targetForm>beteuerte</targetForm>
+      </error> die Tat und erklärte, dass es ein Versehen gewesen sei. Daraufhin bezahlte sie <correction>
+        <deletion>un</deletion>
+      </correction> und wurde lediglich <error>
+        <errorType />
+
+        <originalForm>daraufhingewiesen</originalForm>
+
+        <targetForm>darauf hingewiesen</targetForm>
+      </error> dieses Verhalten zu unterlassen.<par />Als wir dann abends gemeinsam am Tisch <error>
+        <errorType />
+
+        <originalForm>sasen</originalForm>
+
+        <targetForm>saßen</targetForm>
+      </error> klingelte es an der Tür: Es war die Polizei, die mit Maria sprechen wollte. Ihr wurden mehrere Diebstähle während der letzten 7 Monaten vorgeworfen und sie wurde der Kleptomanie beschuldigt. Daraufhin folgte sie der Polizei aufs Präsidium.<par />Ich bin empört, und werde dir schreiben sobald es was Neues über den Fall gibt.<par /><closing>MfG</closing> Amadeus</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Sehr geehrte Paul,</greeting><par />ich hoffe, dass <correction>
+        <deletion>s</deletion>
+
+        <insertion>S</insertion>
+      </correction>ie in der <error>
+        <errorType />
+
+        <originalForm>ZwischenZeit</originalForm>
+
+        <targetForm>Zwischenzeit</targetForm>
+      </error> eine Lösung gefunden habe. Falls nicht möchte ich Ihnen gerne meine Meinung zu dieser Thematik offenbaren, in der Hoffnung Ihnen helfen zu können.<par />Ehrlich gesagt finde ich virtuelle Freundschaften gut. Aber nur in Maßen. Sie bieten eine hervorragende Möglichkeit, nur sich selbst zu sein oder eben auch mal gewisse <correction>
+        <deletion>Kara</deletion>
+      </correction> Charakterzüge auszuprobieren und sehen wie ein Fremder darauf reagiert. Ebenso ist es eine nette Chance eine Fremdsprache zu üben, wenn man die passende virtuelle Freundschaft gefunden hat.<par />Ich glaube, dass du weiterhin deine Kontakte mit virtuellen Freunden pflegen solltest, allerdings ohne die richtigen zu vernachlässigen. Wie immer im Leben muss man das passende Mittelmaß finden. Weder schwarz noch weiß ist die Lösung, sondern die Graustufen dazwischen. Versuch es so einzuteilen, dass du dich nicht nur auf eine Art Freundschaft einengst.<par />Ich würde Ihnen gerne noch eine weitere Information geben, obwohl sie nichts mit <error>
+        <errorType />
+
+        <originalForm>ihrem</originalForm>
+
+        <targetForm>Ihrem</targetForm>
+      </error> eigentlichen Problem zu tun hat. <error>
+        <errorType />
+
+        <originalForm>Nähmlich</originalForm>
+
+        <targetForm>Nämlich</targetForm>
+      </error> geht es um den Strahlenkonsum. Ich habe mich gestern mit einem Spezialisten unterhalten und das Thema erörtert. Ich fand raus, dass die Strahlen eines einzigen Telefones <error>
+        <errorType />
+
+        <originalForm>So</originalForm>
+
+        <targetForm>so</targetForm>
+      </error> gering sind, dass sie keinerlei negative Auswirkungen auf unsere Gesundheit haben, <error>
+        <errorType />
+
+        <originalForm>so lange</originalForm>
+
+        <targetForm>solange</targetForm>
+      </error> das Telefon/Handy in ein<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>e</insertion>
+      </correction>m vernünftigen Maße benutzt wird. Sprich, nicht einige Stunden am Tag mit dem Handy am Ohr. <error>
+        <errorType />
+
+        <originalForm>So lange</originalForm>
+
+        <targetForm>Solange</targetForm>
+      </error> es größtenteils in der Tasche verweilt gibt es keine Probleme. Also machen Sie sich keine Sorgen <correction>
+        <deletion><unreadable /></deletion>
+      </correction> mehr falls <error>
+        <errorType />
+
+        <originalForm>sie</originalForm>
+
+        <targetForm>Sie</targetForm>
+      </error> das bis jetzt gemacht haben.<par />Ich verabschiede mich und wünsche Ihnen noch einen angenehmen Nachmittag und <correction>
+        <deletion>Vel</deletion>
+      </correction> viel Erfolg und Glück bei der Lösung <error>
+        <errorType />
+
+        <originalForm>ihres</originalForm>
+
+        <targetForm>Ihres</targetForm>
+      </error> Problems.<par /><closing>MfG</closing> User Luftballon 703</exercise>
+  </body>
+</kolipsi_II_document>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5292</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Veronica</entity></greeting>, <par/>diese Sommer will ich <correction>
+        <insertion>mit dir</insertion>
+      </correction> eine schöne Urlaub machen. Wo <correction>
+        <deletion>sie</deletion>
+      </correction> werden <correction>
+        <deletion>uns</deletion>
+
+        <insertion>wir</insertion>
+      </correction> ge<overwrite>
+        <over>h</over>
+
+        <under>n</under>
+      </overwrite>en? <par/>Wir können in die Berge oder ans Meer fahren. Ich denke, dass wir <correction>
+        <deletion>ans</deletion>
+      </correction> in <entity><foreign_word foreign_language="Italiano">Maldive</foreign_word></entity> fahren sollen, weil ich <correction>
+        <deletion>will</deletion>
+      </correction> nicht im <entity>Italien</entity> bleiben will. Ich <correction>
+        <deletion>wi</deletion>
+      </correction> soll ans M<overwrite>
+        <over>e</over>
+
+        <under>a</under>
+      </overwrite>er fahren, weil ich schon <correction>
+        <deletion>in die</deletion>
+      </correction> in der Berge lebe und will ich nicht <correction>
+        <deletion>die</deletion>
+      </correction> selbe Panorama sehen. <par/>Ich war schon in <entity><foreign_word foreign_language="Italiano">Maldive</foreign_word></entity> gefahren, es war wunderschön weil das Meer ist sehr gut, die Sonne scheint immer, der Ort <correction>
+        <deletion>ist nicht lang a</deletion>
+      </correction> und die Menschen sind nicht langweilig. <par/>Wir können <correction>
+        <deletion><unreadable/></deletion>
+      </correction> essen was wir wollen und wir können auch viele Inseln besuchen. <par/>Es kostet <correction>
+        <deletion>zu</deletion>
+      </correction> viel aber <correction>
+        <deletion>ich</deletion>
+
+        <insertion>es</insertion>
+      </correction> kann <correction>
+        <deletion>dir</deletion>
+      </correction> ein Geschenk von mir sein. <par/>Ich, denke dass ich al<overwrite>
+        <over>l</over>
+
+        <under>e</under>
+      </overwrite>es gesagt habe. <par/> <correction>
+        <deletion>Ich warte für deine Antwort und</deletion>
+      </correction> <overwrite>
+        <over>I</over>
+
+        <under>i</under>
+      </overwrite>ch hoffe, dass du mit mir <overwrite>
+        <over>f</over>
+
+        <under>g</under>
+      </overwrite>ahren <correction>
+        <deletion>wo</deletion>
+      </correction> willst. Wahrscheinlich <correction>
+        <deletion>ts</deletion>
+      </correction> können wir auch eine andere Urlaub machen. <par/>Ich warte für deinen Antwort. <par/><closing><error>
+          <errorType/>
+
+          <originalForm>Tschuss</originalForm>
+
+          <targetForm>Tschüss</targetForm>
+        </error> <entity><par/>Simone</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

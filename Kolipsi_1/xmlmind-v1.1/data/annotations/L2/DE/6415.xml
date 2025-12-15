@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Romy</transcriber>
+
+  <author_id>6415</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Nicolas</entity>,</greeting> <par />wie geht es? <error>
+        <errorType />
+
+        <originalForm>alles</originalForm>
+
+        <targetForm>Alles</targetForm>
+      </error> in Ordnung bei dir? Ich wollte dir schreiben, weil ich musste dir erzäheln, was <entity>Maria</entity> passiert ist. Letzte Woche war sie einkaufen. Zuerst kaufte sie in einem <error>
+        <errorType />
+
+        <originalForm>Gemüse</originalForm>
+
+        <targetForm>Gemüse-</targetForm>
+      </error> und Obstladen und eine Stunde später war sie im Supermarkt. Beim Obsthändler hat sie Obst und Gemüse für seine Familie eingekauft, aber später ist sie in Supermarkt gegangen, um andere Lebensmittel einzukaufen. Leider hat sie den Kassenzettel beim <correction>
+        <insertion>Obst-</insertion>
+      </correction> und Gemüseladen vergessen, und wenn sie im Supermarkt bezahlen wollte, gab es ein Problem: <error>
+        <errorType />
+
+        <originalForm>der</originalForm>
+
+        <targetForm>Der</targetForm>
+      </error> Kassierer des Supermarkts dachte, dass sie das Obst und die Gemüse nicht bezahlen wollte. Zuerst konnte <entity>Maria</entity> <correction>
+        <deletion>da</deletion>
+      </correction> ihn nicht verstehen und sie hat ihm erklärt, dass sie die anderen Lebensmittel <correction>
+        <deletion>in</deletion>
+      </correction> beim Obsthändler gekauft hatte. Später ist sie wieder in den Laden <correction>
+        <deletion>get</deletion>
+      </correction> zurückgegangen und zum Glück hat sie den Kassenzettel wiedergefunden. Am Ende hat sie den Kassenzettel dem Kassierer des Supermarkts gebracht und <correction>
+        <deletion>konnte</deletion>
+      </correction> hat die Lebensmittel bezahlt. Danke für deine Aufmerksamkeit. Schreib mir bald wieder, wenn du Lust hat! <closing>Dein Freund <entity>Alessandro</entity></closing> </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Greta</entity>,</greeting> <par />wie geht es? Alles in Ordnung bei dir? Ich schreibe dir, um über unseren Urlaub zu planen. Mit Ehrlichkeit sage ich dir, dass ich bin sehr zufrieden <arrow
+        end="head" id="1">dir</arrow> mit <arrow end="open" id="1"> </arrow> diesen Sommer zu reisen. Hast du sehen einige Ideen über den Urlaub? Ich bin noch nicht sicher, aber wir lieber beide die Berge oder lieber ans Meer fahren sollen; ich stelle dir die beiden <error>
+        <errorType />
+
+        <originalForm>Moglichkeiten</originalForm>
+
+        <targetForm>Möglichkeiten</targetForm>
+      </error> vor, um eine richtige Entscheidung auszuweichen. Ein Urlaub in den Bergen würde sicher eine fantastische Erfahrung sein: <error>
+        <errorType />
+
+        <originalForm>wir</originalForm>
+
+        <targetForm>Wir</targetForm>
+      </error> konnten viele wunderschöne Spaziergänge machen, und relaxen und, wenn du Lust hat, in einer Hütte schlafen um am besten unseren Urlaub zu verbringen, in <entity>Südtirol</entity> gibt es sehr schöne Orte aber wir könnten auch noch andere Gegenden oder nach <entity><error>
+          <errorType />
+
+          <originalForm>Österreicht</originalForm>
+
+          <targetForm>Österreich</targetForm>
+        </error></entity> fahren, kein Problem! Das Ideal wäre aber auch ans Meer fahren: <error>
+        <errorType />
+
+        <originalForm>in</originalForm>
+
+        <targetForm>In</targetForm>
+      </error> <entity>Italien</entity> haben wir ein sauberes Meer und es gibt viele Städte die viele Dienste bieten. Ich lass dir entscheiden, für mich gibt es kein Unterschied. Natürlich, wenn du am liebsten eine <error>
+        <errorType />
+
+        <originalForm>rühige</originalForm>
+
+        <targetForm>ruhige</targetForm>
+      </error> Reise machen liebst, in die Berge fahren ist doch <error>
+        <errorType />
+
+        <originalForm>Ideal</originalForm>
+
+        <targetForm>ideal</targetForm>
+      </error>, aber wenn du Spaß haben willst vielleicht sollte wir ans Meer reisen. <par /> Lass mich wissen was du am besten möchtest. Schreib mir deine Vorschläge. <closing>Dein Freund, <entity>Alessandro</entity> </closing></exercise>
+  </body>
+</kolipsi_document>

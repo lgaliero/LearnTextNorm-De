@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>6409</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Liebe <entity>Erika</entity>,</greeting> <par/><entity>Maria</entity> war letzte Woche einkaufen. <par/>Sie hat in diesem <error>
+        <errorType/>
+
+        <originalForm>Obst</originalForm>
+
+        <targetForm>Obst-</targetForm>
+      </error> und Gemüseladen viele Sachen <correction>
+        <deletion><unreadable/></deletion>
+      </correction> eingenommen, aber dann sie hat gemerkt, dass sie nicht zu viele Geld um diese Speisen zu bezahlen hat. <par/>So möchte <entity>Maria</entity> nur Brot und Milch einkaufen und die anderen Sachen möchte sie nicht bezahlen und in seinem Rucksack <sic>stollen</sic>. <par/>Aber an der Kasse, die Frau die dort arbeitet, hat <entity>Maria</entity> gesehen, dass sie einige Sachen nicht bezahlt hat. <par/>So die Frau an der Kasse hat viel mit <entity>Maria</entity> <error>
+        <errorType/>
+
+        <originalForm>gestriten</originalForm>
+
+        <targetForm>gestritten</targetForm>
+      </error> und dann möchte sie die Geld von den anderen Sachen haben. Aber <entity>Maria</entity> hat nicht mehr Geld und für das die Frau an der Kasse möchte auch die <error>
+        <errorType/>
+
+        <originalForm>Poeilei</originalForm>
+
+        <targetForm>Polizei</targetForm>
+      </error> rufen. <par/>Aber <entity>Maria</entity> sagt, dass seine Mutter krank ist und sie muss mit den anderen Geld einige <sic>Antierotikum</sic> kaufen. Die Frau an der Kasse sagt also, dass <entity>Maria</entity> jetzt einen Kassenzettel für 50 <error>
+        <errorType/>
+
+        <originalForm>euro</originalForm>
+
+        <targetForm>Euro</targetForm>
+      </error> hat, aber sie nur 10 Euro bezahlt. <par/>So <entity>Maria</entity> müsste die andere Sachen da lassen und die Frau an der Kasse merkt, dass es nicht mehr möglich die Polizei anrufen ist. <par/><closing>Dein <entity>Federico</entity> </closing></exercise>
+
+    
+  </body>
+</kolipsi_document>

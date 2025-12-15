@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0197</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hi <entity>Annika</entity></greeting>;<par />tut mir <error>
+        <errorType />
+
+        <originalForm>Leid</originalForm>
+
+        <targetForm>leid</targetForm>
+      </error>, dass ich mich heute nicht bei dir gemeldet habe, doch meine Zeit ist einfach zu knapp bemessen gewesen, deswegen schreibe ich dir jetzt einfach. Du wolltest doch unbedingt noch wissen, was <entity>Maria</entity> letzte Woche passiert ist, <error>
+        <errorType />
+
+        <originalForm>dass</originalForm>
+
+        <targetForm>das</targetForm>
+      </error> war mal wieder so eine richtig typische <entity><error>
+          <errorType />
+
+          <originalForm><entity>Maria</entity> Aktion</originalForm>
+
+          <targetForm>Mariaktion</targetForm>
+        </error></entity>.<correction>
+        <deletion>Sowas</deletion>
+      </correction> Sie war einkaufe und anstatt einfach alles im Supermarkt zu kaufen, war sie vor<hyphen>-</hyphen>her für Gemüse extra im Obst- und Gemüseladen und hat dabei nicht be<hyphen>-</hyphen>dacht, dass <correction>
+        <deletion>es</deletion>
+      </correction> <correction>
+        <insertion>im Supermarkt</insertion>
+      </correction> genau <error>
+        <errorType />
+
+        <originalForm>die selben</originalForm>
+
+        <targetForm>dieselben</targetForm>
+      </error> Produkte <sic>angebote</sic> werden. Sie hat im Obst- und Gemüseladen also den Einkauf in ihren Korb gepackt und an der Kasse den Bon liegen lassen. Daraufhin hat sie im Supermarkt ihre Besorgungen erledigt, an der Kasse alles bezahlt und im Korb verst<overwrite>
+        <under>e</under>
+
+        <over>a</over>
+      </overwrite>ut. Als sie sich dann <overwrite>
+        <under>w</under>
+
+        <over>v</over>
+      </overwrite>on der Kasse <correction>
+        <deletion>abwendete</deletion>
+      </correction> <correction>
+        <insertion>abgewendet hat</insertion>
+      </correction>, um das Geschäft zu verlassen, bemerkte die Kassiererin <entity>Marias</entity> Einkäufe aus dem Gemüseladen, jedoch <correction>
+        <deletion>geht</deletion>
+      </correction> <correction>
+        <insertion>ging</insertion>
+      </correction> sie sofort lautstark davon aus, dass <correction>
+        <deletion>die </deletion>
+      </correction> <entity>Maria</entity> die Lebensmittel aus dem S<correction>
+        <deletion>p</deletion>
+      </correction>upermarkt entwendet <correction>
+        <deletion>hat</deletion>
+      </correction> <correction>
+        <insertion>hätte</insertion>
+      </correction>, (sie konnte ja nicht wissen, dass <entity>Maria</entity> vorher noch woanders einkaufen war) <entity>Maria</entity> war zunächst über die <error>
+        <errorType />
+
+        <originalForm>Anschuldigug</originalForm>
+
+        <targetForm>Anschuldigung</targetForm>
+      </error> geschockt und wollte das Missverständnis schnell durch die Vorlage des <sic>Kassazettels</sic> aus dem Obst- und <error>
+        <errorType />
+
+        <originalForm>Gemüse Laden</originalForm>
+
+        <targetForm>Gemüseladen</targetForm>
+      </error> beheben, um zu beweisen, dass sie die Lebensmittel nicht im Supermarkt gestohlen hatte. <correction>
+        <deletion>Es stellt</deletion>
+      </correction> Sie bemerkte natürlich schnell, dass sie den Beleg w<over>o</over>hl im anderen Geschäft liegen gelassen haben muss. <entity>Maria</entity> erläuterte daraufhin der Kassiererin ihre missliche Lage und diese reagierte zwar zunächst skeptisch, ob sie der Kundin und vermeintlichen Dieb<overwrite>
+        <under>e</under>
+
+        <over>i</over>
+      </overwrite>n Glau<overwrite>
+        <under>e</under>
+
+        <over>b</over>
+      </overwrite>en schenken soll<correction>
+        <insertion>te</insertion>
+      </correction>, willigte dann a<overwrite>
+        <under><unreadable /></under>
+
+        <over>be</over>
+      </overwrite>r ein, als <entity>Maria</entity> sich mit dem Gemüseladen in Verbindu<over>n</over>g setzen wollte, um ihre Unschuld zu beweisen. Die Besitzerin des Obst- und Gemüseladens reagierte zunächst erstaunt, als <correction>
+        <deletion>die</deletion>
+      </correction> <entity>Maria</entity> sich telefonisch bei ihr meldete und ihr ihre missliche Lage schilderte. Sie <error>
+        <errorType />
+
+        <originalForm>Begriff</originalForm>
+
+        <targetForm>begrif</targetForm>
+      </error> jedoch schnell <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> es nun an ihr la<over>g</over> <entity>Marias</entity> Situation ein Ende zu bereiten; suchte daraufhin das Überwachungsband, auf <sic>den</sic> <entity>Marias</entity> Einkauf festgehalten <correction>
+        <insertion>worden</insertion>
+      </correction> war <error>
+        <errorType />
+
+        <originalForm>herraus</originalForm>
+
+        <targetForm>heraus</targetForm>
+      </error> und fand sogar noch den Kassazettel von <entity>Marias</entity> Einkauf auf der Theke. <correction>
+        <deletion>Sie ließ</deletion>
+      </correction> So <correction>
+        <deletion>lößte sich die</deletion>
+      </correction> ging die Situation für <entity>Maria</entity> <ambiguous>
+        <alternative>dann</alternative>
+
+        <alternative>doch</alternative>
+      </ambiguous> noch einigermaßen glimpflich aus.<par /><closing>Liebe Grüße<par /><entity>Vivi</entity></closing>                     </exercise>
+
+    <exercise number="2" xml:space="preserve"><comment>Kein Text vorhanden</comment></exercise>
+  </body>
+</kolipsi_document>

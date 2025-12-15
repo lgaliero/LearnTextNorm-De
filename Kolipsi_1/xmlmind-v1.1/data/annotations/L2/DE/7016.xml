@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Romy</transcriber>
+
+  <author_id>N7016</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hi <entity>Lorena</entity>!</greeting> <par />Na wie gehts dir denn? <par /><emphasis>Oh mein Gott!</emphasis> <error>
+        <errorType />
+
+        <originalForm>weisst</originalForm>
+
+        <targetForm>Weißt</targetForm>
+      </error> du was <correction>
+        <deletion>an mir passiert ist? Echt meine Freuno</deletion>
+      </correction> heute an meine Freundin <entity>Maria</entity> passiert ist?! <par />Sie hat mir so nur danach angerufen, denn sie war einfach schockiert und ein bisschen traurig! <overwrite>
+        <over>J</over>
+
+        <under>I</under>
+      </overwrite>a… <error>
+        <errorType />
+
+        <originalForm>okey</originalForm>
+
+        <targetForm>okay</targetForm>
+      </error>… Jetzt ich <correction>
+        <deletion>sag</deletion>
+      </correction> erklär dich alles! Also, heute <overwrite>
+        <over>M</over>
+
+        <under>m</under>
+      </overwrite>orgen <entity>Maria</entity> <correction>
+        <deletion>mächst</deletion>
+      </correction> wächst sie auf und dachte <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> am Abend einige Gäste bei sie kommen müssten. So sie wollte eine <error>
+        <errorType />
+
+        <originalForm>Läckere</originalForm>
+
+        <targetForm>leckere</targetForm>
+      </error> Abendessen kochen und gi<overwrite>
+        <over>n</over>
+
+        <under>g</under>
+      </overwrite>g beim Obsthändler. Da dort fand sie viele leckere und gutes Gemüse, wie zum Beispiel: <error>
+        <errorType />
+
+        <originalForm>Salad</originalForm>
+
+        <targetForm>Salat</targetForm>
+      </error>, Kartoffeln, <sic>Rotenköhle</sic>, Tomaten… Sie kaufte auch zwei Brötchen. Sie ging <correction>
+        <deletion>alles</deletion>
+      </correction> in die Kasse alles zu kaufen und danach ging sie raus. <par />Sie müsste aber auch noch etwas andere kaufen, wie zum Beispiel Wein, Pasta und noch mehrere Essen. Siehst du den Schicksal ne?! <emphasis>Oh Gott</emphasis> ... So <correction>
+        <insertion>später</insertion>
+      </correction> ging sie <correction>
+        <deletion>im Su</deletion>
+      </correction> beim Supermarkt, und so <correction>
+        <deletion><sic> </sic></deletion>
+      </correction> nahm sie das <correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>Verk</insertion>
+      </correction>aufswagen mit, <correction>
+        <deletion>Wenn</deletion>
+      </correction> das ganze Essen drin zu stellen. <par />So wenn sie war bei <correction>
+        <deletion>n der Ka</deletion>
+      </correction> das Kasse, die Käuferin schau<overwrite>
+        <over>t</over>
+
+        <under>e</under>
+      </overwrite>e das Koffer der <entity>Maria</entity> und sagte <correction>
+        <deletion>warum</deletion>
+      </correction>, dass sie etwas <error>
+        <errorType />
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hatte. So schimpften die beiden und die Käuferin <sic>rufte</sic> auch die Polizei… <par />So am Ende, nach mindestens zwei Stunden, <entity>Maria</entity> musste 100 € bezahlen, auch <correction>
+        <deletion>wenn</deletion>
+      </correction> ob sie nichts gemacht hatte und sie ging <correction>
+        <deletion>alle</deletion>
+      </correction> ganz traurig zu Hause! <par />Na siehst du?! Danach hat sie mir angerufen, <error>
+        <errorType />
+
+        <originalForm>den</originalForm>
+
+        <targetForm>denn</targetForm>
+      </error> sie war ganz traurig und sie sagte mir auch, dass heute der letzte Tag war, dass sie bei dieses <sic>Lade</sic> <sic>gingte</sic>! <par />Ok… <correction>
+        <deletion>an</deletion>
+      </correction> sonst dir alles gut?! <par />Schreibe mir mal zurück wenn du Zeit hast! <par /><closing>Liebe Grüße<par /><par />Bis dann!<par /> <par /><entity>Claudia</entity></closing></exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Sara</entity>,</greeting> <par />ich schreibe dir dieses Brief, so vielleicht können wir <correction>
+        <deletion>a</deletion>
+      </correction> uns entsch<overwrite>
+        <over>ie</over>
+
+        <under>ei</under>
+      </overwrite>den über der Urlaub, die wir machen wollen. <par />Also ich vergleiche dir die zwei Richtungen, die wir nehmen können, so danach kannst du mir sagen <error>
+        <errorType />
+
+        <originalForm>w<overwrite>
+            <over>el</over>
+
+            <under>as</under>
+          </overwrite>lche</originalForm>
+
+        <targetForm>welche</targetForm>
+      </error> für dich besser ist! Also hör mal zu! <par />D<overwrite>
+        <over>er</over>
+
+        <under><unreadable /></under>
+      </overwrite> erste <error>
+        <errorType />
+
+        <originalForm>richtung</originalForm>
+
+        <targetForm>Richtung</targetForm>
+      </error> ist das Berg. <error>
+        <errorType />
+
+        <originalForm>auf</originalForm>
+
+        <targetForm>Auf</targetForm>
+      </error> dem Berg können wir uns entspannen und die Sonne nehmen. Können wir auch viele <sic>Wändern</sic> machen und die ganze Natur schauen. Im Sommer ist das Berg <correction>
+        <deletion>ein Plut</deletion>
+      </correction> sehr frisch und mit ei<overwrite>
+        <over>n</over>
+
+        <under>e</under>
+      </overwrite>er gute Klima. Wenn ich dort gewesen bin, hab ich einfach ein <correction>
+        <deletion>e</deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>Entspannende</originalForm>
+
+        <targetForm>entspannende</targetForm>
+      </error> Urlaub gehabt. D<overwrite>
+        <over>er</over>
+
+        <under>ie</under>
+      </overwrite> zweite Richtung ist, im <error>
+        <errorType />
+
+        <originalForm>gegenteil</originalForm>
+
+        <targetForm>Gegenteil</targetForm>
+      </error>, das Meer. Wenn wir am Meer fahren, können wir <correction>
+        <deletion>uns</deletion>
+      </correction> viel Spaß haben, denn können wir einige Disco und Platze <correction>
+        <deletion>mu</deletion>
+      </correction> wo viele Leute gehen finden. <overwrite>
+        <over>D</over>
+
+        <under>A</under>
+      </overwrite>as Klima ist auch sehr warm und schön. <error>
+        <errorType />
+
+        <originalForm>wir</originalForm>
+
+        <targetForm>Wir</targetForm>
+      </error> werden <error>
+        <errorType />
+
+        <originalForm>Braun</originalForm>
+
+        <targetForm>braun</targetForm>
+      </error> werden! Persönlich mag ich besser das Meer! Wenn wir da dort gehen werden wir so viel Spaß haben! Ich gehe jede Sommer am Meer und<correction>
+        <deletion><unreadable /></deletion>
+      </correction> <strikeover>
+        <expansion>k</expansion>
+
+        <expansion>l</expansion>
+      </strikeover>enne ich immer viele <palimpsest>unreadable </palimpsest> lustige Leute, mit dem ich die <error>
+        <errorType />
+
+        <originalForm>Ganze</originalForm>
+
+        <targetForm>ganze</targetForm>
+      </error> Zeit verbringe! Also… Jetzt hab ich dir alles gesagt! <par />Entwe<overwrite>
+        <over>der</over>
+
+        <under><unreadable /></under>
+      </overwrite> Spannung <correction>
+        <deletion>mit dem Ber</deletion>
+      </correction> in den Bergen, oder <error>
+        <errorType />
+
+        <originalForm>Spass</originalForm>
+
+        <targetForm>Spaß</targetForm>
+      </error> am Meer! <par />Schreib mir was du magst und deiner Meinung nach wo mir fahren können! <par />Ich bin so aufgeregt drüber! <par />Schreib mir schnell <error>
+        <errorType />
+
+        <originalForm>züruck</originalForm>
+
+        <targetForm>zurück</targetForm>
+      </error>! <par /><closing><error>
+          <errorType />
+
+          <originalForm>deine</originalForm>
+
+          <targetForm>Deine</targetForm>
+        </error> Claudia <gap>_</gap> Liebe <overwrite>
+          <over>G</over>
+
+          <under>g</under>
+        </overwrite>rüße </closing> </exercise>
+  </body>
+</kolipsi_document>

@@ -1,0 +1,83 @@
+<body>
+ <page page_number="1" transcanno_page_id="1162">
+  <paragraph class="medium-paragraph" tagcode="1589271522099">
+   <div>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Konzentrieren" tagcode="1552214644416">
+     Kontzentrieren
+    </orth_error_id12>
+    und
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1552214634095" tran_correction_original="lern**">
+     lernen
+    </tran_word_correction_id25>
+    alle Tage ist wichtig für lernen
+   </div>
+   <div>
+    ein neue Sprache.
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1589271522100">
+   <div>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552214617941" tran_word_deletion_target="_#_">
+     Ich lerne neue Sprache
+    </tran_word_deletion_id8>
+    Meine Strategien sind sprechen
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="mit meinen" tagcode="1556615803250">
+     mitmeinen
+    </orth_error_id12>
+   </div>
+   <div>
+    Vater in Deutsch und
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1552214677064">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552214679486" tran_word_deletion_target="_#_">
+      ic*
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+    in Englisch mit
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1552214764256">
+     <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1552214766654">
+      <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552214774459" tran_word_deletion_target="_#_">
+       *
+      </tran_word_deletion_id8>
+     </tran_unreadable_id17>
+    </tran_word_insertion_id9>
+    meine Mutter. Eine andere
+   </div>
+   <div>
+    Strategie ist lernen jeden Tag oder
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1589271512638" tran_foreign_word_language="Italian">
+     Serie
+    </tran_foreign_word_id13>
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1589271522098" tran_foreign_word_language="Italian">
+     TV
+    </tran_foreign_word_id13>
+    schauen. Oder
+   </div>
+   <div>
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1552214956988" tran_foreign_word_language="English">
+     Videogame
+    </tran_foreign_word_id13>
+    in eine andere Sprache spielen.
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1589271522101">
+   <div>
+    Die Strategie funktioniert nicht sind lesen
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552215020603" tran_word_deletion_target="_#_">
+     b
+    </tran_word_deletion_id8>
+    Büchern
+   </div>
+   <div>
+    in eine andere
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1552215072869" tran_correction_original="sprache">
+     Sprache
+    </tran_word_correction_id25>
+    weil sie sind
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552215061243" tran_word_deletion_target="_#_">
+     langw
+    </tran_word_deletion_id8>
+    langweilig.
+   </div>
+  </paragraph>
+ </page>
+</body>

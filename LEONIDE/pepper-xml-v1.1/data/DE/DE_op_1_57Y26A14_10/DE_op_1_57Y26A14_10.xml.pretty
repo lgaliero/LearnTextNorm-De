@@ -1,0 +1,54 @@
+<body>
+ <page page_number="1" transcanno_page_id="163">
+  <paragraph class="medium-paragraph" tagcode="1540332840518">
+   <div>
+    Nach der Mittelschule ich möchte an der
+   </div>
+   <div>
+    Universität studieren.
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1540332840520">
+   <div>
+    Mein
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1540332732942" tran_correction_original="Treumberuf">
+     Traumberuf
+    </tran_word_correction_id25>
+    ist
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1540332751859" tran_correction_original="Biolog*nn">
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Biologin" tagcode="1540332759699">
+      Biologinn
+     </orth_error_id12>
+    </tran_word_correction_id25>
+    werden.
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1540332840524">
+   <div>
+    Ich musse für den
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1540332824001" tran_correction_original="Treumberuf">
+     Traumberuf
+    </tran_word_correction_id25>
+   </div>
+   <div>
+    sehr gut
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Mathematik" tagcode="1540332833455">
+     Matematik
+    </orth_error_id12>
+    und Naturkunde können
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1540332840527">
+   <div>
+    Ich musse
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Mathematik" tagcode="1540332840517">
+     Matematik
+    </orth_error_id12>
+    , Naturkunde und
+   </div>
+   <div>
+    Physik lernen
+   </div>
+  </paragraph>
+ </page>
+</body>

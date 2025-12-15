@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>4850</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Susanna</entity>,</greeting> <par/>ich würde eine Urlaub mit meine Freundin <entity>Arianna</entity>, aber ich weiß nicht wo gehe. Ich bin unentschlossen ob <overwrite>
+        <over>s</over>
+
+        <under>S</under>
+      </overwrite>ie eine Urlaub in den Bergen oder am Meer machen. Weil am Meer gibt es viel <error>
+        <errorType/>
+
+        <originalForm>spaß</originalForm>
+
+        <targetForm>Spaß</targetForm>
+      </error>, weil es gibt viele Disko aber auch viele <foreign_word foreign_language="Italiano">relax</foreign_word> auf der Strand. A<overwrite>
+        <over>b</over>
+
+        <under>e</under>
+      </overwrite>er <overwrite>
+        <over>ie</over>
+
+        <under><unreadable/></under>
+      </overwrite> Bergen auch sind sehr <error>
+        <errorType/>
+
+        <originalForm>entspannent</originalForm>
+
+        <targetForm>entspannend</targetForm>
+      </error> und es gibt viele frische Luft und viele grüne <correction>
+        <deletion>Wege</deletion>
+      </correction> Wiese. Was <sic>ratest</sic> du mir? In beide <error>
+        <errorType/>
+
+        <originalForm>orten</originalForm>
+
+        <targetForm>Orten</targetForm>
+      </error> muss ich <error>
+        <errorType/>
+
+        <originalForm>vanderungen</originalForm>
+
+        <targetForm>Wanderungen</targetForm>
+      </error> machen. Am <error>
+        <errorType/>
+
+        <originalForm>meer</originalForm>
+
+        <targetForm>Meer</targetForm>
+      </error> spaziere ich am Strand und in den Bergen muss ich <error>
+        <errorType/>
+
+        <originalForm>vanderungen</originalForm>
+
+        <targetForm>Wanderungen</targetForm>
+      </error> in Wald machen <par/>Aber vielleicht in den Bergen esse ich besser, <error>
+        <errorType/>
+
+        <originalForm>veil</originalForm>
+
+        <targetForm>weil</targetForm>
+      </error> es gibt viele <error>
+        <errorType/>
+
+        <originalForm>Typische</originalForm>
+
+        <targetForm>typische</targetForm>
+      </error> <palimpsest><error>
+          <errorType/>
+
+          <originalForm>speisen</originalForm>
+
+          <targetForm>Speisen</targetForm>
+        </error></palimpsest> in die <sic>Bauernhofe</sic>, und am Meer gibt es viele schöne Restaurant aber nicht so viel <error>
+        <errorType/>
+
+        <originalForm>Typische</originalForm>
+
+        <targetForm>typische</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>speisen</originalForm>
+
+        <targetForm>Speisen</targetForm>
+      </error>.</exercise>
+  </body>
+</kolipsi_document>

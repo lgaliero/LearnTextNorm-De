@@ -1,0 +1,49 @@
+<body>
+ <page page_number="1" transcanno_page_id="2468">
+  <paragraph class="medium-paragraph" tagcode="1589271800103">
+   <div>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553548776278" tran_word_deletion_target="_#_">
+     Mein Traumberuf ist
+    </tran_word_deletion_id8>
+    . Ich
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553548770074" tran_correction_original="haber">
+     habe
+    </tran_word_correction_id25>
+    kein
+   </div>
+   <div>
+    Traumberuf.
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Nächstes" tagcode="1553548852755">
+     Nachstes
+    </orth_error_id12>
+    Jahr
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553548811599" tran_correction_original="ich möchte">
+     möchte ich
+    </tran_word_correction_id25>
+   </div>
+   <div>
+    an den
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1556721741447" tran_foreign_word_language="Italian">
+     Liceo
+    </tran_foreign_word_id13>
+    von
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1589271793759" tran_foreign_word_language="Italian">
+     Scienze
+    </tran_foreign_word_id13>
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1589271800102" tran_foreign_word_language="Italian">
+     Umane
+    </tran_foreign_word_id13>
+    studieren
+   </div>
+   <div>
+    und Lehrerin werden , weil ich die
+   </div>
+   <div>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553548877046" tran_word_deletion_target="_#_">
+     kl
+    </tran_word_deletion_id8>
+    kleinen Kinder liebe
+   </div>
+  </paragraph>
+ </page>
+</body>

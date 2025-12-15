@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I11_CUR16MAT</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo Felix.</greeting><par />Ich schreibe dir eine <error>
+        <errorType />
+
+        <originalForm>E-mail</originalForm>
+
+        <targetForm>E-Mail</targetForm>
+      </error> weil etwas Komisches passiert ist.<par />Meine Freundin Maria, war letzte Woche einkaufen in einem Obst- und Gemüseladen ein. Aber <correction>
+        <deletion>s</deletion>
+      </correction> wenn sie etwas kaufte; sie hat der Kassenzettel nicht genommen.<par /><correction>
+        <deletion>Dann sie</deletion>
+      </correction> Eine Stunde später sie war in Supermarkt um etwas zu kaufen und sie <correction>
+        <deletion>wollte</deletion>
+      </correction> hatte ein Problem an der Kasse: <error>
+        <errorType />
+
+        <originalForm>sie</originalForm>
+
+        <targetForm>Sie</targetForm>
+      </error> hatte kein Kassenzettel um die Obst und Gemüse zu kaufen und die Kasse hat gedacht, dass sie hatte <correction>
+        <insertion>es</insertion>
+      </correction> in die Supermarkt eingenommen und nie gekauft. Die Frau an die Kasse beginnt zu <error>
+        <errorType />
+
+        <originalForm>zerstoren</originalForm>
+
+        <targetForm>zerstören</targetForm>
+      </error> und ruft die Polizei.<par />Maria war schockiert so sie lasst alles dabei und sehr schnell weggelaufen. Es ist <error>
+        <errorType />
+
+        <originalForm>komish</originalForm>
+
+        <targetForm>komisch</targetForm>
+      </error> weil sie kann nicht mehr, in Supermarkt eingehen und sie hat kein Obst und kein Gemüse für morgen.</exercise>
+
+    <exercise number="2" xml:space="preserve">"Bis vor einigen Monaten habe ich gechattet, um neue Leute kennenzulernen".<par />Ist es möglich?<par />Ich glaube dass für "chatten" du brauchst eine <error>
+        <errorType />
+
+        <originalForm>idee</originalForm>
+
+        <targetForm>Idee</targetForm>
+      </error> wie die Menschen sind in die "outernet"; <error>
+        <errorType />
+
+        <originalForm>internet</originalForm>
+
+        <targetForm>Internet</targetForm>
+      </error> ist ein sehr wichtige <error>
+        <errorType />
+
+        <originalForm>dinge</originalForm>
+
+        <targetForm>Dinge</targetForm>
+      </error> um <error>
+        <errorType />
+
+        <originalForm>reserche</originalForm>
+
+        <targetForm>Recherche</targetForm>
+      </error> zu machen und wichtige <error>
+        <errorType />
+
+        <originalForm>sachen</originalForm>
+
+        <targetForm>Sachen</targetForm>
+      </error> zu lesen und lernen. Aber nicht die Personen. Der <foreign_word
+        foreign_language="English">risk</foreign_word> ist sehr anstengd wie Paul sagt: "Ich hatte kaum Freunde und lebte für Menschen, die es nicht gab." Wir sind in <error>
+        <errorType />
+
+        <originalForm>complet</originalForm>
+
+        <targetForm>komplett</targetForm>
+      </error> Verwendung, in jeder Moment. Und auch <error>
+        <errorType />
+
+        <originalForm>internet</originalForm>
+
+        <targetForm>Internet</targetForm>
+      </error> ist in <error>
+        <errorType />
+
+        <originalForm>verwendung</originalForm>
+
+        <targetForm>Verwendung</targetForm>
+      </error>. Hier der <foreign_word foreign_language="English">risk</foreign_word> ist zu werden immer mehr impersonell.<par />Ich weiß <error>
+        <errorType />
+
+        <originalForm>nich</originalForm>
+
+        <targetForm>nicht</targetForm>
+      </error> was ich Paul sagen sollte; ich hatte nie so eine Situation gehabt. Aber es ist was ich glaube ich machen sollte wenn i<correction>
+        <deletion>s</deletion>
+
+        <insertion>c</insertion>
+      </correction>h ein dieser <error>
+        <errorType />
+
+        <originalForm>situation</originalForm>
+
+        <targetForm>Situation</targetForm>
+      </error> bin: <error>
+        <errorType />
+
+        <originalForm>kein</originalForm>
+
+        <targetForm>Kein</targetForm>
+      </error> mehr <error>
+        <errorType />
+
+        <originalForm>chat</originalForm>
+
+        <targetForm>Chat</targetForm>
+      </error> mit <error>
+        <errorType />
+
+        <originalForm>menschen</originalForm>
+
+        <targetForm>Menschen</targetForm>
+      </error> die du noch nie gesehen hat oder kein personelle <error>
+        <errorType />
+
+        <originalForm>sachen</originalForm>
+
+        <targetForm>Sachen</targetForm>
+      </error> sagen. Es kann auch schlecht sein. </exercise>
+  </body>
+</kolipsi_II_document>

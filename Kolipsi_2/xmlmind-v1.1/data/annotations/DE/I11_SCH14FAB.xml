@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I11_SCH14FAB</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo Rviv,</greeting><par /><correction>
+        <deletion>H</deletion>
+
+        <insertion>h</insertion>
+      </correction>eute habe ich <correction>
+        <insertion>eine Frau</insertion>
+      </correction> gesehen <correction>
+        <deletion>wie</deletion>
+      </correction> <correction>
+        <deletion><unreadable /><correction>
+            <deletion><correction>
+                <insertion>eine Frau</insertion>
+              </correction></deletion>
+          </correction></deletion>
+      </correction>, die Maria heißt, die im Supermarkt etwas für die Grillparty bei Nick Hillmann kaufte. Sie hat aber den Kassenzettel an der Kassa vergessen.<par />Nach einer Stunde ist sie zurückgekommen um noch etwas zu kaufen. Sie wurde aber aufgehalten weil Rviv ein Antoni war. <correction>
+        <deletion>Da</deletion>
+      </correction> Maria wurde in einem dunklem Zimmer gebracht. Dort wartete ein Polizeibeamter der <correction>
+        <deletion>J</deletion>
+
+        <insertion>R</insertion>
+      </correction>viv hieß. Er brachte sie dann nochmal in die Polizeizentrale wo sie eine Nacht hinter Gitter verbrachte. Am Tag darauf wurde sie nochmal verhört, und wurde nach <foreign_word
+        foreign_language="Italiano">Azkaban</foreign_word> geschickt wo sie den Rest ihres Lebens mit Sauron und <correction>
+        <deletion>G</deletion>
+
+        <insertion>J</insertion>
+      </correction>eoffrey Baratheon verbracht. Doch nach ungefähr 20 Jahren in Haft <correction>
+        <deletion><unreadable /></deletion>
+      </correction> wurde sie auf Kaution freigelassen.</exercise>
+
+    <exercise number="2" xml:space="preserve">Virtuelle Freundschaften können schon <error>
+        <errorType />
+
+        <originalForm>Positiv</originalForm>
+
+        <targetForm>positiv</targetForm>
+      </error> sein, aber nur wenn sie auch echte Freundschaften werden. Paul könnte von mir <error>
+        <errorType />
+
+        <originalForm>ausgesehen</originalForm>
+
+        <targetForm>aus gesehen</targetForm>
+      </error> wieder Kontakt aufnehmen, doch nur wenn er sie anfängt zu <error>
+        <errorType />
+
+        <originalForm>Treffen</originalForm>
+
+        <targetForm>treffen</targetForm>
+      </error>, oder wenn <error>
+        <errorType />
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> zu weit auseinander wohnen einfach sich mit seinen alten Freunden treffen. Internet ist schon wichtig aber man muss sich selber beherrhen können, weil es dort viele Menschen gibt die dich einfach nur Geld abzocken wollen. Man muss schlau sein. Das Wetter ist heute leider nicht schön. <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Ich hatte noch nie virtuelle Freundschaften, ich habe echte Freundschaften viel lieber.<par />Albertino Contagn<unreadable />a hat abr viele <error>
+        <errorType />
+
+        <originalForm>Virtuelle</originalForm>
+
+        <targetForm>virtuelle</targetForm>
+      </error> Freundschaften versuchen <error>
+        <errorType />
+
+        <originalForm>sie</originalForm>
+
+        <targetForm>Sie</targetForm>
+      </error> ihn zun schreiben. Rviv Rviv Rviv Antoni Antoni Antoni.<par />Ich denke, dass Paul keine echten Freunde hatte und sich einfach welche im Internet suchte. Viele Jungendlich von heute haben schon solche <correction>
+        <deletion>e</deletion>
+
+        <insertion>E</insertion>
+      </correction>rfahrungen gemacht. <correction>
+        <deletion>und</deletion>
+      </correction> Viele haben es überwindet und das finde ich gut.</exercise>
+  </body>
+</kolipsi_II_document>

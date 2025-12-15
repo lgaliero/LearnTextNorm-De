@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>4666</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><par/><greeting>Hallo <entity>Martina</entity>..</greeting> Du hast mir sehr gefehlt.. Wie geht es dir? Was hast du in diese<strikeover>
+        <expansion><ambiguous>
+            <alternative>r</alternative>
+
+            <alternative>n</alternative>
+          </ambiguous></expansion>
+
+        <expansion>s</expansion>
+      </strikeover> Wochen gemacht? Gestern habe ich mit <entity>Maria</entity> am Telefon geschpracht.. Weiß du was ist ihre passiert? Sie hat eine schlechte <error>
+        <errorType/>
+
+        <originalForm>figur</originalForm>
+
+        <targetForm>Figur</targetForm>
+      </error> gemacht! Sie <correction>
+        <deletion>ist geh</deletion>
+      </correction> <correction>
+        <deletion>ist</deletion>
+
+        <insertion>war</insertion>
+      </correction> zuerst in einem Obst- und Gemüseladen, weil sie Tomaten, Knoblauch, <foreign_word foreign_language="Italiano">Lattuga</foreign_word>, Birnen und Äpfel verkaufen musste; sie hatte schon an der Kass<strikeover>
+        <expansion>e</expansion>
+
+        <expansion>a</expansion>
+      </strikeover> bezahlen, aber sie hast der Kassenzettel auf den Tisch vergessen. Eine Stunde später war sie im Supermarkt. Auch hier <entity>Maria</entity> hat vielen Produkten gekauft, wie Fleisch, Schinken, Käse, Brot und Schokolade; aber wenn sie an den Kassa gekommen war, die Verkäuferin ärgert sich, wei<overwrite>
+        <under><unreadable/></under>
+
+        <over>l</over>
+      </overwrite> sie hat in die Tasche von <entity>Maria</entity> Obst und Gemüse gesehen!! Zum Ende <entity>Maria</entity> hat eine <sic>eine</sic> andere Mal O<correction>
+        <deletion>st</deletion>
+
+        <insertion>bst</insertion>
+      </correction> und Gemüse bezahlt. </exercise>
+
+    
+  </body>
+</kolipsi_document>

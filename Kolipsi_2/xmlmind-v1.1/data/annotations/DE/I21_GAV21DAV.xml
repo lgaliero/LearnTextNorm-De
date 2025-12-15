@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I21_GAV21DAV</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Lieber Matteo,</greeting><par />wie geht's? Hast du die Geschichte von Maria schon gehört? Sie war in einem Obst- und Gemüseladen um etwas zu kaufen aber sie hat den Kasse<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>n</insertion>
+      </correction>zettel vergessen. Danach ist sie in einen Supermarkt gegangen. Sie hat noch etwas gekauft aber an der Kasse gab es ein Problem. Sie hatte den Obst in einer Tasche. Die Frau an<correction>
+        <deletion><unreadable /></deletion>
+      </correction> der Kasse hat sie gefragt, warum sie den Obst nicht bezahlen <correction>
+        <deletion>hast</deletion>
+      </correction> hat. <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Maria hat ihr die Geschichte erzählt aber sie konnte nicht den Kassenzettel ihr zeigen und so hat der Frau an der Kasse Maria nicht geglaubt. Edlich musste Maria. alles <error>
+        <errorType />
+
+        <originalForm>nocheinmal</originalForm>
+
+        <targetForm>noch einmal</targetForm>
+      </error> bezahlen. Wir wissen schon dass sie zerstreut ist, aber <correction>
+        <deletion><unreadable /></deletion>
+      </correction> ich könnte nicht mehr glauben dass sie nicht an die Konsequenzen von ihrer Zerstreutheit denken <correction>
+        <deletion>kann</deletion>
+
+        <insertion>wurde</insertion>
+      </correction>. Sie hat etwas gelernt.<par /><closing>Schreib mir bald.<par />Tschüss</closing><par />Davide</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber Paul,</greeting><par />ich habe in der Zeitung "Junge Woche" in der Rubrik "Persönliche Briefe" dein Brief gelesen. Das Thema virtuelle Freundschaften interessiert mir sehr. Ich denke virtuelle Freunde sind auch wichtig<correction>
+        <deletion>.</deletion>
+      </correction> und man kann sicherlich noch chatten. <correction>
+        <deletion>Ich denke</deletion>
+      </correction> Aber ich denke man muss auch Freunde haben, die sie man treffen kann. So <correction>
+        <deletion><unreadable /></deletion>
+      </correction> kannst <correction>
+        <insertion>du</insertion>
+      </correction> <correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>K</insertion>
+      </correction>ontakte haben mit Menschen die du sehen <correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>kannst</insertion>
+      </correction> und du kannst auch etwas in deiner Freizeit machen, wie <error>
+        <errorType />
+
+        <originalForm>z.b.</originalForm>
+
+        <targetForm>z. B.</targetForm>
+      </error> ins Kino gehen. Es ist auch wichtig, dass wenn du Hilfe brauchst kannst du jemand <correction>
+        <deletion><unreadable /></deletion>
+      </correction> anrufen. Ich will dir einen Rat geben: erhaltest du noch Kontakte mit deinen <correction>
+        <deletion><unreadable /></deletion>
+      </correction> virtuelle Freunden aber probierst du auch wahre Freunde haben. Ich hatte auch eine Erfahrung mit dem Internet gehabt. Ich hatte auch virtuelle Freunde <correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>gehabt</insertion>
+      </correction> <correction>
+        <deletion><unreadable /></deletion>
+      </correction> und ich habe noch heute mit <correction>
+        <deletion>ihm</deletion>
+      </correction> ihr Kontakte. Sie haben auch mir manchmal geholfen. Glücklich habe ich immer wahre Freunde gehabt. Ich hoffe, dass du deine Problemen lösen würdest.<par /><closing>Schreib mir bald.<par />Tschüss</closing><par />Davide </exercise>
+  </body>
+</kolipsi_II_document>

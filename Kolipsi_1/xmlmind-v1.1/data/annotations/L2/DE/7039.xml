@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>N7039</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><par /><greeting>Hallo <entity>Maikol</entity>!</greeting> <par />Wie geht es dir? Mir geht es prima!!<par />Ich wollte dir etwas erzählen, dass ist wirklich komisch! Letzte Woche, <palimpsest>unreadable</palimpsest> eine Freundin von mir, ist in einem Obst- und Gemüseladen einkaufen gegangen. Sie hat an die Kasse bezahlt, aber sie hat der Kassenzettel ins Geschäft vergessen. <error>
+        <errorType />
+
+        <originalForm>Cirka</originalForm>
+
+        <targetForm>Circa</targetForm>
+      </error> eine Stunde später ist sie im Supermark<palimpsest>unreadable</palimpsest>t gegangen, <palimpsest>unreadable</palimpsest> als sie an die Kasse angekommen ist, hat sie wieder bezahlt. Aber die Verkäuferin hat in ihre Tasche die Gemüse gesehen, und hat gedenkt <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> <entity>Maria</entity> die Gemüse gestohlen hat. <entity>Maria</entity> erzählte der Verkäuferin dass <error>
+        <errorType />
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> die Gemüse in einen anderen Geschäft gekauft hat, die eingekaufte <error>
+        <errorType />
+
+        <originalForm>Wahren</originalForm>
+
+        <targetForm>Waren</targetForm>
+      </error> hat sie im Supermarkt gelassen und ist in dem Obst- und Gemüseladen gegangen. Die Verkäuferin hat ihr der Kassenzettel gegeben, sie ist wieder im Supermarkt gegangen, hat der <error>
+        <errorType />
+
+        <originalForm>Verkäufirin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> der Kassenzettel gezeigt und ist nach Hause gegangen. <par />Ist das nicht komisch? <par /><closing>Ein <error>
+          <errorType />
+
+          <originalForm>bussi</originalForm>
+
+          <targetForm>Bussi</targetForm>
+        </error>. <par /><entity>Natasha</entity> </closing> </exercise>
+
+    <exercise number="2" xml:space="preserve"><par /><greeting>Hallo <entity>Luca</entity>!</greeting> Wie geht es? Mir alles gut. <par />Ich möchte mit dir im Urlaub gehen. Aber ich <error>
+        <errorType />
+
+        <originalForm>weiss</originalForm>
+
+        <targetForm>weiß</targetForm>
+      </error> nicht wo, ich liebe <palimpsest>unreadable</palimpsest> die Bergen und das Meer gleichsweise, aber ich <error>
+        <errorType />
+
+        <originalForm>weiss</originalForm>
+
+        <targetForm>weiß</targetForm>
+      </error> nicht was du lieber hast. <par />Wenn wir ans Meer gehen können wir der ganzen Tag sonnenlieg<palimpsest>e</palimpsest>n, ins Wasser baden, <error>
+        <errorType />
+
+        <originalForm>wirr</originalForm>
+
+        <targetForm>wir</targetForm>
+      </error> können tauchen oder Wasserski fahren... <error>
+        <errorType />
+
+        <originalForm>wirr</originalForm>
+
+        <targetForm>Wir</targetForm>
+      </error> können uns entspannen, aber <error>
+        <errorType />
+
+        <originalForm>dass</originalForm>
+
+        <targetForm>das</targetForm>
+      </error> können wir auch auf die Bergen machen. Auf die Bergen können wir auch Ski/Snowboard/<error>
+        <errorType />
+
+        <originalForm>Slitte</originalForm>
+
+        <targetForm>Schlitte</targetForm>
+      </error> fahren. Aber dort können wir auch in die Berghütten gehen und typische Gerichte essen, eine gute Luft atmen. <par />Aber ich <error>
+        <errorType />
+
+        <originalForm>weiss</originalForm>
+
+        <targetForm>weiß</targetForm>
+      </error> wirklich nicht was du lieber hast, sag mir, wohin möchtest du mit mir gehen? <par />Ich habe eine Idee, wir können zwei Wochen zusammen gehen, eine Woche gehen wir auf die Bergen, es wurde schön in die <entity>Dolomiten</entity> zu gehen, für mich sind die schönsten Bergen von Europa; und eine Woche können wir ans Meer gehen, Süden von Italien oder in <entity>Griechenland</entity>, i<palimpsest>c</palimpsest>h glaube <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> es wunderschön ist. Das würde einen schö<palimpsest>n</palimpsest>en Urlaub. Oder? <par />Ich warte auf deine Antwort. <par />Hab dich lieb. <par /><closing><error>
+          <errorType />
+
+          <originalForm>Bussi bussi</originalForm>
+
+          <targetForm>Bussi-Bussi</targetForm>
+        </error>. <par /><entity>Natasha</entity> .</closing> </exercise>
+  </body>
+</kolipsi_document>

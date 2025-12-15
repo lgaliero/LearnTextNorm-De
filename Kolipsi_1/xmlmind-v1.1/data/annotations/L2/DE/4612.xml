@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Alena</transcriber>
+
+  <author_id>4612</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve">A: En_dj@hotmail.it <par />Re: <error>
+        <errorType />
+
+        <originalForm>beschreibung</originalForm>
+
+        <targetForm>Beschreibung</targetForm>
+      </error> eines komischen <error>
+        <errorType />
+
+        <originalForm>einkaufes</originalForm>
+
+        <targetForm>Einkaufes</targetForm>
+      </error> <par /><greeting>Hallo Enoli</greeting>, <par />ich schreibe dir diese <error>
+        <errorType />
+
+        <originalForm>e-mail</originalForm>
+
+        <targetForm>E-Mail</targetForm>
+      </error> um dir von einem komischen Einkauf zu erzählen. <par />Es war Donnerstag, der vierte August. Es war ein schöner Tag, die Sonne scheinte auf dem Himmel und die Stadt war ruhig. Es war ein normaler Tag. Am diesem Tag ging ich einkaufen. Ich brauchte Obst und so ging ich beim Obsthändler. Beim Obsthändler <error>
+        <errorType />
+
+        <originalForm>traff</originalForm>
+
+        <targetForm>traf</targetForm>
+      </error> ich ein schönes Mädchen, ich ging zu ihr und fragte ihr was sie von dem Obst hält, du <error>
+        <errorType />
+
+        <originalForm>antst</originalForm>
+
+        <targetForm>ahnst</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>schön</originalForm>
+
+        <targetForm>schon</targetForm>
+      </error> dass das nur eine Ausrede war <correction>
+        <insertion>um</insertion>
+      </correction> sie zu kennen. Wir redeten viel und so <error>
+        <errorType />
+
+        <originalForm>beschloßen</originalForm>
+
+        <targetForm>beschlossen</targetForm>
+      </error> wir zusammen an dem <foreign_word foreign_language="Italiano">Supermarket</foreign_word> <error>
+        <errorType />
+
+        <originalForm>ein zu kaufen</originalForm>
+
+        <targetForm>einzukaufen</targetForm>
+      </error>. <par />Ach ja, ich habe vergessen dir ihr Name zu sagen, sie hieß Maria und war wunderschön. <par />Wir kauften zusammen ein und sie half mir beim <error>
+        <errorType />
+
+        <originalForm>wählen</originalForm>
+
+        <targetForm>Wählen</targetForm>
+      </error> der Produkte, sie war eine sehr große Hilfe.<par />Nach eine halbe Stunde gingen wir zur Kasse und <correction>
+        <insertion>da</insertion>
+      </correction> geschah etwas <error>
+        <errorType />
+
+        <originalForm>komisches</originalForm>
+
+        <targetForm>Komisches</targetForm>
+      </error>: Maria hatte <correction>
+        <deletion>verges</deletion>
+      </correction> den Kassenzettel von den Obstladen vergessen und sie hatte die Obsttasche <correction>
+        <insertion>mit dem Obst</insertion>
+      </correction> im <foreign_word foreign_language="Italiano">Supermarket</foreign_word> mitgebracht und so dachte die Kassiererin dass sie den Obst gestohlen hätte. Dann sagte ich zur <correction>
+        <deletion>k</deletion>
+
+        <insertion>K</insertion>
+      </correction>assiererin dass das nicht wahr war und ich <correction>
+        <deletion>ihr sta</deletion>
+      </correction> sagte ihr dass ich mit Maria beim Obsthändler zusammen war<correction>
+        <deletion>en</deletion>
+      </correction>. Die Kassierein glaubte mir nicht und <correction>
+        <insertion>so</insertion>
+      </correction> rief sie den Obsthändler; der Obsthändler sagte der Kassiererin die <error>
+        <errorType />
+
+        <originalForm>Warheit</originalForm>
+
+        <targetForm>Wahrheit</targetForm>
+      </error> <correction>
+        <deletion>,</deletion>
+      </correction> und er sagte dass Maria das Obst nicht <error>
+        <errorType />
+
+        <originalForm>gestollen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> h<correction>
+        <deletion>ä</deletion>
+      </correction>atte. Am Ende entschuldigte sich die Kassiererin. <par />Dieses Tag war für mich ein großer Erfolg, den im Ende des Einkaufes hatte eine <error>
+        <errorType />
+
+        <originalForm>Telephonnummer</originalForm>
+
+        <targetForm>Telefonnummer</targetForm>
+      </error> von ein Mädchen. Was denkst du Enoli, war das eine komische Geschichte? <par />Ich <correction>
+        <deletion>ha</deletion>
+      </correction> warte auf deine Antwort.<par /><par /><closing>Liebe Grüße <par />Graziano</closing></exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber Enoli</greeting>, <par />wie geht es dir? Mir geht es gut. <par />Ich schreibe dir dieses Brief um dich zu <error>
+        <errorType />
+
+        <originalForm>errinern</originalForm>
+
+        <targetForm>erinnern</targetForm>
+      </error> dass wir dieses Sommer zusammen verbringen werden. <par />Ich denke dass du das nicht vergessen hast weil dieses Sommer wird für uns ein sehr schöner Sommer.<par />Aber es gibt ein Problem, wir müssen uns <correction>
+        <insertion>noch</insertion>
+      </correction> entscheiden wo wir den Urlaub verbringen <correction>
+        <deletion>werden</deletion>
+      </correction> wollen. <par />Es gibt <error>
+        <errorType />
+
+        <originalForm>Zwei</originalForm>
+
+        <targetForm>zwei</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>möglichkeiten</originalForm>
+
+        <targetForm>Möglichkeiten</targetForm>
+      </error>: wir können den Urlaub in den Bergen verbringen oder wir können sie beim Meer verbringen. Jetzt werde ich dir <error>
+        <errorType />
+
+        <originalForm>einbischen</originalForm>
+
+        <targetForm>ein bisschen</targetForm>
+      </error> <correction>
+        <deletion>von erzähl</deletion>
+      </correction> von den Gemeinsamkeiten und der Unterschied<correction>
+        <deletion>en</deletion>
+      </correction> erzählen. Wen wir uns entscheiden in die Berge zu fahren, dann können wir <correction>
+        <deletion>freuen</deletion>
+      </correction> auf der saubere Luft <correction>
+        <deletion>freuen</deletion>
+      </correction>, <correction>
+        <deletion>und</deletion>
+      </correction> auf eine tolle Landschaft <correction>
+        <deletion>freuen</deletion>
+      </correction> und auf der Sonne. <correction>
+        <deletion>D</deletion>
+
+        <insertion>A</insertion>
+      </correction>ber wenn wir ans Meer fahren <error>
+        <errorType />
+
+        <originalForm>konnen</originalForm>
+
+        <targetForm>können</targetForm>
+      </error> wir auch ein gute Luft genießen, aber am besten können wir die Sonne genießen. <par />Schreib mir <error>
+        <errorType />
+
+        <originalForm>zuruck</originalForm>
+
+        <targetForm>zurück</targetForm>
+      </error> und schreib mir deine Ideen über den Sommer. <par /><closing>Liebe Grüße <par />Graziano</closing></exercise>
+  </body>
+</kolipsi_document>

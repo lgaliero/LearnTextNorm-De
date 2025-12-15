@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5031</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><par/><greeting>Hallo <entity>Sarah</entity>!</greeting> <par/>Wie <error>
+        <errorType/>
+
+        <originalForm>get</originalForm>
+
+        <targetForm>geht</targetForm>
+      </error> es dir? Mir get es gut. Heute bin ich mit <entity>Maria</entity> in einem <palimpsest>Obst- und Gem</palimpsest>üse<correction>
+        <insertion>laden,</insertion>
+      </correction> für Gemüse kaufen gegangen. <palimpsest>Sie</palimpsest> hat Tomaten, <error>
+        <errorType/>
+
+        <originalForm>Pomme</originalForm>
+
+        <targetForm>Pommes</targetForm>
+      </error> und Bananen gekauft. Danach hat sie gezahl und ist mit die Gemüse in <palimpsest>das</palimpsest> Sack <error>
+        <errorType/>
+
+        <originalForm><palimpsest>weg g</palimpsest>egangen</originalForm>
+
+        <targetForm>weggegangen</targetForm>
+      </error>. <par/>Eine <palimpsest>S</palimpsest>tunde später ist sie im <foreign_word foreign_language="Italiano">Supermarket</foreign_word> gegangen. Sie hat Milch und Brot gekauft, und wenn sie an der Kasse geht, die <error>
+        <errorType/>
+
+        <originalForm>Kasserin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> sieht die Gemüse in das Sack und sagt ihr, dass sie eine <error>
+        <errorType/>
+
+        <originalForm>Reuberin</originalForm>
+
+        <targetForm>Räuberin</targetForm>
+      </error> ist. Sie entschuldigte sie und <error>
+        <errorType/>
+
+        <originalForm>erzahlt</originalForm>
+
+        <targetForm>erzählt</targetForm>
+      </error> ihr, dass sie im <palimpsest>Obst</palimpsest>- und Gemüseladen gekauft hat. <par/>An der <error>
+        <errorType/>
+
+        <originalForm>ende</originalForm>
+
+        <targetForm>Ende</targetForm>
+      </error> <entity>Maria</entity> hat die Gemüse im <foreign_word foreign_language="Italiano">Supermarket</foreign_word> wieder gezahlt... Es war so lustig wenn sei mir erz<strikeover>
+        <expansion>ä</expansion>
+
+        <expansion>e</expansion>
+      </strikeover>hlt hat...! <par/>Ich warte deine <error>
+        <errorType/>
+
+        <originalForm>antworte</originalForm>
+
+        <targetForm>Antworte</targetForm>
+      </error>! <palimpsest>unreadable</palimpsest> <par/>Sehen wir morgen, ob du wieder in der Schule kommst. <par/><closing><error>
+          <errorType/>
+
+          <originalForm>viele grüße</originalForm>
+
+          <targetForm>Viele Grüße</targetForm>
+        </error> <par/> <entity>Roberta</entity> </closing> </exercise>
+
+    
+  </body>
+</kolipsi_document>

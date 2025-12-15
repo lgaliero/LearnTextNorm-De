@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0149</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Flemming</entity></greeting>,<par/>du weißt nicht was <error>
+        <errorType/>
+
+        <originalForm>letzten</originalForm>
+
+        <targetForm>letztens</targetForm>
+      </error> <entity>Maria</entity>, beim Einkaufen, passiert ist. Als sie im Obst- und Gemüseladen war hat sie zuerst einmal einen Salatkopf gekauft. Da sie einen Korb dabei hatte konnte sie ihn dort hineinlegen und weiter einkaufen. Danach ging sie zur Kasse um zu bezahlen. Dies hatte sie schnell erledigt und konnte nun später im Supermarkt einkaufen. Bis jetzt ist ja noch alles normal, aber im Supermarkt ist ihr etwas passiert  Zunächst <sic>kauft</sic> sie mit ihrem Einkaufswagen mehrere Sachen ein. Als sie später bei dem hochqualifizierten Fachpersonal bezahlen wollte, traten plötzlich <overwrite>
+        <under>k</under>
+
+        <over>K</over>
+      </overwrite>omplikationen auf. Die Verkäuferin hatt<overwrite>
+        <under><unreadable/></under>
+
+        <over>e</over>
+      </overwrite> offensichtlich ein Problem mit dem Obst und Gemüse, <error>
+        <errorType/>
+
+        <originalForm>dass</originalForm>
+
+        <targetForm>das</targetForm>
+      </error> <entity>Maria</entity> schon aus dem anderen Laden hatte. Sie wurde verdächtigt es stehlen zu wollen, da <entity>Maria</entity> aber über ein ausgezeichnetes Deutsch verfügte, konnte sie diese Situation klären und den Komplikationen aus dem Weg gehen. Unfassbar!<par/>Ich hoffe dir geht es trotzdem soweit gut und ich ersehne bald von dir zu hören.<par/><closing>Mit freundlichen Grüßen<par/><entity>Thomas <unreadable/></entity></closing>    </exercise>
+
+    
+  </body>
+</kolipsi_document>

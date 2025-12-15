@@ -1,0 +1,82 @@
+<body>
+ <page page_number="1" transcanno_page_id="2365">
+  <paragraph class="medium-paragraph" tagcode="1556725310925">
+   <div>
+    Dieser (
+    <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1553587865344" tran_alternative_1="familiere" tran_alternative_2="familier">
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="familiäre" tagcode="1553587902189">
+      <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553587942630" tran_correction_original="familie**">
+       <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553587949010" tran_word_deletion_target="_#_">
+        familiere
+       </tran_word_deletion_id8>
+      </tran_word_correction_id25>
+     </orth_error_id12>
+    </tran_ambiguous_id3>
+    ) Vater
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553587123089" tran_word_deletion_target="_#_">
+     gehen
+    </tran_word_deletion_id8>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1553587126960">
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="fährt" tagcode="1553587132708">
+      fahrt
+     </orth_error_id12>
+    </tran_word_insertion_id9>
+    mit der Zug von
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553587489374" tran_correction_original="abba">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553587492404" tran_word_deletion_target="_#_">
+      arba
+     </tran_word_deletion_id8>
+    </tran_word_correction_id25>
+   </div>
+   <div>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="arbeiten" tagcode="1553587523159">
+     arbaiten
+    </orth_error_id12>
+    ,
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1553587539836" tran_foreign_word_language="Italian">
+     quindi
+    </tran_foreign_word_id13>
+    lassen
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553587642786" tran_word_deletion_target="_#_">
+     (
+     <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1553587638525" tran_foreign_word_language="Italian">
+      lascia la sua famiglia
+     </tran_foreign_word_id13>
+     )
+    </tran_word_deletion_id8>
+    seine
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Familie" tagcode="1553587655545">
+     famiglie
+    </orth_error_id12>
+   </div>
+   <div>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1553587707690">
+     <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1556725310924" tran_alternative_1="von" tran_alternative_2="won">
+      von
+     </tran_ambiguous_id3>
+     den
+    </tran_word_insertion_id9>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Arbeit" tagcode="1553587698333">
+     <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1553587707690">
+      arbait
+     </tran_word_insertion_id9>
+    </orth_error_id12>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553587678340" tran_word_deletion_target="_#_">
+     (
+     <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1553587675204" tran_foreign_word_language="Italian">
+      per il lavoro
+     </tran_foreign_word_id13>
+     )
+    </tran_word_deletion_id8>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553588065715" tran_correction_original="wein*eng">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553588070217" tran_word_deletion_target="_#_">
+      <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1553588079154">
+       weinneng
+      </tran_unreadable_id17>
+     </tran_word_deletion_id8>
+    </tran_word_correction_id25>
+    .
+   </div>
+  </paragraph>
+ </page>
+</body>

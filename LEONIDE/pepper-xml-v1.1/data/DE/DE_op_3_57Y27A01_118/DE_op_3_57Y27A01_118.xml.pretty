@@ -1,0 +1,41 @@
+<body>
+ <page page_number="1" transcanno_page_id="2486">
+  <paragraph class="medium-paragraph" tagcode="1556653164234">
+   <div>
+    Ich
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="möchte" tagcode="1556653145071">
+     mochte
+    </orth_error_id12>
+    machen
+    <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1556653164233" tran_alternative_1="Fußballer" tran_alternative_2="Fußboller">
+     Fußballer
+    </tran_ambiguous_id3>
+    , ich musste viel
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Training" tagcode="1553009860326">
+     treining
+    </orth_error_id12>
+    .
+   </div>
+   <div>
+    Ich
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="möchte" tagcode="1556653151223">
+     mochte
+    </orth_error_id12>
+    machen
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1553009922108" tran_foreign_word_language="Italian">
+     Muratore
+    </tran_foreign_word_id13>
+    und ist
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="schön" tagcode="1553009877201">
+     <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1553009886946" tran_alternative_1="scön" tran_alternative_2="Scön">
+      scön
+     </tran_ambiguous_id3>
+    </orth_error_id12>
+    .
+   </div>
+   <div>
+    Ich musste lernen viel
+   </div>
+  </paragraph>
+ </page>
+</body>

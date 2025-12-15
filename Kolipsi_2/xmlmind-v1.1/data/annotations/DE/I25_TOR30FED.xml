@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I25_TOR30FED</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve">Der Frau versucht der Kassenzettel aber nicht finden. Der <error>
+        <errorType />
+
+        <originalForm>Kassirer</originalForm>
+
+        <targetForm>Kassierer</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>must</originalForm>
+
+        <targetForm>musst</targetForm>
+      </error> der Rucksack zu verleer, sie Obst und Gemüse findet. Der Frau musst die <error>
+        <errorType />
+
+        <originalForm>situazion</originalForm>
+
+        <targetForm>Situation</targetForm>
+      </error> erklären, aber der <error>
+        <errorType />
+
+        <originalForm>Kassirer</originalForm>
+
+        <targetForm>Kassierer</targetForm>
+      </error> ruft die Polizei. Später kommt die Polizei in der <foreign_word foreign_language="Italiano">Supermarket</foreign_word> und der Kassierer er<correction>
+        <deletion>z</deletion>
+
+        <insertion>k</insertion>
+      </correction>lärt die <error>
+        <errorType />
+
+        <originalForm>Situazion</originalForm>
+
+        <targetForm>Situation</targetForm>
+      </error> an die Polizei. Die Polizei spricht mit dem Frau und <error>
+        <errorType />
+
+        <originalForm>musten</originalForm>
+
+        <targetForm>mussten</targetForm>
+      </error> sie <error>
+        <errorType />
+
+        <originalForm>bezhalen</originalForm>
+
+        <targetForm>bezahlen</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>obst</originalForm>
+
+        <targetForm>Obst</targetForm>
+      </error> und <error>
+        <errorType />
+
+        <originalForm>gemuse</originalForm>
+
+        <targetForm>Gemüse</targetForm>
+      </error>.</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber Paul</greeting><par />Für mich die virtuelle Freundschaft sind <error>
+        <errorType />
+
+        <originalForm>sher</originalForm>
+
+        <targetForm>sehr</targetForm>
+      </error> positiv aber müssen vorsichtig sind. Mein Rat ist: <error>
+        <errorType />
+
+        <originalForm>gehe</originalForm>
+
+        <targetForm>Gehe</targetForm>
+      </error> raus und findst du Freundschaft. Ich habe zwei virtuelle Freundschaft und es <error>
+        <errorType />
+
+        <originalForm>get</originalForm>
+
+        <targetForm>geht</targetForm>
+      </error> mir gut.<par />Internet ist <error>
+        <errorType />
+
+        <originalForm>sher</originalForm>
+
+        <targetForm>sehr</targetForm>
+      </error> wichtig, heute die Welt dreht sich um das Internet.</exercise>
+  </body>
+</kolipsi_II_document>

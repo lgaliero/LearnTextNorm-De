@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5856</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve">
+      <par/><greeting>Hallo <entity>Claudia</entity>,</greeting> <par/><error>
+        <errorType/>
+
+        <originalForm>bien</originalForm>
+
+        <targetForm>bin</targetForm>
+      </error> ich, <entity>Lu<strikeover>
+          <expansion>c</expansion>
+
+          <expansion>a</expansion>
+        </strikeover></entity>, und ich will dir sagen die Möglichkeiten von unsere Url<correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>au</insertion>
+      </correction>b für dieses Sommer.<par/>Wir können in die Berge <arrow end="open" id="1"/>oder ans Meer. <arrow end="head" id="1">Fahren</arrow> Die Berge für mich sind sehr schön und wir können viel spazieren und neue Spezialitäte von diesen Land genie<overwrite>
+        <under>s</under>
+
+        <over>ß</over>
+      </overwrite>en, aber ich <correction>
+        <deletion>bin</deletion>
+
+        <insertion>habe</insertion>
+      </correction> schon viel Zeit in diesen Land in meinen Leben gelebt. <par/>Mir <error>
+        <errorType/>
+
+        <originalForm><ambiguous>
+            <alternative>wi</alternative>
+
+            <alternative>m</alternative>
+          </ambiguous>rde</originalForm>
+
+        <targetForm>würde</targetForm>
+      </error> das Meer besser gefallen.<par/>Es <error>
+        <errorType/>
+
+        <originalForm><ambiguous>
+            <alternative>wi</alternative>
+
+            <alternative>m</alternative>
+          </ambiguous>rde</originalForm>
+
+        <targetForm>würde</targetForm>
+      </error> <correction>
+        <deletion><unreadable/></deletion>
+      </correction> wunderschön wenn <error>
+        <errorType/>
+
+        <originalForm>nir</originalForm>
+
+        <targetForm>wir</targetForm>
+      </error> bei <entity>Hawaii</entity> fahren oder?<par/>In <entity>Hawaii</entity> das Meer ist sehr schön und <correction>
+        <deletion><unreadable/></deletion>
+      </correction> sauber. Ich <error>
+        <errorType/>
+
+        <originalForm><ambiguous>
+            <alternative>wi</alternative>
+
+            <alternative>m</alternative>
+          </ambiguous>rde</originalForm>
+
+        <targetForm>würde</targetForm>
+      </error> auch <foreign_word foreign_language="Italiano">Surf</foreign_word> <error>
+        <errorType/>
+
+        <originalForm>pobieren</originalForm>
+
+        <targetForm>probieren</targetForm>
+      </error> und <correction>
+        <deletion><unreadable/></deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>Coccosnuße</originalForm>
+
+        <targetForm>Kokosnüsse</targetForm>
+      </error> essen.<par/>Wir können auch tauchen und die Fische sehen. Leute haben mir gesagt <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> die Fische in <entity><error>
+          <errorType/>
+
+          <originalForm>Haveii</originalForm>
+
+          <targetForm>Hawaii</targetForm>
+        </error></entity> mehrfärlige sind. <par/>Wenn wir Mut haben können wir auch Haifische sehen! Das <error>
+        <errorType/>
+
+        <originalForm><ambiguous>
+            <alternative>wi</alternative>
+
+            <alternative>m</alternative>
+          </ambiguous>rde</originalForm>
+
+        <targetForm>würde</targetForm>
+      </error> super! <par/>Der Nacht in <entity><error>
+          <errorType/>
+
+          <originalForm>Havaii</originalForm>
+
+          <targetForm>Hawaii</targetForm>
+        </error></entity> ist sehr <error>
+        <errorType/>
+
+        <originalForm>romantik</originalForm>
+
+        <targetForm>romantisch</targetForm>
+      </error> und du kannst viel <error>
+        <errorType/>
+
+        <originalForm>spaß</originalForm>
+
+        <targetForm>Spaß</targetForm>
+      </error> haben.<par/>Die Berge sind auch schön, aber <error>
+        <errorType/>
+
+        <originalForm>venn</originalForm>
+
+        <targetForm>wenn</targetForm>
+      </error> ich entscheiden <error>
+        <errorType/>
+
+        <originalForm><ambiguous>
+            <alternative>wi</alternative>
+
+            <alternative>mi</alternative>
+          </ambiguous>rde</originalForm>
+
+        <targetForm>würde</targetForm>
+      </error> ich <correction>
+        <deletion><unreadable/></deletion>
+      </correction> gehe ans Meer. Aber <error>
+        <errorType/>
+
+        <originalForm>venn</originalForm>
+
+        <targetForm>wenn</targetForm>
+      </error> du <error>
+        <errorType/>
+
+        <originalForm><ambiguous>
+            <alternative>n</alternative>
+
+            <alternative>vi</alternative>
+          </ambiguous>llst</originalForm>
+
+        <targetForm>willst</targetForm>
+      </error> können <unreadable/> die Berge sehen! Ich kann deinen Bergführer sein <error>
+        <errorType/>
+
+        <originalForm>ven</originalForm>
+
+        <targetForm>wenn</targetForm>
+      </error> du <ambiguous>
+        <alternative>wi</alternative>
+
+        <alternative>m</alternative>
+      </ambiguous>llst! Ich kenne fast perfekt das Land wo du gehen <error>
+        <errorType/>
+
+        <originalForm><ambiguous>
+            <alternative>wi</alternative>
+
+            <alternative>m</alternative>
+          </ambiguous>lhst</originalForm>
+
+        <targetForm>willst</targetForm>
+      </error>. <par/>Ich bringe dir die Hütte sehen, und <error>
+        <errorType/>
+
+        <originalForm>venn</originalForm>
+
+        <targetForm>wenn</targetForm>
+      </error> du willst auch bis der Gipfel eins Berges. Bitte antworte mich diese E-Mail! Wir müssen sofort en<correction>
+        <deletion>s</deletion>
+
+        <insertion>t</insertion>
+      </correction>scheiden!<par/><closing>Servus, <entity>Lu<strikeover>
+            <expansion>c</expansion>
+
+            <expansion>a</expansion>
+          </strikeover></entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

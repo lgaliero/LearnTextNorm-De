@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I03_DAN30SAR</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe Monika,</greeting><par /><correction>
+        <deletion>letze</deletion>
+      </correction> <correction>
+        <deletion>G</deletion>
+
+        <insertion>g</insertion>
+      </correction>estern habe ich Maria getroffen und sie hat mich eine komische Geschichte erzählen.<par />Sie war <error>
+        <errorType />
+
+        <originalForm>letze</originalForm>
+
+        <targetForm>letzte</targetForm>
+      </error> Woche einkaufen. Zuerst war sie in einem <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Obst- und Gemüseladen und sie hat <correction>
+        <deletion><unreadable /></deletion>
+      </correction> ein bisschen Obst gekauft, dann hat sie bezahlt und sie ist <correction>
+        <deletion>wieder</deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>weg gegangen</originalForm>
+
+        <targetForm>weggegangen</targetForm>
+      </error>. Nach eine Stunde war sie im Supermarkt.<correction></correction> Sie musste noch Fisch und Milch kaufen. Nach seine Runde war sie an <correction>
+        <deletion><unreadable /></deletion>
+      </correction> die Kasse gegangen, hat <correction>
+        <insertion>sie</insertion>
+      </correction> bezahlt und dann wollte sie wieder <error>
+        <errorType />
+
+        <originalForm>weg gehen</originalForm>
+
+        <targetForm>weggehen</targetForm>
+      </error> aber es gab ein Problem: Als sie <correction>
+        <deletion>im</deletion>
+      </correction> beim Obsthändler war, hatte sie den Kassezettel vergessen. <correction>
+        <deletion>und dann</deletion>
+      </correction> Im Supermarkt hatte sie <correction>
+        <deletion><unreadable /></deletion>
+      </correction> auch <correction>
+        <deletion>die</deletion>
+
+        <insertion>das</insertion>
+      </correction> Obst dabei und an die Kasse <correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>wollte</insertion>
+      </correction> die Verkäuferin<correction>
+        <deletion>g gefragt</deletion>
+      </correction> dass Maria auch das Obst bezahlen muss.<par />Also, ohne Kessezettel, hatte Maria <error>
+        <errorType />
+
+        <originalForm>zwei mal</originalForm>
+
+        <targetForm>zweimal</targetForm>
+      </error> den Obst bezahlt, weil sie keine Probleme wollte. </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber Paul,</greeting><par />ich verstehe was dir <correction>
+        <deletion>Pa</deletion>
+      </correction> passiert ist.<par />Als ich zwölf Jahre alt war, hatte ich einen virtuellen Freund gehabt. <correction>
+        <deletion>Wenn ich</deletion>
+      </correction> Ich war immer auf Internet, <correction>
+        <insertion>ich hatte</insertion>
+      </correction> immer mit diesem Mann geschrieben. Ich dachte <correction>
+        <deletion><unreadable /></deletion>
+      </correction> nur am ihm. Aber nach eine <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Monat wollte ich mit ihm treffen, <correction>
+        <deletion>dann</deletion>
+      </correction> so fragte ich ob er auch mit mir treffen wollte und <correction>
+        <deletion>er</deletion>
+      </correction> dann meldet er sich nicht mehr. Nach diese Erfahrung glaube ich, dass virtuelle Freundschaften keinen Sinn haben.<par /><correction>
+        <deletion>Die gute Freundschaften <unreadable /></deletion>
+      </correction><par />Ich <correction>
+        <deletion>denke</deletion>
+      </correction> dachte auch, dass alle Freundschaften <error>
+        <errorType />
+
+        <originalForm>shönen</originalForm>
+
+        <targetForm>schönen</targetForm>
+      </error> sind, aber nicht alle <correction>
+        <deletion><unreadable /></deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>vichtige</originalForm>
+
+        <targetForm>wichtige</targetForm>
+      </error>.<par /><correction>
+        <deletion><unreadable /></deletion>
+      </correction> Ob ich du <error>
+        <errorType />
+
+        <originalForm>währe</originalForm>
+
+        <targetForm>wäre</targetForm>
+      </error>, <correction>
+        <deletion><unreadable /></deletion>
+      </correction> würde ich noch mit diese Leute schreiben, aber auch mit andere Leute, die in deiner Stadt leben, chatten und vielleicht auch treffen. Macht nicht mein Fehler, verwendet deinen Zeit auch für anders: <correction>
+        <deletion><unreadable /></deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>zum beispiel</originalForm>
+
+        <targetForm>Zum Beispiel</targetForm>
+      </error> einen Sport oder einen Hobby wo du mit andere Leute treffen könntest, ist eine gute Mittel zu neue Freundschaften zu schließen.<par /><closing><closing>Viel <correction>
+            <deletion>g</deletion>
+
+            <insertion>G</insertion>
+          </correction>lück für alles.</closing></closing><par />Saras</exercise>
+  </body>
+</kolipsi_II_document>

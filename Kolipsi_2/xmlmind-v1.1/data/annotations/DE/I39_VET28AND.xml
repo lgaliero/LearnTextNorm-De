@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I39_VET28AND</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe Sarah,</greeting><par /><error>
+        <errorType />
+
+        <originalForm>weisst</originalForm>
+
+        <targetForm>weißt</targetForm>
+      </error> du, wie dann die Geschichte <error>
+        <errorType />
+
+        <originalForm>vertig</originalForm>
+
+        <targetForm>fertig</targetForm>
+      </error> ist? Ich <correction>
+        <deletion><unreadable /></deletion>
+      </correction> hoffe nicht, weil ich es <correction>
+        <deletion><unreadable /></deletion>
+      </correction> dir erzählen werde. Nach Maria in einem Obst- und Gemüseladen einkaufen ist, geht sie in einen Supermarkt. Maria hat eine Liste für was sie kaufen muss. Bei der Kasse musste sie bezahlen aber sie <correction>
+        <deletion><unreadable /></deletion>
+      </correction> erinnerte sich selbst, dass sie etwas vergessen hat. <correction>
+        <deletion>Also geht sie</deletion>
+      </correction> Bei der Kasse war schon eine lange Reihe also was sollte sie machen? Sie konnte nicht <error>
+        <errorType />
+
+        <originalForm>zurück gehen</originalForm>
+
+        <targetForm>zurückgehen</targetForm>
+      </error> also hat sie <error>
+        <errorType />
+
+        <originalForm>bezählt</originalForm>
+
+        <targetForm>bezahlt</targetForm>
+      </error> und sie ist zu Hause gefähren. <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Maria hat <correction>
+        <deletion>gedenkt, dass sie</deletion>
+      </correction> gedacht, dass kein Problem war aber am Abendessen schimpft seinem Sohn, weil sie keine Breauche gekauft hatte. <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Ohne Breauche konnte Timothy keine <error>
+        <errorType />
+
+        <originalForm>Frühstuck</originalForm>
+
+        <targetForm>Frühstück</targetForm>
+      </error> machen also backt Maria in der Nacht eine Küche. Mit dieser Küche war die ganze Familie <error>
+        <errorType />
+
+        <originalForm>fröh</originalForm>
+
+        <targetForm>froh</targetForm>
+      </error> und Timothy entschuldig sich mit Maria. Timothy war so voll von Energien, dass in der Schule <correction>
+        <deletion>hat <unreadable /></deletion>
+      </correction> er eine sehr positive <error>
+        <errorType />
+
+        <originalForm>Bevertung</originalForm>
+
+        <targetForm>Bewertung</targetForm>
+      </error> in Englisch bekammt hat.<par /><closing>Herzliche <correction>
+          <deletion>Grüße</deletion>
+
+          <insertion>Grüße</insertion>
+        </correction></closing> Andreen<par /><correction>
+        <deletion><unreadable /> Grüße</deletion>
+      </correction></exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Geehrter Paul,</greeting><par /><correction>
+        <deletion>ich auch ich</deletion>
+      </correction> auch ich hälte <error>
+        <errorType />
+
+        <originalForm>nich</originalForm>
+
+        <targetForm>nicht</targetForm>
+      </error> wie dir. Ich hatte viele Freundschaft <error>
+        <errorType />
+
+        <originalForm>geschlisen</originalForm>
+
+        <targetForm>geschließen</targetForm>
+      </error> auf Facebook und anderen Social <error>
+        <errorType />
+
+        <originalForm>network</originalForm>
+
+        <targetForm>Network</targetForm>
+      </error>. Einem Tag hatte ich im Fernsehen <correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>einer</insertion>
+      </correction> Programm geschaut: <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Catfish. Dieser Programm erzählt von Persenen, die anderen Personen auf Social <error>
+        <errorType />
+
+        <originalForm>network</originalForm>
+
+        <targetForm>Network</targetForm>
+      </error> <correction>
+        <deletion>g</deletion>
+      </correction> kennen und sie auch<correction>
+        <deletion><unreadable /></deletion>
+      </correction> Relationen <error>
+        <errorType />
+
+        <originalForm>schliesen</originalForm>
+
+        <targetForm>schließen</targetForm>
+      </error>. Weiter werden sie entdecken, dass die Personen die sie denken, waren nicht die selbste Leute. Also habe ich eine andere Richtung genommen. Ich wollte diese Leute wirklich kennen. Wenn du mit jemandem einen <correction>
+        <deletion><unreadable /></deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>Kaffe</originalForm>
+
+        <targetForm>Kaffee</targetForm>
+      </error> haben gehst, dort kennst du die Leute besser. Du siehst ihm, du hörst ihm du wird diese Person besser kennen als hinter einem <correction>
+        <deletion>Desktop</deletion>
+      </correction> Monitor. Und <correction>
+        <deletion><unreadable /></deletion>
+      </correction> es ist auch schöner so die Personen zu kennen oder? Warum probierst du nicht dieser <foreign_word
+        foreign_language="English">Method</foreign_word> zu <correction>
+        <deletion>schaffen.</deletion>
+      </correction> benutzen? Die <error>
+        <errorType />
+
+        <originalForm>Socialnetworks</originalForm>
+
+        <targetForm>Social Networks</targetForm>
+      </error> sind nützlich um im Kontakt zu bleiben mit Personen, die weit weg von dir sind. Denkst du, dass ich <correction>
+        <deletion>r</deletion>
+
+        <insertion>R</insertion>
+      </correction>echt haben konnen? Ich warte auf eine Antwort von dir<correction>
+        <deletion>!</deletion>
+
+        <insertion>.</insertion>
+      </correction> Ich hoffe, dass du Idee <error>
+        <errorType />
+
+        <originalForm>andert</originalForm>
+
+        <targetForm>ändert</targetForm>
+      </error>.<par /><closing>Liebe Grüße</closing> Andrea</exercise>
+  </body>
+</kolipsi_II_document>

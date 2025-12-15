@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Jessica</transcriber>
+
+  <author_id>6328</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Lieber <entity>Mattia</entity>.<par/>Hallo<par/></greeting><par/>Haben <error>
+        <errorType/>
+
+        <originalForm>sie</originalForm>
+
+        <targetForm>Sie</targetForm>
+      </error> gehört was passiert seine Freundin <entity>Maria</entity>!?!<par/>Also <entity>Maria</entity> kauft Gemüse <correction>
+        <deletion><unreadable/></deletion>
+      </correction> und dann in Bäckerei <correction>
+        <deletion>und</deletion>
+      </correction> kaufen Brot mit einer Familie.<par/>An der Kasse die <error>
+        <errorType/>
+
+        <originalForm>Beckerin</originalForm>
+
+        <targetForm>Bäckerin</targetForm>
+      </error>, <correction>
+        <deletion><unreadable/></deletion>
+      </correction> lass <foreign_word foreign_language="Italiano">a</foreign_word> <entity>Maria</entity> ein Kassenzettel, aber sie verlassen in der Bäckerei.<par/><entity>Maria</entity> <unreadable/> und in den <foreign_word foreign_language="Italiano">Supermarket</foreign_word> gegangen, in diese hat die <error>
+        <errorType/>
+
+        <originalForm>Schokoladekese</originalForm>
+
+        <targetForm>Schokoladekekse</targetForm>
+      </error>, Wasser, <error>
+        <errorType/>
+
+        <originalForm>Olivenol</originalForm>
+
+        <targetForm>Olivenöl</targetForm>
+      </error> , Sardellenfilets, <sic>Küchesehne</sic>, <error>
+        <errorType/>
+
+        <originalForm>Tuhnfisch</originalForm>
+
+        <targetForm>Thunfisch</targetForm>
+      </error> und <error>
+        <errorType/>
+
+        <originalForm>Hun</originalForm>
+
+        <targetForm>Huhn</targetForm>
+      </error> <sic>gekaufen</sic>.<par/>Dann sie geht in Kasse, <correction>
+        <deletion><unreadable/></deletion>
+      </correction> und dem Kassenzettel sagt: „Wo gehen <error>
+        <errorType/>
+
+        <originalForm>sie</originalForm>
+
+        <targetForm>Sie</targetForm>
+      </error>, <correction>
+        <deletion>dieses Brot</deletion>
+      </correction> du hast nicht bezahlen dieses Brot“.<par/> <entity>Maria</entity> sagt „ Nein ich ich <correction>
+        <deletion>haben</deletion>
+      </correction> haben dieses Brot in <error>
+        <errorType/>
+
+        <originalForm>Backerei</originalForm>
+
+        <targetForm>Bäckerei</targetForm>
+      </error> gekaufen, ist nicht ihren“. <par/>Kassen <correction>
+        <deletion>zettel</deletion>
+      </correction> sagt „Nein du hast die Brot <error>
+        <errorType/>
+
+        <originalForm>Klaunen</originalForm>
+
+        <targetForm>klauen</targetForm>
+      </error>, ich telefoniert an der Polizei“.<par/><entity>Maria</entity> „Ok, <error>
+        <errorType/>
+
+        <originalForm>entschuldi<overwrite>
+            <over>g</over>
+
+            <under><unreadable/></under>
+          </overwrite>gung</originalForm>
+
+        <targetForm>Entschuldigung</targetForm>
+      </error> ich kaufe ein andere Brot <unreadable/> .Kassen<correction>
+        <deletion>zettel</deletion>
+      </correction> <sic>ägt</sic> „Ok diese ist eine gute <error>
+        <errorType/>
+
+        <originalForm>idee</originalForm>
+
+        <targetForm>Idee</targetForm>
+      </error>.<par/><greeting><error>
+          <errorType/>
+
+          <originalForm>Aufwiedersehen</originalForm>
+
+          <targetForm>Auf Wiedersehen</targetForm>
+        </error></greeting>.</exercise>
+
+    
+  </body>
+</kolipsi_document>

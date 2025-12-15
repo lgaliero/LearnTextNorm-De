@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>6319</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><par/><greeting>Hallo <entity>Marco</entity></greeting> wie geht es ihr? Ich gut danke. <par/><palimpsest>unreadable</palimpsest> Morgen ich gehe in <foreign_word foreign_language="Italiano">supermarket</foreign_word> und habe <palimpsest>unreadable</palimpsest> gesehen eine Frau. Diese Frau verkauft ein Obst- und Gemüs<palimpsest>e</palimpsest><strikeover>
+        <expansion>l</expansion>
+
+        <expansion>h</expansion>
+      </strikeover>anden. <error>
+        <errorType/>
+
+        <originalForm>ruhig</originalForm>
+
+        <targetForm>Ruhig</targetForm>
+      </error> kauft weiter alle die Lebensmittel. Geht in die Kasse und die <error>
+        <errorType/>
+
+        <originalForm>Ferk<strikeover>
+            <expansion>ei</expansion>
+
+            <expansion>a</expansion>
+          </strikeover>ferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> sehen <entity>Maria</entity> mit die Obst in eine <palimpsest>unreadable</palimpsest> Tasche. Die <error>
+        <errorType/>
+
+        <originalForm>Ferk<strikeover>
+            <expansion>ei</expansion>
+
+            <expansion>a</expansion>
+          </strikeover>ferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> <palimpsest>unreadable</palimpsest> denken <entity>Maria</entity> <error>
+        <errorType/>
+
+        <originalForm>stelen</originalForm>
+
+        <targetForm>stehlen</targetForm>
+      </error> hat. Die <error>
+        <errorType/>
+
+        <originalForm>Ferk<strikeover>
+            <expansion>ei</expansion>
+
+            <expansion>a</expansion>
+          </strikeover>ferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> telefon die Polizei. Später. kommt die Polizei und <entity>Maria</entity> sagt alle die Vorfall. Die Polizei sagt <entity>Maria</entity> wo gekauft die Obst und <entity>Maria</entity> sagt. Die Polizei geht in der <error>
+        <errorType/>
+
+        <originalForm>Obsthänder</originalForm>
+
+        <targetForm>Obsthändler</targetForm>
+      </error> mit <entity>Maria</entity> sagt hat die <error>
+        <errorType/>
+
+        <originalForm>Ferk<strikeover>
+            <expansion>ei</expansion>
+
+            <expansion>a</expansion>
+          </strikeover>ferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> <direct_speech>- Hat diese Frau gekauft die Obst eine Stunde später?? -</direct_speech> Die <error>
+        <errorType/>
+
+        <originalForm>Ferk<strikeover>
+            <expansion>ei</expansion>
+
+            <expansion>a</expansion>
+          </strikeover>ferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> sagt ja und die Fall ist gesch<correction>
+        <deletion>o</deletion>
+
+        <insertion>l</insertion>
+      </correction>ossen. Die <error>
+        <errorType/>
+
+        <originalForm>Ferk<strikeover>
+            <expansion>ei</expansion>
+
+            <expansion>a</expansion>
+          </strikeover>ferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> entschuldig sich <entity>Maria</entity> und dann sie geht aus.</exercise>
+
+    
+  </body>
+</kolipsi_document>

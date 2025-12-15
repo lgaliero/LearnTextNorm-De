@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0085</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Merle</entity></greeting>!<par/><error>
+        <errorType/>
+
+        <originalForm>wie</originalForm>
+
+        <targetForm>Wie</targetForm>
+      </error> geht es dir? Ich hoffe doch gut.<par/><palimpsest>Mir ist heute</palimpsest> etwas <error>
+        <errorType/>
+
+        <originalForm>komisches</originalForm>
+
+        <targetForm>Komisches</targetForm>
+      </error> passiert. Zuerst habe ich im Obst- und Gemüseladen eingekauft. Ich brauchte nämlich Erdbeeren, Bananen und Trauben für den Obstsalat und Gurken, Paprika und Tomaten für den anderen Salat. Heute wird bei uns zu Hause nämlich vegetarisch gegessen.<par/>Danach bin ich in den Supermarkt gegangen.<par/>Ich wollte noch ein paar Süßigkeiten für den Videoabend morgen kaufen.<par/>Du bist natürlich auch eingeladen <emoticon>:)</emoticon>.<par/>Also bis dahin <overwrite>
+        <under>u</under>
+
+        <over>v</over>
+      </overwrite>erlief noch alles ganz normal. Ich suchte die Sachen in den Regalen und legte alles in den Einkaufswagen. Ich hatte eine Menge in dem Wagen.<par/>Als ich alles gefunden hatte bin ich zur Kasse ge<hyphen>-</hyphen>gangen. Ich legte alles auf das Band und wartete, dass ich endlich bezahlen konnte. Doch auf einmal machte die Kasse ein komisches, lautes Geräusch. Die <error>
+        <errorType/>
+
+        <originalForm>Kassirerin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> erschrak. Sie erklärte mir, das sie nicht weiter kassieren konnte.<par/>Daraufhin musste ich alle Sachen wieder in den Einkaufswagen legen und zu einer anderen Kasse gehen. Dort lief zum Glück nichts schief.<par/>Ich war froh als ich endlich zu Hause war. <error>
+        <errorType/>
+
+        <originalForm>Naja</originalForm>
+
+        <targetForm>Na ja</targetForm>
+      </error>...<par/>Und was hast du heute gemacht?<par/>Schreibe mir doch bitte zurück.<par/><closing>Liebe Grüße<par/><entity>Lena</entity></closing>     </exercise>
+
+    
+  </body>
+</kolipsi_document>

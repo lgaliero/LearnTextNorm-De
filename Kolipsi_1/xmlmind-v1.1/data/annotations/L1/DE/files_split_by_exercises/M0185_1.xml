@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0185</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Marc</entity></greeting>,<par/>ich muss dir unbedingt erzählen, was <correction>
+        <deletion>w</deletion>
+      </correction> meiner Freundin <entity>Maria</entity> <correction>
+        <deletion>heute</deletion>
+      </correction> <correction>
+        <insertion>letzte Woche</insertion>
+      </correction> beim Einkaufen passiert ist. Sie kaufte zunächst etwas Obst und Gemüse in einem Feinkostladen. Sie verwahrte ihren Einkauf in einer Tüte. Sie vergaß jedoch die Quittung an der Kasse. Als sie später den nahegelegenen Supermarkt aufsuchte, um weitere Zutaten für das Essen am Abend mit mir zu kaufen, trug sie weiterhin ihre Tasche mit dem Obst bei sich. Da der Supermarkt ebenfalls eine Gemüsetheke besitzt, wurde <entity>Maria</entity> an der Kasse von der Angestellten angeschnauzt, was ihr denn einfiele und so weiter. Sie konnte leider die Quittung vom Feinkostladen nicht mehr vorweisen. Sie sprintete natürlich gleich rüber zum Obst- und Gemüsehandel, um an der Kasse nach der Quittung zu fragen. Sie hatte mal wieder Schwein, die Verkäuferin konnte sich noch erinnern und sie bekam dann noch den Zettel. Am Abend haben wir dann übrigens noch sehr lecker gegessen.<par/><closing>Gruß,<par/><entity>Tobi</entity></closing>     </exercise>
+
+    
+  </body>
+</kolipsi_document>

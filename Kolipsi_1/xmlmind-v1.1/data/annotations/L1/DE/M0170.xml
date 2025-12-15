@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0170</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo, mein geliebter Freund.</greeting><par />Ich muss dir was total <error>
+        <errorType />
+
+        <originalForm>lustiges</originalForm>
+
+        <targetForm>Lustiges</targetForm>
+      </error> erzählen. Du kennst doch meine Freundin <entity>Maria</entity>, oder? Sie war heute zuerst in einem Obst- bzw. Gemüseladen einkaufen, hat aber dann da den Kassenbon liegen lassen. Anschließend ging sie in einen Supermarkt und kaufte da noch voll viele Sachen.<par />Als sie dann aber <correction>
+        <deletion>d</deletion>
+      </correction> da an der Kasse stand, hat die Kassierer<overwrite>
+        <under>e</under>
+
+        <over>i</over>
+      </overwrite>n die ganzen Sachen gesehen die <entity>Maria</entity> in ihrem Rucksack hatte, weil sie ja vorher in dem Obstladen war. Also hat die Kassiererin <entity>Maria</entity> angemotzt weil die dachte, die Sachen wären geklaut. <entity>Maria</entity> bekam totale Panik weil sie sowieso ein kleines Sensibelchen ist. Sie hat versucht zu erklären, dass die Sachen nicht aus dem Supermarkt sind, sondern aus dem Bioladen um die Ecke. Aber die Kassiererin hat ihr leider nicht geglaubt und die Polizei gerufen. Die haben sich dann erstmal schön Zeit gelassen, und sind nach einer halben Stunde eingetrudelt. Später sind die dann um die Ecke zum Bioladen gegangen, und - Gott sei Dank - konnte sich die Verkäuferin dort an <entity>Maria</entity> <error>
+        <errorType />
+
+        <originalForm>errinnern</originalForm>
+
+        <targetForm>erinnern</targetForm>
+      </error>. Da ist sie ja nochmal mit dem Schreck <error>
+        <errorType />
+
+        <originalForm>davon gekommen</originalForm>
+
+        <targetForm>davongekommen</targetForm>
+      </error>. Lustige Geschichte, oder???<par /><closing><reduction>
+          <reductionType rType="02 abbreviation" />
+
+          <reducedForm>Lg</reducedForm>
+
+          <unfoldedForm>Liebe Grüße</unfoldedForm>
+        </reduction>, ....</closing>    </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hey Schatz.</greeting><par />Wie geht es dir? Weißt du<correction>
+        <deletion>n</deletion>
+      </correction> noch letzte Woche? Da haben wir uns doch über einen gemeinsamen Urlaub unterhalten. Jetzt frage ich dich, möchtest du lieber ans Meer oder in die Berge (also in die <entity>Alpen</entity>, beispielsweise?) Ich persönlich finde ja das Meer interessanter. Dort ist es <correction>
+        <deletion>Wa</deletion>
+      </correction> warm und der Sand ist weich und es gibt Palmen... Aber in den Bergen kann es auch sehr schön sein. Aber dann müssten wir eine Ferienwohnung nehmen, um die ortsansässigen Menschen zu unterstützen. Wir könnten zum Beispiel nach <entity>Obersdorf</entity> fahren, da gibt es viele verschiedene Sachen die man machen kann. Das geht von Skifahren, bis Wandern. Aber wie gesagt, <error>
+        <errorType />
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> finde das Meer ansprechender. Stell dir mal vor: Wir beide an einem Strand, wie wir in der Sonne braten... Also was möchtest du? Es wäre schön wenn du mir schnell zurückschreibst, ob du in die Sonne oder in die <entity>Alpen</entity> willst. <error>
+        <errorType />
+
+        <originalForm>Achja</originalForm>
+
+        <targetForm>Ach ja</targetForm>
+      </error>, ein Punkt für <entity>Obersdorf</entity> wäre auch noch, <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> der Ort sehr umweltfreundlich und nachhaltig ist. <reduction>
+        <reductionType rType="01 contraction" />
+
+        <reducedForm>Überlegs</reducedForm>
+
+        <unfoldedForm>Überleg es</unfoldedForm>
+      </reduction> dir, S<overwrite>
+        <under><unreadable /></under>
+
+        <over>c</over>
+      </overwrite>hatz.<par /><closing>xxx</closing>     </exercise>
+  </body>
+</kolipsi_document>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0209</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hi <entity>Paul</entity></greeting>,<par/><error>
+        <errorType/>
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> muss dir mal unbedingt was erzählen. <correction>
+        <deletion><unreadable/></deletion>
+      </correction> Letztens war die <entity>Maria</entity>, meine Freundin, <overwrite>
+        <under>im</under>
+
+        <over>be</over>
+      </overwrite>im Obsthändler. Da hat sie Zutaten für einen Obstsalat eingekauft. Als sie jedoch den Laden verließ fiel ihr zunächst nicht auf, dass sie ihren <error>
+        <errorType/>
+
+        <originalForm>Kassenbong</originalForm>
+
+        <targetForm>Kassenbon</targetForm>
+      </error> liegen gelassen hatte. Jetzt, ohne dies bemerkt zu haben, ging sie in den Supermarkt um Eis und Sahne, sowie einige andere Lebensmittel zu besorgen.<par/>Als sie dann dort an der Kasse stand und grad gehen wollte <overwrite>
+        <under>v</under>
+
+        <over>f</over>
+      </overwrite>iel der Verkäuferin auf <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> sie noch andere Lebensmittel, und zwar die aus dem Obstladen in einer anderen Tasche hatte. Die Verkäuferin ging sofort davon aus <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> <entity>Maria</entity> die Sachen gestohlen hätte, was natürlich nicht so war, und da <entity>Maria</entity>, <correction>
+        <deletion><unreadable/></deletion>
+      </correction> da sie den <error>
+        <errorType/>
+
+        <originalForm>Bong</originalForm>
+
+        <targetForm>Bon</targetForm>
+      </error> nicht hatte, nicht beweisen konnte, dass sie diese Lebensmittel aus einem anderen Laden hatte, rief die Kassiererin erst den Sicherheitsdienst und dann die Polizei. <correction>
+        <deletion>Was d</deletion>
+      </correction> Keine Ahnung was dann genau passiert ist, sie hat mir jetzt nicht jede Einzelheit erzählt. Ich wei<correction>
+        <deletion>ß</deletion>
+      </correction>ss nur <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> sie jetzt <overwrite>
+        <under>n</under>
+
+        <over>e</over>
+      </overwrite>ine Anzeige wegen Diebstahl hat. Ganz schön miese Situation.<par/><error>
+        <errorType/>
+
+        <originalForm>Naja</originalForm>
+
+        <targetForm>Na ja</targetForm>
+      </error>.. ich wollte dir bloß <error>
+        <errorType/>
+
+        <originalForm>bescheid</originalForm>
+
+        <targetForm>Bescheid</targetForm>
+      </error> sagen, damit du auch <error>
+        <errorType/>
+
+        <originalForm>bescheid</originalForm>
+
+        <targetForm>Bescheid</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>weisst</originalForm>
+
+        <targetForm>weißt</targetForm>
+      </error>.<par/><closing><reduction>
+          <reductionType rType="02 abbreviation"/>
+
+          <reducedForm>LG</reducedForm>
+
+          <unfoldedForm>Liebe Grüße</unfoldedForm>
+        </reduction>. <correction>
+          <deletion><unreadable/></deletion>
+        </correction> </closing>       </exercise>
+
+    
+  </body>
+</kolipsi_document>

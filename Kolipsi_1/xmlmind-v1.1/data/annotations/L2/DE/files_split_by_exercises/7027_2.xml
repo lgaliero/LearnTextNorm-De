@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>N7027</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Hallo liebe <entity>Hannah</entity>!</greeting><par/>Erinnerst du di<palimpsest>r</palimpsest> wenn wir <palimpsest>über</palimpsest> einen gemeinsamen Urlaub gesprochen haben?<par/>Ich denke, dass das eine sehr schöne Idee wäre und deswegen habe ich mir ein paar <error>
+        <errorType/>
+
+        <originalForm>gedanken</originalForm>
+
+        <targetForm>Gedanken</targetForm>
+      </error> gemacht <par/>Ich kann noch nicht <error>
+        <errorType/>
+
+        <originalForm>bescheid</originalForm>
+
+        <targetForm>Bescheid</targetForm>
+      </error> sagen ob ich lieber in die Berge oder ans Me<palimpsest>er</palimpsest> fahren möchte, de<overwrite>
+        <over>n</over>
+
+        <under>r</under>
+      </overwrite><palimpsest>n</palimpsest> mich würde beides sehr begeistern. <par/>In die Berge würden wir uns besser entspannen. <overwrite>
+        <over>I</over>
+
+        <under>i</under>
+      </overwrite>n die ruhige Stille der Berge könnten wir manche <error>
+        <errorType/>
+
+        <originalForm>Spatziergänge</originalForm>
+
+        <targetForm>Spaziergänge</targetForm>
+      </error> machen, frische und saubere Luft <error>
+        <errorType/>
+
+        <originalForm>amten</originalForm>
+
+        <targetForm>atmen</targetForm>
+      </error> und ich hätte weniger Problemen mit meinem Hund, denn ich könnte ihn <palimpsest>mitbringen</palimpsest> ohne mich <error>
+        <errorType/>
+
+        <originalForm>sorgen</originalForm>
+
+        <targetForm>Sorgen</targetForm>
+      </error> zu machen.<par/>Ans Meer würde alles ein bisschen lebendiger sein; wir könnte mehrere <overwrite>
+        <over>L</over>
+
+        <under>l</under>
+      </overwrite>eute <error>
+        <errorType/>
+
+        <originalForm><correction>
+            <deletion>kennen lernen</deletion>
+
+            <insertion>kennen_lernen</insertion>
+          </correction></originalForm>
+
+        <targetForm>kennen lernen</targetForm>
+      </error><comment>kennen lernen wurde durch einen Bogen verbunden – kennen_lernen – Korrektur -Trennung-Verbindung</comment> und da es <palimpsest>bald</palimpsest> auch Frühling ist würde es auch schon ganz schön warm sein und wir könnte baden und unter der Sonne liegen. <par/>Ja, wie du auch sehen kannst ist es überhaupt <palimpsest>nicht</palimpsest> einfach zu entscheiden, aber wenn ich <error>
+        <errorType/>
+
+        <originalForm>erlich</originalForm>
+
+        <targetForm>ehrlich</targetForm>
+      </error> bin, würde ich lieber ein<palimpsest>e schöne und</palimpsest> entspannte Woche in die Berge verbringen, denn ich <palimpsest>habe</palimpsest> letzter Zeit immer <error>
+        <errorType/>
+
+        <originalForm>si</originalForm>
+
+        <targetForm>so</targetForm>
+      </error> viel zu tun, dass ich nie einen Moment für mich selbst habe. Wir könnte <gap>_</gap> diesen Sommer, wenn es auch wärmer sein wird, eine andere Wochen zusammen ans Meer verbringen; aber wie gesagt für mich ist es eigentlich egal wo wir gehen, hauptsäch<hyphen>-</hyphen>lich wir verbringen eine Woche zusammen!! <par/>Deswegen <palimpsest>sag<correction>
+          <deletion>t</deletion>
+        </correction></palimpsest> du mir auch was du lieber machen würdest, und dann können wir zusammen eine <error>
+        <errorType/>
+
+        <originalForm>Destinazion</originalForm>
+
+        <targetForm> Destination</targetForm>
+      </error> finden! <par/><closing>Liebe <palimpsest>G</palimpsest>rüße <par/><entity>Valentina</entity> </closing></exercise>
+  </body>
+</kolipsi_document>

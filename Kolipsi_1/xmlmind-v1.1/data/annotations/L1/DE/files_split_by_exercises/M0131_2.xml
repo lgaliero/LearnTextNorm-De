@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0131</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Lieber <entity>Samuel</entity></greeting>!<par/>Wir wollten ja den Urlaub heuer <palimpsest/> gemeinsam verbringen. Dabei ist die Frage aufgekommen ob es in die Berge oder ans Meer geht. Ich habe mir gedacht ich schreibe einmal ein paar Sachen auf, die beim Meer und Berg zu beachten sind. Ich komme von den Bergen und deshalb weiß ich, dass es sehr gefährlich ist zu klettern oder eine bzw. <sic>mehre</sic> Nächte hier zu verbringen. Es kann z.B. ein Gewitter auftreten oder im Sommer ein <error>
+        <errorType/>
+
+        <originalForm>Steins bruch</originalForm>
+
+        <targetForm>Steinbruch</targetForm>
+      </error> sein oder im Winter Lawinen <error>
+        <errorType/>
+
+        <originalForm>los gehen</originalForm>
+
+        <targetForm>losgehen</targetForm>
+      </error>. Es ist zwar sehr schön, jedoch kann es kalt werden. Am Meer wenn warmes <correction>
+        <insertion><error>
+            <errorType/>
+
+            <originalForm>schöres</originalForm>
+
+            <targetForm>schönes</targetForm>
+          </error></insertion>
+      </correction> Wetter ist, ist es sehr fein und man kann schwimmen und am Abend noch etwas unternehmen. Sich bräunen und die Zeit genießen. Beides ist sehr gesund und man erholt sich sicher. Das Meer ist gesund für die Haut und die meisten Krankheiten. Die Berg<hyphen>-</hyphen>luft ist <correction>
+        <insertion>auch</insertion>
+      </correction> sehr gesund. Man kann bei beiden Urlauben etwas <error>
+        <errorType/>
+
+        <originalForm>schöne<overwrite>
+            <under>n</under>
+
+            <over>s</over>
+          </overwrite></originalForm>
+
+        <targetForm>Schönes</targetForm>
+      </error> und <error>
+        <errorType/>
+
+        <originalForm>materielles</originalForm>
+
+        <targetForm>Materielles</targetForm>
+      </error> mitnehmen (<overwrite>
+        <under><unreadable/></under>
+
+        <over>B</over>
+      </overwrite>erg -&gt; Steine; Meer -&gt; Muscheln).      </exercise>
+  </body>
+</kolipsi_document>

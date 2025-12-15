@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5878</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Karin</entity> </greeting> <par />wie geht es dir? Ich hoffe gut. Ich schreibe dir, weil ich dir etwas <error>
+        <errorType />
+
+        <originalForm>unglaubliches</originalForm>
+
+        <targetForm>Unglaubliches</targetForm>
+      </error> erzählen muss. Kannst du dich noch an <entity>Maria</entity> erinnern, meine <error>
+        <errorType />
+
+        <originalForm>Fraundin</originalForm>
+
+        <targetForm>Freundin</targetForm>
+      </error>, die ich dir vor ein paar Tagen vorgestellt habe? Ihr ist ein kleines Missgeschick passiert. <par />Letzte Woche war <entity>Maria</entity> wie üblich einkaufen. Sie kaufte zuerst in einem Obst- und Gemüseladen <error>
+        <errorType />
+
+        <originalForm>ei</originalForm>
+
+        <targetForm>ein</targetForm>
+      </error> und ließ an der Kasse ihren K<palimpsest>a</palimpsest>ssenzettel liegen, als sie aus dem Laden ging. Daraufhin ging sie sofort in den Supermarkt wo sie den Rest ihrer Einkäufe erledigte. Doch an der Kasse gab es ein kleines Problem: Als Karin den Supermarkt <error>
+        <errorType />
+
+        <originalForm>verassen</originalForm>
+
+        <targetForm>verlassen</targetForm>
+      </error> wollte <error>
+        <errorType />
+
+        <originalForm>hö<palimpsest>hrte</palimpsest></originalForm>
+
+        <targetForm>hörte</targetForm>
+      </error> sie die Angestellte hinter ihr schreien. Diese dachte nämlich, <palimpsest>Karin wollte</palimpsest> das Obst aus dem Supermarkt <error>
+        <errorType />
+
+        <originalForm>stehelen</originalForm>
+
+        <targetForm>stehlen</targetForm>
+      </error>. <palimpsest>Und dazu</palimpsest> kam auch noch, dass <entity>Karin</entity> nicht beweisen konnte, dass das Obst nicht aus dem Supermarkt stammte, denn sie hatte ja keinen Kassenzettel? <par />Gott sei <palimpsest>D</palimpsest>ank ging die ganze Geschichte noch einmal gut aus: <error>
+        <errorType />
+
+        <originalForm><ambiguous>
+            <alternative>p</alternative>
+
+            <alternative>g</alternative>
+          </ambiguous>as</originalForm>
+
+        <targetForm>Das</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>Freulein</originalForm>
+
+        <targetForm>Fräulein</targetForm>
+      </error> schaute sich die Überwachungsvideos an und <entity>Karin</entity> durfte endlich wieder nach Hause gehen. <par />Was lernen wir daruas? Immer den Kassenzettel mitnehmen! <par /><closing>Tschüss <entity>Patrick</entity> </closing></exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo <entity>Jonas</entity> </greeting> <par />wie geht´s? <palimpsest>Ich hoffe, dass du nicht schon vergessen hast</palimpsest>, dass wir heuer zusammen in den Urlaub fahren! Also: Ich habe mich mal in<palimpsest>formiert</palimpsest>, doch wir müssen erst einmal entscheiden, ob wir in die Berge oder ans Meer fahren wollen. Wie du sicher weißt, würde ich lieber ans Meer fahren, denn ich liebe den warmen Sand und das kühle, hellblaue Wasser. Doch das letzte <error>
+        <errorType />
+
+        <originalForm>wort</originalForm>
+
+        <targetForm>Wort</targetForm>
+      </error> möchte ich dir überlassen: Wir könnten entweder nach <entity>Ägypten</entity> <palimpsest>fahren</palimpsest> und dort eine wunderbare Woche am Strand verbringen, oder wir fahren nach <entity>Südtirol</entity> und verbringen dort eine ruhige Woche auf einer Alm. <par />Doch eines möchte ich sofort klar stellen: <error>
+        <errorType />
+
+        <originalForm>ich</originalForm>
+
+        <targetForm>Ich</targetForm>
+      </error> möchte einen erholsamen, jedoch nicht langweiligen Urlaub verbringen. Daher wäre ein super 5-Sterne-Hotel in <entity>Ägypten</entity> geradezu ideal. Wir könnten uns sonnen, lange schlafen, usw. <par /><error>
+        <errorType />
+
+        <originalForm>Naja</originalForm>
+
+        <targetForm>Na ja</targetForm>
+      </error>, schreib mir bald wieder zurück, denn ich müsste so schnell wie möglich unseren Urlaub buchen. <par /><closing>Ciao <entity>Patrick</entity> </closing></exercise>
+  </body>
+</kolipsi_document>

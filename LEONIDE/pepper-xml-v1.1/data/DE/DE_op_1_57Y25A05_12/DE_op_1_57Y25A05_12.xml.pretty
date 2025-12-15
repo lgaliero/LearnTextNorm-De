@@ -1,0 +1,22 @@
+<body>
+ <page page_number="1" transcanno_page_id="192">
+  <paragraph class="medium-paragraph" tagcode="1611846004111">
+   <div>
+    Ich möchte eine
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Advokat" tagcode="1559036928770">
+     Avvocat
+    </orth_error_id12>
+    , weil ist schön. Ich
+   </div>
+   <div>
+    muss lernen die
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1540510207535" tran_foreign_word_language="Italian">
+     <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611846004110" tran_capitalisation_target="legge" tran_capitalisation_type="01 completely capitalised">
+      LEGGE
+     </tran_capitalisation_id85>
+    </tran_foreign_word_id13>
+    .
+   </div>
+  </paragraph>
+ </page>
+</body>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0030</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Angelika</entity></greeting>!<par />Wie geht es dir? Ich hoffe alles ist in Ordnung?!<par />Ich dachte ich melde <overwrite>
+        <under>d</under>
+
+        <over>m</over>
+      </overwrite>ich mal bei dir und berichte was es so <error>
+        <errorType />
+
+        <originalForm>neues</originalForm>
+
+        <targetForm>Neues</targetForm>
+      </error> gibt. Ich hab mich nämlich gestern mit <entity>Maria</entity> auf <sic>eine</sic> Kaffee getroffen und du wirst nicht glauben was sie mir erzählt hat. Als sie letztens im Supermarkt war um einzukaufen wurde sie plötzlich an der Kasse <sic>verdächtig</sic> etwas ge<hyphen>-</hyphen>klaut zu haben. Das war ein Drama...<par />Wie jeden Dienstag war sie also letztens bei ihrem Obsthändler um die Ecke und hat die <error>
+        <errorType />
+
+        <originalForm><overwrite>
+            <under>w</under>
+
+            <over>W</over>
+          </overwrite>ichtigsten</originalForm>
+
+        <targetForm>wichtigsten</targetForm>
+      </error> Sachen eingekauft. Da der Händler jedoch ein paar Sachen nicht hatte, die sie noch brauchte ist sie noch schnell in den Supermarkt ge<hyphen>-</hyphen>fahren um die restlichen Sachen zu besorgen. Als sie dann vorne an der Kasse stand dachte die Verkäuferin, dass <entity>Maria</entity> das Obst und Gemüse, was aus ihrer Einkaufstasche <error>
+        <errorType />
+
+        <originalForm>hervor schaute</originalForm>
+
+        <targetForm>hervorschaute</targetForm>
+      </error>, geklaut hätte. Also rief diese erst einmal die Security. Die brachte <entity>Maria</entity> dann erstmal in einen anderen Raum und packte alle ihre Sachen aus. Zum Glück hatte <entity>Maria</entity> aber noch den Kassenbeleg <correction>
+        <deletion>au</deletion>
+      </correction> vom Obsthändler in ihrer Tasche, sodass sich das Missverständnis schnell wieder regeln ließ. Die Verkäuferin entschuldigte sich etwas beschämt und dann durfte <entity>Maria</entity> aber glücklicherweise wieder gehen.<par />Es ist zwar nichts passiert aber <entity>Maria</entity> meinte sie hätte doch schon einen großen Schock bekommen als sie die Security weggebracht haben. Ist aber auch verständlich. Wäre ich wahrscheinlich auch.<par />Also, dann schreib doch einfach mal zurück wenn du <error>
+        <errorType />
+
+        <originalForm>zeit</originalForm>
+
+        <targetForm>Zeit</targetForm>
+      </error> hast und berichte was bei dir so <error>
+        <errorType />
+
+        <originalForm>spannendes</originalForm>
+
+        <targetForm>Spannendes</targetForm>
+      </error> passiert <emoticon>:)</emoticon><par /><closing>Liebe Grüße</closing>    </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo <entity>Paula</entity></greeting>!<par />Also ich habe jetzt mal ein wenig im Internet und Reisekata<hyphen>-</hyphen>logen nach passenden Angeboten für unseren gemeinsamen Urlaub recherchiert. Dabei habe ich jetzt <correction>
+        <insertion>zwei</insertion>
+      </correction> Angebote in die engere Auswahl genommen. Das ist einmal eine Reise in die Berge in einer netten Hütte direkt in der Natur und einmal ein Angebot am Meer in einem schönen Hotel. Ich fand beide Angebote eigentlich ganz nett.<par />Bei dem ersten finde ich es toll, dass die Hütte direkt auf einem Berg direkt in der Natur liegt. Bis jetzt habe ich noch kein einziges <error>
+        <errorType />
+
+        <originalForm>mal</originalForm>
+
+        <targetForm>Mal</targetForm>
+      </error> in den Bergen meine Ferien verbracht. Das wäre mal was <error>
+        <errorType />
+
+        <originalForm>neues</originalForm>
+
+        <targetForm>Neues</targetForm>
+      </error>. Allerdings weiß ich nicht ob ich so viel Spaß daran hätte den ganzen Tag in der Natur, wo es fast keine Läden und Geschäfte gibt wandern zu gehen. Aber wie schon ge<hyphen>-</hyphen>sagt: <overwrite>
+        <under>e</under>
+
+        <over>E</over>
+      </overwrite>s wäre mal etwas anderes.<par />Das zweite Angebot am Meer gefällt mir <correction>
+        <insertion><correction>
+            <deletion>allerdings</deletion>
+          </correction></insertion>
+      </correction> persönlich <correction>
+        <insertion>allerdings etwas</insertion>
+      </correction> besser. Wir könnten uns in die Sonne legen, schwimmen oder auch <correction>
+        <deletion>bummeln</deletion>
+      </correction> in der Stadt bummeln gehen. Die Unterkunft sah eigentlich auch recht gemütlich aus. Ein kleines Hotel ganz in der Nähe vom Strand, den man zu Fuß in ca. 15 <error>
+        <errorType />
+
+        <originalForm>min.</originalForm>
+
+        <targetForm>min</targetForm>
+      </error> erreicht. und die <correction>
+        <deletion>m</deletion>
+      </correction> <sic>nächst</sic> größere Stadt ist auch nur ein paar <overwrite>
+        <under>m</under>
+
+        <over>M</over>
+      </overwrite>inuten vom Strand entfernt. Also hätten wir viele <sic>Möglichkeit</sic> etwas zu unternehmen. Außerdem ist <overwrite>
+        <under>o</under>
+
+        <over>S</over>
+      </overwrite>onne doch immer gut...<par /><error>
+        <errorType />
+
+        <originalForm>Naja</originalForm>
+
+        <targetForm>Na ja</targetForm>
+      </error>, guck dir die beiden Angebote noch einmal in Ruhe an<overwrite>
+        <under>,</under>
+
+        <over>.</over>
+      </overwrite> Ich hab sie dir dazugelegt, und sag mir dann einfach <error>
+        <errorType />
+
+        <originalForm>bescheid</originalForm>
+
+        <targetForm>Bescheid</targetForm>
+      </error><correction>
+        <deletion>welche</deletion>
+      </correction> was du besser findest. Zur Not können wir auch noch einmal gemeinsam im Internet suchen und gucken ob es noch Reisen gibt, wo man beides mitunter kombinieren kann wenn dir <sic>keins</sic> von den beiden Reisen gefällt. Gib mir einfach <error>
+        <errorType />
+
+        <originalForm>bescheid</originalForm>
+
+        <targetForm>Bescheid</targetForm>
+      </error> und meld dich.<par /><closing>Liebe Grüße</closing>         </exercise>
+  </body>
+</kolipsi_document>

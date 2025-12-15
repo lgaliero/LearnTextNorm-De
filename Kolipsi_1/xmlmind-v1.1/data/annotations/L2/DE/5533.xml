@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5533</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Po<strikeover>
+            <expansion>u</expansion>
+
+            <expansion>a</expansion>
+          </strikeover>la</entity>!</greeting> <par />Wie geht es dir? <par />Mir geht es gut, aber ich habe viele Sachen zu machen. Ich habe wirklich keine Zeit. Am Morgen muss ich mit der Kinder bleiben, und dann gehe ich einkaufen, und wenn ich im Supermarkt bin kann ich die Zeit nicht mehr kontrollieren. Weißt du was <entity>Maria</entity> passiert ist? Gestern….? Sie durfte einkaufen gehen…, wie immer, und sie ist zum Obst- und Gemüseladen gegangen. Später ist sie auch zum <entity>“Billa“</entity> gegangen und wenn sie an der Kasse war wollte sie mit <foreign_word
+        foreign_language="Italiano"><error>
+          <errorType />
+
+          <originalForm>Boncomat</originalForm>
+
+          <targetForm>Bancomat</targetForm>
+        </error></foreign_word> bezahlen, aber … sie könnte nicht weil die Verkäuferin hat ihr gesagt dass der <foreign_word
+        foreign_language="Italiano"><error>
+          <errorType />
+
+          <originalForm>Boncomat</originalForm>
+
+          <targetForm>Bancomat</targetForm>
+        </error></foreign_word> <error>
+        <errorType />
+
+        <originalForm>funksioniert</originalForm>
+
+        <targetForm>funktioniert</targetForm>
+      </error> nicht. <entity>Maria</entity> <sic>wisste</sic> nicht was machen, weil sie die Sachen brauchte, so hat sie <entity>Giuseppe</entity> telefoniert dort zu fahren. <entity>Giuseppe</entity> arbeitet 40km von <entity>Bozen</entity>. <par />Die Verkäuferin und <entity>Maria</entity>, und die Leute die (<foreign_word
+        foreign_language="Italiano">dietro</foreign_word>) waren mussten warten für eine Stunde. Wenn <entity>Giuseppe</entity> <sic>gekommt</sic> war sein Bankomat <error>
+        <errorType />
+
+        <originalForm>funksioniert</originalForm>
+
+        <targetForm>funktioniert</targetForm>
+      </error> auch nicht. <par /><emphasis>Hahahahah</emphasis> .... <par />Ist das schön???? <par />Heute kann alles passieren, auch im Supermarkt. Jetzt muss ich dir lassen mein Schatz. <par />Wir sehen uns! <par /><closing><error>
+          <errorType />
+
+          <originalForm>Tschuss</originalForm>
+
+          <targetForm>Tschüss</targetForm>
+        </error>….</closing></exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Liebe R.!</greeting> <par />Weißt du dass die Zeit zu schnell<sic> lauft</sic>? <par />Ein Jahr ist auf einem Blick gepasst. <par />Jetzt dürfen wir den Urlaub planen. Dieses Jahr wissen wir nicht wo wollen wir fahren oder fleigen? Ans Meer oder in die Berge? <par />Unsere Bergen sind sehr schön, aber es ist kalt, und ich kann das <sic>Kalt</sic> nicht mehr aushalten. <par /><strikeover>
+        <expansion>I</expansion>
+
+        <expansion>A</expansion>
+      </strikeover>ns Meer haben wir alles. Sonne, <error>
+        <errorType />
+
+        <originalForm><overwrite>
+            <over>K</over>
+
+            <under><unreadable /></under>
+          </overwrite>alt</originalForm>
+
+        <targetForm>kalt</targetForm>
+      </error> Wasser, und wir <error>
+        <errorType />
+
+        <originalForm>mussen</originalForm>
+
+        <targetForm>müssen</targetForm>
+      </error> nicht hundert <sic>Kleiden</sic> anziehen. <par />Was denkst du über? <par />Die Bergen kosten weniger als den Meer, und das kann ein Plus sein…. aber….. <par />Es gibt immer das <error>
+        <errorType />
+
+        <originalForm>„aber“</originalForm>
+
+        <targetForm>„Aber“</targetForm>
+      </error>…… <par />Und du? Was machst du diese Sommer? Ich warte dein Antwort…… <par /><closing><error>
+          <errorType />
+
+          <originalForm>Tschussssss</originalForm>
+
+          <targetForm>Tschüssssss</targetForm>
+        </error>  .. <par /> <entity>B.A.</entity></closing></exercise>
+  </body>
+</kolipsi_document>

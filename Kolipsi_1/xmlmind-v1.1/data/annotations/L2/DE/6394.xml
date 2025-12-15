@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Romy</transcriber>
+
+  <author_id>6394</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><comment>von 6394 liegen zwei Abschriften vor; der Schüler hat im Sinne einer Eigenkorrektur, seinen Text in einer zweiten Abschrift verbessert</comment> <greeting>Lieber <entity>Antoni</entity>,</greeting> <par />wie geht´s? Ich hoffe, dass du froh bist. Ich habe entsch<palimpsest>ie</palimpsest>den dieses Brief zu schreiben, um dir eine Geschichte zu erzählen. Erinnerst du dich <entity>Maria?</entity> Gestern ist sie in den Supermarkt gegangen und sie hat ein Problem gehabt. Zuerst hat sie Obst und Gemüse beim Obsthändler gekauft. Aber sie hat den Kassenzettel vergessen. Dann ist <entity>Maria</entity> nach den Supermarkt gefahren und hat sie viele Dinge gekauft. Dort gab es ein Problem an der Kasse. Die Frau, die an der Kasse war, hat <entity>Maria</entity> mit dem Obst und dem Gemüse gesehen. Sie hat gedacht, dass <entity>Maria</entity> Obst und Gemüse von Supermarkt gestohlen wollte. <error>
+        <errorType />
+
+        <originalForm>Aner</originalForm>
+
+        <targetForm>Aber</targetForm>
+      </error> <entity>Maria</entity> hat den Kassenzettel vergessen. Sie kann nicht sagen, dass sie Obst und Gemüse nicht gestohlen wollte. Die Frau der Kasse hat die Polizei <sic>geruft</sic>. Die Polizei hat <entity>Maria</entity> nach den Obsthändler gebracht; hier hat <entity>Maria</entity> den Kassenzettel genommen; aber sie hat 60 € gezahlen, weil sie immer den Kassenzettel bringen muss. <par /><closing>Viele Grüße, <entity>Luca</entity> </closing></exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber <entity><palimpsest>Hans</palimpsest></entity>,</greeting> <par />wie geht´s? <palimpsest>M</palimpsest>ir geht es gut. Ich habe ein Problem. Ich will mit meinen Freunden einen Urlaub planen. Du bist sicher eingeladen. Aber ich weiß nicht, ob wir lieber in die Berge oder lieber ans <error>
+        <errorType />
+
+        <originalForm>Mehr</originalForm>
+
+        <targetForm>Meer</targetForm>
+      </error> fahren sollen. Darfst du mir helfen? Ich denke, dass es in die Berge eine frische Luft gibt. Wir können <palimpsest>auch in die Wiesen spazieren</palimpsest>, um zu essen oder um uns zu entspannen. In die Berge können wir auch nicht die warme Luft, die in <palimpsest>unreadable</palimpsest> Sommer sehr <error>
+        <errorType />
+
+        <originalForm>schwehr</originalForm>
+
+        <targetForm>schwer</targetForm>
+      </error> ist, fühlen. Aber das Meer ist sehr schön. Wir können im Wasser schwimmen und viel Spaß haben. Aber wir <error>
+        <errorType />
+
+        <originalForm>wöhnen</originalForm>
+
+        <targetForm>wohnen</targetForm>
+      </error> in <entity>Südtirol</entity> und in die Berge zu fahren ist vielleicht kostenlos. Wenn wir ans <error>
+        <errorType />
+
+        <originalForm>Mehr</originalForm>
+
+        <targetForm>Meer</targetForm>
+      </error> fahren, fahren wir vielleicht nach <entity>Tropea</entity>, in <entity>Kalabrien</entity>. Es gibt ein <error>
+        <errorType />
+
+        <originalForm>wünderschönes</originalForm>
+
+        <targetForm>wunderschönes</targetForm>
+      </error> Meer und auch ein <error>
+        <errorType />
+
+        <originalForm>wünderschönes</originalForm>
+
+        <targetForm>wunderschönes</targetForm>
+      </error> Landschaft. Was magst du am liebsten? Willst du in die Berge fahren, um zu spazieren und uns zu entspannen, oder ans Meer fahren, um ins Meer zu schwimmen und Spaß zu haben? <par />Ich warte auf deine Antwort. <par /><closing>Viele Grüße, dein <entity>Luca</entity> </closing></exercise>
+  </body>
+</kolipsi_document>

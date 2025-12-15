@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0040</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Emily</entity></greeting>,<par/>wie geht es dir? Ich muss dir eine Geschichte erzählen, die <entity>Maria</entity> neulich passiert ist. Ich weiß gar nicht, was ich an ihrer Stelle gemacht hätte! Also <correction>
+        <deletion>wir</deletion>
+      </correction> <entity>Maria</entity> und ich wollten abends zusammen kochen und hatten vereinbart, dass <entity>Maria</entity> die Lebensmittel besorgt und ich die Getränke. Da wir einen <correction>
+        <deletion><unreadable/></deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>Salad</originalForm>
+
+        <targetForm>Salat</targetForm>
+      </error> machen wollten, ist <entity>Maria</entity> zuerst zu <correction>
+        <deletion>ihrem</deletion>
+      </correction> einem Obsthändler, der wirklich besonders leckeres Obst und Gemüse hat, gegangen und hat dort alles, was <correction>
+        <deletion>f</deletion>
+      </correction> wir für unseren <error>
+        <errorType/>
+
+        <originalForm>Salad</originalForm>
+
+        <targetForm>Salat</targetForm>
+      </error> brauchten eingekauft. Wir hatten <correction>
+        <deletion>us</deletion>
+      </correction> uns aber überlegt, dass wir auch Schinken, Thunfisch und Schafskäse in den <error>
+        <errorType/>
+
+        <originalForm>Salad</originalForm>
+
+        <targetForm>Salat</targetForm>
+      </error> machen wollen, deshalb ist <entity>Maria</entity> danach noch in den Supermarkt um die Ecke gegangen und hat dort die restlichen Sachen besorgt. Als sie an der Kasse stand, sah die Kassiererin, das Gemüse in <entity>Marias</entity> Tasche, was sie beim Gemüsehändler gekauft hatte und dachte <entity>Maria</entity> hätte es einfach eingesteckt und <correction>
+        <deletion>w</deletion>
+      </correction> würde es klauen wollen.<par/><entity>Maria</entity> probierte es ihr zu erklären, aber die Kassiererin glaubte ihr nicht. <correction>
+        <deletion>als</deletion>
+      </correction> <correction>
+        <deletion><unreadable/></deletion>
+      </correction> Dann <correction>
+        <deletion><unreadable/></deletion>
+      </correction> fiel <entity>Maria</entity> der Bon ein und sie <error>
+        <errorType/>
+
+        <originalForm>began</originalForm>
+
+        <targetForm>begann</targetForm>
+      </error> in ihrer Tasche <correction>
+        <deletion>zu</deletion>
+      </correction> zusuchen aber leider hatte sie <correction>
+        <deletion>ih</deletion>
+      </correction> den Bon nicht eingesteckt <correction>
+        <deletion>...</deletion>
+      </correction> ... Die Kassiererin meinte, <entity>Maria</entity> könne die Sachen einfach noch dazu legen, dann würde sie nicht die Polizei rufen. Da <entity>Maria</entity> die Sache schon peinlich genug war, machte sie es und war bereit die Sachen nochmal zu bezahlen. Als die Kassiererin <palimpsest/> dann <correction>
+        <deletion>das Gem</deletion>
+      </correction> das Gemüse abkassieren wollte, fiel ihr auf, dass sie diese <error>
+        <errorType/>
+
+        <originalForm>Saladsorte</originalForm>
+
+        <targetForm>Salatsorte</targetForm>
+      </error> gar nicht im Angebot <correction>
+        <deletion>haben</deletion>
+      </correction> haben und die Gurken ausverkauft waren. Also entschuldigte sie sich bei <entity>Maria</entity>. <entity>Maria</entity> war einfach nur froh endlich den Laden zu verlassen.<par/>Beim nächsten <error>
+        <errorType/>
+
+        <originalForm>mal</originalForm>
+
+        <targetForm>Mal</targetForm>
+      </error> muss ich mich ums Essen kümmern...<par/><closing>Bis bald, liebe <correction>
+          <deletion><unreadable/></deletion>
+        </correction> Grüße<par/><correction>
+          <deletion><unreadable/></deletion>
+        </correction> <entity>Cara</entity>       </closing>                  </exercise>
+
+    
+  </body>
+</kolipsi_document>

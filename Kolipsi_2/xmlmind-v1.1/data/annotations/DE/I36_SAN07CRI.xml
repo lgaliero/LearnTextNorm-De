@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I36_SAN07CRI</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe Maria,</greeting> wie gehts? Ich muss dir etwas erzählen. Maria ist letzte Woche einkaufen gegangen, bzw. zuerst in einem Obst- und Gemüseladen. Nach<hyphen>-</hyphen>dem sie fertig war, hat sie das Einkauf in einer Tasche reingetan und ist dann, nach einer Stunde im <foreign_word foreign_language="Italiano">Supermarket</foreign_word> gegangen. Sie hatte aber nicht <error>
+        <errorType />
+
+        <originalForm>gerächnet</originalForm>
+
+        <targetForm>gerechnet</targetForm>
+      </error>, dass sie schon beim anderen Geschäft einkaufen gegangen ist. <error>
+        <errorType />
+
+        <originalForm>Mann</originalForm>
+
+        <targetForm>Man</targetForm>
+      </error> sollte dann nicht in einem anderen <foreign_word
+        foreign_language="Italiano">Market</foreign_word> gehen, wenn <error>
+        <errorType />
+
+        <originalForm>mann</originalForm>
+
+        <targetForm>man</targetForm>
+      </error> noch <correction>
+        <deletion>d<correction>
+            <deletion>ie</deletion>
+
+            <insertion>as</insertion>
+          </correction></deletion>
+      </correction> die eingekauften Sachen vom anderen hat. Maria ist trotzdem gegangen. Nachdem sie mit dem Einkaufen, ist sie an der Kassa gegangen. Da hat die <error>
+        <errorType />
+
+        <originalForm>Kassefreulein</originalForm>
+
+        <targetForm>Kassefräulein</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>gemärkt</originalForm>
+
+        <targetForm>gemerkt</targetForm>
+      </error>, dass Maria <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Lebensmitteln in einer Tasche hatte und <correction>
+        <deletion>f</deletion>
+      </correction> hat deshalb angefangen zu zögern und bedenken. Sie hat gedacht, dass Maria stehlen wollte. Da hat Maria <error>
+        <errorType />
+
+        <originalForm>gemärkt</originalForm>
+
+        <targetForm>gemerkt</targetForm>
+      </error>, dass sie mit der <correction>
+        <deletion>Ein</deletion>
+      </correction> kauf<hyphen>-</hyphen>vollen Einkaufstasche in einem anderen Geschäft gegen ist. Maria hat angefangen den <error>
+        <errorType />
+
+        <originalForm>Mistver<hyphen>-</hyphen>ständniss</originalForm>
+
+        <targetForm>Missverständnis</targetForm>
+      </error> zu erzählen und alles hat sich geklärt.<par />Witzige Geschichte, oder?<par /><closing>Viele Grüße</closing></exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber Paul,</greeting><par />Als <error>
+        <errorType />
+
+        <originalForm>erstens</originalForm>
+
+        <targetForm>Erstens</targetForm>
+      </error>, möchte ich dir sagen, dass ich komplett gegen <error>
+        <errorType />
+
+        <originalForm>virtuele</originalForm>
+
+        <targetForm>virtuelle</targetForm>
+      </error> Freundschaften <correction>
+        <deletion>bin ud</deletion>
+      </correction> und virtuelle Welt bin. Und jetzt erzähle ich dir auch die Gründe:<par />erstens: <error>
+        <errorType />
+
+        <originalForm>mann</originalForm>
+
+        <targetForm>man</targetForm>
+      </error> weißt nie mit wem man zu tun hat; wer hinter dem Bildschirm <correction>
+        <deletion>steht</deletion>
+      </correction> sitzt.<par />zweitens: man sitzt <error>
+        <errorType />
+
+        <originalForm>Stundenlang</originalForm>
+
+        <targetForm>stundenlang</targetForm>
+      </error> vor einem Bildschirm um mit einer Freundin oder Freund zu reden, anstatt mit ihr/ihr raus<hyphen>-</hyphen>zugehen.<par />Das ganze <error>
+        <errorType />
+
+        <originalForm>sitzen</originalForm>
+
+        <targetForm>Sitzen</targetForm>
+      </error> und <error>
+        <errorType />
+
+        <originalForm>chatten</originalForm>
+
+        <targetForm>Chatten</targetForm>
+      </error> finde ich wirklich sinnlos.<par />Und als dritte Grund <error>
+        <errorType />
+
+        <originalForm>weist</originalForm>
+
+        <targetForm>weißt</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>mann</originalForm>
+
+        <targetForm>man</targetForm>
+      </error> <correction>
+        <insertion>nie</insertion>
+      </correction> ob diese Person mit der man chattet, wirklich <error>
+        <errorType />
+
+        <originalForm>interesten</originalForm>
+
+        <targetForm>Interessten</targetForm>
+      </error> an dich hat und <error>
+        <errorType />
+
+        <originalForm>erlich</originalForm>
+
+        <targetForm>ehrlich</targetForm>
+      </error> mit dir ist.<par /><error>
+        <errorType />
+
+        <originalForm>Erlich</originalForm>
+
+        <targetForm>Ehrlich</targetForm>
+      </error> gesagt wurde ich dir empfehlen, <error>
+        <errorType />
+
+        <originalForm>dass</originalForm>
+
+        <targetForm>das</targetForm>
+      </error> Ganze zu lassen und dir echte Freunde zu machen, mit deren du spazieren gehen kannst, mit ihnen essen oder spielen gehen kannst. Einfach <correction>
+        <deletion>mit</deletion>
+      </correction> Kontakt mit <correction>
+        <deletion>s</deletion>
+
+        <insertion>d</insertion>
+      </correction>iese haben. Und noch etwas; und dann bin ich fertig; Freunde haben immer Zeit <correction>
+        <deletion>und</deletion>
+      </correction> für dich und sind immer für dich da. Wenn <correction>
+        <deletion>sich</deletion>
+      </correction> das Internet nicht mehr f<unreadable />dieren sollte, hast du alles verloren, während in der echten und reale Welt alles bleibt.</exercise>
+  </body>
+</kolipsi_II_document>

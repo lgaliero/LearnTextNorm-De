@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I23_PAP26ARI</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe Christiane,</greeting><par />wie geht es dir? Ich muss dir unbedingt etwas erzählen!<par />Gestern war ich mit Maria einen Kaffee trinken, da sagte sie mir, dass ihr letzte Woche etwas <error>
+        <errorType />
+
+        <originalForm>schreckliches</originalForm>
+
+        <targetForm>Schreckliches</targetForm>
+      </error> passiert sei.<par />Es war ihr freier Vormittag, also entschied sie sich <error>
+        <errorType />
+
+        <originalForm>Einkaufen</originalForm>
+
+        <targetForm>einkaufen</targetForm>
+      </error> zu gehen. Du weißt ja, dass Maria sehr auf die Qualität ihrer Speisen achtet, deshalb ging sie zuerst zum Obst- und Gemüsehändler, um dort frische und biologische Obst- und Gemüsesorten zu kaufen. Sie fand einen wunderbaren Kopf Eissalat, Auberginen, frische Tomaten, Karotten und Fenchel, aus diesen wollte sie sich ein leckeres Mittagessen vorbereiten. Auch Orangen, Trauben und Äpfel kaufte sie ein, doch als sie an der Kassa bezahlt hatte <error>
+        <errorType />
+
+        <originalForm>vergas</originalForm>
+
+        <targetForm>vergaß</targetForm>
+      </error> sie dort ihren Geldbeutel.<par />Weil sie nichts bemerkt hatte, machte sich Maria auf den Weg zu Supermark<correction>
+        <deletion>e</deletion>
+      </correction>t. Stephan <correction>
+        <deletion>w</deletion>
+
+        <insertion>s</insertion>
+      </correction>ollte zum Abendessen vorbeikommen, also war sie auf der Suche nach einem guten Stück Rindfleisch und einer Flasche Rotwein.<par />Nachdem sie alles gefunden hatte, ging sie zur Kassa, doch als sie bezahlen wollte war ihr Geldbeutel nirgends zu finden. Die <error>
+        <errorType />
+
+        <originalForm>frau</originalForm>
+
+        <targetForm>Frau</targetForm>
+      </error> an der Kass<correction>
+        <deletion>a</deletion>
+
+        <insertion>e</insertion>
+      </correction> schaute sie verwundert an, während Maria nachdachte wo ihre Brieftasche wohl sein könnte. Als es ihr endlich einfiel, fragte sie die Kassiererin ob sie ihre Einkäufe dort lassen könnte, die Brieftasche holen und dann zurückkommen und bezahlen dürfte. Es war ihr sehr peinlich, doch sie sah keine andere Wahl. <error>
+        <errorType />
+
+        <originalForm>Glücklicherweiße</originalForm>
+
+        <targetForm>Glücklicherweise</targetForm>
+      </error> war die Frau an der Kasse sehr nett und wartete bis Maria mit dem Geld zurückkam und bezahlen konnte.<par />Das war vielleicht ein <error>
+        <errorType />
+
+        <originalForm>Erlebniss</originalForm>
+
+        <targetForm>Erlebnis</targetForm>
+      </error>! Wenn du das nächste Mal mit zum <error>
+        <errorType />
+
+        <originalForm>Kaffee trinken</originalForm>
+
+        <targetForm>Kaffeetrinken</targetForm>
+      </error> kommst, dann erzählt sie es bestimmt selbst nochmal!<par /><closing>Liebe Grüße,</closing><par />Sandra</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber Paul,</greeting><par />ich habe über dein Problem gelesen, reale und <error>
+        <errorType />
+
+        <originalForm>"Internet" Freunde</originalForm>
+
+        <targetForm>"Internetfreunde"</targetForm>
+      </error> zu haben, aus deinem Brief verstehe ich, dass du sehr viel Wert auf deine realem Freundschaften legst, doch trotzdem die <correction>
+        <insertion>beim <correction>
+            <deletion>c</deletion>
+
+            <insertion>C</insertion>
+          </correction>hatten</insertion>
+      </correction> gefundenen Freunde <correction>
+        <deletion>beim <correction>
+            <deletion>c</deletion>
+
+            <insertion>C</insertion>
+          </correction>hatten</deletion>
+      </correction> nicht verlieren möchtest.<par />Ich vertrete die Meinung, dass man auch über das Internet wunderbare Freundschaften schließen kann. Natürlich gibt<correction>
+        <deletion>e</deletion>
+      </correction> es auch dort Menschen deren Freundschaft nicht so gut für uns ist<correction>
+        <deletion>,</deletion>
+
+        <insertion>.</insertion>
+      </correction> <correction>
+        <deletion>d</deletion>
+
+        <insertion>D</insertion>
+      </correction>och man kann Leute kennenlernen die auf der ganzen Welt leben und von Erlebnissen hören die in der eigenen Stadt nicht möglich <error>
+        <errorType />
+
+        <originalForm>währen</originalForm>
+
+        <targetForm>wären</targetForm>
+      </error>.<par />Es gibt auch im Internet <correction>
+        <deletion><unreadable /></deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>gutes</originalForm>
+
+        <targetForm>Gutes</targetForm>
+      </error> und <error>
+        <errorType />
+
+        <originalForm>böses</originalForm>
+
+        <targetForm>Böses</targetForm>
+      </error>, man muss lernen es zu unterscheiden. Alles im Leben hat irgendwo ein Limit, sonst ist es schädlich, so soll auch die Benutzung des Internets immer in Maßen gehalten werden. Man kann vieles damit machen und sehen wozu man sonst nicht die Möglichkeit hätte, zur Sucht <correction>
+        <deletion><unreadable /></deletion>
+      </correction> darf es aber nicht kommen, man muss immer die Kraft haben um "nein" sagen zu können.<par />Ich denke nicht, dass du deine Internetfreundschaften kategorisch beenden musst, aber du musst dich daran erinnern, dass du ein wahres Leben hast und Freunde die du auch nicht vernachlässigen darfst.<par />Hoffentlich habe ich dir ein bisschen geholfen, ich wünsche dir noch viele Freunde zum <correction>
+        <deletion>c</deletion>
+
+        <insertion>C</insertion>
+      </correction>hatten und viele zum sich wirklich zu treffen.<par /><closing>Liebe Grüße,</closing><par />Sandra </exercise>
+  </body>
+</kolipsi_II_document>

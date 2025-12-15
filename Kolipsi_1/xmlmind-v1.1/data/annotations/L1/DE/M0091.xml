@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0091</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Marcel</entity></greeting>,<par />wir haben lange nicht mehr <error>
+        <errorType />
+
+        <originalForm>von einander</originalForm>
+
+        <targetForm>voneinander</targetForm>
+      </error> gehört. Ich hoffe dir geh<overwrite>
+        <under>ts</under>
+
+        <over>t</over>
+      </overwrite> es soweit gut. Ich denke ich erzähle dir einmal etwas aus meinem Alltag, damit wir wieder mehr in Kontakt kommen. Weißt du noch meine Freundin <entity>Maria</entity>? Sie war letzte Woche ein<over>k</over>aufen. Erst war sie beim Obsthändler und hat Obst gekauft und natürlich bezahlt. Sie hat das Obst in ihre Tasche getan und <overwrite>
+        <under>s</under>
+
+        <over>i</over>
+      </overwrite>st später in den Supermarkt gegangen, um dort auch etwas einzukaufen. Nachdem sie all ihre Einkäufe in den Einkaufswagen getan hatte, fuhr sie damit zur Kasse.<par />Aber sie hatte noch ihre Tasche mit dem Obst vom Obsthändler dabei. Prompt und nachvollziehbarerweise dachte die Kassiererin, sie hätte es aus dem Supermarkt geklaut, weil <entity>Maria</entity> es nicht bezahlen wollte. Wütend forderte die Kassiererin meine Freundin auf, das Obst wieder in das Regal zu stellen. Erst war <entity>Maria</entity> nervös, weil sie nicht wusste, was sie machen soll. Dann fiel ihr aber ein, dass sie den Kassenbon mitgenommen hatte. So konnte sie beweisen, dass sie das Obst <correction>
+        <deletion>ge</deletion>
+      </correction> anderswo gekauft hatte. Die Kassiererin entschuldigte sich vielmals ganz verlegen und gab ihr zur Wiedergutmachung einen Apfel als G<over>e</over>schenk. Ich weiß, es ist keine besonders spannende Geschichte, aber ich hoffe es dient als Anregung in Kontakt zu bleiben.<par /><closing><correction>
+          <deletion>Bis <unreadable /></deletion>
+        </correction><par />Viele Grüße<par /><entity>Enes</entity></closing>    </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber <entity>Kemal</entity></greeting>,<par />ich habe für unseren <correction>
+        <deletion>Fer</deletion>
+      </correction> Urlaub in den Sommerferien zwei verschiedene Orte herausgesucht. Wir haben einmal die Möglichkeit in die Berge zu fahren oder ans Meer. Ich selbst konnte mich nicht entscheiden und überlasse deswegen dir die Entscheidung. Am Meer ist es viel wärmer, das heißt, wir müs<overwrite>
+        <under>t</under>
+
+        <over>s</over>
+      </overwrite>ten leichte Bekleidung tragen. In den Bergen ist es kälter, sodass wir feste Kleidung und feste, bequeme Wanderschuhe tragen müss<overwrite>
+        <under><unreadable /></under>
+
+        <over>t</over>
+      </overwrite>en.<par />Von der <correction>
+        <deletion>H</deletion>
+      </correction> Luft her <correction>
+        <deletion>ist</deletion>
+      </correction> <correction>
+        <insertion>sind</insertion>
+      </correction> beid<overwrite>
+        <under>es</under>
+
+        <over>e</over>
+      </overwrite> Orte sehr angenehm. Auch die Aussicht ist bei beiden überwältigend. Einmal die riesigen, grünen Berge mit <error>
+        <errorType />
+
+        <originalForm>ihe<over>r</over>en</originalForm>
+
+        <targetForm>ihren</targetForm>
+      </error> schneeweißen Spitzen und einmal das endlos weite, türkisblaue Meer mit Palmen a<over>n</over> der Küste. Ich persönlich finde beide Orte sehr anziehend, schließlich habe ich beide ja schon besucht. Das Wasser ist nicht besonders kalt, sehr angenehm, sodass man sehr gut darin <correction>
+        <deletion>schwimm</deletion>
+      </correction> schwimmen kann. Die Berge haben viele Wanderwege, wo man die Schönheit der Natur betrachten k<over>ann</over><par />Am Ende heißt es für dich nur: Wandern oder Schwimmen?<par />Ich warte auf deine Antwort.<par /><closing>Viele Grüße<par /><entity>Enes</entity>  </closing>     </exercise>
+  </body>
+</kolipsi_document>

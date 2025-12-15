@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I24_SCA24DAV</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Lieber Ermenegildo,</greeting><par />wie geht es dir? <error>
+        <errorType />
+
+        <originalForm>Seit dem</originalForm>
+
+        <targetForm>Seitdem</targetForm>
+      </error> du aus Deutschlan<correction>
+        <deletion>g</deletion>
+
+        <insertion>d</insertion>
+      </correction> gereist bist haben wir uns nicht mehr gehört. Ich habe <error>
+        <errorType />
+
+        <originalForm>mitlerweile</originalForm>
+
+        <targetForm>mittlerweile</targetForm>
+      </error> schon einiges durchgemacht, erzähle dir aber <error>
+        <errorType />
+
+        <originalForm>nich</originalForm>
+
+        <targetForm>nicht</targetForm>
+      </error> alles, ansonsten müsste ich ein Buch schreiben: Gestern aber, ist Maria etwas <error>
+        <errorType />
+
+        <originalForm>lustiges</originalForm>
+
+        <targetForm>Lustiges</targetForm>
+      </error> passiert<correction>
+        <deletion>!</deletion>
+
+        <insertion>.</insertion>
+      </correction> Ich <correction>
+        <deletion><unreadable /></deletion>
+      </correction> wollte <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Gemüse essen <correction>
+        <deletion>Obstsalat <unreadable /></deletion>
+      </correction> und brauchte einiges aus dem <correction>
+        <deletion>Obstmarkt</deletion>
+      </correction> Obst- und Gemüsemarkt. Maria ging dann für mich einkaufen, da sie selbst später <correction>
+        <deletion><unreadable /></deletion>
+      </correction> zum <error>
+        <errorType />
+
+        <originalForm>Supermark</originalForm>
+
+        <targetForm>Supermarkt</targetForm>
+      </error> musste. Am Gemüsemarkt kaufte sie fast den Laden <error>
+        <errorType />
+
+        <originalForm>lehr</originalForm>
+
+        <targetForm>leer</targetForm>
+      </error> und sobald sie gezahlt hatte, ging sie schnell wieder um in den Supermarkt zu gehen und ließ den Kassezettel an der Kassa. Im Supermarkt füllte sie ebenfalls die ganze Kiste mit den ungewöhnlichsten Lebensmittel die sie fand. Sobald sie an der Kassa ankam und alles bezahlt hatte, ließen sie nicht durch, weil sie <correction>
+        <deletion>die g</deletion>
+
+        <insertion>d</insertion>
+      </correction>as Gemüse, welches sie vorhin gekauft hatte nicht zahlen wollte. <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Da sie kein Kassazettel <error>
+        <errorType />
+
+        <originalForm>führ</originalForm>
+
+        <targetForm>für</targetForm>
+      </error> die <error>
+        <errorType />
+
+        <originalForm>Wahre</originalForm>
+
+        <targetForm>Ware</targetForm>
+      </error> hatte, musste sie alles wieder zahlen. <correction>
+        <deletion>Glücklicherweise</deletion>
+      </correction> Natürlich habe ich ihr nur das Geld gegeben, welches sie <correction>
+        <deletion>fu</deletion>
+      </correction> im <error>
+        <errorType />
+
+        <originalForm>Gemüsemark</originalForm>
+
+        <targetForm>Gemüsemarkt</targetForm>
+      </error> ausgab. Ist die nicht dumm? Hoffe, <correction>
+        <insertion>dass</insertion>
+      </correction> dir <correction>
+        <deletion>hat</deletion>
+      </correction> die Geschichte an den alten Zeiten erinnert hat. Du fehlst uns <correction>
+        <deletion><unreadable /></deletion>
+      </correction> du Pisser!<par /><closing>Liebe Grüße,</closing><par />Islamabad Hali Zurfur</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber Paul,</greeting><par />ich <correction>
+        <deletion>habe selbs</deletion>
+      </correction> war selbst in der gleichen Situation in der du dich befindest, <correction>
+        <deletion><unreadable /></deletion>
+      </correction> leider musste ich aufgeben, weil sie mich für internationalen Waffenhandel festgenommen haben. <correction>
+        <deletion><unreadable /> Diese</deletion>
+      </correction> Neue <error>
+        <errorType />
+
+        <originalForm>Freundschat</originalForm>
+
+        <targetForm>Freundschaft</targetForm>
+      </error> zu bilden ist immer schön, du musst aber aufpassen, dass eine schöne Frau oder ein möglicher Freund, sich schließlich nicht als ein Polizist erwählt, wie es bei mir geschehen ist. Wenn du aber nichts <error>
+        <errorType />
+
+        <originalForm>illegales</originalForm>
+
+        <targetForm>Illegales</targetForm>
+      </error> in deinem Leben machst ist dies nicht dein Problem. Nachdem <correction>
+        <deletion>diesem</deletion>
+      </correction> dies geschehen ist, halte ich mich von den <error>
+        <errorType />
+
+        <originalForm>Online-chatten</originalForm>
+
+        <targetForm>Online-Chaten</targetForm>
+      </error> <correction>
+        <deletion>entfernt</deletion>
+      </correction> und von den virtuellen Freundschaften entfernt. Ich glaube, dass alle oder viele von den Profilen falsch sind<correction>
+        <deletion><unreadable /></deletion>
+      </correction> oder dass die Person, welche sich vorstellt, schließlich gar nicht <error>
+        <errorType />
+
+        <originalForm>die selbe</originalForm>
+
+        <targetForm>dieselbe</targetForm>
+      </error> <correction>
+        <deletion>ist, welche sich vorstellt</deletion>
+      </correction> im realen Leben ist. Deshalb, meiner Meinung <correction>
+        <insertion>nach</insertion>
+      </correction>, sind <error>
+        <errorType />
+
+        <originalForm>Online-chats</originalForm>
+
+        <targetForm>Online-Chats</targetForm>
+      </error> ein großes Blödsinn, nur um Geld zu machen und dich <correction>
+        <deletion><unreadable /></deletion>
+      </correction> zu verarschen. <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Ich beschließe meine <correction>
+        <deletion>e<unreadable /></deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>e<correction>
+            <deletion><unreadable /></deletion>
+
+            <insertion>-</insertion>
+          </correction>mail</originalForm>
+
+        <targetForm>E-Mail</targetForm>
+      </error> und <correction>
+        <deletion><unreadable /></deletion>
+      </correction> rate dir richtige Freunde zu suchen, mit denen du am Samstagabend etwas trinken gehst und mit denen du <correction>
+        <deletion>große <unreadable /> Teil</deletion>
+      </correction> einen großen Teil deiner Freizeit verbringst und die <correction>
+        <deletion><unreadable /></deletion>
+      </correction> falschen Freunde aus dem Internet aus deinem Leben <error>
+        <errorType />
+
+        <originalForm>virfst</originalForm>
+
+        <targetForm>wirfst</targetForm>
+      </error>.<par /><closing>Liebe <correction>
+          <deletion>g</deletion>
+
+          <insertion>G</insertion>
+        </correction>rüße,</closing><par />aus der Zelle 1924,<closing>Marsalam</closing><par /></exercise>
+  </body>
+</kolipsi_II_document>

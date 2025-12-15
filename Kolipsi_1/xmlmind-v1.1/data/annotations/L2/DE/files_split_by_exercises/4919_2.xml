@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>4919</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting><palimpsest>Liebe</palimpsest> <entity>Serena</entity>!</greeting> <par/> <gap>_</gap> Wie geht es dir? Mir geht es nicht so gut! Sonntag <correction>
+        <deletion>muss g</deletion>
+      </correction> werde ich mit <entity>Gianluca</entity> weggehen, aber ich wei<overwrite>
+        <over>ß</over>
+
+        <under>s</under>
+      </overwrite> es nicht ob ich ans Meer oder auf die Berge fahren soll<correction>
+        <insertion>e</insertion>
+      </correction>n. <par/>Am Meer ist es schön, weil das Wasser <correction>
+        <deletion>ist</deletion>
+      </correction> und das <error>
+        <errorType/>
+
+        <originalForm>Warm</originalForm>
+
+        <targetForm>warm</targetForm>
+      </error> ist; in dem Berg, weil das Schnee <correction>
+        <insertion>ist</insertion>
+      </correction> und wir können <error>
+        <errorType/>
+
+        <originalForm>Skifahren</originalForm>
+
+        <targetForm>Ski fahren</targetForm>
+      </error>! <par/>Mir gefällt besser das Meer; aber <entity>Gianluca</entity> gefällt am besten der Berg! <par/>Was soll ich machen? Ich habe ein bisschen Angst von das Berg, weil als ich klein war, <correction>
+        <deletion><unreadable/></deletion>
+      </correction> fiel ich von das Berg hinunter! <par/><entity>Gianluca</entity> <correction>
+        <deletion>wiss</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>weiss</originalForm>
+
+        <targetForm>weiß</targetForm>
+      </error> <correction>
+        <deletion><unreadable/></deletion>
+      </correction> das nicht! <par/><palimpsest>Das</palimpsest> Meer ist für mich besser, weil wir <correction>
+        <deletion>kon an</deletion>
+      </correction> Sonnenliegen konnten und Sandflugball spielen! Ich bin so unsicher!! <par/>Vielleicht, wenn ich an <entity>Gianluca</entity> meine Angst und er hilf mir! <par/>Bitte! Hilfst du mir! <par/>Antwortet mich schnell! <par/><closing>Ein großes Kuss! <par/> Deine Freundin, <entity>Sarah</entity>!</closing></exercise>
+  </body>
+</kolipsi_document>

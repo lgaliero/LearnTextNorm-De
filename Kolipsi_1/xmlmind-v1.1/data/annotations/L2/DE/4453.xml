@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>4453</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve">
+      <par /><greeting>Liebe <entity>Katrin</entity>!</greeting> <par />Wie geht es dir? Mir geht es ganz toll! Ich möchte dir erzählen, was ist <entity><palimpsest>M</palimpsest>aria</entity> <palimpsest>letzte Woche pa</palimpsest>ssiert. Sie musste etwas zum Essen kaufen, weil sie Gäste zu Hause hätte. So ist sie im der Stadt gegangen. Zuerst ist sie im einem Obst- und Gemüseladen eingegangen, und sie hat Tomaten, Kartoffeln und andere Sachen gekauft. Sie hat gezahlt, aber <palimpsest>sie</palimpsest> hat ihre Tasche mit dem Geld an der Kasse gelassen. Sie ist immer gleich... Dann ist sie in eim <foreign_word
+        foreign_language="Italiano">Supermarket</foreign_word> gegangen, weil sie Öl, Pasta, Fleisch, <error>
+        <errorType />
+
+        <originalForm>etc</originalForm>
+
+        <targetForm>etc.</targetForm>
+      </error> kaufen musste. Aber als sie an der Kasse war, hat sie sich bemerkt, dass <palimpsest>s</palimpsest>ie nicht mehr <palimpsest>ihr</palimpsest> <error>
+        <errorType />
+
+        <originalForm>Portmonets</originalForm>
+
+        <targetForm>Portemonnaie</targetForm>
+      </error> hätte! Weißt du, was das bedeutet? Die Frau an der Kasse war sehr böse, und sie <palimpsest>hat</palimpsest> gedacht, dass <entity><palimpsest>Maria</palimpsest></entity> <error>
+        <errorType />
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> wollte, weil sie alle Sachen in eine Tasche gegeben hat. Dan<palimpsest>n</palimpsest> hat sie erinnern, dass die Tasche mit dem Geld in der andere Geschäft war, und sie ist da gegangen, hat sie die Tasche gefinden und gebracht, und sie hat gezahlt. Aber dann am Ende, hat sie sich erinnert, dass die Gäste n<palimpsest>ä</palimpsest>chste Woche kommen, und sie mochte ihn getoten.<par />Aber <palimpsest>jetzt</palimpsest> <arrow
+        end="head" id="1">ist</arrow> alles <arrow end="open" id="1"></arrow> gut! Und? Was sagst du? Alles gut bei dir?<par />Ich hoffe, dass du<palimpsest></palimpsest> mir <correction>
+        <insertion>bald</insertion>
+      </correction> schreibst!<par /><closing>Viele Grüße Deine <entity>Anna</entity> </closing> </exercise>
+
+    <exercise number="2" xml:space="preserve">
+      <par /><greeting>Hallo <entity>Peter</entity>!</greeting> <par />Wie geht es du? Hast du <correction>
+        <insertion>etwas</insertion>
+      </correction> <arrow end="open" id="2"></arrow> für unsere Urlaub <arrow
+        end="head" id="2">gedacht</arrow> ? Ich habe keine Idee, aber ich <error>
+        <errorType />
+
+        <originalForm>scheibe</originalForm>
+
+        <targetForm>schreibe</targetForm>
+      </error> dir etwas über eim <error>
+        <errorType />
+
+        <originalForm>Urrlaub</originalForm>
+
+        <targetForm>Urlaub</targetForm>
+      </error> in die Berge oder eim Urlaub ans Meer. Aber wir <error>
+        <errorType />
+
+        <originalForm>mussen</originalForm>
+
+        <targetForm>müssen</targetForm>
+      </error> uns <correction>
+        <deletion>g</deletion>
+      </correction> denken, weil <correction>
+        <deletion><unreadable /></deletion>
+      </correction> wir frei der letzte Woche von Juni haben.<par />Also, ich wohne im eim Dorf in die Berge, und so ich kenne gut d<palimpsest>er</palimpsest> Urlaub in die Berge. Wir können in <entity>Vall<palimpsest>e</palimpsest> d'Aosta</entity> (weil ich nicht mehr gewesen bin!) und da können wir spazieren gehen, und reiten, und klettern im die Berge. Das ist sehr toll! Aber wir können auch Relax haben, <correction>
+        <deletion><unreadable /></deletion>
+      </correction> zum Beispiel können wir Sonnebaden haben und wenn wir ein gut Hotel finden, können wir da stehen. Aber <error>
+        <errorType />
+
+        <originalForm>achtung</originalForm>
+
+        <targetForm>Achtung</targetForm>
+      </error>, weil ich viel <overwrite>
+        <under><unreadable /></under>
+
+        <over>k</over>
+      </overwrite>lettern und spazieren gehen möchte, und wenn du mit mir kommst, musst du Bewegung machen!<par />Aber wir können auch einen Urlaub über <palimpsest>nur</palimpsest> Relax haben, und so <error>
+        <errorType />
+
+        <originalForm>mussen</originalForm>
+
+        <targetForm>müssen</targetForm>
+      </error> wir ans Meer fahren. Wir können in <foreign_word
+        foreign_language="Italiano"><entity>Sardegna</entity></foreign_word> gehen, weil <correction>
+        <insertion>es</insertion>
+      </correction> ein gutes Meer gibt, und ich kenne viele Personen, die uns ein gutes Hotel finden können. Aber gibt es auch anderen Plätzen. Wir sehen später.<par />Aber, wenn wir ans Meer <overwrite>
+        <under>s</under>
+
+        <over>f</over>
+      </overwrite>ahren, bleiben wir das ganze Tag am Sand um zu schlafen, oder schwimmen. Und dann in der Nacht können wir ausgehen, und in die Disco gehen. Das ist gut, weil am Morgen wir <error>
+        <errorType />
+
+        <originalForm>dei</originalForm>
+
+        <targetForm>die</targetForm>
+      </error> ganze Zeit schlafen.<par />So, und dann musst du mir sagen! Für mich ist egal. <overwrite>
+        <under><unreadable /></under>
+
+        <over>W</over>
+      </overwrite>ir können auch die beide machen: <error>
+        <errorType />
+
+        <originalForm>wir</originalForm>
+
+        <targetForm>Wir</targetForm>
+      </error> gehen eine Woche im die Berge, und eine Woche ans Meer. Wie du willst! Und wenn du anderen Ideen hast, bitte sag mir!<par /><correction>
+        <deletion><unreadable /></deletion>
+      </correction> So, ich warte eine Antwort aber schreib mir bald!<par /> <closing>Viele Grüße<par />Deine <entity>Anna</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

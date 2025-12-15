@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>4927</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve">
+ <par/><greeting>Lieber <entity>Isabel</entity>!</greeting><par/> <par/>Wie geht´s? Ich hoffe sehr gut <emoticon>=)</emoticon> <par/>Hast du gesehen? Die Urlaub kommen!! Ich war so müde in diese Schuljahr, aber ich bin so lustig für die Resultat von die Wahle die <error>
+        <errorType/>
+
+        <originalForm>Unterrich</originalForm>
+
+        <targetForm>Unterricht</targetForm>
+      </error>. Ich kennte lernen dass du hast die Maturität <foreign_word foreign_language="Italiano">Prove</foreign_word>. Ich hoffe dass alles geht <emphasis><over_capitalisation>
+          <originalForm>SEHR</originalForm>
+
+          <targetForm>sehr</targetForm>
+        </over_capitalisation> <over_capitalisation>
+          <originalForm>GUT</originalForm>
+
+          <targetForm>gut</targetForm>
+        </over_capitalisation></emphasis>. <par/>Es ist schwierig?<par/>Aber sprechen über <foreign_word foreign_language="Italiano">Relax</foreign_word>: die Urlaub. Wo gehst diese Jahre?<par/>In diese Jahr ich habe vielen Projekt aber ich habe ein <foreign_word foreign_language="English">Doubt</foreign_word>. <correction>
+        <insertion>Ich nicht kennen lernen, ob ich gehe am Meer oder in Berg. Ich musse <error>
+            <errorType/>
+
+            <originalForm>wahlen</originalForm>
+
+            <targetForm>wählen</targetForm>
+          </error>... </insertion>
+      </correction><par/>Ich gerne das Meer, weil für mich <strikeover>
+        <expansion>es</expansion>
+
+        <expansion>ich</expansion>
+      </strikeover> ist Relax und ich mag. <correction>
+        <deletion>plus a</deletion>
+      </correction> <par/>Ich mag die <error>
+        <errorType/>
+
+        <originalForm>Blaue</originalForm>
+
+        <targetForm>blaue</targetForm>
+      </error> Meer, d<strikeover>
+        <expansion>a</expansion>
+
+        <expansion>i</expansion>
+      </strikeover>e Sonne scheint die weiße Sand. Ich <strikeover>
+        <expansion>gern</expansion>
+
+        <expansion>mag</expansion>
+      </strikeover> in die Sand spazieren und denken. Ich <strikeover>
+        <expansion>m</expansion>
+
+        <expansion>g</expansion>
+      </strikeover>ag <error>
+        <errorType/>
+
+        <originalForm>Schwimmen</originalForm>
+
+        <targetForm>schwimmen</targetForm>
+      </error>. Ich mag stehen mit alles Personen dass ich liebe.<par/>Wir organisiert ein Urlaub nur mit Freunde<ambiguous>
+        <alternative>n</alternative>
+
+        <alternative>r</alternative>
+      </ambiguous> keine Eltern!<par/>Wir allein mit deine Frei. Mit Autonomie und viele viele Entspannung.<par/>Wir gehen immer in Disko gehen oder wir kann in Pub gehen. Die Wichtig ist alles zussamen.<par/>Wolete kommen mit uns?! Du bist die "<foreign_word foreign_language="English">Welcome</foreign_word>"! <par/>Ob du bist <error>
+        <errorType/>
+
+        <originalForm>Interresant</originalForm>
+
+        <targetForm>interessant</targetForm>
+      </error>, sagst mich in die <error>
+        <errorType/>
+
+        <originalForm>nexten</originalForm>
+
+        <targetForm>nächsten</targetForm>
+      </error> Brief. Ich hoffe dass du kommst!<par/><par/> <closing>Küssen<par/><par/>Liebe <entity>Fe<strikeover>
+            <expansion>d</expansion>
+
+            <expansion>D</expansion>
+          </strikeover>e</entity><par/> </closing><par/><over_capitalisation>
+        <originalForm>PSSS</originalForm>
+
+        <targetForm>Psss</targetForm>
+      </over_capitalisation>: Sagst deine Projekten von deine <foreign_word foreign_language="English">Summer</foreign_word>.</exercise>
+  </body>
+</kolipsi_document>

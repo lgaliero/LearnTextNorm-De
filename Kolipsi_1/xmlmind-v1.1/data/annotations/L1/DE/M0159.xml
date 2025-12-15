@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0159</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Mario</entity></greeting>.<par />Weißt du was letzte Woche passiert ist?<par />Meine Freundin <entity>Maria</entity> hat beim Einkaufen ein paar Probleme gehabt.<par />Zuerst ist sie zum Obst- und Gemüseladen gegangen, hat an der Kasse ihre Einkäufe bezahlt und vergisst den Kassenbon mitzuneh<hyphen>-</hyphen>men. Danach ist sie zum Supermarkt gegangen und hat auch dort einige Sachen eingekauft. An der Kasse angekommen, bezahlt sie ihre Einkäufe und die Kassiererin <sic>weist auf ihren Einkäufen</sic>, die vom Obst- und Gemüseladen waren! Verstehst du was sie gemacht hat?<par />Sie geht in einem <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Laden mit ihren Ein<hyphen>-</hyphen>käufen, die vo<overwrite>
+        <under>m</under>
+
+        <over>n</over>
+      </overwrite> einem anderen Laden sind.<par />Natürlich dachte die Kassiererin, dass die Ein<hyphen>-</hyphen>käufe, die sie dabei hatte, auch von diesem Laden stammen. Also bat sie um den Kassenbon und <entity>Maria</entity> merkt, dass ihr der Kassenbon als Be<hyphen>-</hyphen>weis fehlt<correction>
+        <deletion>e</deletion>
+      </correction>. Die Kassiererin dachte, <entity>Maria</entity> würde versuchen, <sic>ein</sic> Teil der Ware zu klauen. Voller Frustration, <error>
+        <errorType />
+
+        <originalForm>pakte</originalForm>
+
+        <targetForm>packte</targetForm>
+      </error> <entity>Maria</entity> alles aus dem Korb aus und erklärte, dass diese Ware in ihrem Korb, die gekaufte Ware vom Obst- und Gemüse<hyphen>-</hyphen>laden sei. <correction>
+        <insertion>Und sie leider den Kassenbon nicht mitgenommen hat.</insertion>
+      </correction> Sie zeigte auch auf die verschie<hyphen>-</hyphen>denen Marken der Produkte. Denn zum Glück hatte der Obst- und Gemüseladen andere, verschiedene Marken als der Supermarkt. Die Kassiererin gab ihr Recht und hat ein Auge zugedrückt. Sie sagte zu <entity>Maria</entity>, dass sie nächs<hyphen>-</hyphen>tes Mal auf <correction>
+        <deletion>ihr</deletion>
+      </correction> <correction>
+        <insertion>den</insertion>
+      </correction> Kassenbon achten muss, wenn sie von einem zum anderen Laden geht.<par />Und das finde ich auch richtig so, findest du nicht auch <entity>Mario</entity>? Da hat sie ja eine echte Dummheit gemacht. <closing><error>
+          <errorType />
+
+          <originalForm>Naja</originalForm>
+
+          <targetForm>Na ja</targetForm>
+        </error>, dann viele Grüße,<par /><par />deine <entity>Alessandra</entity></closing><par /><error>
+        <errorType />
+
+        <originalForm>PS.</originalForm>
+
+        <targetForm>PS</targetForm>
+      </error>: Wir hören noch von uns.       </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber <entity>Mario</entity></greeting>,<par /><error>
+        <errorType />
+
+        <originalForm>Betreffend</originalForm>
+
+        <targetForm>betreffend</targetForm>
+      </error> unserem Urlaub, weiß ich immer noch nicht, ob wir in die Berge oder ans Meer fahren sollen. In den Bergen kann man wandern gehen, das schöne Panorama genießen, die frische klare Luft einatmen. In friedlicher Ruhe über die Wiesen spazieren gehen und die <error>
+        <errorType />
+
+        <originalForm>schaafe</originalForm>
+
+        <targetForm>Schafe</targetForm>
+      </error> mit ihren <correction>
+        <insertion>klingelnden</insertion>
+      </correction> Gl<overwrite>
+        <under>a</under>
+
+        <over>o</over>
+      </overwrite>cken beobachten.<par />Ans Meer ist es ja auch verlockend. Der schöne Strand mit <sic>dem</sic> Palmen, der weiche Sand, der zwischen deinen <sic>Fußzehen</sic> rieselt. Das Geräusch vom rauschenden Meer und dem Wind und <sic>dem Möven</sic>. Die schönen Farben des klaren Wassers: türkis, blau, dunkelblau. Die Atmosphäre des Strandes entspannt und ist sehr romantisch. Aber auch in den Bergen ist es entspannend und romantisch. Ich tendiere aber ehrlich gesagt, zum Meer, denn ich möchte in <sic>den</sic> Sand liegen und mich bräunen. Dies kann man ja nicht in den Bergen machen. Außerdem ist es dort kalt und am Strand sehr heiß. Perfekt für mich! Denn ich liebe die Hitze. Außerdem find ich die Natur am Strand viel besser als in den Bergen. Ich möchte auch schwimmen gehen und mit dir segel<overwrite>
+        <under><unreadable /></under>
+
+        <over>n</over>
+      </overwrite> gehen! All das kann man in den Bergen nicht machen! Oder? Wie siehst du es? Antworte mir und wir werden die Entscheidung <error>
+        <errorType />
+
+        <originalForm>zusammentreffen.</originalForm>
+
+        <targetForm>zusammen treffen.</targetForm>
+      </error><par /><closing>Liebe<par />Grüße<par /><par /><entity><emphasis>Aleee</emphasis></entity></closing>    </exercise>
+  </body>
+</kolipsi_document>

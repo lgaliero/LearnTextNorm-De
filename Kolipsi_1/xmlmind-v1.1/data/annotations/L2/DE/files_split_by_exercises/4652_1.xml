@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>4652</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve">
+ <par/><greeting>Hallo <entity>Christian</entity>,</greeting> wie geht´s dir? Ich glaube schon gut. Heute <entity>Maria</entity> hat eine schlechte <overwrite>
+        <under>f</under>
+
+        <over>F</over>
+      </overwrite>igur gemacht. Zufällig ich war in die <foreign_word foreign_language="Italiano">Supermarket</foreign_word> und ich habe <entity>Maria</entity> gesehen. Sie war erst in einem <error>
+        <errorType/>
+
+        <originalForm>Obst und Gemüse Gescheft</originalForm>
+
+        <targetForm>Obst- und Gemüsegeschäft</targetForm>
+      </error> gegangen und danach sie ist bei der <foreign_word foreign_language="Italiano">Supermarket</foreign_word> <strikeover>
+        <expansion>g</expansion>
+
+        <expansion>f</expansion>
+      </strikeover>ekomt. Sie hat ein <error>
+        <errorType/>
+
+        <originalForm>bissichen</originalForm>
+
+        <targetForm>bisschen</targetForm>
+      </error> mit mir geredet über sein Freund, sie sagt dass er sie gelasst<palimpsest> </palimpsest> <sic>habt</sic>. Schade, sie waren einen schöne Ehepaar. <error>
+        <errorType/>
+
+        <originalForm>So<ambiguous>
+            <alternative>u</alternative>
+
+            <alternative>n</alternative>
+          </ambiguous>s</originalForm>
+
+        <targetForm>Sonst</targetForm>
+      </error>, sie hat viel gekauft ins <foreign_word foreign_language="Italiano">Supermarket</foreign_word> , ein <error>
+        <errorType/>
+
+        <originalForm>bissichen</originalForm>
+
+        <targetForm>bisschen</targetForm>
+      </error> Fleisch und Fisch und viele Sorten von Pasta. Und sie hat natürlich <strikeover>
+        <expansion>a</expansion>
+
+        <expansion>A</expansion>
+      </strikeover>cht Flasche Wein... Ich denke dass danach sein Freund sie gelasst hat sie würde viele Tagen getrunken. <error>
+        <errorType/>
+
+        <originalForm>So<ambiguous>
+            <alternative>u</alternative>
+
+            <alternative>n</alternative>
+          </ambiguous>s</originalForm>
+
+        <targetForm>Sonst</targetForm>
+      </error>, sie war bei der Kassa und die Mädchen der war da a<overwrite>
+        <under>k</under>
+
+        <over>c</over>
+      </overwrite>kusiert <entity>Maria</entity> <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> sie hat Obst und Gemüse <error>
+        <errorType/>
+
+        <originalForm>gestollen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error>. <entity>Maria</entity> war <error>
+        <errorType/>
+
+        <originalForm>schokiert</originalForm>
+
+        <targetForm>schockiert</targetForm>
+      </error> weil sie denkt dass <arrow end="open" id="1"> </arrow> natürlich <arrow end="head" id="1">ist</arrow> dass in das anderes Geschäft gekauft hat aber die Verkäuferin schreit zum sie und danach sie geht weg sehr <error>
+        <errorType/>
+
+        <originalForm>zörnig</originalForm>
+
+        <targetForm>zornig</targetForm>
+      </error>.<par/>Das war sehr <error>
+        <errorType/>
+
+        <originalForm>simpatisch</originalForm>
+
+        <targetForm>sympathisch</targetForm>
+      </error> zu sehen. Sie <sic>gehet</sic> einmal z<correction>
+        <deletion>ü</deletion>
+
+        <insertion>u</insertion>
+      </correction>rück beim der anderes Geschäft und sie fragt seine <error>
+        <errorType/>
+
+        <originalForm>Kassenzelte</originalForm>
+
+        <targetForm>Kassenzettel</targetForm>
+      </error> weil sie verlort hat. Und danach <sic>konnt</sic> wieder bei der <foreign_word foreign_language="Italiano">Supermarket</foreign_word> und sie beweist dass sie nicht <error>
+        <errorType/>
+
+        <originalForm>geschtolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hat.</exercise>
+
+    
+  </body>
+</kolipsi_document>

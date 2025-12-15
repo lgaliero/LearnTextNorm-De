@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>6394</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><comment>von 6394 liegen zwei Abschriften vor; der Schüler hat im Sinne einer Eigenkorrektur, seinen Text in einer zweiten Abschrift verbessert</comment> <greeting>Lieber <entity>Antoni</entity>,</greeting> <par/>wie geht´s? Ich hoffe, dass du froh bist. Ich habe entsch<palimpsest>ie</palimpsest>den dieses Brief zu schreiben, um dir eine Geschichte zu erzählen. Erinnerst du dich <entity>Maria?</entity> Gestern ist sie in den Supermarkt gegangen und sie hat ein Problem gehabt. Zuerst hat sie Obst und Gemüse beim Obsthändler gekauft. Aber sie hat den Kassenzettel vergessen. Dann ist <entity>Maria</entity> nach den Supermarkt gefahren und hat sie viele Dinge gekauft. Dort gab es ein Problem an der Kasse. Die Frau, die an der Kasse war, hat <entity>Maria</entity> mit dem Obst und dem Gemüse gesehen. Sie hat gedacht, dass <entity>Maria</entity> Obst und Gemüse von Supermarkt gestohlen wollte. <error>
+        <errorType/>
+
+        <originalForm>Aner</originalForm>
+
+        <targetForm>Aber</targetForm>
+      </error> <entity>Maria</entity> hat den Kassenzettel vergessen. Sie kann nicht sagen, dass sie Obst und Gemüse nicht gestohlen wollte. Die Frau der Kasse hat die Polizei <sic>geruft</sic>. Die Polizei hat <entity>Maria</entity> nach den Obsthändler gebracht; hier hat <entity>Maria</entity> den Kassenzettel genommen; aber sie hat 60 € gezahlen, weil sie immer den Kassenzettel bringen muss. <par/><closing>Viele Grüße, <entity>Luca</entity> </closing></exercise>
+
+    
+  </body>
+</kolipsi_document>

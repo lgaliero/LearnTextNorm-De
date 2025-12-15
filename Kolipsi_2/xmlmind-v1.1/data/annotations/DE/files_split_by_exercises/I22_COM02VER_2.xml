@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I22_COM02VER</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve">An Paul2000@email.de<par/><greeting>Lieber Paul,</greeting><par/>ich werde dir sagen was ich über das denke. Die Verwendung des Internets muss man sehr aufpassen vor allem wie es bei Ihnen passiert ist. Dazu gibt es ein sehr gutes Beispiel Facebook. Man muss sehr aufpassen mit wem man chattet, denn wir wissen nicht wer dahinter ist. Mir ist es auch passiert auf Facebook hatte mi<correction>
+        <deletion>c</deletion>
+
+        <insertion>r</insertion>
+      </correction> einer geschrieben ich antwortete auf 2 Fragen und später fragte er mir persönliche Fragen und von dort an habe ich nie mehr zurückgeschrieben. Es war eine gute Erfahrung da ich verstanden habe ich soll aufpassen was ich<correction>
+        <deletion>t</deletion>
+      </correction> mache und schreibe. Ich gebe Ihnen einen Hinweis ich würde nicht antworten gar nichts, sie wissen ja nicht ob der- oder diejenige sie anlügt kann ja auch sein. Es kann auch gefährlich werden, da man heutzutage durch Internet alles schaffen kann.<par/><closing><correction>
+          <insertion>Mit</insertion>
+        </correction> <error>
+          <errorType/>
+
+          <originalForm>Herzlichen</originalForm>
+
+          <targetForm>herzlichen</targetForm>
+        </error> Grüßen</closing><par/><correction>
+        <deletion><unreadable/></deletion>
+      </correction></exercise>
+  </body>
+</kolipsi_II_document>

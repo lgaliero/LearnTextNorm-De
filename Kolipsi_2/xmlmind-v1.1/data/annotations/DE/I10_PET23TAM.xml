@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I10_PET23TAM</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo Julia!</greeting><par />Wie geht's dir? Mir geht es gut: <error>
+        <errorType />
+
+        <originalForm>endlich</originalForm>
+
+        <targetForm>Endlich</targetForm>
+      </error> sind wir in Urlaub! Ich genieße wirklich diese Tage: <error>
+        <errorType />
+
+        <originalForm>ich</originalForm>
+
+        <targetForm>Ich</targetForm>
+      </error> schaue Filme, lese Bücher, höre Musik, mache <correction>
+        <deletion>s</deletion>
+
+        <insertion>S</insertion>
+      </correction>hopping, oft spaziere ich mit meinen Freunden usw. Ich habe so lustige Freunde; du kannst <correction>
+        <deletion>dich</deletion>
+
+        <insertion>dir</insertion>
+      </correction> nicht vorstellen was letzte Woche passier<correction>
+        <deletion>en</deletion>
+
+        <insertion>t</insertion>
+      </correction> ist!<par />Meine Freundin Maria ist einkaufen gegangen: <error>
+        <errorType />
+
+        <originalForm>zuerst</originalForm>
+
+        <targetForm>Zuerst</targetForm>
+      </error> in eine<correction>
+        <deletion>m</deletion>
+
+        <insertion>n</insertion>
+      </correction> Obst- und Gemüseladen und dann in ein Supermarkt.<par />Sie hat sehr viele Früchte gekauft, weil sie einen Kuchen backen wollte und auch sehr viel Gemüse, denn sie wollte eine Gemüsesuppe für das Abendessen vorbereiten. Wenn sie <correction>
+        <insertion>zur</insertion>
+
+        <deletion>zur<correction>
+            <insertion>die</insertion>
+          </correction></deletion>
+      </correction> Kasse gegangen ist hat sie bezahlt, aber sie hat den Einkaufszettel vergessen! Sie hat das nicht bemerkt und ist in das Supermarkt gegangen. Sie hat: Brot, Milch, Kekse, Eier, Saft, Butter, Müsli und viele andere Sache gekauft. Sie war so froh den Kuchen zu Hause zu backen! So ist sie schnell zur <correction>
+        <deletion>die</deletion>
+      </correction> Kasse gegangen, weil sie nicht viel Zeit noch hatte. Sie hat alles bezahlt und die Kassierin gegrüßt. <correction>
+        <deletion>Si</deletion>
+      </correction> Als sie einen Schritt zur <correction>
+        <deletion>T<unreadable /></deletion>
+
+        <insertion>Tür</insertion>
+      </correction> machte, stoppte sie die Kassierin. Maria dachte, sie hatte etwas auf der Kasse vergessen, weil sie nicht sehr aufmerksam ist. Sie hat sich gedreht und hat die Kassierin geschaut, die böse war und auch ganz rot im Gesicht. Die Kassierin dachte, sie hatte etwas gestohlen, weil sie einige Nahrungsmittel in der Tasche hatte. Das war aber nicht so und Maria wollte ihr das erklären, so hat sie die Tasche geöffnet um den Einkaufszettel zu nehmen und ihr zu zeigen.<par />Sie konnte ihn aber nicht finden, weil sie ihn in dem Obst- und Gemüseladen vergessen hatte! So ein Pech! Aber glücklich hat sich die Situation gut gelöst: Maria hat der Kassierin alle Produkte, die in der Tasche waren, gezeigt, sodass sie <correction>
+        <deletion>g</deletion>
+      </correction> sehen konnte, dass diese Nahrungsmittel nicht in diesem Supermarkt zu kaufen waren und dass sie nichts gestohlen hatte.<par />Die Kassierin ist sehr nett gewesen, sie hat sich entschuldigt und Maria empfehlt, mehr aufmerksam zu sein! Maria hat sich <correction>
+        <deletion><unreadable /></deletion>
+      </correction> auch entschuldigt und sie ist schnell nach Hause gegangen.<par />Das ist mir nie passiert und dir? So eine komische Situation, nicht wahr?<par /><closing>Ich warte auf deine Antwort.<par />Viele Grüße,</closing><par />deine Annalena</exercise>
+
+    <exercise number="2" xml:space="preserve"><correction>
+        <deletion>H<unreadable /> Paul! Wie geht es dir? Hast du auch viel zu lernen wie ich? Ich habe gestern <unreadable /> letzten Wochen <unreadable /> die Schule!</deletion>
+      </correction><par />An: Paul2000@email.de<par /><greeting>Hallo Paul,</greeting> ich heiße Tamara, bin 17 Jahre alt und ich habe deinen Brief in der Zeitung "Junge Woche" gelesen. Ich hätte gern dir zu helfen, damit du deinen Problem lösen kannst.<par />Meiner Meinung nach, sollst du allen Kontakten antworten und ihnen sagen, dass du Schluss mit virtuellen Freundschaft machen willst und ihnen gut die Gründe dafür erklären. Wenn du <error>
+        <errorType />
+
+        <originalForm>erlich</originalForm>
+
+        <targetForm>ehrlich</targetForm>
+      </error> sein wirst und deine Entscheidung ihnen klar erklären wirst, werden sie dir glauben, dich verstehen und nicht auf dir zornig sein.<par />Ich glaube, dass virtuelle Freundschaften nicht die gleiche<correction>
+        <deletion>n</deletion>
+      </correction> Gefühle geben können wie die echten. Sogar können wir Menschen kennenlernen, die sich für andere Personen vorstellen und das ist wirklich gefährlich.<par />Ich denke auch, dass wir Internet mit Acht verwenden müssen: z. B. wir können ihn in unserer Freizeit benutz<correction>
+        <deletion>t</deletion>
+      </correction>en aber <correction>
+        <deletion>er soll</deletion>
+
+        <insertion>wir sollen</insertion>
+      </correction> nicht davon abhängig werden. Man muss der frische Luft genießen und nicht auf die Gelegenheiten, die uns das Leben gibt, verzichten, nicht wahr?<par />Ich hoffe, dass du deine Situation lösen wirst und dass du davon etwas gelernt hast.<par />Verzichte nicht auf deiner Familie und deinen Freunden, lerne und <error>
+        <errorType />
+
+        <originalForm>grunde</originalForm>
+
+        <targetForm>gründe</targetForm>
+      </error> deine Karriere und mach Sachen oder Aktivitäten, die dir Spaß machen!<par /> <par /> Tamara! </exercise>
+  </body>
+</kolipsi_II_document>

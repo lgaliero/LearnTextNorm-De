@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0167</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hey <entity>Alessandra</entity></greeting>,<par /><error>
+        <errorType />
+
+        <originalForm>Wie</originalForm>
+
+        <targetForm>wie</targetForm>
+      </error> geht's dir so? Ich muss dir was <error>
+        <errorType />
+
+        <originalForm>wichtiges</originalForm>
+
+        <targetForm>Wichtiges</targetForm>
+      </error> erzählen! Meiner Freundin <entity>Maria</entity> ist gestern etwas echt <error>
+        <errorType />
+
+        <originalForm>blödes</originalForm>
+
+        <targetForm>Blödes</targetForm>
+      </error> passiert. <entity>Maria</entity> ist morgens beim Obsthändler gewesen und hat sich Salat und Mais geholt. Natürlich hat sie den Kassenzettel nicht mitgenommen. Mach<overwrite>
+        <under>t</under>
+
+        <over>e</over>
+      </overwrite>n viele Leute ja nicht. Aber das <error>
+        <errorType />
+
+        <originalForm>blöde</originalForm>
+
+        <targetForm>Blöde</targetForm>
+      </error> daran war eben, dass sie später in den Supermarkt gegangen ist um dort Lebensmittel einzukaufen. Als sie alles bezahlt hatte und gerade gehen wollte, rief ihr die Verkäuferin hinterher ob sie geklaut hätte. <entity>Maria</entity> war natürlich entsetzt, da sie nichts getan hat. Die Verkäuferin wollte den Kassenzettel von <entity>Maria</entity> sehen, was aber nicht ging, weil sie ihn beim Obsthändler liegen gelassen hat. <entity>Marias</entity> Glück war <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> der Obst<hyphen>-</hyphen>händ<over>l</over>er nebenan seinen Laden hatte. So konnte sie dann schnell <correction>
+        <deletion>wied</deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>rüber gehen</originalForm>
+
+        <targetForm>rübergehen</targetForm>
+      </error> und den Kassen<hyphen>-</hyphen>zettel hol<overwrite>
+        <under><unreadable /></under>
+
+        <over>e</over>
+      </overwrite>n und konnte dann so beweisen <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> sie nichts gemacht hat. Also ist es doch immer gut wenn man die Quittung immer mitnimmt. Wir sehen uns dann bestimmt noch später.<par /><closing>Tschüss</closing>    </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hey,</greeting><par />wie geht es dir so? Ich <palimpsest>wollte</palimpsest> dich fragen, wo wir in den Urlaub fahren sollen. Lieber in die Berge oder ans Meer. Ich persönlich finde, dass beides seine Vor- und Nachteile hat. In den Bergen wäre es bestimmt schön ruhig, mit viel Natur und Tieren. <error>
+        <errorType />
+
+        <originalForm>Vieleicht</originalForm>
+
+        <targetForm>Vielleicht</targetForm>
+      </error> könnten wir ja Skifah<hyphen>-</hyphen>ren lernen? Das wäre mal etwas anderes. Leider wird es da wahrscheinlich nicht so schön warm sein und mit Un<hyphen>-</hyphen>wettern könnte auch zu rechnen sein. Wenn das Wetter aber doch halten sollte, kann man bestimmt schön wan<hyphen>-</hyphen>dern gehen. Natürlich ist es am Meer auch toll, aber eben etwas ganz anderes. Da ist das Wetter aber schön warm mit viel Sonne und die Palmen sind auch wunderbar. Dort könnten wir vielleicht surfen gehen oder tauchen. Das habe ich nämlich noch nie gemacht. Ein <error>
+        <errorType />
+
+        <originalForm>nachteil</originalForm>
+
+        <targetForm>Nachteil</targetForm>
+      </error> wäre möglicherweise, dass zu viele Touristen da sind. Ich weiß ja <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> du das nicht so magst. <palimpsest>Ich freue</palimpsest> mich, egal wo<hyphen>-</hyphen>hin wir fahren, schon auf unseren <error>
+        <errorType />
+
+        <originalForm>gemeinsammen</originalForm>
+
+        <targetForm>gemeinsamen</targetForm>
+      </error> Urlaub. Er wird bestimmt viel Spaß machen. Beides hat eben seine Vor- und Nachteile. Schreib mir bitte deine Meinung wo du lieber <error>
+        <errorType />
+
+        <originalForm>hin fahren</originalForm>
+
+        <targetForm>hinfahren</targetForm>
+      </error> würdest. Ich freu mich schon jetzt.<par /><closing>Tschüss, deine Freundin</closing>   </exercise>
+  </body>
+</kolipsi_document>

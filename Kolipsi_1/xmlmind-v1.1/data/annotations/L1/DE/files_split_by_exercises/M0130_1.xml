@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0130</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Lieber <entity>Josef</entity></greeting>!<par/>Heute habe ich <entity>Maria</entity> im Bus getroffen und habe mit ihr ein wenig geplaudert.<par/>Als sie mir <correction>
+        <deletion>folgendes erzählte</deletion>
+      </correction> von ihrem Tagesablauf erzählte, musste sie mir eine peinliche Geschichte erzählen: <entity>Maria</entity> ging in den Obst- und Gemüseladen um sich einen Vorrat für das <error>
+        <errorType/>
+
+        <originalForm>austehende</originalForm>
+
+        <targetForm>anstehende</targetForm>
+      </error> Wochenende zu kaufen. Als sie ihre Ware zum Bezahlen brachte, bezahlte <correction>
+        <insertion>sie</insertion>
+      </correction> wie üblich mit dem Geld. Als sie jedoch die ganzen Sachen in <sic>ihrer</sic> Tasche eingeräumt hatte, kam ihr noch der Gedanke, dass am Sonntag ihre Mutter zu Besuch kommt. <correction>
+        <deletion>und</deletion>
+      </correction> Deswegen fielen ihr noch einige Sachen ein, die sie für das Mittagessen benötigte. Als sie zum Supermarkt an<hyphen>-</hyphen>kam, ihren <overwrite>
+        <under>A</under>
+
+        <over>E</over>
+      </overwrite>inkaufswagen wieder <correction>
+        <deletion>vo</deletion>
+      </correction> mit lauter guten <correction>
+        <deletion>Sachen</deletion>
+      </correction> Sachen gefüllt hatte und zur Kasse ging, fi<over>el</over> <entity>Maria</entity> auf, dass sie ihr<palimpsest/> Restgeld an der Kasse im Obst- und Gemüseladen vergessen hatte. Die Verkäuferin hatte bereits <correction>
+        <deletion>an</deletion>
+      </correction> jeden Gegenstand schon <correction>
+        <deletion>auf dem</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>eingettipt</originalForm>
+
+        <targetForm>eingetippt</targetForm>
+      </error> und war sehr über <entity>Marias</entity> Missgeschick verärgert und brüllte sie an.<par/>Als sie mir dies erzählte, lief sie so rot an, wie ich sie noch nie gesehen <error>
+        <errorType/>
+
+        <originalForm>babe</originalForm>
+
+        <targetForm>habe</targetForm>
+      </error>! Das war ja witzig!<par/><closing><reduction>
+          <reductionType rType="02 abbreviation"/>
+
+          <reducedForm>Lg</reducedForm>
+
+          <unfoldedForm>Liebe Grüße</unfoldedForm>
+        </reduction>, <entity>Martina</entity></closing>          </exercise>
+
+    
+  </body>
+</kolipsi_document>

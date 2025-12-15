@@ -1,0 +1,31 @@
+<body>
+ <page page_number="1" transcanno_page_id="1097">
+  <paragraph class="medium-paragraph" tagcode="1556716335117">
+   <div>
+    Eines
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Tages" tagcode="1553500759314">
+     tages
+    </orth_error_id12>
+    Marika und Lily geht in der Wald. Zum
+   </div>
+   <div>
+    22:30
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="sie" tagcode="1553500781601">
+     Sie
+    </orth_error_id12>
+    hören ein
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553500822695" tran_correction_original="geroisch">
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Geräusch" tagcode="1553500848317">
+      Geroisch
+     </orth_error_id12>
+    </tran_word_correction_id25>
+    sie werden von
+   </div>
+   <div>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="gejagt" tagcode="1556716335116">
+     Gejacht
+    </orth_error_id12>
+   </div>
+  </paragraph>
+ </page>
+</body>

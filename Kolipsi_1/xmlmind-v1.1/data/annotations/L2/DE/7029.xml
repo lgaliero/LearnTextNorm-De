@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>N7029</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve">
+ <par /><greeting><palimpsest>Hallo</palimpsest> <entity>Alina</entity></greeting>,<par />wie geht es dir? Mir <overwrite>
+        <under><unreadable /></under>
+
+        <over>g</over>
+      </overwrite>eht es ins<hyphen>-</hyphen>gesamt gut!! Wir haben uns seit <error>
+        <errorType />
+
+        <originalForm>lange</originalForm>
+
+        <targetForm>Lange</targetForm>
+      </error> nicht mehr geschrieben, so heute habe ich gedacht dir zu schreiben!! <palimpsest>Wie geht es</palimpsest> deinen Eltern? <overwrite>
+        <under>s</under>
+
+        <over>S</over>
+      </overwrite>ind sie <error>
+        <errorType />
+
+        <originalForm>schön</originalForm>
+
+        <targetForm>schon</targetForm>
+      </error> nach Frankreich gefahren?<par /><palimpsest>Hier bei mir, ist es ganz ruhig</palimpsest> <overwrite>
+        <under><unreadable /></under>
+
+        <over>g</over>
+      </overwrite>eworden. Ich bin mit der Schule fertig und manchmal arbeite ich <palimpsest>bei Luka's</palimpsest>: unsere <error>
+        <errorType />
+
+        <originalForm>Lieblingst Restaurant</originalForm>
+
+        <targetForm>Lieblingstrestaurant</targetForm>
+      </error>. Mein Bruder <palimpsest>heiratet sich bald</palimpsest> mit Sarah und bald werde ich <palimpsest>eine Tante</palimpsest>!!! <entity>Alina</entity>, seitdem du gezogen bist, ist es <palimpsest>hier</palimpsest> in <entity>Meran</entity> sehr langweilig!<palimpsest> <error>
+          <errorType />
+
+          <originalForm>Errinerst</originalForm>
+
+          <targetForm>Erinnerst</targetForm>
+        </error> du dich an <entity>Maria</entity>?! Sie ist </palimpsest>die kleine blonde Mädchen die neben <entity>Marco</entity> wohnte. Jetzt ist sie nach <entity>Frankreich</entity> um zu studieren gefahren. Sie spricht sehr gut <error>
+        <errorType />
+
+        <originalForm>französich</originalForm>
+
+        <targetForm>Französisch</targetForm>
+      </error> und ihre Mutter hat mir <palimpsest>gestern</palimpsest> eine lustige <error>
+        <errorType />
+
+        <originalForm>geschichte</originalForm>
+
+        <targetForm>Geschichte</targetForm>
+      </error> über ihr <error>
+        <errorType />
+
+        <originalForm>erzäht</originalForm>
+
+        <targetForm>erzählt</targetForm>
+      </error>!! <palimpsest>Nämlich</palimpsest>, hat sie <palimpsest>mir</palimpsest> gesagt, dass<palimpsest> <entity>Maria</entity> am Anfang große <error>
+          <errorType />
+
+          <originalForm>schwierigkeiten</originalForm>
+
+          <targetForm>Schwierigkeiten</targetForm>
+        </error> </palimpsest>hatte. <entity>Marias</entity> Mutter hat <palimpsest>mir</palimpsest> erzählt, dass <entity>Maria</entity> <palimpsest>einmal einkaufen</palimpsest> gegangen wäre und sie <palimpsest>hätte</palimpsest> die Kasse Frau nicht verstanden. <correction>
+        <deletion>Sie war <correction>
+            <insertion>ist</insertion>
+          </correction> erst</deletion>
+      </correction> Erst <palimpsest>hatte</palimpsest> sie in einem <error>
+        <errorType />
+
+        <originalForm>Obst.</originalForm>
+
+        <targetForm>Obst-</targetForm>
+      </error> und Gemüseladen eingekauft und <error>
+        <errorType />
+
+        <originalForm>Eine</originalForm>
+
+        <targetForm>eine</targetForm>
+      </error> Stunde später war sie im Supermarkt gegangen. <overwrite>
+        <under><unreadable /></under>
+
+        <over>W</over>
+      </overwrite>ann sie die Sachen bezahl<palimpsest>t hatte, ist</palimpsest> sie einfach gegangen ohne <palimpsest>den Kassen</palimpsest>zettel zu nehmen und die <overwrite>
+        <under><unreadable /></under>
+
+        <over>F</over>
+      </overwrite>rau die an der Kasse war hat bemerkt, dass sie sich vertaunt hat und so hat sie <entity>Maria</entity> <overwrite>
+        <over>a</over>
+
+        <under><unreadable /></under>
+      </overwrite>ngeruft und sie hat versucht <entity>Maria</entity> die <error>
+        <errorType />
+
+        <originalForm>situation</originalForm>
+
+        <targetForm>Situation</targetForm>
+      </error> zu erklären, aber <entity>Maria</entity> hat verstand, dass sie <palimpsest>aus ein</palimpsest>en anderen Tür raus<palimpsest>gehen <correction>
+          <deletion>musste</deletion>
+        </correction>musste</palimpsest>! <error>
+        <errorType />
+
+        <originalForm>meld</originalForm>
+
+        <targetForm>Meld</targetForm>
+      </error> dich an.<par /><closing><palimpsest>Liebe <error>
+            <errorType />
+
+            <originalForm>grüße</originalForm>
+
+            <targetForm>Grüße</targetForm>
+          </error></palimpsest><par /> <entity>Raïna</entity> </closing> </exercise>
+
+    <exercise number="2" xml:space="preserve">
+ <par /><greeting>Liebe <entity><palimpsest>Patrick</palimpsest></entity>!!</greeting> <par />wie <error>
+        <errorType />
+
+        <originalForm>geht'es</originalForm>
+
+        <targetForm>geht es</targetForm>
+      </error> dir? Mir geht es sehr gut! Ich habe gestern meine Prüfung bestand und <palimpsest>unreadable</palimpsest> seit vorgestern habe ich meine Führerschein!! Ich bin sehr froh! Jetzt kann ich Auto fahren und am Samstag spät nach Hause gehen. Wie geht es deine Schwester? <overwrite>
+        <under>unreadable </under>
+
+        <over>I</over>
+      </overwrite>st sie schon zurück von Russland gekommen! Sie hat bestimmt eine große <palimpsest>E</palimpsest>rfahrung gelebt. Wenn ich <error>
+        <errorType />
+
+        <originalForm>möglichkeit</originalForm>
+
+        <targetForm>Möglichkeit</targetForm>
+      </error> hätte, würde ich auch <palimpsest>im <error>
+          <errorType />
+
+          <originalForm>ausland</originalForm>
+
+          <targetForm>Ausland</targetForm>
+        </error> gehen. Wie geht es</palimpsest> in <entity>London</entity>? Gefä<overwrite>
+        <under><unreadable /></under>
+
+        <over>l</over>
+      </overwrite>lst es dir? <overwrite>
+        <under><unreadable /></under>
+
+        <over>H</over>
+      </overwrite>ast du <error>
+        <errorType />
+
+        <originalForm>schwierigkeit</originalForm>
+
+        <targetForm>Schwierigkeit</targetForm>
+      </error> mit der Sprache? Bald bist du zurück bei uns und ich <overwrite>
+        <under><unreadable /></under>
+
+        <over>fr</over>
+      </overwrite>eue mich so viel! Wir vermissen dich!! <entity>Laura</entity> und <entity>René</entity> sind <error>
+        <errorType />
+
+        <originalForm>Gestern</originalForm>
+
+        <targetForm>gestern</targetForm>
+      </error> nach <entity>Amerika</entity> gefahren! Und ich <error>
+        <errorType />
+
+        <originalForm>weiss</originalForm>
+
+        <targetForm>weiß</targetForm>
+      </error> noch nicht wohin ich meine Urlaub verbringen kann! <entity><overwrite>
+          <under><unreadable /></under>
+
+          <over>Lu</over>
+        </overwrite>kas</entity> und <entity>Paul</entity> wollen in die Berge gehen aber ich <overwrite>
+        <under><unreadable /></under>
+
+        <over>m</over>
+      </overwrite>öchte gerne ans Meer fahren! Vorgestern haben wir die zwei <error>
+        <errorType />
+
+        <originalForm>möglichkeiten</originalForm>
+
+        <targetForm>Möglichkeiten</targetForm>
+      </error> vergleichtet und wie i<overwrite>
+        <under><unreadable /></under>
+
+        <over>m</over>
+      </overwrite>mer ich habe <overwrite>
+        <under><unreadable /></under>
+
+        <over>g</over>
+      </overwrite>e<palimpsest>w</palimpsest>onnen so können <entity>Maria</entity> <error>
+        <errorType />
+
+        <originalForm>un</originalForm>
+
+        <targetForm>und</targetForm>
+      </error> <entity>Aylin</entity> auch mitfahren!! <entity>Lukas</entity> und <entity>Paul</entity> haben gesagt, dass der Berg ist schöner als d<ambiguous>
+        <alternative>er</alternative>
+
+        <alternative>en</alternative>
+      </ambiguous> Meer, aber <palimpsest>sie wollen</palimpsest> <overwrite>
+        <under><unreadable /></under>
+
+        <over>i</over>
+      </overwrite>n eine<overwrite>
+        <under><unreadable /></under>
+
+        <over>n</over>
+      </overwrite> kleinen <overwrite>
+        <over>D</over>
+
+        <under><unreadable /></under>
+      </overwrite>orf gehen!! Wir mussten uns zwischen <entity>Casole</entity> und <palimpsest>eine exotische</palimpsest> <error>
+        <errorType />
+
+        <originalForm>insel</originalForm>
+
+        <targetForm>Insel</targetForm>
+      </error> entscheiden. <palimpsest>Am Ende</palimpsest> habe ich gewonnen nur, wei<overwrite>
+        <over>l</over>
+
+        <under><unreadable /></under>
+      </overwrite> ich <entity>Paul</entity> gesagt hat, dass <entity>Aylin</entity> möchte <overwrite>
+        <under><unreadable /></under>
+
+        <over>g</over>
+      </overwrite>erne mit <palimpsest>uns <correction>
+          <deletion>zusame</deletion>
+        </correction> ans Meer</palimpsest> fahren!!<par />Jetzt muss ich leider gehen!!<par /><error>
+        <errorType />
+
+        <originalForm>meld</originalForm>
+
+        <targetForm>Meld</targetForm>
+      </error> dich an!!!<par /><closing><palimpsest>Liebe <error>
+            <errorType />
+
+            <originalForm>grüße</originalForm>
+
+            <targetForm>Grüße</targetForm>
+          </error>.</palimpsest><par /> <entity><palimpsest>Raïna</palimpsest></entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

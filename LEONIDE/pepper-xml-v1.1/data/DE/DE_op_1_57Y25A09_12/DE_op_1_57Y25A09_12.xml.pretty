@@ -1,0 +1,69 @@
+<body>
+ <page page_number="1" transcanno_page_id="196">
+  <paragraph class="medium-paragraph" tagcode="1611846103364">
+   <div>
+    Ich will
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1540514257969" tran_word_deletion_target="_#_">
+     LINGUISTICO
+    </tran_word_deletion_id8>
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1611846103367">
+   <div>
+    Mein Traumberuf ist der
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Zahnarzt" tagcode="1540514265611">
+     Zahnarst
+    </orth_error_id12>
+    , weil mein Vater hat
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="schon" tagcode="1606399514895">
+     shön
+    </orth_error_id12>
+    ein
+   </div>
+   <div>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Haus-Zahnarzt" tagcode="1606399549261">
+     Haus-Zahnarst
+    </orth_error_id12>
+    .
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1611846103368">
+   <div>
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1540514240739">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1540514248834" tran_word_deletion_target="_#_">
+      *
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+    Ich muss
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1540514284624" tran_foreign_word_language="Italian">
+     <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1540514312350" tran_alternative_1="OPURAZIONI" tran_alternative_2="OTURAZIONI">
+      <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611846082326" tran_capitalisation_target="operazioni" tran_capitalisation_type="01 completely capitalised">
+       OPERAZIONI
+      </tran_capitalisation_id85>
+     </tran_ambiguous_id3>
+    </tran_foreign_word_id13>
+    gemacht,
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1540514290171" tran_foreign_word_language="Italian">
+     <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611846091416" tran_capitalisation_target="apparecchi" tran_capitalisation_type="01 completely capitalised">
+      APPARECCHI
+     </tran_capitalisation_id85>
+    </tran_foreign_word_id13>
+    , ...
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1611846103369">
+   <div>
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1540514245219">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1540514252538" tran_word_deletion_target="_#_">
+      *
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+    Ich muss
+    <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611846103363" tran_capitalisation_target="Medizin" tran_capitalisation_type="01 completely capitalised">
+     MEDIZIN
+    </tran_capitalisation_id85>
+    lernen
+   </div>
+  </paragraph>
+ </page>
+</body>

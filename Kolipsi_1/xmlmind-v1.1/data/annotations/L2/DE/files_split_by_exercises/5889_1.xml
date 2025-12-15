@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5889</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><comment>es wurde versucht auch die äußere Form und die Bestandteile einer E-Mail einzuhalten –E-Mail-Adresse und Betreff</comment>Blutpronzia@Salom.<palimpsest>de</palimpsest> Objekt: Maria Tage <par/><greeting>Hallo <entity>Blutpronzia</entity> </greeting>Ich werde ihr schreiben, was gestern <sic>gepant</sic> ist. Meine Freundin <entity>Mari<overwrite>
+          <over>a</over>
+
+          <under>e</under>
+        </overwrite></entity>, die mit bl<overwrite>
+        <over>o</over>
+
+        <under>e</under>
+      </overwrite>nde Ha<overwrite>
+        <over>a</over>
+
+        <under>r</under>
+      </overwrite>re, war gestern in einem Obst- und Gemüseladen. Sie kaufte. Sie kaufte Tomaten, Kartoffeln und Apfel ein. <error>
+        <errorType/>
+
+        <originalForm>als</originalForm>
+
+        <targetForm>Als</targetForm>
+      </error> sie <error>
+        <errorType/>
+
+        <originalForm>bezahltete</originalForm>
+
+        <targetForm>bezahlte</targetForm>
+      </error>, vergaß sie <palimpsest>ihre</palimpsest> Zettel. Später ging <error>
+        <errorType/>
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> in den <foreign_word foreign_language="Italiano">Supermarket</foreign_word>, um andere Artikeln zu kaufen. Zum Beispiel, kaufte sie ein <error>
+        <errorType/>
+
+        <originalForm>liter</originalForm>
+
+        <targetForm>Liter</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>Essik</originalForm>
+
+        <targetForm>Essig</targetForm>
+      </error> und andere Produkte für das Haus. An d<overwrite>
+        <over>er</over>
+
+        <under>ie</under>
+      </overwrite> Kasse, <palimpsest>unreadable</palimpsest> <correction>
+        <deletion><unreadable/></deletion>
+      </correction> <palimpsest>bezahlte sie</palimpsest> die neue Produkte <palimpsest>unreadable</palimpsest>, aber die <error>
+        <errorType/>
+
+        <originalForm>Verkauferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> sah das Obst und die Gemüse, die <entity>Maria</entity> in d<palimpsest>em Rucksack</palimpsest>, <sic>tragte</sic>, und wollte das Geld von ihnen. Meine Freundin, sagte ihr, <sic>dan</sic> diese <sic>Wäre</sic> in einem Obst- und Gemüseladen eingekauft hatte, aber die <error>
+        <errorType/>
+
+        <originalForm>Verkauferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>laubte</originalForm>
+
+        <targetForm>glaubte</targetForm>
+      </error> <gap>_</gap> ihr nicht. Zu Ende, musste <entity>Maria</entity>, <palimpsest>für die</palimpsest> zweite Mal, das Obst und die Gemü<strikeover>
+        <expansion>e</expansion>
+
+        <expansion>s</expansion>
+      </strikeover> bezahlen.</exercise>
+
+    
+  </body>
+</kolipsi_document>

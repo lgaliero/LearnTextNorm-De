@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5031</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><par/><greeting>Liebe <entity>Francesca</entity>,</greeting> <par/>wie geht es dir? Mir geht es <error>
+        <errorType/>
+
+        <originalForm>zimmlich</originalForm>
+
+        <targetForm>ziemlich</targetForm>
+      </error> gut... Ich schr<correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>e</insertion>
+      </correction>ibe dich weil ich bin <error>
+        <errorType/>
+
+        <originalForm>nich</originalForm>
+
+        <targetForm>nicht</targetForm>
+      </error> sicher, ob wir in die Berge oder ans Meer fahren soll<palimpsest>ten.</palimpsest> So will ich dass du sagst mir wohin <palimpsest>du fahren willst</palimpsest> <par/>Die erste Möglichkeit is eine U<palimpsest>rl</palimpsest>aub in die Berge, es ist <error>
+        <errorType/>
+
+        <originalForm>warscheinlich</originalForm>
+
+        <targetForm>wahrscheinlich</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>schon</originalForm>
+
+        <targetForm>schön</targetForm>
+      </error>, das Wetter ist ein <error>
+        <errorType/>
+
+        <originalForm>bischen</originalForm>
+
+        <targetForm>bisschen</targetForm>
+      </error> kalt aber wir <error>
+        <errorType/>
+
+        <originalForm>konn<palimpsest>e</palimpsest>n</originalForm>
+
+        <targetForm>können</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>ski</originalForm>
+
+        <targetForm>Ski</targetForm>
+      </error> fahren. <par/>Diese Urlaub kostet 600 <error>
+        <errorType/>
+
+        <originalForm>euro</originalForm>
+
+        <targetForm>Euro</targetForm>
+      </error> für 2 Wochen aber das Hotel hat auch eine <error>
+        <errorType/>
+
+        <originalForm>Schwummbad</originalForm>
+
+        <targetForm>Schwimmbad</targetForm>
+      </error>, <palimpsest>und</palimpsest> das <error>
+        <errorType/>
+
+        <originalForm>Resteurant</originalForm>
+
+        <targetForm>Restaurant</targetForm>
+      </error>, es ist <error>
+        <errorType/>
+
+        <originalForm>all inclusive</originalForm>
+
+        <targetForm>all-inclusive</targetForm>
+      </error> Die zweite Möglichkeit ist eine <error>
+        <errorType/>
+
+        <originalForm>Uraub</originalForm>
+
+        <targetForm>Urlaub</targetForm>
+      </error> ans Meer, es ist sehr schön, das Sand ist klein, und das Wetter ist sehr <error>
+        <errorType/>
+
+        <originalForm><palimpsest>heis</palimpsest></originalForm>
+
+        <targetForm>heiß</targetForm>
+      </error>.<par/>Dieses Urlaub kostet 1000 <error>
+        <errorType/>
+
+        <originalForm>euro</originalForm>
+
+        <targetForm>Euro</targetForm>
+      </error> immer für 2 Wochen aber für dieses Urlaub brauchen wir das Flugzeug. Das Esse müssen wir extra zahlen, und dieses Hotel hat nicht eine <error>
+        <errorType/>
+
+        <originalForm>Schwummbad</originalForm>
+
+        <targetForm>Schwimmbad</targetForm>
+      </error> aber das Meer ist <error>
+        <errorType/>
+
+        <originalForm>das <palimpsest>selbe</palimpsest></originalForm>
+
+        <targetForm>dasselbe</targetForm>
+      </error><palimpsest>.</palimpsest> <par/>Ich <error>
+        <errorType/>
+
+        <originalForm>weise</originalForm>
+
+        <targetForm>weiße</targetForm>
+      </error> nicht was das besten ist, ich warte deine <error>
+        <errorType/>
+
+        <originalForm>antworte</originalForm>
+
+        <targetForm>Antworte</targetForm>
+      </error>, für mich ist egal, mir gefalle beide! <par/> <closing>Bis bald! <par/><error>
+          <errorType/>
+
+          <originalForm>viele grüße</originalForm>
+
+          <targetForm>Viele Grüße</targetForm>
+        </error>, <par/><error>
+          <errorType/>
+
+          <originalForm>küßen</originalForm>
+
+          <targetForm>Küssen</targetForm>
+        </error> <entity>Roberta</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

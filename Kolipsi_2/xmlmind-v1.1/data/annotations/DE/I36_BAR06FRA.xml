@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I36_BAR06FRA</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo Brigitte!</greeting><par />Ich habe heute dir etwas zu erzählen: <error>
+        <errorType />
+
+        <originalForm>letzte</originalForm>
+
+        <targetForm>Letzte</targetForm>
+      </error> Woche war meine Freundin <error>
+        <errorType />
+
+        <originalForm>maria</originalForm>
+
+        <targetForm>Maria</targetForm>
+      </error> einkaufen. Sie <correction>
+        <deletion>ist zu erst in ein</deletion>
+      </correction> hat zuerst Gemüse und Obst eingekauft, aber danach <correction>
+        <deletion>w</deletion>
+      </correction> ist sie im Supermarkt gegangen und sie hatte Obst und Gemüse in ihre Tasche gelegt.<par />Sie hat ein paar Sachen eingekauft, aber wenn an der Kasse gekommen ist, <correction>
+        <deletion>die m<unreadable /></deletion>
+      </correction> könnte man die Sachen die sie vorher gekauft hatte in d<correction>
+        <deletion>i</deletion>
+      </correction>er Tasche sehen, deswegen dachte die <error>
+        <errorType />
+
+        <originalForm>Kassefreulein</originalForm>
+
+        <targetForm>Kassefräulein</targetForm>
+      </error> dass sie Obst und Gemüse gestohlen hatte.<par />Danach fragte die <error>
+        <errorType />
+
+        <originalForm>Kassefreulein</originalForm>
+
+        <targetForm>Kassefräulein</targetForm>
+      </error> ob sie ihre Tasche sehen konnte, und Maria zeigte ihr dass Obst und <correction>
+        <deletion>g</deletion>
+
+        <insertion>G</insertion>
+      </correction>emüse <correction>
+        <deletion>in</deletion>
+      </correction> in ein anderer Supermarkt gekauft hatte.<par />Sie hat ein <correction>
+        <deletion>p</deletion>
+      </correction> bisschen gestritten, aber danach ist Maria wieder nach <error>
+        <errorType />
+
+        <originalForm>hause</originalForm>
+
+        <targetForm>Hause</targetForm>
+      </error> gekommen.<par />Ist das nicht lustig?<par /><closing><error>
+          <errorType />
+
+          <originalForm>ein</originalForm>
+
+          <targetForm>Ein</targetForm>
+        </error> Kuss,</closing> deine Francesca</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo Paul,</greeting><par />ich <correction>
+        <deletion><unreadable /></deletion>
+      </correction>habe dein Brief gelesen und ich denke ich könnte dir <error>
+        <errorType />
+
+        <originalForm>Helfen</originalForm>
+
+        <targetForm>helfen</targetForm>
+      </error> um eine Antwort aller Personen die dir schreiben zu geben.<par />Mir passiert auch oft dass ich zu viel Zeit mit meinen Freunden chatte, aber ich kenne sie alle nicht wie du!<par />Ich denke das ist <error>
+        <errorType />
+
+        <originalForm>schon</originalForm>
+
+        <targetForm>schön</targetForm>
+      </error> neue Freunde kennen zu lernen, aber nur wenn es nicht von dein reales Leben nicht <error>
+        <errorType />
+
+        <originalForm>wegreist</originalForm>
+
+        <targetForm>wegreißt</targetForm>
+      </error>! Also, ich habe gedacht <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> du könntest ihnen in zwei Wege antworten: entweder du ihnen sagst <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> du eine realistische Freundschaft haben willst, <correction>
+        <deletion><unreadable /></deletion>
+      </correction> und <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> du nicht nur mit den Social <error>
+        <errorType />
+
+        <originalForm>networks</originalForm>
+
+        <targetForm>Networks</targetForm>
+      </error> mit ihnen sprechen willst weil sonst bleibst du immer zu Hause, oder du <correction>
+        <deletion>git</deletion>
+      </correction> gibst ihnen keine Antwort und gehst von Social <error>
+        <errorType />
+
+        <originalForm>networks</originalForm>
+
+        <targetForm>Networks</targetForm>
+      </error> einfach weg!<par /><correction>
+        <deletion>Ich</deletion>
+      </correction> Meiner Meinung nach ist <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> virtuelle Freundschaften sehr gefährlich sind, weil die Person, die du kennen lernst, könnte eine andere sein, und sie könnte dir viele Lügen sagen. Ich <correction>
+        <deletion>H</deletion>
+
+        <insertion>h</insertion>
+      </correction>offe <correction>
+        <deletion>m</deletion>
+      </correction> du <correction>
+        <deletion>w<unreadable />rdst</deletion>
+      </correction> deine <correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>Prob</insertion>
+      </correction>lems lösen kann.<par /><closing>Viele Grüße,</closing> Franco</exercise>
+  </body>
+</kolipsi_II_document>

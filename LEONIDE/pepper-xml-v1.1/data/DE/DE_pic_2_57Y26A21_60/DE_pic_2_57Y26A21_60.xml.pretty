@@ -1,0 +1,89 @@
+<body>
+ <page page_number="1" transcanno_page_id="1088">
+  <paragraph class="medium-paragraph" tagcode="1589358982110">
+   <div>
+    Anna und Lisa
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1552831219435" tran_correction_original="spiele*n">
+     spielen
+    </tran_word_correction_id25>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1552831188522" tran_correction_original="in*">
+     in
+    </tran_word_correction_id25>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1552831184583">
+     eine
+    </tran_word_insertion_id9>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Wald" tagcode="1552831196352">
+     Wallt
+    </orth_error_id12>
+    , und
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1552831232301">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552831240056" tran_word_deletion_target="_#_">
+      * *
+     </tran_word_deletion_id8>
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552831242225" tran_word_deletion_target="_#_">
+      <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1552831244445">
+       *
+      </tran_word_insertion_id9>
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+   </div>
+   <div>
+    hören eine
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1552830520621">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552830522988" tran_word_deletion_target="_#_">
+      *
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Geräusch" tagcode="1552830518187">
+     geroisch
+    </orth_error_id12>
+    .
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1556652225003">
+     *
+    </tran_unreadable_id17>
+    Und
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1552831153674">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552831155751" tran_word_deletion_target="_#_">
+      *
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+    Anna ist
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1552831149022" tran_correction_original="töte*">
+     töte
+    </tran_word_correction_id25>
+    ,
+   </div>
+   <div>
+    (
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Lisa" tagcode="1552830529944">
+     lisa
+    </orth_error_id12>
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1589358955822" tran_foreign_word_language="Italian">
+     si
+    </tran_foreign_word_id13>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="girò" tagcode="1552830386742">
+     <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1589358961269" tran_foreign_word_language="Italian">
+      giro
+     </tran_foreign_word_id13>
+    </orth_error_id12>
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1589358966161" tran_foreign_word_language="Italian">
+     e
+    </tran_foreign_word_id13>
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1589358971585" tran_foreign_word_language="Italian">
+     vide
+    </tran_foreign_word_id13>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1552830491893" tran_correction_original="anna">
+     <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1589358976781" tran_foreign_word_language="Italian">
+      Anna
+     </tran_foreign_word_id13>
+    </tran_word_correction_id25>
+    <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1552830392544" tran_alternative_1="morto" tran_alternative_2="morta">
+     <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1589358982109" tran_foreign_word_language="Italian">
+      morto
+     </tran_foreign_word_id13>
+    </tran_ambiguous_id3>
+    ).
+   </div>
+  </paragraph>
+ </page>
+</body>

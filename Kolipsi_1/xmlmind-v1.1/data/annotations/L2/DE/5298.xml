@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5298</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo<entity> Letizia</entity>!</greeting> <par /><correction>
+        <deletion>Wie</deletion>
+      </correction> Ich möchte dir eine Geschichte über <entity>Maria</entity> erzählen. <par /><correction>
+        <deletion>Gestern war sie</deletion>
+      </correction> Letzte Woche war sie zuerst in einem Obst– und Gemüseladen <correction>
+        <deletion>ein</deletion>
+      </correction> gegangen. Hier hätte sie zwei Bananen gekauft, aber leider hätte sie den <error>
+        <errorType />
+
+        <originalForm>Kasszettel</originalForm>
+
+        <targetForm>Kassenzettel</targetForm>
+      </error> in <overwrite>
+        <over>d</over>
+
+        <under>e</under>
+      </overwrite>em Geschäft <correction>
+        <deletion><unreadable /></deletion>
+      </correction> vergessen. Später <correction>
+        <deletion>ein ist sie in der <unreadable /> </deletion>
+      </correction> war sie <correction>
+        <deletion>im</deletion>
+      </correction> in <correction>
+        <deletion>der</deletion>
+
+        <insertion>den</insertion>
+      </correction> Supermarkt gegangen. Hier hätte sie etwas gekauft, <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Aber wenn sie zahlen <correction>
+        <deletion>gehabt</deletion>
+
+        <insertion>hätte</insertion>
+      </correction> die Käuferin sah dass <correction>
+        <deletion>sie</deletion>
+
+        <insertion><entity>Maria</entity></insertion>
+      </correction> zwei Bananen in ihrer Tasche hätte <correction>
+        <insertion>die sie nicht zahlen hätte</insertion>
+      </correction> und ärgerte sich. <correction>
+        <deletion>Sie fragt <entity>Maria</entity> ob sie</deletion>
+      </correction> <par /><entity>Maria</entity> erzählt der Verkäuferin dass sie diese zwei Bananen in <correction>
+        <deletion>ein</deletion>
+      </correction> einem anderen Geschäft gekauft hätte. <correction>
+        <deletion>Die Verkäuferin</deletion>
+      </correction> So die Käuferin fragte <entity>Maria</entity> <correction>
+        <deletion>ein</deletion>
+      </correction> den <error>
+        <errorType />
+
+        <originalForm>Kasszettel</originalForm>
+
+        <targetForm>Kassenzette</targetForm>
+      </error>. zu sehen. <entity>Maria</entity> suchte es in ihrer Tasche aber fand es nicht. <correction>
+        <deletion>Sie</deletion>
+      </correction> Sie erinnerte sich dann dass sie den <error>
+        <errorType />
+
+        <originalForm>Kasszettel</originalForm>
+
+        <targetForm>Kassenzettel</targetForm>
+      </error> von anderem Geschäft nicht <correction>
+        <deletion><unreadable /></deletion>
+      </correction> gebacht hätte, und die Käuferin entscheidet um die Polizei zu rufen.<closing>Viele Grüße <entity>Alessandra</entity> </closing></exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo <entity>Robert</entity>!</greeting> <par />Heute <correction>
+        <deletion>bin ich ein bisschen w</deletion>
+      </correction> weiß ich nicht was ich machen soll!! Ich mit meinen Freunden <sic>willen</sic> einen gemeinsamen Urlaub organisieren aber wir können nicht entscheiden zwischen Bergen und Meer. <par />Ich und andere zwei möchten an Meer fahren aber <correction>
+        <deletion>andere</deletion>
+      </correction> die andere drei <sic>willen</sic> ins Berg gehen. Ich finde dass das Meer besser ist weil hier <correction>
+        <deletion>ka</deletion>
+      </correction> warm ist und wir können <correction>
+        <deletion>schla</deletion>
+      </correction> auch <correction>
+        <deletion>u</deletion>
+      </correction> unter der Sonne <correction>
+        <deletion>scha</deletion>
+      </correction> schlafen. Die anderen <correction>
+        <deletion>willen</deletion>
+      </correction> möchten ins Berg fahren weil so sie <error>
+        <errorType />
+
+        <originalForm>Ski-fahren</originalForm>
+
+        <targetForm>Ski fahren</targetForm>
+      </error> könnten. Ich glaube dass ob wir im Winter sind wir können am Meer fahren weil so kann ich für eine Woche die <unreadable /> zu Hause lassen <correction>
+        <deletion>.</deletion>
+      </correction> und weil ich das Meer liebe. <par />Ich glaube aber dass am Ende wir ins Berg gehen weil die andere sehr lustig sind. Ich möchte am <correction>
+        <deletion>Ber</deletion>
+      </correction> <unreadable /> Meer fahren aber ich liebe auch die Bergen und für mich ist fast egal. <par />Ich möchte dir das sagen und ich warte an deine Antwort. <par /> <closing>Liebe <entity>Alessandra</entity>.</closing></exercise>
+  </body>
+</kolipsi_document>

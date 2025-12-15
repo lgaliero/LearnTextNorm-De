@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0024</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Chantal</entity></greeting>,<par/><correction>
+        <deletion>mir</deletion>
+      </correction> <correction>
+        <insertion><entity>Maria</entity></insertion>
+      </correction> ist gestern etwas ganz <error>
+        <errorType/>
+
+        <originalForm>peinliches </originalForm>
+
+        <targetForm>Peinliches</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>passirt</originalForm>
+
+        <targetForm>passiert</targetForm>
+      </error>. Ich war mit ihr zusammen bei einem Obsthändler, dort haben wir <correction>
+        <deletion>zusamm</deletion>
+      </correction> Obst und Gemüse gekauft um am Abend zu<hyphen>-</hyphen>sammen zu kochen. <entity>Maria</entity> hat aber allerdings die Rechnung im Obstgeschäft vergessen. Das ist ja eigentlich nicht so schlimm, aber wir waren danach noch im Supermarkt, weil uns noch einiges gefehlt hat. <entity><error>
+          <errorType/>
+
+          <originalForm>Maria's</originalForm>
+
+          <targetForm>Marias</targetForm>
+        </error></entity> Einkaufstasche war natürlich total voll mit dem ganzen Obst und Gemüse.<par/>Wir haben nicht daran gedacht, dass es im Super<hyphen>-</hyphen>markt auch Obst und Gemüse gibt. Also sind wir nichts ahnend in den Supermarkt gegangen und haben <sic>unseren</sic> restlichen Lebensmittel eingekauft.<par/>Als wir schließlich an der Kasse waren, nach langem <error>
+        <errorType/>
+
+        <originalForm>diskutieren</originalForm>
+
+        <targetForm>Diskutieren</targetForm>
+      </error> welche Lebensmittel wir in den Einkaufs<hyphen>-</hyphen>wagen packen, wurde uns vorgeworfen, dass wir geklaut hätten. Wir konnten nicht vorweisen, dass wir das Gemüse und das Obst <error>
+        <errorType/>
+
+        <originalForm>vorhergekauft</originalForm>
+
+        <targetForm>vorher gekauft</targetForm>
+      </error> hatten, da <entity>Maria</entity> d<overwrite>
+        <under>e</under>
+
+        <over>i</over>
+      </overwrite>e Rechnung vergessen hatte. Dann m<overwrite>
+        <under>ü</under>
+
+        <over>u</over>
+      </overwrite>ssten wir <sic>ein ein</sic> Büro, wo die Polizei gerufen wurde, da uns keiner geglaubt hatte. Dann sind wir mit der Polizei zu <sic>den</sic> Obstgeschäft gefahren und Gott sei dank, konnte sich die <overwrite>
+        <under>v</under>
+
+        <over>V</over>
+      </overwrite>erkäuferin an uns erinnern und die vergessene Rechnung vorlegen. So <correction>
+        <deletion>hat</deletion>
+      </correction> <correction>
+        <insertion>ist</insertion>
+      </correction> der Abend trotzdem noch gut geworden.<par/><closing>Viele Grüße<par/><correction>
+          <deletion>Jacke</deletion>
+        </correction><par/><entity>Jaqueline</entity> <symbol>Herz</symbol></closing>        </exercise>
+
+    
+  </body>
+</kolipsi_document>

@@ -1,0 +1,42 @@
+<body>
+ <page page_number="1" transcanno_page_id="1081">
+  <paragraph class="medium-paragraph" tagcode="1552818121622">
+   <div>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1552818008639" tran_correction_original="D*e">
+     Die
+    </tran_word_correction_id25>
+    Mädchen , in der Wald hören viele
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Lärme" tagcode="1552818034167">
+     lärme
+    </orth_error_id12>
+    und die
+   </div>
+   <div>
+    Mädchen sind schrecken und
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="dann" tagcode="1552818070232">
+     dan
+    </orth_error_id12>
+    finden ein Braunbär
+   </div>
+   <div>
+    und der Braunbär
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1552818107204">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552818109500" tran_word_deletion_target="_#_">
+      *
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1552818103975">
+     töten
+    </tran_word_insertion_id9>
+    die
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1552818121621" tran_correction_original="Mäd*hen">
+     Mädchen
+    </tran_word_correction_id25>
+    . Dann der
+   </div>
+   <div>
+    Polizei finde der Bär und töt sie.
+   </div>
+  </paragraph>
+ </page>
+</body>

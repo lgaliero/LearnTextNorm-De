@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0226</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Charlotte</entity></greeting>,<par/>ich habe mich mal schlau gemacht, <correction>
+        <deletion>wo</deletion>
+      </correction> <correction>
+        <insertion>wohin</insertion>
+      </correction> wir in den Urlaub <correction>
+        <deletion>hin</deletion>
+      </correction>fahren könnten. Entweder in die Berge, oder ans Meer. Beides hat Vor- und Nachteile. An beiden Orten kann man sich erholen, in den Bergen gibt es Seen, wo wir schwimmen gehen könnten, und am Meer das Meer <emoticon>=)</emoticon><par/>In den Bergen könnten wir Sport machen: Wandern gehen, Fahrrad fahren, Fallschirm springen, <error>
+        <errorType/>
+
+        <originalForm><overwrite>
+            <under><unreadable/></under>
+
+            <over>Sk</over>
+          </overwrite>ifahren</originalForm>
+
+        <targetForm>Ski fahren</targetForm>
+      </error> (Gletscher), ... Am Meer könnten wir uns ausruhen, am Strand liegen, uns sonnen. Zwischendurch könnten wir uns im Wasser abkühlen. Ich weiß nicht, wofür ich mich entscheiden <correction>
+        <deletion>will</deletion>
+      </correction> soll. Ich würde beides schön finden. Nur in <correction>
+        <deletion>dem</deletion>
+      </correction> den Bergen ist es nicht so schön warm, wie am Meer. Ich glaube das ist der Punkt, der es entscheiden würde.<par/>Ich möchte lieber <correction>
+        <deletion>ins</deletion>
+      </correction> in wärmere Gebiete fahren. Also meine Entscheidung fällt auf den Urlaub am Meer. Ich hoffe du bist auch meiner Meinung.<par/>Also sag mir einfach Bescheid, wie du dich entscheide<overwrite>
+        <under><unreadable/></under>
+
+        <over>s</over>
+      </overwrite>t. <correction>
+        <deletion>Würd</deletion>
+      </correction> <closing>Danke,<par/>ich hab dich lieb <symbol>Herz</symbol> Kuss<par/>Deine <entity>J</entity></closing>          </exercise>
+  </body>
+</kolipsi_document>

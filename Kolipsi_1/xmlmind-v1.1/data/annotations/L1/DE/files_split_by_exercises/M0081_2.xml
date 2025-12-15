@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0081</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Hallo <entity>Lisa</entity></greeting>,<par/>wie geht es dir? Mir geht es gut. Auch in der Schule läuft es einigermaßen.<par/>Weißt du noch, als wir uns das letzte <overwrite>
+        <under>m</under>
+
+        <over>M</over>
+      </overwrite>al getroffen haben, haben wir doch über einen gemeinsamen Urlaub gesprochen! Mich würde es sehr freuen wenn das klappen würde. Ich habe sogar schon zwei Urlaubsziele herausgesucht. Einmal einen Wandertrip durch die <error>
+        <errorType/>
+
+        <originalForm>schweizer</originalForm>
+
+        <targetForm>Schweizer</targetForm>
+      </error><entity> Alpen</entity> oder als anderes Ziel ein Traumurlaub <correction>
+        <deletion>an</deletion>
+      </correction> in <entity>Cancun</entity>, in der <entity>Karibik</entity>. - Mir gefällt beides sehr gut, auch wenn es zwei <correction>
+        <deletion>f<unreadable/></deletion>
+      </correction> völlig unterschiedliche Reiseziele sind.<par/>Die <entity>Alpen</entity> sind z.B. nicht so weit weg von uns und man müsste nicht gezwungenermaßen <error>
+        <errorType/>
+
+        <originalForm>dort hin</originalForm>
+
+        <targetForm>dorthin</targetForm>
+      </error> fliegen, sondern könnte auch mit dem Zug fahren.<par/>Angenehmer wäre es natürlich, sich in ein Flugzeug zu setzen. - Aber natürlich würde das auch länger dauern und wäre um einiges teurer.<par/>Dafür wäre man aber schließlich an den Traumstränden von <entity>Mittelamerika</entity>. - Weißer Sandstrand, das warme Meer, Palmen und Pflanzen und eine faszinierende Tierwelt. Dagegen haben die Alpen natürlich auch ihre Vorzüge. Frische Luft, saftige grüne Wiesen und natürlich die Ruhe und Einsamkeit der Berge. - Perfekt zum Wandern, aber auch zum Entspannen und Picknicken.<par/>Allerdings weiß ich nicht ob du schon mal wandern warst. - Ich schon und es kann auch sehr anstrengend sein. Beson<hyphen>-</hyphen>ders, wenn man sich verläuft.<par/>Dagegen bieten die Strände und das Mee<over>r</over> <correction>
+        <deletion>da<unreadable/></deletion>
+      </correction> Dauer<hyphen>-</hyphen>entspannung und super Wetter pur. - In den Alpen könn<hyphen>-</hyphen>te es auch mal unerwartet regnen.<par/>Insgesamt betrachtet bieten die <entity>Alpen</entity> also Spaß und Enstpannung, aber nicht unbedingt immer gutes Wetter. - Die <entity>Karibik</entity> hingegen glänzt mit Sonne und Meer und <correction>
+        <deletion><unreadable/> ebenfall</deletion>
+      </correction> ebenfalls Entspannung, aber ist auch teurer.<par/>Ich glaube allerdings, dass die Reise in die Karibik die hohen Kosten wert sein wird, denn das erlebt man schließlich nicht so oft im Leben.<par/>Ich hoffe du bist auch meiner Meinung, aber ich richte mich <correction>
+        <deletion><unreadable/></deletion>
+      </correction> bei der Entscheidung <correction>
+        <deletion>f</deletion>
+      </correction> vollstens nach dir.<par/><closing>Viele Grüße und eine <correction>
+          <deletion>S</deletion>
+        </correction> schöne Woche noch,<par/>dein <entity>Fridolin</entity>.    </closing>           </exercise>
+  </body>
+</kolipsi_document>

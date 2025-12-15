@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5488</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Sara</entity>,</greeting> <par/>wir sollen unseren Urlaub planen, es gibt nicht mehr Zeit! Wir sollen zwischen die Berge und das Meer wählen. <par/><correction>
+        <deletion>Ich denke, dass vielleicht ans dass Meer besser ist, weil kalter als</deletion>
+      </correction> Für mich ist besser ans Meer fahren, aber auch in die Berge ist nicht so schlecht. Ans Meer <error>
+        <errorType/>
+
+        <originalForm>k<overwrite>
+            <over>o</over>
+
+            <under>ö</under>
+          </overwrite>nnen</originalForm>
+
+        <targetForm>können</targetForm>
+      </error> wir unter den Sonne liegen, schwimmen oder zum Beispiel <foreign_word foreign_language="Italiano"><error>
+          <errorType/>
+
+          <originalForm>Beachvolley</originalForm>
+
+          <targetForm>Beach volley</targetForm>
+        </error></foreign_word> spielen. In die Berge <error>
+        <errorType/>
+
+        <originalForm>konnen</originalForm>
+
+        <targetForm>können</targetForm>
+      </error> wir klettern oder die Pilzen <correction>
+        <deletion><unreadable/></deletion>
+      </correction> aufnehmen. <unreadable/> In die Berge kann man viele Tiere sehen, wie Kuh oder die Schafe, ans Meer man sieht viele Fische. <par/>Was denkst du? Ist besser ans Meer oder in die Berge fahren? <par/>Ich warte deine Antwort. <par/><closing>Küsse, <entity>Pamela</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

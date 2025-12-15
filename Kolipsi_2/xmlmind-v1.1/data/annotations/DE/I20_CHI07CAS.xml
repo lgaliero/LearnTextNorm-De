@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I20_CHI07CAS</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo <correction>
+          <deletion>Ik<unreadable />adija</deletion>
+        </correction> Ikhadija<correction>
+          <deletion>,</deletion>
+
+          <insertion>!</insertion>
+        </correction></greeting><par />Ich habe heute mit Maria ein <error>
+        <errorType />
+
+        <originalForm>Café</originalForm>
+
+        <targetForm>Kaffee</targetForm>
+      </error> getrunken. Sie hat zu mir eine Geschichte erzählen. <correction>
+        <deletion>Gestern hat sie</deletion>
+      </correction> Letzte Woche war sie in ein Gemüseladen. Sie <correction>
+        <deletion>hatte</deletion>
+
+        <insertion>hat</insertion>
+      </correction> Obst, Gemüse und anderen Sachen gekauft. Dann <correction>
+        <deletion>war sie</deletion>
+      </correction> ist sie in <correction>
+        <deletion>eine</deletion>
+      </correction> ein Supermarkt gegangen. Sie hat Fleisch, Fisch, <error>
+        <errorType />
+
+        <originalForm>Getranke</originalForm>
+
+        <targetForm>Getränke</targetForm>
+      </error> und etwas andares gekauft. An der Kasse fangt die Problemen an. Die Kassiererin dachte, dass Maria <correction>
+        <deletion>nicht</deletion>
+      </correction> die Gemüse (von die erste Laden) <correction>
+        <insertion>nicht</insertion>
+      </correction> bezahlt hat. <correction>
+        <deletion>Maria musste Maria musste die</deletion>
+      </correction> Maria hatte die Zettelkasse mit. <correction>
+        <insertion>Gott sei <error>
+            <errorType />
+
+            <originalForm>dank</originalForm>
+
+            <targetForm>Dank</targetForm>
+          </error>.</insertion>
+      </correction> HAHAHA! <correction>
+        <deletion>Die Mar</deletion>
+      </correction> Es war besser, dass Maria die Gemüse in das Auto <correction>
+        <deletion>lassen hatte.</deletion>
+      </correction> lasste.<par />Jetzt muss ich gehen.<par />Sehen wir <correction>
+        <deletion><unreadable />echt <unreadable /></deletion>
+      </correction> morgen.<par /><closing>Tschüss</closing></exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo Paul<correction>
+          <deletion>,</deletion>
+
+          <insertion>!</insertion>
+        </correction></greeting><par />Ich habe deine Brief über der Zeitung "Junge Woche" gelesen. Es ist nicht <correction>
+        <deletion>die</deletion>
+      </correction> das erste Mal, dass ich eine Geschichte über die virtuelle Freundschaften gehört hat. Ich glaube, dass wirklicher Freundschaften immer besser sind. Die Freund<hyphen>-</hyphen>schaften im Internet sind unsicher. Du kennst nicht diese Leute, du weißt nicht <correction>
+        <deletion><unreadable /></deletion>
+      </correction> wie sie wirklich sind. Du kannst nur chatten. Ich glaube auch, dass du di<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>e</insertion>
+      </correction> richtige Entscheidung gemacht hat. Jetzt kannst du neue interessante Freundschaften machen! Mit wirkliche<correction>
+        <deletion><unreadable /></deletion>
+      </correction> Personen. Du musst nicht mehr immer mit dem <error>
+        <errorType />
+
+        <originalForm>Hendi</originalForm>
+
+        <targetForm>Handy</targetForm>
+      </error> sprechen.<par />Sagt es auch zu deine <correction>
+        <deletion>wi</deletion>
+      </correction> virtuelle Freunden.<par />Ob sie wirkliche Freunden sind, <correction>
+        <deletion>du sie ve</deletion>
+      </correction> können sie verstehen.<par /><correction>
+        <deletion>Tschüss.</deletion>
+      </correction> Alles <error>
+        <errorType />
+
+        <originalForm>gut</originalForm>
+
+        <targetForm>Gut</targetForm>
+      </error> für deine neuen Freundschaften.<par /><closing>Auf Wiedersehen</closing><par /><correction>
+        <deletion>Cl<unreadable /></deletion>
+      </correction> Stefania.</exercise>
+  </body>
+</kolipsi_II_document>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5877</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Angelika</entity>,</greeting><par/>wie geht es dir? Ich hoffe gut! <palimpsest>Hier</palimpsest> ist es alles in <error>
+        <errorType/>
+
+        <originalForm>Ohrdnung</originalForm>
+
+        <targetForm>Ordnung</targetForm>
+      </error>, auch wenn das Wetter nicht so schön ist. <par/>Erinnerst du dich <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> diesen Sommer müssen wir gemeinsam einen Urlaub machen? Ich <palimpsest><unreadable/></palimpsest> möchte gern ans <gap>_</gap> Meer fahren, <overwrite>
+        <over>a</over>
+
+        <under>u</under>
+      </overwrite>ber <palimpsest> <error>
+          <errorType/>
+
+          <originalForm><overwrite>
+              <over>v</over>
+
+              <under>w</under>
+            </overwrite>illeicht</originalForm>
+
+          <targetForm>vielleicht</targetForm>
+        </error> liebst du am besser den Berg.</palimpsest> <par/>Ich habe mich darüber interessiert. Wenn wir ans <par/>Meer fa<correction>
+        <insertion>h</insertion>
+      </correction>ren möchten konnten wir <palimpsest>unter</palimpsest> zwei Orten <par/>wählen:<palimpsest> Sardinien (wenn wir <correction>
+          <deletion><unreadable/></deletion>
+        </correction> hier in Italien bleiben</palimpsest> <par/>möchten) entweder Gr<overwrite>
+        <over>i</over>
+
+        <under>e</under>
+      </overwrite>echenland. Wenn wir <par/>auf den Berg fahren mochten, denke ich dass die <palimpsest>Dolomiten</palimpsest> schön <palimpsest>und in der Nähe sind.</palimpsest> <par/>Wie du <error>
+        <errorType/>
+
+        <originalForm>villeicht</originalForm>
+
+        <targetForm>vielleicht</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>weisst</originalForm>
+
+        <targetForm>weißt</targetForm>
+      </error> ist <error>
+        <errorType/>
+
+        <originalForm>Grichenland</originalForm>
+
+        <targetForm>Griechenland</targetForm>
+      </error> sehr <par/>schön, <palimpsest>deswegen</palimpsest> möchte ich nicht nach Sardinien <par/>fahren (obwohl es auch sehr schön ist,<palimpsest> bin ich dort</palimpsest> <par/> <palimpsest>schon gewesen).</palimpsest> Wenn wir nach Griechenland fahren <par/>möchten müssen wir eine lange Reise machen <palimpsest>im <correction>
+          <insertion><error>
+              <errorType/>
+
+              <originalForm>gegensatz</originalForm>
+
+              <targetForm>Gegensatz</targetForm>
+            </error></insertion>
+        </correction> sind</palimpsest> die <palimpsest>Dolomiten</palimpsest> <overwrite>
+        <under>r</under>
+
+        <over>(</over>
+      </overwrite> <palimpsest>wie</palimpsest> ich schon gesagt habe) <palimpsest><unreadable/></palimpsest> in der Nähe. Griechenland ist auch zu teuer und das Meer dort ist wunderschön. Auch die Dolomiten sind nicht so teuer und auch die <palimpsest>Orten</palimpsest> die dort man findet <error>
+        <errorType/>
+
+        <originalForm>sin</originalForm>
+
+        <targetForm>sind</targetForm>
+      </error> ganz lieb. <par/>Ich denke dass, beide Lösungen <overwrite>
+        <over>g</over>
+
+        <under>u</under>
+      </overwrite>ut sind. <par/>Jetzt musst du nur entscheiden! <par/><closing><par/>Bis bald!<par/> <par/><par/>Deine <entity>Alessia</entity> </closing></exercise>
+  </body>
+</kolipsi_document>

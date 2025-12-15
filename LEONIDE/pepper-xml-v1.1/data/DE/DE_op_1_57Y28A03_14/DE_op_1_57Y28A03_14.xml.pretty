@@ -1,0 +1,60 @@
+<body>
+ <page page_number="1" transcanno_page_id="223">
+  <paragraph class="medium-paragraph" tagcode="1540846456649">
+   <div>
+    1 Ich nach der Mittelschule die Notar machen!
+   </div>
+   <div>
+    2 Mein Traumberuf ein wichtigen Person,
+   </div>
+   <div>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="will" tagcode="1540846393139">
+     wil
+    </orth_error_id12>
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1540846398656" tran_foreign_word_language="English">
+     help
+    </tran_foreign_word_id13>
+    die Person.
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1540846456650">
+   <div>
+    3 Ich
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1540846406440" tran_correction_original="musst">
+     muss
+    </tran_word_correction_id25>
+    die Mathematik, Italienisch,
+   </div>
+   <div>
+    Deutsch, Englisch und
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1540846420865" tran_foreign_word_language="English">
+     History
+    </tran_foreign_word_id13>
+    lernen.
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1540846456651">
+   <div>
+    4 Ich lerne,
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="weil" tagcode="1540846427568">
+     wiel
+    </orth_error_id12>
+    ist
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="wichtig" tagcode="1540846440978">
+     wichting
+    </orth_error_id12>
+    und
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="viele" tagcode="1540846446077">
+     vile
+    </orth_error_id12>
+    sacht
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1540846456648">
+     do
+    </tran_word_insertion_id9>
+   </div>
+   <div>
+    lernen.
+   </div>
+  </paragraph>
+ </page>
+</body>

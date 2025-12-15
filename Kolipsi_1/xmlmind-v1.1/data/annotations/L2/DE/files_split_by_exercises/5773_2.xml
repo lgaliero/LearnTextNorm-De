@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5773</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><par/><greeting>Hallo <entity>Marika</entity>!</greeting> <par/>Wie gehts? <par/>Mir geht es alles gut! <par/>Ich will mit dir über unsere Urlaub sprechen. <par/>Wir haben zwei Möglichkeiten: <correction>
+        <deletion><unreadable/></deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>wir</originalForm>
+
+        <targetForm>Wir</targetForm>
+      </error> können in die Berge oder ans Meer fahren. Ob wir gehen in die Berge, wir können <error>
+        <errorType/>
+
+        <originalForm>skifahren</originalForm>
+
+        <targetForm>Ski fahren</targetForm>
+      </error>, ode<overwrite>
+        <under><unreadable/></under>
+
+        <over>r</over>
+      </overwrite> lange <overwrite>
+        <under>w</under>
+
+        <over>W</over>
+      </overwrite>anderungen machen. <par/>Aber, ob wir ans Meer fahren, wir können schwimmen und die Sonne nehmen. Ich denke, dass es ist besser ob wir ans Meer fahren, weil wir neben die Bergen wohnen <overwrite>
+        <under>,</under>
+
+        <over>.</over>
+      </overwrite> <par/><correction>
+        <deletion><unreadable/></deletion>
+      </correction> <par/><correction>
+        <deletion><unreadable/></deletion>
+      </correction>, <par/>Ich habe auch verschiedene Pl<ambiguous>
+        <alternative>ä</alternative>
+
+        <alternative>ö</alternative>
+      </ambiguous>tze, wo wir gehen können. <correction>
+        <deletion><unreadable/></deletion>
+      </correction><par/>Jetzt du musst entscheiden, wo <correction>
+        <deletion><unreadable/></deletion>
+      </correction> willst du gehen. <par/><correction>
+        <deletion><unreadable/></deletion>
+      </correction> <par/><closing>Bye, <entity>Yuri</entity>.</closing> </exercise>
+  </body>
+</kolipsi_document>

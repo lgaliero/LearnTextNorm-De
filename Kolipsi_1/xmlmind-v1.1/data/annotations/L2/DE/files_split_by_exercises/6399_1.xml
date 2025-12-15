@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>6399</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Liebe <entity>Karin</entity>,</greeting> <par/>die letzte Woche hat <entity>Maria</entity> zuerst Obst und Gemüse beim Obsthänd<correction>
+        <insertion>l</insertion>
+      </correction>er gekauft. Sie hat bezahlt und ist im Supermarkt gegangen. Dort hat sie etwas zu essen und zu trinken gekauft aber es gab ein Problem an der Kasse. <par/>Das Mächen an der Kasse dachte, dass <entity>Maria</entity> Obst und Gemüse nicht bezahlt hat. Sie haben viel gestritten! <entity>Maria</entity> hat gesagt, dass sie zuerst in einem <error>
+        <errorType/>
+
+        <originalForm>Öbsthändler</originalForm>
+
+        <targetForm>Obsthändler</targetForm>
+      </error> eingekauft hat und nur eine Stunde später ist sie im Supermarkt gegangen. Aber das Mädchen nicht überzeugt <foreign_word foreign_language="English">was</foreign_word> und hat die Polizei angerufen. <entity>Maria</entity> hat viel Angst gehabt. Sie hat mit der Polizei gesprochen. Sie <sic>möchteten</sic> den Kassenzettel sehen. <entity>Maria</entity> hätte es nicht und sie hat 50 Euro an der Kasse bezahlt. Sie hat nur <error>
+        <errorType/>
+
+        <originalForm>jezt</originalForm>
+
+        <targetForm>jetzt</targetForm>
+      </error> verstanden, dass de<overwrite>
+        <over>r</over>
+
+        <under>n</under>
+      </overwrite> Kassenzettel in seinem Jeans war.</exercise>
+
+    
+  </body>
+</kolipsi_document>

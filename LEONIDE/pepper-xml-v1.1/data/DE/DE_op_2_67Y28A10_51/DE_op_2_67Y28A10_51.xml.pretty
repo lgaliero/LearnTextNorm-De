@@ -1,0 +1,73 @@
+<body>
+ <page page_number="1" transcanno_page_id="902">
+  <paragraph class="medium-paragraph" tagcode="1611841314885">
+   <div>
+    Neue Sprachen lernen Schüler gut,
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="wenn" tagcode="1527179850738">
+     ween
+    </orth_error_id12>
+    sie
+   </div>
+   <div>
+    sich in der Schule
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="konzentrieren" tagcode="1527179800236">
+     <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1527179816189" tran_correction_original="kontriereren">
+      kontrierieren
+     </tran_word_correction_id25>
+    </orth_error_id12>
+    und die
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Hausaufgaben" tagcode="1527179993628">
+     Hausgaben
+    </orth_error_id12>
+   </div>
+   <div>
+    machen.
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1611841314886">
+   <div>
+    <tran_emphasis_id11 class="medium-tran_emphasis_id11" tagcode="1527179785458">
+     <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611841314884" tran_capitalisation_target="und" tran_capitalisation_type="01 completely capitalised">
+      UND
+     </tran_capitalisation_id85>
+    </tran_emphasis_id11>
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1611841314887">
+   <div>
+    Ich lerne neue Sprachen am
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="liebsten" tagcode="1527179778067">
+     liebten
+    </orth_error_id12>
+    am Computer
+   </div>
+   <div>
+    Ich lerne neue
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Sprachen" tagcode="1527179758227">
+     Srachen
+    </orth_error_id12>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Internet" tagcode="1527179743469">
+     internet
+    </orth_error_id12>
+    surfen
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1611841314889">
+   <div>
+    Funktionier Strategien
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1527179690564" tran_word_deletion_target="_#_">
+     <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1527179705603">
+      *
+     </tran_unreadable_id17>
+    </tran_word_deletion_id8>
+    got ist surfe am
+   </div>
+   <div>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Internet" tagcode="1527179719556">
+     internette
+    </orth_error_id12>
+    und sprechen.
+   </div>
+  </paragraph>
+ </page>
+</body>

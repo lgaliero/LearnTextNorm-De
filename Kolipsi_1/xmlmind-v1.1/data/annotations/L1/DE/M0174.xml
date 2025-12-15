@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0174</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Patrick</entity></greeting>!<par />Wie geht es dir? Ich hoffe alles läuft gut bei dir. Mir geht es soweit gut.<par />Gestern ist <correction>
+        <deletion><entity>Annika</entity></deletion>
+      </correction> <correction>
+        <insertion><entity>Maria</entity></insertion>
+      </correction> mal wieder etwas total <error>
+        <errorType />
+
+        <originalForm>blödes</originalForm>
+
+        <targetForm>Blödes</targetForm>
+      </error> passiert. Sie musste einkaufen und ist zuerst zum Obsthändler gegangen. Blöderweise hat sie ihre Einkäufe nicht nach Hause gebracht bevor sie zum <overwrite>
+        <under>s</under>
+
+        <over>S</over>
+      </overwrite>upermarkt gegangen ist. Dies stellte sich schließlich als Problem dar, denn nachdem sie alles hatte und an der Kasse stand, machte die Kassi<correction>
+        <insertion>e</insertion>
+      </correction>rerin <correction>
+        <deletion>darauf</deletion>
+      </correction> sie auf ihre Sachen aus dem Obstladen aufmerksam, denn tollpatschig wie sie nun mal ist, guckten einige Sachen sehr offensichtlich aus ihrer Tasche. Die Kassiererin dachte also tatsächlich <entity>Maria</entity> hätte die Sachen gestohlen. Ich finde die Sache unglaublich, doch Gott sei <error>
+        <errorType />
+
+        <originalForm>dank</originalForm>
+
+        <targetForm>Dank</targetForm>
+      </error> konnte die Sache schnell geregelt werden, denn <entity>Maria</entity> ist <correction>
+        <deletion>ja</deletion>
+      </correction> nicht nur tollpatschig sondern <error>
+        <errorType />
+
+        <originalForm>auf</originalForm>
+
+        <targetForm>auch</targetForm>
+      </error> clever. Sie zeigte der verärgerten Kassiererin den Kassenbon vom Obsthändler und konnte sie somit besänftigen. Nur gut <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> <gap>_</gap> den Kassenzettel gleich parat hatte. "Glück im Unglück" würde man sagen.<par /><closing>Liebe Grüße<par /><entity>Franzi</entity></closing>        </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber <entity>Niklas</entity></greeting>!<par />Wie geht es dir? <correction>
+        <deletion>Bei</deletion>
+      </correction> Mir geht es gut, denn ich habe heute meinen Urlaub beantragt. Nun können wir endlich unsere gemeinsame Reise planen.<par />Ich bin leider noch nicht sicher ob ich wirklich ans Meer fahren möchte, da ich mir einen Urlaub in den Bergen <correction>
+        <deletion>auch</deletion>
+      </correction> ebenfalls gut vorstellen könnte.<par />In den Bergen könnte es wesentlich kälter werden als am Meer, dennoch würden sich die Berge zum Wandern eig<correction>
+        <insertion>n</insertion>
+      </correction>en und ich weiß ja wie gerne du das machst. Ein Urlaub in den Bergen könnte also abenteuerreich und anstrengend werden. Am Meer hingegen hätten wir endlich einmal Zeit für uns und zum Entspannen. Als ich das letzte Mal am Meer in <entity>Spanien</entity> war, war es sehr warm, aber dennoch war das Klima sehr angenehm.<par />Ich denke beide Reiseziele würden sich anbieten, allerdings tendiere ich <error>
+        <errorType />
+
+        <originalForm>zur Zeit </originalForm>
+
+        <targetForm>zurzeit</targetForm>
+      </error><correction>
+        <deletion>ehe</deletion>
+      </correction> zu einem Urlaub am Strand. Deine Meinung ist mir allerdings sehr wichtig und ich bitte dich daher um eine baldige Antwort. Egal wie du dich entscheidest, ich freue mich sehr auf unseren ersten gemeinsamen Urlaub.<par /><closing>Liebste Grüße<par /><entity>Franzi</entity></closing>      </exercise>
+  </body>
+</kolipsi_document>

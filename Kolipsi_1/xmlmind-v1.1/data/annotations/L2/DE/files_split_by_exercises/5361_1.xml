@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5361</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve">
+ <par/><greeting>Hallo <entity>Elena</entity>,</greeting> wie geht´s? <par/>Mir geht es gut. Meiner Freundin <entity>Maria</entity>, aber, ist die letzte Woch<strikeover>
+        <expansion>e</expansion>
+
+        <expansion>r</expansion>
+      </strikeover> <overwrite>
+        <under><unreadable/></under>
+
+        <over>e</over>
+      </overwrite>twas Schlimmes passiert. Ich erzähle dir, was ihr passiert ist! <par/> <correction>
+        <deletion>Also</deletion>
+      </correction> <entity>Maria</entity> wollte eine Party organisieren und deshalb ist sie am Nachmittag einkaufen gegangen. Sie ist zuerst in ein Obst- und Gemüseladen gegangen und hat frische Gemüse und Obst, die sie in seine Tasche gestellt hat, gekauft. Versehentlich hat sie aber das <error>
+        <errorType/>
+
+        <originalForm>Kassebon</originalForm>
+
+        <targetForm>Kassenbon</targetForm>
+      </error> auf dem Tisch des Geschäfts gelassen. Eine Stunde später ist sie in den Supermarkt gegangen, um die anderen Sachen, die sie für die Party brauchte, zu kaufen. Aber<strikeover>
+        <expansion>.</expansion>
+
+        <expansion>,</expansion>
+      </strikeover> als sie bezahlen musste, hat <entity>Maria</entity> natürlich nur die Sachen, die sie im Supermarkt genommen hat, auf den Tisch an der Kasse gelegt, während die Gemüse und Obst von <correction>
+        <deletion>seine</deletion>
+      </correction> ihrer Tasche stecken. Die Frau an der Kass<overwrite>
+        <under><unreadable/></under>
+
+        <over>e</over>
+      </overwrite>, aber, hat ihre Tasche gesehen und hat gedacht, dass sie jene Sachen nicht bezah<hyphen>-</hyphen>l<overwrite>
+        <under>u</under>
+
+        <over>en</over>
+      </overwrite> wollte! <entity>Maria</entity> hat der Frau <error>
+        <errorType/>
+
+        <originalForm>erklährt</originalForm>
+
+        <targetForm>erklärt</targetForm>
+      </error>, dass sie sie vorher gekauft hatte, konnte aber das <error>
+        <errorType/>
+
+        <originalForm>Kassebon</originalForm>
+
+        <targetForm>Kassenbon</targetForm>
+      </error> nicht finden! Zum Glück gab es auf den Gemüsen und Obst<correction>
+        <deletion><unreadable/></deletion>
+      </correction> die <overwrite>
+        <under>M</under>
+
+        <over>M</over>
+      </overwrite>ark des <correction>
+        <deletion>Gemüse</deletion>
+      </correction> Obst- und Gemüseladen und <entity>Maria</entity> konnte austreten ohne sie zweimal zu bezahlen! </exercise>
+
+    
+  </body>
+</kolipsi_document>

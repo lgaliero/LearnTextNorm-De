@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>4662</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve">
+ <par/><greeting>Hallo <entity>Debora</entity>,</greeting> <par/><error>
+        <errorType/>
+
+        <originalForm>weisst</originalForm>
+
+        <targetForm>weißt</targetForm>
+      </error> du <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> wir mal ausgemacht haben in den Urlaub zu fahren? Kannst du dich noch erinnern? Ich habe mich vor ein paar Tage<correction>
+        <deletion>n</deletion>
+      </correction> in einem Reisebüro erkundigt und habe zwei nicht so teuere Vorschläge bekommen. Eines wäre in der Schweiz in <correction>
+        <deletion>einem</deletion>
+      </correction> einem kleinen Dorf. Herum befinden sich viele Berge und Seen. Es gibt dort schöne Wiesen und auch viele Tiere. Es wäre sehr schön dort, weil man viele Spaziergänge machen kann und die Natur ansehen kann. Der zweite Vorschlag wäre auf <correction>
+        <deletion>der Karibischen</deletion>
+      </correction> einer Insel im Mittelmeer. Dort würde es mir fast besser gefallen, weil wir hier in <entity>Südtirol</entity> schon in den Bergen sind, dann würde ein bisschen Abwechslung nicht schaden. Es gibt dort ein schönes Hotel genau am Strand und wir würden dort übernachten. Das Wasser ist dort wunderbar warm und die Strände sind auch super. Wie würde es dir dort gefallen? Wenn du mir bald etwas wissen lassen würdest, wäre das sehr gut, dann könnte ich bestellen.<par/><closing>Schöne Grüße<par/> <entity>Laura</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

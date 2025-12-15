@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>4460</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Julia</entity>!</greeting> Wie gehts? Hier alles gut!<par/>Jetzt erzähle ich dir was <entity>Maria</entity> passiert ist... sie ist eine so gute Person und meine Mutter <correction>
+        <deletion><unreadable/></deletion>
+      </correction> liebt <sic>ihr</sic>!<par/><error>
+        <errorType/>
+
+        <originalForm>Letze</originalForm>
+
+        <targetForm>Letzte</targetForm>
+      </error> Woche war <entity>Maria</entity> einkaufen. Sie ging zuerst nach den Obstladen um Bananen, Äpfel und Salat zu kaufen. Sie zahlte an die Kasse, aber sie hatte den Kassenzettel vergisst.<par/>Eine Stunde später ging <entity>Maria</entity> in <sic>dem</sic> neuen Supermarkt neben <sic>meiner</sic> Haus. Sie kaufte Wein, Fleisch und viele<correction>
+        <deletion>n</deletion>
+      </correction> Gemüsedosen. <sic>Denn</sic> ging sie nach die Kasse. Die Frau an die Kasse sah die Gemüsen in der Tasche und dachte, dass <entity>Maria</entity> <error>
+        <errorType/>
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hatte. Sie fragte den Kassenzettel und <entity>Maria</entity> erinnerte, dass sie es vergisst hatte. <entity>Maria</entity> <error>
+        <errorType/>
+
+        <originalForm>erzähte</originalForm>
+
+        <targetForm>erzählte</targetForm>
+      </error> die Geschichte und (glücklich) <correction>
+        <deletion>gla</deletion>
+      </correction> die Frau glaubte ihr.<par/>Arme <entity>Maria</entity>! Sie ist so nett aber so vergesslich...<par/><closing>Küssen, <entity>Jese</entity> </closing> </exercise>
+
+    
+  </body>
+</kolipsi_document>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5770</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve">
+      <par /><greeting>Liebe <entity>Otto</entity></greeting>,<par />wie geht es dir? Weißt du schon was <entity>Maria</entity> passiert ist? Letzte Woche wollte sie eine neue Speise für seinen Sohn vorstellen. Sie müsste zuerst die Gemüse kaufen. So ist sie in einem Obst- und Gemüseland gegangen und hat <overwrite>
+        <under>d</under>
+
+        <over>h</over>
+      </overwrite>ier die Zutaten gekauft. Sie hat <error>
+        <errorType />
+
+        <originalForm>gezah<overwrite>
+            <under>t</under>
+
+            <over>l</over>
+          </overwrite>tt</originalForm>
+
+        <targetForm>gezahlt</targetForm>
+      </error>, aber sie hat den Kassenzettel auf die Kasse vergessen. <entity>Maria</entity> fehl<overwrite>
+        <under>en</under>
+
+        <over>ten</over>
+      </overwrite> noch einige Zutaten und so ging sie zum Supermarkt. Sie na<overwrite>
+        <under><unreadable /></under>
+
+        <over>h</over>
+      </overwrite>m was sie braucht und ging <palimpsest>unreadable</palimpsest> an die Kasse. Sie wollte zahlen, aber die Kassenfrau sieht, dass in der Tasche von <entity>Maria</entity> <overwrite>
+        <under>O</under>
+
+        <over>G</over>
+      </overwrite>emüse gibt. Sie denkt, dass <entity>Maria</entity> stehlen wollte. So wollte <entity>Maria</entity> den Kassenzettel ihr zeigen, aber sie findet es nicht. Sie geht zu den Obst- und Gemüseladen und fragt der Kassenfrau, ob sie zu Supermarkt kommen könnte. Sie akzeptierte und sagte der Kassenfrau des Supermarkts, dass <entity>Maria</entity> d<strikeover>
+        <expansion>ie</expansion>
+
+        <expansion>as</expansion>
+      </strikeover> Gemüse bei ihr <error>
+        <errorType />
+
+        <originalForm>Gekauft</originalForm>
+
+        <targetForm>gekauft</targetForm>
+      </error> hat. So könnte <entity>Maria</entity> die Zutaten im Supermarkt kaufen und die neue Speise vorstellen. So ich habe dir diese entspannende Geschichte erzählt.<par /><closing>Tschüss<par /> <entity>Andrea</entity> </closing> </exercise>
+
+    <exercise number="2" xml:space="preserve">
+      <par /><greeting>Liebe <entity>Otto</entity>,</greeting> <par />wie geht es dir? Hast du für die Urlaub entscheiden? Ich habe um es gedankt, aber ich<correction>
+        <deletion><unreadable /></deletion>
+      </correction> weiß es nicht wo wir gehen können. Das Meer ist sehr schön. Du kannst auf der Strand gehen und dann kannst du <correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>schwimmen</insertion>
+      </correction> Ich liebe s<overwrite>
+        <under>wi</under>
+
+        <over>ch</over>
+      </overwrite>wimmen und <overwrite>
+        <under><unreadable /></under>
+
+        <over>d</over>
+      </overwrite>ie Sonne nehmen. Aber wenn wir auf den Berg gehen, wir können <correction>
+        <deletion><unreadable /></deletion>
+      </correction> in der Natur spazieren und wir können auch Pilze suchen. <correction>
+        <deletion>Ist</deletion>
+      </correction>  Das Meer ist aber entlang von <entity>Bozen</entity> und wir müssen sehr viel mit dem Auto fahren und den Bergen sind neben unserer Stadt. Ich denke aber, dass es besser ist, zum Meer gehen, weil man <correction>
+        <deletion>kann</deletion>
+      </correction> nu<overwrite>
+        <under><unreadable /></under>
+
+        <over>r</over>
+      </overwrite> ein Mal pro Jahr gehen kann. Den Berg ist besser, wenn Winter ist und die Schnee gibt. Was denkst du? Ich hoffe, dass du mir schnell antwortest. Ich muss eine Wohnung oder ein<correction>
+        <deletion>en</deletion>
+      </correction> Hotel suchen. Ich hoffe, dass Sommer schnell kommt.<par /><closing>Tschüss<par /> <entity>Andrea</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

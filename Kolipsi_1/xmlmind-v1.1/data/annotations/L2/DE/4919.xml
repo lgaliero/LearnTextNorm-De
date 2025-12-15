@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Romy</transcriber>
+
+  <author_id>4919</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><comment>Mit E-Mail-Adresse und Betreff</comment> <over_capitalisation>
+        <originalForm>AN</originalForm>
+
+        <targetForm>An</targetForm>
+      </over_capitalisation>: cristiane_89@hitmail.com <over_capitalisation>
+        <originalForm>VON</originalForm>
+
+        <targetForm>von</targetForm>
+      </over_capitalisation>: sarah-88@bananemail.erdbeer <over_capitalisation>
+        <originalForm>SCHLUSSWORT</originalForm>
+
+        <targetForm>Schlusswort</targetForm>
+      </over_capitalisation>: <over_capitalisation>
+        <originalForm>EIN</originalForm>
+
+        <targetForm>ein</targetForm>
+      </over_capitalisation> <over_capitalisation>
+        <originalForm>RÄUBER</originalForm>
+
+        <targetForm>Räuber</targetForm>
+      </over_capitalisation>! <emoticon>=)</emoticon> <par /><greeting><palimpsest>Hallo</palimpsest> <entity>Christiane</entity>, <symbol>✿</symbol> </greeting> <par />wie geht es dir? Mir geht es gut. Ich <error>
+        <errorType />
+
+        <originalForm>bekamm</originalForm>
+
+        <targetForm>bekam</targetForm>
+      </error> gestern deine<palimpsest> </palimpsest><error>
+        <errorType />
+
+        <originalForm><palimpsest>e-mail</palimpsest></originalForm>
+
+        <targetForm>E-Mail</targetForm>
+      </error> Ich will dir etwas erzählen! Gestern rief mich <entity>Maria</entity> an! <symbol>☎</symbol> <emphasis><over_capitalisation>
+          <originalForm>DRIIIIIN</originalForm>
+
+          <targetForm>driiiiin</targetForm>
+        </over_capitalisation></emphasis>. <par />Sie erzählte mir, dass sie in Supermarkt war und dort gab sie es ein Problem an der Kasse…!!! <emoticon>☹</emoticon> <par />Der Personal glaubte, dass sie das Brot <sic>geräubt</sic> hatte! <emphasis><over_capitalisation>
+          <originalForm>AH! AH! AH!</originalForm>
+
+          <targetForm>Ah! Ah! Ah!</targetForm>
+        </over_capitalisation></emphasis> <emoticon>☺</emoticon> <par />Sie schämte sich sehr! Arme! <emoticon>:O</emoticon> <par />Aber sie hatte es <overwrite>
+        <over><symbol>✶</symbol></over>
+
+        <under><unreadable /></under>
+      </overwrite> nicht <overwrite>
+        <over><symbol>❤</symbol></over>
+
+        <under><unreadable /></under>
+      </overwrite> <sic>geräubert</sic>! Sie hatte keine <sic>Speis</sic> in der Tasche! Der Personal glaubte sie nicht! <error>
+        <errorType />
+
+        <originalForm>weisst</originalForm>
+
+        <targetForm>Weißt</targetForm>
+      </error> du was sie gemacht hatte? Na kla<overwrite>
+        <over>r</over>
+
+        <under>z</under>
+      </overwrite>! Wie kannst du es wissen….<emphasis><over_capitalisation>
+          <originalForm>AH!AH!AH!</originalForm>
+
+          <targetForm>Ah! Ah! Ah!</targetForm>
+        </over_capitalisation></emphasis> <par />Sie <correction>
+        <deletion><unreadable /></deletion>
+      </correction> lief weg. Na cool!!! <par /><correction>
+        <deletion><unreadable /></deletion>
+      </correction> <overwrite>
+        <over>E</over>
+
+        <under>e</under>
+      </overwrite>in Polizist fing sie an und er brachte sie wieder in der Supermarkt. <par />Der Personal schaute in der Tasche <error>
+        <errorType />
+
+        <originalForm>un</originalForm>
+
+        <targetForm>und</targetForm>
+      </error> nahm eine H<strikeover>
+        <expansion>a</expansion>
+
+        <expansion>o</expansion>
+      </strikeover>se heraus! Na <sic>hezzig</sic>! <par />Kannst du das vorstellen? <emphasis><over_capitalisation>
+          <originalForm>AH!AH!AH!</originalForm>
+
+          <targetForm>Ah! Ah! Ah!</targetForm>
+        </over_capitalisation></emphasis> <par />Am <error>
+        <errorType />
+
+        <originalForm>ende</originalForm>
+
+        <targetForm>Ende</targetForm>
+      </error> entschuldigte sich (der Personal) mit <entity>Maria</entity> und der Polizist fragte meine Freundin, warum sie weglief! <par />Sie sagte, dass sie weglief weil auf <palimpsest> </palimpsest> Eingangs<hyphen>-</hyphen>tür ein <palimpsest> <symbol>no-entry for rabbits sign</symbol> </palimpsest> war,<palimpsest> </palimpsest> die Tiere nicht herein kommen durften. <par />Ich habe so viel gelacht, dass mir Bauchschmerzen gekommen sind! <emoticon>☺</emoticon> <par />Ich muss weggehen! Bis bald! <par /><closing>Deine Schulfreundin <entity>Sarah</entity>!</closing></exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting><palimpsest>Liebe</palimpsest> <entity>Serena</entity>!</greeting> <par /> <gap>_</gap> Wie geht es dir? Mir geht es nicht so gut! Sonntag <correction>
+        <deletion>muss g</deletion>
+      </correction> werde ich mit <entity>Gianluca</entity> weggehen, aber ich wei<overwrite>
+        <over>ß</over>
+
+        <under>s</under>
+      </overwrite> es nicht ob ich ans Meer oder auf die Berge fahren soll<correction>
+        <insertion>e</insertion>
+      </correction>n. <par />Am Meer ist es schön, weil das Wasser <correction>
+        <deletion>ist</deletion>
+      </correction> und das <error>
+        <errorType />
+
+        <originalForm>Warm</originalForm>
+
+        <targetForm>warm</targetForm>
+      </error> ist; in dem Berg, weil das Schnee <correction>
+        <insertion>ist</insertion>
+      </correction> und wir können <error>
+        <errorType />
+
+        <originalForm>Skifahren</originalForm>
+
+        <targetForm>Ski fahren</targetForm>
+      </error>! <par />Mir gefällt besser das Meer; aber <entity>Gianluca</entity> gefällt am besten der Berg! <par />Was soll ich machen? Ich habe ein bisschen Angst von das Berg, weil als ich klein war, <correction>
+        <deletion><unreadable /></deletion>
+      </correction> fiel ich von das Berg hinunter! <par /><entity>Gianluca</entity> <correction>
+        <deletion>wiss</deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>weiss</originalForm>
+
+        <targetForm>weiß</targetForm>
+      </error> <correction>
+        <deletion><unreadable /></deletion>
+      </correction> das nicht! <par /><palimpsest>Das</palimpsest> Meer ist für mich besser, weil wir <correction>
+        <deletion>kon an</deletion>
+      </correction> Sonnenliegen konnten und Sandflugball spielen! Ich bin so unsicher!! <par />Vielleicht, wenn ich an <entity>Gianluca</entity> meine Angst und er hilf mir! <par />Bitte! Hilfst du mir! <par />Antwortet mich schnell! <par /><closing>Ein großes Kuss! <par /> Deine Freundin, <entity>Sarah</entity>!</closing></exercise>
+  </body>
+</kolipsi_document>

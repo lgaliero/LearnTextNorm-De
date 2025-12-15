@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>6321</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><par /><greeting>Hallo <entity>Serena</entity>!</greeting> <par />Wie geht´s? Heute war ich in Supermark<correction>
+        <deletion>e</deletion>
+      </correction>t und habe ich <entity>Maria</entity> gesehen. Es passiert eine <error>
+        <errorType />
+
+        <originalForm>comische</originalForm>
+
+        <targetForm>komische</targetForm>
+      </error> Problem, weil <entity>Maria</entity> hat <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Obst nach <entity>Alimarket</entity> gekauft und dann <error>
+        <errorType />
+
+        <originalForm>Eine</originalForm>
+
+        <targetForm>eine</targetForm>
+      </error> Stunde später war sie im <entity>Despar</entity>. Wenn <error>
+        <errorType />
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> war an der Kasse zu bezahlen gibt ein Problem, weil die <error>
+        <errorType />
+
+        <originalForm>Verkauferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> denk<correction>
+        <deletion>t</deletion>
+      </correction>st eine <correction>
+        <deletion>haben</deletion>
+      </correction> hat das Obst gestäl<strikeover>
+        <expansion>t</expansion>
+
+        <expansion>h</expansion>
+      </strikeover> <par /><entity>Maria</entity> hat Sie gesagt <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> hat der Obst nach <entity>Alimarket</entity> gekauft. <error>
+        <errorType />
+
+        <originalForm>und</originalForm>
+
+        <targetForm>Und</targetForm>
+      </error> dann <error>
+        <errorType />
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> hat ihre Rechnung gezeigt. Für diesem <foreign_word
+        foreign_language="Italiano"><error>
+          <errorType />
+
+          <originalForm>inconvenient</originalForm>
+
+          <targetForm>inconveniente</targetForm>
+        </error></foreign_word> die <error>
+        <errorType />
+
+        <originalForm>Verkauferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> hat ihrer Entschuldigung zu <entity>Maria</entity> ge<correction>
+        <deletion><unreadable /></deletion>
+      </correction>macht. Im Ende die Verkäuferin hat zur <entity>Maria</entity> eine Skonto gemacht. <par /><entity>Serena</entity>, das ist was ihre Freundin <entity>Maria</entity> hat passiert <error>
+        <errorType />
+
+        <originalForm>Gestern</originalForm>
+
+        <targetForm>gestern</targetForm>
+      </error>. <par /><closing>Bis <error>
+          <errorType />
+
+          <originalForm>Bald</originalForm>
+
+          <targetForm>bald</targetForm>
+        </error> <par /> <entity>Harrison</entity> </closing> </exercise>
+
+    <exercise number="2" xml:space="preserve"><par /><greeting>Liebe <entity>Clara</entity>,</greeting> heute habe ich zwei schönest Urlaub in Reisebüro gesehen. Ich habe <correction>
+        <insertion>für</insertion>
+      </correction> eine Urlaub nach <entity>Schweiz</entity> und eine Urlaub nach <foreign_word
+        foreign_language="Italiano"><entity>Caraibi</entity></foreign_word> gefragt. Für mich diese Urlaub war sehr schön weil war Beide schönen Platze für relaxe und <error>
+        <errorType />
+
+        <originalForm>lesen</originalForm>
+
+        <targetForm>Lesen</targetForm>
+      </error>. Ich bin nicht sicher zum Berge oder zu Meer fahren. <par />Eine <correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>k</insertion>
+      </correction>ürze <error>
+        <errorType />
+
+        <originalForm>zummmenfastung</originalForm>
+
+        <targetForm>Zusammenfassung</targetForm>
+      </error> was <ambiguous>
+        <alternative>w</alternative>
+
+        <alternative>m</alternative>
+      </ambiguous>ir in diese Urlaub können. <par /><entity><foreign_word
+          foreign_language="Italiano">Caraibi</foreign_word> </entity> ist sehr <error>
+        <errorType />
+
+        <originalForm>schon</originalForm>
+
+        <targetForm>schön</targetForm>
+      </error> für <error>
+        <errorType />
+
+        <originalForm>sürfen</originalForm>
+
+        <targetForm>Surfen</targetForm>
+      </error> und am Strand liegen. <par /><entity>Schweiz</entity> ist sehr <error>
+        <errorType />
+
+        <originalForm>schone</originalForm>
+
+        <targetForm>schöne</targetForm>
+      </error> für das <error>
+        <errorType />
+
+        <originalForm>Alpen Panorama</originalForm>
+
+        <targetForm>Alpenpanorame</targetForm>
+      </error> gesehen. <par />Ich denke, <correction>
+        <deletion>mir</deletion>
+      </correction> dass <ambiguous>
+        <alternative>w</alternative>
+
+        <alternative>m</alternative>
+      </ambiguous>ir am <foreign_word foreign_language="English">13th</foreign_word> Juni abfahren nach <entity><foreign_word
+          foreign_language="Italiano"><error>
+            <errorType />
+
+            <originalForm>Caribi</originalForm>
+
+            <targetForm>Caraibi</targetForm>
+          </error></foreign_word></entity> weil für mich ist besser. Ich warte ihre <error>
+        <errorType />
+
+        <originalForm>antwort</originalForm>
+
+        <targetForm>Antwort</targetForm>
+      </error>. <par /><closing>Bis bald! <par /><error>
+          <errorType />
+
+          <originalForm>Tschuss</originalForm>
+
+          <targetForm>Tschüss</targetForm>
+        </error> <par /> <entity>Harrison</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

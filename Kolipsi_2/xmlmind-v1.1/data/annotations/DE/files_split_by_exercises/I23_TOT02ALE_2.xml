@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I23_TOT02ALE</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Liebe Paul.</greeting><par/>Ich verstehe dein Problem und wie du dich fühlst.<par/>Heute, viele junge Leute, benützen die neue Technologien und Social Networks, um neue Freunde machen.<par/>Alle glauben, dass es eine leichtere Lösung ist, um neue Freunde machen, als in der Wahrheit reden. Für die Leute, die sehr schüchtern sind und die Angst mit den <error>
+        <errorType/>
+
+        <originalForm>andaren</originalForm>
+
+        <targetForm>anderen</targetForm>
+      </error> zu reden haben, sind die Chatten die besten Lösungen um neue Freundschaften machen.<par/>Ich glaube, dass die Problem kommen, wenn du Social Networks zu viel benützt und kein <error>
+        <errorType/>
+
+        <originalForm>Kontroll</originalForm>
+
+        <targetForm>Kontrolle</targetForm>
+      </error> mehr hast.<par/>Leider, ist dieselbe Sache auch dir gepasst. Jetzt, hast du dich mit allen gestritt und hast du kaum Freunde in die <error>
+        <errorType/>
+
+        <originalForm>Wahrkeit</originalForm>
+
+        <targetForm>Wahrheit</targetForm>
+      </error>.<par/>Du hast sehr gut gemacht, damit Schluss machen und alles beenden. Jetzt, musst du dich an deinen Leben konzentrieren und denken was du machen möchtest und welche Freunde du haben möchtest.<par/>Es ist normal, dass alle wissen wollen, wieso du dich nicht mehr melde. Aber, nicht antworten ist nich eine gute Lösung. Du musst eine Nachricht schreiben, wo du erklärst wieso du dich damit Schluss machen möchtest und wie du <correction>
+        <insertion>dich</insertion>
+      </correction> ernst fühlst.<par/>Die anderen werden dich bestimmt verstehen und an deiner Seite sein.<par/>Ich hoffe, dass ich dir geholfen habe.<par/><closing>Viel Glück für deinen Leben!</closing><par/>Der Rubrik "Persönliche Briefe"</exercise>
+  </body>
+</kolipsi_II_document>

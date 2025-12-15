@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5494</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Rita</entity>,</greeting> <par/>Ich will einen Urlaub machen, aber ich bin noch nicht sicher wohin zu fahren. <par/>Es wurde sehr schön<correction>
+        <deletion>s</deletion>
+      </correction> einen Urlaub mit dir zu machen, deswegen stellte ich dir das Problem vor. <par/>Letzte <error>
+        <errorType/>
+
+        <originalForm>woche</originalForm>
+
+        <targetForm>Woche</targetForm>
+      </error> habe ich mit <overwrite>
+        <over>M</over>
+
+        <under>m</under>
+      </overwrite>utter gesprochen und sie hat mir als ideale Urlaub <correction>
+        <deletion>am Meer zu fahren</deletion>
+      </correction>, das Meer geraten. <par/>Heute habe ich mit meinem Vater gesprochen und er hat mir gesagt dass es sehr schön sein würde, einen Urlaub in einem <error>
+        <errorType/>
+
+        <originalForm>Kalten</originalForm>
+
+        <targetForm>kalten</targetForm>
+      </error> Land zu machen und die Berge genießen. Ich würde sehr gerne am Meer fahren, zum Beispiel es würde toll sein, Inseln wie <entity><error>
+          <errorType/>
+
+          <originalForm>Hawii</originalForm>
+
+          <targetForm>Hawaii</targetForm>
+        </error></entity> zu besuchen um dort sich zu relaxen. <par/>Ich muss aber auch sagen dass ich die <entity>Hawaii</entity> Inseln schon besucht habe und dort eine tolle Erfahrung <correction>
+        <deletion>e</deletion>
+      </correction> gemacht habe, denn ich liebe Vergnügungen und dort habe ich viele Aktivitäten gefunden, die sehr amüsierend waren. Ich habe nur ein Mal einen Urlaub in die <entity>Dolomiten</entity> verbracht, wo mich die weiße Umgebung sehr beeindruckt hatte. <par/>Diese sind zwei verschiedene Um<strikeover>
+        <expansion>g</expansion>
+
+        <expansion>b</expansion>
+      </strikeover>ebungen: <error>
+        <errorType/>
+
+        <originalForm>in</originalForm>
+
+        <targetForm>In</targetForm>
+      </error> die Berge <error>
+        <errorType/>
+
+        <originalForm>Kann</originalForm>
+
+        <targetForm>kann</targetForm>
+      </error> man reine Luft atmen und auch lange Spaziergänge machen, während man am Meer kann man schwimmen und <sic>sonnenbaden</sic>, das ist sehr attraktiv! <par/>Ich hoffe dass du mehr überzeugt als mich bist, und eine Lösung findest: <error>
+        <errorType/>
+
+        <originalForm>heißes</originalForm>
+
+        <targetForm>Heißes</targetForm>
+      </error> Land oder weißer Schnee in der Berge? <par/>Warte auf deine Antwort. <par/><closing><par/>Liebe Grüße <par/><entity><par/>Lisa</entity> <symbol>❤</symbol></closing> </exercise>
+  </body>
+</kolipsi_document>

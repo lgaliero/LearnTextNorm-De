@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5490</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe <entity>Alessandra</entity>,</greeting> <par /> <gap>_</gap> ich muss dir unbedingt erzählen, was <entity>Maria</entity> passiert ist. <par />Sie war im <foreign_word
+        foreign_language="Italiano">Supermarket</foreign_word> wo sie beim <correction>
+        <deletion>Brotstandel</deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>Obsthandler</originalForm>
+
+        <targetForm>Obsthändler</targetForm>
+      </error> ein bisschen <error>
+        <errorType />
+
+        <originalForm>Salad</originalForm>
+
+        <targetForm>Salat</targetForm>
+      </error> un<overwrite>
+        <over>d</over>
+
+        <under>t</under>
+      </overwrite> <correction>
+        <deletion>Tom</deletion>
+      </correction> ein paar Tomaten gekauft hat. <par /> <correction>
+        <deletion>Später</deletion>
+      </correction> Sie vergisst dort aber, den Kassazettel bei der Kasse. <par />Sie sammelt danach noch ein pa<overwrite>
+        <over>a</over>
+
+        <under>r</under>
+      </overwrite>r Sache<overwrite>
+        <over>n</over>
+
+        <under>m</under>
+      </overwrite> im restlichen <foreign_word foreign_language="Italiano">Supermarket</foreign_word>, und als sie bezahlt hat, merkt die <error>
+        <errorType />
+
+        <originalForm>Kasse<overwrite>
+            <over>e</over>
+
+            <under>r</under>
+          </overwrite>rerin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error>, dass sie die <error>
+        <errorType />
+
+        <originalForm>Salad</originalForm>
+
+        <targetForm>Salat</targetForm>
+      </error> nicht bezahl<overwrite>
+        <over>t</over>
+
+        <under>en</under>
+      </overwrite> hat. Da sie den Kassazettel nicht hat, kann <entity>Maria</entity> nicht <error>
+        <errorType />
+
+        <originalForm>beweigen</originalForm>
+
+        <targetForm>beweisen</targetForm>
+      </error>, dass sie es schon <error>
+        <errorType />
+
+        <originalForm>bezaht</originalForm>
+
+        <targetForm>bezahlt</targetForm>
+      </error> hatte beim <error>
+        <errorType />
+
+        <originalForm>Obsthandler</originalForm>
+
+        <targetForm>Obsthändler</targetForm>
+      </error>. <par /> </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber <entity>Francesco</entity>,</greeting> <par /> <gap>_</gap> ich habe einen Zweifel… Du <error>
+        <errorType />
+
+        <originalForm>weist</originalForm>
+
+        <targetForm>weißt</targetForm>
+      </error> doch, dass wir einen gemeinsamen Urlaub machen werden. <par />Aber ich <sic>weiße</sic> nicht <correction>
+        <deletion>den</deletion>
+      </correction> ob man sich auf Berge oder Meer entscheiden soll. <par />Ich wollte mich für eine <overwrite>
+        <over>e</over>
+
+        <under>r</under>
+      </overwrite>her romantische Woche zusammen entscheiden. <par />In die Berge ist es sicher ruhiger als ans Meer, aber das Meer <correction>
+        <deletion><unreadable /></deletion>
+      </correction> am <error>
+        <errorType />
+
+        <originalForm>a<overwrite>
+            <over>b</over>
+
+            <under>r</under>
+          </overwrite>bend</originalForm>
+
+        <targetForm>Abend</targetForm>
+      </error> ist viel <correction>
+        <deletion>R</deletion>
+      </correction> romantischer als die Bergen. Sonne gibt es in beide, aber <error>
+        <errorType />
+
+        <originalForm>naturlicher<hyphen>-</hyphen>weiße</originalForm>
+
+        <targetForm>natürlicherweise</targetForm>
+      </error> ist es ans <overwrite>
+        <over>M</over>
+
+        <under>m</under>
+      </overwrite>eer viel wärmer, und ich bin mir sicher ob das besser ist oder nicht. <par />Ich muss auch denken an Sonnenliegen am Strand, an warmes Sand und helles, salzige<overwrite>
+        <over>s</over>
+
+        <under>r</under>
+      </overwrite> Meer <gap>_</gap> und sofort <correction>
+        <deletion>fällt</deletion>
+
+        <insertion>fallen</insertion>
+      </correction> mir den feinen Bergwindchen ein, die Wälder und die ewigen grünen Wiesen. <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Sonnenuntergänge sind romantisch auf den Bergen wie ans Meer. <par />So, was wurdest du raten? <par />Was hast du <sic>gerner</sic>: warm, <error>
+        <errorType />
+
+        <originalForm>sand</originalForm>
+
+        <targetForm>Sand</targetForm>
+      </error> und Salz, oder <error>
+        <errorType />
+
+        <originalForm>windchen</originalForm>
+
+        <targetForm>Windchen</targetForm>
+      </error>, grün und Wald? Für mich gehen beide gut. <par />Auch weil sowieso ist es mit dir überall romantisch! <gap>_</gap> <closing>Ich liebe dich <entity>Arianna</entity> <symbol>❤</symbol> </closing></exercise>
+  </body>
+</kolipsi_document>

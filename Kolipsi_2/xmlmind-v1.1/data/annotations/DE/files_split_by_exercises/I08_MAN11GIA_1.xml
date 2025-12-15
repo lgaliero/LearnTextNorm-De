@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I08_MAN11GIA</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Liebe Markus,</greeting><par/><correction>
+        <deletion>gestern <unreadable/></deletion>
+      </correction> letzte Woche Maria war einkaufen. Zuerst sie geh<correction>
+        <deletion>et</deletion>
+
+        <insertion>t</insertion>
+      </correction> in einem Obst- und Gemüselade<correction>
+        <deletion>l</deletion>
+
+        <insertion>n</insertion>
+      </correction>. Maria kauft ein bisschen Salat, Tomaten und <correction>
+        <deletion>g</deletion>
+
+        <insertion>G</insertion>
+      </correction>urkelen. Danach geht sie im eine Supermarkt aber an <correction>
+        <deletion><unreadable/></deletion>
+      </correction> der Kasse gab es ein Problem. Maria hat zu wenig <error>
+        <errorType/>
+
+        <originalForm>geld</originalForm>
+
+        <targetForm>Geld</targetForm>
+      </error> aber sie wollte so viel kaufen also <correction>
+        <deletion>m</deletion>
+
+        <insertion>M</insertion>
+      </correction>aria nimmt 2-3 Produkte und verbrengt in seine Jacke. <correction>
+        <deletion><unreadable/></deletion>
+      </correction> Am die Kasse die <error>
+        <errorType/>
+
+        <originalForm>Kauferin</originalForm>
+
+        <targetForm>Käuferin</targetForm>
+      </error> hat sie <error>
+        <errorType/>
+
+        <originalForm>gesehn</originalForm>
+
+        <targetForm>gesehen</targetForm>
+      </error> und hat die Polizei angerufen. Wenn die Polizei angekommen ist, hat Maria in die Kaserne von die Polizei <correction>
+        <deletion><unreadable/></deletion>
+      </correction> gekommen. Maria ist 1 Woche in <error>
+        <errorType/>
+
+        <originalForm>gefengnis</originalForm>
+
+        <targetForm>Gefängnis</targetForm>
+      </error> geblieben. Maria war in eine <error>
+        <errorType/>
+
+        <originalForm>shock status</originalForm>
+
+        <targetForm>Schockstatus</targetForm>
+      </error>. <correction>
+        <deletion><unreadable/></deletion>
+      </correction> Maria komm nie mal in diese <foreign_word foreign_language="Italiano">Supermarket</foreign_word> <correction>
+        <deletion>ge<unreadable/></deletion>
+      </correction> einkaufen.<par/><closing><error>
+          <errorType/>
+
+          <originalForm>viele</originalForm>
+
+          <targetForm>Viele</targetForm>
+        </error> Grü<correction>
+          <deletion>s</deletion>
+
+          <insertion>ß</insertion>
+        </correction>e</closing> <correction>
+        <deletion><unreadable/></deletion>
+      </correction> Sepp<par/><unreadable/> <correction>
+        <deletion><unreadable/></deletion>
+      </correction></exercise>
+
+    
+  </body>
+</kolipsi_II_document>

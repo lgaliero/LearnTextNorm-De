@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>N7025</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Monika</entity>!</greeting> <par/>Wie geht es dir? <par/>Mir ganz gut. <par/><error>
+        <errorType/>
+
+        <originalForm>Weiss</originalForm>
+
+        <targetForm>Weiß</targetForm>
+      </error> du was <entity>Maria</entity> am letzte Woche passiert? <par/>Eine traurige,<correction>
+        <deletion>Gesch</deletion>
+      </correction> t<overwrite>
+        <over>eu</over>
+
+        <under>au</under>
+      </overwrite>ere <error>
+        <errorType/>
+
+        <originalForm>Geschiechte</originalForm>
+
+        <targetForm>Geschichte</targetForm>
+      </error> am de<overwrite>
+        <over>n</over>
+
+        <under>r</under>
+      </overwrite> Supermarkt. Ich erzähl dir <error>
+        <errorType/>
+
+        <originalForm>sch<correction>
+            <deletion>ö</deletion>
+
+            <insertion>o</insertion>
+          </correction></originalForm>
+
+        <targetForm>schon</targetForm>
+      </error>: Am letzte Woche war <entity>Maria</entity> einkaufen. Zuerst kaufte sie beim Obsthän<overwrite>
+        <over>d</over>
+
+        <under>l</under>
+      </overwrite>ler: Sie kaufte <error>
+        <errorType/>
+
+        <originalForm>Salad</originalForm>
+
+        <targetForm>Salat</targetForm>
+      </error>, Kartoffeln, <error>
+        <errorType/>
+
+        <originalForm>Zwibeln</originalForm>
+
+        <targetForm>Zwiebeln</targetForm>
+      </error>, Tomaten, <error>
+        <errorType/>
+
+        <originalForm>Kürbisch</originalForm>
+
+        <targetForm>Kürbis</targetForm>
+      </error>, und Trauben. Dann, eine Stunde später war sie im <foreign_word foreign_language="Italiano">Supe<overwrite>
+          <over>rm</over>
+
+          <under>h</under>
+        </overwrite>arket</foreign_word> gegangen, aber gab es ein Problem an der Kasse. Im Supermarkt kaufte sie <error>
+        <errorType/>
+
+        <originalForm>Käkse</originalForm>
+
+        <targetForm>Kekse</targetForm>
+      </error>, Milch, Wein, Brot, Lebkuchen, Paste, Marmeladen, Butter. Wenn ginge sie an der Kasse, die <error>
+        <errorType/>
+
+        <originalForm>Fraulein</originalForm>
+
+        <targetForm>Fräulein</targetForm>
+      </error> <sic>schreite</sic> <entity>Maria</entity>, weil sie viele Gemüse in ihrer Tasche ha<overwrite>
+        <over>tt</over>
+
+        <under><unreadable/></under>
+      </overwrite>e. (Die Gemüse, <error>
+        <errorType/>
+
+        <originalForm>dass</originalForm>
+
+        <targetForm>das</targetForm>
+      </error> sie zuerst bei Gemüseladen kaufen hatte). A<overwrite>
+        <over>l</over>
+
+        <under>s</under>
+      </overwrite>so, <entity>Maria</entity> hatte<correction>
+        <deletion>n</deletion>
+      </correction> keinen Kassenzettel, weil sie bei die <error>
+        <errorType/>
+
+        <originalForm>Obst Geschäft</originalForm>
+
+        <targetForm>Obstgeschäft</targetForm>
+      </error> vergessen hatte. Dann, <gap>_</gap> <overwrite>
+        <over>die</over>
+
+        <under>Die</under>
+      </overwrite> <error>
+        <errorType/>
+
+        <originalForm>Fraulein</originalForm>
+
+        <targetForm>Fräulein</targetForm>
+      </error> rief <correction>
+        <deletion>an</deletion>
+      </correction> den <error>
+        <errorType/>
+
+        <originalForm>Supermarkts President</originalForm>
+
+        <targetForm>Supermarktspräsident</targetForm>
+      </error> an, und am Ende müsste <entity>Maria</entity> die Gemüse zahlen. <par/>Ja <entity>Monika</entity>, das ist eine <sic>intollerantests</sic> Geschichte. <par/><entity>Maria</entity> hatte viele € zahlen. 20 € <correction>
+        <deletion><unreadable/></deletion>
+      </correction> nur für die Gemüse. <par/><closing>Viele Grüße! <par/> <entity>Elena</entity> .</closing></exercise>
+
+    
+  </body>
+</kolipsi_document>

@@ -1,0 +1,868 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Created with Liquid XML Studio 6.1.18.0 - FREE Community Edition (http://www.liquid-technologies.com) -->
+<xs:schema xmlns="http://www.eurac.edu/kolipsi"
+	elementFormDefault="qualified" targetNamespace="http://www.eurac.edu/kolipsi"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<!-- Liguid XML prefers this one, and doesn't give any errors -->
+	<!-- But it doesn't work in MS Word or XML Notepad -->
+	<!-- <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2001/03/xml.xsd"/> -->
+	<!-- this was another possibility based on http://docstore.mik.ua/orelly/xml/schema/ch10_07.htm 
+		but, it's not working, even when I save a local copy of it from above -->
+	<xs:import schemaLocation="xml.xsd"
+		namespace="http://www.w3.org/XML/1998/namespace" />
+	<!-- This is how Altova XMLSpy 2009 suggests doing it http://www.altova.com/manual/XMLSpy/spyenterprise/index.html?xseditingviews_schview_xmlatts.htm 
+		But this doesn't work, since nothing knows where to find the namespace No, 
+		XML Notepade will accept it if the xml.dtd file is also loaded via the View 
+		menu However, a kolipsi_document is not accepted with this version in XML 
+		Notepad -->
+	<!-- <xs:import namespace="http://www.w3.org/XML/1998/namespace" /> -->
+	<xs:annotation>
+		<xs:documentation>
+			Author(s): Chris Culy, modified by Verena Lyding, Aivars Glaznieks
+			Copyright 2008-2011 Accademia Europea Bolzano
+			Date: 26 November 2008
+			Revised: 01 December 2011
+			Version: 45
+    </xs:documentation>
+	</xs:annotation>
+	<!-- ********************************************************* -->
+	<xs:annotation>
+		<xs:documentation>
+			Metadata information
+    </xs:documentation>
+	</xs:annotation>
+	<xs:simpleType name="person">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Aivars" />
+			<xs:enumeration value="Andrea" />
+			<xs:enumeration value="Brigitte" />
+			<xs:enumeration value="Chiara" />
+			<xs:enumeration value="Christel" />
+			<xs:enumeration value="Corinna" />
+			<xs:enumeration value="Franziska" />
+			<xs:enumeration value="Francesco" />
+			<xs:enumeration value="Heidi" />
+			<xs:enumeration value="Ilenia" />
+			<xs:enumeration value="Jessica" />
+			<xs:enumeration value="Judith" />
+			<xs:enumeration value="Karl" />
+			<xs:enumeration value="Kurt" />
+			<xs:enumeration value="Lorenzo" />
+			<xs:enumeration value="Marzio" />
+			<xs:enumeration value="Michael" />
+			<xs:enumeration value="Romy" />
+			<xs:enumeration value="Svenja" />
+			<xs:enumeration value="Tatjana" />
+			<xs:enumeration value="Vera" />
+			<xs:enumeration value="Yella" />
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="base_language">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Deutsch" />
+			<xs:enumeration value="Italiano" />
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- ********************************************************* -->
+	<xs:annotation>
+		<xs:documentation>
+			Miscellaneous bits and pieces, used in other
+			defintions.
+        </xs:documentation>
+	</xs:annotation>
+	<xs:group name="tags">
+		<xs:annotation>
+			<xs:documentation>
+				These are the tags that can appear with text inside another tagged
+				section
+				I had originally grouped them by function,
+				but it is easier to use them in a UI if they are alphabetical.
+			</xs:documentation>
+		</xs:annotation>
+		<xs:choice>
+			<!-- Markup -->
+			<xs:element minOccurs="0" maxOccurs="1" ref="ambiguous" />
+			<!-- Markup -->
+			<xs:element minOccurs="0" maxOccurs="1" ref="arrow" />
+			<!-- Functional -->
+			<xs:element minOccurs="0" maxOccurs="1" ref="closing" />
+			<!-- Meta information -->
+			<xs:element minOccurs="0" maxOccurs="1" ref="comment" />
+			<!-- Markup -->
+			<xs:element minOccurs="0" maxOccurs="1" ref="over_capitalisation" />
+			<!-- Markup -->
+			<xs:element minOccurs="0" maxOccurs="1" ref="correction" />
+			<!-- Functional -->
+			<xs:element minOccurs="0" maxOccurs="1" ref="direct_speech" />
+			<!-- Markup -->
+			<xs:element minOccurs="0" maxOccurs="1" ref="emoticon" />
+			<!-- Markup -->
+			<xs:element minOccurs="0" maxOccurs="1" ref="emphasis" />
+			<!-- Annotation -->
+			<xs:element minOccurs="0" maxOccurs="1" ref="entity" />
+			<!-- Annotation -->
+			<xs:element minOccurs="0" maxOccurs="1" ref="error" />
+			<!-- Markup -->
+			<xs:element minOccurs="0" maxOccurs="1" ref="footnote" />
+			<!-- Markup -->
+			<xs:element minOccurs="0" maxOccurs="1" ref="footnote_marker" />
+			<!-- Annotation -->
+			<xs:element minOccurs="0" maxOccurs="1" ref="foreign_word" />
+			<!-- Markup -->
+			<xs:element minOccurs="0" maxOccurs="1" ref="gap" />
+			<!-- Functional -->
+			<xs:element minOccurs="0" maxOccurs="1" ref="greeting" />
+			<!-- Annotation -->
+			<xs:element minOccurs="0" maxOccurs="1" ref="hyphen" />
+			<!-- Annotation -->
+			<xs:element minOccurs="0" maxOccurs="1" ref="image" />
+			<!-- Markup -->
+			<xs:element minOccurs="0" maxOccurs="1" ref="over" />
+			<!-- Markup -->
+			<xs:element minOccurs="0" maxOccurs="1" ref="overwrite" />
+			<!-- Markup -->
+			<xs:element minOccurs="0" maxOccurs="1" ref="palimpsest" />
+			<!-- Structural -->
+			<xs:element minOccurs="0" maxOccurs="1" ref="par" />
+			<!-- Annotation -->
+			<xs:element minOccurs="0" maxOccurs="1" ref="reduction" />
+			<!-- Annotation -->
+			<xs:element minOccurs="0" maxOccurs="1" ref="sic" />
+			<!-- Markup -->
+			<xs:element minOccurs="0" maxOccurs="1" ref="strikeover" />
+			<!-- Markup -->
+			<xs:element minOccurs="0" maxOccurs="1" ref="symbol" />
+			<!-- Markup -->
+			<xs:element minOccurs="0" maxOccurs="1" ref="under" />
+			<!-- Markup -->
+			<xs:element minOccurs="0" maxOccurs="1" ref="unreadable" />
+			<!-- Markup -->
+			<xs:element minOccurs="0" maxOccurs="1" ref="variant_group" />
+		</xs:choice>
+	</xs:group>
+	<xs:simpleType name="examType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Kolipsi" />
+			<xs:enumeration value="Kolipsi L1" />
+			<xs:enumeration value="Kolipsi Mat" />
+			<xs:enumeration value="Koko" />
+			<xs:enumeration value="Other" />
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="foreignLanguageType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Deutsch" />
+			<xs:enumeration value="Dialekt-Deutsch" />
+			<xs:enumeration value="English" />
+			<xs:enumeration value="Italiano" />
+			<xs:enumeration value="Other" />
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="arrowEndType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="head" />
+			<xs:enumeration value="open" />
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="errType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="01 lcp instead of cap: polite form" />
+			<xs:enumeration value="02 lcp instead of cap: other cases" />
+			<xs:enumeration value="03 cap instead of lcp" />
+			<xs:enumeration value="04 lcp/cap behind punctuation marks" />
+			<xs:enumeration
+				value="05 lcp/cap in combination with sep instead of tog/tog instead of sep" />
+			<xs:enumeration value="06 sep instead of tog: compounds" />
+			<xs:enumeration value="07 sep instead of tog: other cases" />
+			<xs:enumeration value="08 tog instead of sep: minimal phraseologism" />
+			<xs:enumeration value="09 tog instead of sep: other cases" />
+			<xs:enumeration value="10 missing or unnecessary hyphen" />
+			<xs:enumeration value="11 omissions: of double consonants" />
+			<xs:enumeration value="12 omissions: of a vowel: (i) instead of (ie)" />
+			<xs:enumeration value="13 omissions: of graphemecluster" />
+			<xs:enumeration value="14 omissions: of one grapheme" />
+			<xs:enumeration value="15 insertions: of double consonants" />
+			<xs:enumeration value="16 insertions: of a vowel: (ie) instead of (i)" />
+			<xs:enumeration value="17 insertions: other cases" />
+			<xs:enumeration value="18 transpositions: of vowels" />
+			<xs:enumeration value="19 transpositions: of  (e/ä) / (ä/e)" />
+			<xs:enumeration value="20 transpositions: of  (i/e) / (e/i)" />
+			<xs:enumeration value="21 transpositions: of vowel and umlaut" />
+			<xs:enumeration value="22 transpositions: of consonants: Fortis/Lenis" />
+			<xs:enumeration value="23 transpositions: of consonants: other cases" />
+			<xs:enumeration value="24 transpositions: of (ss) and (ß)" />
+			<xs:enumeration value="25 incorrect positioning of two graphemes" />
+			<xs:enumeration value="26 missing or incorrect use of apostrophes" />
+			<xs:enumeration value="27 abbreviations" />
+			<xs:enumeration value="28 Eigennamen" />
+			<xs:enumeration value="Unknown" />
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="redType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="01 contraction" />
+			<xs:enumeration value="02 abbreviation" />
+			<xs:enumeration value="03 gender-neutralization" />
+			<xs:enumeration value="04 copy error" />
+			<xs:enumeration value="Unknown" />
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- ********************************************************* -->
+	<xs:annotation>
+		<xs:documentation>
+			These kinds of tagged information do not contain
+			other tagged information.
+        </xs:documentation>
+	</xs:annotation>
+	<xs:annotation>
+		<xs:documentation>
+			emoticon added for Koko
+    </xs:documentation>
+	</xs:annotation>
+	<xs:element name="emoticon" type="xs:string" />
+	<xs:element name="gap">
+		<!-- just using fixed didn't work for Word -->
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="_" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="hyphen">
+		<!-- just using fixed didn't work for Word -->
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="-" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<!-- This is the wrong way to do an empty element <xs:element fixed="" name="unreadable" 
+		type="xs:string" /> -->
+	<!-- This is the right way: -->
+	<xs:element name="unreadable">
+		<xs:complexType>
+			<xs:complexContent mixed="false">
+				<xs:restriction base="xs:anyType" />
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="image" type="xs:string" />
+	<xs:annotation>
+		<xs:documentation>
+			Note that "par" is not a container, but just indicates a new paragraph.
+			The reason for this is that some functional annotations (e.g.
+			closing)
+			can cross paragraph boundaries, which isn't codable just by tags in XML
+			(cf. the arrow ugliness)
+			So, by making par an empty boundary marker, we avoid the problem.
+			To reconstruct paragraph units:
+			* take the material before the first par
+			* add the material between pars
+			* add the material after the last par
+
+			It is not always clear in the original whether we have a new paragraph
+			or not.
+			So, we have the "uncertain" attribute, which is optional, but when it is
+			used, it can only be true.
+	</xs:documentation>
+	</xs:annotation>
+	<xs:annotation>
+		<xs:documentation>
+			uncertain added to par for Koko
+    </xs:documentation>
+	</xs:annotation>
+	<!-- parORIG is the original definition, without the "uncertain" attribute" -->
+	<!-- <xs:element fixed="" name="parORIG" type="xs:string" /> -->
+	<xs:element name="par">
+		<xs:complexType>
+			<xs:attribute fixed="true" name="uncertain" type="xs:boolean"
+				use="optional" />
+		</xs:complexType>
+	</xs:element>
+	<xs:annotation>
+		<xs:documentation>Comment is for transcribers' comments
+		</xs:documentation>
+	</xs:annotation>
+	<xs:element name="comment" type="xs:string" />
+	<xs:annotation>
+		<xs:documentation>
+			symbol added for Koko
+	</xs:documentation>
+	</xs:annotation>
+	<xs:annotation>
+		<xs:documentation>Symbol is for miscellaneous symbols, like an arrow
+			to indicate "see ..." (as opposed to an arrow moving text position,
+			which is "arrow")
+			It contains a description of the symbol(?), instead of the symbol. See
+			the guidelines for the descriptions.
+    </xs:documentation>
+	</xs:annotation>
+	<xs:element name="symbol" type="xs:string" />
+	<xs:annotation>
+		<xs:documentation>
+			errorType added for Koko
+    </xs:documentation>
+	</xs:annotation>
+	<xs:element name="errorType">
+		<xs:complexType>
+			<xs:attribute default="Unknown" name="eType" type="errType" />
+			<xs:attribute default="1" name="count" type="xs:integer" />
+		</xs:complexType>
+	</xs:element>
+	<xs:annotation>
+		<xs:documentation>
+			reductionType added for Koko
+    </xs:documentation>
+	</xs:annotation>
+	<xs:element name="reductionType">
+		<xs:complexType>
+			<xs:attribute default="Unknown" name="rType" type="redType" />
+			<xs:attribute default="1" name="count" type="xs:integer" />
+		</xs:complexType>
+	</xs:element>
+	<xs:annotation>
+		<xs:documentation>
+			targetForm added for Koko
+		</xs:documentation>
+	</xs:annotation>
+	<xs:element name="targetForm" type="xs:string" />
+	<xs:annotation>
+		<xs:documentation>
+			unfoldedForm added for Koko
+		</xs:documentation>
+	</xs:annotation>
+	<xs:element name="unfoldedForm" type="xs:string" />
+	<!-- ********************************************************* -->
+	<xs:annotation>
+		<xs:documentation>
+			These kinds of tagged information contain only other
+			tagged information, but no text.
+        </xs:documentation>
+	</xs:annotation>
+	<xs:element name="correction">
+		<xs:complexType>
+			<xs:all>
+				<xs:element minOccurs="0" ref="deletion" />
+				<xs:element minOccurs="0" ref="insertion" />
+			</xs:all>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="overwrite">
+		<xs:complexType>
+			<xs:all>
+				<xs:element minOccurs="1" maxOccurs="1" ref="under" />
+				<xs:element minOccurs="1" maxOccurs="1" ref="over" />
+			</xs:all>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="variant_group">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="2" maxOccurs="unbounded" ref="variant" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="strikeover">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="2" maxOccurs="unbounded" ref="expansion" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ambiguous">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="2" maxOccurs="unbounded" ref="alternative" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:annotation>
+		<xs:documentation>
+			error added for Koko
+    </xs:documentation>
+	</xs:annotation>
+	<xs:element name="error">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="errorType" />
+				<xs:element minOccurs="1" maxOccurs="1" ref="originalForm" />
+				<xs:element minOccurs="1" maxOccurs="1" ref="targetForm" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+        <xs:annotation>
+		<xs:documentation>
+			over_capitalisation added for text entirely capitalised in Kolipsi 
+    </xs:documentation>
+	</xs:annotation>
+    <xs:element name="over_capitalisation">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="1" ref="originalForm" />
+				<xs:element minOccurs="1" maxOccurs="1" ref="targetForm" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:annotation>
+		<xs:documentation>
+			reduction added for Koko
+    </xs:documentation>
+	</xs:annotation>
+	<xs:element name="reduction">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="reductionType" />
+				<xs:element minOccurs="1" maxOccurs="1" ref="reducedForm" />
+				<xs:element minOccurs="1" maxOccurs="1" ref="unfoldedForm" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:annotation>
+		<xs:documentation>
+			outline added for Koko
+    </xs:documentation>
+	</xs:annotation>
+	<xs:element name="outline">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" maxOccurs="1" ref="outline_As_Text" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="label" />
+				<xs:element minOccurs="0" maxOccurs="unbounded" ref="outline_item" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:annotation>
+		<xs:documentation>
+			outline_item added for Koko
+    </xs:documentation>
+	</xs:annotation>
+	<xs:element name="outline_item">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" maxOccurs="1" ref="item_marker" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="item_content" />
+				<xs:element minOccurs="0" maxOccurs="unbounded" ref="outline_item" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:annotation>
+		<xs:documentation>
+			prelude added for Koko 
+    </xs:documentation>
+	</xs:annotation>
+	<xs:element name="prelude">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" maxOccurs="1" ref="pretitle" />
+				<xs:element minOccurs="1" maxOccurs="1" ref="pretext" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<!-- ********************************************************* -->
+	<xs:annotation>
+		<xs:documentation>
+			These kinds of tagged information can contain both
+			other tagged information and text.
+			The current specification is not restrictive enough, since it allows all
+			of these to self-embed,
+			but many of them do not (e.g. greeting, closing, par, direct_speech)
+		</xs:documentation>
+	</xs:annotation>
+	<xs:element name="entity">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:group minOccurs="0" maxOccurs="unbounded" ref="tags" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="foreign_word">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:group minOccurs="0" maxOccurs="unbounded" ref="tags" />
+			</xs:sequence>
+			<xs:attribute name="foreign_language" type="foreignLanguageType"
+				use="required" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="closing">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:group minOccurs="0" maxOccurs="unbounded" ref="tags" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="greeting">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:group minOccurs="0" maxOccurs="unbounded" ref="tags" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="palimpsest">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:group minOccurs="0" maxOccurs="unbounded" ref="tags" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="insertion">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:group minOccurs="0" maxOccurs="unbounded" ref="tags" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="deletion">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:group minOccurs="0" maxOccurs="unbounded" ref="tags" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="under">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:group minOccurs="0" maxOccurs="unbounded" ref="tags" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="over">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:group minOccurs="0" maxOccurs="unbounded" ref="tags" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="variant">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:group minOccurs="0" maxOccurs="unbounded" ref="tags" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:annotation>
+		<xs:documentation>
+			Expansion, alternative, and variant really only
+			allow a small set of embedded tags,
+			e.g. unreadable, erasure; maybe
+			foreign word, entity
+			They could be redone to be more restrictive, but
+			no harm is done (I think) by allowing
+			them to embed all of "tags".
+		</xs:documentation>
+	</xs:annotation>
+	<xs:element name="expansion">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:group minOccurs="0" maxOccurs="unbounded" ref="tags" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="alternative">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:group minOccurs="0" maxOccurs="unbounded" ref="tags" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="direct_speech">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:group minOccurs="0" maxOccurs="unbounded" ref="tags" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="emphasis">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:group minOccurs="0" maxOccurs="unbounded" ref="tags" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="arrow">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:group minOccurs="0" maxOccurs="unbounded" ref="tags" />
+			</xs:sequence>
+			<xs:attribute name="end" type="arrowEndType" use="required" />
+			<xs:attribute name="id" type="xs:integer" use="required" />
+		</xs:complexType>
+	</xs:element>
+	<xs:annotation />
+	<xs:element name="footnote">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="1" ref="footnote_marker" />
+				<xs:group minOccurs="0" maxOccurs="unbounded" ref="tags" />
+			</xs:sequence>
+			<xs:attribute name="id" type="xs:integer" use="required" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="footnote_marker">
+		<xs:complexType mixed="true">
+			<xs:group minOccurs="0" maxOccurs="unbounded" ref="tags" />
+			<xs:attribute name="id" type="xs:integer" use="required" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="sic">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:group minOccurs="0" maxOccurs="unbounded" ref="tags" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:annotation>
+		<xs:documentation>
+			pretitle added for Koko: title within a prelude
+	</xs:documentation>
+	</xs:annotation>
+	<xs:element name="pretitle">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:group minOccurs="0" maxOccurs="unbounded" ref="tags" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:annotation>
+		<xs:documentation>
+			pretext added for Koko: text within a prelude
+	</xs:documentation>
+	</xs:annotation>
+	<xs:element name="pretext">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:group minOccurs="0" maxOccurs="unbounded" ref="tags" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:annotation>
+		<xs:documentation>
+			title added for Koko
+	</xs:documentation>
+	</xs:annotation>
+	<xs:element name="title">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:group minOccurs="0" maxOccurs="unbounded" ref="tags" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:annotation>
+		<xs:documentation>
+			citation added for Koko
+	</xs:documentation>
+	</xs:annotation>
+	<xs:element name="citation">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:group minOccurs="0" maxOccurs="unbounded" ref="tags" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:annotation>
+		<xs:documentation>
+			originalForm added for Koko
+	</xs:documentation>
+	</xs:annotation>
+	<xs:annotation>
+		<xs:documentation>
+			originalForm should not contain an embedded error
+			tag.
+			They could be redone to be more restrictive, but no harm is done
+			(I think) by allowing
+			them to embed all of "tags".
+        </xs:documentation>
+	</xs:annotation>
+	<xs:element name="originalForm">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:group minOccurs="0" maxOccurs="unbounded" ref="tags" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:annotation>
+		<xs:documentation>
+			reducedForm added for Koko
+	</xs:documentation>
+	</xs:annotation>
+	<xs:annotation>
+		<xs:documentation>
+			following the format for "originalForm" as that it
+			may contain an embedded error tag - although not suggested
+		</xs:documentation>
+	</xs:annotation>
+	<xs:element name="reducedForm">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:group minOccurs="0" maxOccurs="unbounded" ref="tags" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:annotation>
+		<xs:documentation>
+			outline_As_Text added for Koko.
+			It is meant to hold the entire outline as a single text group.
+			In the future the outline structure could be added.
+    </xs:documentation>
+	</xs:annotation>
+	<xs:element name="outline_As_Text">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:group minOccurs="0" maxOccurs="unbounded" ref="tags" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:annotation>
+		<xs:documentation>
+			item_marker added for Koko
+    </xs:documentation>
+	</xs:annotation>
+	<xs:element name="item_marker">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:group minOccurs="0" maxOccurs="1" ref="tags" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:annotation>
+		<xs:documentation>
+			item_content added for Koko 
+    </xs:documentation>
+	</xs:annotation>
+	<xs:element name="item_content">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:group minOccurs="0" maxOccurs="1" ref="tags" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:annotation>
+		<xs:documentation>
+			label added for Koko 
+    </xs:documentation>
+	</xs:annotation>
+	<xs:element name="label">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:group minOccurs="0" maxOccurs="unbounded" ref="tags" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:annotation>
+		<xs:documentation>
+			postscript added for Koko 
+    </xs:documentation>
+	</xs:annotation>
+	<xs:element name="postscript">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:group minOccurs="0" maxOccurs="unbounded" ref="tags" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:annotation>
+		<xs:documentation>
+			
+            
+            added for Koko 
+    </xs:documentation>
+	</xs:annotation>
+	<xs:element name="theme">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:element minOccurs="0" maxOccurs="1" ref="label" />
+				<xs:group minOccurs="0" maxOccurs="unbounded" ref="tags" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<!-- ********************************************************* -->
+	<xs:annotation>
+		<xs:documentation>
+			Some larger bits of the document.
+        </xs:documentation>
+	</xs:annotation>
+	<xs:annotation>
+		<xs:documentation>
+			title and citation added to exercise added for Koko
+			(also outline, prelude, theme)
+			Note that a par after title or citation
+			must
+			either be part of the title/citation
+			or part of the following element.
+			We cannot specifiy par as even an
+			optional separator after title/citation,
+			because they could contain par, which would make the document structure
+			ambiguous
+    </xs:documentation>
+	</xs:annotation>
+	<xs:element name="exercise">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<!-- the schema allows 2 global titles, but we should really only ever 
+					have one -->
+				<xs:element minOccurs="0" maxOccurs="1" ref="title" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="prelude" />
+				<xs:group minOccurs="0" maxOccurs="unbounded" ref="tags" />
+				<!-- for Koko: deleted text before the title -->
+				<xs:element minOccurs="0" maxOccurs="1" ref="title" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="citation" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="theme" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="outline" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="label" />
+				<xs:group minOccurs="0" maxOccurs="unbounded" ref="tags" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="postscript" />
+			</xs:sequence>
+			<xs:attribute name="number" type="xs:integer" use="required" />
+			<xs:attribute fixed="preserve" ref="xml:space" use="required" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="body">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="exercise" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<!-- ********************************************************* -->
+	<xs:annotation>
+		<xs:documentation>
+			The document definition. Metadata at the beginning,
+			then the marked up real content.
+        </xs:documentation>
+	</xs:annotation>
+	<xs:element name="kolipsi_document">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="1" name="transcriber"
+					type="person" />
+				<xs:element minOccurs="1" maxOccurs="1" name="author_id">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<!-- possibly only really an initial N occurs, but we'll allow all 
+								letters, just in case -->
+							<xs:pattern value="[A-Z]?[0-9]+" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element minOccurs="1" maxOccurs="1" name="exam_type"
+					type="examType" />
+				<xs:element minOccurs="1" maxOccurs="1" name="text_language"
+					type="base_language" />
+				<xs:element minOccurs="1" maxOccurs="1" ref="body" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:annotation>
+		<xs:documentation>
+			multi_ko_document is for combining individual exams
+			into a single document
+        </xs:documentation>
+	</xs:annotation>
+	<xs:element name="multi_ko_document">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="kolipsi_document" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

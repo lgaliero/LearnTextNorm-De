@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5033</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><par /><greeting>Hallo liebe <entity>Valeria</entity>,</greeting> <par /><palimpsest>i</palimpsest>ch habe für dich einen <error>
+        <errorType />
+
+        <originalForm>sympatische</originalForm>
+
+        <targetForm>sympathische</targetForm>
+      </error> Situation zu erzählen. Letzte Woche meine Freundin <entity>Maria</entity> war in einem Obst- und Gemüseladen gegangen. Dort sie hat etwas gekauft und sie hat in seine Tasche gelegt. Später <palimpsest>unreadable</palimpsest> wie war im <foreign_word
+        foreign_language="Italiano">Supermarket</foreign_word> gegangen. Im <foreign_word
+        foreign_language="Italiano">Supermarket</foreign_word> sie hat viele andere <error>
+        <errorType />
+
+        <originalForm>sachen</originalForm>
+
+        <targetForm>Sachen</targetForm>
+      </error> gekauft und wenn sie an der Kasse gekommen war <palimpsest>unreadable</palimpsest> die Frau <palimpsest>an</palimpsest> der Kasse <palimpsest>unreadable</palimpsest> glaubt dass <entity>Maria</entity> <correction>
+        <insertion>hat</insertion>
+      </correction> die Gemüse die sie in de<palimpsest>r</palimpsest> Tasche <error>
+        <errorType />
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error>. <entity>Maria</entity> war sehr rot in das Gesicht geworden. Langsam <palimpsest>sie hat</palimpsest> erzählt <palimpsest>dass sie zuerst war in einem Ob</palimpsest>st- Gemüseladen gegangen und dort hat sie die Gemüse gekauft. Zwei Stunde später die Frau an der Kasse lässt sie zu Hause gehen aber zuerst hat sie mit Polizei gesprochen. <par /><error>
+        <errorType />
+
+        <originalForm>Dass</originalForm>
+
+        <targetForm>Das</targetForm>
+      </error> war die letzte <error>
+        <errorType />
+
+        <originalForm>comische</originalForm>
+
+        <targetForm>komische</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>situation</originalForm>
+
+        <targetForm>Situation</targetForm>
+      </error> von <entity>Maria</entity>. <par /><closing>Viele Küssen <entity>Martina</entity>.</closing> </exercise>
+
+    <exercise number="2" xml:space="preserve"><par /><greeting>Liebe <entity>Valeria</entity>,</greeting> <par />wi<palimpsest>r</palimpsest> können eine Urlaub machen. Wi<strikeover>
+        <expansion>r</expansion>
+
+        <expansion>e</expansion>
+      </strikeover> sollen am Meer fahren wo wi<overwrite>
+        <under><unreadable /></under>
+
+        <over>r</over>
+      </overwrite> können die Sonne nehmen, das <error>
+        <errorType />
+
+        <originalForm>bad</originalForm>
+
+        <targetForm>Bad</targetForm>
+      </error> ins Meer machen, und viele <error>
+        <errorType />
+
+        <originalForm>promenade</originalForm>
+
+        <targetForm>Promenade</targetForm>
+      </error> machen. In den Bergen sollen wir auch die Sonne nehmen aber wenn wir warm <correction>
+        <deletion><unreadable /></deletion>
+      </correction> haben wir können keine <error>
+        <errorType />
+
+        <originalForm>bad</originalForm>
+
+        <targetForm>Bad</targetForm>
+      </error> machen, sondern wir können unter eine Baum gehen. In den Bergen gibt es viele frische <error>
+        <errorType />
+
+        <originalForm>luft</originalForm>
+
+        <targetForm>Luft</targetForm>
+      </error> und <error>
+        <errorType />
+
+        <originalForm>konnen</originalForm>
+
+        <targetForm>können</targetForm>
+      </error> <correction>
+        <deletion><unreadable /></deletion>
+      </correction> wir auch <error>
+        <errorType />
+
+        <originalForm>promenade</originalForm>
+
+        <targetForm>Promenade</targetForm>
+      </error> machen. Ich <error>
+        <errorType />
+
+        <originalForm>libe</originalForm>
+
+        <targetForm>liebe</targetForm>
+      </error> mehr das <error>
+        <errorType />
+
+        <originalForm>meer</originalForm>
+
+        <targetForm>Meer</targetForm>
+      </error> weil das Wetter ist immer warm. In <error>
+        <errorType />
+
+        <originalForm>Die</originalForm>
+
+        <targetForm>die</targetForm>
+      </error> Berge ist nicht imme<strikeover>
+        <expansion>r</expansion>
+
+        <expansion>s</expansion>
+      </strikeover> schön weil das Wetter ist manchmal <error>
+        <errorType />
+
+        <originalForm>ca<overwrite>
+            <under><unreadable /></under>
+
+            <over>lt</over>
+          </overwrite></originalForm>
+
+        <targetForm>kalt</targetForm>
+      </error>. Ich <error>
+        <errorType />
+
+        <originalForm>offe</originalForm>
+
+        <targetForm>hoffe</targetForm>
+      </error> dass auch du liebst mehr das Meer und so gehen wir am Meer zusammen. <par /><closing>Viele Grüßen <entity>Martina</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

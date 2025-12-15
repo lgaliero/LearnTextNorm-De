@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0087</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hi, <entity>Linda</entity></greeting>! Wie geht es dir? Ich <palimpsest>schreibe</palimpsest> dir, um zu erzählen, was <palimpsest></palimpsest> meine<palimpsest></palimpsest> Freundin <entity>Maria</entity> letzte Woche im Supermarkt erlebt hat. Sie war zuerst in einem Obst- und Gemüseladen und kaufte dort ein. <correction>
+        <insertion>Eine Stunde später ging sie zum Supermarkt.</insertion>
+      </correction> Ihre Einkaufstasche trug sie im Supermarkt mit. Da hatte sie ein Problem an der Kasse. Du kannst dir vielleicht vorstellen was. Das Obst und Gemüse, welches sie aus dem Obsthändler gekauft hatte, guckte aus ihrer Einkaufstasche raus. Die Kassiererin hielt sie für <sic>ein</sic> Dieb. Sie meinte, dass sie die Polizei rufen werde. <entity>Maria</entity> versuchte ihr zu erklären, dass sie vorher beim Obsthändler war und die Sachen von dort eingekauft hätte. Die Kassiererin glaubte ihr nicht und es hatten sich viele Menschen um <sic>der</sic> Kasse herum <sic>angesammelte<correction>
+          <deletion><unreadable /></deletion>
+        </correction></sic> und schauten zu. Schließlich fiel <entity>Maria</entity> <sic>an</sic>, dass sie <correction>
+        <deletion>ihre</deletion>
+      </correction> den Kassenbon vom Obsthändler noch haben müsste. Anschließend zeigte sie es der <error>
+        <errorType />
+
+        <originalForm>Kassieserin<correction>
+            <deletion><unreadable /></deletion>
+          </correction></originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> und die Sache war erledigt.<par /><par />So, das war es dann für heute. Schreib mir zurück.<par /> <par /><closing>Mit liebevollen Grüßen<par />......</closing>       </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Linda</entity></greeting>,<par />wie geht es dir? Ich schreibe dir um <error>
+        <errorType />
+
+        <originalForm>sicher zu stellen</originalForm>
+
+        <targetForm>sicherzustellen</targetForm>
+      </error>, wo wir beide unseren gemeinsamen Urlaub verbringen sollen. In den Bergen ist es richtig schön. Man kann viel wandern und <sic>Berge steigen</sic>. Eben die schöne Natur erleben. Die Luft ist dort so rein, es ist dort ziemlich ruhig. Es wäre eine gute Gelegenheit <correction>
+        <deletion>s</deletion>
+      </correction> sich von den<palimpsest></palimpsest> alltäglichen Sorgen und Stress <sic>auszuholen</sic>. Aber am Meer ist es auch ziemlich schön. Man kann schwimmen, sich sonnen und natürlich schön braun werden. Nur es wird dort nicht schön ruhig sein. Du kennst das ja. Es ist richtig voll am Strand. Hier kann ich dir auch etwas aus eigener Erfahrung berich<palimpsest>ten</palimpsest>. Letztes Jahr war ich mit meinem Bruder <overwrite>
+        <under>a</under>
+
+        <over>i</over>
+      </overwrite>m Urlaub am Meer. Jedesmal war es richtig voll am Strand und wir f<over>an</over>den kaum Platz um <error>
+        <errorType />
+
+        <originalForm>us</originalForm>
+
+        <targetForm>uns</targetForm>
+      </error> zu sonnen. Aber das kommt natürlich auch darauf an, wo man den Urlaub macht. Ich bin dafür, dass wir unseren Urlaub <sic>an</sic> den Bergen verbringen sollten.<par />Was meinst du?<par />Schreib mir zurück!<par /><closing>Deine ....</closing>     </exercise>
+  </body>
+</kolipsi_document>

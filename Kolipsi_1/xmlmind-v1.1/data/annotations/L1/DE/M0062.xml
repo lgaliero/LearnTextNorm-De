@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0062</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe <entity>Svenja</entity></greeting>,<par />ich habe dir etwas zu erzählen. Meiner Freundin <correction>
+        <insertion><entity>Maria</entity></insertion>
+      </correction> ist vor ein paar Tagen etwas Komisches passiert.<par />Sie war im Gemüseladen Ecke <entity>Lindemannstr.</entity> u. <entity>Neuer Graben</entity> und hat dort ein paar Gemüsesorten eingekauft.<par />Danach ist sie in einen Supermarkt gegangen um noch andere Produkte einzukaufen, die es im Gemüseladen nicht gab.<par />Also ist sie in den Supermarkt gegangen <palimpsest>und</palimpsest> hat noch ein paar Sachen eingekauft. <correction>
+        <deletion>Auf</deletion>
+      </correction> An der Kasse gab es jedoch ein Problem: <entity>Maria</entity> hat die Gemüsesorten die sie im Gemüseladen gekauft hat in ihrer Handtasche transportiert, aber nicht den Kassenbon mitgenommen. Deshalb hat die Kassiererin angenommen sie habe das Gemüse aus dem Supermarkt in ihre Handtasche gesteckt <palimpsest></palimpsest> um es zu klauen. <entity>Maria</entity> konnte <palimpsest></palimpsest> nicht beweisen, dass sie die Produkte aus dem Gemüseladen gekauft hat, weil sie den Kassenbon vergessen hatte.<par />Dann hat <entity>Maria</entity> vorgeschlagen, dass sie zusammen zu dem Gemüseladen gehen und nachfragen ob die Kassiererin im Gemüseladen sich noch an <entity>Maria</entity> erinnern kann, dass sie dort eingekauft hatte.<par />Die Kassiererin aus dem Supermarkt lehnte jedoch ab, weil sie ihren Platz als Kassiererin nicht einfach so verlassen kann.<par />Dann schlug <entity>Maria</entity> vor sich die <correction>
+        <insertion>Bänder der</insertion>
+      </correction> Überwachsungskamera anzuschauen. Dann hat die Kassiererin ihren Chef geholt, damit er <entity>Maria</entity> ins Büro begleitet. <entity>Maria</entity> hat ihm den Vorfall in Ruhe geschildert und hat sich dann das Überwachungsband mit <sic>ihr</sic> zusammen angeguckt. Auf diesem Band ko<overwrite>
+        <under>m</under>
+
+        <over>nn</over>
+      </overwrite>te man sehen, dass <entity>Maria</entity> keine Produkte in ihrer Tasche versteckt hat sondern jedes Produkt, welches sie haben wollte auch ordnungsgemäß in ihren Einkaufwagen gepackt hat. So konnte <entity>Maria</entity> beweisen, dass sie nicht geklaut hat sondern ganz normal eingekauft wie jeder andere auch.<par />Lustig oder? <entity>Maria</entity> hat mir auch noch erzählt, dass sie bei dem Anblick, sich selbst beim Einkaufen zu sehen, anfing zu lachen.<par /><closing>Deine ...</closing>   </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Christina</entity></greeting>,<par /><error>
+        <errorType />
+
+        <originalForm>Wir</originalForm>
+
+        <targetForm>wir</targetForm>
+      </error> haben im Sommer unseren Urlaub geplant, wissen jedoch nicht ganz wohin die Reise gehen soll.<par />Ich habe mich informiert und 2 schöne Orte gefunden. Jedoch sind es zwei wirklich verschiedene <error>
+        <errorType />
+
+        <originalForm>orte</originalForm>
+
+        <targetForm>Orte</targetForm>
+      </error>.<par />Entweder wir fahren in die Berge oder ans Meer.<par />Ich denke beide Orte sind schön und an beiden Orten kann man sehr gut entspannen jedoch sollten wir uns entscheiden ob wir lieber Wandertouren machen, um uns die Kilos von den Rippen zu schlagen oder ob wir faul am Strand liegen und die Sonne auf uns scheinen lassen. Wir beide waren noch nie in den Bergen, deshalb wäre es ein neues Erlebnis und eine neue Erfahrung<palimpsest></palimpsest>, wo wir beide uns selbst ein bisschen besser kennen lernen und auch die Berge etwas besser kennen lernen. Wir werden dort bestimmt auch neue Leute und süße Jungs kennen lernen <emoticon>;)</emoticon>. Ich denke das würde sehr lustig mit uns beiden werden, was jedoch nicht heißt, dass wir am Meer weniger Spaß haben. Denk nur einmal an das Rauschen des Meeres, denk an den Sand und die gute Luft. Wir stehen morgens auf Frühstücken etwas kleines, gehen dann ein paar Minuten zum Strand und verweilen, den ganzen Mittag am Strand. Lernen nette Leute kennen, sowie auch nette Jungs, und gehen am Nachmittag wieder zum Hotel zurück um uns, dann schick für den Abend zu machen.<par />Dann feiern wir bis in die Nacht auf der <error>
+        <errorType />
+
+        <originalForm>Party-meile</originalForm>
+
+        <targetForm>Partymeile</targetForm>
+      </error> und es ist ein angenehmes K<overwrite>
+        <under><unreadable /></under>
+
+        <over>l</over>
+      </overwrite>ima. Nach unserem Urlaub kommen wir <error>
+        <errorType />
+
+        <originalForm>braun-gebrannt</originalForm>
+
+        <targetForm>braun gebrannt</targetForm>
+      </error> und erholt zurück und erinnern uns an eine schöne Zeit.<par />Also überleg es dir gut! Ich denke meine Meinung kennst du zu dem <error>
+        <errorType />
+
+        <originalForm>ganzen</originalForm>
+
+        <targetForm>Ganzen</targetForm>
+      </error> mittlerweile.<par />Schreib mir so schnell wie möglich zurück, ich bin gespannt und freue mich <emoticon>:)</emoticon>!<par /><closing>Deine ...</closing>     </exercise>
+  </body>
+</kolipsi_document>

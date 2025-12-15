@@ -1,0 +1,84 @@
+<body>
+ <page page_number="1" transcanno_page_id="2469">
+  <paragraph class="medium-paragraph" tagcode="1564479246630">
+   <div>
+    Nach
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1553548961562">
+     der
+    </tran_word_insertion_id9>
+    Mittelschule
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553548984426" tran_word_deletion_target="_#_">
+     ich machen
+    </tran_word_deletion_id8>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1553548989464">
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="suchen" tagcode="1553548995699">
+      süchen
+     </orth_error_id12>
+     ich
+    </tran_word_insertion_id9>
+    die
+    <tran_anonymization_id34 class="medium-tran_anonymization_id34" tagcode="1564479246629">
+     Schoolname
+    </tran_anonymization_id34>
+   </div>
+   <div>
+    Schule , und
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="meine" tagcode="1553549031236">
+     maine
+    </orth_error_id12>
+    Traumberuf
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553549026996" tran_word_deletion_target="_#_">
+     die
+    </tran_word_deletion_id8>
+   </div>
+   <div>
+    ist
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1553549053295" tran_foreign_word_language="Italian">
+     Dentista
+    </tran_foreign_word_id13>
+    , warum wann ich war klein
+   </div>
+   <div>
+    ich spiele
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1553549089389" tran_foreign_word_language="Italian">
+     Dentista
+    </tran_foreign_word_id13>
+    mit
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="meine" tagcode="1553549093401">
+     maine
+    </orth_error_id12>
+    Schwester, für
+   </div>
+   <div>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="meine" tagcode="1553549110649">
+     maine
+    </orth_error_id12>
+    Traumberuf ich können
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="studierte" tagcode="1553549128879">
+     stüdierte
+    </orth_error_id12>
+   </div>
+   <div>
+    viele ,
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="ich" tagcode="1553549148081">
+     Ich
+    </orth_error_id12>
+    hat
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553549158133" tran_word_deletion_target="_#_">
+     die
+    </tran_word_deletion_id8>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1553549155330">
+     zum
+    </tran_word_insertion_id9>
+    Säichen
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553549178531" tran_word_deletion_target="_#_">
+     v
+    </tran_word_deletion_id8>
+    viel lernen
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553549175854" tran_correction_original=",">
+     .
+    </tran_word_correction_id25>
+   </div>
+  </paragraph>
+ </page>
+</body>

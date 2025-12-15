@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0178</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Lieber <entity>Emil</entity></greeting>,<par/>mein<correction>
+        <insertion>er</insertion>
+      </correction> <correction>
+        <deletion>heutig</deletion>
+      </correction> Freundin <entity>Maria</entity> ist gestern etwas <error>
+        <errorType/>
+
+        <originalForm>witziges</originalForm>
+
+        <targetForm>Witziges</targetForm>
+      </error> passiert. Wie jeden Montag wollte sie einkaufen fahren. Zuerst besuchte sie den Obst- und Gemüsehändler, bei dem sie auch einiges kaufte. Als sie jedoch bezahlte, vergaß sie den Kassenbon. Das sollte sich auf ihren <correction>
+        <deletion>Ei</deletion>
+      </correction> weiteren Einkauf auswirken. Also ging sie wie geplant in den Supermarkt. Hier kaufte sie ebenfalls ein. <overwrite>
+        <under>s</under>
+
+        <over>S</over>
+      </overwrite>ie trug ihre Obsttüte auf dem Rücken, als sie an der Kasse darauf angesprochen wurde.<par/>Als sie nun nach dem Kassenbon suchte und ihn nicht fand wurde sie panisch. Die Kassiererin verstand ihr Problem jedoch nicht, und rief wegen versuchten Dieb<unreadable/>hls die Polizei. Diese nahm <entity>Maria</entity> mit und verhörte sie. Als sich herausstellte, dass sie lediglich den Kassenbon vergessen hatte, wurde sie freigelassen und ging immer noch unter Schock nach <error>
+        <errorType/>
+
+        <originalForm>hause</originalForm>
+
+        <targetForm>Hause</targetForm>
+      </error>. Diese Geschichte musste ich <sic>ihr</sic> einfach mitteilen.<par/><closing>Dein <entity>Udo</entity></closing>     </exercise>
+
+    
+  </body>
+</kolipsi_document>

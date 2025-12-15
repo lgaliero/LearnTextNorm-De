@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Romy</transcriber>
+
+  <author_id>3362</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe <entity>Serena</entity>,</greeting> wie <palimpsest><sic><error>
+            <errorType />
+
+            <originalForm>ghet´s</originalForm>
+
+            <targetForm>geht´s</targetForm>
+          </error></sic></palimpsest>? <par />Ich gut! Ich volle spreche dir für eine</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Glaia</entity>,</greeting> ich bin sehr glücklich. <error>
+        <errorType />
+
+        <originalForm>wher</originalForm>
+
+        <targetForm>Wenn</targetForm>
+      </error> du kommst mit mir von ein Urlaub in den Bergen oder am Meer. <par />Ich habe zwei <unreadable /> : <par />- in der Bergen es gibt viele Straße ( <entity>Sestieri</entity>) <correction>
+        <insertion>zu spazieren.</insertion>
+      </correction> , viele <sic>Baite</sic> für schlafen und viele Berge für <sic>Söme<correction>
+          <deletion>r</deletion>
+        </correction> </sic> nehmen un<overwrite>
+        <over>d</over>
+
+        <under>t</under>
+      </overwrite> S<overwrite>
+        <over>k</over>
+
+        <under>c</under>
+      </overwrite>ifahren. <par />- an Meer <sic>vie</sic> viele <error>
+        <errorType />
+
+        <originalForm>geschichte</originalForm>
+
+        <targetForm>Geschichte</targetForm>
+      </error> und <sic>gite</sic> am Meer. <par /><closing>Viele <sic>Gruße</sic> <entity>Piazzo Alessandro</entity></closing></exercise>
+  </body>
+</kolipsi_document>

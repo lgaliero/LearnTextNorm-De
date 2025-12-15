@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I14_RIG29DEB</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo Francesca,</greeting><par/>Maria <correction>
+        <deletion>heute</deletion>
+      </correction> die <error>
+        <errorType/>
+
+        <originalForm>letzete</originalForm>
+
+        <targetForm>letzte</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>woche</originalForm>
+
+        <targetForm>Woche</targetForm>
+      </error> <reduction>
+        <reductionType rType="01 contraction"/>
+
+        <reducedForm>geht´s</reducedForm>
+
+        <unfoldedForm>geht es</unfoldedForm>
+      </reduction> in <error>
+        <errorType/>
+
+        <originalForm>supermarkt</originalForm>
+
+        <targetForm>Supermarkt</targetForm>
+      </error> und sie einkaufen, aber eine Stunde später war sie im <foreign_word foreign_language="Italiano">Supermarket</foreign_word> und gab es ein Problem an der Kasse.<par/>Also Maria hat in Supermarkt eine Brot, <error>
+        <errorType/>
+
+        <originalForm>pizza</originalForm>
+
+        <targetForm>Pizza</targetForm>
+      </error>, und <error>
+        <errorType/>
+
+        <originalForm>wasser</originalForm>
+
+        <targetForm>Wasser</targetForm>
+      </error> einkaufen, und die Kösten war 10.00 €. Maria hat zu geben 10 € und die Kasse hat die Resten 5 € geben.<par/>Später Maria auf den Zettel hat gesehen, dass die <error>
+        <errorType/>
+
+        <originalForm>resten</originalForm>
+
+        <targetForm>Resten</targetForm>
+      </error> ist nicht richtig, so Maria geht wieder einmal in <foreign_word foreign_language="Italiano">Supermarket</foreign_word>.<par/>Wenn sie in <foreign_word foreign_language="Italiano">Supermarket</foreign_word>, <correction>
+        <deletion><unreadable/></deletion>
+      </correction> geht <correction>
+        <deletion><unreadable/></deletion>
+      </correction> in die Kasse zu sprachen, aber sie sagt: Kann nicht andere <error>
+        <errorType/>
+
+        <originalForm>geld</originalForm>
+
+        <targetForm>Geld</targetForm>
+      </error> zu geben, weil sie <error>
+        <errorType/>
+
+        <originalForm>waiss</originalForm>
+
+        <targetForm>weiß</targetForm>
+      </error> nicht, Maria sagt die realische.<par/>Maria hat zu gesehen die Zettel, und die Kassieren hat zu sagen: Du hast<par/><closing><error>
+          <errorType/>
+
+          <originalForm>Aufidersehen</originalForm>
+
+          <targetForm>Auf Wiedersehen</targetForm>
+        </error>.</closing></exercise>
+
+    
+  </body>
+</kolipsi_II_document>

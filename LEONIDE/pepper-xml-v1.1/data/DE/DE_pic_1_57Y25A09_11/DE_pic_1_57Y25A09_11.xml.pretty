@@ -1,0 +1,31 @@
+<body>
+ <page page_number="1" transcanno_page_id="177">
+  <paragraph class="medium-paragraph" tagcode="1540420412192">
+   <div>
+    Jacob und Sartorius sehen der Haus von Sartorius Feuer.
+   </div>
+   <div>
+    Sie gehen in der Hause und suchen viele
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="geschafft" tagcode="1540420366662">
+     geschaft
+    </orth_error_id12>
+   </div>
+   <div>
+    Jacob hat
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1540420350430">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1540420401732" tran_word_deletion_target="_#_">
+      *
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1540420354677">
+     *
+    </tran_unreadable_id17>
+    Heft und er macht
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Feuer" tagcode="1540420412191">
+     feuer
+    </orth_error_id12>
+    es.
+   </div>
+  </paragraph>
+ </page>
+</body>

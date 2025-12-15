@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>6401</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Veronica</entity>,</greeting> <par/>wie geht es dir? Es hat wirklich viel Zeit verbracht, seit ich dir geschrieben hatte. Jetzt schreibe ich, um dich zu fragen, ob ich meinen Urlaub mit den Freunden in den Bergen oder am Meer machen soll. Ich brauche einen Rat von dir. <par/>Ich bin der Meinung, dass das Meer schöner als die Berge ist, aber meine Freunde denken es anders. Ich finde, dass das Meer die Möglichkeit <arrow end="open" id="1"> </arrow>sich zu entspannen <arrow end="head" id="1">bietet</arrow>, obwohl dort viele <sic>Lärme</sic> gibt. Im Vergleich zu dem Meer, sind aber die Berge ruhiger. Der Unterschied besteht für mich aus den verschiedenene Aktivitäten, die man dort machen kann. Ich finde, dass man am Meer ein aktives Leben führen kann, ohne unter Stress zu sein; in den Bergen hat man die Möglichkeit in Ruhe zu leben und viel zu denken. An der zweiten Stelle kann man dort auch spazieren gehen und <error>
+        <errorType/>
+
+        <originalForm>friesches</originalForm>
+
+        <targetForm>frisches</targetForm>
+      </error> Luft atmen. Ich kann nicht eine Entscheidung treffen, deshalb brauche ich ein Rat von dir. Sicher bist du im Stande mir zu helfen. <par/>Ich warte auf deine Antwort. Schreib mir bald, <par/><closing><entity>Daniele</entity></closing></exercise>
+  </body>
+</kolipsi_document>

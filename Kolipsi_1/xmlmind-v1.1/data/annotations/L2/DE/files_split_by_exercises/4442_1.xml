@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>4442</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve">
+ <par/><greeting>Liebe <entity>Carola</entity>,</greeting> <par/>wie geht es dir?! Es geht mir sehr gut.<par/>Ich bin sehr <error>
+        <errorType/>
+
+        <originalForm>mude</originalForm>
+
+        <targetForm>müde</targetForm>
+      </error> aber <correction>
+        <deletion>es</deletion>
+      </correction> die Ferien sind sehr sehr neben! In diesen <error>
+        <errorType/>
+
+        <originalForm>letzen</originalForm>
+
+        <targetForm>letzten</targetForm>
+      </error> Woche ich habe viel gelernt und viel mal<correction>
+        <deletion><unreadable/></deletion>
+      </correction> bin ich immer zu Hause geblieben. Aber die positive Dinge ist<correction>
+        <deletion>,</deletion>
+      </correction>, <error>
+        <errorType/>
+
+        <originalForm>das<correction>
+            <deletion>s</deletion>
+          </correction></originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> <entity>Maria</entity> immer mit mir ist!<par/>Sie ist ein <palimpsest>b</palimpsest>isschen verrückt<par/><correction>
+        <deletion>Letzte Woche ist zu einem Obst- und Gemüseladen gegangen und sie hat Kartoffeln, Salat, Tomatos</deletion>
+      </correction> <correction>
+        <deletion>Letzte Woche zwei unser Freunden</deletion>
+      </correction> Letzte Woche haben wir zwei Freunden getroffen und wir haben eine <foreign_word foreign_language="Italiano">cena</foreign_word> erscheint.<par/><entity>Maria</entity> <correction>
+        <deletion>ist</deletion>
+      </correction> musste im Supermarkt ge<strikeover>
+        <expansion>h</expansion>
+
+        <expansion>g</expansion>
+      </strikeover>en zu verkaufen das Essen.<par/>Zuerst ist sie zu einem Obst- Gemüseladen gegangen und sie hat Kartoffeln, Salat, <foreign_word foreign_language="English"><error>
+          <errorType/>
+
+          <originalForm>Tomatos</originalForm>
+
+          <targetForm>Tomatoes</targetForm>
+        </error></foreign_word> gekauft. Sie war so viel <error>
+        <errorType/>
+
+        <originalForm>verruckt</originalForm>
+
+        <targetForm>verrückt</targetForm>
+      </error>, dass sie ihr Taschenmonet vergessen hat.<par/>Eine Stunde später ist sie im Supermarkt gegangen.<par/>Sie hat viele Dinge gekauft aber wenn sie an der Kasse geht, bemerkt sie, dass sie ihr Taschenmonet verloren hat. Die Frau, die <correction>
+        <deletion>im</deletion>
+      </correction> in der Kasse war, ärgert sich. Dann, <entity>Maria</entity> ist nach Hause gegangen, und <correction>
+        <deletion>wenn sie</deletion>
+      </correction> dann geht nochmal im <foreign_word foreign_language="Italiano">Supermarket</foreign_word> mit meinen Geld! Wenn sie hat <correction>
+        <insertion>mich</insertion>
+      </correction> ihre Geschichte erzählen, ich habe gedacht, dass sie verrückt ist! Sie hat viele Sache im <sic>Meind</sic> ...<par/>Aber diese Abend haben wir viel <error>
+        <errorType/>
+
+        <originalForm>spaß</originalForm>
+
+        <targetForm>Spaß</targetForm>
+      </error> gehabt!<par/>Ich hoffe, dass wir <foreign_word foreign_language="Italiano">presto</foreign_word> sehen!<par/><closing>Viele Grüße, <entity>Marta</entity>.</closing> </exercise>
+
+    
+  </body>
+</kolipsi_document>

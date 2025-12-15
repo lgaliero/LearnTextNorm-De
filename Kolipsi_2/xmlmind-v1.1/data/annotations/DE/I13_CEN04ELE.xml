@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I13_CEN04ELE</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe Anna,</greeting> wisst du was Morgen <correction>
+        <insertion>in unsere Stadt</insertion>
+      </correction> passiert ist?<par />Maria, unsere beste <error>
+        <errorType />
+
+        <originalForm>freundin</originalForm>
+
+        <targetForm>Freundin</targetForm>
+      </error> ist im Supermarkt gegangen und hat, wie immer, Obst un Gemüse gekauft. Sie <error>
+        <errorType />
+
+        <originalForm>ißt</originalForm>
+
+        <targetForm>isst</targetForm>
+      </error> gern Obst und Gemüse; aber eine Stunde später immer im Supermarkt ga<correction>
+        <deletion>ß</deletion>
+
+        <insertion>b</insertion>
+      </correction> es ein Problem an der Kasse. Maria hat das Geld in <error>
+        <errorType />
+
+        <originalForm>Gemüsenland</originalForm>
+
+        <targetForm>Gemüseladen</targetForm>
+      </error> <correction>
+        <insertion>an der Kasse</insertion>
+      </correction> (Geschäft, wo sie früher war) vergessen.<par />Maria ist immer ein bisschen komisch gew<correction>
+        <deletion><unreadable /></deletion>
+      </correction>esen, aber wie hat sie das Geld <correction>
+        <deletion>s<unreadable /></deletion>
+      </correction> vergessen?<par />So hat die Kasserin <correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>m</insertion>
+      </correction>it Maria diskutiert, über was sie machen sollte. Maria war auf die <error>
+        <errorType />
+
+        <originalForm>Nervn</originalForm>
+
+        <targetForm>Nerven</targetForm>
+      </error>. Die andere Leute sind schnell bei Maria gelaufen, um die Diskussion zu schauen. Maria, aber, wollte Obst und Gemüse nach Hause bringen, und die Kasserin hat so die Polizei angerufen.<par />Wenn die Polizei bekommen ist, Maria war schon zu Hause ohne Obst und ohne Gemüse. Maria ist sehr brav, <correction>
+        <deletion>e</deletion>
+
+        <insertion>s</insertion>
+      </correction>ie kauft alles nur wenn Geld hat, sonst lasst <correction>
+        <insertion>sie</insertion>
+      </correction> alles dort.<par />Obst und Gemüse sind gesund, aber ohne Geld konnte man sie nicht essen!</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber Paul,</greeting> warum hast du neue Leute im Internet kennengelernt? <correction>
+        <insertion>Und</insertion>
+      </correction> deine Freunde? Wo hast du deine Freunde gelassen?<par />Viele Leute wie dir chatten Tag und Nacht, mit Menschen, <correction>
+        <deletion>dass</deletion>
+
+        <insertion>die nicht</insertion>
+      </correction>  kennen <correction>
+        <deletion>nicht</deletion>
+      </correction> er/sie.<par />Ich chatte <correction>
+        <insertion>fast</insertion>
+      </correction> immer in Blog wie Facebook oder WhatsApp, aber nur mit Menschen, die ich <correction>
+        <insertion>schon</insertion>
+      </correction> kennengelernt habe.<par />Viele Leute <correction>
+        <insertion>die ich nicht kenne</insertion>
+      </correction> schreiben mir in Facebook, aber ich antworte sie nicht. Mit Internet ist nicht mehr <foreign_word
+        foreign_language="Italiano"><correction>
+          <deletion>p</deletion>
+
+          <insertion>P</insertion>
+        </correction>rivacy</foreign_word>.<par />Manchmal ist schön mit den Leuten <correction>
+        <deletion>zu</deletion>
+      </correction> chatten oder schreiben, aber nur wenn sie di<correction>
+        <deletion>ch</deletion>
+
+        <insertion>r</insertion>
+      </correction> interessieren; aber bitte ganz einfach, machst du damit Schluss, löschtest die Nummern alles Personen aus deinem Handy und brachst alle Kontakte ab.<par />Das Mädchen, das du in Chat kennengelernt hast, <correction>
+        <insertion>manchmal</insertion>
+      </correction> kannst sie ein<correction>
+        <deletion>en</deletion>
+      </correction> Junge sein und ein Junge, ein<correction>
+        <deletion>e</deletion>
+      </correction> Mädchen. Diese sind falsche Profile. Ich kann dir nur sagen, dass deine Freunde <correction>
+        <deletion>aus</deletion>
+      </correction> in deiner <error>
+        <errorType />
+
+        <originalForm>Lebe</originalForm>
+
+        <targetForm>Leben</targetForm>
+      </error> <correction>
+        <insertion>dir</insertion>
+      </correction> warteten <correction>
+        <deletion>dir</deletion>
+      </correction> und wollen mit dir <error>
+        <errorType />
+
+        <originalForm>noch<correction>
+            <deletion> </deletion>
+          </correction>wieder</originalForm>
+
+        <targetForm>noch wieder</targetForm>
+      </error> viel lachen und <error>
+        <errorType />
+
+        <originalForm>spaß</originalForm>
+
+        <targetForm>Spaß</targetForm>
+      </error> zu haben.</exercise>
+  </body>
+</kolipsi_II_document>

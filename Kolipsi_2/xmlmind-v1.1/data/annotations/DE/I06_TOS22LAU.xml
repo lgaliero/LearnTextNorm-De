@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I06_TOS22LAU</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe Valentina,</greeting><par /><correction>
+        <insertion>letzte Woche</insertion>
+
+        <deletion>Heute</deletion>
+      </correction> <correction>
+        <deletion>bin ich</deletion>
+
+        <insertion>ist Maria</insertion>
+      </correction> zum <correction>
+        <deletion>Supermarket</deletion>
+
+        <insertion>Obsthändler</insertion>
+      </correction> gegangen und <correction>
+        <deletion>habe</deletion>
+
+        <insertion>hat</insertion>
+      </correction> Obst gekauft. Aber <correction>
+        <deletion>ich habe</deletion>
+
+        <insertion>sie hatte</insertion>
+      </correction> dort den Kassenzettel gelasst. Dann <correction>
+        <deletion>bin ich</deletion>
+
+        <insertion>ist sie</insertion>
+      </correction> zum <foreign_word foreign_language="Italiano">Supermarket</foreign_word> gefahren um ein paar Lebensmittel für <correction>
+        <deletion><unreadable /> morgen <correction>
+            <insertion>ein</insertion>
+          </correction>kaufen</deletion>
+      </correction> der nächste<correction>
+        <deletion>r</deletion>
+
+        <insertion>s</insertion>
+      </correction> Tag einkaufen.<par />Wenn <correction>
+        <deletion>ich</deletion>
+
+        <insertion>sie</insertion>
+      </correction> zur Kassa gewesen <correction>
+        <deletion>bin</deletion>
+
+        <insertion>ist</insertion>
+      </correction>, die Frau hat <correction>
+        <deletion>mich</deletion>
+
+        <insertion>sie</insertion>
+      </correction> gefragt wo <correction>
+        <insertion><correction>
+            <deletion>ich</deletion>
+          </correction></insertion>
+      </correction> <correction>
+        <insertion>sie</insertion>
+      </correction> den Obst gekauft hätte, und <correction>
+        <deletion>ich habe</deletion>
+
+        <insertion>sie hat</insertion>
+      </correction> ihn gesagt dass <correction>
+        <deletion>ich</deletion>
+
+        <insertion>sie</insertion>
+      </correction> es an Obsthändler genommen <correction>
+        <deletion>habe</deletion>
+
+        <insertion>hätte</insertion>
+      </correction>.<par />Sie wollte den Kassenzettel von Obsthändler sehen, <correction>
+        <deletion>abe</deletion>
+      </correction> und <correction>
+        <deletion>ich</deletion>
+      </correction> Marua <correction>
+        <insertion>hat</insertion>
+
+        <deletion>habe</deletion>
+      </correction> es gesucht.<par />Nach <correction>
+        <deletion>ein</deletion>
+      </correction> fünf Minuten finde<correction>
+        <insertion>t</insertion>
+      </correction> <correction>
+        <deletion>ich</deletion>
+
+        <insertion>sie</insertion>
+      </correction> der Kassenzettel noch nicht, so ha<correction>
+        <deletion>b</deletion>
+
+        <insertion>tt</insertion>
+      </correction>e <correction>
+        <deletion>So ich</deletion>
+
+        <insertion>sie</insertion>
+      </correction> den Obst <correction>
+        <deletion>auf</deletion>
+
+        <insertion>in</insertion>
+      </correction> <foreign_word foreign_language="Italiano">Supermarket</foreign_word> gelasst, und <correction>
+        <deletion>binn</deletion>
+
+        <insertion>ist</insertion>
+      </correction> nach Obsthändler gefahren um <correction>
+        <deletion>meiner</deletion>
+
+        <insertion>seiner</insertion>
+      </correction> Kassenzettel suchen und finden.<par />Zum Glück ha<correction>
+        <deletion>be</deletion>
+
+        <insertion>t</insertion>
+      </correction> <correction>
+        <deletion>ich</deletion>
+
+        <insertion>sie</insertion>
+      </correction> es gefunden und an die Frau von <foreign_word
+        foreign_language="Italiano">Supermarket</foreign_word> gegeben.<par />So kann <correction>
+        <deletion>ich</deletion>
+
+        <insertion>sie</insertion>
+      </correction> nach <correction>
+        <deletion>h</deletion>
+
+        <insertion>H</insertion>
+      </correction>ause mit Obst und Lebensmittel <correction>
+        <deletion>gehen.</deletion>
+
+        <insertion>gegangen</insertion>
+      </correction><par />Was für einen <error>
+        <errorType />
+
+        <originalForm>kömischen</originalForm>
+
+        <targetForm>komischen</targetForm>
+      </error> Nachmittag.<par />Also sehen wir uns morgen? Kommst du?<par /><closing>Ich warte auf deine Antwort<par />Liebe Grüße</closing><par />Laura</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo Paul,</greeting><par /><error>
+        <errorType />
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> habe deinen Brief gelesen und ich will dich helfen.<par /><correction>
+        <deletion>In meiner</deletion>
+      </correction> Ich denke dass virtuelle Freundschaften schön sind nur wenn die Freundschaften bleiben. Wenn <correction>
+        <deletion>man</deletion>
+
+        <insertion>die</insertion>
+      </correction> weiter gehen <correction>
+        <deletion>werden</deletion>
+      </correction> werden <correction>
+        <deletion>ein Ri</deletion>
+      </correction> ein<correction>
+        <deletion>e</deletion>
+      </correction> Risiko.<par />Es ist schön ein virtuelle Freund haben, du kannst mit er <correction>
+        <insertion>über <correction>
+            <deletion>a</deletion>
+          </correction><error>
+            <errorType />
+
+            <originalForm><correction>
+                <insertion>A</insertion>
+              </correction>lles</originalForm>
+
+            <targetForm>alles</targetForm>
+          </error></insertion>
+      </correction> sprechen, und <correction>
+        <deletion>ube</deletion>
+      </correction> alle deine Probleme erzählen weil er dich <correction>
+        <insertion>und deine Freunde</insertion>
+      </correction> nicht <correction>
+        <deletion>kenn</deletion>
+      </correction> k<unreadable />nn. <correction>
+        <deletion>E und</deletion>
+      </correction> Aber du musst auch denken dass er nicht <correction>
+        <deletion>was wer</deletion>
+
+        <insertion>was er</insertion>
+      </correction> <correction>
+        <deletion>er</deletion>
+      </correction> sagt ist. Er kann dich <correction>
+        <insertion>sagen</insertion>
+      </correction> dass ein Junge ist aber <correction>
+        <deletion>dan</deletion>
+      </correction> man<correction>
+        <deletion>n</deletion>
+      </correction> kann eine Frau sein. <correction>
+        <deletion>Du kann</deletion>
+      </correction> Du kannst mit diese Personen noch schreiben aber nicht <correction>
+        <deletion>Per</deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>personalle</originalForm>
+
+        <targetForm>personale</targetForm>
+      </error> Situationen, <correction>
+        <deletion>nur</deletion>
+      </correction> und richtige Freunde suchen; weil richtige Freunde <correction>
+        <deletion>sind</deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>konnen</originalForm>
+
+        <targetForm>können</targetForm>
+      </error> bei dir kommen, wenn du Hilfe brauchst, sie <error>
+        <errorType />
+
+        <originalForm>konnen</originalForm>
+
+        <targetForm>können</targetForm>
+      </error> dir <error>
+        <errorType />
+
+        <originalForm>liebe</originalForm>
+
+        <targetForm>Liebe</targetForm>
+      </error> geben, und was ein <correction>
+        <deletion>F</deletion>
+
+        <insertion>v</insertion>
+      </correction>irtuelle Freund dich nicht geben kann.<par /><error>
+        <errorType />
+
+        <originalForm>Ein mal</originalForm>
+
+        <targetForm>Einmal</targetForm>
+      </error> habe ich ein Junge im Internet kennengelernt und wir <correction>
+        <deletion>haben</deletion>
+
+        <insertion>beginnen um</insertion>
+      </correction> schreiben alle Tage zusammen. Ich sage ihm alles was mich passiert und langsam liebe ich <error>
+        <errorType />
+
+        <originalForm>diser</originalForm>
+
+        <targetForm>dieser</targetForm>
+      </error> Jungen. Nach ein paar Monate <correction>
+        <deletion>habe <unreadable /></deletion>
+      </correction> ist meine <correction>
+        <deletion>B</deletion>
+      </correction> beste Freundin Valentina bei mir gekommt und hat mich gesagt dass diese<correction>
+        <deletion>s</deletion>
+
+        <insertion>r</insertion>
+      </correction> Junge seinem Bruder ist: So habe ich nicht mehr mit ihm geschreiben und nicht mehr virtuelle Freundschaften gehabt. So lieber Paul sucht du <correction>
+        <deletion>ei</deletion>
+      </correction> richtige Freunde, die sein die besten.<par /><closing>Liebe Grüße</closing><par />Laura</exercise>
+  </body>
+</kolipsi_II_document>

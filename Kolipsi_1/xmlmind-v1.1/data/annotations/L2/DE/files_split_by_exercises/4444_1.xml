@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>4444</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve">
+ <par/><greeting>Hallo <entity>Denisa</entity>,</greeting> <par/>wie geht es dir? In<palimpsest> </palimpsest> der Schule, passt alles? Habt ihr viel zum studieren? Ich bin sehr müde wegen der Schule, aber zum Glück ist es fast <error>
+        <errorType/>
+
+        <originalForm>vertig</originalForm>
+
+        <targetForm>fertig</targetForm>
+      </error>, fast am Ende. Erinnest du dich meine F<palimpsest>reundin</palimpsest> <entity>Maria</entity>, <palimpsest> </palimpsest>die von meiner Klasse? Na ja, <error>
+        <errorType/>
+
+        <originalForm>troztdem</originalForm>
+
+        <targetForm>trotzdem</targetForm>
+      </error>, gestern hat sie mir telefoniert und hat mir erzählt was ihr im Supermarkt passiert war: <error>
+        <errorType/>
+
+        <originalForm>ich</originalForm>
+
+        <targetForm>Ich</targetForm>
+      </error> werde dich das erzählen. Sie war beim Obsthändler einkaufen gegangen, aber, wenn sie das Obst bezahlt hatte, vergaß sie den <error>
+        <errorType/>
+
+        <originalForm>Kassenzeltel</originalForm>
+
+        <targetForm>Kassenzettel</targetForm>
+      </error>. Später <palimpsest>ist</palimpsest> sie im Superm<overwrite>
+        <under><unreadable/></under>
+
+        <over>a</over>
+      </overwrite>rkt gegangen um die letzten Sachen zu kaufen. Wenn <error>
+        <errorType/>
+
+        <originalForm><correction>
+            <deletion>S</deletion>
+          </correction>ie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> zahlen gegangen ist, hat die <error>
+        <errorType/>
+
+        <originalForm>Kassierin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> ihre Tasche voll Obst und Gemüse gesehen, und hatte gedacht dass <entity>Maria</entity> es gestohlen hat. <entity>Maria</entity> werdet nicht gegl<overwrite>
+        <under><unreadable/></under>
+
+        <over>a</over>
+      </overwrite>ubt weil sie keinen <error>
+        <errorType/>
+
+        <originalForm>Kassenzeltel</originalForm>
+
+        <targetForm>Kassenzettel</targetForm>
+      </error> hatte, deswegen müsste sie die ganze Sachen die sie beim Obsthändler und im Supermarkt gekauft hat dort lassen, noch ein<overwrite>
+        <under>e</under>
+
+        <over>m</over>
+      </overwrite>al zum Obsthändler rennen und <overwrite>
+        <under><unreadable/></under>
+
+        <over>d</over>
+      </overwrite>en Kassenzeltel nehmen. Als sie mir das erzählt hat, habe ich so viel gelacht und an dir gedenken, weil du hast immer mir gesagt dass <error>
+        <errorType/>
+
+        <originalForm>Kassenzelteln</originalForm>
+
+        <targetForm>Kassenzetteln</targetForm>
+      </error> sind nicht <overwrite>
+        <under><unreadable/></under>
+
+        <over>w</over>
+      </overwrite>ichtig um <overwrite>
+        <under>es</under>
+
+        <over>di</over>
+      </overwrite>e zu halten! Hast du es gesehen!? Ich warte eine Antwort von dir.<par/><closing>Tschüss und... halt die <error>
+          <errorType/>
+
+          <originalForm>Kassenzelteln</originalForm>
+
+          <targetForm>Kassenzetteln</targetForm>
+        </error>!<par/>Deine Freundin <entity>Fjori</entity> </closing> </exercise>
+
+    
+  </body>
+</kolipsi_document>

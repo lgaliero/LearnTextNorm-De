@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>4465</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve">
+ <par/><greeting>Hallo!</greeting> Wie geht es dir? Mir geht es gut. Erinnerst du dich an <entity>Maria</entity>? Gestern ist sie beim Obsthändler gegangen und <correction>
+        <deletion><unreadable/></deletion>
+      </correction> sie hat viel Obst und Gemüse gekauft weil sie sehr Hunger hat. Sie hat Tomaten, Kartoffeln, <strikeover>
+        <expansion>G</expansion>
+
+        <expansion>K</expansion>
+      </strikeover>urken, Karotten, <error>
+        <errorType/>
+
+        <originalForm>Zwibeln</originalForm>
+
+        <targetForm>Zwiebeln</targetForm>
+      </error>, <sic>Knoblau</sic> gekauft und dann sie <correction>
+        <deletion><unreadable/></deletion>
+      </correction> hat auch viele Obst gekauft wie Erdbeeren, Birne, Zit<correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>r</insertion>
+      </correction>onen, Orangen, Apfel und Kiwi. Dann sie hat an die Kasse bezahlt und ist später im Supermarkt gegangen. Im Supermarkt hat sie Milch, Zucker, <sic>Eie</sic> weil sie eine <error>
+        <errorType/>
+
+        <originalForm>Küche</originalForm>
+
+        <targetForm>Kuchen</targetForm>
+      </error> machen wollte. Wenn sie gemacht hat ging sie nach die Kasse um die Sachen zu bezahlen, aber sie hat noch in seine Tasche die Obst und Gemüse die sie beim Obsthändler gekauft hat. Die Kassenfrau dachte dass <entity>Maria</entity> die <error>
+        <errorType/>
+
+        <originalForm>Gemuse</originalForm>
+
+        <targetForm>Gemüse</targetForm>
+      </error> von Supermarkt gesto<correction>
+        <insertion>h</insertion>
+      </correction>lt hat und rufte die Polizei an.</exercise>
+
+    
+  </body>
+</kolipsi_document>

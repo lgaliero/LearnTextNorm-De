@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I38_PAG02GRE</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo Carmen,</greeting><par />wie <correction>
+        <deletion>heißt du?</deletion>
+      </correction> geht es dir?<par />Ich schreibe dir um eine Erfahrung <correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>d</insertion>
+      </correction>ir zu erzählen.<par />Gestern <correction>
+        <deletion>wan</deletion>
+      </correction> <correction>
+        <deletion>wa</deletion>
+
+        <insertion>h</insertion>
+      </correction>at <error>
+        <errorType />
+
+        <originalForm>maria</originalForm>
+
+        <targetForm>Maria</targetForm>
+      </error> (meine Freundin) eingekauft und sie hat Obst und Gemüse und auch Brot gekauft. Dann <correction>
+        <deletion>ging sie</deletion>
+      </correction> ist sie im <foreign_word foreign_language="Italiano">Supermarket</foreign_word> gegangen weil er andere <error>
+        <errorType />
+
+        <originalForm>sache</originalForm>
+
+        <targetForm>Sache</targetForm>
+      </error> kaufen muss.<par />Aber wenn sie <error>
+        <errorType />
+
+        <originalForm>bezählt</originalForm>
+
+        <targetForm>bezahlt</targetForm>
+      </error> hat, gab es ein Problem: <error>
+        <errorType />
+
+        <originalForm><correction>
+            <deletion>D</deletion>
+
+            <insertion>d</insertion>
+          </correction>ie</originalForm>
+
+        <targetForm>Die</targetForm>
+      </error> Kassiererin <correction>
+        <deletion>hat</deletion>
+      </correction> hat die Obst und die <error>
+        <errorType />
+
+        <originalForm>Gemuse</originalForm>
+
+        <targetForm>Gemüse</targetForm>
+      </error> von andere <error>
+        <errorType />
+
+        <originalForm>Geschaft</originalForm>
+
+        <targetForm>Geschäft</targetForm>
+      </error> gesehen und sie denkte dass Maria im <foreign_word
+        foreign_language="Italiano">Supermarket</foreign_word> gesteht hatte.<par />So Maria war sehr traurig und sie hat den Kassenzettel zur Kassiererin <error>
+        <errorType />
+
+        <originalForm>gezeicht</originalForm>
+
+        <targetForm>gezeigt</targetForm>
+      </error>.<par />Maria war sehr ver<correction>
+        <insertion>z</insertion>
+      </correction>weifelt weil es nie ihr passiert. Ich weiß dass Maria eine <correction>
+        <deletion>scho</deletion>
+      </correction> nette und einfache Person ist und sie ist nicht eine Räuber!<par />Das war eine schlechte Erfahrung und niemand sollte es probieren. Aber am Ende <correction>
+        <deletion>all</deletion>
+      </correction> ist alles <correction>
+        <deletion><unreadable /></deletion>
+      </correction> gelösen!<par />Hast du nie etwas wie diese<correction>
+        <deletion>r</deletion>
+      </correction> Erfahrung probiert? Wie reagierst du? Ich will nicht es <correction>
+        <insertion>an</insertion>
+      </correction>denken <correction>
+        <deletion>an</deletion>
+      </correction>! Ich sollte nußnen!<par />Ich hoffe dass <correction>
+        <deletion>du</deletion>
+
+        <insertion>es dir</insertion>
+      </correction> gut ist und wir sehen uns bald!<par /><correction>
+        <deletion>Ich <unreadable /></deletion>
+      </correction><par /><closing>Viele liebe Grüßen,</closing><par />Greta</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo Paul,</greeting><par />ich habe deinen Brief gelesen und ich möchte di<correction>
+        <deletion>ch</deletion>
+
+        <insertion>r</insertion>
+      </correction> <correction>
+        <deletion>sag</deletion>
+      </correction> etwas sagen:<par />Virtuelle Freundschaften <correction>
+        <deletion>sind <unreadable /></deletion>
+      </correction> helfen um neue Leute kennenzulernen aber manchmal sind sie <error>
+        <errorType />
+
+        <originalForm>gefärlich</originalForm>
+
+        <targetForm>gefährlich</targetForm>
+      </error>. <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Man will sich nur ein wenig unterhalten aber ich glaube dass die <error>
+        <errorType />
+
+        <originalForm>Beste</originalForm>
+
+        <targetForm>beste</targetForm>
+      </error> Freunds<correction>
+        <deletion>n</deletion>
+
+        <insertion>c</insertion>
+      </correction>haft sind wenn du ein Mensch in d<correction>
+        <deletion>ie</deletion>
+
+        <insertion>en</insertion>
+      </correction> Augen schauen kann. Mit dem Chatten, <error>
+        <errorType />
+
+        <originalForm>rieskt</originalForm>
+
+        <targetForm>riskt</targetForm>
+      </error> man mit Realität Kontakt zu verloren, und du hast es probiert! Du musst wahre Freunde finden und verstehen dass, das Leben ist nicht hinter ein<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>em</insertion>
+      </correction> Computer!<par />Jetzt sollst du <correction>
+        <insertion>dich</insertion>
+      </correction> vom Chatten freiheiten und haben Spaß mit <error>
+        <errorType />
+
+        <originalForm>Reale</originalForm>
+
+        <targetForm>reale</targetForm>
+      </error> Mensch d<correction>
+        <deletion>er</deletion>
+
+        <insertion>ie</insertion>
+      </correction> du <error>
+        <errorType />
+
+        <originalForm>wirchlick</originalForm>
+
+        <targetForm>wirklich</targetForm>
+      </error> <correction>
+        <deletion>k</deletion>
+
+        <insertion>g</insertion>
+      </correction>ekannt. Du hast eine <error>
+        <errorType />
+
+        <originalForm>Schwierige</originalForm>
+
+        <targetForm>schwierige</targetForm>
+      </error> Situation zu lösen. Du sollst spazieren gehen und reden mit deinen Eltern und beginnen mit Zeit ein neues Leben mit neue Werte. Du musst zufrieden <correction>
+        <deletion>finden</deletion>
+
+        <insertion>sein</insertion>
+      </correction>! <correction>
+        <deletion>um</deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>wie</originalForm>
+
+        <targetForm>Wie</targetForm>
+      </error> du bist!<par />Ich hatte auch eine schlechte Erfahrung mit "So<correction>
+        <deletion>z</deletion>
+
+        <insertion>c</insertion>
+      </correction>ial Network". Viele Menschen von meiner Schule haben mich Arm gen<correction>
+        <deletion>ehmen</deletion>
+
+        <insertion>ommen</insertion>
+      </correction> als ich 13 Jahre war und ich habe viel geleidet. Der Kraft des Internets <correction>
+        <deletion>ha</deletion>
+      </correction> ist ohne <error>
+        <errorType />
+
+        <originalForm>grenze</originalForm>
+
+        <targetForm>Grenze</targetForm>
+      </error>: aber wir müssen lernen <correction>
+        <deletion>und</deletion>
+      </correction> wenn es <correction>
+        <deletion>g</deletion>
+      </correction> benützen und wie es benützen.<par />Jetzt benütze ich Internet mit Moderation und <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Intelligenz.<par />Das ist alles! <error>
+        <errorType />
+
+        <originalForm>mit</originalForm>
+
+        <targetForm>Mit</targetForm>
+      </error> Zeit fühlst du dich besser!<par /><closing>Viele liebe Grüßen,</closing><par />Greta </exercise>
+  </body>
+</kolipsi_II_document>

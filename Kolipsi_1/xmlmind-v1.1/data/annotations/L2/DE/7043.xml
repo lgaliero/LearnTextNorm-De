@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>N7043</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><par /><greeting>Hoi <entity>Very</entity>,</greeting> wie gehet es <error>
+        <errorType />
+
+        <originalForm>dier</originalForm>
+
+        <targetForm>dir</targetForm>
+      </error>? Ich muss <error>
+        <errorType />
+
+        <originalForm>dier</originalForm>
+
+        <targetForm>dir</targetForm>
+      </error> unbedingt sagen was heute <palimpsest>es ist mir</palimpsest> passiert. Heute <palimpsest>unreadable</palimpsest> <entity>Maria</entity>, meine Nachbarin. <palimpsest>unreadable</palimpsest> <palimpsest>hat beim</palimpsest> <error>
+        <errorType />
+
+        <originalForm>Obsthandler</originalForm>
+
+        <targetForm>Obsthändler</targetForm>
+      </error> viele <error>
+        <errorType />
+
+        <originalForm>Gemuse</originalForm>
+
+        <targetForm>Gemüse</targetForm>
+      </error> und Obst <palimpsest>gek</palimpsest>auft. <palimpsest>unreadable</palimpsest> <error>
+        <errorType />
+
+        <originalForm>Danacht</originalForm>
+
+        <targetForm>Danach</targetForm>
+      </error> sie ist bei meiner <foreign_word foreign_language="Italiano">Supermarket</foreign_word> gekommen und hat viele <error>
+        <errorType />
+
+        <originalForm>produkte</originalForm>
+
+        <targetForm>Produkte</targetForm>
+      </error> gekauft und <error>
+        <errorType />
+
+        <originalForm>wen</originalForm>
+
+        <targetForm>wenn</targetForm>
+      </error> sie <palimpsest>an</palimpsest> der Kasse <error>
+        <errorType />
+
+        <originalForm>get</originalForm>
+
+        <targetForm>geht</targetForm>
+      </error>, dort gab eine Problem. <entity>Dora</entity>, die <error>
+        <errorType />
+
+        <originalForm>Verkeuferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error>, hat die <error>
+        <errorType />
+
+        <originalForm>Gemuse</originalForm>
+
+        <targetForm>Gemüse</targetForm>
+      </error> und der Obst, in unsere <error>
+        <errorType />
+
+        <originalForm>tasche</originalForm>
+
+        <targetForm>Tasche</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>geseen</originalForm>
+
+        <targetForm>gesehen</targetForm>
+      </error> und hat gedacht dass sie <error>
+        <errorType />
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hat. <entity>Maria</entity> hat der <error>
+        <errorType />
+
+        <originalForm>Kassenzeteln</originalForm>
+
+        <targetForm>Kassenzettel</targetForm>
+      </error> bei der <error>
+        <errorType />
+
+        <originalForm>Obsthand<hyphen>-</hyphen>ler</originalForm>
+
+        <targetForm>Obsthändler</targetForm>
+      </error> und hatte keine <error>
+        <errorType />
+
+        <originalForm>bevaise</originalForm>
+
+        <targetForm>Beweise</targetForm>
+      </error> <palimpsest>aber <entity>Dora</entity> </palimpsest> <error>
+        <errorType />
+
+        <originalForm>wen</originalForm>
+
+        <targetForm>wenn</targetForm>
+      </error> hat der <error>
+        <errorType />
+
+        <originalForm><palimpsest>ta</palimpsest>sche</originalForm>
+
+        <targetForm>Tasche</targetForm>
+      </error> mit der <error>
+        <errorType />
+
+        <originalForm>name</originalForm>
+
+        <targetForm>Name</targetForm>
+      </error> von der <error>
+        <errorType />
+
+        <originalForm>Obsthandler</originalForm>
+
+        <targetForm>Obsthändler</targetForm>
+      </error>, hat sie <error>
+        <errorType />
+
+        <originalForm>geglaupt</originalForm>
+
+        <targetForm>geglaubt</targetForm>
+      </error> dass sie nicht <error>
+        <errorType />
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hat. <correction>
+        <deletion><unreadable /></deletion>
+      </correction> <entity> Dora</entity> um zu entschuldige hat ein <overwrite>
+        <under>g</under>
+
+        <over>G</over>
+      </overwrite>utschein <correction>
+        <deletion>von</deletion>
+      </correction> zu 10 &#8364; geschenkt. <par /><entity>Very</entity> ich gehe schlafen, <closing>bis morgen!</closing> </exercise>
+
+    <exercise number="2" xml:space="preserve"><par /><greeting>Hallo <entity>Vale</entity>,</greeting> wie gehet es <error>
+        <errorType />
+
+        <originalForm>dier</originalForm>
+
+        <targetForm>dir</targetForm>
+      </error>? <par />Was sollen machen in diese Sommer? Ich habe gedenkt <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>wier</originalForm>
+
+        <targetForm>wir</targetForm>
+      </error> in Meer oder in Berg gehen. In die Berge ist viele <error>
+        <errorType />
+
+        <originalForm><palimpsest>ru</palimpsest>he</originalForm>
+
+        <targetForm>Ruhe</targetForm>
+      </error>, viele Tiere, kann man viele spazieren, die <error>
+        <errorType />
+
+        <originalForm>Kuche</originalForm>
+
+        <targetForm>Küche</targetForm>
+      </error> ist <error>
+        <errorType />
+
+        <originalForm>seher</originalForm>
+
+        <targetForm>sehr</targetForm>
+      </error> gut und die <error>
+        <errorType />
+
+        <originalForm>gerichte</originalForm>
+
+        <targetForm>Gerichte</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>seher</originalForm>
+
+        <targetForm>sehr</targetForm>
+      </error> groß. Ich habe eine <error>
+        <errorType />
+
+        <originalForm>schone</originalForm>
+
+        <targetForm>schöne</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>hotel</originalForm>
+
+        <targetForm>Hotel</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm><palimpsest>gesh</palimpsest>en</originalForm>
+
+        <targetForm>gesehen</targetForm>
+      </error>, <error>
+        <errorType />
+
+        <originalForm>gegenuber</originalForm>
+
+        <targetForm>gegenüber</targetForm>
+      </error> die <error>
+        <errorType />
+
+        <originalForm>Geschefte</originalForm>
+
+        <targetForm>Geschäfte</targetForm>
+      </error> <palimpsest>der <error>
+          <errorType />
+
+          <originalForm>sthat</originalForm>
+
+          <targetForm>Stadt</targetForm>
+        </error></palimpsest> <error>
+        <errorType />
+
+        <originalForm>heist</originalForm>
+
+        <targetForm>heißt</targetForm>
+      </error> <entity>St. Moritz</entity>, ist ein <error>
+        <errorType />
+
+        <originalForm>bissien</originalForm>
+
+        <targetForm>bisschen</targetForm>
+      </error> teuer. <palimpsest>Am</palimpsest> Meer ist viele <error>
+        <errorType />
+
+        <originalForm>spaß</originalForm>
+
+        <targetForm>Spaß</targetForm>
+      </error>, viele <error>
+        <errorType />
+
+        <originalForm>leute</originalForm>
+
+        <targetForm>Leute</targetForm>
+      </error>, <error>
+        <errorType />
+
+        <originalForm><palimpsest>disko</palimpsest>s</originalForm>
+
+        <targetForm>Diskos</targetForm>
+      </error>. Die <error>
+        <errorType />
+
+        <originalForm>Kuche</originalForm>
+
+        <targetForm>Küche</targetForm>
+      </error> ist <error>
+        <errorType />
+
+        <originalForm>seher</originalForm>
+
+        <targetForm>sehr</targetForm>
+      </error> gut und ist viel Fisch. Ich habe <correction>
+        <deletion>Ich</deletion>
+      </correction> keine <error>
+        <errorType />
+
+        <originalForm>hotel</originalForm>
+
+        <targetForm>Hotel</targetForm>
+      </error> <palimpsest>gehesen</palimpsest>. <par />Ruft mir morgen und sprechen.</exercise>
+  </body>
+</kolipsi_document>

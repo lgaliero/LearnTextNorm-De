@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5551</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Liebe <entity>Susi</entity>,</greeting> <par/>wie geht es dir? Mi<overwrite>
+        <over>r</over>
+
+        <under>e</under>
+      </overwrite> alles ok… <error>
+        <errorType/>
+
+        <originalForm>weisst</originalForm>
+
+        <targetForm>Weißt</targetForm>
+      </error> du was <palimpsest>letzte Woche meiner Freundin</palimpsest> <entity>Maria</entity> passiert ist? Also, sie war einkaufen, zuerst in einem Obst- und Gemüseladen, und später in einem Super<hyphen>-</hyphen>markt. Als sie aber in Obst- und Gemüseladen bezahlt hatte, hat sie den Kassenzettel bei der Kassa vergessen. <par/>Mit dem Obst und Gemüse in der Tasche ist sie <palimpsest>in</palimpsest> Supermarkt einkaufen gegangen; aber wenn sie bezahlen wollte, fragte <palimpsest>die Verkäuferin</palimpsest> woher hatte sie <palimpsest>alles was</palimpsest> sich in ihrer Tasche <error>
+        <errorType/>
+
+        <originalForm>brfand</originalForm>
+
+        <targetForm>befand</targetForm>
+      </error>. <entity>Maria</entity> <error>
+        <errorType/>
+
+        <originalForm>erklährte</originalForm>
+
+        <targetForm>erklärte</targetForm>
+      </error> der Verkäuferin, dass sie vor<hyphen>-</hyphen>her in einem anderen Laden gewesen war wo sie das Obst und Gemüse gekauft hatte, aber das <error>
+        <errorType/>
+
+        <originalForm>Freulein</originalForm>
+
+        <targetForm>Fräulein</targetForm>
+      </error> glaubte ihr nicht, da meine Freundin keinen Kassenzettel mit hatte. Die Verkäuferin wollte die Polizei anrufen, aber zum <error>
+        <errorType/>
+
+        <originalForm>Gluck</originalForm>
+
+        <targetForm>Glück</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>viel</originalForm>
+
+        <targetForm>fiel</targetForm>
+      </error> <entity>Maria</entity> ein dass sie auch eine Art <error>
+        <errorType/>
+
+        <originalForm>Tropisches</originalForm>
+
+        <targetForm>tropisches</targetForm>
+      </error> Frucht gekauft hatte das es in Supermarkt nicht gibt und, dass der Salat nicht eingepackt war (wie der von Supermarkt); aus diesen Gründen ist am Ende alles gut gegangen und <entity>Maria</entity> hat gelernt, dass man immer den Kassenzettel mit<hyphen>-</hyphen>nehmen soll! <par/><closing>Liebe Grüße, <entity>Katia</entity> </closing> </exercise>
+
+    
+  </body>
+</kolipsi_document>

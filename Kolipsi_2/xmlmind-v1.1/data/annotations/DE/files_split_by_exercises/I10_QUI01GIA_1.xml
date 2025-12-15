@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I10_QUI01GIA</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Lieber Jonas<par/>Hallo Jonas,</greeting> wie geht's dir? Bei mir und meiner Familie ist alles perfekt, ich habe dir eine <error>
+        <errorType/>
+
+        <originalForm>e-mail</originalForm>
+
+        <targetForm>E-Mail</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>geschikt</originalForm>
+
+        <targetForm>geschickt</targetForm>
+      </error> um dir zu erzählen, was meiner Freundin Maria passiert ist.<par/>Letzte Woche ist sie einkaufen gegangen, wie immer hat sie zuerst was beim Obständer gekauft, Salat, Tomaten und so weiter. Sie ist <correction>
+        <deletion>bei</deletion>
+
+        <insertion>zu</insertion>
+      </correction> der Kasse gegangen, alles bezahlt, <correction>
+        <deletion><unreadable/></deletion>
+      </correction> aber sie hat etwas <error>
+        <errorType/>
+
+        <originalForm>wichtiges</originalForm>
+
+        <targetForm>Wichtiges</targetForm>
+      </error> vergessen, ihre Kassenzettel. Eine Stunde später war sie im Supermarkt, um die letzten Sachen zu kaufen. Der Wagen war komplett voll, <error>
+        <errorType/>
+
+        <originalForm>riesen</originalForm>
+
+        <targetForm>Riesen</targetForm>
+      </error> viele Nahrungsmittel hat sie gekauft<correction>
+        <deletion>, Morgen hat</deletion>
+
+        <insertion>am nächsten Tag wurde</insertion>
+      </correction> sie Gäste zu Hause <correction>
+        <insertion>haben</insertion>
+      </correction> und sie musste gar nichts vergessen. Sie <correction>
+        <deletion>geht</deletion>
+
+        <insertion>ging</insertion>
+      </correction> langsam zu der Kasse, und <error>
+        <errorType/>
+
+        <originalForm>bezählte</originalForm>
+
+        <targetForm>bezahlte</targetForm>
+      </error> alles, sie hat nichts vergessen, unmöglich! Aber sie hatte eine andere Tasche mit Gemüse in der Hand, die nicht bezahlt hat, weil die in einen anderen Laden gekauft hat. Die Frau dachte, dass es geklaut <correction>
+        <deletion>hätte</deletion>
+
+        <insertion>war</insertion>
+      </correction>, weil sie keine Kassenzettel hatte. Zum Glück glaubt die Frau an Maria und endlich konnte sie wieder zu Hause gehen.<par/>Komisch oder!?<par/><closing>Viele Grüße Jonas, bis bald</closing><par/>Jack</exercise>
+
+    
+  </body>
+</kolipsi_II_document>

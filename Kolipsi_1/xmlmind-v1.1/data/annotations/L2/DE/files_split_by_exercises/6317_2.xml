@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>6317</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><par/><greeting>Hallo <entity>Stefy</entity>!</greeting> <par/>Wie geht es dir? <error>
+        <errorType/>
+
+        <originalForm>hier</originalForm>
+
+        <targetForm>Hier</targetForm>
+      </error> alles gut. <par/>Ich habe kaum <error>
+        <errorType/>
+
+        <originalForm>aufgehort</originalForm>
+
+        <targetForm>aufgehört</targetForm>
+      </error> unsere Urlaub zu entschei<overwrite>
+        <under><unreadable/></under>
+
+        <over>de</over>
+      </overwrite>n, und ich habe zwei schön Urlaub gefindet: Erste ist in den Berg. Hier wir <error>
+        <errorType/>
+
+        <originalForm>konnen</originalForm>
+
+        <targetForm>können</targetForm>
+      </error>: viele Spazieren machen, sie entspannen, sich sonnen, <error>
+        <errorType/>
+
+        <originalForm>trakking</originalForm>
+
+        <targetForm>Tracking</targetForm>
+      </error> machen, und so weiter. <correction>
+        <deletion>In</deletion>
+      </correction> <overwrite>
+        <under>z</under>
+
+        <over>Z</over>
+      </overwrite>weite Urlaub, <palimpsest>aber</palimpsest>, <palimpsest>ist am</palimpsest> Meer<palimpsest>, auch</palimpsest> hier wir <error>
+        <errorType/>
+
+        <originalForm>komen</originalForm>
+
+        <targetForm>können</targetForm>
+      </error>: sich sonnen, <error>
+        <errorType/>
+
+        <originalForm>s<palimpsest>paß</palimpsest></originalForm>
+
+        <targetForm>Spaß</targetForm>
+      </error> haben, spiele in die Wasser und so weiter. In jeden Fall bin sicher <overwrite>
+        <under><unreadable/></under>
+
+        <over>d</over>
+      </overwrite>as wir <error>
+        <errorType/>
+
+        <originalForm>spaß</originalForm>
+
+        <targetForm>Spaß</targetForm>
+      </error> haben. <par/>Ich erwarten ihr <error>
+        <errorType/>
+
+        <originalForm>antwort</originalForm>
+
+        <targetForm>Antwort</targetForm>
+      </error>. <par/><closing>Bussi.</closing> </exercise>
+  </body>
+</kolipsi_document>

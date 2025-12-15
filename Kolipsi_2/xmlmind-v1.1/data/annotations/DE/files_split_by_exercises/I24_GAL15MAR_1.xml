@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I24_GAL15MAR</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve">Maria hat Gemüse und <correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>O</insertion>
+      </correction>bst gekauft und sie hat<correction>
+        <deletion><unreadable/></deletion>
+      </correction> den Kassenzettel ve<correction>
+        <insertion>r</insertion>
+      </correction>gessen.<par/>Später <correction>
+        <deletion>Maria</deletion>
+      </correction> ist Maria in einem<correction>
+        <deletion><unreadable/></deletion>
+      </correction> Supermarkt gegangen, weil sie <correction>
+        <deletion>de<unreadable/></deletion>
+      </correction> das Brot kaufen wollen. Wen<correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>n</insertion>
+      </correction> das Moment zu <error>
+        <errorType/>
+
+        <originalForm>be<correction>
+            <deletion><unreadable/></deletion>
+
+            <insertion>z</insertion>
+          </correction>halen</originalForm>
+
+        <targetForm>bezahlen</targetForm>
+      </error> ist, hat<correction>
+        <deletion>te</deletion>
+      </correction> Maria viel Problem weil, die Frau an die Kasse, denkt <correction>
+        <deletion>dass</deletion>
+      </correction> die Gemüse und Obst war nicht an andere Shop gekauft.  Maria sagt dass sie <correction>
+        <deletion><unreadable/></deletion>
+      </correction> die <correction>
+        <deletion>o</deletion>
+
+        <insertion>O</insertion>
+      </correction>bst in die Gemüseladen gekaufen hat, aber die Frau war sicher dass es war nicht so.<par/><correction>
+        <deletion>Und</deletion>
+      </correction> Dann hat Maria <error>
+        <errorType/>
+
+        <originalForm>zwei mal</originalForm>
+
+        <targetForm>zweimal</targetForm>
+      </error> d<correction>
+        <deletion>ie</deletion>
+
+        <insertion>as</insertion>
+      </correction> Ob<correction>
+        <deletion>e</deletion>
+
+        <insertion>s</insertion>
+      </correction>t gekauft, weil sie den Kassenzettel<correction>
+        <deletion>, dass zeigt</deletion>
+      </correction> vergessen hat.</exercise>
+
+    
+  </body>
+</kolipsi_II_document>

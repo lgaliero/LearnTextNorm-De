@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I29_MAR01FAB</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo Steffy,</greeting><par /><error>
+        <errorType />
+
+        <originalForm>Wie</originalForm>
+
+        <targetForm>wie</targetForm>
+      </error> geht's? Sie wissen, <error>
+        <errorType />
+
+        <originalForm>waz</originalForm>
+
+        <targetForm>was</targetForm>
+      </error> passiert ist die andere in der <error>
+        <errorType />
+
+        <originalForm>Wöche</originalForm>
+
+        <targetForm>Woche</targetForm>
+      </error>?<par />Meine Freundin Maria war der Obsthändler um die Einkäufe zu erledigen gewesen.<par />Während <error>
+        <errorType />
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> das Einkaufs hat die Kassenbon im einer Abteilungen vergersen. <par />Maria hatte <error>
+        <errorType />
+
+        <originalForm>icht</originalForm>
+
+        <targetForm>nicht</targetForm>
+      </error> bemerkt, vergersen zu haben,und <error>
+        <errorType />
+
+        <originalForm>fuhrfort</originalForm>
+
+        <targetForm>fuhr fort</targetForm>
+      </error>, die Einkäufe zu erledigen, gehen... In den Supermarkt. Nach der Einnahme, <error>
+        <errorType />
+
+        <originalForm>vas</originalForm>
+
+        <targetForm>was</targetForm>
+      </error> nötig war, sie hat begann, an die Kasse gehen, um zu zahlen.<par />Die <error>
+        <errorType />
+
+        <originalForm>Kassieren</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error>, bevor sie <error>
+        <errorType />
+
+        <originalForm>Maia</originalForm>
+
+        <targetForm>Maria</targetForm>
+      </error> bezahlen lasste <error>
+        <errorType />
+
+        <originalForm>fagte</originalForm>
+
+        <targetForm>fragte</targetForm>
+      </error> sie den Kassebon. Sie sagte nein.<par />Maria beschleiß<correction>
+        <deletion>e</deletion>
+      </correction>, um der Obsthändler <error>
+        <errorType />
+
+        <originalForm>oehen</originalForm>
+
+        <targetForm>gehen</targetForm>
+      </error>, um zu sehen, ob den Kassenbon gab.<par /><error>
+        <errorType />
+
+        <originalForm>Maia</originalForm>
+
+        <targetForm>Maria</targetForm>
+      </error> nahm die Kassenbon und <error>
+        <errorType />
+
+        <originalForm>gehzte</originalForm>
+
+        <targetForm>gehte</targetForm>
+      </error> nach Hause mit den Einkaufs.<par /> <par /> <par /><closing>Grüße</closing> Fabiola <par /> <par />Bis <error>
+        <errorType />
+
+        <originalForm>holb</originalForm>
+
+        <targetForm>bald</targetForm>
+      </error></exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo Paul,</greeting><par /><error>
+        <errorType />
+
+        <originalForm>Wie</originalForm>
+
+        <targetForm>wie</targetForm>
+      </error> geht's? <comment>An dieser Stelle wird die Aufgabe 2 abgebrochen</comment></exercise>
+  </body>
+</kolipsi_II_document>

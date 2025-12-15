@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>N7000</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting><foreign_word foreign_language="English">Dear</foreign_word> <entity>Maarian</entity>,</greeting> <par/>Wie <error>
+        <errorType/>
+
+        <originalForm>geats</originalForm>
+
+        <targetForm>geht's</targetForm>
+      </error>? <error>
+        <errorType/>
+
+        <originalForm>all<correction>
+            <insertion>e</insertion>
+          </correction>s</originalForm>
+
+        <targetForm>Alles</targetForm>
+      </error> gut? Ich schreib dich, weil ich wollte dir etwas fragen: <error>
+        <errorType/>
+
+        <originalForm>du</originalForm>
+
+        <targetForm>Du</targetForm>
+      </error> bist in Indonesien und auch in <error>
+        <errorType/>
+
+        <originalForm>Norvegen</originalForm>
+
+        <targetForm>Norwegen</targetForm>
+      </error> gegangen oder? Weil ich muss eine Urlaub machen, aber ich weißt nicht welche von den zwei Plätze besser ist! <error>
+        <errorType/>
+
+        <originalForm>Normalerwaiße</originalForm>
+
+        <targetForm>Normalerweise</targetForm>
+      </error> gehe ich immer <overwrite>
+        <over>a</over>
+
+        <under>i</under>
+      </overwrite>ns Meer, und dieses Jahr wollte ich etwas ändern, aber ich weiß nicht!: Wenn ich ans Meer gehe, <ambiguous>
+        <alternative>habe</alternative>
+
+        <alternative>nabe</alternative>
+      </ambiguous> ich nur eine kleine Tasche, weil ich gar nicht brauche (nur ein paar „Pareo“, <sic>Kremen</sic> und <error>
+        <errorType/>
+
+        <originalForm>Badeproduckten</originalForm>
+
+        <targetForm>Badeprodukten</targetForm>
+      </error>!) und wenn ich auf den Berg gehe, b<correction>
+        <insertion>r</insertion>
+      </correction>auche ich etwas mehr, aber ist ein bisschen kälter! Ich will nicht in das warm gehen! <error>
+        <errorType/>
+
+        <originalForm>aber</originalForm>
+
+        <targetForm>Aber</targetForm>
+      </error> was<correction>
+        <deletion><unreadable/></deletion>
+      </correction> kann ich auf dem Berg machen? Nur spazieren und Land-<foreign_word foreign_language="English">watching</foreign_word>, nicht viel mehr! Und am <error>
+        <errorType/>
+
+        <originalForm>se</originalForm>
+
+        <targetForm>See</targetForm>
+      </error> kann ich tauchen, <foreign_word foreign_language="English">Snorkling</foreign_word> machen, mit der Sand spielen und, ja logisch, schwimmen!!! Und dann für letzte, ich <error>
+        <errorType/>
+
+        <originalForm>wärde</originalForm>
+
+        <targetForm>werde</targetForm>
+      </error> mit mein <error>
+        <errorType/>
+
+        <originalForm>Fraund</originalForm>
+
+        <targetForm>Freund</targetForm>
+      </error> gehen: <error>
+        <errorType/>
+
+        <originalForm>wo</originalForm>
+
+        <targetForm>Wo</targetForm>
+      </error> ist besser? Auf eine <sic>tropikalisches</sic> Insel, oder auf einen <error>
+        <errorType/>
+
+        <originalForm>Hipfel</originalForm>
+
+        <targetForm>Gipfel</targetForm>
+      </error>? Ich <error>
+        <errorType/>
+
+        <originalForm>wärde</originalForm>
+
+        <targetForm>werde</targetForm>
+      </error> auf deine Antwort warten! <correction>
+        <deletion>Da</deletion>
+      </correction> Vielen Danke für dein <foreign_word foreign_language="English">Help</foreign_word>!!! <foreign_word foreign_language="English">Thank you</foreign_word>!!!<par/><closing>Bussi Bussi <entity>Mari</entity></closing></exercise>
+  </body>
+</kolipsi_document>

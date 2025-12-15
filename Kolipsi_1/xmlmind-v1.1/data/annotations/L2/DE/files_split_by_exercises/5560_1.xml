@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5560</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Liebe <entity>Jana</entity>,</greeting> <par/>ich wollte dich über unsere Freundin, <entity>Maria</entity>, erzählen. Letzte Woche <correction>
+        <deletion>geh</deletion>
+      </correction> hatte sie einkaufen gegangen. Aber sie hat nicht so viel Geld. Zuerst <correction>
+        <deletion>geh</deletion>
+      </correction> hat sie in einem Obst- und Gemüseladen gegangen. Da <correction>
+        <insertion>kauft</insertion>
+
+        <deletion>hat</deletion>
+      </correction> sie die Obst und <overwrite>
+        <over>G</over>
+
+        <under>g</under>
+      </overwrite>emüse ein. Aber eine Stunde spätere war sie im Supermarkt. Da hat sie die Lebensmittel Gebrauch und sie hat nicht <error>
+        <errorType/>
+
+        <originalForm>si</originalForm>
+
+        <targetForm>so</targetForm>
+      </error> viel Geld und sie muss in Kass<ambiguous>
+        <alternative>a</alternative>
+
+        <alternative>e</alternative>
+      </ambiguous> die Lebensmitte<overwrite>
+        <over>l</over>
+
+        <under>r</under>
+      </overwrite> gelassen. <error>
+        <errorType/>
+
+        <originalForm>aber</originalForm>
+
+        <targetForm>Aber</targetForm>
+      </error> es ist so komisch, denkst du? Ich warte deine <error>
+        <errorType/>
+
+        <originalForm>Email</originalForm>
+
+        <targetForm>E-Mail</targetForm>
+      </error>. Wie gehst du in der Schule? Was denkst du über <entity><overwrite>
+          <over>M</over>
+
+          <under>m</under>
+        </overwrite>aria</entity>? Wo war die Reise von deinem Bruder in <direct_speech>England</direct_speech>. <closing>Bis <error>
+          <errorType/>
+
+          <originalForm>Bald</originalForm>
+
+          <targetForm>bald</targetForm>
+        </error>! <par/> </closing>Deinen Freundin <entity>Lyundmyla</entity>!</exercise>
+
+    
+  </body>
+</kolipsi_document>

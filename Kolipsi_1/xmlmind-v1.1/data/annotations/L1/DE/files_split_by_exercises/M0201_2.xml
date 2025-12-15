@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0201</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Liebe Freundin,</greeting><par/>bei der Planung unseres Urlaubes sollten wir uns zunächst einmal auf die Art des Urlaubes einigen.<par/>Entweder wir verbringen unseren Ur<overwrite>
+        <under>a</under>
+
+        <over>l</over>
+      </overwrite>aub in den Bergen und gehen viel wandern, oder wir fahren ans Meer und entspannen den ganzen Tag am Strand.<par/>Wir könnten uns eine Hütte mieten.<par/>Wenn wir in den <entity>Alpen</entity> wandern gehen ist das auch gut für unsere Gesundheit. Die frische Bergluft und so.<par/>Am Meer sind wir etwas mehr vom Wetter abhängig, wobei wandern im Regen natürlich auch nicht so toll ist. Wir sollten uns zur genaueren Planung ohnehin noch einmal treffen, am besten noch diesen Monat.<par/>Ich hoffe bis dahin funktioniert mein Telefon wieder, damit ich dir keine Briefe mehr schicken muss.<par/><closing><error>
+          <errorType/>
+
+          <originalForm>mfG</originalForm>
+
+          <targetForm>MfG</targetForm>
+        </error><par/><entity><unreadable/></entity></closing>  </exercise>
+  </body>
+</kolipsi_document>

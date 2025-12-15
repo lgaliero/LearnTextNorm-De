@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>3543</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve">
+ <par/><greeting>Liebe <entity>Julia</entity>,</greeting> <par/>wie geht es dir? Mir ganz gut. Ich wollte dir erzählen, was diesen Morgen <entity>Maria</entity> passiert ist. Sie ist in eine<correction>
+        <deletion>n</deletion>
+      </correction>n Obst- und Gemüseladen gegangen <correction>
+        <deletion><unreadable/></deletion>
+      </correction> und sie hat einige Tomaten und Zucchini <sic>eingekauf</sic>. Dann ist sie in den Supermarkt gegangen. Sie hat Milch, <error>
+        <errorType/>
+
+        <originalForm>Zücker</originalForm>
+
+        <targetForm>Zucker</targetForm>
+      </error> und Fleisch <sic>gekauf</sic> aber an der Kasse die Kassiererin dachte dass sie die Tomaten und die Zucchini, die <correction>
+        <deletion>ich</deletion>
+
+        <insertion>sie</insertion>
+      </correction> in der Tasche hatte, in dem Supermarkt genommen ha<overwrite>
+        <under><unreadable/></under>
+
+        <over>tt</over>
+      </overwrite>e. <correction>
+        <deletion><unreadable/></deletion>
+      </correction> Es war nicht die <error>
+        <errorType/>
+
+        <originalForm>Warheit</originalForm>
+
+        <targetForm>Wahrheit</targetForm>
+      </error> weil sie die Obst in ein anderen Geschäft gekauf hat<correction>
+        <deletion>t</deletion>
+      </correction>. So fand sie der Schein und die Kassiererin entschuldigt <correction>
+        <insertion>sich</insertion>
+      </correction> mit <entity>Maria</entity>. Die Kassiererin war sehr unangenehm und so <correction>
+        <deletion>ge</deletion>
+      </correction> schenkt <entity>Maria</entity> eine sehr schöne Tasse für die <error>
+        <errorType/>
+
+        <originalForm>Früstuck</originalForm>
+
+        <targetForm>Frühstück</targetForm>
+      </error>. Jetzt sind <entity>Maria</entity> und die Kassiererin gute Freundinne. Jetzt <error>
+        <errorType/>
+
+        <originalForm>müss</originalForm>
+
+        <targetForm>muss</targetForm>
+      </error> ich gehen. <closing>Bis bald.<correction>
+          <deletion><unreadable/></deletion>
+        </correction><par/>Deine <entity>Christine</entity> </closing> </exercise>
+
+    
+  </body>
+</kolipsi_document>

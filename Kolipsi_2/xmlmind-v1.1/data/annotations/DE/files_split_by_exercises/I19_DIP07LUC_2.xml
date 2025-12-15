@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I19_DIP07LUC</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Lieber Paul,</greeting><par/><error>
+        <errorType/>
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> habe deine <error>
+        <errorType/>
+
+        <originalForm>e-mail</originalForm>
+
+        <targetForm>E-Mail</targetForm>
+      </error> gelesen. Zuerst musst du dich <error>
+        <errorType/>
+
+        <originalForm>berühigen</originalForm>
+
+        <targetForm>beruhigen</targetForm>
+      </error>, weil alle Leute diese Probleme haben. Ich denke dass virtuelle Freundschaften sehr komisch sind und zwar man kann diese Personen nicht stehen, und man weiß nicht, wer hinten dem Bildschirm ist und man ist nicht sicher, ob es eine gute oder schlechte Person ist. Du kannst deine virtuellen Freunden fragen, ob sie sich mit dir treffen können, so kannst du sie besser kennelernen. Auch ich habe ein Mal eine Freundschaft im <error>
+        <errorType/>
+
+        <originalForm>internet</originalForm>
+
+        <targetForm>Internet</targetForm>
+      </error> geschlossen. Aber ich habe ihn in Amerika kennenlernt. <error>
+        <errorType/>
+
+        <originalForm>Tatsachlich</originalForm>
+
+        <targetForm>Tatsächlich</targetForm>
+      </error> haben wir im <error>
+        <errorType/>
+
+        <originalForm>internet</originalForm>
+
+        <targetForm>Internet</targetForm>
+      </error> mit dem Schreiben fortzusetzen, aber ich habe nie eine <error>
+        <errorType/>
+
+        <originalForm>virtuall</originalForm>
+
+        <targetForm>virtuell</targetForm>
+      </error> Freundschaf geschlossen. Meine Meinung nach ist es besser dass <error>
+        <errorType/>
+
+        <originalForm>Virtualle</originalForm>
+
+        <targetForm>virtuelle</targetForm>
+      </error> Freundschaften besser nicht geschlossen werden, weil es sehr kömisch und gefährlich ist. Ich <correction>
+        <deletion>habe</deletion>
+      </correction> gebe dir diesen Rat und ich hoffe <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> sie dir nutz <closing>viele Gruße. Ich schreib dir bald und einen <error>
+          <errorType/>
+
+          <originalForm>schonen</originalForm>
+
+          <targetForm>schönen</targetForm>
+        </error> Tag</closing><par/>Luca</exercise>
+  </body>
+</kolipsi_II_document>

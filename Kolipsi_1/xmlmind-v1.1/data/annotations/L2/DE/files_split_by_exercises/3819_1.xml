@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>3819</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><par/><greeting>Hallo!</greeting> <par/>Wie geht es dir? Mir geht <error>
+        <errorType/>
+
+        <originalForm>esalles</originalForm>
+
+        <targetForm>es alles</targetForm>
+      </error> gut. Die ganze Woche war ich in Urlaub in <entity> <foreign_word foreign_language="Italiano">America</foreign_word> </entity> und seit Montag bin ich wieder im <entity>Mailand</entity>. <par/>Wenn ich <error>
+        <errorType/>
+
+        <originalForm>zurück gekommen</originalForm>
+
+        <targetForm>zurückgekommen</targetForm>
+      </error> bin hat mir meine beste Freundin etwas erzählt. <par/><sic>Leztze</sic> Sonntag hatte sie Gäste zum Mittagessen, deshalb ist sie erst zum Obsthändler und dann in <foreign_word foreign_language="Italiano">Supermar<hyphen>-</hyphen>ket</foreign_word> gegangen. Beim Obsthändler hat sie ein paar Blumenkohl und Zucchini für das Mittagessen gekauft. <par/>Sie hat dann mit der Kassefrau gequatscht über die letzte <error>
+        <errorType/>
+
+        <originalForm>Neunigkeiten</originalForm>
+
+        <targetForm>Neuigkeiten</targetForm>
+      </error>. Später hat sie die Gemüse bezahlt aber sie hat den Kassenzettel vergessen. Dann ist sie in <foreign_word foreign_language="Italiano">Supermarket</foreign_word> gegangen und etwas anderes zu kaufen. Sie musste noch Nudel und Tomaten kaufen. Dann musste sie noch einmal bezahlen aber diesmal <palimpsest> </palimpsest> hat die Kassefrau die Sachen die die Frau nicht im <foreign_word foreign_language="Italiano">Supermarket</foreign_word> gekauft hatte und fragte sie den Kasenzettel. Aber sie merkte nur jetzt dass den Kassenzettel nicht hatte. Die Kassefrau <palimpsest> </palimpsest> sagte zu ihr dass die eine Räuberin wäre. <par/><closing>Tschüss</closing> </exercise>
+
+    
+  </body>
+</kolipsi_document>

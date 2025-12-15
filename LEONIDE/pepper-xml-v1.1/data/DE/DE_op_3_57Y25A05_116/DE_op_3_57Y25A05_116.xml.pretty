@@ -1,0 +1,48 @@
+<body>
+ <page page_number="1" transcanno_page_id="2458">
+  <paragraph class="medium-paragraph" tagcode="1553510289369">
+   <div>
+    Ich möchte
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Zahnarzt" tagcode="1553510020196">
+     <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553510036339" tran_correction_original="Zähnea*rzt">
+      Zähnearzt
+     </tran_word_correction_id25>
+    </orth_error_id12>
+    werden , deshalb werde ich
+   </div>
+   <div>
+    eine
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="sanitäre" tagcode="1553510135816">
+     Sanitäre
+    </orth_error_id12>
+    Schule besuchen
+    <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1553510289368" tran_alternative_1="." tran_alternative_2=",">
+     .
+    </tran_ambiguous_id3>
+    und meine Traumberuf
+   </div>
+   <div>
+    ist
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Zahnarzt" tagcode="1553510200056">
+     Zähnearzt
+    </orth_error_id12>
+    bekommen,
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553510180424" tran_correction_original="Oder">
+     oder
+    </tran_word_correction_id25>
+    auch ein
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Athlet" tagcode="1553510254754">
+     Atlete
+    </orth_error_id12>
+   </div>
+   <div>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553510231880" tran_word_deletion_target="_#_">
+     bekommen
+    </tran_word_deletion_id8>
+    , weil ich mag sehr Sport
+   </div>
+   <div>
+   </div>
+  </paragraph>
+ </page>
+</body>

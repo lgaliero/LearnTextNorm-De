@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I14_BON14STE</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo Francesca,</greeting><par />wie geht es dir? Ich wollte dir eine <error>
+        <errorType />
+
+        <originalForm>geschichte</originalForm>
+
+        <targetForm>Geschichte</targetForm>
+      </error> <correction>
+        <insertion>erzählen</insertion>
+      </correction>. Diese <error>
+        <errorType />
+
+        <originalForm>geschichte</originalForm>
+
+        <targetForm>Geschichte</targetForm>
+      </error> erzählt was Maria passiert ist! <correction>
+        <deletion>Maria ist</deletion>
+      </correction> Montag Maria war beim Obsthändler um Obst und Gemüse zu kaufen. Sie hat <foreign_word
+        foreign_language="English">bananas</foreign_word>, Orangen, Salat und <error>
+        <errorType />
+
+        <originalForm>tomaten</originalForm>
+
+        <targetForm>Tomaten</targetForm>
+      </error> gekauft. Später erinnert sich Maria dass der Brot <error>
+        <errorType />
+
+        <originalForm>vertig</originalForm>
+
+        <targetForm>fertig</targetForm>
+      </error> war. So fährt Maria nach einen Beckerei und kaufte 3 <error>
+        <errorType />
+
+        <originalForm>brötchen</originalForm>
+
+        <targetForm>Brötchen</targetForm>
+      </error>. Um 13 Uhr läuft <error>
+        <errorType />
+
+        <originalForm>sche<correction>
+            <deletion>l</deletion>
+          </correction>ell</originalForm>
+
+        <targetForm>schnell</targetForm>
+      </error> im <foreign_word foreign_language="Italiano">Supermarket</foreign_word> um eine <error>
+        <errorType />
+
+        <originalForm>pizza</originalForm>
+
+        <targetForm>Pizza</targetForm>
+      </error>, eine <error>
+        <errorType />
+
+        <originalForm>cola</originalForm>
+
+        <targetForm>Cola</targetForm>
+      </error>, ein <error>
+        <errorType />
+
+        <originalForm>tee</originalForm>
+
+        <targetForm>Tee</targetForm>
+      </error> und <error>
+        <errorType />
+
+        <originalForm>chocolade</originalForm>
+
+        <targetForm>Schokolade</targetForm>
+      </error> zu kaufen. Wann <correction>
+        <deletion>e</deletion>
+      </correction> sie in die Kasse <correction>
+        <deletion><unreadable /></deletion>
+      </correction> zu zahlen war sieht dass <correction>
+        <deletion><unreadable /></deletion>
+      </correction> sie nur 10 <error>
+        <errorType />
+
+        <originalForm>euro</originalForm>
+
+        <targetForm>Euro</targetForm>
+      </error> hatte. <correction>
+        <deletion>So geht Maria an die Kasse und spricht mit der Frau vom <unreadable /> Supermarket die ein Scontto <unreadable />chte. Maria war</deletion>
+      </correction> So ruft sie sein Freund <correction>
+        <deletion>der <unreadable /></deletion>
+      </correction>. <par /> Nach 10 Minuten war sein Mann im <foreign_word foreign_language="Italiano">Supermarket</foreign_word>, Sie haben gezahlt und die Verkäuferin hat Maria ein Kassenzettel gemacht. Maria und Tomaso ging nach hause. Diese Abend haben <error>
+        <errorType />
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> eine gute Pizza gegessen und ein <error>
+        <errorType />
+
+        <originalForm>Schlug</originalForm>
+
+        <targetForm>Schluck</targetForm>
+      </error> Cola getrunken. Nach den <error>
+        <errorType />
+
+        <originalForm>Abend essen</originalForm>
+
+        <targetForm>Abendessen</targetForm>
+      </error> sind schlafen gegangen. Und <error>
+        <errorType />
+
+        <originalForm>So</originalForm>
+
+        <targetForm>so</targetForm>
+      </error> Francesca ich habe meine Geschichte <error>
+        <errorType />
+
+        <originalForm>vertig</originalForm>
+
+        <targetForm>fertig</targetForm>
+      </error>, ich wünsche dir eine gute <error>
+        <errorType />
+
+        <originalForm>nacht</originalForm>
+
+        <targetForm>Nacht</targetForm>
+      </error>, ich liebe dich.<par /> <par /><closing>Küsse, <symbol>Herz</symbol></closing> </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo Paul,</greeting><par />ich denke dass du bist in eine schlechte <error>
+        <errorType />
+
+        <originalForm>Situazion</originalForm>
+
+        <targetForm>Situation</targetForm>
+      </error>. Ich will dich helfen. Zuerst, ich denke dass löschen Nummern <correction>
+        <deletion>ist nicht die</deletion>
+      </correction> war <error>
+        <errorType />
+
+        <originalForm>nich</originalForm>
+
+        <targetForm>nicht</targetForm>
+      </error> eine gute Idee. Wenn du lebst für ein <error>
+        <errorType />
+
+        <originalForm>mensch</originalForm>
+
+        <targetForm>Mensch</targetForm>
+      </error>, du kannst <error>
+        <errorType />
+
+        <originalForm>nich</originalForm>
+
+        <targetForm>nicht</targetForm>
+      </error> von dein <error>
+        <errorType />
+
+        <originalForm>herz</originalForm>
+
+        <targetForm>Herz</targetForm>
+      </error> erlöschen. Mein <error>
+        <errorType />
+
+        <originalForm>rat</originalForm>
+
+        <targetForm>Rat</targetForm>
+      </error> ist dass du musst diese Personen sehen. Fixt ein <error>
+        <errorType />
+
+        <originalForm>ernennung</originalForm>
+
+        <targetForm>Ernennung</targetForm>
+      </error> und spricht im richtigen <error>
+        <errorType />
+
+        <originalForm>leben</originalForm>
+
+        <targetForm>Leben</targetForm>
+      </error>. Ein paar <error>
+        <errorType />
+
+        <originalForm>monaten</originalForm>
+
+        <targetForm>Monaten</targetForm>
+      </error> vor habe ich Mores <error>
+        <errorType />
+
+        <originalForm>kennengelern</originalForm>
+
+        <targetForm>kennengelernt</targetForm>
+      </error>. Wir haben <error>
+        <errorType />
+
+        <originalForm>vill</originalForm>
+
+        <targetForm>viel</targetForm>
+      </error> gechattet aber er wonht im Brescia und ich in Bozen. Wir <correction>
+        <deletion><unreadable /></deletion>
+      </correction> haben <correction>
+        <insertion>beiden</insertion>
+      </correction> zu wenig <error>
+        <errorType />
+
+        <originalForm>geld</originalForm>
+
+        <targetForm>Geld</targetForm>
+      </error> um ein <error>
+        <errorType />
+
+        <originalForm>zug</originalForm>
+
+        <targetForm>Zug</targetForm>
+      </error> zu zahlen, so müssen wir chatten.<par /><correction>
+        <deletion><unreadable /></deletion>
+      </correction> Jetzt ich liebe ihm <correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>aber</insertion>
+      </correction> ich muss<correction>
+        <deletion>en</deletion>
+      </correction> ein anderen Freund <correction>
+        <deletion>/Freunden</deletion>
+      </correction> finden, <correction>
+        <deletion>aber wir sind noch freund und wir chatten noch ab, es tut mir leid</deletion>
+      </correction> und ich bin traurig. <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Ich kann nicht sein <error>
+        <errorType />
+
+        <originalForm>nummer</originalForm>
+
+        <targetForm>Nummer</targetForm>
+      </error> löschen weil ich immer an er denke und ich <correction>
+        <deletion><unreadable /></deletion>
+      </correction> liebe ihn noch. <correction>
+        <deletion>S</deletion>
+      </correction> Wie ich mache muss<correction>
+        <deletion>t</deletion>
+      </correction> du machen. Schreib an diese Mädchen. <correction>
+        <deletion>un</deletion>
+      </correction> Jetzt <correction>
+        <deletion><unreadable /></deletion>
+      </correction> muss ich gehen, es ist 3⁰⁰ Uhr und ich bin müde!<par />Ich hoffe dass mein <error>
+        <errorType />
+
+        <originalForm>rat</originalForm>
+
+        <targetForm>Rat</targetForm>
+      </error> kann dir helfen. <closing>Gute <error>
+          <errorType />
+
+          <originalForm>nacht</originalForm>
+
+          <targetForm>Nacht</targetForm>
+        </error>!</closing></exercise>
+  </body>
+</kolipsi_II_document>

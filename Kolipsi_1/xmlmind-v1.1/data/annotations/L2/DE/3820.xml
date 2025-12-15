@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>3820</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><par /><greeting><palimpsest><error>
+            <errorType />
+
+            <originalForm>Hy</originalForm>
+
+            <targetForm>Hey</targetForm>
+          </error> <entity>Ully</entity> </palimpsest></greeting> <par />Ich will eine <palimpsest>Geschichte</palimpsest> dir erzählen. Morgen <entity>Maria</entity> ist in einen Superm<palimpsest>a</palimpsest>r<palimpsest>k</palimpsest>t gewesen, und sie hat <correction>
+        <insertion>das</insertion>
+      </correction> Obst und <correction>
+        <insertion>die</insertion>
+      </correction> Gemüse gekauft. Beim Obsthändler hat sie eine <foreign_word
+        foreign_language="Italiano"><error>
+          <errorType />
+
+          <originalForm>Insalat</originalForm>
+
+          <targetForm>Insalata</targetForm>
+        </error></foreign_word> und andere viele Gemüsen genommen. Dann ist sie an die Kasse dem Obsthändler gegangen und sie hat <palimpsest>das</palimpsest> Obst und die Gemüse, <error>
+        <errorType />
+
+        <originalForm>dass</originalForm>
+
+        <targetForm>das</targetForm>
+      </error> sie beim Obsthändler genommen hat, bezahlen. Später im Superm<palimpsest>a</palimpsest>r<palimpsest>kt</palimpsest> hat sie andere Sachen gekauft. Dann ist sie an die Kasse dem Supermarkt gegang<correction>
+        <insertion>en</insertion>
+      </correction> und sie hat nur die Sachen, dass <correction>
+        <insertion>sie</insertion>
+      </correction> im Supermarkt genommen hat, bezahlen. Die <error>
+        <errorType />
+
+        <originalForm>Supermarkt Tusse</originalForm>
+
+        <targetForm>Supermarkttusse</targetForm>
+      </error> hat <palimpsest>das</palimpsest> Obst und die Gemüse in de<palimpsest>r Tasche von <entity>Maria</entity> </palimpsest> gesehen. Aber <entity>Maria</entity> hat <palimpsest>das</palimpsest> Obst und die Gemüse nicht an die Kasse dem <error>
+        <errorType />
+
+        <originalForm>Supermark</originalForm>
+
+        <targetForm>Supermarkt</targetForm>
+      </error> bezahlen. <palimpsest>So glaub<correction>
+          <deletion><unreadable /></deletion>
+        </correction>t</palimpsest> die <error>
+        <errorType />
+
+        <originalForm>Supermarkt Tusse</originalForm>
+
+        <targetForm>Supermarkttusse</targetForm>
+      </error>, dass <entity>Maria</entity> <palimpsest>die</palimpsest> Gemüse und das Obst <error>
+        <errorType />
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hat. Aber ist nicht so! Arme <entity>Maria</entity> ... <par /><closing>Viele Grüße <entity>Deborha</entity>.</closing> </exercise>
+
+    <exercise number="2" xml:space="preserve"><par /><greeting>Hallo <entity>Ully</entity> </greeting> <par />Wie geht es dir? Mir geht es gut. <par />Wir müssen <palimpsest>unsere Urlaub</palimpsest> zwischen zwei Möglichkeiten aussuchen. Wir können zwischen Berge oder Meer aussuchen.</exercise>
+  </body>
+</kolipsi_document>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>N7027</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo liebe <entity>Katharina</entity>!</greeting><par/><error>
+        <errorType/>
+
+        <originalForm>wie</originalForm>
+
+        <targetForm>Wie</targetForm>
+      </error> geht es dir? Ich alles ok: <palimpsest>Schule,</palimpsest> Freunde und <palimpsest>L</palimpsest>iebe, aber ich muss dir unbedingt etwas er<strikeover>
+        <expansion>z</expansion>
+
+        <expansion>ä</expansion>
+      </strikeover>hlen. Letzte Woche war meine Freundin <entity>Maria</entity> in einem Obst- und <error>
+        <errorType/>
+
+        <originalForm>gemüse</originalForm>
+
+        <targetForm>Gemüse</targetForm>
+      </error> ei<overwrite>
+        <over>n</over>
+
+        <under>n</under>
+      </overwrite><palimpsest>kaufen.</palimpsest> <par/>Sie kaufte eine Tasche voller Obst und <error>
+        <errorType/>
+
+        <originalForm>gemüse</originalForm>
+
+        <targetForm>Gemüse</targetForm>
+      </error>, aber als sie bezahlte, vergaß sie den Kassenzettel bei der Kasse und das wurde später ein Problem. Eine Stunde später ging sie <error>
+        <errorType/>
+
+        <originalForm>nähmlich</originalForm>
+
+        <targetForm>nämlich</targetForm>
+      </error> in einem Supermarkt und kaufte <error>
+        <errorType/>
+
+        <originalForm>verschidene</originalForm>
+
+        <targetForm>verschiedene</targetForm>
+      </error> <sic>Lebensmitteln</sic> ein. Als sie bei der Kasse <palimpsest>war, um zu bezahlen,</palimpsest> sah das <palimpsest>Fräu</palimpsest>lein die dort arbeitete, dass <entity>Maria</entity> eine Tasche voller Obst und Gemüse hatte und ahnte dass sie die <error>
+        <errorType/>
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hätte. <entity>Maria</entity> konnte leider nicht beurteilen, dass das nicht <error>
+        <errorType/>
+
+        <originalForm>war</originalForm>
+
+        <targetForm>wahr</targetForm>
+      </error> sei, denn sie merkte <palimpsest>sie</palimpsest> habe den Kassenzettel des anderen Geschäftes nicht mitgenommen. Das war wirklich ein großes Problem, und <entity>Maria</entity> wusste nicht was machen <error>
+        <errorType/>
+
+        <originalForm>un</originalForm>
+
+        <targetForm>um</targetForm>
+      </error> <palimpsest>es</palimpsest> zu lösen. Sie versuchte <palimpsest>sich zu erklären</palimpsest> aber das <error>
+        <errorType/>
+
+        <originalForm>Freulein</originalForm>
+
+        <targetForm>Fräulein</targetForm>
+      </error> glaubte ihr nicht. Deshalb gingen <entity>Maria</entity> und das <error>
+        <errorType/>
+
+        <originalForm>Freulein</originalForm>
+
+        <targetForm>Fräulein</targetForm>
+      </error> zu dem andren Geschäft und fanden <palimpsest>den</palimpsest> Kassenzettel noch bei der Kasse. Somit war das <palimpsest>Problem</palimpsest> gelöst und <entity>Maria</entity> konnte wieder ruhig einkaufen. <par/>Deswegen <entity>Katharina</entity> erinnere dich immer die Kassenzetteln mitzunehmen um keine <palimpsest>Probleme</palimpsest> zu haben.<par/><closing>Viele Grüße und viel Liebe <par/><entity>Valentina</entity> </closing></exercise>
+
+    
+  </body>
+</kolipsi_document>

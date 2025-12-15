@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0041</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Hey <entity>Jelli</entity></greeting>,<par/>Ich habe letztens darüber nachdenken müssen, dass es langsam Zeit wird, unseren Sommerurlaub zu planen!<par/>Bei <correction>
+        <deletion>Nach</deletion>
+      </correction> dem ganzen Abistress ist das wohl untergegangen, aber gerade weil die letzten Wochen und vor allem Schuljahre so an unseren Nerven gezerrt haben, muss der Urlaub großartig werden! <emoticon>;)</emoticon><par/>Frage ist nur wo es hingehen soll?! Müssen uns jetzt mal zwischen Bergen und Meer entscheiden.<par/>Ich bin noch recht unentschlossen wonach mir mehr ist.<par/>Meer, Strand, knackig braungebrannte Männerkörper <emoticon>;)</emoticon> und Feierei vs. gesunde Bergluft, <error>
+        <errorType/>
+
+        <originalForm>wandern</originalForm>
+
+        <targetForm>Wandern</targetForm>
+      </error>, Seele baumeln lassen...<par/>Jetzt wo wir unser Abi so gut wie in der Tasche haben, wäre es vielleicht an der Zeit ausgelassen zu feiern, andererseits fahre ich fast jeden Sommer mit meiner Familie ans Meer und finde das in der Sonne brutzeln nach ein paar Tagen auch eher unspektakulär.<par/>Ein bisschen Abwechslung könnte da nicht schaden und wir beiden Gesundheitsfreaks hätten sicher auch eine schöne Zeit in den Bergen. Das ist sicher der Ort, an dem wir neue Energie tanken und uns mal so richtig erholen könnten. Nur auf Dauer werden 2 Wochen in einem Appartement in den Bergen wahrscheinlich auch <sic>langweilen</sic>.<par/>Aber beim <error>
+        <errorType/>
+
+        <originalForm>vergleichen</originalForm>
+
+        <targetForm>Vergleichen</targetForm>
+      </error> der beiden Wahlmöglichkeiten, kommt mir eine Idee. Nämlich beide Dinge einfach zu kombinieren.<par/>Habe von einer Freundin gehört, die letzten Sommer einen spitzen Urlaub am Gardasee verbracht hat.<par/>Dort gibt es Berge, viel zu sehen, aber auch Mee<overwrite>
+        <under><unreadable/></under>
+
+        <over>r</over>
+      </overwrite> und Feierei. Und <entity>Nadine</entity> sagte <correction>
+        <deletion>die</deletion>
+      </correction> <correction>
+        <insertion>in der</insertion>
+      </correction> Herberge, in der sie war, war das <error>
+        <errorType/>
+
+        <originalForm>Preisleistungsverhältnis</originalForm>
+
+        <targetForm>Preis-Leistungs-Verhältnis</targetForm>
+      </error> echt gut. Wir können uns das ja mal im Internet angucken. Ich freu mich! <emoticon>=)</emoticon><par/>Muss jetzt los zum Training!<par/><closing>Kuss<par/><entity>Lisa</entity> <symbol>Herz</symbol>   </closing>      </exercise>
+  </body>
+</kolipsi_document>

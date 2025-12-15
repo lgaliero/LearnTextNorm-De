@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0126</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Sigrid</entity></greeting>!<par/>Wie geht es dir, alles klar? Ich schreibe dir, weil <correction>
+        <deletion><unreadable/></deletion>
+      </correction> <entity>Maria</entity> letzte Woche was <error>
+        <errorType/>
+
+        <originalForm>lustiges</originalForm>
+
+        <targetForm>Lustiges</targetForm>
+      </error> passiert ist. Na ja, so lustig war es auch wieder nicht, für sie zumindest. Sie hatte ja am Donnerstag ein Date mit <entity>Lorenz</entity>, sie wollte ihm am Abend was <error>
+        <errorType/>
+
+        <originalForm>feines</originalForm>
+
+        <targetForm>Feines</targetForm>
+      </error> kochen, bei ihr zu Hause. Am Nachmittag ging sie zum Ein<hyphen>-</hyphen>kaufen. Zuerst wollte sie das frische Gemüse und Obst besorgen, also ging sie zum Gemüsehändler und kaufte sich die Dinge, die sie für das leckere Abendessen brauchte. <correction>
+        <deletion>Viele Dinge musste sie im Supermarkt <unreadable/> besorgen also</deletion>
+      </correction> Eine Stunde später ging sie in den Supermarkt. <correction>
+        <deletion><unreadable/></deletion>
+      </correction> <overwrite>
+        <under>d</under>
+
+        <over>D</over>
+      </overwrite>ie <error>
+        <errorType/>
+
+        <originalForm>Einkauftasche</originalForm>
+
+        <targetForm>Einkaufstasche</targetForm>
+      </error> mit dem frischen Obst hatte sie auch dabei. Mit einem Einkaufswagen ging sie durch den ganzen Supermarkt und kaufte alles was sie brauchte.<par/>Als sie dann an der Kass<overwrite>
+        <under>a</under>
+
+        <over>e</over>
+      </overwrite> stand und die <sic>E</sic>ingekauften <correction>
+        <deletion>D</deletion>
+      </correction> Lebensmittel bezahlen wollte, <correction>
+        <deletion><unreadable/></deletion>
+      </correction> hat sie die Verkäuferin gefragt, ob sie <error>
+        <errorType/>
+
+        <originalForm><correction>
+            <insertion>vor hat</insertion>
+          </correction></originalForm>
+
+        <targetForm>vorhat</targetForm>
+      </error> das Obst und Gemüse einfach mitzunehmen ohne es zu bezahlen. <entity>Maria</entity> hat natürlich gleich erklärt, dass sie das Obst <correction>
+        <insertion>&amp; Gemüse</insertion>
+      </correction> beim Obsthändler gekauft hatte und nicht im Supermarkt, aber die Verkäuferin <correction>
+        <deletion>gl<unreadable/> <unreadable/> ihr</deletion>
+      </correction> glaubte ihr nicht und wollte Beweise seh<over>e</over>n. <entity>Maria</entity> wollte ihr daraufhin den Kassazettel des Gemüsehändlers zeigen, als sie feststellte, dass sie ihn nicht mitgenommen hatte, sie hat <error>
+        <errorType/>
+
+        <originalForm>in</originalForm>
+
+        <targetForm>ihn</targetForm>
+      </error> einfach da liegen lassen ohne darüber nachzu<hyphen>-</hyphen>denken, dass so ein Kassazettel oft sehr notwendig sein könnte. Aber nun hat sie es sicherlich gelernt. Ich glaube nachdem sie von ihren Eltern beim Sicherheitsdienst des Supermarkts abgeholt wurde, wird sie nie wieder irgend<hyphen>-</hyphen>wo einen Kassazettel einfach liegen lassen.<par/><entity>Maria</entity> kann dir Einzelheiten noch erzählen, <error>
+        <errorType/>
+
+        <originalForm>gehn</originalForm>
+
+        <targetForm>gehen</targetForm>
+      </error> wir mal was zusammen trinken!<par/><closing>Ciao <correction>
+          <deletion><unreadable/></deletion>
+        </correction></closing>             </exercise>
+
+    
+  </body>
+</kolipsi_document>

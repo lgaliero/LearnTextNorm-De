@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5788</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve">
+      <par/><greeting>Hei <entity>Joschua</entity>;</greeting> <par/>Geht´s dir besser? <correction>
+        <deletion>Mir ist Mir ist</deletion>
+      </correction> <par/>Mir geht es <overwrite>
+        <under><unreadable/></under>
+
+        <over>g</over>
+      </overwrite>ut aber ich <overwrite>
+        <under><unreadable/></under>
+
+        <over>h</over>
+      </overwrite>a<overwrite>
+        <under><unreadable/></under>
+
+        <over>b</over>
+      </overwrite>e eine <overwrite>
+        <under><unreadable/></under>
+
+        <over>r</over>
+      </overwrite>iesige Frage. Be<overwrite>
+        <under><unreadable/></under>
+
+        <over>rg</over>
+      </overwrite> <overwrite>
+        <under><unreadable/></under>
+
+        <over>oder</over>
+      </overwrite> Meer, diese ist das Problem. <correction>
+        <deletion><unreadable/></deletion>
+      </correction> Mir gehen beide <overwrite>
+        <under><unreadable/></under>
+
+        <over>g</over>
+      </overwrite>ut, in Sommer ist das Wasser schön aber das Strand zu warm. Auf de<ambiguous>
+        <alternative>r</alternative>
+
+        <alternative>n</alternative>
+      </ambiguous> Bergen ist nicht so warm <overwrite>
+        <under><unreadable/></under>
+
+        <over>a</over>
+      </overwrite>ber es gibt viele Insekten. Hast du <sic>eingen</sic> Ideen? <entity>Sardinien</entity>, <entity>Hawaii</entity>, <entity>Ma<overwrite>
+          <under><unreadable/></under>
+
+          <over>u</over>
+        </overwrite>ritius</entity>, <entity><ambiguous>
+          <alternative>R</alternative>
+
+          <alternative>D</alternative>
+        </ambiguous>iccione</entity> (<overwrite>
+        <under><unreadable/></under>
+
+        <over>b</over>
+      </overwrite>esser nicht <emoticon>=)</emoticon> ) <entity>Tahiti</entity>, <entity> <error>
+          <errorType/>
+
+          <originalForm>Bahanas</originalForm>
+
+          <targetForm>Bahamas</targetForm>
+        </error></entity>, <entity> <foreign_word foreign_language="Italiano">California</foreign_word> </entity>, <entity>Ku<overwrite>
+          <under><unreadable/></under>
+
+          <over>ba</over>
+        </overwrite></entity> oder <unreadable/>, <entity>Seiser Alm</entity>, <entity>Ste<overwrite>
+          <under><unreadable/></under>
+
+          <over>rzing</over>
+        </overwrite></entity> , <entity>Sarnthein</entity> ? <par/>Das <error>
+        <errorType/>
+
+        <originalForm>wichtige</originalForm>
+
+        <targetForm>Wichtige</targetForm>
+      </error> ist dass wir alle zu<overwrite>
+        <under><unreadable/></under>
+
+        <over>s</over>
+      </overwrite>ammen sind <emoticon>=)</emoticon> <par/> <closing><correction>
+          <deletion>Vie Giebe <unreadable/></deletion>
+        </correction> Liebe Grüße <par/> <entity>Karlotte</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

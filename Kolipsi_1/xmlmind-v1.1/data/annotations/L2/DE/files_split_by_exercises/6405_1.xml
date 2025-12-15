@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>6405</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Martha</entity>!</greeting> <par/><error>
+        <errorType/>
+
+        <originalForm>wie</originalForm>
+
+        <targetForm>Wie</targetForm>
+      </error> geht es dir? Danke für deine letzte <error>
+        <errorType/>
+
+        <originalForm>e-mail</originalForm>
+
+        <targetForm>E-Mail</targetForm>
+      </error>. Gestern habe ich <entity>Maria</entity> im Zentrum getroffen und sie hat mir erzählt, was sie passiert ist. Es ist eine komische Geschichte. <par/>Letzte Woche war <entity>Maria</entity> einkaufen und sie war allein. <par/>Sie brauchte Obst und Gemüse, so war sie zuerst beim Obsthändler. <par/>Sie hat die schönste Obst gewählt und hat sie alles an der Kasse bezahlt. <par/>Eine Stunde später ist sie in Supermarkt gegangen, weil sie Wasser, Salz und Olivenöl brauchte. Wenn sie aber an der Kasse war, gab es ein Problem. <entity>Maria</entity> hat alles in ihre Tasche gelegt, hat das Geld der Kassiererin gegeben, hat sie aber nicht den Kassenzettel genommen. <par/>Die Kassiererin hat <entity>Maria</entity> laut <sic>geruft</sic> und hat ihr den Kassenzettel gegeben. <par/><entity>Maria</entity> hat sich entschuldigt und hat den Zettel genommen <par/><entity>Maria</entity> hat mir gesagt, dass sie <palimpsest>geschämt</palimpsest> hat. Was denkst du darüber? Ich warte auf deine Antwort. <closing><entity>Anna</entity></closing> </exercise>
+
+    
+  </body>
+</kolipsi_document>

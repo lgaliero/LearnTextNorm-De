@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5551</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe <entity>Susi</entity>,</greeting> <par />wie geht es dir? Mi<overwrite>
+        <over>r</over>
+
+        <under>e</under>
+      </overwrite> alles ok… <error>
+        <errorType />
+
+        <originalForm>weisst</originalForm>
+
+        <targetForm>Weißt</targetForm>
+      </error> du was <palimpsest>letzte Woche meiner Freundin</palimpsest> <entity>Maria</entity> passiert ist? Also, sie war einkaufen, zuerst in einem Obst- und Gemüseladen, und später in einem Super<hyphen>-</hyphen>markt. Als sie aber in Obst- und Gemüseladen bezahlt hatte, hat sie den Kassenzettel bei der Kassa vergessen. <par />Mit dem Obst und Gemüse in der Tasche ist sie <palimpsest>in</palimpsest> Supermarkt einkaufen gegangen; aber wenn sie bezahlen wollte, fragte <palimpsest>die Verkäuferin</palimpsest> woher hatte sie <palimpsest>alles was</palimpsest> sich in ihrer Tasche <error>
+        <errorType />
+
+        <originalForm>brfand</originalForm>
+
+        <targetForm>befand</targetForm>
+      </error>. <entity>Maria</entity> <error>
+        <errorType />
+
+        <originalForm>erklährte</originalForm>
+
+        <targetForm>erklärte</targetForm>
+      </error> der Verkäuferin, dass sie vor<hyphen>-</hyphen>her in einem anderen Laden gewesen war wo sie das Obst und Gemüse gekauft hatte, aber das <error>
+        <errorType />
+
+        <originalForm>Freulein</originalForm>
+
+        <targetForm>Fräulein</targetForm>
+      </error> glaubte ihr nicht, da meine Freundin keinen Kassenzettel mit hatte. Die Verkäuferin wollte die Polizei anrufen, aber zum <error>
+        <errorType />
+
+        <originalForm>Gluck</originalForm>
+
+        <targetForm>Glück</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>viel</originalForm>
+
+        <targetForm>fiel</targetForm>
+      </error> <entity>Maria</entity> ein dass sie auch eine Art <error>
+        <errorType />
+
+        <originalForm>Tropisches</originalForm>
+
+        <targetForm>tropisches</targetForm>
+      </error> Frucht gekauft hatte das es in Supermarkt nicht gibt und, dass der Salat nicht eingepackt war (wie der von Supermarkt); aus diesen Gründen ist am Ende alles gut gegangen und <entity>Maria</entity> hat gelernt, dass man immer den Kassenzettel mit<hyphen>-</hyphen>nehmen soll! <par /><closing>Liebe Grüße, <entity>Katia</entity> </closing> </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber <entity>Luca</entity>,</greeting> wie gehts dir? <par />Ich möchte, dass du mir <sic>empfehlst</sic> ob ich am Meer fahren soll oder in die Berge. Ich plane gerade einen Urlaub mit <entity>Giulia</entity>, und sie möchte in die Berge fahren, und ich natürlich ans Meer Wir möchten beide einen entspannenden Urlaub machen; sie würde gerne in einem <error>
+        <errorType />
+
+        <originalForm>Wellness Hotel</originalForm>
+
+        <targetForm>Wellnesshotel</targetForm>
+      </error> in <entity>Cortina</entity> g<palimpsest>ehen</palimpsest> und ich hätte einen Angebot für <entity><error>
+          <errorType />
+
+          <originalForm>Maldiven</originalForm>
+
+          <targetForm>Malediven</targetForm>
+        </error></entity> gefunden. Wir streiten seit zwei Wochen, und können keine Entscheidung nehmen. <par /><entity>Cortina</entity> ist sicher sehr schön, es gibt frische Luft und das <error>
+        <errorType />
+
+        <originalForm>Wellness Hotel</originalForm>
+
+        <targetForm>Wellnesshotel</targetForm>
+      </error> ist einer der besten; es gibt mehrere Arten Sauna, Schwimmbäder, Disko <error>
+        <errorType />
+
+        <originalForm>u.s.w.</originalForm>
+
+        <targetForm>usw.</targetForm>
+      </error> <par /><entity><error>
+          <errorType />
+
+          <originalForm>Maldiven</originalForm>
+
+          <targetForm>Malediven</targetForm>
+        </error></entity> sind anderseits mein Traum: durchsichtiges Wasser, bunte Fische, <error>
+        <errorType />
+
+        <originalForm>weisses</originalForm>
+
+        <targetForm>weißes</targetForm>
+      </error> Sand, warmes Klima, einen Super-Village und <palimpsest><error>
+          <errorType />
+
+          <originalForm>tipische</originalForm>
+
+          <targetForm>typische</targetForm>
+        </error></palimpsest> <error>
+        <errorType />
+
+        <originalForm>Bungalovs</originalForm>
+
+        <targetForm>Bungalows</targetForm>
+      </error> <par />Was meinst du? Ich kann mich selber nicht entscheiden, <error>
+        <errorType />
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> glaube aber, dass <palimpsest>nach</palimpsest> <entity>Cortina</entity> können wir jeden<hyphen>-</hyphen>falls <palimpsest>auch</palimpsest> ein anderes Mal fahren, <entity><error>
+          <errorType />
+
+          <originalForm>Maldiven</originalForm>
+
+          <targetForm>Malediven</targetForm>
+        </error></entity> sind ein bisschen weiter weg und es ist schwierig einen anderen Angebot zu finden. <par /><closing>Liebe Grüße, <entity>Katia</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

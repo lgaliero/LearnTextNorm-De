@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0030</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Angelika</entity></greeting>!<par/>Wie geht es dir? Ich hoffe alles ist in Ordnung?!<par/>Ich dachte ich melde <overwrite>
+        <under>d</under>
+
+        <over>m</over>
+      </overwrite>ich mal bei dir und berichte was es so <error>
+        <errorType/>
+
+        <originalForm>neues</originalForm>
+
+        <targetForm>Neues</targetForm>
+      </error> gibt. Ich hab mich nämlich gestern mit <entity>Maria</entity> auf <sic>eine</sic> Kaffee getroffen und du wirst nicht glauben was sie mir erzählt hat. Als sie letztens im Supermarkt war um einzukaufen wurde sie plötzlich an der Kasse <sic>verdächtig</sic> etwas ge<hyphen>-</hyphen>klaut zu haben. Das war ein Drama...<par/>Wie jeden Dienstag war sie also letztens bei ihrem Obsthändler um die Ecke und hat die <error>
+        <errorType/>
+
+        <originalForm><overwrite>
+            <under>w</under>
+
+            <over>W</over>
+          </overwrite>ichtigsten</originalForm>
+
+        <targetForm>wichtigsten</targetForm>
+      </error> Sachen eingekauft. Da der Händler jedoch ein paar Sachen nicht hatte, die sie noch brauchte ist sie noch schnell in den Supermarkt ge<hyphen>-</hyphen>fahren um die restlichen Sachen zu besorgen. Als sie dann vorne an der Kasse stand dachte die Verkäuferin, dass <entity>Maria</entity> das Obst und Gemüse, was aus ihrer Einkaufstasche <error>
+        <errorType/>
+
+        <originalForm>hervor schaute</originalForm>
+
+        <targetForm>hervorschaute</targetForm>
+      </error>, geklaut hätte. Also rief diese erst einmal die Security. Die brachte <entity>Maria</entity> dann erstmal in einen anderen Raum und packte alle ihre Sachen aus. Zum Glück hatte <entity>Maria</entity> aber noch den Kassenbeleg <correction>
+        <deletion>au</deletion>
+      </correction> vom Obsthändler in ihrer Tasche, sodass sich das Missverständnis schnell wieder regeln ließ. Die Verkäuferin entschuldigte sich etwas beschämt und dann durfte <entity>Maria</entity> aber glücklicherweise wieder gehen.<par/>Es ist zwar nichts passiert aber <entity>Maria</entity> meinte sie hätte doch schon einen großen Schock bekommen als sie die Security weggebracht haben. Ist aber auch verständlich. Wäre ich wahrscheinlich auch.<par/>Also, dann schreib doch einfach mal zurück wenn du <error>
+        <errorType/>
+
+        <originalForm>zeit</originalForm>
+
+        <targetForm>Zeit</targetForm>
+      </error> hast und berichte was bei dir so <error>
+        <errorType/>
+
+        <originalForm>spannendes</originalForm>
+
+        <targetForm>Spannendes</targetForm>
+      </error> passiert <emoticon>:)</emoticon><par/><closing>Liebe Grüße</closing>    </exercise>
+
+    
+  </body>
+</kolipsi_document>

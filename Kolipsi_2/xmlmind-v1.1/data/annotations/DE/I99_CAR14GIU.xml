@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I99_CAR14GIU</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo Anna,</greeting><par />wie geht es dir? Ich schreibe <correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>dir</insertion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>veil</originalForm>
+
+        <targetForm>weil</targetForm>
+      </error> du <correction>
+        <deletion>bist</deletion>
+      </correction> die richtige Person für diese <error>
+        <errorType />
+
+        <originalForm>sache</originalForm>
+
+        <targetForm>Sache</targetForm>
+      </error> bist.<par />Erinnerst du Maria? Sie hat ein Problem mit eine Supermarkt. Sie ist in zwei <foreign_word
+        foreign_language="Italiano">Market</foreign_word> gegangen. Sie kaufte zuerst in einem <error>
+        <errorType />
+
+        <originalForm>Obst</originalForm>
+
+        <targetForm>Obst-</targetForm>
+      </error> <correction>
+        <deletion>un o</deletion>
+      </correction> und Gemüseladen ein aber dann ist sie im <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Supermarkt gega<correction>
+        <insertion>n</insertion>
+      </correction>gen. Wenn <error>
+        <errorType />
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> in der Kasse ist, die <foreign_word foreign_language="Italiano"><error>
+          <errorType />
+
+          <originalForm>Kommesse</originalForm>
+
+          <targetForm>Commessa</targetForm>
+        </error></foreign_word> denke dass Maria <correction>
+        <deletion>hat</deletion>
+      </correction> Stief in die Supermarkt, aber sie hat <correction>
+        <insertion>auch</insertion>
+      </correction> in ein andere <foreign_word foreign_language="Italiano">Market</foreign_word> gekauft, aber sie hat der Kassenzettel in <error>
+        <errorType />
+
+        <originalForm>Obst und Gemuseladen</originalForm>
+
+        <targetForm>Obst- und Gemüseladen</targetForm>
+      </error> vergessen und dann <correction>
+        <deletion>Ma</deletion>
+      </correction> hat Maria keine <correction>
+        <deletion><unreadable /></deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>entschuldigung</originalForm>
+
+        <targetForm>Entschuldigung</targetForm>
+      </error>.<par />Ich bin sehr traurig für Maria. Sie ist eine gute <error>
+        <errorType />
+
+        <originalForm>freunde</originalForm>
+
+        <targetForm>Freunde</targetForm>
+      </error> und ich bin sicher dass sie die Richtig gesagt.<par />Heute Maria ist in die Supermarkt gegangen <correction>
+        <insertion>für <error>
+            <errorType />
+
+            <originalForm>entschuldigung</originalForm>
+
+            <targetForm>Entschuldigung</targetForm>
+          </error> sie für die schlechte <error>
+            <errorType />
+
+            <originalForm>situation</originalForm>
+
+            <targetForm>Situation</targetForm>
+          </error></insertion>
+      </correction> und am <error>
+        <errorType />
+
+        <originalForm>ende</originalForm>
+
+        <targetForm>Ende</targetForm>
+      </error>, <correction>
+        <deletion>sie alle</deletion>
+      </correction> sind alle sicher dass Maria <correction>
+        <deletion>hat</deletion>
+      </correction> die Richtig gesagt.<par /><correction>
+        <deletion>für entschuldigung sie für die schlechte situation</deletion>
+      </correction><par /><closing>Danke für deine Zeit, ein <error>
+          <errorType />
+
+          <originalForm>umarm</originalForm>
+
+          <targetForm>Umarm</targetForm>
+        </error></closing><par />Christina.</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting><error>
+          <errorType />
+
+          <originalForm>Allo</originalForm>
+
+          <targetForm>Hallo</targetForm>
+        </error> Paul,</greeting><par />das ist eine Situation ein <error>
+        <errorType />
+
+        <originalForm>bischen</originalForm>
+
+        <targetForm>bisschen</targetForm>
+      </error> seltsame. <correction>
+        <deletion>unreadable</deletion>
+      </correction> Du kann versuchen die <correction>
+        <deletion>Men</deletion>
+      </correction> Personen im Internet und dann schreiben <correction>
+        <deletion>zu</deletion>
+      </correction> Sie zu die Nummer anzufordern.</exercise>
+  </body>
+</kolipsi_II_document>

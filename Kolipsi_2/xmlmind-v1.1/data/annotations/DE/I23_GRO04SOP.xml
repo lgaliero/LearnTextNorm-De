@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I23_GRO04SOP</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo Sara,</greeting><par /><error>
+        <errorType />
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> hoffe dir geht es gut. Ich schreibe dir um dir zu erzählen was meiner Freundin Maria letzte Woche passiert ist. Wie jeden Vormittag, ist sie von zu Hause gestartet um einkaufen zu gehen. Als <error>
+        <errorType />
+
+        <originalForm>ersters</originalForm>
+
+        <targetForm>Ersters</targetForm>
+      </error> ist sie zum Obsthändler gegangen, da sie unbedingt noch Erdbeeren für das Dessert brauchte. Zum Glück gab es neben dem Obsthändler den Gemüsehändler und kaufte dort noch was sie benötigte.<par />An dem Tag war sie schon so gestresst, dass sie vergaß den Einkaufszettel mitzunehmen! "So schlimm ist es nicht", dachte sie, was sie nicht wusste ist, dass der zurückgelassene Einkaufszettel sehr wichtig war. Ihre Einkaufsroutine ging weiter und bald befand sie sich im Supermark<correction>
+        <deletion>et</deletion>
+
+        <insertion>t</insertion>
+      </correction> um noch die letzen Sachen zu besorgen. Bei der Kasse ist es dann passiert! Die Kassiererin hat in Maria's Tasche das Gemüse, das sie schon gekauft hatte, entdecket und ohne den <correction>
+        <deletion>Ko</deletion>
+      </correction> Einkaufszettel konnte Maria nicht nachweisen, dass sie keine Diebin war. <correction>
+        <deletion>Die Frau an o</deletion>
+      </correction> Maria versuchte zu erklären, dass sie das Gemüse im Gemüseladen gekauft hatte, aber die Frau an der Kasse rief gleich den Chef. Maria musste also dem Chef die ganze Geschichte erzählen. Zum Glück konnte sie ihn überreden, mit ihr ins Gemüseladen zu gehen damit sie beweisen konnte, dass sie nichts gestohlen hatte. Im Gemüseladen wurde das Missverständnis geklärt und Maria flitzte nach Hause um zu kochen.<par />Ich musste so lachen, als sie mir die Geschichte erzählt hat und ich hoffe ich habe <correction>
+        <insertion>es geschafft</insertion>
+      </correction> dir hiermit ein Lächeln aufs Gesicht zu zaubern <correction>
+        <deletion>gekonnt</deletion>
+      </correction>.<par /><closing>Liebe Grüße,</closing> deine Sophie</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Sehr geehrter Herr Pau<correction>
+          <deletion>t</deletion>
+
+          <insertion>l</insertion>
+        </correction>,</greeting><par />ich habe gestern in der Zeitung "Junge Woche" <error>
+        <errorType />
+
+        <originalForm>ihren</originalForm>
+
+        <targetForm>Ihren</targetForm>
+      </error> Brief gelesen und möchte mit Ihnen meine Erfahrung teilen um Ihnen zu helfen. Ich habe mich vor einem Jahr bei einer Internetseite eingeschrieben um neue Freunde kennenzulernen, weil ich umgezogen bin und niemanden kannte. Ich habe sehr schnell neue Leute in der Umgebung gefunden und fast Tag und Nacht mit ihnen gechattet: <error>
+        <errorType />
+
+        <originalForm>wir</originalForm>
+
+        <targetForm>Wir</targetForm>
+      </error> haben uns Geschichten erzählt, geholfen Probleme zu lösen und ich hatte das Gefühl ich konnte mit ihnen über Gott und die Welt reden. <correction>
+        <insertion>Ich habe sie aber nie gesehen.</insertion>
+      </correction> Eines Tages, aber, habe ich einen jungen Mann kennengelernt an der Arbeit. Wir haben uns fast jeden Tag getroffen und alle Pausen zusammen verbracht. Natürlich haben wir uns verliebt und dank ihm habe ich gemerkt <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> wahre Freundschaft, die die nicht <correction>
+        <deletion>d</deletion>
+      </correction> nur durch <error>
+        <errorType />
+
+        <originalForm>chatten</originalForm>
+
+        <targetForm>Chatten</targetForm>
+      </error> verstärkt wird, viel wichtiger ist und einem viel mehr helfen kann weil man nie alleine ist. Virtuelle Freunde sind nicht wirklich Freunde, sie sind nur Freunde die nützlich sein können wenn man alleine ist. Ich habe gemerkt <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> <correction>
+        <deletion>wi</deletion>
+      </correction> virtuelle Freunde nichts für mich sind und ich möchte <error>
+        <errorType />
+
+        <originalForm>ihnen</originalForm>
+
+        <targetForm>Ihnen</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>Raten</originalForm>
+
+        <targetForm>raten</targetForm>
+      </error> Ihren virtuellen Freunden zu erklären, dass <error>
+        <errorType />
+
+        <originalForm>sie</originalForm>
+
+        <targetForm>Sie</targetForm>
+      </error> mit Freunde und Familie wegen ihnen gestritten haben. Wenn <error>
+        <errorType />
+
+        <originalForm>sie</originalForm>
+
+        <targetForm>Sie</targetForm>
+      </error> es mir erlauben, möchte ich <correction>
+        <deletion>i</deletion>
+
+        <insertion>I</insertion>
+      </correction>hnen sagen, dass wenn <error>
+        <errorType />
+
+        <originalForm>sie</originalForm>
+
+        <targetForm>Sie</targetForm>
+      </error> immer nur chatten, <error>
+        <errorType />
+
+        <originalForm>sie</originalForm>
+
+        <targetForm>Sie</targetForm>
+      </error> Ihr <correction>
+        <deletion>l</deletion>
+
+        <insertion>L</insertion>
+      </correction>eben total verpassen, das wirkliche Leben, mit Freunden, Familie und nicht mi<correction>
+        <deletion>c</deletion>
+
+        <insertion>t</insertion>
+      </correction> Menschen die <error>
+        <errorType />
+
+        <originalForm>sie</originalForm>
+
+        <targetForm>Sie</targetForm>
+      </error> nie gesehen haben. <correction>
+        <deletion>Reden sie</deletion>
+      </correction> Zusammengefasst, rate ich Ihnen die virtuelle Freundschaften beenden bevor es zu spät ist und <error>
+        <errorType />
+
+        <originalForm>sie</originalForm>
+
+        <targetForm>Sie</targetForm>
+      </error> komplett isoliert und alleine leben.<par />Ich hoffe, dass meine <error>
+        <errorType />
+
+        <originalForm>Erfuhrung</originalForm>
+
+        <targetForm>Erfahrung</targetForm>
+      </error> Ihnen weiterhelfen kann <error>
+        <errorType />
+
+        <originalForm>wnd</originalForm>
+
+        <targetForm>und</targetForm>
+      </error> wer weiß, vielleicht finden <error>
+        <errorType />
+
+        <originalForm>sie</originalForm>
+
+        <targetForm>Sie</targetForm>
+      </error> bald die Frau <error>
+        <errorType />
+
+        <originalForm>ihres</originalForm>
+
+        <targetForm>Ihres</targetForm>
+      </error> <correction>
+        <deletion>l</deletion>
+
+        <insertion>L</insertion>
+      </correction>ebens, des richtigen Lebens.<par /><closing>Mit freundlichen Grüßen,</closing> Sophie</exercise>
+  </body>
+</kolipsi_II_document>

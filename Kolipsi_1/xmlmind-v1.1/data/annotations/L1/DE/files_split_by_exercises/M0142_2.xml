@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0142</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Lieber <entity>Lampi</entity></greeting>,<par/>wir hatten <correction>
+        <deletion>ja</deletion>
+      </correction> überlegt gemeinsam in den Urlaub zu fahren. Nur <correction>
+        <deletion><unreadable/></deletion>
+      </correction> <correction>
+        <deletion>es</deletion>
+      </correction> <correction>
+        <deletion>noch</deletion>
+      </correction> bin ich mir noch nicht sicher, ob wir lieber ans Meer oder in die Berge fahren sollen. Wie stehst du dazu? Auf der einen Seite ist die Aussicht in den Bergen einfach himmlisch und die gesunde Luft würde deiner Raucherlunge <error>
+        <errorType/>
+
+        <originalForm>gut tun</originalForm>
+
+        <targetForm>guttun</targetForm>
+      </error>. Auf der anderen Seite <correction>
+        <deletion><unreadable/></deletion>
+      </correction> ist das Meer viel gemütlicher. <correction>
+        <deletion>und</deletion>
+      </correction> Nichts geht über ein paar Tage am Strand. In jedem Fall <correction>
+        <deletion>wird</deletion>
+      </correction> soll es erholsam sein. Aus eigener Erfahrung weiß ich, dass Urlaub am Meer sehr wetterabhängig ist, da <gap>_</gap> keine Lust hat sich an den Strand zu legen, während es regnet. In <gap>_</gap> Bergen gibt es wahrscheinlich ähnliche Probleme, allerdings hab ich damit weniger Erfahrungen gemacht. Ich würde trotzdem vorschlagen am Meer Urlaub zu machen, da ich insgesamt mehr positive <overwrite>
+        <under>e</under>
+
+        <over>E</over>
+      </overwrite>rfahrungen <correction>
+        <deletion>damit</deletion>
+      </correction> am Meer gemacht habe. Dadurch <correction>
+        <deletion>sind</deletion>
+      </correction> <correction>
+        <deletion>P</deletion>
+      </correction> kann man einigen Problemen direkt aus dem Weg gehen.<par/>Schreib ,bitte, bald zurück, damit wir frühzeitig buchen können!<par/><closing>Bis demnächst<par/><correction>
+          <deletion><unreadable/></deletion>
+        </correction>   </closing>             </exercise>
+  </body>
+</kolipsi_document>

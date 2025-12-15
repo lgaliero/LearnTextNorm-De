@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5772</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve">
+      <par/><greeting>Hallo <entity>Joseph</entity>!</greeting> Wie geht's?<par/> <error>
+        <errorType/>
+
+        <originalForm>Weist</originalForm>
+
+        <targetForm>Weißt</targetForm>
+      </error> du was<correction>
+        <deletion><unreadable/></deletion>
+      </correction> <entity>Maria</entity> passiert ist?<par/>Sie ist ins ein Obst- und Gemüseladen gegangen um <strikeover>
+        <expansion>G</expansion>
+
+        <expansion>g</expansion>
+      </strikeover>emüse zu verkaufen. Sie hat <overwrite>
+        <under>g</under>
+
+        <over>d</over>
+      </overwrite>ie Gemüse <error>
+        <errorType/>
+
+        <originalForm>bezählt</originalForm>
+
+        <targetForm>bezahlt</targetForm>
+      </error> und hat <correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>den Kassenzettel</insertion>
+      </correction> vergessen. Dann ist sie in ein ander Geschäft gegangen, ein Supermarkt.<par/>Hier hat <entity>Maria</entity> andere <strikeover>
+        <expansion>S</expansion>
+
+        <expansion>s</expansion>
+      </strikeover>ache gekauft. Aber wenn sie bezahlen sollte, die <error>
+        <errorType/>
+
+        <originalForm><overwrite>
+            <under><unreadable/></under>
+
+            <over>K</over>
+          </overwrite>Assierin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm><overwrite>
+            <under>s<unreadable/></under>
+
+            <over>zi</over>
+          </overwrite>egt</originalForm>
+
+        <targetForm>zeigt</targetForm>
+      </error> an <entity>Marias</entity> Rucksack an <correction>
+        <deletion>d</deletion>
+      </correction>die <strikeover>
+        <expansion>S</expansion>
+
+        <expansion>s</expansion>
+      </strikeover>ache die <entity>Maria</entity> in der andern Geschäft gekaufen hat. <entity>Maria</entity> hat keinen <correction>
+        <deletion>skontrino</deletion>
+
+        <insertion>Kassenzettel</insertion>
+      </correction> und die <error>
+        <errorType/>
+
+        <originalForm><overwrite>
+            <under><unreadable/></under>
+
+            <over>K</over>
+          </overwrite>assierin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> sagte die <entity>Maria</entity> diese <strikeover>
+        <expansion>S</expansion>
+
+        <expansion>s</expansion>
+      </strikeover>ache <error>
+        <errorType/>
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hat. <correction>
+        <deletion>Die Kassierin hat die Polizei geruft</deletion>
+      </correction> <entity>Maria</entity> sagte dass sie diese Sache in ein ander Geschäft <error>
+        <errorType/>
+
+        <originalForm>gekaufenhabe</originalForm>
+
+        <targetForm>gekaufen habe</targetForm>
+      </error>. Die <error>
+        <errorType/>
+
+        <originalForm><overwrite>
+            <under><unreadable/></under>
+
+            <over>K</over>
+          </overwrite>assierin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> hat <entity>Maria</entity> gelassen <error>
+        <errorType/>
+
+        <originalForm>un</originalForm>
+
+        <targetForm>und</targetForm>
+      </error> <entity><overwrite>
+          <under><unreadable/></under>
+
+          <over>M</over>
+        </overwrite>aria</entity> ist zu Hause zurückgekommen</exercise>
+
+    
+  </body>
+</kolipsi_document>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Jessica</transcriber>
+
+  <author_id>6329</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve">Ich lieber das <error>
+        <errorType/>
+
+        <originalForm>mehr</originalForm>
+
+        <targetForm>Meer</targetForm>
+      </error>. Ich habe <error>
+        <errorType/>
+
+        <originalForm>gewont</originalForm>
+
+        <targetForm>gewohnt</targetForm>
+      </error> in das <error>
+        <errorType/>
+
+        <originalForm>mehr</originalForm>
+
+        <targetForm>Meer</targetForm>
+      </error>, und ist wunderbar. In das <error>
+        <errorType/>
+
+        <originalForm>mehr</originalForm>
+
+        <targetForm>Meer</targetForm>
+      </error> ist eine <correction>
+        <deletion><unreadable/></deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>fantastisce</originalForm>
+
+        <targetForm>fantastische</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>clima</originalForm>
+
+        <targetForm>Klima</targetForm>
+      </error>, ein <error>
+        <errorType/>
+
+        <originalForm>fantastishe</originalForm>
+
+        <targetForm>fantastische</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>waser</originalForm>
+
+        <targetForm>Wasser</targetForm>
+      </error>, und ein <correction>
+        <deletion><unreadable/></deletion>
+      </correction> wunderbar <error>
+        <errorType/>
+
+        <originalForm>sohne</originalForm>
+
+        <targetForm>Sonne</targetForm>
+      </error>. In das <error>
+        <errorType/>
+
+        <originalForm>mehr</originalForm>
+
+        <targetForm>Meer</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>sin</originalForm>
+
+        <targetForm>sind</targetForm>
+      </error> <overwrite>
+        <over>v</over>
+
+        <under>f</under>
+      </overwrite>iele <sic>blaume</sic> und <error>
+        <errorType/>
+
+        <originalForm>vile</originalForm>
+
+        <targetForm>viele</targetForm>
+      </error> <correction>
+        <deletion><unreadable/></deletion>
+      </correction> grüne <error>
+        <errorType/>
+
+        <originalForm>Beume</originalForm>
+
+        <targetForm>Bäume</targetForm>
+      </error>. In das <error>
+        <errorType/>
+
+        <originalForm>mehr</originalForm>
+
+        <targetForm>Meer</targetForm>
+      </error> du <error>
+        <errorType/>
+
+        <originalForm>cans</originalForm>
+
+        <targetForm>kanns</targetForm>
+      </error> <correction>
+        <deletion><unreadable/></deletion>
+      </correction> erholen. Eine Stadt am <error>
+        <errorType/>
+
+        <originalForm>mehr</originalForm>
+
+        <targetForm>Meer</targetForm>
+      </error> für mich ist <correction>
+        <deletion>s</deletion>
+      </correction> sehr schön wie eine <error>
+        <errorType/>
+
+        <originalForm>Paradis</originalForm>
+
+        <targetForm>Paradies</targetForm>
+      </error>. <correction>
+        <deletion><unreadable/></deletion>
+      </correction> In <error>
+        <errorType/>
+
+        <originalForm>dise</originalForm>
+
+        <targetForm>diese</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>stadt</originalForm>
+
+        <targetForm>Stadt</targetForm>
+      </error> sind <correction>
+        <deletion>f</deletion>
+      </correction> viele <error>
+        <errorType/>
+
+        <originalForm>personen</originalForm>
+
+        <targetForm>Personen</targetForm>
+      </error>, zu <correction>
+        <deletion><unreadable/></deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>spaziren</originalForm>
+
+        <targetForm>spazieren</targetForm>
+      </error> gehen. In dise <error>
+        <errorType/>
+
+        <originalForm>stadt</originalForm>
+
+        <targetForm>Stadt</targetForm>
+      </error> sind <correction>
+        <deletion>f</deletion>
+      </correction> viele <error>
+        <errorType/>
+
+        <originalForm>bar</originalForm>
+
+        <targetForm>Bar</targetForm>
+      </error> und du <error>
+        <errorType/>
+
+        <originalForm>canst</originalForm>
+
+        <targetForm>kannst</targetForm>
+      </error> <correction>
+        <deletion>g</deletion>
+      </correction> trinken viele <error>
+        <errorType/>
+
+        <originalForm>kotail</originalForm>
+
+        <targetForm>Cocktail</targetForm>
+      </error>.</exercise>
+  </body>
+</kolipsi_document>

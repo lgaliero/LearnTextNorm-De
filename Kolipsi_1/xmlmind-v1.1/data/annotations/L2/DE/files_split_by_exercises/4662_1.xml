@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>4662</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve">
+ <par/> <greeting>Hallo <entity>Lisa</entity>,</greeting> <par/> <gap>_</gap> wie geht es dir? Ich möchte dir erzählen was letzte Woche der <entity>Maria</entity> passiert ist. Sie war beim Obsthändler und kaufte ein bisschen Obst und Gemüse ein. Bei der Kasse war dann noch alles in Ordnung. Sie bezahlte und ging froh weiter. Als Nächstes ging sie in den Supermarkt. Sie legte ihre aufgesammelten Sachen in den Einkaufswagen und ging von Stapel zu Stapel um nachzuschauen ob sie noch etwas brauchte. Als sie dann bei der Kasse war, bezahlte sie. Dann aber bemerkte die Frau an der Kasse <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> <entity>Maria</entity> eine Tasche hatte und sie dachte sie hätte <correction>
+        <deletion>da</deletion>
+      </correction> diese Sachen gestohlen. <entity>Maria</entity> musste dann erklären dass sie in einem anderen Geschäft Obst eingekauft hatte. Ihr war dies aber <correction>
+        <deletion>ziem</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>zihemlich</originalForm>
+
+        <targetForm>ziemlich</targetForm>
+      </error> peinlich auch wenn sie nichts gemacht hatte. Jetzt muss ich leider <error>
+        <errorType/>
+
+        <originalForm>gehn</originalForm>
+
+        <targetForm>gehen</targetForm>
+      </error>, wir sehen uns bald.<par/><closing>Schöne <error>
+          <errorType/>
+
+          <originalForm>Grüsse</originalForm>
+
+          <targetForm>Grüße</targetForm>
+        </error><par/> <entity>Laura</entity> </closing> </exercise>
+
+    
+  </body>
+</kolipsi_document>

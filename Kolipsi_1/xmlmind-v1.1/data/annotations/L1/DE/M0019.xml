@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0019</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Linda</entity></greeting>,<par />wie geht es dir? Du wirst nie erraten, was meiner Freundin <entity>Maria</entity> <correction>
+        <deletion>gestern</deletion>
+      </correction> <correction>
+        <insertion>letzte Woche</insertion>
+      </correction> passiert ist. Im Supermarkt wäre sie fast wegen versuchtem Diebstahl aus dem Laden geworfen worden. Natürlich war sie unschuldig! Das ganze hat angefangen als sie beim Obsthändler einkaufen war. Sie hatte viel Obst gekauft, unter anderem auch Banan<overwrite>
+        <under><unreadable /></under>
+
+        <over>e</over>
+      </overwrite>n <sic>gekauft</sic>. Da sie keine <error>
+        <errorType />
+
+        <originalForm>all zu</originalForm>
+
+        <targetForm>allzu</targetForm>
+      </error> große Tasche dabei hatte, guckten die Bananen oben aus ihrer Tasche <error>
+        <errorType />
+
+        <originalForm>herraus</originalForm>
+
+        <targetForm>heraus</targetForm>
+      </error>. Blöderweise hatte sie an der Kasse ihren Kassenzettel liegen gelassen. Als sie dann später im Supermarkt für<correction>
+        <deletion>s</deletion>
+      </correction> das Abendessen einkaufen war und an der Kasse stand bemerkte die Kassiererin die Bananen und bat <entity>Maria</entity> diese doch bitte aufs Band zu legen. <correction>
+        <deletion>Als</deletion>
+      </correction> <entity>Maria</entity> erklärte der Kassiererin natürlich, dass sie diese in einem anderen Geschäft gekauft hatte, aber sie hatte dafür natürlich keinen Beweis, sie hatte ja den Kassenzettel im Obstladen vergessen.<par />Zum Glück klärte sich alles nach einem Anruf beim<correction>
+        <deletion>b</deletion>
+      </correction> Obsthändler auf. <entity>Maria</entity> wird <correction>
+        <insertion>ab</insertion>
+      </correction> jetzt bestimmt nicht mehr den Kassenzettel vergessen. <par />Und was ist dir in letzter Zeit so passiert?<par />Ich hoffe du antwortest schnell,<par /><closing>liebe Grüße, deine <entity>Eva</entity></closing>         </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo <correction>
+          <deletion><unreadable /></deletion>
+        </correction> <correction>
+          <insertion><entity>Melina</entity>!</insertion>
+        </correction></greeting>!<par />Ich hatte vor kurzem die Idee, dass wir doch mal wieder zusammen Urlaub machen könnten. Ich bin mir jedoch nicht sicher ob <correction>
+        <deletion>w</deletion>
+      </correction> es besser wäre in die Berge oder ans Meer zu fahren. Am Meer wäre bestimmt gutes Wetter und wir könnten schwimmen gehen. Außerdem könnten wir wieder eine Radtour zum Leuchtturm machen, <correction>
+        <deletion>und n</deletion>
+      </correction> wie <correction>
+        <deletion>f</deletion>
+      </correction> wir es früher gemacht haben. Vielleicht finden wir auch wieder Schiffsschrauben, wenn wir im <overwrite>
+        <under>s</under>
+
+        <over>S</over>
+      </overwrite>and graben. In den Bergen könnten wir zwar auch Fahrrad fahren, aber dort ist das anstrengender. Dafür könnten wir in den Bergen <error>
+        <errorType />
+
+        <originalForm>Skifahren</originalForm>
+
+        <targetForm>Ski fahren</targetForm>
+      </error> gehen. Das war doch immer lustig, <correction>
+        <deletion>so</deletion>
+      </correction>. Wei<overwrite>
+        <under>s</under>
+
+        <over>ß</over>
+      </overwrite>t du noch wie wir immer in den Tiefschnee gefahren sind und ich meinen Ski verloren habe? Das war lustig.<par />Also, was meinst du wo wir lieber hinfahren sollten? Ich warte auf deine Antwort.<par /><closing>Liebe Grüße<par /><entity>Eva</entity></closing><par />P.S. Am Meer könnten wir uns auch in die Sonne legen oder Eis essen, in den Bergen könnten wir wandern gehen, aber darauf hätte ich keine große Lust.          </exercise>
+  </body>
+</kolipsi_document>

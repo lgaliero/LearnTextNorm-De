@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5033</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><par/><greeting>Liebe <entity>Valeria</entity>,</greeting> <par/>wi<palimpsest>r</palimpsest> können eine Urlaub machen. Wi<strikeover>
+        <expansion>r</expansion>
+
+        <expansion>e</expansion>
+      </strikeover> sollen am Meer fahren wo wi<overwrite>
+        <under><unreadable/></under>
+
+        <over>r</over>
+      </overwrite> können die Sonne nehmen, das <error>
+        <errorType/>
+
+        <originalForm>bad</originalForm>
+
+        <targetForm>Bad</targetForm>
+      </error> ins Meer machen, und viele <error>
+        <errorType/>
+
+        <originalForm>promenade</originalForm>
+
+        <targetForm>Promenade</targetForm>
+      </error> machen. In den Bergen sollen wir auch die Sonne nehmen aber wenn wir warm <correction>
+        <deletion><unreadable/></deletion>
+      </correction> haben wir können keine <error>
+        <errorType/>
+
+        <originalForm>bad</originalForm>
+
+        <targetForm>Bad</targetForm>
+      </error> machen, sondern wir können unter eine Baum gehen. In den Bergen gibt es viele frische <error>
+        <errorType/>
+
+        <originalForm>luft</originalForm>
+
+        <targetForm>Luft</targetForm>
+      </error> und <error>
+        <errorType/>
+
+        <originalForm>konnen</originalForm>
+
+        <targetForm>können</targetForm>
+      </error> <correction>
+        <deletion><unreadable/></deletion>
+      </correction> wir auch <error>
+        <errorType/>
+
+        <originalForm>promenade</originalForm>
+
+        <targetForm>Promenade</targetForm>
+      </error> machen. Ich <error>
+        <errorType/>
+
+        <originalForm>libe</originalForm>
+
+        <targetForm>liebe</targetForm>
+      </error> mehr das <error>
+        <errorType/>
+
+        <originalForm>meer</originalForm>
+
+        <targetForm>Meer</targetForm>
+      </error> weil das Wetter ist immer warm. In <error>
+        <errorType/>
+
+        <originalForm>Die</originalForm>
+
+        <targetForm>die</targetForm>
+      </error> Berge ist nicht imme<strikeover>
+        <expansion>r</expansion>
+
+        <expansion>s</expansion>
+      </strikeover> schön weil das Wetter ist manchmal <error>
+        <errorType/>
+
+        <originalForm>ca<overwrite>
+            <under><unreadable/></under>
+
+            <over>lt</over>
+          </overwrite></originalForm>
+
+        <targetForm>kalt</targetForm>
+      </error>. Ich <error>
+        <errorType/>
+
+        <originalForm>offe</originalForm>
+
+        <targetForm>hoffe</targetForm>
+      </error> dass auch du liebst mehr das Meer und so gehen wir am Meer zusammen. <par/><closing>Viele Grüßen <entity>Martina</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

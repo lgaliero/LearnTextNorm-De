@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I17_BON27MAT</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe Anna,</greeting> wie geht es dir?<par />Heute ist Maria einkaufen <error>
+        <errorType />
+
+        <originalForm>gehgangen</originalForm>
+
+        <targetForm>gegangen</targetForm>
+      </error>. Sie ist in einem Obst- und Gemüseladen einkaufen <error>
+        <errorType />
+
+        <originalForm>gehgangen</originalForm>
+
+        <targetForm>gegangen</targetForm>
+      </error>. Sie will heute <correction>
+        <deletion>a</deletion>
+
+        <insertion>A</insertion>
+      </correction>bend ein <correction>
+        <deletion>f</deletion>
+
+        <insertion>F</insertion>
+      </correction>est geben. Deswegen brauchte sie einige <error>
+        <errorType />
+
+        <originalForm>sachen</originalForm>
+
+        <targetForm>Sachen</targetForm>
+      </error>. Wenn sie <correction>
+        <deletion>aber <unreadable /> fertig</deletion>
+      </correction> alles was sie brauchte genommen hat, ging sie zu der Kassa. Dort beza<correction>
+        <insertion>h</insertion>
+      </correction>lte sie alles. Sie <error>
+        <errorType />
+
+        <originalForm>grüste</originalForm>
+
+        <targetForm>grüßte</targetForm>
+      </error> die Frau an der Kassa. Aber sie war <correction>
+        <deletion>foller <unreadable /></deletion>
+      </correction> voller Tasc<correction>
+        <insertion>h</insertion>
+      </correction>en und <correction>
+        <deletion>fer vergeste</deletion>
+
+        <insertion><error>
+            <errorType />
+
+            <originalForm>vergies</originalForm>
+
+            <targetForm>vergiss</targetForm>
+          </error></insertion>
+      </correction> dem <error>
+        <errorType />
+
+        <originalForm>Kassanzettel</originalForm>
+
+        <targetForm>Kassenzettel</targetForm>
+      </error>.<par /><correction>
+        <deletion>Sie brach die t Dann ging sie sp Sp</deletion>
+      </correction><par />Später ging sie im Supermakt. Dort brauchte sie die <foreign_word
+        foreign_language="Italiano"><error>
+          <errorType />
+
+          <originalForm>Ingredienten</originalForm>
+
+          <targetForm>Ingredienti</targetForm>
+        </error></foreign_word> um einen Kuchen zu backen. Sie kaufte auch <error>
+        <errorType />
+
+        <originalForm>Getrenke</originalForm>
+
+        <targetForm>Getränke</targetForm>
+      </error> und <correction>
+        <deletion>so p</deletion>
+
+        <insertion>P</insertion>
+      </correction>ommes. <correction>
+        <deletion>I</deletion>
+      </correction><par />Ja, weil <correction>
+        <deletion>da</deletion>
+      </correction> beim <correction>
+        <deletion>f</deletion>
+
+        <insertion>F</insertion>
+      </correction>est werden auch einige Kinder kommen.<par />Wann sie <correction>
+        <deletion>fe</deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>vertig</originalForm>
+
+        <targetForm>fertig</targetForm>
+      </error> war <correction>
+        <deletion>gig</deletion>
+      </correction> ging sie zur Kassa um zu <correction>
+        <deletion>bezalen.</deletion>
+      </correction> bezahlen.<par /><correction>
+        <deletion>Aber dort war</deletion>
+      </correction> Sie gab der <correction>
+        <deletion>f</deletion>
+
+        <insertion>F</insertion>
+      </correction>rau alles was sie genommen <correction>
+        <deletion>hatte.</deletion>
+
+        <insertion>hat</insertion>
+      </correction>. Und behaltete die Tasche mit Obst und Gemüse, die sie <error>
+        <errorType />
+
+        <originalForm>forher</originalForm>
+
+        <targetForm>vorher</targetForm>
+      </error> eingekauft <correction>
+        <deletion>hatte.</deletion>
+
+        <insertion>hat</insertion>
+      </correction>.<par />Die <correction>
+        <deletion>Engesch <unreadable /> Angesch</deletion>
+      </correction> Angestelte <correction>
+        <deletion>sagte</deletion>
+      </correction> sagte <correction>
+        <deletion>dass sie</deletion>
+
+        <insertion>an</insertion>
+      </correction> Maria <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> sie auch die Gemüse bezahlen <error>
+        <errorType />
+
+        <originalForm>solte</originalForm>
+
+        <targetForm>sollte</targetForm>
+      </error>.<par />Aber Maria konnte nicht beweisen <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> es in einem anderem <error>
+        <errorType />
+
+        <originalForm>Gescheft</originalForm>
+
+        <targetForm>Geschäft</targetForm>
+      </error> kaufte. Sie sagte <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> sie den Kassazettel verloren <correction>
+        <deletion>hate</deletion>
+      </correction> hat.<par />Aber <correction>
+        <deletion>di<unreadable /></deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>gluklicherweise</originalForm>
+
+        <targetForm>glücklicherweise</targetForm>
+      </error> konnte Maria <correction>
+        <deletion>die</deletion>
+      </correction> eine Angestelte die sagte <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> sie nicht in ihren <error>
+        <errorType />
+
+        <originalForm>Gescheft</originalForm>
+
+        <targetForm>Geschäft</targetForm>
+      </error>, Gemüse gekauft hat.<par />Alles ist also gut geendet.<par /><closing>Liebe <error>
+          <errorType />
+
+          <originalForm>Grüse</originalForm>
+
+          <targetForm>Grüße</targetForm>
+        </error>, ich <correction>
+          <deletion>höffe</deletion>
+        </correction> hoffe dich <correction>
+          <deletion>wider</deletion>
+        </correction> wieder zu hören.</closing><par /><correction>
+        <deletion>To<unreadable /></deletion>
+      </correction> Tobias</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Sehr geehrte <correction>
+          <deletion>Damen und Herre.</deletion>
+        </correction> Paul</greeting><par />Ich habe in <correction>
+        <deletion>euer</deletion>
+
+        <insertion>der</insertion>
+      </correction> Zeitung den Artikel "Probleme mit dem Chatten" gelesen. Ich mochte meine <error>
+        <errorType />
+
+        <originalForm>meinung</originalForm>
+
+        <targetForm>Meinung</targetForm>
+      </error> äußern.<par />Ich habe keine dieser virtuelle Freundschaft. Deswegen <correction>
+        <deletion>wa</deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>weise</originalForm>
+
+        <targetForm>weiße</targetForm>
+      </error> ich nicht wie es auf diese ganze Networks geht. Der einzige <error>
+        <errorType />
+
+        <originalForm>Chatsustem</originalForm>
+
+        <targetForm>Chatsystem</targetForm>
+      </error> das ich habe ist WhatsApp. Aber auf WhatsApp <correction>
+        <deletion>kenne</deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>känne</originalForm>
+
+        <targetForm>kenne</targetForm>
+      </error> ich alle Kontakte. Deswegen habe ich da keine <error>
+        <errorType />
+
+        <originalForm>probleme</originalForm>
+
+        <targetForm>Probleme</targetForm>
+      </error>. Ich denke <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> diese <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Chatsystem <correction>
+        <deletion>nicht</deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>geferlich</originalForm>
+
+        <targetForm>gefährlich</targetForm>
+      </error> sein könnten. Man <error>
+        <errorType />
+
+        <originalForm>muste</originalForm>
+
+        <targetForm>musste</targetForm>
+      </error> die echten Freundschaften <error>
+        <errorType />
+
+        <originalForm>Pflegen</originalForm>
+
+        <targetForm>pflegen</targetForm>
+      </error>. Weil da sind wir sicher.<par />In Internet <error>
+        <errorType />
+
+        <originalForm>weis</originalForm>
+
+        <targetForm>weiß</targetForm>
+      </error> man nie <correction>
+        <deletion>wer</deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>wehr</originalForm>
+
+        <targetForm>wer</targetForm>
+      </error> bei der andere <error>
+        <errorType />
+
+        <originalForm>seite</originalForm>
+
+        <targetForm>Seite</targetForm>
+      </error> steht.<par />Ich würde dich <error>
+        <errorType />
+
+        <originalForm>Raten</originalForm>
+
+        <targetForm>raten</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>eichte</originalForm>
+
+        <targetForm>echte</targetForm>
+      </error> Freunde zu finden und alle <error>
+        <errorType />
+
+        <originalForm>dise</originalForm>
+
+        <targetForm>diese</targetForm>
+      </error> Chats zu löschen. Es ist sehr wicht Freunde zu haben, aber echte Freunde.<par />Internet ist sehr <error>
+        <errorType />
+
+        <originalForm>nutzlich</originalForm>
+
+        <targetForm>nützlich</targetForm>
+      </error>. Mit <error>
+        <errorType />
+
+        <originalForm>in</originalForm>
+
+        <targetForm>ihn</targetForm>
+      </error> kann man <error>
+        <errorType />
+
+        <originalForm>schnel</originalForm>
+
+        <targetForm>schnell</targetForm>
+      </error> etwas <correction>
+        <deletion>recher</deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>rescherschieren</originalForm>
+
+        <targetForm>recherchieren</targetForm>
+      </error> um Notizen finden. Aber wenn man <correction>
+        <deletion>m</deletion>
+      </correction> sich mit Networks sich <error>
+        <errorType />
+
+        <originalForm>bescheftig</originalForm>
+
+        <targetForm>beschäftig</targetForm>
+      </error>, da wird es schwierig und <error>
+        <errorType />
+
+        <originalForm>geferlich</originalForm>
+
+        <targetForm>gefährlich</targetForm>
+      </error>.<par />Internet hilft mich <correction>
+        <deletion>f</deletion>
+      </correction> viel mit der Schule<correction>
+        <deletion>,aber zum beisp</deletion>
+      </correction> <par />Aber ich habe nicht Facebook, <error>
+        <errorType />
+
+        <originalForm>Twiter</originalForm>
+
+        <targetForm>Twitter</targetForm>
+      </error>, Istagram oder al<correction>
+        <deletion>e</deletion>
+
+        <insertion>l</insertion>
+      </correction>e diese <error>
+        <errorType />
+
+        <originalForm>sachen</originalForm>
+
+        <targetForm>Sachen</targetForm>
+      </error>. Und alle meine Freunde sagen mir Facebook zu machen aber ich will nicht. Ich <correction>
+        <deletion>vi</deletion>
+      </correction> finde es <correction>
+        <deletion><unreadable /></deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>nich</originalForm>
+
+        <targetForm>nicht</targetForm>
+      </error> nüzlich.<par /><correction>
+        <deletion>Schöne sachen</deletion>
+      </correction><par /><closing>Liebe <error>
+          <errorType />
+
+          <originalForm>grüse</originalForm>
+
+          <targetForm>Grüße</targetForm>
+        </error>, hoffe dass es di<correction>
+          <deletion>e</deletion>
+
+          <insertion>r</insertion>
+        </correction> besser gehen kann.</closing><par /><correction>
+        <insertion>Ferdinando</insertion>
+
+        <deletion><unreadable /></deletion>
+      </correction></exercise>
+  </body>
+</kolipsi_II_document>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I21_GRI02MAT</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Lieber Klaus,</greeting><par />wie geht's dir? Weißt du was gestern Maria passiert ist?<par />Sie fuhr von <foreign_word
+        foreign_language="English">Milan</foreign_word> nach <foreign_word
+        foreign_language="English">Rome</foreign_word> und wollte in einem Obst- und Gemüseladen einkaufen. Sie kaufte Obst bei ihm und danach, eine <correction>
+        <deletion>s</deletion>
+
+        <insertion>S</insertion>
+      </correction>tunde später war sie in einem Supermarkt, in der Nähe Ah! In den Gemüse<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>l</insertion>
+      </correction>aden ver<ambiguous>
+        <alternative>g</alternative>
+
+        <alternative>l</alternative>
+      </ambiguous>ässt Maria den Kassenzettel. Später im Supermarkt lässt die Obsthändler <error>
+        <errorType />
+
+        <originalForm>dinge</originalForm>
+
+        <targetForm>Dinge</targetForm>
+      </error> in ihre Tasche und startet etwas zu kaufen. An der Kasse, die Frau an der Kasse fragte ihr <correction>
+        <deletion>das</deletion>
+      </correction> warum sie die <correction>
+        <deletion>d</deletion>
+
+        <insertion>D</insertion>
+      </correction>inge in ihre <correction>
+        <deletion>K</deletion>
+
+        <insertion>T</insertion>
+      </correction>a<correction>
+        <deletion>sse</deletion>
+
+        <insertion>sch</insertion>
+      </correction>e nicht zählt. Sie sagte dass die Kassenzettel vergessen hat und die Frau an die Kasse glaubte ihr, weil sie d<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>ach</insertion>
+      </correction>te dass Maria zerstreut und in Eile war.<par /><closing>Bi<correction>
+          <deletion><unreadable /></deletion>
+
+          <insertion>s</insertion>
+        </correction> bald,</closing><par /><correction>
+        <deletion>Mellia</deletion>
+      </correction> Genoveffa</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber Paul,</greeting><par />wie geht's dir? Ich habe gestern <error>
+        <errorType />
+
+        <originalForm>abend</originalForm>
+
+        <targetForm>Abend</targetForm>
+      </error> dein Brief in der Rubrik "Persön<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>l</insertion>
+      </correction>iche Briefe" in den Zeitung gelesen und schreibe dir über deine Situation mit dem Chatten. Ich denke dass die Verwendung des Internets ist manchmal positiv aber auch negativ weil schlechte Dinge und Leute finden kann. Ich habe vor kurzen Zeit eine Erfahrung gemacht. In kurzen Worter ha<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion><unreadable /></insertion>
+      </correction> eine älter Mann mir geschrieben der eine <correction>
+        <deletion>Fotos mit wo er</deletion>
+      </correction> Nacktfotos hat. Was soll du nur <error>
+        <errorType />
+
+        <originalForm>Tun</originalForm>
+
+        <targetForm>tun</targetForm>
+      </error>? Ich denkte dass du wieder mit diesen Leute schreiben kann, aber immer pass auf. Manchmal konntest du böse Leute erkennen.<par /><correction>
+        <deletion>Bis bald,<par />Gabibbo</deletion>
+      </correction><par />In <error>
+        <errorType />
+
+        <originalForm>allgemein</originalForm>
+
+        <targetForm>Allgemein</targetForm>
+      </error> w<correction>
+        <deletion>o</deletion>
+
+        <insertion>i</insertion>
+      </correction>ll<correction>
+        <deletion>t</deletion>
+      </correction> ich sagen dass virtuelle Freundschaften sind nicht gut, für jemanden sind gar falsche Freundschaften. Besser ist natürlich mit anderen Leute in wirklichen Leben kennenzulernen. Es ist wirklich sicherer dann <error>
+        <errorType />
+
+        <originalForm>Internets Freundschaften</originalForm>
+
+        <targetForm>Internetsfreundschaften</targetForm>
+      </error>. Du kannst wirklich die Leute und ihnen Personalität einfach kennen. Ich denke auch dass für jemanden ist einfacher <correction>
+        <deletion>u</deletion>
+
+        <insertion>i</insertion>
+      </correction>m Internets mit anderen Leute chatten dann in wirklichen Leben mit diesen Leute zu treffen.<par /><closing>Mit freundlichen Grüße,</closing><par />dein Gabibbo.</exercise>
+  </body>
+</kolipsi_II_document>

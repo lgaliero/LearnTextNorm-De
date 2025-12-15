@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0027</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Sonja</entity></greeting>,<par/>da wir nächsten Sommer zusammen in den Urlaub fahren möchten, habe ich schon<overwrite>
+        <under><unreadable/></under>
+
+        <over>m</over>
+      </overwrite>al ein paar Angebote rausgesucht. Nun stellt sich nur noc<over>h</over> die Frage, ob wir ans Meer oder in die Berge fahren wollen. Ich persönlich würde lieber ans Meer fahren, da i<over>ch</over> es liebe am Strand zu liegen und mir die Sonne auf den Bauch scheinen zu lassen. Außerdem <palimpsest/> finde ich, <over>w</over>enn <sic>mal</sic> schonmal <sic>Urlaub Urlaub</sic> bekommt, sollte man sich ein paar so<over>nn</over>ige Tage gönnen. Findest du nicht? Natürlich sind die Berge auch schön. Wir könnten <correction>
+        <deletion>W</deletion>
+      </correction> wandern gehen oder vielleicht auch mal <error>
+        <errorType/>
+
+        <originalForm>Ski-fahren</originalForm>
+
+        <targetForm>Ski fahren</targetForm>
+      </error>. Außerdem würde uns die frische Bergluft bestimmt gut tun. Ich habe im <palimpsest/> <palimpsest/> Internet viele preiswerte Angebote für Berghütten in <over>d</over>en <entity>Alpen</entity> gefunden, z.B. gibt es dort eine <error>
+        <errorType/>
+
+        <originalForm>Wellness-Bergh<over>ü</over>tte</originalForm>
+
+        <targetForm>Wellnessberghütte</targetForm>
+      </error>, in der man sich <correction>
+        <deletion>p</deletion>
+      </correction> richtig verwöhnen lassen kann. Man kann sich dort massieren lassen oder auch viele verschiedene <error>
+        <errorType/>
+
+        <originalForm>Kosmetik Behandlungen</originalForm>
+
+        <targetForm>Kosmetikbehandlungen</targetForm>
+      </error>, wie z.B. Schlammbäder buchen. Also, was bevorzugst du? Ausspannen und Party am Meer oder Wellness und Natur in den Bergen? Schreib mir doch bitte so schnell wie möglich zurück.<par/><closing>Li<overwrite>
+          <under><unreadable/></under>
+
+          <over>e</over>
+        </overwrite>be Grüße<par/><entity>XX</entity></closing>     </exercise>
+  </body>
+</kolipsi_document>

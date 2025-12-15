@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>D38_SAB13ERI</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Hallo Paul,</greeting><par/>ich heiße Carla und ich komme aus Italien. Ich habe gestern deinen Brief gelesen. Ich habe <correction>
+        <deletion><unreadable/></deletion>
+      </correction> auch viele Leute in Internet kennengelernt, und ich finde, dass es nicht so schlimm ist. Wir <correction>
+        <deletion><unreadable/></deletion>
+      </correction> chatten oft auch mit dem <error>
+        <errorType/>
+
+        <originalForm>WebCam</originalForm>
+
+        <targetForm>Webcam</targetForm>
+      </error> und ich habe auch mit einigen der "virtuellen" Freunden eine Treffung organisiert. Das <error>
+        <errorType/>
+
+        <originalForm>einzige</originalForm>
+
+        <targetForm>Einzige</targetForm>
+      </error>, da<correction>
+        <deletion>ss</deletion>
+
+        <insertion>s</insertion>
+      </correction> du vielleicht <correction>
+        <deletion>den großen Fehler</deletion>
+
+        <insertion>falsch</insertion>
+      </correction> mach<correction>
+        <deletion>t</deletion>
+
+        <insertion>st</insertion>
+      </correction>, ist, dass du auch Beziehungen mit Leuten deiner Stadt haben solle. Meiner Meinung nach kannst du online Freunden suchen, die in de<correction>
+        <deletion>r</deletion>
+
+        <insertion>in</insertion>
+      </correction>er Nä<correction>
+        <deletion>e</deletion>
+
+        <insertion>he</insertion>
+      </correction> <correction>
+        <deletion><unreadable/></deletion>
+      </correction> wohnen, oder mindestens in deinem selben Staat, damit es leichter wird euch zu treffen. Ich habe meine beste Freundin im Internet kennen<hyphen>-</hyphen>gelernt, aber zum <error>
+        <errorType/>
+
+        <originalForm>Gluck</originalForm>
+
+        <targetForm>Glück</targetForm>
+      </error>, lebt sie nur 75 km weit von mir. Wir treffen uns oft und wir chatten fast <correction>
+        <deletion>alle</deletion>
+      </correction> jeden Tag.<par/>Aber logischerweise musst du auch andere Leute kennenlernen und <correction>
+        <deletion><unreadable/></deletion>
+      </correction> dein Leben nicht nur im Internet <correction>
+        <deletion>leben</deletion>
+
+        <insertion>führen</insertion>
+      </correction>. Es ist leichter ein Computer zu verwenden, als <correction>
+        <deletion>die</deletion>
+      </correction> den Augenblick der Leute zu ertragen!<par/><closing>Viele Grüße,</closing><correction>
+        <deletion><unreadable/></deletion>
+      </correction><par/>Carla</exercise>
+  </body>
+</kolipsi_II_document>

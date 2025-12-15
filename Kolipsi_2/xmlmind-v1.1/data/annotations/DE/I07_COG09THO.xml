@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I07_COG09THO</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo <emphasis>Hans!</emphasis></greeting><par />Ich musse <correction>
+        <insertion>dich eine Geschichte von einen Frau</insertion>
+      </correction> erzählen.<par /> <par /> Sie hat in einem Obst- und Gemüseladen etwas Obst und Gemüse gekauft, und sie hat diesen Obst und Gemüse in seine Tasche gelegen.<par /> <par /> Dann sie <correction>
+        <deletion>hat</deletion>
+      </correction> ist in einem <foreign_word foreign_language="Italiano">Supermarket</foreign_word> gegangen und sie <correction>
+        <deletion>kaufte</deletion>
+      </correction> hat etwas gekauft.<par />Sie hat die Einkauf gezahlt, <emphasis>aber</emphasis> die Kassiererin hat <correction>
+        <deletion>das</deletion>
+      </correction> die Obst und Gemüse, <correction></correction><correction>
+        <insertion>die</insertion>
+      </correction> in d<correction>
+        <deletion>ie</deletion>
+
+        <insertion>er</insertion>
+      </correction> Tasche von das Frau waren, <correction>
+        <deletion><unreadable /></deletion>
+      </correction> geschaut und sie hat die Frau gesagt: "Hast du die Obst und Gemüse <error>
+        <errorType />
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error>?"<par />Die Frau hat die Kassiererin, das sie <correction>
+        <insertion>hat die Obst und Gemüse</insertion>
+      </correction> in ein ander <correction>
+        <deletion>Supermar</deletion>
+      </correction> <foreign_word foreign_language="Italiano">Supermarket</foreign_word> gekauft, erzählt. Aber die Kassiererin hat sie nicht geglaubt.<par />Die Frau hat also der Ticket von der Obst- und Gemüseladen an die Kassiererin gegeben.<par />Die Kassiererin hat <emphasis>also</emphasis> <comment>Abbrucht</comment><par /><closing>Ciao. Ciao. Ciao. Ciao. Ciao</closing></exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting><emphasis>Lieber</emphasis> Paul,</greeting><par /> <par /> für mich du kannst ausgehen und <correction>
+        <deletion><unreadable /></deletion>
+      </correction> du kannst anderen Personen kennen lernen.<par />Aber du kannst auch mit deinen Freunden von die Chat schreiben. <par /> Du kannst Facebook, <error>
+        <errorType />
+
+        <originalForm>Whatsapp</originalForm>
+
+        <targetForm>WhatsApp</targetForm>
+      </error>, Gmail und vielen anderen Sachen und Social Network benützen.<par />Ich glaube dass du hast einen Smartphone und du hast die <correction>
+        <deletion>m</deletion>
+
+        <insertion>M</insertion>
+      </correction>öglichkeit <correction>
+        <deletion><unreadable /></deletion>
+      </correction> zu schreiben mit es auch wenn du <correction>
+        <deletion>bist</deletion>
+      </correction> nicht zu Hause bist. <par /> Also du kannst viele Leute in Internet und in die Realität in <error>
+        <errorType />
+
+        <originalForm>die selbe</originalForm>
+
+        <targetForm>dieselbe</targetForm>
+      </error> Zeit.<par />Viele Leute haben dein<correction>
+        <deletion><unreadable /></deletion>
+      </correction> <correction>
+        <insertion>selbe</insertion>
+      </correction> Problem, <correction>
+        <deletion>aber</deletion>
+      </correction> und es ist ein Psychologe und du kannst also mit <correction>
+        <deletion><unreadable /></deletion>
+      </correction> ihm sprechen.</exercise>
+  </body>
+</kolipsi_II_document>

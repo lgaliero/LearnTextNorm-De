@@ -1,0 +1,43 @@
+<body>
+ <page page_number="1" transcanno_page_id="232">
+  <paragraph class="medium-paragraph" tagcode="1540848565556">
+   <div>
+    1 Möchtest nach der Mittelschule Kosmetikerin.
+   </div>
+   <div>
+    2 Traumberuf
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Stylistin" tagcode="1540848520702">
+     staylistin
+    </orth_error_id12>
+    .
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1540848565557">
+   <div>
+    3 Traumberuf können
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1540848532372" tran_correction_original="estetic">
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Ästhetik" tagcode="1540848557331">
+      estetik
+     </orth_error_id12>
+    </tran_word_correction_id25>
+    .
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1540848565558">
+   <div>
+    4 Ich muss lernen
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Ästhetik" tagcode="1540848565555">
+     estetik
+    </orth_error_id12>
+    und
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1540848539208" tran_correction_original="Kosmetic">
+     Kosmetik
+    </tran_word_correction_id25>
+    ,
+   </div>
+   <div>
+    Deutsch, Italienisch und Mathematik
+   </div>
+  </paragraph>
+ </page>
+</body>

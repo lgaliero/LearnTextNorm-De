@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0130</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Lieber <entity>Daniel</entity></greeting>!<par/>Da du mir versprochen hast, dass wir diesen Sommer zusammen in den Urlaub fahren und nicht wusstest, wohin die Reise gehen soll, habe ich mir einige Gedanken darüber gemacht. Da wir beide auf dem Berg<correction>
+        <deletion>e</deletion>
+      </correction> wohnen, würde uns ein <error>
+        <errorType/>
+
+        <originalForm>Tappetenwechsel</originalForm>
+
+        <targetForm>Tapetenwechsel</targetForm>
+      </error> nicht schaden und wir könnten einen Abstecher ans Meer machen. Ebenso ist die salzige Luft sehr gut für die Gesundheit und besonders gut ist auch d<overwrite>
+        <under>i</under>
+
+        <over>a</over>
+      </overwrite>s <correction>
+        <deletion><unreadable/></deletion>
+      </correction> salzige Meereswasser. Natürlich ist <correction>
+        <deletion>das</deletion>
+      </correction> die Bergluft auch sehr erfrischend.<par/>Nur dass wir das ganze Jahr über Bergluft schnuppern und deswegen würde ich viel lieber ans Meer fahren.<par/>Ebenso wegen den <correction>
+        <deletion>vers</deletion>
+      </correction> unterschiedlichen Kulturen und Sitten in den verschiedenen Städten <gap>_</gap> interessieren mich persönlich mehr.<par/>Und später, wenn Kinder oder die Arbeit uns nicht mehr die Zeit gibt, so weit zu reisen, werden wir es <error>
+        <errorType/>
+
+        <originalForm>bereuhen</originalForm>
+
+        <targetForm>bereuen</targetForm>
+      </error>, nicht gefahren zu sein.<par/>Deswegen würde ich mich freuen, wenn wir<correction>
+        <deletion>s</deletion>
+      </correction> ans Meer fahren würden.<par/><closing>In Liebe,<par/><entity>Mirjam</entity></closing>       </exercise>
+  </body>
+</kolipsi_document>

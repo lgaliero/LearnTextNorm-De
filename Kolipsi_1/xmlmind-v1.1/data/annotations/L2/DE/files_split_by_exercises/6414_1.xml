@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>6414</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo lieber <entity>Paul</entity>!</greeting> <par/>Wie geht es dir? Vielen <error>
+        <errorType/>
+
+        <originalForm>dank</originalForm>
+
+        <targetForm>Dank</targetForm>
+      </error> für deinen netten Brief, auf den ich viel gewartet habe. Mir geht es alles gut, nur bin ich ein bisschen <error>
+        <errorType/>
+
+        <originalForm>Müde</originalForm>
+
+        <targetForm>müde</targetForm>
+      </error>, da ich in dieser Woche viel <error>
+        <errorType/>
+
+        <originalForm>treiniert</originalForm>
+
+        <targetForm>trainiert</targetForm>
+      </error> habe. Am Sonnstag habe ich nämlich an einem <error>
+        <errorType/>
+
+        <originalForm>Snowboard.Rennen</originalForm>
+
+        <targetForm>Snowboardrennen</targetForm>
+      </error> teilgenommen. <error>
+        <errorType/>
+
+        <originalForm>auf</originalForm>
+
+        <targetForm>Auf</targetForm>
+      </error> alle Fälle geht es mir gut. <par/><error>
+        <errorType/>
+
+        <originalForm>Weisst</originalForm>
+
+        <targetForm>Weißt</targetForm>
+      </error> du, dass wir am Samstag einen Party gemacht haben? Es war nämlich der Geburtstag von <entity>Andrea</entity>, der jetzt 16 ist. <par/>Um ein bisschen zu feiern, habe ich mit der <entity>Maria</entity> etwas für alle gekocht. Früher ist sie einkaufen gegangen, da wir zu Hause kein Apfel und kein Mehl hatten. Wir wollten nämlich eine <error>
+        <errorType/>
+
+        <originalForm>Apfelkuche</originalForm>
+
+        <targetForm>Apfelkuchen</targetForm>
+      </error> kochen. <par/>Wenn sie im <error>
+        <errorType/>
+
+        <originalForm>Obst</originalForm>
+
+        <targetForm>Obst-</targetForm>
+      </error> und Gemüseladen war, ist alles gut gegangen. Aber wenn sie im <foreign_word foreign_language="Italiano">Supermarket</foreign_word> war, hat sie wirklich eine schlechte Figur gemacht. Sie bezahlte das <overwrite>
+        <over>M</over>
+
+        <under>m</under>
+      </overwrite>ehl, und ging sofort aus, da sie schon im <sic>Verspät</sic> war. Als sie im Ausgang war, sind die <sic>Sensore</sic> gegen Räubern laut ge<overwrite>
+        <over>k</over>
+
+        <under>l</under>
+      </overwrite>lingelt. Die Frau in der Kasse begann zu schreien gegen der <entity>Maria</entity>, weil sie dachte, dass sie etwas nicht bezahlt hätte. Zum Glück, hatte die <entity>Maria</entity> alles bezahlt und, <unreadable/> dem Kassenzettel hat es auch die Frau in der Kassa bemerkt. <par/>Nach dieser <error>
+        <errorType/>
+
+        <originalForm>Vitze</originalForm>
+
+        <targetForm>Witze</targetForm>
+      </error> muss ich dir <correction>
+        <deletion><unreadable/></deletion>
+      </correction> grüßen. <par/>Vielen <error>
+        <errorType/>
+
+        <originalForm>Grüss</originalForm>
+
+        <targetForm>Grüß</targetForm>
+      </error> auch deiner Familie und deiner Freunden. <par/>Schreib mir bald zurück! <par/><closing><entity>Alessio</entity></closing> </exercise>
+
+    
+  </body>
+</kolipsi_document>

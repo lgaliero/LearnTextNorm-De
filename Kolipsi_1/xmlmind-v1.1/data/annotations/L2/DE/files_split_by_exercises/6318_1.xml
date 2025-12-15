@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>6318</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><par/><greeting>Hallo <entity>Natasha</entity>,</greeting> <par/>wie geht es dir? Ich muss dir dringend etwas erzählen! Darüber wirst du sicher lachen. <par/>Du <error>
+        <errorType/>
+
+        <originalForm>weisst</originalForm>
+
+        <targetForm>weißt</targetForm>
+      </error> sicher noch wer <entity>Maria</entity> ist. <par/>Also: <error>
+        <errorType/>
+
+        <originalForm>letze</originalForm>
+
+        <targetForm>Letzte</targetForm>
+      </error> Woche ging sie in einem Gemüseladen wo sie Obst und Gemüse einkaufte. <par/>Eine Stunde später ca. ging sie dann in einem Supermarkt, wo sie andere Lebensmittel kaufte. Als <palimpsest>unreadable</palimpsest> an der Kasse ankam, bezahlte sie und wollte dann gehen. Doch plötzlich haltete die Kassiererin sie auf und kontrollierte ihre Handtasche, wo sie <correction>
+        <insertion>das</insertion>
+      </correction> Obst und Gemüse vom Gemüseladen hatte. <par/>Die Kassiererin entschloss die Polizei anzurufen. Als sie dann dort war, brach <entity>Maria</entity> in Tränen aus und sagte sie hätte nichts <error>
+        <errorType/>
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error>. Die Polizei fragte sie dann wie sie dass also <error>
+        <errorType/>
+
+        <originalForm>erklähren</originalForm>
+
+        <targetForm>erklären</targetForm>
+      </error> kann. <par/>Sie sagte ihn<overwrite>
+        <under><unreadable/></under>
+
+        <over>e</over>
+      </overwrite>n dann, dass sie noch den Kassenzettel vom anderen Geschäft hätte und zeigt ihn ihnen dazu. <par/>Die Kassiererin entschuldigte sich und <sic>lied</sic> sie dann zu einem Kaffee ein. <par/>In der <error>
+        <errorType/>
+
+        <originalForm>zwischen Zeit</originalForm>
+
+        <targetForm>Zwischenzeit</targetForm>
+      </error> kann <entity>Maria</entity> auch schon <palimpsest>unreadable</palimpsest> darüber lachen, aber so eine Blamage kann man nicht vergessen. <par/><closing>Liebe <error>
+          <errorType/>
+
+          <originalForm>Grüsse</originalForm>
+
+          <targetForm>Grüße</targetForm>
+        </error> <par/> <entity>Karin</entity> </closing> </exercise>
+
+    
+  </body>
+</kolipsi_document>

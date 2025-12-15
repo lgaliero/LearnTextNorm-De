@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>4349</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><par/>Liebe <entity>Morgan</entity>, <par/>wie du <error>
+        <errorType/>
+
+        <originalForm>weisst</originalForm>
+
+        <targetForm>weißt</targetForm>
+      </error>, ich wohne in <entity>Bozen</entity>, zwischen den Bergen. Ich liebe dieses Ort, weil so sauber ist und viele Grüne gibt es. Aber ich möchte ans Mee<overwrite>
+        <under>e</under>
+
+        <over>r</over>
+      </overwrite> <palimpsest>pass</palimpsest>ieren mein<palimpsest> </palimpsest> Urlaub. Ich liebe das warme Klima und schwimmen. Denkst du es <palimpsest>wie</palimpsest> mir? Ans Meer gibt es mehr <correction>
+        <insertion>junge</insertion>
+      </correction> Leute und mehr Leben. Am Abend könn<overwrite>
+        <under><unreadable/></under>
+
+        <over>en</over>
+      </overwrite> wir <palimpsest>zu</palimpsest> vielen <correction>
+        <insertion><palimpsest>Pubs</palimpsest> </insertion>
+      </correction>gehen. In<palimpsest> </palimpsest> die Berge gibt es mehr kalt und ist eines alleines Ort. Aber gibt es mehr Noten das Meer. Diese<palimpsest> </palimpsest> ist die erste Mal, dass wir zusammen d<palimpsest>er</palimpsest> Urlaub. Jetzt muss ich weggehen und so ich <error>
+        <errorType/>
+
+        <originalForm>grüsse</originalForm>
+
+        <targetForm>grüße</targetForm>
+      </error> dir. <par/><closing>Küssen <par/> <entity>Melissa</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

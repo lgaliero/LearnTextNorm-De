@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I08_RIZ29ELE</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe Anna</greeting><par />Ich will heute eine <correction>
+        <deletion>s</deletion>
+
+        <insertion>S</insertion>
+      </correction>ache in <foreign_word foreign_language="Italiano"><error>
+          <errorType />
+
+          <originalForm>Supermarker</originalForm>
+
+          <targetForm>Supermarket</targetForm>
+        </error></foreign_word> passiert ist an dich erz<correction>
+        <deletion>e</deletion>
+
+        <insertion>ä</insertion>
+      </correction>hlen. Ich bin heute mit meine <correction>
+        <deletion>f</deletion>
+
+        <insertion>F</insertion>
+      </correction>reundin Maria spazieren gegangen. Maria <error>
+        <errorType />
+
+        <originalForm>wolte</originalForm>
+
+        <targetForm>wollte</targetForm>
+      </error> ein <error>
+        <errorType />
+
+        <originalForm>pischen</originalForm>
+
+        <targetForm>bisschen</targetForm>
+      </error> Obst und Gemüse einkaufen. Wir sind in eine neues <error>
+        <errorType />
+
+        <originalForm>Obst</originalForm>
+
+        <targetForm>Obst-</targetForm>
+      </error> und Gemüseladen gegange. Sie hat viel <correction>
+        <deletion>ge</deletion>
+      </correction> Obst und zwei große Zucchini gekaufen. Sie hat alles gezählt. Die zwei Zucchini sind so <correction>
+        <deletion>G</deletion>
+
+        <insertion>g</insertion>
+      </correction>roß die in die Tasche ausgehen.<par />Danach <correction>
+        <deletion>wir</deletion>
+      </correction> sind wir im <foreign_word foreign_language="Italiano"><error>
+          <errorType />
+
+          <originalForm>Supermaket</originalForm>
+
+          <targetForm>Supermarket</targetForm>
+        </error></foreign_word> gegangen. Sie hat ein paar Sache gekaufen. Die <error>
+        <errorType />
+
+        <originalForm>Lustige</originalForm>
+
+        <targetForm>lustige</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>sache</originalForm>
+
+        <targetForm>Sache</targetForm>
+      </error> <correction>
+        <deletion><unreadable /></deletion>
+      </correction> ist an der Kasse passiert. Die Verkäuferin hat die zwei Zucchini gesehen. Sie hat "Du hast die Zucchini <error>
+        <errorType />
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error>" gesagt. Maria hat "nein" gesagt.<par /><correction>
+        <deletion><unreadable /></deletion>
+      </correction> Die Verkäuferin <correction>
+        <deletion>ist sehr <unreadable /></deletion>
+      </correction> ruft der Direktor. Maria finde der Kassenzettel von Obst- und Gemüseladen. Die Verkäuferin hat "Ich habe falsch<correction>
+        <deletion><unreadable /></deletion>
+      </correction> gedenkt <error>
+        <errorType />
+
+        <originalForm>entschuldigung</originalForm>
+
+        <targetForm>Entschuldigung</targetForm>
+      </error>"<par />Maria und ich sind ohne <error>
+        <errorType />
+
+        <originalForm>probleme</originalForm>
+
+        <targetForm>Probleme</targetForm>
+      </error> nach <error>
+        <errorType />
+
+        <originalForm>ause</originalForm>
+
+        <targetForm>Hause</targetForm>
+      </error> gegangen.<par /><closing>Viele Gru<correction>
+          <deletion><unreadable /></deletion>
+
+          <insertion>ß</insertion>
+        </correction>e</closing><par />Deine Erika.</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo Paul!</greeting><par />Ich habe deinen <correction>
+        <deletion>E</deletion>
+      </correction> Brief gelesen.<par />Ich denke, dass <correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>das</insertion>
+      </correction> eine schw<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>e</insertion>
+      </correction>re <error>
+        <errorType />
+
+        <originalForm><correction>
+            <deletion>s</deletion>
+
+            <insertion>S</insertion>
+          </correction>it<correction>
+            <deletion>o</deletion>
+
+            <insertion>u</insertion>
+          </correction>tion</originalForm>
+
+        <targetForm>Situation</targetForm>
+      </error> ist. Ich will dich einen Rat geben. Du musst eine neues <foreign_word
+        foreign_language="Italiano"><error>
+          <errorType />
+
+          <originalForm><over_capitalisation>
+              <originalForm>SIM-CARD</originalForm>
+
+              <targetForm>SIM-card</targetForm>
+            </over_capitalisation></originalForm>
+
+          <targetForm>SIM card</targetForm>
+        </error></foreign_word> kaufen. Danach <error>
+        <errorType />
+
+        <originalForm>nimst</originalForm>
+
+        <targetForm>nimmst</targetForm>
+      </error> du die <correction>
+        <deletion>A</deletion>
+
+        <insertion>a</insertion>
+      </correction>lt<correction>
+        <deletion>a</deletion>
+
+        <insertion>e</insertion>
+      </correction>ste <foreign_word foreign_language="Italiano"><over_capitalisation>
+          <originalForm>SIM CARD</originalForm>
+
+          <targetForm>SIM card</targetForm>
+        </over_capitalisation></foreign_word> und machst es <error>
+        <errorType />
+
+        <originalForm>kaput</originalForm>
+
+        <targetForm>kaputt</targetForm>
+      </error>.<par />Wenn <correction>
+        <insertion>hast</insertion>
+      </correction> du <correction>
+        <deletion><unreadable /></deletion>
+      </correction> alles gema<correction>
+        <deletion>s</deletion>
+
+        <insertion>c</insertion>
+      </correction>ht, du keine <error>
+        <errorType />
+
+        <originalForm>probleme</originalForm>
+
+        <targetForm>Probleme</targetForm>
+      </error> mit d<correction>
+        <deletion>ie</deletion>
+
+        <insertion>en</insertion>
+      </correction> Menschen aus <correction>
+        <deletion><unreadable /></deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>chat</originalForm>
+
+        <targetForm>Chat</targetForm>
+      </error> haben.<par />Ich denke nicht gute Sache über virtuelle Freundschaften.<par />Ich denke, die <correction>
+        <deletion><unreadable /></deletion>
+      </correction> echte <correction>
+        <deletion>f</deletion>
+      </correction> Freunde <correction>
+        <deletion>i</deletion>
+      </correction> nicht in virtuelle sind. Hast du keine Freund? <correction>
+        <deletion>in</deletion>
+      </correction> Warum machst du nicht eine Sp<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>o</insertion>
+      </correction>rt? Wenn du ein Sport machen, darfst du viele Leute treffen. <correction>
+        <deletion><unreadable /></deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>Last</originalForm>
+
+        <targetForm>Lasst</targetForm>
+      </error> du <error>
+        <errorType />
+
+        <originalForm>internet</originalForm>
+
+        <targetForm>Internet</targetForm>
+      </error>, in Internet triffst du nur falsche <error>
+        <errorType />
+
+        <originalForm>per<correction>
+            <deletion>en</deletion>
+
+            <insertion>so</insertion>
+          </correction>nen</originalForm>
+
+        <targetForm>Personen</targetForm>
+      </error>.<par /><correction>
+        <deletion><unreadable /></deletion>
+      </correction> Ich habe dich meine Rat geben. Ich <error>
+        <errorType />
+
+        <originalForm>wunsche</originalForm>
+
+        <targetForm>wünsche</targetForm>
+      </error> diese ist gut für dich.<par /><closing>Liebe G<correction>
+          <deletion><unreadable /></deletion>
+
+          <insertion>r</insertion>
+        </correction>uße</closing><par />Erika </exercise>
+  </body>
+</kolipsi_II_document>

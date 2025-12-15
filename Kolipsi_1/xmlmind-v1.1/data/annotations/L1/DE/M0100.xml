@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0100</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hi, <entity><overwrite>
+            <under><unreadable /></under>
+
+            <over>O</over>
+          </overwrite>tto</entity>!</greeting><par />Ich hoffe dir geht es gut? Mir ist heute was <error>
+        <errorType />
+
+        <originalForm>lustiges</originalForm>
+
+        <targetForm>Lustiges</targetForm>
+      </error> passiert. Eher habe ich heut etwas <error>
+        <errorType />
+
+        <originalForm>interresantes</originalForm>
+
+        <targetForm>Interessantes</targetForm>
+      </error> beobachtet.<par />Ich war heute bei<correction>
+        <deletion>m</deletion>
+      </correction>m Obsthändler und habe wie immer meine Sachen eingekauft. Ich habe dann <entity>Maria</entity> getroffen, die aus der Bar. D<overwrite>
+        <under>w</under>
+
+        <over>u</over>
+      </overwrite> kennst sie. Sie stand vor mir an der Kasse und bezahlte grade. Ich habe ein bisschen mit ihr gequatscht und dann musste sie schon gehen.<par />Sie vergaß <correction>
+        <deletion>ihren</deletion>
+      </correction> ihr Wechselgeld mitzunehmen.<par />Ich habe natürlich schnell bezahlt und nahm ihr <overwrite>
+        <under>w</under>
+
+        <over>W</over>
+      </overwrite>echselgeld auch mit, um es ihr <error>
+        <errorType />
+
+        <originalForm>zurück zugeben</originalForm>
+
+        <targetForm>zurückzugeben</targetForm>
+      </error>. <over>I</over>ch fand sie nicht mehr, deswegen ging ich in den Supermarkt um weiter einzukaufen. Zum Glück sah ich sie grade an der Kasse, wi<over>e</over> sie bezahlte. Ich ging zu ihr rüber, aber bevor ich da war, wurde die Kassiererin sehr ärgerlich. Sie fragte <entity>Maria</entity>:<direct_speech>"Was sind das für Gurken? Wollen <error>
+          <errorType />
+
+          <originalForm>sie</originalForm>
+
+          <targetForm>Sie</targetForm>
+        </error> die einfach so mitnehmen?"</direct_speech> <entity>Maria</entity> antwortete natürlich sofort, dass sie die Gurken vorher schon gekauft habe. Die Kassiererin glaubte ihr natürlich nicht. <direct_speech>"Zeigen<correction>
+          <deletion><unreadable /></deletion>
+        </correction> <error>
+          <errorType />
+
+          <originalForm>sie</originalForm>
+
+          <targetForm>Sie</targetForm>
+        </error> mir ihren <error>
+          <errorType />
+
+          <originalForm>Bong</originalForm>
+
+          <targetForm>Bon</targetForm>
+        </error>!"</direct_speech>, meinte die Frau hinter der Kasse. <direct_speech>"Den ha<over>b</over>e ... ehm... ich nicht."</direct_speech><par />Aber <correction>
+        <deletion>ih</deletion>
+      </correction> ich hatte ihn und auch das Wechselgeld. Ich ging rüber und klärte die Situation, indem ich der Kassiererin einfach die Quittung zeigte. Das war schon <correction>
+        <deletion><unreadable /></deletion>
+      </correction> ein au<overwrite>
+        <under><unreadable /></under>
+
+        <over>ß</over>
+      </overwrite>ergewöhnlicher Tag.<par /><closing>Tschüss,<par />MfG<par /><correction>
+          <deletion><unreadable /></deletion>
+        </correction> <entity>Hans</entity></closing>      </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo <entity>Peter</entity></greeting>,<par />es geht um den geplanten Urlaub. Ich habe hier zwei gute Angebote, aber das eine liegt in den Bergen und das andere am Meer. Jetzt ist halt die Frage was wir lieber machen wollen.<par />Ich bin persönlich eher fürs Meer<overwrite>
+        <under>.</under>
+
+        <over>,</over>
+      </overwrite> <error>
+        <errorType />
+
+        <originalForm>Schön</originalForm>
+
+        <targetForm>schön</targetForm>
+      </error> am Strand liegen und entspannen. <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Durch den warmen Sand spazieren gehen und abends sich schön an<correction>
+        <deletion>d</deletion>
+      </correction> der Cocktailbar vergnügen. <correction>
+        <deletion>E</deletion>
+      </correction> Schöne Körper betrachten <correction>
+        <deletion>wärend</deletion>
+      </correction> während man in der Sonne liegt..und und und.<par />Spazieren gehen kann man natürlich auch in den Bergen. Auch <sic>die</sic> Blic<over>k</over> über das Tal genießen. Ein kleines Picknick auf einer <correction>
+        <deletion>Wald Lichhtu</deletion>
+      </correction> Waldlichtung. <correction>
+        <deletion>Auch</deletion>
+      </correction> Nicht zu vergessen, dass man auch dort klettern kann.<par />Also wenn du mehr <over>L</over>ust auf Abenteuer hast, sollten wir in die Berge fahren. Aber wenn nicht, dann entspannen am Meer mit schönen Ladys. Überleg es dir und schrei<over>b</over> mir. Frauen oder Tier. <correction>
+        <deletion>Wandern</deletion>
+      </correction><par /><correction>
+        <deletion>El</deletion>
+      </correction> Es liegt an <correction>
+        <deletion>dier</deletion>
+      </correction> dir.<par /><closing>Dein <correction>
+          <deletion>F<unreadable /></deletion>
+        </correction> Freund <entity>Kalle</entity>.    </closing>               </exercise>
+  </body>
+</kolipsi_document>

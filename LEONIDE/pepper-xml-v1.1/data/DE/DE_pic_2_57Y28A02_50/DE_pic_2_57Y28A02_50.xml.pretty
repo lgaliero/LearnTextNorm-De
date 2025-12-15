@@ -1,0 +1,57 @@
+<body>
+ <page page_number="1" transcanno_page_id="879">
+  <paragraph class="medium-paragraph" tagcode="1611759122164">
+   <div>
+    Zwei
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Kinder" tagcode="1525275376606">
+     kinder
+    </orth_error_id12>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="als" tagcode="1525275406810">
+     allss
+    </orth_error_id12>
+    mit einen
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Taschenlampe" tagcode="1525275930744">
+     tasselampe
+    </orth_error_id12>
+    sie
+   </div>
+   <div>
+    sind in
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1526050504506">
+     wald
+    </tran_word_insertion_id9>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Wald" tagcode="1525275784458">
+     <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1526050550824" tran_alternative_1="wall" tran_alternative_2="">
+      wald
+     </tran_ambiguous_id3>
+    </orth_error_id12>
+    . in der nach. Sofia und Lea er-
+   </div>
+   <div>
+    schrecken und
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="hören" tagcode="1525275770108">
+     ehören
+    </orth_error_id12>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Stimmen" tagcode="1525275548428">
+     stimmen
+    </orth_error_id12>
+    :
+    <tran_emphasis_id11 class="medium-tran_emphasis_id11" tagcode="1526050456262">
+     <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611759122163" tran_capitalisation_target="eeeeh" tran_capitalisation_type="01 completely capitalised">
+      EEEEH
+     </tran_capitalisation_id85>
+    </tran_emphasis_id11>
+    !!
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Sie" tagcode="1525275559318">
+     sie
+    </orth_error_id12>
+   </div>
+   <div>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1527365460665" tran_correction_original="um armen">
+     umarmen
+    </tran_word_correction_id25>
+    sich und laufen nach Hause.
+   </div>
+  </paragraph>
+ </page>
+</body>

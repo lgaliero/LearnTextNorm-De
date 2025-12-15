@@ -1,0 +1,64 @@
+<body>
+ <page page_number="1" transcanno_page_id="2489">
+  <paragraph class="medium-paragraph" tagcode="1553011480144">
+   <div>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553011403502" tran_word_deletion_target="_#_">
+     Ich möchte an der Fußballspieler ich
+    </tran_word_deletion_id8>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553011333803" tran_correction_original="train*ere">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553011403502" tran_word_deletion_target="_#_">
+      trainiere
+     </tran_word_deletion_id8>
+    </tran_word_correction_id25>
+   </div>
+   <div>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="jeden" tagcode="1553011361956">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553011403502" tran_word_deletion_target="_#_">
+      Jeden
+     </tran_word_deletion_id8>
+    </orth_error_id12>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553011403502" tran_word_deletion_target="_#_">
+     Tag. Cristiano Ronaldo. Ich mochte an
+    </tran_word_deletion_id8>
+   </div>
+   <div>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553011403502" tran_word_deletion_target="_#_">
+     der Mecanica
+    </tran_word_deletion_id8>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553011379858" tran_word_deletion_target="_#_">
+     <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1553011376241">
+      <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553011403502" tran_word_deletion_target="_#_">
+       *
+      </tran_word_deletion_id8>
+     </tran_unreadable_id17>
+    </tran_word_deletion_id8>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553011403502" tran_word_deletion_target="_#_">
+     in
+    </tran_word_deletion_id8>
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1553011480147">
+   <div>
+    Ich mochtest
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553011412252" tran_correction_original="Meconi*">
+     Meconica
+    </tran_word_correction_id25>
+    und Traumberuf
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="ist" tagcode="1553011423485">
+     is
+    </orth_error_id12>
+   </div>
+   <div>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Fußballspieler" tagcode="1553011469994">
+     <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553011480143" tran_correction_original="Fuspallspieler">
+      FusBallspieler
+     </tran_word_correction_id25>
+    </orth_error_id12>
+    ich trainiere jeden Tag Cristiono
+   </div>
+   <div>
+    Ronaldo ist mein Vorbild.
+   </div>
+  </paragraph>
+ </page>
+</body>

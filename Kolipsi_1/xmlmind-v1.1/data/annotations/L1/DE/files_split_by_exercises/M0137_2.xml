@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0137</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve">Urlaub auf dem Berg<correction>
+        <deletion>,</deletion>
+      </correction> oder am Meer... Was ist besser, wo gibt es mehr Vorteile?<par/>Für viele ist der jährliche Urlaub auf dem Meer <overwrite>
+        <under>p</under>
+
+        <over>P</over>
+      </overwrite>flicht. Sonne, Strand, Wasser, was gibt es <error>
+        <errorType/>
+
+        <originalForm>besseres</originalForm>
+
+        <targetForm>Besseres</targetForm>
+      </error>? Es gibt wirklich schöne Ziele und auch ich gehe lieber ans Meer, das ist für mich richtige Erholung. Aber man muss auch sehen, dass es am Meer fast immer laut ist und Ruhe gibt es nicht viel. Hingegen auf dem Berg ist frische Luft, Ruhe und Natur pur. Auf dem Berg sieht man ins Tal und fühlt sich frei. Aber für den Urlaub in den Bergen braucht man die Liebe zur Natur und man muss gerne wandern. Was aber <correction>
+        <deletion>von</deletion>
+      </correction> das bessere Ziel ist, ist <error>
+        <errorType/>
+
+        <originalForm>indivi<hyphen>-</hyphen>duel</originalForm>
+
+        <targetForm>individuell</targetForm>
+      </error> verschieden. Für den Urlaub in den Bergen, gibt es auch ganz tolle Bauernhöfe die das anbieten, mit traditionellem Brot<hyphen>-</hyphen>backen und außergewöhnlichen Tieren. Doch am Meer kann man das genießen, was wir <correction>
+        <deletion>in</deletion>
+      </correction> das ganze Jahr über nicht haben.<par/>Wie schon gesagt, ist der Urlaub fast überall schön, <error>
+        <errorType/>
+
+        <originalForm>hauptsache</originalForm>
+
+        <targetForm>Hauptsache</targetForm>
+      </error> man kommt mal weg vom Alltag.      </exercise>
+  </body>
+</kolipsi_document>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5284</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Melanie</entity>,</greeting> <par/>wie geht es dir? Bald ist Sommer und ich will <correction>
+        <deletion>einen</deletion>
+      </correction> meine Urlaub planen. Aber ich habe ein Problem: <error>
+        <errorType/>
+
+        <originalForm>solle</originalForm>
+
+        <targetForm>Solle</targetForm>
+      </error> ich in die Berge oder ans Meer gehen? Ich kann nicht entscheiden! <par/>Voriges Jahr bin ich nach <entity><error>
+          <errorType/>
+
+          <originalForm>Ricciane</originalForm>
+
+          <targetForm>Riccione</targetForm>
+        </error></entity> gefahren. Da war so schön! Es war so ruhig, aber auch in die Berge ist gleich. In die Berge war ich in dem Jahr 2006. <par/>In <entity><error>
+          <errorType/>
+
+          <originalForm>Ricciane</originalForm>
+
+          <targetForm>Riccione</targetForm>
+        </error></entity> gab es <correction>
+        <deletion>viele an</deletion>
+      </correction> tausenden Leute und war so warm. <correction>
+        <deletion>M</deletion>
+      </correction> Jedes Abend bin ich <error>
+        <errorType/>
+
+        <originalForm>spaziern</originalForm>
+
+        <targetForm>spazieren</targetForm>
+      </error> gegangen. Ich habe <correction>
+        <deletion>in</deletion>
+      </correction> immer <error>
+        <errorType/>
+
+        <originalForm>shopping</originalForm>
+
+        <targetForm>Shopping</targetForm>
+      </error> gemacht, <entity><error>
+          <errorType/>
+
+          <originalForm>Leonardo da Vinci Straße</originalForm>
+
+          <targetForm>Leonardo-da-Vinci-Straße</targetForm>
+        </error></entity> ist voll von Geschäfte!!! <par/>Als ich in die Berge war, <correction>
+        <deletion>ich</deletion>
+      </correction> habe <correction>
+        <insertion>ich</insertion>
+      </correction> viel <correction>
+        <deletion>gescha</deletion>
+      </correction> <sic>geschläft</sic> und <correction>
+        <deletion>vill</deletion>
+
+        <insertion>viel</insertion>
+      </correction> im Wald <sic>spaziert</sic>. Ich habe viele Bücher gelesen und sehr gu<strikeover>
+        <expansion>t</expansion>
+
+        <expansion>e</expansion>
+      </strikeover> Luft geatmet. <par/><correction>
+        <deletion>Vie</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>Villeicht</originalForm>
+
+        <targetForm>Vielleicht</targetForm>
+      </error> dieses Sommer kann ich etwas <error>
+        <errorType/>
+
+        <originalForm>branderes</originalForm>
+
+        <targetForm>anderes</targetForm>
+      </error> machen, oder? Was denkst du über Berge und Meer? <error>
+        <errorType/>
+
+        <originalForm>Weleche</originalForm>
+
+        <targetForm>Welche</targetForm>
+      </error> liebst du am <correction>
+        <deletion><unreadable/></deletion>
+      </correction> beste? Dieses Sommer wo <sic>wirdest</sic> du gehen? <par/>Am Ende werde ich sicher etwas entscheiden!!! Schreib mir <error>
+        <errorType/>
+
+        <originalForm>Bald</originalForm>
+
+        <targetForm>bald</targetForm>
+      </error>! <par/><closing>Viele Grüße <par/>deine Freundin <par/> <entity>Jessica</entity> </closing></exercise>
+  </body>
+</kolipsi_document>

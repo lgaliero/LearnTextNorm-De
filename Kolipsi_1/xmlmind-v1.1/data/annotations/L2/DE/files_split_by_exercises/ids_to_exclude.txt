@@ -1,0 +1,53 @@
+ID	state_of_data	exclusion_criterion
+3816_1	complete (written in L1)	not written in L2 (of school/author)
+4469_1	language_env and sociooec_status missing (written in L1)	not written in L2 (of school/author)
+5050_1	complete (written in L1)	not written in L2 (of school/author)
+5485_1	complete (written in L1)	not written in L2 (of school/author)
+5534_1	complete (written in L1)	not written in L2 (of school/author)
+5537_1	no xml transcript (written in L1)	no xml transcript
+5692_1	complete (written in L1)	not written in L2 (of school/author)
+5699_1	complete (written in L1)	not written in L2 (of school/author)
+5871_1	complete (written in school_language)	not written in L2 (of school/author)
+6619_1	no xml transcript, language_env and sociooec_status missing	no xml transcript
+6623_1	no xml transcript (written in L1)	no xml transcript
+6627_1	no xml transcript	no xml transcript
+7009_1	no xml transcript, language of parents, language group missing, language_env and sociooec_status missing	no xml transcript
+7011_1	no xml transcript, language of parents, language group missing, language_env and sociooec_status missing	no xml transcript
+7012_1	no xml transcript, language of parents, language group missing	no xml transcript
+7015_1	no xml transcript, language of parents, language group missing, language_env and sociooec_status missing	no xml transcript
+7018_1	no xml transcript, language of parents, language group missing	no xml transcript
+7020_1	no xml transcript, language of parents, language group missing	no xml transcript
+7031_1	no xml transcript, language of parents, language group missing, language_env and sociooec_status missing, author_L1 info missing	author L1 info missing
+7032_1	no xml transcript, language of parents, language group missing, author_L1 info missing	author L1 info missing
+7033_1	no xml transcript, language of parents, language group missing, author_L1 info missing	author L1 info missing
+7036_1	no xml transcript, no consent, language of parents, language group missing	no consent
+7041_1	no cefr evaluation for author, language of parents, language group missing, no PDF scan	no cefr evaluation and no author demographics
+8000_1	no xml transcript, no consent, no author_data, language of parents, language group missing, language_env and sociooec_status missing, author_L1 info missing	author L1 info missing
+8010_1	language of parents, language group missing (written in school_language)	not written in L2 (of school/author)
+9005_1	no xml transcript, language of parents, language group missing	no xml transcript
+3816_2	complete (written in L1)	not written in L2 (of school/author)
+4469_2	language_env and sociooec_status missing (written in L1)	not written in L2 (of school/author)
+5050_2	complete (written in L1)	not written in L2 (of school/author)
+5485_2	complete (written in L1)	not written in L2 (of school/author)
+5534_2	complete (written in L1)	not written in L2 (of school/author)
+5537_2	no xml transcript (written in L1)	no xml transcript
+5692_2	complete (written in L1)	not written in L2 (of school/author)
+5699_2	complete (written in L1)	not written in L2 (of school/author)
+5871_2	complete (written in school_language)	not written in L2 (of school/author)
+6619_2	no xml transcript, language_env and sociooec_status missing	no xml transcript
+6623_2	no xml transcript (written in L1)	no xml transcript
+6627_2	no xml transcript	no xml transcript
+7009_2	no xml transcript, language of parents, language group missing, language_env and sociooec_status missing	no xml transcript
+7011_2	no xml transcript, language of parents, language group missing, language_env and sociooec_status missing	no xml transcript
+7012_2	no xml transcript, language of parents, language group missing	no xml transcript
+7015_2	no xml transcript, language of parents, language group missing, language_env and sociooec_status missing	no xml transcript
+7018_2	no xml transcript, language of parents, language group missing	no xml transcript
+7020_2	no xml transcript, language of parents, language group missing	no xml transcript
+7031_2	no xml transcript, language of parents, language group missing, language_env and sociooec_status missing, author_L1 info missing	author L1 info missing
+7032_2	no xml transcript, language of parents, language group missing, author_L1 info missing	author L1 info missing
+7033_2	no xml transcript, language of parents, language group missing, author_L1 info missing	author L1 info missing
+7036_2	no xml transcript, no consent, language of parents, language group missing	no consent
+7041_2	no cefr evaluation for author, language of parents, language group missing, no PDF scan	no cefr evaluation and no author demographics
+8000_2	no xml transcript, no consent, no author_data, language of parents, language group missing, language_env and sociooec_status missing, author_L1 info missing	author L1 info missing
+8010_2	language of parents, language group missing (written in school_language)	not written in L2 (of school/author)
+9005_2	no xml transcript, language of parents, language group missing	no xml transcript

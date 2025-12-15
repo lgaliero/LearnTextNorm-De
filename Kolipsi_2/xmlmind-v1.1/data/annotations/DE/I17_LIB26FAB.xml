@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I17_LIB26FAB</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting><correction>
+          <insertion>Hallo liebe Ughina,</insertion>
+        </correction></greeting><par />Maria ging nach einer halben Stunde beim Obsthändler endlich<correction>
+        <deletion>,</deletion>
+      </correction> zur Kasse, wo sie das <error>
+        <errorType />
+
+        <originalForm>Ganze</originalForm>
+
+        <targetForm>ganze</targetForm>
+      </error> Obst und d<correction>
+        <deletion>ie</deletion>
+
+        <insertion>as</insertion>
+      </correction> ganze Gemüse <correction>
+        <deletion><unreadable /> d</deletion>
+      </correction> zahlen musste. Als sie zur Kassa, nach<correction>
+        <deletion>e</deletion>
+      </correction> einer langen Reihe ankam, zahlte sie, dank <correction>
+        <deletion>sei</deletion>
+      </correction> ihrer neuer <error>
+        <errorType />
+
+        <originalForm>Bancomatkarte</originalForm>
+
+        <targetForm>Bankomatkarte</targetForm>
+      </error> die ganzen Lebensmittel. Sie packte alles in einer <error>
+        <errorType />
+
+        <originalForm>Papier-Tasche</originalForm>
+
+        <targetForm>Papiertasche</targetForm>
+      </error> ein, aber vergaß den<correction>
+        <deletion><unreadable /></deletion>
+      </correction> Kassenzettel <correction>
+        <deletion>am</deletion>
+      </correction> liegen. <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Später <error>
+        <errorType />
+
+        <originalForm>befor</originalForm>
+
+        <targetForm>bevor</targetForm>
+      </error> sie wieder <error>
+        <errorType />
+
+        <originalForm>nach<correction>
+            <deletion>h</deletion>
+
+            <insertion>H</insertion>
+          </correction>ause</originalForm>
+
+        <targetForm>nach Hause</targetForm>
+      </error> ging, fiel ihr ein, dass sie Milch, Coca-Pepsi, Fanta, Sprite und <correction>
+        <deletion><unreadable /></deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>Bon-Bons</originalForm>
+
+        <targetForm>Bonbons</targetForm>
+      </error> für ihre Kinder vergessen hatte. Deshalb <correction>
+        <deletion>ging</deletion>
+      </correction> entschiedete sie, in einem <foreign_word foreign_language="Italiano">Supermarket</foreign_word> noch schnell einkaufen zu gehen. Als sie sie wieder bei der Kassa stand und beim <error>
+        <errorType />
+
+        <originalForm>zahlen</originalForm>
+
+        <targetForm>Zahlen</targetForm>
+      </error> war, fragte die Angestellte wieso sie <error>
+        <errorType />
+
+        <originalForm>nich</originalForm>
+
+        <targetForm>nicht</targetForm>
+      </error> <correction>
+        <insertion>sich</insertion>
+      </correction> das Obst und das ganze Gemüse <error>
+        <errorType />
+
+        <originalForm>nich</originalForm>
+
+        <targetForm>nicht</targetForm>
+      </error> <correction>
+        <deletion>auch</deletion>
+      </correction> auf dem Tisch legten, um es dann zu zahlen. <error>
+        <errorType />
+
+        <originalForm>Marie</originalForm>
+
+        <targetForm>Maria</targetForm>
+      </error> antwortete, dass sie es in einem anderen Laden gekauft hatten, aber als die <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Angestellte fragt ob sie es dank dem Kassenzettel <error>
+        <errorType />
+
+        <originalForm>beweißen</originalForm>
+
+        <targetForm>beweisen</targetForm>
+      </error> konnte, fiel Marie ein dass sie es in dem anderen Laden vergessen hatte. Die Angestellte, glaubte an dieser Geschichte <error>
+        <errorType />
+
+        <originalForm>nich</originalForm>
+
+        <targetForm>nicht</targetForm>
+      </error> und rufte die Polizei an. Maria wurden ins <correction>
+        <deletion>g</deletion>
+
+        <insertion>G</insertion>
+      </correction>efängnis gebracht, aber dank <correction>
+        <deletion>seines</deletion>
+      </correction> ihres <error>
+        <errorType />
+
+        <originalForm>Schues</originalForm>
+
+        <targetForm>Schuhes</targetForm>
+      </error> konnte sie einige <error>
+        <errorType />
+
+        <originalForm>Studen</originalForm>
+
+        <targetForm>Stunden</targetForm>
+      </error> später die Kaution zahlen.<par /><closing>Liebe Grüße,</closing><par />Davide Moscordelli</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber Paul,</greeting><par />ich <correction>
+        <deletion>glaube</deletion>
+      </correction> habe deine <error>
+        <errorType />
+
+        <originalForm>E-mail</originalForm>
+
+        <targetForm>E-Mail</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>vergestern</originalForm>
+
+        <targetForm>vorgestern</targetForm>
+      </error> gelesen, aber habe nur heute Zeit gehabt dir zu antworten.<par />Ich glaube <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> diese virtuelle Freundschaften nichts nutzten und nicht wirklich sind. Ich glaube, dass das <error>
+        <errorType />
+
+        <originalForm>beste</originalForm>
+
+        <targetForm>Beste</targetForm>
+      </error> ist keine virtuelle Freundschaften zu unternehmen. <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Wenn ich du wäre, würde ich nicht mehr diese<correction>
+        <deletion>n</deletion>
+      </correction> Leute antworten, und dann wie du schon gemacht hast, alle Accounts löschen, um keine Spuren <error>
+        <errorType />
+
+        <originalForm>hinterher zu lassen</originalForm>
+
+        <targetForm>hinterherzulassen</targetForm>
+      </error>. Dann würde ich <correction>
+        <insertion>es</insertion>
+      </correction> meine Eltern sagen, dass sie mir das <correction>
+        <deletion>Netz</deletion>
+      </correction> Internet Netz weg<correction>
+        <deletion>g</deletion>
+
+        <insertion>n</insertion>
+      </correction>ehmen sollen<correction>
+        <deletion>n</deletion>
+      </correction>, weil sonst das Internet eine Dependenz werden kön<correction>
+        <deletion>t</deletion>
+
+        <insertion>n</insertion>
+      </correction>te. Das <error>
+        <errorType />
+
+        <originalForm>beste</originalForm>
+
+        <targetForm>Beste</targetForm>
+      </error> ist eine Freundschaft, eine echte Freundschat zu unternehmen und sie richtig zu pflegen. Internet ist ein sehr starkes Mittel um <error>
+        <errorType />
+
+        <originalForm>informationen</originalForm>
+
+        <targetForm>Informationen</targetForm>
+      </error> zu suchen, aber auf der anderen <error>
+        <errorType />
+
+        <originalForm>seite</originalForm>
+
+        <targetForm>Seite</targetForm>
+      </error> der Medaille ist es auch ein sehr <error>
+        <errorType />
+
+        <originalForm>geferlicher</originalForm>
+
+        <targetForm>gefährlicher</targetForm>
+      </error> Mittel. Meine Freunde Erick-Maxim Chupo Moting und auch <unreadable /> sind vor einigen Jahren von <correction>
+        <deletion>einem psyhopaten</deletion>
+      </correction> Luis Sourez kontaktiert worden und von damals sind sie nicht mehr die gleichen Personen. Ich glaube dass du von <error>
+        <errorType />
+
+        <originalForm>disen</originalForm>
+
+        <targetForm>diesen</targetForm>
+      </error> <unreadable /> austreten solltes.<par /><closing>Liebe <error>
+          <errorType />
+
+          <originalForm>Grüse</originalForm>
+
+          <targetForm>Grüße</targetForm>
+        </error>,</closing><par />Gionluna Tr<unreadable /> yiongi per gli amici "<correction>
+        <deletion><unreadable /></deletion>
+      </correction>" </exercise>
+  </body>
+</kolipsi_II_document>

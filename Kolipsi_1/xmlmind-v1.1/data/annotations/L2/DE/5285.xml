@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5285</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><par /><greeting>Hallo <entity>Mirco</entity>!</greeting> <par />Heute werde ich dir eine komische Geschichte erzählen. <entity>Maria</entity> ist <correction>
+        <insertion>m</insertion>
+      </correction>eine Fr<strikeover>
+        <expansion>a</expansion>
+
+        <expansion>e</expansion>
+      </strikeover>undin und sie ist letzte Woche einkaufen gegangen. Sie kaufte zuerst in einem Obst- und Gemüseladen ein. <correction>
+        <deletion>Eine Stunde später war sie im Supermarkt.</deletion>
+      </correction> Dort aber hat sie den Zettel vergessen. Eine Stunde später war sie im Supermarkt. Dort gab es ein Problem weil die Frau die im Supermarkt arbeitet dachte, dass <entity>Maria</entity> Gemüse <error>
+        <errorType />
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hatte. Meine arme Freundin versuchte zu sagen, dass sie den Zettel im Gemüseladen <error>
+        <errorType />
+
+        <originalForm>gergessen</originalForm>
+
+        <targetForm>vergessen</targetForm>
+      </error> hatte, aber die Frau glaubte ihr nicht. Es wurde den Direktor gerufen und da passierte etwas <error>
+        <errorType />
+
+        <originalForm>komisch</originalForm>
+
+        <targetForm>Komisch</targetForm>
+      </error>. Der Direktor war einen alten Freund von <entity>Maria</entity>. Die <correction>
+        <deletion>B</deletion>
+      </correction> beiden begannen <correction>
+        <deletion><unreadable /></deletion>
+      </correction> anzusprechen wie es ihnen geht. Nach zehn Minuten die <error>
+        <errorType />
+
+        <originalForm>Freu</originalForm>
+
+        <targetForm>Frau</targetForm>
+      </error> die an der Kasse war ging zornig wieder <error>
+        <errorType />
+
+        <originalForm>abreiten</originalForm>
+
+        <targetForm>arbeiten</targetForm>
+      </error> und <error>
+        <errorType />
+
+        <originalForm>lies</originalForm>
+
+        <targetForm>ließ</targetForm>
+      </error> <entity>Maria</entity> und den Direktor allein. Der Direktor lachte über was es passiert ist und <error>
+        <errorType />
+
+        <originalForm>lies</originalForm>
+
+        <targetForm>ließ</targetForm>
+      </error> <entity>Maria</entity> gehen. <par />Eine tolle <error>
+        <errorType />
+
+        <originalForm>Geschite</originalForm>
+
+        <targetForm>Geschichte</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>gel</originalForm>
+
+        <targetForm>gell</targetForm>
+      </error>? <par /><closing><overwrite>
+          <under>F</under>
+
+          <over>V</over>
+        </overwrite>iatii <entity>Federica</entity> </closing> </exercise>
+
+    <exercise number="2" xml:space="preserve"><par /><greeting>Liebe <entity>Manuela</entity>,</greeting> <par /><error>
+        <errorType />
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> habe dafür viel gedacht, ob es besser am Meer oder in den Bergen den Urlaub machen, aber ich habe keine Lösung gefunden. In den Bergen <correction>
+        <deletion>ist</deletion>
+
+        <insertion>wäre</insertion>
+      </correction> es schön zu gehen, weil dort wir viele <sic>Spaziergangen</sic> machen konnte und <strikeover>
+        <expansion>f</expansion>
+
+        <expansion>F</expansion>
+      </strikeover>rische Luft finden werden. <error>
+        <errorType />
+
+        <originalForm>Leztes</originalForm>
+
+        <targetForm>Letztes</targetForm>
+      </error> Jahr bin ich in den Bergen mit meine Familie gegangen und es war wirklich toll. Auf der anderen Seite aber ist einen Urlaub am Meer auch schön. Dort kann man so viele Bäde machen, und du weißt es schon, wie ich schwimmen mag. Ich würde dem ganzen Tag ins Wasser bleiben. Aber am Meer wurde es zu kalt sein! Ja, ich es <error>
+        <errorType />
+
+        <originalForm>jetz</originalForm>
+
+        <targetForm>jetzt</targetForm>
+      </error> eine <error>
+        <errorType />
+
+        <originalForm>Losüng</originalForm>
+
+        <targetForm>Lösung</targetForm>
+      </error> gefunden: <error>
+        <errorType />
+
+        <originalForm>wir</originalForm>
+
+        <targetForm>Wir</targetForm>
+      </error> werden den Urlaub in den Bergen verbrachen wo es auch einen See gibt, so können wir gleichzeitig Spaziergangen machen und schwimmen. Es wird wunderbar sein? Bist du einverstanden? Schreib mir deine Antwort gleich. <par /> <closing>Grüße von <par /> <entity>Federica</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

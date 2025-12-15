@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5363</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve">
+ <par/><greeting>Hi <entity>Giulia</entity>!</greeting> <par/>Ich will dir sagen was <correction>
+        <deletion>hat</deletion>
+
+        <insertion>ist</insertion>
+      </correction> <entity>Maria</entity> heute passiert. Sie ging beim Obsthändler und sie kaufte Gemüse, dann ging sie an die Kasse zu zahlen. Eine Stunde später ging sie im <foreign_word foreign_language="Italiano">Supermarket</foreign_word> zu kaufen was gab es <error>
+        <errorType/>
+
+        <originalForm>nocht</originalForm>
+
+        <targetForm>noch</targetForm>
+      </error> in ihre Haus nicht, aber sie <correction>
+        <deletion><palimpsest>unreadable</palimpsest></deletion>
+
+        <insertion>vergiss</insertion>
+      </correction> die Gemüse in <palimpsest> </palimpsest>ihre Tasche. <palimpsest>unreadable</palimpsest><par/>Wenn sie <correction>
+        <insertion>ging</insertion>
+      </correction> an die Kasse zu zahlen die <foreign_word foreign_language="Italiano">Cassiera</foreign_word> dac<overwrite>
+        <under><unreadable/></under>
+
+        <over>h</over>
+      </overwrite>te dass <entity>Maria</entity> die Gemüse stehlen will. <entity>Maria</entity> <palimpsest>s</palimpsest><overwrite>
+        <under><unreadable/></under>
+
+        <over>a</over>
+      </overwrite>gte sie dass sie <overwrite>
+        <under><unreadable/></under>
+
+        <over>k</over>
+      </overwrite>aufte die Gemüse beim Obsthändler so sie<palimpsest> </palimpsest> <foreign_word foreign_language="Italiano">cercava</foreign_word> <foreign_word foreign_language="Italiano">lo</foreign_word> <foreign_word foreign_language="Italiano">scontrino</foreign_word> aber sie vergiss es an d<overwrite>
+        <under><unreadable/></under>
+
+        <over>er</over>
+      </overwrite> Kasse. Die <foreign_word foreign_language="Italiano">Cassiera</foreign_word> dachte dass sie will wirklich stehlen so rief die Polizei. <entity>Maria</entity> erzählte alle <palimpsest>unreadable</palimpsest> was es passierte so die Polizei ging beim <strikeover>
+        <expansion>o</expansion>
+
+        <expansion>O</expansion>
+      </strikeover>bsthändler und <sic>findte</sic> <foreign_word foreign_language="Italiano">lo</foreign_word> <foreign_word foreign_language="Italiano">scontrino</foreign_word> <foreign_word foreign_language="Italiano">e</foreign_word> <foreign_word foreign_language="Italiano">si</foreign_word> <foreign_word foreign_language="Italiano">viene</foreign_word> alles in Ordnung.</exercise>
+
+    
+  </body>
+</kolipsi_document>

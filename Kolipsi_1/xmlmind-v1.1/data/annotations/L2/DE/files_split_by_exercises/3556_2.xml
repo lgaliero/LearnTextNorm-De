@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>3556</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve">
+ <par/><greeting>Liebe <entity>Julia</entity>,<par/>Hallo <entity>Julia</entity>,</greeting> wir müssen <sic>entschieden</sic>, wo unsere Urlaub verbringen müssen. Ich bin unsicher. Ich w<strikeover>
+        <expansion>i</expansion>
+
+        <expansion>e</expansion>
+      </strikeover>ll, dass du entscheidest. Wir können unsere Urlaub am Meer oder in de<strikeover>
+        <expansion>n</expansion>
+
+        <expansion>r</expansion>
+      </strikeover> Bergen verbringen. Am Meer können wir baden. Am Meer können wir in die Disko gehen. Wir können auch neue Freund kennen. Am Abend können wir Promenaden auf dem Strand machen. Das Meer ist <correction>
+        <deletion>mehr</deletion>
+      </correction> romantische<unreadable/> als Berg. <error>
+        <errorType/>
+
+        <originalForm>Letzen</originalForm>
+
+        <targetForm>Letzten</targetForm>
+      </error> Sommer hatte ich viel Spaß am Meer. Im Berg können wir uns wirklich ausruhen. Im Berg können wir eine sauberere Luft atmen. Als ich klein war, habe ich eine Promenade in den Wald machen. Ich hatte viel Spaß. Im Berg kocht man gut und wir können Spezialität essen. Mir gefäll<strikeover>
+        <expansion>t</expansion>
+
+        <expansion>e</expansion>
+      </strikeover> ganz viel essen. Im Berg können wir außerdem auf der Wiese liegen. Im beide<correction>
+        <deletion>n</deletion>
+      </correction> Fall haben wi<strikeover>
+        <expansion>r</expansion>
+
+        <expansion>e</expansion>
+      </strikeover> viele Spaß. Ich warte deine Antwort.<correction>
+        <deletion><unreadable/></deletion>
+      </correction><par/> <closing>Bis <strikeover>
+          <expansion>b</expansion>
+
+          <expansion>B</expansion>
+        </strikeover>ald, dein Schatz</closing> </exercise>
+  </body>
+</kolipsi_document>

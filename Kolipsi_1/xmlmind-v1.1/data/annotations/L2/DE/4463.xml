@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Romy</transcriber>
+
+  <author_id>4463</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><correction>
+        <deletion>Maria hat in einem Gemüseladen</deletion>
+      </correction> <greeting>Hallo <entity>Miriam</entity>!</greeting> <correction>
+        <insertion><correction>
+            <deletion>kenst</deletion>
+          </correction> <error>
+            <errorType />
+
+            <originalForm>kennst</originalForm>
+
+            <targetForm>Kennst</targetForm>
+          </error> du <correction>
+            <deletion>die</deletion>
+
+            <insertion>das</insertion>
+          </correction> neue <correction>
+            <insertion>Geschichte</insertion>
+          </correction> von <entity>Maria</entity>?</insertion>
+      </correction><par />Wie alle Mittwoch <entity>Maria</entity> geh<overwrite>
+        <over>t</over>
+
+        <under>e</under>
+      </overwrite> in d<overwrite>
+        <over>e</over>
+
+        <under>i</under>
+      </overwrite>r Gemüseladen zwischen ihrem Haus und dem Kino. Sie trägt <overwrite>
+        <over>J</over>
+
+        <under>j</under>
+      </overwrite>eans und ihre <error>
+        <errorType />
+
+        <originalForm>lieblings Jake</originalForm>
+
+        <targetForm>Lieblingsjacke</targetForm>
+      </error>. In der Gemüseladen kauft viele Gemüse <correction>
+        <deletion><unreadable /></deletion>
+      </correction>: Salat, Tomaten, Gurken und auch Obst: Birne, Äpfel und so weiter. <entity>Maria</entity> geht an d<overwrite>
+        <over>e</over>
+
+        <under>i</under>
+      </overwrite>r Kasse und zahlt was sie <correction>
+        <deletion>ge</deletion>
+      </correction> gekauft hat. Sie sammelt alles in einer Tasche und geht aus. <entity>Maria</entity> hat den Kassenzettel auf der Kasse <error>
+        <errorType />
+
+        <originalForm>fergessen</originalForm>
+
+        <targetForm>vergessen</targetForm>
+      </error>, weil, sie einen Freund getroffen hat. Sie liebe diesen Freund und sie <correction>
+        <deletion>hob</deletion>
+      </correction> hat das Kopf <error>
+        <errorType />
+
+        <originalForm>fergessen</originalForm>
+
+        <targetForm>vergessen</targetForm>
+      </error>! Sie haben viel gesprochen. <entity>Maria</entity> lasst ihren Freund und gehet im Supermarkt in <foreign_word
+        foreign_language="English">Front</foreign_word> der Straße. Der Supermarkt ist groß und sie hat vielen <error>
+        <errorType />
+
+        <originalForm>Prodükte</originalForm>
+
+        <targetForm>Produkte</targetForm>
+      </error> gekauft. Sie gehet an der Kasse und <correction>
+        <insertion>die</insertion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>Verkauferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> sagt dass, sie <error>
+        <errorType />
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hat, weil sie eine Tasche <correction>
+        <deletion>hat</deletion>
+      </correction> mit <error>
+        <errorType />
+
+        <originalForm>vieln</originalForm>
+
+        <targetForm>vielen</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>Prodükten</originalForm>
+
+        <targetForm>Produkten</targetForm>
+      </error> hat. <entity>Marina</entity> hat den Kassenzettel <error>
+        <errorType />
+
+        <originalForm>fergessen</originalForm>
+
+        <targetForm>vergessen</targetForm>
+      </error> und sie kommt nicht das Richtigheit beweisen. Plötzlich kommt ihren Freund mit dem Kassenzettel.</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo <entity>Miriam</entity>!</greeting> <par />Wie gehts es dir? Ist Jul<overwrite>
+        <under>y</under>
+
+        <over>i</over>
+      </overwrite> und ist Zeit von Urlaub! <par />Was sagtst du, ich <correction>
+        <deletion>f</deletion>
+      </correction> fahre in Meer oder in oben Bergen? Ich will in den Bergen fahren. <error>
+        <errorType />
+
+        <originalForm>weil</originalForm>
+
+        <targetForm>Weil</targetForm>
+      </error> es nicht so warm ist. Ich mache <error>
+        <errorType />
+
+        <originalForm>pic-nic</originalForm>
+
+        <targetForm>Picknick</targetForm>
+      </error> im Garten und komme ich im Wald spazieren. Am Meer komme ich <correction>
+        <deletion><unreadable /></deletion>
+      </correction> ins Meer schwimmen und vielen Fischen sehen und essen. We<overwrite>
+        <under>e</under>
+
+        <over>n</over>
+      </overwrite>n ich i<overwrite>
+        <over>ns</over>
+
+        <under>s</under>
+      </overwrite> Meer fahre<correction>
+        <deletion>n</deletion>
+      </correction> , fahre <correction>
+        <deletion>in</deletion>
+      </correction> ich nach <entity><error>
+          <errorType />
+
+          <originalForm>Grig</originalForm>
+
+          <targetForm>Krk</targetForm>
+        </error></entity>, weil es ein wunderbares Land ist. In <entity><error>
+          <errorType />
+
+          <originalForm>Grig</originalForm>
+
+          <targetForm>Krk</targetForm>
+        </error></entity> <sic>konne</sic> ich viel <entity>Anice</entity> trinken und i<overwrite>
+        <under>m</under>
+
+        <over>n</over>
+      </overwrite> eine<overwrite>
+        <under>m</under>
+
+        <over>n</over>
+      </overwrite> ganzen blauen Meer schwimmen. In den Bergen <sic>konne <correction>
+          <deletion><unreadable /></deletion>
+        </correction> </sic> ich nach <entity>Cortina</entity> fahren, weil meinen Freund ein Haus hat <correction>
+        <deletion><unreadable /></deletion>
+      </correction>. Ich <sic>konne</sic> eine Reise in die ganzen Alpen machen. Ich denke dass, ich eine Reise in die ganzen Alpen <correction>
+        <deletion>mach</deletion>
+      </correction> mit dem <foreign_word foreign_language="Italiano">Moto</foreign_word> machen. Ich muss meine Idee <correction>
+        <deletion>dem</deletion>
+      </correction> meinem Freund sagen. So <strikeover>
+        <expansion>er</expansion>
+
+        <expansion>sie</expansion>
+      </strikeover> kann dem <foreign_word foreign_language="Italiano">Moto</foreign_word> und <correction>
+        <deletion>der</deletion>
+      </correction> die Reise organisieren. <par /> Ich will deine Antwort, so kannst du mir deine Urlaub und Sommer erzählen. <par /> <closing>Viele. <sic><overwrite>
+            <over>K</over>
+
+            <under>k</under>
+          </overwrite>üssen</sic> </closing> </exercise>
+  </body>
+</kolipsi_document>

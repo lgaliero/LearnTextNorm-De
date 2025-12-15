@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0138</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Lieber <entity>Alois</entity></greeting>,<par />heute ist meiner Freundin <entity>Maria</entity> etwas <error>
+        <errorType />
+
+        <originalForm>peinliches</originalForm>
+
+        <targetForm>Peinliches</targetForm>
+      </error> passiert, <error>
+        <errorType />
+
+        <originalForm>dass</originalForm>
+
+        <targetForm>das</targetForm>
+      </error> muss ich dir erzählen.<par />Sie war beim Obsthändler um Obst und Gemüse fürs Abendessen zu kaufen. Sie kaufte einen ganzen Korb voll, denn am Abend bekam sie Besuch. Sie bezahlte, und ging zum nächsten Geschäft. Sie ließ den Kass<overwrite>
+        <under>a</under>
+
+        <over>e</over>
+      </overwrite>nzettel liegen, denn zu was <sic>brauch</sic> man den schon?<par />Später im Supermarkt, kaufte sie die restlichen Zutaten für ihren Eintopf. Als sie zur Kassa ging, hatte sie den Korb mit dem Gemüse auf der Schulter hängen. Als sie bezahlen wollte, <error>
+        <errorType />
+
+        <originalForm>schnautzte</originalForm>
+
+        <targetForm>schnauzte</targetForm>
+      </error> sie die Verkäuferin an: <direct_speech>"Hey, und das Obst und Gemüse in <error>
+          <errorType />
+
+          <originalForm>ihrem</originalForm>
+
+          <targetForm>Ihrem</targetForm>
+        </error> Korb? Wollen <error>
+          <errorType />
+
+          <originalForm>sie</originalForm>
+
+          <targetForm>Sie</targetForm>
+        </error> das etwa so mitgehen lassen?"</direct_speech> <entity>Maria</entity> erklärte der Verkäuferin, dass sie die Sachen im Korb schon vorher gekauft hatte, doch die <error>
+        <errorType />
+
+        <originalForm>hartneckige</originalForm>
+
+        <targetForm>hartnäckige</targetForm>
+      </error> Verkäuferin gab nicht noch. Die Verkäuferin telefonierte mit de<overwrite>
+        <under>n</under>
+
+        <over>r</over>
+      </overwrite> Obstladenbesitzerin, die zum Glück alles aufklären konnte.<par />Was für eine <overwrite>
+        <under>g</under>
+
+        <over>G</over>
+      </overwrite>eschichte.<par /><closing>Deine <entity>Franziska</entity> ! !   </closing>  </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo <entity>Alex</entity></greeting>!<par />Mir ist eingefallen, dass wir noch kein Urlaubsziel ausgesucht haben, aber das ist ja auch schwer. Einerseits gibt es die Berge, wo man so schön wandern kann, andererseits das Meer, wo man schwimmen gehen kann. Bei beiden Orten gibt es frische Luft und schöne Orte zu besichtigen. Ich weiß ja nicht an welchem Ort du dich besser erholen kannst. Bis jetzt war ich immer nur auf dem Meer, also kann ich nicht beurteilen wo es schöner ist. Natürlich müssen wir in den Bergen etwas unternehmen und können nicht nur liegen und <overwrite>
+        <under>s</under>
+
+        <over>S</over>
+      </overwrite>onne tanken wie auf dem Meer.  </exercise>
+  </body>
+</kolipsi_document>

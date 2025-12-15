@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>4351</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Vivi</entity>,</greeting> <par/><palimpsest>ich denke</palimpsest> über unsere Urlaub. Hast du eine gute <error>
+        <errorType/>
+
+        <originalForm>idee</originalForm>
+
+        <targetForm>Idee</targetForm>
+      </error>? Ich bin <palimpsest>noch</palimpsest> nicht sicher, ob ich in die Berge oder lieber ans Meer fahren sollen. Die Berge sind schön, weil die <palimpsest>Luft</palimpsest> gut ist. Wir müssen ins Natur spazieren gehen. Wenn ist dunkel wir <correction>
+        <deletion>müssen</deletion>
+      </correction> liegen ins <error>
+        <errorType/>
+
+        <originalForm>boden</originalForm>
+
+        <targetForm>Boden</targetForm>
+      </error> und schaue die Sterne. Aber <correction>
+        <deletion>am</deletion>
+      </correction> ist am <palimpsest>Abend</palimpsest> sehr kalt. Wir wohnen in <entity>Bozen</entity> und sehen <correction>
+        <deletion><unreadable/></deletion>
+      </correction> immer die Berge. Ich denke, dass <correction>
+        <deletion><palimpsest> </palimpsest></deletion>
+      </correction> besser als Meer fahren. Als Meer ist viele Sonne und wir müssen ins Wasser schwimmen. <correction>
+        <deletion><unreadable/></deletion>
+      </correction> Wir essen gerne Eis und wir spiele Volleyball <correction>
+        <deletion><unreadable/></deletion>
+      </correction> auf die Strand. Wir kennengelernt neue Freunde und am Abend gehen wir in Disco tanzen. Am <error>
+        <errorType/>
+
+        <originalForm>morgen</originalForm>
+
+        <targetForm>Morgen</targetForm>
+      </error> schlafen wir um 11 Uhr. Ich liebe besser ans Meer fahren. Wenn du einverstanden bist, <error>
+        <errorType/>
+
+        <originalForm>m<correction>
+            <deletion>ü</deletion>
+
+            <insertion>u</insertion>
+          </correction>ssen</originalForm>
+
+        <targetForm>müssen</targetForm>
+      </error> nach Meer fahren. <par/><closing>Viele <error>
+          <errorType/>
+
+          <originalForm>grüße</originalForm>
+
+          <targetForm>Grüße</targetForm>
+        </error>, deine <entity>Maria</entity> </closing></exercise>
+  </body>
+</kolipsi_document>

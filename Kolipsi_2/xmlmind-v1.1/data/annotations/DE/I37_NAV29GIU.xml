@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I37_NAV29GIU</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve">Freitag, den 27. März 2015<par /><greeting>Liebe Sofie,</greeting><par />letzte Woche ist meine Freundin Maria <correction>
+        <deletion>zum Su</deletion>
+      </correction> einkaufen gegangen, <correction>
+        <deletion>Sie kennst du sie?</deletion>
+      </correction> aber an der Kasse hat sie einige Probleme gehabt.<par />Maria ist die <correction>
+        <deletion><unreadable /></deletion>
+      </correction> <correction>
+        <deletion>s</deletion>
+
+        <insertion>S</insertion>
+      </correction>chwester<correction>
+        <deletion>, di</deletion>
+      </correction> von Alex, der Jung mit uns <correction>
+        <deletion>an der</deletion>
+      </correction> in die Mittelschule gegangen ist. Vielleicht kennst du sie... Jetzt erzähle ich <correction>
+        <deletion>dich</deletion>
+      </correction> dich was passiert ist. Im Supermarkt hat sie erst Obst genommen, dann, w<correction>
+        <deletion>e</deletion>
+
+        <insertion>a</insertion>
+      </correction>nn sie Brot genommen hat, hat <error>
+        <errorType />
+
+        <originalForm>si</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> es in ihrer Tasche hinein getan. Später hat sie etwas anders gesucht und am Ende ist sie zur Kasse gegangen. Sie hat gezahlt, aber leider hat sie das Brot in der Tasche vergessen. Die Verkäuferin hat das Brot gesehen und schnell hat sie die Polizei angeruft.<par />Gestern ha<correction>
+        <deletion>t</deletion>
+
+        <insertion>be</insertion>
+      </correction> <correction>
+        <deletion>Maria</deletion>
+      </correction> ich eine E-Mail von Maria gekriegt. Sie hat mir geschrieben, <correction>
+        <deletion>sie muss</deletion>
+      </correction> dass sie eine Strafe zahlen muss. Jetzt kommt das Problem... Sie hat mir auch geschrieben, sie 200,- € braucht. Ich weiß, dass du eine<unreadable /> Preis gewonnen hast, und wollte dich nur <error>
+        <errorType />
+
+        <originalForm>Fragen</originalForm>
+
+        <targetForm>fragen</targetForm>
+      </error> ob du dieses Geld mir leihen kannst.<par /><closing>Ich warte auf deine Antwort,</closing><par />Giulia</exercise>
+
+    <exercise number="2" xml:space="preserve"><correction>
+        <deletion>Mittwo</deletion>
+      </correction> Freitag, den 27. März 2015<par /><greeting>Lieber Paul,</greeting><par /><error>
+        <errorType />
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> habe nur jetzt deine <error>
+        <errorType />
+
+        <originalForm>E-mail</originalForm>
+
+        <targetForm>E-Mail</targetForm>
+      </error> gelesen, weil ich einige Probleme mit Internet gehabt habe. Ich habe deine E-Mail <error>
+        <errorType />
+
+        <originalForm>zwei oder drei<correction>
+            <deletion> </deletion>
+          </correction>Mal</originalForm>
+
+        <targetForm>zwei- oder dreimal</targetForm>
+      </error> durchgelesen, weil ich wusste nicht was zu antworten.<par />Letztes Jahr habe ich auch <correction>
+        <deletion>ein</deletion>
+      </correction> mit einem Jung, der ich <correction>
+        <deletion>nicht</deletion>
+      </correction> nie gesehen hatte, ge<correction>
+        <deletion>s</deletion>
+
+        <insertion>c</insertion>
+      </correction>hattet. Nach ein paar <error>
+        <errorType />
+
+        <originalForm>wochen</originalForm>
+
+        <targetForm>Wochen</targetForm>
+      </error> habe ich seine Nummer gelöscht. Er hat mir viele SMS geschickt, in denen er wissen wollte, warum ich ihm nicht <correction>
+        <deletion>geant</deletion>
+      </correction> antwortete. Ich habe nie geantwortet und nach einen Monat hat er mir nie wieder geschrieben. Ich kann dir auch einen Rat geben<correction>
+        <deletion>;</deletion>
+
+        <insertion>:</insertion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>du</originalForm>
+
+        <targetForm>Du</targetForm>
+      </error> sollst nur warten bis wann diese Leute nicht mehr schreiben.<par />Ich finde die virtuelle Freundschaften unwichtig und sinnlos. Wie kann man über eigene Probleme mit Leute, die man nie gesehen hat, <correction>
+        <deletion>ges</deletion>
+      </correction> sprechen oder schreiben? Wenn du mit jemandem <correction>
+        <insertion>zu</insertion>
+      </correction> sprechen brauchst, kannst du einfach mir <correction>
+        <deletion>e</deletion>
+
+        <insertion>a</insertion>
+      </correction>nrufen. Du weißt, <correction>
+        <deletion>ich da für dich bin</deletion>
+      </correction> dass ich da für dich bin.<par /><closing>Viele Grüße</closing><par />Giulia</exercise>
+  </body>
+</kolipsi_II_document>

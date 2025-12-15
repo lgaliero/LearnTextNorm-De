@@ -1,0 +1,60 @@
+<body>
+ <page page_number="1" transcanno_page_id="155">
+  <paragraph class="medium-paragraph" tagcode="1590073044740">
+   <div>
+    1) Ich
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1540330160156" tran_correction_original="mo*">
+     mochte
+    </tran_word_correction_id25>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1540330151993" tran_word_deletion_target="_#_">
+     m
+    </tran_word_deletion_id8>
+    Superiori
+    <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1540330187198" tran_alternative_1="mochen" tran_alternative_2="">
+     machen
+    </tran_ambiguous_id3>
+    .
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1590073044742">
+   <div>
+    2) Mein Traumberuf ist
+    <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1540330196498" tran_alternative_1="mochen" tran_alternative_2="">
+     machen
+    </tran_ambiguous_id3>
+    die Lehrerin, weil
+   </div>
+   <div>
+    ist eine
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1540330204183">
+     schönes
+    </tran_word_insertion_id9>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Arbeit" tagcode="1590073044739">
+     <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1540330211592" tran_alternative_1="orbeit" tran_alternative_2="">
+      arbeit
+     </tran_ambiguous_id3>
+    </orth_error_id12>
+    .
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1590073044744">
+   <div>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1540330215710">
+     3)
+    </tran_word_insertion_id9>
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1590073044745">
+   <div>
+    4) Ich
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1540330237940" tran_correction_original="wi*l">
+     will
+    </tran_word_correction_id25>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1540330243448" tran_word_deletion_target="_#_">
+     lernen
+    </tran_word_deletion_id8>
+    lerne Französisch.
+   </div>
+  </paragraph>
+ </page>
+</body>

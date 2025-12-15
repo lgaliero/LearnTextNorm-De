@@ -1,0 +1,44 @@
+<body>
+ <page page_number="1" transcanno_page_id="136">
+  <paragraph class="medium-paragraph" tagcode="1549746490499">
+   <div>
+    Deutsch: Weil Deutsch im Südtirol spricht.
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1549746490500">
+   <div>
+    Italienisch: Italienisch weil Südtirol ist in Italien .
+   </div>
+   <div>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Englisch" tagcode="1549746401208">
+     English
+    </orth_error_id12>
+    : Weil Englisch ist die Sprache die man
+   </div>
+   <div>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1549746432481" tran_word_deletion_target="_#_">
+     in
+    </tran_word_deletion_id8>
+    die ganze Welt spricht.
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1549746490501">
+   <div>
+    Spanisch: Weil Spanisch eine sehr interessante
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1549746451646" tran_correction_original="sprache">
+     Sprache
+    </tran_word_correction_id25>
+   </div>
+   <div>
+    ist
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1549746490498" tran_correction_original="un*">
+     und
+    </tran_word_correction_id25>
+    leicht zu lernen ist weil es fast wie Italienisch
+   </div>
+   <div>
+    klingt.
+   </div>
+  </paragraph>
+ </page>
+</body>

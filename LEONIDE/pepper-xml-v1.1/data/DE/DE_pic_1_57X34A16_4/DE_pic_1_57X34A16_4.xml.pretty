@@ -1,0 +1,59 @@
+<body>
+ <page page_number="1" transcanno_page_id="59">
+  <paragraph class="medium-paragraph" tagcode="1611824008216">
+   <div>
+    Es war einmal Max und sein Papa
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1541638096458">
+     sie
+    </tran_word_insertion_id9>
+    waren im Haus. Doch
+   </div>
+   <div>
+    dann fing es an zu
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="BRENNEN" tagcode="1541638109769">
+     Brennen
+    </orth_error_id12>
+    und Papa kugelt aus dem
+   </div>
+   <div>
+    Haus und Max rann hinter her. Sie probierten alle Sachen
+   </div>
+   <div>
+    aus dem Haus zu schaffen. Max nahm seine Schultasche
+   </div>
+   <div>
+    mit raus und dann
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="FIEL" tagcode="1541638134226">
+     viel
+    </orth_error_id12>
+    <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1541638147976" tran_alternative_1="ihn" tran_alternative_2="">
+     ihm
+    </tran_ambiguous_id3>
+    ein er könnte doch die Hefter
+   </div>
+   <div>
+    ins Feuer werfen damit er keine Hefte mehr hatte. Papa
+   </div>
+   <div>
+    sah ihn kurz an und
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1541638071870" tran_correction_original="+UGELT">
+     kugelt
+    </tran_word_correction_id25>
+    dann weiter.
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1611824008219">
+   <div>
+    <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611824008215" tran_capitalisation_target="Ende" tran_capitalisation_type="01 completely capitalised">
+     ENDE
+    </tran_capitalisation_id85>
+    <tran_symbol_id32 class="medium-tran_symbol_id32" tagcode="1541638510010" tran_symbol_target="U+2757">
+     ❗
+    </tran_symbol_id32>
+    <tran_symbol_id32 class="medium-tran_symbol_id32" tagcode="1541638518080" tran_symbol_target="U+2757">
+     ❗
+    </tran_symbol_id32>
+   </div>
+  </paragraph>
+ </page>
+</body>

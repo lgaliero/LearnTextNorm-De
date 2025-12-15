@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0073</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Lieber <entity>Boris</entity></greeting>,<par />wie geht es dir?<par />Ich will dir heute von <entity>Maria</entity> erzählen, da ihr etwas <error>
+        <errorType />
+
+        <originalForm>lustiges</originalForm>
+
+        <targetForm>Lustiges</targetForm>
+      </error> unterlaufen ist. <entity>Maria</entity> ist zum Obst- und Gemüsehändler gelaufen, um dort Lebensmittel für ihre Party zu kaufen. Du weißt ja, <entity>Maria</entity> ist Vegetarierin, daher kommen auch nur Sachen aus dem Biomarkt <error>
+        <errorType />
+
+        <originalForm>in frage</originalForm>
+
+        <targetForm>infrage</targetForm>
+      </error>. Für ihre <error>
+        <errorType />
+
+        <originalForm>"Vegi-Party"</originalForm>
+
+        <targetForm>"Veggieparty"</targetForm>
+      </error> brauchte sie aber noch Säfte, Milch und Tofu. Aus diesem Grund ging sie nach dem Bezahlen auf direktem Weg in den nächsten Supermarkt, die Zeit war knapp, so musste sie sich sehr beeilen! Später im Supermarkt angekommen kaufte <entity>Maria</entity> munter weiter ein. Luftschlangen, Kerzen und auch <error>
+        <errorType />
+
+        <originalForm>Party-Spiele</originalForm>
+
+        <targetForm>Partyspiele</targetForm>
+      </error> mit Würfeln dürfen natürlich nicht fehlen, sie hatte sich echt viel vorgenommen, schließlich soll die Feier auch ein voller Erfolg werden. An der Kasse angekommen stellte <entity>Maria</entity> alle Gegenstände auf das Laufband. Die Frau an der Kasse frag<overwrite>
+        <under>e</under>
+
+        <over>t</over>
+      </overwrite>e, wie sie bezahlen wolle und erst da bemerkte <entity>Maria</entity>, dass sie ihr ganzes Geld nicht mehr mit sich trug. Die Frau wurde <error>
+        <errorType />
+
+        <originalForm>stink sauer</originalForm>
+
+        <targetForm>stinksauer</targetForm>
+      </error> und vergriff sich sogar im Ton. Die arme <entity>Maria</entity> war ganz außer sich und wusste keinen Rat. Zum Glück war ich zufällig auch einkaufen, ein-zwei Bier und Chips. Also rettete ich sie aus ihrer Lage und bezahlte ihre Sachen! Als Dank läd sie uns beide ein zur <error>
+        <errorType />
+
+        <originalForm>"Vegi-Party"</originalForm>
+
+        <targetForm>"Veggieparty"</targetForm>
+      </error>. Pack dein Soja <correction>
+        <deletion>ein</deletion>
+      </correction> und den Grillkäse ein, wir treffen uns um 21 Uhr bei <entity>Maria</entity>.   <closing>Grüße, <entity>Robert</entity>!   </closing>    </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Meine allerliebste <entity>Petra</entity></greeting>,<par />ich hoffe es geht dir ausgezeichnet. Ich schreibe dir diesen Brief, um dir zwei Vorschläge für einen gemeinsamen Urlaub mit mir zu machen. Unseren vorigen Gesprächen meine ich entnommen zu haben, dass du einen Strandurlaub oder einen Urlaub in den Bergen am <sic>passensten</sic> findest. Eine angenehme Berglandschaft biete<overwrite>
+        <under>t</under>
+
+        <over>n</over>
+      </overwrite> beispielsweise die <entity>Alpen</entity> oder das wundervolle <entity>Tirol</entity> als genaueres Ziel. Da ich <entity>Österreich</entity> aus eigener Erfahrung nicht so ansprechend finde, schlage ich auch noch den Kanton <entity>Graubünden</entity> in der <entity>Schweiz</entity> vor, in dem ich mich sehr wohl auskenne. Es ist Sommer und deswegen kann <correction>
+        <deletion>na</deletion>
+      </correction> man nicht Ski fahren gehen. Fahrradfahren oder wandern wäre eine mögliche Option, die Berge bestechen ja gerade durch ihre saubere und gesunde Luft! Du musst wissen, dass ein Urlaub in den Bergen immer mit viel Bewegung zu tun hat! Im <overwrite>
+        <under>g</under>
+
+        <over>G</over>
+      </overwrite>egenteil zu einem Urlaub am Meer, die Luft ist zwar dort auch äußerst wohltuend, aber <error>
+        <errorType />
+
+        <originalForm><over>S</over>alzhaltig</originalForm>
+
+        <targetForm>salzhaltig</targetForm>
+      </error>. Nun steht dort nicht die Be<hyphen>-</hyphen>wegung an erster Stelle, sich an den Strand legen und einfach nur braun <error>
+        <errorType />
+
+        <originalForm>weden</originalForm>
+
+        <targetForm>werden</targetForm>
+      </error>weden, ab und an joggen <correction>
+        <deletion>oder</deletion>
+      </correction> schwimmen oder Volleyball spielen ist angesagt. <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Zu empfehlen wäre meiner Meinung und Er<hyphen>-</hyphen>fahrung nach aber kein Küstengebiet am <entity>Mittelmeer</entity>. Dort sind meist zu viele Touristen, ein extremer Störfaktor! Daher schlage ich die <entity>Malediven</entity> vor, dort ist es sehr ruhig und erholsam, man kann tauchen und schnorcheln gehen, Fische gibt<correction>
+        <deletion>l</deletion>
+      </correction> es wie Sand am Strand.<par />Zusammenfassend kann man also sagen, dass ein Urlaub in den Bergen viel mit Bewegung zu tun hat und ein Urlaub am Meer meines Erachtens zur Erholung beiträgt.<par />Es wäre schön wenn du<correction>
+        <deletion>m</deletion>
+      </correction> mir schnell Antwort gibst, damit wir buchen können!<par /><closing>In Liebe, dein <entity>Bobo</entity> <emoticon>=)</emoticon></closing>        </exercise>
+  </body>
+</kolipsi_document>

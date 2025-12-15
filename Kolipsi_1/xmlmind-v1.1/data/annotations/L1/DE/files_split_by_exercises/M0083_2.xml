@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0083</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Hallo <entity>Julia</entity></greeting>,<par/>wie geht es dir? Ich habe mir ein paar Gedanken darüber gemacht, wo wir unseren gemeinsamen Urlaub verbringen können. Ich habe mir zwei schöne Orte rausgesucht, die dir mit Sicherheit gefallen werden. Es kommt halt drauf an, ob du lieber einen Urlaub in den Bergen machen würdest, oder doch lieber einen sonnigen Urlaub am Meer?!<par/>Einen Vorteil habe ich dir für den Urlaub am Meer ja schon genannt. Ich würde mich persönlich sehr über einen sonnigen Urlaub freuen.<par/>Schließlich haben wir beide doch bestimmt vor ganz braun zu werden, oder wie siehst du das?<par/>Das soll aber nicht heißen, dass ein Urlaub in den Bergen keine Vorteile hat, schließlich scheint dort auch oft die Sonne! Aber du müsstest dich halt entscheiden, ob du lieber <error>
+        <errorType/>
+
+        <originalForm>Ski-fahren </originalForm>
+
+        <targetForm>Ski fahren</targetForm>
+      </error><correction>
+        <deletion>möchtest</deletion>
+      </correction> , oder einfach nur faul in der Sonne <correction>
+        <deletion>zu</deletion>
+      </correction> liegen möchtest.<par/>Also dann schreib mir zurück, sobald du <error>
+        <errorType/>
+
+        <originalForm>bescheid</originalForm>
+
+        <targetForm>Bescheid</targetForm>
+      </error> weißt. Wenn du willst, kannst du dich ja auch noch ei<overwrite>
+        <under><unreadable/></under>
+
+        <over>n</over>
+      </overwrite>mal im Internet informieren.<par/>Denke bitte gut drüber nach, schließlich soll uns beiden der Urlaub Spaß machen, egal ob in der Sonne am Meer oder in den Bergen!<par/><closing>Bis bald, ich freue mich drauf!<par/><entity><par/>Tina</entity></closing>     </exercise>
+  </body>
+</kolipsi_document>

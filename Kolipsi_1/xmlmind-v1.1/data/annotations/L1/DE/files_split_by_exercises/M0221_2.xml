@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0221</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Lieber <entity>Anton</entity></greeting>,<par/><error>
+        <errorType/>
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> kann mich zwischen <error>
+        <errorType/>
+
+        <originalForm>meinenen</originalForm>
+
+        <targetForm>meinen</targetForm>
+      </error> Urlaubszielen nicht entscheiden. Zur Auswahl stehen für mich eine Berglandschaft und ein Meer. In den Bergen kann ich viele <sic>sportlichen</sic> Aktivitäten betrei<overwrite>
+        <under><unreadable/></under>
+
+        <over>b</over>
+      </overwrite>en und mich gut mit der Natur <error>
+        <errorType/>
+
+        <originalForm>ausseinandersetzen</originalForm>
+
+        <targetForm>auseinandersetzen</targetForm>
+      </error> und sie genießen. Am Meer jedoch ist es mehr ein Erholungs<hyphen>-</hyphen>ort bei dem es mir <sic>jeglich</sic> ums <error>
+        <errorType/>
+
+        <originalForm>enstpannen</originalForm>
+
+        <targetForm>Enstpannen</targetForm>
+      </error> geht. Ich würde in der Sonne liegen mich im Meer aufhalten und <correction>
+        <insertion>mich</insertion>
+      </correction> im Hotel aufhalten.<par/>Da ich <error>
+        <errorType/>
+
+        <originalForm>klettern</originalForm>
+
+        <targetForm>Klettern</targetForm>
+      </error> und Wandern in einem Urlaub nicht angebracht finde, gefällt mir persönlich das Meer mehr. Was ist deine Meinung?<par/><closing>Mit freundlichen Grüßen d<over>e</over>in <entity>Dieter</entity></closing>    </exercise>
+  </body>
+</kolipsi_document>

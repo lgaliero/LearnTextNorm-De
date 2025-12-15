@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0094</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hi <entity>Jenny</entity></greeting>,<par />ich hoffe dir geht es gut!? Mir auch. Also, letzte Woche ist wirklich etwas total <error>
+        <errorType />
+
+        <originalForm>lustiges</originalForm>
+
+        <targetForm>Lustiges</targetForm>
+      </error> passiert. Kennst du nicht auch noch <entity>Maria</entity>? Sie war letztes Jahr auch mit auf meiner Geburtstagsparty. Sie war letzte Woche einkaufen. Zuerst <correction>
+        <deletion><unreadable /></deletion>
+      </correction> beim Obsthändler. Sie hat dort alles gekauft, was man eben so braucht. Salat, Gurken und Obst. Sie hat ganz normal bezahlt und ihre Sachen in eine Tasche <correction>
+        <deletion>gep</deletion>
+      </correction> gepackt. Kurz darauf war <correction>
+        <deletion>sie</deletion>
+      </correction> sie in einem Supermarkt. Sie gibt nächste Woche eine große Party und <correction>
+        <deletion>wollte</deletion>
+      </correction> musste noch dringend einige <correction>
+        <deletion>Di<unreadable /></deletion>
+      </correction> Dinge kaufen. Sie hat gerade bezahlt und wollte <correction>
+        <deletion>sch</deletion>
+      </correction> schon all die Getränke und die vielen anderen Sachen in eine große Tüte packen, als sie von der <error>
+        <errorType />
+
+        <originalForm>Kassirerin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> plötzlich aufgehalten wurde. Sie stammelte wohl irgendetwas von versuchtem Diebstahl und hielt <entity>Maria</entity> fest, bis der Supermarktdetektiv vor Ort war. <entity>Maria</entity> erzählte mir, dass sie so überrascht gewesen sei, dass sie zuerst gar nichts sagen konnte. Erst nach einiger Zeit wurde ihr bewusst, weswegen sie von der Frau festgehalten worden war. Die Kassiererin hatte <correction>
+        <deletion>die</deletion>
+      </correction> das Obst &amp; Gemüse, <error>
+        <errorType />
+
+        <originalForm>dass</originalForm>
+
+        <targetForm>das</targetForm>
+      </error> <entity>Maria</entity> kurz <correction>
+        <deletion>bevor</deletion>
+      </correction> zuvor im Laden um die Ecke gekauft hat für Waren aus ihrem eigenen Supermarkt gehalten. <entity>Maria</entity> hat ewig gebraucht, um den Detektiv vom Gegenteil zu überzeugen. Also echt, diese Leute glauben wirklich keinem anderen <error>
+        <errorType />
+
+        <originalForm>ausser</originalForm>
+
+        <targetForm>außer</targetForm>
+      </error> sich selbst!<par />Aber letztendlich hat <entity>Maria es dann doch geschafft. Sie hat <error>
+          <errorType />
+
+          <originalForm>im</originalForm>
+
+          <targetForm>ihm</targetForm>
+        </error></entity> einfach den Bon aus dem Obstladen unter die <correction>
+        <deletion>S</deletion>
+      </correction> Nase <sic>halten</sic>. Da konnte selbst er nichts mehr dran ändern.<par />Die Kassiererin <correction>
+        <deletion>ko<unreadable /> te</deletion>
+      </correction> hat sich oft entschuldigt und <entity>Maria</entity> hat am Abend eine wirklich <correction>
+        <deletion><unreadable /></deletion>
+      </correction> gute Party gefeiert. Aber das war ja klar, dass das alles gut ausge<overwrite>
+        <under>t</under>
+
+        <over>h</over>
+      </overwrite>t.<par /><closing>Mit lieben Grüßen,<par />(ich hoffe wir sehen uns bald mal wieder)<par />deine<par /> <entity>XY</entity></closing>              </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo <entity>Jenny</entity></greeting>,<par />auch wenn wir uns schon seit unserem letzte<ambiguous>
+        <alternative>m</alternative>
+
+        <alternative>n</alternative>
+      </ambiguous> Brief nicht mehr gesehen haben, oder wahrscheinlich genau deshalb <correction>
+        <deletion><unreadable /></deletion>
+      </correction> freue ich mich schon riesig auf unseren gemeinsamen Urlaub im Sommer. Aber ein Problem gibt es noch. Fahren wir ans Meer oder in die Berge? Genießen wir am Strand die Sonne oder gehen wir lieber in schönen Tälern wandern? Oder sollen wir lieber schwimmen gehen, anstatt mal etwas <error>
+        <errorType />
+
+        <originalForm>neues</originalForm>
+
+        <targetForm>Neues</targetForm>
+      </error> auszuprobieren und vielleicht einmal klettern gehen? Ich kann mich immer noch nicht entscheiden. Ist es schöner die Abende am Wasser oder in einer schönen Berghütte ausklingen zu lassen. Was wäre dir <error>
+        <errorType />
+
+        <originalForm>den</originalForm>
+
+        <targetForm>denn</targetForm>
+      </error> lieber? Also, ich glau<over>b</over>e ich könnte mich <gap>_</gap> beid<over>e</over>m anfreunden. Aber inzwischen glaube ich es wäre viel schöner, sich, <emphasis>so richtig</emphasis> zu erholen. Also am besten gar nichts tun, außer braun werden &amp; am Strand liegen. Mal so richtig ab<hyphen>-</hyphen>schalten und alles mal so richtig verdrängen. Den ganzen öden Alltag. Letztes Jahr war i<overwrite>
+        <under>s</under>
+
+        <over>c</over>
+      </overwrite>h schon einmal am Meer. In <entity>Südfrankreich</entity>. Und ich kann nur sagen: <error>
+        <errorType />
+
+        <originalForm>es</originalForm>
+
+        <targetForm>Es</targetForm>
+      </error> lohnt sich wirklich. Nicht nur die Leute sind supernett, auch die Gegend ist wunderschön. Wir könnten ja trotzdem wandern oder einfach nur gemütlich am Strand spazieren gehen. Sag mir schnell <error>
+        <errorType />
+
+        <originalForm>bescheid</originalForm>
+
+        <targetForm>Bescheid</targetForm>
+      </error>, wenn du dich entschieden hast. Dann können wir so schnell wie möglich den Urlaub buchen.<par /><closing>Liebe Grüße <entity>XY</entity></closing> </exercise>
+  </body>
+</kolipsi_document>

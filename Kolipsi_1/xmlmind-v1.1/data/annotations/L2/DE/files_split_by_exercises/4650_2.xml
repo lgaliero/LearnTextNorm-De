@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>4650</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Julia</entity>! </greeting> <par/>Deine Idee in den Urlaub zu fahren ist super, aber wohin fahren wir? <error>
+        <errorType/>
+
+        <originalForm>wir</originalForm>
+
+        <targetForm>Wir</targetForm>
+      </error> haben zwei Wochen frei. Wenn wir in die Berge fahren ist es sehr ruhig, eine saubere <error>
+        <errorType/>
+
+        <originalForm>luft</originalForm>
+
+        <targetForm>Luft</targetForm>
+      </error>, und schöne Landschaften. Der Weg ist nicht lange, <correction>
+        <deletion><unreadable/></deletion>
+      </correction> da müssen wir nur drei <overwrite>
+        <over>S</over>
+
+        <under>s</under>
+      </overwrite>tunden fahren. <error>
+        <errorType/>
+
+        <originalForm>also</originalForm>
+
+        <targetForm>Also</targetForm>
+      </error> ist es nicht weit weg. Mein Großvater lebt dort, und wir könnten ihn fragen ob er uns ein Hotel oder eine Jugendherberge besorgt. Dort gibt es viele Gletscher und es ist echt wunderschön, mit den grünen Feldern. Aber wir könnten auch ans <overwrite>
+        <over>M</over>
+
+        <under>m</under>
+      </overwrite>eer fahren, es ist nicht zu warm, und die Sommersaison hat schon seit einem Monat angefangen, also sind viele <error>
+        <errorType/>
+
+        <originalForm>leute</originalForm>
+
+        <targetForm>Leute</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>di</originalForm>
+
+        <targetForm>die</targetForm>
+      </error> wir kennenlernen können. Ich bin dort schon oft gewesen, und der Spaß ist garantiert. Wir müssen zwar ein wenig länger fahren, aber es ist echt wunderschön. Schreib bitte zurück. <par/><closing>Liebe Grüße!</closing></exercise>
+  </body>
+</kolipsi_document>

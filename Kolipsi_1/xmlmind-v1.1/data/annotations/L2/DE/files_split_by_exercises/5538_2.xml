@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5538</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Kordula</entity>,</greeting> <par/>wie geht es dir?? Gehts mit <entity>Manuel</entity> alles gut? Hast du die <error>
+        <errorType/>
+
+        <originalForm>Führerschein Prüfung</originalForm>
+
+        <targetForm>Führerscheinprüfung</targetForm>
+      </error> schon <error>
+        <errorType/>
+
+        <originalForm>geschaft</originalForm>
+
+        <targetForm>geschafft</targetForm>
+      </error>? Es ist sehr wichtig für unsere gemeinsamen Urlaub. Mit einem Auto können wir in <entity>Spanien</entity> oder in <entity>Frankreich</entity> fahren. Und dann willst du lieber in die Berge oder lieber ans Mee<strikeover>
+        <expansion>e</expansion>
+
+        <expansion>r</expansion>
+      </strikeover> fahren? <palimpsest>In diesem Jahren ist</palimpsest> d<overwrite>
+        <over>er</over>
+
+        <under>ie</under>
+      </overwrite> Sommer sehr warm. Willst du frisch Luft oder ein <sic>eißes</sic> Strand? In die Berge können wir vielen Wanderungen in der Natur machen. <error>
+        <errorType/>
+
+        <originalForm>aber</originalForm>
+
+        <targetForm>Aber</targetForm>
+      </error> <palimpsest>im</palimpsest> Meer kannst du schwimmen. Dann in die Berge kannst du dich ausruhen, oder auf dem Strand kannst du viele Leuten kennenlernen. Wenn du in die Disco gehen willst, müssen wir in Hitze fahren. So, ich warte auf deine Antwort. <par/><closing>Herzliche Grüße <entity>Giuseppe</entity> </closing></exercise>
+  </body>
+</kolipsi_document>

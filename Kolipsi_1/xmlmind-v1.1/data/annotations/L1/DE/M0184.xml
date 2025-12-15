@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0184</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Johannes</entity></greeting>,<par />heute ist <correction>
+        <deletion>mir</deletion>
+      </correction> <correction>
+        <insertion><entity>Maria</entity></insertion>
+      </correction> etwas <error>
+        <errorType />
+
+        <originalForm>komisches</originalForm>
+
+        <targetForm>Komisches</targetForm>
+      </error> <overwrite>
+        <under>u</under>
+
+        <over>p</over>
+      </overwrite>assiert, <error>
+        <errorType />
+
+        <originalForm>wo von</originalForm>
+
+        <targetForm>wovon</targetForm>
+      </error> ich dir in dieser <error>
+        <errorType />
+
+        <originalForm>e-mail</originalForm>
+
+        <targetForm>E-Mail</targetForm>
+      </error> erzählen möchte.<par />Zuerst ging sie beim Obsthändler einkaufen: Salat, Mais, Kartoffeln etc.. Also alles, was sie brauchte. Ihre <correction>
+        <deletion><unreadable /></deletion>
+      </correction> bezahlten Lebensmittel lud sie in eine Umhängetasche. Eine Stunde später ging sie mit der <correction>
+        <insertion>vollen</insertion>
+      </correction> Umhängetasche in den Supermarkt um dort wei<over>t</over>ere Lebensmittel zu kaufen. Nac<over>h</over>dem sie a<over>l</over>les beisammen hatte, schritt sie zur Kasse und legte ihre Sachen auf das Fließband. So weit, so gut. Aber dann entdeckte di<over>e</over> <over>K</over>assiererin d<overwrite>
+        <under>ie</under>
+
+        <over>as</over>
+      </overwrite> Obst <correction>
+        <deletion>o</deletion>
+      </correction> und Gemüse in der Tasch<over>e</over> und dachte irrtümlic<over>h</over>, dass es sich d<overwrite>
+        <under><unreadable /></under>
+
+        <over>a</over>
+      </overwrite>bei um Sachen aus dem Supermarkt handelt und <entity>Maria</entity> diese klauen möchte.<par /><error>
+        <errorType />
+
+        <originalForm>Glücklicher Weise</originalForm>
+
+        <targetForm>Glücklicherweise</targetForm>
+      </error> hatte <entity>Maria</entity> noch den Kassenb<over>on</over> und das <correction>
+        <deletion>g</deletion>
+      </correction> Ganze konnte <correction>
+        <deletion>sich aufklären</deletion>
+      </correction> aufgeklärt werden.<par />Ich bin froh, dass <correction>
+        <deletion>ich</deletion>
+      </correction> <correction>
+        <insertion>mir</insertion>
+      </correction> so etwas noch nicht passiert ist, denn das <overwrite>
+        <under><unreadable /></under>
+
+        <over>w</over>
+      </overwrite>äre wirklich eine b<overwrite>
+        <under><unreadable /></under>
+
+        <over>l</over>
+      </overwrite><over>ö</over>de Situation. <correction>
+        <insertion>Ist dir schon einmal etwas Ähnliches <correction>
+            <deletion><unreadable /></deletion>
+          </correction> <error>
+            <errorType />
+
+            <originalForm>wiederfahren</originalForm>
+
+            <targetForm>widerfahren</targetForm>
+          </error>? Wäre <over>s</over>chön, wenn du b<overwrite>
+            <under><unreadable /></under>
+
+            <over>ald antworten könntest.</over>
+          </overwrite></insertion>
+      </correction><par /><closing>Bis dann,<par /><entity>S<overwrite>
+            <under><unreadable /></under>
+
+            <over>a</over>
+          </overwrite>nti  </entity></closing>             </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber <entity>Johannes</entity></greeting>,<par />Ich habe noch einmal über die Möglichkeiten für unseren gemeinsamen Urlaub <error>
+        <errorType />
+
+        <originalForm>nach geforscht</originalForm>
+
+        <targetForm>nachgeforscht</targetForm>
+      </error> und einige wunderschöne Ziele gefunden. Nun stellt sich nur noc<over>h</over> die Frage, was dir lieber ist: Berge oder Meer?<par />In den Bergen gibt es traumhafte Aussichten, was sic<over>h</over>erlich ein P<over>l</over>uspunkt ist. Außerdem kann man <correction>
+        <deletion>w</deletion>
+      </correction><correction>
+        <insertion>viel</insertion>
+      </correction> unternehmen, wie zum Beispiel Radfahren oder Wandern. Als ich das letzte Mal in den Bergen war, <correction>
+        <deletion>fü</deletion>
+      </correction> fuhren wir mit dem Rad zu einem See und picknickten dort. Für eine kleine Abkühlung <correction>
+        <deletion><unreadable /></deletion>
+      </correction> findet sich <overwrite>
+        <under>a</under>
+
+        <over>i</over>
+      </overwrite>n den Bergen immer auch <over>e</over>in See oder F<over>l</over>uss. <correction>
+        <insertion>Man kann dort die Natur mit ihren wunderbaren Landschaften genießen.</insertion>
+      </correction><par />Ein Mank<over>o</over> ist jedoch das wechselhafte Wetter, welches <correction>
+        <deletion>am</deletion>
+      </correction> im warmen Süden am Meer fast eine <error>
+        <errorType />
+
+        <originalForm>schön-Wetter-Garantie</originalForm>
+
+        <targetForm>Schönwettergarantie</targetForm>
+      </error> bietet.<par />Da <correction>
+        <deletion>waren</deletion>
+      </correction> <correction>
+        <insertion>hätten</insertion>
+      </correction> wir schon einen der Vorzüge des Meeres. Am Meer kann man besser entspannen und einfach mal <correction>
+        <deletion>die</deletion>
+      </correction> am Strand faul herumliegen. Allerdings kann man auch dort Ausflüge und Unternehmungen machen, wie beispielsweise einen der vielen (meist kleinen) Orte besuchen und dort <correction>
+        <deletion>s<unreadable /></deletion>
+      </correction> shoppen geh<over>e</over>n. Die Hauptattraktion <correction>
+        <insertion>an Küstenregionen</insertion>
+      </correction> ist <correction>
+        <deletion>dort</deletion>
+      </correction> aber das warme Meer, welches <overwrite>
+        <under>a</under>
+
+        <over>i</over>
+      </overwrite>m Gegensatz zu den Seen i<over>n</over> den Bergen <correction>
+        <insertion>aus</insertion>
+      </correction> Salzwasser besteht.<par />Letztendlich liegt die Ent<over>sche</over>idung bei dir. Schreib mi<over>r</over> einfach deine Antwort, sodass ich dir dann einige konkrete Angebote machen kann.<par /><closing>Liebe Grüße,<par /><par /><entity>Michael</entity></closing>               </exercise>
+  </body>
+</kolipsi_document>

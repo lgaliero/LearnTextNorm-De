@@ -1,0 +1,73 @@
+<body>
+ <page page_number="1" transcanno_page_id="256">
+  <paragraph class="medium-paragraph" tagcode="1590151031430">
+   <div>
+    1. Ich
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="möchte" tagcode="1553688948539">
+     müchte
+    </orth_error_id12>
+    ein
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1559297208152">
+     K***te
+    </tran_unreadable_id17>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="werden" tagcode="1590151031429">
+     wertedn
+    </orth_error_id12>
+    <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1556811446944" tran_alternative_1=":" tran_alternative_2=".">
+     :
+    </tran_ambiguous_id3>
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1590151031431">
+   <div>
+    2. Ich
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="möchte" tagcode="1553688955308">
+     müchte
+    </orth_error_id12>
+    ein Itelienis werden, eine
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Mathematik" tagcode="1553688942529">
+     Mattematich
+    </orth_error_id12>
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1590151031432">
+   <div>
+    3.
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1553688852340">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553688863132" tran_word_deletion_target="_#_">
+      ***
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1553688843839">
+     <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1589270181700" tran_foreign_word_language="Italian">
+      esere
+     </tran_foreign_word_id13>
+    </tran_word_insertion_id9>
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1589270140485" tran_foreign_word_language="Italian">
+     bravo
+    </tran_foreign_word_id13>
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1590151031433">
+   <div>
+    4.
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1553688849530">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553688865469" tran_word_deletion_target="_#_">
+      *
+     </tran_word_deletion_id8>
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553688868270" tran_word_deletion_target="_#_">
+      *
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1553688807332">
+     <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1589270110359" tran_foreign_word_language="Italian">
+      le
+     </tran_foreign_word_id13>
+     <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1589270115492" tran_foreign_word_language="Italian">
+      lingue
+     </tran_foreign_word_id13>
+    </tran_word_insertion_id9>
+   </div>
+  </paragraph>
+ </page>
+</body>

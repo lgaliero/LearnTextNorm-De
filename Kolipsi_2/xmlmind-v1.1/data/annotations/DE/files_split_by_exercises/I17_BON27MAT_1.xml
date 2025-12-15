@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I17_BON27MAT</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Liebe Anna,</greeting> wie geht es dir?<par/>Heute ist Maria einkaufen <error>
+        <errorType/>
+
+        <originalForm>gehgangen</originalForm>
+
+        <targetForm>gegangen</targetForm>
+      </error>. Sie ist in einem Obst- und Gemüseladen einkaufen <error>
+        <errorType/>
+
+        <originalForm>gehgangen</originalForm>
+
+        <targetForm>gegangen</targetForm>
+      </error>. Sie will heute <correction>
+        <deletion>a</deletion>
+
+        <insertion>A</insertion>
+      </correction>bend ein <correction>
+        <deletion>f</deletion>
+
+        <insertion>F</insertion>
+      </correction>est geben. Deswegen brauchte sie einige <error>
+        <errorType/>
+
+        <originalForm>sachen</originalForm>
+
+        <targetForm>Sachen</targetForm>
+      </error>. Wenn sie <correction>
+        <deletion>aber <unreadable/> fertig</deletion>
+      </correction> alles was sie brauchte genommen hat, ging sie zu der Kassa. Dort beza<correction>
+        <insertion>h</insertion>
+      </correction>lte sie alles. Sie <error>
+        <errorType/>
+
+        <originalForm>grüste</originalForm>
+
+        <targetForm>grüßte</targetForm>
+      </error> die Frau an der Kassa. Aber sie war <correction>
+        <deletion>foller <unreadable/></deletion>
+      </correction> voller Tasc<correction>
+        <insertion>h</insertion>
+      </correction>en und <correction>
+        <deletion>fer vergeste</deletion>
+
+        <insertion><error>
+            <errorType/>
+
+            <originalForm>vergies</originalForm>
+
+            <targetForm>vergiss</targetForm>
+          </error></insertion>
+      </correction> dem <error>
+        <errorType/>
+
+        <originalForm>Kassanzettel</originalForm>
+
+        <targetForm>Kassenzettel</targetForm>
+      </error>.<par/><correction>
+        <deletion>Sie brach die t Dann ging sie sp Sp</deletion>
+      </correction><par/>Später ging sie im Supermakt. Dort brauchte sie die <foreign_word foreign_language="Italiano"><error>
+          <errorType/>
+
+          <originalForm>Ingredienten</originalForm>
+
+          <targetForm>Ingredienti</targetForm>
+        </error></foreign_word> um einen Kuchen zu backen. Sie kaufte auch <error>
+        <errorType/>
+
+        <originalForm>Getrenke</originalForm>
+
+        <targetForm>Getränke</targetForm>
+      </error> und <correction>
+        <deletion>so p</deletion>
+
+        <insertion>P</insertion>
+      </correction>ommes. <correction>
+        <deletion>I</deletion>
+      </correction><par/>Ja, weil <correction>
+        <deletion>da</deletion>
+      </correction> beim <correction>
+        <deletion>f</deletion>
+
+        <insertion>F</insertion>
+      </correction>est werden auch einige Kinder kommen.<par/>Wann sie <correction>
+        <deletion>fe</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>vertig</originalForm>
+
+        <targetForm>fertig</targetForm>
+      </error> war <correction>
+        <deletion>gig</deletion>
+      </correction> ging sie zur Kassa um zu <correction>
+        <deletion>bezalen.</deletion>
+      </correction> bezahlen.<par/><correction>
+        <deletion>Aber dort war</deletion>
+      </correction> Sie gab der <correction>
+        <deletion>f</deletion>
+
+        <insertion>F</insertion>
+      </correction>rau alles was sie genommen <correction>
+        <deletion>hatte.</deletion>
+
+        <insertion>hat</insertion>
+      </correction>. Und behaltete die Tasche mit Obst und Gemüse, die sie <error>
+        <errorType/>
+
+        <originalForm>forher</originalForm>
+
+        <targetForm>vorher</targetForm>
+      </error> eingekauft <correction>
+        <deletion>hatte.</deletion>
+
+        <insertion>hat</insertion>
+      </correction>.<par/>Die <correction>
+        <deletion>Engesch <unreadable/> Angesch</deletion>
+      </correction> Angestelte <correction>
+        <deletion>sagte</deletion>
+      </correction> sagte <correction>
+        <deletion>dass sie</deletion>
+
+        <insertion>an</insertion>
+      </correction> Maria <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> sie auch die Gemüse bezahlen <error>
+        <errorType/>
+
+        <originalForm>solte</originalForm>
+
+        <targetForm>sollte</targetForm>
+      </error>.<par/>Aber Maria konnte nicht beweisen <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> es in einem anderem <error>
+        <errorType/>
+
+        <originalForm>Gescheft</originalForm>
+
+        <targetForm>Geschäft</targetForm>
+      </error> kaufte. Sie sagte <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> sie den Kassazettel verloren <correction>
+        <deletion>hate</deletion>
+      </correction> hat.<par/>Aber <correction>
+        <deletion>di<unreadable/></deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>gluklicherweise</originalForm>
+
+        <targetForm>glücklicherweise</targetForm>
+      </error> konnte Maria <correction>
+        <deletion>die</deletion>
+      </correction> eine Angestelte die sagte <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> sie nicht in ihren <error>
+        <errorType/>
+
+        <originalForm>Gescheft</originalForm>
+
+        <targetForm>Geschäft</targetForm>
+      </error>, Gemüse gekauft hat.<par/>Alles ist also gut geendet.<par/><closing>Liebe <error>
+          <errorType/>
+
+          <originalForm>Grüse</originalForm>
+
+          <targetForm>Grüße</targetForm>
+        </error>, ich <correction>
+          <deletion>höffe</deletion>
+        </correction> hoffe dich <correction>
+          <deletion>wider</deletion>
+        </correction> wieder zu hören.</closing><par/><correction>
+        <deletion>To<unreadable/></deletion>
+      </correction> Tobias</exercise>
+
+    
+  </body>
+</kolipsi_II_document>

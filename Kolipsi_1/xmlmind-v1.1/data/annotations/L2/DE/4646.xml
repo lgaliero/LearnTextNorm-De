@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>4646</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve">
+ <par />Morgen <entity>Maria</entity> ein Problem im Supermarkt gehattet.<par />Sie hat Obst und Gemüse in einem Obsthändler gekauft, und später war sie in <correction>
+        <deletion>einem</deletion>
+
+        <insertion>diesem</insertion>
+      </correction> Supermarkt.<par />An der Kasse, die Kassiere <correction>
+        <deletion>ha</deletion>
+      </correction> die Gemüse<correction>
+        <deletion>n</deletion>
+      </correction> gesehen hat und sie<par /><entity>Maria</entity> hat der Kassenzettel im <error>
+        <errorType />
+
+        <originalForm>Obsthandler</originalForm>
+
+        <targetForm>Obsthändler</targetForm>
+      </error> verlassen, <correction>
+        <deletion>und so</deletion>
+      </correction> sie hattet <correction>
+        <deletion>keine</deletion>
+
+        <insertion>seine</insertion>
+      </correction> <correction>
+        <deletion>Proben</deletion>
+
+        <insertion>Tasche</insertion>
+      </correction> <correction>
+        <deletion>für</deletion>
+
+        <insertion>für</insertion>
+      </correction> <correction>
+        <deletion>die</deletion>
+
+        <insertion>ein</insertion>
+      </correction> <correction>
+        <deletion>anderen</deletion>
+
+        <insertion>Kontroll gelassen</insertion>
+      </correction> .<par />Die Kassiere hat den <error>
+        <errorType />
+
+        <originalForm>Supermarkt Direktor</originalForm>
+
+        <targetForm>Supermarktdirektor </targetForm>
+      </error><gap>_</gap> gerufen, und sie haben <correction>
+        <deletion>ihre</deletion>
+
+        <insertion>seine</insertion>
+      </correction> Tasche kontrolliert.<par />Supermarkt hat nicht viele Gemüsen, und sie haben nicht viele Artikeln gefunden.<par /><entity>Maria</entity> war sehr schockiert, aber es ist <error>
+        <errorType />
+
+        <originalForm>Natürlich</originalForm>
+
+        <targetForm>natürlich</targetForm>
+      </error>, sie ist ni<overwrite>
+        <under><unreadable /></under>
+
+        <over>c</over>
+      </overwrite>ht ein Dieb.<par />Später sie keine andere Probleme gehattet, aber sie hat es gesagt: <direct_speech>"Ich muss eine neue Markt finden <correction>
+          <insertion>hier</insertion>
+        </correction> sie <correction>
+          <deletion>sind</deletion>
+        </correction> sehr <error>
+          <errorType />
+
+          <originalForm>Arrogant</originalForm>
+
+          <targetForm>arrogant</targetForm>
+        </error> sind"</direct_speech>. Es ist richtig, <entity>Maria</entity> hat richtig, aber es war nur ein Kontrol.<par />Was sagst du über diese Geschichte, es ist <error>
+        <errorType />
+
+        <originalForm>Unglaubig</originalForm>
+
+        <targetForm>unglaublich</targetForm>
+      </error>? Ok, <error>
+        <errorType />
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> muss gehen.<correction>
+        <deletion><unreadable /></deletion>
+      </correction><par /><closing>Tschüss</closing> </exercise>
+
+    <exercise number="2" xml:space="preserve">
+ <par /><greeting><error>
+          <errorType />
+
+          <originalForm>Hai</originalForm>
+
+          <targetForm>Hey</targetForm>
+        </error> <entity>Markus</entity> </greeting> <par />Ich habe zwei <sic>schönes</sic> Plätzchen für unsere <strikeover>
+        <expansion>u</expansion>
+
+        <expansion>U</expansion>
+      </strikeover><strikeover>
+        <expansion>r</expansion>
+
+        <expansion>l</expansion>
+      </strikeover>laub gefindet. Ich habe eine <sic>schönes</sic> Pension in die Berge und eine <error>
+        <errorType />
+
+        <originalForm>Gute</originalForm>
+
+        <targetForm>gute</targetForm>
+      </error> Stadt ans Meer, in <entity>Romagna</entity>.<par />Ich liebe die Berge<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>n</insertion>
+      </correction> nicht, du weißt, es ist <ambiguous>
+        <alternative>z</alternative>
+
+        <alternative>s</alternative>
+      </ambiguous>u <error>
+        <errorType />
+
+        <originalForm>Kalt</originalForm>
+
+        <targetForm>kalt</targetForm>
+      </error> für mir, und wir leben in <entity>Südtirol</entity>, du kennst...<par />Ich wollen am Meer gehen, im August es ist sehr warm und wir können neuen Freunden finden, das es ist sicher.<par />Ich weiß das Meer ist sehr chaotisch, aber du kennst<strikeover>
+        <expansion>:</expansion>
+
+        <expansion>;</expansion>
+      </strikeover> warm, blaue <error>
+        <errorType />
+
+        <originalForm>Wässer</originalForm>
+
+        <targetForm>Wasser</targetForm>
+      </error>, Meernahrung und so weiter.<par />Was willst du? Ein Urlaub in eine Pension, in die Berge, oder ein Urlaub in ein Camping ans Meer?<par />Ich weiß es nicht.<par />Ah, die <ambiguous>
+        <alternative>z</alternative>
+
+        <alternative>s</alternative>
+      </ambiguous>weite <error>
+        <errorType />
+
+        <originalForm>Opion</originalForm>
+
+        <targetForm>Option</targetForm>
+      </error> ist so teuer und du weißt es, aber es ist nicht ein Problem, richtig?<par />Ich habe eine Zettel prepariert, es ist mit diesen Brief.<par /> <closing>Tschüss <entity>Markus</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

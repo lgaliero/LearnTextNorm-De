@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5704</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve">Le<overwrite>
+        <over>tz</over>
+
+        <under>z</under>
+      </overwrite>tes Sommer <correction>
+        <deletion>ging</deletion>
+
+        <insertion>hatte</insertion>
+      </correction> ich <correction>
+        <deletion><unreadable/></deletion>
+      </correction> einen <error>
+        <errorType/>
+
+        <originalForm>Url<ambiguous>
+            <alternative>o</alternative>
+
+            <alternative>a</alternative>
+          </ambiguous>b</originalForm>
+
+        <targetForm>Urlaub</targetForm>
+      </error> am Meer gemacht und es war so schön, wunderbar, dort gehen. Es war so heiß, <correction>
+        <deletion>das</deletion>
+      </correction> die Sonne <sic>seinte</sic> und <error>
+        <errorType/>
+
+        <originalForm>währmte</originalForm>
+
+        <targetForm>wärmte</targetForm>
+      </error> unsere Körper und das Meer. Das Wasser war <overwrite>
+        <over>s</over>
+
+        <under>e</under>
+      </overwrite>o warm, so schön. <error>
+        <errorType/>
+
+        <originalForm><overwrite>
+            <over>e</over>
+
+            <under><unreadable/></under>
+          </overwrite>s</originalForm>
+
+        <targetForm>Es</targetForm>
+      </error> war auch durchsichtig. Man k<ambiguous>
+        <alternative>a</alternative>
+
+        <alternative>o</alternative>
+      </ambiguous>nn Sonnenuntergang am Wasser seh<correction>
+        <insertion>en</insertion>
+
+        <deletion>e</deletion>
+      </correction>, man kann Volleyball <overwrite>
+        <over>sp</over>
+
+        <under>shp</under>
+      </overwrite>ielen und dort können wir mit <error>
+        <errorType/>
+
+        <originalForm>bickin</originalForm>
+
+        <targetForm>Bikini</targetForm>
+      </error> spazieren ge<ambiguous>
+        <alternative>h</alternative>
+
+        <alternative>b</alternative>
+      </ambiguous>en, und so weiter…. Aber in den Bergen können wir ein <error>
+        <errorType/>
+
+        <originalForm>por</originalForm>
+
+        <targetForm>paar</targetForm>
+      </error> Sachen nicht <sic>mache</sic> was wir <correction>
+        <deletion>in</deletion>
+      </correction> zu <overwrite>
+        <over>M</over>
+
+        <under><unreadable/></under>
+      </overwrite>e<ambiguous>
+        <alternative>e</alternative>
+
+        <alternative>o</alternative>
+      </ambiguous>r machen. Die Bergen sind nur <error>
+        <errorType/>
+
+        <originalForm>steine</originalForm>
+
+        <targetForm>Steine</targetForm>
+      </error> und mir gefallen die Bergen <ambiguous>
+        <alternative>mich</alternative>
+
+        <alternative>nich</alternative>
+      </ambiguous> lieber würde i<overwrite>
+        <over>ch</over>
+
+        <under>ek</under>
+      </overwrite> ins <error>
+        <errorType/>
+
+        <originalForm>mehr</originalForm>
+
+        <targetForm>Meer</targetForm>
+      </error> gehen</exercise>
+  </body>
+</kolipsi_document>

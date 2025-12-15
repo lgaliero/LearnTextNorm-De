@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>6399</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Lieber <entity>Josef</entity>,</greeting> <par/>wie geht´s dir? Hast du schon Vorschläge für unsere Reise? Ich habe nicht gut verstanden, ob du ans Meer oder auf den Bergen fahren willst. Ich habe einige Vorschläge für diesen Sommerferien: <error>
+        <errorType/>
+
+        <originalForm>wir</originalForm>
+
+        <targetForm>Wir</targetForm>
+      </error> können zum Beispiel nach <entity>Apulien</entity> fahren. Ich kenne ein schönes Feriendorf mit Discos, <sic>Restauranten</sic> und Schwimmbad. Wenn wir ans Meer fahren, können wir viel schwimmen oder in dem Strand spielen. Aber es gibt wenige Möglichkeiten, um etwas zu besuchen. Du kannst aber bei mir in <entity>Südtirol</entity> kommen: <error>
+        <errorType/>
+
+        <originalForm>es</originalForm>
+
+        <targetForm>Es</targetForm>
+      </error> gibt viele Dinge zu sehen. In den Bergen können wir mit der Natur leben und viele kleine Reise machen: <error>
+        <errorType/>
+
+        <originalForm>wir</originalForm>
+
+        <targetForm>Wir</targetForm>
+      </error> können zum Beispiel nach <entity>Innsbruck</entity> oder nach <entity>Trient</entity> mit dem Zug fahren. Aber wir können auf dem Berg auch im Winter fahren. Das Meer ist schön nur im Sommer und wir haben nicht so viele Möglichkeiten, um es zu schauen. Ich möchte ans Meer fahren, weil ich viele schöne Erfahrungen habe: <error>
+        <errorType/>
+
+        <originalForm>als</originalForm>
+
+        <targetForm>Als</targetForm>
+      </error> ich klein war, bin ich jedes Jahr ans Meer mit meinem Eltern gefahren. Wenn du andere Vorschläge <error>
+        <errorType/>
+
+        <originalForm>hats</originalForm>
+
+        <targetForm>hast</targetForm>
+      </error>, kannst du einen anderen Brief schreiben. Ich warte auf deine Antwort. <par/><closing>Dein <entity>Davide</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

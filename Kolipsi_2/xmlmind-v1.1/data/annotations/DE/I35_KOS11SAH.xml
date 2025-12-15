@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I35_KOS11SAH</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve">An: Greta Bozen, 01.04.2015 Objekt: Geschichte von Maria<par /><greeting>Liebe Greta,</greeting><par />wie geht´s?  Ich <error>
+        <errorType />
+
+        <originalForm>höffe</originalForm>
+
+        <targetForm>hoffe</targetForm>
+      </error>, dass bei dir alles gut ist.<par />Ich schreibe dir um was an Maria passiert ist zu erzählen. Weißt du? Letzte Woche war meine Freundin Maria einkaufen. Zuerst kaufte sie in einem Obst- und Gemüseladen ein. Danach, eine Stunde später <correction>
+        <deletion>war</deletion>
+
+        <insertion>ist</insertion>
+      </correction> sie im Supermarkt gegangen; aber dort gab es ein Problem an der Kasse. Die Frau an der Kasse dachte dass Maria hatte <correction>
+        <deletion>die</deletion>
+      </correction> das <correction>
+        <deletion>Gem</deletion>
+      </correction> Obst und Gemüse <error>
+        <errorType />
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> und sie in ihrer Tasche geholen.<par />Maria erklärte der Frau die Situation, aber <correction>
+        <deletion>sie</deletion>
+
+        <insertion>diese</insertion>
+      </correction> traute Maria nicht, weil Maria keine Kassezettel hatte. Sie hatte es beim Gemüseladen verloren! Also die Frau sagte <correction>
+        <deletion>an</deletion>
+      </correction> Maria, dass sie die Gemüse einkaufen oder im Supermarkt lassen! Maria wollte nicht die Gemüse noch einmal einkaufen aber sie wollte sie nicht lassen. Wahrscheinlich hatte sie eine gute Idee: Sie <error>
+        <errorType />
+
+        <originalForm>lies</originalForm>
+
+        <targetForm>ließ</targetForm>
+      </error> die Gemüse im Supermarkt und ging im Obst- und <error>
+        <errorType />
+
+        <originalForm>Gemüselden</originalForm>
+
+        <targetForm>Gemüseladen</targetForm>
+      </error> zurück. Dort <correction>
+        <deletion><unreadable /></deletion>
+      </correction> hat sie den Zettel genommen und hat<correction>
+        <deletion>te</deletion>
+      </correction> es an der Frau gebracht.<par />Die Frau an der Kasse entschuldigte sich sehr. Am Ende konnte Maria nach Hause gehen!<par />Maria erzählte <correction>
+        <insertion>mir</insertion>
+      </correction> <correction>
+        <deletion>die</deletion>
+      </correction> ihre <error>
+        <errorType />
+
+        <originalForm>kömische</originalForm>
+
+        <targetForm>komische</targetForm>
+      </error> Geschichte und sagte mir dass ich <correction>
+        <deletion>dir</deletion>
+      </correction> dir erzählen solle. Dies ist alles!<par />Ich freue mich immer dir schreiben und ich <error>
+        <errorType />
+
+        <originalForm>höffe</originalForm>
+
+        <targetForm>hoffe</targetForm>
+      </error> dass du früh mir antwortest!<par /><closing>Mit freundlichen Grüßen.</closing><par />Sarah</exercise>
+
+    <exercise number="2" xml:space="preserve">E-Mail An: Paul Objekt: Antwort an <correction>
+        <deletion>s</deletion>
+      </correction> Ihre Brief der Zeitung "Junge Woche"<par /><greeting>Guten Tag Paul,</greeting><par /><error>
+        <errorType />
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> schreibe Ihnen um Ihr Brief zu antworten und eine Lösung Ihres Problems zu finden.<par />Also, ich finde dass virtuelle Freundschaften nicht ganz negative sind, aber man muss auch nicht sehr mit virtuelle Freunde <correction>
+        <deletion>un</deletion>
+      </correction> sich unterhalten. Ich glaube dass Sie können noch <comment>An dieser Stelle wird der Text abgebrochen</comment></exercise>
+  </body>
+</kolipsi_II_document>

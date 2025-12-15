@@ -1,0 +1,37 @@
+ID	state_of_data	exclusion_criterion
+M0001_1	complete, reference data not written in L1	reference data not written in L1
+M0007_1	complete, reference data not written in L1	reference data not written in L1
+M0008_1	complete, reference data not written in L1	reference data not written in L1
+M0009_1	complete, reference data not written in L1	reference data not written in L1
+M0010_1	no xml transcript, author_L1 info missing, reference data not written in L1	author L1 info missing
+M0011_1	complete, author_L1 info missing, reference data not written in L1	author L1 info missing
+M0023_1	complete, reference data not written in L1	reference data not written in L1
+M0025_1	no xml transcript, author_L1 info missing, reference data not written in L1	author L1 info missing
+M0033_1	complete, reference data not written in L1	reference data not written in L1
+M0058_1	complete, reference data not written in L1	reference data not written in L1
+M0065_1	complete, reference data not written in L1	reference data not written in L1
+M0066_1	complete, reference data not written in L1	reference data not written in L1
+M0087_1	complete, reference data not written in L1	reference data not written in L1
+M0088_1	complete, reference data not written in L1	reference data not written in L1
+M0159_1	complete, reference data not written in L1	reference data not written in L1
+M0213_1	complete, reference data not written in L1	reference data not written in L1
+M0220_1	complete, reference data not written in L1	reference data not written in L1
+M0224_1	complete, reference data not written in L1	reference data not written in L1
+M0001_2	complete, reference data not written in L1	reference data not written in L1
+M0007_2	complete, reference data not written in L1	reference data not written in L1
+M0008_2	complete, reference data not written in L1	reference data not written in L1
+M0009_2	complete, reference data not written in L1	reference data not written in L1
+M0010_2	no xml transcript, author_L1 info missing, reference data not written in L1	author L1 info missing
+M0011_2	complete, author_L1 info missing, reference data not written in L1	author L1 info missing
+M0023_2	complete, reference data not written in L1	reference data not written in L1
+M0025_2	no xml transcript, author_L1 info missing, reference data not written in L1	author L1 info missing
+M0033_2	complete, reference data not written in L1	reference data not written in L1
+M0058_2	complete, reference data not written in L1	reference data not written in L1
+M0065_2	complete, reference data not written in L1	reference data not written in L1
+M0066_2	complete, reference data not written in L1	reference data not written in L1
+M0087_2	complete, reference data not written in L1	reference data not written in L1
+M0088_2	complete, reference data not written in L1	reference data not written in L1
+M0159_2	complete, reference data not written in L1	reference data not written in L1
+M0213_2	complete, reference data not written in L1	reference data not written in L1
+M0220_2	complete, reference data not written in L1	reference data not written in L1
+M0224_2	complete, reference data not written in L1	reference data not written in L1

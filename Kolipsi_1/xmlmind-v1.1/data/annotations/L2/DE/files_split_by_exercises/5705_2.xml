@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5705</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Hallo <entity>Carlo</entity><par/></greeting>wie geht es dir? Mir ganz gut <ambiguous>
+        <alternative>danke</alternative>
+
+        <alternative>denke</alternative>
+      </ambiguous>, ich habe jetzt deine Briefe bekommt. Dein Pr<ambiguous>
+        <alternative>o</alternative>
+
+        <alternative>a</alternative>
+      </ambiguous>blem ist ein sehr wichtig <error>
+        <errorType/>
+
+        <originalForm>situazion</originalForm>
+
+        <targetForm>Situation</targetForm>
+      </error>. Die Bergen aber das Meer <error>
+        <errorType/>
+
+        <originalForm>entscheheiden</originalForm>
+
+        <targetForm>entscheiden</targetForm>
+      </error>. In dieser <error>
+        <errorType/>
+
+        <originalForm>sommer</originalForm>
+
+        <targetForm>Sommer</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>ween</originalForm>
+
+        <targetForm>wenn</targetForm>
+      </error> ich du wäre, gehe ich über ein Brief wenn letzten <error>
+        <errorType/>
+
+        <originalForm>sommer</originalForm>
+
+        <targetForm>Sommer</targetForm>
+      </error> an Meer würde, aber das <error>
+        <errorType/>
+
+        <originalForm>gegenteil</originalForm>
+
+        <targetForm>Gegenteil</targetForm>
+      </error>. Die Bergen sind sehr schöne <error>
+        <errorType/>
+
+        <originalForm>ween</originalForm>
+
+        <targetForm>wenn</targetForm>
+      </error> sehen <ambiguous>
+        <alternative>holdige</alternative>
+
+        <alternative>hololige</alternative>
+      </ambiguous> sein <error>
+        <errorType/>
+
+        <originalForm>scheit</originalForm>
+
+        <targetForm>scheint</targetForm>
+      </error> gar <ambiguous>
+        <alternative>immer</alternative>
+
+        <alternative>innee</alternative>
+      </ambiguous> die <error>
+        <errorType/>
+
+        <originalForm><ambiguous>
+            <alternative>sonne</alternative>
+
+            <alternative>sone</alternative>
+          </ambiguous></originalForm>
+
+        <targetForm>Sonne</targetForm>
+      </error> stehen sehr viele <error>
+        <errorType/>
+
+        <originalForm>pl<correction>
+            <insertion>ä</insertion>
+
+            <deletion>a</deletion>
+          </correction>tzen</originalForm>
+
+        <targetForm>Plätzen</targetForm>
+      </error> wo liegen sich um die Naturmusik zu hören. Die Bergen sind sehr ge<ambiguous>
+        <alternative>m</alternative>
+
+        <alternative>n</alternative>
+      </ambiguous>ütlich um einige <error>
+        <errorType/>
+
+        <originalForm>ruighe</originalForm>
+
+        <targetForm>ruhige</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>tage</originalForm>
+
+        <targetForm>Tage</targetForm>
+      </error> zu <ambiguous>
+        <alternative>verbringen</alternative>
+
+        <alternative>verbeirgen</alternative>
+      </ambiguous>. Das Meer ist sehr <error>
+        <errorType/>
+
+        <originalForm>wunderboor</originalForm>
+
+        <targetForm>wunderbar</targetForm>
+      </error> <unreadable/> schön. A<ambiguous>
+        <alternative>m</alternative>
+
+        <alternative>n</alternative>
+      </ambiguous> Meer <sic>könnst</sic> du Sonnen liegen neben <error>
+        <errorType/>
+
+        <originalForm>Meerwosser</originalForm>
+
+        <targetForm>Meerwasser</targetForm>
+      </error>. A<ambiguous>
+        <alternative>m</alternative>
+
+        <alternative>n</alternative>
+      </ambiguous>Meer ist ein <error>
+        <errorType/>
+
+        <originalForm>bischen</originalForm>
+
+        <targetForm>bisschen</targetForm>
+      </error> <correction>
+        <deletion>schwinnen</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>schwilig</originalForm>
+
+        <targetForm>schwierig</targetForm>
+      </error> um <error>
+        <errorType/>
+
+        <originalForm>gemultich</originalForm>
+
+        <targetForm>gemütlich</targetForm>
+      </error> <ambiguous>
+        <alternative>wechen</alternative>
+
+        <alternative>wochen</alternative>
+      </ambiguous>, schwimmen, laufen, <sic>sonnen</sic> liegen es ist sehr <unreadable/> <error>
+        <errorType/>
+
+        <originalForm>Fur</originalForm>
+
+        <targetForm>Für</targetForm>
+      </error> mich also wenn du <par/></exercise>
+  </body>
+</kolipsi_document>

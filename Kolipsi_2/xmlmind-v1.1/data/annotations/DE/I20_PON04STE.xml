@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I20_PON04STE</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo Martin</greeting><par /><correction>
+        <deletion>Heute wen ich</deletion>
+      </correction><par />Ich will dir etwas <correction>
+        <deletion>dass an</deletion>
+
+        <insertion>über</insertion>
+      </correction> Maria, eine Frau <correction>
+        <deletion>de</deletion>
+      </correction> ich kennen gelernt habe was heute <correction>
+        <deletion>is</deletion>
+      </correction> passiert hat.<par />Sie war bei einem <error>
+        <errorType />
+
+        <originalForm>Obst-Gemuseladen</originalForm>
+
+        <targetForm>Obst- Gemüseladen</targetForm>
+      </error> <correction>
+        <deletion>und</deletion>
+      </correction> weil <error>
+        <errorType />
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> wollte etwas kaufen. Sie ha<ambiguous>
+        <alternative>t</alternative>
+
+        <alternative>l</alternative>
+      </ambiguous>te ein paar Salat, Karotten, <error>
+        <errorType />
+
+        <originalForm>Pfirziche</originalForm>
+
+        <targetForm>Pfirsiche</targetForm>
+      </error> und Äpfel eingekauft. Ein bisschen später Maria ist beim Supermarkt gegangen weil sie <correction>
+        <deletion>hat</deletion>
+      </correction> musste ein paar mehrere Produkte einkaufen. Dort <correction>
+        <deletion><unreadable /></deletion>
+      </correction> hat sie Kaffee, Fleisch und Käsen fürs Abendessen.<par />Sie war <correction>
+        <deletion>d</deletion>
+      </correction> bei die Kasse wenn die Kassiererin <correction>
+        <deletion>sta</deletion>
+      </correction> fragte Maria weil sie <correction>
+        <deletion>ha<ambiguous>
+            <alternative>t</alternative>
+
+            <alternative>l</alternative>
+          </ambiguous>te</deletion>
+      </correction> in seiner Tasche Obst und <error>
+        <errorType />
+
+        <originalForm>Gemse</originalForm>
+
+        <targetForm>Gemüse</targetForm>
+      </error> hatte.<par /><correction>
+        <deletion>Sie</deletion>
+      </correction> Maria sagte sie dass es<error>
+        <errorType />
+
+        <originalForm>fruher</originalForm>
+
+        <targetForm>früher</targetForm>
+      </error> <correction>
+        <deletion>in</deletion>
+      </correction> bei<correction>
+        <deletion>n</deletion>
+      </correction> einer <error>
+        <errorType />
+
+        <originalForm>Obst-Gemüse<correction>
+            <deletion>e</deletion>
+          </correction>nladen</originalForm>
+
+        <targetForm>Obst- Gemüseladen</targetForm>
+      </error> ein paar <correction>
+        <deletion>Artikel</deletion>
+      </correction> Produkte gekauft <error>
+        <errorType />
+
+        <originalForm>wolte</originalForm>
+
+        <targetForm>wollte</targetForm>
+      </error>.<par />Am Ende die Kassiererin hat Maria geglaubt.</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo Paul</greeting> ich hatte deine <error>
+        <errorType />
+
+        <originalForm>e-mail</originalForm>
+
+        <targetForm>E-Mail</targetForm>
+      </error> gelesen und ich wollte du etwas sagen.<par />Ich denke dass <correction>
+        <deletion>du</deletion>
+      </correction> virtuelle Freunden sind nicht so gut weil du kann diese Personen nicht sehen, mit ihnen sprechen spielen oder ein <error>
+        <errorType />
+
+        <originalForm>Kaffe</originalForm>
+
+        <targetForm>Kaffee</targetForm>
+      </error> trinken. Sie sind nur Personen <correction>
+        <deletion>d</deletion>
+      </correction> wie dich, dass am Computer oder <correction>
+        <deletion>am</deletion>
+      </correction> beim Handy schreiben statt gehen hinaus am Park oder Zentrum.<par />Du <correction>
+        <deletion>kann</deletion>
+      </correction> sollst <error>
+        <errorType />
+
+        <originalForm>normalle</originalForm>
+
+        <targetForm>normale</targetForm>
+      </error> Freunde finden <error>
+        <errorType />
+
+        <originalForm>dene</originalForm>
+
+        <targetForm>deine</targetForm>
+      </error> Schulkollegen oder Jungen dass du kennst.<par />Ich denke dass Problem ist die <error>
+        <errorType />
+
+        <originalForm>Vewentung</originalForm>
+
+        <targetForm>Verwendung</targetForm>
+      </error> von Internet dass halte virtuelle Freunden und <error>
+        <errorType />
+
+        <originalForm>chatten</originalForm>
+
+        <targetForm>Chatten</targetForm>
+      </error> eingegebt.</exercise>
+  </body>
+</kolipsi_II_document>

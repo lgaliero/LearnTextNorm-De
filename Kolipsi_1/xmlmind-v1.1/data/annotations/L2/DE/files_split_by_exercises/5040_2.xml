@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5040</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><par/><correction>
+        <deletion>Hallo Freunde!</deletion>
+      </correction> <par/><correction>
+        <deletion>Hallo Lisa!</deletion>
+      </correction> <par/><greeting>Hallo <entity>Lisa</entity>!!</greeting> <par/>Wie geht <palimpsest> </palimpsest> es dir?? <par/>Dieses Sommer fahren wir nach <entity>Ibiza</entity> oder nach <entity>Cortina</entity>? Mit gefällt besser <entity>Ibiza</entity>, mit das Meer, mit die Strand, mit die warme Temperatur.</exercise>
+  </body>
+</kolipsi_document>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0061</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe <entity>Lisa</entity></greeting>,<par /><error>
+        <errorType />
+
+        <originalForm>Nach</originalForm>
+
+        <targetForm>nach</targetForm>
+      </error> langer Zeit, wollte ich <correction>
+        <deletion>dir</deletion>
+      </correction> <correction>
+        <deletion>die</deletion>
+      </correction> mich wieder bei dir melden, da wir lange keinen Kontakt mehr hatten. Wie geht es dir? Gibt es was zu erzählen?<par />Also bei mir schon, du weißt nicht, was ich letzte Woche im Supermarkt erlebt habe.<par />Ich wollte nur die üblichen Einkäufe<correction>
+        <deletion>n</deletion>
+      </correction> erledigen und habe eigentlich nicht mit irgendwelchen spannenden Aktionen gerechnet.<par />Ich sah eine junge Frau, die eine Tüte Obst mit sich trug, die sie wohl vorher beim Obst<hyphen>-</hyphen>händler gekauft haben muss.<par />Sie machte, wie die anderen Kunden ihre üblichen wöchentlichen Einkäufe. Ich hatte sie schon öftere Male im Supermarkt gesehen, doch letzte Woche <correction>
+        <deletion>viel</deletion>
+      </correction> <correction>
+        <insertion>fiel</insertion>
+      </correction> sie mir zum ersten Mal richtig auf.<par />Sie wollte gerade an der Kasse vorbei, da begann die Kassiererin, sich fürchterlich über die junge Dame aufzuregen. Ich verstand zunächst einmal nicht wieso. Die Angestellte wies die Frau auf ihre Obsttüte hin, die sie wohl angeblich nicht bezahlt habe. Trotz den mühevollen Erklärungen und Beteuerungen der Frau, rief die Kassiererin den Sicherheitsdienst und darauf folgte auch die Polizei. Die junge Dame erschien mir sichtlich überfordert mit der Gesamtsituation, also stand ich ihr zur Hilfe bei und bezeugte, dass sie die Obsttüte vom Obsthändler hatte und nicht vom Supermarkt. Nach einem langen Zeitraum voller Befragungen, ließen sie die junge Dame frei. Die arme Frau war völlig neben der Spur. Ich begleitete sie nach Hause und half ihr beim Tragen der Einkäufe. Du solltest sie auch mal kennenlernen! Ihr würdet euch sicher gut verstehen! <closing>Meld dich, <error>
+          <errorType />
+
+          <originalForm>Liebe</originalForm>
+
+          <targetForm>liebe</targetForm>
+        </error> Grüße, <entity>Nathalie</entity>!   </closing>     </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Lisa</entity></greeting>,<par /><error>
+        <errorType />
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> schreib dir diesen Brief aus <sic>folgenden</sic> Anlass: Unser Urlaub steht vor der Tür und wir haben immer noch nicht geplant wohin die Reise geht.<par />Es gibt mehrere Optionen zwischen denen wir wählen können. Die erste Möglichkeit wäre eine Reise in die Berge. Wir könnten wandern gehen durch die vielen Wälder, Dörfer besichtigen und wenn das Wetter stimmt könnten wir auch <error>
+        <errorType />
+
+        <originalForm>Campen</originalForm>
+
+        <targetForm>campen</targetForm>
+      </error>? Außerdem könnten wir klettern gehen!<par />Eine mögliche Alternative wäre ein Urlaub am Meer! Wir könnten jeden Tag schwimmen gehen, Tauchkurse belegen und Bootsfahrten machen. Außerdem ist es dort so gut wie immer schönes Wetter und viel Sonne, die uns sicher ganz gut tun würde. Das Hotel wäre ganz in der Nähe und wir könnten zu <error>
+        <errorType />
+
+        <originalForm>fuß</originalForm>
+
+        <targetForm>Fuß</targetForm>
+      </error> zum Strand!<par />Meiner Meinung nach, sollten wir den Strandurlaub buchen, ich habe schließlich schon letztes Jahr meinen Urlaub am Strand gemacht und jede Minute genossen. Es gab so viele Möglichkeiten und Attraktionen!<par />Du hast die freie Wahl, ich habe meine per<hyphen>-</hyphen>sönliche Meinung abgegeben und freue mich schon, deine <error>
+        <errorType />
+
+        <originalForm>zuhören</originalForm>
+
+        <targetForm>zu hören</targetForm>
+      </error>.<par />Entweder <error>
+        <errorType />
+
+        <originalForm>Wander-<ambiguous>
+            <alternative>u</alternative>
+
+            <alternative>U</alternative>
+          </ambiguous>rlaub</originalForm>
+
+        <targetForm>Wanderurlaub</targetForm>
+      </error> in den Bergen oder Tauch<hyphen>-</hyphen>urlaub am Meer! Ich bitte um möglichst schnelle Antwort.<par /><closing>Viele Grüße,<par /><par /><entity>Nathalie</entity></closing>    </exercise>
+  </body>
+</kolipsi_document>

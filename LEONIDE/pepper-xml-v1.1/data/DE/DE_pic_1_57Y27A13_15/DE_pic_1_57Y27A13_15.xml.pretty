@@ -1,0 +1,48 @@
+<body>
+ <page page_number="1" transcanno_page_id="245">
+  <paragraph class="medium-paragraph" tagcode="1553682597574">
+   <div>
+    Es war Feuer ins Haus von
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553682514727" tran_correction_original="Piero">
+     Pierino
+    </tran_word_correction_id25>
+    , also seinen Opa
+   </div>
+   <div>
+    nimmt alle seine
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Sachen" tagcode="1553682501532">
+     sachen
+    </orth_error_id12>
+    und liegt sie ins Garten.
+   </div>
+   <div>
+    Pierino
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="hatte" tagcode="1553682540892">
+     hate
+    </orth_error_id12>
+    ein 5 bekommen im ein Diktat so
+   </div>
+   <div>
+    gang er
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553682559209" tran_word_deletion_target="_#_">
+     <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1553682557282">
+      *
+     </tran_unreadable_id17>
+    </tran_word_deletion_id8>
+    am Fenster des Hauses und warf
+   </div>
+   <div>
+    sein Diktat ins Feuer. Als seinen Opa
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="wusste" tagcode="1553682597573">
+     wuste
+    </orth_error_id12>
+   </div>
+   <div>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="dass" tagcode="1553682593094">
+     das
+    </orth_error_id12>
+    Pierino ein bekommen hat.
+   </div>
+  </paragraph>
+ </page>
+</body>

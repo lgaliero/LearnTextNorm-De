@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I36_PLA22LEA</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo <correction>
+          <deletion>Maike</deletion>
+
+          <insertion>Klothilde</insertion>
+        </correction>;</greeting> ich muss dir etwas erzählen: Meine Freundin Maria war letzte Woche beim Obsthändler und im Supermarkt einkaufen, jedoch passierte ihr dabei ein Missgeschick.<par />Beim Obsthändler hat Maria verschiedenes Obst und Brot gekauft. <correction>
+        <deletion>Je<unreadable /></deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>Unglücklicherweiße</originalForm>
+
+        <targetForm>Unglücklicherweise</targetForm>
+      </error> hat die den Kass<correction>
+        <deletion>a</deletion>
+
+        <insertion>e</insertion>
+      </correction>n<hyphen>-</hyphen>zettel dort vergessen. <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Auch im Supermarkt kaufte sie diverse Lebensmittel ein, so zum Beispiel Milch, Cornflakes, Mais und Nudel. Natürlich gab es im Supermarkt auch Brot aber da Maria dies schon im vorherigen Geschäft gekauft hatte, ging sie an diesem vorbei.<par />An der Kasse jedoch <correction>
+        <deletion>ereignete</deletion>
+      </correction> gab es das Problem. Die Verkäuferin glaubte, dass Maria das Brot, welches sie bereits zuvor gekauft hatte und in ihre Tasche gegeben hatte, gestohlen hätte. Maria verneinte dies und darauf<hyphen>-</hyphen>hin wollte die Verkäuferin den Kassenzettel sehen. Erst jetzt fiel Maria auf, dass sie diesen vergessen hatte. So musste sie im Obstladen anrufen <correction>
+        <deletion>und d</deletion>
+      </correction> um der Ver<hyphen>-</hyphen>käuferin bestätigen zu können, dass sie das Brot nicht gestohlen, sondern in einem anderen Laden gekauft hatte. Natürlich war Maria nach diesem Vorfall ziemlich verwirrt und wahrscheinlich wird sie <correction>
+        <deletion>ab jet</deletion>
+      </correction> von nun an nie mehr den Kassenzettel vergessen.<par />Abschließend hoffe ich, dass es dir gut geht und wir uns bald wieder sehen werden.<par /><closing>Bis dann<par />und <error>
+          <errorType />
+
+          <originalForm>Liebe</originalForm>
+
+          <targetForm>liebe</targetForm>
+        </error> Grüße,</closing><par />deine <emphasis>Liselotte</emphasis> <image>lächelndes Frauengesicht</image></exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Guten Abend <correction>
+          <deletion>Marie-Louise,</deletion>
+        </correction> Paul,</greeting><par />ich habe gerade deinen Brief gelesen, der mich sehr zum Nachdenken bewegt hat. Auch ich habe bereits ähnliche Erfahrungen mit dem Internet gemacht und deshalb habe ich beschlossen, dir zu schreiben. Vor zwei Jahren habe ich mich in meiner Gesellschaft <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Umgebung als Außenseiter gefühlt, deshalb habe ich begonnen, mich im Internet mit fremden Personen zu unterhalten. Ein <correction>
+        <deletion>Mä</deletion>
+      </correction> Junge wuchs mir mit seiner fröhlichen und liebevollen Art besonders ans Herz. Natürlich habe ich mir <correction>
+        <deletion>auch</deletion>
+      </correction> ähnliche Gedanken <correction>
+        <insertion>wie du</insertion>
+      </correction> gemacht, aber im Endeffekt siegte meine Neugierde. Ich wollte den Jungen unbedingt kennenlernen und so vereinbarten wir ein Treffen. <correction>
+        <deletion>Wa</deletion>
+      </correction> Jedem, der eine solche Entscheidung trifft, würde ich aber raten, <correction>
+        <deletion>au</deletion>
+      </correction> beim Treffen auf jeden Fall eine Freundin oder einen Freund mitzunehmen, denn man weiß nie <correction>
+        <deletion>ob</deletion>
+
+        <insertion>wer</insertion>
+      </correction> sich hinter der Person aus dem Internet versteckt. Mittlerweile bin ich seit mehr als einem Jahr mit diesem Jungen zusammen und ich bin jeden Tag von Neuem froh, dass es das Internet gibt. Ich finde es nicht schlimm, dass sich "Außen<hyphen>-</hyphen>seiter" andersweitig Freunde suchen und wie man sieht kann daraus auch Liebe werden.<par />Deshalb würde ich dir raten, die virtuelle Freundschaft weiterzuführen, auch wenn dir dies unnatürlich er<hyphen>-</hyphen>scheint. Sei aber vorsichtig wie viel und vor allem was du von dir <error>
+        <errorType />
+
+        <originalForm>Preis gibst</originalForm>
+
+        <targetForm>preisgibst</targetForm>
+      </error>. Auch Stalker und Kinder<hyphen>-</hyphen>schändler suchen im Internet nach ihrem Glück, also sei immer wachsam. Falls du dich mit jemanden treffen willst, geh auf keinen Fall alleine dahin, aber scheue dich trotzdem nicht vor einem eventuellen Treffen. Ich hoffe ich konnte dir helfen und wünsche dir noch weiterhin viel Glück auf deinem Lebensweg.<par /><closing>Mit freundlichen Grüßen</closing><par />Adelheid <emoticon>:)</emoticon><par /><image>Ein Junge, ein Mädchen und dazwischen ein Herz und daneben die Beschreibung "mein Freund Ferdinand und ich :) und das Datum 20.10.1999 ;)</image></exercise>
+  </body>
+</kolipsi_II_document>

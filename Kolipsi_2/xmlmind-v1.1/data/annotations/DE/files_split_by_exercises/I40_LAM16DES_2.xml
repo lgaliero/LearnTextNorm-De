@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I40_LAM16DES</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting><correction>
+          <insertion>Lieber Paul,</insertion>
+        </correction></greeting><par/><error>
+        <errorType/>
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> denke, dass die virtuelle Freundschaften nicht so richtig sind. Ich habe auch in Internet gechattet, wie du. Die Freundschaften, in Internet sind nicht wahren! Ich liebe die Freundschaften, dass nicht virtuelle sind. Ist schön, wenn du eine Freund immer sehen konnte.<par/>2 Jahren später, habe ich <correction>
+        <insertion>mit</insertion>
+      </correction> einem Jung in Internet gechattet. Er war sehr nett, aber wenn ich er gesehen ha<correction>
+        <deletion>t</deletion>
+
+        <insertion>b</insertion>
+      </correction>e, ich habe: "Na, bitte!" gesagt.<par/><closing>Liebe Grüße</closing><par/>Mädchen</exercise>
+  </body>
+</kolipsi_II_document>

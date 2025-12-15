@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0109</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Lieber <entity>Harald</entity></greeting>,<par/>kannst du dir vorstellen was <entity>Maria</entity> passiert ist?<par/>Sie war gest<overwrite>
+        <under><unreadable/></under>
+
+        <over>e</over>
+      </overwrite>rn einkaufen, erst beim Obst- und Gemüseladen und danach noch im Supermarkt. Als sie nun im Supermarkt alle <error>
+        <errorType/>
+
+        <originalForm>waren</originalForm>
+
+        <targetForm>Waren</targetForm>
+      </error> im Korb hatte und an der Kasse bezahlen wollte, hat die Kassi<overwrite>
+        <under><unreadable/></under>
+
+        <over>e</over>
+      </overwrite>rerin <correction>
+        <deletion>di<unreadable/></deletion>
+      </correction> <correction>
+        <deletion><unreadable/></deletion>
+      </correction> das Gemüse aus ihrer Tasche gucken sehen und dachte natürlich, dass <entity>Maria</entity> das geklaut hätte, was natürlich nicht stimmte. Dummerweise hatte sie die Quittung beim vorherigen Einkauf vergessen und deswegen <overwrite>
+        <under><unreadable/></under>
+
+        <over>g</over>
+      </overwrite>ab es <gap>_</gap> lange Diskussion mit der Verkäuferin. <correction>
+        <deletion>Das ist doch unglaublich, oder?</deletion>
+      </correction><par/><correction>
+        <deletion>Dein Fred</deletion>
+      </correction><par/>Diese wollte natürlich, dass <entity>Maria</entity> jetzt die Sachen bezahlt, die sie <overwrite>
+        <under><unreadable/></under>
+
+        <over>a</over>
+      </overwrite>ngeblich mitgehen lassen wollte. <entity><overwrite>
+          <under>S</under>
+
+          <over>M</over>
+        </overwrite>aria</entity> hat zwar versucht die Kassiererin zu überzeugen, <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> sie <correction>
+        <deletion>die</deletion>
+      </correction> das <correction>
+        <deletion>S</deletion>
+      </correction> Gemüse woanders gekauft hatte, aber das wurde ihr nicht geglaubt. Später kam auch noch der Filialleiter dazu un<over>d</over> der Ärger schien kein Ende zu nehmen, glücklicherweise kam in dem Moment die Kassiererin aus dem Obst- und Gemüse<hyphen>-</hyphen>laden vorbei und hat die Situation geklärt<overwrite>
+        <under>,</under>
+
+        <over>.</over>
+      </overwrite> <correction>
+        <deletion>sodass sie</deletion>
+      </correction> Unglaublich, oder? Ich hoffe <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> mir sowas nie passieren wird.<par/><closing>Dein<par/><entity>Fred</entity></closing></exercise>
+
+    
+  </body>
+</kolipsi_document>

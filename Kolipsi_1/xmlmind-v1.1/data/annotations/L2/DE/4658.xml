@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>4658</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><par /><greeting>Liebe <entity>Hanna</entity>,</greeting> <par />letzte Woche war meine Freundin <entity>Maria</entity> einkaufen und ihr ist etwas sehr <error>
+        <errorType />
+
+        <originalForm>seltsames</originalForm>
+
+        <targetForm>Seltsames</targetForm>
+      </error> passiert. Zuerst ging sie in einem Obst- und Gemüseladen. Sie kaufte <overwrite>
+        <under><unreadable /></under>
+
+        <over>f</over>
+      </overwrite>risches Salat, ein paar Karotten, Erd<hyphen>-</hyphen>kartoffeln, ein Kilo Äpfel und anderes Obst. Als sie <error>
+        <errorType />
+
+        <originalForm>vertig</originalForm>
+
+        <targetForm>fertig</targetForm>
+      </error> eingekauft hat, ging sie zur Kasse und bezahlte alles was sie gekauft hatte. Sie legte die Sachen in ihrer Handtasche und verließ das Geschäft. Als sie im e<palimpsest>rs</palimpsest>ten Laden <error>
+        <errorType />
+
+        <originalForm>vertig</originalForm>
+
+        <targetForm>fertig</targetForm>
+      </error> war, ging sie im <foreign_word foreign_language="Italiano">Supermarket</foreign_word> um weiter einzukaufen. Dort kaufte sie Salz, Pasta, Waschmittel, ein Leib Brot, <error>
+        <errorType />
+
+        <originalForm>Kaffe</originalForm>
+
+        <targetForm>Kaffee</targetForm>
+      </error>, Kekse, Butter, Eier, Milch, Wein, und andere wichtige <palimpsest>Lebensmittel</palimpsest> ein. Sie legte alles im Ein<hyphen>-</hyphen>kaufswagen hinein und ging zur Kasse. Sie legte alles auf der Kasse und bezahlte. Aber die Kassiererin bemerkte dass die Fr<palimpsest>a</palimpsest>u einige Lebensmittel in der Handtasche hatte und wollte das<palimpsest>s sie</palimpsest> die Frau auch bezahlte. Aber <entity>Maria</entity> wollte beweisen dass sie diese Sachen in einen anderen Laden ge<palimpsest>k</palimpsest>auft hat und wollte ihr den Kassenzettel zeigen, aber sie konnte das nicht, weil sie den Zettel im Gemüseladen vergessen hatte. Also ging sie im Laden zurück, holte den Zettel und zeigte ihn der <error>
+        <errorType />
+
+        <originalForm>Kassierin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error>. Dann konnte sie endlich heimgehen. Es war ein peinlicher Tag stimmt es?<par /><palimpsest> </palimpsest></exercise>
+
+    <exercise number="2" xml:space="preserve"><par /><greeting>Liebe <entity>Giorgia</entity>,</greeting> <par />ich möchte dir erzählen wo du einmal in Urlaub gehen kannst. Die <error>
+        <errorType />
+
+        <originalForm>Unters<overwrite>
+            <under>h</under>
+
+            <over>c</over>
+          </overwrite>hide</originalForm>
+
+        <targetForm>Unterschiede</targetForm>
+      </error> und Gemeinsamkeiten <correction>
+        <deletion>w</deletion>
+
+        <insertion>v</insertion>
+      </correction>on den Bergen und vom Meer. <error>
+        <errorType />
+
+        <originalForm>Sowol</originalForm>
+
+        <targetForm>Sowohl</targetForm>
+      </error> ans Meer als auch in den Bergen gibt es eine besondere Luft. In beiden Orten kannst du dich gut entspannen<sic>,</sic> Am Meer und auch in den Bergen kannst du Sonne liegen, aber ans Meer kannst du auch ans Strand gehen und s<correction>
+        <deletion>w</deletion>
+
+        <insertion>ch</insertion>
+      </correction>wimmen, <error>
+        <errorType />
+
+        <originalForm>währen</originalForm>
+
+        <targetForm>während</targetForm>
+      </error> in den Bergen kannst du klettern. In den Bergen sieht man ein schönes Panorama und man kann auch in einem Bauernhof wohnen, man kann auch lange <error>
+        <errorType />
+
+        <originalForm>Spatzie<overwrite>
+            <under><unreadable /></under>
+
+            <over>r</over>
+          </overwrite>gänge</originalForm>
+
+        <targetForm>Spaziergänge</targetForm>
+      </error> mit Pferde machen. <sic>In</sic> Winter kann man auch <error>
+        <errorType />
+
+        <originalForm>Skilaufen</originalForm>
+
+        <targetForm>Ski laufen</targetForm>
+      </error> oder Snowboarden fahren. Man kann auch <sic>ander</sic> See gehen und mit einem Schiff fahren oder fischen. Ans Meer kannst du ein Bungalow mieten und viele andere<correction>
+        <deletion>n</deletion>
+      </correction> Tätigkeiten machen. Man kann auch surfen. Oder am Abend lange <error>
+        <errorType />
+
+        <originalForm>Spatziergänge</originalForm>
+
+        <targetForm>Spaziergänge</targetForm>
+      </error> <sic>dem</sic> <error>
+        <errorType />
+
+        <originalForm>Strandlang</originalForm>
+
+        <targetForm>Strand lang</targetForm>
+      </error> machen.</exercise>
+  </body>
+</kolipsi_document>

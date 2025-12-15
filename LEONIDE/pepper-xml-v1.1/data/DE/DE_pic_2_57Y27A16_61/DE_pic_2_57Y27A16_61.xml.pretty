@@ -1,0 +1,99 @@
+<body>
+ <page page_number="1" transcanno_page_id="1105">
+  <paragraph class="medium-paragraph" tagcode="1556718486255">
+   <div>
+    1) Zwei Freundin sind in ein Nacht
+   </div>
+   <div>
+    im Wald gehen. Auf
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="einmal " tagcode="1553504239297">
+     ein mal
+    </orth_error_id12>
+    sie
+   </div>
+   <div>
+    hören
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Gelächter" tagcode="1553504291859">
+     <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553504315459" tran_correction_original="Gelechter">
+      Gälächter
+     </tran_word_correction_id25>
+    </orth_error_id12>
+    <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1556717336353" tran_alternative_1="." tran_alternative_2=",">
+     .
+    </tran_ambiguous_id3>
+    Die
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Gelächter" tagcode="1553504346555">
+     Gelachter
+    </orth_error_id12>
+    kommen
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1553504380366">
+     aus eine
+     <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553504389235" tran_correction_original="Grott*">
+      Grotte.
+     </tran_word_correction_id25>
+    </tran_word_insertion_id9>
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1556718486257">
+   <div>
+    2) Sie
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="verstecken" tagcode="1553504465605">
+     ferstechen
+    </orth_error_id12>
+    auf ein Baum.
+   </div>
+   <div>
+    Sie haben
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Angst" tagcode="1553504416128">
+     angst
+    </orth_error_id12>
+    .
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1556718486259">
+   <div>
+    3) Mit der Lampe sie scharfen in
+   </div>
+   <div>
+    der
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553504536691" tran_word_deletion_target="_#_">
+     <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1553504533879">
+      grott*
+     </tran_unreadable_id17>
+    </tran_word_deletion_id8>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1553504530707">
+     Grotte
+    </tran_word_insertion_id9>
+    .
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1553504540236">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553504542427" tran_word_deletion_target="_#_">
+      *
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1556718486261">
+   <div>
+    4) In der Grotte waren 2
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Brüder" tagcode="1553504569550">
+     bruder
+    </orth_error_id12>
+   </div>
+   <div>
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1553504589250">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553504602861" tran_word_deletion_target="_#_">
+      *
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+    Sie haben
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="die" tagcode="1556718486252">
+     di
+    </orth_error_id12>
+    Freundin ein Scherz
+   </div>
+   <div>
+    gemacht .
+   </div>
+  </paragraph>
+ </page>
+</body>

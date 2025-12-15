@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I02_MAR16NAR</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><correction>
+        <deletion><unreadable/> Hallo Paul</deletion>
+      </correction><par/><greeting>Liebe Paul,</greeting><par/><correction>
+        <deletion>Ich</deletion>
+      </correction> ich schreibe dich, weil deinen <error>
+        <errorType/>
+
+        <originalForm>email</originalForm>
+
+        <targetForm>E-Mail</targetForm>
+      </error> <correction>
+        <insertion>in einem Zeitung</insertion>
+      </correction> gelesen habe. Ich an deiner Stelle würde ein Sport praktizieren, <correction>
+        <deletion><unreadable/></deletion>
+      </correction> so kannst du neuen Freund machen und kannst du auch dir <correction>
+        <deletion><unreadable/></deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>spass</originalForm>
+
+        <targetForm>Spaß</targetForm>
+      </error> machen. <correction>
+        <deletion>Ich spiele</deletion>
+      </correction> Zum <correction>
+        <deletion>Bei</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>beispiel</originalForm>
+
+        <targetForm>Beispiel</targetForm>
+      </error> <correction>
+        <deletion><unreadable/></deletion>
+      </correction> ich spiele <correction>
+        <deletion>f</deletion>
+      </correction> Fußball und habe <correction>
+        <deletion><unreadable/></deletion>
+      </correction> ich <correction>
+        <insertion>mehre</insertion>
+
+        <deletion><unreadable/></deletion>
+      </correction> Freunde als am <correction>
+        <deletion>A</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>anfang</originalForm>
+
+        <targetForm>Anfang</targetForm>
+      </error>. Das ist meine Rat.<par/>Ich denke <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> virtuelle Freundschaften sind nicht eine gute <correction>
+        <deletion><unreadable/></deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>sache</originalForm>
+
+        <targetForm>Sache</targetForm>
+      </error> <correction>
+        <deletion><unreadable/></deletion>
+      </correction> für dich. Ich empfehle dir die Nummern aller Personen <error>
+        <errorType/>
+
+        <originalForm>nich</originalForm>
+
+        <targetForm>nicht</targetForm>
+      </error> löschen. <correction>
+        <deletion>Ruf</deletion>
+      </correction> Du kannst deinen Freunden mit dem Handy <error>
+        <errorType/>
+
+        <originalForm>Rufen</originalForm>
+
+        <targetForm>rufen</targetForm>
+      </error> <correction>
+        <deletion><unreadable/></deletion>
+      </correction> zum <error>
+        <errorType/>
+
+        <originalForm>Kafé trinken</originalForm>
+
+        <targetForm>Kaffeetrinken</targetForm>
+      </error> oder ein Sport machen. Das wird dir sehr <error>
+        <errorType/>
+
+        <originalForm>spass</originalForm>
+
+        <targetForm>Spaß</targetForm>
+      </error> machen.<par/>Du hat viele Freunden weil sie wollen wissen <correction>
+        <deletion><unreadable/></deletion>
+      </correction> über dich. Du kannst auch mit Facebook <correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>mit</insertion>
+      </correction> deiner Freunden <error>
+        <errorType/>
+
+        <originalForm>Chatten</originalForm>
+
+        <targetForm>chatten</targetForm>
+      </error>.<par/><closing>Ich warte <correction>
+          <deletion><unreadable/></deletion>
+        </correction> an deiner <error>
+          <errorType/>
+
+          <originalForm>antwort</originalForm>
+
+          <targetForm>Antwort</targetForm>
+        </error>.<par/>Bis bald,</closing> Nohiqim</exercise>
+  </body>
+</kolipsi_II_document>

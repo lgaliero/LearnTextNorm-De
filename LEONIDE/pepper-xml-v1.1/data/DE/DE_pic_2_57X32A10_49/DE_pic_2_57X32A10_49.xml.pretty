@@ -1,0 +1,94 @@
+<body>
+ <page page_number="1" transcanno_page_id="863">
+  <paragraph class="medium-paragraph" tagcode="1556439764426">
+   <div>
+    Eines Tages ging ich mit einer
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Freundin" tagcode="1550561040128">
+     <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1550561078635" tran_alternative_1="Freu ndin" tran_alternative_2="Freundin">
+      Freu ndin
+     </tran_ambiguous_id3>
+    </orth_error_id12>
+    von
+   </div>
+   <div>
+    mir in den Wald, ich brachte eine Taschenlampe
+   </div>
+   <div>
+    weil es fangte an dunkel zu werden. Wir
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1550561117910" tran_word_deletion_target="_#_">
+     gigen
+    </tran_word_deletion_id8>
+   </div>
+   <div>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1550561193362" tran_correction_original="ginge*">
+     gingen
+    </tran_word_correction_id25>
+    <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1550561256693" tran_alternative_1="ein bischen" tran_alternative_2="einbischen">
+     ein
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="bisschen" tagcode="1550561178493">
+      bischen
+     </orth_error_id12>
+    </tran_ambiguous_id3>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="spazieren" tagcode="1550561154599">
+     spatziren
+    </orth_error_id12>
+    und dann auf einmal
+   </div>
+   <div>
+    war es sehr dunkel ich
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1550561367753" tran_correction_original="zie*e">
+     ziete
+    </tran_word_correction_id25>
+    meine
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Taschenlampe" tagcode="1550561356147">
+     taschen
+    </orth_error_id12>
+   </div>
+   <div>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Taschenlampe" tagcode="1550561356147">
+     lampe
+    </orth_error_id12>
+    aus dem Rucksack
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1550561409661" tran_correction_original="*aus">
+     <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1550561414716">
+      raus
+     </tran_word_insertion_id9>
+    </tran_word_correction_id25>
+    und dann wollten
+   </div>
+   <div>
+    wir nach
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Hause" tagcode="1550561471269">
+     hause
+    </orth_error_id12>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1550561488340" tran_correction_original="geg*">
+     gehen
+    </tran_word_correction_id25>
+    aber jemand hatte
+   </div>
+   <div>
+    uns verfolgt , ich hörte auf
+    <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1550561541224" tran_alternative_1="einmal" tran_alternative_2="ein mal">
+     einmal
+    </tran_ambiguous_id3>
+   </div>
+   <div>
+    Ahhhhh!!!
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Ich" tagcode="1550561533869">
+     ich
+    </orth_error_id12>
+    ging schauen was es war
+   </div>
+   <div>
+    aber
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1550561574815" tran_word_deletion_target="_#_">
+     dann
+    </tran_word_deletion_id8>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="plötzlich" tagcode="1556439764425">
+     plözlich
+    </orth_error_id12>
+    ... !
+   </div>
+  </paragraph>
+ </page>
+</body>

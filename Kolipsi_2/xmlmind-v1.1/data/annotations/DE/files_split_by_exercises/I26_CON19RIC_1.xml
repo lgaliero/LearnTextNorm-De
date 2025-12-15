@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I26_CON19RIC</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><correction>
+        <deletion>Liebe Maria,</deletion>
+      </correction><par/><greeting>Liebe Paula,</greeting><par/>hast du gehört was Maria passiert ist? Unsere Freundin Maria war letzte Woche einkaufen. Sie kaufte zuerst in einem Obst- und Gemüseladen ein und eine Stunde später war sie im Supermarkt. Im Supermarkt gab es ein Problem an der Kasse. Maria hat in einem Obst- und Gemüseladen einkaufen aber <correction>
+        <deletion><unreadable/></deletion>
+      </correction> sie <correction>
+        <deletion>hat kein</deletion>
+
+        <insertion>brachte</insertion>
+      </correction> das Ticket nicht <correction>
+        <deletion>Mitbringen</deletion>
+      </correction> mit.<par/>Wenn sie im <correction>
+        <deletion>Sut</deletion>
+      </correction> <foreign_word foreign_language="Italiano">Supermarket</foreign_word> gegangen, und sie <correction>
+        <deletion><unreadable/></deletion>
+      </correction> an der Kasse gegangen die Kassiererin hat Maria <error>
+        <errorType/>
+
+        <originalForm>gestopt</originalForm>
+
+        <targetForm>gestoppt</targetForm>
+      </error> weil sie habt Obst und Gemüse in ihrer Tasche! Das <correction>
+        <deletion><unreadable/></deletion>
+      </correction> ist <error>
+        <errorType/>
+
+        <originalForm>Schade</originalForm>
+
+        <targetForm>schade</targetForm>
+      </error>!<par/>Wenn die Kassiererin hat Maria <error>
+        <errorType/>
+
+        <originalForm>gestopt</originalForm>
+
+        <targetForm>gestoppt</targetForm>
+      </error>, Maria hat <correction>
+        <deletion><unreadable/></deletion>
+      </correction> gesagt dass sie hat diese Obst und Gemüse in den Laden suchen dem Supermarkt. So die Kassiererin hat das Polizei <correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion><error>
+            <errorType/>
+
+            <originalForm>Erholfen</originalForm>
+
+            <targetForm>erholfen</targetForm>
+          </error></insertion>
+      </correction> und Maria festgenommen ist. Es tut mir leid für Maria. Sehen wir spät.<par/><closing><correction>
+          <deletion>v</deletion>
+
+          <insertion>V</insertion>
+        </correction>iele <error>
+          <errorType/>
+
+          <originalForm>grüße</originalForm>
+
+          <targetForm>Grüße</targetForm>
+        </error></closing><par/><correction>
+        <insertion>Deine</insertion>
+
+        <deletion><unreadable/></deletion>
+      </correction> Mario </exercise>
+
+    
+  </body>
+</kolipsi_II_document>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I22_TRE22AND</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting><error>
+          <errorType />
+
+          <originalForm>Halo</originalForm>
+
+          <targetForm>Hallo</targetForm>
+        </error> Hamudi</greeting><par />Meine Freundin Maria war letzte Woche einkaufen, sie war zuerst in einem Obst- und Gemüseladen dort kaufte sie ein paar Äpfel, Bananen, Salat, Tomaten und Karotten ein. Sobald sie alles hat, g<correction>
+        <deletion>eht</deletion>
+
+        <insertion>ing</insertion>
+      </correction> sie zur Kassa und bezahlte alles. Ein Fehler passierte ihr dann, sie hat vegessen den Kassazettel <error>
+        <errorType />
+
+        <originalForm>mit zunehmen</originalForm>
+
+        <targetForm>mitzunehmen</targetForm>
+      </error>. <correction>
+        <deletion>B</deletion>
+
+        <insertion>D</insertion>
+      </correction>anach ging sie zum Auto und f<correction>
+        <deletion>ü</deletion>
+
+        <insertion>u</insertion>
+      </correction>hr zum Supermarkt. Sie dachte sich dabei nichts. Im Supermarkt kaufte sie dann Milch, Brot, <error>
+        <errorType />
+
+        <originalForm>Muesli</originalForm>
+
+        <targetForm>Müsli</targetForm>
+      </error>, Schokolade und Marmelade ein. Andauernd hatte sie ein mulmiges Gefühl im Magen. Als sie zur Kasse ging und bezahlte, fragte die Frau hinter der Kassa, <correction>
+        <deletion>Maria</deletion>
+      </correction> ob sie dieses Zeug was sie im Rucksack trugte stehlen will. Sie sagte dann, dass sie das<correction>
+        <deletion>s</deletion>
+      </correction> vor einer halben Stunde im Gemüse- Obstladen kaufte. Die Verkäuferin wollte natürlich den Kassazettel sehen zum <error>
+        <errorType />
+
+        <originalForm>Nachweiß</originalForm>
+
+        <targetForm>Nachweis</targetForm>
+      </error>. Aber der war ja nicht in der Tasche. So entstand ein großer Aufstand, die Polizei wurde gerufen. Aber zum gutem Schluss wurde alles aufgeklärt.<par /><reduction>
+        <reductionType rType="02 abbreviation" />
+
+        <reducedForm>Lg</reducedForm>
+
+        <unfoldedForm>Liebe Grüße</unfoldedForm>
+      </reduction> <emphasis>Herbert</emphasis></exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo Herr Paul,</greeting><par /><error>
+        <errorType />
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> habe gesehen, dass <error>
+        <errorType />
+
+        <originalForm>sie</originalForm>
+
+        <targetForm>Sie</targetForm>
+      </error> ein sehr großes Problem haben. Mit diesem Internet ist nicht zu spaßen, weil <correction>
+        <deletion>e</deletion>
+
+        <insertion>d</insertion>
+      </correction>as oft <correction>
+        <deletion>in G</deletion>
+      </correction> schief gerät.<par />Also, <error>
+        <errorType />
+
+        <originalForm>dass</originalForm>
+
+        <targetForm>das</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>beste</originalForm>
+
+        <targetForm>Beste</targetForm>
+      </error> was sie jetzt tun könnten, ist allen Freunden die <error>
+        <errorType />
+
+        <originalForm>sie</originalForm>
+
+        <targetForm>Sie</targetForm>
+      </error> dort kennengelernt haben erklären, dass <error>
+        <errorType />
+
+        <originalForm>sie</originalForm>
+
+        <targetForm>Sie</targetForm>
+      </error> den ganzen Tag nur mehr am Computer sitzen oder beim Handy und mit Leuten schreibst, die <error>
+        <errorType />
+
+        <originalForm>ihnen</originalForm>
+
+        <targetForm>Ihnen</targetForm>
+      </error> noch nie zu<correction>
+        <deletion>f</deletion>
+
+        <insertion>v</insertion>
+      </correction>or begegnet sind. <correction>
+        <deletion>Als <unreadable /></deletion>
+      </correction> Sie haben keine Freizeit mehr, gar nichts mehr. Dann erklären <error>
+        <errorType />
+
+        <originalForm>sie<correction>
+            <deletion><unreadable /></deletion>
+          </correction></originalForm>
+
+        <targetForm>Sie</targetForm>
+      </error> auch noch dass <error>
+        <errorType />
+
+        <originalForm>sie</originalForm>
+
+        <targetForm>Sie</targetForm>
+      </error> in letzter Zeit weniger <error>
+        <errorType />
+
+        <originalForm>geschick</originalForm>
+
+        <targetForm>Geschick</targetForm>
+      </error> haben, und andere kennen gelernt haben, im Umfeld. Dann werden sie das schon verstehen. Ich selbst hatte auch so eine Erfahrung. <correction>
+        <deletion>s</deletion>
+
+        <insertion>S</insertion>
+      </correction>chreibt auch mit jemandem, der ich nicht kannte. Aber es ging nicht <error>
+        <errorType />
+
+        <originalForm>alzulange</originalForm>
+
+        <targetForm>allzu lange</targetForm>
+      </error> weil man sich nie sehen wird, man kommt <unreadable /> noch sehr schwer raus. Es fällt einem schwer, das dem anderen zu sagen.<par />Meiner Meinung nach ist über der Verwendung des Internets Freunde kennenzulernen nicht so gut, besser ist andere kennenzulernen die in der Nähe wohnen.<par /><closing><reduction>
+          <reductionType rType="02 abbreviation" />
+
+          <reducedForm>Lg</reducedForm>
+
+          <unfoldedForm>Liebe Grüße</unfoldedForm>
+        </reduction></closing> Herbert</exercise>
+  </body>
+</kolipsi_II_document>

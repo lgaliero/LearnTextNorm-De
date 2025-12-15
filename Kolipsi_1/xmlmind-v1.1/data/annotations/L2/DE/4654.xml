@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Romy</transcriber>
+
+  <author_id>4654</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe <entity>Wally</entity>,</greeting> <par />wie gehts? Ich gut <correction>
+        <deletion><unreadable /></deletion>
+      </correction> danke. Alles ok? <correction>
+        <deletion>Du</deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>weißt</originalForm>
+
+        <targetForm>Weißt</targetForm>
+      </error> du was? Heute <entity>Maria</entity> sie ist in einem <error>
+        <errorType />
+
+        <originalForm>Obst</originalForm>
+
+        <targetForm>Obst-</targetForm>
+      </error> u<overwrite>
+        <over>nd</over>
+
+        <under><unreadable /></under>
+      </overwrite> Gemüsela<overwrite>
+        <over>d</over>
+
+        <under>g</under>
+      </overwrite>en gegangen, und sie hat <error>
+        <errorType />
+
+        <originalForm>gemüse</originalForm>
+
+        <targetForm>Gemüse</targetForm>
+      </error> kauft für mache eine <correction>
+        <deletion><unreadable /></deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>suppe</originalForm>
+
+        <targetForm>Suppe</targetForm>
+      </error> zur Mittagszeit. Und sie hat zahle aber sie hat Kassenzettel <error>
+        <errorType />
+
+        <originalForm>fergessen</originalForm>
+
+        <targetForm>vergessen</targetForm>
+      </error>. <error>
+        <errorType />
+
+        <originalForm>Da nach</originalForm>
+
+        <targetForm>Danach</targetForm>
+      </error> <entity>Maria</entity> geht im <foreign_word
+        foreign_language="Italiano">Supermarket</foreign_word> und sie <sic>reimbungs</sic> gekauft und andere Sache für die <error>
+        <errorType />
+
+        <originalForm>hause</originalForm>
+
+        <targetForm>Hause</targetForm>
+      </error>. Sie ist <sic>ander</sic> Kasse gegangen, und wenn sie komme, sie <foreign_word
+        foreign_language="Italiano">si rende conto di aver <error>
+          <errorType />
+
+          <originalForm>lasciaio</originalForm>
+
+          <targetForm>lasciato</targetForm>
+        </error></foreign_word> die Kassenzettel in Obst und Gemüse. Die <error>
+        <errorType />
+
+        <originalForm>Ferkäuferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> <correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion><error>
+            <errorType />
+
+            <originalForm>nich</originalForm>
+
+            <targetForm>nicht</targetForm>
+          </error> <error>
+            <errorType />
+
+            <originalForm>festehen</originalForm>
+
+            <targetForm>verstehen</targetForm>
+          </error></insertion>
+      </correction> die <error>
+        <errorType />
+
+        <originalForm>probleme</originalForm>
+
+        <targetForm>Probleme</targetForm>
+      </error> und <entity>Maria</entity> <foreign_word
+        foreign_language="Italiano">cade nell´ imbarazzo</foreign_word>. <par />Ich hoffe <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> du die <error>
+        <errorType />
+
+        <originalForm>geschichte</originalForm>
+
+        <targetForm>Geschichte</targetForm>
+      </error> <overwrite>
+        <over>v</over>
+
+        <under>f</under>
+      </overwrite>on <entity>Maria</entity> <correction>
+        <deletion><unreadable /></deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>festanden</originalForm>
+
+        <targetForm>verstanden</targetForm>
+      </error> hat. <par /><closing>Ich habe dich <error>
+          <errorType />
+
+          <originalForm>libe</originalForm>
+
+          <targetForm>liebe</targetForm>
+        </error>!<par /> <par /> <entity>Pamela</entity></closing></exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Daniel</entity>,</greeting> <par />wie geht es dir? Ich gut danke. Was hast du zu <error>
+        <errorType />
+
+        <originalForm>mier</originalForm>
+
+        <targetForm>mir</targetForm>
+      </error> sagen? In dieser Sommer ich gehe zu <overwrite>
+        <over>M</over>
+
+        <under>m</under>
+      </overwrite>eer in <entity><foreign_word foreign_language="Italiano">Sicilia</foreign_word></entity>. Ich <correction>
+        <deletion>fr</deletion>
+      </correction> <sic>vorzehen</sic> die Meer weil <foreign_word
+        foreign_language="Italiano"><error>
+          <errorType />
+
+          <originalForm>´cé</originalForm>
+
+          <targetForm>c'è</targetForm>
+        </error></foreign_word> die Sonne, ist warm, und der <sic>strange</sic> ist schönes da <foreign_word
+        foreign_language="Italiano">sentire sotto i piedi</foreign_word>! <correction>
+        <deletion><unreadable /></deletion>
+      </correction> wo er gehst du diese <foreign_word
+        foreign_language="English">summer</foreign_word>? <foreign_word
+        foreign_language="Italiano">Spero non</foreign_word> in den Bergen! Weil ist <correction>
+        <deletion><unreadable /></deletion>
+      </correction> <foreign_word foreign_language="English">cold</foreign_word>, <foreign_word
+        foreign_language="Italiano"><error>
+          <errorType />
+
+          <originalForm>c´é</originalForm>
+
+          <targetForm>c'è</targetForm>
+        </error> tanta neve, anzi in estate non <error>
+          <errorType />
+
+          <originalForm>piu</originalForm>
+
+          <targetForm>più</targetForm>
+        </error>,poi ci sono</foreign_word> die <sic>Baume</sic> </exercise>
+  </body>
+</kolipsi_document>

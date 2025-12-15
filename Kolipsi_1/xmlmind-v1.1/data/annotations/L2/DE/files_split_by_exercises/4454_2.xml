@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>4454</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve">
+ <par/><greeting>Lieber <entity>Tom</entity>!</greeting> <par/>Wie geht es dir?<par/>Ich habe dir diese<palimpsest>n</palimpsest> Brief geschrieben, weil wir <palimpsest>n</palimpsest>och entscheiden <error>
+        <errorType/>
+
+        <originalForm>mussen</originalForm>
+
+        <targetForm>müssen</targetForm>
+      </error>, wo <palimpsest>unser</palimpsest>en Urlaub verbringen wollen. Wir sollen in die Berge oder ans Meer fahren?<par/>Ich habe die zwei Optionen vergleichen. Wir w<strikeover>
+        <expansion>i</expansion>
+
+        <expansion>o</expansion>
+      </strikeover>llen danach entscheiden.<par/>In die Berge <palimpsest>Ist</palimpsest> <palimpsest>d</palimpsest>en Temperatur<palimpsest> </palimpsest> sehr frisch, können wir Promenaden machen, vielen Tiere sehen und Spezialität<palimpsest>en</palimpsest> <palimpsest>des</palimpsest> Orts essen. Wir können auch frische und gut Luft atmen. Am Meer können wir den ganzen Tag unter die Sonne bleiben, <foreign_word foreign_language="English">Snorkeling</foreign_word> machen, die Fische sehen, mit dem <error>
+        <errorType/>
+
+        <originalForm>Sand<palimpsest>sp</palimpsest>ielen</originalForm>
+
+        <targetForm>Sand spielen</targetForm>
+      </error> ( <emoticon>:)</emoticon> ) und gute Luft atmen. Du magst Fisch essen, oder?<par/><palimpsest>Es gibt</palimpsest> vielen Orten zu <error>
+        <errorType/>
+
+        <originalForm>unterschied</originalForm>
+
+        <targetForm>Unterschied</targetForm>
+      </error>: für Berge können wir <sic>im</sic> <entity>Südtirol</entity> fahren, im <entity> <foreign_word foreign_language="Italiano">Valle D'Aosta</foreign_word> </entity> oder im <error>
+        <errorType/>
+
+        <originalForm>Süd <entity>Osterreich</entity></originalForm>
+
+        <targetForm>Südösterreich</targetForm>
+      </error>. Für das Meer habe ich ge<overwrite>
+        <under><unreadable/></under>
+
+        <over>d</over>
+      </overwrite>acht <entity> <foreign_word foreign_language="Italiano">Sicilia</foreign_word></entity>, <entity>Sardinien</entity>, <entity>Tunesien</entity> oder <entity> <foreign_word foreign_language="Italiano">Marocco</foreign_word></entity>. Ich <error>
+        <errorType/>
+
+        <originalForm>weiss</originalForm>
+
+        <targetForm>weiß</targetForm>
+      </error>, dass du Angst von Flu<palimpsest>g</palimpsest>zeug hast, aber diesen Orten sind<palimpsest> </palimpsest> nicht so weit. Was denkst du? Hast du solchen Ideen? Die Preisen sind ziemlich gleich <sic> </sic> <par/>Antwortest du mir!<par/> <closing><par/>Bis bald!<par/><par/>Deine <entity>Giulia</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

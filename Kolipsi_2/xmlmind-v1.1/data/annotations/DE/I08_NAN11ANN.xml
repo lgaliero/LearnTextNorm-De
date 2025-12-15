@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I08_NAN11ANN</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe Sonja,</greeting><par />ich will dir schreiben, was in einem Obst- und Gemüseladen passiert ist. Eine junge Frau Maria, ist in <error>
+        <errorType />
+
+        <originalForm>disem</originalForm>
+
+        <targetForm>diesem</targetForm>
+      </error> Gemüseladen gegangen. Sie wollte <error>
+        <errorType />
+
+        <originalForm>Bröt</originalForm>
+
+        <targetForm>Brot</targetForm>
+      </error>, Milch, Wein und Salat kaufen. Sie hat das Brot an die Kasse bezahlen. <correction>
+        <deletion>Dann sie hat Wein und Salat</deletion>
+      </correction> Sie hat das Kassenzettel nicht gebracht. Dann sie hat Wein und Salat in der <foreign_word
+        foreign_language="English">central</foreign_word> Kasse bezahlen. Die Verkäuferin hat die Tasche, wo <correction>
+        <deletion>Maria</deletion>
+      </correction> das Brot gibt gesehen. Die Verkäuferin sagt zu Maria, dass sie das Brot zahlen muss. Maria sagt, dass sie hat <error>
+        <errorType />
+
+        <originalForm>shon</originalForm>
+
+        <targetForm>schon</targetForm>
+      </error> bezahlen. Die Verkäuferin denkt das nicht. Sie sagt zu Maria, dass <error>
+        <errorType />
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> <correction>
+        <deletion>die</deletion>
+      </correction> den Kassenzettel sehen will. Maria sagt, dass sie den Kassenzettel an die Kasse verlassen hat. Die Verkäuferin sagt zu Maria, dass <error>
+        <errorType />
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> muss das Brot noch einmal bezahlen muss.<par />Ich sage dir was Maria gemach hat in einem neue Brief.<par /><closing>Viele Grüße,</closing><par />Anna</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Liebe<correction>
+          <deletion>s</deletion>
+
+          <insertion>r</insertion>
+        </correction> Paul,</greeting><par />ich habe deinen Brief gelesen. Ich denke, dass die virtuelle Freundschaften sind gut. Aber wir kann nicht nur virtuelle Freundschaften haben. Wir muss ausgehen und neue Leute kennen. Ich habe ein <error>
+        <errorType />
+
+        <originalForm>Paar</originalForm>
+
+        <targetForm>paar</targetForm>
+      </error> <correction>
+        <deletion>F</deletion>
+      </correction> virtuelle Freunden. Aber <error>
+        <errorType />
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> leben alle in meinem Stadt. Ich habe mit <error>
+        <errorType />
+
+        <originalForm>Ihnen</originalForm>
+
+        <targetForm>ihnen</targetForm>
+      </error> getroffen. Ich kann <error>
+        <errorType />
+
+        <originalForm>nich</originalForm>
+
+        <targetForm>nicht</targetForm>
+      </error> dir sagen was du tun konnte. Du kannst machen was du willst. Die Verwendung des Internets ist sehr interessant. Aber wir müssen Achtung haben. In Internet <correction>
+        <deletion>unse</deletion>
+      </correction> werden unsere Informationen publik machen. Ich hoffe, dass du passauf machen. Ich kann di<correction>
+        <deletion>e</deletion>
+
+        <insertion>r</insertion>
+      </correction> einen Rat geben. Du kannst <correction>
+        <deletion>sagen</deletion>
+      </correction> eine Antwort <correction>
+        <deletion>sagen</deletion>
+      </correction> geben. Deine<correction>
+        <deletion>n</deletion>
+      </correction> Freunden müssen wissen warum du mit <error>
+        <errorType />
+
+        <originalForm>Ihnen</originalForm>
+
+        <targetForm>ihnen</targetForm>
+      </error> nicht chattet. Wenn du Lust hat, kannst du mir antworten.<par /><closing>Viele Grüße,</closing><par />Anna</exercise>
+  </body>
+</kolipsi_II_document>

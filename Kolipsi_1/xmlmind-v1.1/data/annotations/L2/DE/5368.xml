@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5368</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><par /><greeting>Hallo <entity>Karin</entity>,</greeting> <par />ich will <sic>dich</sic> erzählen was letzte Woche meiner Freundin <entity>Maria</entity> passiert ist. <correction>
+        <deletion>Sie</deletion>
+      </correction> Ich denke dass, diese Geschichte wirklich komisch ist. Letzte Woche war <entity>Maria</entity> einkaufen. Zuerst ging sie in einen Obst- und Gemüseladen; da kaufte sie Obst und Gemüse <correction>
+        <deletion>Nach</deletion>
+      </correction> Später ging sie in einen <foreign_word
+        foreign_language="Italiano">Supermarket</foreign_word>, wo sie viele Sachen kaufen wollte. Sie nahm die Sachen, die sie brauchte und ging an die Kasse um sie zu bezahlen. Sie bezahlte sie, aber wenn sie aus de<strikeover>
+        <expansion>n</expansion>
+
+        <expansion>r</expansion>
+      </strikeover> Supermark<correction>
+        <deletion>e</deletion>
+      </correction>t gehen wollte, die Frau an die Kasse <correction>
+        <deletion>rufte</deletion>
+      </correction> rief sie an. Sie dachte<correction>
+        <deletion>,</deletion>
+      </correction> dass, <entity>Maria</entity> die Obst und die Gemüse stohlen wollte. Aber das war nicht richtig und in diese Supermarkt verkauft man keine Obst oder Gemüse. <entity>Maria</entity> <correction>
+        <insertion>aber</insertion>
+      </correction> wusste nicht was machen. </exercise>
+
+    <exercise number="2" xml:space="preserve"><par /><greeting>Hallo <entity><ambiguous>
+            <alternative>Monika</alternative>
+
+            <alternative>Marika</alternative>
+          </ambiguous></entity>,</greeting> <par />wie geht´s dir? Ich schreibe dir, weil ich mit dir über unseren Urlaub sprechen will. Wir haben zwei Möglichkeit: <correction>
+        <deletion><unreadable /></deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>wir</originalForm>
+
+        <targetForm>Wir</targetForm>
+      </error> können in Bergen oder a<overwrite>
+        <under>m</under>
+
+        <over>n</over>
+      </overwrite> <correction>
+        <insertion>das</insertion>
+      </correction> Meer gehen. <par />Ob wir <overwrite>
+        <under>in</under>
+
+        <over>auf</over>
+      </overwrite> dem Berg gehen wollen, müssen wir warme Kleidungen mitnehmen, weil da <error>
+        <errorType />
+
+        <originalForm>da</originalForm>
+
+        <targetForm>das</targetForm>
+      </error> Klima kalt ist. Auf dem Berg konnten wir viele freie Zeit haben, wir konnten wandern <correction>
+        <deletion>gehen</deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>Ski-fahren</originalForm>
+
+        <targetForm>Ski fahren</targetForm>
+      </error> und <foreign_word foreign_language="Italiano">relax</foreign_word>. Ob wir am Meer gehen, das Klima wurde wärmer sein: <error>
+        <errorType />
+
+        <originalForm>wir</originalForm>
+
+        <targetForm>Wir</targetForm>
+      </error> k<overwrite>
+        <under>ö</under>
+
+        <over>o</over>
+      </overwrite>nnten im einer Camping oder in einem Hotel schlafen und während des Tages wir konnten am Strand gehen. Da konnten wir sonnen, <correction>
+        <deletion>un</deletion>
+      </correction> das Bad machen und viele Leuten kennenlernen. Ich weiß nicht welches Urlaub du am <correction>
+        <deletion>liebsten</deletion>
+
+        <insertion>meisten machen</insertion>
+      </correction> magst, aber ich bin sicher, dass wir in die beide Urlaub viel Spaß haben sollen. Bitte schreibe mir z<overwrite>
+        <under>ü</under>
+
+        <over>u</over>
+      </overwrite>rück. Ich warte eine Antworte. </exercise>
+  </body>
+</kolipsi_document>

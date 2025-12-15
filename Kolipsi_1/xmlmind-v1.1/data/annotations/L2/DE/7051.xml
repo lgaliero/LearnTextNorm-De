@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>N7051</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><par /><greeting>Liebe <entity>Thomas</entity> </greeting> <par />Wie geht es dir? Bei mir ist die Schule schon fertig deswegen bin ich ganz <error>
+        <errorType />
+
+        <originalForm>glucklich</originalForm>
+
+        <targetForm>glücklich</targetForm>
+      </error>! Ich hatte einen Party mit meine Freundinnen organisiert und wir hatten überlegt ob wir zwanzig Leuten bei mir zu Hause einladen <strikeover>
+        <expansion>w</expansion>
+
+        <expansion>k</expansion>
+      </strikeover>ollten. <entity>Julia</entity> hatte schon alle angeruft. Letzte Woche war ich einkaufen. Ich bin erst in einen Obst- und Gemüseladen gegangen. Dort gab es nicht <error>
+        <errorType />
+
+        <originalForm>besonderes</originalForm>
+
+        <targetForm>Besonderes</targetForm>
+      </error> so habe ich nur <palimpsest>die Tomaten</palimpsest> geholt. Eine Stunde später bin ich im <foreign_word
+        foreign_language="Italiano">Supermarket</foreign_word> gegangen um alles anderes zu kaufen. In diesem <foreign_word
+        foreign_language="Italiano">Supermarket</foreign_word> sind alle sehr nett und freundlich, hat immer meine Mutter gesagt, aber vielleicht nicht mit mir... An der Kasse gab es ein Problem. Die Verkäuferin hat einen Schrei ausgestoßt: <direct_speech>"Haltet den Dieb!"</direct_speech> und sie hat mich komisch geguckt: "Hallo, bist du doof?" hab ich nur gedacht. Sie meinte ich wollte etwas stehlen weil <palimpsest>unreadable</palimpsest> die Tomaten in meine Tasche waren. Ich war sehr <error>
+        <errorType />
+
+        <originalForm>beleidig</originalForm>
+
+        <targetForm>beleidigt</targetForm>
+      </error>, glaubst du nicht? <par /><closing>Bis bald <par /><entity><par />Lisa</entity> </closing> </exercise>
+
+    <exercise number="2" xml:space="preserve"><par /><greeting>Liebe <entity><error>
+            <errorType />
+
+            <originalForm>Mathias</originalForm>
+
+            <targetForm>Matthias</targetForm>
+          </error></entity> </greeting> <par />Wie geht´s dir? Bei mir ist alles in Ordnung. Heute ist die Schule endlich fertig und ich bin ganz <error>
+        <errorType />
+
+        <originalForm>gllücklich</originalForm>
+
+        <targetForm>glücklich</targetForm>
+      </error> dass wir einen gemeinsamen Urlaub planen. Bald <sic>wirdst</sic> du auch Ferien kriegen so können wir <palimpsest>besser</palimpsest> entscheiden ob wir in die Berge oder ans Meer fahren werden. Jetzt möchte ich <error>
+        <errorType />
+
+        <originalForm>shon</originalForm>
+
+        <targetForm>schon</targetForm>
+      </error> meine Meinungen ausdrücken. Es gibt natürlich einige Gemeinsamkeiten und Unterschiede. Letztes Jahr <error>
+        <errorType />
+
+        <originalForm>zB</originalForm>
+
+        <targetForm>Z. B.</targetForm>
+      </error> bin ich mit meine Familie in die Berge gefahren. Dort gab es wenige <error>
+        <errorType />
+
+        <originalForm>Judentliche</originalForm>
+
+        <targetForm>Jugendliche</targetForm>
+      </error> weil es ein kleines Dorf war mit nur ein <error>
+        <errorType />
+
+        <originalForm>Paar</originalForm>
+
+        <targetForm>paar</targetForm>
+      </error> Geschäfte und keine lustige Lokalen... Es war wirklich langweilig aber war schön im Wald <palimpsest>wandern</palimpsest>! Es war nicht so warm wie in die Stadt und ich hatte viele ungezähmte Tiere gesehen! <par />Aber, ehrlich gesagt, möchte ich lieber ans Meer fahren. Dort gibt es bestimmt mehrere Unterhaltungen für uns, oder nicht? W<overwrite>
+        <under><unreadable /></under>
+
+        <over>a</over>
+      </overwrite>s meinst du? Ich möchte auch deine Idee wissen, damit ich mi<strikeover>
+        <expansion>s</expansion>
+
+        <expansion>c</expansion>
+      </strikeover>h besser organisieren kann. <par />Ich hab´ dich lieb... <par /><closing>Lisa</closing> </exercise>
+  </body>
+</kolipsi_document>

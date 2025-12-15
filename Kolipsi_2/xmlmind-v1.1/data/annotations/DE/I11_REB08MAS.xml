@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I11_REB08MAS</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo Eric,</greeting><par /><correction>
+        <insertion>letzte Woche</insertion>
+
+        <deletion>Gestern</deletion>
+      </correction> war meine Freundin <correction>
+        <insertion>Maria</insertion>
+      </correction> einkaufen und sie hatte ein komisches Problem!<par />Zuerst war sie in einem Obst- Gemüseladen ein und nach die Bezahlung hatte Maria sein Zettel vergessen. Später ist sie im Supermarkt gegangen und als an der Kasse war, gab es ein <error>
+        <errorType />
+
+        <originalForm>Misverständnis</originalForm>
+
+        <targetForm>Missverständnis</targetForm>
+      </error>. Die Verkäuferin dachte, dass Maria <error>
+        <errorType />
+
+        <originalForm>stelen</originalForm>
+
+        <targetForm>stehlen</targetForm>
+      </error> wollte. Die Obst und Gemüse, die vorher gekauft hatte, waren in seiner Tasche ohne Zettel und deswegen <correction>
+        <deletion><unreadable /></deletion>
+      </correction> konnte <correction>
+        <deletion>niemang</deletion>
+      </correction> sie sich nicht entschuldigen. Die Verkäuferin rufte die Polizei an und eine Polizistin hat sie weggebracht. Arme Maria! Nach ein paar Stunden war wieder alles <correction>
+        <deletion><unreadable />k</deletion>
+      </correction> klar und die Verkäuferin hat sich mit Maria entschuldigt. Zum Glück ist nichts passiert aber Maria hat sicherlich etwas gelernt: <error>
+        <errorType />
+
+        <originalForm>immer</originalForm>
+
+        <targetForm>Immer</targetForm>
+      </error> das Zettel <error>
+        <errorType />
+
+        <originalForm>dabei haben</originalForm>
+
+        <targetForm>dabeihaben</targetForm>
+      </error>!</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Guten Morgen Paul,</greeting><par /><correction>
+        <deletion>Meine Meinung dafür</deletion>
+      </correction><par />Ich habe deinen Brief gelesen und ich finde deine Geschichte sehr interessant. Ich habe eine sehr schlechte Meinung über virtuelle Freundschaften in der Tat <correction>
+        <deletion>k</deletion>
+      </correction> bekomme ich viele Briefen mit ähnlichen Geschichten.<par /><correction>
+        <deletion>Ich denke, dass die beste Sache zu machen ist</deletion>
+      </correction><par />Die beste Lösung ist sie antworten und deine Entscheidung <error>
+        <errorType />
+
+        <originalForm>erklähren</originalForm>
+
+        <targetForm>erklären</targetForm>
+      </error>. <correction>
+        <deletion>Auch ob</deletion>
+      </correction> Sie sind alle Menschen und sie haben Gefühlen und als sie gute Freunde sind, sie werden dich verstehen. <correction>
+        <deletion>Ich ma</deletion>
+      </correction><par />Die virtuelle Freundschaften sind gefährlich, das muss ich sagen. <foreign_word
+        foreign_language="English">Often</foreign_word> wissen wir nicht mit wem "gesprochen" haben und often lügen die Leute über sich selbst.<par />Internet ist eine wunderschöne Sache und ich <correction>
+        <deletion>kann</deletion>
+
+        <insertion>könnte</insertion>
+      </correction> nicht ohne es leben. Internet bringt uns Informationen, Bilder und Neuigkeiten <correction>
+        <deletion><unreadable /></deletion>
+      </correction> in ganz kurzer Zeit.<par /><error>
+        <errorType />
+
+        <originalForm>Schlüssendlich</originalForm>
+
+        <targetForm>Schlussendlich</targetForm>
+      </error> denke ich, dass du, Paul, deine <correction>
+        <deletion>F<unreadable /></deletion>
+      </correction> virtuelle Freundschaften <correction>
+        <deletion>brechen soll</deletion>
+      </correction> mit Respekt für den anderen brechen soll. Du sollst nicht vor dem Computer leben. Die Erde ist sehr groß und dorther kannst du viel <correction>
+        <deletion>mit richtig</deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>Erleben</originalForm>
+
+        <targetForm>erleben</targetForm>
+      </error>! Die richtige Freundschaften sind immer die besten!<par /><closing>Viel Glück und viele Grüßen!</closing></exercise>
+  </body>
+</kolipsi_II_document>

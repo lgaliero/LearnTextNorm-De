@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0013</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Laura</entity></greeting>!<par/>Ich habe mich mal über mögliche Urlaubsorte <error>
+        <errorType/>
+
+        <originalForm>Informiert</originalForm>
+
+        <targetForm>informiert</targetForm>
+      </error>.<par/>Wir könnten entweder in die Berge fahren oder ans Meer.<par/>In den Bergen ist es auf jeden Fall etwas kälter als am Meer, dafür könnten wir wandern, also die schöne Aussicht genießen und dabei ein paar Kalorien ver<hyphen>-</hyphen>brennen.<par/>Außerdem gibt es dort auch ein nettes kleines Hotel, welches sehr preiswert ist und ein super <error>
+        <errorType/>
+
+        <originalForm>Well<hyphen>-</hyphen>ness Angebot </originalForm>
+
+        <targetForm>Wellnessangebot</targetForm>
+      </error><gap>_</gap> mit Sauna und <error>
+        <errorType/>
+
+        <originalForm>Swimming-Pool</originalForm>
+
+        <targetForm>Swimmingpool</targetForm>
+      </error> und einem riesigen Buffet. Abends kann man im Dorf ein wenig feiern gehen, allerdings gibt es nur eine Disco und wenige Kneipen. Am Meer ist es schön warm, wir können uns bräunen und Cocktails in der Sonne schlürfen. Die Kalorien können wir durch das Schwimmen im Meer wieder los<hyphen>-</hyphen>werden. <correction>
+        <deletion>Die</deletion>
+      </correction> Den Sonnenuntergang am Strand möchte ich auch ungerne verpassen und außerdem könnten <gap>_</gap> einen Surfkurs belegen.<par/>Abends gibt es ein gutes Angebot zum feiern in den Dis<ambiguous>
+        <alternative>k</alternative>
+
+        <alternative>c</alternative>
+      </ambiguous>os.<par/>Ich hoffe du triffst eine gute Entscheidung.<par/><closing>Bis bald, liebe Grüße<par/><entity>Lotti</entity></closing>    </exercise>
+  </body>
+</kolipsi_document>

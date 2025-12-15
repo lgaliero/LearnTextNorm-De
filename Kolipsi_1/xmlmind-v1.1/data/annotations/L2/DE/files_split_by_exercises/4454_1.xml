@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>4454</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve">
+ <par/><greeting>Hallo <entity>Bill</entity>!</greeting> <par/>Wie geht es dir? Mir geht sehr gut!<par/>Erinne<palimpsest>rst</palimpsest> du dich an <entity>Maria</entity>? Meine Freundin? Sie hat eine sehr <palimpsest> </palimpsest>schlechte Geschichte gehabt. Ich erzähle dir.<par/>Letzte Woche ist <entity>Maria</entity> einkaufen gegangen. Sie musste ein paar Dinge kaufen. Sie ist bei einen Obsthändler gegangen und sie hat Salat, Äpfel, Birnen und zwei <foreign_word foreign_language="Italiano">Porri</foreign_word> gekauft. Sie hat alles <error>
+        <errorType/>
+
+        <originalForm>bezählt</originalForm>
+
+        <targetForm>bezahlt</targetForm>
+      </error> aber sie hat den Kassenzettel vergessen. Eine Stunde später ist sie <palimpsest>in</palimpsest> einen <foreign_word foreign_language="Italiano">Supermarket</foreign_word> gegangen. Sie kaufte viele Sachen, weil sie ein Party machen musste. D<palimpsest>er</palimpsest> <palimpsest>nächst</palimpsest>e Tag war <entity>Tom</entity> <error>
+        <errorType/>
+
+        <originalForm>Geburstag</originalForm>
+
+        <targetForm>Geburtstag</targetForm>
+      </error>. Sie kommt an der Kasse aber dort gab es ein Problem. Sie hätte die Sachen, die sie bei den Obsthändler gekauft hätte, in ihre Tasche und die Kassieren hat sie gesehen. Sie hat <entity>Maria</entity> gefragt, wo sie die Sachen gekauft hätte. <entity>Maria</entity> antwortete, dass sie <correction>
+        <insertion>sie</insertion>
+      </correction> bei einen Obsthändler gekauft hätte. Die <error>
+        <errorType/>
+
+        <originalForm>Kassieren</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> wollte den Kassenzettel sehen aber <entity>Maria</entity> fand er nicht. Der Direktor <overwrite>
+        <under><unreadable/></under>
+
+        <over>d</over>
+      </overwrite>es <foreign_word foreign_language="Italiano"><error>
+          <errorType/>
+
+          <originalForm>Supermarkets</originalForm>
+
+          <targetForm>Supermarket</targetForm>
+        </error></foreign_word> wurde angerufen und er sagte, dass<palimpsest> </palimpsest> <entity>Maria</entity> eine Diebe ist. <entity>Maria</entity> <foreign_word foreign_language="English">was</foreign_word> sehr böse: aber, wie du schon <error>
+        <errorType/>
+
+        <originalForm>weisst</originalForm>
+
+        <targetForm>weißt</targetForm>
+      </error>, sie ist sehr intelligent. Sie fragte d<palimpsest>en</palimpsest> Polizisten, ob sie bei den Obsthändler gehen konnten, um die Frau <correction>
+        <insertion>an</insertion>
+      </correction> der <entity>Maria</entity> <error>
+        <errorType/>
+
+        <originalForm>bezählt</originalForm>
+
+        <targetForm>bezahlt</targetForm>
+      </error> hätte, fragen, ob sie <error>
+        <errorType/>
+
+        <originalForm>bezählt</originalForm>
+
+        <targetForm>bezahlt</targetForm>
+      </error> hätte oder nicht. Die Frau war sehr süß und sie erzählte, dass <entity>Maria</entity> <error>
+        <errorType/>
+
+        <originalForm>bezählt</originalForm>
+
+        <targetForm>bezahlt</targetForm>
+      </error> hätte. Sie hat auch den Kassenzettel gefunden: <error>
+        <errorType/>
+
+        <originalForm>er</originalForm>
+
+        <targetForm>Er</targetForm>
+      </error> war<palimpsest> </palimpsest> auf den Boden gefallen. Die Polizisten kontrollierten und sie lass<correction>
+        <insertion>t</insertion>
+      </correction>en <entity>Maria</entity>. Sie <error>
+        <errorType/>
+
+        <originalForm>bezählt</originalForm>
+
+        <targetForm>bezahlt</targetForm>
+      </error> die Sachen, die sie in de<strikeover>
+        <expansion>n</expansion>
+
+        <expansion>m</expansion>
+      </strikeover> <foreign_word foreign_language="Italiano">Supermarket</foreign_word> ge<palimpsest>nommen</palimpsest> hätte und sie ging nach Hause.<par/>Sie ist sehr ruhig geblieben: <error>
+        <errorType/>
+
+        <originalForm>sie</originalForm>
+
+        <targetForm>Sie</targetForm>
+      </error> ist super!<par/>Und du, was erzählst du mir?<par/><closing><par/>Bis bald!<par/> <entity><par/>Giulia</entity>.</closing> </exercise>
+
+    
+  </body>
+</kolipsi_document>

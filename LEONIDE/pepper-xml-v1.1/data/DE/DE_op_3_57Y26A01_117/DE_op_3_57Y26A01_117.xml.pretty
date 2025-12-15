@@ -1,0 +1,76 @@
+<body>
+ <page page_number="1" transcanno_page_id="2473">
+  <paragraph class="medium-paragraph" tagcode="1610983831632">
+   <div>
+    1) Danach der Mittelschule
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="möchte" tagcode="1610983811765">
+     möche
+    </orth_error_id12>
+    ich
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1552656970799">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552656973547" tran_word_deletion_target="_#_">
+      *
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+    die
+   </div>
+   <div>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Sprachenschule" tagcode="1610983831631">
+     Sprache Schule
+    </orth_error_id12>
+    mache.
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1610983831633">
+   <div>
+    2) Mein Traumberuf ist
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1552657024774">
+     mache die
+    </tran_word_insertion_id9>
+    "Hostess" weil ich liebe
+   </div>
+   <div>
+    das
+    <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1552657593626" tran_alternative_1="Flougzeug" tran_alternative_2="Flaugzeug">
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Flugzeug" tagcode="1552657600740">
+      Flougzeug
+     </orth_error_id12>
+    </tran_ambiguous_id3>
+    .
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1610983831635">
+   <div>
+    3) Ich muss
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="dafür" tagcode="1552657114586">
+     däfur
+    </orth_error_id12>
+    viel
+    <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1556619857073" tran_alternative_1="Sprachen" tran_alternative_2="Sprachn">
+     Sprachen
+    </tran_ambiguous_id3>
+    .
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1610983831636">
+   <div>
+    4) Ich muss lernen viel
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1552657282109" tran_correction_original="sprache">
+     Sprache
+    </tran_word_correction_id25>
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1610983831638">
+   <div>
+    Meine
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1552657438891" tran_correction_original="L*ebli*gs**">
+     Lieblingste
+    </tran_word_correction_id25>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Fach" tagcode="1552657349906">
+     fach
+    </orth_error_id12>
+    sind Naturkunde.
+   </div>
+  </paragraph>
+ </page>
+</body>

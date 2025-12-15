@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0041</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Marcus</entity></greeting>,<par/>wie geht es dir? Tut mir leid, dass ich mich schon so lange nicht bei dir gemeldet habe, aber momentan habe ich ziemlich viel Stress.<par/>Doch nicht nur bezüglich meines Jobs, der abgesehen von ein paar nervigen Arbeitskollegen und den vielen Überstunden recht gut läuft, sondern eher der alltägliche Wahnsinn mit meiner Freundin <entity>Maria</entity>.<par/>Du kennst sie ja, sie zieht Ärger einfach magisch an. Erst letzte Woche hat das Schicksal es wieder besonders gütig mit ihr gemeint.<par/>Wir wollten uns einen gemütlichen Abend machen und sie für mich kochen. Erst ging sie in den Gemüseladen. Sowas kauft sie nämlich nicht in einem normalen Discounter, weil dort die Produkte ja so <error>
+        <errorType/>
+
+        <originalForm>pestizitbelastet</originalForm>
+
+        <targetForm>pestizidbelastet</targetForm>
+      </error> sind. Dann ging sie weiter in den <entity>Rewe</entity>, um die restlichen Zutaten zu besorgen. Da wir um 18 Uhr schon vor dem Essen mit einem Gläschen Rotwein sitzen wollten und es 16:45 Uhr war, war sie natürlich ziemlich in Zeitnot.<par/>Dies <reduction>
+        <reductionType rType="Unknown"/>
+
+        <reducedForm>wurd</reducedForm>
+
+        <unfoldedForm>wurde</unfoldedForm>
+      </reduction> ihr im <entity>Rewe</entity> dann zum Verhängnis - die Kasse funktionierte nicht und sie beschloss nur eine Gemüsepfanne für uns zu kochen und die restlichen Artikel nicht <correction>
+        <insertion>zu</insertion>
+      </correction> kaufen, wodurch sie hätte Zeit und Geld sparen können. Allerdings dachte die Kassiererin, dass sie die Gemüsepr<overwrite>
+        <under>r</under>
+
+        <over>o</over>
+      </overwrite>dukte, die sich in ihrem Einkaufsbeutel befanden, geklaut hätte. Sie sprach <entity>Maria</entity> an und als diese ihr keinen Bon ihres vorherigen Einkaufs vorweisen konnte, da sie diesen aufgrund des Zeitdrucks vergessen hatte, rief sie die Polizei. Diese fuhr dann mit meiner Freundin zum Feinkostladen, der allerdings geschlossen hatte.<par/>Sie musste eine Nacht in Untersuchungshaft bleiben, bis am nächsten Tag das blöde Missverständnis und ihre Unschuld aufgedeckt wurden. Das wurde also aus unserem romantischen Abend...<par/>Ich hoffe bei dir läuft es weniger actionreich. <emoticon>;)</emoticon> <closing>Liebe Grüße<par/><entity>Robin</entity></closing>     </exercise>
+
+    
+  </body>
+</kolipsi_document>

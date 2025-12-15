@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0186</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Lieber Freund</greeting>,<par/>wie du weißt planen wir <sic>ein</sic> Urlaub, wollen nochmal zusammen der Zivilisation entfliehen. Doch wir waren uns noch unschlüssig, welcher Ort, das Ziel unseres <error>
+        <errorType/>
+
+        <originalForm>zweiwochigen</originalForm>
+
+        <targetForm>zweiwöchigen</targetForm>
+      </error> Urlaubs, sein sollte. Du schlugst die diabolische Insel des <entity>Hieronymos Fiech</entity> vor und ich die diabolischen Tannenwälder de<overwrite>
+        <under>s</under>
+
+        <over>r</over>
+      </overwrite> <entity>Karpaten</entity>. Beide Ziele haben ihre Reize. <overwrite>
+        <under>A</under>
+
+        <over>U</over>
+      </overwrite>m beide ranken sich mysteriöse Geschichten voller Angst und Schrecken und beide Orte böten ein großes Potenzial unser Werk zu vollenden. Ich zog die Berge <correction>
+        <deletion><unreadable/></deletion>
+      </correction> vor, da mich besonders das verschollen geglaubte kleinwüchsige Bergvolk, <sic>welche</sic> sich in Höhlen im Berg verkriecht und dort ihre<correction>
+        <deletion><unreadable/></deletion>
+      </correction> schrecklichen Riten vollzie<overwrite>
+        <under>en</under>
+
+        <over>t</over>
+      </overwrite> <correction>
+        <insertion>interessiert.</insertion>
+      </correction> Dich reizte mehr der Stamm der <entity>Chmnghi</entity> Indianer mit ihren bestialischen Opferzeremonien. Nun, die Entscheidung fällt nicht <correction>
+        <deletion><unreadable/></deletion>
+      </correction> <correction>
+        <insertion>leicht</insertion>
+      </correction>, deswegen schlage ich vor, da wir in diesem Punkt nicht auf einen gemeinsamen Nenner kommen, schauen wir auf die anderen Faktoren, die bei der Reise eine Rolle spielen. Preis: Die Reise in die <entity>Karpaten</entity> und das Leihen eines Wagens ist kostengünstiger, als der Flug zu den <entity><sic>Fiechiinseln</sic></entity>, welcher außerdem nur <correction>
+        <deletion><unreadable/></deletion>
+      </correction> <correction>
+        <insertion>zum</insertion>
+      </correction> <correction>
+        <deletion><unreadable/></deletion>
+      </correction> 200 km <correction>
+        <deletion>entf<unreadable/></deletion>
+      </correction> entfernten <error>
+        <errorType/>
+
+        <originalForm>Militarflughafen</originalForm>
+
+        <targetForm>Militärflughafen</targetForm>
+      </error> möglich wäre. Aber dort müssten wir uns ein Boot oder Wasserflugzeug leihen. Und da wir beide verschuldete Künstler sind, ist wohl die Reise in die Berge diejenige, welche unser Ziel sein wird. Ich hoffe dieses Argument wird dich überzeugen, ansonsten schreib mir so sch<overwrite>
+        <under><unreadable/></under>
+
+        <over>ne</over>
+      </overwrite>ll wie möglich zurück. Von der Vollendung des Werkes hängen Menschenleben ab, bitte führe dir <sic>den</sic> <correction>
+        <deletion>auch</deletion>
+      </correction> nochmal vor Augen, wir haben keine Zeit mehr.<par/><closing>Viele Grüße<par/><entity>P.Craft</entity></closing>           </exercise>
+  </body>
+</kolipsi_document>

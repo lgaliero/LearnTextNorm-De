@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I11_MOR08ALE</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Lieber Paul,</greeting><par/><error>
+        <errorType/>
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> habe deine E-Mail gelesen, und möchte dir jetzt eine Antwort geben. Das Internet ist eine sehr wichtiges <error>
+        <errorType/>
+
+        <originalForm>Komunikations<unreadable/> Mittel</originalForm>
+
+        <targetForm>Kommunikationsmittel</targetForm>
+      </error>. <error>
+        <errorType/>
+
+        <originalForm>Mann</originalForm>
+
+        <targetForm>Man</targetForm>
+      </error> kann neue Freunde kennen lernen und mit ihnen chatten. Virtuelle Freunde zu haben ist eine schöne Sache, man kann mit ihnen reden auch wenn man sie nie gesehen <error>
+        <errorType/>
+
+        <originalForm>hatt</originalForm>
+
+        <targetForm>hat</targetForm>
+      </error>, oder wenn sie weit von uns leben. Das <error>
+        <errorType/>
+
+        <originalForm>wichtigste</originalForm>
+
+        <targetForm>Wichtigste</targetForm>
+      </error> <correction>
+        <deletion><unreadable/></deletion>
+      </correction> an dieser Sache, ist aber die <correction>
+        <deletion>Realen</deletion>
+      </correction> realen Freunde nicht zu verlieren. Ich <error>
+        <errorType/>
+
+        <originalForm>erklähre</originalForm>
+
+        <targetForm>erkläre</targetForm>
+      </error> es dir <correction>
+        <deletion><unreadable/></deletion>
+      </correction> besser. Die virtuellen Freunde die du beim <error>
+        <errorType/>
+
+        <originalForm>chatten</originalForm>
+
+        <targetForm>Chatten</targetForm>
+      </error> kennenlernst können dir in dem realen Leben nicht helfen. Hingegen, <correction>
+        <deletion>wenn du</deletion>
+      </correction> die realen Freunde helfen dir wenn du es <correction>
+        <deletion>brauchtes</deletion>
+      </correction> brauchst. <correction>
+        <deletion><unreadable/></deletion>
+      </correction> Den einzigen Rat, den ich dir geben kann ist<correction>
+        <deletion>,</deletion>
+
+        <insertion>:</insertion>
+      </correction> Du kannst Leute kennenlernen durchs <error>
+        <errorType/>
+
+        <originalForm>chatten</originalForm>
+
+        <targetForm>Chatten</targetForm>
+      </error>, aber <error>
+        <errorType/>
+
+        <originalForm>verigss</originalForm>
+
+        <targetForm>vergiss</targetForm>
+      </error> dich nicht von deinen realen Freunden. Ich selber habe persönliche Erfahrungen im Internet gemacht. Ich habe meine Freundin durchs <error>
+        <errorType/>
+
+        <originalForm>chatten</originalForm>
+
+        <targetForm>Chatten</targetForm>
+      </error> kennengelernt. Ich konnte <correction>
+        <deletion>s<unreadable/>ch</deletion>
+      </correction> sie persönlich nicht, aber nachdem wir uns besser konnten haben wir uns getroffen und persönlich <correction>
+        <deletion>auch</deletion>
+      </correction> gesprochen. Deswegen benütze das Internet um neue Freundschaften zu machen. Aber vergiss nicht mit diesen Personen auszugehen.<par/><closing>Liebe Grüße</closing><par/><correction>
+        <deletion><unreadable/></deletion>
+      </correction> Pippo</exercise>
+  </body>
+</kolipsi_II_document>

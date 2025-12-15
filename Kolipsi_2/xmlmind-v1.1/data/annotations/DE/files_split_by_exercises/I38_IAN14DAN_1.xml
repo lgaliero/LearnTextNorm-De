@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I38_IAN14DAN</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Liebe <correction>
+          <deletion>Maria</deletion>
+        </correction> Martina,</greeting><par/><error>
+        <errorType/>
+
+        <originalForm>Gestern</originalForm>
+
+        <targetForm>gestern</targetForm>
+      </error> war Maria in einem Obst- un<correction>
+        <deletion>g</deletion>
+
+        <insertion>d</insertion>
+      </correction> Gemüseladen, wo sie etwas eingekauft hat. Sie hat bezahlt und dann ist sie ins <foreign_word foreign_language="Italiano">Supermarket</foreign_word> gegangen. Dort hat sie <correction>
+        <deletion>etwas zum Tri z<unreadable/></deletion>
+      </correction> eine Flasche Wein und andere Produkte gekauft, aber sie ist im <foreign_word foreign_language="Italiano">Supermarket</foreign_word> <correction>
+        <deletion>ge</deletion>
+      </correction> mit den <correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>Dingen gegangen</insertion>
+      </correction>, die im Obst<correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>l</insertion>
+      </correction>aden gekauft hat. Deshalb, wenn sie bezahlen muss, die <correction>
+        <deletion>Kassie</deletion>
+      </correction> Frau an der Kasse hat gedacht, dass Maria etwas <error>
+        <errorType/>
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hat oder <correction>
+        <deletion>nicht bezahlen will</deletion>
+      </correction> dass sie <correction>
+        <deletion>n</deletion>
+
+        <insertion>e</insertion>
+      </correction>twas nicht bezahlen will, deswegen hat diese Frau Maria die Probe gefragt, dass sie die Produkte wie Gemüse und Obst im Obstladen gekauft hat. Maria hat die Frau die Probe gezogen, deshalb könnte sie nach Hause gehen, nachdem sie die Produkte des Supermarkts bezahlt hat. Diese Situation soll eine Lehre für Maria sein, weil wenn man etwas in einem Geschäft kauft, und dann in einem anderen Supermark<correction>
+        <deletion>et</deletion>
+
+        <insertion>t</insertion>
+      </correction> geht, soll man die Handtasche an der Kasse <correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>d</insertion>
+      </correction>es zweiten Geschäfts lassen.<par/><closing>Vielen Grüßen,</closing><par/>Daniel</exercise>
+
+    
+  </body>
+</kolipsi_II_document>

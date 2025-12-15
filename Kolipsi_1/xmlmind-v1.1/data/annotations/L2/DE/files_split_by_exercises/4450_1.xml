@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>4450</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve">
+ <par/><greeting><palimpsest>Liebe</palimpsest> <entity><palimpsest>A</palimpsest>ngela</entity>,</greeting> <par/><entity>Maria</entity>, le<palimpsest>tzt</palimpsest>e Woche war in eine Obsthändler. Sie kauft die Obste und Gemüsen. Es war Montag. Eine Stunde später war sie im Supermarkt, <palimpsest>s</palimpsest>ie hat viele <palimpsest>D</palimpsest>inge gekauft für ihre <sic>Hause</sic>. Im Supermarkt, an der Kasse, <entity>Maria</entity>, hat eine große Probleme, weil die Obste und Gemüsen in ihre Tasche hatte. Die Frau an der Kasse <error>
+        <errorType/>
+
+        <originalForm>denckt</originalForm>
+
+        <targetForm>denkt</targetForm>
+      </error> dass, sie <error>
+        <errorType/>
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hat.<par/>An die Obsthändler hat sie verloren die <error>
+        <errorType/>
+
+        <originalForm>Kassenzettle</originalForm>
+
+        <targetForm>Kassenzettel</targetForm>
+      </error> und sie hat keine <sic>Prove</sic> dass die Gemüse ist von Obsthändler, sie weiß nicht was machen.<par/>Die Frau an die <error>
+        <errorType/>
+
+        <originalForm>Supermarkt<palimpsest> </palimpsest> Kasse</originalForm>
+
+        <targetForm>Supermarktkasse</targetForm>
+      </error> ruft die Polizei an. Wenn die Polizei in <error>
+        <errorType/>
+
+        <originalForm>Supermart</originalForm>
+
+        <targetForm>Supermarkt</targetForm>
+      </error> gehen, <entity>Maria</entity> mussen die <sic>spiegationen</sic> geben und<palimpsest> </palimpsest> sie mit die Polizei zu den Obsthändler gegangen. Die Frau an der Kasse vom Obsthändler hat die <error>
+        <errorType/>
+
+        <originalForm>Kassenzettle</originalForm>
+
+        <targetForm>Kassenzettel</targetForm>
+      </error> von <entity>Maria</entity> <sic>gebringen</sic>. Das Problem ist <error>
+        <errorType/>
+
+        <originalForm>Re<overwrite>
+            <under>v</under>
+
+            <over>s</over>
+          </overwrite>olviert</originalForm>
+
+        <targetForm>resolviert</targetForm>
+      </error> und <entity>Maria</entity>, in diese Tag, viele Spaß hatte. <closing><par/>Viele<palimpsest> <error>
+            <errorType/>
+
+            <originalForm>Grüse</originalForm>
+
+            <targetForm>Grüße</targetForm>
+          </error> </palimpsest><par/>deine <entity>Carla</entity> </closing> </exercise>
+
+    
+  </body>
+</kolipsi_document>

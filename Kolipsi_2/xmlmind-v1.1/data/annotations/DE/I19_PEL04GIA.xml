@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I19_PEL04GIA</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Lieber Max,</greeting><par />wie geht es dir? Mir ist heute etwas <error>
+        <errorType />
+
+        <originalForm>schreckliches</originalForm>
+
+        <targetForm>Schreckliches</targetForm>
+      </error> passiert.<par />Ich war heute beim Obsthändler und habe dort Obst und Gemüse gekauft. Ich habe, das dann alles in meine Tasche gesteckt <correction>
+        <deletion>habe</deletion>
+      </correction>. Als ich in den Supermarkt ging dachte die Kassiererin, dass ich das Obst gestohlen hatte. Also hat sie sofort die Polizei gerufen und ich hatte den Kassazettel verloren. Somit sind wir mit <correction>
+        <deletion>den de<correction>
+            <deletion>r</deletion>
+
+            <insertion>n</insertion>
+          </correction></deletion>
+      </correction> der Polizei in die Obsthändlerei gegangen und so konnte die Verkäuferin beweisen, dass es nicht so war. Doch zu dieser Zeit war die Obsthändlerei schon geschlossen. <correction>
+        <deletion>und dann standen wir nur noch</deletion>
+      </correction><par />So bin ich mit ihnen in die Quästur gefahren. Zum Glück fand ich, <correction>
+        <deletion>dann</deletion>
+      </correction> den Kassezettel in meiner Hosentasche. Somit wurde ich entlassen.<par />Ein <correction>
+        <deletion>S</deletion>
+
+        <insertion>s</insertion>
+      </correction>chreckliches <error>
+        <errorType />
+
+        <originalForm>Ereigniss</originalForm>
+
+        <targetForm>Ereignis</targetForm>
+      </error>.<par /><closing>Hoffe dich bald zu sehen.<par />Liebe Grüße.</closing></exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber Paul,</greeting><par /><error>
+        <errorType />
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> weiß genau von was Sie sprechen es ist mir nämlich auch einmal passiert. Sie sollten das genau den <error>
+        <errorType />
+
+        <originalForm>Betreffenden</originalForm>
+
+        <targetForm>betreffenden</targetForm>
+      </error> Menschen erklären. <correction>
+        <deletion>Es gibt ei</deletion>
+      </correction> Sie haben einen sehr guten Grund warum Sie <correction>
+        <deletion>die Ema</deletion>
+      </correction> sich von diesem Social Network gelöscht haben. Diese<correction>
+        <deletion>n</deletion>
+      </correction> Menschen gibt es vielleicht nicht <correction>
+        <deletion>und</deletion>
+      </correction> einmal. Manche Menschen sind schon davon abhängig und haben nicht einmal mehr die Möglichkeit sich zu löschen. Sie sollten sich darüber keine Gedanken machen und sich nicht davor schämen. Es gibt sehr viele Menschen die ihr ganzes Leben wegen einer Flamme aufgegeben hatte und danach von dem Menschen der dann tatsächlich hinter dem Computer saßen enttäuscht <correction>
+        <deletion>wurden.</deletion>
+      </correction> waren. Alles andere würde ich lieber mit Ihnen persönlich besprechen. Wann haben Sie denn Zeit?<par /><closing>Liebe Grüße</closing><par />Ihr treuer Berater.</exercise>
+  </body>
+</kolipsi_II_document>

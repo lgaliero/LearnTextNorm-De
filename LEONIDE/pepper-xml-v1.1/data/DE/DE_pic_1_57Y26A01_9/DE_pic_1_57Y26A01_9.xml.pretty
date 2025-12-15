@@ -1,0 +1,68 @@
+<body>
+ <page page_number="1" transcanno_page_id="140">
+  <paragraph class="medium-paragraph" tagcode="1526055195633">
+   <div>
+    1)
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1526054978604" tran_correction_original="[D*]">
+     Das
+    </tran_word_correction_id25>
+    Kind heißt Lucas und das Vater heißt
+   </div>
+   <div>
+    Pippo.
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1526055195635">
+   <div>
+    2) Lucas
+    <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1526055163198" tran_alternative_1="geben" tran_alternative_2="gelen">
+     gehen
+    </tran_ambiguous_id3>
+    in seine
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Schultasche" tagcode="1526055000072">
+     Schultasck
+    </orth_error_id12>
+    und
+   </div>
+   <div>
+    <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1526055130644" tran_alternative_1="gehen" tran_alternative_2="gelen">
+     geben
+    </tran_ambiguous_id3>
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1526055011572">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1526055016450" tran_word_deletion_target="_#_">
+      *
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+    zwei
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Blatt" tagcode="1526055026500">
+     blat
+    </orth_error_id12>
+    , und Pippo gehen zu hause.
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1526055195637">
+   <div>
+    3) Lucas
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="schmeißt" tagcode="1526055195632">
+     schmeiz
+    </orth_error_id12>
+    das
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Blatt" tagcode="1526055046824">
+     blat
+    </orth_error_id12>
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1526055067274">
+     *o
+    </tran_unreadable_id17>
+    in das
+   </div>
+   <div>
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1526055086250">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1526055096202" tran_word_deletion_target="_#_">
+      fenster
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+    Fenster. Pippo gehen eine Tabbich.
+   </div>
+  </paragraph>
+ </page>
+</body>

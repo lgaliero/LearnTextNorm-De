@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>N7019</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Liebe <entity>Sabrina</entity>,</greeting> <par/>wie geht es dir? Bei mir ist alles in Ordnung! <error>
+        <errorType/>
+
+        <originalForm>Weisst</originalForm>
+
+        <targetForm>Weißt</targetForm>
+      </error> du was den letzten Woche passiert ist? Unsere Freundin <entity>Maria</entity> war in einem Obst- und Gemüseladen. <palimpsest>Dort hat sie einige Gemüse</palimpsest> gekauft aber sie hat den Kassenzettel nicht bekommen. Später war sie im <foreign_word foreign_language="Italiano">Supermarket</foreign_word> wo sie <palimpsest>unreadable</palimpsest> vielen Sachen gekauft hat. Wenn sie aber an der Kasse gegangen war hat sie mit der <error>
+        <errorType/>
+
+        <originalForm>Kauferin</originalForm>
+
+        <targetForm>Käuferin</targetForm>
+      </error> ein<palimpsest> </palimpsest> Problem gehabt. Die <error>
+        <errorType/>
+
+        <originalForm>Kauferin</originalForm>
+
+        <targetForm>Käuferin</targetForm>
+      </error> hat in der Tasche von <entity>Maria</entity> d<palimpsest>i</palimpsest>e Gemüse gesehen und sie hat gedacht das <entity>Maria</entity> es im <foreign_word foreign_language="Italiano">Supermarket</foreign_word> genommen hat aber das sie es nicht bezahlen wollte. Die <error>
+        <errorType/>
+
+        <originalForm>Kauferin</originalForm>
+
+        <targetForm>Käuferin</targetForm>
+      </error> hat der Polizei angerufen. Nach <palimpsest>unreadable</palimpsest> zehn Minuten war der Polizei im <foreign_word foreign_language="Italiano">Supermarket</foreign_word> und sie hat <palimpsest>unreadable</palimpsest> mit <entity>Maria</entity> gesprochen. Am Ende glaubt der Polizei an <entity>Maria</entity>. Wenn <entity>Maria</entity> mir es erzählt hat habe ich gelacht aber es gibt nicht zu lachen weil es gefährlich ist. Hast du schon <overwrite>
+        <over>e</over>
+
+        <under>m</under>
+      </overwrite>in <overwrite>
+        <over>M</over>
+
+        <under>m</under>
+      </overwrite>al mit dem Kassenzettel Probleme gehabt? Ich Gott sei <error>
+        <errorType/>
+
+        <originalForm>dank</originalForm>
+
+        <targetForm>Dank</targetForm>
+      </error> nicht! <par/>Ich warte auf <overwrite>
+        <over>d</over>
+
+        <under>e</under>
+      </overwrite>ein<correction>
+        <deletion>e</deletion>
+      </correction> Antwort. <par/><closing><foreign_word foreign_language="Deutsch">Bussi</foreign_word> <par/> deine liebe <entity>Mayra</entity> </closing></exercise>
+
+    
+  </body>
+</kolipsi_document>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Romy</transcriber>
+
+  <author_id>6404</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Xenia</entity>!</greeting> <par />Danke für deine <error>
+        <errorType />
+
+        <originalForm>Email</originalForm>
+
+        <targetForm>E-Mail</targetForm>
+      </error>! <par />Ich erzähle dir, was <entity>Maria</entity> passiert ist. Letzte Woche war <entity>Maria</entity> einkaufen. Zuerst ging sie beim Obsthändler um Obst und Gemüse zu kaufen. Sie bezahlte an der Kasse und ging weg, aber sie vergaß das Geld und den Kassenzettel in dem Obst- und Gemüseladen. Dann ging sie in einen <foreign_word
+        foreign_language="Italiano">Supermarket</foreign_word> und dort gab es ein Problem an der Kasse: <entity>Maria</entity> hatte kein Geld, um die <error>
+        <errorType />
+
+        <originalForm>Produckte</originalForm>
+
+        <targetForm>Produkte</targetForm>
+      </error> zu bezahlen, und kein Kassenzettel der Gemüse! Sie wußte nicht, dass sie das Geld im Obst- und Gemüseladen vergessen hat. Die Frau an der Kasse <error>
+        <errorType />
+
+        <originalForm>began</originalForm>
+
+        <targetForm>begann</targetForm>
+      </error> zu sagen, dass <entity>Maria</entity> die <error>
+        <errorType />
+
+        <originalForm>Produckte</originalForm>
+
+        <targetForm>Produkte</targetForm>
+      </error> die sie kaufen möchtet, im Supermarkt lassen musste. Dann fällt <entity>Maria</entity> ein, dass sie das Geld im Obst- und Gemüseladen vergessen hat, und läuft in d<palimpsest>en</palimpsest> Laden. Dort <error>
+        <errorType />
+
+        <originalForm>nam</originalForm>
+
+        <targetForm>nahm</targetForm>
+      </error> sie das Geld und den Kassenzettel und ging in den Supermarkt, wo sie endlich bezahlte. <par />Eine komische Geschichte! Zum Glück ist alles in Ordnung. <entity>Maria</entity> und ich haben <error>
+        <errorType />
+
+        <originalForm>dan</originalForm>
+
+        <targetForm>dann</targetForm>
+      </error> mit den <error>
+        <errorType />
+
+        <originalForm>Produckten</originalForm>
+
+        <targetForm>Produkten</targetForm>
+      </error>, die sie gekauft hat, eine Torte gebacken. Sie schmeckt gut! <par />Ist dir auch etwas Komisch passiert? <par /><closing>Bis bald <par />Herzliche Grüße <par /><entity>Elena</entity></closing></exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Ylenia</entity>!</greeting> <par />Danke für deinen Brief! Ich freue mich ja immer sehr, wenn ich Post von dir bekomme! Wie geht es dir? <par />Die Schule ist bald fertig: <error>
+        <errorType />
+
+        <originalForm>wir</originalForm>
+
+        <targetForm>Wir</targetForm>
+      </error> können unseren Urlaub planen. Wir müssen noch das Ziel wählen: Urlaub in den Bergen oder am Meer? Am Meer ist der Urlaub erholsam, wir können am Strand liegen, schwimmen, Fische sehen und vielleicht auch in die Disko gehen, obwohl ich sie nicht mag. <par />In den Bergen können wir lange Spaziergänge machen, frische Luft atmen, viele Tiere und Blumen sehen und mehr in Kontakt mit der Natur sein. Es gibt sicher Gemeinsamkeiten, wie die Natur, und Unterschiede, wie die Landschaft. Ich habe die Berge lieber, weil ich <palimpsest>viele</palimpsest> Reisen und Spaziergänge gemacht habe und die Landschaft mag. Man kann sehen wie schön die Welt ist, wenn man in den Bergen geht. <par />Wir können unseren Urlaub in den Bergen verbringen, oder hast du den Urlaub am Meer lieber? <par />Wenn wir das Ziel gewählt haben, kaufen wir die Fahrkarten und buchen ein Zimmer in einem Hotel oder einen Bungalow in einem Camping. <par />Schreib mir bald!<par /><closing>Herzliche <sic>Gruße</sic> <par /> <entity>Elena</entity> </closing></exercise>
+  </body>
+</kolipsi_document>

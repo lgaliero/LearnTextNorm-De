@@ -1,0 +1,44 @@
+<body>
+ <page page_number="1" transcanno_page_id="221">
+  <paragraph class="medium-paragraph" tagcode="1540846074753">
+   <div>
+    Ich
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1540846041138" tran_correction_original="möchtest">
+     möchte
+    </tran_word_correction_id25>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1540846045780" tran_word_deletion_target="_#_">
+     ist
+    </tran_word_deletion_id8>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1540846050163" tran_word_deletion_target="_#_">
+     Kuhen
+    </tran_word_deletion_id8>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1540846057297" tran_correction_original="Kochen">
+     Koch
+    </tran_word_correction_id25>
+    werden
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1540846074754">
+   <div>
+    Mein
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Traumberuf" tagcode="1540846068965">
+     Traumberub
+    </orth_error_id12>
+    ist
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1540846074752" tran_correction_original="Koch">
+     Kochen
+    </tran_word_correction_id25>
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1540846074756">
+   <div>
+    Ich möchte die Kochschule machen.
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1540846074757">
+   <div>
+    Ich muss kochen
+   </div>
+  </paragraph>
+ </page>
+</body>

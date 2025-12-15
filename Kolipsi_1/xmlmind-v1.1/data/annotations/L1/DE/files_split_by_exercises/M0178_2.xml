@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0178</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Lieber <entity>Manfred</entity></greeting>,<par/>wie geht es dir? Uns geht es gut. Wir sind schon im Urlaubsfieber, obwohl wir nicht einmal wissen, wo wir hinfahren sollen<par/>Die Möglichkeiten, die uns zur Auswahl stehen wären zum einen die wunderschönen Berge mit ihren vielen Facetten und Freizeit<hyphen>-</hyphen>möglichkeiten, und zum anderen der Strand. Hier könnte man sich entspannen und die strahlende Sonne genießen. Wird es einem zu heiß, könnte man sich im wunderbar klaren und sauberen Wasser erfrischen.<par/>Fest steht, dass wir unseren Urlaub genießen wollen.<par/>Ob wir etwas Bewegung, also Wandern, im Urlaub wollen wissen wir ebenfalls nicht. Die Vorteile des Wanderns <correction>
+        <deletion>lie</deletion>
+      </correction> in den Bergen liegen klar auf der Hand. Hier liegen Entspannung und <overwrite>
+        <under><unreadable/></under>
+
+        <over>B</over>
+      </overwrite>eschäftigung nahe beieinander. Außerdem <correction>
+        <deletion><unreadable/></deletion>
+      </correction> ist die Küche hervorragend.<par/>Strände machen aber ebenfalls ihre Reize aus: Nur in der Sonne zu liegen und seinem Alltagsstress zu entfliehen ist <correction>
+        <deletion><unreadable/></deletion>
+      </correction> auch verlockend. Ich habe nun unsere Sicht gegenüber unseren möglichen Urlaubszielen geschildert, und hoffe, dass du uns <correction>
+        <deletion>eb</deletion>
+      </correction> einige Tips für unsere Urlaubsplan<correction>
+        <deletion>g</deletion>
+      </correction>ung geben kannst.<par/><closing>Deine <correction>
+          <deletion><unreadable/></deletion>
+        </correction> <entity>Inge</entity></closing>          </exercise>
+  </body>
+</kolipsi_document>

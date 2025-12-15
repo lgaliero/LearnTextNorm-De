@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Romy</transcriber>
+
+  <author_id>6406</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Stephanie</entity>! </greeting> <par />Wie geht´s? Mir gut, wie immer. Ich habe eine <error>
+        <errorType />
+
+        <originalForm>Neugkeit</originalForm>
+
+        <targetForm>Neuigkeit</targetForm>
+      </error>. <error>
+        <errorType />
+
+        <originalForm>Weisst</originalForm>
+
+        <targetForm>Weißt</targetForm>
+      </error> du, was letzte Woche <entity>Maria</entity> passiert ist? Ich erzähle dir alles. Also, <entity>Maria</entity> war letzte Woche einkaufen. <error>
+        <errorType />
+
+        <originalForm>sie</originalForm>
+
+        <targetForm>Sie</targetForm>
+      </error> ging zum Obsthändler und dort kaufte sie Obst und Gemüse, da sie einige Freunde zum <error>
+        <errorType />
+
+        <originalForm>abendessen</originalForm>
+
+        <targetForm>Abendessen</targetForm>
+      </error> einladen wollte. An der Kasse bezahlte sie alles und legte in eine Tasche was sie gekauft hatte. Danach ging sie in den Supermarkt und kaufte etwas zum <error>
+        <errorType />
+
+        <originalForm>trinken</originalForm>
+
+        <targetForm>Trinken</targetForm>
+      </error> und <error>
+        <errorType />
+
+        <originalForm>essen</originalForm>
+
+        <targetForm>Essen</targetForm>
+      </error>; wenn ich mich gut erinnere hat sie Saft, Bier, Spaghetti und Käse gekauft. Als sie bei der Kasse war, legte sie alles auf die Maschine, aber die Kassiererin sah, dass <entity>Maria</entity> etwas in der Tasche hatte, und dachte, dass sie es gestohlen hatte! Stelle dich vor, wie <entity>Maria</entity> sich fühlte! Alle Leute, die im Geschäft waren, schauten sie erstaunt an! <entity>Maria</entity> muss sich sicher seh<overwrite>
+        <over>r</over>
+
+        <under>t</under>
+      </overwrite> geschämt haben! Sie wollte den Kassenzettel vom Obsthändler zeigen, aber sie hatte ihn im anderen Geschäft vergessen! Die Lage war wirklich schlecht nicht wahr? Zum Glück hat sie es sich alles gelöst, da <entity>Maria</entity> mit dem Handy den <overwrite>
+        <over>O</over>
+
+        <under>Ö</under>
+      </overwrite>bsthändler anrief und er der Kassiererin alles erklärte. <error>
+        <errorType />
+
+        <originalForm>also</originalForm>
+
+        <targetForm>Also</targetForm>
+      </error> glaubte die Frau an <entity>Maria</entity>, die bezahlte und nach Hause ging. <par /><closing>Bis bald <par /> <entity>Irene</entity></closing> </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Stephanie</entity>,</greeting> <par />wie geht es dir? Mir geht es jetzt ziemlich gut, obwohl ich vor kurzem eine schlechte Zeit erlebt habe. Danke für deinen letzten Brief, er war ganz nett! Es freut mich, dass du neue Freunde kennen gelernt hast. <par />Ich schreibe dir, um dich zu fragen, ob es dir gefallen würde, zusammen den Sommeruralub zu verbringen. Das wäre eine tolle Idee, nicht wahr? <par />Ich aber nicht sicher, wohin wir lieber fahren sollten, ob ans Meer oder in die Berge. Beides sind ganz tolle Möglichkeiten, aber <overwrite>
+        <over>v</over>
+
+        <under>w</under>
+      </overwrite>ielleicht wäre es für uns besser, ans Meer zu fahren, da wir in der Nähe vom Gebirge leben. Was denkst du darüber? Vergleichen wir diese zwei Möglichkeiten. Am Meer ist es einfacher neue Leute zu kennen und Sehenswürdigkeiten zu finden; in den Bergen kan<palimpsest>n</palimpsest> man sich aber besser entspannen und Ruhe finden. Am Meer könnten wir uns in einer Pension aufenthalten, in den Bergen in einem Gasthof oder in einer H<palimpsest>ü</palimpsest>tte. Wenn wir Glück haben, können wir möglich auch nicht zu viel ausgeben, aber wir müssen so früh wie möglich alles organisieren, sonst wird es <error>
+        <errorType />
+
+        <originalForm>Mengel</originalForm>
+
+        <targetForm>Mangel</targetForm>
+      </error> an Zimmern geben, besonderns im Sommer! <par />Wir müssen nur entscheiden, was für einen Urlaub wir wollen, ob wir Spaß, Wärme und Meer, oder Ruhe, Frische und Berge möchten, sicher ist es, dass diese Ferien sicher toll sein werden, we<overwrite>
+        <over>nn</over>
+
+        <under>i</under>
+      </overwrite> wir zusammen sie verbingen werden! <par />Schreib mir bald was du darüber denkst! <par /><closing>Viele <palimpsest>herz</palimpsest>liche Grüße <par />deine <entity>Irene</entity> </closing></exercise>
+  </body>
+</kolipsi_document>

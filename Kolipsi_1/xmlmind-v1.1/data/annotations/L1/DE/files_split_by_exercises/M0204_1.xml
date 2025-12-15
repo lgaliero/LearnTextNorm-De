@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0204</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Hans-Peter</entity></greeting>!<par/>Wie geht es dir? Mir geht es soweit gut, nur musste ich leider gerade von einer Freundin eine ganz schön peinliche Geschichte hören. Kennst du <entity>Maria</entity>? Sie geht in meine Stufe. Ich habe sie gestern im Supermarkt bei mir um die Ecke getroffen, du weißt doch der direkt neben <entity>Kik</entity>. Sie stand verzweifelt an der Kasse, weil sie als sie vorher im Gemüseladen von <entity>Frau Heinrichs</entity> war, ihr Geld dort auf dem Tresen vergessen hatte. Leider ist ihr das erst an<correction>
+        <deletion><unreadable/></deletion>
+      </correction> der Supermarktkasse aufgefallen. Die Kassiererin war ganz schön sauer, <error>
+        <errorType/>
+
+        <originalForm>vorallem</originalForm>
+
+        <targetForm>vor allem</targetForm>
+      </error> weil der Supermarkt total überfüllt war und <entity>Maria</entity> die ganze Schlange aufgehalten hat. Als ich sie dann traf <correction>
+        <deletion>war</deletion>
+      </correction> stand sie gerade mit Tränen in den Augen am Eingang. Ihre Mutter hatte ihr nämlich aufgetragen für ihre kranke Großmutter einzukaufen und jetzt hatte sie kein Geld mehr und konnte ihre Mutter nicht erreichen. Ich habe sie erstmal in den Arm genommen und da sie nur einige wenige Sachen besorgen musste, bin ich mit ihr losgezogen und habe alles gekauft. Auf dem Weg durch die Regale hat <entity>Maria</entity> mir tausendmal gedankt. Aber ich war einfach nur froh, dass ich ihr helfen konnte. Ich hoffe dir geht es gut und wir sehen uns bald wieder!<par/><closing>Viele Grüße auch an deine Familie<par/>Hab dich lieb<par/><entity><unreadable/></entity></closing>   </exercise>
+
+    
+  </body>
+</kolipsi_document>

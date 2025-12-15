@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I05_COR21REB</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo Moritz,</greeting><par />wie geht es dir? Ich habe dir jetzt sehr lange nimmer gesehen. Hat dir Maria schon erzählt was ihr vor ein paar Tage passiert ist? <correction>
+        <deletion>M<unreadable /></deletion>
+      </correction> Maria ist letzte Woche einkaufen gegangen, sie <correction>
+        <deletion>kaufte</deletion>
+      </correction> hat zuerst in einem <error>
+        <errorType />
+
+        <originalForm>Obst</originalForm>
+
+        <targetForm>Obst-</targetForm>
+      </error> und Gemüseladen eingekauft, aber <correction>
+        <deletion><unreadable /></deletion>
+      </correction> sie ha<correction>
+        <deletion>d</deletion>
+
+        <insertion>t</insertion>
+      </correction> den Kassenzettel dort gelassen. Nach eine Stunde war sie im <foreign_word
+        foreign_language="Italiano">Supermarket</foreign_word>, weil sie brauchte noch Milch, Brot, <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Fleisch, und Käse. Wenn sie zur Kasse gegangen ist um zu <correction>
+        <deletion><unreadable /> z</deletion>
+      </correction> zahlen fragte ihr die Verkäuferin warum sie das Obst und Gemüse schon <error>
+        <errorType />
+
+        <originalForm>eingepakt</originalForm>
+
+        <targetForm>eingepackt</targetForm>
+      </error> hatte; <correction>
+        <deletion>und</deletion>
+      </correction> Maria erklärte ihr dass sie früher in einem <error>
+        <errorType />
+
+        <originalForm>Obst</originalForm>
+
+        <targetForm>Obst-</targetForm>
+      </error> und Gemüseladen einkaufen gegangen ist; dann fragte ihr die Verkäuferin ob<correction>
+        <deletion>s</deletion>
+      </correction> sie ihr den Kassenzettel zeigen kann<correction>
+        <deletion>,</deletion>
+
+        <insertion>.</insertion>
+      </correction> <correction>
+        <deletion><unreadable /> Maria</deletion>
+      </correction> Maria suchte den Kassenzettel überall aber sie findet keine<correction>
+        <deletion>m</deletion>
+
+        <insertion>n</insertion>
+      </correction>. <correction>
+        <deletion>, so klärte</deletion>
+      </correction> Die Verkäuferin glaubte nicht dass Maria wirklich <correction>
+        <deletion><unreadable /></deletion>
+      </correction> davor in einem <error>
+        <errorType />
+
+        <originalForm>Obst</originalForm>
+
+        <targetForm>Obst-</targetForm>
+      </error> und Gemüseladen einkaufen war, so musste Maria wieder zurück zum <error>
+        <errorType />
+
+        <originalForm>Obst</originalForm>
+
+        <targetForm>Obst-</targetForm>
+      </error> und Gemüseladen gehen um den Kassenzettel zu holen. Wenn Maria den Kassenzettel <correction>
+        <deletion>zu <unreadable /></deletion>
+      </correction> die Verkäuferin <correction>
+        <deletion>zeigte</deletion>
+      </correction> zeigte, durfte sie ihre <error>
+        <errorType />
+
+        <originalForm>einkauf</originalForm>
+
+        <targetForm>Einkauf</targetForm>
+      </error> endlich bezahlen, ohne Obst und Gemüse. Das wars, was dür eine komische Geschichte, was denkst du?<par /><closing><reduction>
+          <reductionType rType="02 abbreviation" />
+
+          <reducedForm>Lg</reducedForm>
+
+          <unfoldedForm>Liebe Grüße</unfoldedForm>
+        </reduction></closing> <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Silvia</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo Paul,</greeting><par />ich habe dein Brief in der Zeitung "Junge Woche" gelesen. Ich habe mich entschieden dir zu antworten weil ich eine <correction>
+        <deletion><unreadable /></deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>änliche</originalForm>
+
+        <targetForm>ähnliche</targetForm>
+      </error> Erfahrung erlebt habe. Ich habe auch vor ein paar Jahre gechattet um neue Leute zu kennen, und ich muss sagen dass nach weniger Zeit viele Leute chatteten mit mir. Aber nach <correction>
+        <deletion><unreadable /></deletion>
+      </correction> ein paar Monaten hatte ich mehr <error>
+        <errorType />
+
+        <originalForm>Virtuelle</originalForm>
+
+        <targetForm>virtuelle</targetForm>
+      </error> Freunde als <error>
+        <errorType />
+
+        <originalForm>Reale-<correction>
+            <deletion>P</deletion>
+
+            <insertion>F</insertion>
+          </correction>reunde</originalForm>
+
+        <targetForm>reale Freunde</targetForm>
+      </error>, so entschiede ich mir diese Sache zu ändern. Ich sagte an mich selbst dass ich nur <correction>
+        <deletion>1</deletion>
+      </correction> eine halb Stunde <error>
+        <errorType />
+
+        <originalForm>Pro</originalForm>
+
+        <targetForm>pro</targetForm>
+      </error> Tag Internet verwenden könnte, und <error>
+        <errorType />
+
+        <originalForm>dass</originalForm>
+
+        <targetForm>das</targetForm>
+      </error> funktionierte perfekt, jetzt habe ich viele <error>
+        <errorType />
+
+        <originalForm>Reale-Freunde</originalForm>
+
+        <targetForm>reale Freunde</targetForm>
+      </error>, und immer noch meine <error>
+        <errorType />
+
+        <originalForm>Virtuelle-Freunde</originalForm>
+
+        <targetForm>virtuelle Freunde</targetForm>
+      </error> mit den ich <correction>
+        <deletion><unreadable /></deletion>
+      </correction> aber nur eine halbe Stunde pro Tag spreche. Das ist mein <error>
+        <errorType />
+
+        <originalForm>Tip</originalForm>
+
+        <targetForm>Tipp</targetForm>
+      </error> für dich, probiere <error>
+        <errorType />
+
+        <originalForm>Mal</originalForm>
+
+        <targetForm>mal</targetForm>
+      </error> <correction>
+        <deletion><unreadable /></deletion>
+      </correction> auch so was zu machen, das wird sicher besser für deine Situation. Meiner Meinung nach Internet ist sicher ein wichtiges <error>
+        <errorType />
+
+        <originalForm>element</originalForm>
+
+        <targetForm>Element</targetForm>
+      </error> für unser <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Alltag, aber <error>
+        <errorType />
+
+        <originalForm>mann</originalForm>
+
+        <targetForm>man</targetForm>
+      </error> muss <correction>
+        <deletion><unreadable /></deletion>
+      </correction> mit Internet nicht übertreiben.<par />Ich hoffe dass meine <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Antwort dir <correction>
+        <deletion>g</deletion>
+      </correction> ein bisschen geholfen hat. Lass was <correction>
+        <deletion><unreadable /></deletion>
+      </correction> von dich hören.<par /><closing><reduction>
+          <reductionType rType="02 abbreviation" />
+
+          <reducedForm>Lg</reducedForm>
+
+          <unfoldedForm>Liebe Grüße</unfoldedForm>
+        </reduction></closing> Silvia</exercise>
+  </body>
+</kolipsi_II_document>

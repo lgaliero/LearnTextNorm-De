@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0081</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Hans-Werner-Pascal-Serafino</entity></greeting>,<par/>wie geht es dir? Ich muss <correction>
+        <deletion>die</deletion>
+      </correction> dir etwas total <error>
+        <errorType/>
+
+        <originalForm>witziges</originalForm>
+
+        <targetForm>Witziges</targetForm>
+      </error> erzählen. Du kennst doch meine beste Freundin <entity>Maria</entity>. - Sie war letztens ein<hyphen>-</hyphen>kaufen und wurde des Diebstahls verdächtigt.<par/>Als <error>
+        <errorType/>
+
+        <originalForm>erstes</originalForm>
+
+        <targetForm>Erstes</targetForm>
+      </error> war sie bei <entity>REWE</entity> einkaufen und hat dort einen Salatkopf <correction>
+        <deletion>,</deletion>
+      </correction> <correction>
+        <insertion>und andere Sachen</insertion>
+      </correction> gekauft aber den Kassenbon vergessen. - Das war echt ein Missgeschick, denn danach ist sie noch zu <entity>Lidl</entity> gegangen und dort ist dann das <error>
+        <errorType/>
+
+        <originalForm>blöde</originalForm>
+
+        <targetForm>Blöde</targetForm>
+      </error> passiert. Und zwar ist die Verkäuferin total ausgetickt, weil <entity>Maria</entity> die Sachen in ihrer Tasche angeblich geklaut hat, dabei waren das die, die sie <sic>in</sic> <entity>Rewe</entity> gekauft hat. - Die Verkäu<hyphen>-</hyphen>ferin hat sofort die Ladendetektive gerufen und <entity>Maria</entity> musste nachweisen, dass sie nicht geklaut hat. - Konnte sie aber nicht, weil sie schließlich den Bon bei <entity>Rewe</entity> lie<hyphen>-</hyphen>gen gelassen hat.<par/>Zum Glück kannte sie aber die Verkäuferin <entity>Uschi Glastür</entity> und hat sie auf ihrem Handy angerufen. - Zum Glück hatte die gerade Feierabend un<over>d</over> konnte den Bon vor<hyphen>-</hyphen>beibringen.<par/>Schließlich haben sich die Verkäuferin und die De<hyphen>-</hyphen><correction>
+        <deletion>tektisch</deletion>
+      </correction>tektive bei <entity>Maria</entity> entschuldigt und sie hat sogar als Entschädigung eine Dose Erbsensuppe ge<hyphen>-</hyphen>schenkt bekommen. - Am Ende ist also doch noch alles positiv verlaufen und <entity>Maria</entity> hatte etwas zum Abendessen.<par/><closing>Viele Grüße,<par/><entity><par/>Hans-Werner-Pascal-Serafino</entity></closing>       </exercise>
+
+    
+  </body>
+</kolipsi_document>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5894</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Hallo <entity>Elisa</entity>,</greeting> <par/><gap>_</gap> wie gehts? Ich habe zwei Urlaub geplant und du musst welches du liebst mir sagen. <par/>Die erste ist ein Urlaub zu die wunderschöne<correction>
+        <deletion>n</deletion>
+      </correction> Bergen des <foreign_word foreign_language="English"><entity>Switzerland</entity></foreign_word>. In den Bergen <error>
+        <errorType/>
+
+        <originalForm>Konnen</originalForm>
+
+        <targetForm>können</targetForm>
+      </error> wir mit dem Fahrrad gehen oder bei <error>
+        <errorType/>
+
+        <originalForm>Fuss</originalForm>
+
+        <targetForm>Fuß</targetForm>
+      </error> gehen. Wir will in eine Hotel leben für 2 Wochen. Die zweite ist <correction>
+        <deletion>ein</deletion>
+      </correction> 2 Wochen in <sic><entity>Caraibi<overwrite>
+            <over>c</over>
+
+            <under>i</under>
+          </overwrite></entity></sic>: ein <error>
+        <errorType/>
+
+        <originalForm>Paradys</originalForm>
+
+        <targetForm>Paradies</targetForm>
+      </error>. Die Wasser ist <correction>
+        <deletion>der</deletion>
+
+        <insertion>die</insertion>
+      </correction> Farbe des Himmels und wir <error>
+        <errorType/>
+
+        <originalForm>konnen</originalForm>
+
+        <targetForm>können</targetForm>
+      </error> schwimmen und eine <error>
+        <errorType/>
+
+        <originalForm>Kleine</originalForm>
+
+        <targetForm>kleine</targetForm>
+      </error> <overwrite>
+        <over>U</over>
+
+        <under>u</under>
+      </overwrite>rlaub (3 Tage) auf <correction>
+        <deletion><unreadable/></deletion>
+      </correction> eine <error>
+        <errorType/>
+
+        <originalForm>Kleine</originalForm>
+
+        <targetForm>kleine</targetForm>
+      </error> Insel. <par/>Was denkst du? Ich liebe die 2 Wochen <sic><entity>Caraibi</entity></sic> <par/><closing><correction>
+          <deletion><unreadable/></deletion>
+        </correction> <entity>Giulia</entity> </closing></exercise>
+  </body>
+</kolipsi_document>

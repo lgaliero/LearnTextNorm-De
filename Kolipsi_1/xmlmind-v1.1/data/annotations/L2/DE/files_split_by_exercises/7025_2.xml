@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>N7025</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Marta</entity>,</greeting> <par/>wie geht es dir? <par/>Mir geht es ganz gut. <par/>Heute ist eine schöne <correction>
+        <deletion>Tag</deletion>
+      </correction> Morgen. Ich will dir einen <correction>
+        <deletion>Urlaub</deletion>
+      </correction> gemeinsamen Urlaub planen. Ich <error>
+        <errorType/>
+
+        <originalForm>weiss</originalForm>
+
+        <targetForm>weiß</targetForm>
+      </error> nicht ob du lieber in <sic>der</sic> Berge oder <error>
+        <errorType/>
+
+        <originalForm>liber</originalForm>
+
+        <targetForm>lieber</targetForm>
+      </error> ans Meer fahren sollen. <par/>Wenn wir <overwrite>
+        <over>ans</over>
+
+        <under><unreadable/></under>
+      </overwrite> Meer fahren, gehen wir <correction>
+        <deletion>auf</deletion>
+      </correction> an die <foreign_word foreign_language="Italiano"><entity>Azzorre</entity></foreign_word>, in eine<correction>
+        <insertion>m</insertion>
+      </correction> kleinen Haus, mit eine Wohnzimmer, eine Badezim<hyphen>-</hyphen>mer und zwei <sic>Betts</sic>. Dort ist sehr schön. Das Meer ist <error>
+        <errorType/>
+
+        <originalForm>helbBlau</originalForm>
+
+        <targetForm>hellblau</targetForm>
+      </error> mit vielen kleinen bunten Fischen, auf <sic>der</sic> Sand gibt es viele Palmen. Wenn <correction>
+        <deletion>du</deletion>
+
+        <insertion>wir</insertion>
+      </correction> auf Berge sollen <correction>
+        <deletion>komm fahren</deletion>
+      </correction> fahren, können wir in einen Hof blieben. Es gibt ein <correction>
+        <deletion>V</deletion>
+      </correction> groß Wohnzim<overwrite>
+        <over>m</over>
+
+        <under><unreadable/></under>
+      </overwrite>er mit <sic>ein</sic> Klavier, <sic><overwrite>
+          <over>e</over>
+
+          <under>E</under>
+        </overwrite>ine</sic> Zimmer mit zwei <sic>Betts</sic> und eine Küche und ein Bad. <par/><sic>Der</sic> Wirtschaft ist sehr schön: grüne Wiese mit <sic>viele</sic> Blumen. <sic>und</sic> See. <par/><closing>Viele Grüße. <entity>Elena</entity>.</closing></exercise>
+  </body>
+</kolipsi_document>

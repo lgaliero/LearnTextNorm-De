@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5703</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo<entity> Martina </entity>wie gehts?</greeting><par/>Ich muss eine Geschichte <correction>
+        <deletion>dem letzte Woche erzählen.</deletion>
+      </correction> zu dir erzählen. <correction>
+        <deletion>Letze Woche</deletion>
+      </correction> <overwrite>
+        <under>m</under>
+
+        <over>M</over>
+      </overwrite>eine Freundin <entity>Maria</entity> war letzte Woche einkaufen. Sie war zuerst in einem <error>
+        <errorType/>
+
+        <originalForm>Obst</originalForm>
+
+        <targetForm>Obst-</targetForm>
+      </error> und Gemüseladen und <correction>
+        <deletion>dann in</deletion>
+      </correction> eine Stunde später sie war im <foreign_word foreign_language="Italiano">Supermarket</foreign_word>.<par/>Wenn sie zu die Kasse dem <foreign_word foreign_language="Italiano">Supermarket</foreign_word> war sie hätte keine Geld!<par/>Sie hätte die Geld zu die Kasse dem <error>
+        <errorType/>
+
+        <originalForm>Obst</originalForm>
+
+        <targetForm>Obst-</targetForm>
+      </error> und Gemüseladen <sic>verlamen</sic>. Zum Glück sie hätte <correction>
+        <deletion><unreadable/></deletion>
+      </correction>seine <foreign_word foreign_language="Italiano">Bancomat</foreign_word> mit sie, so sie könnte zahlen.</exercise>
+
+    
+  </body>
+</kolipsi_document>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I23_EMA09ELI</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve">An: julia.128@gmail.com<par />Betreff: meine Er<correction>
+        <deletion><unreadable /></deletion>
+      </correction>fahrung<par />27/03/2015<par /><greeting>Liebe Julia,</greeting><par /><error>
+        <errorType />
+
+        <originalForm>Wie</originalForm>
+
+        <targetForm>wie</targetForm>
+      </error> geht's dir? Bei mir ist es alles gut.<par />Ich war im Urlaub letzte Woche, ich und meine Freundin Maria sind zu Italien gefahren, wo meine Großmutter lebt.<par />Ich wollte ein paar Tage mit ihr verbringen, weil sie allein ist und <correction>
+        <deletion><unreadable /></deletion>
+      </correction> ihre Gesundheit ist <correction>
+        <deletion><unreadable /></deletion>
+      </correction> nicht mehr <error>
+        <errorType />
+
+        <originalForm>die selbe</originalForm>
+
+        <targetForm>dieselbe</targetForm>
+      </error>.<par />Aber lass, dass ich dir erzähle was mit Maria passiert ist.<par />Meine Oma hat uns das Geld gegeben um <correction>
+        <deletion><unreadable /></deletion>
+      </correction> etwas für das Mittagsessen zu kaufen. So zuerst sind wir in einem Obst- und Gemüsemarket gegangen, wo wir Salat und Er<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>d</insertion>
+      </correction>beeren zum Dessert eingekauft.  Danach sind wir neben die <error>
+        <errorType />
+
+        <originalForm>Backerei</originalForm>
+
+        <targetForm>Bäckerei</targetForm>
+      </error> gegangen und wir haben entschiedet das Brot zu einkaufen.<par />Maria hat<correction>
+        <insertion>te</insertion>
+      </correction> alles in ihre Tasche und, wenn wir im<correction>
+        <deletion><unreadable /></deletion>
+      </correction> Supermarkt eingegan<correction>
+        <insertion>gen</insertion>
+      </correction> sind, alles war normal. Wir haben eingekauf<correction>
+        <deletion>e</deletion>
+
+        <insertion>t<correction></correction></insertion>
+      </correction><correction>
+        <deletion>n</deletion>
+      </correction> und am Ende, wenn wir bezahlen müssten, passiert eine lustige Situation. Die Frau, die hinter die Kasse war, hat die Tasche von Maria gesehen. <correction>
+        <deletion><unreadable /></deletion>
+      </correction> <correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>D</insertion>
+      </correction>ie Gemüse waren <foreign_word foreign_language="English">half</foreign_word> raus der Tasche und die Frau hat uns akkusiert zu rubieren.<par />Wir haben sie erzählt, dass wir zuerst in ein anderem <foreign_word
+        foreign_language="Italiano">Market</foreign_word> waren, aber die Situation war nicht einfach. Am Ende haben wir zum Glück geschafft um sie zu überzeugen.<par /><closing>Schreib mir bald!<par />Viele Grüße</closing><par />Sarah</exercise>
+
+    <exercise number="2" xml:space="preserve">An: <correction>
+        <deletion>paul@gmail.com</deletion>
+      </correction> paul2000@email.de<par />Betreff: Lösung seines Problems<par />27/03/2015<par /><greeting>Hallo Paul,</greeting><par />ich habe deine Anzeige gelesen und ich wollte gern dir ein paar Tipps geben.<par />Ich glaube, dass virtuelle Freundschaft nicht richtigen Relationen sind. Ich bin der Meinung, dass es gut ist um neue Freunde durch die Internet zu finden aber du musst auch <correction>
+        <insertion>dich</insertion>
+      </correction> mit diesen Personen treffen und sprechen, nicht nur SMS oder <error>
+        <errorType />
+
+        <originalForm>E-mail</originalForm>
+
+        <targetForm>E-Mail</targetForm>
+      </error> schrei<hyphen>-</hyphen>ben. Du solltest nicht mehr für diese Leute, die du nicht wirklich <correction>
+        <deletion>kennen</deletion>
+
+        <insertion>kennen</insertion>
+      </correction>lernt, leben. Also ich glaube, dass du an deine virtuelle Freunde antworten kann und du kannst ihnen sagen die Motivation deine Entscheidung so dass <correction>
+        <deletion><unreadable /></deletion>
+      </correction> sie dir helfen kann und vielleicht <correction>
+        <deletion><unreadable /></deletion>
+      </correction> musstet ihr euch auch treffen.<par />Sprechen <foreign_word
+        foreign_language="English">"face to face"</foreign_word> ist wichtig!<par />Ich habe nie Erfahrungen durch die Internet gemacht <correction>
+        <deletion><unreadable /></deletion>
+      </correction>, weil <correction>
+        <deletion>f</deletion>
+      </correction> ich das Kontakt mit den Personen besser finde und ich glaube, dass auch du es probieren kann.<par />Das Leben <correction>
+        <deletion>s</deletion>
+      </correction> ist nicht im Internet, Paul!<par />Wenn du <correction>
+        <deletion>h</deletion>
+
+        <insertion>H</insertion>
+      </correction>ilfe braucht, bin ich immer hier.<par />Schreib oder ruf mich an!<par />I<closing>Tschüss</closing><par />Sarah</exercise>
+  </body>
+</kolipsi_II_document>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5293</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Liebe Freund</greeting>, <par/>wir <error>
+        <errorType/>
+
+        <originalForm>mussen</originalForm>
+
+        <targetForm>müssen</targetForm>
+      </error> noch unseren gemeinsamen Urlaub planen. <par/>Wir sind noch nicht sicher, ob w<palimpsest>ir</palimpsest> lieber in die Berge oder lieber ans Meer fahren sollen. <par/>Ich glaube, dass ans Meer fahren, ist besser weil es die Sonne gibt, und wir können schwimmen, Sonne nehmen, <foreign_word foreign_language="Italiano">Surf</foreign_word> machen und so weiter. Wenn wir in die Berge fahren was können wir machen? Nur spazieren!! Ist für diese Gründe, dass ich, dann besser ans Meer fahren, glaube!! <par/><error>
+        <errorType/>
+
+        <originalForm>wenn</originalForm>
+
+        <targetForm>Wenn</targetForm>
+      </error> du in die Berge fahren willst <sic>müsst</sic> du nur es sagen, dann ich mit d<palimpsest>ir</palimpsest> komme!! Aber ich <unreadable/> immer <palimpsest>unreadable</palimpsest> meine Meinung nach!! <par/><closing>Viele Grüßen <par/> <entity>Leonardo</entity> </closing></exercise>
+  </body>
+</kolipsi_document>

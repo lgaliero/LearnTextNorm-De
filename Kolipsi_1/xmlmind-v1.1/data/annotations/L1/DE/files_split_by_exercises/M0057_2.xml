@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0057</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Hallo <entity>Bella</entity></greeting>,<par/><error>
+        <errorType/>
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> hab am Wochenende mal mit meiner Mum geredet und sie hat uns zwei Möglichkeiten für die Sommerferien rausgesucht. Die erste Möglichkeit wäre <entity>Österreich</entity>, die zweite <entity>Italien</entity>.<par/>In <entity>Österreich</entity> hätten wir ein kleines <error>
+        <errorType/>
+
+        <originalForm>Appartment</originalForm>
+
+        <targetForm>Apartment</targetForm>
+      </error> ganz für uns. In <entity>Italien</entity> würden wir in einem kleinen Hotel am Strand wohnen. Vorteil von einem <error>
+        <errorType/>
+
+        <originalForm>Appartment</originalForm>
+
+        <targetForm>Apartment</targetForm>
+      </error> wäre natürlich <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> wir keine vorgegebenen Essenszeiten hätten aber dafür müssten wir uns selber verpflegen.<par/>Außerdem fällt mir nicht viel ein <correction>
+        <deletion>außer</deletion>
+      </correction> was wir dort machen könnten außer wandern. Und das wollen wir ja beide nicht.<par/>Das Hotel in <entity>Italien</entity> dagegen liegt direkt am Strand und in der Nähe ist eine große <error>
+        <errorType/>
+
+        <originalForm>Shopping-Meile</originalForm>
+
+        <targetForm>Shoppingmeile</targetForm>
+      </error>. Der Strand dort <correction>
+        <insertion>soll</insertion>
+      </correction> auch super sein.<par/>Als ich das letzte Mal in <entity>Italien</entity> war, war <error>
+        <errorType/>
+
+        <originalForm>wircklich</originalForm>
+
+        <targetForm>wirklich</targetForm>
+      </error> alles super. Das Wetter war durchgehend toll und das Meer ist einfach spitze.<par/> <correction>
+        <deletion><unreadable/></deletion>
+      </correction> Wir müssten uns nicht um die Verpflegung kümmern und hätten so viele Möglichkeiten was wir machen könnten.<par/>Was fändest du besser? Frag auch schon mal deine Mum!<closing><par/>Alles Liebe <symbol>Herz</symbol></closing> </exercise>
+  </body>
+</kolipsi_document>

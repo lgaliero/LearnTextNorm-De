@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I25_ZEN12SIM</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Lieber Pau<correction>
+          <deletion><unreadable/></deletion>
+
+          <insertion>l</insertion>
+        </correction>,</greeting><par/><error>
+        <errorType/>
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> habe <correction>
+        <deletion>deinen</deletion>
+      </correction> deine <correction>
+        <deletion>Ge Briefe</deletion>
+
+        <insertion><error>
+            <errorType/>
+
+            <originalForm>E-mail</originalForm>
+
+            <targetForm>E-Mail</targetForm>
+          </error></insertion>
+      </correction> gelesen, es tut mir leid was passiert ist.<par/>Ich denke, dass die virtuelle Freundschaften sind nicht <error>
+        <errorType/>
+
+        <originalForm>virkliche</originalForm>
+
+        <targetForm>wirkliche</targetForm>
+      </error>. Du kennst nicht die <correction>
+        <deletion>virtuell</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>virkliche</originalForm>
+
+        <targetForm>wirkliche</targetForm>
+      </error> Person hinter dem Computer. Du musst mit seinem <error>
+        <errorType/>
+
+        <originalForm>virklichen</originalForm>
+
+        <targetForm>wirklichen</targetForm>
+      </error> Freunden <correction>
+        <deletion>ent<unreadable/></deletion>
+      </correction> entschuldigen und mit Ihnen gehen.<par/>Ich habe nicht eine Erfahrung wie diese gelebt, aber du <correction>
+        <deletion>musste</deletion>
+      </correction> kannst überwinden.<par/>Internet ist eine schöne Komunikations<correction>
+        <deletion>M</deletion>
+      </correction>mittel, aber man muss aufpassen.</exercise>
+  </body>
+</kolipsi_II_document>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I29_SAN23DAV</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Lieber Paul,</greeting><par/><error>
+        <errorType/>
+
+        <originalForm>Persöhnlich</originalForm>
+
+        <targetForm>persönlich</targetForm>
+      </error> denke ich dass die Möglichkeit virtuelle Freundschaften sich zu machen ist eine Gelegenheit um neue Leute kennenzulernen, um sich zu vergleichen, um auch mit Personen die nicht in unsere selbe<correction>
+        <deletion><unreadable/></deletion>
+      </correction> Stadt leben ein Kontakt zu haben. <error>
+        <errorType/>
+
+        <originalForm>Dass</originalForm>
+
+        <targetForm>Das</targetForm>
+      </error> muss aber nicht die einzige Alternative sein.<par/>Virtuelle Freundschaften müssen nicht die <error>
+        <errorType/>
+
+        <originalForm>Real-Freundschaften</originalForm>
+
+        <targetForm>Realfreundschaften</targetForm>
+      </error> ersetzen.<par/>Ich kann dich empfehlen, um neue Freundschaften zu machen, einen <error>
+        <errorType/>
+
+        <originalForm>hobby</originalForm>
+
+        <targetForm>Hobby</targetForm>
+      </error> zu finden. Beginne einen Sport zu machen, einen Instrument zu spielen, usw. Diese sind Methoden um Leute kennenzulernen.<par/>Ich kann dir diese Sachen sagen weil ich auch eine <error>
+        <errorType/>
+
+        <originalForm>persöhnliche</originalForm>
+
+        <targetForm>persönliche</targetForm>
+      </error> Erfahrung habe. Ich habe auch virtuelle Freundschaften. Aber deshalb vergesse ich mir nicht von die Realität. Ich lebe gut mit beiden Dingen.<par/>Internet ist eine große Innovation unserer Jahre. Leider häufig die Menschen nutzen es in die falsche Richtung. Sie verschließen sich selbst in ihre Welt, die <error>
+        <errorType/>
+
+        <originalForm>riduzieren</originalForm>
+
+        <targetForm>reduzieren</targetForm>
+      </error> die <error>
+        <errorType/>
+
+        <originalForm>Komunikation</originalForm>
+
+        <targetForm>Kommunikation</targetForm>
+      </error> und verloren andere Leute, die wirklich ihre Tagen füllen konnten.</exercise>
+  </body>
+</kolipsi_II_document>

@@ -1,0 +1,35 @@
+<body>
+ <page page_number="1" transcanno_page_id="936">
+  <paragraph class="medium-paragraph" tagcode="1555402717836">
+   <div>
+    Ich finde
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="dass" tagcode="1549698700373">
+     das
+    </orth_error_id12>
+    die Menschen die vom Krieg in ihrer Heimat flüchten bei uns
+   </div>
+   <div>
+    bleiben
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1549698753540" tran_correction_original="k*nnen">
+     können
+    </tran_word_correction_id25>
+    weil sie in ihrer Heimat zu
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1549698762538" tran_correction_original="viel">
+     viel
+    </tran_word_correction_id25>
+    Krieg haben. Und die
+   </div>
+   <div>
+    Menschen die hier bei uns nur
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Schäden" tagcode="1555402717835">
+     Schaden
+    </orth_error_id12>
+    anrichten sollen in
+    <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1549698828860" tran_alternative_1="ihren" tran_alternative_2="ihrem">
+     ihren
+    </tran_ambiguous_id3>
+    Land bleiben.
+   </div>
+  </paragraph>
+ </page>
+</body>

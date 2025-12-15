@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I20_LAV09GIU</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo Maria!</greeting> Wie geht's? Alles gut? Mir ja danke!!! Die <error>
+        <errorType />
+
+        <originalForm>lezte</originalForm>
+
+        <targetForm>letzte</targetForm>
+      </error> Woche war für mir eine <error>
+        <errorType />
+
+        <originalForm>schlächte</originalForm>
+
+        <targetForm>schlechte</targetForm>
+      </error> Woche. Ich kann nicht verstanden was passiert ist!<par />Meine Freundin Maria war zuerst in einem Obst- und Gemüseladen ein. Sie kaufte <correction>
+        <deletion>zuer</deletion>
+      </correction> Obst und Gemüse und eine <correction>
+        <deletion>s</deletion>
+
+        <insertion>S</insertion>
+      </correction>tunde später war sie im Supermarkt.<par />Sie hat <error>
+        <errorType />
+
+        <originalForm>wasser</originalForm>
+
+        <targetForm>Wasser</targetForm>
+      </error>, <foreign_word foreign_language="English">salad</foreign_word>, <foreign_word
+        foreign_language="English">tomato</foreign_word>, <error>
+        <errorType />
+
+        <originalForm>müsli</originalForm>
+
+        <targetForm>Müsli</targetForm>
+      </error> und <error>
+        <errorType />
+
+        <originalForm>bohnen</originalForm>
+
+        <targetForm>Bohnen</targetForm>
+      </error> gekauft.<par /><correction>
+        <deletion>Sie geht</deletion>
+      </correction> Die anderen <error>
+        <errorType />
+
+        <originalForm>sachen</originalForm>
+
+        <targetForm>Sachen</targetForm>
+      </error> <correction>
+        <insertion>dass sie in <error>
+            <errorType />
+
+            <originalForm>Obst</originalForm>
+
+            <targetForm>Obst-</targetForm>
+          </error> und Gemüseladen gekauft hat</insertion>
+      </correction> setzt sie in die Tasche auf und sie geht auf die Kasse. Dort gab es ein Problem. Die Kassiererin sieht die Gemüse in die Tasche und sie denkt dass Maria hat die Gemüse <error>
+        <errorType />
+
+        <originalForm>gestolt</originalForm>
+
+        <targetForm>gestohlt</targetForm>
+      </error>.<par />So die Kassiererin fragt Maria der Kassenzettel, aber Maria findet diese nicht! <correction>
+        <deletion>Das</deletion>
+      </correction> Diese ist ein <error>
+        <errorType />
+
+        <originalForm>problem</originalForm>
+
+        <targetForm>Problem</targetForm>
+      </error>! Die Kassiererin rüft die Polizei an. Die Polizei kommt und bringt Maria <correction>
+        <deletion>zu</deletion>
+
+        <insertion>in</insertion>
+      </correction> die Polizeistation.<par />Nach zwei Stunden Maria geht zu Hause.<par />Hast du etwas <correction>
+        <insertion><error>
+            <errorType />
+
+            <originalForm>neues</originalForm>
+
+            <targetForm>Neues</targetForm>
+          </error></insertion>
+      </correction> zur mir erzahlen?<par /><closing>Ich liebe dich.</closing><par /><unreadable />  </exercise>
+
+    <exercise number="2" xml:space="preserve"><comment>Aufgabe 2 fehlt</comment></exercise>
+  </body>
+</kolipsi_II_document>

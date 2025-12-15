@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Jessica</transcriber>
+
+  <author_id>4607</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve">Betreff: Berg oder Meer?<par/> <par/><greeting>Hallo <entity>Simon</entity>,<par/> </greeting><error>
+        <errorType/>
+
+        <originalForm>Heute</originalForm>
+
+        <targetForm>heute</targetForm>
+      </error> schreibe ich dir, weil wir <correction>
+        <deletion><unreadable/></deletion>
+      </correction> <correction>
+        <insertion>uns</insertion>
+      </correction> , dieses Jahr <sic>in</sic> Sommer eine<overwrite>
+        <over>n</over>
+
+        <under><unreadable/></under>
+      </overwrite> Urlaub genießen wollten.<par/>Wir müssen uns entscheiden ob wir aufs Meer wollen oder auf den Berg. Was <correction>
+        <deletion><unreadable/></deletion>
+      </correction> <correction>
+        <insertion><over_capitalisation>
+            <originalForm>SAGST</originalForm>
+
+            <targetForm>sagst</targetForm>
+          </over_capitalisation></insertion>
+      </correction> du dazu?<par/>Beide werden un<overwrite>
+        <over>s</over>
+
+        <under><unreadable/></under>
+      </overwrite> viele <error>
+        <errorType/>
+
+        <originalForm>Überaschungen</originalForm>
+
+        <targetForm>Überraschungen</targetForm>
+      </error> und Abenteuer erleben lassen:<par/>Auf dem Berg könnten wir <error>
+        <errorType/>
+
+        <originalForm><overwrite>
+            <over>S</over>
+
+            <under><unreadable/></under>
+          </overwrite>tunden lang</originalForm>
+
+        <targetForm>stundenlang</targetForm>
+      </error> wandern und miteinander über alles sprechen; dann auf einer Hütte uns gemütlich ausruhen und typische <correction>
+        <deletion><unreadable/></deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>südtiroler-Produkte</originalForm>
+
+        <targetForm>Südtiroler Produkte</targetForm>
+      </error> essen.<par/>Wenn wir immer schönes Wetter haben, dann werden wir auf dem Berg als auch auf <sic>den</sic> Meer braun.<par/>Am Meer können wir uns auf den Strand von der Sonne „braten“ lassen und dann uns im Wasser abkühlen; <sic>an</sic> Abend in die bekanntesten Diskotheken gehen und eine Menge Mädchen kennenlernen.<par/>Aus meinen eigenen Erfahrungen, denke ich, hätten wir am Meer sicherlich <correction>
+        <deletion><unreadable/></deletion>
+      </correction> viel viel Spaß, aber du hast natürlich auch das Recht mitzubestimmen und somit lasse ich die Entscheidung offen. Also, wie gesagt: Ob wir auf den Berg oder aufs Meer fahren, werden wir uns sicher <error>
+        <errorType/>
+
+        <originalForm>ammüsieren</originalForm>
+
+        <targetForm>amüsieren</targetForm>
+      </error> und Spaß haben. <par/>Es gibt in beiden Möglichkeiten viele Vorteile und Möglichkeiten einen fast perfekten Urlaub zu genießen.<par/> <greeting><reduction>
+          <reductionType rType="02 abbreviation"/>
+
+          <reducedForm>L.G.</reducedForm>
+
+          <unfoldedForm>Liebe Grüße</unfoldedForm>
+        </reduction> <par/>Dein Kumpel <unreadable/> </greeting></exercise>
+  </body>
+</kolipsi_document>

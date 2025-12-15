@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I41_RAV17DAV</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Lieber David,</greeting><par/>heute <correction>
+        <insertion>hat</insertion>
+      </correction> meine Freundin Maria <correction>
+        <deletion>vergessen <unreadable/> der</deletion>
+
+        <insertion>den</insertion>
+      </correction> Kassenzettel vergessen.<par/>Sie war <correction>
+        <deletion><unreadable/> im Supermark</deletion>
+      </correction> beim Obsthändler und sie hat viel<correction>
+        <deletion>e</deletion>
+      </correction> Gemüse <correction>
+        <deletion>gekauf<correction>
+            <deletion>en</deletion>
+
+            <insertion>t</insertion>
+          </correction></deletion>
+      </correction> gekauft.<par/>Aber später im Supermarkt <correction>
+        <insertion>hat</insertion>
+      </correction> die <error>
+        <errorType/>
+
+        <originalForm>Verkeuferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> sie aufgehalten. Sie glaubt, dass <correction>
+        <deletion>meine Freundin die</deletion>
+      </correction> Maria <correction>
+        <deletion>die</deletion>
+
+        <insertion>das</insertion>
+      </correction> Gemüse<correction>
+        <deletion>n</deletion>
+      </correction> und das Obst <correction>
+        <deletion>gestölen</deletion>
+
+        <insertion>gestohlen</insertion>
+      </correction>. Aber meine Freundin hat nur den Kassenzettel vergessen.<par/>Danach aber <correction>
+        <insertion>hat</insertion>
+      </correction> Maria mit <correction>
+        <deletion>den V<correction>
+            <deletion>e</deletion>
+
+            <insertion>ä</insertion>
+          </correction>rkau</deletion>
+
+        <insertion>der</insertion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>V<correction>
+            <deletion>e</deletion>
+
+            <insertion>ä</insertion>
+          </correction>rkeuferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> gesprochen und <correction>
+        <deletion>hat</deletion>
+      </correction> dieses Problem<correction>
+        <deletion>e lo</deletion>
+      </correction> gelös<correction>
+        <deletion>en</deletion>
+
+        <insertion>t</insertion>
+      </correction>.<par/>Beim Obsthändler sie hat <correction>
+        <deletion>die</deletion>
+
+        <insertion>das</insertion>
+      </correction> Gemüse in <correction>
+        <deletion>eine<correction>
+            <deletion>m</deletion>
+
+            <insertion>r</insertion>
+          </correction></deletion>
+
+        <insertion>einer</insertion>
+      </correction> Tasche gelassen und hat <correction>
+        <deletion>o</deletion>
+      </correction> ihren <error>
+        <errorType/>
+
+        <originalForm><correction>
+            <deletion>A</deletion>
+
+            <insertion>E</insertion>
+          </correction>nkauf</originalForm>
+
+        <targetForm>Einkauf</targetForm>
+      </error> <correction>
+        <deletion>v</deletion>
+
+        <insertion>f</insertion>
+      </correction>ortgesetzt.<par/>Aber Maria hat viele Glück, weil die <error>
+        <errorType/>
+
+        <originalForm>Värkeuferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> hat nicht die Polizei anrufen.<par/>Es war eine Lektion für Maria, dass <correction>
+        <insertion>man immer</insertion>
+      </correction> der Kassenzettel <correction>
+        <deletion>immer<correction>
+            <insertion>mit ihr gebringen</insertion>
+          </correction></deletion>
+      </correction> nicht da war.<par/><closing>Viele Grüße</closing><par/>Davide </exercise>
+
+    
+  </body>
+</kolipsi_II_document>

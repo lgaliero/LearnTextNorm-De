@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>4859</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Liebe <entity>Lorenze</entity>,</greeting> <par/>wie geht es dir? Ich hoffe gut! <par/>Mir geht es sehr gut! Heute <correction>
+        <deletion>Nach</deletion>
+      </correction> Vormittag bin ich beim Obsthändler gegangen. Ich habe Gemüse eingekauft und ich habe nicht <correction>
+        <insertion>die</insertion>
+      </correction> Quittung mitgenommen <correction>
+        <deletion><unreadable/></deletion>
+      </correction>. <unreadable/> Dann bin ich <correction>
+        <deletion><unreadable/></deletion>
+      </correction> im <foreign_word foreign_language="Italiano">Supermarket</foreign_word> gegangen und habe ich noch etwas eingekauft: Milch, Butter, Reis<correction>
+        <deletion>e</deletion>
+      </correction>, Pasta und Wein. <correction>
+        <deletion>Wenn</deletion>
+
+        <insertion>Als</insertion>
+      </correction> ich bei der Kasse war die Kassiererin denkt dass ich etwas gestohlen hat. Ich habe gesagt: <direct_speech>“<error>
+          <errorType/>
+
+          <originalForm>sofort</originalForm>
+
+          <targetForm>Sofort</targetForm>
+        </error>“</direct_speech>, ich habe in die Tasche gesucht, aber ich habe es nicht gefunden. Ich <error>
+        <errorType/>
+
+        <originalForm>geried</originalForm>
+
+        <targetForm>geriet</targetForm>
+      </error> in Panik. Die Kassiererin schlug mich mit einem <error>
+        <errorType/>
+
+        <originalForm>Feuerlösche</originalForm>
+
+        <targetForm>Feuerlöscher</targetForm>
+      </error>. Nach 1 halbe Stunde wachte ich auf und bemerkte sofort <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> ich <error>
+        <errorType/>
+
+        <originalForm>gefässelt</originalForm>
+
+        <targetForm>gefesselt</targetForm>
+      </error> war. Ich <error>
+        <errorType/>
+
+        <originalForm>geried</originalForm>
+
+        <targetForm>geriet</targetForm>
+      </error> nochmals in Panik. <correction>
+        <deletion><unreadable/></deletion>
+      </correction> Zum <error>
+        <errorType/>
+
+        <originalForm>gluck</originalForm>
+
+        <targetForm>Glück</targetForm>
+      </error> hatte ich die Nummer von <entity>Mc Geyver</entity> und rief <sic>if</sic> an. Am Ende <sic>wacht</sic> ich auf und zum <error>
+        <errorType/>
+
+        <originalForm>gluck</originalForm>
+
+        <targetForm>Glück</targetForm>
+      </error> war <correction>
+        <insertion>es</insertion>
+      </correction> nur ein böser Traum. <par/><closing>Mit freundlichen Grüßen <par/><entity>Maria</entity> </closing> </exercise>
+
+    
+  </body>
+</kolipsi_document>

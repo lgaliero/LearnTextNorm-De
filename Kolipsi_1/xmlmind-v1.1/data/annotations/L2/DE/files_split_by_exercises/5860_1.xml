@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5860</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><par/><greeting>Hei <entity>David</entity>,</greeting> weißt du was mit <entity>Maria</entity> passiert ist? Nein? Ich erzähle dir...<par/>Gestern <entity>Maria</entity> <correction>
+        <deletion>ist ist</deletion>
+      </correction> hat ein sehr guter Einkauf gemacht. Ha, ha... <correction>
+        <deletion>Si</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>Zu erst</originalForm>
+
+        <targetForm>Zuerst</targetForm>
+      </error> <correction>
+        <deletion>hat</deletion>
+      </correction> ist sie in einem Obst- und Gemüseladen gewesen, etwas zu kaufen: Gurken, <error>
+        <errorType/>
+
+        <originalForm>Kartofeln</originalForm>
+
+        <targetForm>Kartoffeln</targetForm>
+      </error> und andere. Eine Stunde später war sie im Supermark<correction>
+        <deletion><unreadable/></deletion>
+      </correction>t. Dort ist passiert eine <error>
+        <errorType/>
+
+        <originalForm>kommische</originalForm>
+
+        <targetForm>komische</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>Suche</originalForm>
+
+        <targetForm>Sache</targetForm>
+      </error>. Nach dem Einkauf. wenn sie an der Kasse gekommen ist, der Kassenzettel, schreite: ein Dieb! <entity>Maria</entity> hat nicht verstanden was <correction>
+        <deletion>ist</deletion>
+      </correction> passiert ist. Aber wenn sie sieht zwei Polizei, die rennen an sie, sie lass seien Tasche und schreite auch ein Dieb, aber war zu spät, <strikeover>
+        <expansion>d</expansion>
+
+        <expansion>D</expansion>
+      </strikeover>ie Polizei waren sch<overwrite>
+        <under><unreadable/></under>
+
+        <over>o</over>
+      </overwrite>n da und <correction>
+        <insertion>sie haben</insertion>
+      </correction> <correction>
+        <deletion>frag</deletion>
+      </correction> <entity>Maria</entity> gefragt, wieso sie schreite "ein Dieb". <entity>Maria</entity> gibte keine Ant<hyphen>-</hyphen>wort... Vielleicht sie glaube, dass es ein Dieb gibt da <error>
+        <errorType/>
+
+        <originalForm>würklich</originalForm>
+
+        <targetForm>wirklich</targetForm>
+      </error><strikeover>
+        <expansion>.</expansion>
+
+        <expansion>,</expansion>
+      </strikeover> Aber Polizei <correction>
+        <deletion>e</deletion>
+      </correction> sagen <overwrite>
+        <under>si</under>
+
+        <over>ihr</over>
+      </overwrite> dass der Dieb ist sie, weil sie hat eine Tasche voll von Obst und Gemüse... Aber <entity>Maria</entity> <error>
+        <errorType/>
+
+        <originalForm>erzält</originalForm>
+
+        <targetForm>erzählt</targetForm>
+      </error> die Polizei, dass <correction>
+        <insertion>sie</insertion>
+      </correction> das bei andere Supermarkt gekauft hat und hat vergessen <correction>
+        <deletion>dr</deletion>
+      </correction>aus den Tasche wegbringen. </exercise>
+
+    
+  </body>
+</kolipsi_document>

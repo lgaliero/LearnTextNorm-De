@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I03_PEG26GIU</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><correction>
+        <deletion>Liebe Sara<par />ich schreibe dir weil gestern etwas <correction>
+            <deletion>an</deletion>
+
+            <insertion>zu</insertion>
+          </correction> Maria passiert ist. Gestern wollte sie einkaufen, deswegen ist sie raus gegangen. Sie ist erst beim Obsthändler gegangen. Dort hat sie Karoten, Salat und Äpfel gekauft.</deletion>
+      </correction><par /><greeting>Liebe Sara,</greeting><par />wie geht es dir? Wir hören uns nicht seit lange Zeit, ich musste <correction>
+        <deletion>ein</deletion>
+      </correction> für eine Prüfung lernen und konnte dir nicht schreiben. Erinner<correction>
+        <deletion>te </deletion>
+      </correction>st du dich Maria, meine Freundin? Gestern war sie einkaufen und ist ihr etwas passiert. <correction>
+        <deletion>Sie</deletion>
+      </correction> Morgens ist sie rausgegangen weil sie einkaufen wollte. Sie ist beim Obsthändler gegangen und hat <correction>
+        <deletion>Birne</deletion>
+      </correction> Äpfel, <error>
+        <errorType />
+
+        <originalForm>Karoten</originalForm>
+
+        <targetForm>Karotten</targetForm>
+      </error><correction>
+        <deletion>,</deletion>
+      </correction> und Kartoffeln gekauft. Dann ist sie mit dem Bus bis zu den <foreign_word
+        foreign_language="Italiano">Supermarket</foreign_word> gefahren. Dort hat sie ein paar Sachen genommen und wollte <correction>
+        <deletion>zah</deletion>
+      </correction> bezahlen. An der Kasse <correction>
+        <deletion>die</deletion>
+      </correction> hat die Frau ihr gesag<correction>
+        <deletion>e</deletion>
+      </correction>t dass sie auch die Sachen die sie in der Tasche gehabt hat bezahlen musste. Sie hat ihn erklärt dass sie die Gemüse beim<correction>
+        <deletion><unreadable /></deletion>
+      </correction> Obsthändler gekauft hat. Die Frau hat ihr nicht vertraut und hat dem Obsthändler angerufen. <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Der Mann hat ihr alles erzählt und so hat es keine Probleme gegeben.<par />Ich hoffe wir sehen uns bald! <correction>
+        <deletion>Ich hoff</deletion>
+      </correction><par /><closing>Mit freundlichen Grüße,</closing><par />Gianni</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber Paul,</greeting><par />ich schreibe dir weil ich deinen Brief gelesen habe. Ich bin Marco und bin 17. Ich gratulieren mich mit dir weil dein<correction>
+        <deletion><unreadable /></deletion>
+      </correction> Brief <correction>
+        <deletion>gan<unreadable /></deletion>
+      </correction> sehr gut geschrieben ist und dein Problem sehr interessant ist. Ich glaube dass virtuelle Freundschaften sehr interessant sind: <error>
+        <errorType />
+
+        <originalForm>mit</originalForm>
+
+        <targetForm>Mit</targetForm>
+      </error> Internet kann man jetzt viele Leuten aus der ganzen Welt kennenlernen<correction>
+        <deletion>,</deletion>
+
+        <insertion>.</insertion>
+      </correction> <correction>
+        <deletion>e</deletion>
+
+        <insertion>E</insertion>
+      </correction>s ist ganz cool weil man kann z. B. die Art und Weise von anderen Staaten kennenlernen. Man<correction>
+        <deletion>n</deletion>
+      </correction> kann neue Freundschafte<correction>
+        <deletion>n</deletion>
+      </correction> knüpfen aber man<correction>
+        <deletion>n</deletion>
+      </correction> muss <correction>
+        <insertion>sich</insertion>
+      </correction> immer erinnern dass diese nicht richtige Freundschafte sind. Jemand kann sehr <error>
+        <errorType />
+
+        <originalForm>sympatisch</originalForm>
+
+        <targetForm>sympathisch</targetForm>
+      </error> auf dem Internet sein und in der Realität sehr <correction>
+        <deletion>böse <unreadable /></deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>unsympati<correction>
+            <insertion>s</insertion>
+          </correction>ch</originalForm>
+
+        <targetForm>unsympathisch</targetForm>
+      </error>. Ich würde <correction>
+        <deletion>dich</deletion>
+
+        <insertion>dir</insertion>
+      </correction> raten mit diesen Leuten noch zu chatten aber nur um <correction>
+        <deletion>ein wenig zu</deletion>
+      </correction> Zeit zu verbringen und dich ein wenig zu unterhalten. Ich war drei Monate in Deutschland und habe viele neue Freunde kennengelernt. Für mich ist Internet nutzvoll. <correction>
+        <deletion>ich <unreadable /></deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>wir</originalForm>
+
+        <targetForm>Wir</targetForm>
+      </error> schreiben noch, aber nicht jeden Tag! Wenn du immer auf deine <correction>
+        <deletion>fa fake</deletion>
+      </correction> Freunde denkst, hast du keine Zeit mehr für deine richtige Freunde. Ich hoffe ich habe dir geholfen.<par /><closing>Mit freundlichen Grüße,</closing><par />Marco</exercise>
+  </body>
+</kolipsi_II_document>

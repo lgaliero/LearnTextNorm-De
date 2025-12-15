@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I10_DEL15RAC</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Liebe Paul,</greeting><par/>einmal habe ich auch eine Mädchen im Internet <correction>
+        <deletion>ke</deletion>
+      </correction> gelernt, sie war so <error>
+        <errorType/>
+
+        <originalForm>sympatishe</originalForm>
+
+        <targetForm>sympathische</targetForm>
+      </error>! Aber nach weniger Zeit, haben wir nicht mehr gechatten.. So ist. Ich denke, dass <correction>
+        <deletion>ist</deletion>
+      </correction> keine gute Idee <correction>
+        <deletion>ist</deletion>
+      </correction> Menschen im Internet lernen ist. Es ist sehr <correction>
+        <deletion>gefählr</deletion>
+      </correction> gefährlich, es ist <correction>
+        <insertion>am</insertion>
+      </correction> besten <error>
+        <errorType/>
+
+        <originalForm>leute</originalForm>
+
+        <targetForm>Leute</targetForm>
+      </error> lernen ohne der Hilfe des Computer.<par/>Neue Freunden <correction>
+        <insertion>zu</insertion>
+      </correction> machen, es ist nicht so einfach aber es ist <correction>
+        <deletion><unreadable/>sere</deletion>
+
+        <insertion>sehr</insertion>
+      </correction> lustig.<par/>Kannst du <error>
+        <errorType/>
+
+        <originalForm>Ihre</originalForm>
+
+        <targetForm>ihre</targetForm>
+      </error> Nummer aus deinem Handy erinneren, es ist so einfach! Oder schreibst du <correction>
+        <deletion>ihnen</deletion>
+
+        <insertion><error>
+            <errorType/>
+
+            <originalForm>Ihnen</originalForm>
+
+            <targetForm>ihnen</targetForm>
+          </error></insertion>
+      </correction>, dass deine Eltern nicht mehr wollten, dass du mit Menschen die im Internet gelernt hast schreiben<correction>
+        <deletion>,</deletion>
+      </correction> weil es <correction>
+        <deletion>ist</deletion>
+      </correction> nicht ganz sicher ist.<par/>Internet ist eine gefäh<correction>
+        <deletion>l</deletion>
+      </correction>rliche Welt, wo Leute kann schlechtes Dingen machen.<par/>Hoffe ich, dass meine Hilfe kann <error>
+        <errorType/>
+
+        <originalForm>pratische</originalForm>
+
+        <targetForm>praktische</targetForm>
+      </error> ist...<par/><closing>Schreibst bitte <correction>
+          <deletion>zu</deletion>
+        </correction> mir was du getun wird solltest.</closing><par/>Francesca<par/>Francy@hotmail.com </exercise>
+  </body>
+</kolipsi_II_document>

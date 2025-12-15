@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5035</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve">
+ <par /><greeting>Hallo <entity>Liliana</entity> </greeting> wie geht es dir? Mir geht es ganz gut. Ich habe <error>
+        <errorType />
+
+        <originalForm>di</originalForm>
+
+        <targetForm>dir</targetForm>
+      </error><palimpsest> unreadable</palimpsest> eine <error>
+        <errorType />
+
+        <originalForm>e-mail</originalForm>
+
+        <targetForm>E-Mail</targetForm>
+      </error> geschrieben weil <palimpsest>unreadable</palimpsest> es <palimpsest>unreadable</palimpsest> ist <palimpsest>unreadable</palimpsest> eine komische Situation <palimpsest>passiert</palimpsest>. <error>
+        <errorType />
+
+        <originalForm>Letze</originalForm>
+
+        <targetForm>Letzte</targetForm>
+      </error> Woche war <entity>Maria</entity> einkaufen. Zuerst ging sie in einem Obst- und <error>
+        <errorType />
+
+        <originalForm>Gemüse Gesch<ambiguous>
+            <alternative>a</alternative>
+
+            <alternative>e</alternative>
+          </ambiguous>ft</originalForm>
+
+        <targetForm>Gemüsegeschäft</targetForm>
+      </error>, und kaufte sie, <error>
+        <errorType />
+
+        <originalForm>Carotten</originalForm>
+
+        <targetForm>Karotten</targetForm>
+      </error>, Tomaten, Kartoffeln und so weiter. Später ging sie in der Supermarkt, weil sie sollte auch Fleisch, Fisch, Käse, und noch <correction>
+        <insertion>etwas</insertion>
+      </correction> ander<overwrite>
+        <under><unreadable /></under>
+
+        <over>s</over>
+      </overwrite> kaufen. Als sie <error>
+        <errorType />
+
+        <originalForm>vertig</originalForm>
+
+        <targetForm>fertig</targetForm>
+      </error> war, ging sie an der Kasse. Sie bezahlte ihre Speisen, aber auf <error>
+        <errorType />
+
+        <originalForm>ein mal</originalForm>
+
+        <targetForm>einmal</targetForm>
+      </error> rufte ihnen die Verkäuferin an und fragte ihnen: <direct_speech>"Was haben Sie in die Tasche? Haben <strikeover>
+          <expansion>S</expansion>
+
+          <expansion>s</expansion>
+        </strikeover>ie <error>
+          <errorType />
+
+          <originalForm>vielaicht</originalForm>
+
+          <targetForm>vielleicht</targetForm>
+        </error> etwas gestehlen?"</direct_speech> <entity>Maria</entity> schaute sofort in ihre Tasche, und sieht die Gemüse, die sie zuerst gekauft hatte. Sie erklärte alles an die Verkäuferin so entschuldige sie sich mit <entity>Maria</entity>. Glücklich ist alles gut gegangen. <par /><closing>Viele Grüße und viele Küsse <par /> <entity>Denise</entity> </closing> </exercise>
+
+    <exercise number="2" xml:space="preserve">
+ <par /><greeting>Hallo meine <error>
+          <errorType />
+
+          <originalForm>Liebe</originalForm>
+
+          <targetForm>liebe</targetForm>
+        </error> <entity>Anna</entity>!</greeting> Wie geht es dir? Mir geht alles gut. Endlich sind die Sommerferien wieder da! Dieses Jahr wollte ich nach <entity>Bora Bora</entity> fahren, aber ich wollte nicht <error>
+        <errorType />
+
+        <originalForm>alein</originalForm>
+
+        <targetForm>allein</targetForm>
+      </error> gehen so habe ich gedacht: "Warum kommte <correction>
+        <insertion>nicht</insertion>
+      </correction> meine liebe <entity>Anna</entity> mit?" So habe ich dir sch<strikeover>
+        <expansion>e</expansion>
+
+        <expansion>n</expansion>
+      </strikeover>ell geschrieben! Ich <error>
+        <errorType />
+
+        <originalForm>weis</originalForm>
+
+        <targetForm>weiß</targetForm>
+      </error> aber nicht ob du lieber an Meer <correction>
+        <insertion>oder auf die Berge</insertion>
+      </correction> gehst. <entity><palimpsest>B</palimpsest>or<palimpsest>a</palimpsest> Bora</entity> ist sehr schön, das Meer ist sehr sauber und das Wetter ist immer warm. In die Berge das Wetter ist nicht immer so schön weil es kann auch <error>
+        <errorType />
+
+        <originalForm>reg<correction>
+            <deletion>n</deletion>
+          </correction>en</originalForm>
+
+        <targetForm>regnen</targetForm>
+      </error>. In <entity>Bora Bora</entity> regnet nur eine Woche pro Jahr und im Sommer bin ich ganz <error>
+        <errorType />
+
+        <originalForm>siecher</originalForm>
+
+        <targetForm>sicher</targetForm>
+      </error> dass das kann nicht passieren! <error>
+        <errorType />
+
+        <originalForm>Wen</originalForm>
+
+        <targetForm>Wenn</targetForm>
+      </error> du <error>
+        <errorType />
+
+        <originalForm>mit <palimpsest>unreadable</palimpsest> komst</originalForm>
+
+        <targetForm>mitkommst</targetForm>
+      </error>, sollst du <correction>
+        <insertion>aber</insertion>
+      </correction> auch <palimpsest>mir</palimpsest> deine Meinung s<palimpsest>a</palimpsest>gen so können wir entschieden wo wir gehen wollen. <par />Ich warte a<overwrite>
+        <under><unreadable /></under>
+
+        <over>uf</over>
+      </overwrite> deine <error>
+        <errorType />
+
+        <originalForm>antwort</originalForm>
+
+        <targetForm>Antwort</targetForm>
+      </error>. <par /><closing>Viele Küsse <par /> <entity>Denise</entity> .</closing> </exercise>
+  </body>
+</kolipsi_document>

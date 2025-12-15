@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I35_PER05LID</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo Ines!</greeting> <correction>
+        <deletion>Du weißt nicht was zu Maria passiert ist!</deletion>
+      </correction> Wie geht es dir?<par />Ich schreibe dir dieses <error>
+        <errorType />
+
+        <originalForm>e-mail</originalForm>
+
+        <targetForm>E-Mail</targetForm>
+      </error> um dir zu erzählen was zu Maria passiert ist!<par /><correction>
+        <deletion>Gestern</deletion>
+      </correction> Sie möchte gestern ein Abendessen mit Freunden organisieren, so kaufte sie am Morgen was sie brauchte ein.<par /><correction>
+        <insertion><correction>
+            <deletion>Zuerst Zuer</deletion>
+          </correction></insertion>
+
+        <deletion>Sie</deletion>
+      </correction><correction>
+        <insertion>Zuest</insertion>
+      </correction> ging<correction>
+        <deletion>e</deletion>
+      </correction> <correction>
+        <insertion>sie</insertion>
+      </correction> zu einen Obst- und Gemüseladen, sie wählte ein<correction>
+        <deletion>ige To</deletion>
+      </correction> paar Tomaten, 1 Kilo Kartoffeln, und die Erdbeeren für den <error>
+        <errorType />
+
+        <originalForm>dessert</originalForm>
+
+        <targetForm>Dessert</targetForm>
+      </error>, aber sie <correction>
+        <deletion>ließ</deletion>
+      </correction> laß der <correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>Kassenzettel</insertion>
+      </correction> dort und brachte es nicht mit.<par />Danach ging <correction>
+        <deletion>er</deletion>
+      </correction> sie <correction>
+        <deletion>im in</deletion>
+
+        <insertion>zu den</insertion>
+      </correction> <foreign_word foreign_language="Italiano">Supermarket</foreign_word> und suchte gute Fleisch, zwei Flaschen Wein, <correction>
+        <deletion>eine</deletion>
+      </correction> und so weiter... <correction>
+        <deletion>Normale Sachen,</deletion>
+      </correction> nach ein bisschen <correction>
+        <deletion>Ze<unreadable />t</deletion>
+      </correction> Zeit war sie fertig und ging zahlen, aber plötzlich die Kassendame beginnt zu sagen, dass sie <error>
+        <errorType />
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hatte weil <correction>
+        <deletion>obt</deletion>
+
+        <insertion>Obs</insertion>
+      </correction>t und Gemüse in der Tasche <correction>
+        <deletion>hatte</deletion>
+      </correction> hielte, und Ines <correction>
+        <deletion><unreadable /></deletion>
+      </correction> hatte <correction>
+        <deletion><unreadable /></deletion>
+      </correction> keinen Kassenzettel!<par />Am Ende hat sie alles gelöst aber es war kein gute<correction>
+        <deletion>s</deletion>
+
+        <insertion>n</insertion>
+      </correction> Morgen!<par /><closing>Ich grüße dich, tschüss!</closing></exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo Paul,</greeting><par />mit allem Respekt ich denke, dass du total verrückt bist.<par />Wie kann man sich reduzieren, nicht mehr Freunden zu haben um mit virtuellen Personen zu chatten... Virtuelle Freundschaf<hyphen>-</hyphen>ten sind nicht wahr und <correction>
+        <deletion>des</deletion>
+
+        <insertion>das</insertion>
+      </correction> wissen auch Kinder<correction>
+        <deletion>n</deletion>
+      </correction>.<par />Wir haben ein so schönes Welt und du verpasst deinen Zeit am Computer?<par />Ich sage dir, was du tun sollst: Geh zu einen <error>
+        <errorType />
+
+        <originalForm>Psicholog</originalForm>
+
+        <targetForm>Psycholog</targetForm>
+      </error> und rede von deine<correction>
+        <deletion>m</deletion>
+      </correction>n <error>
+        <errorType />
+
+        <originalForm>sozial-Probleme</originalForm>
+
+        <targetForm>Sozialprobleme</targetForm>
+      </error>. <closing><error>
+          <errorType />
+
+          <originalForm>Tschuss</originalForm>
+
+          <targetForm>Tschüss</targetForm>
+        </error></closing></exercise>
+  </body>
+</kolipsi_II_document>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5047</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe <entity>Johannes</entity>,</greeting> <par />wie geht es dir? Mir alles gut <par />Ist vor eine Woche das ich nicht schreibe, <error>
+        <errorType />
+
+        <originalForm>entschuldigung</originalForm>
+
+        <targetForm>Entschuldigung</targetForm>
+      </error>, aber ich habe viele Sache zu machen. <par />Gestern unsere Freundin <entity>Maria</entity>, ist im Obsthändler gegangen, sie hat: Tomaten, <error>
+        <errorType />
+
+        <originalForm>Karoten</originalForm>
+
+        <targetForm>Karotten</targetForm>
+      </error>, Bananen, Orange und <sic>Apfeln</sic> gekauft. <par />Sie hat gezählt <palimpsest>unreadable</palimpsest>, aber wenn die Käuferin das Rest sie gegeben hat, <entity>Maria</entity> ist sofort <error>
+        <errorType />
+
+        <originalForm><correction>
+            <insertion>weg</insertion>
+          </correction> gegangen</originalForm>
+
+        <targetForm>weggegangen</targetForm>
+      </error>, hat sie der Kassenzettel in Obsthändler gelasst. <par />Dann ist in ein Supermarkt gegangen, hat vielen Sache gekauft: Pasta, Joghurt, Milch, Brot und Wasser. <par />Wenn <correction>
+        <deletion><unreadable /></deletion>
+      </correction> ist wollte <sic>verzahlen</sic> aber, das Käuferin hat die andere Tasche von Obsthändler gesehen, und sie hat gemeint dass in Supermarkt genommen hat. Die Käuferin <palimpsest>unreadable </palimpsest> hat sofort die Polizei <sic>geruft</sic> . <par />Nach 5 Minuten die Polizei ist <sic>gekommt</sic> und hat <entity>Maria</entity> in <error>
+        <errorType />
+
+        <originalForm>Polizeipäsidium</originalForm>
+
+        <targetForm>Polizeipräsidium</targetForm>
+      </error> gebracht. Aber dann ist alles gelöst. <par /><closing><error>
+          <errorType />
+
+          <originalForm>chuss</originalForm>
+
+          <targetForm>Tschüss</targetForm>
+        </error> <entity>Jo<overwrite>
+            <over>h</over>
+
+            <under>d</under>
+          </overwrite>annes</entity> </closing></exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo <entity>Peter</entity>!</greeting> <par />Wie geht es dir? Mir alles gut. <par />Was machst du diese Sommer? <par />Gehst du am Meer? Oder in den Bergen? Ich <sic>weiße</sic> noch nicht. <par />Willst du mit mir kommen? <par />So wählen wir zusammen. <par />Am Meer gehen wir alle Jahre, können wir <unreadable /> <error>
+        <errorType />
+
+        <originalForm>wächseln</originalForm>
+
+        <targetForm>wechseln</targetForm>
+      </error> für ein Jahr, und gehen wir in den Bergen. <par />Die Bergen sind schön, auch wenn es viel warm ist, in den Bergen ist immer ein wenig Wind ist. <par /> </exercise>
+  </body>
+</kolipsi_document>

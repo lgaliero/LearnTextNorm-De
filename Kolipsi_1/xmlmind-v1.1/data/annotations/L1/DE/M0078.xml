@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0078</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Anna</entity></greeting>!<par />Gestern war <entity>Maria</entity> beim Obst- und Gemüsehändler und hat Salat, Kohl, Gur<over>k</over>en und Papri<palimpsest>k</palimpsest>a ge<hyphen>-</hyphen>kauft. Dort klappte das Zahlen an der Kasse mit der EC-Karte reibungslos. Fröhlich ging <entity>Maria</entity> zum zweiten Teil ihres <palimpsest>Einkaufs</palimpsest> über, dem Supermarkt. Sie war schon sehr aufge<hyphen>-</hyphen>regt, da sie eine <palimpsest>Überraschungs</palimpsest>feier für ihre Freundin <entity>Susanne</entity> plante, die am selben Tag Geburtstag hatte. Als sie so träumend zur Kasse schlenderte u<palimpsest>m</palimpsest> die Zutaten für den <overwrite>
+        <under><unreadable /></under>
+
+        <over>K</over>
+      </overwrite>uchen und die Getränke zu bezahlen, stellte sie sich vor wie sehr <entity>Susanne</entity> sich freuen würde, wenn sie von der <correction>
+        <deletion>Übera</deletion>
+      </correction> Überra<hyphen>-</hyphen>schungsfeier wüsste. <palimpsest>Als die</palimpsest> Kassiererin <entity>Maria</entity> aufforderte 38,50€ für ihren Einkauf zu zahlen, riss sie sie aus ihrem <error>
+        <errorType />
+
+        <originalForm>Tagraum</originalForm>
+
+        <targetForm>Tagtraum</targetForm>
+      </error> und die junge Studentin zückte ihre EC-Karte. Sie gab wie gewohnt ihre Geheimzahl ein, doch der Computer meldete, die <palimpsest>Karte</palimpsest> sei ungültig. Als <entity>Maria</entity> es ein weiteres Mal versuchte und die Schlange an der Kasse immer länger wurde, wurde die Kassiererin ungeduldig und fuhr <entity>Maria</entity> an. Diese überlegte <palimpsest>f</palimpsest>ieberhaft wo das Problem sein könnte und plötzlich fiel es ihr ein: Sie hatte ja nur noch <palimpsest>2</palimpsest>0 € auf dem Konto gehabt! Mit <palimpsest>h</palimpsest>ochrotem Kopf erklärte <entity>Maria</entity> der Mitarbeiterin das Problem und bat <palimpsest>sie</palimpsest>, ihre Einkäufe an die Seite legen zu dürfen, um etwas Bargeld von zu Hause zu holen. Die Frau war einver<hyphen>-</hyphen>standen, <entity>Maria</entity> holte ihr Geld aus ihrer Woh<hyphen>-</hyphen>nung, die zum Glück <palimpsest>in der Nähe ist</palimpsest>, und beglich ihre Rechnung. Erleic<palimpsest>hter</palimpsest>t ging sie nach Hause und bereitete die Fete vor.      </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo <entity>Markus</entity></greeting>!<par />Da wir ja diesen Sommer zusammen in den <over>U</over>rlaub fahren wollen, habe ich mir schon ein <error>
+        <errorType />
+
+        <originalForm>Paar</originalForm>
+
+        <targetForm>paar</targetForm>
+      </error> Gedan<hyphen>-</hyphen>ken über das Urlaubsziel gemacht. Dabei bin ich auf die Frage gestoßen, ob <correction>
+        <deletion>wie</deletion>
+      </correction> wir lieber ans Meer oder in die Berge fahren sollen. Ich finde<correction>
+        <deletion>,</deletion>
+      </correction> beides hat seine Vor- und Nachteile. In den Bergen zum Beispiel, ist es sehr ruhig und wir können in einer wunderschönen Landschaft wandern gehen. Das wäre ein schöner Ausgleich zu dem vielen Stress in der Schule. <palimpsest>Aber ich hätte auch</palimpsest> große Lust ans Meer zu fahren, mich am Strand zu sonnen und <palimpsest>es mir im</palimpsest> Hotel <palimpsest>gut gehen</palimpsest> zu lassen. <palimpsest>Allerdings sind</palimpsest> viele Urlaubsorte an Stränden sehr beliebt und oft mit Gästen überfüllt, was mehr anstrengend als entspannend ist. Der Nachteil am Urlaub in den Bergen wiederum ist, dass das nächste Dorf bestimmt weit weg ist und ein Disko<hyphen>-</hyphen>besuch wahrscheinlich ausgeschlossen ist. Außerdem ha<palimpsest>be</palimpsest> ich mir beim Wandern in den Bergen schon mal den Knöchel ver<palimpsest>letzt</palimpsest> und es war ziem<hyphen>-</hyphen>lich <correction>
+        <insertion>schwer</insertion>
+      </correction> ins nächste Krankenhaus zu gelangen. Ich glaube also, dass <palimpsest>ein</palimpsest> Badeurlaub dieses Jahr schöner wäre, bin mir aber nicht sicher. Also <entity>Markus</entity>, worauf hättest du denn eher Lust? Schreib mir doch einfach! <closing>Bis dahin,<par />deine <entity>Saskia</entity></closing>     </exercise>
+  </body>
+</kolipsi_document>

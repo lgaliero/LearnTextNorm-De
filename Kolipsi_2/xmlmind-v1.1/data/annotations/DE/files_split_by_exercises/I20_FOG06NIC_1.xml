@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I20_FOG06NIC</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo Sara!</greeting><par/>Wie geht es dir? Mir geht es ganz gut, ich muss dir unbedingt etwas erzählen!!<par/>Du kennst doch meine Freundin Maria, die <error>
+        <errorType/>
+
+        <originalForm>blonde</originalForm>
+
+        <targetForm>Blonde</targetForm>
+      </error>, du glaubst nicht was ihr gestern passiert ist!<par/>Also, sie war gestern einkaufen, da war sie erst beim Obst- und Gemüseladen und hat dort eingekauft, und ist dann zum Supermarkt gegangen. Sie kauft ganz gelassen und ohne Probleme ein, und kommt dann an der Kasse an. Und da passiert es: <error>
+        <errorType/>
+
+        <originalForm>sie</originalForm>
+
+        <targetForm>Sie</targetForm>
+      </error> glauben ta<correction>
+        <insertion>t</insertion>
+      </correction>sächlich sie hätte Obst und Gemüse vom Supermarkt <error>
+        <errorType/>
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error>! Ist das nicht unglaublich? Daweil hatte sie ja nur die Tasche mit dem Obst von Obstladen mit dabei!<par/>Ist ja nicht zu glauben, da glauben sie wirklich dass jemand so ganz gelassen mit <error>
+        <errorType/>
+
+        <originalForm>gestolener</originalForm>
+
+        <targetForm>gestohlener</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>Wahre</originalForm>
+
+        <targetForm>Ware</targetForm>
+      </error> an der Kasse reinspaziert... es war ja klar dass <error>
+        <errorType/>
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> es schon vorher in einen anderen Laden gekauft hatte... aber nein, sie wollten ihr nicht glauben! Da hat die <correction>
+        <deletion>a</deletion>
+
+        <insertion>A</insertion>
+      </correction>rme <error>
+        <errorType/>
+
+        <originalForm>Den</originalForm>
+
+        <targetForm>den</targetForm>
+      </error> ganze Nachmittag im Supermark verbracht, und musste auch den Obst- und Gemüseladen anrufen, um zu zeigen dass sie wirklich dort eingekauft hatte!<par/>Schon blöd, was da so passiert...<par/>Jetzt muss ich aber zur Arbeit, wir telefonieren bald, ja?<par/><closing>Küsse,</closing><par/>Nicole</exercise>
+
+    
+  </body>
+</kolipsi_II_document>

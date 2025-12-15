@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0079</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><correction>
+        <deletion>Hallo <entity>Lena</entity>,<par/>weißt du was <entity>Lena</entity> <correction>
+            <insertion><entity>Maria</entity></insertion>
+          </correction> letztens passiert ist? Du wirst es nicht glauben!</deletion>
+      </correction><par/><greeting>Hallo <entity>Lena</entity></greeting>,<par/>wie geht es dir? Ich hoffe gut. Ich habe lange nichts mehr von dir gehört.<par/>Also mir geht's gut aber ich muss dir unbedingt etwas erzählen. Du kannst dir nicht vorstellen was meiner Mutter <correction>
+        <deletion><entity>Lena</entity></deletion>
+      </correction> <correction>
+        <insertion><entity>Maria</entity></insertion>
+      </correction> letzte Woche passiert ist!<par/>Sie war mal wieder einkaufen. Dabei war sie zuerst in einem Obst- und <error>
+        <errorType/>
+
+        <originalForm>Gemüselade</originalForm>
+
+        <targetForm>Gemüseladen</targetForm>
+      </error> und hat nachdem sie ihre Einkäufe bezahlt hat, den Kassenbon an der Kasse liegen gelassen. Das macht sie <correction>
+        <deletion>öfters,</deletion>
+      </correction> öfters, da sie die Kassenbons nie braucht. Doch diesmal war es anders. Eine Stunde später war sie dann in einem Supermarkt, um die restlichen Sachen zu besorgen. Als sie dort an der Kasse bezahlen wollte, be<hyphen>-</hyphen>schuldigte eine andere Kassiererin <correction>
+        <insertion>sie</insertion>
+      </correction> die Einkäufe, die sie aus dem Obst- und Gemüseladen gekauft hat und die aus ihrer Tasche hervor<hyphen>-</hyphen>schienen, aus dem Supermarkt geklaut zu haben. Da sie aber keinen Kassenbeleg hatte, konnte sie leider nicht beweisen, dass die Einkäufe aus ihrer Tasche nicht aus dem Supermarkt geklaut wurden.<par/>Leider musste sie dann auch die gekauften Einkäufe nochmal be<hyphen>-</hyphen>zahlen.<par/>Und seitdem behält meine Mutter <entity>Maria</entity> jeden Kassenbeleg.<par/>Ist doch ne witzige Geschichte, oder?<par/>Meld dich doch mal wieder!<par/><closing>Deine<par/><entity>Anna</entity></closing>                 </exercise>
+
+    
+  </body>
+</kolipsi_document>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5770</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve">
+      <par/><greeting>Liebe <entity>Otto</entity></greeting>,<par/>wie geht es dir? Weißt du schon was <entity>Maria</entity> passiert ist? Letzte Woche wollte sie eine neue Speise für seinen Sohn vorstellen. Sie müsste zuerst die Gemüse kaufen. So ist sie in einem Obst- und Gemüseland gegangen und hat <overwrite>
+        <under>d</under>
+
+        <over>h</over>
+      </overwrite>ier die Zutaten gekauft. Sie hat <error>
+        <errorType/>
+
+        <originalForm>gezah<overwrite>
+            <under>t</under>
+
+            <over>l</over>
+          </overwrite>tt</originalForm>
+
+        <targetForm>gezahlt</targetForm>
+      </error>, aber sie hat den Kassenzettel auf die Kasse vergessen. <entity>Maria</entity> fehl<overwrite>
+        <under>en</under>
+
+        <over>ten</over>
+      </overwrite> noch einige Zutaten und so ging sie zum Supermarkt. Sie na<overwrite>
+        <under><unreadable/></under>
+
+        <over>h</over>
+      </overwrite>m was sie braucht und ging <palimpsest>unreadable</palimpsest> an die Kasse. Sie wollte zahlen, aber die Kassenfrau sieht, dass in der Tasche von <entity>Maria</entity> <overwrite>
+        <under>O</under>
+
+        <over>G</over>
+      </overwrite>emüse gibt. Sie denkt, dass <entity>Maria</entity> stehlen wollte. So wollte <entity>Maria</entity> den Kassenzettel ihr zeigen, aber sie findet es nicht. Sie geht zu den Obst- und Gemüseladen und fragt der Kassenfrau, ob sie zu Supermarkt kommen könnte. Sie akzeptierte und sagte der Kassenfrau des Supermarkts, dass <entity>Maria</entity> d<strikeover>
+        <expansion>ie</expansion>
+
+        <expansion>as</expansion>
+      </strikeover> Gemüse bei ihr <error>
+        <errorType/>
+
+        <originalForm>Gekauft</originalForm>
+
+        <targetForm>gekauft</targetForm>
+      </error> hat. So könnte <entity>Maria</entity> die Zutaten im Supermarkt kaufen und die neue Speise vorstellen. So ich habe dir diese entspannende Geschichte erzählt.<par/><closing>Tschüss<par/> <entity>Andrea</entity> </closing> </exercise>
+
+    
+  </body>
+</kolipsi_document>

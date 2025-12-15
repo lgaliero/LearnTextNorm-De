@@ -1,0 +1,29 @@
+<body>
+ <page page_number="1" transcanno_page_id="247">
+  <paragraph class="medium-paragraph" tagcode="1553683218392">
+   <div>
+    In eine kleine Haus war ein Feuer und ein Kind
+   </div>
+   <div>
+    und ein Mann. Das Kind schaut in ihrem
+   </div>
+   <div>
+    Tasche und seht ein Diktat mit eine schlechte
+   </div>
+   <div>
+    Noten und er
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="nimmt" tagcode="1553683142307">
+     mimmt
+    </orth_error_id12>
+    das Blatt und gibt
+   </div>
+   <div>
+    in der Haus in der
+    <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1553683218391" tran_alternative_1="Feuer" tran_alternative_2="Feier">
+     Feuer
+    </tran_ambiguous_id3>
+    .
+   </div>
+  </paragraph>
+ </page>
+</body>

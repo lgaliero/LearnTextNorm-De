@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I08_COM30DIE</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe Anna,</greeting><par />gestern war ich mit Maria einkaufen, und da ist etwas sehr <error>
+        <errorType />
+
+        <originalForm>blödes</originalForm>
+
+        <targetForm>Blödes</targetForm>
+      </error> vorgefallen. Also wir waren im <error>
+        <errorType />
+
+        <originalForm>Obst</originalForm>
+
+        <targetForm>Obst-</targetForm>
+      </error> und Gemüse<hyphen>-</hyphen><correction>
+        <deletion>L</deletion>
+
+        <insertion>l</insertion>
+      </correction>aden und dort haben <correction>
+        <deletion><unreadable /></deletion>
+      </correction> wir viel Obst eingekauft weil wir einen Fruchtkuchen backen wollten. <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Maria ist dann zur Kassa gegangen und hat das Obst gekauft, aber dann ist etwas <error>
+        <errorType />
+
+        <originalForm>blödes</originalForm>
+
+        <targetForm>Blödes</targetForm>
+      </error> passiert, Maria hat den Kassenzettel an der Kasse vergessen ohne es zu <error>
+        <errorType />
+
+        <originalForm>bemärken</originalForm>
+
+        <targetForm>bemerken</targetForm>
+      </error>. Später sind wir in den Supermarkt gegangen um die <error>
+        <errorType />
+
+        <originalForm>rästlichen</originalForm>
+
+        <targetForm>restlichen</targetForm>
+      </error> Zutaten für den Kuchen zu <correction>
+        <deletion><unreadable /></deletion>
+      </correction> kaufen, als <correction>
+        <deletion><unreadable /></deletion>
+      </correction> wir alles <correction>
+        <deletion><unreadable /></deletion>
+      </correction> zusammen hatten <correction>
+        <deletion><unreadable /></deletion>
+      </correction> gingen wir <correction>
+        <deletion><unreadable /></deletion>
+      </correction> zur Kassa und bezahlten. Als wir gerade gehen wollten rief die Kassiererin <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> wir <correction>
+        <deletion><unreadable /></deletion>
+      </correction> auch das Obst auch zahlen mussen. Da <error>
+        <errorType />
+
+        <originalForm>viel</originalForm>
+
+        <targetForm>fiel</targetForm>
+      </error> Maria ein i<error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> sie den Kassazettel vergessen hatte. Blöderweise <correction>
+        <deletion>gla<unreadable /></deletion>
+      </correction> glaubte die Kassiererin <correction>
+        <deletion>dass</deletion>
+      </correction> Maria nicht und sie musste das Obst zweimal zahlen.<par />Blöde Geschichte oder?<par />Ist <correction>
+        <deletion>di<unreadable /></deletion>
+      </correction> dir so auch etwas passiert?<par /><closing>Liebe <error>
+          <errorType />
+
+          <originalForm>Grüse</originalForm>
+
+          <targetForm>Grüße</targetForm>
+        </error></closing><correction>
+        <deletion><unreadable /></deletion>
+      </correction> dein David</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber Paul,</greeting><par />ich habe <correction>
+        <deletion>habe</deletion>
+      </correction> deinen Brief gelesen, und ich wollte dir nur ein <error>
+        <errorType />
+
+        <originalForm>Paar</originalForm>
+
+        <targetForm>paar</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>tipps</originalForm>
+
+        <targetForm>Tipps</targetForm>
+      </error> für die <error>
+        <errorType />
+
+        <originalForm>verwändung</originalForm>
+
+        <targetForm>Verwendung</targetForm>
+      </error> des Internets geben. Also ich finde <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> du gut gehandelt hast <correction>
+        <deletion><unreadable /></deletion>
+      </correction> diese Kontakte <error>
+        <errorType />
+
+        <originalForm>abzubrächen</originalForm>
+
+        <targetForm>abzubrechen</targetForm>
+      </error>, <error>
+        <errorType />
+
+        <originalForm>den</originalForm>
+
+        <targetForm>denn</targetForm>
+      </error> du weißt nie wer sich wirklich hinter dem PC <error>
+        <errorType />
+
+        <originalForm>verstäckt</originalForm>
+
+        <targetForm>versteckt</targetForm>
+      </error> deshalb finde ich es wichtig <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> du dich nicht mehr bei dieser Mönstern <error>
+        <errorType />
+
+        <originalForm>mäldest</originalForm>
+
+        <targetForm>meldest</targetForm>
+      </error>. Ich halte <correction>
+        <deletion>nicht</deletion>
+      </correction> nichts von virtuellen Freundschaften hast du <error>
+        <errorType />
+
+        <originalForm>siher</originalForm>
+
+        <targetForm>sicher</targetForm>
+      </error> schon verstanden, ich finde du solltes im Internet nur mit deinen <correction>
+        <deletion><unreadable /></deletion>
+      </correction> echten Freunden schreiben, die du auch <error>
+        <errorType />
+
+        <originalForm>Persönlich</originalForm>
+
+        <targetForm>persönlich</targetForm>
+      </error> kennst. Also ich rate dir <correction>
+        <deletion><unreadable /></deletion>
+      </correction> erstmal den PC ausgeschalten zu lassen und dich um dein <error>
+        <errorType />
+
+        <originalForm>Soziales</originalForm>
+
+        <targetForm>soziales</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>leben</originalForm>
+
+        <targetForm>Leben</targetForm>
+      </error> <correction>
+        <deletion><unreadable /></deletion>
+      </correction> zu kümmern, und dich nur um deine Freunde und <correction>
+        <deletion>familie</deletion>
+      </correction> Familie zu <correction>
+        <deletion><unreadable /></deletion>
+      </correction> kümmern.<par />Wenn du willst kannst du mir <error>
+        <errorType />
+
+        <originalForm>zurück schreiben</originalForm>
+
+        <targetForm>zurückschreiben</targetForm>
+      </error> und erzählen wie es gegangen ist.<par /><closing>Liebe <correction>
+          <deletion>G</deletion>
+        </correction> <correction>
+          <deletion>g</deletion>
+
+          <insertion>G</insertion>
+        </correction>rüße</closing>, dein David </exercise>
+  </body>
+</kolipsi_II_document>

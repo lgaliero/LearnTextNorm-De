@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5560</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><correction>
+        <deletion><unreadable/></deletion>
+      </correction> <greeting>Liebe <entity>Serena</entity>,</greeting> <par/><error>
+        <errorType/>
+
+        <originalForm>Letzte</originalForm>
+
+        <targetForm>letzte</targetForm>
+      </error> Woche habe ich deinen Brief <correction>
+        <deletion>gehabt</deletion>
+
+        <insertion>gekommen</insertion>
+      </correction>. Mir geht gut, und in die Schule alles gut. Ich denke eine Ding, denn die nächste Woche haben wir <correction>
+        <deletion>eine</deletion>
+      </correction> eine Woche Ferien. Wir können einen Urlaub in den Bergen oder am Meer gemacht. Das wollte ich dich fragen. Ich <correction>
+        <deletion>hätte gern</deletion>
+      </correction> wollte gern am Meer, aber du kannst schwimmen nicht. Aber wir können einen <error>
+        <errorType/>
+
+        <originalForm>Pic-nic</originalForm>
+
+        <targetForm>Picknick</targetForm>
+      </error> am Meer machen. Wenn <correction>
+        <deletion>wolltest</deletion>
+      </correction> willst du in den Bergen fahren, gut. Gestern bin ich eine Reise gegangen, da habe ich 2 Programmen gebraucht. Die erste in die Bergen. Die Bergen heißen <entity>Dolomitien</entity>, und sie sind in <entity><error>
+          <errorType/>
+
+          <originalForm>Süd Tirol</originalForm>
+
+          <targetForm>Südtirol</targetForm>
+        </error></entity>, hier <correction>
+        <deletion>es in</deletion>
+      </correction> sind die Fotos. <error>
+        <errorType/>
+
+        <originalForm>die</originalForm>
+
+        <targetForm>Die</targetForm>
+      </error> zweite am Meer, auf die Insel <entity>Capri</entity>, <correction>
+        <insertion>auch</insertion>
+      </correction> hier sind die Fotos, es ist eines wunderschönes Insel. Wann <strikeover>
+        <expansion>wollest</expansion>
+
+        <expansion>willst</expansion>
+      </strikeover> du in die Bergen fahren, zuerst müssen wir mit dem Zug und dann mit dem Bus fahren. Da können wir 4 Tage blieben in einem Gasthaus, das koste<overwrite>
+        <over>t</over>
+
+        <under>n</under>
+      </overwrite> <error>
+        <errorType/>
+
+        <originalForm>drei hundert</originalForm>
+
+        <targetForm>dreihundert</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>euro</originalForm>
+
+        <targetForm>Euro</targetForm>
+      </error>. <par/>Wann willst du am Meer fahren, wir müssen mit dem Zug nach <entity>Genua</entity> fahren. <error>
+        <errorType/>
+
+        <originalForm>und</originalForm>
+
+        <targetForm>Und</targetForm>
+      </error> dann von <entity>Genua</entity> nach <entity>Capri</entity> mit dem Schiff fahren. Da können wir 5 Tage blieben in <error>
+        <errorType/>
+
+        <originalForm><overwrite>
+            <over>e</over>
+
+            <under>d</under>
+          </overwrite>einem</originalForm>
+
+        <targetForm>einem</targetForm>
+      </error> Hotel, das kostet <error>
+        <errorType/>
+
+        <originalForm>fünf hundert</originalForm>
+
+        <targetForm>fünfhundert</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>euro</originalForm>
+
+        <targetForm>Euro</targetForm>
+      </error>. <par/>Schriebst mich was <strikeover>
+        <expansion>wollst</expansion>
+
+        <expansion>willst</expansion>
+      </strikeover> du machen, wo willst du fahren. Ich warte deine <sic>Antworte</sic>. <par/><closing>Bis <error>
+          <errorType/>
+
+          <originalForm>Bald</originalForm>
+
+          <targetForm>bald</targetForm>
+        </error>! <par/> </closing>Deine Freundin <entity>Lydmyla</entity> </exercise>
+  </body>
+</kolipsi_document>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>3544</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"> <comment>Texte nur als Kopie, schlecht zu digit.</comment> <par/><greeting><sic>Liebe</sic> <entity>Matteo</entity>,</greeting> <par/><error>
+        <errorType/>
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> will dich erzählt was passiert mit meine Freundin <entity>Maria</entity>. Eines Tages <entity>Maria</entity> geht in eine Obsthändler und sie <arrow end="head" id="1">hat</arrow> zuerst <arrow end="open" id="1"> </arrow> die Äpfel, Banane und viele Salat gekauft. Wenn <entity>Maria</entity> geh<strikeover>
+        <expansion>e</expansion>
+
+        <expansion>t</expansion>
+      </strikeover> weg sie hat den Kassezettel vergessen.<par/>Eine Stunde später ist sie im <error>
+        <errorType/>
+
+        <originalForm>Supermart</originalForm>
+
+        <targetForm>Supermarkt</targetForm>
+      </error> gegangen. In den Supermarkt sie hat <entity>Coca-Cola</entity>, Wasser, <error>
+        <errorType/>
+
+        <originalForm>fisch</originalForm>
+
+        <targetForm>Fisch</targetForm>
+      </error>, <entity>Fanta</entity>, <error>
+        <errorType/>
+
+        <originalForm>Flasch</originalForm>
+
+        <targetForm>Fleisch</targetForm>
+      </error> und Brot gekauft. Es ist später und <entity>Maria</entity> ist <error>
+        <errorType/>
+
+        <originalForm>stilwasser</originalForm>
+
+        <targetForm>Stillwasser</targetForm>
+      </error> und musst nach Hause geht, weil der <error>
+        <errorType/>
+
+        <originalForm>Abendesse</originalForm>
+
+        <targetForm>Abendessen</targetForm>
+      </error> <sic>vorbereit</sic> musst. <entity>Maria</entity> hat noch die Äpfel, die Banane und viele Salat mit sich. Sie geht auf den Kasse aber es war ein Problem an der Kasse. Die Kassierer denkt, dass sie hat <error>
+        <errorType/>
+
+        <originalForm>gestholen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error>. <entity>Maria</entity> hat nicht das <error>
+        <errorType/>
+
+        <originalForm>Kassezettel</originalForm>
+
+        <targetForm>Kassenzettel</targetForm>
+      </error> und ist traurig und sie will <overwrite>
+        <under><unreadable/></under>
+
+        <over>k</over>
+      </overwrite>eine Probleme, weil später ist.<par/><entity>Maria</entity> entscheiden den Einkauf zu lassen auf der Kasse und geht nach Hause.</exercise>
+
+    
+  </body>
+</kolipsi_document>

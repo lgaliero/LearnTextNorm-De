@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>3556</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe <entity>Julia</entity>,</greeting> <par />ich will dir erzählt, was mit <entity>Maria</entity> passiert ist. Heute ging <entity>Maria</entity> in einen <overwrite>
+        <under><unreadable /></under>
+
+        <over>Ob</over>
+      </overwrite>st- und Gemüseladen einkaufen. Sie hat Obst und Gemüse eingekauft. Dann hat sie bezahlt und ist von den Laden ausgegangen. <entity>Maria</entity> hat d<overwrite>
+        <under>ie</under>
+
+        <over>en</over>
+      </overwrite> Kassenzettel vergessen. Eine Stunde später war sie im Supermarkt. <entity>Maria</entity> hat noch d<correction>
+        <deletion>ie</deletion>
+
+        <insertion>as</insertion>
+      </correction> Obst und Gemüse mit sich. Maria kauft viele Sachen, aber sie denkt nicht mehr an <sic>die</sic> Obst und Gemüse, die sie zuerst in dem Laden gekauft hat. Während sie einkaufen, die <error>
+        <errorType />
+
+        <originalForm>Kassier<strikeover>
+            <expansion>e</expansion>
+
+            <expansion>i</expansion>
+          </strikeover>rin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> verdächtige sie. Die Kassiererin schaut immer an <entity>Maria</entity>. We<overwrite>
+        <under><unreadable /></under>
+
+        <over>nn</over>
+      </overwrite> <entity>Maria</entity> ein<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>k</insertion>
+      </correction>aufen fertig hat, geht sie bezahlen. <entity>Maria</entity> bezahlt, aber <unreadable />ie hat nicht d<correction>
+        <deletion>ie</deletion>
+
+        <insertion>as</insertion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>Obst-</originalForm>
+
+        <targetForm>Obst</targetForm>
+      </error> und Gemüse herausgenommen. Die <error>
+        <errorType />
+
+        <originalForm>Kassier<strikeover>
+            <expansion>e</expansion>
+
+            <expansion>i</expansion>
+          </strikeover>rin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> fragt sie, ob sie ihre Tasche sehen kann. <entity>Maria</entity> zeigt sie die Tasche. Die <error>
+        <errorType />
+
+        <originalForm>Kassier<strikeover>
+            <expansion>e</expansion>
+
+            <expansion>i</expansion>
+          </strikeover>rin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> denkt, dass <entity>Maria</entity> das Obst- und Gemüse gestohl<correction>
+        <deletion>t</deletion>
+
+        <insertion>en</insertion>
+      </correction> hat. Sie hat nicht den Kassenzettel mit sich. Die Kassiererin ruft die Polizei an. <correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>Am</insertion>
+      </correction> <overwrite>
+        <under><unreadable /></under>
+
+        <over>E</over>
+      </overwrite>nde geht <entity>Maria</entity> nicht in Gefängnis<strikeover>
+        <expansion>.</expansion>
+
+        <expansion>,</expansion>
+      </strikeover> <entity><correction>
+          <deletion>a</deletion>
+
+          <insertion>M</insertion>
+        </correction>aria</entity> hat gelernt, d<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>er</insertion>
+      </correction> Kassenzettel nicht zu vergessen.</exercise>
+
+    <exercise number="2" xml:space="preserve">
+ <par /><greeting>Liebe <entity>Julia</entity>,<par />Hallo <entity>Julia</entity>,</greeting> wir müssen <sic>entschieden</sic>, wo unsere Urlaub verbringen müssen. Ich bin unsicher. Ich w<strikeover>
+        <expansion>i</expansion>
+
+        <expansion>e</expansion>
+      </strikeover>ll, dass du entscheidest. Wir können unsere Urlaub am Meer oder in de<strikeover>
+        <expansion>n</expansion>
+
+        <expansion>r</expansion>
+      </strikeover> Bergen verbringen. Am Meer können wir baden. Am Meer können wir in die Disko gehen. Wir können auch neue Freund kennen. Am Abend können wir Promenaden auf dem Strand machen. Das Meer ist <correction>
+        <deletion>mehr</deletion>
+      </correction> romantische<unreadable /> als Berg. <error>
+        <errorType />
+
+        <originalForm>Letzen</originalForm>
+
+        <targetForm>Letzten</targetForm>
+      </error> Sommer hatte ich viel Spaß am Meer. Im Berg können wir uns wirklich ausruhen. Im Berg können wir eine sauberere Luft atmen. Als ich klein war, habe ich eine Promenade in den Wald machen. Ich hatte viel Spaß. Im Berg kocht man gut und wir können Spezialität essen. Mir gefäll<strikeover>
+        <expansion>t</expansion>
+
+        <expansion>e</expansion>
+      </strikeover> ganz viel essen. Im Berg können wir außerdem auf der Wiese liegen. Im beide<correction>
+        <deletion>n</deletion>
+      </correction> Fall haben wi<strikeover>
+        <expansion>r</expansion>
+
+        <expansion>e</expansion>
+      </strikeover> viele Spaß. Ich warte deine Antwort.<correction>
+        <deletion><unreadable /></deletion>
+      </correction><par /> <closing>Bis <strikeover>
+          <expansion>b</expansion>
+
+          <expansion>B</expansion>
+        </strikeover>ald, dein Schatz</closing> </exercise>
+  </body>
+</kolipsi_document>

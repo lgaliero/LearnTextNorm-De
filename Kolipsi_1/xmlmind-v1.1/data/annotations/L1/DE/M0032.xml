@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0032</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Elena</entity></greeting>,<par />wie geht es dir? Mir geht es gut.<par />Wie war dein Tag heute?<par />Mein Tag war sehr aufregend. Ich habe mich heute mit meiner Freundin <entity>Maria</entity> unterhalten.<par />Du glaubst nicht was ihr passiert ist.<par />Sie war im <correction>
+        <deletion>Obstladen</deletion>
+      </correction> Obst- und Gemüseladen einkaufen, weil wir morgen <correction>
+        <deletion>e</deletion>
+      </correction> zusammen etwas kochen wollen. Sie hat einen Salat, Gurken und einige Orangen gekauft. Danach ist sie in <correction>
+        <deletion>d</deletion>
+      </correction> einen Supermarkt gegangen, um noch die restlichen Sachen einzukaufen, wie zum Beispiel Nudeln, Sahne und Wasser. Wie wollen uns <correction>
+        <deletion>na</deletion>
+      </correction> ein leckeres Nudelgericht mit <correction>
+        <deletion>S</deletion>
+      </correction> Sahne<correction>
+        <deletion>sau</deletion>
+      </correction>soße <correction>
+        <deletion>un</deletion>
+      </correction> kochen. Und dazu <correction>
+        <deletion>w</deletion>
+      </correction> ein Salat mit Gurken. <correction>
+        <deletion>Also wollte sie schnell</deletion>
+      </correction> Also ging sie schnell in den Supermarkt, um die Dinge einzu<hyphen>-</hyphen>kaufen. Sie bezahlte ihre Sachen und wollte gerade gehen, da hielt sie die Dame von der Kasse an. <correction>
+        <deletion>Ihr</deletion>
+      </correction> <correction>
+        <insertion><entity>Maria</entity></insertion>
+      </correction> wurde vorgeworfen, etwas in die Tasche gesteckt zu haben, was sie nicht bezahlt hatte. Sie soll die Gurken, die aus ihrer Tasche rausguckten geklaut haben. <entity>Maria</entity> wurde sehr verlegen und musste der Kassiererin erklären, dass sie nicht geklaut hatte. Diese glaubte ihr dann auch, als ihr der Kassenzettel vom Obst- und Gemüseladen gezeigt wurde. Die Kassiererin entschuldigte sich für ihren Vorwurf und schenkte <entity>Maria</entity> eine<overwrite>
+        <under><unreadable /></under>
+
+        <over>n</over>
+      </overwrite> <error>
+        <errorType />
+
+        <originalForm>Schokorigel</originalForm>
+
+        <targetForm>Schokoriegel</targetForm>
+      </error>. Ist das nicht eine spannende Geschichte? Ich hoffe du lässt mal wieder was von dir hören.<par /><closing>Grüße, <entity>Sandrine</entity>.   </closing>                 </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo <entity>Elena</entity></greeting>!<par />Wie geht es dir? Mir geht es nicht so gut, weil ich ununterbrochen darüber nachdenken muss, wo wir besser unseren Urlaub verbringen. Wie schon besprochen, gibt es im Grunde zwei Möglichkeiten. Entweder, wir fahren ans Meer oder <correction>
+        <deletion>w</deletion>
+      </correction> in die Berge.<par />Da wir beide sehr sportlich sind, <correction>
+        <deletion>würde</deletion>
+      </correction> sind die Berge eine gute Möglichkeit, sich einmal richtig auszu<hyphen>-</hyphen>lasten. Wir könnten alle zwei Tage wandern gehen. Ich denke das wäre sehr interes<correction>
+        <insertion>s</insertion>
+      </correction>ant. Doch andererseits lieben wir beide das Meer. Wir könnten uns jeden Tag <correction>
+        <deletion>schön</deletion>
+      </correction> an den Strand legen und <error>
+        <errorType />
+
+        <originalForm>Abends</originalForm>
+
+        <targetForm>abends</targetForm>
+      </error> könnten wir dann in einer schönen Bar einen Cocktail genießen.<par />Möglicherweise könnten wir uns auch am Meer sportlich beschäftigen. Wir könnten im Meer schwimmen und Beachvolleyball spielen. Und dabei bekommen wir noch eine schöne Bräune. Doch eines haben die <correction>
+        <deletion><unreadable /></deletion>
+      </correction> beiden Reiseziele im Grunde gemeinsam. Man kann sich <correction>
+        <deletion>an</deletion>
+      </correction> schön erholen und Sport treiben. Außerdem lernt man viele neue Leute kennen. <correction>
+        <deletion>und kann si</deletion>
+      </correction><par />Also ich war noch nie in den Bergen. Auch wenn ich gerne Sport treibe, fahre ich lieber ans Meer. Ich genieße es, in der Sonne zu schlafen oder ein Buch zu lesen. Außerdem mag ich sehr die Wär<overwrite>
+        <under>e</under>
+
+        <over>m</over>
+      </overwrite>e, die dort herrscht. <correction>
+        <deletion>Ich denke</deletion>
+      </correction> Ich bin der Meinung, dass Wandern nicht das richtige Reiseziel ist, weil wir noch sehr jung sind.  <correction>
+        <deletion>Ich kann</deletion>
+      </correction> Die meisten jungen Leute fahren an den Strand. Aber ich bin ebenfalls <correction>
+        <deletion><unreadable /></deletion>
+      </correction> offen, für <overwrite>
+        <under>n</under>
+
+        <over>N</over>
+      </overwrite>eues.<par />Es hängt nun ganz von dir ab. Also <sic>zusammen<hyphen>-</hyphen>fassen</sic> ist <error>
+        <errorType />
+
+        <originalForm>folgendes</originalForm>
+
+        <targetForm>Folgendes</targetForm>
+      </error> zu sagen. Man kann sowohl in den Bergen als auch <overwrite>
+        <under>i</under>
+
+        <over>a</over>
+      </overwrite>m Meer Sport <overwrite>
+        <under>r</under>
+
+        <over>t</over>
+      </overwrite>reiben. Entspannen kann man sich auch. Der größte <error>
+        <errorType />
+
+        <originalForm>unterschied</originalForm>
+
+        <targetForm>Unterschied</targetForm>
+      </error> ist natürlich die Gegend. In den Bergen ist weit und breit kein Strand mit Meer doch am Strand sind weit und breit keine größeren Berge zu sehen. Es hängt also ganz von der <overwrite>
+        <under><unreadable /></under>
+
+        <over>L</over>
+      </overwrite>ust ab. Worauf hast du Lust?<par />Ich hoffe wir können uns einigen. Ich freue mich sehr auf unseren Urlaub, egal wohin wir fahren.<par /><closing>Bis bald. <entity>Sandrine</entity></closing>         </exercise>
+  </body>
+</kolipsi_document>

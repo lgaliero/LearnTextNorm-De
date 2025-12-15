@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5492</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe <entity>Zina</entity>,</greeting> <par /><error>
+        <errorType />
+
+        <originalForm>weisst</originalForm>
+
+        <targetForm>weißt</targetForm>
+      </error> du was an <entity>Maria</entity> passiert ist? <par /><correction>
+        <deletion><unreadable /></deletion>
+      </correction> Letzte Woche war sie einkaufen und ging zuerst in einen Obst- und Gemüseladen. <error>
+        <errorType />
+
+        <originalForm>sie</originalForm>
+
+        <targetForm>Sie</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>kafte</originalForm>
+
+        <targetForm>kaufte</targetForm>
+      </error> Obst und Gemüse und stellte alles in ihre Tasche. Sie merkte nicht, dass sie den Kassenzettel ins Geschäft vergessen hatte. Später ging sie in Supermarkt und kaufte andere Sache die sie brauchte und bezahlte alles an der Kasse. Plötzlich <correction>
+        <deletion>sagte die fr</deletion>
+
+        <insertion>dachte</insertion>
+      </correction> die <error>
+        <errorType />
+
+        <originalForm>Kassirerin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error>, dass <entity>Maria</entity> <correction>
+        <deletion><unreadable /></deletion>
+      </correction> das Obst das in <correction>
+        <deletion>der</deletion>
+
+        <insertion>ihrer</insertion>
+      </correction> Tasche lag, <error>
+        <errorType />
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hat. <par />Das Problem <correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>war</insertion>
+      </correction>, dass <entity>Maria</entity> nicht zeigen konnte, dass sie nichts <error>
+        <errorType />
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hat. Der Direktor wollte die Polizei anrufen <correction>
+        <deletion><unreadable /></deletion>
+      </correction> und <entity>Maria</entity> wollte erklären, dass sie nicht schuldig war. Als die Polizei kam ging <entity>Maria</entity> <error>
+        <errorType />
+
+        <originalForm>nit</originalForm>
+
+        <targetForm>mit</targetForm>
+      </error> zwei Polizisten ins Obst- und Gemüseladen wo sie gew<overwrite>
+        <over>es</over>
+
+        <under><unreadable /></under>
+      </overwrite>en war. Zum Glück, als sie ins Geschäft eintraten, <correction>
+        <deletion>w</deletion>
+      </correction> lag dem Kassenzettel noch da so konnte <entity>Maria</entity> zeigen, dass sie nichts <error>
+        <errorType />
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hatte. <par /><closing>Grüße und Küsse, <par /> <entity>Shary</entity></closing></exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Wilner</entity>,</greeting> <par />wir müssen unsere Urlaub <correction>
+        <deletion>o</deletion>
+      </correction> organisieren! <par />Wir haben noch zwei <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Möglichkeiten und wir müssen sofort wählen: Berg oder Meer? <par />Wir haben keine Zeit mehr weil ich <error>
+        <errorType />
+
+        <originalForm>Morgen</originalForm>
+
+        <targetForm>morgen</targetForm>
+      </error> den Reisebüro anrufen muss. <correction>
+        <deletion>wir müssen <unreadable /> </deletion>
+      </correction> <par />Am Meer werden wir <foreign_word
+        foreign_language="Italiano">Relax</foreign_word> haben, wir <correction>
+        <deletion><unreadable /></deletion>
+      </correction> werden schwimmen und unter der Sonne liegen! In den Bergen werden wir die beste Luft die es gibt atmen, wir werden durch Bäume spazieren und wir werden auch viel Spaß mit den Tieren haben. Auch in den Bergen werden wir viel <foreign_word
+        foreign_language="Italiano">Relax</foreign_word> haben! Wir <error>
+        <errorType />
+
+        <originalForm>mussen</originalForm>
+
+        <targetForm>müssen</targetForm>
+      </error> auch denken ob wir mit viele Leute unsere Urlaub spenden wollen. Am Meer gibt es viele andere Personen die wir kennen lernen können. In den Bergen werden wir allein sein weil das Haus weit weg <overwrite>
+        <over>von</over>
+
+        <under><unreadable /></under>
+      </overwrite> <correction>
+        <deletion><unreadable /></deletion>
+      </correction> einem kleinen Dorf ist. <par />Antworte mir weil wir keine Zeit mehr haben! <par /><closing>Viele Grüße! <entity>Shary</entity> </closing></exercise>
+  </body>
+</kolipsi_document>

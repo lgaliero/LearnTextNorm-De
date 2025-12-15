@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>3565</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Lieber <entity>Willy</entity> </greeting> <par/> <gap>_</gap> <overwrite>
+        <over>f</over>
+
+        <under>F</under>
+      </overwrite>ür diese Sommer ich <error>
+        <errorType/>
+
+        <originalForm><overwrite>
+            <under>g</under>
+
+            <over>G</over>
+          </overwrite>laube</originalForm>
+
+        <targetForm>glaube</targetForm>
+      </error>, dass ist besser <arrow end="open" id="1"> </arrow> ans Meer <arrow end="head" id="1"><overwrite>
+          <over>g</over>
+
+          <under>e</under>
+        </overwrite>ehen</arrow>. Aber auch auf d<overwrite>
+        <over>en</over>
+
+        <under><unreadable/></under>
+      </overwrite> Bergen ist sehr schön und mehr frisch als <correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>am</insertion>
+      </correction> Meer. Ans Meer waren viele <error>
+        <errorType/>
+
+        <originalForm>shö<overwrite>
+            <under>m</under>
+
+            <over>n</over>
+          </overwrite>e</originalForm>
+
+        <targetForm>schöne</targetForm>
+      </error> Mädchen mit klein<correction>
+        <deletion> </deletion>
+      </correction>e Badeanzug und viele Pub und Disco Pub. Die <strikeover>
+        <expansion>l</expansion>
+
+        <expansion>L</expansion>
+      </strikeover>etzte Sommer ich war schon nach <entity>Rimini</entity> und war sehr schön. Es war viele Promenade mit viele Verkaufsständen. <par/>Aber <correction>
+        <deletion><unreadable/></deletion>
+      </correction> auf dem Berg war mehr Frieden und wir <sic>konnen</sic> viele und <error>
+        <errorType/>
+
+        <originalForm>länge</originalForm>
+
+        <targetForm>lange</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>spaziergange</originalForm>
+
+        <targetForm>Spaziergänge</targetForm>
+      </error> machen. <correction>
+        <deletion>Aber</deletion>
+      </correction> Diese Sommer ich will Frieden wieso ich kann schlafen viele Zeit. So ich wähle dem Berg. Ich ha<overwrite>
+        <over>b</over>
+
+        <under><unreadable/></under>
+      </overwrite>e <correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>nie</insertion>
+      </correction> einen Urlaub <correction>
+        <deletion><unreadable/></deletion>
+      </correction> auf Berg gemacht. Wir haben noch keine Zeit aber ich <overwrite>
+        <over>g</over>
+
+        <under>G</under>
+      </overwrite>laube dass dem Berg ist <error>
+        <errorType/>
+
+        <originalForm>Besser</originalForm>
+
+        <targetForm>besser</targetForm>
+      </error>. Jetzt wir haben eine <error>
+        <errorType/>
+
+        <originalForm>probleme</originalForm>
+
+        <targetForm>Probleme</targetForm>
+      </error>. <par/>Welchen Berg wählen wir? <entity>Larazze</entity> und <entity>Canazzei</entity> mir gef<overwrite>
+        <over>a</over>
+
+        <under>ä</under>
+      </overwrite>llen, für mich ist gleich, alle beide <overwrite>
+        <over>s</over>
+
+        <under><unreadable/></under>
+      </overwrite>ind <error>
+        <errorType/>
+
+        <originalForm>shön</originalForm>
+
+        <targetForm>schön</targetForm>
+      </error>.. <par/>Ich warte deine <error>
+        <errorType/>
+
+        <originalForm>antwort</originalForm>
+
+        <targetForm>Antwort</targetForm>
+      </error> <par/><closing>Bis bald. <entity>Mosca Alessandro</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

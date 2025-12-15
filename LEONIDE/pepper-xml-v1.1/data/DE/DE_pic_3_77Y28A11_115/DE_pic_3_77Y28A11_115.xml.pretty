@@ -1,0 +1,71 @@
+<body>
+ <page page_number="1" transcanno_page_id="2446">
+  <paragraph class="medium-paragraph" tagcode="1552071036634">
+   <div>
+    Der Vater
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552070524718" tran_word_deletion_target="_#_">
+     ist
+    </tran_word_deletion_id8>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1552070544561" tran_correction_original="grü*en">
+     grüßt
+    </tran_word_correction_id25>
+    seine
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1552070575439" tran_correction_original="Töchter">
+     Tochter
+    </tran_word_correction_id25>
+   </div>
+   <div>
+    uns
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552070563987" tran_word_deletion_target="_#_">
+     S
+    </tran_word_deletion_id8>
+    seine Frau.
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1552071036635">
+   <div>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552070610111" tran_word_deletion_target="_#_">
+     Nach dem
+    </tran_word_deletion_id8>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1552070607924">
+     Danach
+    </tran_word_insertion_id9>
+    , er
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552070605361" tran_word_deletion_target="_#_">
+     geht
+    </tran_word_deletion_id8>
+    steigt in den
+   </div>
+   <div>
+    Zug,
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1552070990066">
+     Sie geben sich die
+     <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1552071033849" tran_correction_original="Hende">
+      Hände
+     </tran_word_correction_id25>
+     <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1552071036633">
+      *
+     </tran_unreadable_id17>
+    </tran_word_insertion_id9>
+    und
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1552070633325">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552070638381" tran_word_deletion_target="_#_">
+      *
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1552070630288">
+     er
+    </tran_word_insertion_id9>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1552070895872" tran_correction_original="*ähr*">
+     fährt
+    </tran_word_correction_id25>
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1552070855861">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552070858600" tran_word_deletion_target="_#_">
+      *
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+    weit weg.
+   </div>
+  </paragraph>
+ </page>
+</body>

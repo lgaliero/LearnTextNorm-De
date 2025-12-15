@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I34_LAS16SIL</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Lieber Friedrich,</greeting><par />du kannst nicht ermessen was gestern Maria passiert ist! Sie war beim Obsthandler, um die <error>
+        <errorType />
+
+        <originalForm>Saltat</originalForm>
+
+        <targetForm>Salat</targetForm>
+      </error> zu kaufen. Sie hat <correction>
+        <deletion>das</deletion>
+      </correction> dies gemacht, und dann ist sie im Supermarkt gegangen, wo sie den Rest ihrer Einkaufen gemacht hat. Bis hier, ist alles ganz normal. Aber, wenn sie an die Kasse gekommt ist, danach <correction>
+        <deletion>er</deletion>
+      </correction> sie bezahlt hat, die Einkauferin hat den Gemüsen in Marias Tasche gemerkt. Wie komisch! Sie hat gedacht, dass Maria <correction>
+        <deletion>die den Ge</deletion>
+      </correction> die Produkten <error>
+        <errorType />
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hätte! Maria probiert sie erzählen, dass sie <correction>
+        <deletion>den auf</deletion>
+      </correction> auch in ein anderen Geschäft enkaufen hat, aber die Einkauferin war nicht überzeugt. Deshalb hat sie den Kassenzettel gefragt. Maria hat <correction>
+        <deletion>e</deletion>
+      </correction> das gesucht, aber sie k<correction>
+        <deletion>ö</deletion>
+
+        <insertion>o</insertion>
+      </correction>nnte es nicht finden: Es war <correction>
+        <deletion>bei</deletion>
+      </correction> beim Obsthänd<correction>
+        <deletion>e</deletion>
+
+        <insertion>l</insertion>
+      </correction>er, wo sie es vergessen hat! So Maria musste den ganzen Einkaufen lassen. Es ist nicht zu <correction>
+        <deletion>schön</deletion>
+      </correction> nett zu sagen, aber, wenn Maria <correction>
+        <deletion>hat</deletion>
+
+        <insertion>zu</insertion>
+      </correction> mir die Geschichte erzählt hat, ich habe sehr viel gelacht!<par /><closing>Bis bald,</closing><par />dein Hans</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber Paul,</greeting><par />ich habe in die Zeitung deinen Brief gelesen<correction>
+        <deletion>,</deletion>
+      </correction>. Es hat mich interessiert und <error>
+        <errorType />
+
+        <originalForm>Deshalb</originalForm>
+
+        <targetForm>deshalb</targetForm>
+      </error> möchte ich <correction>
+        <deletion>e<unreadable /></deletion>
+      </correction> mein Antwort geben, <correction>
+        <deletion>R Persönlich</deletion>
+      </correction> um meiner Meinung <correction>
+        <deletion>austauc</deletion>
+
+        <insertion>zu</insertion>
+      </correction> austauschen. Persönlich, finde ich, dass virtuelle Freundschaften nicht so schlimm sind. Leider aber, denke ich, dass du <correction>
+        <deletion>v</deletion>
+      </correction> zu viel virtuelle Freundschaft hast. Vielleicht<correction>
+        <deletion>,</deletion>
+      </correction> musst du <correction>
+        <deletion>die</deletion>
+      </correction> mit <error>
+        <errorType />
+
+        <originalForm>interpersönelle</originalForm>
+
+        <targetForm>interpersonelle</targetForm>
+      </error> Kontakt schaffen. <correction>
+        <deletion>Wen</deletion>
+      </correction> Sonst, wird du ohne Freunden in d<correction>
+        <deletion>ie</deletion>
+
+        <insertion>en</insertion>
+      </correction> echte Leben bleiben.</exercise>
+  </body>
+</kolipsi_II_document>

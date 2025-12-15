@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5030</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><par /><greeting>Liebe <entity>Nadine</entity>,</greeting> <par />ich muss dir etwas erzählen; letzte Woche war meine Freundin <entity>Maria</entity> einkaufen. <par />Sie ist am <palimpsest>Morgen</palimpsest> in den <foreign_word
+        foreign_language="Italiano">Supermarket</foreign_word> gegangen und sie hat Obst und Gemüse <correction>
+        <insertion>und Brot</insertion>
+      </correction> gekauft; dann ist sie an der Kasse gegangen, <palimpsest>hat sie beza</palimpsest><correction>
+        <insertion>hlen</insertion>
+      </correction> und <correction>
+        <insertion>ist sie</insertion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>weg gegangen</originalForm>
+
+        <targetForm>weggegangen</targetForm>
+      </error>. <par />Wenn sie <palimpsest>zu</palimpsest> Hause gekommen ist, bemerkt sich dass sie <correction>
+        <insertion>um zu kochen</insertion>
+      </correction> etwas vergessen hat und sie muss in den <foreign_word
+        foreign_language="Italiano">Supermarket</foreign_word> zurückgehen. <par />Wenn sie in den <foreign_word
+        foreign_language="Italiano">Supermarket</foreign_word> war, kaufte Öl, <error>
+        <errorType />
+
+        <originalForm>Sals</originalForm>
+
+        <targetForm>Salz</targetForm>
+      </error>, Nudeln und Pfeffer ein und geht sie an der Kassa um zu bezahlen. <par />Hier an der Kassa, die Frau die hier arbeitet, sieht dass <entity>Maria</entity> den Brot in der Tasche hat und denkt dass sie das Brot <error>
+        <errorType />
+
+        <originalForm>gestholen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> <palimpsest>wo</palimpsest>llte. <entity>Maria</entity> wollte nicht stehlen, sie hat nur den Brot in die Tasche vergessen. <par />So <entity>Maria</entity> erzählt die Frau wie die Sache gegangen sind; die Frau entschuldigt sich mit <entity>Maria</entity> und <entity>Maria</entity> kann nach Hause fahren. <par /><closing>Liebe Grüße <par /> <entity>Tania</entity> </closing> </exercise>
+
+    <exercise number="2" xml:space="preserve"><par /><greeting>Liebe <entity>Nadine</entity> </greeting> <par />wir wollen einen Urlaub zusammen machen, aber wir wissen nicht, wohin wir gehen wollen. Ich sage dir ein <error>
+        <errorType />
+
+        <originalForm>Paar</originalForm>
+
+        <targetForm>paar</targetForm>
+      </error> Sache... <par />Wenn wir in den Bergen gehen, finden wir ein kaltes Wetter, eine frische Luft, vielleicht auch Schnee und wir können mit den Snowboard gehen. <par />Wenn wir am Meer gehen, finden wir viel warm, können wir viel schwimmen, unten der Sonne liegen und am Abend viel S<palimpsest>h</palimpsest>opping machen, weil die Geschäfte auch am Abend geöffnet sind. Wir haben schon eine kurze Urlaub zusammen gemacht, am Meer, <palimpsest>un</palimpsest>d wir haben uns viel <error>
+        <errorType />
+
+        <originalForm>amusiert</originalForm>
+
+        <targetForm>amüsiert</targetForm>
+      </error>. Wollen wir noch eine andere so machen oder probieren wir die Berge? Was sagst du? Ich liebe das Meer, aber für mich ist gleich wohin wir <ambiguous>
+        <alternative>fahren</alternative>
+
+        <alternative>gehen</alternative>
+      </ambiguous>. <par />Vielleicht können wir auch die Preise sehen und entscheiden wohin wir <ambiguous>
+        <alternative>fahren</alternative>
+
+        <alternative>gehen</alternative>
+      </ambiguous> wollen. Wir müssen bald buchen, weil sonst finden wir nicht mehr <error>
+        <errorType />
+
+        <originalForm>platz</originalForm>
+
+        <targetForm>Platz</targetForm>
+      </error>! <par /> <closing>Wir hören uns bald, <par />Küsse, <entity>Tania</entity> .</closing> </exercise>
+  </body>
+</kolipsi_document>

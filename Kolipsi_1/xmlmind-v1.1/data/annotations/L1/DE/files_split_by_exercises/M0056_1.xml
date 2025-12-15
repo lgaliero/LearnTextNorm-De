@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0056</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Jasmin<unreadable/></entity></greeting>,<par/>wie geht es dir? Wahrscheinlich hast du im Moment auch viel Stress in der Schule, weil jetzt die ganzen Klau<hyphen>-</hyphen>suren geschrieben werden, oder? Gibt es sonst irgend<hyphen>-</hyphen>etwas Neues bei dir?<par/>Also ich wollte dir noch etwas erzählen. Ich habe dir bestimmt schon einmal von meiner Freundin <entity>Maria</entity> er<hyphen>-</hyphen>zählt. Letzte Woche <correction>
+        <deletion>is</deletion>
+      </correction> war sie einkaufen, weil wir a<overwrite>
+        <under><unreadable/></under>
+
+        <over>be</over>
+      </overwrite>nds <correction>
+        <deletion>zusammen etwas kochen</deletion>
+      </correction> <correction>
+        <deletion>nächsten Tag</deletion>
+      </correction> zusammen kochen wollten. Wir hatten uns überlegt einen Salat zu machen und Nudeln mit Tomatens<overwrite>
+        <under>a</under>
+
+        <over>o</over>
+      </overwrite>ße und Gemüs<over>e</over>. <correction>
+        <deletion>zu zu</deletion>
+      </correction> <correction>
+        <deletion>zu zu<hyphen>-</hyphen>b</deletion>
+      </correction>. Sie ist also zunächst in den Obst- und Gemüsladen um die Ecke gegangen, um dort das Gemüse zu besorgen. Sie kaufte Salat, Tomaten und Lauch. Danach <correction>
+        <deletion>bezahlte sie</deletion>
+      </correction> sagt sie, dass sie auf jeden Fall bezahlt habe, was ich ihr auch glaube, nur leider den Beleg im Geschäft liegen gelassen ha<overwrite>
+        <under>t</under>
+
+        <over>b</over>
+      </overwrite>e. Eine Stunde später war sie dann im Supermarkt, weil sie noch Nudeln, Wasser und etwas Sahne für unser Essen besorgen wollte. Als sie dann aber an der Kasse stand, immer noch die Tasche mit dem Gemüse über der Schulter, und bezahlen wollte, behauptete die Kassiererin sie wolle das Gemüse klauen. Sie <correction>
+        <deletion>versu</deletion>
+      </correction> erklärte ihr, dass sie dieses im Gemüse <correction>
+        <deletion>erkl</deletion>
+      </correction> - und Obstladen eine Straße weiter gekauft habe aber lei<hyphen>-</hyphen>der <gap>_</gap> <error>
+        <errorType/>
+
+        <originalForm>Kassenbong</originalForm>
+
+        <targetForm>Kassenbon</targetForm>
+      </error> dort liegen <correction>
+        <deletion>li</deletion>
+      </correction> <correction>
+        <deletion>liegen</deletion>
+      </correction> gelassen habe. Glücklich<correction>
+        <insertion>er</insertion>
+      </correction>weise glaubte <correction>
+        <deletion>sie</deletion>
+      </correction> die Kassiererin ihr und kam nicht auf die Idee die Polizei zu rufen. Was für ein <correction>
+        <deletion>Stress</deletion>
+      </correction> unnötiger Stress das gewesen wäre. <error>
+        <errorType/>
+
+        <originalForm>Naja</originalForm>
+
+        <targetForm>Na ja</targetForm>
+      </error> so etwas erlebt man nicht alle Tage und wir hatten beim Essen wenigstens etwas zu lachen, nachdem <entity>Maria</entity> sich von ihrem Schock erholt hatte.<par/><closing>Dann bis hoffentlich bald<par/><correction>
+          <deletion>Ich habe dic</deletion>
+        </correction><par/>Küsschen<par/><entity><over>Lara</over></entity></closing>               </exercise>
+
+    
+  </body>
+</kolipsi_document>

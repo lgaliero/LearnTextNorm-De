@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0101</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe <entity>Julia</entity></greeting>!<par />Ich hoffe doch sehr <overwrite>
+        <under>D</under>
+
+        <over>d</over>
+      </overwrite>ir geht es gut und du genießt die Zeit in <entity>Amerika</entity>. Deine letzte <error>
+        <errorType />
+
+        <originalForm>Email</originalForm>
+
+        <targetForm>E-Mail</targetForm>
+      </error> hat mich sehr gefreut und ich halte dich <correction>
+        <deletion>sehr</deletion>
+      </correction> gerne auf dem Laufenden. Hier ist alles soweit beim Alten. Schule, Training und das übliche Gerede. Aber es gibt ein paar neue, sehr amüsante und interessante Geschichten über unseren kleinen Tollpatsch <entity>Maria</entity>.<par />Die Liebe tretet ja bekanntlich nicht in Fettnäpfchen, sondern in Friteusen, so wie es letzte Woche, mal wieder, der Fall war. Da beschloss sie nämlich einen Großeinkauf zu starten, erst bei <error>
+        <errorType />
+
+        <originalForm>Ihrem</originalForm>
+
+        <targetForm>ihrem</targetForm>
+      </error> Obst- und Gemüsehändler und anschließend im Supermarkt. Du kennst sie ja, von der ganzen Frischkost nimmt <error>
+        <errorType />
+
+        <originalForm><overwrite>
+            <under>s</under>
+
+            <over>S</over>
+          </overwrite>ie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> nur das<correction>
+        <deletion><unreadable /></deletion>
+      </correction> Beste vom Besten und bei Wurst, Käse und co. spart <error>
+        <errorType />
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> ein. So vergesslich wie <correction>
+        <deletion>Sie</deletion>
+      </correction> <entity>Maria</entity> ist, vergaß <error>
+        <errorType />
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> nach dem <error>
+        <errorType />
+
+        <originalForm>bezahlen</originalForm>
+
+        <targetForm>Bezahlen</targetForm>
+      </error> beim Obsthändler ihren Kassenbon und ging mit ihrer vollgestopften Tasche in den Supermarkt, erledigte dort <error>
+        <errorType />
+
+        <originalForm>Ihren</originalForm>
+
+        <targetForm>ihren</targetForm>
+      </error> Einkauf, wollte bezahlen und ab nach Hause kochen. Die Kassiererin wollte leider nicht so wie <entity>Maria</entity> wollte und beschuldigte <error>
+        <errorType />
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> das komplette Obst und Gemüse klauen zu wollen. <entity>Maria</entity> war außer sich und wollte der lieben Frau direkt die Rechnung aus dem Obstladen zeigen .... tja leider hatte sie den ja vergessen und so fingen die beiden Damen, <entity>Maria</entity> und die Kassiererin, an <error>
+        <errorType />
+
+        <originalForm>heftigs</originalForm>
+
+        <targetForm>heftig</targetForm>
+      </error> zu diskutieren. Das <error>
+        <errorType />
+
+        <originalForm>ganze</originalForm>
+
+        <targetForm>Ganze</targetForm>
+      </error> wäre beinahe eskaliert, die <error>
+        <errorType />
+
+        <originalForm>Kassierin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> war drauf <error>
+        <errorType />
+
+        <originalForm>un</originalForm>
+
+        <targetForm>und</targetForm>
+      </error> dran die Polizei zu rufen, aber da kam unserer pfiffigen Freundin doch noch ein rettender Einfall: Der Laden <error>
+        <errorType />
+
+        <originalForm>indem</originalForm>
+
+        <targetForm>in dem</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm><overwrite>
+            <under>s</under>
+
+            <over>S</over>
+          </overwrite>ie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> ihr <error>
+        <errorType />
+
+        <originalForm>Obst-</originalForm>
+
+        <targetForm>Obst</targetForm>
+      </error> und Gemüse herholt, verkauft ausschließlich Bio- und <error>
+        <errorType />
+
+        <originalForm>Fair Trade Ware</originalForm>
+
+        <targetForm>Fair-Trade-Ware</targetForm>
+      </error>, Artikel die der Supermarkt nicht in seinem Sortiment hat. Und so konnte <entity>Maria</entity> die Beschuldigung des Diebstahls widerlegen und stolzierte aus dem Laden. Ihr war die ganze <gap>_</gap> trotzdem so peinlich, dass <error>
+        <errorType />
+
+        <originalForm><overwrite>
+            <under>s</under>
+
+            <over>S</over>
+          </overwrite>ie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> sich fest vor<hyphen>-</hyphen>genommen hat, keinen Fuß mehr in den Laden zu setzen. An dieser Stelle soll ich dir noch schöne Grüße von <entity>Maria</entity> bestellen, mit dem Versprechen sich auch bald bei dir zu melden, jetzt muss ich auch schnell los, ein paar Einkäufe erledigen. <closing>Bis bald <correction>
+          <deletion><unreadable /></deletion>
+        </correction></closing>       </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Helena!</entity></greeting> Bald ist es soweit, die Sommer <hyphen>-</hyphen>ferien stehen vor der Tür und unser gemeinsamer Urlaub ist in greifbarer Nähe. Du kannst dir gar nicht vorstellen wie sehr ich mich freue. Endlich eine Auszeit von dem ganzen Trubel in der Stadt, endlich abschalten und entspannen... Die einzige Frage die noch offen steht: Wo geht es überhaupt hin? Wollen wir lieber in ein süßes Ferienhaus am Meer, oder zelten in den Bergen? So langsam müssten wir uns echt mal entscheiden, so wie ich uns kenne, endet das Ganze sowieso wieder in einem <sic>komplettem</sic> Chaos. Ich habe schon etwas überlegt und <error>
+        <errorType />
+
+        <originalForm>Pro-Kontra Listen</originalForm>
+
+        <targetForm>Pro-Kontra-Listen</targetForm>
+      </error> für die beiden Optionen erstellt. Also am Meer haben wir definitiv die Möglichkeit voll und ganz abzuschalten, ich meine die haben wir auch in den Bergen aber da ist es nochmal was anderes. Am Meer können wir unsere Ruhe haben und allein sein, wir können aber auch neue Leute kennenlernen, <error>
+        <errorType />
+
+        <originalForm>Feiern</originalForm>
+
+        <targetForm>feiern</targetForm>
+      </error> gehen und shoppen. Das Ferienhaus ist echt mega schön, wir hätten eine eigene Terrasse und zum Strand sind es keine fünf Minuten.<par />In den Bergen wäre alles total abgeschottet, nur wir und die Natur.... ich weiß nicht ob man das drei Wochen lang aushält. Ich kenn uns doch, wir langweilen uns so schnell und gehen uns dann gegenseitig auf die Nerven. Wir wären wirklich <error>
+        <errorType />
+
+        <originalForm>Irgendwo</originalForm>
+
+        <targetForm>irgendwo</targetForm>
+      </error> im Nirgendwo, also zwar Auszeit pur und wir könnten auch klettern und wandern aber es wäre trotzdem was anderes, vom Preis bieten sich natürlich die Berge an, da sparen wir ein ganzes Stück, allein wegen der Unterkunft und weil es eben keine kostspieligen Freizeitaktivitäten gibt. Übrigens habe ich auch unsere <error>
+        <errorType />
+
+        <originalForm>To-Do Liste</originalForm>
+
+        <targetForm>To-Do-Liste</targetForm>
+      </error> für den Sommer gemacht und der Strand käme definitiv mehr in Frage.... Aber was meinst du? Worauf hättest du <correction>
+        <deletion>mehr</deletion>
+      </correction> lieber Lust?<par />Ein typischer Sommerurlaub <overwrite>
+        <under>,</under>
+
+        <over>o</over>
+      </overwrite>der doch eher auf eine Art Abenteuer-Überlebenscamp?<par />Also ich muss noch anmerken, dass der letzte Urlaub in den Bergen zwar ganz witzig war, aber nach dieser <emphasis>einen</emphasis> Woche war ich doch wieder ganz froh zurück in die Zivilisation zu kehren, obwohl ich nicht campen war, sondern <correction>
+        <deletion>ich</deletion>
+      </correction> in einer Berghütte geschlafen hab. Man muss sich wirklich darauf einlassen und <error>
+        <errorType />
+
+        <originalForm>bock</originalForm>
+
+        <targetForm>Bock</targetForm>
+      </error> drauf haben.... sonst kann diese Traumlandschaft echt schnell zu einem Alptraum werden. Jetzt aber genug von meinen Vorstellungen, überleg du dir was du gerne machen würdest und dann planen wir so schnell wie möglich. Ich lasse mich ja bekanntlich auf alles ein. Beeil dich mit deiner Antwort.<par /><closing>Viele Küsse und Liebe Grüße</closing>     </exercise>
+  </body>
+</kolipsi_document>

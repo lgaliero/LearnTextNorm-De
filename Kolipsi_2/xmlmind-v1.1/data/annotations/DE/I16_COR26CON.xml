@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I16_COR26CON</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe Lisa,</greeting><par />letzte Woche ist meiner Freundin Maria etwas echt <error>
+        <errorType />
+
+        <originalForm>peinliches</originalForm>
+
+        <targetForm>Peinliches</targetForm>
+      </error> passiert. Sie ist am Dienstag zum Obsthändler gegangen um das Gemüse zu kaufen, das sie fürs Abendessen vorbereiten wollte. <correction>
+        <deletion>Am später Nachmittag</deletion>
+
+        <insertion>Eine Stunde danach</insertion>
+      </correction> ist sie noch in den Supermarkt gegangen und hatte ihren Einkauf noch in der Tasche. <error>
+        <errorType />
+
+        <originalForm>Naja</originalForm>
+
+        <targetForm>Na ja</targetForm>
+      </error>, dann ist etwas <error>
+        <errorType />
+
+        <originalForm>blödes</originalForm>
+
+        <targetForm>Blödes</targetForm>
+      </error> passiert. Die Verkäuferin ist Maria hinterher gelaufen und hat sie angehalten. Sie dachte sie hätte das ganze Gemüse in ihrer Tasche  vom Supermarkt gestohlen. Die <correction>
+        <deletion>a</deletion>
+
+        <insertion>A</insertion>
+      </correction>rme hat angefangen zu schwitzen und wusste nicht mehr wo sie den Kassenzettel gelassen hatte. "So etwas <error>
+        <errorType />
+
+        <originalForm>peinliches</originalForm>
+
+        <targetForm>Peinliches</targetForm>
+      </error> ist mir noch nie passiert", hat sie mir gesagt. Alle hatten angefangen sie anzustarren und das machte die Situation noch unangenehmer. Aber zum Glück war die Verkäuferin sehr nett und gut gelaunt. Deshalb <correction>
+        <deletion>glaubte</deletion>
+
+        <insertion>hat</insertion>
+      </correction> sie an die Ehrlichkeit von meiner Freundin geglaubt und hat sie gehen lassen.<par />Lisa<correction>
+        <deletion>,</deletion>
+      </correction> ich hoffe, dass diese kleine Geschichte <correction>
+        <deletion>dich</deletion>
+      </correction> dir Spaß gemacht hat, mich hat <correction>
+        <deletion>sie</deletion>
+
+        <insertion>es</insertion>
+      </correction> sehr amüsiert Maria zuzuhören.<par /><closing>Liebe Grüße,</closing><par />Lelo</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo Paul,</greeting><par />ich habe deinen Brief gelesen und bin froh dir helfen zu können.<par />Ich finde virtuelle Freundschaften persöhnlich ganz toll. Ich habe selbst viele liebe Menschen im <error>
+        <errorType />
+
+        <originalForm>Netzt</originalForm>
+
+        <targetForm>Netz</targetForm>
+      </error> kennengelernt und habe zwei sogar wirklich <correction>
+        <deletion>kennengeler</deletion>
+      </correction> getroffen. Julie habe ich auf Tumblr kennengelernt und wir haben uns gleich sehr gut verstanden und später deshalb auch auf Facebook gechattet. Im April vom letzten Jahr bin ich mit meiner Familie nach Brüssel gefahren für eine Woche und weil Julie <correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>i</insertion>
+      </correction>n der Nähe wohnt, haben wir uns sehen können. Es war toll und <correction>
+        <deletion>weil</deletion>
+      </correction> wir haben uns, genau wie <correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>i</insertion>
+      </correction>m Internet, total gut verstanden. Und seitdem <correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>h</insertion>
+      </correction>aben wir uns gegenseitig <error>
+        <errorType />
+
+        <originalForm>4 mal</originalForm>
+
+        <targetForm>4-mal</targetForm>
+      </error> besucht. Ich möchte dir einen Rat geben und zwar solltest du dir Menschen die um dich sind mehr schätzen als die die nur im Web sind. Versuch diese Freundschaften zu pflegen, aber lass <correction>
+        <deletion>denen</deletion>
+
+        <insertion>die</insertion>
+      </correction> die du im Web gern hast mehr <error>
+        <errorType />
+
+        <originalForm>Marginal</originalForm>
+
+        <targetForm>marginal</targetForm>
+      </error>: Wenn du sie toll findest, denn trefft euch! Und pass immer auf, denn man wi<correction>
+        <deletion>ss</deletion>
+
+        <insertion>ß</insertion>
+      </correction>t nie wer hinter dem Bildschirm sitzt!<par />Du hast die Freundschaft nicht verraten, sondern für kurze Zeit aber wahre Freundschaft mit der virtuellen verwechselt. Du kannst es jetzt ändern.<par />Viel Glück Paul!<par /><closing>Liebe Grüße,</closing> Lelo </exercise>
+  </body>
+</kolipsi_II_document>

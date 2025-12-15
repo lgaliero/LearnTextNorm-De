@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0163</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Hallo <entity>Ulli</entity></greeting>,<par/>ich habe in den letzten Tagen wenig von dir gehört. <over>W</over>ie ist deine Geschäfts<hyphen>-</hyphen>reise verlaufen?<par/>Die Zeit habe ich allerdings sinnvoll genutzt, um über unseren bevorstehenden Urlaub genauer nachzudenken.<par/>Ich war im Reisebüro am Marktplatz um mich ein <error>
+        <errorType/>
+
+        <originalForm>Bisschen</originalForm>
+
+        <targetForm>bisschen</targetForm>
+      </error> über die angesagten Reiseziele dieses Jahr zu informieren und habe jetzt zwei wirklich interessante Ange<hyphen>-</hyphen>bote gefunden.<par/>Eine Entscheidung wollte ich nicht allein treffen, obwohl du <palimpsest/> gesagt hattest, ich dürfe wählen. Es soll immerhin nicht nur für mich erholsam sein, oder?<par/>Das erste Reiseziel wäre<palimpsest/> <palimpsest>der <entity>Schwarz<hyphen>-</hyphen>wald</entity></palimpsest>. Erholung ist hier auf jeden Fall garantiert, da es im Naturschutzgebiet einige tolle Plätze gibt, an denen man sogar <error>
+        <errorType/>
+
+        <originalForm>Kostengünstig</originalForm>
+
+        <targetForm>kostengünstig</targetForm>
+      </error> die Seele baumeln lassen kann. Die Zielgruppe ist allerdings eher die ältere Generation. Falls wir also nicht nur relaxen wollen, sondern auch mal feiern, so müssten wir erstmal eine ordentliche Strecke zurücklegen. Kostenpunkt für de<overwrite>
+        <under>e</under>
+
+        <over>n</over>
+      </overwrite> kompletten <palimpsest> A</palimpsest>ufenthalt inklusive Trans<hyphen>-</hyphen>fer, wären 1249,- €  pro Person für 14 Tage.<par/>Dagegen etwas preisgünstiger, 1139,- , wäre die Pauschalreise nach <entity>Mallorca</entity>.<par/>Der Nachteil hierbei wäre allerdings, dass wir nur in der Hauptsaison noch ein <error>
+        <errorType/>
+
+        <originalForm>renomiertes</originalForm>
+
+        <targetForm>renommiertes</targetForm>
+      </error> Hotel bekommen könnten und zu dieser Zeit viele Familien und Jugendliche vor Ort sind. Absolute Erholung wäre hier vielleicht nicht garantiert, dafür aber Strand, beständiges schönes Wetter und viel "Action".<par/>Bleibt also am Ende die Wahl zwischen der Sonneninsel <entity>Mallorca</entity>, oder der Naturpracht <entity><error>
+          <errorType/>
+
+          <originalForm>Schwarzwahl</originalForm>
+
+          <targetForm>Schwarzwald</targetForm>
+        </error></entity>. Auf der einen Seite Sonne und Erlebnisse, auf der anderen deutsches Klima und "Rentnerleben".<par/>Meine Meinung kannst du aus diesem Fazit vielleicht schon erahnen.<par/>Ich würde mich über eine ganz baldige Antwort freuen, damit wir <error>
+        <errorType/>
+
+        <originalForm>gegebenen <palimpsest/> falls</originalForm>
+
+        <targetForm>gegebenenfalls</targetForm>
+      </error> noch einen Frühbucherrabatt abstauben <palimpsest/> und den Urlaub in der Firma einreichen können.<palimpsest/><par/><closing>Viele liebe Grüße und hoffentlich bis bald!<par/><entity>Frank</entity></closing>    </exercise>
+  </body>
+</kolipsi_document>

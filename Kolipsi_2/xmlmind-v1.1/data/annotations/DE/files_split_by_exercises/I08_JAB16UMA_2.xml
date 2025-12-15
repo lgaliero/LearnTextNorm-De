@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I08_JAB16UMA</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Lieber Paul,</greeting><par/>ich habe <correction>
+        <deletion>se</deletion>
+      </correction> deinen Brief gelesen und ich <error>
+        <errorType/>
+
+        <originalForm>dancke</originalForm>
+
+        <targetForm>danke</targetForm>
+      </error> dass ist <error>
+        <errorType/>
+
+        <originalForm>nich</originalForm>
+
+        <targetForm>nicht</targetForm>
+      </error> ein gute Nachricht. Warum hast du die Nummern alle Personen aus seinem Handy gelöscht. Ich danke dass die virtuelle Freundschaften ist nicht gut weil du kannst nicht ein Person schauen dass du in Internet gefundet haben oder die Person du kennst nicht. Du <correction>
+        <deletion>k<unreadable/></deletion>
+      </correction> müssen die Nummern alle Personen alle <correction>
+        <deletion>f</deletion>
+
+        <insertion>F</insertion>
+      </correction>reunde gefragen. Für mich Internet ist sehr gut aber ich habe kein virtuelle Freundschaften gefundet. Nur einmal habe ich eine Erfahrung mit dem Internet gemacht haben und <correction>
+        <deletion><unreadable/></deletion>
+      </correction> war dass ich habe ein <correction>
+        <deletion>Fr</deletion>
+      </correction> virtuelle Freunde konnen. Aber das war sehr schlecht weil <correction>
+        <deletion><unreadable/></deletion>
+      </correction> virtuelle Freunde ist nicht schön.<par/> <par/>Luciano<par/> <par/>Lucianafghan@email.de</exercise>
+  </body>
+</kolipsi_II_document>

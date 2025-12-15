@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0186</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Lieber <entity>Hans</entity></greeting>!<par/>Letzte Woche ist etwas unglaublich <error>
+        <errorType/>
+
+        <originalForm>spektakulares</originalForm>
+
+        <targetForm>Spektakuläres</targetForm>
+      </error>, <error>
+        <errorType/>
+
+        <originalForm>weltbewegendes</originalForm>
+
+        <targetForm>Weltbewegendes</targetForm>
+      </error> geschehen, du wirst es mir <correction>
+        <insertion>nicht</insertion>
+      </correction> glauben. Meine gute Freundin <entity>Maria</entity>, <correction>
+        <insertion>Professorin für pneumatische Plastologie</insertion>
+      </correction> ging in den "Obst- und Gemüseladen" <correction>
+        <deletion><unreadable/></deletion>
+      </correction><correction>
+        <deletion><unreadable/></deletion>
+      </correction> und kaufte das schon im Namen titulierte ein: Obst und Gemüse... Doch das ist <correction>
+        <insertion>noch</insertion>
+      </correction> nicht alles, die Ereignisse <error>
+        <errorType/>
+
+        <originalForm>uberschlugen</originalForm>
+
+        <targetForm>überschlugen</targetForm>
+      </error> sich. <overwrite>
+        <under>e</under>
+
+        <over>E</over>
+      </overwrite>ine Stunde später war sie im Supermarkt direkt nebenan, was sie in dieser Zeit <correction>
+        <deletion><unreadable/></deletion>
+      </correction> dazwischen wohl gemacht hat, wird wohl immer ein Rätsel bleiben <correction>
+        <insertion>sie verfügt über keinerlei Erinnerung mehr, über diese eine Stunde.</insertion>
+      </correction>. Obschon sie, wie sie mir berichtete, <error>
+        <errorType/>
+
+        <originalForm>desilliosoniert</originalForm>
+
+        <targetForm>desillusioniert</targetForm>
+      </error> in den Supermarkt ging, wusste sie n<over>o</over>ch ganz genau welches Produkt sie erwerben wollte. Sie wollte 10 kg Hackfleisch kaufen. An der Kasse geschah dann das <error>
+        <errorType/>
+
+        <originalForm>unglaubliche</originalForm>
+
+        <targetForm>Unglaubliche</targetForm>
+      </error>, der Kartenautomat nahm ihre EC-Karte nicht an und sie hatte kein Bargeld mehr dabei. Kannst du dir das vorstellen, diese <correction>
+        <deletion>unglaublich diese Geschichte</deletion>
+      </correction> <correction>
+        <insertion>Geschichte ist wahrhaft <error>
+            <errorType/>
+
+            <originalForm>uglaubwurdig</originalForm>
+
+            <targetForm>unglaubwürdig</targetForm>
+          </error></insertion>
+      </correction>. Ein Erlebnis rätselhafter als das <error>
+        <errorType/>
+
+        <originalForm>vorherige</originalForm>
+
+        <targetForm>Vorherige</targetForm>
+      </error>. <entity>Maria</entity> war nach diesem Erlebnis, nie mehr dieselbe. <correction>
+        <insertion>Mit</insertion>
+      </correction> welcher Motivation, ja welche Triebe mich bewegen, dir diese verfluchten Zeilen zu schreiben, weiß ich nicht mehr. Doch die große Frage, die sich nun stellt und diese ist bis heute nicht geklärt worden, wieso wollte <entity>Maria</entity> 10 kg Hackfleisch einkaufen?<par/><closing>Mit freundlichen Grüßen<par/><entity>H. Phillips</entity></closing>           </exercise>
+
+    
+  </body>
+</kolipsi_document>

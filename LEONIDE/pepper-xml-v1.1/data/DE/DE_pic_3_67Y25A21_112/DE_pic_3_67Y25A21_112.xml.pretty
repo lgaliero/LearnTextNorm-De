@@ -1,0 +1,98 @@
+<body>
+ <page page_number="1" transcanno_page_id="2378">
+  <paragraph class="medium-paragraph" tagcode="1589960041628">
+   <div>
+    C'era una
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553597025742" tran_word_deletion_target="_#_">
+     volta in cui
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="avevano" tagcode="1553597016079">
+      avvevano
+     </orth_error_id12>
+     ucciso i loro
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="nonno" tagcode="1553597041540">
+      nono
+     </orth_error_id12>
+     , la familia
+    </tran_word_deletion_id8>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1553596955393">
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="famiglia" tagcode="1553596982837">
+      familia
+     </orth_error_id12>
+     <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1553596996012" tran_alternative_1="in cui" tran_alternative_2="incui">
+      in cui
+     </tran_ambiguous_id3>
+     i soldati
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="avevano" tagcode="1553596967235">
+      avevevano
+     </orth_error_id12>
+     ucciso i loro
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="nonno" tagcode="1553596960991">
+      nono
+     </orth_error_id12>
+    </tran_word_insertion_id9>
+   </div>
+   <div>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1553597072829">
+     la
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="famiglia" tagcode="1556728963060">
+      familia
+     </orth_error_id12>
+    </tran_word_insertion_id9>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553597075229" tran_word_deletion_target="_#_">
+     <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1553597084376">
+      *
+     </tran_unreadable_id17>
+    </tran_word_deletion_id8>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="dovevano" tagcode="1553597192347">
+     devevano
+    </orth_error_id12>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="scappare" tagcode="1553597136679">
+     scapare
+    </orth_error_id12>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="perché" tagcode="1553597141892">
+     perche
+    </orth_error_id12>
+    loro sapevano
+   </div>
+   <div>
+    delle informazioni del presidente
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="hanno" tagcode="1553597178824">
+     ano
+    </orth_error_id12>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553597270599" tran_correction_original="d*vuto">
+     dovuto
+    </tran_word_correction_id25>
+   </div>
+   <div>
+    partire per la città più povera, e loro
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="stavano" tagcode="1553597312280">
+     stafano
+    </orth_error_id12>
+   </div>
+   <div>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="piangendo" tagcode="1553597377483">
+     piagiendo
+    </orth_error_id12>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="perché" tagcode="1553597290193">
+     perche
+    </orth_error_id12>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="hanno" tagcode="1553597299705">
+     ano
+    </orth_error_id12>
+    dovuto rinunciare
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1589960041627">
+     *
+    </tran_unreadable_id17>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="al denaro" tagcode="1553597448867">
+     all'denaro
+    </orth_error_id12>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553597405474" tran_correction_original=",">
+     e
+    </tran_word_correction_id25>
+   </div>
+   <div>
+    alla casa.
+   </div>
+  </paragraph>
+ </page>
+</body>

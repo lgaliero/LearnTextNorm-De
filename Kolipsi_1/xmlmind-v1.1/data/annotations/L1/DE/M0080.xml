@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0080</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hi <entity>Toni</entity></greeting>,<par /><entity>Maria</entity> hat mir gestern etwas wirklich <error>
+        <errorType />
+
+        <originalForm>witzige<overwrite>
+            <under>r</under>
+
+            <over>s</over>
+          </overwrite></originalForm>
+
+        <targetForm>Witziges</targetForm>
+      </error> erzählt! Sie war gestern einkaufen, zuerst bei einem Obsthändler und dann im Supermarkt.<par />Dummerweise hat sie den <error>
+        <errorType />
+
+        <originalForm>Bong</originalForm>
+
+        <targetForm>Bon</targetForm>
+      </error> des Obsthändlers vergessen und die Kassiererin dachte natürlich sie hätte die Sachen aus der Obst- und Gemüse<hyphen>-</hyphen>abteilung geklaut!<par />Das war natürlich ein schreckliches Missverständnis was <correction>
+        <deletion>sie</deletion>
+      </correction> <entity>Maria</entity> auch versucht hat zu erklären, aber sie hatte natürlich <sic>kein</sic> Beweis <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> sie die Lebensmittel schon beim Obsthändler gekauft hatte. Also musste sie die eingekauften Sachen <correction>
+        <deletion>bei</deletion>
+      </correction> im Supermarkt lassen (auch das Obst) und <error>
+        <errorType />
+
+        <originalForm>ersteinmal</originalForm>
+
+        <targetForm>erst einmal</targetForm>
+      </error> den <error>
+        <errorType />
+
+        <originalForm>Bong</originalForm>
+
+        <targetForm>Bon</targetForm>
+      </error> holen um der Kassiererin <error>
+        <errorType />
+
+        <originalForm>klar zu machen</originalForm>
+
+        <targetForm>klarzumachen</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> ihr Verdacht falsch war.<par />Das hat sie dann zum Glück auch eingesehen und <entity>Maria</entity> konnte nach Hause gehen, mit ihren Sachen. Sowas kann auch nur <entity>Maria</entity> erzählen, dieses tollpatschige Mädchen.<par />Ist dir auch schonmal so etwas passiert? Also mir nicht.<par />Ich würde mich freuen wenn du antwortest und grüß die Familie von mir.<par /><closing>Liebe Grüße</closing>    </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting><palimpsest>Liebste</palimpsest> <entity>Hanna</entity>,</greeting><par />wie du weißt wollten wir einen kleinen Urlaub planen.<par />Da wir aber noch nicht genau wissen wohin es gehen soll, dachte ich mir ich <error>
+        <errorType />
+
+        <originalForm>wege</originalForm>
+
+        <targetForm>wäge</targetForm>
+      </error> beide Reiseziele mal ab und du schreibst mir dann w<overwrite>
+        <under>e</under>
+
+        <over>o</over>
+      </overwrite>hin du lieber <error>
+        <errorType />
+
+        <originalForm>möchstes</originalForm>
+
+        <targetForm>möchtest</targetForm>
+      </error>.<par />Also ein Urlaub in den Bergen wäre natürlich deshalb schön, weil die Natur dort einfach wahnsinnig <palimpsest>bezaubernd</palimpsest> ist. <par />Ich selber war einmal bei so etwas <error>
+        <errorType />
+
+        <originalForm>ähnlichem</originalForm>
+
+        <targetForm>Ähnlichem</targetForm>
+      </error> wie <sic>eine</sic> Wandertour, sie war zwar anst<overwrite>
+        <under>e</under>
+
+        <over>r</over>
+      </overwrite>engend, aber <sic>den</sic> Blick de<overwrite>
+        <under>n</under>
+
+        <over>r</over>
+      </overwrite> uns da geboten wurde war einfach unvergesslich.<par />Außerdem würden wir uns dann auch sportlich mal ein bisschen betätigen, würde auch nicht schaden, <palimpsest>was</palimpsest>?<par />Ich wollte auch schon immer mal in einer kleinen Berghütte übernachten und dem <error>
+        <errorType />
+
+        <originalForm>treiben</originalForm>
+
+        <targetForm>Treiben</targetForm>
+      </error> nachts <sic>zu</sic> lauschen.<par />Ein Urlaub am Strand ist auch immer schön. So<overwrite>
+        <under>o</under>
+
+        <over>n</over>
+      </overwrite>ne, Strand und Meer.<par />Auch hier ist die Natur wunderschön und es gibt auch ein bisschen mehr Leben und Menschen dort, was ich in den Bergen eher nicht vermute.<par />Außerdem würden wir den ganzen Tag nichts tun und uns die Sonne auf den Bauch scheinen lassen.<par />Vielleicht gibt es dort auch ein paar nette "Beach Boys", die uns den Rücken eincremen <emoticon>(:</emoticon> Das wäre zumindest ein netter <error>
+        <errorType />
+
+        <originalForm>neben effekt</originalForm>
+
+        <targetForm>Nebeneffekt</targetForm>
+      </error>... Trotzdem ist es wohl eher ein <error>
+        <errorType />
+
+        <originalForm>"<sic>Standart</sic>-Urlaub"</originalForm>
+
+        <targetForm>"Standard-Urlaub"</targetForm>
+      </error>, der aber <palimpsest>definitiv</palimpsest> auch viele Vorteile hat.<par />Ich hoffe dir geht es gut und ich höre bald von dir.<par /><closing>Alles Liebe<par /><entity>X</entity></closing>   </exercise>
+  </body>
+</kolipsi_document>

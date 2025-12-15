@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0071</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Aldina</entity></greeting>,<par/>wir hatten doch <error>
+        <errorType/>
+
+        <originalForm>Letztens</originalForm>
+
+        <targetForm>letztens</targetForm>
+      </error> über den Urlaub gesprochen. Ich habe hier zwei wunder<hyphen>-</hyphen>schöne Vorschläge. <correction>
+        <deletion>un</deletion>
+      </correction> Zum einen in den Bergen und einmal am <correction>
+        <deletion>Strand</deletion>
+      </correction> Meer, wir konnten uns ja nicht entscheiden als wir darüber gesprochen hatten.<par/>Also, in den Bergen hätten wir eine kleine Hütte im Dorf, <error>
+        <errorType/>
+
+        <originalForm>dass</originalForm>
+
+        <targetForm>das</targetForm>
+      </error> in einem riesigen Tal liegt. Es gibt einen wunderschönen <correction>
+        <deletion>klaren</deletion>
+      </correction> Bergsee, der zwar unglaublich klar ist doch auch unglaublich kalt. Wäre auf jeden Fall eine schöne Abkühlung, denn ich war schonmal mit meiner Familie an einem ähnlichen See.<par/>Es war <correction>
+        <deletion>zw</deletion>
+      </correction> eine gute Erfrischung, nur eigentlich brauchte man die <over>n</over>icht so oft, denn <correction>
+        <deletion><unreadable/></deletion>
+      </correction> so warm ist es nicht in den Bergen. Am Meer <error>
+        <errorType/>
+
+        <originalForm>wi<over>d</over>erum</originalForm>
+
+        <targetForm>wiederum</targetForm>
+      </error> ist es zwar total warm, aber das Meer halt auch, das heißt man kriegt höchstens unter der Dusche <overwrite>
+        <under>a</under>
+
+        <over>A</over>
+      </overwrite>bkühlung, die aber eine <correction>
+        <deletion>Gemeins</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>Campingplatz <overwrite>
+            <under><unreadable/></under>
+
+            <over>D</over>
+          </overwrite>usche</originalForm>
+
+        <targetForm>Campingplatzdusche</targetForm>
+      </error> wäre, denn so nah am Meer gibt es dort wo wir hinfahren wollen keine schönen <correction>
+        <deletion>,</deletion>
+      </correction> Hotels oder Ferienhäuser, <error>
+        <errorType/>
+
+        <originalForm>ausserdem</originalForm>
+
+        <targetForm>außerdem</targetForm>
+      </error> gibt dieser Campingplatz dem Urlaub ein ganz entspanntes Gefühl, wenn es so ist wie das <over>le</over>tzte Mal als ic<over>h</over> mit einer anderen Freundin auf einen Camping<hyphen>-</hyphen>platz am Meer gefahren bin.<par/>Also, alles in allem musst du dich nur entscheiden, ob du knackig braun werden willst und den ganzen Tag in der Sonne liegen willst, oder ob du dich auch sportlich betätigen willst und es heimelig haben willst.<par/>Ich hoffe auf baldige Rückmeldung.<par/><closing><error>
+          <errorType/>
+
+          <originalForm>deine</originalForm>
+
+          <targetForm>Deine</targetForm>
+        </error> <entity>Carla</entity></closing>            </exercise>
+  </body>
+</kolipsi_document>

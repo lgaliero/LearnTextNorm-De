@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I24_PAG02GRE</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Liebe Giorgia,</greeting><par/>wie geht es dir? Mir gut.<par/><error>
+        <errorType/>
+
+        <originalForm>Weisst</originalForm>
+
+        <targetForm>Weißt</targetForm>
+      </error> du was an meine<correction>
+        <deletion>r</deletion>
+      </correction> Freundin Maria passiert ist? Letzte Woche war <error>
+        <errorType/>
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> <correction>
+        <deletion>zu einkaufen</deletion>
+      </correction> in einem Obst- und <error>
+        <errorType/>
+
+        <originalForm>Gemusela<correction>
+            <deletion>n</deletion>
+          </correction>den</originalForm>
+
+        <targetForm>Gemüseladen</targetForm>
+      </error> zu einkaufen. Eine Stunde später war im Supermarkt. Dort gab es ein Problem an der Kasse, weil <error>
+        <errorType/>
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> <correction>
+        <deletion>S</deletion>
+      </correction> ihre Taschengeld in der <correction>
+        <deletion>Gemüseland</deletion>
+      </correction> Obst- und Gemüseladen vergessen hat.<par/>Sie hatte viele Dinge zu einkaufen und sie weißt nicht wo <correction>
+        <deletion>sein</deletion>
+      </correction> ihren Taschengeld war. Sie weint, weil sie <correction>
+        <deletion>seine Do</deletion>
+
+        <insertion>alle</insertion>
+      </correction> ihre Dokumenten verloren hat. Maria hat die Polizei angeruft und <correction>
+        <deletion>sie</deletion>
+      </correction> sie sagen dass einen Frau hat <correction>
+        <deletion>sein</deletion>
+      </correction> ihren Taschengeld<correction>
+        <deletion><unreadable/></deletion>
+      </correction> ins <correction>
+        <deletion>S</deletion>
+      </correction> Obt- und Gemüseladen gefunden.<par/>Sie war sehr glücklich am diesen Tag!!!<par/>So Maria rennte in dem Obst- und Gemüseladen zu ihren Taschengelden zu bringen. Es ist komisch... findest du auch?<par/>Ich vermisse dich sehr Giorgia<correction>
+        <deletion>, wir</deletion>
+
+        <insertion>.</insertion>
+      </correction><par/><closing>Viele <correction>
+          <deletion>g</deletion>
+
+          <insertion>G</insertion>
+        </correction>rußen,</closing><par/><correction>
+        <deletion><unreadable/></deletion>
+      </correction> Greta</exercise>
+
+    
+  </body>
+</kolipsi_II_document>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5891</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Lisa</entity>!<par/></greeting>Wie geht es dir? Mir geht es alles gut! <par/>Gestern habe ich <entity>Maria Schüller</entity> gesehen. <error>
+        <errorType/>
+
+        <originalForm>Wie</originalForm>
+
+        <targetForm>Wir</targetForm>
+      </error> haben eine Spaziergang zusammen gemacht. <entity>Maria</entity> hat mir eine lustige Geschichte erzählt. <palimpsest>Sie hat aber dazu</palimpsest> einige Probleme gehabt. Ich werde dir diese Geschichte erzählen. Vorgestern <palimpsest>ist</palimpsest> <entity>Maria</entity> einkaufen gegangen. Zuerst ist sie beim Obsthändler gegangen. <error>
+        <errorType/>
+
+        <originalForm>sie</originalForm>
+
+        <targetForm>Sie</targetForm>
+      </error> hat ein paar Äpfel zwei <palimpsest>Bananen, ein Kilo</palimpsest> Tomaten <palimpsest>gekauft. Leider hat</palimpsest> <entity>Maria</entity> der Kassenzettel bei der Verkäuferin ins <error>
+        <errorType/>
+
+        <originalForm>Gescheft</originalForm>
+
+        <targetForm>Geschäft</targetForm>
+      </error> vergessen. Eine Stunde <palimpsest>s</palimpsest>päter war sie im Supermarkt. Sie hat Milch, Butter, Honig, Salz und ein paar <palimpsest><error>
+          <errorType/>
+
+          <originalForm>Wasser-Fläschen</originalForm>
+
+          <targetForm>Wasserfläschen</targetForm>
+        </error> gekaut</palimpsest>. Im Supermarkt gibt auch Obst und Gemüse, aber <entity>Maria</entity> hat das Obst schon früher gekauft. <palimpsest>In der <error>
+          <errorType/>
+
+          <originalForm>Stoff-Taschen</originalForm>
+
+          <targetForm>Stofftaschen</targetForm>
+        </error></palimpsest> hatte <entity>Maria</entity> das Obst. <error>
+        <errorType/>
+
+        <originalForm>als</originalForm>
+
+        <targetForm>Als</targetForm>
+      </error> die Verkäuferin die in dem Supermarkt arbeitet ihr <palimpsest>sah würde böse.</palimpsest> Die Verkäuferin dachte, dass <entity>Maria</entity> das Obst <error>
+        <errorType/>
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hatte, weil das Obst in <entity>Marias</entity> Tasche lag. <entity>Maria</entity> bek<palimpsest>am Angst.</palimpsest> Sie rannte in der Obst- und Gemüseladen, <correction>
+        <insertion>sie</insertion>
+      </correction> holte der Kassenzettel (er lag noch auf dem Tisch bei der <error>
+        <errorType/>
+
+        <originalForm>Verkäufering</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error>) und kam in der <foreign_word foreign_language="Italiano">Superma<overwrite>
+          <over>et</over>
+
+          <under>.</under>
+        </overwrite></foreign_word> <error>
+        <errorType/>
+
+        <originalForm>züruck</originalForm>
+
+        <targetForm>zurück</targetForm>
+      </error>. Die <foreign_word foreign_language="Italiano">Supermarket</foreign_word> Verkäuferin entschuldigte sich. <par/>Am Ende ist alles gut gegangen. <par/>Schreib mir bald! <par/><closing>Deine <entity>Chiara</entity><par/><reduction>
+          <reductionType rType="02 abbreviation"/>
+
+          <reducedForm>HDGDL</reducedForm>
+
+          <unfoldedForm>Habe dich ganz doll lieb</unfoldedForm>
+        </reduction><comment>Akronym</comment>!!!! <par/> <entity>Chiara</entity> </closing></exercise>
+
+    
+  </body>
+</kolipsi_document>

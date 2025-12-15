@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0079</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><correction>
+        <deletion>Hallo <entity>Jonas</entity>,<par/>da wir diesen Sommer zusammen <correction>
+            <insertion>in den Urlaub</insertion>
+          </correction> <correction>
+            <deletion>weg</deletion>
+          </correction>fahren wollen, uns aber nocht entschieden haben, wo es hin gehen soll, wollte ich dir mit diesem brieg zwei Vorschläge machen.</deletion>
+      </correction><par/><par/><greeting>Hallo <entity>Jonas</entity></greeting>,<par/><error>
+        <errorType/>
+
+        <originalForm>Wir</originalForm>
+
+        <targetForm>wir</targetForm>
+      </error> wollten doch diesen Sommer zusammen in den Urlaub fahren und konnten uns noch nicht entscheiden, ob wir ans Meer oder in die Berge fahren wollen. Deshalb habe ich mir ein paar Gedanken gemacht und wollte sie dir mit diesem Brief mitteilen.<par/>Also wenn wir ans Meer fahren würden, könnten wir uns am Strand sonnen und im Meer baden gehen. Außerdem könnten wir jegliche Wassersportarten ausprobieren wie z.B. Wasserski fahren, was ich dir nur empfehlen kann, da es eine Menge Spaß macht.<par/>Doch wenn wir ans Meer fahren würden, müssten wir unser Ziel mit Sorgfalt wählen, da es auch jede Menge <correction>
+        <deletion>st</deletion>
+      </correction> steinige Strände gibt, die überhaupt nicht an<hyphen>-</hyphen>genehm sind, wenn man am Strand spazieren gehen möchte.<par/>Natürlich können wir auch in den Bergen jede Menge Sport machen. Wie zum Beispiel <correction>
+        <deletion>W</deletion>
+      </correction> wandern oder Ski fahren, was <correction>
+        <deletion>natür</deletion>
+      </correction> selbstverständlich Gemeinsamkeiten wären. Eine weitere Gemeinsamkeit wäre das Sonnen. Auch in den Bergen kann man richtig schön braun werden. Erinnerst du dich daran wie braun ich war, als ich aus meinem letzten Urlaub wiederkam? <emoticon>;-)</emoticon><par/>Doch einer der größten Unterschiede wird wohl das Meer sein. Wenn du schwimmen und vielleicht auch planschen liebst, sollten wir ans Meer fahren, da es in den Bergen kein Wasser bzw. Meer gibt. Doch dafür gibt es in be<hyphen>-</hyphen>stimmten Höhen den Schnee.<par/>Es liegt an dir!<par/>Ich hoffe die Vor- und Nachteile bzw. Gemeinsamkeiten und Unterschiede des <correction>
+        <deletion>Urlaubens</deletion>
+      </correction> Urlaubes in den Bergen oder am Meer <correction>
+        <deletion>h</deletion>
+      </correction> können dir die Entscheidung erleichtern.<par/>Meld dich doch, wenn du dich entschieden hast, mir ist es nämlich <error>
+        <errorType/>
+
+        <originalForm>ziehmlich</originalForm>
+
+        <targetForm>ziemlich</targetForm>
+      </error> egal.<par/>Wünsch dir noch ein schönes Wochenende!<par/><closing>Deine<par/><entity>Anna</entity></closing>          </exercise>
+  </body>
+</kolipsi_document>

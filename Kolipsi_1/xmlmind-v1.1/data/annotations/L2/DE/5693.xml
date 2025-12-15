@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5693</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><comment>bei diesem Text sieht der Buchstabe a immer wie ein o aus.</comment>In die erste <error>
+        <errorType />
+
+        <originalForm>vignette</originalForm>
+
+        <targetForm>Vignette</targetForm>
+      </error>, <entity><error>
+          <errorType />
+
+          <originalForm>Marie</originalForm>
+
+          <targetForm>Maria</targetForm>
+        </error></entity> ist beim Obsthändler zu die Gemüse zu ei<overwrite>
+        <over>n</over>
+
+        <under>m</under>
+      </overwrite>kaufen. Sie hat ein <overwrite>
+        <over>K</over>
+
+        <under>k</under>
+      </overwrite>orb mit die <overwrite>
+        <over>G</over>
+
+        <under>g</under>
+      </overwrite>emüse zu zahlen. Sie zahlt aber <sic>vergesst</sic> sie das <error>
+        <errorType />
+
+        <originalForm>zettel</originalForm>
+
+        <targetForm>Zettel</targetForm>
+      </error> <overwrite>
+        <over>a</over>
+
+        <under><unreadable /></under>
+      </overwrite>uf der Kasse und geht sie weg. Später <error>
+        <errorType />
+
+        <originalForm>si</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> geht wieder <error>
+        <errorType />
+
+        <originalForm>züruck</originalForm>
+
+        <targetForm>zurück</targetForm>
+      </error> im <foreign_word foreign_language="Italiano">Supermarket</foreign_word> zu andere <error>
+        <errorType />
+
+        <originalForm>sachen</originalForm>
+
+        <targetForm>Sachen</targetForm>
+      </error> zu kaufen. <error>
+        <errorType />
+
+        <originalForm>weil</originalForm>
+
+        <targetForm>Weil</targetForm>
+      </error> sie früher die andere <error>
+        <errorType />
+
+        <originalForm>sachen</originalForm>
+
+        <targetForm>Sachen</targetForm>
+      </error> zu kaufen vergessen hat. Wenn sie an der Kass<overwrite>
+        <over>e</over>
+
+        <under>a</under>
+      </overwrite> geht die <error>
+        <errorType />
+
+        <originalForm>Verkauferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> sagt ih<overwrite>
+        <over>n</over>
+
+        <under>m</under>
+      </overwrite> die <overwrite>
+        <over>a</over>
+
+        <under>s</under>
+      </overwrite>nderen <error>
+        <errorType />
+
+        <originalForm>sachen</originalForm>
+
+        <targetForm>Sachen</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>vieder</originalForm>
+
+        <targetForm>wieder</targetForm>
+      </error> zahlen. <entity>Maria</entity> hat nicht die Gemüse <sic>geräubert</sic>, sie hat gezahlt aber sie hat nicht das <error>
+        <errorType />
+
+        <originalForm>zettel</originalForm>
+
+        <targetForm>Zettel</targetForm>
+      </error> und so die <error>
+        <errorType />
+
+        <originalForm>verkauferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> sagt ihn die <error>
+        <errorType />
+
+        <originalForm>Gemuse</originalForm>
+
+        <targetForm>Gemüse</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>vieder</originalForm>
+
+        <targetForm>wieder</targetForm>
+      </error> zu zahlen.<correction>
+        <deletion>Aber</deletion>
+
+        <insertion><entity>Maria</entity></insertion>
+      </correction> sagt an der <error>
+        <errorType />
+
+        <originalForm>Verkauferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> sie die Gemüse gezahlt hat und das <overwrite>
+        <over>Z</over>
+
+        <under>z</under>
+      </overwrite>ettel beim der andere <error>
+        <errorType />
+
+        <originalForm>geschäft</originalForm>
+
+        <targetForm>Geschäft</targetForm>
+      </error> vergessen hat. Später die <error>
+        <errorType />
+
+        <originalForm>Verkauferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> versteht <entity>Maria</entity> und <sic>lasst</sic> <entity>Maria</entity> <error>
+        <errorType />
+
+        <originalForm>weg gehen</originalForm>
+
+        <targetForm>weggehen</targetForm>
+      </error>.</exercise>
+
+    <exercise number="2" xml:space="preserve"> </exercise>
+  </body>
+</kolipsi_document>

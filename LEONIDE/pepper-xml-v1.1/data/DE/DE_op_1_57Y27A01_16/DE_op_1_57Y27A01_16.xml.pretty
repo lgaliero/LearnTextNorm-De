@@ -1,0 +1,54 @@
+<body>
+ <page page_number="1" transcanno_page_id="253">
+  <paragraph class="medium-paragraph" tagcode="1553698460821">
+   <div>
+    1
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553698412426" tran_word_deletion_target="_#_">
+     Ich
+    </tran_word_deletion_id8>
+    In der
+    <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1553698451361" tran_alternative_1="mitte schule" tran_alternative_2="mitteschule">
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Mittelschule" tagcode="1553698460820">
+      mitte schule
+     </orth_error_id12>
+    </tran_ambiguous_id3>
+    Fußballspiele
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1553698460822">
+   <div>
+    2
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Ich" tagcode="1553698416723">
+     ich
+    </orth_error_id12>
+    wolle
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="lernen" tagcode="1553698406758">
+     lhernen
+    </orth_error_id12>
+    .
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1553698460823">
+   <div>
+    3
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Hölzer" tagcode="1553698392012">
+     holzer
+    </orth_error_id12>
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1553698460825">
+   <div>
+    4
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Mathe" tagcode="1553698385908">
+     mathe
+    </orth_error_id12>
+    und
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1553698335764" tran_foreign_word_language="Italian">
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="scienze" tagcode="1553698350242">
+      scenze
+     </orth_error_id12>
+    </tran_foreign_word_id13>
+   </div>
+  </paragraph>
+ </page>
+</body>

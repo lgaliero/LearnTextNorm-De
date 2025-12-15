@@ -1,0 +1,128 @@
+<body>
+ <page page_number="1" transcanno_page_id="79">
+  <paragraph class="medium-paragraph" tagcode="1610959887262">
+   <div>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1559051815562" tran_correction_original="⑩">
+     <tran_symbol_id32 class="medium-tran_symbol_id32" tagcode="1559051831599" tran_symbol_target="U+2460">
+      ①
+     </tran_symbol_id32>
+    </tran_word_correction_id25>
+    Eines
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Tages" tagcode="1542396600924">
+     tages
+    </orth_error_id12>
+    ging der Haus vom Herr Helmut in Flammen
+   </div>
+   <div>
+    Sein Kind Michael rannte mit dem Vater schnell raus
+   </div>
+   <div>
+    Sie holten alles raus er nahm auch seine Schultasche
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1610959887263">
+   <div>
+    <tran_symbol_id32 class="medium-tran_symbol_id32" tagcode="1559051890564" tran_symbol_target="U+2461">
+     ②
+    </tran_symbol_id32>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1542396622165" tran_correction_original="der">
+     das
+    </tran_word_correction_id25>
+    kleine
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1542396637620" tran_correction_original="Ki*d">
+     Kind
+    </tran_word_correction_id25>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1542396630140" tran_word_deletion_target="_#_">
+     er
+    </tran_word_deletion_id8>
+    wollte seine Hausaufgaben machen
+   </div>
+   <div>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="wenn" tagcode="1542396648984">
+     wen
+    </orth_error_id12>
+    das Haus
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1542396659762" tran_correction_original="brennte">
+     brannte
+    </tran_word_correction_id25>
+    . Plötzlich sah er sein
+   </div>
+   <div>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Geometrieheft" tagcode="1559051988080">
+     <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1559052023596" tran_correction_original="Goometri">
+      Geometri
+     </tran_word_correction_id25>
+     Heft
+    </orth_error_id12>
+    .
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1610959887265">
+   <div>
+    <tran_symbol_id32 class="medium-tran_symbol_id32" tagcode="1542396551515" tran_symbol_target="U+2462">
+     ③
+    </tran_symbol_id32>
+    Er wollte gar keine Hausaufgaben machen
+   </div>
+   <div>
+    dann dachte er sich das
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Geometrieheft" tagcode="1559052057828">
+     Geometri Heft
+    </orth_error_id12>
+    verbrennen
+   </div>
+   <div>
+    er ging neben das Haus und warf seine
+   </div>
+   <div>
+    Hausaufgaben. Sein Vater sagte ihn: „
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Bist" tagcode="1542396821723">
+     Bis
+    </orth_error_id12>
+    du
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="blind" tagcode="1542396829230">
+     Blind
+    </orth_error_id12>
+   </div>
+   <div>
+    oder was du wärst ja
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="mehrere" tagcode="1542396803053">
+     merere
+    </orth_error_id12>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1542396788893" tran_word_deletion_target="_#_">
+     flammen hoche
+    </tran_word_deletion_id8>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1542396792868">
+     hohe
+    </tran_word_insertion_id9>
+   </div>
+   <div>
+    Flammen machen!” Aber
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1542396843610" tran_correction_original="der">
+     das
+    </tran_word_correction_id25>
+    Kind sagte: „Ja
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="ja" tagcode="1610959887261">
+     Ja
+    </orth_error_id12>
+   </div>
+   <div>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Papa" tagcode="1559052085036">
+     papa
+    </orth_error_id12>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1542396851334" tran_word_deletion_target="_#_">
+     beruige
+    </tran_word_deletion_id8>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1542396858011">
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="beruhige" tagcode="1542396864360">
+      berhuige
+     </orth_error_id12>
+    </tran_word_insertion_id9>
+    dich ich mag keine Hausaufgaben
+   </div>
+   <div>
+    machen ist ja logisch!"
+   </div>
+  </paragraph>
+ </page>
+</body>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5558</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Liebe <entity>Christiane</entity>,</greeting> <par/>wie geht es dir? Ich hoffe alles gut. <par/>Es ist seit vielen Tagen, dass wir uns nicht treffen, und ich bin ziemlich sicher, dass du auch nicht weißt, was zu <entity>Maria</entity> passiert ist! Das war ein <error>
+        <errorType/>
+
+        <originalForm>Misverständnis</originalForm>
+
+        <targetForm>Missverständnis</targetForm>
+      </error>, aber es war wirklich peinlich!! <par/>Letzte Woche ging <entity>Maria</entity> einkaufen. <error>
+        <errorType/>
+
+        <originalForm>sie</originalForm>
+
+        <targetForm>Sie</targetForm>
+      </error> ist zuerst in einem Obst- und Gemüseladen <sic>eingetrete<palimpsest>t</palimpsest></sic>, weil sie die biologische Produkte mag. Aber eine Stunde <correction>
+        <deletion><unreadable/></deletion>
+      </correction> später musste sie auch im Supermarkt etwas kaufen, und wann sie an der Kasse war, hat die Verkäuferin <palimpsest>die</palimpsest> Gemüse in ihrer Tasche bemerkt<palimpsest>.</palimpsest> Sie dachte, dass <entity>Maria</entity> <error>
+        <errorType/>
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hat! <entity>Maria</entity> <sic>bl<palimpsest>ie</palimpsest>bt</sic> wenig, aber sie war <palimpsest>n</palimpsest>atrülich in Verlegenheit, und ihre Wange bekam ein bisschen rot. In der <error>
+        <errorType/>
+
+        <originalForm>zwischen Zeit</originalForm>
+
+        <targetForm>Zwischenzeit</targetForm>
+      </error> <correction>
+        <deletion><unreadable/></deletion>
+      </correction> hat <correction>
+        <deletion><unreadable/></deletion>
+      </correction> sie in ihrer Tasche gesucht und, zum Glück, hat sie den Kassenzettel aus der andere Geschäft gefunden! <par/><correction>
+        <deletion>Wenn</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>als</originalForm>
+
+        <targetForm>Als</targetForm>
+      </error> sie <palimpsest>mir</palimpsest> diese Episode erzählt hat, haben wir viel darüber gelacht, aber wenn er <sic>gescen</sic> <correction>
+        <deletion><unreadable/></deletion>
+      </correction> war, wäre vielleicht nicht so lustig für sie gewesen! <par/> <palimpsest> </palimpsest></exercise>
+
+    
+  </body>
+</kolipsi_document>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Jessica</transcriber>
+
+  <author_id>4608</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Andrea</entity>,<par /><par /></greeting><error>
+        <errorType />
+
+        <originalForm>Alles</originalForm>
+
+        <targetForm>alles</targetForm>
+      </error> gut? Meine Freundin <entity>Maria</entity> war letzte Woche einkaufen. Zuerst kaufte sie in <sic>ein</sic> Obst- und <error>
+        <errorType />
+
+        <originalForm>Gemüse geschäft</originalForm>
+
+        <targetForm>Gemüsegeschäft</targetForm>
+      </error> ein, danach ist sie in Supermarkt gegangen. Dort an der Kasse hat sie ein Problem gehabt. Sie hat in <sic>seine</sic> Tasche Brot vergessen und <correction>
+        <deletion>h</deletion>
+      </correction> wenn sie raus <sic>gangen</sic> ist der Alarm hat geläutet. So hat die Frau <error>
+        <errorType />
+
+        <originalForm>and</originalForm>
+
+        <targetForm>an</targetForm>
+      </error> der Kasse die Polizei angerufen und <entity>Maria</entity> <error>
+        <errorType />
+
+        <originalForm>gestopt</originalForm>
+
+        <targetForm>gestoppt</targetForm>
+      </error>. <entity>Maria</entity> hat viel <error>
+        <errorType />
+
+        <originalForm>angst</originalForm>
+
+        <targetForm>Angst</targetForm>
+      </error> gehabt. Die Polizei hat sie viele <error>
+        <errorType />
+
+        <originalForm>frage</originalForm>
+
+        <targetForm>Frage</targetForm>
+      </error> gemacht. <entity>Maria</entity> hat danach den Brot bezahlt und hat sich <correction>
+        <deletion>ge</deletion>
+
+        <insertion>getschuld</insertion>
+      </correction> <correction>
+        <deletion>scusata</deletion>
+      </correction> mit die Polizei und mit die Verkäuferin. Zum Glück <entity>Maria</entity> ist nicht ins <error>
+        <errorType />
+
+        <originalForm>Kommisariat</originalForm>
+
+        <targetForm>Kommissariat</targetForm>
+      </error> <sic>gangen</sic>. Sie hat einen <sic>schlechte</sic> Tag gehabt.<par /> <palimpsest>Danach <entity>Maria</entity> ist zu</palimpsest> mir gekommen und hat mir alles erzählt, so habe ich heute diese <error>
+        <errorType />
+
+        <originalForm>mail</originalForm>
+
+        <targetForm>Mail</targetForm>
+      </error> an dir <correction>
+        <deletion><unreadable /></deletion>
+      </correction> <sic>geschreibe</sic>. <greeting>An die <correction>
+          <deletion><unreadable /></deletion>
+        </correction> nächste<par /><palimpsest> </palimpsest>Elisa</greeting></exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo <palimpsest>Jack</palimpsest>, </greeting>ich wollte dir diesen Brief schreiben über unsere Urlaub. Bergen oder Meer? In <entity><error>
+          <errorType />
+
+          <originalForm>Maldive</originalForm>
+
+          <targetForm>Malediven</targetForm>
+        </error></entity> ist ein <error>
+        <errorType />
+
+        <originalForm>wünderschone</originalForm>
+
+        <targetForm>wunderschöne</targetForm>
+      </error> Sonne mit ein ganz blaue Meer. In <error>
+        <errorType />
+
+        <originalForm>nacht</originalForm>
+
+        <targetForm>Nacht</targetForm>
+      </error> sind dort <error>
+        <errorType />
+
+        <originalForm>Dikotecken</originalForm>
+
+        <targetForm>Diskotheken</targetForm>
+      </error> und Pubs wo tanzen gehen können.<par />In den Bergen <correction>
+        <insertion>in Schweiz</insertion>
+      </correction> ist die Sonne mit ein bischen Wind. Dort können wir klettern oder am See gehen. Ich <sic>weißt</sic> nicht wo ich gehen will. <error>
+        <errorType />
+
+        <originalForm>Villeicht</originalForm>
+
+        <targetForm>Vielleicht</targetForm>
+      </error> am Meer oder <error>
+        <errorType />
+
+        <originalForm>villeicht</originalForm>
+
+        <targetForm>vielleicht</targetForm>
+      </error> in die Bergen. Was <error>
+        <errorType />
+
+        <originalForm>deckst</originalForm>
+
+        <targetForm>denkst</targetForm>
+      </error> du über <sic>unser</sic> Urlaub? Ich wollte am Meer gehen mit die schöne <error>
+        <errorType />
+
+        <originalForm>Strandt</originalForm>
+
+        <targetForm>Strand</targetForm>
+      </error> und die Pubs aber auch <correction>
+        <deletion>die</deletion>
+      </correction> der relax und die Seen von Schweiz. Ich warte an deine Antwort. <par /><par />Elisa</exercise>
+  </body>
+</kolipsi_document>

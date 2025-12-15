@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>6405</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Martha</entity>,</greeting> <par/>vielen Dank für deinen Brief. Ich habe mich sehr darüber gefreut. <par/>Ich bin von unserem gemeinsamen Urlaub sehr begeistert. <par/>Ich bin aber noch nicht sicher, ob du lieber in die Berge oder lieber ans Meer fahren will. <par/>Ans Meer ist das Klima wärmer. Man kann dort schwimmen, sich enthalten, neue Freunde <palimpsest>kennen</palimpsest>lernen und in die Sonne liegen. In den Bergen kann man auch sich enthalten. Wir könnten gemeinsam jeden Tag lang wandern, vielleicht <error>
+        <errorType/>
+
+        <originalForm>Skilaufen</originalForm>
+
+        <targetForm>Ski laufen</targetForm>
+      </error> und ein bisschen faulenzen. Ich möchte lieber ans Meer fahren, weil ich das warme Klima liebe. <par/>Ich verbringe oft meine Ferien ans Meer und habe immer viel Spaß und Ruhe gehabt. <par/>Wir können hier in <entity>Italien</entity> bleiben oder auch ins Ausland fahren, wenn du keine Angst vor Flugzeug hast. <par/>Ich kenne eine Freundin, die einmal nach <entity>Griechenland</entity> mit dem Flugzeug <error>
+        <errorType/>
+
+        <originalForm>geflohen</originalForm>
+
+        <targetForm>geflogen</targetForm>
+      </error> ist. Sie kennt eine nette Pension und ich kann sie fragen, ob sie mir die <error>
+        <errorType/>
+
+        <originalForm>e-mail</originalForm>
+
+        <targetForm>E-Mail</targetForm>
+      </error> sagen kann. Schreib mir bald also, ob du lieber in den kalten Bergen oder lieber ans warme Meer fahren w<palimpsest>ill</palimpsest>. Ich warte auf deine Vorschläge. <par/><closing>Mit Liebe. <entity>Anna</entity> </closing></exercise>
+  </body>
+</kolipsi_document>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0158</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Lisa</entity></greeting>,<par/>Du kennst doch noch meine Freundin <entity>Maria</entity> oder? Es ist etwas sehr <error>
+        <errorType/>
+
+        <originalForm>lustiges</originalForm>
+
+        <targetForm>Lustiges</targetForm>
+      </error> passiert. Am Samstag war sie einkaufen, zuerst in einem Obstgeschäft, wo sie Äpfel, Bananen und so weiter kaufte. <correction>
+        <deletion>Als</deletion>
+      </correction> <correction>
+        <insertion>Nachdem</insertion>
+      </correction> sie bezahlt hat, vergaß sie den Kassen<hyphen>-</hyphen>zettel an der Kasse und ging ohne daran zu denken aus dem Geschäft hinaus.<par/>Nach dem Besuch <correction>
+        <deletion>besuch</deletion>
+      </correction> beim Obsthändler ging sie mit der eingekauften Ware und ohne <over>K</over>assen<hyphen>-</hyphen>zettel in einen Supermarkt, um auch dort einige Dinge zu besorgen. Als sie dort an der Kasse ankam, um zu bezahlen schrie die <overwrite>
+        <under>k</under>
+
+        <over>K</over>
+      </overwrite>assiererin sie an, dass sie was geklaut hätte. Da <entity>Maria</entity> den Kassenzettel nicht hatte, um zu beweisen, dass diese Dinge nicht in diesem Laden geklaut sind glaubte ihr die Verkäuferin nicht und <over>r</over>ief den Sicherheitsdienst.<par/>Dieser entdeckte jedoch eine Plakette auf dem Obst, welche nicht in diesen Supermarkt gehört. So kam <entity>Maria</entity> doch noch glimpflich davon. Schon witzig oder?<par/><closing>Bis bald<par/>Liebe Grüße<par/><entity>Charlotte</entity></closing>      </exercise>
+
+    
+  </body>
+</kolipsi_document>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I34_STE02MIC</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Lieber Franz,</greeting><par />ich <correction>
+        <deletion>wil</deletion>
+      </correction> möchte dir erzählen, was Maria passiert ist. Es ist eine <error>
+        <errorType />
+
+        <originalForm>kömische</originalForm>
+
+        <targetForm>komische</targetForm>
+      </error> Geschichte, aber es war nicht eine lustige Sache für Maria.<par />Also <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Maria <correction>
+        <deletion>war kaufte</deletion>
+
+        <insertion>hat</insertion>
+      </correction> Gemüse und Obst <correction>
+        <deletion>Beim</deletion>
+
+        <insertion>beim</insertion>
+      </correction> Obsthändler <correction>
+        <insertion>gekauft</insertion>
+      </correction>, sie hat viele Gemüse und Obst gekauft, <error>
+        <errorType />
+
+        <originalForm>sonder</originalForm>
+
+        <targetForm>sondern</targetForm>
+      </error> sie hat den Kassenzettel <correction>
+        <deletion>da</deletion>
+      </correction> in der Kasse vergessen. <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Deshalb hat sie keine <foreign_word
+        foreign_language="Italiano">Prove</foreign_word>, dass sie diese Sachen gekauft hat. Danach ist sie nach einem Supermarkt gegangen und sie hat auch hier viel gekauft<correction>
+        <deletion>, aber</deletion>
+      </correction>. An der Kasse wurde sie <correction>
+        <deletion>gehalten</deletion>
+      </correction> von der <correction>
+        <deletion>Kassefrau</deletion>
+
+        <insertion>Verkäuferin</insertion>
+      </correction> gehalte<correction>
+        <deletion>t</deletion>
+
+        <insertion>n</insertion>
+      </correction>, weil sie <correction>
+        <deletion>da</deletion>
+      </correction> gedacht habe, dass sie <error>
+        <errorType />
+
+        <originalForm>Gemuse</originalForm>
+
+        <targetForm>Gemüse</targetForm>
+      </error> und Obst gestohlen <correction>
+        <deletion>mo</deletion>
+
+        <insertion>hat</insertion>
+      </correction>. <correction>
+        <deletion>Sie <unreadable /></deletion>
+      </correction> Die <error>
+        <errorType />
+
+        <originalForm>Verkauferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> hat die Polizei angerufen und die Polizisten haben sie gefragt, ob sie diese Sachen gestohlen hat und sie war erschrocken, <correction>
+        <deletion>wo</deletion>
+      </correction> denn sie <correction>
+        <deletion>wurde <unreadable /></deletion>
+      </correction> niemals etwas Ähnliches gemacht <correction>
+        <deletion>und</deletion>
+
+        <insertion>hat und</insertion>
+      </correction> passiert ist. Sie wurde von den Polizisten verhaftet und <correction>
+        <deletion><unreadable /></deletion>
+      </correction>nach den <error>
+        <errorType />
+
+        <originalForm>Polizei-Zentra<hyphen>-</hyphen>le</originalForm>
+
+        <targetForm>Polizeizentrale</targetForm>
+      </error> gebracht. Hier Maria hat die Wahrheit gesagt und die Polizisten haben d<correction>
+        <deletion><unreadable /></deletion>
+      </correction>en Obsthändler <correction>
+        <deletion>angerufen</deletion>
+      </correction> angerufen und <correction>
+        <deletion><unreadable /></deletion>
+      </correction> die Verkä<correction>
+        <deletion>ü</deletion>
+
+        <insertion>u</insertion>
+      </correction>ferin des Obsthändler <correction>
+        <deletion>hatt</deletion>
+      </correction> an<correction>
+        <deletion>d</deletion>
+
+        <insertion>t</insertion>
+      </correction>wor<correction>
+        <deletion>d</deletion>
+      </correction><hyphen>-</hyphen>tet, dass <correction>
+        <deletion>sie</deletion>
+      </correction> Maria den Zettel vergessen hat und sie <correction>
+        <deletion>ha</deletion>
+      </correction> hat die<correction>
+        <deletion>s</deletion>
+      </correction>se Speisen hier gekauft. Es ist eine fröhli<hyphen>-</hyphen>che Ende.<par />Antworte mir schnell und ich wünsche, dass auch du eine <error>
+        <errorType />
+
+        <originalForm>kömische</originalForm>
+
+        <targetForm>komische</targetForm>
+      </error> Situation gesehen ist.<par /><closing>Bis bald</closing> Ambrogio </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber Paul,</greeting><par />ich habe deine Brief gelesen, es ist sehr komisch, meiner Meinung nach. Ich denke, dass es eine <correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>tolle</insertion>
+      </correction> <correction>
+        <deletion>s</deletion>
+
+        <insertion>S</insertion>
+      </correction>ache neue Personen zu kennenlernen, aber danach <correction>
+        <deletion>muss</deletion>
+      </correction> sollte man eine echte Freundschaft, wenn <correction>
+        <deletion>es</deletion>
+      </correction> die Freundschaft ist <correction>
+        <deletion>I</deletion>
+      </correction> im Internet begonnen. Deshalb <correction>
+        <insertion>sollte</insertion>
+      </correction> die virtuelle Freundschaft real werden, <correction>
+        <deletion><unreadable /></deletion>
+      </correction> denn man kann nicht eine wahre Freund<hyphen>-</hyphen>schaft nur mit Internet haben.<par />Mit diese Situation <correction>
+        <deletion>k<unreadable /></deletion>
+      </correction> gebe ich dir ein Ratschlage, du <correction>
+        <deletion>k</deletion>
+      </correction> solltest die <correction>
+        <deletion>Freunds</deletion>
+      </correction> virtuelle Freunden treffen und mit <correction>
+        <deletion><unreadable /></deletion>
+      </correction> ihnen eine wahre Freundschaft schließen, <correction>
+        <deletion><unreadable /></deletion>
+      </correction> und <correction>
+        <insertion>du</insertion>
+      </correction> hast niemand verraten, weil sie deine Freunden sind und sie werden <correction>
+        <deletion><unreadable /></deletion>
+      </correction> deine Situation verstehen.<par />Ich habe keine ähnliche Erfahrungen <correction>
+        <deletion>ge<unreadable />t</deletion>
+      </correction> gemacht, weil ich denke, dass im Internet keine Freund<hyphen>-</hyphen>schaft, die wahre ist, <error>
+        <errorType />
+
+        <originalForm>überlebenkann</originalForm>
+
+        <targetForm>überleben kann</targetForm>
+      </error>.<par /><correction>
+        <deletion><unreadable /></deletion>
+      </correction> Ich hoffe, dass meine Brief nützlich <correction>
+        <deletion>wa</deletion>
+      </correction> ist um deine Probleme zu lösen.<par /><correction>
+        <deletion><unreadable /></deletion>
+      </correction> Lorenzo Rocci. </exercise>
+  </body>
+</kolipsi_II_document>

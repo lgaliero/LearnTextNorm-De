@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0180</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Lieber <entity>Hans Peter Wurst</entity></greeting>,<par/>letzte Woche war meine Freun<overwrite>
+        <under><unreadable/></under>
+
+        <over>d</over>
+      </overwrite>in einkaufen und hat mir <palimpsest>eine</palimpsest> tolle Geschichte erzählt. Zuerst war sie beim Obsthändler um Lebensmittel für das Wochenende <palimpsest>zu kau</palimpsest>fen, weil ich zu Besuch kommen wollte. Sie hatte mir versprochen ein <error>
+        <errorType/>
+
+        <originalForm>drei Gänge-Menü</originalForm>
+
+        <targetForm>Drei-Gänge-Menü</targetForm>
+      </error> ver<hyphen>-</hyphen>sprochen. Anschließend bezahlte sie die Lebensmittel und <sic>führ</sic> noch in den Supermarkt um die restlichen Sachen, <palimpsest>die</palimpsest> auf <sic>den</sic> Rezept <palimpsest>stehen</palimpsest>, zu besorgen. Alle Lebensmittel hat si<overwrite>
+        <under><unreadable/></under>
+
+        <over>e</over>
+      </overwrite> in einen Tragebeutel gepackt. Im <palimpsest>Supermarkt</palimpsest> angekommen <palimpsest>holte</palimpsest> sie alle ihre Sachen und ging mit dem Einkaufswagen zur Kasse. Als sie anschließend bezahlen wollte, dachte die Verkäuferin an der Kas<overwrite>
+        <under><unreadable/></under>
+
+        <over>s</over>
+      </overwrite>e vollen <error>
+        <errorType/>
+
+        <originalForm>ernstes</originalForm>
+
+        <targetForm>Ernstes</targetForm>
+      </error>, dass <entity>Maria</entity> die Sachen klauen wollte, obwohl sie die Quittung dabei hatte. Die haben heutzutage wirklich kein Vertrauen mehr in ihre Kunden. <entity>Maria</entity> sieht ja auch nicht aus wie eine Verbrecherin. Unglaublich. Findest du das auch so krass wie ich? <overwrite>
+        <under>s</under>
+
+        <over>D</over>
+      </overwrite>as ist dir doch auch sch<overwrite>
+        <under><unreadable/></under>
+
+        <over>o</over>
+      </overwrite>n mal passiert oder? Sehen uns ja morgen.<par/><closing>Liebe Grüße<par/><entity>Käse</entity></closing>    </exercise>
+
+    
+  </body>
+</kolipsi_document>

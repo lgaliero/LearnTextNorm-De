@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5709</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Hallo<entity> Botri</entity></greeting>Ich <sic>wurde</sic> diese Sommer ein <error>
+        <errorType/>
+
+        <originalForm>reise</originalForm>
+
+        <targetForm>Reise</targetForm>
+      </error> machen. Ich kenne aber nicht wo zu gehen. Ich <error>
+        <errorType/>
+
+        <originalForm>kan</originalForm>
+
+        <targetForm>kann</targetForm>
+      </error> nach B<overwrite>
+        <over>e</over>
+
+        <under>a</under>
+      </overwrite>rge od<overwrite>
+        <over>e</over>
+
+        <under>i</under>
+      </overwrite>r n<ambiguous>
+        <alternative>a</alternative>
+
+        <alternative>o</alternative>
+      </ambiguous>ch <error>
+        <errorType/>
+
+        <originalForm>Mer</originalForm>
+
+        <targetForm>Meer</targetForm>
+      </error> fahren. Ja ic<overwrite>
+        <over>h</over>
+
+        <under>l</under>
+      </overwrite> liebe die Natur und die Berge <error>
+        <errorType/>
+
+        <originalForm>abe</originalForm>
+
+        <targetForm>aber</targetForm>
+      </error> auch der <overwrite>
+        <over>M</over>
+
+        <under>m</under>
+      </overwrite>eer ist sehr schön, da</exercise>
+  </body>
+</kolipsi_document>

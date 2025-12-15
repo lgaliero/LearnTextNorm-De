@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0006</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Hallo <entity>Richard</entity></greeting>,<par/>erinnerst Du Dich an unser Vorhaben im Sommer? Dass wir verreisen wollten? Ich habe etwas überlegt und bin zu dem Entschluss gekommen, dass ich entweder in die <correction>
+        <deletion>B</deletion>
+      </correction> Berge oder an die See <correction>
+        <deletion><unreadable/></deletion>
+      </correction> reisen möchte. Am liebsten wäre mir <entity>Südtirol</entity> oder <entity>Kroatien</entity>, weil ich schonmal dort <over>w</over>ar. In <entity>Kroatien</entity> könnten wir zelten und im Meer schwimmen gehen. Die Leute dort sind freundlich, das Wetter ist sonnig, die Restaurants und die Bars sind der Hammer. Man kann gut feiern und selbst zum bloßen Erholen ist <entity>Kroatien</entity> das reinste Paradies. In <entity>Südtirol</entity> hingegen blieben uns <correction>
+        <deletion><unreadable/></deletion>
+      </correction> <correction>
+        <insertion>drei</insertion>
+      </correction> Alternativen für die Freizeit: <correction>
+        <deletion>S<unreadable/></deletion>
+      </correction> Skifahren, Relaxen oder Feiern. Es ist kalt und verschneit, allerdings wird man dort genau so gut braun wie in <entity><over>K</over>roatien</entity>, weil der Schnee die Sonne gut reflektiert. Die Gasthäuser sind super und die Diskothek<correction>
+        <deletion>en</deletion>
+      </correction> <correction>
+        <deletion>sind</deletion>
+      </correction> <correction>
+        <insertion>ist</insertion>
+      </correction> die reinste Partyzone. Worauf hast Du Lust? Wärme und Wasser oder Kälte und Schnee?<par/>Überleg Dir die Sache und meld Dich bitte noch vor dem ersten Juni. Vielleicht hast Du ja noch andere Vorschläge?<par/><closing>Wir sehen uns im Sommer <correction>
+          <deletion><unreadable/></deletion>
+        </correction> , bis bald!<par/><par/>Liebe Grüße,<par/><entity><par/>Dario</entity></closing>        </exercise>
+  </body>
+</kolipsi_document>

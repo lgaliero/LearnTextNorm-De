@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I39_SAL08SIL</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo Lisa!</greeting> Wie ge<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>ht</insertion>
+      </correction>s?<par />Gestern war Maria zuerst in einem <error>
+        <errorType />
+
+        <originalForm>Obst</originalForm>
+
+        <targetForm>Obst-</targetForm>
+      </error> und Gemüseladen <correction>
+        <insertion>im Domenikaner Platz</insertion>
+      </correction> um ein<correction>
+        <deletion><unreadable /></deletion>
+      </correction> paar Zucchini <correction>
+        <insertion>zu</insertion>
+      </correction> einkaufen.<par />Eine Stunde später war sie im Supermarkt um zwei Kartoffeln zu kaufen. Dort hat die Frau a<correction>
+        <deletion>m</deletion>
+
+        <insertion>n</insertion>
+      </correction> der Kasse seine Zucchini <correction>
+        <deletion><unreadable /></deletion>
+      </correction> in seine<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>m</insertion>
+      </correction> Rucksack gesehen. Sie schreitet und schreitet <correction>
+        <deletion>und</deletion>
+      </correction> um der Polizei zu rufen, <correction>
+        <deletion>aber Maria</deletion>
+
+        <insertion>aber</insertion>
+      </correction> Maria war erschockert weil sie seine<correction>
+        <deletion>m</deletion>
+      </correction> Zucchini vergessert hatte, so begann sie zu laufen. <correction>
+        <deletion> <par /> Nur wenn sie im Walther Olatz war <unreadable /> B</deletion>
+      </correction> Sie begann zu laufen um <correction>
+        <deletion>ander</deletion>
+      </correction> ein<correction>
+        <deletion><unreadable /></deletion>
+      </correction> paar Zucchini zu kaufen, weil ein bisschen blöd sie ist<correction>
+        <deletion>,</deletion>
+
+        <insertion>.</insertion>
+      </correction></exercise>
+
+    <exercise number="2" xml:space="preserve"><correction>
+        <deletion><unreadable /></deletion>
+      </correction><greeting><correction>
+          <insertion>Sehr Ge<correction>
+              <deletion>h</deletion>
+
+              <insertion>e</insertion>
+            </correction>hrte</insertion> <par/>
+        </correction> Paul,</greeting><par /> <par /><correction>
+        <deletion>ich heiße Silvia, und ich mag was ich zu dem Zeitung "Junge Woche" in der Rubrik "Persönliche Briefe" gelesen habe.</deletion>
+      </correction><par />ich heiße Silvia, und ich habe <correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>d</insertion>
+      </correction>einem Brief gelesen.<par />Ich denke dass virtuelle Freundschaften sind nicht eine schlec<correction>
+        <deletion>t</deletion>
+
+        <insertion>h</insertion>
+      </correction>te Sache, wenn sie <correction>
+        <deletion><unreadable /></deletion>
+      </correction> die anderen <correction>
+        <deletion>F</deletion>
+      </correction> Freundschaften nicht kaputt machen<correction>
+        <deletion>,</deletion>
+
+        <insertion>.</insertion>
+      </correction> Einmal hatte ich <correction>
+        <insertion>auch</insertion>
+      </correction> mit dem Internet gechattet, um neue Leute kennenzulernen, <correction>
+        <deletion>aber</deletion>
+      </correction> und ich hatte diese <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Mädchen kennengelernt, die habe ich <correction>
+        <insertion>jetzt</insertion>
+      </correction> gesehen in dem Realität, und jetzt ist sie eine größe Freundin. Aber <correction>
+        <deletion>ha<unreadable />e</deletion>
+      </correction> ich hatte nicht die <error>
+        <errorType />
+
+        <originalForm>nummern</originalForm>
+
+        <targetForm>Nummern</targetForm>
+      </error> aller Personen aus meinen Handy gelöschtet <correction>
+        <deletion>od</deletion>
+      </correction> <unreadable />.</exercise>
+  </body>
+</kolipsi_II_document>

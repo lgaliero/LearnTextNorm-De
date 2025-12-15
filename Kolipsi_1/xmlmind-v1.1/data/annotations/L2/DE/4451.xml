@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>4451</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve">
+ <par /><greeting>Hallo <entity> <error>
+            <errorType />
+
+            <originalForm>Melane</originalForm>
+
+            <targetForm>Melanie</targetForm>
+          </error></entity>,</greeting> <par />wie geht's? Ich habe dir eine <error>
+        <errorType />
+
+        <originalForm>Email</originalForm>
+
+        <targetForm>E-Mail</targetForm>
+      </error> geschrieben, weil du wissen musst, was es passiert ist. Die Situation hat mir so <sic>gespasst</sic>! Letzte Woche ist <entity>Maria</entity> einkaufen gegangen, weil ihre Mutter krank war. Zuerst ist sie in ein<palimpsest> </palimpsest> Obst- und <error>
+        <errorType />
+
+        <originalForm>Gemüse Geschäft</originalForm>
+
+        <targetForm>Gemüsegeschäft</targetForm>
+      </error> gegangen. Dort hat sie Salat, Kartoffeln und Aprikosen gekauft und danach ist sie an die Kasse gegangen und hat alles bezahlt. Inzwischen hat sie sich erinnert, dass sie in den <foreign_word foreign_language="Italiano">Supermarket</foreign_word> gehen musste, und unglücklicherweise hat sie den Kassenzettel an der Kasse vergessen.<par />Sie hat nichts bemerkt und ist in den <foreign_word foreign_language="Italiano">Supermarket</foreign_word> gegangen. Sie hat alles gekauft, aber, als sie an der Kasse war, hat die Verkäuferin ihr gesagt, dass sie in dem Obst- und Gemüseladen gestohlen hatte. <entity>Maria</entity> konnte nicht<palimpsest> </palimpsest> verstehen, was es passiert war und hat in ihrer Tasche den Kassenzettel gesucht. Sie konnte es nicht finden und so sie hat sich erinnert was es passiert war. Sie ist zurück in das Geschäft gegangen und hat die Verkäuferin gesagt, was sie gekauft hatte. Zum Glück hatte sie den Kassenzettel gefunden!<par />Die arme <entity>Maria</entity> hat viele Angst gehabt, aber jetzt ist alles in Ordnung...<par /><closing><par />Viele Grüße<par /> <entity><par />Arianna</entity> </closing> </exercise>
+
+    <exercise number="2" xml:space="preserve">
+ <par /><greeting>Liebe <entity>Carla</entity>,</greeting> <par />wie geht es dir? Ist es alles in<palimpsest> </palimpsest> Ordnung? Ich habe dir geschrieben, weil wir entscheiden <error>
+        <errorType />
+
+        <originalForm>mussen</originalForm>
+
+        <targetForm>müssen</targetForm>
+      </error>, wo wir in den Urlaub gehen wollen. Ich weiß, dass <correction>
+        <deletion><palimpsest> </palimpsest></deletion>
+
+        <insertion>diese</insertion>
+      </correction> eine schwere Entscheidung ist, aber wir <error>
+        <errorType />
+
+        <originalForm>mussen</originalForm>
+
+        <targetForm>müssen</targetForm>
+      </error> schon d<overwrite>
+        <under>as</under>
+
+        <over>em</over>
+      </overwrite> Hotel anrufen. Es ist nicht so früh!<par />Also, die Möglichkeiten sind die Berge oder das Meer. Wenn wir in Urlaub<palimpsest> </palimpsest> sind ist es Sommer und beide diese Orte sind wunderbar! In den Bergen kann man <palimpsest>wandern</palimpsest>, klettern, Rad fahren und<palimpsest> </palimpsest> an der fantastischen Landschaft schauen. Es gibt Ruhe <correction>
+        <deletion>und man k</deletion>
+      </correction> aber für mich es ist ziemlich zu viel ruhig. Ich will Spaß haben, in die Disco gehen und neue Menschen kennen lernen und danach unter der Sonne liegen und schlafen. Ich denke, dass für junge Leute wie wir sind, das Meer <correction>
+        <deletion>ist</deletion>
+      </correction> die bessere Entscheidung ist. Wir könnten<correction>
+        <deletion><unreadable /></deletion>
+      </correction> nach <entity>Rimini</entity> oder <entity>Riccione</entity> fahren! Was denkst du darüber? Möchtest du auch Spaß haben oder möchtest du Ruhe haben. Ich will nicht alleine entscheiden, ich habe nur einen Vorschlag gemacht,... dann musst du deine Meinung sagen, ok? Aber das muss ich noch sagen... die <sic>Bergen</sic> sind viel schöner in Winter, wenn man <error>
+        <errorType />
+
+        <originalForm>schi</originalForm>
+
+        <targetForm>Schi</targetForm>
+      </error> fahren kann... wir könnten noch im Februar <overwrite>
+        <under>e</under>
+
+        <over>i</over>
+      </overwrite>n Urlau<correction>
+        <deletion><unreadable /></deletion>
+      </correction>b fahren! Ich bin letztes Jahr in Dezember in den <entity>Dolomiten</entity> gefahren und es hat mir wirklich gefallen.<par />So, jetzt kannst du zwischen die zwei Möglichkeiten wählen und dann sag<correction>
+        <deletion>t</deletion>
+      </correction> mir bitte etwas!<par /><closing>Ich hab dich <error>
+          <errorType />
+
+          <originalForm>Lieb</originalForm>
+
+          <targetForm>lieb</targetForm>
+        </error>! <entity><par />Arianna</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

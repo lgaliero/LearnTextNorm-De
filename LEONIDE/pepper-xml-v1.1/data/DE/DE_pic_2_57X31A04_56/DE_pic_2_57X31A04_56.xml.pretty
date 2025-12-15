@@ -1,0 +1,109 @@
+<body>
+ <page page_number="1" transcanno_page_id="999">
+  <paragraph class="medium-paragraph" tagcode="1550851614701">
+   <div>
+    Die Geschichte spielt in einem Dorf ab. In diesem
+   </div>
+   <div>
+    Dorf gibt es seit Jahrtausenden eine Legende: Ein Junge
+   </div>
+   <div>
+    ging eines Tages alleine im Wald und wird von
+   </div>
+   <div>
+    einem unbekannten Monster ermordet. Das Gespenst
+   </div>
+   <div>
+    dieses Jungen sei immer noch im Wald.
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1550851614702">
+   <div>
+    Niemand geht mehr in diesem Wald. Doch zwei
+   </div>
+   <div>
+    mutige
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Mädchen" tagcode="1550850849547">
+     Mädche
+    </orth_error_id12>
+    namens Allison und Lydia entscheiden
+   </div>
+   <div>
+    eines Tages
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="dorthin" tagcode="1550850890558">
+     dort hin
+    </orth_error_id12>
+    zu gehen.
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1550851614703">
+   <div>
+    Sie sind seit einer Woche schon im Wald,
+   </div>
+   <div>
+    doch
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1550850938119" tran_correction_original="*s">
+     es
+    </tran_word_correction_id25>
+    ist nichts. Lydia fängt an sich zu
+   </div>
+   <div>
+    langweilen: „ Ich will nach Hause hier ist
+   </div>
+   <div>
+    nich... ", doch sie stoppt sich auf einmal.
+   </div>
+   <div>
+    Hinter einem Baum hört man
+    <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1550851138190" tran_alternative_1="jemanden" tran_alternative_2="jemander">
+     jemanden
+    </tran_ambiguous_id3>
+    der
+   </div>
+   <div>
+    brüllt , aber man kann nicht verstehen was er
+   </div>
+   <div>
+    sagt. Allison bekommt Angst und umarmt Lydia.
+   </div>
+   <div>
+    Die beiden stolpern und das Gebrülle wird
+   </div>
+   <div>
+    immer lauter. Lydia will schauen was dort ist,
+   </div>
+   <div>
+    doch Allison entscheidet nicht
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="mitzukommen" tagcode="1550851340867">
+     mit zu kommen
+    </orth_error_id12>
+    ,
+   </div>
+   <div>
+    Lydia geht mit
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="langsamen" tagcode="1550851430455">
+     langsahmen
+    </orth_error_id12>
+    Schritten immer
+   </div>
+   <div>
+    näher, bis sie nahe genug ist um das Gebrülle zu
+   </div>
+   <div>
+    verstehen :„ Niemand darf alleine in diesem
+   </div>
+   <div>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1550851557937" tran_correction_original="*ald">
+     Wald
+    </tran_word_correction_id25>
+    kommen, du
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="wirst" tagcode="1550851593578">
+     <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1550851614700" tran_alternative_1="virst" tran_alternative_2="wirst">
+      virst
+     </tran_ambiguous_id3>
+    </orth_error_id12>
+    sterben!" Lydia läuft
+   </div>
+  </paragraph>
+ </page>
+</body>

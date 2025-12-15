@@ -1,0 +1,90 @@
+<body>
+ <page page_number="1" transcanno_page_id="1117">
+  <paragraph class="medium-paragraph" tagcode="1556742451562">
+   <div>
+    Meine Strategien ist lernen
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553601093062" tran_correction_original="die">
+     die
+    </tran_word_correction_id25>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Wörter" tagcode="1553601081343">
+     Worter
+    </orth_error_id12>
+    , wenn ich
+   </div>
+   <div>
+    mache eine Sätze ich
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="weiß" tagcode="1553601134789">
+     weiße
+    </orth_error_id12>
+    die
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Wörter" tagcode="1553601128767">
+     Worter
+    </orth_error_id12>
+    und ist
+   </div>
+   <div>
+    schlecht. Diese Strategie funktionier gut,
+   </div>
+   <div>
+    weil mit die Zeit ich
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="weiß" tagcode="1553601184312">
+     <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553601200440" tran_correction_original="wei*e">
+      weiße
+     </tran_word_correction_id25>
+    </orth_error_id12>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553601218787" tran_correction_original="viel*">
+     viele
+    </tran_word_correction_id25>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Wörter" tagcode="1553601190693">
+     Worter
+    </orth_error_id12>
+    .
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1553601500299">
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Lernen" tagcode="1553601513046">
+      lernen
+     </orth_error_id12>
+     <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1553601503769">
+      <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553601506528" tran_word_deletion_target="_#_">
+       ge*
+      </tran_word_deletion_id8>
+     </tran_unreadable_id17>
+     Gedichte helfen, oder
+     <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1553601579532">
+      lernen gut
+     </tran_word_insertion_id9>
+     die
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Artikel" tagcode="1553601521342">
+      artikel
+     </orth_error_id12>
+     <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1553601555899" tran_alternative_1="." tran_alternative_2="">
+      .
+     </tran_ambiguous_id3>
+    </tran_word_insertion_id9>
+   </div>
+   <div>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1553601546962">
+     helfen auch.
+    </tran_word_insertion_id9>
+   </div>
+   <div>
+    Die Strategien funktionier schlecht ist lernen
+   </div>
+   <div>
+    nicht viele.
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553601618384" tran_word_deletion_target="_#_">
+     oder
+    </tran_word_deletion_id8>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553601620589" tran_word_deletion_target="_#_">
+     <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1556742437283">
+      *
+     </tran_unreadable_id17>
+    </tran_word_deletion_id8>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553601622740" tran_word_deletion_target="_#_">
+     <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1556742451561">
+      *
+     </tran_unreadable_id17>
+    </tran_word_deletion_id8>
+   </div>
+  </paragraph>
+ </page>
+</body>

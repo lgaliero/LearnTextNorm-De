@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5040</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><par /><greeting>Liebe <entity>Anna</entity>!</greeting> <par />Wie geht es dir?? Mir geht es gut, aber ich bin ein bisschen traurig weil meine Freundin <entity><palimpsest>Maria</palimpsest></entity> im Gefängnis ist. <par />Sie war letzte Woche einkaufen. Sie kaufte zuerst in einem Obst- und Gemüseladen ein. Dann, eine Stunde später war sie im Supermarkt. Aber dort gab es ein Problem an der Kasse. <par />Aber die Kassiererin glaubt dass das <correction>
+        <deletion>di</deletion>
+      </correction> Obst und die Gemüse <unreadable /> der Supermarkt<correction>
+        <deletion><unreadable /></deletion>
+      </correction> zugehören. Also, hat die Kassiererin die <correction>
+        <deletion>Polizai</deletion>
+      </correction> Polizei geruft, und die Polizei hat Maria <correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>im</insertion>
+      </correction> Gefängnis gebracht. <par />Sie ist schon seit 3 Tage im <error>
+        <errorType />
+
+        <originalForm>Gefangnis</originalForm>
+
+        <targetForm>Gefängnis</targetForm>
+      </error> und ich bin sehr sehr traurig, und <correction>
+        <deletion>jeno</deletion>
+      </correction> jeden Tag treffe ich <correction>
+        <deletion>S</deletion>
+      </correction> sie. <par /><closing>Bis bald.. <par /> <entity>Valentina</entity> </closing> </exercise>
+
+    <exercise number="2" xml:space="preserve"><par /><correction>
+        <deletion>Hallo Freunde!</deletion>
+      </correction> <par /><correction>
+        <deletion>Hallo Lisa!</deletion>
+      </correction> <par /><greeting>Hallo <entity>Lisa</entity>!!</greeting> <par />Wie geht <palimpsest> </palimpsest> es dir?? <par />Dieses Sommer fahren wir nach <entity>Ibiza</entity> oder nach <entity>Cortina</entity>? Mit gefällt besser <entity>Ibiza</entity>, mit das Meer, mit die Strand, mit die warme Temperatur.</exercise>
+  </body>
+</kolipsi_document>

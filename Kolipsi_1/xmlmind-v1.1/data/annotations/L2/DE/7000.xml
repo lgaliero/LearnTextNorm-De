@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Romy</transcriber>
+
+  <author_id>N7000</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo<entity> Maarian</entity>!</greeting> <par />Wie geht es dir? Alles gut? Ich hab dich diese <error>
+        <errorType />
+
+        <originalForm>e-mail</originalForm>
+
+        <targetForm>E-Mail</targetForm>
+      </error> geschrieben, weil ich <arrow end="open" id="1"> </arrow> <arrow
+        end="head" id="2">was <entity>Maria </entity>passiert ist </arrow> dich erzählen <arrow
+        end="head" id="1"> wollte </arrow><arrow end="head" id="2"> </arrow><error>
+        <errorType />
+
+        <originalForm>sie</originalForm>
+
+        <targetForm>Sie</targetForm>
+      </error> ist gestern an einem <error>
+        <errorType />
+
+        <originalForm>Obst</originalForm>
+
+        <targetForm>Obst-</targetForm>
+      </error> und Gemüseladen einkaufen <error>
+        <errorType />
+
+        <originalForm>gega <par />ngen</originalForm>
+
+        <targetForm>gegangen</targetForm>
+      </error>. (Ah, ich werde di<overwrite>
+        <over>r</over>
+
+        <under>c</under>
+      </overwrite> auch die Adresse von diesem Geschäft geben, weil <entity>Maria</entity> hat mir gesagt dass hat <error>
+        <errorType />
+
+        <originalForm>wünderschone</originalForm>
+
+        <targetForm>wunderschöne</targetForm>
+      </error> und frische Obst und Gemüse!) Eine Stunde später war sie im <foreign_word
+        foreign_language="Italiano">Supermarket</foreign_word>. <error>
+        <errorType />
+
+        <originalForm>Weist</originalForm>
+
+        <targetForm>Weißt</targetForm>
+      </error> du <error>
+        <errorType />
+
+        <originalForm>das<correction>
+            <deletion>s</deletion>
+          </correction></originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> <entity>Maria</entity> sehr viele <error>
+        <errorType />
+
+        <originalForm>Käcksen</originalForm>
+
+        <targetForm>Keksen</targetForm>
+      </error> und <error>
+        <errorType />
+
+        <originalForm>BonBon</originalForm>
+
+        <targetForm>Bonbon</targetForm>
+      </error> isst? Aber sie ist so d<overwrite>
+        <over>u</over>
+
+        <under>ü</under>
+      </overwrite>nn<correction>
+        <deletion>er</deletion>
+      </correction>, mit den richtigen Kurven! Ich will auch sie sein: Ich kann nur eine <error>
+        <errorType />
+
+        <originalForm>Salad</originalForm>
+
+        <targetForm>Salat</targetForm>
+      </error> essen, dass ich alle Kalorie nehme! Uh gestern habe ich eine neue <error>
+        <errorType />
+
+        <originalForm>rezept</originalForm>
+
+        <targetForm>Rezept</targetForm>
+      </error> für eine <error>
+        <errorType />
+
+        <originalForm>Kuche</originalForm>
+
+        <targetForm>Kuchen</targetForm>
+      </error> probiert! Willst du heute <error>
+        <errorType />
+
+        <originalForm>nachmittag</originalForm>
+
+        <targetForm>Nachmittag</targetForm>
+      </error> bei mir <arrow end="head" id="3">für ein Tee</arrow> kommen? <arrow
+        end="open" id="3"> </arrow><correction>
+        <deletion>So</deletion>
+      </correction> Weil ich will deine <correction>
+        <insertion>eigene</insertion>
+      </correction> Meinung haben! <error>
+        <errorType />
+
+        <originalForm>aber</originalForm>
+
+        <targetForm>Aber</targetForm>
+      </error> ich war beim <error>
+        <errorType />
+
+        <originalForm>erzählen</originalForm>
+
+        <targetForm>Erzählen</targetForm>
+      </error> etwas, oder? So, <entity>Maria</entity> ist im Supermarkt gegangen, weil sie etwas nicht kaufen musste. Aber wenn sie an der Kasse gekommen ist, und <correction>
+        <deletion>ihr</deletion>
+      </correction> ihre <correction>
+        <deletion>r</deletion>
+      </correction> <unreadable /> ge<unreadable /> hat, hätte sie gar kein Geld mehr! <emphasis>HaHaHa</emphasis>! Kannst du dich die Szenen vorstellen? <emphasis>HaHaHa</emphasis>! <entity>Maria</entity> du ist immer ganz <error>
+        <errorType />
+
+        <originalForm>perfeckt</originalForm>
+
+        <targetForm>perfekt</targetForm>
+      </error> <sic>gekleidern</sic>, dass nicht mehr Geld hat! In einem Supermarkt mit tausend Leute, <correction>
+        <deletion>das</deletion>
+      </correction> die die Szene geschaut haben!! <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Weißt du was mir Franziska gesagt hat? Dass <entity>Maria</entity> hat sehr viele Probleme mit ihre<overwrite>
+        <over>m</over>
+
+        <under>r</under>
+      </overwrite> Hausmann: Er ist immer besoffen und hat dem Job verloren, <error>
+        <errorType />
+
+        <originalForm>uns</originalForm>
+
+        <targetForm>und</targetForm>
+      </error> <entity>Maria</entity> <correction>
+        <deletion>musst f</deletion>
+      </correction> ist die <error>
+        <errorType />
+
+        <originalForm>einzige</originalForm>
+
+        <targetForm>Einzige</targetForm>
+      </error> das ein bisschen Geld bringt! Ach, die arme <entity>Maria</entity>! <entity>Maarian</entity>, ich muss jetzt gehen! Ich warte an dich ok? <closing>Ich liebe dich!<par /></closing> <entity>Mari</entity> </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting><foreign_word
+          foreign_language="English">Dear</foreign_word> <entity>Maarian</entity>,</greeting> <par />Wie <error>
+        <errorType />
+
+        <originalForm>geats</originalForm>
+
+        <targetForm>geht's</targetForm>
+      </error>? <error>
+        <errorType />
+
+        <originalForm>all<correction>
+            <insertion>e</insertion>
+          </correction>s</originalForm>
+
+        <targetForm>Alles</targetForm>
+      </error> gut? Ich schreib dich, weil ich wollte dir etwas fragen: <error>
+        <errorType />
+
+        <originalForm>du</originalForm>
+
+        <targetForm>Du</targetForm>
+      </error> bist in Indonesien und auch in <error>
+        <errorType />
+
+        <originalForm>Norvegen</originalForm>
+
+        <targetForm>Norwegen</targetForm>
+      </error> gegangen oder? Weil ich muss eine Urlaub machen, aber ich weißt nicht welche von den zwei Plätze besser ist! <error>
+        <errorType />
+
+        <originalForm>Normalerwaiße</originalForm>
+
+        <targetForm>Normalerweise</targetForm>
+      </error> gehe ich immer <overwrite>
+        <over>a</over>
+
+        <under>i</under>
+      </overwrite>ns Meer, und dieses Jahr wollte ich etwas ändern, aber ich weiß nicht!: Wenn ich ans Meer gehe, <ambiguous>
+        <alternative>habe</alternative>
+
+        <alternative>nabe</alternative>
+      </ambiguous> ich nur eine kleine Tasche, weil ich gar nicht brauche (nur ein paar „Pareo“, <sic>Kremen</sic> und <error>
+        <errorType />
+
+        <originalForm>Badeproduckten</originalForm>
+
+        <targetForm>Badeprodukten</targetForm>
+      </error>!) und wenn ich auf den Berg gehe, b<correction>
+        <insertion>r</insertion>
+      </correction>auche ich etwas mehr, aber ist ein bisschen kälter! Ich will nicht in das warm gehen! <error>
+        <errorType />
+
+        <originalForm>aber</originalForm>
+
+        <targetForm>Aber</targetForm>
+      </error> was<correction>
+        <deletion><unreadable /></deletion>
+      </correction> kann ich auf dem Berg machen? Nur spazieren und Land-<foreign_word
+        foreign_language="English">watching</foreign_word>, nicht viel mehr! Und am <error>
+        <errorType />
+
+        <originalForm>se</originalForm>
+
+        <targetForm>See</targetForm>
+      </error> kann ich tauchen, <foreign_word foreign_language="English">Snorkling</foreign_word> machen, mit der Sand spielen und, ja logisch, schwimmen!!! Und dann für letzte, ich <error>
+        <errorType />
+
+        <originalForm>wärde</originalForm>
+
+        <targetForm>werde</targetForm>
+      </error> mit mein <error>
+        <errorType />
+
+        <originalForm>Fraund</originalForm>
+
+        <targetForm>Freund</targetForm>
+      </error> gehen: <error>
+        <errorType />
+
+        <originalForm>wo</originalForm>
+
+        <targetForm>Wo</targetForm>
+      </error> ist besser? Auf eine <sic>tropikalisches</sic> Insel, oder auf einen <error>
+        <errorType />
+
+        <originalForm>Hipfel</originalForm>
+
+        <targetForm>Gipfel</targetForm>
+      </error>? Ich <error>
+        <errorType />
+
+        <originalForm>wärde</originalForm>
+
+        <targetForm>werde</targetForm>
+      </error> auf deine Antwort warten! <correction>
+        <deletion>Da</deletion>
+      </correction> Vielen Danke für dein <foreign_word
+        foreign_language="English">Help</foreign_word>!!! <foreign_word
+        foreign_language="English">Thank you</foreign_word>!!!<par /><closing>Bussi Bussi <entity>Mari</entity></closing></exercise>
+  </body>
+</kolipsi_document>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>4347</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve">
+      <par/><greeting>Liebe <entity>Thomas</entity>.</greeting> <par/><greeting>Hallo <entity>Thomas</entity>,</greeting> wie geht es dir? Ich gehe mir gut, aber unsere Freundin <entity>Maria</entity> geht <correction>
+        <deletion>sie</deletion>
+      </correction> es nicht gut. Letzte Woche ist <entity>Maria</entity> in einem Obst- und Gemüseladen gegangen. Sie hat 20 Tomaten und 15 <error>
+        <errorType/>
+
+        <originalForm>Karoten</originalForm>
+
+        <targetForm>Karotten</targetForm>
+      </error> gekauft. Die Tomaten waren sehr groß und mehr rot, während waren die <error>
+        <errorType/>
+
+        <originalForm>Karoten</originalForm>
+
+        <targetForm>Karotten</targetForm>
+      </error> nicht so gelb. <par/>Sie hat 8.00 <error>
+        <errorType/>
+
+        <originalForm>euro</originalForm>
+
+        <targetForm>Euro</targetForm>
+      </error> bezahlen. <par/><entity>Maria</entity> geht nach Hause, aber hat sie das Brot nicht gekauft. Eine Stunde später war sie im Supermarkt. Der Supermarkt war mehr groß, und <entity>Maria</entity> hat andere Gemüse gekauft. Im Supermarkt hat sie eine ihre Freundin geseh<overwrite>
+        <under><unreadable/></under>
+
+        <over>en</over>
+      </overwrite>. Da<overwrite>
+        <under><unreadable/></under>
+
+        <over>nn</over>
+      </overwrite> hat sie mit ihr gesprochen. Am Ende geht <entity>Maria</entity> zur Kasse. Dort gab es ein Problem an der Kasse. <par/>Die andere Frau <correction>
+        <deletion><unreadable/></deletion>
+      </correction> dachte dass, <entity>Maria</entity> <correction>
+        <deletion>die andere</deletion>
+      </correction> die 20 Tomaten und 15 <error>
+        <errorType/>
+
+        <originalForm>Karoten</originalForm>
+
+        <targetForm>Karotten</targetForm>
+      </error> weg<correction>
+        <insertion>ge</insertion>
+      </correction>schnappen hätte. Dann hat <entity>Maria</entity> <correction>
+        <deletion><unreadable/></deletion>
+      </correction> mit <correction>
+        <insertion>der</insertion>
+      </correction> andere Frau gesprochen und sie geht nach Hause. <par/>Sie ist nicht normal! Oder? <par/>Gut, gehe ich <correction>
+        <deletion> </deletion>
+      </correction>jetzt weg. <par/><closing><error>
+          <errorType/>
+
+          <originalForm>Aufwiedersen</originalForm>
+
+          <targetForm>Auf Wiedersehen</targetForm>
+        </error> .... Dein <entity><unreadable/></entity> </closing> </exercise>
+
+    
+  </body>
+</kolipsi_document>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I07_BAS18LUI</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo Pablo,</greeting><par/>wie geht es <correction>
+        <deletion>g</deletion>
+      </correction> dir? <correction>
+        <deletion>M</deletion>
+      </correction> Es geht mir gut, <correction>
+        <deletion>aber ich denke</deletion>
+      </correction> aber die <correction>
+        <deletion>Gestern Maria</deletion>
+      </correction> Maria geht <correction>
+        <deletion>sie</deletion>
+
+        <insertion>ihr</insertion>
+      </correction> nicht gut.<par/>Letzte Woche war Maria einkaufen, und sie <correction>
+        <deletion>hat</deletion>
+
+        <insertion>war</insertion>
+      </correction> Obst und Gemüse in einem Obst- und Gemüseladen. Sie war da <correction>
+        <deletion>für das Fest</deletion>
+      </correction> weil sie <correction>
+        <deletion>durftet</deletion>
+
+        <insertion>mochtet</insertion>
+      </correction> die Sachen für das Fest von Alex kaufen.<par/>Dann war sie im <correction>
+        <deletion>eine</deletion>
+      </correction> Supermarkt, <correction>
+        <deletion>der Supermarkt der Zentrum</deletion>
+      </correction> wo in die Stadt <correction>
+        <deletion>bist</deletion>
+      </correction> ist. <correction>
+        <deletion>S</deletion>
+      </correction> Im <error>
+        <errorType/>
+
+        <originalForm>Supermark</originalForm>
+
+        <targetForm>Supermarkt</targetForm>
+      </error> ha<correction>
+        <deletion>s</deletion>
+      </correction>t sie anderes <correction>
+        <deletion><unreadable/></deletion>
+      </correction> gekaufen<correction>
+        <deletion>,</deletion>
+      </correction>.<par/>Aber da kommt das Problem: <error>
+        <errorType/>
+
+        <originalForm>an</originalForm>
+
+        <targetForm>An</targetForm>
+      </error> der Kasse man denkte dass <correction>
+        <deletion>Sie</deletion>
+
+        <insertion>sie wollte</insertion>
+      </correction> die Obst und Gemüse <correction>
+        <deletion>gestolen</deletion>
+      </correction> (von die <error>
+        <errorType/>
+
+        <originalForm>Obts-</originalForm>
+
+        <targetForm>Obst-</targetForm>
+      </error> und Gemüseladen) <correction>
+        <deletion>ge s<unreadable/>telen</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>stelen</originalForm>
+
+        <targetForm>stehlen</targetForm>
+      </error>. <correction>
+        <deletion>weil sie in</deletion>
+      </correction> Sie hatte <correction>
+        <insertion>auch</insertion>
+      </correction> keine Kassenzettel <error>
+        <errorType/>
+
+        <originalForm>won</originalForm>
+
+        <targetForm>von</targetForm>
+      </error> die Obst- und Gemüseladen<correction>
+        <deletion>)</deletion>
+      </correction> so sie durfte an <correction>
+        <deletion>der Kasse</deletion>
+      </correction> die Frau an der Kasse <correction>
+        <deletion>dass</deletion>
+      </correction> erzählen, dass sie <correction>
+        <deletion>wollte</deletion>
+
+        <insertion>konnte nicht</insertion>
+      </correction> <correction>
+        <deletion>s S</deletion>
+      </correction> die Obst und Gemüse stehlen, weil sie gehörten nicht auf den Supermarkt.<par/>Das war so <error>
+        <errorType/>
+
+        <originalForm>Komisch</originalForm>
+
+        <targetForm>komisch</targetForm>
+      </error>! Ich <correction>
+        <deletion>lachte</deletion>
+      </correction> habe sehr gelacht. Ich hoffe wir würde uns <correction>
+        <deletion>as</deletion>
+      </correction> früh <correction>
+        <deletion>seh</deletion>
+      </correction> treffen!<par/><correction>
+        <deletion><unreadable/>, Maria</deletion>
+      </correction><par/>Deine Maria</exercise>
+
+    
+  </body>
+</kolipsi_II_document>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I38_SBI06TAT</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Liebe Sara,</greeting><par/>wie geht es dir? Heute möchte ich dir <correction>
+        <deletion>eine</deletion>
+      </correction> erzählen, was <error>
+        <errorType/>
+
+        <originalForm>letze</originalForm>
+
+        <targetForm>letzte</targetForm>
+      </error> Woche zu<correction>
+        <deletion><unreadable/></deletion>
+      </correction> meine Freundin Maria passiert ist. Zuerst entscheidet sie ein <error>
+        <errorType/>
+
+        <originalForm>bies<correction>
+            <deletion><unreadable/></deletion>
+          </correction>chen</originalForm>
+
+        <targetForm>bisschen</targetForm>
+      </error> Obst und Gemüse zu einkaufen, so geht sie in einem Obst- und Gemüseladen. Dort kauft <correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>s</insertion>
+      </correction>ie alles was sie braucht. Aber sie vergesst den Kassenzettel zu nehmen. Danach geht sie im <foreign_word foreign_language="Italiano">Supermarket</foreign_word> und nimmt die andere Produkte die sie braucht. <correction>
+        <deletion>Wenn sie an d <unreadable/></deletion>
+      </correction> Als sie an der Kasse kommt, sieht die Frau an der Kasse dass sie Obst und Gemüse in seiner Tasche hat. Als sie sieht <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> Maria Alimente nicht bezahlt, stoppt <correction>
+        <deletion>unreadable</deletion>
+      </correction> sie Maria und ärgert sich. Maria probiert zu erklären, und sucht s<correction>
+        <deletion>ie</deletion>
+
+        <insertion>e</insertion>
+      </correction>inen Kassenzettel, aber sie findet es nicht. So fragt Maria ob <error>
+        <errorType/>
+
+        <originalForm><correction>
+            <deletion>s</deletion>
+
+            <insertion>S</insertion>
+          </correction>ie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> das <error>
+        <errorType/>
+
+        <originalForm>Video-Überwachung</originalForm>
+
+        <targetForm>Videoüberwachung</targetForm>
+      </error> sehen können. Sie schauen das Video an und die Frau versteh<correction>
+        <deletion>e</deletion>
+
+        <insertion>t</insertion>
+      </correction> was wirklich passier<correction>
+        <deletion>en</deletion>
+
+        <insertion>t</insertion>
+      </correction> ist lasst sie gehen. </exercise>
+
+    
+  </body>
+</kolipsi_II_document>

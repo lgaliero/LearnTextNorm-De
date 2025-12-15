@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I23_MIC31JES</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo Thomas,</greeting><par />wie geht's dir?<par />Mir geht's nicht sehr gut: Maria, eine Freundin von mir, <correction>
+        <deletion>hat gestern ein Problem gehabt</deletion>
+      </correction> hat letzte Woche ein Problem gehabt.<par />Sie war in der Stadt einkaufen. Sie ist zuerst nach Obst<correction>
+        <deletion>b</deletion>
+
+        <insertion>h</insertion>
+      </correction>änd<correction>
+        <insertion>l</insertion>
+      </correction>er gegangen und sie hat viele Obst und Gemüse gekauf<correction>
+        <deletion>en</deletion>
+
+        <insertion>t</insertion>
+      </correction>. Danach ist sie nach dem <foreign_word foreign_language="Italiano">Supermarket</foreign_word> gegangen, wo sie Fleisch und <error>
+        <errorType />
+
+        <originalForm>fisch</originalForm>
+
+        <targetForm>Fisch</targetForm>
+      </error> kaufen sollte. Es war ein normaler Tag, aber...<par />Maria ist an die Kasse gegangen zu bezahlen<correction>
+        <deletion>. <unreadable /></deletion>
+      </correction> und die Frau die arbeitet in dem <foreign_word foreign_language="Italiano">Supermarket</foreign_word> hat <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Gemüse und <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Obst in Marias Tasche gesehen.<par />Sie dachte, dass Maria wollte Obst und Gemüse nicht bezahlen und hat die Polizei angeruft. Maria hat ja mit der Polizei gesprochen, aber sie möchtet nicht mehr in diesem <foreign_word foreign_language="Italiano">Supermarket</foreign_word> gehen.<par />Das war meine Geschichte! Ich warte <correction>
+        <deletion>e</deletion>
+
+        <insertion>a</insertion>
+      </correction>n deine Mail.<par /><closing>Viele Grüße,</closing><par />deine J.</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Liebe Paul,</greeting><par />ich bin J. und ich möchte meiner Meinung geben. Ich habe viele virtuelle Freundschaften gehabt und habe ich mich <correction>
+        <deletion><unreadable /></deletion>
+      </correction> für ein paar Monate isoliert.<par />Im Internet kann man viele interessanten Argumenten sprechen, aber in einer Chat gibt es <correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>k</insertion>
+      </correction>eine <error>
+        <errorType />
+
+        <originalForm>Umanität</originalForm>
+
+        <targetForm>Humanität</targetForm>
+      </error>. Du kannst nie wissen, wer die Personen, mit denen chattest du, sind.<par />Wenn ich 14 war, habe ich einen Junge<correction>
+        <insertion>n</insertion>
+      </correction>, Elia, im Facebook kennengelern. Er war schön, freundlich, ..., und wir haben nach ein paar Monate getroffen.<par />Alles war in Ordnung, aber jetzt verstehe ich, dass sie eine schlechte <error>
+        <errorType />
+
+        <originalForm>Sitazion</originalForm>
+
+        <targetForm>Situation</targetForm>
+      </error> bekommen werden könnte. Ich glaube dass die beste Lösung ist eine neues SIM zu kaufen und ein neuer Profil zu machen. Du kannst zu <correction>
+        <deletion><unreadable /></deletion>
+      </correction> einem Kurs gehen, um neue Leute kennenlernen, oder mit deinen alten Freunden treffen.<par />Wenn du mit jemand sprechen möchtest, kannst du mir schreiben...<par />Aber bitte, keine virtuelle Freundschaft!<par />-J</exercise>
+  </body>
+</kolipsi_II_document>

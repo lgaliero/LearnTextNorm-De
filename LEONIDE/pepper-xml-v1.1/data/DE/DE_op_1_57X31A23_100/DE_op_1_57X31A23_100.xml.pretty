@@ -1,0 +1,75 @@
+<body>
+ <page page_number="1" transcanno_page_id="2019">
+  <paragraph class="medium-paragraph" tagcode="1611137132922">
+   <div>
+    Für mein mit
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Schüler" tagcode="1550079042254">
+     schüler
+    </orth_error_id12>
+    und
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1550079052576" tran_correction_original="*it">
+     mit
+    </tran_word_correction_id25>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1550079079028" tran_correction_original="Schüler**nen">
+     Schülerinnen
+    </tran_word_correction_id25>
+   </div>
+   <div>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="soll" tagcode="1550078997631">
+     sol
+    </orth_error_id12>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1550079097046" tran_correction_original="*an">
+     man
+    </tran_word_correction_id25>
+    Deutsch,
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Italienisch" tagcode="1550079133556">
+     italenisch
+    </orth_error_id12>
+    und
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1550079142027" tran_correction_original="***lisch">
+     Englisch
+    </tran_word_correction_id25>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="reden" tagcode="1555581040739">
+     renden
+    </orth_error_id12>
+   </div>
+   <div>
+    weil man so redet.
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1550079160617" tran_correction_original="*">
+     Im
+    </tran_word_correction_id25>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1555581101591" tran_correction_original="Süd*tirol">
+     Südtirol
+    </tran_word_correction_id25>
+    <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1611137111556" tran_alternative_1="red" tran_alternative_2="ret">
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="redet" tagcode="1611137132921">
+      red
+     </orth_error_id12>
+    </tran_ambiguous_id3>
+    man
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Italienisch" tagcode="1550079185403">
+     <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1550079205563" tran_correction_original="****enisch">
+      Italenisch
+     </tran_word_correction_id25>
+    </orth_error_id12>
+   </div>
+   <div>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1550079286415" tran_correction_original="w**l">
+     weil
+    </tran_word_correction_id25>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="von" tagcode="1550079222426">
+     <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1550079295191" tran_correction_original="*">
+      fon
+     </tran_word_correction_id25>
+    </orth_error_id12>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="vielen" tagcode="1550079228262">
+     fielen
+    </orth_error_id12>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1550079318097" tran_correction_original="*änder">
+     Länder
+    </tran_word_correction_id25>
+    gekommen sind.
+   </div>
+  </paragraph>
+ </page>
+</body>

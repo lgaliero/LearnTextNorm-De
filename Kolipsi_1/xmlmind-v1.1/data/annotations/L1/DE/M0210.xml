@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0210</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Martin</entity></greeting>,<par /><error>
+        <errorType />
+
+        <originalForm>Letzte</originalForm>
+
+        <targetForm>letzte</targetForm>
+      </error> Woche war <correction>
+        <deletion>M</deletion>
+      </correction>meine Freundin <entity>Maria</entity> einkaufen. Ihr ist dabei etwas <error>
+        <errorType />
+
+        <originalForm>schreckliches</originalForm>
+
+        <targetForm>Schreckliches</targetForm>
+      </error><overwrite>
+        <under>P</under>
+
+        <over>p</over>
+      </overwrite>assiert. Sie war nämlich erst beim Obsthändler und hat Obst gekauft, jedoch hat sie an der Kasse den Kassenzettel vergessen und a<overwrite>
+        <under>sl</under>
+
+        <over>l</over>
+      </overwrite>s sie dann später im Supermarkt war, um dort noch mehr <sic>einzukauf</sic>, dachte die <error>
+        <errorType />
+
+        <originalForm>Kassirerin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error>, dass sie die Sachen aus dem Obstladen geklaut hätte, was ja aber nicht der Fall war. Da meine Freundin, die <entity>Maria</entity> heißt, ja auch den Kassenzettel in dem Obstladen von gegenüber vergessen hatte, konnte sie nicht beweisen <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> sie die <sic>Sach</sic> nicht geklaut hatte, was die Kassiererin und den jetzt zu den zwei <sic>hinzugestoßene <error>
+          <errorType />
+
+          <originalForm>Ladendedektiv</originalForm>
+
+          <targetForm>Ladendetektiv</targetForm>
+        </error></sic> jedoch dachten. Aufgrund <sic>diesen</sic> Verdacht<over>s</over> wollten die Kassiererin und der <error>
+        <errorType />
+
+        <originalForm>Ladendedektiv</originalForm>
+
+        <targetForm>Ladendetektiv</targetForm>
+      </error> <sic>sie sie</sic> nicht <error>
+        <errorType />
+
+        <originalForm>gehn</originalForm>
+
+        <targetForm>gehen</targetForm>
+      </error> lassen <correction>
+        <deletion><unreadable /></deletion>
+      </correction> um den Kassenzettel zu <error>
+        <errorType />
+
+        <originalForm>hohlen</originalForm>
+
+        <targetForm>holen</targetForm>
+      </error>, da sie Angst hatten, meine Freundin würde abhauen. Nach einer langen Diskussion durfte sie schließlich <error>
+        <errorType />
+
+        <originalForm>gehn</originalForm>
+
+        <targetForm>gehen</targetForm>
+      </error> um den Kassenzettel zu <error>
+        <errorType />
+
+        <originalForm>hohln</originalForm>
+
+        <targetForm>holen</targetForm>
+      </error>. Damit konnte sie ihre Unschuld beweisen.     </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo Freundin,</greeting><par /><error>
+        <errorType />
+
+        <originalForm>Wir</originalForm>
+
+        <targetForm>wir</targetForm>
+      </error> könnten entweder in die Berge oder an den Strand fahren. In den <error>
+        <errorType />
+
+        <originalForm>bergen</originalForm>
+
+        <targetForm>Bergen</targetForm>
+      </error> ist es weitgehend warm, die Landschaft sieht schön aus und sie ist wunderbar zum <error>
+        <errorType />
+
+        <originalForm>wandern</originalForm>
+
+        <targetForm>Wandern</targetForm>
+      </error>, jedoch <unreadable /> ich es nicht wirklich zu wandern. Die <unreadable /> Alternative wäre der Strand, die Landschaft sieht auch schön aus, obwohl sie sehr anders aussieht. Man kann hier einfach nur rumliegen und sich im Wasser <error>
+        <errorType />
+
+        <originalForm>abkülen</originalForm>
+
+        <targetForm>abkühlen</targetForm>
+      </error>. Es gibt viele <unreadable /> an dem Strand und am Horizont gibt es auch Berge zu sehen. Also auf dem Strand quasi alles aber <unreadable />  Berge nur die Berge und keinen Strand. Ich würde daher lieber an den Strand fahren, da  <correction>
+        <deletion><unreadable /></deletion>
+      </correction> der Strand die Berge in jeder Hinsicht übertrifft. Außerdem habe ich die Reise schon gebucht, weil ich davon ausgegangen bin, dass du auch an den Strand willst, denn der Strand ist richtig schön, das Wasser ist klar und sauber, der Himmel wolkenlos, und die Landsch<overwrite>
+        <under>ä</under>
+
+        <over>a</over>
+      </overwrite>ft schön.          </exercise>
+  </body>
+</kolipsi_document>

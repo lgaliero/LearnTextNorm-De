@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0154</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Anna</entity></greeting>,<par />wie geht es dir?<par />Ich hatte letzte Woche viel zu tun und bin erst jetzt dazu gekommen dir zu schreiben.<par />Ich muss dir unbedingt erzählen, was <entity>Maria</entity> letzten Dienstag passiert ist.<par />Sie wollte ihren Wocheneinkauf erledigen und <palimpsest></palimpsest> ging zuerst zum Obsthändler, bei dem sie Gurken, Tomaten, Paprika und Spargel kaufte. Anschließend ging sie in den Supermarkt, um den Rest, der auf der Einkaufsliste stand, einzu<hyphen>-</hyphen>kaufen.<par />Als sie jedoch an der Kasse stand und die <palimpsest></palimpsest> Sachen aus dem Einkaufswagen auf das Kassenband gelegt hatte, <palimpsest></palimpsest> <gap>_</gap> die Kassiererin das Obst und Gemüse in ihrer Handtasche, die sie über der Schulter hängen hatte. Verärgert machte die Kassiererin <entity>Maria</entity> auf den Inhalt der Tasche aufmerksam und <palimpsest>beschuldigte sie des Diebstahls.</palimpsest><par /><entity>Maria</entity>, die völlig überrascht war, bemerkte, dass sie den Kassenzettel bei dem Obsthändler liegen gelassen hatte und somit nicht beweisen konnte, dass sie das Obst und das Gemüse beim <palimpsest></palimpsest> Obsthändler gekauft hatte.<par />Sie erklärte der Kassier<overwrite>
+        <under>i</under>
+
+        <over>e</over>
+      </overwrite>rin, dass sie die Sachen in der Handtasche nicht aus dem Supermarkt hat, sondern dass sie sie zuvor <palimpsest></palimpsest> beim Obsthändler gekauft hatte, <palimpsest></palimpsest> bei dem sie jedoch den Kassenzettel liegen gelassen hat.<par />Höflich fragte <entity>Maria</entity> die Kassiererin, ob sie den Kassenzettel beim Obsthändler, der in der <overwrite>
+        <under>n</under>
+
+        <over>N</over>
+      </overwrite>ebenstraße ist, holen darf. Die Kassiererin bejahte dies<palimpsest></palimpsest> unter der Voraussetzung, dass <entity>Maria</entity> die Sachen solange im Supermarkt lässt.<par /><entity>Maria</entity> stellte die Sachen an der Kasse ab und lief zu dem Obsthändler. Sie fragte die Verkäuferin, ob sie noch den Kassenzettel von vorhin hat. <palimpsest></palimpsest><par /><palimpsest></palimpsest> Die Verkäuferin teilte ihr mit, dass alle Kassenzettel, die die Kunden nicht mitnehmen, <palimpsest></palimpsest> <palimpsest></palimpsest> in den Müll geschmissen werden und dass sie ihr Glück dort mal versuchen solle.<par /><entity>Maria</entity> kramte im Mülleimer, der mit <error>
+        <errorType />
+
+        <originalForm>hunderten</originalForm>
+
+        <targetForm>Hunderten</targetForm>
+      </error> von Kassenzetteln gefüllt war und fand ihren dann endlich im letzten Drittel.<par />Erleichtert ging sie zurück zum Supermarkt und präsentierte den Kassenzettel der Kassiererin, die daraufhin nickte und sich wegen der Unterstellung entschuldigte.<par /><correction>
+        <deletion><entity>Maria</entity></deletion>
+      </correction><par /><entity>Maria</entity> bezahlte die Sachen aus dem Supermarkt und ging nach Hause.<par /><correction>
+        <deletion>Da ist sie wohl noch mit einem blauen Au</deletion>
+      </correction><par />Da hatte sie wohl noch Glück.<par />Ohne den Kassenzettel wäre sie nicht so einfach <error>
+        <errorType />
+
+        <originalForm>davon gekommen</originalForm>
+
+        <targetForm>davongekommen</targetForm>
+      </error>.<par /><error>
+        <errorType />
+
+        <originalForm>Naja</originalForm>
+
+        <targetForm>Na ja</targetForm>
+      </error>, ich höre dann mal auf zu schreiben.<par /><closing>Liebe Grüße<par /><entity>A<palimpsest>n</palimpsest>nette  </entity></closing>     </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Lilly</entity></greeting>,<par />wie geht es dir?<par />Die Sommerferien stehen schon bald vor der Tür und wir haben unseren Urlaub <error>
+        <errorType />
+
+        <originalForm>immernoch</originalForm>
+
+        <targetForm>immer noch</targetForm>
+      </error> nicht gebucht.<par />Ich habe mal zwei <palimpsest></palimpsest> verschiedene Möglichkeiten ausgesucht. Die eine Möglichkeit ist, in die Berge zu fahren.<par />Dort könnten wir wandern gehen und die wundervolle Natur genießen, oder auch durch die Berge reiten.<par />Wir würden in einer kleinen Hütte wohnen, die in der Nähe der Stadt liegt.<par /><correction>
+        <deletion>Am</deletion>
+      </correction> Die andere Möglichkeit ist, an den Strand zu fahren. Dort würden wir in einem noblen Hotel wohnen.<par />Am Strand könnten wir uns sonnen, schwimmen gehen, oder eine Bootstour übers Meer machen.<par />Abends könnten wir dann in eine nahe <palimpsest>gelegene</palimpsest> <error>
+        <errorType />
+
+        <originalForm>Discothek</originalForm>
+
+        <targetForm>Diskothek</targetForm>
+      </error> gehen und neue Leute kennenlernen.<par />Auch am Meer könnten wir zusammen ausreiten und den Sonnenuntergang im Galopp genießen.<par />Meiner Meinung nach haben beide Urlaube Vor- und Nachteile und mir ist es relativ egal, wo wir hinfahren. Überlege dir einfach, was dir lieber wäre und teile es mir dann mit, damit wir es zusammen buchen können.<par /><closing>Bis bald<par /> <entity>Lisa</entity></closing>    </exercise>
+  </body>
+</kolipsi_document>

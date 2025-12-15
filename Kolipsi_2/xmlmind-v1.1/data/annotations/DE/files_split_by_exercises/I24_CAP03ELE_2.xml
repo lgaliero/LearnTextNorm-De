@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I24_CAP03ELE</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Hallo Paul,</greeting><par/><error>
+        <errorType/>
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> bin Federica und ich habe deine persönliche Briefe gelesen.<par/>Auch meinen <correction>
+        <deletion>ich</deletion>
+      </correction> Bruder hat diese Probleme. Er hat auch die Nummern aller Personen aus seinem Handy gelöscht.<par/>Ich denk<correction>
+        <deletion>t</deletion>
+
+        <insertion>e</insertion>
+      </correction>, dass du warten müssen. Ich denke auch, dass du neue Freundschaften <correction>
+        <deletion>man</deletion>
+      </correction> machen muss!<par/>Was denkst über virtuelle Freundschaften haben? Ich denke, dass manchmal sind diese Freundschaften richtig sind. Ich habe auch einen <correction>
+        <deletion>Fre</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>Internet-Freund</originalForm>
+
+        <targetForm>Internetfreund</targetForm>
+      </error>. Was denkst du über die Verwendung des Internet? Internet ist einen schöne <error>
+        <errorType/>
+
+        <originalForm>Komunikationsmittel</originalForm>
+
+        <targetForm>Kommunikationsmittel</targetForm>
+      </error>? Hast du <correction>
+        <deletion>f</deletion>
+      </correction> Freunden in der Schule? Ich denke, dass sie richtige Freunden sind. Maria ist meine beste Freundin. Sie ist wie meinen Schwester. Was denkst du über die <error>
+        <errorType/>
+
+        <originalForm>Mädchen-Buben Freundschaft</originalForm>
+
+        <targetForm>Mädchen-Buben-Freundschaft</targetForm>
+      </error>? Ist sie richtig? Ich denke man kann <correction>
+        <deletion>eine</deletion>
+      </correction> die schönste Freundschaft <correction>
+        <deletion><unreadable/></deletion>
+      </correction> haben. <correction>
+        <deletion>Mein<unreadable/> best<unreadable/> Fre</deletion>
+      </correction> Ich habe er in Internet gefunden. Welche ist deine Erfahrung im Internet? Hast du richtige Freunden gefindet?<par/><closing>Ich warte auf deine Antwort!<par/>Viele Grüße,</closing><par/>Federica<par/>PS "meine e-mail ist: federica.federica@hotmail.com"</exercise>
+  </body>
+</kolipsi_II_document>

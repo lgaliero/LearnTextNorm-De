@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I13_COV27SIR</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe Teresa,</greeting><par />wie geht es dir? Heute möchte ich dich über die Geschichte von Maria erzählen. Meine Freundin Maria war letzte Woche einkaufen. Sie kaufte zuerst in einem Obst- und Gemüseladen ein. Danach, eine Stunde später, war sie im Supermarkt. Im Supermarkt kaufte <correction>
+        <deletion>Sie</deletion>
+      </correction> sie Milch, Kakao, eine Flasche Wasser und andere Sachen. Als <correction>
+        <deletion><unreadable /></deletion>
+      </correction> sie an der Kasse ankam gab es ein <error>
+        <errorType />
+
+        <originalForm>problem</originalForm>
+
+        <targetForm>Problem</targetForm>
+      </error>. Die Verkäuferin des Supermarkts glaubte <error>
+        <errorType />
+
+        <originalForm>nä<correction>
+            <insertion>h</insertion>
+          </correction>mlich</originalForm>
+
+        <targetForm>nämlich</targetForm>
+      </error>, dass Maria <correction>
+        <deletion>dass</deletion>
+      </correction> das Obst und das Gemüse gestehlen hatte. Maria erklärte der Verkäuferin, dass sie es vorher bei einem Obst- und Gemüseladen kaufte. Die Verkäuferin glaubte ihr nicht und die beide fingen an zu streiten. Ein Mann, der den Lärm hörte ging schauen was passiert war. <correction>
+        <deletion>Er sah, dass die beide Frauen sich</deletion>
+      </correction><par />Er sah, dass die Verkäuferin Maria bei den Haaren zog. Der Mann half Maria, und als sich die Verkäuferin beruhigte ruf er die Polizei an. Die Polizei kam im Supermarkt und Maria erzählte die <correction>
+        <deletion>G</deletion>
+
+        <insertion>g</insertion>
+      </correction>anze <correction>
+        <deletion>g</deletion>
+
+        <insertion>G</insertion>
+      </correction>eschichte. Als sie die Geschichte fertig erzählte <correction>
+        <deletion>hatte</deletion>
+      </correction>, verstand die Polizei, dass Maria nichts <error>
+        <errorType />
+
+        <originalForm>falsches</originalForm>
+
+        <targetForm>Falsches</targetForm>
+      </error> getan hatte.<par />Die Verkäuferin wurde verhaftet und Maria <correction>
+        <deletion>hat<unreadable /> hat</deletion>
+      </correction> verlobte sich in dem Mann der ihr half. <correction>
+        <deletion>verlobt.</deletion>
+      </correction><par />Siria</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber Paul,</greeting><par /><correction>
+        <deletion>ge</deletion>
+      </correction> ich denke, dass virtuelle Freundschaften, nicht echte Freundschaften sind. Ein Freund <correction>
+        <deletion><unreadable /></deletion>
+      </correction>ist eine Person die du sehr gut kennst und mit der du dich gut fühlst. Oft <correction>
+        <deletion><unreadable /></deletion>
+      </correction> verstecken sich hinter diese Leute mit <correction>
+        <deletion>den</deletion>
+
+        <insertion>die</insertion>
+      </correction> du chattest total andere Leute. Ich kenne ein Programm, der "Catfish" heißt<correction>
+        <deletion>, wo oft viele</deletion>
+      </correction> "Catfish" zeigt den <correction>
+        <deletion><unreadable />Leute</deletion>
+      </correction> Menschen, dass <correction>
+        <deletion>oft hinter der Chat</deletion>
+      </correction> virtuelle Freundschaften nicht echte Freundschaften sind, weil man den virtuellen Freund nicht gut kennt. Du musst alle Personen mit denen du gechattet hast, erklären, weil du sie aus deinem Leben gelöscht hast. Du musst dich nicht fühlen als hättest du die Freundschaft <correction>
+        <deletion>verra<unreadable />ten</deletion>
+      </correction> verraten, denn die echte Freunde sind die die <correction>
+        <deletion>dich</deletion>
+      </correction> immer bei deiner Seite sind.<par />Ich glaube, dass Internet das Leben der Menschen ruiniert.<par />Siria<par />Siriagmail@com</exercise>
+  </body>
+</kolipsi_II_document>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0072</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Lieber <entity>Ralf</entity></greeting>, die Sommerferien beginnen bald und ich möchte dieses Jahr unbedingt in den Urlaub <correction>
+        <insertion>fahren</insertion>
+      </correction>. Jedoch bin ich mi<over>r</over> noch n<overwrite>
+        <under><unreadable/></under>
+
+        <over>i</over>
+      </overwrite>cht ganz sicher, ob ich in die <entity>Alpen</entity> oder an den <entity>Atlantik</entity> reisen möchte. Beides finde ich sehr verlockend, aber ich kann mich nicht entscheiden, ob Berge oder Meer? Strände oder weite Wiesen? Schwimmen oder Wandern?<par/><over>B</over>eide Seiten locken mit starken Argumenten. Ich liebe es e<over>i</over>nfach mal ins weite Meer zu blicken <correction>
+        <deletion>und sich in einem S</deletion>
+      </correction>, während die Sonne langsam im Meer versinkt. Ich kann mich noch daran erinnern, wie ich vor 2 Jahren in <entity>Südfrankreich</entity> am Strand lag und mich in einem dieser Sonnenuntergänge verloren habe. Das war ein Moment von unglaublicher Erholung, den ich wahrscheinlich <correction>
+        <deletion>nicht wieder erleben</deletion>
+      </correction> nie vergessen werde.<par/>Doch auch hohe Berge, endlose Wiesen und Tiere auf Feldern sind etwas wunder<hyphen>-</hyphen>schönes wie ich finde. Durch die Täler zu wandern auf Gebirge zu blicken und einen Moment nur für <over>m</over>ich sein, würde mir sicherlich gut tun. Ich kann mich erinnern, wie mein Vater ausgelassen und fröhlich aus einem Urlaub in den Bergen zurückkam, obwohl er <correction>
+        <deletion>voh</deletion>
+      </correction> vorher niedergeschlagen und sehr gestresst war.<par/>Beide Optionen bieten Ruhe und Erholung, so viel ist sicher. Jedoch ist man in den Bergen viell<over>e</over>icht manchmal zu allein, ich w<over>ei</over>ß nicht, ob das gut ist für einen jungen Menschen wie mich. Hingegen das Meer kann auch stressig sein, wenn z.B. <over>v</over>iele Touristen am Strand sind kommt man oft nie richtig zur Ruhe. Vielleicht tut es mir, aber auch mal gut neue Leute ke<over>n</over>nen zu lernen, besonders im Ausland könnte es <over>s</over>ehr interessant werden.<par/>Ich bin mir nicht sicher, muss aber bald eine Entscheidung treffen, da die Flüge immer teurer werden und <correction>
+        <deletion>w</deletion>
+      </correction> ich sonst doch zu Hause bleiben muss, obwohl ich doch endlich mal wieder raus aus dem Alltag will.<par/>Also hilf mir, sind es die schönen Gebirge, Weiden, Wiesen und Wanderungen <correction>
+        <deletion>,</deletion>
+      </correction> oder die Wellen, das endlose Wasser und die <over>S</over>onnenuntergänge, für die ich mich entscheiden soll?<par/>Ich warte dringend auf eine Antwort.<par/><closing>dein <correction>
+          <deletion><unreadable/></deletion>
+        </correction> <entity>Oscar</entity>.   </closing>   </exercise>
+  </body>
+</kolipsi_document>

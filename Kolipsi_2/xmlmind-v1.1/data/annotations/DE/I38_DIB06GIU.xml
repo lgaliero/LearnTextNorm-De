@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I38_DIB06GIU</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><correction>
+        <deletion>Liebe <unreadable /><par />hast du gehoren was at Maria passiert ist?</deletion>
+      </correction><par />27.03.2015 Bozen<par /><correction>
+        <insertion><error>
+            <errorType />
+
+            <originalForm>Titel-Mal</originalForm>
+
+            <targetForm>Titel Mail</targetForm>
+          </error></insertion>
+      </correction> "Die Abenteuer von Maria"<par /><greeting>Liebe <correction>
+          <deletion>Mar</deletion>
+        </correction> Tom<correction>
+          <deletion>m</deletion>
+        </correction>aso,</greeting><par />hast du gehören was <correction>
+        <deletion>at</deletion>
+      </correction> Maria passiert ist? Es ist eine sehr schlechte aber auch komische Geschichte!<par />Letzte Woche war Maria einkaufen. Sie muss eine sehr wichtige Abendesse<correction>
+        <deletion><unreadable /></deletion>
+      </correction> für ihren Kollegen <correction>
+        <deletion><unreadable /></deletion>
+      </correction> zu machen. So will sie eine gute Absicht zu machen. So entscheidet sie eine Gemüsesuppe mit Roastbeef zu kochen.<par />Sie ist e<correction>
+        <deletion>n</deletion>
+
+        <insertion>r</insertion>
+      </correction>st in eine Gemüseladen gegangen. Dort hat sie viele Obst und Gemüse gekauft. Sie war ohne eine Handtasche so muss sie in seine Tasche die Gemüse zu stecken<correction>
+        <deletion>!</deletion>
+
+        <insertion>.</insertion>
+      </correction> Aber sie hat der Kassenzettel vergessen!<par />Dann ist sie im <foreign_word foreign_language="Italiano">Supermarket</foreign_word> gegangen. <correction>
+        <deletion>Sie muss hat</deletion>
+      </correction> Dort hat sie Fleisch, Wein und viele andere gute Schmecken genommen. Aber, <correction>
+        <deletion>wenn</deletion>
+      </correction> als sie neben der Kasse gegang ist, die Frau hinter die Kasse hat die <correction>
+        <deletion>g</deletion>
+
+        <insertion>G</insertion>
+      </correction>emüse in ihre Tasche gesehen. <correction>
+        <deletion>Sie hat</deletion>
+      </correction> Maria sagt dass sie in eine Gemüseladen gekauft hat. Aber als sie <correction>
+        <deletion>der Kasse<unreadable />zettel</deletion>
+      </correction> in ihre Tasche schaut, entde<correction>
+        <deletion>k</deletion>
+
+        <insertion>c</insertion>
+      </correction>ke Maria dass sie hat nicht der Kassenzettel genommen!<par />Eine sehr schlechte Abenteuer, denkst du <ambiguous>
+        <alternative>sie</alternative>
+
+        <alternative>ne</alternative>
+      </ambiguous>?<par /><closing>Freundliche Grüße</closing><par />deine Marta</exercise>
+
+    <exercise number="2" xml:space="preserve">Paul, ich habe dein <correction>
+        <deletion>Mail</deletion>
+
+        <insertion>Artikel</insertion>
+      </correction> gelesen.<par />Ich finde dieses Thema sehr interessant, <error>
+        <errorType />
+
+        <originalForm>wichting</originalForm>
+
+        <targetForm>wichtig</targetForm>
+      </error> und aktuelle!<par /><correction>
+        <deletion>v</deletion>
+
+        <insertion>V</insertion>
+      </correction>irtuelle Freundschaft sind eine tagliche <correction>
+        <deletion>r</deletion>
+
+        <insertion>R</insertion>
+      </correction>ealität, heute. Immer mehr <correction>
+        <deletion>m</deletion>
+
+        <insertion>M</insertion>
+      </correction>enschen lieben mit Internet sprechen. Das weil es mehr einfach ist, bestimmt für Menschen die eine sehr kleine Personalität haben.<par />Ein Chat ist eine impersonale Weg zu Sprachen.<par /><correction>
+        <deletion>In</deletion>
+      </correction> Meine Meinung ist <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> <correction>
+        <deletion><unreadable /></deletion>
+      </correction> sprechen mit ein Computer oder einen Handy ist tausendmal mehr gefährlich!<par />In Internet <error>
+        <errorType />
+
+        <originalForm>mann</originalForm>
+
+        <targetForm>man</targetForm>
+      </error> kann alle Typen von Menschen finden, gute aber auch böse und <error>
+        <errorType />
+
+        <originalForm>gefahrlich</originalForm>
+
+        <targetForm>gefährlich</targetForm>
+      </error><correction>
+        <deletion>!</deletion>
+
+        <insertion>.</insertion>
+      </correction><par />Ich gebe dich ein Rat: <error>
+        <errorType />
+
+        <originalForm>du</originalForm>
+
+        <targetForm>Du</targetForm>
+      </error> kannst <correction>
+        <deletion><unreadable /></deletion>
+      </correction> wahrlich eine Person kennen, ohne als sie neben dir ist <correction>
+        <deletion><unreadable /></deletion>
+      </correction> nicht als <correction>
+        <deletion>sie</deletion>
+      </correction> sie hinter im Desktop befindet ich! Du musst dich viele reale Freunde haben, <correction>
+        <deletion><unreadable /></deletion>
+      </correction> die auf Blut und Fleisch bestehen und nicht von Pixel und Coden.<par />Ich habe deine selbe <error>
+        <errorType />
+
+        <originalForm>Erlebniss</originalForm>
+
+        <targetForm>Erlebnis</targetForm>
+      </error> passiert. Er war meine <error>
+        <errorType />
+
+        <originalForm>Ideale</originalForm>
+
+        <targetForm>ideale</targetForm>
+      </error> <correction>
+        <deletion>Typolog</deletion>
+      </correction> Typ! Er hat meine se<correction>
+        <deletion>b</deletion>
+
+        <insertion>l</insertion>
+      </correction>be Idee und <error>
+        <errorType />
+
+        <originalForm>Hobbies</originalForm>
+
+        <targetForm>Hobbys</targetForm>
+      </error>, aber als wir zusammen <foreign_word foreign_language="Deutsch"><error>
+          <errorType />
+
+          <originalForm>Zenter</originalForm>
+
+          <targetForm>Zentrum</targetForm>
+        </error></foreign_word> gegangen sind, ich habe die Wahrheit entdeckt. Er wa<correction>
+        <deletion>s</deletion>
+
+        <insertion>r</insertion>
+      </correction> sehr  ander und nicht so komisch und interlligent wie in unsere Chat!<par />Internets und Handy sind eine sehr gute Weg <foreign_word
+        foreign_language="English">of</foreign_word> <error>
+        <errorType />
+
+        <originalForm>Kommunicationen</originalForm>
+
+        <targetForm>Kommunikationen</targetForm>
+      </error>, aber sie sind voll von schlechte Dinge und <error>
+        <errorType />
+
+        <originalForm>Gefährliche</originalForm>
+
+        <targetForm>gefährliche</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>Erlebniss</originalForm>
+
+        <targetForm>Erlebnis</targetForm>
+      </error>!<par /><closing>Freundliche Grüßen,</closing><par />Kathleen Leach</exercise>
+  </body>
+</kolipsi_II_document>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I16_DAP16FED</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve">Maria war letzte Woche einkaufen. Zuerst war sie beim Obsthändler. Dort kaufte sie Obst und Gemüse. ein. Als sie alles in <correction>
+        <deletion>s</deletion>
+
+        <insertion>i</insertion>
+      </correction>hrem Einkaufskorb gelegt hat ging sie zur Kasse. um es zu bezahlen. Die Frau, die an der Kasse war machte ihr den Kassenzettel. Die Frau nahm ihre Brieftasche heraus und bezahle den Obst und die Gemüse. Alles was sie gekauft hatte stellte sie in eine Tasche und ging weg. Die Verkäuferin merkt dass sie den Kassenzettel vergessen hatte, so schrie sie: "<error>
+        <errorType/>
+
+        <originalForm>entschuldigung</originalForm>
+
+        <targetForm>Entschuldigung</targetForm>
+      </error> Sie haben den Kassenzettel vergessen", aber die Frau hörte nicht mehr.<par/>Eine Stunde später ging sie im Supermarkt. Dort kaufte sie Wein, Tomaten, Reis und andere Sachen ein. Als sie die ganze Runde gemacht hatte und alles was sie einkaufen musste hatte ging sie zur Kasse. Dort gab es aber ein Problem. Die Verkäuferin fragte sie wieso sie nicht den Obst bezahlte? Die Frau antwortete, dass sie zuerst beim Obsthändler war. Die Verkäuferin fragte nach dem Kassenzettel. Die Frau suchte ihn aber sie fand es nicht, so merkte sie dass sie beim Obsthändler vergessen hatte. Die Verkäuferin tröste die Frau und sagte dass es kein Problem ist sie glaubt ihr.<par/><closing>Liebe Grüße</closing><par/>Deine Freundin. </exercise>
+
+    
+  </body>
+</kolipsi_II_document>

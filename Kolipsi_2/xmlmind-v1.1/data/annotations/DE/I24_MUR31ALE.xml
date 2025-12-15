@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I24_MUR31ALE</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><error>
+        <errorType />
+
+        <originalForm>Heutemorgen</originalForm>
+
+        <targetForm>Heute Morgen</targetForm>
+      </error> <correction>
+        <insertion>hat</insertion>
+      </correction> Maria eine große Problem gehabt. In die Früh war Maria zu das <error>
+        <errorType />
+
+        <originalForm><correction>
+            <deletion>E</deletion>
+
+            <insertion>O</insertion>
+          </correction>bst &amp; Gemüse <correction>
+            <deletion>m</deletion>
+
+            <insertion>M</insertion>
+          </correction>arket</originalForm>
+
+        <targetForm>Obst- &amp; Gemüsemarket</targetForm>
+      </error> gegangen; da hat sie ein paar <correction>
+        <deletion>s</deletion>
+
+        <insertion>S</insertion>
+      </correction>ache gekauft. Wenn sie <error>
+        <errorType />
+
+        <originalForm><correction>
+            <deletion>ge</deletion>
+
+            <insertion>r</insertion>
+          </correction>aus geht</originalForm>
+
+        <targetForm>rausgeht</targetForm>
+      </error>, sie hat die Kassenzettel vergessen. Eine <error>
+        <errorType />
+
+        <originalForm>Stünde</originalForm>
+
+        <targetForm>Stunde</targetForm>
+      </error> später <correction>
+        <deletion>sie sind</deletion>
+      </correction> ist sie <correction>
+        <deletion>zu den</deletion>
+      </correction> nach dem <foreign_word foreign_language="Italiano">Supermarket</foreign_word><correction>
+        <deletion>. Da hat</deletion>
+      </correction> gegangen. Da hat ein Pasta und andere <error>
+        <errorType />
+
+        <originalForm>sache</originalForm>
+
+        <targetForm>Sache</targetForm>
+      </error> gekauft. Wenn sie <foreign_word foreign_language="English">at</foreign_word> die Kasse war, die Kassfrau sagt sie, dass <correction>
+        <deletion>S</deletion>
+      </correction> sie muss auch die Sache, die in die Sack hatte, zahlen. Sie sagt, dass sie diese Sache in eine andere <foreign_word
+        foreign_language="Italiano">Market</foreign_word> gekauft hatte, aber <error>
+        <errorType />
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> keine <error>
+        <errorType />
+
+        <originalForm>Kasezettel</originalForm>
+
+        <targetForm>Kasezettels</targetForm>
+      </error> <correction>
+        <deletion>ha</deletion>
+      </correction> gehabt so sie zahlte die Sache eine andere <error>
+        <errorType />
+
+        <originalForm>mal</originalForm>
+
+        <targetForm>Mal</targetForm>
+      </error>.</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo Paul,</greeting><par />du musst mehr <foreign_word
+        foreign_language="English"><error>
+          <errorType />
+
+          <originalForm>konfident</originalForm>
+
+          <targetForm>confident</targetForm>
+        </error></foreign_word> sein. <comment>An dieser Stelle wird der Text abgebrochen.</comment></exercise>
+  </body>
+</kolipsi_II_document>

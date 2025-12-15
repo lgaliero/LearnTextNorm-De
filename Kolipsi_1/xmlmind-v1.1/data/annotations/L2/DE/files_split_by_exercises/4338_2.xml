@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>4338</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Hallo <entity>Deborah</entity>!</greeting> <par/>Wie geht es dir? Mir geht es gut! <par/>Dieses Jahr <error>
+        <errorType/>
+
+        <originalForm>muß</originalForm>
+
+        <targetForm>muss</targetForm>
+      </error> ich <correction>
+        <deletion><correction>
+            <deletion>in</deletion>
+
+            <insertion>nach</insertion>
+          </correction></deletion>
+
+        <insertion>auf</insertion>
+      </correction> <entity><error>
+          <errorType/>
+
+          <originalForm>Maldiven</originalForm>
+
+          <targetForm>Malediven</targetForm>
+        </error></entity> oder nach <entity><error>
+          <errorType/>
+
+          <originalForm>Scottland</originalForm>
+
+          <targetForm>Schottland</targetForm>
+        </error></entity> fahren gehen. Ich denke <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> ich werde nach <entity><error>
+          <errorType/>
+
+          <originalForm>Scottland</originalForm>
+
+          <targetForm>Schottland</targetForm>
+        </error></entity> <correction>
+        <deletion>gehen</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>for</originalForm>
+
+        <targetForm>für</targetForm>
+      </error> die dritte <error>
+        <errorType/>
+
+        <originalForm><overwrite>
+            <over>M</over>
+
+            <under>m</under>
+          </overwrite>alt</originalForm>
+
+        <targetForm>Mal</targetForm>
+      </error>! Ich liebe <entity><error>
+          <errorType/>
+
+          <originalForm>Scotland</originalForm>
+
+          <targetForm>Schottland</targetForm>
+        </error></entity>, weil sie Berg und <error>
+        <errorType/>
+
+        <originalForm>Mehr</originalForm>
+
+        <targetForm>Meer</targetForm>
+      </error> hat. Wenn du <error>
+        <errorType/>
+
+        <originalForm>Mehr</originalForm>
+
+        <targetForm>Meer</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>siest</originalForm>
+
+        <targetForm>siehst</targetForm>
+      </error>, weiß du dass neben ein Berg gibt. Auch <error>
+        <errorType/>
+
+        <originalForm>Sehe</originalForm>
+
+        <targetForm>See</targetForm>
+      </error> sind wunderbar!<entity> Lock Ness</entity> <correction>
+        <insertion>und</insertion>
+      </correction> <entity>Lock Lomond</entity> haben zwei <error>
+        <errorType/>
+
+        <originalForm><overwrite>
+            <over>S</over>
+
+            <under>s</under>
+          </overwrite>loss</originalForm>
+
+        <targetForm>Schloss</targetForm>
+      </error> neben ihnen! <par/><entity><error>
+          <errorType/>
+
+          <originalForm>Scotland</originalForm>
+
+          <targetForm>Schottland</targetForm>
+        </error></entity> hat mehrere Schloss als andere Staaten… sowohl <correction>
+        <deletion>hat</deletion>
+      </correction> an <error>
+        <errorType/>
+
+        <originalForm>Mehr</originalForm>
+
+        <targetForm>Meer</targetForm>
+      </error> als auch auf die Bergen. <entity><error>
+          <errorType/>
+
+          <originalForm>Scotland</originalForm>
+
+          <targetForm>Schottland</targetForm>
+        </error></entity> ist zu <error>
+        <errorType/>
+
+        <originalForm>Schon</originalForm>
+
+        <targetForm>schön</targetForm>
+      </error>. Sie hat viel <correction>
+        <deletion>Graß</deletion>
+
+        <insertion>Wiesen</insertion>
+      </correction>, aber auch viel Wald. Sie hat den <error>
+        <errorType/>
+
+        <originalForm>Mehr</originalForm>
+
+        <targetForm>Meer</targetForm>
+      </error> , aber auch die Bergen. Wenn du fahrst, kannst du <sic>Wolfen, </sic><error>
+        <errorType/>
+
+        <originalForm>Irschen</originalForm>
+
+        <targetForm>Hirschen</targetForm>
+      </error> Rentier und <sic><overwrite>
+          <over>A</over>
+
+          <under>a</under>
+        </overwrite>dleren</sic> sehen! Es ist <correction>
+        <deletion>wunderbar</deletion>
+
+        <insertion><error>
+            <errorType/>
+
+            <originalForm>wunderschon</originalForm>
+
+            <targetForm>wunderschön</targetForm>
+          </error></insertion>
+      </correction>! <par/>Mein Lieblingsplätze <correction>
+        <deletion>is</deletion>
+
+        <insertion>sind</insertion>
+      </correction> die Bergen. <entity>Highland</entity> für <entity><error>
+          <errorType/>
+
+          <originalForm>Scottische</originalForm>
+
+          <targetForm>schottische</targetForm>
+        </error></entity> <correction>
+        <deletion>.</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>mänschen</originalForm>
+
+        <targetForm>Menschen</targetForm>
+      </error>. <correction>
+        <deletion><unreadable/></deletion>
+      </correction> Hier sprechen sie ein Dialekt wie <error>
+        <errorType/>
+
+        <originalForm>südtirolishe</originalForm>
+
+        <targetForm>südtirolische</targetForm>
+      </error> Deutsch. Dies Jahr werde ich nach Norden <sic>stücke</sic> von <entity><error>
+          <errorType/>
+
+          <originalForm>Scotland</originalForm>
+
+          <targetForm>Schottland</targetForm>
+        </error></entity> fahren! Es ist zu <error>
+        <errorType/>
+
+        <originalForm>schon</originalForm>
+
+        <targetForm>schön</targetForm>
+      </error>… Das ist alles! <par/><closing>Bis <error>
+          <errorType/>
+
+          <originalForm>Bald</originalForm>
+
+          <targetForm>bald</targetForm>
+        </error>! Antworte mir, dein <entity>Emiliano</entity> ! P.S. Ich kann es kaum abwarten!</closing> </exercise>
+  </body>
+</kolipsi_document>

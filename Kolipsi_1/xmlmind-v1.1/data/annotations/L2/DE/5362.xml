@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5362</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><par /><greeting>Liebe <entity>Sabine</entity>,</greeting> <par /><error>
+        <errorType />
+
+        <originalForm>Wie</originalForm>
+
+        <targetForm>wie</targetForm>
+      </error> geht´s dir? Ich möchte dir das Abenteuer von <entity>Maria</entity> erzählen. <entity>Maria</entity> ist der letzte Woche in einen Obst- und Gemüseladen einkaufen gegangen. Nach diesem Geschäft ist sie in den <foreign_word
+        foreign_language="Italiano">Supermarket</foreign_word> gegangen. Hier hatte sie einen Problem an der Kasse <correction>
+        <deletion><unreadable /></deletion>
+      </correction>Sie war sehr nervös und die Frau an der Kasse kontrollierte ob das Geld falsch war<correction>
+        <deletion><unreadable /></deletion>
+      </correction>. <entity>Maria</entity> hatte einen Zwei<overwrite>
+        <under><unreadable /></under>
+
+        <over>f</over>
+      </overwrite>el, schnell fliehen oder da bleiben und Probleme mit der Polizei haben. Sie wartete ein paar Minuten und, während die Frau die Polizei rief, floh <entity>Maria</entity> weg, nahm das Auto und fuhr mit <error>
+        <errorType />
+
+        <originalForm>voll<hyphen>-</hyphen>gas</originalForm>
+
+        <targetForm>Vollgas</targetForm>
+      </error> ab. Sofort kamen zwei Autos von der Polizei, aber <correction>
+        <deletion>da</deletion>
+      </correction> der <entity>BM<overwrite>
+          <under><unreadable /></under>
+
+          <over>W</over>
+        </overwrite></entity> von <entity>Maria</entity> war schon weit <overwrite>
+        <under><unreadable /></under>
+
+        <over>w</over>
+      </overwrite>eg vom <correction>
+        <deletion>der</deletion>
+      </correction> <foreign_word foreign_language="Italiano">Supermarket</foreign_word>. Jetzt wohnt Maria bei mir <correction>
+        <deletion><unreadable /></deletion>
+      </correction>, aber ich habe Angst, dass die Polizei kommt und auch mi<overwrite>
+        <under><unreadable /></under>
+
+        <over>c</over>
+      </overwrite>h ins Gefängnis bringt. Ich sende dir diese <error>
+        <errorType />
+
+        <originalForm>Email</originalForm>
+
+        <targetForm>E-Mail</targetForm>
+      </error> und frage dir <correction>
+        <deletion><unreadable /></deletion>
+      </correction> nach deiner Hilfe. <par /><closing>Dein <entity>Heinrich</entity>.</closing> </exercise>
+
+    <exercise number="2" xml:space="preserve"><par /><greeting>Liebe <entity>Katherine</entity>,</greeting> <par /><error>
+        <errorType />
+
+        <originalForm>Wie</originalForm>
+
+        <targetForm>wie</targetForm>
+      </error> geht´s dir? Ich schreibe dir einen Brief in dem ich frage dir: <direct_speech>"Willst du mit mir einen Urlaub machen"</direct_speech>? Ich habe gedacht, dass wir in die Berge oder ans Meer fahren können. In der Berge <correction>
+        <deletion><unreadable /></deletion>
+      </correction> ist es nicht so warm wie am Meer, aber du <correction>
+        <deletion><unreadable /></deletion>
+      </correction> möchtest lieber <correction>
+        <insertion><error>
+            <errorType />
+
+            <originalForm>vieleicht</originalForm>
+
+            <targetForm>vielleicht</targetForm>
+          </error></insertion>
+      </correction> ans Meer fahren. Ich weiß, dass du nie in die Berge gefahren bist, und ich kann di<strikeover>
+        <expansion>e</expansion>
+
+        <expansion>r</expansion>
+      </strikeover> sagen, dass <error>
+        <errorType />
+
+        <originalForm>ungefahr</originalForm>
+
+        <targetForm>ungefähr</targetForm>
+      </error> nach 1000 Meter <correction>
+        <deletion><unreadable /></deletion>
+      </correction> gute Lu<strikeover>
+        <expansion>f</expansion>
+
+        <expansion>t</expansion>
+      </strikeover>t gibt. Am Meer ist aber die Temperatur wärmer und gibt es Strände mit Palmen und schöne Wasser in dem du schwimmen kann. Auch in der Berge kannst du rela<hyphen>-</hyphen>xieren und dich <overwrite>
+        <under><unreadable /></under>
+
+        <over>s</over>
+      </overwrite>onnen. Ob du <correction>
+        <deletion><unreadable /></deletion>
+      </correction> ans Meer fahren möchtest, können wir nach <entity><foreign_word
+          foreign_language="Italiano">Capo Verde</foreign_word></entity> oder in <entity> <error>
+          <errorType />
+
+          <originalForm>Polinesien</originalForm>
+
+          <targetForm>Polynesien</targetForm>
+        </error> </entity> fliegen. Ob du <correction>
+        <deletion><unreadable /></deletion>
+      </correction> in die Berge fahren möchtest, können wir in <entity>Südtirol</entity> oder in <entity>Österreich</entity> gehen. Ich habe dir alles gesagt und ich warte an deiner Antwortung. <par /><closing><error>
+          <errorType />
+
+          <originalForm>dein</originalForm>
+
+          <targetForm>Dein</targetForm>
+        </error> <entity>Heinrich</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

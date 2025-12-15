@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I15_GUE26IME</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe Sara,</greeting><par />wie <error>
+        <errorType />
+
+        <originalForm>ghet</originalForm>
+
+        <targetForm>geht</targetForm>
+      </error> es dir? Ich muss dir sagen, was mir <correction>
+        <deletion><unreadable /></deletion>
+      </correction> letzte Woche passiert ist. Ich war in einem Obst- und Gemüseladen und im <foreign_word foreign_language="Italiano">Supermarket</foreign_word> zu einkaufen.<par />Ich habe zuerst in einem <error>
+        <errorType />
+
+        <originalForm>Obst</originalForm>
+
+        <targetForm>Obst-</targetForm>
+      </error> und Gemüseladen gekaufen und <correction>
+        <deletion><unreadable /></deletion>
+      </correction> hier habe ich den Kassenzettel vergessen.<par />Nachdem ich im <foreign_word
+        foreign_language="Italiano">Supermarket</foreign_word> eingetragen mit die Tasche von Obst und Gemüse.<par /><correction>
+        <deletion><unreadable /></deletion>
+      </correction> Ich näherte mich dem Geld, um nach Nahrung, die ich gekauft hatte im <foreign_word
+        foreign_language="Italiano"><error>
+          <errorType />
+
+          <originalForm>Supermerkat</originalForm>
+
+          <targetForm>Supermercato</targetForm>
+        </error></foreign_word>, zu bezahlen.<par />Die <error>
+        <errorType />
+
+        <originalForm>Kassieren</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> dachte ich gestohlen hatte, nachdem sie den Beutel mit Obst und Gemüse gesehen.<par />Ich habe ihr gesagt, dass ich im Laden nebenan gekauft hatte. <comment>An dieser Stelle wir der Text abgebrochen.</comment></exercise>
+
+    <exercise number="2" xml:space="preserve"><correction>
+        <deletion><unreadable /></deletion>
+      </correction> <greeting>Hallo Paul,</greeting><par />ich verstehe <error>
+        <errorType />
+
+        <originalForm>dien</originalForm>
+
+        <targetForm>dein</targetForm>
+      </error> Problem, heutzutage diese Problem passiert <error>
+        <errorType />
+
+        <originalForm>öffter</originalForm>
+
+        <targetForm>öfter</targetForm>
+      </error>, weil mit diese <error>
+        <errorType />
+
+        <originalForm>vistuelle</originalForm>
+
+        <targetForm>virtuelle</targetForm>
+      </error> Freund kann nur im Computer chatten und <correction>
+        <deletion><unreadable /></deletion>
+      </correction> kann <correction>
+        <insertion>mit</insertion>
+      </correction> ihm nicht Fußball spielen, <correction>
+        <deletion>oder</deletion>
+      </correction> zur Kino gehen oder andere tolle Dinge machen.<par />Für mich ist eine Freundschaft nicht wichtig, wenn sie nur über Nachrichten bei Facebook oder im <error>
+        <errorType />
+
+        <originalForm>Chatt</originalForm>
+
+        <targetForm>Chat</targetForm>
+      </error> besteht. Ich möchte mich mit meinen Freunden treffen und sie sehen, nicht nur schreiben.<par />Für mich is wichtig an einer Freundschaft, dass man sich hilft und dem anderen nie weh tut, weil ein Freund ist jemand<correction>
+        <deletion>e</deletion>
+      </correction>, auf den man sich verlassen kann, mit dem man gerne etwas unternimmt, der einen immer versteht.<par />Ich <error>
+        <errorType />
+
+        <originalForm>veratte</originalForm>
+
+        <targetForm>verrate</targetForm>
+      </error> dir zu ein Freund zu sehen nicht zu chatte.<par /><correction>
+        <deletion>De</deletion>
+      </correction> Imen</exercise>
+  </body>
+</kolipsi_II_document>

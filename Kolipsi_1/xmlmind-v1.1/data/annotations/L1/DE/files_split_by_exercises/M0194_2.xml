@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0194</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Lieber <entity>Martin</entity></greeting>,<par/>du weißt sicherlich noch dass ich den Urlaubsort <error>
+        <errorType/>
+
+        <originalForm>führ</originalForm>
+
+        <targetForm>für</targetForm>
+      </error> unsere Reise aussuchen sollte. Jedoch fällt mir die Entscheidung zwischen ei<overwrite>
+        <under>m</under>
+
+        <over>ne</over>
+      </overwrite>m Urlaub in den Bergen oder lieber am Meer <gap>_</gap>. Denn es hat beides was <error>
+        <errorType/>
+
+        <originalForm>schöne<overwrite>
+            <under>n</under>
+
+            <over>s</over>
+          </overwrite></originalForm>
+
+        <targetForm>Schönes</targetForm>
+      </error> und an beiden Orten kann man viel erleben. In beiden Fällen kann man die Natur und die Umgebung genießen und die Kultur kennen lernen.<par/>Beide Orte sprechen mich sehr an, jedoch müssen wir uns für eins entscheiden.<par/>In den Bergen kann man soviel erleben. Man kann Wandertouren machen und die Wälder besichtigen. Zudem kann man in traditionelle Häuser, Gaststätten oder in Museen gehen und viel über die Kultur der dort lebenden Menschen lernen. Außerdem kann man Ausflüge machen wie zum Beispiel einen Ausritt.<par/>Aber auch ein Urlaub am Meer klingt verlockend. Auch dort kann man einiges an Aktivitäten machen wie surfen. Surfen ist eine sehr interessante Sache, ich habe es selbst schon ausprobiert. Es macht wirklich <correction>
+        <deletion>sch</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>spaß</originalForm>
+
+        <targetForm>Spaß</targetForm>
+      </error>, man ist an de<overwrite>
+        <under>e</under>
+
+        <over>r</over>
+      </overwrite> <overwrite>
+        <under>F</under>
+
+        <over>f</over>
+      </overwrite>rischen Luft und lernt neue Leute und Dinge kennen. Oder man macht einen <error>
+        <errorType/>
+
+        <originalForm>Wellness-Urlaub</originalForm>
+
+        <targetForm>Wellnessurlaub</targetForm>
+      </error> am Meer und lässt sich vollkommen ver<hyphen>-</hyphen>wöhnen.<par/>Ich weiß nicht was dir lieber gefällt ein aktiver Urlaub mit verschiedenen Aktivitäten wie Klettern, Reiten, Museums<hyphen>-</hyphen>besuche oder doch eher ein <error>
+        <errorType/>
+
+        <originalForm>Wellness-Urlaub</originalForm>
+
+        <targetForm>Wellnessurlaub</targetForm>
+      </error> bei dem wir vollkommen entspannt sind, nichts <error>
+        <errorType/>
+
+        <originalForm>anstrengendes</originalForm>
+
+        <targetForm>Anstrengendes</targetForm>
+      </error>. Ich habe für beide Urlaubsorte schon verschiedene Programme, Routen <error>
+        <errorType/>
+
+        <originalForm>etc</originalForm>
+
+        <targetForm>etc.</targetForm>
+      </error> ausgewählt. <par/>Jedoch möchte ich noch deine Meinung zu den Urlaubs<hyphen>-</hyphen>arten und zu den Programmen hören beziehungs<hyphen>-</hyphen>weise lesen.<par/>Es <error>
+        <errorType/>
+
+        <originalForm>stunde</originalForm>
+
+        <targetForm>stünde</targetForm>
+      </error> zur Auswahl:<par/><entity>Capri</entity> in <entity>Italien</entity>, als schönen Urlaub am Meer in einem <error>
+        <errorType/>
+
+        <originalForm>Wellness-Hotel</originalForm>
+
+        <targetForm>Wellnesshotel</targetForm>
+      </error>. Da bietet sich ein komplettes <error>
+        <errorType/>
+
+        <originalForm>Wohlfühl-Programm</originalForm>
+
+        <targetForm>Wohlfühlprogramm</targetForm>
+      </error> vom Hotel selbst an.<par/>Als zweite Variante bietet sich ein Urlaub in <entity>Spanien</entity> an. Genauer in <entity>Katalanien</entity>.<par/>Mit Wandertouren, Ausritten, Ausflügen und <error>
+        <errorType/>
+
+        <originalForm>ähnlichem</originalForm>
+
+        <targetForm>Ähnlichem</targetForm>
+      </error>.<par/><closing><error>
+          <errorType/>
+
+          <originalForm>herzliche</originalForm>
+
+          <targetForm>Herzliche</targetForm>
+        </error> Grüße und verbleibe somit in Erwartung auf eine Antwort.</closing>     </exercise>
+  </body>
+</kolipsi_document>

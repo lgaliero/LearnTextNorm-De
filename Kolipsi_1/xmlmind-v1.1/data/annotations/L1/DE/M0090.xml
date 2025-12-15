@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0090</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Lieber <entity>Klaus</entity></greeting>,<par />du <correction>
+        <deletion>erräst</deletion>
+      </correction> kannst dir <error>
+        <errorType />
+
+        <originalForm>nich</originalForm>
+
+        <targetForm>nicht</targetForm>
+      </error> vorstellen, was <entity>Maria</entity> heute passiert <gap>_</gap>? Sie macht jeden Samstag ihren Großeinkauf, dementsprechend ging sie zuerst zum Obsthändler und besorgte die <correction>
+        <deletion>verschied</deletion>
+      </correction> verschiedensten Obstsorten (wegen der Party morgen). Sie war insgesamt 30 Minuten allein beim Obsthändler. Unfassbar! Schließlich ging sie zur Kasse. Während die <correction>
+        <deletion>Kassi</deletion>
+      </correction> Verkäuferin den Preis errechnete, schaute <entity>Maria</entity> auf die Uhr. Es war schon <emphasis>13:30</emphasis>. Sie bezahlte schnell und packte ihre Sachen schnell ein um noch in den Supermarkt zu gehen, bevor dieser schließt. Sie beeilte sich richtig, sie rannte sogar zum Bus. Dieses geschieht, wie du ja <correction>
+        <deletion>weißt</deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>weist</originalForm>
+
+        <targetForm>weißt</targetForm>
+      </error>, nicht so oft, da <entity>Maria</entity> <sic>einer</sic> der faulsten Personen dieser Welt ist. <error>
+        <errorType />
+
+        <originalForm>Naja</originalForm>
+
+        <targetForm>Na ja</targetForm>
+      </error>, heute ist eben alles anders. Auf jeden Fall <correction>
+        <deletion>ging sie</deletion>
+      </correction> kam sie noch recht<strikeover>
+        <expansion>z</expansion>
+
+        <expansion>s</expansion>
+      </strikeover>eitig am Supermarkt an und ging in aller Eile durch die Gänge, da der Supermarkt in genau 10 Minuten <correction>
+        <deletion>schließt</deletion>
+      </correction> hätte geschlossen werden <gap>_</gap>. <correction>
+        <deletion><palimpsest></palimpsest>ie schaffte es alle Einkäufe</deletion>
+      </correction> Doch dann als <entity>Maria</entity> an der Kasse stand, fand sie <sic>ihr</sic> <correction>
+        <deletion>P</deletion>
+      </correction> Geldbörse nicht mehr. Sie bekam Angst, dass die Party wegen ihrem Fehler nicht stattfinden könne. Doch zum Glück war die Verkäuferin ihre Nachbarin. Du kennst sie auch. Ich glaub sie hieß <entity>Jessica</entity>. <overwrite>
+        <under><unreadable /></under>
+
+        <over>N</over>
+      </overwrite>achdem sie lange geredet hatten, durfte sie <correction>
+        <deletion>jed</deletion>
+      </correction> die Einkäufe mitnehmen unter der Bedingung das Geld am nächsten Tag <error>
+        <errorType />
+
+        <originalForm>nach zu bringen</originalForm>
+
+        <targetForm>nachzubringen</targetForm>
+      </error>. <entity>Maria</entity> hatte mal wieder Glück gehabt. Sie fuhr den <overwrite>
+        <under><unreadable /></under>
+
+        <over>W</over>
+      </overwrite>eg zurück und fand ihre Geldbörse schließlich beim Obsthändler an der Kasse. In der ganzen Eile muss sie es wohl dort vergessen haben.<par />Durch die Freundlichkeit von <entity>Jessica</entity> findet die Party morgen statt.<par /><closing><correction>
+          <deletion>MfG</deletion>
+        </correction> Bis morgen<par /><entity>Anton</entity>   </closing>             </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber <entity>Klaus</entity></greeting>,<par />ich hoffe, es geht dir schon besser. Ich schreibe dir wegen unserem ersten gemeinsamen Urlaub. Zur Auswahl steht eine Reise in die Berge oder ans Meer. Wie du bestimmt schon bemerkt hast ist meine Begeisterung für die Berge sehr gering, da man dort nur wandern, wandern und <correction>
+        <deletion>noch</deletion>
+      </correction> wer hätte es gedacht wandern kann. Dieses ist doch kein richtiger Urlaub. Ich möchte mich entspannen können und einfach nur die Zeit mit dir genießen. Dementsprechend möchte ich persönlich lieber ans Meer. Aber ich weiß auch, dass du in die Berge möchtest, denn dort fühlst du dich wohl. Aber denk doch mal nach! Die Berge sind zwar s<overwrite>
+        <under><unreadable /></under>
+
+        <over>c</over>
+      </overwrite>hön, aber doch nicht für unseren ersten gemeinsamen Urlaub, denn wie du <error>
+        <errorType />
+
+        <originalForm>weist</originalForm>
+
+        <targetForm>weißt</targetForm>
+      </error> habe ich schreckliche Höhenangst und körperliche Anstrengung <correction>
+        <deletion><unreadable /></deletion>
+      </correction> schaffe ich auch nicht so gut wegen <sic>meinem</sic> Sprunggelenken. Außerdem darfst du dich auch nicht anstrengen wegen dem Autounfall im letzten Jahr. Ich weiß es war letztes Jahr! Aber dennoch möchte ich kein Risiko eingehen<overwrite>
+        <under>,</under>
+
+        <over>.</over>
+      </overwrite> <correction>
+        <deletion>welches d</deletion>
+      </correction> Aus gesundheit<hyphen>-</hyphen>lichen Gründen wäre es sinnvoll ans Meer zu fahren, da dort eine viel bessere Luft ist, die dir <correction>
+        <deletion>bei</deletion>
+      </correction> neue Kraft geben wird. Hinzu kommt noch, dass es doch sehr romantisch wäre, wenn wir beide am Strand liegen würden und uns den Sonnen<hyphen>-</hyphen>untergang angucken würden, oder nicht. Jetzt kennst du meine Meinung zu diesem Thema. Aber dennoch möchte ich es mit dir gemeinsam entscheiden, denn nichts auf dieser Welt ist mir wichtiger als mit dir etwas zu unternehmen. Und mein größter Wunsch ist es dich glücklich zu sehen.<par />Also melde dich bitte bei mir.<par />Ich liebe dich.<par /><closing><entity>Maria</entity></closing>       </exercise>
+  </body>
+</kolipsi_document>

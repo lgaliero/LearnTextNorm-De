@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0048</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Anna</entity></greeting>,<par/>du wirst nicht glauben was <entity>Maria</entity> letzte Woche passiert ist. Sie war im Supermarkt um einzukaufen und an der Kasse wurde sie auf einmal <sic>dem Diebstahl</sic> beschuldigt. Denn eine Stunde vorher war sie bei dem Obsthändler einkaufen und hatte deshalb ganz viel Obst in der Tasche. Die Kassiererin dachte dann natürlich das wäre auch aus dem Supermarkt.<par/><entity>Maria</entity> hat richtig Panik bekommen, aber wer hätte das nicht? Zumindest wurde sie dann in einen Raum gebracht und die Polizei wurde dazu gezogen. Überwachungskameras gab es in dem Laden leider keine, sonst hätte man das Geschehen leicht aufklären können. Aber als der Polizist dann endlich da war, wurde <entity>Marias</entity> Einkaufsbeutel ausgeräumt und ganz unten lag der Einkaufszettel den sie vorher schon vergeblich in ihrer Geldbörse gesucht hatte. Die Kassiererin hat sich anschließend wohl entschuldigt und <entity>Maria</entity> konnte endlich mit mir einen Kaffee trinken gehen. Eine halbe Stunde kam sie zu spät, aber <error>
+        <errorType/>
+
+        <originalForm>naja</originalForm>
+
+        <targetForm>na ja</targetForm>
+      </error>. Was ist denn bei dir in der letzten Woche so passiert?<par/><closing>Liebe Grüße</closing>   </exercise>
+
+    
+  </body>
+</kolipsi_document>

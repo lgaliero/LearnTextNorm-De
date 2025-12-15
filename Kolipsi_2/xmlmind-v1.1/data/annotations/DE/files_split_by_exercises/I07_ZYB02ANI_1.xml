@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I07_ZYB02ANI</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Guter Tag Gunther,</greeting><par/> <par/> wie geht es dir heute? Hast du etwas <error>
+        <errorType/>
+
+        <originalForm>neues</originalForm>
+
+        <targetForm>Neues</targetForm>
+      </error> gemacht?<par/> <par/> Ich schreibe dir diese <error>
+        <errorType/>
+
+        <originalForm>e-mail</originalForm>
+
+        <targetForm>E-Mail</targetForm>
+      </error> um eine <correction>
+        <deletion>Schöne</deletion>
+
+        <insertion><error>
+            <errorType/>
+
+            <originalForm>lacherliche</originalForm>
+
+            <targetForm>lächerliche</targetForm>
+          </error></insertion>
+      </correction> <correction>
+        <deletion>s</deletion>
+
+        <insertion>S</insertion>
+      </correction>ituation, <correction>
+        <deletion>d<unreadable/>s</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>dass</originalForm>
+
+        <targetForm>das</targetForm>
+      </error> <correction>
+        <deletion>mir</deletion>
+      </correction> ich gestern passiert habe in den Supermarkt wo ich die wochliches Nahrungs kaufe. <correction>
+        <deletion>Eine Frau</deletion>
+      </correction> Meine <error>
+        <errorType/>
+
+        <originalForm>freundin</originalForm>
+
+        <targetForm>Freundin</targetForm>
+      </error> Maria <correction>
+        <deletion>Eine Frau</deletion>
+      </correction> war an der Kasse und zählte ihre Einkauf, alles <foreign_word foreign_language="English">Regular</foreign_word>, sie nimmte ihre Taschen und war in der Direktion des Ausgang, <correction>
+        <deletion>A</deletion>
+
+        <insertion>a</insertion>
+      </correction>ber die <correction>
+        <deletion>Arbeiter</deletion>
+
+        <insertion>Kassierin</insertion>
+      </correction> stoppelt sie, weil sie <correction>
+        <deletion>hätte</deletion>
+      </correction> etwas nicht <error>
+        <errorType/>
+
+        <originalForm>normal</originalForm>
+
+        <targetForm>Normal</targetForm>
+      </error> gesehen hatte. <correction>
+        <deletion>Si</deletion>
+      </correction><par/>Die <correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>Kassierin</insertion>
+      </correction> dachte <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> Maria einen Stück von ihre Einkauf <error>
+        <errorType/>
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hatte und ruft die Security an.<par/>Maria erzählt dass sie diese Sachen in eine <correction>
+        <deletion>A</deletion>
+
+        <insertion>a</insertion>
+      </correction>nder Markt gekaufen hat und <correction>
+        <insertion>zeigt</insertion>
+
+        <deletion><unreadable/></deletion>
+      </correction> der Eingang. <par/> Danach war <correction>
+        <deletion>noch</deletion>
+      </correction> Maria noch frei <correction>
+        <insertion>sie</insertion>
+
+        <deletion>nimmt</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm><correction>
+            <deletion>m</deletion>
+
+            <insertion>n</insertion>
+          </correction>am</originalForm>
+
+        <targetForm>nahm</targetForm>
+      </error> seine Obst und Gemüse und <correction>
+        <deletion>g<unreadable/></deletion>
+      </correction> ging weg.<par/>Der Direktor hat sich für der ganzen <error>
+        <errorType/>
+
+        <originalForm>Geschaft</originalForm>
+
+        <targetForm>Geschäft</targetForm>
+      </error> entschuldigt, er <correction>
+        <deletion>sag</deletion>
+      </correction> warnt Maria dass sie die <correction>
+        <deletion>nachste</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>nachste</originalForm>
+
+        <targetForm>nächste</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>mal</originalForm>
+
+        <targetForm>Mal</targetForm>
+      </error> eine Tasche mit <correction>
+        <deletion>p</deletion>
+
+        <insertion>P</insertion>
+      </correction>rodukten<unreadable/> eine <correction>
+        <deletion>A</deletion>
+
+        <insertion>a</insertion>
+      </correction>ndere Markt nicht mehr bringen soll.<par/>Sicherlich eine <correction>
+        <deletion>A</deletion>
+
+        <insertion>a</insertion>
+      </correction>lternative Geschichte, das man <error>
+        <errorType/>
+
+        <originalForm>nich</originalForm>
+
+        <targetForm>nicht</targetForm>
+      </error> tagerlich passiert.<par/> <par/>Ich hoffe d<ambiguous>
+        <alternative>u</alternative>
+
+        <alternative>ir</alternative>
+      </ambiguous> alle die <correction>
+        <deletion>b</deletion>
+
+        <insertion>B</insertion>
+      </correction>esten,<par/> <par/> <par/><closing><error>
+          <errorType/>
+
+          <originalForm>Aufwiedersehn</originalForm>
+
+          <targetForm>Auf Wiedersehen</targetForm>
+        </error></closing></exercise>
+
+    
+  </body>
+</kolipsi_II_document>

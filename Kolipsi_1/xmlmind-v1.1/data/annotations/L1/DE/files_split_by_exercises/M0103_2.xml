@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0103</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Hallo <entity>P.</entity></greeting><par/>Da wir <sic>unsem</sic> gemeinsamen Urlaub planen habe ich hier zwei Vorschläge für dich. Mein erster Vorschlag wäre ein Ausflug in die Berge. Es gibt gute Luft und eine schöne Landschaft <error>
+        <errorType/>
+
+        <originalForm>ausserdem</originalForm>
+
+        <targetForm>außerdem</targetForm>
+      </error> kann man dort sehr gut Downhill fahren. So könnten wir ein bisschen trainieren. Als zweites würde ich das Meer vor<hyphen>-</hyphen>schlagen. Dort ist die Landschaft auch sehr schön, wobei die Luft dort immer etwas salzig ist. Die Temperaturen sind dort aber eindeutig besser. Man kann dort auch viel besser entspannen. Einfach nur am Strand liegen <over>od</over>er eine Runde im Meer schwimmen gehen. Der Urlaub in die Berge wäre billiger, <sic>da da</sic> wir nicht so weit fahren müssen. Das Meer ist aber schöner. Also ich bin fürs Meer. Ich will mal wieder richtig entspannen und nichts machen. Vielleicht <correction>
+        <deletion>ma</deletion>
+      </correction> mal etwas schwimmen gehen. Auch wird das Wetter viel besser sein, als in den Bergen. Ich freue <gap>_</gap> <sic>auf <correction>
+          <deletion><unreadable/></deletion>
+        </correction> <correction>
+          <insertion>schon</insertion>
+        </correction> auf</sic> den Urlaub, egal wo es <error>
+        <errorType/>
+
+        <originalForm>hin geht</originalForm>
+
+        <targetForm>hingeht</targetForm>
+      </error>.<par/><closing>Liebe Grüße <entity>Z.</entity></closing><par/>P.S.: Als ic<over>h</over> letztes <error>
+        <errorType/>
+
+        <originalForm>mal</originalForm>
+
+        <targetForm>Mal</targetForm>
+      </error> am Meer war, war es wirklich gut. Der Strand war schön und das <overwrite>
+        <under>m</under>
+
+        <over>M</over>
+      </overwrite>eer warm.      </exercise>
+  </body>
+</kolipsi_document>

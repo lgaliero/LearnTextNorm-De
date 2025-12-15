@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>N7038</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><par/><greeting>Hia, <error>
+          <errorType/>
+
+          <originalForm>Guten</originalForm>
+
+          <targetForm>guten</targetForm>
+        </error> Morgen...</greeting> <par/>Was soll mir machen diese<correction>
+        <deletion>m</deletion>
+      </correction> Sommer? Ich habe gedenkt <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> <correction>
+        <deletion>in an</deletion>
+      </correction> an Meer ist besser weil <error>
+        <errorType/>
+
+        <originalForm>strände</originalForm>
+
+        <targetForm>Strände</targetForm>
+      </error> <correction>
+        <deletion>is</deletion>
+      </correction> sind nett und die Sonne stadt immer, <correction>
+        <deletion>wir</deletion>
+      </correction> dort sind vielen <overwrite>
+        <under>B</under>
+
+        <over>L</over>
+      </overwrite>eute. Wir wollen vielen <ambiguous>
+        <alternative>L</alternative>
+
+        <alternative>h</alternative>
+      </ambiguous>eute treffen und <error>
+        <errorType/>
+
+        <originalForm>spass</originalForm>
+
+        <targetForm>Spaß</targetForm>
+      </error> haben. Ich <error>
+        <errorType/>
+
+        <originalForm>weis</originalForm>
+
+        <targetForm>weiß</targetForm>
+      </error> dass du <correction>
+        <insertion>will</insertion>
+      </correction> an Berge fahren aber die Berger sind nur <foreign_word foreign_language="Italiano">relax</foreign_word> und wellness, die Sonne steht nicht immer, <error>
+        <errorType/>
+
+        <originalForm>stäht</originalForm>
+
+        <targetForm>steht</targetForm>
+      </error> <correction>
+        <deletion><unreadable/></deletion>
+      </correction> nur die See und nicht das Meer. Ich will an Meer fahren, weil an Meer <error>
+        <errorType/>
+
+        <originalForm>stäht</originalForm>
+
+        <targetForm>steht</targetForm>
+      </error> alle das Meer, die Sonne, die Strände, die <ambiguous>
+        <alternative>L</alternative>
+
+        <alternative>h</alternative>
+      </ambiguous>eute, das wellness, und gibt auch <foreign_word foreign_language="Italiano">Relax</foreign_word>. <par/>Aber wir <error>
+        <errorType/>
+
+        <originalForm>mussen</originalForm>
+
+        <targetForm>müssen</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>zussammen</originalForm>
+
+        <targetForm>zusammen</targetForm>
+      </error> <correction>
+        <deletion><unreadable/></deletion>
+      </correction> entscheiden.</exercise>
+  </body>
+</kolipsi_document>

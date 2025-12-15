@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0152</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Hallo Schnurzelpurzel!</greeting><par/>Bist du dir sicher, dass du in die Berge <error>
+        <errorType/>
+
+        <originalForm><overwrite>
+            <under>w</under>
+
+            <over>W</over>
+          </overwrite>andern</originalForm>
+
+        <targetForm>wandern</targetForm>
+      </error> fahren willst? Ich würde viel lieber irgendwo in den Süden. <overwrite>
+        <under>s</under>
+
+        <over>S</over>
+      </overwrite>o schön am Meer, mit weißem Strand, <error>
+        <errorType/>
+
+        <originalForm>super Essen</originalForm>
+
+        <targetForm>Superessen</targetForm>
+      </error> und in einem tollen Hotel. Stell dir vor; unter den Palmen relaxen oder <correction>
+        <deletion>an</deletion>
+      </correction> auf dem heißen Sand Volleyball spielen! Das ist doch viel schöner als über Berge und <correction>
+        <insertion>durch</insertion>
+      </correction> Täler zu wandern und in kleinen unbequemen Hütten zu schlafen!<par/>Ja okay, so 'ne Hütte kann ja romantisch sein, aber längst nicht so, wie ein Spaziergang am Strand während des Sonnenuntergangs. Stell dir doch mal vor, wie schön warm es dort ist, auch <error>
+        <errorType/>
+
+        <originalForm><overwrite>
+            <under>a</under>
+
+            <over>A</over>
+          </overwrite>bends</originalForm>
+
+        <targetForm>abends</targetForm>
+      </error>! Nicht so viel Regen wie in <entity>Bayern</entity>! Auch wenn das Essen in den Bergen sehr lecker ist, im Gegenteil zu den ausländischen Köstlich<hyphen>-</hyphen>keiten des Südens, können wir diese Hausmannskost auch öfters genießen.<par/>Dieses Urlaubsgefühl, dieses Gefühl der Erholung kommt doch wirklich erst auf, wenn man die Seeluft riecht, den Sand zwischen den Zehen spürt und die warme Sonne auf dem Gesicht fühlt. Bitte, lass uns in die <entity><error>
+          <errorType/>
+
+          <originalForm>Türkey</originalForm>
+
+          <targetForm>Türkei</targetForm>
+        </error></entity> oder nach <entity>Tunesien</entity> fliegen! Nur dort <correction>
+        <deletion>kriegt</deletion>
+      </correction> <correction>
+        <insertion>kann</insertion>
+      </correction> man meiner Meinung nach richtig Urlaub machen, <error>
+        <errorType/>
+
+        <originalForm>Bitte</originalForm>
+
+        <targetForm>bitte</targetForm>
+      </error>!<par/><correction>
+        <deletion>Nach B</deletion>
+      </correction> Wie <reduction>
+        <reductionType rType="01 contraction"/>
+
+        <reducedForm>wärs</reducedForm>
+
+        <unfoldedForm>wäre es</unfoldedForm>
+      </reduction> dann mit <correction>
+        <deletion>de</deletion>
+      </correction> 'nem Wochenendtrip nach <entity>Bayern</entity> oder <entity>Österreich</entity>?<par/>Denk bitte darüber nach, ja!?<par/>Ich freu mich schon auf unsere gemeinsame Zeit.<par/><closing>In Liebe,<par/><entity>Jessi</entity></closing>         </exercise>
+  </body>
+</kolipsi_document>

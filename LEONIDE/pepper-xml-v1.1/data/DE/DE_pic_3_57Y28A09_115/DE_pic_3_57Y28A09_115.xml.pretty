@@ -1,0 +1,83 @@
+<body>
+ <page page_number="1" transcanno_page_id="2442">
+  <paragraph class="medium-paragraph" tagcode="1556552299862">
+   <div>
+    Der
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1556552094048" tran_correction_original="Zug">
+     Zug
+    </tran_word_correction_id25>
+    kam. Ich gab meine
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1552065351956" tran_correction_original="Tochter">
+     Tochter
+    </tran_word_correction_id25>
+    ein Papiervogel, und
+   </div>
+   <div>
+    umarmte sie. Ich gab meine
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1552065436995" tran_correction_original="Mutter">
+     Mutter
+    </tran_word_correction_id25>
+    einen
+    <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1552065422118" tran_alternative_1="Küss" tran_alternative_2="küss">
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Kuss" tagcode="1552065416310">
+      Küss
+     </orth_error_id12>
+    </tran_ambiguous_id3>
+    und stieg in
+   </div>
+   <div>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1552065445808" tran_correction_original="*en">
+     den
+    </tran_word_correction_id25>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1552065454229" tran_correction_original="*ug">
+     Zug
+    </tran_word_correction_id25>
+    ein.
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552065495079" tran_word_deletion_target="_#_">
+     Ab
+    </tran_word_deletion_id8>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552065544987" tran_word_deletion_target="_#_">
+     Ich taste meine tochter und
+    </tran_word_deletion_id8>
+    Ich
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1552065554114" tran_correction_original="berü*rte">
+     berührte
+    </tran_word_correction_id25>
+   </div>
+   <div>
+    meine Tochter und Mutter,
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552065574130" tran_word_deletion_target="_#_">
+     und
+    </tran_word_deletion_id8>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="aber" tagcode="1552065583459">
+     Aber
+    </orth_error_id12>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1552065635133" tran_correction_original="de*">
+     der
+    </tran_word_correction_id25>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1556552299861" tran_correction_original="*ug">
+     Zug
+    </tran_word_correction_id25>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552065614466" tran_word_deletion_target="_#_">
+     startete
+    </tran_word_deletion_id8>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552065617897" tran_word_deletion_target="_#_">
+     war
+    </tran_word_deletion_id8>
+    ist
+   </div>
+   <div>
+    abgefahren.
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1552065623590">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552065625923" tran_word_deletion_target="_#_">
+      *
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552065628667" tran_word_deletion_target="_#_">
+     Und
+    </tran_word_deletion_id8>
+    .
+   </div>
+  </paragraph>
+ </page>
+</body>

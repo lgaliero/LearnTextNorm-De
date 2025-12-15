@@ -1,0 +1,87 @@
+<body>
+ <page page_number="1" transcanno_page_id="179">
+  <paragraph class="medium-paragraph" tagcode="1611825282592">
+   <div>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Großvater" tagcode="1540421311308">
+     Gross fater
+    </orth_error_id12>
+    Kinder
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1540421298957" tran_word_deletion_target="_#_">
+     Onke
+    </tran_word_deletion_id8>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="rennen" tagcode="1540421293322">
+     renen
+    </orth_error_id12>
+    Kasa
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1540421283325" tran_foreign_word_language="English">
+     help
+    </tran_foreign_word_id13>
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1540421288020" tran_foreign_word_language="English">
+     help
+    </tran_foreign_word_id13>
+   </div>
+   <div>
+    zane
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Vater" tagcode="1540421245187">
+     fater
+    </orth_error_id12>
+    Diktat (
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1591253417865" tran_foreign_word_language="Italian">
+     libri
+    </tran_foreign_word_id13>
+    )
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1591253433703">
+     e*nen
+    </tran_unreadable_id17>
+    <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611825282591" tran_capitalisation_target="Heff" tran_capitalisation_type="01 completely capitalised">
+     HEFF
+    </tran_capitalisation_id85>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="rennen" tagcode="1540421272201">
+     renen
+    </orth_error_id12>
+    in
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Hause" tagcode="1540421276894">
+     hause
+    </orth_error_id12>
+   </div>
+   <div>
+    Kinder (
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1589284565101" tran_foreign_word_language="Italian">
+     la
+    </tran_foreign_word_id13>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="buttato" tagcode="1540421235646">
+     <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1589284570216" tran_foreign_word_language="Italian">
+      butato
+     </tran_foreign_word_id13>
+    </orth_error_id12>
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1589284576091" tran_foreign_word_language="Italian">
+     fuori
+    </tran_foreign_word_id13>
+    )
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Vater" tagcode="1540421222916">
+     fater
+    </orth_error_id12>
+    (
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1589284581572" tran_foreign_word_language="Italian">
+     guardato
+    </tran_foreign_word_id13>
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1589284586146" tran_foreign_word_language="Italian">
+     a
+    </tran_foreign_word_id13>
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1540421214583">
+     *
+    </tran_unreadable_id17>
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1540421217162">
+     *
+    </tran_unreadable_id17>
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1589284590667" tran_foreign_word_language="Italian">
+     in
+    </tran_foreign_word_id13>
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1589284594921" tran_foreign_word_language="Italian">
+     mano
+    </tran_foreign_word_id13>
+    )
+   </div>
+  </paragraph>
+ </page>
+</body>

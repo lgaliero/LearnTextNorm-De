@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5705</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Carlo</entity>, <par /></greeting><error>
+        <errorType />
+
+        <originalForm>Wie</originalForm>
+
+        <targetForm>wie</targetForm>
+      </error> geht es dir? Mir sehr gut! Heute habe ich <entity>Maria</entity> getroffen und sie hat mir erzählt ihre schlechte Tage. Am Morgen ist sie in einem <error>
+        <errorType />
+
+        <originalForm>Obst und Gemuse Geschaft</originalForm>
+
+        <targetForm>Obst- und Gemüsegeschäft</targetForm>
+      </error> ein um etwas zu kaufen und das Bancomat ist gut gegangen. Später ist sie in <foreign_word
+        foreign_language="Italiano">Super</foreign_word><hyphen>-</hyphen><foreign_word
+        foreign_language="Italiano">market</foreign_word> um weniger Sache zu kaufen aber wenn <error>
+        <errorType />
+
+        <originalForm>muß</originalForm>
+
+        <targetForm>muss</targetForm>
+      </error> sie bezahlen das Bancomat geht´s mehr nicht; <palimpsest>und die <error>
+          <errorType />
+
+          <originalForm>Verkauferin</originalForm>
+
+          <targetForm>Verkäuferin</targetForm>
+        </error> dachte <error>
+          <errorType />
+
+          <originalForm>das</originalForm>
+
+          <targetForm>dass</targetForm>
+        </error> <entity>Maria</entity></palimpsest> will nicht bezahlen und dass sie die <error>
+        <errorType />
+
+        <originalForm>Gemuse</originalForm>
+
+        <targetForm>Gemüse</targetForm>
+      </error> gestohlen hat. Alle die Leuten in <foreign_word
+        foreign_language="Italiano">Supermarket</foreign_word> haben <correction>
+        <deletion>diese</deletion>
+      </correction> <palimpsest><entity>Maria</entity></palimpsest> schlechtes <error>
+        <errorType />
+
+        <originalForm>figur</originalForm>
+
+        <targetForm>Figur</targetForm>
+      </error> bemerkt. Arme <entity>Maria</entity>; wenn ich mit sie würde kann sie die Tasche mit die <error>
+        <errorType />
+
+        <originalForm>Gemu<overwrite>
+            <over>s</over>
+
+            <under>e</under>
+          </overwrite>e</originalForm>
+
+        <targetForm>Gemüse</targetForm>
+      </error> tragen, aber ich <sic>wurde</sic> nach H<ambiguous>
+        <alternative>a</alternative>
+
+        <alternative>o</alternative>
+      </ambiguous>use sein. <entity>Maria</entity> jetzt ist bei<ambiguous>
+        <alternative>m</alternative>
+
+        <alternative>n</alternative>
+      </ambiguous> Direktor um alles zu erklären ich hoffe <error>
+        <errorType />
+
+        <originalForm>daß</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> alles gut geht! <par /><closing>Liebe <entity>Martina</entity></closing></exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo <entity>Carlo</entity><par /></greeting>wie geht es dir? Mir ganz gut <ambiguous>
+        <alternative>danke</alternative>
+
+        <alternative>denke</alternative>
+      </ambiguous>, ich habe jetzt deine Briefe bekommt. Dein Pr<ambiguous>
+        <alternative>o</alternative>
+
+        <alternative>a</alternative>
+      </ambiguous>blem ist ein sehr wichtig <error>
+        <errorType />
+
+        <originalForm>situazion</originalForm>
+
+        <targetForm>Situation</targetForm>
+      </error>. Die Bergen aber das Meer <error>
+        <errorType />
+
+        <originalForm>entscheheiden</originalForm>
+
+        <targetForm>entscheiden</targetForm>
+      </error>. In dieser <error>
+        <errorType />
+
+        <originalForm>sommer</originalForm>
+
+        <targetForm>Sommer</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>ween</originalForm>
+
+        <targetForm>wenn</targetForm>
+      </error> ich du wäre, gehe ich über ein Brief wenn letzten <error>
+        <errorType />
+
+        <originalForm>sommer</originalForm>
+
+        <targetForm>Sommer</targetForm>
+      </error> an Meer würde, aber das <error>
+        <errorType />
+
+        <originalForm>gegenteil</originalForm>
+
+        <targetForm>Gegenteil</targetForm>
+      </error>. Die Bergen sind sehr schöne <error>
+        <errorType />
+
+        <originalForm>ween</originalForm>
+
+        <targetForm>wenn</targetForm>
+      </error> sehen <ambiguous>
+        <alternative>holdige</alternative>
+
+        <alternative>hololige</alternative>
+      </ambiguous> sein <error>
+        <errorType />
+
+        <originalForm>scheit</originalForm>
+
+        <targetForm>scheint</targetForm>
+      </error> gar <ambiguous>
+        <alternative>immer</alternative>
+
+        <alternative>innee</alternative>
+      </ambiguous> die <error>
+        <errorType />
+
+        <originalForm><ambiguous>
+            <alternative>sonne</alternative>
+
+            <alternative>sone</alternative>
+          </ambiguous></originalForm>
+
+        <targetForm>Sonne</targetForm>
+      </error> stehen sehr viele <error>
+        <errorType />
+
+        <originalForm>pl<correction>
+            <insertion>ä</insertion>
+
+            <deletion>a</deletion>
+          </correction>tzen</originalForm>
+
+        <targetForm>Plätzen</targetForm>
+      </error> wo liegen sich um die Naturmusik zu hören. Die Bergen sind sehr ge<ambiguous>
+        <alternative>m</alternative>
+
+        <alternative>n</alternative>
+      </ambiguous>ütlich um einige <error>
+        <errorType />
+
+        <originalForm>ruighe</originalForm>
+
+        <targetForm>ruhige</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>tage</originalForm>
+
+        <targetForm>Tage</targetForm>
+      </error> zu <ambiguous>
+        <alternative>verbringen</alternative>
+
+        <alternative>verbeirgen</alternative>
+      </ambiguous>. Das Meer ist sehr <error>
+        <errorType />
+
+        <originalForm>wunderboor</originalForm>
+
+        <targetForm>wunderbar</targetForm>
+      </error> <unreadable /> schön. A<ambiguous>
+        <alternative>m</alternative>
+
+        <alternative>n</alternative>
+      </ambiguous> Meer <sic>könnst</sic> du Sonnen liegen neben <error>
+        <errorType />
+
+        <originalForm>Meerwosser</originalForm>
+
+        <targetForm>Meerwasser</targetForm>
+      </error>. A<ambiguous>
+        <alternative>m</alternative>
+
+        <alternative>n</alternative>
+      </ambiguous>Meer ist ein <error>
+        <errorType />
+
+        <originalForm>bischen</originalForm>
+
+        <targetForm>bisschen</targetForm>
+      </error> <correction>
+        <deletion>schwinnen</deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>schwilig</originalForm>
+
+        <targetForm>schwierig</targetForm>
+      </error> um <error>
+        <errorType />
+
+        <originalForm>gemultich</originalForm>
+
+        <targetForm>gemütlich</targetForm>
+      </error> <ambiguous>
+        <alternative>wechen</alternative>
+
+        <alternative>wochen</alternative>
+      </ambiguous>, schwimmen, laufen, <sic>sonnen</sic> liegen es ist sehr <unreadable /> <error>
+        <errorType />
+
+        <originalForm>Fur</originalForm>
+
+        <targetForm>Für</targetForm>
+      </error> mich also wenn du <par /></exercise>
+  </body>
+</kolipsi_document>

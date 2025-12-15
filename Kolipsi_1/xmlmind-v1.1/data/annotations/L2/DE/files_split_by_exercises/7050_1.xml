@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>N7050</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><par/><greeting>Hallo <entity>Otto</entity>!</greeting> Wie geht´s? Mir <correction>
+        <insertion>g<strikeover>
+            <expansion>e</expansion>
+
+            <expansion>h</expansion>
+          </strikeover>t es</insertion>
+      </correction> gut, aber <entity>Maria</entity> ein <error>
+        <errorType/>
+
+        <originalForm>bischen</originalForm>
+
+        <targetForm>bisschen</targetForm>
+      </error> schlecht. Sie <palimpsest>hat eine Nacht</palimpsest> bei der Polizei geschlafen. Sie <palimpsest>hat</palimpsest> zuerst in einem Obst- und Gemüseladen ein und sie hat etwas gekauft. Eine Stunde später <correction>
+        <insertion><overwrite>
+            <under>ist</under>
+
+            <over>w</over>
+          </overwrite>ar</insertion>
+      </correction> sie <overwrite>
+        <under><unreadable/></under>
+
+        <over>i</over>
+      </overwrite>m Supermark<overwrite>
+        <under><unreadable/></under>
+
+        <over>t</over>
+      </overwrite> mit die <palimpsest>Sache, die</palimpsest> in Obst- und Gemüseladen gekaufen hatte, gegangen. <palimpsest>An die Kasse <correction>
+          <insertion>hatte</insertion>
+        </correction> sie</palimpsest> einige <strikeover>
+        <expansion>p</expansion>
+
+        <expansion>P</expansion>
+      </strikeover>robleme gehabt, weil die <error>
+        <errorType/>
+
+        <originalForm>Kassiera</originalForm>
+
+        <targetForm>Kassierer</targetForm>
+      </error> die Sache, die in die Tasche <correction>
+        <insertion> <entity>Maria</entity> </insertion>
+      </correction> hatte, wollte. <entity>Maria</entity> sagt sie, dass sie in ein Obst- und <error>
+        <errorType/>
+
+        <originalForm>Gemuseladen</originalForm>
+
+        <targetForm>Gemüseladen</targetForm>
+      </error> gekaufen hatte, aber die <error>
+        <errorType/>
+
+        <originalForm>Kassiere</originalForm>
+
+        <targetForm>Kassierer</targetForm>
+      </error> <correction>
+        <insertion>hatte</insertion>
+      </correction> die <palimpsest>Polizei</palimpsest> gerufen. <palimpsest>Sie <correction>
+          <deletion>hat</deletion>
+
+          <insertion>ist</insertion>
+        </correction> d<overwrite>
+          <under>ie</under>
+
+          <over>er</over>
+        </overwrite></palimpsest> Nacht i<ambiguous>
+        <alternative>m</alternative>
+
+        <alternative>n</alternative>
+      </ambiguous> die Zentrale geblieben. <palimpsest>Der <error>
+          <errorType/>
+
+          <originalForm>letzstes</originalForm>
+
+          <targetForm>letztes</targetForm>
+        </error> Tag ist die Polizei</palimpsest> bei der Obst- un<correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>d</insertion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>Gemuseläden</originalForm>
+
+        <targetForm>Gemüseladen</targetForm>
+      </error> gegangen und alles ist jetzt <error>
+        <errorType/>
+
+        <originalForm>inhordung</originalForm>
+
+        <targetForm>in Ordnung</targetForm>
+      </error>.</exercise>
+
+    
+  </body>
+</kolipsi_document>

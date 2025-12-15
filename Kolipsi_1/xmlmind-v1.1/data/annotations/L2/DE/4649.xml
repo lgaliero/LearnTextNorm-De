@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>4649</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve">
+ <par /><greeting>Hallo <entity>Karl</entity>,</greeting> hier ist <entity>Dennis</entity>. <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Heute will ich dir erzählen was zum <entity>Maria</entity> passiert ist in letzte Woche. Sie war zuerst in einem Obst- und Gemüseladen gegangen. Sie hatte viele <error>
+        <errorType />
+
+        <originalForm>sachen</originalForm>
+
+        <targetForm>Sachen</targetForm>
+      </error> gekauft aber sie hat <sic>der</sic> Kassenzettel dort vergessen. Das ist eine große <error>
+        <errorType />
+
+        <originalForm>problem</originalForm>
+
+        <targetForm>Problem</targetForm>
+      </error>. Nach ein <error>
+        <errorType />
+
+        <originalForm>Paar</originalForm>
+
+        <targetForm>paar</targetForm>
+      </error> Minuten sie ist in eine Supermarkt gegangen und sie hat dort der Obst und Gemüse von der Obst- und Gemüseladen gebringt. Sie hatte noch ein <error>
+        <errorType />
+
+        <originalForm>Paar</originalForm>
+
+        <targetForm>paar</targetForm>
+      </error> Sachen gekauft. Wenn sie geht an die Kasse sie hatte noch Obst und Gemüse in der Tasche. Die Verkäuferin sieht der Obst und Gemüse und denkt dass <entity>Maria</entity> diese <sic>gestöhlt</sic>. <entity>Maria</entity> konnte nicht über diese etwas sagen und sie muss alles wieder <error>
+        <errorType />
+
+        <originalForm>bezählen</originalForm>
+
+        <targetForm>bezahlen</targetForm>
+      </error>. Es ist ein Problem wenn du nicht der Kassenzettel nimmst. Das ist eine Lektion für <entity>Maria</entity>, sie hat eine <error>
+        <errorType />
+
+        <originalForm>sclechte</originalForm>
+
+        <targetForm>schlechte</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>figur</originalForm>
+
+        <targetForm>Figur</targetForm>
+      </error> gemacht und hat Obst und Gemüse <error>
+        <errorType />
+
+        <originalForm>zwei mal</originalForm>
+
+        <targetForm>zweimal</targetForm>
+      </error> bezahlt.<par />Sehen wir uns und <closing><error>
+          <errorType />
+
+          <originalForm>Tschüss</originalForm>
+
+          <targetForm>tschüss</targetForm>
+        </error><par /> <entity>Dennis</entity> </closing> </exercise>
+
+    <exercise number="2" xml:space="preserve">
+ <par /><greeting>Hallo <entity>Thomas</entity>,</greeting> <par />wie geht es dir? Mir geht es gut. Ich weiß dass du <sic>weiß</sic> noch nicht ob <correction>
+        <insertion>wir</insertion>
+      </correction> unsere Urlaub in die Berge oder ans <overwrite>
+        <under>m</under>
+
+        <over>M</over>
+      </overwrite>eer machen sollen. Wir <error>
+        <errorType />
+
+        <originalForm>mussen</originalForm>
+
+        <targetForm>müssen</targetForm>
+      </error> uns schnell entscheiden, wenn wir in die Berge gehen wir haben viele frische Luft und grüne Wiese; viele kleinen Stadt aber es kann sehr kalt sein. Wenn wir ans Meer gehen können wir die Sonne nehmen und ins Meer schwimmen aber es kann zu warm sei. Es ist eine schwierig <error>
+        <errorType />
+
+        <originalForm>entscheidung</originalForm>
+
+        <targetForm>Entscheidung</targetForm>
+      </error> weil sind zwei <error>
+        <errorType />
+
+        <originalForm>wunderschone</originalForm>
+
+        <targetForm>wunderschöne</targetForm>
+      </error> Plätze. Mir gefällt mehr das Meer weil ich liebe die Sonne nehmen und viele schwimmen. Ich liebe auch Fisch zu essen und immer mit warme Temperatur sein. Wo willst du am liebsten gehen? Ich denke dass wir <error>
+        <errorType />
+
+        <originalForm>mussen</originalForm>
+
+        <targetForm>müssen</targetForm>
+      </error> ans Meer gehen weil wi<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>r</insertion>
+      </correction> in <entity>Südtirol</entity> <error>
+        <errorType />
+
+        <originalForm>Leben</originalForm>
+
+        <targetForm>leben</targetForm>
+      </error>. Wir sehen die Berge jeden Tag. Du kannst noch ein <error>
+        <errorType />
+
+        <originalForm>Paar</originalForm>
+
+        <targetForm>paar</targetForm>
+      </error> Woche denken. Ich warte auf deine <error>
+        <errorType />
+
+        <originalForm>antwort</originalForm>
+
+        <targetForm>Antwort</targetForm>
+      </error>. <closing>Bis bald und tschüss<par /><entity>Dennis</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

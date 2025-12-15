@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>3552</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"> <comment>Texte nur als Kopie, schlecht zu digit.</comment> <par/><greeting>Hallo <entity>Martina</entity>,</greeting> wie geht’s dir? Mir gut! Heute bin ich im Supermarkt gegangen und ich habe <entity>Maria</entity> getroffen. Sie ist beim Obsthändler gegangen und hat Salat und Gurken gekauft. <entity>Maria</entity> hat die Gemüse in ihre Tasche gesteckt. Dann ist sie im Supermarkt gegangen und hat Einkaufen gemacht. Sie hat Milch, Brot, und <entity>Nutella</entity> gekauft. Aber <correction>
+        <deletion>wann</deletion>
+      </correction> wann sie neben die Kasse war, die <error>
+        <errorType/>
+
+        <originalForm>Kassierin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> hat <entity>Maria</entity> angehaltet! Die <error>
+        <errorType/>
+
+        <originalForm>Kassierin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> hat die Gemüse in <sic>ihre</sic> Tasche gesehen! Die <error>
+        <errorType/>
+
+        <originalForm>Kassierin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> hat gedacht dass <entity>Maria</entity> gestohlen hat. <entity>Maria</entity> hat nicht verstanden was die <error>
+        <errorType/>
+
+        <originalForm>Kassierin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> will... Die <error>
+        <errorType/>
+
+        <originalForm>Kassierin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> hat viel geschrien. <correction>
+        <deletion>Maria</deletion>
+      </correction> Dann <entity>Maria</entity> hat die Situation verstanden! <correction>
+        <deletion>Ma</deletion>
+      </correction> So sie hat die <error>
+        <errorType/>
+
+        <originalForm>Kassierin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> <correction>
+        <deletion>di</deletion>
+      </correction> alles erklärt. <entity>Maria</entity> war aber zornig, für sie war die Situation heikel sie ist naiv. Am <error>
+        <errorType/>
+
+        <originalForm>ende</originalForm>
+
+        <targetForm>Ende</targetForm>
+      </error> die <error>
+        <errorType/>
+
+        <originalForm>Kassieri<correction>
+            <deletion>en</deletion>
+
+            <insertion>n</insertion>
+          </correction></originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> hat das <error>
+        <errorType/>
+
+        <originalForm>Mißverständnis</originalForm>
+
+        <targetForm>Missverständnis</targetForm>
+      </error> verstanden<sic>.</sic> und sie war sehr bedauern. So ich habe mit <entity>Maria</entity> gesprochen... <closing>Tschüs</closing>... <error>
+        <errorType/>
+
+        <originalForm>heute abend</originalForm>
+
+        <targetForm>Heute Abend</targetForm>
+      </error> <correction>
+        <deletion>tele</deletion>
+      </correction> <sic>telefoniert</sic> ich dir</exercise>
+
+    
+  </body>
+</kolipsi_document>

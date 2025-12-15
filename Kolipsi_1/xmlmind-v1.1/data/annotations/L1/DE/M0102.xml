@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0102</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo <correction>
+          <deletion>lie <entity>Jelaia</entity> !</deletion>
+        </correction> <entity>Julie</entity>!</greeting><par />na, wie gehts dir? Was machst du morgen? Wollen wir uns vielleicht treffen und zum Stall fahren? Ich muss morgen nämlich <entity>Kea</entity> und <entity>Aki</entity> reiten. Vielleicht können wir zusammen ausreiten, falls gutes Wetter ist. Ich soll dir übrigens schöne Grüße von <entity>Maria</entity> bestellen. Sie würde dich gerne mal wieder sehen. Vielleicht können wir ja Samstag mit ihr feiern gehen. <error>
+        <errorType />
+
+        <originalForm>Achja</originalForm>
+
+        <targetForm>Ach ja</targetForm>
+      </error>, wenn ich schonmal beim Thema bin, du wirst nie erraten, was ihr letztens passiert ist! Ihre Mutter war ja im Urlaub, das ha<overwrite>
+        <under>tt</under>
+
+        <over>b</over>
+      </overwrite>e ich dir schon erzählt, deshalb musste sie alleine einkaufen gehen. Sie war also beim Obsthändler und hat so viel ein<hyphen>-</hyphen>gekauft, dass es sogar noch aus dem Rucksack rausgeguckt hat und ist dann in die Stadt gefahren, weil sie <correction>
+        <insertion>da</insertion>
+      </correction> noch Nach<hyphen>-</hyphen>hilfe <correction>
+        <deletion>da</deletion>
+      </correction> gegeben hat. Auf dem Rückweg wollte sie nochmal im Supermarkt Brot kaufen und als sie bezahlt hatte, hat die Verkäuferin dann das Obst gesehen und gedacht, <entity>Maria</entity> hätte <correction>
+        <insertion>es</insertion>
+      </correction> <correction>
+        <deletion>es</deletion>
+      </correction> geklaut. Die Arme war total verwirrt und musste sogar ins Büro des Laden<hyphen>-</hyphen>besitzers, damit alles geklärt werden konnte. Zum Glück hatte <entity>Maria</entity> noch die Quittung vom Obsthändler dabei, mit der dann alles geklärt werden konnte. <correction>
+        <deletion>Man muss</deletion>
+      </correction> Schon echt <error>
+        <errorType />
+
+        <originalForm>hammer</originalForm>
+
+        <targetForm>Hammer</targetForm>
+      </error>, die Geschichte, oder?! <error>
+        <errorType />
+
+        <originalForm>Naja</originalForm>
+
+        <targetForm>Na ja</targetForm>
+      </error>, sie hat ja alles richtig gemacht. Sag mir nochmal Bescheid wegen morgen! <closing>Bis dann! <correction>
+          <deletion>Me</deletion>
+        </correction> </closing>         </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hi <entity>Linds</entity></greeting>!<par /><error>
+        <errorType />
+
+        <originalForm>na</originalForm>
+
+        <targetForm>Na</targetForm>
+      </error>?! Ist alles gut bei dir? Ich vermisse dich so sehr, es ist richtig nervig, dass du so weit weg wohnst. Ich wollte nur nochmal sagen, dass ich jetzt auf jeden Fall im Sommer mit dir in den Urlaub fahren darf. Meine Mama hat's mir doch erlaubt! Ich freue mich so sehr, jetz<overwrite>
+        <under>m</under>
+
+        <over>t</over>
+      </overwrite> müssen wir nur noch überlegen, wohin wir fahren! Ich weiß nicht, in den Bergen <reduction>
+        <reductionType rType="Unknown" />
+
+        <reducedForm>wär</reducedForm>
+
+        <unfoldedForm>wäre</unfoldedForm>
+      </reduction> es bestimmt voll cool, weil wir wandern könnten und an die ganzen Seen fahren die da sind und wir könnten durch die Berge reiten. Ich habe im Internet ein Camp gefunden, von dem aus man einen 3-Tages-Ritt buchen kann, das wäre richtig cool. Ich würde das<correction>
+        <deletion>s</deletion>
+      </correction> total gerne mit dir machen. Und ich weiß, dass dir das auch Spaß machen würde. <correction>
+        <deletion>Od</deletion>
+      </correction><par />Oder wir könnten ans Meer fahren, nach <entity>Italien</entity> oder <entity>Spanien</entity>. Da würden wir spät aufstehen, <correction>
+        <deletion>lang</deletion>
+      </correction> gemütlich frühstücken, <correction>
+        <deletion>u</deletion>
+      </correction> lange am Strand liegen und uns sonnen und schwimmen, dann ein oder zwei Stunden lang am Strand reiten, uns danach fertig machen und abends feiern gehen. Und wir könnten <error>
+        <errorType />
+
+        <originalForm>näturlich</originalForm>
+
+        <targetForm>natürlich</targetForm>
+      </error> jeden Tag <error>
+        <errorType />
+
+        <originalForm>super leckere</originalForm>
+
+        <targetForm>superleckere</targetForm>
+      </error> Sachen essen, weil es da viel mehr Auswahl gibt, als in den Bergen. Wenn <correction>
+        <deletion>Ich glaube ich wäre für den Strand u</deletion>
+      </correction> wir wollen, können wir auch mit meinen Eltern in unsere Wohnung in der <entity>Türkei</entity> fahren, da ist ja auch Strand und Sonne und das ist <error>
+        <errorType />
+
+        <originalForm>vorallem</originalForm>
+
+        <targetForm>vor allem</targetForm>
+      </error> am billigsten.<par />Ich glaube ich wäre für den Strandurlaub zu zweit, weil er sich einfach so hammer cool anhört! <overwrite>
+        <under><unreadable /></under>
+
+        <over>E</over>
+      </overwrite>r wäre so gemütlich, <correction>
+        <deletion>und tr</deletion>
+      </correction> <correction>
+        <insertion>aber</insertion>
+      </correction> nicht langweilig. Vor allem wären wir nicht so eingeschränkt wie in dem Camp und wir könnten eigentlich machen was wir wollen.<par />Sag mir nochmal Bescheid, was du am <error>
+        <errorType />
+
+        <originalForm>Besten</originalForm>
+
+        <targetForm>besten</targetForm>
+      </error> finden würdest.<par />Ich freue mich, dich bald wieder zu se<hyphen>-</hyphen>hen, <correction>
+        <deletion>bis dam</deletion>
+      </correction> bis dahin schonmal!<par /><closing>Liebste Grüße!</closing>              </exercise>
+  </body>
+</kolipsi_document>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5045</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><par/>1. Eine Frau ist beim Obsthändler und kauft Obst und Gemüse. <par/>2. Sie zahlt und vergesst dem Kassenzettel. <par/>3. Später <correction>
+        <deletion><unreadable/></deletion>
+      </correction> sie geht im Supermarkt. <par/>4. Wenn sie an die Kasse ist, die Kassiererin denkt dass sie Obst und <error>
+        <errorType/>
+
+        <originalForm>Gemuse</originalForm>
+
+        <targetForm>Gemüse</targetForm>
+      </error> stehlen. Die Frau kann nicht leugnen weil sie kein Kassenzettel hat. <par/>Die Kassiererin ruft die <error>
+        <errorType/>
+
+        <originalForm>polizei</originalForm>
+
+        <targetForm>Polizei</targetForm>
+      </error>. Aber die Frau geht mit die <error>
+        <errorType/>
+
+        <originalForm>polizei</originalForm>
+
+        <targetForm>Polizei</targetForm>
+      </error> in Obsthändler und der Kassierer sagt dass die Frau <correction>
+        <deletion>richtig</deletion>
+      </correction> Vernunft hat.</exercise>
+
+    
+  </body>
+</kolipsi_document>

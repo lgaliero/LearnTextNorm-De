@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>3364</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Lieb Freund</greeting> <par/>In Sommer ist mehr <sic>faher</sic> in Meer, <error>
+        <errorType/>
+
+        <originalForm>Weil</originalForm>
+
+        <targetForm>weil</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>mus</originalForm>
+
+        <targetForm>muss</targetForm>
+      </error> mehr Wärme und in Winter ist mehr <sic>faher</sic> in Berge. Weil <error>
+        <errorType/>
+
+        <originalForm>mus</originalForm>
+
+        <targetForm>muss</targetForm>
+      </error> mehr <unreadable/>. In <error>
+        <errorType/>
+
+        <originalForm>me<overwrite>
+            <over>e</over>
+
+            <under>r</under>
+          </overwrite>r</originalForm>
+
+        <targetForm>Meer</targetForm>
+      </error> ins sein <entity>Weiger Berg</entity>, der uns sein sehr <sic>Baune</sic> und ein <error>
+        <errorType/>
+
+        <originalForm>reihe</originalForm>
+
+        <targetForm>Reihe</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>fur</originalForm>
+
+        <targetForm>für</targetForm>
+      </error> <unreadable/>.</exercise>
+  </body>
+</kolipsi_document>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5777</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve">
+      <par/><greeting>Hallo <entity>Herberg</entity>!</greeting> Wie gehts? Ich denke nicht so schlecht.... Hehe.<par/>Kennst du <entity>Maria</entity>, meine beste Freundin. Sie hat ein<correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>e</insertion>
+      </correction> komische <foreign_word foreign_language="English"><error>
+          <errorType/>
+
+          <originalForm>Adventur</originalForm>
+
+          <targetForm>Adventure</targetForm>
+        </error></foreign_word> gehabt. <correction>
+        <deletion><unreadable/></deletion>
+      </correction> Ein Tag ist sie in einen Obst- Gemüseladen gegangen. Sie hat viele Sachen <overwrite>
+        <under><unreadable/></under>
+
+        <over>ge</over>
+      </overwrite>kauft. Sie hat mit vielen Geld dem Obst und de<ambiguous>
+        <alternative>m</alternative>
+
+        <alternative>n</alternative>
+      </ambiguous> Gemüse gekauft und sie ist weggegangen. Kurz Zeit später ist sie im Supermarkt gegangen. Sie ist mit <correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>d<ambiguous>
+            <alternative>en</alternative>
+
+            <alternative>as</alternative>
+          </ambiguous></insertion>
+      </correction>  Obst und Gemüse in ein Tasche hineingeg<overwrite>
+        <under><unreadable/></under>
+
+        <over>a</over>
+      </overwrite>ngen. Sie will viele Sachen kaufen und sie steht viel Zeit im Supermarkt. Sie hat viele Flaschen und viele Nudeln gebracht. Am Ende vom die Runde, sie geht <correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>bei <correction>
+            <deletion>m</deletion>
+          </correction> der</insertion>
+      </correction> Kasse. Sie kauft alles<correction>
+        <deletion>.</deletion>
+      </correction> aber, wenn sie <arrow end="open" id="3"> </arrow> weggegangen <arrow end="head" id="3">probiert</arrow> , die Frau von die Kasse schreit w<strikeover>
+        <expansion>e</expansion>
+
+        <expansion>a</expansion>
+      </strikeover>il sie <correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>denkt dass,</insertion>
+      </correction> die Tas<strikeover>
+        <expansion>s</expansion>
+
+        <expansion>c</expansion>
+      </strikeover>he mit Obst und <error>
+        <errorType/>
+
+        <originalForm>Gemuse</originalForm>
+
+        <targetForm>Gemüse</targetForm>
+      </error> nicht <sic>kauft</sic> hat. <entity>Maria</entity> <correction>
+        <deletion><unreadable/></deletion>
+      </correction> ist sehr konfus und sie erzählt dass die Tasche in <strikeover>
+        <expansion>e</expansion>
+
+        <expansion>a</expansion>
+      </strikeover>ine andere Supermarkt gekauft hat. Die Frau von die Kasse ist sehr gut und <entity>Maria</entity> <sic>musst</sic> weggegangen. Liebe <entity>Herberg</entity>, <error>
+        <errorType/>
+
+        <originalForm>dass</originalForm>
+
+        <targetForm>das</targetForm>
+      </error> ist die Geschichte von <entity>Maria</entity> .<par/>Viel komisch? AhAh. Ich muss gehen.<par/><closing>Große Grü<overwrite>
+          <under><unreadable/></under>
+
+          <over>ß</over>
+        </overwrite>e, wir sehen ein Tag ein Film.</closing> </exercise>
+
+    
+  </body>
+</kolipsi_document>

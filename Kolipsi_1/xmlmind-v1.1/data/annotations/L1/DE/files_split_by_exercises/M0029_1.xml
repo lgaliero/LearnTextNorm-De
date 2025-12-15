@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0029</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Mike</entity></greeting>,<par/><overwrite>
+        <under>D</under>
+
+        <over>d</over>
+      </overwrite>u hast nicht, was <correction>
+        <deletion>mir</deletion>
+      </correction> <correction>
+        <insertion><entity>Maria</entity></insertion>
+      </correction> heute passiert ist. Du weißt doch, dass <correction>
+        <deletion><unreadable/></deletion>
+      </correction> <correction>
+        <insertion><correction>
+            <deletion><unreadable/></deletion>
+          </correction></insertion>
+      </correction> <correction>
+        <insertion><correction>
+            <deletion><entity>Maria</entity></deletion>
+          </correction></insertion>
+      </correction> <correction>
+        <insertion>sie</insertion>
+      </correction> noch einkaufen musste, da gab es ein <sic><error>
+          <errorType/>
+
+          <originalForm>missgeschick</originalForm>
+
+          <targetForm>Missgeschick</targetForm>
+        </error></sic>. <correction>
+        <deletion><unreadable/></deletion>
+      </correction> Also, sie musste in zwei verschiedene Läden, zum Obsthändler und in den Supermarkt. Beim Obsthändler, bei dem es auch Gemüse gab, kaufte sie Kohl, Gurken und Äpfel, bezahlte und vergaß den Bon an der Kasse <error>
+        <errorType/>
+
+        <originalForm>mit zunehmen</originalForm>
+
+        <targetForm>mitzunehmen</targetForm>
+      </error>. Mit derselben (vollen) Tasche ging sie dann in den Supermarkt, wo sie ihre restlichen Einkäufe erledigte, doch an der Kasse dachte man, das Gemüse sei im Supermarkt geklaut worden, sie konnte diese Vermutung auch nicht w<over>i</over>derlegen, da sie ja den Bon vergaß, im Endeffekt musste sie dann alles doppelt zahlen und hat nun eine <error>
+        <errorType/>
+
+        <originalForm>Ladendiebstahlsanseige</originalForm>
+
+        <targetForm>Ladendiebstahlsanzeige</targetForm>
+      </error> am Hals. Schon ein Phänomen, wie <overwrite>
+        <under>s</under>
+
+        <over>d</over>
+      </overwrite>er kleine "Faktor": Bon einem den Tag vermiesen kann.<par/><error>
+        <errorType/>
+
+        <originalForm>Naja</originalForm>
+
+        <targetForm>Na ja</targetForm>
+      </error>, wie dem auch sei, ich hoffe dir geht es gut und du denkst an <gap>_</gap> Bons, in dem Sinne: <closing>bis bald,<par/><entity>Mister X</entity> <emoticon>:)</emoticon></closing>          </exercise>
+
+    
+  </body>
+</kolipsi_document>

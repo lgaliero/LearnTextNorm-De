@@ -1,0 +1,45 @@
+<body>
+ <page page_number="1" transcanno_page_id="2467">
+  <paragraph class="medium-paragraph" tagcode="1564479194775">
+   <div>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553548456830" tran_word_deletion_target="_#_">
+     1)
+    </tran_word_deletion_id8>
+    Ich will gehe am
+    <tran_anonymization_id34 class="medium-tran_anonymization_id34" tagcode="1564479194774">
+     Schoolname
+    </tran_anonymization_id34>
+    .
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1564479194777">
+   <div>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553548484766" tran_word_deletion_target="_#_">
+     2)
+    </tran_word_deletion_id8>
+    Meine
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Traumberuf" tagcode="1553548480828">
+     Traumberauf
+    </orth_error_id12>
+    ist Technische informatische
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1564479194779">
+   <div>
+    Ich musst lernen
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553548518503" tran_correction_original="Computer">
+     Computer
+    </tran_word_correction_id25>
+    und
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Programmieren" tagcode="1553548635669">
+     Programm
+    </orth_error_id12>
+   </div>
+   <div>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Programmieren" tagcode="1553548635669">
+     iereen
+    </orth_error_id12>
+   </div>
+  </paragraph>
+ </page>
+</body>

@@ -1,0 +1,115 @@
+<body>
+ <page page_number="1" transcanno_page_id="2471">
+  <paragraph class="medium-paragraph" tagcode="1564479291814">
+   <div>
+    Ich
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553549676637" tran_word_deletion_target="_#_">
+     will
+    </tran_word_deletion_id8>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1553549672903">
+     möchte
+    </tran_word_insertion_id9>
+    die
+    <tran_anonymization_id34 class="medium-tran_anonymization_id34" tagcode="1564479291813">
+     Schoolname
+    </tran_anonymization_id34>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553549702948" tran_word_deletion_target="_#_">
+     ma
+    </tran_word_deletion_id8>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1553549705737">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553549708304" tran_word_deletion_target="_#_">
+      Schule
+     </tran_word_deletion_id8>
+    </tran_word_insertion_id9>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1553549711102">
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Lyzeum" tagcode="1553549718723">
+      Lizeum
+     </orth_error_id12>
+    </tran_word_insertion_id9>
+    machen,
+   </div>
+   <div>
+    es ist Naturkunde
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553549753768" tran_correction_original=".">
+     und
+    </tran_word_correction_id25>
+    ich will schwimmen
+   </div>
+   <div>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553549809551" tran_word_deletion_target="_#_">
+     contieniert
+    </tran_word_deletion_id8>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1553549812450">
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="weitermachen" tagcode="1553549843929">
+      weiter machen
+     </orth_error_id12>
+    </tran_word_insertion_id9>
+    . Mein Traumberuf ist die
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553549926058" tran_word_deletion_target="_#_">
+     Schwimmen
+    </tran_word_deletion_id8>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1553549932380">
+     Schwimmerin
+    </tran_word_insertion_id9>
+   </div>
+   <div>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553549888679" tran_word_deletion_target="_#_">
+     lehrerin
+    </tran_word_deletion_id8>
+    machen,
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553549951150" tran_word_deletion_target="_#_">
+     weil ich sehr schwimmen mag
+    </tran_word_deletion_id8>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1553550267824">
+     weil ich mag sehr
+     <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553550277970" tran_correction_original="shwimmen">
+      schwimmen
+     </tran_word_correction_id25>
+    </tran_word_insertion_id9>
+    .
+   </div>
+   <div>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553549996974" tran_word_deletion_target="_#_">
+     Ich muss
+    </tran_word_deletion_id8>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553550014335" tran_word_deletion_target="_#_">
+     swi
+    </tran_word_deletion_id8>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553550019422" tran_word_deletion_target="_#_">
+     schwimmen
+     <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1556724640930" tran_alternative_1="konnen" tran_alternative_2="können">
+      konnen.
+     </tran_ambiguous_id3>
+    </tran_word_deletion_id8>
+    Federica
+   </div>
+   <div>
+    Pellegrini, Gregorio Paltrinieri sind mein
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Vorbild" tagcode="1553550111729">
+     Vorbil
+    </orth_error_id12>
+   </div>
+   <div>
+    und ich möchte wie ihn sind. Ich
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553550106385" tran_word_deletion_target="_#_">
+     w
+    </tran_word_deletion_id8>
+    möchte
+   </div>
+   <div>
+    gut schwimmen. In die
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Lyzeum" tagcode="1553550152193">
+     Lizeum
+    </orth_error_id12>
+    möchte ich
+   </div>
+   <div>
+    Naturkunde, Biologie,
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Mathematik" tagcode="1553550217871">
+     Matematik
+    </orth_error_id12>
+    studieren.
+   </div>
+  </paragraph>
+ </page>
+</body>

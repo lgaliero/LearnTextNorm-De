@@ -1,0 +1,87 @@
+<body>
+ <page page_number="1" transcanno_page_id="206">
+  <paragraph class="medium-paragraph" tagcode="1607686540175">
+   <div>
+    <tran_symbol_id32 class="medium-tran_symbol_id32" tagcode="1540517499277" tran_symbol_target="U+2013">
+     –
+    </tran_symbol_id32>
+    Ich nach der Mittelschule
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1540517585607" tran_word_deletion_target="_#_">
+     machte
+    </tran_word_deletion_id8>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1540517590620">
+     studiere
+    </tran_word_insertion_id9>
+    die
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1540517596937" tran_word_deletion_target="_#_">
+     <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1540517601440">
+      ich
+     </tran_word_insertion_id9>
+    </tran_word_deletion_id8>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1540517609929" tran_word_deletion_target="_#_">
+     Großschule
+    </tran_word_deletion_id8>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1540517627840">
+     in
+    </tran_word_insertion_id9>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1540517617919">
+     Musikschule
+    </tran_word_insertion_id9>
+    .
+   </div>
+   <div>
+    <tran_symbol_id32 class="medium-tran_symbol_id32" tagcode="1540517504065" tran_symbol_target="U+2013">
+     –
+    </tran_symbol_id32>
+    Mein Traumberuf ist
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Schwimmerin" tagcode="1540517578539">
+     Schwimmering
+    </orth_error_id12>
+    , weil
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1540517568379" tran_word_deletion_target="_#_">
+     ich
+    </tran_word_deletion_id8>
+   </div>
+   <div>
+    gefallt mir schwimmen und meine Vorbild ist
+   </div>
+   <div>
+    Federica Pellegrini
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1607686540176">
+   <div>
+    <tran_symbol_id32 class="medium-tran_symbol_id32" tagcode="1540517510242" tran_symbol_target="U+2013">
+     –
+    </tran_symbol_id32>
+    Für mein Traumberuf ich musse
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="trainieren" tagcode="1540517553732">
+     tranieren
+    </orth_error_id12>
+    und
+   </div>
+   <div>
+    könne
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1540517542209" tran_word_deletion_target="_#_">
+     schw
+    </tran_word_deletion_id8>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="schwimmen" tagcode="1607686540174">
+     Schwimmen
+    </orth_error_id12>
+    .
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1607686540177">
+   <div>
+    <tran_symbol_id32 class="medium-tran_symbol_id32" tagcode="1540517518712" tran_symbol_target="U+2013">
+     –
+    </tran_symbol_id32>
+    Ich musst lernen die
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Technik" tagcode="1607686469532">
+     Tecnik
+    </orth_error_id12>
+    .
+   </div>
+  </paragraph>
+ </page>
+</body>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0061</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Lisa</entity></greeting>,<par/><error>
+        <errorType/>
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> schreib dir diesen Brief aus <sic>folgenden</sic> Anlass: Unser Urlaub steht vor der Tür und wir haben immer noch nicht geplant wohin die Reise geht.<par/>Es gibt mehrere Optionen zwischen denen wir wählen können. Die erste Möglichkeit wäre eine Reise in die Berge. Wir könnten wandern gehen durch die vielen Wälder, Dörfer besichtigen und wenn das Wetter stimmt könnten wir auch <error>
+        <errorType/>
+
+        <originalForm>Campen</originalForm>
+
+        <targetForm>campen</targetForm>
+      </error>? Außerdem könnten wir klettern gehen!<par/>Eine mögliche Alternative wäre ein Urlaub am Meer! Wir könnten jeden Tag schwimmen gehen, Tauchkurse belegen und Bootsfahrten machen. Außerdem ist es dort so gut wie immer schönes Wetter und viel Sonne, die uns sicher ganz gut tun würde. Das Hotel wäre ganz in der Nähe und wir könnten zu <error>
+        <errorType/>
+
+        <originalForm>fuß</originalForm>
+
+        <targetForm>Fuß</targetForm>
+      </error> zum Strand!<par/>Meiner Meinung nach, sollten wir den Strandurlaub buchen, ich habe schließlich schon letztes Jahr meinen Urlaub am Strand gemacht und jede Minute genossen. Es gab so viele Möglichkeiten und Attraktionen!<par/>Du hast die freie Wahl, ich habe meine per<hyphen>-</hyphen>sönliche Meinung abgegeben und freue mich schon, deine <error>
+        <errorType/>
+
+        <originalForm>zuhören</originalForm>
+
+        <targetForm>zu hören</targetForm>
+      </error>.<par/>Entweder <error>
+        <errorType/>
+
+        <originalForm>Wander-<ambiguous>
+            <alternative>u</alternative>
+
+            <alternative>U</alternative>
+          </ambiguous>rlaub</originalForm>
+
+        <targetForm>Wanderurlaub</targetForm>
+      </error> in den Bergen oder Tauch<hyphen>-</hyphen>urlaub am Meer! Ich bitte um möglichst schnelle Antwort.<par/><closing>Viele Grüße,<par/><par/><entity>Nathalie</entity></closing>    </exercise>
+  </body>
+</kolipsi_document>

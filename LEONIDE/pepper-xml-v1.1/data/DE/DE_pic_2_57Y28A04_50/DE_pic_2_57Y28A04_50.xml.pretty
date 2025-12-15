@@ -1,0 +1,52 @@
+<body>
+ <page page_number="1" transcanno_page_id="881">
+  <paragraph class="medium-paragraph" tagcode="1527369126262">
+   <div>
+    Milly und Carol sind in eine Wald wenn
+   </div>
+   <div>
+    die
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Nacht" tagcode="1525278262450">
+     nacht
+    </orth_error_id12>
+    kommt Milly iluminiert die Wald
+   </div>
+   <div>
+    und viel Stimmen von
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1526045496544">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1526045500490" tran_word_deletion_target="_#_">
+      mä*chen
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Mädchen" tagcode="1525278272032">
+     <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1527369126261">
+      mädchen
+     </tran_word_insertion_id9>
+    </orth_error_id12>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1526045581234" tran_correction_original="commen">
+     kommen
+    </tran_word_correction_id25>
+    wenn
+   </div>
+   <div>
+    <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1526045517982" tran_alternative_1="stroien" tran_alternative_2="">
+     straien
+    </tran_ambiguous_id3>
+    . Carol umarmen Milly und die
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Stimmen" tagcode="1525278287548">
+     stimmen
+    </orth_error_id12>
+   </div>
+   <div>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="transportier" tagcode="1525278305332">
+     strasportier
+    </orth_error_id12>
+    die
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Mädchen" tagcode="1525278314224">
+     mädchen
+    </orth_error_id12>
+    hinter der Wald.
+   </div>
+  </paragraph>
+ </page>
+</body>

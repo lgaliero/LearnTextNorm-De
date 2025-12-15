@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I38_GOB09MAT</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe Franziska,</greeting><par />wie geht es dir? Wie ist dein Fahrt nach Berlin gegangen? Ich bin sehr <error>
+        <errorType />
+
+        <originalForm>fröh</originalForm>
+
+        <targetForm>froh</targetForm>
+      </error>, <correction>
+        <deletion><unreadable /></deletion>
+      </correction> dass ich deine Brief bekommen habe. Heute ist es eine sehr ausbesonderes Tag gewesen.<par />Ich bin um acht Uhr aufgewacht und habe das Gesicht gewaschen. <correction>
+        <deletion>Ich</deletion>
+      </correction> Wie jeden Tag habe ich meine Zähne geputzt und bin bin mich angez<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>og</insertion>
+      </correction>en. Ich <correction>
+        <deletion>habe</deletion>
+      </correction> bin <correction>
+        <deletion><unreadable /></deletion>
+      </correction> zum Obst- und Gemüseladen gegangen um den Äpfel und den Zwiebeln zu kaufen. Später, wenn ich nach Hause zurückkommen möchte, habe ich ein Supermarkt <correction>
+        <insertion>auf dem Weg</insertion>
+      </correction> gesehen. Ich hatte die Birnen und ein paar Orangen vergessen, so bin ich in den Supermarkt eingetreten. Ich habe <correction>
+        <deletion>was gekauft alles</deletion>
+      </correction> was ich kaufen musste gekauft und bin zur Kasse gegangen. Ich habe <correction>
+        <deletion>ge</deletion>
+      </correction> bezahlt und hatte mich umgedreht um <error>
+        <errorType />
+
+        <originalForm>weg zu gehen</originalForm>
+
+        <targetForm>wegzugehen</targetForm>
+      </error>. Die <error>
+        <errorType />
+
+        <originalForm>Kassierin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> hat <correction>
+        <deletion>den</deletion>
+      </correction> das Obst und Gemüse gesehen und hat mir zurückgeruft. Sie hat mir <correction>
+        <deletion>befragt</deletion>
+      </correction> über die Produkte befragt, aber ich hatte den Kassenzettel der Obst- und <error>
+        <errorType />
+
+        <originalForm>Gem<correction>
+            <deletion>ü</deletion>
+
+            <insertion>u</insertion>
+          </correction>seladen</originalForm>
+
+        <targetForm>Gemüseladen</targetForm>
+      </error> vergessen. Ich habe das Problem aufgeklärt und sie hat mir gelassen. Ich hatte mir erschrocken.<par /><correction>
+        <deletion><ambiguous>
+            <alternative>Viele</alternative>
+
+            <alternative>Liebe</alternative>
+          </ambiguous></deletion>
+      </correction> <closing>Mit freundlichen Grüßen,</closing><par /><unreadable /></exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber Paul,</greeting><par />Ich habe deinen Brief gelesen und möchte dir helfen, um deinen Problem zu lösen.<par />Ich heiße Marcantonio und die Freundschaftsprobleme interessieren mich sehr. Das ist der Grund weil ich habe deinen Brief gewählt.<par />Erstens möchte ich sagen, dass ich nicht eine <error>
+        <errorType />
+
+        <originalForm>Gute</originalForm>
+
+        <targetForm>gute</targetForm>
+      </error> Meinung <correction>
+        <deletion><unreadable /></deletion>
+      </correction> über virtuelle Freundschaften habe. Für mich ist es das wichtigsten Ding ein Freund zu sehen und persönlich kennenlernen. Man kann nicht "Freunde" sagen, wenn wir eine<correction>
+        <deletion>n</deletion>
+      </correction> Person nie gesehen haben. Auch wichtig ist, dass es nicht einfach ist den Charakter einer Person <correction>
+        <deletion><unreadable /></deletion>
+      </correction> im Internet zu sehen.<par />Meinen Rat nach dein Problem ist, die <error>
+        <errorType />
+
+        <originalForm>Vahrheit</originalForm>
+
+        <targetForm>Wahrheit</targetForm>
+      </error> zu sagen. Es ist immer das beste Ding zu tun. Sag dass du keinen Lust mehr hat, mit Freunde zu chatten, allein zu bleiben, und für Menschen, die es nicht geben, leben.<par />Ich habe keine Erfahrungen mit dem Internet gemacht, aber auf dem Computer oder auf das Handy, mein "Smatphone", habe ich "Social Networks" wie Facebook, Tumber oder youtube installiert. Ich mag mit meine Freunde chatten, aber meine Kontakte sind <correction>
+        <insertion>nur</insertion>
+      </correction> mit Personen, die ich am <error>
+        <errorType />
+
+        <originalForm>meindestens</originalForm>
+
+        <targetForm>mindestens</targetForm>
+      </error> ein Mal gesehen ha<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>t</insertion>
+      </correction>.<par />Die Verwendung des Internets ist sogar eine <error>
+        <errorType />
+
+        <originalForm>Gute</originalForm>
+
+        <targetForm>gute</targetForm>
+      </error> Möglichkeit um <correction>
+        <deletion>Leute</deletion>
+      </correction> Kontakte zu haben.<par /><closing>Viele Grüße,</closing><par /><unreadable /></exercise>
+  </body>
+</kolipsi_II_document>

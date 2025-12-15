@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5360</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve">
+      <par/><greeting>Hallo <entity>Brigitte</entity>,</greeting> <par/>wir sagten doch schon lange, dass wir zusammen in den Urlaub fahren. Wir müssen uns aber entscheiden. Entweder fahren wir ans Meer oder wir fahren in die Berge. In beiden Fällen sind wir von unserer Stadt weit weg und können gemütlich ein paar wundervolle Tage zusammen genießen. Sowohl in den Bergen als auch am Meer gibt es kleine, kostenfreundliche Hotels, wie wir sie immer gesucht haben. In den Bergen könnten wir in alten Gasthäuser<correction>
+        <deletion><unreadable/></deletion>
+      </correction> gut essen gehen, wir lernen die Traditionen der Dörfer, in denen wir uns aufhalten, kennen, wir können gemütlich in <correction>
+        <deletion>im</deletion>
+      </correction> den Wald spazieren und unsere Ruhe haben. <par/><correction>
+        <deletion>Abends</deletion>
+      </correction> Am Meer, aber, haben wir keine Zeit allein zu sein, außer in unserem Hotelzimmern und vielleicht auf manchen Strandabschnitten. Abends können wir mit den anderen Touristen feiern und lachen. Auch in den letzten Jahren bin ich ans Meer gefahren. Jedes Mal <correction>
+        <deletion>war es d</deletion>
+      </correction> ist es gleich gewesen. Wir schwammen, schliefen, feierten, ruhten aus und faulenzten. In den Bergen ging es <correction>
+        <insertion>uns</insertion>
+      </correction> aber immer besser. Wir wanderten, lernten <correction>
+        <deletion>Ba</deletion>
+      </correction> witzige Bauern kennen, aßen in guten Gasthäusern traditionelle Gerichte und waren am nächsten Morgen ausgeruht und bereit für den kommenden Tag. Nicht so wie am Meer, wo wir international wie alle Mitbewohner de<strikeover>
+        <expansion>s</expansion>
+
+        <expansion>r</expansion>
+      </strikeover> <correction>
+        <deletion>Ferien</deletion>
+
+        <insertion>Hotels</insertion>
+      </correction>  aßen und am Morgen immer müde und spät aufstanden. Wir gingen nicht spät schlafen, aber die Meerluft ermüdet die Leute und man verliert das eigentliche Wohlbefinden <correction>
+        <deletion>wie in den</deletion>
+      </correction>, das man in den Bergen besitzt. <par/>Jetzt kommt es auf dich an. Du musst dich entscheiden. Ich bin für alles bereit und erwarte eine Antwort. <par/><closing>Liebe Grüße<par/><par/><entity>Iacun <unreadable/></entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

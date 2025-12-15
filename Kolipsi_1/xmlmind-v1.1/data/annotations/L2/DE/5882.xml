@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5882</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo,</greeting> weißt was <correction>
+        <deletion>ist</deletion>
+      </correction> zu <entity>Maria</entity> geschehen ist? Sie <overwrite>
+        <over>k</over>
+
+        <under>f</under>
+      </overwrite>aufte zuerst Obs<overwrite>
+        <over>t</over>
+
+        <under><unreadable /></under>
+      </overwrite> und Gemüse dann sie ging ins Supermarkt aber sie hat nich<overwrite>
+        <over>t</over>
+
+        <under>e</under>
+      </overwrite> der Kassenzettel der Gemüse<overwrite>
+        <over>l</over>
+
+        <under><unreadable /></under>
+      </overwrite>aden mit, so die <overwrite>
+        <over>V</over>
+
+        <under>v</under>
+      </overwrite>erkäuferin wollte dass sie das Obst und <overwrite>
+        <over>G</over>
+
+        <under>g</under>
+      </overwrite>emüse wieder <sic>zählt</sic>. <entity>Maria</entity> erzählte dass sie es schon bezahlt hatte aber sie hatte es in eine anderen Markt <overwrite>
+        <over>v</over>
+
+        <under>w</under>
+      </overwrite>erkauft, die Verkäuferin glaubte es nicht so sie <sic>rufte</sic> die <error>
+        <errorType />
+
+        <originalForm><overwrite>
+            <over>P</over>
+
+            <under>D</under>
+          </overwrite>slizei</originalForm>
+
+        <targetForm>Polizei</targetForm>
+      </error>. <par />D<overwrite>
+        <over>i</over>
+
+        <under>e</under>
+      </overwrite>e <error>
+        <errorType />
+
+        <originalForm>Polizesten</originalForm>
+
+        <targetForm>Polizisten</targetForm>
+      </error> denken dass sie eine Lügnerin ist<sic> ss </sic>sie wollten s<overwrite>
+        <over>e</over>
+
+        <under>i</under>
+      </overwrite>ine <error>
+        <errorType />
+
+        <originalForm>Identitätkarte</originalForm>
+
+        <targetForm>Identitätskarte</targetForm>
+      </error> kontrollieren <gap>_</gap> weil sie glauben dass sie eine Räuberin ist, aber sie hat es nicht mit, sie hatte es zu <overwrite>
+        <over>H</over>
+
+        <under>h</under>
+      </overwrite>ause vergessen, <sic>ss</sic> <correction>
+        <deletion>sie</deletion>
+      </correction> die Poliziste<correction>
+        <insertion>n</insertion>
+      </correction> trugen sie ins Gefängnis. Jetzt sie ist ins Gefängnis bei vier Tagen, vielleicht wir sollten was mach<palimpsest>e</palimpsest>n , was denkst du <gap>_</gap> von dieses <sic>merkwwistige</sic> Geschic<overwrite>
+        <over>h</over>
+
+        <under><unreadable /></under>
+      </overwrite>te? Ins Gefängnis für eine <correction>
+        <deletion>b</deletion>
+      </correction> blöde Kassenzettel.</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo <entity>Lisa</entity></greeting>, <par /><overwrite>
+        <over>i</over>
+
+        <under>i</under>
+      </overwrite>ch schreibe dich für die Urlaub was gefällst du mehr: Berge oder Meer ? Ich denke <error>
+        <errorType />
+
+        <originalForm>dass</originalForm>
+
+        <targetForm>das</targetForm>
+      </error> Meer ist ein bisschen <error>
+        <errorType />
+
+        <originalForm>Langweilig</originalForm>
+
+        <targetForm>langweilig</targetForm>
+      </error> aber wenn du willst wir können auch am Meer fahren zu <entity>California</entity> oder <entity><overwrite>
+          <over>Fl</over>
+
+          <under><unreadable /></under>
+        </overwrite>orida</entity>, oder wenn du willst wir können eine <error>
+        <errorType />
+
+        <originalForm>habe</originalForm>
+
+        <targetForm>halbe</targetForm>
+      </error> Monat am <overwrite>
+        <over>M</over>
+
+        <under><unreadable /></under>
+      </overwrite>eer ins <entity>Florida</entity> <correction>
+        <deletion>gehan</deletion>
+      </correction> fahren <correction>
+        <deletion>P</deletion>
+      </correction> und eine andere <error>
+        <errorType />
+
+        <originalForm>habe</originalForm>
+
+        <targetForm>halbe</targetForm>
+      </error> Monat ins <entity>Sequisa Park</entity> ins <entity>California</entity> ader auch ins <entity>Josh<overwrite>
+          <over>u</over>
+
+          <under>r</under>
+        </overwrite>a Tree Park</entity> fahren. <par />Wenn du willst nicht so weit gehen wir können auch am Meer ins <sic><entity>Corsica</entity></sic> oder ins <sic>Gebirg</sic> <overwrite>
+        <over>i</over>
+
+        <under><unreadable /></under>
+      </overwrite>n <entity><foreign_word foreign_language="English">Switzerland</foreign_word></entity> gehen wenn du willst in die Berge gehen von mir aus <correction>
+        <deletion>das</deletion>
+      </correction> könnte <correction>
+        <deletion>Prima</deletion>
+      </correction> prima sei<overwrite>
+        <over>n</over>
+
+        <under>r</under>
+      </overwrite> wenn wir ins <entity>Tibet</entity> <overwrite>
+        <over>o</over>
+
+        <under><unreadable /></under>
+      </overwrite>der in <entity>Ladakh</entity> <sic>flügen</sic>. <par />Weißt <error>
+        <errorType />
+
+        <originalForm>wass</originalForm>
+
+        <targetForm>was</targetForm>
+      </error>, wir sollen persönlich sprechen <gap>_</gap> denke an was <error>
+        <errorType />
+
+        <originalForm>icht</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> <sic>geschriebe</sic> haben. <par /><closing><error>
+          <errorType />
+
+          <originalForm>Tschuss</originalForm>
+
+          <targetForm>Tschüss</targetForm>
+        </error></closing></exercise>
+  </body>
+</kolipsi_document>

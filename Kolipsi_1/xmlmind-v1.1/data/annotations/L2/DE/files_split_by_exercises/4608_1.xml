@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Jessica</transcriber>
+
+  <author_id>4608</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Andrea</entity>,<par/><par/></greeting><error>
+        <errorType/>
+
+        <originalForm>Alles</originalForm>
+
+        <targetForm>alles</targetForm>
+      </error> gut? Meine Freundin <entity>Maria</entity> war letzte Woche einkaufen. Zuerst kaufte sie in <sic>ein</sic> Obst- und <error>
+        <errorType/>
+
+        <originalForm>Gemüse geschäft</originalForm>
+
+        <targetForm>Gemüsegeschäft</targetForm>
+      </error> ein, danach ist sie in Supermarkt gegangen. Dort an der Kasse hat sie ein Problem gehabt. Sie hat in <sic>seine</sic> Tasche Brot vergessen und <correction>
+        <deletion>h</deletion>
+      </correction> wenn sie raus <sic>gangen</sic> ist der Alarm hat geläutet. So hat die Frau <error>
+        <errorType/>
+
+        <originalForm>and</originalForm>
+
+        <targetForm>an</targetForm>
+      </error> der Kasse die Polizei angerufen und <entity>Maria</entity> <error>
+        <errorType/>
+
+        <originalForm>gestopt</originalForm>
+
+        <targetForm>gestoppt</targetForm>
+      </error>. <entity>Maria</entity> hat viel <error>
+        <errorType/>
+
+        <originalForm>angst</originalForm>
+
+        <targetForm>Angst</targetForm>
+      </error> gehabt. Die Polizei hat sie viele <error>
+        <errorType/>
+
+        <originalForm>frage</originalForm>
+
+        <targetForm>Frage</targetForm>
+      </error> gemacht. <entity>Maria</entity> hat danach den Brot bezahlt und hat sich <correction>
+        <deletion>ge</deletion>
+
+        <insertion>getschuld</insertion>
+      </correction> <correction>
+        <deletion>scusata</deletion>
+      </correction> mit die Polizei und mit die Verkäuferin. Zum Glück <entity>Maria</entity> ist nicht ins <error>
+        <errorType/>
+
+        <originalForm>Kommisariat</originalForm>
+
+        <targetForm>Kommissariat</targetForm>
+      </error> <sic>gangen</sic>. Sie hat einen <sic>schlechte</sic> Tag gehabt.<par/> <palimpsest>Danach <entity>Maria</entity> ist zu</palimpsest> mir gekommen und hat mir alles erzählt, so habe ich heute diese <error>
+        <errorType/>
+
+        <originalForm>mail</originalForm>
+
+        <targetForm>Mail</targetForm>
+      </error> an dir <correction>
+        <deletion><unreadable/></deletion>
+      </correction> <sic>geschreibe</sic>. <greeting>An die <correction>
+          <deletion><unreadable/></deletion>
+        </correction> nächste<par/><palimpsest> </palimpsest>Elisa</greeting></exercise>
+
+    
+  </body>
+</kolipsi_document>

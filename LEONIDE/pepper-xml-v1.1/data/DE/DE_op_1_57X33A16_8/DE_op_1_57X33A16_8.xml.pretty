@@ -1,0 +1,71 @@
+<body>
+ <page page_number="1" transcanno_page_id="135">
+  <paragraph class="medium-paragraph" tagcode="1549746304389">
+   <div>
+    Deutsch würde ich weiter lernen, weil Deutsch braucht
+   </div>
+   <div>
+    man in Südtirol
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1549746304390">
+   <div>
+    Italienisch würde ich auch weiter lernen, weil
+   </div>
+   <div>
+    Italien braucht man in ganz Italien und fast jeder in
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1549746108398" tran_correction_original="*talien">
+     Italien
+    </tran_word_correction_id25>
+   </div>
+   <div>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="kann" tagcode="1549746051806">
+     kan
+    </orth_error_id12>
+    Italienisch.
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1549746304391">
+   <div>
+    Englisch würde ich auch weiter
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1549746179490" tran_correction_original="l*rnen">
+     lernen
+    </tran_word_correction_id25>
+    , weil Englisch
+   </div>
+   <div>
+    ist die
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Hauptsprache" tagcode="1549746164260">
+     haubtsprache
+    </orth_error_id12>
+    der Welt
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="dann" tagcode="1549746212871">
+     dan
+    </orth_error_id12>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="kann" tagcode="1549746217515">
+     kan
+    </orth_error_id12>
+    man sich fast
+   </div>
+   <div>
+    auf der ganzen Welt unterhalten.
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1549746304392">
+   <div>
+    Ladinisch wäre auch ganz
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="interessant" tagcode="1549746265498">
+     intresant
+    </orth_error_id12>
+    zu lernen,
+   </div>
+   <div>
+    aber man muss es nicht
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="unbedingt" tagcode="1549746304388">
+     umbedingt
+    </orth_error_id12>
+    lernen.
+   </div>
+  </paragraph>
+ </page>
+</body>

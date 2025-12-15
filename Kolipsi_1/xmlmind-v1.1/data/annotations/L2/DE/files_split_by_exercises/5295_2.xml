@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5295</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Lieber <entity>Carlo</entity><correction>
+          <deletion>!</deletion>
+        </correction></greeting>, <par/><error>
+        <errorType/>
+
+        <originalForm><overwrite>
+            <over>I</over>
+
+            <under>i</under>
+          </overwrite>ch</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> habe den Urlaub geplant <correction>
+        <deletion>,</deletion>
+      </correction> aber ich bin nicht sicher, <correction>
+        <deletion>vo</deletion>
+      </correction> wo wir <correction>
+        <deletion>gehen</deletion>
+      </correction> fahren können. <par/> <correction>
+        <deletion>!</deletion>
+      </correction> So <arrow end="open" id="2"> </arrow> stelle <arrow end="head" id="2">ich</arrow> <correction>
+        <deletion>dier</deletion>
+      </correction> dir 2 verschi<correction>
+        <insertion>e</insertion>
+      </correction>dene Programmen vor. Erst <correction>
+        <insertion><unreadable/></insertion>
+      </correction>: ich habe ein<correction>
+        <deletion>e</deletion>
+      </correction> schönes Haus <correction>
+        <deletion>an</deletion>
+      </correction> auf de<correction>
+        <deletion>m</deletion>
+
+        <insertion>n</insertion>
+      </correction> Bergen gefunden. Es ist wirklich wunderbar! Es <correction>
+        <deletion>gibt sehr viele Ruhe und</deletion>
+      </correction> ist sehr ruhig und man kann lange <sic>Spaziergangen</sic> machen. Wir können auch Sport tragen. <error>
+        <errorType/>
+
+        <originalForm>zum</originalForm>
+
+        <targetForm>Zum</targetForm>
+      </error> Beispiel <correction>
+        <deletion>es</deletion>
+      </correction> gibt es ein <sic>Kletternkurs</sic>. <correction>
+        <deletion>aber auch ein</deletion>
+      </correction> Es mag mir sehr und ich möchte es probieren. <par/>Dann die zweite Möglichkeit ist der Urlaub am Meer: <error>
+        <errorType/>
+
+        <originalForm>du</originalForm>
+
+        <targetForm>Du</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>wei<correction>
+            <deletion>ß</deletion>
+
+            <insertion>s</insertion>
+          </correction>t</originalForm>
+
+        <targetForm>weißt</targetForm>
+      </error>, dass ich liebe den Meer! <par/> <correction>
+        <deletion>Wir</deletion>
+      </correction> Ich habe ein <correction>
+        <deletion>e</deletion>
+      </correction> schönes Hotel gefunden und es liegt <correction>
+        <deletion>neben der</deletion>
+      </correction> in der Nähe von der Strand. Die Unterschiede <correction>
+        <deletion><unreadable/></deletion>
+      </correction> von de <correction>
+        <deletion>n</deletion>
+
+        <insertion>r</insertion>
+      </correction> Bergen sind, dass der Meer nicht so ruhig ist. Am Abend können wir in die Disko gehen und <error>
+        <errorType/>
+
+        <originalForm>Morgens</originalForm>
+
+        <targetForm>morgens</targetForm>
+      </error> können wir <correction>
+        <deletion>zwischen</deletion>
+      </correction> viele Aktivitäten entscheiden. <par/>So was möchtest du machen? Gehen wir <correction>
+        <deletion>in die</deletion>
+      </correction> in d<overwrite>
+        <over>en</over>
+
+        <under>ie</under>
+      </overwrite> Bergen, um zu schlafen und ein bisschen Sport tragen, oder gehen wir am Meer, um <correction>
+        <deletion>u</deletion>
+      </correction> zu Spaß haben? <par/> <closing>Viele <error>
+          <errorType/>
+
+          <originalForm>Liebe</originalForm>
+
+          <targetForm>liebe</targetForm>
+        </error> Grüße <par/> <entity>Letizia</entity>.</closing></exercise>
+  </body>
+</kolipsi_document>

@@ -1,0 +1,20 @@
+<body>
+ <page page_number="1" transcanno_page_id="2493">
+  <paragraph class="medium-paragraph" tagcode="1553019557475">
+   <div>
+    Ich möchte
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553019525228" tran_correction_original="Üniversität">
+     Universität
+    </tran_word_correction_id25>
+    studieren und Programation werden.
+   </div>
+   <div>
+    Meine
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Hobby" tagcode="1553019557474">
+     hobby
+    </orth_error_id12>
+    ist Fußball spiele und
+   </div>
+  </paragraph>
+ </page>
+</body>

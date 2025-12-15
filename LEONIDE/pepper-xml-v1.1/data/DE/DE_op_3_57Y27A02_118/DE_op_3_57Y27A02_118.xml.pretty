@@ -1,0 +1,183 @@
+<body>
+ <page page_number="1" transcanno_page_id="2487">
+  <paragraph class="medium-paragraph" tagcode="1611830398053">
+   <div>
+    <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611315987619" tran_capitalisation_target="Mein" tran_capitalisation_type="01 completely capitalised">
+     MEIN
+    </tran_capitalisation_id85>
+    <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611315999007" tran_capitalisation_target="Traumberuf" tran_capitalisation_type="01 completely capitalised">
+     TRAUMBERUF
+    </tran_capitalisation_id85>
+    <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611316012787" tran_capitalisation_target="ist" tran_capitalisation_type="01 completely capitalised">
+     IST
+    </tran_capitalisation_id85>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Lehrerin" tagcode="1553010893118">
+     <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611830265173" tran_capitalisation_target="Lehrerin" tran_capitalisation_type="01 completely capitalised">
+      LELHERIN
+     </tran_capitalisation_id85>
+    </orth_error_id12>
+    !
+    <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611316079777" tran_capitalisation_target="Ich" tran_capitalisation_type="01 completely capitalised">
+     ICH
+    </tran_capitalisation_id85>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553010007540" tran_word_deletion_target="_#_">
+     MUSS DARÜF
+    </tran_word_deletion_id8>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1553010015112">
+     <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611316100460" tran_capitalisation_target="Mittelschule" tran_capitalisation_type="01 completely capitalised">
+      MITTELSCHULE
+     </tran_capitalisation_id85>
+    </tran_word_insertion_id9>
+   </div>
+   <div>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1553010046122">
+     <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611316112563" tran_capitalisation_target="machen" tran_capitalisation_type="01 completely capitalised">
+      MACHEN
+     </tran_capitalisation_id85>
+    </tran_word_insertion_id9>
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1553010049609">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553010052494" tran_word_deletion_target="_#_">
+      *
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+    (
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="scienze" tagcode="1553010139942">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553010144409" tran_word_deletion_target="_#_">
+      <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1589276314149" tran_foreign_word_language="Italian">
+       SCHIENZE
+      </tran_foreign_word_id13>
+     </tran_word_deletion_id8>
+    </orth_error_id12>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553010144409" tran_word_deletion_target="_#_">
+     <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1589276320247" tran_foreign_word_language="Italian">
+      UMANE
+     </tran_foreign_word_id13>
+    </tran_word_deletion_id8>
+    ) (
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553010108905" tran_correction_original="SCIE*ZE">
+     <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1589276337491" tran_foreign_word_language="Italian">
+      <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611316135799" tran_capitalisation_target="scienze" tran_capitalisation_type="01 completely capitalised">
+       SCIENZE
+      </tran_capitalisation_id85>
+     </tran_foreign_word_id13>
+    </tran_word_correction_id25>
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1589276342888" tran_foreign_word_language="Italian">
+     <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611316145719" tran_capitalisation_target="umane" tran_capitalisation_type="01 completely capitalised">
+      UMANE
+     </tran_capitalisation_id85>
+    </tran_foreign_word_id13>
+    )
+    <tran_emphasis_id11 class="medium-tran_emphasis_id11" tagcode="1553010151764">
+     .
+    </tran_emphasis_id11>
+    <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611316157320" tran_capitalisation_target="Ich" tran_capitalisation_type="01 completely capitalised">
+     ICH
+    </tran_capitalisation_id85>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="möchte" tagcode="1556653307176">
+     <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611830283890" tran_capitalisation_target="möchte" tran_capitalisation_type="01 completely capitalised">
+      MOCHTE
+     </tran_capitalisation_id85>
+    </orth_error_id12>
+   </div>
+   <div>
+    <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611316180081" tran_capitalisation_target="der" tran_capitalisation_type="01 completely capitalised">
+     DER
+    </tran_capitalisation_id85>
+    <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611316191659" tran_capitalisation_target="Universität" tran_capitalisation_type="01 completely capitalised">
+     UNIVERSITÄT
+    </tran_capitalisation_id85>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553010646897" tran_correction_original="STUDI*REN">
+     <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611316203103" tran_capitalisation_target="studieren" tran_capitalisation_type="01 completely capitalised">
+      STUDIEREN
+     </tran_capitalisation_id85>
+    </tran_word_correction_id25>
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1553010635553">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553010637986" tran_word_deletion_target="_#_">
+      *
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+    .
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553010655180" tran_correction_original="IC*">
+     <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611830302564" tran_capitalisation_target="Ich" tran_capitalisation_type="01 completely capitalised">
+      ICH
+     </tran_capitalisation_id85>
+    </tran_word_correction_id25>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="möchte" tagcode="1556653343705">
+     <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611830311369" tran_capitalisation_target="möchte" tran_capitalisation_type="01 completely capitalised">
+      MOCHTE
+     </tran_capitalisation_id85>
+    </orth_error_id12>
+   </div>
+   <div>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1553010681014">
+     <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553010687121" tran_correction_original="LERNEN">
+      <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611316338662" tran_capitalisation_target="lernen" tran_capitalisation_type="01 completely capitalised">
+       LERNEN
+      </tran_capitalisation_id85>
+     </tran_word_correction_id25>
+    </tran_word_insertion_id9>
+    <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611316350367" tran_capitalisation_target="die" tran_capitalisation_type="01 completely capitalised">
+     DIE
+    </tran_capitalisation_id85>
+    (
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1589276356480" tran_foreign_word_language="Italian">
+     <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611316373256" tran_capitalisation_target="pensiero" tran_capitalisation_type="01 completely capitalised">
+      PENSIERO
+     </tran_capitalisation_id85>
+    </tran_foreign_word_id13>
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1589276362058" tran_foreign_word_language="Italian">
+     <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611316382630" tran_capitalisation_target="delle" tran_capitalisation_type="01 completely capitalised">
+      DELLE
+     </tran_capitalisation_id85>
+    </tran_foreign_word_id13>
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1590764484566" tran_foreign_word_language="Italian">
+     <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611316391687" tran_capitalisation_target="persone" tran_capitalisation_type="01 completely capitalised">
+      PERSONE
+     </tran_capitalisation_id85>
+    </tran_foreign_word_id13>
+    ) .
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553010793219" tran_word_deletion_target="_#_">
+     ICH LERNEN
+    </tran_word_deletion_id8>
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1553010739603">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553010793219" tran_word_deletion_target="_#_">
+      *
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+   </div>
+   <div>
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1553010805746">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553010807971" tran_word_deletion_target="_#_">
+      *
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+    <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611316405989" tran_capitalisation_target="Ich" tran_capitalisation_type="01 completely capitalised">
+     ICH
+    </tran_capitalisation_id85>
+    <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611316414841" tran_capitalisation_target="muss" tran_capitalisation_type="01 completely capitalised">
+     MUSS
+    </tran_capitalisation_id85>
+    <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611316423448" tran_capitalisation_target="dafür" tran_capitalisation_type="01 completely capitalised">
+     DAFÜR
+    </tran_capitalisation_id85>
+    <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611316430617" tran_capitalisation_target="viel" tran_capitalisation_type="01 completely capitalised">
+     VIEL
+    </tran_capitalisation_id85>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Psychologie" tagcode="1553010846782">
+     <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1553010854771" tran_alternative_1="PSICOLOCHI" tran_alternative_2="PSICOLOGHI">
+      <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611830398052" tran_capitalisation_target="Psychologie" tran_capitalisation_type="01 completely capitalised">
+       PSICOLOCHI
+      </tran_capitalisation_id85>
+     </tran_ambiguous_id3>
+    </orth_error_id12>
+   </div>
+   <div>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553010815567" tran_correction_original="LERNEN">
+     <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611316474849" tran_capitalisation_target="lernen" tran_capitalisation_type="01 completely capitalised">
+      LERNEN
+     </tran_capitalisation_id85>
+    </tran_word_correction_id25>
+   </div>
+  </paragraph>
+ </page>
+</body>

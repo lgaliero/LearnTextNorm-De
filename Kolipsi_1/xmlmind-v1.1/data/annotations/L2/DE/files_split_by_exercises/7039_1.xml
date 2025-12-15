@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>N7039</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><par/><greeting>Hallo <entity>Maikol</entity>!</greeting> <par/>Wie geht es dir? Mir geht es prima!!<par/>Ich wollte dir etwas erzählen, dass ist wirklich komisch! Letzte Woche, <palimpsest>unreadable</palimpsest> eine Freundin von mir, ist in einem Obst- und Gemüseladen einkaufen gegangen. Sie hat an die Kasse bezahlt, aber sie hat der Kassenzettel ins Geschäft vergessen. <error>
+        <errorType/>
+
+        <originalForm>Cirka</originalForm>
+
+        <targetForm>Circa</targetForm>
+      </error> eine Stunde später ist sie im Supermark<palimpsest>unreadable</palimpsest>t gegangen, <palimpsest>unreadable</palimpsest> als sie an die Kasse angekommen ist, hat sie wieder bezahlt. Aber die Verkäuferin hat in ihre Tasche die Gemüse gesehen, und hat gedenkt <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> <entity>Maria</entity> die Gemüse gestohlen hat. <entity>Maria</entity> erzählte der Verkäuferin dass <error>
+        <errorType/>
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> die Gemüse in einen anderen Geschäft gekauft hat, die eingekaufte <error>
+        <errorType/>
+
+        <originalForm>Wahren</originalForm>
+
+        <targetForm>Waren</targetForm>
+      </error> hat sie im Supermarkt gelassen und ist in dem Obst- und Gemüseladen gegangen. Die Verkäuferin hat ihr der Kassenzettel gegeben, sie ist wieder im Supermarkt gegangen, hat der <error>
+        <errorType/>
+
+        <originalForm>Verkäufirin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> der Kassenzettel gezeigt und ist nach Hause gegangen. <par/>Ist das nicht komisch? <par/><closing>Ein <error>
+          <errorType/>
+
+          <originalForm>bussi</originalForm>
+
+          <targetForm>Bussi</targetForm>
+        </error>. <par/><entity>Natasha</entity> </closing> </exercise>
+
+    
+  </body>
+</kolipsi_document>

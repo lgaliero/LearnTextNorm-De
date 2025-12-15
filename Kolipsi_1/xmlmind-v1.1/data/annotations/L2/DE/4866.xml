@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Romy</transcriber>
+
+  <author_id>4866</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe <correction>
+          <deletion><unreadable /></deletion>
+
+          <insertion><entity>Giovanna</entity></insertion>
+        </correction> </greeting>wie geht<correction>
+        <deletion>´s</deletion>
+      </correction> es dir? <error>
+        <errorType />
+
+        <originalForm>mir</originalForm>
+
+        <targetForm>Mir</targetForm>
+      </error> geht es gut. Ach du weißt nicht was passiert ist! <par />Gestern <overwrite>
+        <over>m</over>
+
+        <under>M</under>
+      </overwrite>eine Freundin <entity>Maria</entity> war in einen <foreign_word
+        foreign_language="Italiano">Supermarket</foreign_word> und sie hat etwas <sic>gekaufen</sic>. Zuerst <correction>
+        <deletion><unreadable /></deletion>
+      </correction> kaufte sie in einem Obst- und Gemüsela<overwrite>
+        <over>d</over>
+
+        <under><unreadable /></under>
+      </overwrite>en ein. <overwrite>
+        <over>E</over>
+
+        <under>e</under>
+      </overwrite>ine <error>
+        <errorType />
+
+        <originalForm>stunde</originalForm>
+
+        <targetForm>Stunde</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>Später</originalForm>
+
+        <targetForm>später</targetForm>
+      </error> <correction>
+        <deletion>war sie</deletion>
+      </correction> hat sie in eine<overwrite>
+        <over>n</over>
+
+        <under>m</under>
+      </overwrite> anderen <sic><foreign_word foreign_language="Italiano">supermarket</foreign_word></sic> etwas gekauft aber dort gab es ein Problem an der Kasse. Die Kassiererin denkt dass <overwrite>
+        <over>s</over>
+
+        <under>M</under>
+      </overwrite>ie nicht <variant_group>
+        <variant>gezählen</variant>
+
+        <variant>gemeldet</variant>
+      </variant_group> hat weil dass <overwrite>
+        <over>Q</over>
+
+        <under>q</under>
+      </overwrite>uittung war nicht ob der <error>
+        <errorType />
+
+        <originalForm>kasse</originalForm>
+
+        <targetForm>Kasse</targetForm>
+      </error>. Doch hat <correction>
+        <deletion>sie</deletion>
+
+        <insertion><entity>Maria</entity></insertion>
+      </correction> Angst und läuft weg.</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Liebe <correction>
+          <deletion><unreadable /></deletion>
+
+          <insertion><entity>Giovanna</entity></insertion>
+        </correction> </greeting> <par />wie geht es dir? Mir geht es gut, aber ich bin nicht sicher ob in Gebirge oder ans Meer fahren sollen. <par />Ich rate dir <overwrite>
+        <over>d</over>
+
+        <under>D</under>
+      </overwrite>as Meer <correction>
+        <deletion>hi ist</deletion>
+
+        <insertion>weil</insertion>
+      </correction> sehr <error>
+        <errorType />
+
+        <originalForm>schon</originalForm>
+
+        <targetForm>schön</targetForm>
+      </error> ist. Das Wasser ist blau und <correction>
+        <deletion><unreadable /></deletion>
+      </correction> der Sand <gap>_</gap> und doch die Sonne scheint in <error>
+        <errorType />
+
+        <originalForm>himmel</originalForm>
+
+        <targetForm>Himmel</targetForm>
+      </error>. An <overwrite>
+        <over>t</over>
+
+        <under><unreadable /></under>
+      </overwrite> Meer gibt es viele <overwrite>
+        <over>M</over>
+
+        <under>F</under>
+      </overwrite>öglichkeiten: <overwrite>
+        <over>Z</over>
+
+        <under>z</under>
+      </overwrite>um <error>
+        <errorType />
+
+        <originalForm>beispiel</originalForm>
+
+        <targetForm>Beispiel</targetForm>
+      </error> können <correction>
+        <deletion><unreadable /></deletion>
+      </correction> wir schwimmen <correction>
+        <deletion><unreadable /></deletion>
+      </correction>, <error>
+        <errorType />
+
+        <originalForm>sonneliegen</originalForm>
+
+        <targetForm>Sonne liegen</targetForm>
+      </error>, spielen mit das <error>
+        <errorType />
+
+        <originalForm>ball</originalForm>
+
+        <targetForm>Ball</targetForm>
+      </error> <correction>
+        <deletion><unreadable /></deletion>
+      </correction>, laufen ans Meer, <correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>und</insertion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>volleyball</originalForm>
+
+        <targetForm>Volleyball</targetForm>
+      </error> spielen. Im Gebirge <correction>
+        <deletion>aber du kannst du </deletion>
+      </correction> ist sehr langweilig. In Gebirge gibt es viele andere Möglichkeiten. Zum <error>
+        <errorType />
+
+        <originalForm>beispiel</originalForm>
+
+        <targetForm>Beispiel</targetForm>
+      </error> kannst du <error>
+        <errorType />
+
+        <originalForm>frish</originalForm>
+
+        <targetForm>frisch</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>luft</originalForm>
+
+        <targetForm>Luft</targetForm>
+      </error> atmen, oder fr<strikeover>
+        <expansion>e</expansion>
+
+        <expansion>c</expansion>
+      </strikeover>h <foreign_word foreign_language="English">Milk</foreign_word> <sic>getrinken</sic>.</exercise>
+  </body>
+</kolipsi_document>

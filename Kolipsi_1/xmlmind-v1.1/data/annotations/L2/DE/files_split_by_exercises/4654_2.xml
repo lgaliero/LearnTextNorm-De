@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>4654</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Daniel</entity>,</greeting> <par/>wie geht es dir? Ich gut danke. Was hast du zu <error>
+        <errorType/>
+
+        <originalForm>mier</originalForm>
+
+        <targetForm>mir</targetForm>
+      </error> sagen? In dieser Sommer ich gehe zu <overwrite>
+        <over>M</over>
+
+        <under>m</under>
+      </overwrite>eer in <entity><foreign_word foreign_language="Italiano">Sicilia</foreign_word></entity>. Ich <correction>
+        <deletion>fr</deletion>
+      </correction> <sic>vorzehen</sic> die Meer weil <foreign_word foreign_language="Italiano"><error>
+          <errorType/>
+
+          <originalForm>´cé</originalForm>
+
+          <targetForm>c'è</targetForm>
+        </error></foreign_word> die Sonne, ist warm, und der <sic>strange</sic> ist schönes da <foreign_word foreign_language="Italiano">sentire sotto i piedi</foreign_word>! <correction>
+        <deletion><unreadable/></deletion>
+      </correction> wo er gehst du diese <foreign_word foreign_language="English">summer</foreign_word>? <foreign_word foreign_language="Italiano">Spero non</foreign_word> in den Bergen! Weil ist <correction>
+        <deletion><unreadable/></deletion>
+      </correction> <foreign_word foreign_language="English">cold</foreign_word>, <foreign_word foreign_language="Italiano"><error>
+          <errorType/>
+
+          <originalForm>c´é</originalForm>
+
+          <targetForm>c'è</targetForm>
+        </error> tanta neve, anzi in estate non <error>
+          <errorType/>
+
+          <originalForm>piu</originalForm>
+
+          <targetForm>più</targetForm>
+        </error>,poi ci sono</foreign_word> die <sic>Baume</sic> </exercise>
+  </body>
+</kolipsi_document>

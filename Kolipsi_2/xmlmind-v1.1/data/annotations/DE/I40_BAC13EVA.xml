@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I40_BAC13EVA</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo Lisa,</greeting><par /><error>
+        <errorType />
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> muss dir dringend etwas erzählen, was meiner Freundin Maria gestern im Supermarkt passiert ist.<par />Wie jeden Montag geht Maria einkaufen, zuerst in einem kleinen Obst- und Gemüseladen, der von einer Bäuerin geführt wird und dann in den großen Supermarkt. Im Obst- und Gemüseladen kaufte sie frischen Salat, Tomaten, Gurken, Kartoffeln und Blumenkohl ein. Dann Maria möchte gesunder ernähren.<par />Sie ging zur Kassa und bezahlte bei der Bäuerin das frische Gemüse.<par />Dann <correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>rief ich sie an</insertion>
+      </correction> und <correction>
+        <deletion>ich</deletion>
+      </correction> fragte sie ob sie für mich im Supermarkt etwas Milch, Brot, <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Marmelade und andere Sachen einkaufen könnte und es war für sie kein Problem.<par />Als sie dann an der Kassa im Supermarkt stand und meine Sachen bezahlt hatte wollte sie gehen, aber dann bemerkte die Verkäuferin ihre Tasche mit dem bereits bezahlten Gemüse von der Bäuerin und sie beschuldigte Maria, dass sie das Gemüse stehlen wollte. Aber zum Glück hatte Maria den Kassenbeleg von der Bäuerin aufgehoben und die Verkäuferin des Supermarkts <correction>
+        <deletion>g<unreadable /></deletion>
+      </correction> sah dann, dass sie das Gemüse in einem anderen Geschäft gekauft hatte. Maria war froh, dass nix passiert ist und sie konnte zufrieden nach Hause gehen.</exercise>
+
+    <exercise number="2" xml:space="preserve"><correction>
+        <deletion><unreadable /></deletion>
+      </correction><par /><greeting>Hallo Paul,</greeting><par />neulich habe ich in der Zeitung "Junge Woche" deinen Brief glesen und möchte dir helfen eine Lösung zu finden.<par />Mit dem Thema "virtuelle Freundschaften" habe ich mich noch nie befasst<correction>
+        <deletion>en</deletion>
+      </correction>. Dennoch finde ich es nicht besondes gut Freunde zu haben die <correction>
+        <deletion><unreadable /></deletion>
+      </correction> man nicht kennt und denen man alles erzählen würde. Meiner Meinung nach ist es sehr wichtig Freunde zu haben mit denen man sich treffen kann, etwas trinken geht und einfach nur Spaß haben kann und <correction>
+        <deletion><unreadable /></deletion>
+      </correction> denen man auch persönlich seine Geschichten erzählen kann.<par />In deinem Brief hast du geschrieben, dass du immer noch Nachrichten bekommt von den Personen, die wissen wollen warum du dich nicht mehr meldest.<par />Ich würde ihnen <error>
+        <errorType />
+
+        <originalForm>klar machen</originalForm>
+
+        <targetForm>klarmachen</targetForm>
+      </error>, dass du deine Lebenseinstellung geändert hast und du lieber Freunde hättest mit denen du dich treffen kannst und nicht nur "chatten". Und mach ihnen klar, dass du es nicht böse meinst, <correction>
+        <deletion><unreadable /></deletion>
+      </correction> und es nicht ihre Schuld ist, sondern es deine Entscheidung war dies zu machen.<par />Meiner <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Meinung nach sollte man in Internet sehr gut aufpassen, denn man <error>
+        <errorType />
+
+        <originalForm>weis</originalForm>
+
+        <targetForm>weiß</targetForm>
+      </error> nie was einem passieren kann. Unter anderem sollte man sehr gut aufpassen, <error>
+        <errorType />
+
+        <originalForm>wen</originalForm>
+
+        <targetForm>wenn</targetForm>
+      </error> man seine <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Nummer gibt und mit wem man sich im Internet unterhält, denn man <error>
+        <errorType />
+
+        <originalForm>weis</originalForm>
+
+        <targetForm>weiß</targetForm>
+      </error> nicht wer hinter dem Computer sitzt, es könnte manchmal auch sehr gefährlich werden.<par />Deshalb pass auf Paul<correction>
+        <deletion>,</deletion>
+      </correction> was du im Internet alles von dir frei gibst! Und ich finde es super, dass du diese Entscheidung getroffen hast!<par /><closing>Mit freundlichen Grüßen,</closing> Pauline!</exercise>
+  </body>
+</kolipsi_II_document>

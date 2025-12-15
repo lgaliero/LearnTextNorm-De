@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5046</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><par/><greeting>Liebe <entity>Francesca</entity> </greeting> <par/><correction>
+        <deletion><unreadable/></deletion>
+      </correction>Mir <error>
+        <errorType/>
+
+        <originalForm>getes</originalForm>
+
+        <targetForm>geht es</targetForm>
+      </error> alles gut und dich? Heute ist eines schönes <correction>
+        <deletion>Wetter. Maria h ist ein krank und</deletion>
+      </correction> Wetter. Noch drei Monaten und die Schule wurde fertig. Gestern habe ich <entity>Maria</entity> gesehen. Sie ist sehr nett aber <error>
+        <errorType/>
+
+        <originalForm>Gestern</originalForm>
+
+        <targetForm>gestern</targetForm>
+      </error> war <correction>
+        <deletion><unreadable/></deletion>
+      </correction> sie verlegt. Sie war <error>
+        <errorType/>
+
+        <originalForm>Gestern</originalForm>
+
+        <targetForm>gestern</targetForm>
+      </error> einkaufen. Sie kaufte zuerst in einem Obst. Sie hat: <foreign_word foreign_language="Italiano"><error>
+          <errorType/>
+
+          <originalForm>Insalat</originalForm>
+
+          <targetForm>Insalata</targetForm>
+        </error></foreign_word>, Karotten, Tomaten, Apfeln, und Kartoffeln gekauft. Sie ist nach die Kasse gegangen und sie hat gezahlt. <correction>
+        <deletion>Ee Sie ist mit Christene in einen Cafe gegangen und</deletion>
+      </correction> Aber <error>
+        <errorType/>
+
+        <originalForm>si</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> hat dem Kassenzettel vergessen. Sie ist mit <entity>Christine</entity> in einem <error>
+        <errorType/>
+
+        <originalForm>Cafe</originalForm>
+
+        <targetForm>Café</targetForm>
+      </error> gegangen. Eine Stunde später war sie im Supermarkt. Sie hat ein paar <strikeover>
+        <expansion>S</expansion>
+
+        <expansion>s</expansion>
+      </strikeover>achen gekauft. Wenn kommte sie an der Kasse, und die <error>
+        <errorType/>
+
+        <originalForm>Kasseriererin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> glaubte, dass sie das Gemüse verst<unreadable/>l<correction>
+        <insertion>t</insertion>
+      </correction>e. <error>
+        <errorType/>
+
+        <originalForm>und</originalForm>
+
+        <targetForm>Und</targetForm>
+      </error> <entity>Maria</entity> hat keinen Kassenzettel.</exercise>
+
+    
+  </body>
+</kolipsi_document>

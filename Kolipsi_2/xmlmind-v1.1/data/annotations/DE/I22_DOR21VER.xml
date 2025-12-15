@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I22_DOR21VER</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hey Steffy!</greeting><par />Wie geht es dir Wir haben uns schon lange nicht mehr gehört. Ich schreibe dir um dir eine Geschichte zu erzählen.<par />Maria ging neulich in den Obst- und Gemüseladen einkaufen. Bei der Kassa hat sie aber den Kassazettel liegen lassen. Als sie später im <foreign_word foreign_language="Italiano">Supermarket</foreign_word> bezahlen wollte meinte die Verkäuferin sie hätte auch das Obst und Gemüse hier im <foreign_word foreign_language="Italiano">Supermarket</foreign_word> genommen.<par />Maria war total verwirrt und wusste nicht was sagen, denn die Verkäuferin wollte ihr einfach nicht glauben, dass sie das Obst und Gemüse in einem anderen Laden schon bezahlt hatte.<par />Sie entschloss also alles liegen und stehen zu lassen und rannte zum Obstladen zurück. Zum Glück konnte sich die Obst- und Gemüsehändlerin an Maria noch <error>
+        <errorType />
+
+        <originalForm>errinnern</originalForm>
+
+        <targetForm>erinnern</targetForm>
+      </error> und so gab sie ihr den Kassazettel mit. Als sie zurück im <foreign_word foreign_language="Italiano">Supermarket</foreign_word> war entschuldigte sich die Verkäuferin <error>
+        <errorType />
+
+        <originalForm>aufrechtig</originalForm>
+
+        <targetForm>aufrichtig</targetForm>
+      </error>. Doch auch Maria hatte <correction>
+        <insertion>jetzt</insertion>
+      </correction> gelernt den Kassazettel immer besser einzustecken.<par /><closing>Bis bald. Kuss</closing></exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber Paul,</greeting><par />vor ein paar Tagen habe ich deinen Brief in der Zeitung "Junge Woche" gelesen. Ich habe darüber <error>
+        <errorType />
+
+        <originalForm>öfers</originalForm>
+
+        <targetForm>öfters</targetForm>
+      </error> nachgedacht und bin jetzt zum Entschluss ge<correction>
+        <deletion>z</deletion>
+
+        <insertion>k</insertion>
+      </correction>ommen dir zu schreiben.<par />Meine allgemeine Meinung über die Verwendung des Internet ist eigentlich nicht nur negativ, wie vielleicht bei den meisten. Ich glaube es <error>
+        <errorType />
+
+        <originalForm>schenckt</originalForm>
+
+        <targetForm>schenkt</targetForm>
+      </error> uns viele Möglichkeiten andere Freunde am anderen Ende der Welt zu hören und mit ihnen ständig in Kontakt zu sein. Doch das Chatten mit fremden Menschen finde ich nicht sehr ratsam. Man weiß nie wer am anderen Computer oder Handy schreibt und ob es ihn auch wirklich gibt. Denn leider haben diese vielen Netzwerke oder Smartphone zu Fake-Profil<correction>
+        <deletion>i</deletion>
+
+        <insertion>e</insertion>
+      </correction>n und falschen Nummern geführt.<par />Wie auch dir passiert ist verlieren viele Menschen durch das ständige Chatten jeglichen Kontakt zum Alltag und Freunden. Mein Rat an dich ist <correction>
+        <deletion><unreadable /></deletion>
+      </correction> diesen fremden Nummern antworten, dass du nicht mehr interessiert bist mit ihnen zu schreiben ohne sie richtig kennenzulernen. Ich hoffe, dass dir dieser Rat helfen kann.<par /><correction>
+        <deletion>D<unreadable /> virtu</deletion>
+      </correction> Denn auch ich habe eine schlimme Erfahrung mit dem Internet gemacht. Es ist einfach besser ein bisschen vorsichtig damit <error>
+        <errorType />
+
+        <originalForm>umzugenen</originalForm>
+
+        <targetForm>umzugehen</targetForm>
+      </error>.<par /><closing>Viel Erfolg und alles Gute <error>
+          <errorType />
+
+          <originalForm>nacht</originalForm>
+
+          <targetForm>Nacht</targetForm>
+        </error>.<par />Ciao, ciao!</closing></exercise>
+  </body>
+</kolipsi_II_document>

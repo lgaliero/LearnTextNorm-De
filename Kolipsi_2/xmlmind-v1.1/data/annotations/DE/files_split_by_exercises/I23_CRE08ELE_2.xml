@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I23_CRE08ELE</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Sehr geehrter Herr Paul,</greeting><par/>ich habe Ihren Artikel in der gestrigen Zeitung "Junge Woche" in der Rubrik "Persönliche Briefe" gelesen.<par/>Ich habe mich sofort angesprochen gefühlt, weil ich auch bereits eine ähnliche Eufahrung gemacht habe. Auch ich liebe es, im Internet zu surfen und dort neue Leute kennenlernen. Leider weiß ich, dass das nicht immer positiv ausgehet. Auch ich ha<correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>tt</insertion>
+      </correction>e aufgehört, das Haus zu verlassen und saß nur noch vor dem Computerbildschirm. <correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>N</insertion>
+      </correction>ach einer Weile  habe ich bemerkt, dass das so nicht weitergehen konnte, doch es ist mir äußerst schwer gefallen, wieder zum normalen Leben zurückzukehren und noch heute habe ich Probleme, zu meinen alten Freunden zurückzufinden.<par/>Ich finde, <correction>
+        <deletion>du</deletion>
+
+        <insertion>Sie</insertion>
+      </correction> sollten ihnen antworten und <error>
+        <errorType/>
+
+        <originalForm>ihre</originalForm>
+
+        <targetForm>Ihre</targetForm>
+      </error> Situation schildern. Natürlich <error>
+        <errorType/>
+
+        <originalForm>w<ambiguous>
+            <alternative>i</alternative>
+
+            <alternative>r</alternative>
+          </ambiguous>d</originalForm>
+
+        <targetForm>wird</targetForm>
+      </error> es für Sie und auch für die anderen nicht einfach sein, da <error>
+        <errorType/>
+
+        <originalForm>sie</originalForm>
+
+        <targetForm>Sie</targetForm>
+      </error> mittlerweile gute Freunde geworden seid. Doch wenn Sie merken, dass <error>
+        <errorType/>
+
+        <originalForm>dese</originalForm>
+
+        <targetForm>diese</targetForm>
+      </error> Freundschaft Ihr "richtiges" Leben <error>
+        <errorType/>
+
+        <originalForm>beeintre<correction>
+            <deletion>g</deletion>
+
+            <insertion>c</insertion>
+          </correction>htigen</originalForm>
+
+        <targetForm>beeinträchtigen</targetForm>
+      </error>, dann wäre es vielleicht besser, dass <correction>
+        <deletion>s</deletion>
+
+        <insertion>S</insertion>
+      </correction>ie <error>
+        <errorType/>
+
+        <originalForm>ihren</originalForm>
+
+        <targetForm>Ihren</targetForm>
+      </error> neuen Freunden die Wahrheit sagen, auch wenn es schmerzvoll ist.<par/>Mittlerweile habe ich verstanden, dass virtuelle Freundschaften nichts für mich sind, da ich diese Freunde nie persönlich kennenlernen würde und da ich so kein <correction>
+        <deletion>S</deletion>
+
+        <insertion>s</insertion>
+      </correction>oziales Leben mehr führe. Es ist wichtiger, dass sie versuchen, mit Ihren alten Freunden zu reden und ich bin mir sicher, dass sie Ihre Situation verstehen würden und Ihnen sogar helfen würden, eine Lösung zu finden.<par/>Ich habe es geschafft, mi<correction>
+        <deletion>t</deletion>
+
+        <insertion>c</insertion>
+      </correction>h von den virtuellen Freundschaften <error>
+        <errorType/>
+
+        <originalForm>fern zu halten</originalForm>
+
+        <targetForm>fernzuhalten</targetForm>
+      </error>. Nun führe ich ein normales Leben, habe viele Freunde und habe sogar eine Freundin gefunden. Ich bin sehr zuversichtlich, dass <error>
+        <errorType/>
+
+        <originalForm>sie</originalForm>
+
+        <targetForm>Sie</targetForm>
+      </error> das auch schaffen werden. Ich würde mich freuen, wenn <correction>
+        <deletion>s</deletion>
+
+        <insertion>S</insertion>
+      </correction>ie mich auf dem Laufenden halten würden.<par/><closing>Liebe Grüße und noch viel Glück,</closing><par/><correction>
+        <deletion><unreadable/></deletion>
+      </correction> Manfred.</exercise>
+  </body>
+</kolipsi_II_document>

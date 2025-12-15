@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0071</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Liebe <entity>Leonie</entity></greeting>!<par/>Erinnerst du dich noch an meine Freundin <entity>Maria</entity>? Ihr ist etwas <error>
+        <errorType/>
+
+        <originalForm>blödes</originalForm>
+
+        <targetForm>Blödes</targetForm>
+      </error> passiert: Sie war am Vormittag beim Obsthändler um ein paar Sachen einzu<hyphen>-</hyphen>kaufen. Dazu muss man sagen, dass sie am Morgen einen Anruf von ihrem Anwalt gekriegt hatte, dass sie wahrscheinlich das Sorgerecht für ihre Kinder verlieren wird, wegen des Drogenmissbrauchs, davon hatte ich dir ja schon einmal erzählt. <correction>
+        <deletion><unreadable/></deletion>
+      </correction> Im Grunde genommen war die Sache auch schon abgehakt, doch leider <correction>
+        <deletion><unreadable/></deletion>
+      </correction> hatte sich ihr Mann deswegen von ihr <overwrite>
+        <under>S</under>
+
+        <over>s</over>
+      </overwrite>cheiden lassen und das Sorgerecht beantragt. Sie hatte darauf gehofft, dass sie durch die Vor<hyphen>-</hyphen>weisung des Drogentests, dass sie seit über 6 Monaten "clean" ist, aber das Sorge<hyphen>-</hyphen>recht behalten könnte. Jetzt war sie so durch den Wind, dass sie im Obstladen ihr Portemonnaie und die meisten Zutaten für das Mittagessen vergessen hatte. Anscheinend war es der Verkäuferin auch nicht aufgefallen, oder sie hatte andere Absichten, auf jeden Fall blieb das Portemonnaie auf dem Verkaufstresen liegen.<par/><entity>Marie</entity> ist das alles gar nicht aufgefallen, bis sie dabei war das Mittagessen zu kochen, denn immerhin fehlte die Hälfte. Da der Gemüseladen schon <error>
+        <errorType/>
+
+        <originalForm>zu hatte</originalForm>
+
+        <targetForm>zuhatte</targetForm>
+      </error> musste sie sich mit dem Supermarkt begnügen und machte gleich dazu noch ein paar andere Einkäufe. <correction>
+        <deletion>Erst</deletion>
+      </correction><par/>Erst als es schon zu spät war, nämlich an der Kasse des Supermarkts, fiel ihr auf, dass das Portemonnaie feh<over>lte</over>. Die Verkäuferin machte einen riesigen Aufstand deswegen, aber letztendlich war das nicht so schlimm <over>,</over> denn was viel schlimmer war, war die Tatsache, dass in ihrem Portemonnaie das Geld gewesen war mit dem sie die Schulden, die sich durch den Drogenkonsum angeh<over>äuft</over> hatten, bezahlen wollte um endlich aus der Affäre raus zu sein.<par/>Sie hat aber auch immer so ein Pech, denn die Verkäuferin hat sich abgesetzt und ist <error>
+        <errorType/>
+
+        <originalForm>zur Zeit</originalForm>
+
+        <targetForm>zurzeit</targetForm>
+      </error> nicht auffindbar. Wahrscheinlich ist die jetzt auf einer karibischen Insel und lässt es sich gut gehen, denn immerhin sprechen wir hier von immens <overwrite>
+        <under>g</under>
+
+        <over>h</over>
+      </overwrite>ohen Summen.<par/>Das wollte ich dir nur erzählt haben, denn ich hab dich ja schon seit einer Woche nicht mehr gesehen!<par/>Wie geht es eigentlich mit deiner Ausbildung als Kauffrau?<par/><closing>So<over>n</over><overwrite>
+          <under><unreadable/></under>
+
+          <over>n</over>
+        </overwrite>ige Grüße,<par/>deine <entity>Carla</entity>.  </closing>      </exercise>
+
+    
+  </body>
+</kolipsi_document>

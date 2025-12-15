@@ -1,0 +1,22 @@
+<body>
+ <page page_number="1" transcanno_page_id="258">
+  <paragraph class="medium-paragraph" tagcode="1553689481194">
+   <div>
+    1) Ich möchte nach der Mittelschule
+   </div>
+   <div>
+    gehe in
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553689465395" tran_correction_original="Ginnasium">
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Gymnasium" tagcode="1553689481193">
+      Gimnasium
+     </orth_error_id12>
+    </tran_word_correction_id25>
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1553689481196">
+   <div>
+    2) Mein Traumberuf ist
+   </div>
+  </paragraph>
+ </page>
+</body>

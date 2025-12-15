@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I34_BUR12ELI</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe Benedetta,</greeting><par />meiner Freundin Maria ist wirklich etwas <error>
+        <errorType />
+
+        <originalForm>schreklich</originalForm>
+
+        <targetForm>Schrecklich</targetForm>
+      </error> geschehen. Sie war letzte Woche einkaufen, und am Anfang hatte sie etwas Obst und Gemüse gekauft. Aber leider hatte sie den Zettel dort vergessen, also als sie später im <error>
+        <errorType />
+
+        <originalForm>Supermakt</originalForm>
+
+        <targetForm>Supermarkt</targetForm>
+      </error> gegangen ist, fragten <correction>
+        <deletion>ihr</deletion>
+      </correction> sie an der Kasse ob <correction>
+        <deletion><unreadable /></deletion>
+      </correction> sie die Gemüse und das Obst auch kaufen wollte. Maria sagte dann, dass sie sie schon gekauft habe, aber als sie den Zettel zeigen wollte, k<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>o</insertion>
+      </correction>nnte sie ihn nicht finden. Da es scheint als sie alles gestohlen hatte, en<correction>
+        <deletion>s</deletion>
+
+        <insertion>t</insertion>
+      </correction>schied sie sich alles in Supermarkt zu lassen. Aber so konnte <correction>
+        <deletion>nicht als</deletion>
+
+        <insertion>sie nicht</insertion>
+      </correction> die Torte für mein Gebur<correction>
+        <insertion>t</insertion>
+      </correction>stag kochen. (Schade!)<par />Also <correction>
+        <insertion>ist</insertion>
+      </correction> es <correction>
+        <deletion>ist</deletion>
+      </correction> eine Warnung auch für dich: <error>
+        <errorType />
+
+        <originalForm>pass</originalForm>
+
+        <targetForm>Pass</targetForm>
+      </error> auf!<par />Ein so unwichtiges und kleines <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Stück von Papier ist aber ja wichtig!<par /><correction>
+        <deletion><unreadable /></deletion>
+      </correction> <closing>Mit freundlichen Grüßen</closing><par />Elisabetta </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber Paul,</greeting><par />ich habe dein Brief gelesen. Als ich deine Wörte gelesen habe, habe ich auch gedacht, dass du alles gut gemacht hast.<par /><correction>
+        <deletion>Ich denke <unreadable /></deletion>
+      </correction> Meiner Meinung nach sind diese neuen virtuellen Freundschaften nur etwas <error>
+        <errorType />
+
+        <originalForm>unwirklich</originalForm>
+
+        <targetForm>Unwirklich</targetForm>
+      </error>, sondern <correction>
+        <insertion>nur</insertion>
+      </correction> virtuell<correction>
+        <deletion><unreadable /></deletion>
+      </correction>. Du kannst eine Person <correction>
+        <deletion>wirklich kennen</deletion>
+      </correction>, nur beim Chatten <correction>
+        <insertion>wirklich kennen</insertion>
+      </correction>. Vor einem Computer kann man <correction>
+        <deletion><unreadable /></deletion>
+      </correction> freier schreiben, aber vielleicht <correction>
+        <deletion>ko</deletion>
+      </correction> würde <correction>
+        <insertion>man</insertion>
+      </correction> auch sagen <correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>das was</insertion>
+      </correction> in der Wirklichkeit er nie sagen würde. Zweitens kannst du sicher nicht einen Freund <correction>
+        <deletion>wirkli</deletion>
+      </correction> haben mit dem du nur schreibst. Es ist sicherlich nicht normal. <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Ich bin davon überzeugt, dass man mit Freunden viele Erfahrungen, und ich meine wahre Erfahrungen, leben sollte.<par />Ich denke, dass du wirklich das Rechte gemacht hast. Wir müssen d<correction>
+        <deletion><unreadable /></deletion>
+      </correction>as wahre <error>
+        <errorType />
+
+        <originalForm>leben</originalForm>
+
+        <targetForm>Leben</targetForm>
+      </error> kennen, und nicht unsere Zeit vor einem Computer verbrach<correction>
+        <insertion>t</insertion>
+      </correction>en.<par />Internet ist sicherlich ein wunderba<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>r</insertion>
+      </correction>es Mittel auch <correction>
+        <deletion><unreadable /></deletion>
+      </correction> mit Freunden im Kontakt zu bleiben, aber nicht neue Freunden <correction>
+        <deletion>z</deletion>
+      </correction> kennenzulernen.<par /><closing>Mit freundlichen Grüßen</closing><par />Elisabetta<par />esbertrutta@gmail.com </exercise>
+  </body>
+</kolipsi_II_document>

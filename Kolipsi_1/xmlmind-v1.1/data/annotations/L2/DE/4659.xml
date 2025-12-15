@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>4659</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve">
+ <par /><greeting>Hallo <entity>Ian</entity>,</greeting> <par />Dieses <error>
+        <errorType />
+
+        <originalForm>morgen</originalForm>
+
+        <targetForm>Morgen</targetForm>
+      </error> war ich am <foreign_word foreign_language="Italiano">Su<overwrite>
+          <under><unreadable /></under>
+
+          <over>p</over>
+        </overwrite>ermarket</foreign_word> gegangen<strikeover>
+        <expansion>:</expansion>
+
+        <expansion>;</expansion>
+      </strikeover> da ich habe gesehen eine Frau, seine Name war <entity>Maria</entity>; sie hat die <error>
+        <errorType />
+
+        <originalForm>einkaufen</originalForm>
+
+        <targetForm>Einkaufen</targetForm>
+      </error> <overwrite>
+        <under><unreadable /></under>
+
+        <over>g</over>
+      </overwrite>emacht, aber wenn sie hat bezah<overwrite>
+        <under><unreadable /></under>
+
+        <over>l</over>
+      </overwrite>t, die Verkäuferin hat ih<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>n</insertion>
+      </correction><correction>
+        <deletion><unreadable /></deletion>
+      </correction> gesagt dass er hat <error>
+        <errorType />
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> die Obst und die Gemüse. Wenn <entity>Maria</entity> hat das gehört er hat an die Verkäuferin dass er hat <overwrite>
+        <under><unreadable /></under>
+
+        <over>n</over>
+      </overwrite>icht gestolt, aber Frau <entity>Maria</entity> <correction>
+        <deletion>hat nicht</deletion>
+      </correction> hat <strikeover>
+        <expansion>O</expansion>
+
+        <expansion>o</expansion>
+      </strikeover>bst und Gemüse von die andere <foreign_word
+        foreign_language="Italiano">market</foreign_word> gekauft und dann hat sie die Obst und die Gemüse in d<strikeover>
+        <expansion>er</expansion>
+
+        <expansion>ie</expansion>
+      </strikeover> <foreign_word foreign_language="Italiano">Supermarket</foreign_word> gebringen und so die Verkäuferin hat gesagt zu <entity>Maria</entity> dass er muss <error>
+        <errorType />
+
+        <originalForm>nocheinmal</originalForm>
+
+        <targetForm>noch einmal</targetForm>
+      </error> die Obst und die Gemüse<correction>
+        <deletion><unreadable /></deletion>
+      </correction> bezahlen. Wenn <entity>Maria</entity> hat an die Verkäuferin gesagt dass sie hat die Obst und die Gemüse in einen anderen <foreign_word
+        foreign_language="Italiano">Market</foreign_word> gekauft, <correction>
+        <deletion>die Verkäuferin hat ihn gesagt dass sie kann gehen</deletion>
+      </correction> aber <entity>Maria</entity> hat der Kassenzettel in die anderen <foreign_word
+        foreign_language="Italiano">Market</foreign_word> vergessen und sie könnte nicht <error>
+        <errorType />
+
+        <originalForm>beweißen</originalForm>
+
+        <targetForm>beweisen</targetForm>
+      </error> dass sie diesen Produk<strikeover>
+        <expansion>t</expansion>
+
+        <expansion>e</expansion>
+      </strikeover>en in einen anderen <foreign_word
+        foreign_language="Italiano">Market</foreign_word> gekauft hat.</exercise>
+
+    <exercise number="2" xml:space="preserve">Für mich die Url<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>a</insertion>
+      </correction>ub am Meer und die Urlaub <overwrite>
+        <under><unreadable /></under>
+
+        <over>i</over>
+      </overwrite>n den Bergen sind sehr verschieden weil die zwei <error>
+        <errorType />
+
+        <originalForm>plätze</originalForm>
+
+        <targetForm>Plätze</targetForm>
+      </error> sind ziemlich verschieden<strikeover>
+        <expansion>:</expansion>
+
+        <expansion>;</expansion>
+      </strikeover> aber <overwrite>
+        <under><unreadable /></under>
+
+        <over>f</over>
+      </overwrite>ür mich wenn du bist mit deinen Freunden alle<ambiguous>
+        <alternative>s</alternative>
+
+        <alternative>r</alternative>
+      </ambiguous> Urlaub sin<overwrite>
+        <under><unreadable /></under>
+
+        <over>d</over>
+      </overwrite> schönen weil du immer <error>
+        <errorType />
+
+        <originalForm>spaß</originalForm>
+
+        <targetForm>Spaß</targetForm>
+      </error> <sic>hat</sic>. <error>
+        <errorType />
+
+        <originalForm>Letzen</originalForm>
+
+        <targetForm>Letzten</targetForm>
+      </error> Sommer ich war in <entity>Albanien</entity> am Meer gegangen, ich habe mit meinen Freunden vielen <correction>
+        <deletion>S</deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>spaß</originalForm>
+
+        <targetForm>Spaß</targetForm>
+      </error> gehabt. Ich bin allen Tagen am Meer gegangen und wir haben befreundet mit die Touristen <overwrite>
+        <under><unreadable /></under>
+
+        <over>;</over>
+      </overwrite> ich war sehr froh am <overwrite>
+        <under><unreadable /></under>
+
+        <over>Me</over>
+      </overwrite>er. In den Bergen ich kann immer wenn ich wolle gehen, weil ich in <entity>Südtirol</entity> le<overwrite>
+        <under><unreadable /></under>
+
+        <over>b</over>
+      </overwrite>e. Aber für mich die beste Urlaub ist am Me<overwrite>
+        <under><unreadable /></under>
+
+        <over>er</over>
+      </overwrite> mit deinen Freunden. Aber wenn dir <error>
+        <errorType />
+
+        <originalForm>gefält</originalForm>
+
+        <targetForm>gefällt</targetForm>
+      </error> nicht den Meer du kann<strikeover>
+        <expansion>s</expansion>
+
+        <expansion>t</expansion>
+      </strikeover>t in einen großen Hauptstadt gehe<overwrite>
+        <under><unreadable /></under>
+
+        <over>n</over>
+      </overwrite>; <error>
+        <errorType />
+
+        <originalForm>mi</originalForm>
+
+        <targetForm>mir</targetForm>
+      </error> gefallen auch die große <error>
+        <errorType />
+
+        <originalForm>Haupstädten</originalForm>
+
+        <targetForm>Hauptstädten</targetForm>
+      </error> von <entity>Europa</entity> weil <correction>
+        <deletion>es</deletion>
+      </correction> sie sind sehr <error>
+        <errorType />
+
+        <originalForm>schon</originalForm>
+
+        <targetForm>schön</targetForm>
+      </error> und dahin leben vielen Personen und das ist sehr <error>
+        <errorType />
+
+        <originalForm>schon</originalForm>
+
+        <targetForm>schön</targetForm>
+      </error>.</exercise>
+  </body>
+</kolipsi_document>

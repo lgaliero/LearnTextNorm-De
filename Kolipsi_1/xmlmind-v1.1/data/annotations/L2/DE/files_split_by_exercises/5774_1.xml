@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5774</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve">
+      <par/><greeting><error>
+          <errorType/>
+
+          <originalForm>Libe</originalForm>
+
+          <targetForm>Liebe</targetForm>
+        </error> <entity>Mario</entity>,</greeting> <par/><error>
+        <errorType/>
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> möchte dir erzählen was ist der letzte <overwrite>
+        <under>w</under>
+
+        <over>W</over>
+      </overwrite>oche zu meine Freundin <entity>Maria</entity> passiert.<par/>Diese <strikeover>
+        <expansion>G</expansion>
+
+        <expansion>g</expansion>
+      </strikeover>eschichte ist ganz <error>
+        <errorType/>
+
+        <originalForm>komis<strikeover>
+            <expansion>h</expansion>
+
+            <expansion>c</expansion>
+          </strikeover></originalForm>
+
+        <targetForm>komisch</targetForm>
+      </error> weil <entity>Maria</entity> ist <correction>
+        <deletion>in ein</deletion>
+      </correction> beim Obsthändler gegangen, und danach ist sie i<overwrite>
+        <under>ns</under>
+
+        <over>m</over>
+      </overwrite> Supermarkt gegangen. Wenn sie an die Kasse war sah die <correction>
+        <deletion>Verkäf</deletion>
+      </correction> Verkäuferin <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> sie <correction>
+        <insertion>hatte</insertion>
+      </correction> in die Tasche etwas das sie <correction>
+        <deletion><unreadable/></deletion>
+      </correction> nicht bezahlen hatte. So <entity><strikeover>
+          <expansion>M</expansion>
+
+          <expansion>m</expansion>
+        </strikeover>aria</entity> probierte zu erklären was es passiert war aber die Verkäuferin wollte <correction>
+        <deletion>ihn</deletion>
+      </correction> sie nicht glauben und rufte die Polizei an.<par/><entity>Maria</entity> wüsste nicht was zu machen und <sic>bekommte</sic> viel <error>
+        <errorType/>
+
+        <originalForm>angst</originalForm>
+
+        <targetForm>Angst</targetForm>
+      </error> So <sic>entschidet</sic> sie <error>
+        <errorType/>
+
+        <originalForm>weg zu laufen</originalForm>
+
+        <targetForm>wegzulaufen</targetForm>
+      </error>. Die zwei Polizisten waren aber schon da und <correction>
+        <deletion><unreadable/></deletion>
+      </correction>und <correction>
+        <deletion>so</deletion>
+      </correction> begonnen hinter <correction>
+        <deletion>si</deletion>
+      </correction>  ihn zu laufen. Eine von die z<overwrite>
+        <under><unreadable/></under>
+
+        <over>w</over>
+      </overwrite>ei Polizisten war aber se<overwrite>
+        <under>r</under>
+
+        <over>h</over>
+      </overwrite>r <foreign_word foreign_language="English">fat</foreign_word> und <correction>
+        <deletion><unreadable/></deletion>
+      </correction> nach fünfzig <error>
+        <errorType/>
+
+        <originalForm>meter</originalForm>
+
+        <targetForm>Meter</targetForm>
+      </error> fallte er auf den <strikeover>
+        <expansion>B</expansion>
+
+        <expansion>b</expansion>
+      </strikeover>oden und der andere wurde sich gegen ein Fahrrade<ambiguous>
+        <alternative>n</alternative>
+
+        <alternative>r</alternative>
+      </ambiguous><correction>
+        <deletion><unreadable/></deletion>
+      </correction> laufen<par/><closing><error>
+          <errorType/>
+
+          <originalForm>Grüse</originalForm>
+
+          <targetForm>Grüße</targetForm>
+        </error> <entity>Antonello</entity> </closing> </exercise>
+
+    
+  </body>
+</kolipsi_document>

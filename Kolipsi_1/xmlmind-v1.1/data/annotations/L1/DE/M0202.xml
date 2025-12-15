@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0202</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Alex</entity></greeting>!<par />Wie geht es dir?<par />Ich dachte mir, ich schreibe dir nach langem mal wieder eine <error>
+        <errorType />
+
+        <originalForm>Email</originalForm>
+
+        <targetForm>E-Mail</targetForm>
+      </error>. Hast du schon ge<hyphen>-</hyphen>hört was <entity>Maria</entity> gestern passiert ist? Das war total <correction>
+        <deletion>p</deletion>
+      </correction> peinlich! Falls du es noch nicht <correction>
+        <deletion><unreadable /></deletion>
+      </correction> gehört hast, werd ich es dir jetzt mal erörtern. <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Also, <correction>
+        <deletion><entity>Maria</entity></deletion>
+      </correction> wir Mädchen wollten gestern einen Mädchenabend <correction>
+        <deletion>Ma<unreadable /></deletion>
+      </correction> machen. <entity>Julia</entity> sollte sich um die Filme kümmern und <entity>Maria</entity> um das Essen. Ich war für die Getränke ver<hyphen>-</hyphen>antwortlich. Als <entity>Maria</entity> in den Obstladen gegangen ist, um Früchte für den Schokobrunnen zu kaufen hat sie an der Kasse den Kassenbon liegen lassen. Die Verkäuferin <correction>
+        <deletion>ha</deletion>
+      </correction> wollte <entity>Maria</entity> zwar noch darauf hinweisen, doch die hatte schon längst wieder ihre Ohrstöpsel eingeschaltet und flottierte aus dem Obst<hyphen>-</hyphen>laden heraus. Du fragst dich sicher warum das jetzt peinlich <correction>
+        <deletion>s</deletion>
+      </correction> gewesen sein soll, aber darauf kommen wir jetzt noch. Mit den frischen Früchten in ihrer Handtasche, machte sie sich auf den Weg zum Supermarkt, um dort noch Schokolade und <correction>
+        <deletion><unreadable /></deletion>
+      </correction> <correction>
+        <insertion>weitere</insertion>
+      </correction> diverse Süßigkeiten einzukaufen. Also ging sie durch den Supermarkt und packte diverse Sachen in ihren Einkaufsw<overwrite>
+        <under>g</under>
+
+        <over>a</over>
+      </overwrite>gen, voller Vorfreude auf den lustigen Abend. Als <entity>Maria</entity> zur Kasse kam und die Einkaufsware <sic>auf</sic> Förderband legte merkte sie bereits, dass die Kassier<correction>
+        <deletion>in</deletion>
+      </correction><correction>
+        <insertion>erin</insertion>
+      </correction> sie <correction>
+        <deletion><unreadable /></deletion>
+      </correction> gespannt betrachtete. Die Kassiererin zog die Ware über den Scanner und fragte <entity>Maria</entity>, ob das auch wirklich alles wäre. <entity>Maria</entity> antwortete schon leicht genervt: <direct_speech>"Ja natürlich war das alles! Kann ich jetzt bitte endlich zahlen?"</direct_speech> Doch die Kassiererin<correction>
+        <deletion>,</deletion>
+      </correction> forderte <entity>Maria</entity> auf ihren Tascheninhalt zu entleeren, <correction>
+        <deletion>dann</deletion>
+      </correction>oder sie wäre gezwungen den Sicherheitsdienst <error>
+        <errorType />
+
+        <originalForm>hinzu<correction>
+            <deletion>zu</deletion>
+          </correction> zu ziehen</originalForm>
+
+        <targetForm>hinzuzuziehen</targetForm>
+      </error>. Da erst verstand <entity>Maria</entity> <error>
+        <errorType />
+
+        <originalForm>vorauf</originalForm>
+
+        <targetForm>worauf</targetForm>
+      </error> die Verkäuferin hinaus wollte. <entity>Maria</entity> erklärte <correction>
+        <deletion>d</deletion>
+      </correction> ihr, dass sie die Früchte im Obstladen <correction>
+        <deletion>neb</deletion>
+      </correction>gegenüber gekauft hat, weil das Obst <correction>
+        <deletion>da<unreadable /></deletion>
+      </correction> dort einfach frischer ist. Darauf erwiderte die Kassiererin: <direct_speech>"Dann können Sie ja bestimmt einen Kassen<hyphen>-</hyphen>zettel nachweisen oder?"</direct_speech> <direct_speech>"Natürlich"</direct_speech>, antwortete <entity>Maria</entity> und kramte verzweifelt in ihrer Tasche. Doch sie konnte den Zettel nicht finden. In diesem <overwrite>
+        <under>a</under>
+
+        <over>A</over>
+      </overwrite>ugenblick kam die Verkäuferin aus dem Obstladen mit dem Kassenzettel, da sie das Spektakel mitbekommen hatte. Und so klärte sich d<overwrite>
+        <under>a</under>
+
+        <over>e</over>
+      </overwrite>r Zwischenfall doch noch. Welch ein Glück für <entity>Maria</entity>! Dennoch wurd<over>e</over> sie bereits von allen Kunden angestarrt. <error>
+        <errorType />
+
+        <originalForm>Naja</originalForm>
+
+        <targetForm>Na ja</targetForm>
+      </error>, der Mädchenabend verlief dafür umso besser. Ich melde mich die Tage nochmal bei dir! <closing>Liebe Grüße <entity>Nessa</entity></closing>                     </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo <correction>
+          <deletion><unreadable /></deletion>
+        </correction> <correction>
+          <insertion>Schatz</insertion>
+        </correction>,</greeting><par /><error>
+        <errorType />
+
+        <originalForm>Wie</originalForm>
+
+        <targetForm>wie</targetForm>
+      </error> geht es dir?<par /><correction>
+        <deletion>Als</deletion>
+      </correction> Ich habe mir die Tage nochm<overwrite>
+        <under>o</under>
+
+        <over>a</over>
+      </overwrite>l Gedanken über unsere Urlaubsplanung gemacht und schwanke <error>
+        <errorType />
+
+        <originalForm>immernoch</originalForm>
+
+        <targetForm>immer noch</targetForm>
+      </error> zwischen zwei Alternativen. Ich kann mich einfach nicht zwischen einem schönen Urlaub in den Bergen oder einem schönen Urlaub am<correction>
+        <deletion>M</deletion>
+      </correction> Meer entscheiden. Beides h<over>a</over>t natürlich seine Vorteile und Nachteile. Ich glaube, momentan <correction>
+        <deletion>s</deletion>
+      </correction> neige ich eher zu einem schönen Urlaub am Meer. Dort könnten wir den ganzen Tag zu zweit in der Sonne am Strand liegen und uns abends die Stadt anschauen. Wie<overwrite>
+        <under>e</under>
+
+        <over>d</over>
+      </overwrite>erum, könnten wir in den Bergen spazieren gehen und die wunderschöne Natur genießen und mittags auf den Hütten etwas <error>
+        <errorType />
+
+        <originalForm>Essen</originalForm>
+
+        <targetForm>essen</targetForm>
+      </error> gehen. Wie gesagt, ich kann mich einfach nicht entscheiden. Deshalb wollte ich di<overwrite>
+        <under>e</under>
+
+        <over>c</over>
+      </overwrite>h mit diesem Brief um deine Meinung bitten. Immerhin fährst du ja auch mit! Also schreib mir bitte deine Antwort, als Entscheidungshilfe, wo wir <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Urlaub machen sollen. Ein Urlaub am Meer wäre natürlich die <strikeover>
+        <expansion>p</expansion>
+
+        <expansion>P</expansion>
+      </strikeover>erfekte Mischung zwischen Erholung und Party und dabei würde ich noch schön braun werden, in den Bergen <error>
+        <errorType />
+
+        <originalForm>wiederrum</originalForm>
+
+        <targetForm>wiederum</targetForm>
+      </error> hätten wir eine tolle Mischung aus Erholung und Sport <correction>
+        <deletion>,was mir</deletion>
+      </correction> an der frischen Luft, was mir sicherlich sehr gut tun würde. Andererseits könnte es auch passieren, dass ich mich nach zwei Tagen nicht mehr bewegen kann, weil ich so viele Blasen an den Füßen haben werde von den Wanderschuhen oder das Wetter macht uns einen Strich durch die Rechnung und wir können die Berge zwei Wochen<correction>
+        <deletion>lang</deletion>
+      </correction> lang vom Hotelzimmer aus<correction>
+        <deletion>betra</deletion>
+      </correction> betrachten. Wobei in so einem Urlaub am Meer auch so einiges <error>
+        <errorType />
+
+        <originalForm>schief gehen</originalForm>
+
+        <targetForm>schiefgehen</targetForm>
+      </error> kann. Manchmal ist das Wetter dort total wechsel<hyphen>-</hyphen>haft, oder aber es ist so heiß, dass man es kaum aushält. Und dazu kommt dann meist noch ein ganz fieser Sonnenbrand. Und diese unvorteilhaften Bikinis diesen Sommer! Ich <correction>
+        <deletion>wei</deletion>
+      </correction> kann mich noch an den letzten Urlaub er<hyphen>-</hyphen>innern. Ich bin in der Sonne eingeschlafen und als ich aufgewacht bin sah ich aus wie ein Krebs. Feuerrot! <error>
+        <errorType />
+
+        <originalForm>Naja</originalForm>
+
+        <targetForm>Na ja</targetForm>
+      </error> mein Liebling, was meinst du dazu? Ich überlasse dir die Entscheidung<overwrite>
+        <under>!</under>
+
+        <over>.</over>
+      </overwrite> Mir ist beides recht!<par /><closing>In Liebe<par /><entity>Vanessa</entity></closing>          </exercise>
+  </body>
+</kolipsi_document>

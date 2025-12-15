@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I14_BIC12COJ</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Hallo Paul,</greeting><par/><correction>
+        <deletion>Wie geht es dir?<par/>Für mich die virtuelle Freund</deletion>
+      </correction><par/><error>
+        <errorType/>
+
+        <originalForm>Über</originalForm>
+
+        <targetForm>über</targetForm>
+      </error> <correction>
+        <deletion>di</deletion>
+      </correction> virtuelle Freundschaften denke ich, <correction>
+        <deletion>dass <correction>
+            <insertion>es ist</insertion>
+          </correction> nicht ein richtig</deletion>
+      </correction> dass ist es nicht richtig, warum ist nicht, gut haben <correction>
+        <deletion>eine ein/e</deletion>
+      </correction> einen Freund oder eine <correction>
+        <deletion>Freundin</deletion>
+      </correction> Freundin <correction>
+        <deletion>des Internets</deletion>
+
+        <insertion>mit dem Internet</insertion>
+      </correction>. <correction>
+        <deletion>Für mich mu muss sic sich man man m muss schaun schauen und hören</deletion>
+      </correction> Für mich sich muss die <error>
+        <errorType/>
+
+        <originalForm>personen</originalForm>
+
+        <targetForm>Personen</targetForm>
+      </error> schauen und hören. Jetzt <correction>
+        <deletion>ich erzähle ich</deletion>
+      </correction> ich erzähle dir eine Erfahrung, dass <correction>
+        <insertion>habe</insertion>
+      </correction> ich mit dem Internet gemacht. Also bis vor einigen Jahren ein Freund hat mit über Facebook <correction>
+        <deletion>geschirebt</deletion>
+      </correction> geschriebt und <correction>
+        <deletion>ich</deletion>
+
+        <insertion>ich</insertion>
+      </correction> habe er geantwortet, danach <correction>
+        <deletion>wir</deletion>
+      </correction> haben wir begonnt sprechen. Aber es war ein <foreign_word foreign_language="English">Error</foreign_word>, <error>
+        <errorType/>
+
+        <originalForm>dass</originalForm>
+
+        <targetForm>das</targetForm>
+      </error> ich habe <correction>
+        <deletion>gema in die</deletion>
+      </correction> meine <error>
+        <errorType/>
+
+        <originalForm>lebe</originalForm>
+
+        <targetForm>Leben</targetForm>
+      </error> gemacht.<par/><correction>
+        <deletion>Meine Meinung über die</deletion>
+      </correction> Für Interner denke ich, dass ist gut, <correction>
+        <deletion>ab</deletion>
+      </correction> aber ob <correction>
+        <deletion><unreadable/> sch ke wir</deletion>
+      </correction> kennen wir <foreign_word foreign_language="Italiano">usare</foreign_word>.</exercise>
+  </body>
+</kolipsi_II_document>

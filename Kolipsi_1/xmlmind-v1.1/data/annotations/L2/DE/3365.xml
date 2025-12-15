@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Romy</transcriber>
+
+  <author_id>3365</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Nicole</entity>,</greeting> ihre Freundin <entity>Maria</entity> war letzte Woche einkaufen. Sie kaufte zuerst in einem Obst- und Gemüselanden ein. Eine Stunde später war sie im Supermarkt. Dort gab es ein Problem an der Kasse. Die vier Bilder zeigen, <correction>
+        <deletion><unreadable /></deletion>
+      </correction> und <entity>Maria</entity> haben sie bezahlen <error>
+        <errorType />
+
+        <originalForm>Obst</originalForm>
+
+        <targetForm>Obst-</targetForm>
+      </error> und Gemüseladen ein. <error>
+        <errorType />
+
+        <originalForm>When</originalForm>
+
+        <targetForm>Wenn</targetForm>
+      </error> sie kommt zu Hause <error>
+        <errorType />
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> <sic>sprache</sic> mit sie <entity>Marito</entity> <correction>
+        <deletion><unreadable /></deletion>
+      </correction> <par /> </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo <entity>Nicole</entity> </greeting>sie Urlaub in <correction>
+        <deletion><unreadable /></deletion>
+      </correction> den Bergen oder am Meer? In Sommer ich <error>
+        <errorType />
+
+        <originalForm>libe</originalForm>
+
+        <targetForm>liebe</targetForm>
+      </error> <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Berge <correction>
+        <deletion><unreadable /></deletion>
+      </correction> ist <correction>
+        <deletion><unreadable /></deletion>
+      </correction> schön, oder am Meer in <unreadable /> Tropici, Caraibi</exercise>
+  </body>
+</kolipsi_document>

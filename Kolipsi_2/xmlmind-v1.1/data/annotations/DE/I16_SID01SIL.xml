@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I16_SID01SIL</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Lieber Freund,</greeting><par />Maria war letzte Woche einkaufen. Sie ist Obst- und Gemüseladen gegangen. Beim Obsthändler hat sie Äpfel, Orange genommen und als Gemüse hat sie <foreign_word
+        foreign_language="Italiano"><error>
+          <errorType />
+
+          <originalForm>Insalat</originalForm>
+
+          <targetForm>Insalata</targetForm>
+        </error></foreign_word> und Blumenköhle genommen. Sie <correction>
+        <deletion>ist</deletion>
+      </correction> war ziemlich schnell und aufgerähr. Sie müsste schnell zu Hause gehen weil ihr Mann essen wollte. Dann ist sie an der Kasse gegangen um alles zu bezahlen. Schließlich hat sie der Kassenzettel an der Kasse liegen gelassen. Das hat sie nicht absichtig gemacht!<par />Danach ist sie beim Supermarkt gegangen und dort hat sie viele Sachen genommen: Milch, Brot, Wasser aber kein Obst oder Gemüse. Dabei hatte sie seine große Tasche, wo man die Gemüse und <correction>
+        <insertion>das</insertion>
+      </correction> Obst sehr gut sehen könnte. Im Supermarkt war kaum Mensch und es war ruhig. Dann ist sie an der Kasse eingekommen und plötzlich, wenn sie schon alles bezahlt hatte, fragte die Frau, die an der Kasse gestanden ist, ob <correction>
+        <deletion>sie</deletion>
+      </correction> Maria den Obst und Gemüse hier genommen hat, aber Maria sagte: "Nein! Das habe ich beim Obst &amp; Gemüse gekauft!!", die Frau antwortete: "ja, darf ich bitte der Kassenzettel sehen?", Maria: " Ja, warten <error>
+        <errorType />
+
+        <originalForm>sie</originalForm>
+
+        <targetForm>Sie</targetForm>
+      </error> bitte! Ich find es nicht mehr, ich glaube dass ich dort liegen gelassen habe!", da ist die Frau nicht eingekommen. Aber einschließlich, hat sie geglaubt. Sie war schockiert!<par />Bist du es auch?<par /><closing>Schreib mir <error>
+          <errorType />
+
+          <originalForm>zuruch</originalForm>
+
+          <targetForm>zurück</targetForm>
+        </error>!<par />Liebe Grüße.</closing></exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber Paul,</greeting><par />ich habe deine E-Mail gelesen.<par />Ich weiß nicht ob du mir jetzt glau<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>bst</insertion>
+      </correction>, aber mir ist es auch <error>
+        <errorType />
+
+        <originalForm>ein mal</originalForm>
+
+        <targetForm>einmal</targetForm>
+      </error> passiert. <correction>
+        <deletion>C</deletion>
+
+        <insertion>M</insertion>
+      </correction>it diesen Erf<correction>
+        <deletion>ä</deletion>
+
+        <insertion>a</insertion>
+      </correction>hrungen habe ich gelernt dass <correction>
+        <deletion>man</deletion>
+      </correction> man keine richtige virtuelle<correction>
+        <deletion>n</deletion>
+      </correction> Freundschaften finden kann. Es tut mir wirklich leid. Ich denke dass du <error>
+        <errorType />
+
+        <originalForm>unbedinht</originalForm>
+
+        <targetForm>unbedingt</targetForm>
+      </error> die Nummern aller Personen aus deinem Handy blockieren sollst, und keine neue Freundschaften im Internet machen! Ich glaube du sollst dein PC schalten und mit deine Freunde <error>
+        <errorType />
+
+        <originalForm>drauß gehen</originalForm>
+
+        <targetForm>drausgehen</targetForm>
+      </error>. und nicht mehr stritten. <correction>
+        <deletion>D</deletion>
+
+        <insertion>I</insertion>
+      </correction>ch verstehe dich, dass beim <error>
+        <errorType />
+
+        <originalForm>schreiben</originalForm>
+
+        <targetForm>Schreiben</targetForm>
+      </error> glauben wir alle was der sagt, aber wir weißen nie ob hinter den PC ein <correction>
+        <deletion>e</deletion>
+
+        <insertion>a</insertion>
+      </correction>nderer Mensch ist! Du könntest neue Freundschaften machen, wenn du im Bar gehst oder beim <error>
+        <errorType />
+
+        <originalForm>Diskotek</originalForm>
+
+        <targetForm>Diskothek</targetForm>
+      </error>... was denkst du?<par />Ich hoffe dass du nicht mehr diesen Probleme wieder erfährst!<par /><closing>Schreib mir zurück!<par />Liebe Grüße</closing><par />Anonimo</exercise>
+  </body>
+</kolipsi_II_document>

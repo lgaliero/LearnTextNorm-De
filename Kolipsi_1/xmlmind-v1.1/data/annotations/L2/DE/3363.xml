@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Romy</transcriber>
+
+  <author_id>3363</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve">Meine Freundin <entity>Maria</entity> in diese Tage <correction>
+        <deletion>geht</deletion>
+      </correction> geht in eine Obsthändler für kaufen <sic>Kawl</sic> und andere <error>
+        <errorType />
+
+        <originalForm>Gemuse</originalForm>
+
+        <targetForm>Gemüse</targetForm>
+      </error>. <correction>
+        <deletion>T</deletion>
+      </correction> Dann <entity>Maria</entity> mit ihre Auto <sic>fahrt</sic> in die <error>
+        <errorType />
+
+        <originalForm>Beckerei</originalForm>
+
+        <targetForm>Bäckerei</targetForm>
+      </error> <correction>
+        <deletion>Für</deletion>
+      </correction> vor <error>
+        <errorType />
+
+        <originalForm>ende</originalForm>
+
+        <targetForm>Ende</targetForm>
+      </error> <correction>
+        <deletion>Sie</deletion>
+      </correction> sie geht in die Supermarkt <foreign_word
+        foreign_language="English">but</foreign_word> wenn sie ist vor die Kasse, <correction>
+        <deletion>die Kasserig</deletion>
+      </correction> ein Killer mit eine <error>
+        <errorType />
+
+        <originalForm>Pistola</originalForm>
+
+        <targetForm>Pistole</targetForm>
+      </error> „Beng Beng“ <entity><overwrite>
+          <over>M</over>
+
+          <under>m</under>
+        </overwrite>aria</entity> und sie gestorben.</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo <entity>Alberto</entity>,</greeting> <par /><error>
+        <errorType />
+
+        <originalForm>In</originalForm>
+
+        <targetForm>in</targetForm>
+      </error> diese <error>
+        <errorType />
+
+        <originalForm>sommer</originalForm>
+
+        <targetForm>Sommer</targetForm>
+      </error> können wir <correction>
+        <deletion>s</deletion>
+      </correction> ans Meer oder ins Gebirge gefahren. <par />Für <error>
+        <errorType />
+
+        <originalForm>Mich</originalForm>
+
+        <targetForm>mich</targetForm>
+      </error> können wir ans Me<overwrite>
+        <over>e</over>
+
+        <under>r</under>
+      </overwrite>r <correction>
+        <deletion><unreadable /></deletion>
+      </correction> in der <error>
+        <errorType />
+
+        <originalForm>nee</originalForm>
+
+        <targetForm>Nähe</targetForm>
+      </error> von <entity>Caraibi</entity> <error>
+        <errorType />
+
+        <originalForm>Fahren</originalForm>
+
+        <targetForm>fahren</targetForm>
+      </error>. <correction>
+        <deletion>A</deletion>
+      </correction> Ans Meer wir geb<overwrite>
+        <over>e</over>
+
+        <under>t</under>
+      </overwrite>n die <error>
+        <errorType />
+
+        <originalForm>Sönne</originalForm>
+
+        <targetForm>Sonne</targetForm>
+      </error> <correction>
+        <deletion>me</deletion>
+      </correction> wir machen viele schwimmen und in die <error>
+        <errorType />
+
+        <originalForm>nachmittag</originalForm>
+
+        <targetForm>Nachmittag</targetForm>
+      </error> wir können in die Disko gehen. <par /><error>
+        <errorType />
+
+        <originalForm>Werend</originalForm>
+
+        <targetForm>Während</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>Ins</originalForm>
+
+        <targetForm>ins</targetForm>
+      </error> Gebirge in Sommer wir <error>
+        <errorType />
+
+        <originalForm>konnen</originalForm>
+
+        <targetForm>können</targetForm>
+      </error> spazieren<hyphen>-</hyphen> <correction>
+        <deletion>gehen</deletion>
+      </correction>. <par /><closing><error>
+          <errorType />
+
+          <originalForm>Grüser</originalForm>
+
+          <targetForm>Grüße</targetForm>
+        </error> , <entity>Marco Maffzi</entity></closing> </exercise>
+  </body>
+</kolipsi_document>

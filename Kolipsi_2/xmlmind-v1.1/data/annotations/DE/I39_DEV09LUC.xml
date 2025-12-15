@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I39_DEV09LUC</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Lieber Andreas,</greeting> wie <error>
+        <errorType />
+
+        <originalForm>gelt</originalForm>
+
+        <targetForm>geht</targetForm>
+      </error> es dir? Mir geht es nicht so gut, weil ich ein Problem im <foreign_word
+        foreign_language="Italiano">Supermarket</foreign_word> gehabt habe. Wenn ich bei die Obsthändler war habe ich ein paar Obst und Gemüse eingekauft. Aber dort habe ich nicht das Kassenzettel genehmen und ich habe die Einkauf weiter gemacht.<par />Wenn ich im Supermarkt war habe ich noch anderen <error>
+        <errorType />
+
+        <originalForm>sachen</originalForm>
+
+        <targetForm>Sachen</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>genohmen</originalForm>
+
+        <targetForm>genommen</targetForm>
+      </error>. Am <error>
+        <errorType />
+
+        <originalForm>ende</originalForm>
+
+        <targetForm>Ende</targetForm>
+      </error> der Einkauf habe ich die letzte <error>
+        <errorType />
+
+        <originalForm>sachen</originalForm>
+
+        <targetForm>Sachen</targetForm>
+      </error> gezahlt. Die Frau, die <correction>
+        <insertion>die</insertion>
+      </correction> an der Kasse war, hat mi<correction>
+        <deletion>r</deletion>
+
+        <insertion>t</insertion>
+      </correction> mir geschreit, weil ich die Obst und Gemüse nicht mit mir einnohmen kann <correction>
+        <deletion>,</deletion>
+
+        <insertion>u</insertion>
+      </correction>nd, weil ich das Kassenzettel nicht <error>
+        <errorType />
+
+        <originalForm>genohmen</originalForm>
+
+        <targetForm>genommen</targetForm>
+      </error> habe. <correction>
+        <deletion><unreadable /></deletion>
+      </correction> So habe ich den ganzen Einkauf, die die an Obsthändler zame <error>
+        <errorType />
+
+        <originalForm>eingenohmen</originalForm>
+
+        <targetForm>eingenommen</targetForm>
+      </error> haben, auf der Kasse liegen. Jetzt bin ich <error>
+        <errorType />
+
+        <originalForm>grantik</originalForm>
+
+        <targetForm>grantig</targetForm>
+      </error>, weil ich noch mit der Einkauf weiter gehen.<par />Jetzt muss ich gehen<par /><closing>Viele Grüßen</closing><par />Maria </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Sehr <error>
+          <errorType />
+
+          <originalForm>Geehrter</originalForm>
+
+          <targetForm>geehrter</targetForm>
+        </error> Paul,</greeting><par /><error>
+        <errorType />
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> habe <correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion><error>
+            <errorType />
+
+            <originalForm>ihren</originalForm>
+
+            <targetForm>Ihren</targetForm>
+          </error></insertion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>Brif</originalForm>
+
+        <targetForm>Brief</targetForm>
+      </error> gelesen und ich denke, dass der Welt die virtuelle Freundschaften ein Begriff der ich nicht verstehe. Ich denke, dass wir <correction>
+        <deletion><unreadable /></deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>wen</originalForm>
+
+        <targetForm>wenn</targetForm>
+      </error> neue Mädchen kennenlernen wollen, müssen wir nicht am Facebook oder im Internet chatten aber wir müssen in der Schule, oder in dem Arbeit <correction>
+        <deletion><unreadable /></deletion>
+      </correction> oder in der <correction>
+        <deletion><unreadable /></deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>währe</originalForm>
+
+        <targetForm>wahre</targetForm>
+      </error> Welt kennenlernen. Internet ist wie ein Wand die wir nicht wollen aber wir gute <error>
+        <errorType />
+
+        <originalForm>Gefuhlen</originalForm>
+
+        <targetForm>Gefühlen</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>fuhlen</originalForm>
+
+        <targetForm>fühlen</targetForm>
+      </error>.<par />Wenn ich 14 war habe ich eine schlimme<correction>
+        <insertion>st</insertion>
+      </correction> Erfahrung mit Internet erlebt. Einigen "Fremden" haben mir ein <error>
+        <errorType />
+
+        <originalForm>Schertz</originalForm>
+
+        <targetForm>Scherz</targetForm>
+      </error> gemacht. Und <correction>
+        <deletion><unreadable /></deletion>
+      </correction> habe ich eine Woche mit Angst erlebt, weil sie vielen <error>
+        <errorType />
+
+        <originalForm>Angstlichen</originalForm>
+
+        <targetForm>ängstlichen</targetForm>
+      </error> E-Mail geschickt haben.<par />Du kanst <error>
+        <errorType />
+
+        <originalForm>Risikiren</originalForm>
+
+        <targetForm>riskieren</targetForm>
+      </error>, weil du nicht die Menschen die an dem <correction>
+        <deletion>A</deletion>
+
+        <insertion>a</insertion>
+      </correction>nderen Teil steht <error>
+        <errorType />
+
+        <originalForm>kenst</originalForm>
+
+        <targetForm>kennst</targetForm>
+      </error>.<par />Jetzt <error>
+        <errorType />
+
+        <originalForm>mss</originalForm>
+
+        <targetForm>muss</targetForm>
+      </error> ich gehen.<par /><closing>Mit freundlichen Grüßen</closing><par />Lera</exercise>
+  </body>
+</kolipsi_II_document>

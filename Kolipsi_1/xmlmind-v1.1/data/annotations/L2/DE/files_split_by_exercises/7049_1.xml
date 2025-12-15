@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>N7049</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve">
+      <par/><greeting>Liebe<correction>
+          <deletion><unreadable/></deletion>
+        </correction> <entity>Philine</entity>,</greeting> <par/>wie geht es dir? Hier läuft alles am besten! Die Familie ist gesund und die Schule ist <correction>
+        <deletion>es</deletion>
+      </correction> nicht zu angestrengt. Es gibt nur ein Problem<strikeover>
+        <expansion>:</expansion>
+
+        <expansion>;</expansion>
+      </strikeover> <entity>Maria</entity>. <error>
+        <errorType/>
+
+        <originalForm>Letze</originalForm>
+
+        <targetForm>Letzte</targetForm>
+      </error> <overwrite>
+        <under>w</under>
+
+        <over>W</over>
+      </overwrite>oche <correction>
+        <deletion>wollte sie etwas Feiern. Sie</deletion>
+      </correction> ist sie <correction>
+        <insertion><palimpsest>beim Obsthändler um</palimpsest></insertion>
+      </correction> etwas zu kaufen gegangen, <correction>
+        <deletion><unreadable/></deletion>
+      </correction>weil sie etwas <error>
+        <errorType/>
+
+        <originalForm>besonderes</originalForm>
+
+        <targetForm>Besonderes</targetForm>
+      </error> kochen wollte. Sie hatte alles gekauft und bezahlt, aber <correction>
+        <deletion>wenn sie weggehen wollte, hatte die Frau an der Kasse ihn geruft: <correction>
+            <deletion>sie</deletion>
+          </correction> <entity>Maria</entity> </deletion>
+      </correction> sie hatte et<overwrite>
+        <under><unreadable/></under>
+
+        <over>w</over>
+      </overwrite>as vergessen: de<overwrite>
+        <under><unreadable/></under>
+
+        <over>n</over>
+      </overwrite> <correction>
+        <deletion>Kass</deletion>
+      </correction> Kassenzettel! Nachdem <correction>
+        <deletion>sie wegggegan</deletion>
+      </correction> ist sie auch im Supermarkt gega<strikeover>
+        <expansion>m</expansion>
+
+        <expansion>ng</expansion>
+      </strikeover>en. <correction>
+        <deletion><unreadable/></deletion>
+      </correction> Bis hier war alles normal, aber die Probleme sind, wenn sie an die Kasse gekommen ist, angefange<overwrite>
+        <under><unreadable/></under>
+
+        <over>n</over>
+      </overwrite>. Die Frau a<overwrite>
+        <under>m</under>
+
+        <over>n</over>
+      </overwrite> der Kasse glaubt, dass <entity>Maria</entity> die Gemüse <correction>
+        <deletion>gest</deletion>
+      </correction> vom Supermarkt gestohlen hatte und <entity>Maria</entity> könnte <correction>
+        <deletion>nicht</deletion>
+      </correction> <correction>
+        <deletion><unreadable/></deletion>
+      </correction> sich nicht schützen, weil sie keinen Kassenzettel hatte! Am Ende hat die Polizei ihn in Gefängnis mitgebracht und <error>
+        <errorType/>
+
+        <originalForm>jetz</originalForm>
+
+        <targetForm>jetzt</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>mussen</originalForm>
+
+        <targetForm>müssen</targetForm>
+      </error> wir eine Lösung finden. <correction>
+        <deletion>Ha</deletion>
+      </correction> Kannst du <correction>
+        <deletion><unreadable/></deletion>
+      </correction> ein bisschen <strikeover>
+        <expansion>g</expansion>
+
+        <expansion>G</expansion>
+      </strikeover>eld für die Kaution <strikeover>
+        <expansion>s</expansion>
+
+        <expansion>z</expansion>
+      </strikeover>u ihn schicken? Bitte <error>
+        <errorType/>
+
+        <originalForm>Bitte</originalForm>
+
+        <targetForm>bitte</targetForm>
+      </error> ...<par/>Danke für deine Hilfe,<par/><closing><entity>Simone</entity>!</closing> </exercise>
+
+    
+  </body>
+</kolipsi_document>

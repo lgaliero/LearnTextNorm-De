@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I07_INT03AND</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting><correction>
+          <deletion>Hallo</deletion>
+
+          <insertion>Lieber</insertion>
+        </correction> Carla;</greeting><par/><correction>
+        <deletion>Ich schrei</deletion>
+      </correction> Wie geht es dir? Ich schreibe <correction>
+        <deletion>dich</deletion>
+      </correction> dir diese <error>
+        <errorType/>
+
+        <originalForm>email</originalForm>
+
+        <targetForm>E-Mail</targetForm>
+      </error> von <foreign_word foreign_language="Italiano">Padova</foreign_word> weil ich mit meine Klasse hier <correction>
+        <deletion>sind</deletion>
+      </correction> gekommen sind. Erinnerst du dich noch an Maria? Sie <correction>
+        <insertion>ist</insertion>
+
+        <deletion>ist <unreadable/></deletion>
+      </correction> eine <error>
+        <errorType/>
+
+        <originalForm>Freundinn</originalForm>
+
+        <targetForm>Freundin</targetForm>
+      </error> von mir <correction>
+        <insertion><correction>
+            <deletion>dass</deletion>
+          </correction></insertion>
+
+        <deletion>dass</deletion>
+      </correction> du <correction>
+        <deletion>hat ihn</deletion>
+      </correction> während eine Party kennengelernt hast.<par/>Etwas <error>
+        <errorType/>
+
+        <originalForm>komisch</originalForm>
+
+        <targetForm>Komisch</targetForm>
+      </error> ist passiert und jetzt erzähle ich dir alles.<par/>Letzte Woche war Maria einkaufen. Sie ging zuerst in einen Obst- und Gemüsegeschäft um Obst und Gemüse zu kaufen <correction>
+        <deletion>Später ging</deletion>
+      </correction> und dann ging sie in den Supermarkt. Sie nahm was sie kaufen wollte und ging wo die Kasse und die Verkäuferin stehen. Dort gab es ein Problem...<par/>Sie hätte in die Tasche <correction>
+        <deletion>di</deletion>
+      </correction> was sie früher in dem Geschäft gekauft hat und wenn die Verkäuferin es sieht sagte ihr dass sie dort bleiben muss. Sie dachte dass Maria die Gemüsen <error>
+        <errorType/>
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hätte <correction>
+        <deletion><unreadable/> und Maria</deletion>
+      </correction>!! Maria probiert die Situation zu erklären und Gott sei <error>
+        <errorType/>
+
+        <originalForm>dank</originalForm>
+
+        <targetForm>Dank</targetForm>
+      </error> hat die Verkäuferin verstehen, dass Maria nichts gemacht hat.<par/>Was für ein Nachmitt<correction>
+        <deletion>g</deletion>
+
+        <insertion>a</insertion>
+      </correction>g!<par/><closing>Viele Grüßen!</closing></exercise>
+
+    
+  </body>
+</kolipsi_II_document>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>6412</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Karolina</entity>,</greeting> <par/>vielen Dank für deinen netten Brief! Ich habe dir seit langer <palimpsest>Z</palimpsest>eit nicht mehr geschrieben. Entschuldige bitte! Im Moment habe ich in der Schule viel zu tu<palimpsest>n</palimpsest>, weil es verschiedene Prü<hyphen>-</hyphen>fungen und Schularbeiten geben. Ich hoffe, dass du keine ähnlichen Probleme hast! <par/>Ich denke, dass <palimpsest>eine</palimpsest> Reise sehr lehrreich ist. Zuerst müssen wir entscheiden, ob wir in die Berge oder ans Meer fahren sollen. Die Berg<palimpsest>e</palimpsest> in <entity>Südtirol</entity> sind sehr schön: <error>
+        <errorType/>
+
+        <originalForm>ich</originalForm>
+
+        <targetForm>Ich</targetForm>
+      </error> habe ein Haus in <entity>Villnöß</entity>: <error>
+        <errorType/>
+
+        <originalForm>dort</originalForm>
+
+        <targetForm>Dort</targetForm>
+      </error> können wir einige Tage verbringen. Die Natur ist wunderschön: <error>
+        <errorType/>
+
+        <originalForm>es</originalForm>
+
+        <targetForm>Es</targetForm>
+      </error> ist möglich Spaziergänge zu machen und Bücher zu lesen. Die Luft ist gesund und man<hyphen>-</hyphen>chmal ist es möglich <palimpsest>unreadable </palimpsest> auch die Tiere, die im Wald leben, zu beobachten. <error>
+        <errorType/>
+
+        <originalForm>wenn</originalForm>
+
+        <targetForm>Wenn</targetForm>
+      </error> wir ans Meer fahren wollen, können wir in den Süden fahren. Ich ziehe das Meer vor, weil ich schon das ganze Jahr in <entity>Südtirol</entity> lebe. Wenn wir zum Beispiel in <entity>Apulien</entity> fahren, finden wir freundliche Leute, ein wunderschönes Wasser und viele Sehenswürdigkeiten wie <entity>Alberobello</entity> und <entity>Lecce</entity>. <par/>Ich glaube, dass diese Reise viele Möglichkeiten bietet: Es ist möglich neue Erfahrungen zu machen und vor allem können wir <palimpsest>reifer und</palimpsest> <error>
+        <errorType/>
+
+        <originalForm>verentwortlicher</originalForm>
+
+        <targetForm>verantwortlicher</targetForm>
+      </error> werden. Weißt du, dass ich in <entity>Wien</entity> gefahren bin: <error>
+        <errorType/>
+
+        <originalForm>ich</originalForm>
+
+        <targetForm>Ich</targetForm>
+      </error> hatte die Möglichkeit Museen zu besuchen und einige Tage mit meiner Schul<hyphen>-</hyphen>kameraden zu verbringen. Sicher kann eine Reise unsere Freundschaft stärken! Jetzt muss ich die Hausaufgaben machen. <error>
+        <errorType/>
+
+        <originalForm>schreib</originalForm>
+
+        <targetForm>Schreib</targetForm>
+      </error> mir bald bitte! <par/><closing>Herzliche Grüße. <par/><error>
+          <errorType/>
+
+          <originalForm>deine</originalForm>
+
+          <targetForm>Deine</targetForm>
+        </error> <entity>Linda</entity> </closing></exercise>
+  </body>
+</kolipsi_document>

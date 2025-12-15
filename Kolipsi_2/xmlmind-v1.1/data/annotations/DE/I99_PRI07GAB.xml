@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I99_PRI07GAB</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve">Beim Obsthändler Maria schau das Obst, <error>
+        <errorType />
+
+        <originalForm>dass</originalForm>
+
+        <targetForm>das</targetForm>
+      </error> besser zu essen ist. Sie geht zu Kasse, um das Obst und <error>
+        <errorType />
+
+        <originalForm>Gemuse</originalForm>
+
+        <targetForm>Gemüse</targetForm>
+      </error> zu gelden.<par />Maria ist nicht geschaut, dass seine Telefon an <correction>
+        <deletion>Ban</deletion>
+      </correction> die Tisch verloren <correction>
+        <insertion>hat</insertion>
+      </correction>. Später im <foreign_word foreign_language="Italiano">Supermarket</foreign_word> seine ist die Einkauf gemacht aber wenn sie ist in die Kasse, sie denkt, dass sein Telefon verloren hat. Sie prezipitieren dann zu Obsthändler, aber ist geschlossen. Maria hast sehr <error>
+        <errorType />
+
+        <originalForm>angst</originalForm>
+
+        <targetForm>Angst</targetForm>
+      </error>, weil an die Telefon wichtige <correction>
+        <deletion>K<unreadable /></deletion>
+      </correction> Anrufen sind. Seine Telefon ist <error>
+        <errorType />
+
+        <originalForm>Kostet</originalForm>
+
+        <targetForm>kostet</targetForm>
+      </error> € 500.</exercise>
+
+    <exercise number="2" xml:space="preserve">Das ist ein wichtige Dinge, weil du viel Personen kennenzulernen darf. Aber ich <error>
+        <errorType />
+
+        <originalForm>weisse</originalForm>
+
+        <targetForm>weiße</targetForm>
+      </error>, dass die <correction>
+        <deletion>L</deletion>
+      </correction> lange Distanz zwischen zwei gute Freund ist schwer und mir gefällt nicht. Ich denke dass Internet ambiguen ist, weil erste Dinge sich schlüsslich und nicht gut, zweite Dinge besser sind.</exercise>
+  </body>
+</kolipsi_II_document>

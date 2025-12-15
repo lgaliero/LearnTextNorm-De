@@ -1,0 +1,47 @@
+<body>
+ <page page_number="1" transcanno_page_id="2343">
+  <paragraph class="medium-paragraph" tagcode="1610955871407">
+   <div>
+    Meine Meinung ist
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="dass" tagcode="1610955871406">
+     das
+    </orth_error_id12>
+    sehr
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="gut" tagcode="1539200932090">
+     Gut
+    </orth_error_id12>
+    ist
+   </div>
+   <div>
+    Deutsch,
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1539200909333" tran_correction_original="*englisch">
+     englisch
+    </tran_word_correction_id25>
+    und
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Italienisch" tagcode="1610955810264">
+     Italienich
+    </orth_error_id12>
+    oder
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1539200890000">
+     auch andere sprachen
+    </tran_word_insertion_id9>
+   </div>
+   <div>
+    zu lernen weil wenn du zum Beispiel
+   </div>
+   <div>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="irgendwo" tagcode="1539200920931">
+     irgend wo
+    </orth_error_id12>
+    hinfährst
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="dann" tagcode="1610955831316">
+     dan
+    </orth_error_id12>
+    kannst du diese
+   </div>
+   <div>
+    Sprachen sprechen.
+   </div>
+  </paragraph>
+ </page>
+</body>

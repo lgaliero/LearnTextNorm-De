@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5886</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Lucia</entity> </greeting> <par/><gap>_</gap> wie du schon <sic>gewusst</sic> hast, habe ich mich für einen gem<ambiguous>
+        <alternative>ei</alternative>
+
+        <alternative>u</alternative>
+      </ambiguous>nsamen Urlaub <error>
+        <errorType/>
+
+        <originalForm>intressiert</originalForm>
+
+        <targetForm>interessiert</targetForm>
+      </error>. <correction>
+        <deletion>Ehenfalls</deletion>
+      </correction> Ebenfalls bin ich <arrow end="open" id="1"> </arrow> noch <arrow end="head" id="1">nicht</arrow> sicher ob es<correction>
+        <deletion><unreadable/></deletion>
+      </correction> angenehmer w<ambiguous>
+        <alternative>äre</alternative>
+
+        <alternative>är</alternative>
+      </ambiguous>, in die Berge oder ans Meer u<overwrite>
+        <over>ns</over>
+
+        <under><unreadable/></under>
+      </overwrite>eren Urlaub zu verbringen. <correction>
+        <deletion> <sic>Dah</sic> habe ich mehrere Erfahrungen in <entity>Sizilien</entity></deletion>
+      </correction> Würdest du mich etwas raten, um zusammen besser zu entscheiden? <par/>Ich könnte <correction>
+        <deletion>di</deletion>
+      </correction> nur auf meine eigene Erf<correction>
+        <insertion>a</insertion>
+      </correction>hrungen eingehen: Ich bin schon <correction>
+        <insertion>letztes Jahr</insertion>
+      </correction> zum vierten Mal in Sizilien mit dem Flugzeug geflogen; das Klima ist sehr heiß und manchmal <correction>
+        <deletion>hat man (erscheint sehr deutlich, dass man in kurzer Zeit<correction>
+            <insertion>sich</insertion>
+          </correction>schmelzen könnte)</deletion>
+      </correction> hat es mir sehr deutlich erscheint, dass ich in kurzer Zeit <correction>
+        <deletion>mich</deletion>
+      </correction> schmelzen könnte. Ich erinnere mich klar das saubere Meer, das weiße Sand und wie gut man dort isst. <par/>Sonst, wenn wir unseren Urlaub in den Bergen <error>
+        <errorType/>
+
+        <originalForm>webringen</originalForm>
+
+        <targetForm>verbringen</targetForm>
+      </error> wollen, habe ich schon mehrere <correction>
+        <deletion>Infrmahonen</deletion>
+      </correction> Nachrichten <sic><correction>
+          <insertion>gelunt</insertion>
+        </correction></sic> und Zeitschriften <correction>
+        <deletion>geschrieben</deletion>
+      </correction> gelesen, die erzählen, wie es angenehm ist, eine Urlaub in der ruhigen Region <entity>Südtirols</entity> zu verbringen: gesunde Obst, frische Luft, Wäder und Berge sind ihre beste <error>
+        <errorType/>
+
+        <originalForm>eigenschaft</originalForm>
+
+        <targetForm>Eigenschaft</targetForm>
+      </error>. <par/>Ich warte auf <sic>deiner</sic> Antwort <par/><closing><error>
+          <errorType/>
+
+          <originalForm>viele</originalForm>
+
+          <targetForm>Viele</targetForm>
+        </error> Grüße <entity>Lorenz</entity></closing>.</exercise>
+  </body>
+</kolipsi_document>

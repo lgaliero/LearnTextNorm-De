@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>N7023</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><par/><greeting>Lieber Freund,</greeting> <par/><error>
+        <errorType/>
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> weiß jetzt nicht, ob dich das interessiert, aber vorgestern hat <entity>Maria</entity> etwas erlebt, das mir auch etwas beigebracht hat, und ich schreib dir, damit es auch du verhindern kannst. <par/>Sie war im Obstladen, und kaufte dort ein, weil es in diesem Laden scheinbar billiger als im Supermarkt ist. Deshalb kaufte sie <error>
+        <errorType/>
+
+        <originalForm>zuesrt</originalForm>
+
+        <targetForm>zuerst</targetForm>
+      </error> dort das Gemüse, und besorgte sich dann den Rest der Lebensmittel später. Das Problem liegt darin, dass sie den Kassenzettel des Obstladens im Laden vergessen hatte, und als sie im Supermarkt zahlen wollte, wurde sie <correction>
+        <deletion>gefragt</deletion>
+
+        <insertion>aufgehalten und gefragt</insertion>
+      </correction> ob sie das Gemüse stehlen wollte, obwohl sie es schon im anderen Laden bezahlt hatte! Ich weiß nicht, wie diese ganze Geschichte ausgegangen ist, aber Eines ist sicher! Ab heute behalte ich immer jeden Kassenzettel! <par/><closing><error>
+          <errorType/>
+
+          <originalForm>liebe</originalForm>
+
+          <targetForm>Liebe</targetForm>
+        </error> Grüße <par/><entity>Emanuele</entity> </closing> </exercise>
+
+    
+  </body>
+</kolipsi_document>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Jessica</transcriber>
+
+  <author_id>4608</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Hallo <palimpsest>Jack</palimpsest>, </greeting>ich wollte dir diesen Brief schreiben über unsere Urlaub. Bergen oder Meer? In <entity><error>
+          <errorType/>
+
+          <originalForm>Maldive</originalForm>
+
+          <targetForm>Malediven</targetForm>
+        </error></entity> ist ein <error>
+        <errorType/>
+
+        <originalForm>wünderschone</originalForm>
+
+        <targetForm>wunderschöne</targetForm>
+      </error> Sonne mit ein ganz blaue Meer. In <error>
+        <errorType/>
+
+        <originalForm>nacht</originalForm>
+
+        <targetForm>Nacht</targetForm>
+      </error> sind dort <error>
+        <errorType/>
+
+        <originalForm>Dikotecken</originalForm>
+
+        <targetForm>Diskotheken</targetForm>
+      </error> und Pubs wo tanzen gehen können.<par/>In den Bergen <correction>
+        <insertion>in Schweiz</insertion>
+      </correction> ist die Sonne mit ein bischen Wind. Dort können wir klettern oder am See gehen. Ich <sic>weißt</sic> nicht wo ich gehen will. <error>
+        <errorType/>
+
+        <originalForm>Villeicht</originalForm>
+
+        <targetForm>Vielleicht</targetForm>
+      </error> am Meer oder <error>
+        <errorType/>
+
+        <originalForm>villeicht</originalForm>
+
+        <targetForm>vielleicht</targetForm>
+      </error> in die Bergen. Was <error>
+        <errorType/>
+
+        <originalForm>deckst</originalForm>
+
+        <targetForm>denkst</targetForm>
+      </error> du über <sic>unser</sic> Urlaub? Ich wollte am Meer gehen mit die schöne <error>
+        <errorType/>
+
+        <originalForm>Strandt</originalForm>
+
+        <targetForm>Strand</targetForm>
+      </error> und die Pubs aber auch <correction>
+        <deletion>die</deletion>
+      </correction> der relax und die Seen von Schweiz. Ich warte an deine Antwort. <par/><par/>Elisa</exercise>
+  </body>
+</kolipsi_document>

@@ -1,0 +1,89 @@
+<body>
+ <page page_number="1" transcanno_page_id="1069">
+  <paragraph class="medium-paragraph" tagcode="1553675531097">
+   <div>
+    2 Mädchen
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553674346862" tran_word_deletion_target="_#_">
+     g
+    </tran_word_deletion_id8>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="gehen" tagcode="1553674344322">
+     ghen
+    </orth_error_id12>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553674366589" tran_correction_original="i*">
+     im
+    </tran_word_correction_id25>
+    dem Wald.
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1553675531098">
+   <div>
+    Hören yeee , hahahaha , hooo
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1553675531099">
+   <div>
+    Sie sind
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553674408901" tran_word_deletion_target="_#_">
+     spaventiren
+    </tran_word_deletion_id8>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1553674415120">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553674417912" tran_word_deletion_target="_#_">
+      spa
+     </tran_word_deletion_id8>
+    </tran_word_insertion_id9>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1553674420369">
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="erschrocken" tagcode="1553674463028">
+      erschroken
+     </orth_error_id12>
+    </tran_word_insertion_id9>
+    und schnell .
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1553675531100">
+   <div>
+    Die zwei Mädchen
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553675531096" tran_correction_original="i*">
+     is
+    </tran_word_correction_id25>
+    immer den Baum
+   </div>
+   <div>
+    uns sie
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="hat" tagcode="1553675387641">
+     hut
+    </orth_error_id12>
+    ein
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1553675341677" tran_foreign_word_language="Italian">
+     torcia
+    </tran_foreign_word_id13>
+    . Die 2
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Mädchen" tagcode="1553675357186">
+     Mädchem
+    </orth_error_id12>
+   </div>
+   <div>
+    <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1553675405266" tran_alternative_1="aiß" tran_alternative_2="eiß">
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="heiß" tagcode="1553675496571">
+      aiß
+     </orth_error_id12>
+    </tran_ambiguous_id3>
+    Lisa,
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553675456128" tran_correction_original="Giac**ina">
+     Giacomina
+    </tran_word_correction_id25>
+    .
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1553675531101">
+   <div>
+    Lisa hat 14 Jahre alt und Giacomina hat 12
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Jahre" tagcode="1553675481152">
+     jahre
+    </orth_error_id12>
+   </div>
+   <div>
+    alt.
+   </div>
+  </paragraph>
+ </page>
+</body>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5371</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><entity>Maria</entity> hat letzte Woche etwas in einem Obst- und Gemüseladen gekauft. <error>
+        <errorType/>
+
+        <originalForm>Villeicht</originalForm>
+
+        <targetForm>Vielleicht</targetForm>
+      </error> kaufte sie ein <error>
+        <errorType/>
+
+        <originalForm>bischen</originalForm>
+
+        <targetForm>bisschen</targetForm>
+      </error> Obst und Gemüse. <par/>Sie geht an d<overwrite>
+        <over>ie</over>
+
+        <under><unreadable/></under>
+      </overwrite> Kasse und <error>
+        <errorType/>
+
+        <originalForm>bezählt</originalForm>
+
+        <targetForm>bezahlt</targetForm>
+      </error> alles, aber <sic>vergiß</sic> sie die Kasse<correction>
+        <insertion>n</insertion>
+      </correction>zettel. Später ging sie im <foreign_word foreign_language="Italiano">Supermarket</foreign_word> um anderen Lebensmittel <correction>
+        <deletion><unreadable/></deletion>
+      </correction> zu kaufen. Als <overwrite>
+        <over>sie</over>
+
+        <under>ein</under>
+      </overwrite> die Runde im Supermarkt <sic>gehendert</sic> hatte, ging sie an der Kasse um zu zahlen. <entity>Maria</entity> zahl<overwrite>
+        <over>t</over>
+
+        <under>e</under>
+      </overwrite> alles und beginnt <error>
+        <errorType/>
+
+        <originalForm>weg zu gehen</originalForm>
+
+        <targetForm>wegzugehen</targetForm>
+      </error>, aber die Verkäuferin sah die Tasche <correction>
+        <deletion>wo</deletion>
+      </correction> des anderen Geschäft mit dem Obst und Gemüse. Die Verkäuferin dachte dass <entity>Maria</entity> diese Tasche gestohlen hat und ruft den <foreign_word foreign_language="Italiano">Supermarket</foreign_word> Direktor. <entity>Maria</entity> <overwrite>
+        <over>mit</over>
+
+        <under><unreadable/></under>
+      </overwrite> antwortete mit Angst dass sie hatte diese Tasche <correction>
+        <deletion><unreadable/></deletion>
+      </correction> in einen anderen Laden gekauft, aber sie hatte keine Kassenzettel und sie konnte nicht das probieren. <par/>Der Direktor kommt und spricht mit <entity>Maria</entity> so eine halbe Stunde. <par/>Am Ende des <error>
+        <errorType/>
+
+        <originalForm>Discussions</originalForm>
+
+        <targetForm>Diskussions</targetForm>
+      </error> <entity>Maria</entity> musste alles wieder bezahlen.</exercise>
+
+    
+  </body>
+</kolipsi_document>

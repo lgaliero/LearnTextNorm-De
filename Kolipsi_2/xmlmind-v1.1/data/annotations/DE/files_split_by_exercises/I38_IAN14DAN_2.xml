@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I38_IAN14DAN</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Lieber Paul,</greeting><par/><correction>
+        <deletion>ich will dir einen Rat über dein Problem</deletion>
+      </correction><par/><error>
+        <errorType/>
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> schreibe, weil ich dir einen Rat über dein Problem geben will.<par/>Ich denke, dass du deinen virtuellen Freunden <correction>
+        <deletion>sagen</deletion>
+      </correction> nur die Wahrheit sagen muss. Du sollst ihnen etwas erklären: wie du dich fühlst, warum du nicht<correction>
+        <deletion>s</deletion>
+      </correction> mehr ihnen schreibst, <error>
+        <errorType/>
+
+        <originalForm>ecc</originalForm>
+
+        <targetForm>etc.</targetForm>
+      </error>...<par/>Zum Beispiel du kannst ihnen sagen, dass du nicht mehr mit ihnen <correction>
+        <deletion>schreiben</deletion>
+      </correction> chatten w<correction>
+        <deletion>o</deletion>
+
+        <insertion>i</insertion>
+      </correction>llst, weil du nicht vo<correction>
+        <deletion>m</deletion>
+
+        <insertion>n</insertion>
+      </correction> Menschen Freund <correction>
+        <deletion><unreadable/></deletion>
+      </correction> sein willst, die nie in deinem Leben <correction>
+        <deletion>treff</deletion>
+      </correction> nachmittags treffen kannst.<par/>Ich rate dich diese Sachen, weil ich die gleiche Situation gelebt habe. Ich habe <correction>
+        <deletion>nach</deletion>
+      </correction> meine Nachmittage zu <correction>
+        <deletion>h</deletion>
+
+        <insertion>H</insertion>
+      </correction>ause verpassen, <correction>
+        <deletion>w</deletion>
+
+        <insertion>u</insertion>
+      </correction>m mit solchen virtuellen Freunde zu chatten, aber meine reale Freunde waren in unserem Park, und sie warten auf mich. Deshalb habe meine Zeit verloren, um <correction>
+        <insertion>mit</insertion>
+      </correction> Personen <correction>
+        <deletion>c</deletion>
+
+        <insertion>z</insertion>
+      </correction>u chatten die ich nie gesehen habe.<par/>Über virtuelle Freundschaften denke ich, dass sie gefä<correction>
+        <deletion>rl</deletion>
+
+        <insertion>hr</insertion>
+      </correction>lich <correction>
+        <deletion>sind</deletion>
+      </correction> nur wenn die Personen nicht in deiner Stadt<correction>
+        <deletion>e</deletion>
+      </correction> <foreign_word foreign_language="English">or</foreign_word> Region leben. Wenn sie in <error>
+        <errorType/>
+
+        <originalForm>der<correction>
+            <deletion>sel</deletion>
+          </correction> selbe</originalForm>
+
+        <targetForm>derselbe</targetForm>
+      </error> Stadt <correction>
+        <deletion>wie d</deletion>
+      </correction> von dir leben, kannst du vielleicht auch treffen. Aber wenn sie weit von dir sind, lei<correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>d</insertion>
+      </correction>est du.<par/><correction>
+        <deletion>Bis b</deletion>
+      </correction> <closing>Vielen Glück,</closing><par/>Daniel </exercise>
+  </body>
+</kolipsi_II_document>

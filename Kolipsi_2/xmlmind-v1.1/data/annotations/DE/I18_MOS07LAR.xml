@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I18_MOS07LAR</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe Sophie,</greeting><par />wie geht es dir? Du ahnst nicht, was Maria heute passiert ist! Sie hat heute frei gehabt und ist deshalb einkaufen gegangen. Zuest ist sie zum Obsthändler gegangen. Dort hat sie Salat, Blumenkohl, Karotten und Tomaten gekauft. An der Kasse hat sie alles bezahlt und ist gegangen. Eine Stunde später ist sie in den Supermarkt gegangen, um weitere Sachen zu kaufen. Sie hat Kekse, andere Süßigkeiten und Wein gekauft. Als sie an der Kasse angekommen ist, hat die Frau an der Kasse gesagt sie müsse auch das Obst und das Gemüse bezahlen. Maria war empört und hat gesagt, dass sie einen Kassenzettel habe. Sie hat in ihrer Brieftasche gewühlt und gesucht, ihn aber nicht gefunden. Dann hat sie sich daran erinnert, dass sie den Kassenzettel im Obst- und Gemüseladen liegen gelassen hat. Sie hat sich tausendmal bei der Frau an der Kasse entschuldigt und versucht, sie zu überzeugen, dass sie das Gemüse irgendwoanders gekauft hat. Doch sie hatte keine Beweise! Nach 10 Minuten hat die Frau an der Kasse sogar die Polizei gerufen. Maria hat nicht mehr gewusst  was sie tun sollte. Sie hatte Tränen in den Augen, als plötzlich die Obsthändlerin im Supermarkt aufgetaucht ist. Und rate mal was sie in der Hand hatte... Ja, genau! Den Kassenzettel, den Maria vergessen hatte! Zum Glück ist alles gut gegangen.<par /><closing>Liebe Grüße,</closing><par />dein Franz</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber Paul,</greeting><par />wie geht es dir? Ich finde es nicht schlimm, wenn man virtuelle Freundschaften hat. Es kann manchmal sogar ganz schön sein, wenn man einen Freund über das Internet kennenlernt. Wenn das aber zu Sucht wird, ist es nicht mehr schön. Es tut mir leid für dich, dass du deine echten Freunde verloren hast. Ein Freund in der Realität ist <error>
+        <errorType />
+
+        <originalForm>1000 Mal</originalForm>
+
+        <targetForm>1000-mal</targetForm>
+      </error> mehr <correction>
+        <deletion><unreadable /></deletion>
+      </correction> wert als ein virtueller Freund. Du warst nicht unbedingt schlau, deine Freunde so zu verlieren. Du hättest dich nicht so sehr auf das Internet konzentr<correction>
+        <deletion>i</deletion>
+
+        <insertion>r</insertion>
+      </correction>ieren sollen! Es ist peinlich. Wenn ich an deiner Stelle wäre, würde ich mich bis zu meinem Lebensende schämen. Aber jetzt kann man nichts mehr machen. Du könntest aber deinen virtuellen Freunden schreiben und ihnen deine Situation beschreiben. Ich bin mir sicher, dass sie es verstehen werden! Ich finde, dass man das Internet sehr gut verwenden kann, um Informationen zu bekommen oder mit Freunden zu chatten, die man in der Realität kennt, aber weit weg von ihnen ist. Deine Verwendung des Internets ist nicht gesund und teilweise auch gefährlich. Ich kenne Menschen, die mit ihrem Traumpartner gechattet haben und dann entdeckt haben, dass der andere Mensch ein totaler Psychopath ist. Also pass auf und überdenke noch einmal deine Einstellung zur Freundschaft!<par /><closing>Mach's gut und liebe Grüße,</closing><par />dein Sergio</exercise>
+  </body>
+</kolipsi_II_document>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5034</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><par/><greeting>Liebe <entity>Guisy</entity>,</greeting> <foreign_word foreign_language="English">next</foreign_word> Monat können wir eine Urlaub machen. Wir können in die Berge oder ans Meer fahren. In den Bergen ist es kalt, aber ans Meer ist sehr warm!!<par/><correction>
+        <insertion>Ein Ort</insertion>
+      </correction> <palimpsest>i</palimpsest>n den Bergen ist <entity>Meran</entity> 2000; <palimpsest> </palimpsest>hier ist sehr <error>
+        <errorType/>
+
+        <originalForm>schon</originalForm>
+
+        <targetForm>schön</targetForm>
+      </error> und können ins <error>
+        <errorType/>
+
+        <originalForm>kamping</originalForm>
+
+        <targetForm>Camping</targetForm>
+      </error> gehen, und <error>
+        <errorType/>
+
+        <originalForm>promenade</originalForm>
+
+        <targetForm>Promenade</targetForm>
+      </error> mit die ganze Familie machen. Ein Ort <palimpsest>a</palimpsest>ns Meer ist <entity> <foreign_word foreign_language="Italiano">Caraibi</foreign_word></entity>; hier ist wunderbar mit Palmen und einen <error>
+        <errorType/>
+
+        <originalForm>schonen</originalForm>
+
+        <targetForm>schönen</targetForm>
+      </error> <correction>
+        <insertion>weißen</insertion>
+      </correction> Strand. <entity> <foreign_word foreign_language="Italiano">Caraibi</foreign_word> </entity> <error>
+        <errorType/>
+
+        <originalForm>wirb</originalForm>
+
+        <targetForm>wird</targetForm>
+      </error> sehr teuer sein, aber ich denke dass in zwei können nicht so viel zahlen, und das <error>
+        <errorType/>
+
+        <originalForm><correction>
+            <insertion>Reise</insertion>
+          </correction> Büro</originalForm>
+
+        <targetForm>Reisebüro</targetForm>
+      </error> kann ein Angabe <correction>
+        <deletion><palimpsest> </palimpsest></deletion>
+
+        <insertion>bei</insertion>
+      </correction> uns machen. <par/>Ich liebe das Meer und ich hasse der kalt. Willst du mit mir <correction>
+        <insertion>zusammen</insertion>
+      </correction> ans Meer gehen? <par/>Ich warte an dein <error>
+        <errorType/>
+
+        <originalForm>antworten</originalForm>
+
+        <targetForm>Antworten</targetForm>
+      </error>. <closing>Vielen <palimpsest>G</palimpsest>rüßen. <par/> <entity>Adele</entity>.</closing> </exercise>
+  </body>
+</kolipsi_document>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>3538</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><par /><greeting>Liebe <entity>Sara</entity>,</greeting> <par /><error>
+        <errorType />
+
+        <originalForm>Heute morgen</originalForm>
+
+        <targetForm>heute Morgen</targetForm>
+      </error> bin ich in <foreign_word foreign_language="Italiano">Supermarket</foreign_word> gegangen. Ich habe Brot, Gemüse, Obst gekaufen. Der <foreign_word foreign_language="Italiano">Supermarket</foreign_word> war leer und ich habe so gut gekaufen. Wenn ich an die Kasse gegangen, die <error>
+        <errorType />
+
+        <originalForm>Kassererin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> hat mir ein Angebot gemacht weil ich die <error>
+        <errorType />
+
+        <originalForm>einzige</originalForm>
+
+        <targetForm>Einzige</targetForm>
+      </error> in die <foreign_word foreign_language="Italiano">Supermarket</foreign_word> bin. Dann bin ich in die <error>
+        <errorType />
+
+        <originalForm>Backerei</originalForm>
+
+        <targetForm>Bäckerei</targetForm>
+      </error> und ich habe Milch, Tomaten, Wasser und so weiter gekaufen. Es war alles günstig und ich war so froh weil ich <arrow
+        end="open" id="1"> </arrow> wenig Geld <arrow end="head" id="1">hatte</arrow>. Wenn ich an andere Geschäft bin, die <error>
+        <errorType />
+
+        <originalForm>Kassererin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> war böse mit mir, weil ich viele <error>
+        <errorType />
+
+        <originalForm>packungen</originalForm>
+
+        <targetForm>Packungen</targetForm>
+      </error> in die Hand hatte. Sie sagt dass ich muss die Packungen in der Schran<overwrite>
+        <under>g</under>
+
+        <over>k</over>
+      </overwrite> nehmen. Ich hörte <overwrite>
+        <under><unreadable /></under>
+
+        <over>d</over>
+      </overwrite>ie <error>
+        <errorType />
+
+        <originalForm>Kassererin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> und ich sagte sie <error>
+        <errorType />
+
+        <originalForm>entschuldigung</originalForm>
+
+        <targetForm>Entschuldigung</targetForm>
+      </error>. Später bin ich nach Hause gegangen und mit das <error>
+        <errorType />
+
+        <originalForm>essen</originalForm>
+
+        <targetForm>Essen</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>dass</originalForm>
+
+        <targetForm>das</targetForm>
+      </error> ich gekaufen habe, ich habe ein Kuchen <error>
+        <errorType />
+
+        <originalForm>geckocht</originalForm>
+
+        <targetForm>gekocht</targetForm>
+      </error> . Dann habe ich meine Freundin angerufen und sie sind zu mein Hause gekommen <error>
+        <errorType />
+
+        <originalForm>un</originalForm>
+
+        <targetForm>um</targetForm>
+      </error> eine <error>
+        <errorType />
+
+        <originalForm>Küchen</originalForm>
+
+        <targetForm>Kuchen</targetForm>
+      </error> essen. </exercise>
+
+    <exercise number="2" xml:space="preserve"><par /><greeting>Liebe <entity>Giulia</entity>,</greeting> <par /><error>
+        <errorType />
+
+        <originalForm>Wir</originalForm>
+
+        <targetForm>wir</targetForm>
+      </error> sind in die Sommerferien und ich <error>
+        <errorType />
+
+        <originalForm>wunsche</originalForm>
+
+        <targetForm>wünsche</targetForm>
+      </error> ans Meer fahren aber die andere Freundin wollen in den Bergen fahren. Für mich wir möchten ans Meer fahren will sind wir in Juli. Wenn die andere wollen wir <error>
+        <errorType />
+
+        <originalForm>mussen</originalForm>
+
+        <targetForm>müssen</targetForm>
+      </error> 1 Woche ans Meer fahren und 1 Woche auf den Berg fahren? Findest du dich eine gute Idee? <par />Schreib mir <correction>
+        <deletion><unreadable /></deletion>
+      </correction> nicht später. <par />Hab dich gern.</exercise>
+  </body>
+</kolipsi_document>

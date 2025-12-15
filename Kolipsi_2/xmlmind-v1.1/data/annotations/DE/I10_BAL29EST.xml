@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I10_BAL29EST</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe Julia,</greeting> wie geht´s dir?<par />Ich vermisse dich so viel, <error>
+        <errorType />
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> habe so viele Sachen dir zu sagen!<par />Erinnerst du dich auf Maria? Heute ist ihnen etwas <error>
+        <errorType />
+
+        <originalForm>Passiert</originalForm>
+
+        <targetForm>passiert</targetForm>
+      </error>, sie war in eine Supermarkt zu einkaufen.<par />Sie hat alles <correction>
+        <deletion>gek</deletion>
+      </correction> für ihrer Mutter gekauft, sie war an die Kasse und sie hat alles bezahlt, aber sie hat den Kassenzettel verloren. Danach ist sie <correction>
+        <deletion><unreadable /></deletion>
+      </correction> in der Stadt gegangen. Ein paar Zeit später Maria hat entde<correction>
+        <insertion>c</insertion>
+      </correction>kt dass sie <correction>
+        <insertion>hat</insertion>
+      </correction> dem Butter vergessen zu kaufen.<par />Deshalb ist sie wieder in den Supermarkt gegangen, an die Kasse war aber eine andere Verkäuferin, sie hat dem Butter bezahlt und ist sie <error>
+        <errorType />
+
+        <originalForm>weg gegangen</originalForm>
+
+        <targetForm>weggegangen</targetForm>
+      </error>.<par />Die Verkäuferin hat zur Maria geschreit, weil sie hat der Tüte mit die Sachen in<unreadable />n, und hat Maria den Kassenzettel gefragt, aber sie hat es verloren.<par />So die Verkäuferin hat die Polizei angeruft, und <correction>
+        <deletion>ha</deletion>
+      </correction> Maria hat einen <error>
+        <errorType />
+
+        <originalForm>Nach</originalForm>
+
+        <targetForm>Nacht</targetForm>
+      </error> im <error>
+        <errorType />
+
+        <originalForm>gefängnis</originalForm>
+
+        <targetForm>Gefängnis</targetForm>
+      </error> geschlafen.<par />Oh arme Maria, sie hat <correction>
+        <deletion>ga</deletion>
+      </correction> nichts gemacht, aber sie hat <error>
+        <errorType />
+
+        <originalForm>gemerckt</originalForm>
+
+        <targetForm>gemerkt</targetForm>
+      </error> <correction>
+        <deletion><unreadable /></deletion>
+      </correction> immer den Kassenzettel mitnehmen.<correction></correction> Ist dir Julia es schon mal passiert<correction>
+        <deletion>?</deletion>
+
+        <insertion>,</insertion>
+      </correction> so in einer Situation gewesen?<par /><closing>Meld dich an,</closing> deine Ester </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo Paul!</greeting><par />Ich heiße Ester, wie geht´s dir?<par />Ich habe deiner Artikel in der "Persönliche Briefe" der Zeitung "Junge Woche" gelesen.<par /><error>
+        <errorType />
+
+        <originalForm>For</originalForm>
+
+        <targetForm>Vor</targetForm>
+      </error> zwei Jahre, war ich auch so, ich meine in der gleiche Situation der du bist. Ich war mit ein "Social Network" einsüchtig, ich war immer im Internet und nicht mehr mit meine<correction>
+        <deletion>n</deletion>
+
+        <insertion>r</insertion>
+      </correction> Freunden. Am Ende hatte ich mich sehr allein gefühlt, ich <correction>
+        <deletion>war</deletion>
+      </correction> hatte nur die Freunde auf dieser "Social Network" die mir immer geschrieben haten aber niemand <error>
+        <errorType />
+
+        <originalForm>wircklich</originalForm>
+
+        <targetForm>wirklich</targetForm>
+      </error> mit mir.<par /><error>
+        <errorType />
+
+        <originalForm>Jetz</originalForm>
+
+        <targetForm>Jetzt</targetForm>
+      </error> habe ich verstanden dass ein Freund musst mit dir sein wenn du ihn braucht oder wenn du traurig bist. Nicht nur mit die Wörter sondern auch wirklich im <error>
+        <errorType />
+
+        <originalForm>alltag</originalForm>
+
+        <targetForm>Alltag</targetForm>
+      </error>.<par />Ich denke dass du <correction>
+        <insertion>musst</insertion>
+      </correction> deiner Freunden Entschuldigung sagen. Und die werder wieder bei dir zurück.<par />Es ist <error>
+        <errorType />
+
+        <originalForm>blöod</originalForm>
+
+        <targetForm>blöd</targetForm>
+      </error> der Zeit auf Internet verloren, einer Stunde im <error>
+        <errorType />
+
+        <originalForm>tag</originalForm>
+
+        <targetForm>Tag</targetForm>
+      </error> geht es gut. Du musst ausgehen <correction>
+        <deletion>und</deletion>
+
+        <insertion>oder</insertion>
+      </correction> auf die Berge.<par />Das Leben ist kurz es auf Internet zu widmete!<par /><closing>Alles Gute, wenn du brauchts meld dich an.</closing><par />Ester</exercise>
+  </body>
+</kolipsi_II_document>

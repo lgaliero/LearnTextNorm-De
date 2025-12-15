@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0209</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hi <entity>Paul</entity></greeting>,<par /><error>
+        <errorType />
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> muss dir mal unbedingt was erzählen. <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Letztens war die <entity>Maria</entity>, meine Freundin, <overwrite>
+        <under>im</under>
+
+        <over>be</over>
+      </overwrite>im Obsthändler. Da hat sie Zutaten für einen Obstsalat eingekauft. Als sie jedoch den Laden verließ fiel ihr zunächst nicht auf, dass sie ihren <error>
+        <errorType />
+
+        <originalForm>Kassenbong</originalForm>
+
+        <targetForm>Kassenbon</targetForm>
+      </error> liegen gelassen hatte. Jetzt, ohne dies bemerkt zu haben, ging sie in den Supermarkt um Eis und Sahne, sowie einige andere Lebensmittel zu besorgen.<par />Als sie dann dort an der Kasse stand und grad gehen wollte <overwrite>
+        <under>v</under>
+
+        <over>f</over>
+      </overwrite>iel der Verkäuferin auf <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> sie noch andere Lebensmittel, und zwar die aus dem Obstladen in einer anderen Tasche hatte. Die Verkäuferin ging sofort davon aus <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> <entity>Maria</entity> die Sachen gestohlen hätte, was natürlich nicht so war, und da <entity>Maria</entity>, <correction>
+        <deletion><unreadable /></deletion>
+      </correction> da sie den <error>
+        <errorType />
+
+        <originalForm>Bong</originalForm>
+
+        <targetForm>Bon</targetForm>
+      </error> nicht hatte, nicht beweisen konnte, dass sie diese Lebensmittel aus einem anderen Laden hatte, rief die Kassiererin erst den Sicherheitsdienst und dann die Polizei. <correction>
+        <deletion>Was d</deletion>
+      </correction> Keine Ahnung was dann genau passiert ist, sie hat mir jetzt nicht jede Einzelheit erzählt. Ich wei<correction>
+        <deletion>ß</deletion>
+      </correction>ss nur <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> sie jetzt <overwrite>
+        <under>n</under>
+
+        <over>e</over>
+      </overwrite>ine Anzeige wegen Diebstahl hat. Ganz schön miese Situation.<par /><error>
+        <errorType />
+
+        <originalForm>Naja</originalForm>
+
+        <targetForm>Na ja</targetForm>
+      </error>.. ich wollte dir bloß <error>
+        <errorType />
+
+        <originalForm>bescheid</originalForm>
+
+        <targetForm>Bescheid</targetForm>
+      </error> sagen, damit du auch <error>
+        <errorType />
+
+        <originalForm>bescheid</originalForm>
+
+        <targetForm>Bescheid</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>weisst</originalForm>
+
+        <targetForm>weißt</targetForm>
+      </error>.<par /><closing><reduction>
+          <reductionType rType="02 abbreviation" />
+
+          <reducedForm>LG</reducedForm>
+
+          <unfoldedForm>Liebe Grüße</unfoldedForm>
+        </reduction>. <correction>
+          <deletion><unreadable /></deletion>
+        </correction> </closing>       </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hey Schatz,</greeting><par />Wegen unserem Urlaub, ich <error>
+        <errorType />
+
+        <originalForm>weiss</originalForm>
+
+        <targetForm>weiß</targetForm>
+      </error> du <correction>
+        <deletion>hast</deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>weisst</originalForm>
+
+        <targetForm>weißt</targetForm>
+      </error> noch nicht ob du lieber in die Berge oder an den Strand willst allerdings wäre ich doch ganz klar für den Strand. Natürlich haben auch die Berge was <error>
+        <errorType />
+
+        <originalForm>reiz<overwrite>
+            <under><unreadable /></under>
+
+            <over>v</over>
+          </overwrite>olles</originalForm>
+
+        <targetForm>Reizvolles</targetForm>
+      </error> aber trotzdem gehört Strand <correction>
+        <insertion>für mich</insertion>
+      </correction> zum Urlaub dazu. Ich finde zwar die frische Luft und die schönen Aussichten auch schön <over>a</over>ber der Strand ist n<over>u</over>nmal besser. Ich will einfach in der Sonne liegen und chillen. In die Berge können wir auch ein anderes <error>
+        <errorType />
+
+        <originalForm>mal</originalForm>
+
+        <targetForm>Mal</targetForm>
+      </error> fahren aber diesen Urlaub bitte nicht! Ich war schon letztes Jahr mit meiner Familie in den Bergen und auch wenn es nicht schlecht war hab ich jetzt genug davon. <error>
+        <errorType />
+
+        <originalForm>Ausserdem</originalForm>
+
+        <targetForm>Außerdem</targetForm>
+      </error> wirst du am Strand schön braun und kannst dich wenn es dir zu war<over>m</over> wird in der Sonne abkühlen! <error>
+        <errorType />
+
+        <originalForm>Ausserdem</originalForm>
+
+        <targetForm>Außerdem</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>kansst</originalForm>
+
+        <targetForm>kannst</targetForm>
+      </error> du dann mal deinen Bikini präsentieren <emoticon>;)</emoticon> Ich wette der sieht mega gut aus wenn du braun bist.. und sonst <overwrite>
+        <under><unreadable /></under>
+
+        <over>n</over>
+      </overwrite>atürlich auch! <error>
+        <errorType />
+
+        <originalForm>Naja</originalForm>
+
+        <targetForm>Na ja</targetForm>
+      </error> ich hoffe du tust mir den <error>
+        <errorType />
+
+        <originalForm>gefallen</originalForm>
+
+        <targetForm>Gefallen</targetForm>
+      </error> und gehst mit mir an den Strand. Ich verspreche dir auch mal mit dir in die Berge zu fahren. <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Im Winter wenn man da Ski fahren kann ist es da eh viel schöner. <correction>
+        <deletion><unreadable /></deletion>
+      </correction><par /><error>
+        <errorType />
+
+        <originalForm>Naja</originalForm>
+
+        <targetForm>Na ja</targetForm>
+      </error> lass es dir mal durch den Kopf gehen und schreib mir dann oder ruf mich<correction>
+        <deletion>a</deletion>
+      </correction> an <emoticon>:)</emoticon>!        </exercise>
+  </body>
+</kolipsi_document>

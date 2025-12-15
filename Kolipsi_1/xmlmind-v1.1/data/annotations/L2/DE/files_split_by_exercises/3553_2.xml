@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>3553</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve">
+      <par/><greeting>Hallo <entity>Martina</entity>,</greeting> <par/>wie geht´s?<par/>Ich schreibe dir, weil ich <correction>
+        <insertion>über</insertion>
+      </correction> <arrow end="open" id="1"> </arrow>unseren Urlaub sprechen <arrow end="head" id="1">will</arrow> <overwrite>
+        <under><unreadable/></under>
+
+        <over>M</over>
+      </overwrite>ir gefällt <correction>
+        <deletion>gehen zu</deletion>
+      </correction> es ans zu Meer gehen. Ich denke, <error>
+        <errorType/>
+
+        <originalForm>daß</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> das Meer sehr schön ist. Das Meer macht am die Freiheit denken<strikeover>
+        <expansion>.</expansion>
+
+        <expansion>,</expansion>
+      </strikeover> Ich <correction>
+        <deletion><unreadable/></deletion>
+      </correction> möchte mit d <gap>_</gap> Sand spielen, ich möchte <correction>
+        <deletion>der</deletion>
+
+        <insertion>ein</insertion>
+      </correction> Bad in <correction>
+        <deletion>das</deletion>
+
+        <insertion>dem</insertion>
+      </correction> Meer machen, ich möchte S<overwrite>
+        <under><unreadable/></under>
+
+        <over>p</over>
+      </overwrite>aß haben. <par/>Mir gefällt der Berge nicht, weil ich <correction>
+        <deletion><unreadable/></deletion>
+      </correction> in eine Platz lebe <error>
+        <errorType/>
+
+        <originalForm>um-geben</originalForm>
+
+        <targetForm>umgeben</targetForm>
+      </error> Berge. <par/>Ich denke, <error>
+        <errorType/>
+
+        <originalForm>daß</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> das Meer <correction>
+        <insertion>nicht</insertion>
+      </correction> Nachteile <correction>
+        <deletion>nicht</deletion>
+      </correction> hat. <correction>
+        <deletion>Denn</deletion>
+      </correction> Bestimmen du, ob wir gehen ins Hotel ob in Campingplatz Für mich ist gleich. <par/>Was <overwrite>
+        <under>D</under>
+
+        <over>d</over>
+      </overwrite>enkest du? <par/><correction>
+        <deletion>Wenn wir ans Meer</deletion>
+      </correction><par/>Also, in <correction>
+        <deletion>de</deletion>
+      </correction> dem Urlaub geht nur <correction>
+        <insertion>wir</insertion>
+      </correction> zwei? Ich bin so glücklich. <correction>
+        <deletion>Prüfung</deletion>
+      </correction><par/><closing>Tschüss <entity>Martina</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

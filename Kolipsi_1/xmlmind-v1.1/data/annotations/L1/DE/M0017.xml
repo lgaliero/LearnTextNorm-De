@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0017</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting><error>
+          <errorType />
+
+          <originalForm>Hay</originalForm>
+
+          <targetForm>Hey</targetForm>
+        </error> <entity>Svenja</entity>,</greeting><par /><error>
+        <errorType />
+
+        <originalForm>Meiner</originalForm>
+
+        <targetForm>meiner</targetForm>
+      </error> Freundin ist letzte Woche etwas echt Lustiges passiert. Sie war beim Obsthändler einkaufen und anschließend im Supermarkt. Dort an der Kasse hat die Kassiererin gedacht sie hätte das Zeug vom Obsthändler im Supermarkt einfach in ihre Tasche gesteckt und wollte dann ohne zu bezahlen alles mitnehmen. Als die Kassiererin a<correction>
+        <deletion>s</deletion>
+      </correction>nschließend den Kassenschein vom Obsthändler sehen wollte, stellte meine Freundin <error>
+        <errorType />
+
+        <originalForm>fesst</originalForm>
+
+        <targetForm>fest</targetForm>
+      </error>, dass sie ihn verloren hatte. Da die Kassiererin a<correction>
+        <deletion>m</deletion>
+      </correction>n diesem Tag anscheinend schlecht gelaunt war hat sie <error>
+        <errorType />
+
+        <originalForm>direckt</originalForm>
+
+        <targetForm>direkt</targetForm>
+      </error> die Polizei gerufen. Als <sic>die die</sic> Polizei dann kam musste sie mit ihnen zum Obsthändler fahren und dort fragen ob sich jemand an sie <correction>
+        <deletion>oder</deletion>
+      </correction> und ihren Einkauf <error>
+        <errorType />
+
+        <originalForm>errinnern</originalForm>
+
+        <targetForm>erinnern</targetForm>
+      </error> könne. Zum Glück erkannte sie der Mann an der Kasse wieder und bestä<hyphen>-</hyphen>tigte, dass sie das Obst und Gemüse aus ihrer Tasche wirklich von dort hatte.<par />Das Gute an der Situation ist: <error>
+        <errorType />
+
+        <originalForm>meine</originalForm>
+
+        <targetForm>Meine</targetForm>
+      </error> Freundin vergisst jetzt nie wieder den Kassenzettel!<par /><closing>Gaaanz <error>
+          <errorType />
+
+          <originalForm>Liebe</originalForm>
+
+          <targetForm>liebe</targetForm>
+        </error> Grüße<par />deine <entity>Marie</entity></closing>   </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting><error>
+          <errorType />
+
+          <originalForm>Hay</originalForm>
+
+          <targetForm>Hey</targetForm>
+        </error> <entity>Meriam</entity>,</greeting><par /><error>
+        <errorType />
+
+        <originalForm>Also</originalForm>
+
+        <targetForm>also</targetForm>
+      </error> ich habe <correction>
+        <deletion>mir</deletion>
+      </correction> jetzt zwei Hotels <correction>
+        <deletion>ange</deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>herrausgesucht</originalForm>
+
+        <targetForm>herausgesucht</targetForm>
+      </error> in <sic>den</sic> wir buchen könnten. Das eine ist in <entity>Seattle</entity> am <entity>Mount Rainier</entity> und das andere in der <entity>Dominikanischen <error>
+          <errorType />
+
+          <originalForm>Republick</originalForm>
+
+          <targetForm>Republik</targetForm>
+        </error></entity>. Meiner Meinung nach sollten wir in die <entity>Dominikanische <error>
+          <errorType />
+
+          <originalForm>Republick</originalForm>
+
+          <targetForm>Republik</targetForm>
+        </error></entity> fliegen, da ich nach diesem <sic>anstrengendem</sic> Jahr einfach Lust habe am Strand in der Sonne zu liegen und da<correction>
+        <deletion>r</deletion>
+      </correction>bei das Meer rauschen zu <error>
+        <errorType />
+
+        <originalForm>höhren</originalForm>
+
+        <targetForm>hören</targetForm>
+      </error>. <correction>
+        <deletion>Do</deletion>
+      </correction> Am <entity>Mount Rainier</entity> wäre es zwar auch sehr schön aller<hyphen>-</hyphen>dings wäre <correction>
+        <insertion>der Urlaub</insertion>
+      </correction> <correction>
+        <deletion>es</deletion>
+      </correction> dort auch mit sehr viel <error>
+        <errorType />
+
+        <originalForm>w<overwrite>
+            <under>ä</under>
+
+            <over>a</over>
+          </overwrite>ndern</originalForm>
+
+        <targetForm>Wandern</targetForm>
+      </error> verbunden. Die Natur dort ist zwar <sic>einzigartige</sic> und wirklich besonders aber es regnet dort auch sehr viel. <correction>
+        <deletion>Auf</deletion>
+      </correction> Bei meiner letzten Reise dorthin, wussten wir dies <correction>
+        <deletion>zwa</deletion>
+      </correction> nicht und waren <error>
+        <errorType />
+
+        <originalForm>dement<hyphen>-</hyphen>sprechen</originalForm>
+
+        <targetForm>dementsprechend</targetForm>
+      </error> am Abend als wir wieder im Hotel waren bis auf die Knochen <error>
+        <errorType />
+
+        <originalForm>durchnesst</originalForm>
+
+        <targetForm>durchnässt</targetForm>
+      </error>. Wenn du <error>
+        <errorType />
+
+        <originalForm>weisst</originalForm>
+
+        <targetForm>weißt</targetForm>
+      </error> ob du lieber in die sonnige und entspan<hyphen>-</hyphen>nende <entity>Dominikanische <error>
+          <errorType />
+
+          <originalForm>Republick</originalForm>
+
+          <targetForm>Republik</targetForm>
+        </error></entity> oder zum zwar<error>
+        <errorType />
+
+        <originalForm>wunderschönnen</originalForm>
+
+        <targetForm>wunderschönen</targetForm>
+      </error> aber regnerischen <entity>Mount Rainier</entity> <error>
+        <errorType />
+
+        <originalForm>raisen</originalForm>
+
+        <targetForm>reisen</targetForm>
+      </error> möchtest sag mir <error>
+        <errorType />
+
+        <originalForm>bescheid</originalForm>
+
+        <targetForm>Bescheid</targetForm>
+      </error>. Aber wie gesagt, ich würde lieber ans Meer fliegen.<par /><closing>Liebe Grüße<palimpsest></palimpsest>deine <entity>Marie</entity></closing>         </exercise>
+  </body>
+</kolipsi_document>

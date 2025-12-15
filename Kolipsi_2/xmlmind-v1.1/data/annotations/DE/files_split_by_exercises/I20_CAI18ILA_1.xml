@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I20_CAI18ILA</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Liebe Giulia,</greeting><par/><correction>
+        <deletion>letzte Woche</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>Wie</originalForm>
+
+        <targetForm>wie</targetForm>
+      </error> gehts? Alles gut?<par/>Ich wollte dir <correction>
+        <deletion><unreadable/></deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>erzahlen</originalForm>
+
+        <targetForm>erzählen</targetForm>
+      </error> was Maria letzte Woche passiert ist. Ich kann nicht verstanden was passiert ist. Zuerst war Maria in einem Obst- und Gemüseladen und sie <correction>
+        <insertion>hat</insertion>
+      </correction> einigen Sachen gekauft. Später war sie im Supermarkt. Sie hatte Wasser, <error>
+        <errorType/>
+
+        <originalForm>Muesli</originalForm>
+
+        <targetForm>Müsli</targetForm>
+      </error>, <error>
+        <errorType/>
+
+        <originalForm>mais</originalForm>
+
+        <targetForm>Mais</targetForm>
+      </error> und Hundenahrung in d<correction>
+        <deletion>as</deletion>
+
+        <insertion>er</insertion>
+      </correction> Wagen aufgesetz. Wann sie geht an der Kasse gab es ein Problem. Die Kassiererin hatte gedenkt dass Maria ha<correction>
+        <deletion>t</deletion>
+
+        <insertion>b</insertion>
+      </correction>t die Obst <correction>
+        <deletion>gestehlen</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error>. Die Kassiererin fragt Maria der Kassenzettel und Maria sucht es in ihre Tasche, aber plötzlich sie erinnert dass sie hatte es in die Obst- und Gemüseladen <correction>
+        <deletion>gelassen</deletion>
+      </correction> vergessen. Maria und d<correction>
+        <deletion>er</deletion>
+
+        <insertion>ie</insertion>
+      </correction> Kassiererin beginnt zu diskutieren und sie ruft die Polizei an. Die Polizei kommt und bringt Maria <correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>zu</insertion>
+      </correction> Polizeistation. Nach 2 Stunden war Maria zu Hause. Habst du etwas zur mir <error>
+        <errorType/>
+
+        <originalForm>neues</originalForm>
+
+        <targetForm>Neues</targetForm>
+      </error> zu erzählen.<par/><par/><correction>
+        <deletion>Ich liebe dich</deletion>
+      </correction><par/><closing>Hab dich lieb.</closing></exercise>
+
+    
+  </body>
+</kolipsi_II_document>

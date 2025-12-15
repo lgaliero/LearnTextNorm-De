@@ -1,0 +1,51 @@
+<body>
+ <page page_number="1" transcanno_page_id="267">
+  <paragraph class="medium-paragraph" tagcode="1553696413299">
+   <div>
+    <tran_symbol_id32 class="medium-tran_symbol_id32" tagcode="1553696305712" tran_symbol_target="U+279D">
+     ➝
+    </tran_symbol_id32>
+    Ich möchte in eine Schule wo viele
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Sprachen" tagcode="1553696227915">
+     sprachen
+    </orth_error_id12>
+   </div>
+   <div>
+    lernen müssen
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1553696413300">
+   <div>
+    <tran_symbol_id32 class="medium-tran_symbol_id32" tagcode="1553696313246" tran_symbol_target="U+279D">
+     ➝
+    </tran_symbol_id32>
+    Mein Traumberuf ist ein
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553696389832" tran_correction_original="Ärztin">
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Tierärztin" tagcode="1553696413298">
+      TierÄrztin
+     </orth_error_id12>
+    </tran_word_correction_id25>
+    werden, weil
+   </div>
+   <div>
+    ich liebe Tiere
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1553696413301">
+   <div>
+    <tran_symbol_id32 class="medium-tran_symbol_id32" tagcode="1553696316810" tran_symbol_target="U+279D">
+     ➝
+    </tran_symbol_id32>
+    Ich muss viel alles vom Tiere wissen.
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1553696413302">
+   <div>
+    <tran_symbol_id32 class="medium-tran_symbol_id32" tagcode="1553696320356" tran_symbol_target="U+279D">
+     ➝
+    </tran_symbol_id32>
+    Ich muss viel Naturkunde von Tiere lernen
+   </div>
+  </paragraph>
+ </page>
+</body>

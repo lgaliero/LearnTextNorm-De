@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0193</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Hallo <entity>Jana</entity></greeting>!<par/><error>
+        <errorType/>
+
+        <originalForm>Schau'</originalForm>
+
+        <targetForm>Schau</targetForm>
+      </error> in den Kalender, bis zu den Sommerferien ist es nicht mehr lange! Das heißt, dass wir uns schleunigst für ein Urlaubsziel entscheiden müssen! Ich habe mich im Internet mal <error>
+        <errorType/>
+
+        <originalForm>schlau gemacht</originalForm>
+
+        <targetForm>schlaugemacht</targetForm>
+      </error> und erläutere dir jetzt <correction>
+        <deletion>ein</deletion>
+      </correction> zwei Möglichkeiten. Möglichkeit 1: Urlaub in den Bergen! Dort ist es besonders im Sommer wunderschön und man kann viel unternehmen, wie beispielsweise wandern, klettern, <error>
+        <errorType/>
+
+        <originalForm>Fahrradfahren</originalForm>
+
+        <targetForm>Fahrrad fahren</targetForm>
+      </error> oder ein<hyphen>-</hyphen>fach auf einer Wiese picknicken und entspannen. Die zweite Möglichkeit wäre ein Urlaub am Me<overwrite>
+        <under>r</under>
+
+        <over>e</over>
+      </overwrite>r. Dort könnten wir herrliche Stunden am Strand verbringen, uns sonnen, Sandburgen bauen und schwimmen. Jetzt müssen wir die beiden Ziele gegeneinander abwägen. Ich denke, in den Bergen wie auch am Meer erwarten uns entspannende und er<hyphen>-</hyphen>holsame Wochen, das steht fest. Ich denke, dass wir in den Bergen viel mehr Gelegenheiten haben, um sportlich aktiv zu werden, findest du nicht auch? Wir würden viel mehr erkunden von der Gegend dort, am Meer wären <overwrite>
+        <under>s</under>
+
+        <over>w</over>
+      </overwrite>ir sicher den ganzen Tag über am Strand. Auf der anderen Seite würden wir durch das Sonnen am Strand schön braun werden. Fakt ist, dass wir, egal ob wir uns für die Berge oder das Meer entscheiden, ganz schön abhängig vom Wetter wären. Wenn es regnet, können wir weder gemütlich wandern, noch Sandburgen bauen.<par/>Ich habe für jede der beiden Möglichkeiten einen Ort <error>
+        <errorType/>
+
+        <originalForm>herraus<hyphen>-</hyphen>gesucht</originalForm>
+
+        <targetForm>herausgesucht</targetForm>
+      </error>. Wenn wir Urlaub in den Bergen machen, geht's ab Richtung <entity>Allgäu</entity> und wenn wir ans Meer fahren heißt unser Ziel <entity>Costa Brava</entity>/<entity>Spanien</entity>.<par/>Ich bin wirklich überfragt, beides klingt sehr vielversprech<hyphen>-</hyphen>end! Beide Ziele haben sowohl Vorteile, als auch kleine Nachteile und beide versprechen einen tollen Urlaub! Schreib mir so schnell wie möglich deine Sicht der Dinge, damit wir rechtzeitig die Flüg<overwrite>
+        <under><unreadable/></under>
+
+        <over>e</over>
+      </overwrite> wie auch Unterkünfte <correction>
+        <deletion>mieten</deletion>
+      </correction> <correction>
+        <insertion>reservieren</insertion>
+      </correction> können.<par/><closing>Es grüßt dich, <entity>A.S.</entity></closing>   </exercise>
+  </body>
+</kolipsi_document>

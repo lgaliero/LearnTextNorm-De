@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>D17_PER09GIO</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve">Bozen, 27. Mai 2015<par /><greeting>Liebe Julia,</greeting><par />wie geht's dir? Ich hoffe alles gut!<par />Gestern passierte mir etwas so <error>
+        <errorType />
+
+        <originalForm>komisch</originalForm>
+
+        <targetForm>Komisch</targetForm>
+      </error>! Ich musste einkaufen und deshalb ging ich zuerst zu einem Obst- und Gemüseladen, weißt du, der hier in der Nähe-, um <foreign_word
+        foreign_language="English">Salad</foreign_word>, Kartoffeln und ein bisschen Obst zu kaufen. Als ich bezahlen musste, habe ich der Frau, die an der Kasse war, alles mein Geld gegeben, aber sie hat mir nichts zurückgegeben. In diesem Moment berücksichtigte ich mich nicht, dass ich eigentlich kein Geld mehr hatte.<par />Danach ging ich zum Supermarkt, weil ich Brot und Pasta brauchte, und bisher alles scheinte in Ordnung zu sein.<par />Das Problem war, als ich nochmal bezahlen musste: Da ich das Geld schon im Obst- und Gemüseladen ausgegeben hatte, natürlich konnte ich nicht im Supermarkt bezahlen.<par />Stellt dir vor: Ich war schon dort an der Kasse, und die Frau war so überrascht, dass ich mich eigentlich so viel geschämt habe! Glücklicherweise bin ich zurück zum Obst- und Gemüseladen gegangen und habe dort mein Geld gefunden! Endlich konnte ich meinen Einkauf bezahlen und wieder nach Hause gehen!<par />Ich warte auf deiner Antwort!<par /><closing>Liebe Grüße</closing><par />Maria</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber Paul,</greeting><par />ich bin eine Leserin der Zeitung "Junge Woche" und vor zwei Tage habe ich deinen Brief gelesen. Ich möchte dir ein <error>
+        <errorType />
+
+        <originalForm>Paar</originalForm>
+
+        <targetForm>paar</targetForm>
+      </error> Ratschlage geben, denn ich bin im Internetbereich aktiv tätig.<par />Meiner Meinung nach beeinflußt Internet, und mit ihm auch alle die Social Networks die daran teilnehmen, unser tägliches Leben. Es ist so, heutzutage können wir nicht mehr diese Phänomen kontrollieren, und deswegen sind wir davon abhängig geworden. Die Verwendung des Internets soll eigentlich verringen, um das Leben zu verbessern, sonst werden wir immer so in diese Richtung weitergehen.In diesem Fall handelt es sich um virtuelle Freundschaft, die sich zwischen Personen entwickelt hat, die aber sich nicht persönlich kennen, und außerdem werden sie sich fast sicher nie kennenlernen. Ich denke, dass es nötig ist, sich mindestens einmal persönlich kennen zu lernen, um zu sehen, mit welcher "Art" von Person wir gerade chatten.<par />Du hast dich aus deinem Leben, und ich meine reales Leben, ausgeschlossen, um in einer anderen Welt weiterzuleben, aber jetzt, dass du alles verloren hast, weißt du nicht mehr was zu machen.<par />Also, bitte, komm in die Wirklichkeit zurück und beginn zu leben! Du könntest dich mit deinen alten Freunden treffen, Zeit mit deiner Familie verpassen usw.<par />Ich hoffe, dass es für dich nützlich gewesen ist, und viel Erfolg!<par /><closing>Liebe Grüße<par />Gioxxx<par />Schreib mir, was du entschieden zu machen hast!</closing></exercise>
+  </body>
+</kolipsi_II_document>

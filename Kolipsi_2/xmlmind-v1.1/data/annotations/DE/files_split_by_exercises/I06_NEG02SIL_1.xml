@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I06_NEG02SIL</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo Andy,</greeting><par/>ich <correction>
+        <deletion>(wollte di)</deletion>
+      </correction> möchte dich nur daran erinnern, dass heute Abend meine Grillparty stattfindet. Ich hatte dich letzte Woche gebeten den Kuchen mitzunehmen aber jetzt habe ich noch eine kleine Bitte an dich. Mir ist heute Morgen etwas <error>
+        <errorType/>
+
+        <originalForm>peinliches</originalForm>
+
+        <targetForm>Peinliches</targetForm>
+      </error> passiert, es hat ein Problem im Supermarkt gegeben. De<correction>
+        <deletion>n</deletion>
+
+        <insertion>r</insertion>
+      </correction> erste<correction>
+        <deletion><unreadable/></deletion>
+      </correction> Einkauf den ich heute gemacht habe war im Obst- und Gemüseladen. Dort habe ich nie immer nur Bioobst und Biogemüse eingekauft. Du weißt ja wie sehr ich auf diese Dinge achte, ich möchte ja auch nur das Beste für meine Gäste. Nachdem ich an der Kasse bezahlt habe, bin ich in den Supermarkt gefahren. Dort <correction>
+        <deletion>(<unreadable/>)</deletion>
+      </correction> wollte ich noch das Fleisch, das Brot und die Soßen für heute Abend <correction>
+        <deletion>(ein)</deletion>
+      </correction>kaufen. Als ich an der Kassa stand, legte ich meine Sachen auf das Fließband und die Kassiererin tippte alles ein. Doch als ich bezahlen wollte akzeptierte der <foreign_word foreign_language="English"><reduction>
+          <reductionType rType="02 abbreviation"/>
+
+          <reducedForm>POS</reducedForm>
+
+          <unfoldedForm>Point of Sale</unfoldedForm>
+        </reduction></foreign_word> meine<correction>
+        <deletion>(<unreadable/>)</deletion>
+      </correction> Bankomatkarte nicht. Nachdem ich mehrmals probiert habe, wurde die Kassiererin nervös und sagte mir, dass ich bar bezahlen <correction>
+        <deletion>(musste)</deletion>
+      </correction> oder ohne <correction>
+        <deletion>(nach Hause)</deletion>
+
+        <insertion>Einkauf</insertion>
+      </correction> nach Hause gehen muss. Da ich nur wenig Bargeld mithatte musste ich <correction>
+        <deletion><unreadable/></deletion>
+      </correction> die Soßen im Supermarkt lassen und deshalb stehe ich jetzt ohne da. Ich möchte dich bitten heute Abend ein paar Soßen mitzunehmen damit ich keinen schlechten Eindruck bei den Gästen hinterlasse.<par/>Ich bedanke mich schon im Voraus.<par/><closing>Liebe Grüße</closing><par/>Maria</exercise>
+
+    
+  </body>
+</kolipsi_II_document>

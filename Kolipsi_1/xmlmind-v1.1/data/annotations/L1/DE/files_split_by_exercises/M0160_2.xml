@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0160</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Liebster <entity>Peter</entity></greeting>,<par/>wie geht es Dir? Bei mir ist soweit alles in Ordnung. Ich hatte in den letzten Tagen ein wenig Zeit, um über unser nächstes Urlaubsziel nachzudenken. Es stehen zwei Möglichkeiten zur Auswahl. <correction>
+        <deletion>Erstens könnten</deletion>
+      </correction> Eine Möglichkeit wäre, in den Bergen wandern zu gehen. Wir würden zwar viel in Bewegung sein, <sic>aber die und die</sic> frische Bergluft würde uns bestimmt nicht schaden. Auf der anderen Seite möchte ich in meinem Urlaub eher gemütlich am Strand liegen. Dies wäre <sic>unser</sic> andere Möglichkeit von den Urlaubsziele<over>n</over>. <correction>
+        <deletion>Dies</deletion>
+      </correction> Wir könnten den ganzen Urlaub am Strand in der Sonne liegen und relaxen. Am Strand können wir zwar auch ein paar schöne Wanderungen machen, aber wenn wir es bevorzugen einen aktiven Urlaub zu verbringen, wären die Berge <error>
+        <errorType/>
+
+        <originalForm>dir</originalForm>
+
+        <targetForm>die</targetForm>
+      </error> bessere Lösung. Da wir beide das Meer lieben, bevorzuge ich den Strandurlaub. Dann k<over>ö</over>nnen wir uns den ganzen <overwrite>
+        <under>u</under>
+
+        <over>U</over>
+      </overwrite>rlaub entspannen und kommen braun gebrannt wieder nach Hause. D<overwrite>
+        <under>a</under>
+
+        <over>u</over>
+      </overwrite> kannst dir ja auch ein paar Gedanken darüber machen.<par/><closing>Bis dann<par/>Deine <entity>Susie</entity></closing>     </exercise>
+  </body>
+</kolipsi_document>

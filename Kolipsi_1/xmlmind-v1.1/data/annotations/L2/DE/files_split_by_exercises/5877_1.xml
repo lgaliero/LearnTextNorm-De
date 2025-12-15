@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5877</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Angelika</entity>!</greeting><par/>Wie geht es dir? Ich <error>
+        <errorType/>
+
+        <originalForm>weiss</originalForm>
+
+        <targetForm>weiß</targetForm>
+      </error>, habe <overwrite>
+        <under>die</under>
+
+        <over>dir</over>
+      </overwrite> schon eine andere <error>
+        <errorType/>
+
+        <originalForm>Email</originalForm>
+
+        <targetForm>E-Mail</targetForm>
+      </error> gestern gesendet, aber ich muss dir unbedingt eine <overwrite>
+        <over>G</over>
+
+        <under>g</under>
+      </overwrite>eschichte erzählen. Erinnerst du dich an <entity>Maria</entity>, meine <palimpsest>Freundin? Letzte Woche</palimpsest> war sie einkaufen, zuerst in einem Obst- und Gemüseladen und später im Supermarkt. In den Gemüseladen kaufte sie ein paar Sachen, <palimpsest>bezahlte alles</palimpsest> aber ging ohne Kassenzettel weg (sie stellte <error>
+        <errorType/>
+
+        <originalForm>dir</originalForm>
+
+        <targetForm>die</targetForm>
+      </error> Produkte die sie kaufte in ihre Tasche). Als sie an der Kasse des Supermarkt <palimpsest>kam, wollte bezahlen</palimpsest> was sie ins <error>
+        <errorType/>
+
+        <originalForm>Einkauafswagen</originalForm>
+
+        <targetForm>Einkaufswagen</targetForm>
+      </error> gestellt hatte, aber die Angestellte da<correction>
+        <insertion>c</insertion>
+      </correction>hte, dass auch die Produkte die in der Tasche <palimpsest>waren</palimpsest> gehör<overwrite>
+        <over>t</over>
+
+        <under><unreadable/></under>
+      </overwrite>en an den Supermarkt. <entity>Maria</entity> suchte für <palimpsest>10 Minuten</palimpsest> den Kassenzettel aber sie fand <error>
+        <errorType/>
+
+        <originalForm>gahr</originalForm>
+
+        <targetForm>gar</targetForm>
+      </error>nichts. Sie <sic>rufte</sic> so die <error>
+        <errorType/>
+
+        <originalForm>Besitzerinn</originalForm>
+
+        <targetForm>Besitzerin</targetForm>
+      </error> des <error>
+        <errorType/>
+
+        <originalForm>Gemüsseladen</originalForm>
+
+        <targetForm>Gemüseladen</targetForm>
+      </error> und sie sprach mit die Angestellte.<palimpsest> So lös<overwrite>
+          <over>te</over>
+
+          <under>et</under>
+        </overwrite> sich alles.</palimpsest> Gott sei Dank! Ist das nicht eine witzige Geschichte? <emoticon>=)</emoticon> <par/><closing><par/>Bis bald!<par/><entity><par/><par/>Alessia</entity></closing></exercise>
+
+    
+  </body>
+</kolipsi_document>

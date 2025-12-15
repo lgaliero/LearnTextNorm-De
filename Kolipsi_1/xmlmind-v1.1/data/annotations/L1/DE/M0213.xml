@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0213</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo, <entity>Phillip</entity></greeting>!<par />Meine Freundin <entity>Maria</entity> hat gestern was <error>
+        <errorType />
+
+        <originalForm>spannendes</originalForm>
+
+        <targetForm>Spannendes</targetForm>
+      </error> erlebt. Die Kass<palimpsest>iererin</palimpsest> im <entity>Netto</entity> hat sie beschuldigt, Obst und Gemüse geklaut zu haben. Das hat sie aber, bevor sie <palimpsest>in den</palimpsest> Supermarkt gegangen ist, beim Obsthändler am <entity>Graf-Wilhelm-Platz</entity> gekauft. Jedoch hat sie den Kassenzettel vergessen und im Supermarkt konnte sie der Kassiererin nicht beweisen, dass sie die Sachen in ihrer Handtasche woanders gekauft hat. Zum Glück haben <palimpsest>die nicht</palimpsest> die Polizei gerufen. Aber <entity>Maria</entity> musste die im Obstladen gekauften Sachen zurücklegen. Am Ende hat sie auch nichts von dem gekauft, was sie im Super<hyphen>-</hyphen>markt <error>
+        <errorType />
+
+        <originalForm>vor hatte</originalForm>
+
+        <targetForm>vorhatte</targetForm>
+      </error> zu kaufen. Heute morgen hat sie mir eine SMS geschrieben, dass sie nochmal im Obst- und Gemüseladen war, aber diesmal auch den Kassenzettel mitgenommen hat <emoticon>;)</emoticon>.<par /><closing>Liebe Grüße,<par /><par />dein <entity>Matip</entity></closing>   </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo <entity>Philip</entity></greeting>!<par />Der Grund, wieso ich schreibe, ist, dass wir uns langsam entscheiden müssen, wo wir in den Sommerferien hinfahren wollen. Wir haben zwei Optionen. Entweder fahren wir nach <entity>Österreich</entity> in die Berge oder machen Urlaub auf den <entity>Malediven</entity>. <palimpsest>An beiden</palimpsest> Orten können wir entspannen und <correction>
+        <insertion>uns</insertion>
+      </correction> von der anstrengenden Schule ausruhen. Wenn du Lust hast, zu wandern und etwas zu besichtigen, sollten wir <palimpsest>in die <entity>Alpen</entity> fahren.</palimpsest> Wenn du aber Lust auf Sandstrand und schönes blaues Meereswasser hast, dann sollten wir auf die <entity>Malediven</entity> fliegen. In <entity>Österreich</entity> müssten wir <palimpsest>an einen</palimpsest> See oder in ein Schwimmbad fahren. Auf den <entity>Malediven</entity> wären wir in einem luxuriösen Hotel, direkt am Strand. In <palimpsest>den</palimpsest> Bergen würden wir in einer gemütlichen Hütte wohnen. Ich bevorzuge den Urlaub am Meer und die hüb<palimpsest>schen</palimpsest> Mädchen in Bikinis als öde Wanderwege. <palimpsest>Schreib</palimpsest> mir deine Meinung so schnell wie möglich, damit wir bald was buchen können.<par /><closing>Liebe Grüße,<par /><par /><entity>Mark</entity></closing>    </exercise>
+  </body>
+</kolipsi_document>

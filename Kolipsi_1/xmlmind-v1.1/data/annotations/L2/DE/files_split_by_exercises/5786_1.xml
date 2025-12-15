@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5786</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve">
+      <par/><greeting>Oi <entity>Ötto</entity>!</greeting> <par/>Wie <error>
+        <errorType/>
+
+        <originalForm>get</originalForm>
+
+        <targetForm>geht</targetForm>
+      </error> es dir? Mir ganz gut.<par/>Was du was ist die <error>
+        <errorType/>
+
+        <originalForm>lezte</originalForm>
+
+        <targetForm>letzte</targetForm>
+      </error> Woche passiert?<par/><entity>Maria</entity> <correction>
+        <deletion>ist</deletion>
+      </correction> war ins Obsthändler gegangen. Sie hat ein paar <error>
+        <errorType/>
+
+        <originalForm>sachen</originalForm>
+
+        <targetForm>Sachen</targetForm>
+      </error> ge<overwrite>
+        <under><unreadable/></under>
+
+        <over>k</over>
+      </overwrite>auft. Bis hier ist alles gut, aber das Problem muss noch komme<overwrite>
+        <under><unreadable/></under>
+
+        <over>n</over>
+      </overwrite>! Eine Stunde <error>
+        <errorType/>
+
+        <originalForm>spater</originalForm>
+
+        <targetForm>später</targetForm>
+      </error> ist <entity>Maria</entity> in Supe<ambiguous>
+        <alternative>r</alternative>
+
+        <alternative>i</alternative>
+      </ambiguous>markt <correction>
+        <deletion><unreadable/></deletion>
+      </correction> gegangen. Auch <correction>
+        <deletion><unreadable/></deletion>
+      </correction> hier hat sie ein paar Sachen gekauft.<correction>
+        <deletion>Wenn sie an die Kasse</deletion>
+      </correction><par/><correction>
+        <deletion>Aber wenn sie</deletion>
+      </correction> Das <error>
+        <errorType/>
+
+        <originalForm>problem</originalForm>
+
+        <targetForm>Problem</targetForm>
+      </error> kommt an die Kasse, wo die <error>
+        <errorType/>
+
+        <originalForm>Verkauferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> schreit sehr böse: <direct_speech>"<correction>
+          <deletion>Os<unreadable/></deletion>
+        </correction> <foreign_word foreign_language="Dialekt-Deutsch">Ospele</foreign_word> <foreign_word foreign_language="Dialekt-Deutsch">mucchele!</foreign_word> <strikeover>
+          <expansion>d</expansion>
+
+          <expansion>D</expansion>
+        </strikeover>u musst auch die <strikeover>
+          <expansion>g</expansion>
+
+          <expansion>G</expansion>
+        </strikeover>emüse und das <correction>
+          <deletion>s</deletion>
+        </correction>Obst zählen!"</direct_speech> <entity>Maria</entity> <correction>
+        <deletion>ist ein</deletion>
+      </correction> war ein bisschen <error>
+        <errorType/>
+
+        <originalForm>schokiert</originalForm>
+
+        <targetForm>schockiert</targetForm>
+      </error> und sagt a<ambiguous>
+        <alternative>n</alternative>
+
+        <alternative>r</alternative>
+      </ambiguous> die <error>
+        <errorType/>
+
+        <originalForm><overwrite>
+            <under>v</under>
+
+            <over>V</over>
+          </overwrite>erkauferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error>, dass die Ge<overwrite>
+        <under><unreadable/></under>
+
+        <over>m</over>
+      </overwrite>üse und das Obst in Obsthändl<overwrite>
+        <under>n</under>
+
+        <over>er</over>
+      </overwrite> gekauft hätte. Aber die <error>
+        <errorType/>
+
+        <originalForm>Verkauferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> hat eine schlechte Laune und <correction>
+        <deletion>schikt</deletion>
+
+        <insertion>wirft</insertion>
+      </correction> eine <correction>
+        <deletion>Flasche</deletion>
+      </correction> <correction>
+        <deletion>Flasce</deletion>
+      </correction> Flasche<correction>
+        <deletion><unreadable/></deletion>
+      </correction> Wein auf <entity>Marias</entity> Kopf! <entity>Maria</entity> liegt an de<ambiguous>
+        <alternative>n</alternative>
+
+        <alternative>r</alternative>
+      </ambiguous> Boden. Seine <error>
+        <errorType/>
+
+        <originalForm>lezte</originalForm>
+
+        <targetForm>letzte</targetForm>
+      </error> Wort war: <direct_speech>"die.... die... Zählrechnung... ich habe ... <error>
+          <errorType/>
+
+          <originalForm>Vergessen</originalForm>
+
+          <targetForm>vergessen</targetForm>
+        </error>..."</direct_speech>. Und so <overwrite>
+        <under><unreadable/></under>
+
+        <over>s</over>
+      </overwrite>tirbt <entity>Maria</entity> .<par/>Ah... eine so <sic>traurig</sic> Geschichte.. Ich muss jezt gehen in die <strikeover>
+        <expansion>S</expansion>
+
+        <expansion>s</expansion>
+      </strikeover>upermarkt<par/><correction>
+        <deletion><unreadable/></deletion>
+      </correction><par/> <closing><error>
+          <errorType/>
+
+          <originalForm><overwrite>
+              <under><unreadable/></under>
+
+              <over>V</over>
+            </overwrite>Iele</originalForm>
+
+          <targetForm>Viele</targetForm>
+        </error> <overwrite>
+          <under><ambiguous>
+              <alternative>a</alternative>
+
+              <alternative>o</alternative>
+            </ambiguous></under>
+
+          <over>K</over>
+        </overwrite>üss dein <strikeover>
+          <expansion>f</expansion>
+
+          <expansion>F</expansion>
+        </strikeover>reund<correction>
+          <deletion><unreadable/></deletion>
+        </correction> <entity>Cicciobalestra</entity>.</closing> <par/><correction>
+        <deletion><unreadable/>!</deletion>
+      </correction></exercise>
+
+    
+  </body>
+</kolipsi_document>

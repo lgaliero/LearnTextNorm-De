@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>6398</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Giada</entity>,</greeting> <par/>mir tut es ehrlich <error>
+        <errorType/>
+
+        <originalForm>Leid</originalForm>
+
+        <targetForm>leid</targetForm>
+      </error>, dass du und <entity>Andrea</entity> euch letztes <error>
+        <errorType/>
+
+        <originalForm>mal</originalForm>
+
+        <targetForm>Mal</targetForm>
+      </error> nicht ganz gut verständigt habt: <error>
+        <errorType/>
+
+        <originalForm>ich</originalForm>
+
+        <targetForm>Ich</targetForm>
+      </error> hoffe, ihr versöhnt euch <palimpsest>bald</palimpsest> miteinander. Auf alle Fälle weißt du schon als Kusine, dass ich <palimpsest>für</palimpsest> meine Ferien immer wieder Pläne mache und dass ich sie aufs Neue überdenke. <error>
+        <errorType/>
+
+        <originalForm>ch</originalForm>
+
+        <targetForm>Ich</targetForm>
+      </error> beachsichtige im kommenden Sommer, entweder ins Gebirge oder ans Meer zu fahren und möchte auch gerne wissen, ob du mitkommen darfst. <palimpsest>An zweiter Stelle möchte ich auch deine Meinung erfahren: <error>
+          <errorType/>
+
+          <originalForm>was</originalForm>
+
+          <targetForm>Was</targetForm>
+        </error> schlä<palimpsest>gst</palimpsest> du mir vor?</palimpsest> Was würde dir unter den tausenden von Möglichkeiten am besten gefallen? Was die Berge anbelangt, bin ich schon manchmal ins <entity>Allgäu</entity> gefahren, <palimpsest>wobei mich seine</palimpsest> einzigartige <error>
+        <errorType/>
+
+        <originalForm>Mischugn</originalForm>
+
+        <targetForm>Mischung</targetForm>
+      </error> aus Natur und Kultur beeindruckt hat. Welchen Voschlag würdest du s<palimpsest>onst u</palimpsest>nterbreiten? Es ist ja bekanntlich schwierig im Internet nachzuschlagen und nach günstigen Angeboten zu forschen: <error>
+        <errorType/>
+
+        <originalForm>es</originalForm>
+
+        <targetForm>Es</targetForm>
+      </error> wäre längst besser, wenn wir schon ungefähr etwas vorhätten. Ehrlich gesagt bevorzuge ich die Stimmung und das Rauschen des Meeres: <error>
+        <errorType/>
+
+        <originalForm>ich</originalForm>
+
+        <targetForm>Ich</targetForm>
+      </error> finde die Wärme und das reine Wasser faszinierend und erlebe mit meinen <error>
+        <errorType/>
+
+        <originalForm>Freudnen</originalForm>
+
+        <targetForm>Freunden</targetForm>
+      </error> auf der Insel <entity>Elba</entity> eine schöne Erfahrung. Solche Badeorte haben außerdem viele Vorteile: <error>
+        <errorType/>
+
+        <originalForm>die</originalForm>
+
+        <targetForm>Die</targetForm>
+      </error> salzige Luft tut unseren Lungen bekanntlich gut und der Strand ist für Sportarten wie Volleyball sehr geeignet. <palimpsest>So eine Reise</palimpsest> kann man sich durchschnittlich auch finanzielle <palimpsest>leisten</palimpsest>. Im Allgemeinen bin ich deswegen überzeugt, aber ich warte <palimpsest>hoffnungsvoll</palimpsest> auf deine Antwort. <par/>Das war´s einmal, bis demnächst mal wieder! <par/><closing>Herzliche Grüße, <par/> dein <entity>Luca</entity></closing></exercise>
+  </body>
+</kolipsi_document>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0201</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo mein Freund,</greeting><par/>mir ist heute etwas sehr <error>
+        <errorType/>
+
+        <originalForm>lustiges</originalForm>
+
+        <targetForm>Lustiges</targetForm>
+      </error> passiert. Ich war heute morgen <correction>
+        <deletion>einkaufe</deletion>
+      </correction> einkaufen und hab beim Obsthändler ein paar Gurken für heute Abend gekauft.<par/>Als ich danach im Supermarkt an der Kasse bezahlen wollte, <correction>
+        <deletion>meinte</deletion>
+      </correction> verlangte die Kassiererin doch tatsächlich, dass ich die Gurken nochmal bezahle. Ich meinte zwar, dass ich die Gurken beim Obsthändler gekauft hätte, da ich aber für gewöhnlich meine Kassenzettel liegen lasse konnte ich das natürlich nicht beweisen.<par/>Und weil ich mich geweigert habe die Gurken noch mal zu bezahlen, hat die doof<over>e</over> Kassiererin die Polizei gerufen.<par/>Dann sind wir nach hinten in so einen Raum gegangen und haben da gewartet, das war voll peinlich.<par/>Als die Polizei dann da war musste ich am Ende doch noch mal zahlen.<par/>Ich glaub ich zieh nach <entity>Italien</entity>, da kann man die Polizei immerhin noch beste<overwrite>
+        <under><unreadable/></under>
+
+        <over>c</over>
+      </overwrite>hen.<par/><closing><error>
+          <errorType/>
+
+          <originalForm>mf<correction>
+              <deletion><unreadable/></deletion>
+
+              <insertion>G</insertion>
+            </correction></originalForm>
+
+          <targetForm>MfG</targetForm>
+        </error><par/><entity><unreadable/></entity></closing>       </exercise>
+
+    
+  </body>
+</kolipsi_document>

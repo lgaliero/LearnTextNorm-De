@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I34_MAF21LUC</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Lieber Daniele,</greeting> Bozen den 16.4.2015 <comment>die Form entspricht einem Brief</comment><par />wie geht es dir? Mir geht es gut. In diese<correction>
+        <deletion>m</deletion>
+
+        <insertion>n</insertion>
+      </correction> Tage bin ich viel beschäftigt mit der Schule. Ich wollte dir eine sehr komische Tat. Gestern ist Maria einkaufen gegangen. Am Anfang ist sie nach ein Obsthändler gegangen um <foreign_word
+        foreign_language="English">Salad</foreign_word>, <correction>
+        <deletion>einzukaufen, und eine Stunde später ist sie</deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>Koroton</originalForm>
+
+        <targetForm>Karotten</targetForm>
+      </error> und anderen Gemüse für die Gemüs<correction>
+        <deletion><unreadable /></deletion>
+      </correction>esuppe einzukaufen. Eine Stunde später ist sie nach <foreign_word foreign_language="Italiano">Supermarket</foreign_word> gegangen. Sie hat Mi<correction>
+        <deletion>c</deletion>
+
+        <insertion>l</insertion>
+      </correction>ch, Brot und <error>
+        <errorType />
+
+        <originalForm>Marmellade</originalForm>
+
+        <targetForm>Marmelade</targetForm>
+      </error> für die <error>
+        <errorType />
+
+        <originalForm>Früstück</originalForm>
+
+        <targetForm>Frühstück</targetForm>
+      </error>, <correction>
+        <deletion>gekau Flei</deletion>
+      </correction> Fleisch, Kartoffeln, <correction>
+        <deletion><unreadable /></deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>öll</originalForm>
+
+        <targetForm>Öl</targetForm>
+      </error> und anderen Unterhalt gekauft. Aber <error>
+        <errorType />
+
+        <originalForm>we<correction>
+            <deletion>e</deletion>
+
+            <insertion>n</insertion>
+          </correction></originalForm>
+
+        <targetForm>wenn</targetForm>
+      </error> sie an der Kasse kommt der <error>
+        <errorType />
+
+        <originalForm>kassierer</originalForm>
+
+        <targetForm>Kassierer</targetForm>
+      </error> <correction>
+        <deletion>enteckt dass Maria</deletion>
+      </correction> entdeckt dass Maria einige Waren gestohlen hat. Der Direkt ruft die Polizei die eine Liste macht. Ein Shampoo, ein paar <correction>
+        <deletion>Barillen</deletion>
+      </correction> Barilla Kartoni, und so weiter. Die Polizei gibt ihm eine Strafe von 150 €.</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Halo Paul!</greeting><par />Ich habe dein<correction>
+        <deletion>e</deletion>
+      </correction> <correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>Brief</insertion>
+      </correction> in der Rubrik "Persönliche Briefe" der Zeitung "Junge Woche" gelesen. Am <error>
+        <errorType />
+
+        <originalForm>erstens</originalForm>
+
+        <targetForm>Erstens</targetForm>
+      </error> wollte ich meine Meinung nach <correction>
+        <deletion>Vir</deletion>
+      </correction> virtuelle Freundschaften sagen. Ich bin der Meinung dass es sehr <correction>
+        <deletion>S<unreadable /></deletion>
+      </correction> schöne Freundschaften sein können. Ich hatte ein virtuelle Freundschaft. Ich habe ihm im Facebook kennengelernt, und beide wollten unserer Englisch verbessern. Seine Name ist Afenso Charo, er kommt aus "<foreign_word
+        foreign_language="Italiano"><error>
+          <errorType />
+
+          <originalForm>Mazz<ambiguous>
+              <alternative>o</alternative>
+
+              <alternative>e</alternative>
+            </ambiguous>mbico</originalForm>
+
+          <targetForm>Mozambico</targetForm>
+        </error></foreign_word>.<par /><correction>
+        <insertion>In</insertion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>Meiner</originalForm>
+
+        <targetForm>meiner</targetForm>
+      </error> Ansicht, um deine Freunde nicht zu ärgern, solltest du dich melden und sie zeigen <correction>
+        <deletion>f</deletion>
+      </correction> was du fühlst.</exercise>
+  </body>
+</kolipsi_II_document>

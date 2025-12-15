@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0108</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Sarah</entity></greeting>,<par />ich habe letztens etwas ganz <error>
+        <errorType />
+
+        <originalForm>lustiges</originalForm>
+
+        <targetForm>Lustiges</targetForm>
+      </error><correction>
+        <deletion>erlebt</deletion>
+      </correction> mitbekommen. <entity>Marina</entity>, die <palimpsest>kennst <over>d</over>u</palimpsest> auch noch von meinem <sic>letztem</sic> Geburtstag <correction>
+        <insertion>kennst</insertion>
+      </correction>, war zuerst im Obst- und Gemüseladen einkau<hyphen>-</hyphen>fen. Nach dem Einkauf tat sie die gekauften Gurken, Möhren, Salate und Tomaten in ihre <correction>
+        <deletion><unreadable /></deletion>
+      </correction> etwas größere Handtasche. Da in der Tasche schon ein paar Gegenstände waren, wie ein Regenschirm und eine Jacke, guckten die gekauften Sachen etwas aus der Tasche raus, vor allem die Gurken.<par />Anschließend ging <entity>Marina</entity> in de<overwrite>
+        <under>m</under>
+
+        <over>n</over>
+      </overwrite> Supermarkt, um für die nächsten Tage schon einmal einzukaufen.<par />Sie ging durch den Laden und legte mehrere Lebensmittel in ihren Wagen, bis der Wagen fast bis oben hin mit Essen und Trinken voll war und sie alles hatte, was sie brauchte.<par />Nun ging sie zur Kasse und stellte si<over>c</over>h ganz normal ans Ende der Schlange an. Als sie an der Reihe war, legte sie alle Sachen <correction>
+        <deletion>auf das schwarze Lauf<hyphen>-</hyphen>ban</deletion>
+      </correction> aus ihrem Einkaufswagen auf das schwarze Laufband und stellte sich an den <overwrite>
+        <under><unreadable /></under>
+
+        <over>K</over>
+      </overwrite>assierti<palimpsest>s</palimpsest>ch und wartete darauf, dass die Kassiererin<correction>
+        <deletion>n</deletion>
+      </correction> alles in d<overwrite>
+        <under>ie</under>
+
+        <over>e</over>
+      </overwrite>n Kassencomputer <sic>eingescand</sic> hatte.<par />Auf einmal <correction>
+        <deletion>sagte</deletion>
+      </correction> <correction>
+        <insertion>fragte</insertion>
+      </correction> die Kassiererin<correction>
+        <deletion>n</deletion>
+      </correction>, was denn mit den Lebensmitteln, die aus ihrer Tasche ragten,<sic> sei<overwrite>
+          <under>.</under>
+
+          <over>n</over>
+        </overwrite></sic>.<par /><entity>Marina</entity> antwortete, dass sie die in einem anderen Laden gekauft hatte. <error>
+        <errorType />
+
+        <originalForm>Darauf hin</originalForm>
+
+        <targetForm>Daraufhin</targetForm>
+      </error> wollte die Kassiererin<correction>
+        <deletion>n</deletion>
+      </correction> den Kassenbeleg dafür sehen, doch <entity>Marina</entity> hatte ihn im Obst- und Gemüseladen liegen lassen.<par />Die Kassiererin<correction>
+        <deletion>n</deletion>
+      </correction> wollte also, dass <entity>Marina</entity> ihr <correction>
+        <insertion>gekauftes</insertion>
+      </correction> Obst und Gemüse <error>
+        <errorType />
+
+        <originalForm>nocheinmal</originalForm>
+
+        <targetForm>noch einmal</targetForm>
+      </error> bezahlt, doch <entity>Marina</entity> weigerte sich und brachte die tolle Idee ein, dass sie sich doch das<correction>
+        <deletion>s</deletion>
+      </correction> Videoband angucken soll, <error>
+        <errorType />
+
+        <originalForm>dass</originalForm>
+
+        <targetForm>das</targetForm>
+      </error> <entity>Marina</entity> beim reinkommen direkt aufgefallen war.<par />Das taten sie dann auch und <entity>Marina</entity> musste <correction>
+        <deletion>e</deletion>
+      </correction> ihre Lebensmittel aus dem Obst- und Gemüseladen nicht bezahlen.<par />Lustig, nicht wahr?<par /><closing>Bis bald.</closing></exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo <over>S</over>chatz,</greeting><par />ich war gestern im Reisebüro und habe <palimpsest>nun</palimpsest> 2 Urlaube im Auge, die dir auch gefallen würden <correction>
+        <deletion>D<unreadable /></deletion>
+      </correction><par /><correction>
+        <deletion>Doch</deletion>
+      </correction> Nur ich kann mich nicht so recht entscheiden. Beide haben Vor- und Nachteile.<par />Deswegen, beschreibe ich sie <overwrite>
+        <under><unreadable /></under>
+
+        <over>d</over>
+      </overwrite>ir beide und du entscheidest.<par />Der <error>
+        <errorType />
+
+        <originalForm>Erste</originalForm>
+
+        <targetForm>erste</targetForm>
+      </error> Urlaub würde nach <entity>Italien</entity> in die Berge gehen. Wir hätten ein kleines Ferienhäuschen im Wald. <error>
+        <errorType />
+
+        <originalForm>Je doch</originalForm>
+
+        <targetForm>Jedoch</targetForm>
+      </error> müssten wir dort mit <correction>
+        <deletion>einem</deletion>
+      </correction> unserem Auto hinfahren.<par />Der zweite Urlaub würde <correction>
+        <deletion>nach</deletion>
+      </correction> in die <entity>Türkei</entity> ans Meer gehen. Wir würden in einem <error>
+        <errorType />
+
+        <originalForm>4 Sterne-Hotel</originalForm>
+
+        <targetForm>4-Sterne-Hotel</targetForm>
+      </error> wohnen mit Ausblick auf das Meer und Hotelpool.<par />Vom Preis her ist ungefähr beides gleich teuer, wenn man bedenkt, dass wir in <entity>Italien</entity> das Auto dabei haben und zum Einkaufen 4 - 5 km fahren müssen und auch nur Frühstück in einer Pension nebenan bekommen.<par /><correction>
+        <deletion>D</deletion>
+      </correction> Dafür <correction>
+        <deletion>bek</deletion>
+      </correction> würden wir in der <entity>Türkei</entity> Frühstück, Mittagessen, Abendessen und Getränke von morgens bis <overwrite>
+        <under>A</under>
+
+        <over>a</over>
+      </overwrite>bends bekommen.<par />In <entity>Italien</entity> hätten wir <correction>
+        <deletion>zwar</deletion>
+      </correction> mehr <error>
+        <errorType />
+
+        <originalForm>ruhe</originalForm>
+
+        <targetForm>Ruhe</targetForm>
+      </error>, könnten wandern gehen und uns ausruhen.<par />In der <entity>Türkei</entity> könnten wir uns auch ausruhen von morgens bis abends am Strand, <error>
+        <errorType />
+
+        <originalForm>je doch</originalForm>
+
+        <targetForm>jedoch</targetForm>
+      </error> ist es dort nicht so ruhig, wie in <entity>Italien</entity>.<par />Die Temperaturen sind ungefähr in beiden Optionen gleich. Jedoch bei bis zu 30° C wandern gehen?<par />Ich weiß nicht.<par />Ich kann mich einfach nicht entscheiden.<par />Also, möchtest du lieber einen ruhigen Urlaub mit <error>
+        <errorType />
+
+        <originalForm>wandern</originalForm>
+
+        <targetForm>Wandern</targetForm>
+      </error> und <error>
+        <errorType />
+
+        <originalForm>ausruhen</originalForm>
+
+        <targetForm>Ausruhen</targetForm>
+      </error> oder doch eher einen entspannten, sonnigen Urlaub am Meer?<par />Entscheid dich schnell.<par /><closing>Bis dann</closing>            </exercise>
+  </body>
+</kolipsi_document>

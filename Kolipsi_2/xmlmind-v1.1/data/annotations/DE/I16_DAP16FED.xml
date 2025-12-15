@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I16_DAP16FED</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve">Maria war letzte Woche einkaufen. Zuerst war sie beim Obsthändler. Dort kaufte sie Obst und Gemüse. ein. Als sie alles in <correction>
+        <deletion>s</deletion>
+
+        <insertion>i</insertion>
+      </correction>hrem Einkaufskorb gelegt hat ging sie zur Kasse. um es zu bezahlen. Die Frau, die an der Kasse war machte ihr den Kassenzettel. Die Frau nahm ihre Brieftasche heraus und bezahle den Obst und die Gemüse. Alles was sie gekauft hatte stellte sie in eine Tasche und ging weg. Die Verkäuferin merkt dass sie den Kassenzettel vergessen hatte, so schrie sie: "<error>
+        <errorType />
+
+        <originalForm>entschuldigung</originalForm>
+
+        <targetForm>Entschuldigung</targetForm>
+      </error> Sie haben den Kassenzettel vergessen", aber die Frau hörte nicht mehr.<par />Eine Stunde später ging sie im Supermarkt. Dort kaufte sie Wein, Tomaten, Reis und andere Sachen ein. Als sie die ganze Runde gemacht hatte und alles was sie einkaufen musste hatte ging sie zur Kasse. Dort gab es aber ein Problem. Die Verkäuferin fragte sie wieso sie nicht den Obst bezahlte? Die Frau antwortete, dass sie zuerst beim Obsthändler war. Die Verkäuferin fragte nach dem Kassenzettel. Die Frau suchte ihn aber sie fand es nicht, so merkte sie dass sie beim Obsthändler vergessen hatte. Die Verkäuferin tröste die Frau und sagte dass es kein Problem ist sie glaubt ihr.<par /><closing>Liebe Grüße</closing><par />Deine Freundin. </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber Paul,</greeting><par />wie geht es dir? In der <correction>
+        <deletion>Rep</deletion>
+      </correction> Rubrik "Persönliche Briefe" der Zeitung "Junge Woche" habe ich dein Brief gelesen. "Probleme mit dem Chatten". Ich denke, dass eine <correction>
+        <deletion>F</deletion>
+      </correction> virtuelle Freundschaft nicht so gut ist, man sollte solche Freunde nicht haben. Freunde sind da um zu helfen. Wenn ich <error>
+        <errorType />
+
+        <originalForm><correction>
+            <deletion>e</deletion>
+
+            <insertion>ä</insertion>
+          </correction>rlich</originalForm>
+
+        <targetForm>ehrlich</targetForm>
+      </error> sein muss ich würde mich schämen ein solcher Brief in der Öffentlichkeit zu schreiben. Ich kann dir keinen richtigen Rat geben, denn du hättes früher daran denken müssen. Die neuen Medien sind sehr wichtig, wenn sie richtig benütz<correction>
+        <deletion>en</deletion>
+
+        <insertion>t</insertion>
+      </correction> werden. Wenn man die Personen nicht kennt, da hat man keine echte Freundschaft. Mir kommt es vor du lebst auch in eine virtuelle Welt. Ich kenne Leute, die auch im Internet chatten und die haben richtigen Probleme bekommen. Ich hoffe du findest selbst eine Lösung und dass du solche Fehler nie mehr machen wirst.<par /><closing>Liebe Grüße</closing><par />Heidi</exercise>
+  </body>
+</kolipsi_II_document>

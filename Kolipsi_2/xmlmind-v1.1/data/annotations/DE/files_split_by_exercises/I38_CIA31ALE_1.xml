@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I38_CIA31ALE</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hi Marco,</greeting><par/>ich will ihn eine Geschi<correction>
+        <deletion>s</deletion>
+
+        <insertion>c</insertion>
+      </correction>hte erzählen, weil Maria nach Geschäft gegangen ist. Maria musste einen Abendessen kochen, und so ging sie im Obsthändler. Sie hat viele Obst und Gemüse gesehen, und sie wollte vielen Dinge kaufen. Auf die Kasse hat sie Bröt<correction>
+        <insertion>c</insertion>
+      </correction>hen, Pasta und andere Gemüse bezahl<correction>
+        <deletion>en</deletion>
+
+        <insertion>t</insertion>
+      </correction>. Sie ging weiter in anderem Geschäfte aber sie <correction>
+        <deletion>su</deletion>
+
+        <insertion>ha</insertion>
+      </correction>t nicht was sie wollte gesucht. Sie <correction>
+        <deletion>da</deletion>
+      </correction> hat gedacht dass ein<correction>
+        <deletion>e</deletion>
+      </correction> Supermarkt <correction>
+        <deletion>die e</deletion>
+      </correction> eine gute Idee <correction>
+        <deletion>s<unreadable/>n</deletion>
+      </correction> ist. Es gab viele Leute und sie wollte schnell weggehen. Sie musste nach <correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>H</insertion>
+      </correction>ause zurückgehen. Maria suchte ihre Ausweise und sie sah viele schöne Dinge <error>
+        <errorType/>
+
+        <originalForm>dass</originalForm>
+
+        <targetForm>das</targetForm>
+      </error> sie <correction>
+        <deletion><unreadable/></deletion>
+      </correction> kaufen wollte. Aber wenn <correction>
+        <deletion>sie</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>kamm</originalForm>
+
+        <targetForm>kam</targetForm>
+      </error> sie auf die Kasse, hat sie nur Bier <correction>
+        <deletion>,</deletion>
+
+        <insertion>und</insertion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>Sause</originalForm>
+
+        <targetForm>Soße</targetForm>
+      </error> bezahlt. <correction>
+        <deletion>S</deletion>
+
+        <insertion>A</insertion>
+      </correction>ber sie <correction>
+        <deletion>hätte</deletion>
+
+        <insertion>musste</insertion>
+      </correction> die Gemüse <correction>
+        <deletion><unreadable/> nicht</deletion>
+      </correction> noch anderen bezahlen, weil Maria <foreign_word foreign_language="Italiano">Scontrino</foreign_word> verloren hat.</exercise>
+
+    
+  </body>
+</kolipsi_II_document>

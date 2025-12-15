@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I02_MAL31JAL</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Sehr <error>
+          <errorType/>
+
+          <originalForm>gehrte</originalForm>
+
+          <targetForm>geehrte</targetForm>
+        </error> Paul,</greeting><par/>ich weiß genau wie du dich <error>
+        <errorType/>
+
+        <originalForm>füllst</originalForm>
+
+        <targetForm>fühlst</targetForm>
+      </error>. Ich war so wie dich, ich lebte für die andere Menschen, ich machte genau was sie wollen. Ich hatte keine <error>
+        <errorType/>
+
+        <originalForm>Eigene</originalForm>
+
+        <targetForm>eigene</targetForm>
+      </error> Meinung und ich machte alles für alle.<par/>Ich hatte keinen echten Freunde, <correction>
+        <deletion>ich</deletion>
+      </correction> aber ich wollte an das nicht glauben.<par/>Ein Tag <correction>
+        <deletion>war</deletion>
+      </correction> liegte ich am mein Bett, und weinte weil ich kein Freunde hatte, ich <error>
+        <errorType/>
+
+        <originalForm>füllte</originalForm>
+
+        <targetForm>fühlte</targetForm>
+      </error> mich <correction>
+        <deletion>so</deletion>
+      </correction> so da <error>
+        <errorType/>
+
+        <originalForm>niemannt</originalForm>
+
+        <targetForm>niemand</targetForm>
+      </error> mich liebt, ich war sehr <error>
+        <errorType/>
+
+        <originalForm>traureg</originalForm>
+
+        <targetForm>traurig</targetForm>
+      </error>.<par/>In die Schule war ich <error>
+        <errorType/>
+
+        <originalForm>schläch</originalForm>
+
+        <targetForm>schlecht</targetForm>
+      </error> und ich bin ein Jahr noch gesetzt wurde. In dieses Jahr hab ich erfunden <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> ich die Freunde hatte, waren nicht echte Freunde. Ich hab das erfunde weil <error>
+        <errorType/>
+
+        <originalForm>niemannt</originalForm>
+
+        <targetForm>niemand</targetForm>
+      </error> wolle nichts von mir wissen. Ich redete nicht nicht mehr fast mit <error>
+        <errorType/>
+
+        <originalForm>niemannt</originalForm>
+
+        <targetForm>niemand</targetForm>
+      </error> von meine<correction>
+        <deletion><unreadable/></deletion>
+      </correction> alte Freunden, ich hab gelernt, zu allein sein, und auch wenn ich falle <error>
+        <errorType/>
+
+        <originalForm>niemannt</originalForm>
+
+        <targetForm>niemand</targetForm>
+      </error> helft mir, ich muss allein aufstehen.<par/><error>
+        <errorType/>
+
+        <originalForm>Weist</originalForm>
+
+        <targetForm>Weißt</targetForm>
+      </error> du was? Ich glaube <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> virtuelle Freundschaften, sind nicht wir<correction>
+        <deletion>r</deletion>
+
+        <insertion>k</insertion>
+      </correction>liche Freundschaften.<par/>Ich kann dir empfehlen zu <correction>
+        <deletion>die Warheit</deletion>
+
+        <insertion>echt</insertion>
+      </correction> sein und antworten <foreign_word foreign_language="English">and</foreign_word> an<correction>
+        <deletion>o</deletion>
+      </correction> diese Nachrichte, <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> du nicht ein Mensch nur zu benützen bist.<par/>Ich hat mir gefreut mi dir re<correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>d</insertion>
+      </correction>en.<par/><closing>Mit <correction>
+          <deletion><unreadable/></deletion>
+        </correction> freundliche <correction>
+          <deletion><unreadable/></deletion>
+        </correction> Grüßen</closing></exercise>
+  </body>
+</kolipsi_II_document>

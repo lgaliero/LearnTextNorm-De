@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0179</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Liebe Freundin,</greeting><par/>wie geh<palimpsest>t</palimpsest> es dir? Mir geht es gut.<par/>Ich habe die <palimpsest>m</palimpsest>öglichen Reiseziele für unseren gemeinsamen Ausflug auf zwei Orte minimiert. <palimpsest>Die</palimpsest> erste Möglichkeit wären die <entity>Alpen</entity> von <entity>Österreich</entity>. Vorteile dafür wären zum Beispiel die vielen <error>
+        <errorType/>
+
+        <originalForm>Freizeit Aktivitäten</originalForm>
+
+        <targetForm>Freizeitaktivitäten</targetForm>
+      </error> die dort möglich sind; man kann dort wandern, skifahren und nach einem harten Tag <error>
+        <errorType/>
+
+        <originalForm>einenen</originalForm>
+
+        <targetForm>einen</targetForm>
+      </error> gemeinsamen erotischen Abend vor dem Kamin der Skihütte verbringen und dort einmal richtig ins Schwitzen kommen bei den verschiedensten Stellungen. Außerdem ist gerade diese Region bekannt für die Vielzahl der dort <error>
+        <errorType/>
+
+        <originalForm>ansäßigen</originalForm>
+
+        <targetForm>ansässigen</targetForm>
+      </error> Swingerclubs, wo man durchaus <error>
+        <errorType/>
+
+        <originalForm>auchmal</originalForm>
+
+        <targetForm>auch mal</targetForm>
+      </error> was <overwrite>
+        <under>n</under>
+
+        <over>N</over>
+      </overwrite>eues mit neuen Leuten ausprobieren kann. Nachteile für die <entity>Alpen</entity> sind allerdings <correction>
+        <insertion>z.B.</insertion>
+      </correction> das nur mittelmäßige Wetter und die meist unfreundlichen Einheimischen.<par/>Diese Probleme hätte man am Strand der <entity>Dominikanischen <over>R</over>epublik</entity> nicht. Das Wetter dort ist das ganze Jahr über super und die Einheimischen sind aufgrund ihrer enormen Armut immer höflich und zuvorkommend. Außerdem <palimpsest>ist</palimpsest> die Vielzahl an Freizeitmöglichkeiten ebenfalls recht <sic>ansehnlich</sic> und meiner Meinung nach ist d<overwrite>
+        <under>a</under>
+
+        <over>e</over>
+      </overwrite>r gesamte Eindruck der <entity><reduction>
+          <reductionType rType="02 abbreviation"/>
+
+          <reducedForm>Dom.Rep.</reducedForm>
+
+          <unfoldedForm>Dominikanischen Republik</unfoldedForm>
+        </reduction></entity> besser weshalb ich für Sommer, Sonne, Strand und Meer tendiere.<par/>Ich bitte um deine Meinung, damit wir uns noch recht-zeitig einigen können.<par/><closing>MfG<par/>Dein Freund</closing>     </exercise>
+  </body>
+</kolipsi_document>

@@ -1,0 +1,80 @@
+<body>
+ <page page_number="1" transcanno_page_id="2385">
+  <paragraph class="medium-paragraph" tagcode="1611746662525">
+   <div>
+    Ein Vater
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552770444147" tran_word_deletion_target="_#_">
+     ist
+    </tran_word_deletion_id8>
+    musste Militär werden und
+   </div>
+   <div>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="weggehen" tagcode="1552770491218">
+     weckgehen
+    </orth_error_id12>
+    . Also wollte er sein Familie
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1556635139436" tran_correction_original="begrü*en">
+     begrüßen
+    </tran_word_correction_id25>
+    .
+   </div>
+   <div>
+    Seine
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Tochter" tagcode="1552770542331">
+     tochter
+    </orth_error_id12>
+    und seine "
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1552770550705">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552770560744" tran_word_deletion_target="_#_">
+      *
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1552770545792">
+     Frau
+    </tran_word_insertion_id9>
+    " sind sehr traurig.
+   </div>
+   <div>
+    Auch der Vater ist sehr traurig.
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1611746662526">
+   <div>
+    Er denkt
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552770659065" tran_word_deletion_target="_#_">
+     auch
+    </tran_word_deletion_id8>
+    dass er
+    <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1556635209794" tran_alternative_1="kann" tran_alternative_2="konn">
+     kann
+    </tran_ambiguous_id3>
+    net
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1552770685023" tran_correction_original="zürückgehen">
+     zurückgehen
+    </tran_word_correction_id25>
+    , denkt er
+   </div>
+   <div>
+    auch dass er müsste im Krieg gehen.
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1611746662527">
+   <div>
+    Also er gibt ein "
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1552770720686" tran_foreign_word_language="Italian">
+     <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611746662524" tran_capitalisation_target="bacio" tran_capitalisation_type="01 completely capitalised">
+      BACIO
+     </tran_capitalisation_id85>
+    </tran_foreign_word_id13>
+    " an seine Familie und, traurig,
+   </div>
+   <div>
+    geht im "
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1552770746752" tran_foreign_word_language="Italian">
+     treno
+    </tran_foreign_word_id13>
+    " und geht weg.
+   </div>
+  </paragraph>
+ </page>
+</body>

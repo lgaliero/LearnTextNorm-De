@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>4661</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve">
+      <par/><greeting>Hallo <entity>Marika</entity>.</greeting> Wie geht <palimpsest/> es dir? Mir geht es gut. Weißt du was mit <entity>Maria</entity> passiert ist? Sie ist gestern einkaufen gegangen. <palimpsest><error>
+          <errorType/>
+
+          <originalForm>Zu erst</originalForm>
+
+          <targetForm>Zuerst</targetForm>
+        </error> ist sie</palimpsest> beim Obsthändler gegangen und hat dort verschiedene Gemüse gekauft <palimpsest>und das Brot gekauft. <correction>
+          <deletion>Beckerei</deletion>
+        </correction></palimpsest><par/>Dann, eine Stunde später ist sie im Supermarkt gegangen und hat viele <error>
+        <errorType/>
+
+        <originalForm>sachen</originalForm>
+
+        <targetForm>Sachen</targetForm>
+      </error> gekauft<ambiguous>
+        <alternative>:</alternative>
+
+        <alternative>;</alternative>
+      </ambiguous> zum Beispiel <error>
+        <errorType/>
+
+        <originalForm>Öl Flasche</originalForm>
+
+        <targetForm>Ölflasche</targetForm>
+      </error>, verschiedene <sic>pastas</sic>, <error>
+        <errorType/>
+
+        <originalForm>Tomaten sauce</originalForm>
+
+        <targetForm>Tomatensauce</targetForm>
+      </error> und andere Dosen <palimpsest>und Süßigkeiten</palimpsest> für den Kindern gekauft. Als sie an d<overwrite>
+        <under><unreadable/></under>
+
+        <over>ie</over>
+      </overwrite> Kasse kam, hat die <error>
+        <errorType/>
+
+        <originalForm>Supermarkts verkäuferin</originalForm>
+
+        <targetForm>Supermarktsverkäuferin</targetForm>
+      </error>, <error>
+        <errorType/>
+
+        <originalForm>Frische</originalForm>
+
+        <targetForm>frische</targetForm>
+      </error> Gemüse in der Tasche von der <entity>Maria</entity> gesehen und hat gedacht dass die <entity>Maria</entity> <error>
+        <errorType/>
+
+        <originalForm>dass</originalForm>
+
+        <targetForm>das</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hat. Aber <entity>Maria</entity> hat zu ihr gesagt dass, es war nicht <error>
+        <errorType/>
+
+        <originalForm>war</originalForm>
+
+        <targetForm>wahr</targetForm>
+      </error> und sie hat nichts <error>
+        <errorType/>
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error>.<palimpsest> <entity>Maria</entity> wollte zu</palimpsest> Verkäuferin ihre <error>
+        <errorType/>
+
+        <originalForm>kassezettel</originalForm>
+
+        <targetForm>Kassenzettel</targetForm>
+      </error> <palimpsest>von Obsthändler zeigen aber sie hat es im Obsthändler</palimpsest> vergessen. Dann <palimpsest>ist <correction>
+          <insertion>sie</insertion>
+        </correction></palimpsest> mit der Verkäuferin in Obsthändler gefahren und hat ihre <error>
+        <errorType/>
+
+        <originalForm>zettel</originalForm>
+
+        <targetForm>Zettel</targetForm>
+      </error> genommen und zu <error>
+        <errorType/>
+
+        <originalForm>supermarkts verkäuferin</originalForm>
+
+        <targetForm>Supermarktsverkäuferin</targetForm>
+      </error> gezeigt. Dann <palimpsest>hat die <entity><error>
+            <errorType/>
+
+            <originalForm>Marie</originalForm>
+
+            <targetForm>Maria</targetForm>
+          </error></entity> </palimpsest>sich schuldigt und zurück nach Hause gegangen. <entity>Maria</entity> hat zu mir gesagt dass wir sollen nie die <sic>Kassezetlen</sic> v<correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>e</insertion>
+      </correction>rgessen, mitzunehmen.<par/><closing><error>
+          <errorType/>
+
+          <originalForm>Tschuss</originalForm>
+
+          <targetForm>Tschüss</targetForm>
+        </error> und machst gut.</closing> </exercise>
+
+    
+  </body>
+</kolipsi_document>

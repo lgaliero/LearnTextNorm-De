@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>D38_FOR15ILA</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Lieber Paul,</greeting><par/>ich habe deinen Brief in einer Rubrik der Zeitung "Junge Woche" gelesen und wollte dir meine persönliche Meinung geben was virtuelle Freund<hyphen>-</hyphen>schaften betrifft. Ich hoffe, dass ich dich ein bisschen <correction>
+        <deletion><unreadable/></deletion>
+      </correction> helfen kann!<par/>Ich finde, dass virtuelle Freundschaften längst nicht so wichtig sind, wie reale Freundschaften. Es ist wichtig, dass man die Menschen mit denen man redet <error>
+        <errorType/>
+
+        <originalForm>wirc<correction>
+            <deletion><unreadable/></deletion>
+
+            <insertion>kl</insertion>
+          </correction>ich</originalForm>
+
+        <targetForm>wirklich</targetForm>
+      </error> kennt und dass man sie <correction>
+        <deletion>sehen und umarmen kann</deletion>
+      </correction> in die Augen sehen kann. Bei virtuellen Freundschaften ist man nie ganz sicher ob die Person mit der du chattest, <error>
+        <errorType/>
+
+        <originalForm>wircklich</originalForm>
+
+        <targetForm>wirklich</targetForm>
+      </error> die Wahrheit sagt. Besser vorsichtig sein!<par/>Wenn ich du wäre, würde ich deinen <error>
+        <errorType/>
+
+        <originalForm>Chatten-Freunden</originalForm>
+
+        <targetForm>Chattenfreunden</targetForm>
+      </error> mitteilen, dass du dich für ein anderes Leben entschieden hast und dass du mehr für deine "realen" Freunde da sein möchtest wenn sie wahre Freunde sind, werden sie das sicher verstehen.<par/>Meiner Meinung nach ist Internet auf jeden Fall sehr nützlich, du kannst alles finden was du <correction>
+        <deletion><unreadable/></deletion>
+      </correction> suchst! Es ist toll, dass man Freunde auf dem Internet finden kann, aber es ist auch ein bisschen traurig, sich hinter einem Bildschirm verstecken zu müssen, um Freundschaften schließen zu können. Ich würde das Internet für andere Sachen benützen.<par/>Also mach dir keine Sorgen um deine <error>
+        <errorType/>
+
+        <originalForm>Chatten-Freunde</originalForm>
+
+        <targetForm>Chattenfreunde</targetForm>
+      </error>: Sie werden sicher damit klarkommen. Kümmere dich lieber um <correction>
+        <deletion>dic</deletion>
+      </correction> deine realen Freunde und amüsiere dich im richtigen Leben!<par/><closing>Ich wünsche dir alles <error>
+          <errorType/>
+
+          <originalForm>gute</originalForm>
+
+          <targetForm>Gute</targetForm>
+        </error>!</closing><par/>Ilaria</exercise>
+  </body>
+</kolipsi_II_document>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0040</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Hey <entity>Leonie</entity></greeting>, na bist du schon in Urlaubsstimmung? Also ich habe mir nochmal verschiedene Angebote angeguckt, sowohl für Urlaube am Meer wie auch in den Bergen. Was für Urlaub in den Bergen spricht ist, dass man da sehr gut wandern <over>k</over>ann. <correction>
+        <deletion><unreadable/></deletion>
+      </correction> Wir hatten ja gesagt, dass wir auf jeden Fall auch <correction>
+        <deletion>ein</deletion>
+      </correction> Sonne wollen. In den Bergen scheint zwar auch die Sonne, aber es wird nicht so warm wegen der Höhe. Ich denke um diese Jahreszeit ist es auch noch zu kalt zum Schwimmen oder bräunen. Was für die Berge spricht ist <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> man teilweise tolle Aussichten hat.<par/><correction>
+        <deletion>Für da</deletion>
+      </correction> Für Urlaub am Meer spricht, dass da die Wahrscheinlichkeit höher ist, dass es warm wird und wir schwimmen können. Beim Urlaub am Meer kann man auch am Strand entlang wandern und außerdem kann man gut verschiedenen Sport am Strand machen. <correction>
+        <deletion>Ba</deletion>
+      </correction> <correction>
+        <deletion>In</deletion>
+      </correction> <correction>
+        <deletion>b</deletion>
+      </correction> Man kann sich sowohl in den Bergen wie auch am Meer gut entspannen und erholen.<par/>Ich selbst würde lieber ans Meer fahren, weil mir die Weite und die <correction>
+        <deletion>A<unreadable/></deletion>
+      </correction> Art der Landschaft besser gefällt. Außerdem liebe ich das Meeres<hyphen>-</hyphen>rauschen. <correction>
+        <deletion>In</deletion>
+      </correction> In den Bergen, finde ich, bekommt man schnell ein beklemmendes Gefühl.<par/>Aber was meinst du?<par/>Ich freu mich auf jeden Fall auf unseren Urlaub!<par/><closing>Kuss <entity>Johanna</entity></closing>           </exercise>
+  </body>
+</kolipsi_document>

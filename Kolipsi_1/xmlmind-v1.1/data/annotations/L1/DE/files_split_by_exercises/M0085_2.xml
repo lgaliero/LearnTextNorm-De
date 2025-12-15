@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0085</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Hallo <entity>Merle</entity></greeting>!<par/>Ich habe <palimpsest>mir überlegt, wo</palimpsest> unser gemeinsamer Urlaub hingehen soll. Es gibt zwei Möglichkeiten: entweder in die Berge oder ans Meer.<par/>Ich habe mir beides genau angeschaut, doch ich weiß nicht wohin es gehen soll.<par/>Vielleicht kannst du das entscheiden.<par/>Ich werde dir beide Möglichkeiten einmal vorstellen. Urlaub in den Bergen klingt ganz gut. Dort könn<palimpsest>ten</palimpsest> wir wandern gehen, klettern, Ski fahren oder einfach nur die Natur genießen. Dieser Urlaub wird bestimmt nicht langweilig.<par/>Am Meer hingegen könnten wir schwimmen gehen, surfen, wakeboarden, tauchen oder einfach am Strand faulenzen.<par/>Uns bräunen können wir an beiden Orten.<par/>Uns bleibt also die Wahl. Wollen wir lieber die Natur der Berge oder das Meer und seine Lebewesen unter Wasser kennenlernen?<par/>Also in den Bergen war i<palimpsest>ch</palimpsest> als kleines Kind oft, aber am Meer noch nie.<par/>Doch am Meer könnte es vielleicht auch langweilig <correction>
+        <deletion>sei</deletion>
+      </correction> werden.<par/>Ich überlasse dir die Entscheidung.<par/>Bitte teile sie mir dann auch bald mit, damit wir weiter planen können.<par/><closing>Liebe Grüße<par/><entity>Lena</entity></closing>.     </exercise>
+  </body>
+</kolipsi_document>

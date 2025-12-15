@@ -1,0 +1,38 @@
+<body>
+ <page page_number="1" transcanno_page_id="1072">
+  <paragraph class="medium-paragraph" tagcode="1553676545058">
+   <div>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553676364047" tran_word_deletion_target="_#_">
+     Wir
+    </tran_word_deletion_id8>
+    <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1553676545057" tran_alternative_1="Wir" tran_alternative_2="Wie">
+     Wir
+    </tran_ambiguous_id3>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="kontrollieren" tagcode="1553676428024">
+     controllieren
+    </orth_error_id12>
+    die
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Wald" tagcode="1553676495974">
+     walt
+    </orth_error_id12>
+    es war
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1553676422020" tran_foreign_word_language="English">
+     dark
+    </tran_foreign_word_id13>
+    und
+   </div>
+   <div>
+    warm,
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553676480670" tran_correction_original="Emyli">
+     Emily
+    </tran_word_correction_id25>
+    hat
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553676455364" tran_correction_original="anxt">
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Angst" tagcode="1553676471222">
+      Anxt
+     </orth_error_id12>
+    </tran_word_correction_id25>
+   </div>
+  </paragraph>
+ </page>
+</body>

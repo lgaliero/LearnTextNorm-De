@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I08_JAB16UMA</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Liebe Anass,</greeting> <correction>
+        <deletion><unreadable/></deletion>
+      </correction><par/>wie geht's?<par/>Letzte Woche war mein <error>
+        <errorType/>
+
+        <originalForm>freundin</originalForm>
+
+        <targetForm>Freundin</targetForm>
+      </error> Maria in ein große Problem. Meine Freundin Maria war letzte Woche einkaufen. Zuerst kaufte sie in einem Obst- und Gemüseladen und dann eine Stunde später war sie im Supermarkt. Aber im Supermarkt gab es ein<correction>
+        <deletion>e</deletion>
+      </correction> große Problem an der Kasse<correction>
+        <deletion>,</deletion>
+
+        <insertion>.</insertion>
+      </correction> Maria hat viel Gemüse in Gemüseladen gekauft, aber wenn sie kommt an der Kasse in Supermarkt, die Person an der Kasse, <correction>
+        <insertion>die <error>
+            <errorType/>
+
+            <originalForm>Verkauferin</originalForm>
+
+            <targetForm>Verkäuferin</targetForm>
+          </error></insertion>
+      </correction> hat Maria gesagt wo hat diese Gemüse gekauft. Maria hat die <error>
+        <errorType/>
+
+        <originalForm>Verkauferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> <correction>
+        <deletion>gesagt</deletion>
+      </correction> erklärt, dass sie hat diese Gemüse in <correction>
+        <deletion>ander<unreadable/></deletion>
+      </correction> einem Obst- und Gemüseladen gekauft und nicht in <correction>
+        <deletion><unreadable/></deletion>
+      </correction> diese Supermarkt. Maria hat auch der Kassenzettel von <correction>
+        <deletion>die <unreadable/></deletion>
+      </correction> Gemüseladen gegeben. Am Ende die <error>
+        <errorType/>
+
+        <originalForm>Verkauferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> hat gesagt, <error>
+        <errorType/>
+
+        <originalForm>OK</originalForm>
+
+        <targetForm>O.K.</targetForm>
+      </error> kein Problem <foreign_word foreign_language="Italiano"><error>
+          <errorType/>
+
+          <originalForm>une</originalForm>
+
+          <targetForm>una</targetForm>
+        </error></foreign_word> Tausch. Das war die Problem von Maria <correction>
+        <deletion>L</deletion>
+
+        <insertion>l</insertion>
+      </correction>etzte Woche.<par/> <par/><correction>
+        <deletion>Liebe <unreadable/></deletion>
+      </correction> <closing>Sehr Gruzlich</closing><par/>Sein Freund Afghan<par/><closing><error>
+          <errorType/>
+
+          <originalForm>Tschusch</originalForm>
+
+          <targetForm>Tschüss</targetForm>
+        </error></closing><par/> <par/> Meran, 16.12.2015<par/> <par/>Afgharoot1996@email.de </exercise>
+
+    
+  </body>
+</kolipsi_II_document>

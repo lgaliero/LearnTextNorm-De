@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0219</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hey <entity>Peter</entity></greeting>.<par />Was geht? Wie gehts dir?<par />Ich muss dir da eine verrückte Geschichte erzählen. Ich war gestern mit <entity>Maria</entity> einkaufen. Zuerst waren wir beim Gemüsehändler <entity>Akin</entity> und haben einen Blumenkohl und Kohlrabi gekauft. Nachdem wir bezahlt haben und die Sachen in <entity><error>
+          <errorType />
+
+          <originalForm>Maria's</originalForm>
+
+          <targetForm>Marias</targetForm>
+        </error></entity> Rucksack verstaut haben gingen wir weiter in den Supermarkt. Dort kauften wir noch etwas zu knabbern und eine Flasche Wodka für heute <error>
+        <errorType />
+
+        <originalForm>abend</originalForm>
+
+        <targetForm>Abend</targetForm>
+      </error>. Als wir dann an der Kasse standen und <entity>Maria</entity> bezahlen wollte, <correction>
+        <deletion><unreadable /></deletion>
+      </correction> machte die Verkäuferin uns voll an. Sie schrie <entity>Maria</entity> solle das Gemüse, was sie in ihrem Rucksack hatte <error>
+        <errorType />
+
+        <originalForm>gefälligs</originalForm>
+
+        <targetForm>gefälligst</targetForm>
+      </error> bezahlen. <entity>Maria</entity> versuchte der Verkäuferin klar zu machen <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> die Sachen aus dem Gemüseladen von <entity>Akin</entity> sind, doch sie wollte es nicht glauben und blieb stur. <entity>Maria</entity> musste <correction>
+        <deletion>er</deletion>
+      </correction> es bezahlen, und fluchte beim <error>
+        <errorType />
+
+        <originalForm>hinaustreten</originalForm>
+
+        <targetForm>Hinaustreten</targetForm>
+      </error> sie würde nie wieder hier einkaufen.<par />Das war schon echt crazy. <error>
+        <errorType />
+
+        <originalForm>Naja</originalForm>
+
+        <targetForm>Na ja</targetForm>
+      </error> wir schreiben!<par /><closing><error>
+          <errorType />
+
+          <originalForm>Hade</originalForm>
+
+          <targetForm>Ade</targetForm>
+        </error>.<par /><entity>Ewre</entity>.  </closing>     </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hi <entity>Ewre</entity></greeting>,<par />wir müssen da noch mal etwas klären was wir mit unserem Urlaub im Sommer machen. Wollen wir in die Berge oder lieber ans Meer?! Am Meer können wir den schönen Sand<hyphen>-</hyphen>strand <correction>
+        <deletion>g</deletion>
+      </correction> und die frische Seeluft genießen. Wir können am Strand Volleyball, Fußball und andere Sachen machen, z.B. <error>
+        <errorType />
+
+        <originalForm>schone</originalForm>
+
+        <targetForm>schöne</targetForm>
+      </error> Mädels beobachten! Ich würde ja die <entity>Bahamas</entity> vorschlagen, allerdings könnten wir auch in die <entity>Eifel</entity> fahren und da unseren Urlaub verbringen. In den Bergen könnten wir wandern <error>
+        <errorType />
+
+        <originalForm>gehn</originalForm>
+
+        <targetForm>gehen</targetForm>
+      </error> oder auf den Gipfel fahren und eine Runde Ski oder Snowboard fahren, letztes Jahr habe ich mit meinen Eltern in den <entity>Alpen</entity> Urlaub gemacht und eigentlich fand ich das nicht so toll, immer muss man sich dick anzieh<overwrite>
+        <under>n</under>
+
+        <over>e</over>
+      </overwrite>n und so. Ich persönlich würde ja gerne ans <error>
+        <errorType />
+
+        <originalForm>mehr</originalForm>
+
+        <targetForm>Meer</targetForm>
+      </error> und in die Sonne fliegen! Du kannst mir ja deine Antwort mitteilen wohin du lieber fahren willst. <closing>Bis dann<par /><entity>Sam<overwrite>
+            <under>i</under>
+
+            <over>n</over>
+          </overwrite>iel Ölli  </entity></closing>   </exercise>
+  </body>
+</kolipsi_document>

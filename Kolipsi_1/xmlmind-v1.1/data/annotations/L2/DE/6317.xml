@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>6317</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><par /><greeting>Hallo <entity>Federica</entity>,</greeting> <par /><error>
+        <errorType />
+
+        <originalForm>Wie</originalForm>
+
+        <targetForm>wie</targetForm>
+      </error> g<overwrite>
+        <over>e</over>
+
+        <under><unreadable /></under>
+      </overwrite>ht es di<strikeover>
+        <expansion>r</expansion>
+
+        <expansion>n</expansion>
+      </strikeover>, alles in <error>
+        <errorType />
+
+        <originalForm>ordnung</originalForm>
+
+        <targetForm>Ordnung</targetForm>
+      </error>? <error>
+        <errorType />
+
+        <originalForm>hier</originalForm>
+
+        <targetForm>Hier</targetForm>
+      </error> alles gut, auch meine <overwrite>
+        <under>f</under>
+
+        <over>F</over>
+      </overwrite>amilie es gut. Was erzählt du mir? Ich habe viele <error>
+        <errorType />
+
+        <originalForm>sachen</originalForm>
+
+        <targetForm>Sachen</targetForm>
+      </error> dich zu erzählen, etwas meine Freundin <entity>Maria</entity> ist passiert. So, gestern <error>
+        <errorType />
+
+        <originalForm>morgen</originalForm>
+
+        <targetForm>Morgen</targetForm>
+      </error>, ich und meine Freundin sind in einem <error>
+        <errorType />
+
+        <originalForm>Gemuse</originalForm>
+
+        <targetForm>Gemüse-</targetForm>
+      </error> und Obst <overwrite>
+        <under><unreadable /></under>
+
+        <over>a</over>
+      </overwrite>nkaufen gegangen. Wenn wir bezahlt, der Kassenzettel haben <sic>vergissen</sic>. Später die Obst- und Gemüseladen wir gehe in Supermarkt für einige Ausgabe machen. Wenn wir haben bezahlt, die Kassieren <sic>zweifelnt</sic> hat, dass wir die Ausgabe stehlen, also <error>
+        <errorType />
+
+        <originalForm>si</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> hat die Polizei rufen und mit ihnen, wir <error>
+        <errorType />
+
+        <originalForm>di</originalForm>
+
+        <targetForm>die</targetForm>
+      </error> Zweifel klären.</exercise>
+
+    <exercise number="2" xml:space="preserve"><par /><greeting>Hallo <entity>Stefy</entity>!</greeting> <par />Wie geht es dir? <error>
+        <errorType />
+
+        <originalForm>hier</originalForm>
+
+        <targetForm>Hier</targetForm>
+      </error> alles gut. <par />Ich habe kaum <error>
+        <errorType />
+
+        <originalForm>aufgehort</originalForm>
+
+        <targetForm>aufgehört</targetForm>
+      </error> unsere Urlaub zu entschei<overwrite>
+        <under><unreadable /></under>
+
+        <over>de</over>
+      </overwrite>n, und ich habe zwei schön Urlaub gefindet: Erste ist in den Berg. Hier wir <error>
+        <errorType />
+
+        <originalForm>konnen</originalForm>
+
+        <targetForm>können</targetForm>
+      </error>: viele Spazieren machen, sie entspannen, sich sonnen, <error>
+        <errorType />
+
+        <originalForm>trakking</originalForm>
+
+        <targetForm>Tracking</targetForm>
+      </error> machen, und so weiter. <correction>
+        <deletion>In</deletion>
+      </correction> <overwrite>
+        <under>z</under>
+
+        <over>Z</over>
+      </overwrite>weite Urlaub, <palimpsest>aber</palimpsest>, <palimpsest>ist am</palimpsest> Meer<palimpsest>, auch</palimpsest> hier wir <error>
+        <errorType />
+
+        <originalForm>komen</originalForm>
+
+        <targetForm>können</targetForm>
+      </error>: sich sonnen, <error>
+        <errorType />
+
+        <originalForm>s<palimpsest>paß</palimpsest></originalForm>
+
+        <targetForm>Spaß</targetForm>
+      </error> haben, spiele in die Wasser und so weiter. In jeden Fall bin sicher <overwrite>
+        <under><unreadable /></under>
+
+        <over>d</over>
+      </overwrite>as wir <error>
+        <errorType />
+
+        <originalForm>spaß</originalForm>
+
+        <targetForm>Spaß</targetForm>
+      </error> haben. <par />Ich erwarten ihr <error>
+        <errorType />
+
+        <originalForm>antwort</originalForm>
+
+        <targetForm>Antwort</targetForm>
+      </error>. <par /><closing>Bussi.</closing> </exercise>
+  </body>
+</kolipsi_document>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>N7037</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Lie<overwrite>
+          <over>b</over>
+
+          <under>h</under>
+        </overwrite>e <entity>Sanerio</entity>,</greeting> <par/>wie geht es dir? Mir geht es gut aber ich wolle sehr fahre nach Urlaub und entspannen mich sehr. <par/>Ich weiß dass du bist <error>
+        <errorType/>
+
+        <originalForm>nich</originalForm>
+
+        <targetForm>nicht</targetForm>
+      </error> so sicher um deine Urlaub machen. <par/>Ich kann dir erzähle meine Erfahrung. Ich <correction>
+        <deletion>studiere</deletion>
+      </correction> lerne seit vier Ja<overwrite>
+        <over>h</over>
+
+        <under>t</under>
+      </overwrite>re Tourismus und so mir <sic>interresierte</sic> und <sic>gefalle</sic> alle Orte aus der <error>
+        <errorType/>
+
+        <originalForm>welt</originalForm>
+
+        <targetForm>Welt</targetForm>
+      </error>. Ich kann dir zwei Ort <sic>proponierte</sic>: Berge oder Meer, auf deinen Fach. Du solltest gut nachdenken. In Gebirge du kannst spaziere<correction>
+        <deletion>e</deletion>
+      </correction> gehen Promenade machen und ein wunderbare Promenade sehen. In die Winter kannst du Ski machen, <strikeover>
+        <expansion>s</expansion>
+
+        <expansion>t</expansion>
+      </strikeover>ollen <par/><strikeover>
+        <expansion>A</expansion>
+
+        <expansion>I</expansion>
+      </strikeover>m <overwrite>
+        <over>M</over>
+
+        <under>m</under>
+      </overwrite>eer du <sic>kännst</sic> <correction>
+        <deletion>laden</deletion>
+      </correction> an die Sonne legen, schwimmen, an Strand spazieren und viele Sport zu machen. Zum <error>
+        <errorType/>
+
+        <originalForm>beispiel</originalForm>
+
+        <targetForm>Beispiel</targetForm>
+      </error> Beachvolley mit <overwrite>
+        <over>S</over>
+
+        <under>s</under>
+      </overwrite>tra<strikeover>
+        <expansion>n</expansion>
+
+        <expansion>d</expansion>
+      </strikeover> du <sic>kännst</sic> Schloss wie du willst mach. <par/>Aber jetzt sollst du <error>
+        <errorType/>
+
+        <originalForm>wahlen</originalForm>
+
+        <targetForm>wählen</targetForm>
+      </error> welche Ort. Mir <sic>gefallt</sic> mehr aber Meer und unsere <entity>Riviera Adriatica</entity> ist sehr <sic>gennaut</sic> bei alle. <par/><closing>Bis bald, mit freundliche Grüßen <par/> <entity>Alina</entity> </closing></exercise>
+  </body>
+</kolipsi_document>

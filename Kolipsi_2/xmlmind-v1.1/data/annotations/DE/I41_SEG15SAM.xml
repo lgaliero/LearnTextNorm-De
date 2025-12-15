@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I41_SEG15SAM</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe Anna,</greeting><par /><error>
+        <errorType />
+
+        <originalForm>Letzte</originalForm>
+
+        <targetForm>letzte</targetForm>
+      </error> Woche hat Anna, meine Freundin, einen Chaos gemacht. Sie ist am Anfang in ein<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>en</insertion>
+      </correction> Supermarkt gegangen, wo sie einige Produkte genommen hat und dann ist sie an die Kasse gegangen.  Danach <correction>
+        <insertion>hat</insertion>
+      </correction> sie <correction>
+        <deletion>bezahlt ihrer Produkte</deletion>
+
+        <insertion>ihrer Produkte bezahlt</insertion>
+      </correction>, aber sie ha<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>t</insertion>
+      </correction> den Kassenzettel an die Kasse gelassen. Dann ist sie <correction>
+        <insertion>hinein</insertion>
+      </correction> in eine anderen Supermarkt gegangen. Auch dort<correction>
+        <deletion><unreadable /></deletion>
+      </correction> hat <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Maria etwas gekauft und ist an die Kasse gegangen um ihre<correction>
+        <deletion><unreadable /></deletion>
+      </correction> Produkte<correction>
+        <deletion>n</deletion>
+      </correction> zu bezahlen. Da aber die Verkäuferin will, dass Maria auch die <correction>
+        <deletion>an<unreadable /></deletion>
+      </correction> Produkte von dem anderen Supermarkt bezahl<correction>
+        <deletion>en</deletion>
+
+        <insertion>t</insertion>
+      </correction>. <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Maria versuchte zu <correction>
+        <insertion>erklären zu</insertion>
+      </correction> der Verkäuferin, <correction>
+        <deletion>dass sie</deletion>
+      </correction> aber sie glaubt zu Maria nicht. Am Ende hat er zu <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Maria geglaubt. Maria <correction>
+        <deletion><unreadable /></deletion>
+      </correction> ist froh <correction>
+        <insertion>gewesen</insertion>
+      </correction>, dass sie nach Hause gehen kann, so hat <correction>
+        <deletion>niemant</deletion>
+      </correction> Maria ihre Produkte <correction>
+        <insertion>genommen</insertion>
+      </correction> und ist nach Hause gegangen. <correction>
+        <deletion>Ist</deletion>
+
+        <insertion>Gefällt</insertion>
+      </correction> dir diese Geschichte?<par />Sag <correction>
+        <deletion>zu</deletion>
+      </correction> mir eine Geschichte von einem Freund von dir.<par /><closing>Liebe Grüße</closing> Samuel </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Liebe Paul,</greeting><par />keine Ahnung, ich weiß <correction>
+        <deletion>nett</deletion>
+
+        <insertion>nicht</insertion>
+      </correction> was du von mir willst, aber ich kann dir sagen, dass die virtuelle Freundschaften sind nicht die Wirklichkeit, es ist für dieses Motiv, dass du mit diesen Freunden oder Freundinnen <correction>
+        <deletion><unreadable /></deletion>
+      </correction>ausgehen solltest. Noch besser ist <correction>
+        <insertion>es</insertion>
+      </correction> wenn du mit keinen Menschen schreibst, weil du nicht eine echte Freundschaft <correction>
+        <insertion>mit Chatten</insertion>
+      </correction> machen kannst.  Die Welt <correction>
+        <deletion>jetzt ist</deletion>
+
+        <insertion>ist jetzt</insertion>
+      </correction> nicht so schön <correction>
+        <deletion>jetzt</deletion>
+      </correction>, weil die Menschen, um sich kennen <correction>
+        <deletion>zu</deletion>
+
+        <insertion>zu</insertion>
+      </correction> lernen gehen nicht mehr aus um andere Leute kennenzulernen, aber schreiben mit einem anderen Mensch, dem <correction>
+        <insertion>zu</insertion>
+      </correction> dir was sie <correction>
+        <deletion>will</deletion>
+      </correction> <correction>
+        <deletion>sagen wollen</deletion>
+
+        <insertion>wollen sagen</insertion>
+      </correction> und wenn du vielleicht mit ihm/ihr. Lebe und lass <error>
+        <errorType />
+
+        <originalForm>Leben</originalForm>
+
+        <targetForm>leben</targetForm>
+      </error>, sag zu <correction>
+        <deletion>ihren</deletion>
+      </correction> deinen virtuellen Freundschaft dass du mit ihnen nicht mehr schreiben willst. Viel Glück für deine Leben und manchmal können wir treffen <error>
+        <errorType />
+
+        <originalForm>un</originalForm>
+
+        <targetForm>und</targetForm>
+      </error> wir kennen lernen.<par /><closing>Liebe Grüße</closing><par />Samuel</exercise>
+  </body>
+</kolipsi_II_document>

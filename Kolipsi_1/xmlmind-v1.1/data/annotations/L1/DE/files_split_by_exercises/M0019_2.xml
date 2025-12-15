@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0019</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Hallo <correction>
+          <deletion><unreadable/></deletion>
+        </correction> <correction>
+          <insertion><entity>Melina</entity>!</insertion>
+        </correction></greeting>!<par/>Ich hatte vor kurzem die Idee, dass wir doch mal wieder zusammen Urlaub machen könnten. Ich bin mir jedoch nicht sicher ob <correction>
+        <deletion>w</deletion>
+      </correction> es besser wäre in die Berge oder ans Meer zu fahren. Am Meer wäre bestimmt gutes Wetter und wir könnten schwimmen gehen. Außerdem könnten wir wieder eine Radtour zum Leuchtturm machen, <correction>
+        <deletion>und n</deletion>
+      </correction> wie <correction>
+        <deletion>f</deletion>
+      </correction> wir es früher gemacht haben. Vielleicht finden wir auch wieder Schiffsschrauben, wenn wir im <overwrite>
+        <under>s</under>
+
+        <over>S</over>
+      </overwrite>and graben. In den Bergen könnten wir zwar auch Fahrrad fahren, aber dort ist das anstrengender. Dafür könnten wir in den Bergen <error>
+        <errorType/>
+
+        <originalForm>Skifahren</originalForm>
+
+        <targetForm>Ski fahren</targetForm>
+      </error> gehen. Das war doch immer lustig, <correction>
+        <deletion>so</deletion>
+      </correction>. Wei<overwrite>
+        <under>s</under>
+
+        <over>ß</over>
+      </overwrite>t du noch wie wir immer in den Tiefschnee gefahren sind und ich meinen Ski verloren habe? Das war lustig.<par/>Also, was meinst du wo wir lieber hinfahren sollten? Ich warte auf deine Antwort.<par/><closing>Liebe Grüße<par/><entity>Eva</entity></closing><par/>P.S. Am Meer könnten wir uns auch in die Sonne legen oder Eis essen, in den Bergen könnten wir wandern gehen, aber darauf hätte ich keine große Lust.          </exercise>
+  </body>
+</kolipsi_document>

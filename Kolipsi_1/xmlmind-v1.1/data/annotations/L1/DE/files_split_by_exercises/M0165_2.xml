@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0165</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Hallo <entity>Regina</entity></greeting>.<par/><error>
+        <errorType/>
+
+        <originalForm>bist</originalForm>
+
+        <targetForm>Bist</targetForm>
+      </error> du schon <error>
+        <errorType/>
+
+        <originalForm>vorran gekommen</originalForm>
+
+        <targetForm>vorangekommen</targetForm>
+      </error> mit der Urlaubsplanung? Ich habe gehört bei euch ist es im Moment etwas stressig zu Hause? Da habe ich mir gedacht, ich kümmer mich mal darum, dass wir bald ein Urlaubs<hyphen>-</hyphen>ziel haben. Also ich hätte zwei Möglichkeiten anzubieten. Die erste wären die Berge. Einen schönen Wanderurlaub von Hütte zu Hütte. Die Alternative ist ein Strandurlaub mit viel Sonne und relaxen.<par/>Jetzt ist nur die Frage was von beiden. Ich meine, beides hört sich echt klasse an. In den Bergen müssen wir natürlich auch ein bisschen aktiv sein. Das heißt wandern, wander<correction>
+        <deletion>u</deletion>
+      </correction>n und nochmal wandern.<par/>Wenn wir ans Meer wollen, sieht die Sache schon anders aus. Da können wir entspannt in der Sonne liegen und braun werden. Natürlich kann man auch den Strandurlaub mit etwas Kultur verbinden, wenn wir alte Städte besuchen gehen.<par/>Beide Ziele haben natürlich Vor- und Nach<hyphen>-</hyphen>teile. In den Bergen kann das Wetter auch mal schlecht sein, und vielleicht werden wir uns dann dort nach Entspannung <correction>
+        <deletion>und</deletion>
+      </correction> sehnen. Am Strand kann es uns auch schnell langweilig werden und wenn wir einen Sonnen<hyphen>-</hyphen>brand bekommen, müssen wir den Urlaub auf dem Zimmer verbringen.<par/>Wir müssen uns einfach gut überlegen, was am besten zu uns passt und was un<overwrite>
+        <under><unreadable/></under>
+
+        <over>s</over>
+      </overwrite> am meisten Spaß machen würde. Vielleicht treffen wir uns die Tage mal bei mir zu Hause, wenn du es schaffst, dann gucken wir mal was es so für Angebote im Inter<hyphen>-</hyphen>net gibt. <correction>
+        <deletion>Auj</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>Aufjedenfall</originalForm>
+
+        <targetForm>Auf jeden Fall</targetForm>
+      </error> muss ich sagen, dass ich mich riesig <overwrite>
+        <under>u</under>
+
+        <over>a</over>
+      </overwrite>uf unseren Urlaub freue und wir <error>
+        <errorType/>
+
+        <originalForm>aufjedenfall</originalForm>
+
+        <targetForm>auf jeden Fall</targetForm>
+      </error> eine Menge Spaß haben werden, egal wo es hingeht. Ruf mich an, sobald du den Brief bekommen hast.<par/><closing>Liebe Grüße<par/><entity>Maria</entity></closing>      </exercise>
+  </body>
+</kolipsi_document>

@@ -1,0 +1,50 @@
+<body>
+ <page page_number="1" transcanno_page_id="114">
+  <paragraph class="medium-paragraph" tagcode="1542756762854">
+   <div>
+    Englisch:
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1542756762853" tran_correction_original="Man*">
+     Man
+    </tran_word_correction_id25>
+    sollte es lernen denn es ist die Weltsprache.
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1542756762855">
+   <div>
+    Deutsch: Geht okay denn es ist wichtig weil viele es sprechen.
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1542756762856">
+   <div>
+    Italienisch: Nein denn es ist
+    <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1542756689638" tran_alternative_1="seher" tran_alternative_2="">
+     sehr
+    </tran_ambiguous_id3>
+    schwer und
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="nervt" tagcode="1542756708378">
+     nerft
+    </orth_error_id12>
+    die Rechtschreibung
+   </div>
+   <div>
+    in italienisch.
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1542756762858">
+   <div>
+    Und Spanisch das konnte man mal
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="probieren" tagcode="1542756729047">
+     propieren
+    </orth_error_id12>
+    . Und
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="vielleicht" tagcode="1542756735018">
+     vieleicht
+    </orth_error_id12>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Französisch" tagcode="1542756743407">
+     Franzosisch
+    </orth_error_id12>
+    .
+   </div>
+  </paragraph>
+ </page>
+</body>

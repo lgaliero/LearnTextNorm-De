@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0026</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo <entity><error>
+            <errorType />
+
+            <originalForm>Mr.</originalForm>
+
+            <targetForm>Mr</targetForm>
+          </error> X</entity></greeting>,<par />ich möchte dir gerne eine Geschichte erzählen, die meiner Freundin <entity>Maria</entity> passiert ist. Meine Freundin wollte eines Tages einen Einkauf tätigen.<par /><palimpsest>Anfangs ist sie zum Obst- und Gemüsehändler</palimpsest> gegangen, aber sie hat dort ihren Kassenbon liegen lassen. Danach ist <entity>Maria</entity> zum Supermarkt gefahren. An diesem Ort hat sie auch ihren Einkauf getätigt. An der Kasse gab es ein Problem, da die Kassiererin dachte, dass <entity>Maria</entity> die Sachen, die sie beim Obst- und Gemüsehändler gekauft hat, geklaut hat. Dann kam zufällig die Kassiererin des Obst- und Gemüseladens vorbei und bestätigte der Kassiererin, dass <entity>Maria</entity> vorher dort war und die Produkte dort eingekauft hat. Dadurch war das Missverständnis aufgeklärt. <closing>Also noch einen schönen Tag, <par />mit freundlichen Grüßen<par /><entity>Mr. Y</entity>   </closing>      </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber <entity>A</entity></greeting>,<par />ich habe zwei interessante Angebote im Reisebüro gesehen, die für unseren Urlaub in Frage kommen. Ich wollte dich dabei mit in meine Entscheidung einbeziehen. Zuerst gab es ein Angebot, wo man nach <entity>Südtirol</entity> fahren könnte. Dort kann man wandern, die Schönheit der Natur bewundern oder Ski fahren gehen. Aber es gab auch ein Angebot, wo man an die <entity>Côte d'Azur</entity> nach <entity>Frankreich</entity> <gap>_</gap>. Ich würde das präferieren, da dort die Temperaturen angenehmer sind und man im Meer schwimmen kann. Außerdem kann man auch Strandspaziergänge machen und einfach die Seele baumeln lassen. Also, ich habe dir meine Entscheidung gesagt, aber ich möchte auch deine Meinung hören. Ich bin gespannt wie du antwortest! <closing>Mit freundlichen Grüßen<par /><entity>B</entity></closing>   </exercise>
+  </body>
+</kolipsi_document>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5361</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve">
+ <par /><greeting>Hallo <entity>Elena</entity>,</greeting> wie geht´s? <par />Mir geht es gut. Meiner Freundin <entity>Maria</entity>, aber, ist die letzte Woch<strikeover>
+        <expansion>e</expansion>
+
+        <expansion>r</expansion>
+      </strikeover> <overwrite>
+        <under><unreadable /></under>
+
+        <over>e</over>
+      </overwrite>twas Schlimmes passiert. Ich erzähle dir, was ihr passiert ist! <par /> <correction>
+        <deletion>Also</deletion>
+      </correction> <entity>Maria</entity> wollte eine Party organisieren und deshalb ist sie am Nachmittag einkaufen gegangen. Sie ist zuerst in ein Obst- und Gemüseladen gegangen und hat frische Gemüse und Obst, die sie in seine Tasche gestellt hat, gekauft. Versehentlich hat sie aber das <error>
+        <errorType />
+
+        <originalForm>Kassebon</originalForm>
+
+        <targetForm>Kassenbon</targetForm>
+      </error> auf dem Tisch des Geschäfts gelassen. Eine Stunde später ist sie in den Supermarkt gegangen, um die anderen Sachen, die sie für die Party brauchte, zu kaufen. Aber<strikeover>
+        <expansion>.</expansion>
+
+        <expansion>,</expansion>
+      </strikeover> als sie bezahlen musste, hat <entity>Maria</entity> natürlich nur die Sachen, die sie im Supermarkt genommen hat, auf den Tisch an der Kasse gelegt, während die Gemüse und Obst von <correction>
+        <deletion>seine</deletion>
+      </correction> ihrer Tasche stecken. Die Frau an der Kass<overwrite>
+        <under><unreadable /></under>
+
+        <over>e</over>
+      </overwrite>, aber, hat ihre Tasche gesehen und hat gedacht, dass sie jene Sachen nicht bezah<hyphen>-</hyphen>l<overwrite>
+        <under>u</under>
+
+        <over>en</over>
+      </overwrite> wollte! <entity>Maria</entity> hat der Frau <error>
+        <errorType />
+
+        <originalForm>erklährt</originalForm>
+
+        <targetForm>erklärt</targetForm>
+      </error>, dass sie sie vorher gekauft hatte, konnte aber das <error>
+        <errorType />
+
+        <originalForm>Kassebon</originalForm>
+
+        <targetForm>Kassenbon</targetForm>
+      </error> nicht finden! Zum Glück gab es auf den Gemüsen und Obst<correction>
+        <deletion><unreadable /></deletion>
+      </correction> die <overwrite>
+        <under>M</under>
+
+        <over>M</over>
+      </overwrite>ark des <correction>
+        <deletion>Gemüse</deletion>
+      </correction> Obst- und Gemüseladen und <entity>Maria</entity> konnte austreten ohne sie zweimal zu bezahlen! </exercise>
+
+    <exercise number="2" xml:space="preserve">
+ <par /><greeting>Hallo <entity>Lorenzo</entity>,</greeting> <par />wie geht es dir? Mir geht es gut. <par />Weißt du, mein Freund <entity>Davide</entity> und ich wollen dem nächsten Monat einen Urlaub machen, wissen <error>
+        <errorType />
+
+        <originalForm>abr<strikeover>
+            <expansion>r</expansion>
+
+            <expansion>e</expansion>
+          </strikeover></originalForm>
+
+        <targetForm>aber</targetForm>
+      </error> nicht, ob in die Berge oder ans Meer <correction>
+        <deletion>fahren wollen</deletion>
+
+        <insertion>zu fahren</insertion>
+      </correction>! Ich mag <arrow end="open" id="1"> </arrow> den Urlaub am Meer <arrow
+        end="head" id="1">besser</arrow> , weil <correction>
+        <insertion>man</insertion>
+      </correction> am Meer besser als in den Bergen <error>
+        <errorType />
+
+        <originalForm>berühigen</originalForm>
+
+        <targetForm>beruhigen</targetForm>
+      </error> kann. Dort kann man den ganzen Tag auf dem Strand liegen <correction>
+        <deletion>mit dem Wind, der von dem Meer kommt, auf das Gesicht.</deletion>
+      </correction> und, wenn es zu heiß wird, in das frische Meer schwimmen. Dort kann man auch viele <error>
+        <errorType />
+
+        <originalForm><overwrite>
+            <under>S</under>
+
+            <over>s</over>
+          </overwrite>chone</originalForm>
+
+        <targetForm>schöne</targetForm>
+      </error> Aktivitä<hyphen>-</hyphen>ten machen, wie <correction>
+        <insertion>die</insertion>
+      </correction> Fische und <correction>
+        <deletion>die</deletion>
+
+        <insertion>die</insertion>
+      </correction> andere Tiere des Meers schauen oder surfen. <par />Mein Freund <entity>Davide</entity>, dage<strikeover>
+        <expansion>g</expansion>
+
+        <expansion>n</expansion>
+      </strikeover>en, w<overwrite>
+        <under><unreadable /></under>
+
+        <over>ü</over>
+      </overwrite>rde lieber in die Berge fahren, weil er sagt, dass man dort mehrere Sachen als am Meer machen kann. In den Gebirgen kann man viele schöne Spaziergänge <overwrite>
+        <under><unreadable /></under>
+
+        <over>i</over>
+      </overwrite>n den Wäldern machen und, zum Glück, viele Tiere sehen. Das Klima ist in den Bergen erträglicher als <overwrite>
+        <under>i</under>
+
+        <over>a</over>
+      </overwrite>m Meer, weil es frischer ist. <par />Schreib mir, was du davon meinst! <par />Ich warte auf deine Antwort! <par /><closing><entity>Eve</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

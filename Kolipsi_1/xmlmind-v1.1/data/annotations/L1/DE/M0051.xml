@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0051</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Lieber <entity>Tom</entity></greeting>,<par />ich schreibe dir, weil <entity>Maria</entity> <error>
+        <errorType />
+
+        <originalForm>letzdens</originalForm>
+
+        <targetForm>letztens</targetForm>
+      </error> etwas echt <error>
+        <errorType />
+
+        <originalForm>ärgerliches</originalForm>
+
+        <targetForm>Ärgerliches</targetForm>
+      </error> passiert ist.<par />Sie hat im Supermarkt für ihr großes Essen am Sonntag <error>
+        <errorType />
+
+        <originalForm>eingekauf</originalForm>
+
+        <targetForm>eingekauft</targetForm>
+      </error>. Zuvor hat sie ihr Gemüse bei einem Gemüseladen gleich eine Ecke weiter gekauft; dort aber ihren <error>
+        <errorType />
+
+        <originalForm>Bong</originalForm>
+
+        <targetForm>Bon</targetForm>
+      </error> liegen lassen. <correction>
+        <deletion>An der Kasse wurde <unreadable /></deletion>
+      </correction> Im Supermarkt wurde sie dann an der Kasse aufgehalten, weil sie das Gemüse nicht bezahlt hätte.<par />Die Kassiererin ließ nicht mit sich reden und rief die Polizei. Kannst du dir das vorstellen <entity>Tom</entity>? Wegen so einer <error>
+        <errorType />
+
+        <originalForm>kleinigkeit</originalForm>
+
+        <targetForm>Kleinigkeit</targetForm>
+      </error> kommt die Polizei!<par />Nun die Beamten nahmen dann die arme <entity>Maria</entity> mit auf die Wache um sie zu verhören.<par />Niemand glaubte ihr, also bekam sie 15 Jahre <correction>
+        <deletion>ge</deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>Gefangnis</originalForm>
+
+        <targetForm>Gefängnis</targetForm>
+      </error> und danach <unreadable /> <error>
+        <errorType />
+
+        <originalForm>Tagessatze</originalForm>
+
+        <targetForm>Tagessätze</targetForm>
+      </error> á 50€.<par />Ich gehe <entity>Maria</entity> heute besuchen.<par />Hoffe du kommst auch. Etwas <error>
+        <errorType />
+
+        <originalForm>aufmunterung</originalForm>
+
+        <targetForm>Aufmunterung</targetForm>
+      </error> kann sie heute wirklich gebrauchen.<par /><closing>Bis dann<par /><correction>
+          <deletion><unreadable /></deletion>
+        </correction> <entity>Peter</entity></closing>    </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting><correction>
+          <deletion>Lieber</deletion>
+        </correction> <correction>
+          <deletion>Liebe</deletion>
+        </correction><par />Hallo <entity>Jenny</entity>,</greeting><par /><correction>
+        <deletion>Ich</deletion>
+      </correction> ich schreibe di<overwrite>
+        <under><unreadable /></under>
+
+        <over>r</over>
+      </overwrite>, weil ich mir noch nicht sicher b<overwrite>
+        <under><unreadable /></under>
+
+        <over>i</over>
+      </overwrite>n, wohin wir verreisen. Ich habe zwei schöne Ferienorte herausgesucht. Zum einen wäre da der Strand. Wir würden den ganzen Tag in der warmen Sonne liegen und im <sic>kristallklarem</sic> Wasser schwimmen. Unser Hotel hat eine große Strandbar und ein breit gefächertes <correction>
+        <deletion>Wellness an</deletion>
+      </correction> Wellnessangebot.<par />Der Ort <error>
+        <errorType />
+
+        <originalForm>indem</originalForm>
+
+        <targetForm>in dem</targetForm>
+      </error> <correction>
+        <deletion>unserh</deletion>
+      </correction> unser Hotel steht ist klein und gibt viel von der <error>
+        <errorType />
+
+        <originalForm>kultur</originalForm>
+
+        <targetForm>Kultur</targetForm>
+      </error> her.<par />Zum anderen hätte ich ein Hot<correction>
+        <insertion>e</insertion>
+      </correction>l das in einem Tal liegt. Der Ort <correction>
+        <deletion>h<unreadable /></deletion>
+      </correction> hier ist auch klein und eine <ambiguous>
+        <alternative>P</alternative>
+
+        <alternative>p</alternative>
+      </ambiguous>racht an kultureller <ambiguous>
+        <alternative>V</alternative>
+
+        <alternative>v</alternative>
+      </ambiguous>ielfalt.<par /><overwrite>
+        <under><unreadable /></under>
+
+        <over>D</over>
+      </overwrite>as Hotel liegt weit im Tal; umringt von Bergen. Wir werden dort viel von der Natur und <error>
+        <errorType />
+
+        <originalForm>freiheit</originalForm>
+
+        <targetForm>Freiheit</targetForm>
+      </error> erfahren. Es ist alles sehr ruhig, also werden wir über die Berge wandern und einen <error>
+        <errorType />
+
+        <originalForm>herlichen</originalForm>
+
+        <targetForm>herrlichen</targetForm>
+      </error> <correction>
+        <deletion>B</deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>Panorama blick</originalForm>
+
+        <targetForm>Panoramablick</targetForm>
+      </error> genießen können.<par />Abschließend <error>
+        <errorType />
+
+        <originalForm>lasst</originalForm>
+
+        <targetForm>lässt</targetForm>
+      </error> sich sagen, <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> wir beim Strandurlaub viel re<correction>
+        <deletion><unreadable /></deletion>
+      </correction>laxen werden. Gut essen und bei Wellness ausspannen <error>
+        <errorType />
+
+        <originalForm>gehort</originalForm>
+
+        <targetForm>gehört</targetForm>
+      </error> natürlich auch dazu.<par />Ein <error>
+        <errorType />
+
+        <originalForm>Berg und Tal Urlaub</originalForm>
+
+        <targetForm>Berg- und Talurlaub</targetForm>
+      </error> wird ruhig und abgelegen.<par />Wir wandern und genießen einfach nur die Natur.<par /><par /><closing>Bis dann<par /><entity>Peter</entity></closing>           </exercise>
+  </body>
+</kolipsi_document>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I06_MOR29DAV</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><correction>
+        <deletion><correction>
+            <insertion>Liebe</insertion>
+
+            <deletion>Hallo</deletion>
+          </correction> Paul,<par/>ich <correction>
+            <deletion>kenn</deletion>
+          </correction> kenne gut deine Situation, ich bin dort auch gewesen. Die Freunden sind Personen die Rat ge<correction>
+            <deletion>g</deletion>
+
+            <insertion>b</insertion>
+          </correction>en, die <correction>
+            <deletion>F<unreadable/></deletion>
+          </correction> verstanden können, die mit dir Sprechen aber nicht nur mit Social Networks oder Handys. Wir</deletion>
+      </correction><par/><greeting>Hallo Paul,</greeting><par/>ich habe deine Brief gelesen und jetzt will ich dich antworten.<par/>Ich kenne gut deine Situation, ich bin dort auch gewesen! Es ist eine <error>
+        <errorType/>
+
+        <originalForm>Schlimme</originalForm>
+
+        <targetForm>schlimme</targetForm>
+      </error> Situation. Meine <correction>
+        <deletion>m</deletion>
+
+        <insertion>M</insertion>
+      </correction>einung über Freundschaft habe ich nach diese <foreign_word foreign_language="Italiano"><error>
+          <errorType/>
+
+          <originalForm>Esperienz</originalForm>
+
+          <targetForm>Esperienza</targetForm>
+        </error></foreign_word> verstanden. Die Freunden sind Personen die Rat geben, die verstanden können, die mit <correction>
+        <deletion>us</deletion>
+      </correction> dir <correction>
+        <deletion>S</deletion>
+
+        <insertion>s</insertion>
+      </correction>prechen, aber nicht nur <correction>
+        <deletion>z<unreadable/></deletion>
+      </correction> entlang <error>
+        <errorType/>
+
+        <originalForm>Sozial</originalForm>
+
+        <targetForm>sozial</targetForm>
+      </error> Networks oder Handy.<par/>Du muss mit sie sprechen und ihnen <correction>
+        <deletion>sagen</deletion>
+      </correction> was<correction>
+        <deletion>s</deletion>
+      </correction> du denkst sagen. Willst du mit jemanden treffen? Also sagst du ihm!<par/>Ich war Freund mit eine Mädchen und <correction>
+        <deletion>ich</deletion>
+      </correction> habe <correction>
+        <deletion>sie</deletion>
+      </correction> ich sie <correction>
+        <deletion>nimmer gesehen</deletion>
+      </correction> für ein Jahr lang nie gesehen. Jetzt haben wir Schluss gemacht und schreiben wir nicht mehr. Ich denke ist es besser so.<par/>Du musst mit Leute treffen und hinauf gehen!<par/>Diese <correction>
+        <deletion>sind</deletion>
+
+        <insertion>ist</insertion>
+      </correction> mein<correction>
+        <deletion>e</deletion>
+      </correction> Rat.<par/>Ich hoffe <correction>
+        <deletion>dir</deletion>
+      </correction> die <correction>
+        <deletion>bess</deletion>
+      </correction> dir besser geh<correction>
+        <deletion>en</deletion>
+
+        <insertion>t</insertion>
+      </correction> könnte.<par/>Davide<par/>Davide1997@email.de</exercise>
+  </body>
+</kolipsi_II_document>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>N7050</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><par /><greeting>Hallo <entity>Otto</entity>!</greeting> Wie geht´s? Mir <correction>
+        <insertion>g<strikeover>
+            <expansion>e</expansion>
+
+            <expansion>h</expansion>
+          </strikeover>t es</insertion>
+      </correction> gut, aber <entity>Maria</entity> ein <error>
+        <errorType />
+
+        <originalForm>bischen</originalForm>
+
+        <targetForm>bisschen</targetForm>
+      </error> schlecht. Sie <palimpsest>hat eine Nacht</palimpsest> bei der Polizei geschlafen. Sie <palimpsest>hat</palimpsest> zuerst in einem Obst- und Gemüseladen ein und sie hat etwas gekauft. Eine Stunde später <correction>
+        <insertion><overwrite>
+            <under>ist</under>
+
+            <over>w</over>
+          </overwrite>ar</insertion>
+      </correction> sie <overwrite>
+        <under><unreadable /></under>
+
+        <over>i</over>
+      </overwrite>m Supermark<overwrite>
+        <under><unreadable /></under>
+
+        <over>t</over>
+      </overwrite> mit die <palimpsest>Sache, die</palimpsest> in Obst- und Gemüseladen gekaufen hatte, gegangen. <palimpsest>An die Kasse <correction>
+          <insertion>hatte</insertion>
+        </correction> sie</palimpsest> einige <strikeover>
+        <expansion>p</expansion>
+
+        <expansion>P</expansion>
+      </strikeover>robleme gehabt, weil die <error>
+        <errorType />
+
+        <originalForm>Kassiera</originalForm>
+
+        <targetForm>Kassierer</targetForm>
+      </error> die Sache, die in die Tasche <correction>
+        <insertion> <entity>Maria</entity> </insertion>
+      </correction> hatte, wollte. <entity>Maria</entity> sagt sie, dass sie in ein Obst- und <error>
+        <errorType />
+
+        <originalForm>Gemuseladen</originalForm>
+
+        <targetForm>Gemüseladen</targetForm>
+      </error> gekaufen hatte, aber die <error>
+        <errorType />
+
+        <originalForm>Kassiere</originalForm>
+
+        <targetForm>Kassierer</targetForm>
+      </error> <correction>
+        <insertion>hatte</insertion>
+      </correction> die <palimpsest>Polizei</palimpsest> gerufen. <palimpsest>Sie <correction>
+          <deletion>hat</deletion>
+
+          <insertion>ist</insertion>
+        </correction> d<overwrite>
+          <under>ie</under>
+
+          <over>er</over>
+        </overwrite></palimpsest> Nacht i<ambiguous>
+        <alternative>m</alternative>
+
+        <alternative>n</alternative>
+      </ambiguous> die Zentrale geblieben. <palimpsest>Der <error>
+          <errorType />
+
+          <originalForm>letzstes</originalForm>
+
+          <targetForm>letztes</targetForm>
+        </error> Tag ist die Polizei</palimpsest> bei der Obst- un<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>d</insertion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>Gemuseläden</originalForm>
+
+        <targetForm>Gemüseladen</targetForm>
+      </error> gegangen und alles ist jetzt <error>
+        <errorType />
+
+        <originalForm>inhordung</originalForm>
+
+        <targetForm>in Ordnung</targetForm>
+      </error>.</exercise>
+
+    <exercise number="2" xml:space="preserve"><par /><greeting>Hallo <entity>Hans</entity>!</greeting> Ich weiß, dass du noch nicht sicher, ob in die Berge oder lieber ans Meer fahren <correction>
+        <deletion>will</deletion>
+
+        <insertion>sollst</insertion>
+      </correction>. <par />Du musst denken, <error>
+        <errorType />
+
+        <originalForm>da<overwrite>
+            <under>ss</under>
+
+            <over>ß</over>
+          </overwrite></originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> du in Urlaub gefallen musst. Also es ist besser am Meer oder am Berg <error>
+        <errorType />
+
+        <originalForm>faheren</originalForm>
+
+        <targetForm>fahren</targetForm>
+      </error>? Am Meer <error>
+        <errorType />
+
+        <originalForm><strikeover>
+            <expansion>d</expansion>
+
+            <expansion>k</expansion>
+          </strikeover>anst</originalForm>
+
+        <targetForm>kannst</targetForm>
+      </error> du viele schöne <error>
+        <errorType />
+
+        <originalForm>Madchen</originalForm>
+
+        <targetForm>Mädchen</targetForm>
+      </error> in Bikini kennen, <overwrite>
+        <under><unreadable /></under>
+
+        <over>es</over>
+      </overwrite> ist weiß und du kannst <error>
+        <errorType />
+
+        <originalForm>swimmen</originalForm>
+
+        <targetForm>schwimmen</targetForm>
+      </error> und Feuer im Strand <correction>
+        <insertion>am Abend</insertion>
+      </correction> machen. Im Berge musst du <correction>
+        <deletion><unreadable /></deletion>
+      </correction> viele <overwrite>
+        <under>C</under>
+
+        <over>K</over>
+      </overwrite>leider haben weil es kalt ist. Kanst du viele alte Personen <correction>
+        <deletion>kennen lern</deletion>
+
+        <insertion>treffen</insertion>
+      </correction> und am Abend <correction>
+        <deletion>kannst</deletion>
+
+        <insertion>musst</insertion>
+      </correction> du in Hotel <error>
+        <errorType />
+
+        <originalForm>beliben</originalForm>
+
+        <targetForm>bleiben</targetForm>
+      </error> wie zu kalt ist. Ich weiß nicht was du im eine Urlaub willst. Aber bald ich am Meer. <closing>Tschüss.</closing> <par /><error>
+        <errorType />
+
+        <originalForm>p.S.</originalForm>
+
+        <targetForm>PS</targetForm>
+      </error>: <entity><foreign_word foreign_language="Italiano">Maldive</foreign_word></entity>, <entity>Bahamas</entity>, <entity>Sardinien</entity>, <entity>Mauritius</entity>, <foreign_word
+        foreign_language="English"><entity>California</entity></foreign_word>, Cuba<entity></entity>, <entity><foreign_word
+          foreign_language="Italiano">Madagascar</foreign_word></entity>, <entity><foreign_word
+          foreign_language="Italiano">Pugli<ambiguous>
+            <alternative>a</alternative>
+
+            <alternative>e</alternative>
+          </ambiguous></foreign_word></entity> und <entity><foreign_word
+          foreign_language="Italiano">Sicilia</foreign_word></entity> sind <error>
+        <errorType />
+
+        <originalForm>Besser</originalForm>
+
+        <targetForm>besser</targetForm>
+      </error>. </exercise>
+  </body>
+</kolipsi_document>

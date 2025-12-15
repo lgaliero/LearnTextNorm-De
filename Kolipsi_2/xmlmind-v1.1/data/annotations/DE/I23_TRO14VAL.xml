@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I23_TRO14VAL</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo Jule,</greeting><par />wie geht es dir?<par />Es freut mich, dass du dich gemeldet hast, muss dir nämlich viel erzählen!<par />Letzte Woche ist unsere Freundin Maria einkaufen gegangen. Nachdem, wie du schon <error>
+        <errorType />
+
+        <originalForm>weist</originalForm>
+
+        <targetForm>weißt</targetForm>
+      </error>, das Obst und Gemüse im Supermarkt nicht so frisch und saftig ist, ging sie zuerst zum Obst- und Gemüsehändler. Dort hat sie alles gekauft, was sie so braucht. Nachdem sie aber noch Milch, Butter und so kaufen wollte, ging sie noch in den Supermarkt, hatte jedoch noch den Korb mit Obst und Gemüse dabei.<par />Während des Einkaufes lief alles gut, aber als sie zur Kasse kam, hat die Verkäuferin angefangen Stress zu machen, wegen dem Obst, weil sie dachte, dass Maria es stehlen wollte. So suchte sie den Kassazettel des Gemüsehändlers, fand ihn jedoch nicht.<par />Die Situation war beim <error>
+        <errorType />
+
+        <originalForm>eskalieren</originalForm>
+
+        <targetForm>Eskalieren</targetForm>
+      </error>, als der Obst- und Gemüsehändler reinrannte, da Jule nicht nur den Kassazettel vergessen hatte, sondern auch ihr Handy. Und das <error>
+        <errorType />
+
+        <originalForm>beste</originalForm>
+
+        <targetForm>Beste</targetForm>
+      </error> <correction>
+        <deletion>ander</deletion>
+
+        <insertion>an der</insertion>
+      </correction>Geschichte ist, dass Maria ein Date mit dem Obsthändler hat! <closing>Wir vermissen dich hier, komm bal<correction>
+          <deletion>s</deletion>
+
+          <insertion>d</insertion>
+        </correction> nach Hause,<par />in Liebe</closing> deine <par />Marta!</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Guten Tag Paul,</greeting><par />ich hoffe ich störe nicht: <error>
+        <errorType />
+
+        <originalForm>ich</originalForm>
+
+        <targetForm>Ich</targetForm>
+      </error> habe deinen Brief in der Zeitung "Junge Woche" gelesen, und möchte dir gerne einen Rat geben, ob ich die Situation kenne.<par />Vor einem Jahr habe ich so etwas <error>
+        <errorType />
+
+        <originalForm>ähnliches</originalForm>
+
+        <targetForm>Ähnliches</targetForm>
+      </error> wie du erlebt. Ich darf doch du sagen, oder? Auf jeden Fall, ich hatte keine <correction>
+        <deletion><unreadable /></deletion>
+      </correction> echten Freunde mehr, ich habe zugenommen, und ging nur aus dem Haus um Pizza oder Sushi zu kaufen. Schule habe ich auch sehr oft geschwänzt. Jetzt bin ich froh dass ich das überwunden habe. Mir ist klar geworden, dass das wahre echte Leben, sich nicht hinter einem Bildschirm abspielt. Ich habe den Kontakt zu allen abgebrochen, und als ich die vielen Fragen bekam, habe ich einfach mit der Wahrhei<correction>
+        <deletion>g</deletion>
+
+        <insertion>t</insertion>
+      </correction> geantwortet.<par />Da war Janosch, ein Junge den ich sehr mochte, als ich ihm alles erklärt habe, hat er geantwortet, dass wir uns treffen sollten. Wir sind jetzt zusammen.<par />Lieber Paul, versuche doch einfach ehrlich zu sein, zu dir sel<correction>
+        <deletion>s</deletion>
+
+        <insertion>b</insertion>
+      </correction>st, und zu den anderen. <correction>
+        <deletion>Virtal</deletion>
+      </correction> Virtuelle Freunde sind <error>
+        <errorType />
+
+        <originalForm>Ok</originalForm>
+
+        <targetForm>o.k.</targetForm>
+      </error>, aber nur wenn man auch noch das wahre Leben pflegt.<par /><closing>In der Hoffnung dass dir mein Rat und <correction>
+          <deletion><unreadable /></deletion>
+
+          <insertion>m</insertion>
+        </correction>eine Geschichte helfen,<par />mit freundlichen Grüßen,</closing><par />Rita</exercise>
+  </body>
+</kolipsi_II_document>

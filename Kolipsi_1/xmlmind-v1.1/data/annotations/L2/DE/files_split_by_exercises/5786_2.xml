@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5786</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve">
+      <par/><greeting>We <error>
+          <errorType/>
+
+          <originalForm>Freulein</originalForm>
+
+          <targetForm>Fräulein</targetForm>
+        </error>!</greeting> <par/>Ah... heute ist <correction>
+        <deletion>eine</deletion>
+      </correction> das <error>
+        <errorType/>
+
+        <originalForm>wett<overwrite>
+            <under><unreadable/></under>
+
+            <over>er</over>
+          </overwrite></originalForm>
+
+        <targetForm>Wetter</targetForm>
+      </error> perfekt! Ich liebe die Sommerferien. Ich habe <correction>
+        <deletion><unreadable/></deletion>
+      </correction> in Internet ein <correction>
+        <deletion>e</deletion>
+      </correction> bisschen gesurft! Es war <error>
+        <errorType/>
+
+        <originalForm>vile</originalForm>
+
+        <targetForm>viele</targetForm>
+      </error> schöne <error>
+        <errorType/>
+
+        <originalForm>platz</originalForm>
+
+        <targetForm>Platz</targetForm>
+      </error> <correction>
+        <deletion>t</deletion>
+      </correction> wo wir <error>
+        <errorType/>
+
+        <originalForm>konnen</originalForm>
+
+        <targetForm>können</targetForm>
+      </error> gehen. Das <error>
+        <errorType/>
+
+        <originalForm>problem</originalForm>
+
+        <targetForm>Problem</targetForm>
+      </error> ist: "<error>
+        <errorType/>
+
+        <originalForm>Wilst</originalForm>
+
+        <targetForm>Willst</targetForm>
+      </error> du ans Meer gehen <correction>
+        <deletion><unreadable/></deletion>
+      </correction> oder in die Berge?" Ans Meer <correction>
+        <deletion>wird</deletion>
+      </correction><correction>
+        <deletion><unreadable/></deletion>
+      </correction> ist sehr warm. Ich <error>
+        <errorType/>
+
+        <originalForm>libe</originalForm>
+
+        <targetForm>liebe</targetForm>
+      </error> die warmen Tag. Aber auch das Berg war schön. Was denkst du? Aber das <error>
+        <errorType/>
+
+        <originalForm>Grösste</originalForm>
+
+        <targetForm>größte</targetForm>
+      </error> <strikeover>
+        <expansion>P</expansion>
+
+        <expansion>p</expansion>
+      </strikeover>roblem ist <error>
+        <errorType/>
+
+        <originalForm>nich</originalForm>
+
+        <targetForm>nicht</targetForm>
+      </error> meine Zweifel sondern du! Du <sic>macht</sic> immer was du <error>
+        <errorType/>
+
+        <originalForm>wilst</originalForm>
+
+        <targetForm>willst</targetForm>
+      </error>! Wenn du willst ans Meer gehen wir gehen ans <error>
+        <errorType/>
+
+        <originalForm>Me<overwrite>
+            <under>r</under>
+
+            <over>e</over>
+          </overwrite>rr</originalForm>
+
+        <targetForm>Meer</targetForm>
+      </error> und so weiter! Ah... ich sage nur eine <error>
+        <errorType/>
+
+        <originalForm>sache</originalForm>
+
+        <targetForm>Sache</targetForm>
+      </error> das <error>
+        <errorType/>
+
+        <originalForm>urlab</originalForm>
+
+        <targetForm>Urlaub</targetForm>
+      </error> ans Meer kostet für eine Woche für die Beiden 1200 €. Die <error>
+        <errorType/>
+
+        <originalForm>urlaub</originalForm>
+
+        <targetForm>Urlaub</targetForm>
+      </error> ins Berg kostet 3.600 € pro Kopf! Ich will ans Meer gehen! Ich liebe die Fische! Ich <error>
+        <errorType/>
+
+        <originalForm>libe</originalForm>
+
+        <targetForm>liebe</targetForm>
+      </error> die Strand!<par/>Ich warte deine <error>
+        <errorType/>
+
+        <originalForm>antwor<strikeover>
+            <expansion>d</expansion>
+
+            <expansion>t</expansion>
+          </strikeover></originalForm>
+
+        <targetForm>Antwort</targetForm>
+      </error>!<par/><closing><overwrite>
+          <under>P</under>
+
+          <over> D</over>
+        </overwrite>eine Bärele <entity>Franz</entity>!<par/>Küss</closing> </exercise>
+  </body>
+</kolipsi_document>

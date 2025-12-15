@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I39_VAN18ENR</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Lieber Marco,</greeting><par />ich muss dich erzählen, was die letzte Woche Maria passierte. Sie musste etwas einkaufen, um das Essen zu machen.<par /><correction>
+        <deletion>So ist sie in den Supermarkt gegangen um einen Obst- und Gemüseladen</deletion>
+      </correction><par />So hat sie zuerst in einem Obst- und Gemüseladen eingekauft, aber dort hat Maria den Kassenzettel vergessen. Eine Stunde später ist sie in <correction>
+        <insertion>den</insertion>
+      </correction> <foreign_word foreign_language="Italiano">Supermarket</foreign_word> gegangen. Dort hat sie viele andere Sache <correction>
+        <deletion>gekauft</deletion>
+      </correction> genommen. Als Maria bezahlen musste, <correction>
+        <deletion>ist sie hat sie die Kasse</deletion>
+      </correction> erreichte sie die Kasse.<par />Bei der Kasse schien alles <error>
+        <errorType />
+
+        <originalForm>OK</originalForm>
+
+        <targetForm>O.K.</targetForm>
+      </error> zu sein. Aber plötzlich hat die Frau der Kasse gesehen, dass Maria <error>
+        <errorType />
+
+        <originalForm>Brötchien</originalForm>
+
+        <targetForm>Brötchen</targetForm>
+      </error> <correction>
+        <insertion>und andere Sachen</insertion>
+      </correction> in ihrer Tasche hatte. Die Frau der Kasse fragte Maria, ob sie diese Sachen nicht bezahlen wollte. Maria antwortete, dass sie alles in <correction>
+        <deletion><unreadable /></deletion>
+      </correction> einem anderen Markt kaufte, aber sie hatte <correction>
+        <deletion>keine</deletion>
+      </correction> nicht den Kassenzettel, der sie in dem anderen Markt vergaß, und <correction>
+        <deletion>so</deletion>
+      </correction> sie könnte nicht demonstrieren, was sie sagte.<par />Glücklich <correction>
+        <deletion>hatte Maria die Nummer</deletion>
+      </correction> könnte Maria den anderen Markt rufen, um <correction>
+        <deletion>seine</deletion>
+      </correction> ihre Geschichte zu demonstrieren. So alles ist gut gegangen: Maria hat alles was sie brauchte gekauft und hat ihres<correction>
+        <deletion><unreadable /></deletion>
+      </correction> Essen gekocht.<par /><closing>Liebe Grüße,</closing><par />Emico</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Sehr geehrter Paul,</greeting><par />ich habe <correction>
+        <deletion>i</deletion>
+
+        <insertion>I</insertion>
+      </correction>hren Brief gelesen und ich muss sagen, dass auch ich eine Erfahrung wie Ihre gehabt habe.<par /><correction>
+        <deletion>Virtuelle Freundschaften</deletion>
+      </correction><par />Meiner Meinung nach sind virtuelle Freundschaften sicherlich eine gute Möglichkeit, um neue Leute zu kennen. Aber diese virtuelle Freundschaften sollen nicht nur "virtuelle" bleiben. Man muss seine virtuellen Freunden <correction>
+        <deletion><unreadable /></deletion>
+      </correction> im Wahrheit treffen. Meine Erfahrung mit virtuellen Freundschaften ist wirklich gut gegangen: <error>
+        <errorType />
+
+        <originalForm>ich</originalForm>
+
+        <targetForm>Ich</targetForm>
+      </error> habe mit <correction>
+        <deletion>zwei ein</deletion>
+      </correction> zwei Jugendliche <correction>
+        <deletion>gechattet</deletion>
+      </correction> für eine Monate gechattet und danach haben wir die Entscheidung genommen diese virtuelle Freundschaft wahr zu machen. Wir haben uns getroffen und <error>
+        <errorType />
+
+        <originalForm>jetz</originalForm>
+
+        <targetForm>jetzt</targetForm>
+      </error> sind wir beste Freunde und machen wir alles zusammen.<par />Meiner Meinung nach müssen Sie jetzt die gleiche Sache machen: <error>
+        <errorType />
+
+        <originalForm>diese</originalForm>
+
+        <targetForm>Diese</targetForm>
+      </error> virtuelle Freunde rufen und ein Treffen organisieren. Ihr könnte einen <error>
+        <errorType />
+
+        <originalForm>Pic-Nic</originalForm>
+
+        <targetForm>Picknick</targetForm>
+      </error> machen<correction>
+        <deletion>,</deletion>
+      </correction> oder ein Konzert zusammen hören und vielleicht würde diese virtuelle Freundschaft eine wahre, starke Freundschaft. Es ist unmöglich, diese Möglichkeit zu verloren.<par />Ich hoffe, dass mein Rat nützlich wird, um Sie zu helfen.<par /><closing>Mit freundlichen Grüßen,</closing><par />Emico Solfrini.</exercise>
+  </body>
+</kolipsi_II_document>

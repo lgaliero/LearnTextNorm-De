@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0014</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Anna</entity></greeting>,<par/>du musst mir helfen! Ich möchte in drei Monaten in den Urlaub fahren und ich weiß noch nicht wohin es gehen soll. Besser gesagt ich kann <error>
+        <errorType/>
+
+        <originalForm>micht</originalForm>
+
+        <targetForm>mich</targetForm>
+      </error> zwischen zwei Optionen nicht entscheiden. Zur Auswahl stehen die <error>
+        <errorType/>
+
+        <originalForm>Italienischen</originalForm>
+
+        <targetForm>italienischen</targetForm>
+      </error> <entity>Alpen</entity> mit ihren tollen Bergen und der klaren Bergluft. Dort würden wir auf einer kleinen Alm leben und die Natur um un<overwrite>
+        <under><unreadable/></under>
+
+        <over>s</over>
+      </overwrite> herum genießen. Oder ich könnte Urlaub auf <entity>Hawaii</entity> machen. Dort könnte ich die Sonne genießen und richtig brau<overwrite>
+        <under>m</under>
+
+        <over>n</over>
+      </overwrite> werden. Es hört sich beides gut an, oder? Und ich würde sehr gerne Urlaub auf <entity>Hawaii</entity> machen, aber ich gehe auch gerne wandern. Was mache ich bloß? Vielleicht kannst du mir ja helfen? In den <entity>Alpen</entity> könnte ich etwas für meine Kondition tun und auf <entity>Hawaii</entity> könnte ich mal die Seele baumeln lassen und mich entspannen. Außerdem bin ich schon lange nicht mehr geflogen. Allerdings sollte das kein Auswahlkri<hyphen>-</hyphen>terium sein.<par/>Also bitte hilf mir bei meiner Auswahl!<par/><closing>Deine <entity>Julia</entity></closing> </exercise>
+  </body>
+</kolipsi_document>

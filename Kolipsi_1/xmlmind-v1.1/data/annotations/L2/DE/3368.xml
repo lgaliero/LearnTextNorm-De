@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Jessica</transcriber>
+
+  <author_id>3368</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe <correction>
+          <deletion><unreadable /></deletion>
+        </correction> <entity>Geltrude</entity> </greeting><par /><par />Letzte Woche mein <overwrite>
+        <over>F</over>
+
+        <under><unreadable /></under>
+      </overwrite>reund, <entity>Maria</entity> einkaufen werden. Sie kaufen zuerst einem Obst- und Gemüselanden Eine Stunde später war sie im Supermarkt. Sie <error>
+        <errorType />
+
+        <originalForm>ghen</originalForm>
+
+        <targetForm>gehen</targetForm>
+      </error> <correction>
+        <deletion><unreadable /></deletion>
+      </correction> zu machen eine große <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Markt. Wenn sie a<overwrite>
+        <over>u</over>
+
+        <under><unreadable /></under>
+      </overwrite>s d<overwrite>
+        <over>er</over>
+
+        <under><unreadable /></under>
+      </overwrite> Kasse gehen <correction>
+        <deletion><unreadable /></deletion>
+      </correction> <unreadable /> von den <error>
+        <errorType />
+
+        <originalForm>geld</originalForm>
+
+        <targetForm>Geld</targetForm>
+      </error> in die Auto gelasst. Den <error>
+        <errorType />
+
+        <originalForm>Kasserinen</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> fragt und diese Brote wer <error>
+        <errorType />
+
+        <originalForm>ast</originalForm>
+
+        <targetForm>hast</targetForm>
+      </error> du <sic>ghebringen</sic>? <entity>Maria</entity> sagt in den <error>
+        <errorType />
+
+        <originalForm>Bockerei</originalForm>
+
+        <targetForm>Bäckerei</targetForm>
+      </error> Aber der <error>
+        <errorType />
+
+        <originalForm>Kasserinen</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> <sic>wiessen</sic> nicht. <entity>Maria</entity> <sic>mussen</sic> alle <foreign_word
+        foreign_language="Italiano">spese</foreign_word> <overwrite>
+        <over>ans</over>
+
+        <under><unreadable /></under>
+      </overwrite> d<overwrite>
+        <over>er</over>
+
+        <under><unreadable /></under>
+      </overwrite> Kasse lassen und aus die Auto <error>
+        <errorType />
+
+        <originalForm>ghen</originalForm>
+
+        <targetForm>gehen</targetForm>
+      </error> von bringen <error>
+        <errorType />
+
+        <originalForm>geld</originalForm>
+
+        <targetForm>Geld</targetForm>
+      </error>.<par />Wenn sie <sic>auses</sic> den Markt <error>
+        <errorType />
+
+        <originalForm>ghen</originalForm>
+
+        <targetForm>gehen</targetForm>
+      </error> 4 <foreign_word foreign_language="Italiano"><error>
+          <errorType />
+
+          <originalForm>Rapinator</originalForm>
+
+          <targetForm>rapinatore</targetForm>
+        </error></foreign_word> machen eine <error>
+        <errorType />
+
+        <originalForm>uberflal</originalForm>
+
+        <targetForm>Überfall</targetForm>
+      </error> und er muss in den Markt herein. <par />Die <foreign_word
+        foreign_language="Italiano"><error>
+          <errorType />
+
+          <originalForm>Rapinator</originalForm>
+
+          <targetForm>rapinatore</targetForm>
+        </error></foreign_word> wollen 10000 € rum <unreadable /> oder <correction>
+        <deletion><unreadable /></deletion>
+      </correction> machen <error>
+        <errorType />
+
+        <originalForm>feuer</originalForm>
+
+        <targetForm>Feuer</targetForm>
+      </error> . Den <error>
+        <errorType />
+
+        <originalForm>polizei</originalForm>
+
+        <targetForm>Polizei</targetForm>
+      </error> kommen <error>
+        <errorType />
+
+        <originalForm>sofo<overwrite>
+            <over>l</over>
+
+            <under><unreadable /></under>
+          </overwrite>t</originalForm>
+
+        <targetForm>sofort</targetForm>
+      </error>.<par />Eine <sic>schaft</sic> von C.I.A. macht eine <error>
+        <errorType />
+
+        <originalForm>blitz</originalForm>
+
+        <targetForm>Blitz</targetForm>
+      </error> in der Market aber eine <foreign_word
+        foreign_language="Italiano"><error>
+          <errorType />
+
+          <originalForm>Rapinator</originalForm>
+
+          <targetForm>rapinatore</targetForm>
+        </error></foreign_word> spazieren an <unreadable /> und er <error>
+        <errorType />
+
+        <originalForm>ghestoben</originalForm>
+
+        <targetForm>gestorben</targetForm>
+      </error> </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Liebe </greeting><par /><error>
+        <errorType />
+
+        <originalForm>Haute</originalForm>
+
+        <targetForm>heute</targetForm>
+      </error> ich muss <foreign_word foreign_language="Italiano"><error>
+          <errorType />
+
+          <originalForm>decidert</originalForm>
+
+          <targetForm>decidere</targetForm>
+        </error></foreign_word> von dem Urlaub aber ich bin <correction>
+        <deletion>fiel</deletion>
+      </correction> nicht so <error>
+        <errorType />
+
+        <originalForm>sichert</originalForm>
+
+        <targetForm>sicher</targetForm>
+      </error> Ich will eine <unreadable />, <error>
+        <errorType />
+
+        <originalForm>fur</originalForm>
+
+        <targetForm>für</targetForm>
+      </error> sich ist besser Berg oder <error>
+        <errorType />
+
+        <originalForm>meer</originalForm>
+
+        <targetForm>Meer</targetForm>
+      </error> ?<par />Am Berg war viel <sic>relax</sic>, die <error>
+        <errorType />
+
+        <originalForm>wiese</originalForm>
+
+        <targetForm>Wiese</targetForm>
+      </error> und die Tiere von meine Kinder <sic>se</sic> die <error>
+        <errorType />
+
+        <originalForm>schaf</originalForm>
+
+        <targetForm>Schaf</targetForm>
+      </error> der Kuh oder Pferde. Im <error>
+        <errorType />
+
+        <originalForm>berg</originalForm>
+
+        <targetForm>Berg</targetForm>
+      </error> kann viel <error>
+        <errorType />
+
+        <originalForm>exkursion</originalForm>
+
+        <targetForm>Exkursion</targetForm>
+      </error> machen und die <unreadable /> und der <error>
+        <errorType />
+
+        <originalForm>Treadition</originalForm>
+
+        <targetForm>Tradition</targetForm>
+      </error> ist besser. Wir kann auch <error>
+        <errorType />
+
+        <originalForm>Pic-nick</originalForm>
+
+        <targetForm>Picknick</targetForm>
+      </error> machen und am <error>
+        <errorType />
+
+        <originalForm>seeh</originalForm>
+
+        <targetForm>See</targetForm>
+      </error> gehen aber <error>
+        <errorType />
+
+        <originalForm>fur</originalForm>
+
+        <targetForm>für</targetForm>
+      </error> mich die Bergen ist so <error>
+        <errorType />
+
+        <originalForm>schon</originalForm>
+
+        <targetForm>schön</targetForm>
+      </error> im Winter.<par />Am Me<overwrite>
+        <over>e</over>
+
+        <under><unreadable /></under>
+      </overwrite>r war <error>
+        <errorType />
+
+        <originalForm>fiel</originalForm>
+
+        <targetForm>viel</targetForm>
+      </error> relax in eine <error>
+        <errorType />
+
+        <originalForm>schener</originalForm>
+
+        <targetForm>schöne</targetForm>
+      </error> Hotel im <error>
+        <errorType />
+
+        <originalForm>nehe</originalForm>
+
+        <targetForm>Nähe</targetForm>
+      </error> von <entity>meher</entity>. Am <error>
+        <errorType />
+
+        <originalForm>mehr</originalForm>
+
+        <targetForm>Meer</targetForm>
+      </error> wir kann viel <error>
+        <errorType />
+
+        <originalForm>fisch</originalForm>
+
+        <targetForm>Fisch</targetForm>
+      </error> essen an mir <sic>fellt</sic> <unreadable /> <error>
+        <errorType />
+
+        <originalForm>ghern</originalForm>
+
+        <targetForm>gern</targetForm>
+      </error>. Wir kann viele <error>
+        <errorType />
+
+        <originalForm>sonne</originalForm>
+
+        <targetForm>Sonne</targetForm>
+      </error> bringe und in <sic>meher</sic> gehen von vo<overwrite>
+        <over>n</over>
+
+        <under>r</under>
+      </overwrite> schwimmen. <error>
+        <errorType />
+
+        <originalForm>Wie</originalForm>
+
+        <targetForm>Wir</targetForm>
+      </error> <sic>kaan</sic> auch eine <error>
+        <errorType />
+
+        <originalForm>exqursion</originalForm>
+
+        <targetForm>Exkursion</targetForm>
+      </error> mit den <sic>pedalo</sic> oder mit eine <error>
+        <errorType />
+
+        <originalForm>schif</originalForm>
+
+        <targetForm>Schiff</targetForm>
+      </error> machen. Ich bin so nicht sicher. <sic>Bitt</sic> <sic> gheben</sic> mir eine <sic>helfen</sic>. Ich warte deine <error>
+        <errorType />
+
+        <originalForm>antworte</originalForm>
+
+        <targetForm>Antworte</targetForm>
+      </error>. <sic>Schreibe</sic> mir bald.<par /><greeting>Mit viele <error>
+          <errorType />
+
+          <originalForm>grusen</originalForm>
+
+          <targetForm>Grüßen</targetForm>
+        </error> <correction>
+          <deletion><unreadable /></deletion>
+        </correction> <entity>Alex</entity> </greeting><par /> </exercise>
+  </body>
+</kolipsi_document>

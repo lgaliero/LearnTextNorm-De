@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I10_TAR13ELI</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Sehr <error>
+          <errorType />
+
+          <originalForm>geeherten</originalForm>
+
+          <targetForm>geehrten</targetForm>
+        </error> Frauen und Herren,</greeting><par />Maria ist <correction>
+        <deletion>g</deletion>
+      </correction> gestern in einem <error>
+        <errorType />
+
+        <originalForm>Obst</originalForm>
+
+        <targetForm>Obst-</targetForm>
+      </error> und Gemüseladen gegangen. Dort hat sie Obst und Gemüse gekauft. Wenn sie bezahlt hat, hat sie die Zettel an <correction>
+        <deletion>d<unreadable />r</deletion>
+      </correction> der Kassa vergessen. Danach ist sie in einen Supermarkt gegangen. In ihrer Tasche sie hat das Obst und das Gemüse die sie vorher in dem Gemüseladen gekauft hat.<par />Die Frau von dem Supermarkt fragt Maria wo hat sie das Obst und Gemüse gekauft. Maria sagt, dass sie hat in dem Obst- und Gemüseladen gekauft. Die Frau an der Kassa wollte die Zettel sehe<correction>
+        <deletion>a</deletion>
+
+        <insertion>n</insertion>
+      </correction>, aber Maria hat <correction>
+        <deletion>den</deletion>
+
+        <insertion>die</insertion>
+      </correction> Zettel nicht, weil sie hat es in dem <error>
+        <errorType />
+
+        <originalForm>Obst-Gemüseladen</originalForm>
+
+        <targetForm>Obst- Gemüseladen</targetForm>
+      </error> vergessen. Die Frau sagt, dass Maria will die Sachen <error>
+        <errorType />
+
+        <originalForm>stehelen</originalForm>
+
+        <targetForm>stehlen</targetForm>
+      </error> und glaub sie nicht, dass Maria hat diesen Sachen vorher in den Gemüseladen gekauft. Die Frau ruft die Polizei an.<par /><closing>Mit freundlichen Grüßen</closing><par /><correction>
+        <deletion>Anna</deletion>
+      </correction><par />Elisa</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Sehr geeherte Paul,</greeting><par /><error>
+        <errorType />
+
+        <originalForm>Persönlich</originalForm>
+
+        <targetForm>persönlich</targetForm>
+      </error>, ich denke, dass die virtuelle Freundschaften nicht immer sind gut. Du kannst chatten mit einem Person die in Wirklich<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>k</insertion>
+      </correction>eit nicht so ist. <error>
+        <errorType />
+
+        <originalForm>Z.B</originalForm>
+
+        <targetForm>Z.B.</targetForm>
+      </error>: du chattest mit einer Frau, die <correction>
+        <deletion>aber</deletion>
+      </correction> in Wirklichkeit <correction>
+        <deletion>sie ist</deletion>
+      </correction> ein Mann ist. Die virtuelle Freundschaften können auch gut sein, weil k<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>a</insertion>
+      </correction>nnst du neue Leute.<par />Ich denke, dass musst du wissen ob willst du noch mit deinen virtuellen Freunden chatten oder nicht. Wenn du nicht willst, musst du keinen Sorgen machen ob sie noch dir schreiben und du nicht <correction>
+        <deletion>antwortetest</deletion>
+      </correction> antwortest. Du kannst ihnen schreiben, dass du nicht mehr mit ihnen chatten willst und musst auch sagen warum willst du nicht.<par />Ich kann nicht glauben dass jetzt Internet ist so wichtig für die Leuten. Jetzt mit Internet kann man chatten <correction>
+        <deletion>m</deletion>
+      </correction> oder skypen mit Leuten die in die andere Seit der Welt sind. Es kann man neue Leute <correction>
+        <deletion><unreadable />r</deletion>
+      </correction> kennengelernen und finden.<par />Liebe Paul, machst du <error>
+        <errorType />
+
+        <originalForm>wass</originalForm>
+
+        <targetForm>was</targetForm>
+      </error> du willst.<par /><closing>Mit freundlichen Grüßen</closing><par />Elisa  </exercise>
+  </body>
+</kolipsi_II_document>

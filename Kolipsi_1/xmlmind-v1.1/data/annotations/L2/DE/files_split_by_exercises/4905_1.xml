@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>4905</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Francesco</entity> </greeting> <error>
+        <errorType/>
+
+        <originalForm>Wie</originalForm>
+
+        <targetForm>wie</targetForm>
+      </error> geht es dir, ich <error>
+        <errorType/>
+
+        <originalForm>erzahle</originalForm>
+
+        <targetForm>erzähle</targetForm>
+      </error> dich etwas. Ich habe eine <error>
+        <errorType/>
+
+        <originalForm>Freunden</originalForm>
+
+        <targetForm>Freundin</targetForm>
+      </error> das <entity>Maria</entity> heißt, und ihr ist etwas sehr <error>
+        <errorType/>
+
+        <originalForm>komisches</originalForm>
+
+        <targetForm>Komisches</targetForm>
+      </error> passiert. Letzte Woche ist sie einkaufen gegangen. <error>
+        <errorType/>
+
+        <originalForm>Zuert</originalForm>
+
+        <targetForm>Zuerst</targetForm>
+      </error> kaufte sie in einem <correction>
+        <deletion>Obst</deletion>
+      </correction> Obst- und Gemüseladen ein. Eine Stunde später war sie im Supermarkt. Dort gab es ein großes Problem an der Kasse, weil die Kasse <error>
+        <errorType/>
+
+        <originalForm>liesst</originalForm>
+
+        <targetForm>liest</targetForm>
+      </error> nicht der <error>
+        <errorType/>
+
+        <originalForm>Preiß</originalForm>
+
+        <targetForm>Preis</targetForm>
+      </error> einer <error>
+        <errorType/>
+
+        <originalForm>Speiße</originalForm>
+
+        <targetForm>Speise</targetForm>
+      </error> das im <foreign_word foreign_language="Italiano">S<correction>
+          <deletion>o</deletion>
+
+          <insertion>c</insertion>
+        </correction>onto</foreign_word> war. <entity>Mari<overwrite>
+          <under><unreadable/></under>
+
+          <over>a</over>
+        </overwrite></entity> wollte nicht das normaler <error>
+        <errorType/>
+
+        <originalForm>Preiß</originalForm>
+
+        <targetForm>Preis</targetForm>
+      </error> bezahlen. Sie ging mit der Frau <error>
+        <errorType/>
+
+        <originalForm>schauhen</originalForm>
+
+        <targetForm>schauen</targetForm>
+      </error>, wer recht hat. Sie sehen das war einen <foreign_word foreign_language="Italiano">S<correction>
+          <deletion>o</deletion>
+
+          <insertion>c</insertion>
+        </correction>onto</foreign_word> von 20%, aber die <error>
+        <errorType/>
+
+        <originalForm>Verkauferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> war nicht sicher und deshalb rufte sie jemanden an. Das <error>
+        <errorType/>
+
+        <originalForm>Kapiten</originalForm>
+
+        <targetForm>Kapitän</targetForm>
+      </error> sagte <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> die <error>
+        <errorType/>
+
+        <originalForm>Verkauferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> musste sie in <entity>Maria</entity> noch eine Schachte<strikeover>
+        <expansion>l</expansion>
+
+        <expansion>n</expansion>
+      </strikeover> schenken. Dann <entity>Maria</entity> gingt <error>
+        <errorType/>
+
+        <originalForm>fröh</originalForm>
+
+        <targetForm>froh</targetForm>
+      </error> nach Hause. Was glaubst du? Schreib mir eine <error>
+        <errorType/>
+
+        <originalForm>Email</originalForm>
+
+        <targetForm>E-Mail</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>zuruck</originalForm>
+
+        <targetForm>zurück</targetForm>
+      </error></exercise>
+
+    
+  </body>
+</kolipsi_document>

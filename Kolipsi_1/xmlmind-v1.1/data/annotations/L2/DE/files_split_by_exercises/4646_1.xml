@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>4646</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve">
+ <par/>Morgen <entity>Maria</entity> ein Problem im Supermarkt gehattet.<par/>Sie hat Obst und Gemüse in einem Obsthändler gekauft, und später war sie in <correction>
+        <deletion>einem</deletion>
+
+        <insertion>diesem</insertion>
+      </correction> Supermarkt.<par/>An der Kasse, die Kassiere <correction>
+        <deletion>ha</deletion>
+      </correction> die Gemüse<correction>
+        <deletion>n</deletion>
+      </correction> gesehen hat und sie<par/><entity>Maria</entity> hat der Kassenzettel im <error>
+        <errorType/>
+
+        <originalForm>Obsthandler</originalForm>
+
+        <targetForm>Obsthändler</targetForm>
+      </error> verlassen, <correction>
+        <deletion>und so</deletion>
+      </correction> sie hattet <correction>
+        <deletion>keine</deletion>
+
+        <insertion>seine</insertion>
+      </correction> <correction>
+        <deletion>Proben</deletion>
+
+        <insertion>Tasche</insertion>
+      </correction> <correction>
+        <deletion>für</deletion>
+
+        <insertion>für</insertion>
+      </correction> <correction>
+        <deletion>die</deletion>
+
+        <insertion>ein</insertion>
+      </correction> <correction>
+        <deletion>anderen</deletion>
+
+        <insertion>Kontroll gelassen</insertion>
+      </correction> .<par/>Die Kassiere hat den <error>
+        <errorType/>
+
+        <originalForm>Supermarkt Direktor</originalForm>
+
+        <targetForm>Supermarktdirektor </targetForm>
+      </error><gap>_</gap> gerufen, und sie haben <correction>
+        <deletion>ihre</deletion>
+
+        <insertion>seine</insertion>
+      </correction> Tasche kontrolliert.<par/>Supermarkt hat nicht viele Gemüsen, und sie haben nicht viele Artikeln gefunden.<par/><entity>Maria</entity> war sehr schockiert, aber es ist <error>
+        <errorType/>
+
+        <originalForm>Natürlich</originalForm>
+
+        <targetForm>natürlich</targetForm>
+      </error>, sie ist ni<overwrite>
+        <under><unreadable/></under>
+
+        <over>c</over>
+      </overwrite>ht ein Dieb.<par/>Später sie keine andere Probleme gehattet, aber sie hat es gesagt: <direct_speech>"Ich muss eine neue Markt finden <correction>
+          <insertion>hier</insertion>
+        </correction> sie <correction>
+          <deletion>sind</deletion>
+        </correction> sehr <error>
+          <errorType/>
+
+          <originalForm>Arrogant</originalForm>
+
+          <targetForm>arrogant</targetForm>
+        </error> sind"</direct_speech>. Es ist richtig, <entity>Maria</entity> hat richtig, aber es war nur ein Kontrol.<par/>Was sagst du über diese Geschichte, es ist <error>
+        <errorType/>
+
+        <originalForm>Unglaubig</originalForm>
+
+        <targetForm>unglaublich</targetForm>
+      </error>? Ok, <error>
+        <errorType/>
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> muss gehen.<correction>
+        <deletion><unreadable/></deletion>
+      </correction><par/><closing>Tschüss</closing> </exercise>
+
+    
+  </body>
+</kolipsi_document>

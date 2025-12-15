@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5029</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Hallo liebe <entity>Tania</entity></greeting>, endlich komme ich auch an diesen Brief! <par/>Für diesen Sommer dachte ich, dass wir zusammen im Urlaub <correction>
+        <deletion>gehen</deletion>
+      </correction> fahren könnten; was denkst du?? Das <error>
+        <errorType/>
+
+        <originalForm>währe</originalForm>
+
+        <targetForm>wäre</targetForm>
+      </error> ja eine tolle Idee! Jetzt bleibt nur ein Fragezei<palimpsest>ch</palimpsest>en: Berge oder Meer?? Beide Landschaften sind sehr schön! Am Meer ist es wahrschein<hyphen>-</hyphen>lich wärmer und dort können wir auch noch baden; auf den Berg kann es fris<palimpsest>ch</palimpsest>er sein aber wir könnten viel wandern. Am Sommer bin ich <error>
+        <errorType/>
+
+        <originalForm>eigendlich</originalForm>
+
+        <targetForm>eigentlich</targetForm>
+      </error> noch nie in die Berge gefahren, immer nur ans Meer und ich muss sagen dass ich es fast lieber habe. <par/>Wir könnten zu einer tropischen Insel fliegen, mit weißen Strände, durchsichtiges Wasser, Palmen und viel <foreign_word foreign_language="Italiano">Relax</foreign_word> ! Weil ich dich gut kenne, denke ich dass du auch das Meer <correction>
+        <deletion>liber</deletion>
+      </correction> lieber hast, oder <error>
+        <errorType/>
+
+        <originalForm>teusche</originalForm>
+
+        <targetForm>täusche</targetForm>
+      </error> ich mich?? <correction>
+        <deletion>A</deletion>
+      </correction> <par/>Antworte mir so schnell wie möglich, damit ich auch gl<palimpsest>ei</palimpsest>ch buchen kann… Denk auch an einen Ort für uns beide! Ich weiß, dass du was <error>
+        <errorType/>
+
+        <originalForm>tolles</originalForm>
+
+        <targetForm>Tolles</targetForm>
+      </error> finden wirst! <closing>Bis bald <overwrite>
+          <over>L</over>
+
+          <under>l</under>
+        </overwrite>iebe <par/> <entity>Nadine</entity> </closing></exercise>
+  </body>
+</kolipsi_document>

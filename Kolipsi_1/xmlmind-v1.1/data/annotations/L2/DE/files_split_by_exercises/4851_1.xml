@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>4851</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Lieber <entity>David</entity></greeting> <par/>Wie gehet es dir? Um <error>
+        <errorType/>
+
+        <originalForm>mier</originalForm>
+
+        <targetForm>mir</targetForm>
+      </error> gehet nicht so gut. <error>
+        <errorType/>
+
+        <originalForm>Letze</originalForm>
+
+        <targetForm>Letzte</targetForm>
+      </error> <overwrite>
+        <over>W</over>
+
+        <under>w</under>
+      </overwrite>och war ich einkaufen, ich hatte einige Gemüse gekauft und eine <overwrite>
+        <over>S</over>
+
+        <under>s</under>
+      </overwrite>tunde später war ich in der <error>
+        <errorType/>
+
+        <originalForm>Supermak<correction>
+            <deletion>e</deletion>
+          </correction>t</originalForm>
+
+        <targetForm>Supermarkt</targetForm>
+      </error> aber an der Kasse gibt es ein Problem. Die Kassiererin sind die <error>
+        <errorType/>
+
+        <originalForm>Gemuse</originalForm>
+
+        <targetForm>Gemüse</targetForm>
+      </error> und glaubt <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> ich hatte versucht zu <correction>
+        <deletion>si</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>stelen</originalForm>
+
+        <targetForm>stehlen</targetForm>
+      </error>. <par/>Aber ich <sic>versücht</sic> mich zu <error>
+        <errorType/>
+
+        <originalForm>schntzen</originalForm>
+
+        <targetForm>schützen</targetForm>
+      </error> und sagte <correction>
+        <insertion>dass</insertion>
+      </correction> ich <sic>hatt</sic> die Gemüse im Gemüseladen gekauft aber <error>
+        <errorType/>
+
+        <originalForm>si</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> glaubt mich nicht und sie <sic>Rufe</sic> die Polizei. Ich versucht mich noch zu <error>
+        <errorType/>
+
+        <originalForm>schmtzen</originalForm>
+
+        <targetForm>schützen</targetForm>
+      </error> aber die Frau an der Kasse glaubt mich noch nicht und schreit dass ich eine Räuber bin dass muss ich mich <error>
+        <errorType/>
+
+        <originalForm>schemen</originalForm>
+
+        <targetForm>schämen</targetForm>
+      </error>, dass diese <error>
+        <errorType/>
+
+        <originalForm>sache</originalForm>
+
+        <targetForm>Sache</targetForm>
+      </error>, mach man nicht. <error>
+        <errorType/>
+
+        <originalForm>Dan</originalForm>
+
+        <targetForm>Dann</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>lom<correction>
+            <insertion>m</insertion>
+          </correction>t</originalForm>
+
+        <targetForm>kommt</targetForm>
+      </error> die Polizei und fragt mich die <error>
+        <errorType/>
+
+        <originalForm>quittung</originalForm>
+
+        <targetForm>Quittung</targetForm>
+      </error> von die <sic>Gemüsen</sic> aber ich hatte es in Gemüseladen <sic>vergest</sic>. Eine Polizi<overwrite>
+        <over>s</over>
+
+        <under>t</under>
+      </overwrite>t glaubt mich nicht aber der andere gehet <correction>
+        <deletion>wek</deletion>
+      </correction> und fragt an der Gemüseladen zu versichern was <sic>hatt</sic> ich gesagt. Wenig <error>
+        <errorType/>
+
+        <originalForm>minuten</originalForm>
+
+        <targetForm>Minuten</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>speter</originalForm>
+
+        <targetForm>später</targetForm>
+      </error> der Polizist kommt <error>
+        <errorType/>
+
+        <originalForm>zuruck</originalForm>
+
+        <targetForm>zurück</targetForm>
+      </error> mit die Kassiererin von der <error>
+        <errorType/>
+
+        <originalForm>Gemuseladen</originalForm>
+
+        <targetForm>Gemüseladen</targetForm>
+      </error> das <error>
+        <errorType/>
+
+        <originalForm>saght</originalForm>
+
+        <targetForm>sagt</targetForm>
+      </error> dass ich habe die <sic>Gemüsen</sic> bei Sie <sic>gekaufen </sic>und <error>
+        <errorType/>
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> hat die <error>
+        <errorType/>
+
+        <originalForm>quittung</originalForm>
+
+        <targetForm>Quittung</targetForm>
+      </error> so die <error>
+        <errorType/>
+
+        <originalForm>Kasserin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> in die <sic><foreign_word foreign_language="Italiano">supermarket</foreign_word></sic> <sic>müss</sic> <error>
+        <errorType/>
+
+        <originalForm>entsinldigen</originalForm>
+
+        <targetForm>entschuldigen</targetForm>
+      </error> sie. <par/><closing>Ciao deine <entity>Maria</entity> </closing> </exercise>
+
+    
+  </body>
+</kolipsi_document>

@@ -1,0 +1,106 @@
+<body>
+ <page page_number="1" transcanno_page_id="900">
+  <paragraph class="medium-paragraph" tagcode="1527269499015">
+   <div>
+    Bücher lesen ist nicht wichtig weil
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1526748963402" tran_correction_original="we*n">
+     wenn
+    </tran_word_correction_id25>
+    du
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Bücher" tagcode="1526748972123">
+     bücher
+    </orth_error_id12>
+    liest
+   </div>
+   <div>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="lernst" tagcode="1526748985169">
+     Lehrnst
+    </orth_error_id12>
+    du
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="nichts" tagcode="1526748999858">
+     nichs
+    </orth_error_id12>
+    weil wenn du die Sprache nicht weißt
+   </div>
+   <div>
+    ist
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1526749006710" tran_word_deletion_target="_#_">
+     nicht
+    </tran_word_deletion_id8>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1526749011610">
+     nicht
+    </tran_word_insertion_id9>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="nützlich" tagcode="1526749020352">
+     <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1526749026136">
+      nutzlich
+     </tran_word_insertion_id9>
+    </orth_error_id12>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1526749032047" tran_word_deletion_target="_#_">
+     so
+    </tran_word_deletion_id8>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1526749036704" tran_word_deletion_target="_#_">
+     wichtig
+    </tran_word_deletion_id8>
+    . Am
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Computer" tagcode="1526749044745">
+     computer
+    </orth_error_id12>
+    ist
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1526749076536">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1526749080940" tran_word_deletion_target="_#_">
+      *
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="weniger" tagcode="1526749087503">
+     veniger
+    </orth_error_id12>
+   </div>
+   <div>
+    besser aber ist nicht alles richtig aber
+   </div>
+   <div>
+    besser. Ich
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1526749118960" tran_correction_original="ghehe">
+     gehe
+    </tran_word_correction_id25>
+    in
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="diesen" tagcode="1526749127239">
+     disen
+    </orth_error_id12>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Schule" tagcode="1526749137732">
+     schule
+    </orth_error_id12>
+    und ich lern
+   </div>
+   <div>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1526749157354" tran_correction_original="das">
+     dass
+    </tran_word_correction_id25>
+    oder von
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Kindergarten" tagcode="1526749170601">
+     kinder garten
+    </orth_error_id12>
+    gehen.
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1527269499016">
+   <div>
+    Bücher lesen ist ein
+    <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1526749205971" tran_alternative_1="nich" tran_alternative_2="">
+     mich
+    </tran_ambiguous_id3>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1527269499014">
+     so
+    </tran_word_insertion_id9>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="nützlich" tagcode="1526749215496">
+     nüzlich
+    </orth_error_id12>
+    wie
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Computer" tagcode="1526749232622">
+     computer
+    </orth_error_id12>
+    .
+   </div>
+  </paragraph>
+ </page>
+</body>

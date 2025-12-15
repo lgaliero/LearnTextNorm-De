@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5895</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Lucia</entity>!</greeting> <par />Ich muss dir etwas besonders <palimpsest>sage</palimpsest>n! "<emphasis>HÖR</emphasis>" mich!!<par />Gestern wurde <entity>Maria</entity> Gemüse und Obst k<palimpsest>aufen</palimpsest>. Für diesen Grund ist sie in einen <error>
+        <errorType />
+
+        <originalForm>Obst</originalForm>
+
+        <targetForm>Obst-</targetForm>
+      </error> und Gemüseladen gegangen, um etwas zu kaufen. Sie hat viel Obst gekauft, weil ihre Tochter es gut schmeckt. Aber <entity><palimpsest>M</palimpsest>aria</entity> hat etwas falsch gemacht: <error>
+        <errorType />
+
+        <originalForm>als</originalForm>
+
+        <targetForm>Als</targetForm>
+      </error> sie das Obst und die Gemüse bezahlen muss, hat sie d<palimpsest>en</palimpsest> Kassenzettel auf die Kasse vergessen. Die Verkäuferin aber, hat nichts gesagt. Vielleicht ha<palimpsest>t</palimpsest> auch sie d<palimpsest>en</palimpsest> Kassenzettel vergessen zu geben oder hat sie nicht gesehen. Trotzdem hat jetzt <entity>Maria</entity> keinen Kassenzettel, um zu zeigen, dass sie wirklich das Obst und Gemüse beim Obsthändler gekauft hat. Am Abend würden die <error>
+        <errorType />
+
+        <originalForm>Verwand<palimpsest>en</palimpsest></originalForm>
+
+        <targetForm>Verwandten</targetForm>
+      </error> ihres Herr die Familie besichtigen und auch das Abendessen essen. So, <arrow
+        end="head" id="1">nach dem Obsthändler</arrow>, ist Maria <arrow
+        end="open" id="1"> </arrow> im Supermarkt gegangen, um anderen Nährmittel zu kaufen: Reis, Öl, Fleisch und Ei. Nachdenklich ist sie an die Kasse gegangen, um, alles was vorher gekauft hat, zu bezahlen. Aber die Verkäuferin hat gesehen dass <entity>Maria</entity> eine Tasche <correction>
+        <insertion>voll</insertion>
+      </correction> mit Obst und Gemüse hatte. Sie hat gleich gedacht dass <entity>Maria</entity> Obst und Gemüse im Supermarkt gestohlen hat. <palimpsest>Seltsa</palimpsest>m oder? Die Verkäuferin fragt <entity>Maria</entity> ob sie den Kassenzettel zeigen könnte. Aber <entity>Maria</entity> hat er in dem anderen Geschäft gel<palimpsest>unreadable</palimpsest>assen. Die Verkäuferin war sehr geärgert mit <entity>Maria</entity>. <entity>Maria</entity>, aber, <arrow
+        end="head" id="2">hat sie sich</arrow> entschuldigt <arrow end="open"
+        id="2"> </arrow> und dann ist sie wieder in <palimpsest>Obsthändler</palimpsest> gegangen, um den Kassenzettel zu holen. Der Kassenzettel war dort, liegt auf die Kasse. Dann ist <entity>Maria</entity> wieder in Supermarkt gegangen. Die Verkäuferin sah den Kassenzettel und entschuldigte sie sich mit <entity>Maria</entity>. Sie konnte jetzt das Abendessen endlich kochen! Seltsam, oder? <par /><closing>Bis bald. <entity>Luana</entity> </closing> </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Sabine</entity>!</greeting> <par />Wie geht <palimpsest>unreadable</palimpsest> es dir? Mir sehr gut. Und jetzt das wir diesen Urlaub machen würden, f<palimpsest>reu</palimpsest>e ich <palimpsest>mic</palimpsest>h. Erinnerst du den Urlaub? Du bist nicht sicher, ob lieber in die Berge oder lieber ans Meer fahren sollen, richtig?!?! Ich <palimpsest>hab</palimpsest>e mich <correction>
+        <deletion>informi</deletion>
+      </correction> darüber informiert<palimpsest>.</palimpsest> Wenn wir in die <error>
+        <errorType />
+
+        <originalForm>Birge</originalForm>
+
+        <targetForm>Berge</targetForm>
+      </error> Zeit verpassen würden, würden wir sicher Schnee finden, so dass wir Ski fahren können. In die Berge kannst du frische Luft atmen, gut essen und ein bisschen Sonne holen. Wir können auch viel Sport machen, vielen Tassen Tee trinken. Ein Urlaub in den Bergen wir sehr <correction>
+        <deletion><unreadable /></deletion>
+      </correction> nützlich und schön wenn du ru<palimpsest>h</palimpsest>ig sein wi<palimpsest>lls</palimpsest>t. <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Ans Meer ist alles anders: <error>
+        <errorType />
+
+        <originalForm>du</originalForm>
+
+        <targetForm>Du</targetForm>
+      </error> kannst auch Sonne holen, und Zeit im ruhig verbringen, aber du kannst nicht Ski fahren. Du kannst aber sicher Sport, das mit dem Meer zu tun haben. Ans Meer kannst du mit dem Sand spielen und Gebäude bauen. Das Wasser des Meer ist gut für die Haut. Vielleicht wenn wir in die Berge fa<palimpsest>h</palimpsest>ren wür<palimpsest>d</palimpsest>en, würden wir früher aufwachen, um Ski zu fahren und Schnee zu sehen. Ans Meer kannst du lieber schlafen. <par />Was hast du beschließen? <par />Meer oder Berg? <par />Schreib mir bald <par /><closing><entity>Luana</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

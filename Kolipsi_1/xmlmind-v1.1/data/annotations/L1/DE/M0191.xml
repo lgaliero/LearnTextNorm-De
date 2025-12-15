@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0191</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting><correction>
+          <deletion>Ha</deletion>
+        </correction> Hallo <entity>Cojones</entity></greeting>!<par />Ich habe lange nichts mehr von dir gehört aber ich hoffe doch, dass es dir gut geht. Mir geht es den Umständen entsprechend auch gut, wobei mir der Streit mit meinem <palimpsest>Gatten</palimpsest> <entity>Hans</entity> doch noch sehr nahe geht.<par />Nun ja <correction>
+        <deletion><unreadable /></deletion>
+      </correction>, ich möchte ja nicht aus meinem Leben erzählen sondern gleich damit anfangen, warum ich dir schreibe. Deiner Schwester <entity>Maria</entity> ist gestern <correction>
+        <deletion><unreadable /></deletion>
+      </correction> <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Mittag etwas <error>
+        <errorType />
+
+        <originalForm>sonderbares</originalForm>
+
+        <targetForm>Sonderbares</targetForm>
+      </error> passiert. Sie ging wie jeden Samstag zu unserem alten Obsthändler <entity>Fritz</entity> und kaufte auch wie jedes <error>
+        <errorType />
+
+        <originalForm>mal</originalForm>
+
+        <targetForm>Mal</targetForm>
+      </error> drei <error>
+        <errorType />
+
+        <originalForm>kilogramm</originalForm>
+
+        <targetForm>Kilogramm</targetForm>
+      </error> Erdbeeren. Ganz gewöhnlich, doch vergaß sie tatsächlich den Kassenbon an der Kasse! Später, als sie dann unseren Haushaltseinkauf <correction>
+        <deletion>in</deletion>
+      </correction> bei <entity>Norma</entity> machte, wurde sie beim Verlassen des Geschäfts darauf hingewiesen, beziehungsweise angemeckert, dass noch unbezahltes Obst im Rucksac<over>k</over> wäre. Darauf wollte <entity>Maria</entity> den Kassenzettel hervorbringen aber der war ja noch immer im Obstgeschäft! Und nun sitzt sie doch tatsächlich in <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Untersuchungshaft! Welch peinliche Schmach für unsere Familie. <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Besser du redest mal mit ihr!<par /><closing>Dein <entity>Johann</entity></closing>        </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Liebste <entity>C<palimpsest>.</palimpsest></entity></greeting>!<par />Aufgrund unserer bald anstehenden Flitterwochen, habe ich im Vorfeld schon einmal mögliche Ziele für uns beide herausgesucht. Zwei Favoriten habe ich bereits von den anderen Möglichkeiten getrennt.<par />Im Folgenden werde ich dir die beiden Ziele nennen, die uns das Leben versüßen sollen.<par />Da wäre zum einen das Bergtal <entity>Filzmoos</entity> in <entity>Österreich</entity>! Wunderbare Aussichten, frische Bergluft und ein Leben nach traditioneller Weise, sind für meine Seite schon verlockende Angebote. Außerdem können wir selbst zur Sommerzeit dort Skifahren. Zum anderen aber ist zu erwähnen, dass, die zwar frische <error>
+        <errorType />
+
+        <originalForm>bergluft</originalForm>
+
+        <targetForm>Bergluft</targetForm>
+      </error>, ziemlich kalt ist.<par />Das krasse Gegenteil davon ist mein zweiter Vorschlag: <entity>La Gomera</entity>! Diese schöne kleine In<overwrite>
+        <under><unreadable /></under>
+
+        <over>s</over>
+      </overwrite>el der Inselgruppe der <entity>Kanaren</entity>, strotzt vor <error>
+        <errorType />
+
+        <originalForm>idylische<overwrite>
+            <under>n</under>
+
+            <over>r</over>
+          </overwrite></originalForm>
+
+        <targetForm>idyllischer</targetForm>
+      </error> Vegetation trotz der immensen Hitze. Der für <entity>Gomera</entity> typische und berühmte schwarze Sand <sic>sind</sic> zum einen sonderbar, jedoch auch wunderbar anzusehen. Außerdem speichert sich dort die Hitze und wir können endlos lange in der Nacht im Sand liegen. Das Meer ist ebenfalls zauberhaft. Man kann bis in die <error>
+        <errorType />
+
+        <originalForm>weiten</originalForm>
+
+        <targetForm>Weiten</targetForm>
+      </error> des Ozeans blicken und vor Demut erstarren.<par />Aus Erfahrung weiß ich, dass mir Urlaube nach dem zweiten Schema besser gefallen aber ich bin auch gern offen für <error>
+        <errorType />
+
+        <originalForm>neues</originalForm>
+
+        <targetForm>Neues</targetForm>
+      </error> und möchte dir gern die Entscheidung überlassen.<par />Ich weiß, dass du richtig wählst.<par /><closing>In Liebe! <entity>Johannes</entity></closing>  </exercise>
+  </body>
+</kolipsi_document>

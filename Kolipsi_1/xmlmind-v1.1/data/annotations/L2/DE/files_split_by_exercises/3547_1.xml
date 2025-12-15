@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>3547</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting><emphasis>Hoi</emphasis> Servus!</greeting> Wie <error>
+        <errorType/>
+
+        <originalForm>gehts´</originalForm>
+
+        <targetForm>geht's</targetForm>
+      </error>? <par/>Ich<error>
+        <errorType/>
+
+        <originalForm>muß</originalForm>
+
+        <targetForm>muss</targetForm>
+      </error> zur dich erzählen was ist im Supermarkt am Morgen passiert! <par/>Ich und meine Freundin <entity>Maria</entity> sind am Morgen einkaufen. Wir kauften zuerst in einem <error>
+        <errorType/>
+
+        <originalForm>Obst</originalForm>
+
+        <targetForm>Obst-</targetForm>
+      </error> und Gemüseladen ein. Eine Stunde später waren wir im Supermarkt. Im Supermarkt sie nimmt viele <error>
+        <errorType/>
+
+        <originalForm>Sachelen</originalForm>
+
+        <targetForm>Sachen</targetForm>
+      </error> und füllte sehr der <error>
+        <errorType/>
+
+        <originalForm>einkaufsswagen</originalForm>
+
+        <targetForm>Einkaufswagen</targetForm>
+      </error>. Während <entity>Maria</entity> einkauften ich bin ins Auto gegangen, weil ich die Hosen vergessen. Wenn ich die Hose angezogen habe, ich der Geldbeutel von sie gef<correction>
+        <insertion>u</insertion>
+
+        <deletion>ü</deletion>
+      </correction>nden. <correction>
+        <deletion><unreadable/></deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>ich</originalForm>
+
+        <targetForm>Ich</targetForm>
+      </error> bin schnell ins Supermarkt gelaufen aber <entity>Maria</entity> hatte schon eine schlechte Figur an der Kasse gemacht. <correction>
+        <deletion>Ich habe sie hilfte mit der Polizeigehilft weil sie glaubte dass einige Person der Geldbeutel</deletion>
+      </correction> <correction>
+        <deletion>Sih Sie</deletion>
+
+        <insertion> <entity>Maria</entity> </insertion>
+      </correction> hat eine <overwrite>
+        <over>s</over>
+
+        <under>S</under>
+      </overwrite>chlechte Figur auch mit der Polizei gemacht, weil sie glaubt dass einige Person hatte seiner Geldbeutel gest<strikeover>
+        <expansion>o</expansion>
+
+        <expansion>a</expansion>
+      </strikeover>h<hyphen>-</hyphen>len. Ich habe der <sic><overwrite>
+          <over>E</over>
+
+          <under>e</under>
+        </overwrite>inkaufe</sic> be<overwrite>
+        <over>z</over>
+
+        <under>s</under>
+      </overwrite>ahlen und <entity>Maria</entity> hat mich gedankt.</exercise>
+
+    
+  </body>
+</kolipsi_document>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5292</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe <entity>Jack</entity> </greeting> <par /><correction>
+        <deletion>Heute ist <entity>Maria</entity> </deletion>
+      </correction> Wie geht es dir? Mir sehr gut. Erinnerst du <entity>Maria</entity>, meine <correction>
+        <deletion>Schwester</deletion>
+
+        <insertion>Freundin</insertion>
+      </correction>? Gestern <correction>
+        <deletion>sie ging in</deletion>
+      </correction> ist sie<overwrite>
+        <over> bei</over>
+
+        <under><unreadable /></under>
+      </overwrite> in Obsthändler gegangen um Obst, Gemüse und Brot zu kaufen aber sie hat das Zettel <error>
+        <errorType />
+
+        <originalForm>verlören</originalForm>
+
+        <targetForm>verloren</targetForm>
+      </error>. <par />Später <correction>
+        <deletion>sie</deletion>
+
+        <insertion>sie</insertion>
+      </correction> ist in Supermarkt gegangen um Wein, Öl und <foreign_word
+        foreign_language="English"><overwrite>
+          <over>S</over>
+
+          <under>s</under>
+        </overwrite>alt</foreign_word> zu kaufen. <par />Wenn sie <correction>
+        <deletion>and</deletion>
+      </correction> an <correction>
+        <deletion>s</deletion>
+      </correction> die Kasse kommt die Frau wollte das Zettel von dem Brot sehen aber <correction>
+        <deletion>mai</deletion>
+      </correction> <entity>Maria</entity> hatte <overwrite>
+        <over>e</over>
+
+        <under>s</under>
+      </overwrite>s nicht! <par />Die Frau ruft die Polizei an und <correction>
+        <deletion>wenn sie kommen</deletion>
+      </correction> i<overwrite>
+        <over>nd</over>
+
+        <under>m</under>
+      </overwrite> das selbe Moment ein Mann sagt: <direct_speech>“Das Feuer! Feuer!“</direct_speech> und <correction>
+        <deletion>du</deletion>
+      </correction> die Menschen <error>
+        <errorType />
+
+        <originalForm>läufen</originalForm>
+
+        <targetForm>laufen</targetForm>
+      </error> aus dem <error>
+        <errorType />
+
+        <originalForm>Supermakrt</originalForm>
+
+        <targetForm>Supermarkt</targetForm>
+      </error> und <entity>Maria</entity> könnt <overwrite>
+        <over>e</over>
+
+        <under><unreadable /></under>
+      </overwrite> weggehen. Sie ging nicht nach Hause und sende<ambiguous>
+        <alternative>n</alternative>
+
+        <alternative>m</alternative>
+      </ambiguous> <correction>
+        <deletion><unreadable /></deletion>
+      </correction> nach Obsthändler um das Zettel zu nehmen. Sie nahm das Zettel und <error>
+        <errorType />
+
+        <originalForm>Heute</originalForm>
+
+        <targetForm>heute</targetForm>
+      </error> ist sie noch einmal nach Supermarkt gegangen und hat das Zettel der Frau gezogen.</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Veronica</entity></greeting>, <par />diese Sommer will ich <correction>
+        <insertion>mit dir</insertion>
+      </correction> eine schöne Urlaub machen. Wo <correction>
+        <deletion>sie</deletion>
+      </correction> werden <correction>
+        <deletion>uns</deletion>
+
+        <insertion>wir</insertion>
+      </correction> ge<overwrite>
+        <over>h</over>
+
+        <under>n</under>
+      </overwrite>en? <par />Wir können in die Berge oder ans Meer fahren. Ich denke, dass wir <correction>
+        <deletion>ans</deletion>
+      </correction> in <entity><foreign_word foreign_language="Italiano">Maldive</foreign_word></entity> fahren sollen, weil ich <correction>
+        <deletion>will</deletion>
+      </correction> nicht im <entity>Italien</entity> bleiben will. Ich <correction>
+        <deletion>wi</deletion>
+      </correction> soll ans M<overwrite>
+        <over>e</over>
+
+        <under>a</under>
+      </overwrite>er fahren, weil ich schon <correction>
+        <deletion>in die</deletion>
+      </correction> in der Berge lebe und will ich nicht <correction>
+        <deletion>die</deletion>
+      </correction> selbe Panorama sehen. <par />Ich war schon in <entity><foreign_word
+          foreign_language="Italiano">Maldive</foreign_word></entity> gefahren, es war wunderschön weil das Meer ist sehr gut, die Sonne scheint immer, der Ort <correction>
+        <deletion>ist nicht lang a</deletion>
+      </correction> und die Menschen sind nicht langweilig. <par />Wir können <correction>
+        <deletion><unreadable /></deletion>
+      </correction> essen was wir wollen und wir können auch viele Inseln besuchen. <par />Es kostet <correction>
+        <deletion>zu</deletion>
+      </correction> viel aber <correction>
+        <deletion>ich</deletion>
+
+        <insertion>es</insertion>
+      </correction> kann <correction>
+        <deletion>dir</deletion>
+      </correction> ein Geschenk von mir sein. <par />Ich, denke dass ich al<overwrite>
+        <over>l</over>
+
+        <under>e</under>
+      </overwrite>es gesagt habe. <par /> <correction>
+        <deletion>Ich warte für deine Antwort und</deletion>
+      </correction> <overwrite>
+        <over>I</over>
+
+        <under>i</under>
+      </overwrite>ch hoffe, dass du mit mir <overwrite>
+        <over>f</over>
+
+        <under>g</under>
+      </overwrite>ahren <correction>
+        <deletion>wo</deletion>
+      </correction> willst. Wahrscheinlich <correction>
+        <deletion>ts</deletion>
+      </correction> können wir auch eine andere Urlaub machen. <par />Ich warte für deinen Antwort. <par /><closing><error>
+          <errorType />
+
+          <originalForm>Tschuss</originalForm>
+
+          <targetForm>Tschüss</targetForm>
+        </error> <entity><par />Simone</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

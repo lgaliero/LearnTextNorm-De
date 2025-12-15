@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I11_GHE29DAV</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo Francesco,</greeting><par />wie geht es dir?<par />Gestern Maria ist im Obsthändler gewesen um das Brot zu kaufen. Aber sie hat <correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>dort</insertion>
+      </correction> ihre <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Handy vergessen.<par />Später ist sie im Supermarkt gewesen um etwas zu kaufen, aber die Kasse hatte einige <correction>
+        <deletion>p</deletion>
+
+        <insertion>P</insertion>
+      </correction>roblemen, also<par /><correction>
+        <deletion>S</deletion>
+
+        <insertion>D</insertion>
+      </correction>ie ist <correction>
+        <deletion>geht</deletion>
+      </correction> an eine andere Kasse gegangen. Dann ist sie zu Hause gekommt.<par /><correction>
+        <deletion>Sie hat nicht das Handy gefunden</deletion>
+      </correction><par />Sie finde nicht mehr d<correction>
+        <deletion>as</deletion>
+
+        <insertion>er</insertion>
+      </correction> <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Handy also <correction>
+        <insertion>versucht</insertion>
+      </correction> sie <correction>
+        <deletion>versucht</deletion>
+      </correction> es in das Haus, aber sie finde es <correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>nich</insertion>
+      </correction>t.<par />Sie <correction>
+        <deletion><unreadable /></deletion>
+      </correction> ist in die Garten dass sie <error>
+        <errorType />
+
+        <originalForm>Heute</originalForm>
+
+        <targetForm>heute</targetForm>
+      </error> gegangen ist und sie finde der Handy. Dann ist sie wieder zu Hause gekommt.</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo Paul,</greeting><par />wie geht es dir?<par />Ich denke dass die virtuelle Freundsc<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>haft</insertion>
+      </correction> etwas gut ist. Wir konnen <correction>
+        <insertion>mit</insertion>
+      </correction> eine Person die an der andere Seite der Welt ist sprechen. Aber wir mussen nicht nur virtuelle Freunden haben.<par /><correction>
+        <deletion><unreadable /></deletion>
+      </correction> Ich glaube dass eine virtuelle Freundschaft nicht stark ist. Also ist mehr wichtig der real Freund.<par />Was denkst du <error>
+        <errorType />
+
+        <originalForm>uber</originalForm>
+
+        <targetForm>über</targetForm>
+      </error> das<correction>
+        <deletion><unreadable /></deletion>
+      </correction>?<par /><correction>
+        <deletion>Ich <unreadable /> nicht ein</deletion>
+      </correction></exercise>
+  </body>
+</kolipsi_II_document>

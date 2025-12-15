@@ -1,0 +1,29 @@
+<body>
+ <page page_number="1" transcanno_page_id="1131">
+  <paragraph class="medium-paragraph" tagcode="1553617092994">
+   <div>
+    Der Schüler sprache die canzonen.
+   </div>
+   <div>
+    Es ist gut
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Buch" tagcode="1553617092993">
+     büch
+    </orth_error_id12>
+    in anderen
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Sprachen" tagcode="1553617049329">
+     <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1553617074606" tran_alternative_1="sprachen" tran_alternative_2="spachen">
+      sprachen
+     </tran_ambiguous_id3>
+    </orth_error_id12>
+    lesen.
+   </div>
+   <div>
+    Ich mach die
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Strategien" tagcode="1553617005743">
+     strategien
+    </orth_error_id12>
+    ist gut.
+   </div>
+  </paragraph>
+ </page>
+</body>

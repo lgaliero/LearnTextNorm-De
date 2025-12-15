@@ -1,0 +1,25 @@
+Id=DE
+CorpusAcronym=LEONIDE
+CorpusTitle=Longitudinal lEarner cOrpus iN Italiano Deutsch and English
+VersionNumber=1.1
+CorpusWebpage=<a href="https://www.porta.eurac.edu/lci/leonide">https://www.porta.eurac.edu/lci/leonide</a>
+Documentation=<a href="https://www.porta.eurac.edu/lci/leonide">LEONIDE Documentation</a>
+Publisher=Institute for Applied Linguistics, Eurac Research
+Authors=Aivars Glaznieks, Jennifer-Carmen Frey, Maria Stopfner, Lorenzo Zanasi, Lionel Nicolas
+Contact=porta@eurac.edu
+RelatedProject=One School Many Languages (https://sms-project.eurac.edu/)
+Pid=<a href="http://hdl.handle.net/20.500.12124/25">http://hdl.handle.net/20.500.12124/25</a>
+CiteAs=Glaznieks, A., Frey, J.-C., Stopfner, M., Zanasi, L. & Nicolas, L. (2020). LEONIDE - Longitudinal Learner Corpus in Italian, Deutsch and English v1.1. (http://hdl.handle.net/20.500.12124/25)
+RelatedResearchArticle=Glaznieks, A., Frey, J.-C., Stopfner, M., Zanasi, L. & Nicolas, L. (in press): LEONIDE: A longitudinal trilingual corpus of young learners of Italian, German and English. In: International Journal of Learner Corpus Research, 8(1) 2022.
+Licence=ACA-BY-NC-NORED 1.0
+CorpusMode=written (handwritten)
+AuthorType=L1 writer, L2/L3 learner
+TargetLanguage=DE
+L1SourceLanguage=DE, IT, EN, OTHER, DE-IT, DE-OTHER, IT-OTHER, EN-OTHER, OTHER-OTHER
+StudyLevel=lower secondary school
+TimeDataCollection=2015-2018
+PlaceDataCollection=South Tyrol, Italy
+TranscriptionGuidelines=<a href="https://www.porta.eurac.edu/wp-content/uploads/2020/06/LEONIDE_Guidelines_06_2020-2.pdf">Transcription Guidelines</a>
+TaskTypes=picture story, opinion text
+Genres=narrative, argumentative
+ComparisonData=LEONIDE_IT, LEONIDE_EN

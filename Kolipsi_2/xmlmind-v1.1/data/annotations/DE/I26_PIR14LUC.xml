@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I26_PIR14LUC</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe Monika,</greeting><par /><error>
+        <errorType />
+
+        <originalForm>Heute</originalForm>
+
+        <targetForm>heute</targetForm>
+      </error> Maria <correction>
+        <deletion>war</deletion>
+
+        <insertion>kaufte</insertion>
+      </correction> zuerst in einem Obst ein paar Salat, dann eine Stunde später war sie im <foreign_word foreign_language="Italiano">Supermarket</foreign_word>. Dort sie kaufte Brot, Milch und viele andere Sachen für Essen. Am Ende sie geht an der Kasse und dort gab es ein Problem. Maria kauft die Sache <error>
+        <errorType />
+
+        <originalForm>dass</originalForm>
+
+        <targetForm>das</targetForm>
+      </error> in <foreign_word foreign_language="Italiano">Supermarket</foreign_word> war aber die Kassiererin denkt dass sie kauft nicht die Sache <error>
+        <errorType />
+
+        <originalForm>dass</originalForm>
+
+        <targetForm>das</targetForm>
+      </error> sie hat in seine Tüte. Maria erklärt dass sie hat die Salat in der Obst gekauft. Maria hat der Ticket des Obst.<par />Die Kassiererin verstand so Maria kann <correction>
+        <deletion>zu</deletion>
+      </correction> nach Hause gehen.<par />Maria geht nach Hause und erklärt <correction>
+        <deletion>unreadable</deletion>
+      </correction> zu Francesca diese Tag.<par /><closing>Viele Grüße,</closing><par />dein Mattia</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo Paul,</greeting> <comment>die Fortsetzung der Aufgabe 2 fehlt</comment></exercise>
+  </body>
+</kolipsi_II_document>

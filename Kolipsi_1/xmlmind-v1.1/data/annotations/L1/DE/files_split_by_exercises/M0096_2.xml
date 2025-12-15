@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0096</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Hallo <entity>Paul</entity></greeting>.<par/>Wie geht's dir so? Wir hatten <correction>
+        <insertion>uns</insertion>
+      </correction> ja letztes <error>
+        <errorType/>
+
+        <originalForm>mal</originalForm>
+
+        <targetForm>Mal</targetForm>
+      </error> nicht einig werden können ob wir ans Meer oder in die Berge fahren sollen.<par/>Falls wir ans Meer fahren sollten müssten wir uns auf unberechenbares Wetter einstellen und eventuell überfüllte Strände, dann wäre da, noch die Frage ob <over>w</over>ir ans <correction>
+        <deletion>die</deletion>
+      </correction> deutsche oder irgendein mediterranes Meer fahren wollen. Und wenn wir in die Berge fahren wären es die gleichen <error>
+        <errorType/>
+
+        <originalForm>fragen</originalForm>
+
+        <targetForm>Fragen</targetForm>
+      </error>: Innerhalb <entity>Deutschlands</entity> oder nicht? Ein <sic>bekannten</sic> Ort, oder nicht? Vorteile der Berge wären, dass es im Sommer dort nicht so heiß ist, wobei wir am Meer nur auf eine kühle Brise warten könnten. Und im Sommer sind die meisten Strände, wie gesagt, ziemlich überfüllt, es sei denn <correction>
+        <deletion>man kennt</deletion>
+      </correction> du hast einen Geheimtipp für einen unbekannten Badeort.<par/>Den würde ich nämlich den Bergen vorziehen, doch mach <gap>_</gap> erst einmal selber ein Bild. Ich habe dir ein paar Bilder dazu gelegt, die solltest du dir <overwrite>
+        <under><unreadable/></under>
+
+        <over>m</over>
+      </overwrite>al angucken.<par/><closing>Mach's gut und <overwrite>
+          <under>g</under>
+
+          <over>G</over>
+        </overwrite>rüße an deine Eltern<par/><entity>Peter</entity></closing>      </exercise>
+  </body>
+</kolipsi_document>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Romy</transcriber>
+
+  <author_id>4466</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe <entity>Anna</entity>,</greeting><par /><error>
+        <errorType />
+
+        <originalForm>Wie</originalForm>
+
+        <targetForm>wie</targetForm>
+      </error> geht es? Kennst du <error>
+        <errorType />
+
+        <originalForm><overwrite>
+            <under>e</under>
+
+            <over>m</over>
+          </overwrite>ene</originalForm>
+
+        <targetForm>meine</targetForm>
+      </error> Freundin <entity>M<strikeover>
+          <expansion>a</expansion>
+
+          <expansion>e</expansion>
+        </strikeover>ria</entity>? Ich erklärte dir, was <palimpsest> </palimpsest> ihr passiert ist. Sie wollte <correction>
+        <deletion><unreadable /></deletion>
+      </correction> einen Gemüsesuppe kochen, so sie war <correction>
+        <deletion>im<unreadable /></deletion>
+      </correction> <overwrite>
+        <over>in den</over>
+
+        <under><unreadable /></under>
+      </overwrite> Obsthändler gefahren, und sie kaufte viele Gemüse. <palimpsest> </palimpsest> Wen<correction>
+        <insertion>n</insertion>
+      </correction> sie <sic>gezahlen</sic> hatte, sie hatte <overwrite>
+        <over>d</over>
+
+        <under><unreadable /></under>
+      </overwrite>er Kassenzettel ver<overwrite>
+        <over>g</over>
+
+        <under>ck</under>
+      </overwrite>essen. S<overwrite>
+        <over>i</over>
+
+        <under>e</under>
+      </overwrite>e musste auch dem Salz und <error>
+        <errorType />
+
+        <originalForm>Öhl</originalForm>
+
+        <targetForm>Öl</targetForm>
+      </error> kaufen. Dann g<palimpsest>ing</palimpsest> sie in den Supermarkt um was zu <palimpsest>kaufen</palimpsest> fehlt. Aber, wenn sie zahlte, die Kassenfrau hatte die <sic>Gemüseen</sic>, die <entity>Maria</entity> in dem Obsthändler <palimpsest> </palimpsest> gekauft hatte, gesehen. <correction>
+        <deletion>Die</deletion>
+      </correction> Die Kassenfrau sagte, dass <entity>Maria</entity> die <sic>Gemüsen</sic> <error>
+        <errorType />
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hatte, aber sie hatte den Kassenzettel nic<overwrite>
+        <over>h</over>
+
+        <under>t</under>
+      </overwrite>t<overwrite>
+        <over>,</over>
+
+        <under>.</under>
+      </overwrite> so sie könnte die <sic><overwrite>
+          <under>er</under>
+
+          <over>G</over>
+        </overwrite>emüsen </sic>kaufen. Ich viel lachen, wenn <correction>
+        <deletion>si</deletion>
+      </correction> <entity>Maria</entity> <error>
+        <errorType />
+
+        <originalForm>nih</originalForm>
+
+        <targetForm>nicht</targetForm>
+      </error> erzählte hatte. Sie war sehr traurig. <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Am <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Abendessen habe ich seine Gemüsesuppe g<strikeover>
+        <expansion>a</expansion>
+
+        <expansion>e</expansion>
+      </strikeover>gessen, <correction>
+        <deletion>die</deletion>
+      </correction> sie schmeckt mich gut. Ich solle dir viele <overwrite>
+        <over>D</over>
+
+        <under>d</under>
+      </overwrite>inge erzählen. Wir sollen uns sehen. <par /><closing>Tschüs!</closing></exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Liebe<entity> Anna</entity>,</greeting> <par />wie geht es? Wir sehen uns nicht von fünf <overwrite>
+        <under>d</under>
+
+        <over>T</over>
+      </overwrite>agen und ich bin sehr traurig. Zwei <palimpsest> </palimpsest> <overwrite>
+        <over>M</over>
+
+        <under>m</under>
+      </overwrite>onate <overwrite>
+        <over>u</over>
+
+        <under>d</under>
+      </overwrite>nd die Sc<overwrite>
+        <over>hu</over>
+
+        <under>u</under>
+      </overwrite>le fertig ist so wir sehen uns wenn wir wollen. Wo willst du in diesem Urlaub gehen? <error>
+        <errorType />
+
+        <originalForm>also</originalForm>
+
+        <targetForm>Also</targetForm>
+      </error>, wir <error>
+        <errorType />
+
+        <originalForm>mussen</originalForm>
+
+        <targetForm>müssen</targetForm>
+      </error> am Meer oder in den Bergen <palimpsest> </palimpsest> fahren. Die Bergen sin<overwrite>
+        <under>g</under>
+
+        <over>d</over>
+      </overwrite> schön, weil es alles <palimpsest> </palimpsest> grün ist, alle <error>
+        <errorType />
+
+        <originalForm>is</originalForm>
+
+        <targetForm>ist</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>gepuzt</originalForm>
+
+        <targetForm>geputzt</targetForm>
+      </error> ab<unreadable /> wa<overwrite>
+        <over>s</over>
+
+        <under>r</under>
+      </overwrite> machen wir alles Tages? <palimpsest> </palimpsest> Die Bergen sind langweiligen. Wenn die Sonne weg geht, ist es kalt und <correction>
+        <deletion><unreadable /></deletion>
+      </correction> in die Berge sind viele <overwrite>
+        <over>I</over>
+
+        <under>i</under>
+      </overwrite>nsekte. <par />Das Meer ist wunderschön, weil, <error>
+        <errorType />
+
+        <originalForm>wen</originalForm>
+
+        <targetForm>wenn</targetForm>
+      </error> <ambiguous>
+        <alternative>du</alternative>
+
+        <alternative>dnn</alternative>
+      </ambiguous> warm hast du muss in die Wasser gehen. Es ist immer warm, und <overwrite>
+        <under>ei</under>
+
+        <over>d</over>
+      </overwrite>ie Insekten sind nicht so viel, sind <correction>
+        <deletion><unreadable /></deletion>
+      </correction> nu<overwrite>
+        <over>r</over>
+
+        <under>n</under>
+      </overwrite> die Mücken. <correction>
+        <deletion>Am</deletion>
+      </correction> In der Nacht <error>
+        <errorType />
+
+        <originalForm>mussen</originalForm>
+
+        <targetForm>müssen</targetForm>
+      </error> <correction>
+        <deletion><unreadable /></deletion>
+      </correction> viele <error>
+        <errorType />
+
+        <originalForm>leuten</originalForm>
+
+        <targetForm>Leuten</targetForm>
+      </error> kennenlernen. Ich will <correction>
+        <deletion>im</deletion>
+      </correction> am Meer fa<overwrite>
+        <over>hr</over>
+
+        <under>r</under>
+      </overwrite>en, sagst du mir <correction>
+        <deletion>was</deletion>
+      </correction> wo du <correction>
+        <deletion><unreadable /></deletion>
+      </correction> fahren wolltest. Ich kann <correction>
+        <insertion>es</insertion>
+      </correction> nicht erwarten dich wieder <error>
+        <errorType />
+
+        <originalForm>zusehen</originalForm>
+
+        <targetForm>zu sehen</targetForm>
+      </error>. <par /><closing>Ich hab dich lieb.</closing></exercise>
+  </body>
+</kolipsi_document>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I18_ROG17ILI</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Lieber Paul,</greeting><par/><correction>
+        <deletion>I</deletion>
+      </correction> ich habe in der Rubrik "Persönliche Briefe" der Zeitung "Junge Woche" seinen Brief gelesen. Ich glaube <correction>
+        <deletion>w</deletion>
+
+        <insertion>v</insertion>
+      </correction>iel Leute sich in deiner Situation gefunden. Ich glaube man soll immer aufpassen, wenn man eine virtuelle Freundschaft hat. <correction>
+        <deletion><unreadable/></deletion>
+      </correction> Hast du dir nie gefragt ob auf der anderen Seite des Computers eine reale <correction>
+        <deletion>p</deletion>
+      </correction> Person gibt?<par/>Ich glaube du hast nie "Catfish - False identita" gesehen. <correction>
+        <deletion>Das ist fast dein</deletion>
+      </correction> Dort suchen sie und investigieren sie ob jemand mit einer realen Person chattet. Ich <correction>
+        <deletion>persöh</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>persöhnlich</originalForm>
+
+        <targetForm>persönlich</targetForm>
+      </error> <correction>
+        <deletion><unreadable/></deletion>
+      </correction> habe im Internet nur reale Personen die ich wirklich kenne.<par/>Ich glaube man sollte richtig das Internet <correction>
+        <deletion>w</deletion>
+
+        <insertion>v</insertion>
+      </correction>erwenden. Du kannst nur dir selbst die Schuld geben wenn du alle deine Freundschaften verloren hast. Wenn man das Internet <correction>
+        <deletion>nicht</deletion>
+      </correction> verwenden kann, kann es wirklich gefährlich sein. Man redet oft von Morde und Vergewaltigungen. Das ist nicht dein Fall. Aber es kannst mir <unreadable/> vor du hast in einer virtuellen Welt gelebt und <error>
+        <errorType/>
+
+        <originalForm>wusttest</originalForm>
+
+        <targetForm>wusstest</targetForm>
+      </error> nicht <error>
+        <errorType/>
+
+        <originalForm>vas</originalForm>
+
+        <targetForm>was</targetForm>
+      </error> in der Realität gerade geschieht.<par/>Auch wenn es dir vorkommt, dass ich dich nur beurteile, hast du irgendwie recht. Aber ich will dir einen Rat geben. Du solltest deine realen und persöhnliche Freundschaften pflegen. Man kann trotzdem im Internet chatten aber mit <correction>
+        <deletion>b</deletion>
+
+        <insertion>B</insertion>
+      </correction>enehmen. Wenn du wirklich gute Freunde hast, werden sie dich verzeihen. Ich hoffe diese Situation hat dir die Augen geöffnet und du wirst mit dem Internet besser umgehen. Ich weiß nicht wie du es geschafft hast so einen Brief zu schreiben weil ich es nicht gemacht hätte.<par/>Ich hoffe ich <correction>
+        <deletion>nur dir <unreadable/></deletion>
+      </correction> bin dich zur Hilfe gekommen.<par/><closing>Viele Grüße</closing><par/>Anna</exercise>
+  </body>
+</kolipsi_II_document>

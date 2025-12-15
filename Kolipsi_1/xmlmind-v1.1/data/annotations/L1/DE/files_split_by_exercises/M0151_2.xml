@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0151</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Hi!</greeting><par/>Bald sind Sommerferien und ich habe mich schon mal über mögliche Reiseziele informiert.<par/>Sowohl die Berge als auch der Strand stehen zur Auswahl.<par/>Aber beide haben auch ihre Vor- und Nachteile.<par/>Ich kann mich einfach nicht entscheiden!<par/>Meiner Meinung nach kannst du im Winter und im Sommer in die Berge fahren. Meistens ist es im Winter sogar schöner, denn dann könnten wir auch noch <error>
+        <errorType/>
+
+        <originalForm>Skifahren</originalForm>
+
+        <targetForm>Ski fahren</targetForm>
+      </error>. Im Sommer kann man nicht viel mehr tun, als zu wandern. Glaub <palimpsest>mir</palimpsest>, ich kenne d<over>as aus divers</over>en Familienurlauben! Strände dagegen sind nur im Sommer schön. Ich war vor ein paar Jahren mal im Herbst am Strand und das hätte ich mir wirklich sparen können!<par/>Aber im Sommer sind Strände unglaublich, zwar überfüllt, aber wirklich schön.<par/>Es gibt Cocktails und richti<overwrite>
+        <under><unreadable/></under>
+
+        <over>g</over>
+      </overwrite> <palimpsest>viele</palimpsest> Möglichkeiten irgendwas <correction>
+        <deletion>im</deletion>
+      </correction> zu mach<over>en</over>. Wir könnten Wasserski fahren, Drachen steigen lassen oder uns einfach nur in die Sonne legen.<par/>Wir könnten auch <palimpsest>über die Promenade</palimpsest> geh<over>e</over>n und <over>so</over> den Strand erkunden.<par/><palimpsest>Da ich mich</palimpsest> einfach nicht entscheiden kann, überlasse ich dir gerne die Entscheidung.<par/>Aber ich <palimpsest>bin der Meinung</palimpsest>, dass wir <palimpsest>sicher Spaß</palimpsest> haben werden, egal wie du dich entscheiden <over>wi</over>rst. <palimpsest>Der Preis des Urlaubs ist <error>
+          <errorType/>
+
+          <originalForm>der selbe</originalForm>
+
+          <targetForm>derselbe</targetForm>
+        </error>, also</palimpsest> solltest du dich davon nicht beeinflussen lassen.<par/>Ich freu mich schon unglaublich auf unseren Urlaub!<par/><closing>Deine <emphasis>Jenny</emphasis></closing>    </exercise>
+  </body>
+</kolipsi_document>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0230</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Janina</entity></greeting>!<par/>Wie geht es dir? Mir geht es <error>
+        <errorType/>
+
+        <originalForm>zur Zeit</originalForm>
+
+        <targetForm>zurzeit</targetForm>
+      </error> supi <emoticon>=)</emoticon><par/><correction>
+        <insertion>Letzte Woche</insertion>
+      </correction> <correction>
+        <deletion>Gestern</deletion>
+      </correction> war ich mit meiner Mama im Supermarkt und da habe ich etwas total <error>
+        <errorType/>
+
+        <originalForm>spannendes</originalForm>
+
+        <targetForm>Spannendes</targetForm>
+      </error> gesehen. Erst haben wir alles gekauft, was wir so brauchten, und als wir dann an der Kasse standen, habe ich unsere gemeinsame Freundin <entity>Maria</entity> getroffen.<par/>Sie legte ebenfalls, wie ich auch, ihre Ware auf das Band, um zu bezahlen.<par/>Allerdings hatte sie in ihrem Rucksack die zuvor eingekaufte Ware aus dem Obst- und Gemüsehändler, die sie natürlich nicht auf das Band legte.<par/>Plötzlich fing die <error>
+        <errorType/>
+
+        <originalForm>Kassierin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> an zu meckern und völlig euphorisch wollte sie die Polizei anrufen, weil sie dachte, dass <entity>Maria</entity> geklaut hat.<par/>Als sie schon den Hörer in der Hand hielt und bereits gewählt hatte, schrie <entity>Maria</entity>: <direct_speech>"Halt, Haaalt!"</direct_speech> <direct_speech>"Ich habe nichts gestohlen!"</direct_speech> Die Verkäuferin legt den Hörer weg.<par/><direct_speech>"Ich war bereits im <error>
+          <errorType/>
+
+          <originalForm>Obst -und</originalForm>
+
+          <targetForm>Obst- und</targetForm>
+        </error> Gemüseladen. Ich glaube ich habe den Beleg aufbewahrt."</direct_speech><par/><entity>Maria</entity> sucht und kramt, bis sie endlich den Beleg findet. Sie zeigt ihn der <error>
+        <errorType/>
+
+        <originalForm>Kassierin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> und daraufhin entschuldigt die <correction>
+        <deletion>Kassierirn</deletion>
+      </correction> Kassiererin sich und lädt <entity>Maria</entity> auf ein Eis ein.<par/>Das war vielleicht eine Story. <emoticon>=)</emoticon><par/>Das hättest du sehen müssen.<par/><error>
+        <errorType/>
+
+        <originalForm>Naja</originalForm>
+
+        <targetForm>Na ja</targetForm>
+      </error>, jetzt weißt du es ja!<par/>Kannst dich ja mal melden!<par/><closing>Kussi   Die <entity>Truthilde</entity> war's!  </closing>       </exercise>
+
+    
+  </body>
+</kolipsi_document>

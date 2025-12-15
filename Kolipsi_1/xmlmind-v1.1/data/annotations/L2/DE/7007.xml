@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>N7007</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve">
+ <par /><greeting>Lieber <entity>Hans</entity> </greeting> <par />Weißt du was letzte <error>
+        <errorType />
+
+        <originalForm>woche</originalForm>
+
+        <targetForm>Woche</targetForm>
+      </error> passiert ist? <entity>Maria</entity> war in ein Gemüsel<overwrite>
+        <under><unreadable /></under>
+
+        <over>a</over>
+      </overwrite>den<correction>
+        <deletion> </deletion>
+      </correction><par />und hat <correction>
+        <deletion>die Bankomat</deletion>
+      </correction> der Kassenzettel hier vergessen, später <correction>
+        <deletion><unreadable /></deletion>
+      </correction>gingte sie in Supermarkt und kaufte alles was sie brauchte. Am Ende <correction>
+        <deletion>wollte sie</deletion>
+      </correction> bezahl<overwrite>
+        <under><unreadable /></under>
+
+        <over>te</over>
+      </overwrite> <correction>
+        <insertion>sie</insertion>
+      </correction> aber <palimpsest>an der Kasse<correction>
+          <deletion>,</deletion>
+        </correction> wollte sie ihre Tasche da lassen, weil <error>
+          <errorType />
+
+          <originalForm>Sie</originalForm>
+
+          <targetForm>sie</targetForm>
+        </error> drinnen Obst hatte. Sie wollte <correction>
+          <deletion>die</deletion>
+        </correction> der Kassenzettel finden</palimpsest>, aber sie hat an die Gemüseladen vergessen. <entity>Maria</entity> zeigte die Kassiere, dass sie die Obst <correction>
+        <deletion>und</deletion>
+      </correction> an die Obsthändler gekauft hatte, aber sie musste leider seine Tasche hier lassen und die Kassenzettel wiedernehmen.<par />Also jetzt hast du verstanden, dass <correction>
+        <deletion>die</deletion>
+      </correction> der Kassenzettel sehr wichtig ist, man muss immer nehmen.<par /><closing>Tschüss sehen uns früh<par />Bis bald</closing> </exercise>
+
+    <exercise number="2" xml:space="preserve">
+ <par /><greeting>Lieber <entity>Hans</entity> </greeting> <par />Wir können <correction>
+        <deletion>wählen</deletion>
+      </correction> zwei Urlaub wählen eine auf die Bergen und eine <correction>
+        <deletion><unreadable /></deletion>
+      </correction> ans Meer. Auf die Bergen in <entity>Cortina</entity> können wir in eine Chalet bleiben, am Morgen können wir <correction>
+        <deletion><unreadable /></deletion>
+      </correction> reiten oder Spaziergangen, am Abend gibt in der Stadt vielen Disko. Der <error>
+        <errorType />
+
+        <originalForm>Preist</originalForm>
+
+        <targetForm>Preis</targetForm>
+      </error> ist nicht teuer eine <error>
+        <errorType />
+
+        <originalForm>woche</originalForm>
+
+        <targetForm>Woche</targetForm>
+      </error> kostet ca. 550 &#8364;, wir haben noch drei Tagen dann sollen wir reservieren.<par />Die zweite <error>
+        <errorType />
+
+        <originalForm>möglichkeit</originalForm>
+
+        <targetForm>Möglichkeit</targetForm>
+      </error> ist <entity><foreign_word foreign_language="Italiano">Tenerife</foreign_word></entity>, wir nehmen das Flugzeug in <entity>Malpensa</entity> nach vier <overwrite>
+        <under>s</under>
+
+        <over>S</over>
+      </overwrite>tunde kommen wir in <entity><foreign_word
+          foreign_language="Italiano">Tenerife</foreign_word></entity>. In <entity><foreign_word
+          foreign_language="Italiano">Tenerife</foreign_word></entity> ist alles Jahr sehr warm, die Strand ist sehr schön und das Meer auch. Wir können die Insel mit dem Radfahren sehen, oder Sub machen, am Abend <sic>gibten</sic> in <entity><foreign_word
+          foreign_language="Italiano">Tenerife</foreign_word></entity> vielen gute<overwrite>
+        <under><unreadable /></under>
+
+        <over>n</over>
+      </overwrite> Restauranten wo kann man gute Fisch essen, und später dürfen wir in die Disko gehen und die Spanische Movida sehen. In <entity><foreign_word
+          foreign_language="Italiano">Tenerife</foreign_word></entity> ist ein bisschen teuer eine <error>
+        <errorType />
+
+        <originalForm>woche</originalForm>
+
+        <targetForm>Woche</targetForm>
+      </error> kostet 850 &#8364;, ich wünsche nach <entity><foreign_word
+          foreign_language="Italiano">Tenerife</foreign_word></entity> fliegen aber du solltest mir antworten was du willst.<par /><closing>Tschüss bis bald</closing> </exercise>
+  </body>
+</kolipsi_document>

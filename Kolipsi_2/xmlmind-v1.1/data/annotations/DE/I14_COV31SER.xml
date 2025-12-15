@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I14_COV31SER</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo Serena</greeting><par />wie geht's es dir? Mir geht es gut!<par /><correction>
+        <deletion>Heute bin ich</deletion>
+      </correction> Heute bin ich im Supermarkt gewesen wie die andere Tage und ich habe viele <error>
+        <errorType />
+
+        <originalForm>Obst</originalForm>
+
+        <targetForm>Obst-</targetForm>
+      </error> und Gemüseladen eingekaufen. Ich muss im Supermarkt gehen alle Tage weil ich habe eine <error>
+        <errorType />
+
+        <originalForm>größe</originalForm>
+
+        <targetForm>große</targetForm>
+      </error> Familie. Wie du weißt ich habe zwei Kinder Marta und Sara und jetzt sind sie größer geworden.<par />Mir <error>
+        <errorType />
+
+        <originalForm>gefählt</originalForm>
+
+        <targetForm>gefällt</targetForm>
+      </error> sehr im Supermarkt gehen und viele Sache <correction>
+        <deletion>g</deletion>
+      </correction> kaufen. Ich gehe immer alleine weil meine Kinder sind zu Schule. Heute bin ich im Supermarkt gewesen und ich habe viele Sache einkaufen weil am Abendessen habe ich meine Eltern <correction>
+        <deletion>einladen.</deletion>
+      </correction> eingeladen.<par />Wenn ich in der Kassen bin habe ich weniger <error>
+        <errorType />
+
+        <originalForm>gelde</originalForm>
+
+        <targetForm>Gelde</targetForm>
+      </error> zu kaufen alle Sache. So ich muss weniger Sache lassen </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo Paul</greeting><par />Wie geht's es dir? Ich habe deine Brief gelesen. Ich habe nicht alles gut verstanden weil ich weißt nicht sehr gut Deutsch.<par />Du hast Probleme mit Leute in Internet <error>
+        <errorType />
+
+        <originalForm>dass</originalForm>
+
+        <targetForm>das</targetForm>
+      </error> du hast kennengelernt.<par />Für mich ist nicht <error>
+        <errorType />
+
+        <originalForm>schon</originalForm>
+
+        <targetForm>schön</targetForm>
+      </error> kennen die Leute in Internet. Du musst in eine Park gehen und mit viele Leute sprechen.<par />Einmal gibt es kein Internet und die Leute wie meine <error>
+        <errorType />
+
+        <originalForm>Größeltern</originalForm>
+
+        <targetForm>Großeltern</targetForm>
+      </error> leben früh mit keine Probleme.<par />Heute gibt es viele Social, zum <error>
+        <errorType />
+
+        <originalForm>beispiel</originalForm>
+
+        <targetForm>Beispiel</targetForm>
+      </error> Facebook, Whatsapp und so weiter. Internet jetzt ist ein Kranken für die Kinder und auch für alles. Die Leute in ihre Freizeite können sehr Sache machen zum <error>
+        <errorType />
+
+        <originalForm>beispiel</originalForm>
+
+        <targetForm>Beispiel</targetForm>
+      </error> mit Freunde gehen, ins Kino, <correction>
+        <deletion>une</deletion>
+
+        <insertion>treffen</insertion>
+      </correction> im Stadt spazieren und so weiter.<par />Paul du kannst nicht zu Hause bleiben und mit Freunden ins Computer chatten.<par />Jetzt ich muss<correction>
+        <deletion>e</deletion>
+      </correction> gehen.<par /><closing>Viele Grüße</closing><par />Wir sehen uns n<correction>
+        <deletion>e</deletion>
+
+        <insertion>ä</insertion>
+      </correction>chste Wöche<par />Deine Serena</exercise>
+  </body>
+</kolipsi_II_document>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>N7013</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Liebe <entity>Julia</entity>,</greeting> <par/>wie geht es dir? <par/>Ich bin gut, aber du <error>
+        <errorType/>
+
+        <originalForm>weisst</originalForm>
+
+        <targetForm>weißt</targetForm>
+      </error> nicht was <entity>Maria</entity> passiert. Letzte Woche ist! <par/>Sie ist zuerst in einen <palimpsest> </palimpsest>Obst– und Gemüseladen gegangen und dort hat sie etwas gekauft. <par/><error>
+        <errorType/>
+
+        <originalForm>ann</originalForm>
+
+        <targetForm>Dann</targetForm>
+      </error> ist sie in einem <error>
+        <errorType/>
+
+        <originalForm>supermarkt</originalForm>
+
+        <targetForm>Supermarkt</targetForm>
+      </error> gegangen und wenn sie an der Kasse war, die Kassiererin sah in ihrer Tasche was sie in Obst- und Gemüseladen gekauft hat und <sic>rufte</sic> <palimpsest>sie</palimpsest> <sic>Raube</sic>. <entity>Maria</entity> probierte zu erzählen sie diese Geschichte, aber die Kassiere<hyphen>-</hyphen>rin dachte, dass es nur eine Entschuldigung war. <par/>So suchte <entity>Maria</entity> den Blatt mit den Preisen des anderen Geschäfts und, wenn sie es fand, die Kassiererin verstand, <error>
+        <errorType/>
+
+        <originalForm>dass</originalForm>
+
+        <targetForm>das</targetForm>
+      </error> was <entity>Maria</entity> erzählte, <palimpsest>es war</palimpsest> richtig. <par/>Dann ist <entity>Maria</entity> nach Hause gegangen und hat mir, um diese Geschichte zu erzählen telefoniert. <par/>Ich warte <correction>
+        <insertion>auf</insertion>
+      </correction> d<overwrite>
+        <over>ei</over>
+
+        <under><unreadable/></under>
+      </overwrite>ner <sic>Antworte</sic>. <par/><closing>Viele <error>
+          <errorType/>
+
+          <originalForm>küssen</originalForm>
+
+          <targetForm>Küssen</targetForm>
+        </error>, <par/><par/>Deine <entity>Silvia</entity> </closing></exercise>
+
+    
+  </body>
+</kolipsi_document>

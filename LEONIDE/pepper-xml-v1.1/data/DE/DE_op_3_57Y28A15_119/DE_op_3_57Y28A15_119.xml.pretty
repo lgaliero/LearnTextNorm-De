@@ -1,0 +1,123 @@
+<body>
+ <page page_number="1" transcanno_page_id="2527">
+  <paragraph class="medium-paragraph" tagcode="1556548863466">
+   <div>
+    1
+    <tran_symbol_id32 class="medium-tran_symbol_id32" tagcode="1556548720584" tran_symbol_target="U+25E6">
+     ◦
+    </tran_symbol_id32>
+    Ich
+    <tran_symbol_id32 class="medium-tran_symbol_id32" tagcode="1551772678416" tran_symbol_target="U+2192">
+     --&amp;gt;
+    </tran_symbol_id32>
+    möchte nach der Mittelschule
+   </div>
+   <div>
+    in ITE gehen.
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1556548863467">
+   <div>
+    2
+    <tran_symbol_id32 class="medium-tran_symbol_id32" tagcode="1556548724797" tran_symbol_target="U+25E6">
+     ◦
+    </tran_symbol_id32>
+    Mein
+    <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1551772618588" tran_alternative_1="Traumberuf" tran_alternative_2="traumberuf">
+     Traumberuf
+    </tran_ambiguous_id3>
+    ist arbeiten in eine
+   </div>
+   <div>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Modegeschäft" tagcode="1551772795822">
+     Mode gescheft
+    </orth_error_id12>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1551772710530">
+     in USA
+    </tran_word_insertion_id9>
+    , weil ich
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="liebe" tagcode="1551772727711">
+     libe
+    </orth_error_id12>
+    die
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Mode" tagcode="1551772732068">
+     mode
+    </orth_error_id12>
+   </div>
+   <div>
+    und die Kleider
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="von" tagcode="1551772817573">
+     fon
+    </orth_error_id12>
+    USA.
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1556548863468">
+   <div>
+    3
+    <tran_symbol_id32 class="medium-tran_symbol_id32" tagcode="1556548728934" tran_symbol_target="U+25E6">
+     ◦
+    </tran_symbol_id32>
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1551772851222">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1551772853687" tran_word_deletion_target="_#_">
+      *
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+    <tran_symbol_id32 class="medium-tran_symbol_id32" tagcode="1551772847935" tran_symbol_target="U+2192">
+     --&amp;gt;
+    </tran_symbol_id32>
+    Für den Traumberuf ich können
+   </div>
+   <div>
+    lernen
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1551772878686">
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Wirtschaft" tagcode="1551772912471">
+      Wirdschaft
+     </orth_error_id12>
+    </tran_word_insertion_id9>
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1551772881050">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1551772884005" tran_word_deletion_target="_#_">
+      *
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+    in ITE.
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1556548863469">
+   <div>
+    4
+    <tran_symbol_id32 class="medium-tran_symbol_id32" tagcode="1556548732587" tran_symbol_target="U+25E6">
+     ◦
+    </tran_symbol_id32>
+    Ich muss lernen
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1551772954807">
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Wirtschaft" tagcode="1551772961622">
+      Wirdschaft
+     </orth_error_id12>
+    </tran_word_insertion_id9>
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1551772948300">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1551772951809" tran_word_deletion_target="_#_">
+      *
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+    in ITE.
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1556548863474">
+   <div>
+    2
+    <tran_symbol_id32 class="medium-tran_symbol_id32" tagcode="1556548863465" tran_symbol_target="U+25E6">
+     ◦
+    </tran_symbol_id32>
+    Meine andere
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1551772988590" tran_correction_original="Traum beruf">
+     Traumberuf
+    </tran_word_correction_id25>
+    ist werden
+   </div>
+   <div>
+    eine Schauspielerin .
+   </div>
+  </paragraph>
+ </page>
+</body>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0046</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Liebe <entity>Marie</entity></greeting>!<par/>Letzte Woche Dienstag ist <correction>
+        <deletion>mir</deletion>
+      </correction> <correction>
+        <insertion><entity>Maria</entity></insertion>
+      </correction> etwas Seltsa<hyphen>-</hyphen>mes passiert. <correction>
+        <deletion>Ich</deletion>
+      </correction> <correction>
+        <insertion>Sie</insertion>
+      </correction> war einkaufen und <correction>
+        <deletion><unreadable/></deletion>
+      </correction> wie immer <correction>
+        <insertion>ist sie</insertion>
+      </correction> <correction>
+        <deletion>bin ich</deletion>
+      </correction> zuerst in den Obst- und Gemüseladen gegangen und <correction>
+        <deletion>habe</deletion>
+      </correction> <correction>
+        <insertion>hat</insertion>
+      </correction> Frisches gekauft, weil es im Obst- und Gemüseladen eine <error>
+        <errorType/>
+
+        <originalForm>Frische-Garantie</originalForm>
+
+        <targetForm>Frischegarantie</targetForm>
+      </error> gibt. <correction>
+        <deletion>Danach bin</deletion>
+      </correction> Das Obst und das Gemüse <correction>
+        <insertion>hat sie</insertion>
+      </correction> <correction>
+        <deletion>habe ich</deletion>
+      </correction> in einen Einkaufsbeutel getan, den <correction>
+        <insertion>sie sich</insertion>
+      </correction> <correction>
+        <deletion>ich mir</deletion>
+      </correction> über die Schulter gehängt <correction>
+        <deletion>habe</deletion>
+      </correction> hat. Eine Stunde später <correction>
+        <deletion>bin ich</deletion>
+      </correction> <correction>
+        <insertion>ist sie</insertion>
+      </correction> in den Supermarkt gegangen und <correction>
+        <deletion>habe</deletion>
+      </correction> <correction>
+        <insertion>hat</insertion>
+      </correction> dort eingekauft. An der Kasse dachte die Verkäuferin, dass <entity>Maria</entity> eine Tasche gefüllt mit Obst und Gemüse stehlen wollte. So bekräftigte <entity>Maria</entity>, sie habe das Obst und das Gemüse beim Obst- und Gemüsehändler erworben, könne dies sogar ohne Weiteres beweisen. Als sie jedoch in die Einkaufstasche schaute, um den Kassenbon als Beweis darzulegen, bemerkte <entity>Maria</entity>, dass sie diesen nicht mitgenommen hatte. Deshalb rief die Kassiererin die Polizei. <correction>
+        <deletion>und dies</deletion>
+      </correction> Die Polizisten nahmen <entity>Marias</entity> Personalien auf und überprüften, ob <entity>Maria</entity> wahrhaftig im Obst- und Gemüseladen eingekauft hatte. - Denke also immer daran, dir eine Quittung ausstellen zu lassen!<par/><closing>Beste Grüße,<par/>deine <entity>Elli</entity>.  </closing>                      </exercise>
+
+    
+  </body>
+</kolipsi_document>

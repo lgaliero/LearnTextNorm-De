@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0062</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Liebe <entity>Svenja</entity></greeting>,<par/>ich habe dir etwas zu erzählen. Meiner Freundin <correction>
+        <insertion><entity>Maria</entity></insertion>
+      </correction> ist vor ein paar Tagen etwas Komisches passiert.<par/>Sie war im Gemüseladen Ecke <entity>Lindemannstr.</entity> u. <entity>Neuer Graben</entity> und hat dort ein paar Gemüsesorten eingekauft.<par/>Danach ist sie in einen Supermarkt gegangen um noch andere Produkte einzukaufen, die es im Gemüseladen nicht gab.<par/>Also ist sie in den Supermarkt gegangen <palimpsest>und</palimpsest> hat noch ein paar Sachen eingekauft. <correction>
+        <deletion>Auf</deletion>
+      </correction> An der Kasse gab es jedoch ein Problem: <entity>Maria</entity> hat die Gemüsesorten die sie im Gemüseladen gekauft hat in ihrer Handtasche transportiert, aber nicht den Kassenbon mitgenommen. Deshalb hat die Kassiererin angenommen sie habe das Gemüse aus dem Supermarkt in ihre Handtasche gesteckt <palimpsest/> um es zu klauen. <entity>Maria</entity> konnte <palimpsest/> nicht beweisen, dass sie die Produkte aus dem Gemüseladen gekauft hat, weil sie den Kassenbon vergessen hatte.<par/>Dann hat <entity>Maria</entity> vorgeschlagen, dass sie zusammen zu dem Gemüseladen gehen und nachfragen ob die Kassiererin im Gemüseladen sich noch an <entity>Maria</entity> erinnern kann, dass sie dort eingekauft hatte.<par/>Die Kassiererin aus dem Supermarkt lehnte jedoch ab, weil sie ihren Platz als Kassiererin nicht einfach so verlassen kann.<par/>Dann schlug <entity>Maria</entity> vor sich die <correction>
+        <insertion>Bänder der</insertion>
+      </correction> Überwachsungskamera anzuschauen. Dann hat die Kassiererin ihren Chef geholt, damit er <entity>Maria</entity> ins Büro begleitet. <entity>Maria</entity> hat ihm den Vorfall in Ruhe geschildert und hat sich dann das Überwachungsband mit <sic>ihr</sic> zusammen angeguckt. Auf diesem Band ko<overwrite>
+        <under>m</under>
+
+        <over>nn</over>
+      </overwrite>te man sehen, dass <entity>Maria</entity> keine Produkte in ihrer Tasche versteckt hat sondern jedes Produkt, welches sie haben wollte auch ordnungsgemäß in ihren Einkaufwagen gepackt hat. So konnte <entity>Maria</entity> beweisen, dass sie nicht geklaut hat sondern ganz normal eingekauft wie jeder andere auch.<par/>Lustig oder? <entity>Maria</entity> hat mir auch noch erzählt, dass sie bei dem Anblick, sich selbst beim Einkaufen zu sehen, anfing zu lachen.<par/><closing>Deine ...</closing>   </exercise>
+
+    
+  </body>
+</kolipsi_document>

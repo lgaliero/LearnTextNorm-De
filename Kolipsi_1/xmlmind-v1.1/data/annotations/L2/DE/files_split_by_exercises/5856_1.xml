@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5856</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve">
+      <par/><greeting>Hallo <entity>Claudia</entity>,</greeting> <par/><error>
+        <errorType/>
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> will dir sagen was die letzte Woche bei <entity>Maria</entity> passiert ist.<par/>Am Morgen war sie bei einkaufen. <par/>Sie geht zuerst bei dem Obsthändler zu einkaufen. Wenn sie bezahl<strikeover>
+        <expansion>t</expansion>
+
+        <expansion>e</expansion>
+      </strikeover>n hat, vergiss <correction>
+        <deletion>S</deletion>
+
+        <insertion>s</insertion>
+      </correction>ie die Brieftasche in diesem <correction>
+        <deletion>Laden</deletion>
+      </correction> Laden, da sie <error>
+        <errorType/>
+
+        <originalForm>vusste</originalForm>
+
+        <targetForm>wusste</targetForm>
+      </error> das nicht.<par/>Eine <error>
+        <errorType/>
+
+        <originalForm>Stund</originalForm>
+
+        <targetForm>Stunde</targetForm>
+      </error> später kam sie in einen Supermark<correction>
+        <deletion><unreadable/></deletion>
+      </correction>t. Sie <correction>
+        <deletion><unreadable/></deletion>
+      </correction> einkaufte und geht an die Kass<ambiguous>
+        <alternative>e</alternative>
+
+        <alternative>a</alternative>
+      </ambiguous> zu bezahlen. <par/>Sie will weggehen aber die Frau an die Kass<ambiguous>
+        <alternative>e</alternative>
+
+        <alternative>a</alternative>
+      </ambiguous> sieht <correction>
+        <deletion>ihn</deletion>
+
+        <insertion>sie</insertion>
+      </correction> und stoppt sie. <entity><par/>Maria</entity> sucht in seiner <error>
+        <errorType/>
+
+        <originalForm>Vasche</originalForm>
+
+        <targetForm>Tasche</targetForm>
+      </error> um die Brieftasche zu nehmen<correction>
+        <deletion><unreadable/></deletion>
+      </correction>, aber sie findet nicht.<par/>Sie lasst d<strikeover>
+        <expansion>ie</expansion>
+
+        <expansion>er</expansion>
+      </strikeover> Einkauf bei der Kassa und lauft schnell beim Obsthändler und sagt an <correction>
+        <deletion>unreadable</deletion>
+      </correction> die Kassierin ob sie seine Brieftasche gesehen hat. Sie sagt dass die Brieftasche gesehen <correction>
+        <deletion><unreadable/></deletion>
+      </correction> und für sie konserviert hat.<par/><entity>Maria</entity> dankt die Kassierin und lauft schnell am Supermarkt. Sie bezahlt die Einkauf und macht die Entschuldigungen an diese Kassierin. <entity>Mar<strikeover>
+          <expansion>i</expansion>
+
+          <expansion>a</expansion>
+        </strikeover></entity> hatte Glück die Brieftasche noch zu finden! Diese Geschichte ist schon ein bisschen komisch, <entity>Claudia</entity>, nicht? Bitte antworte diese E-Mail! <closing><par/>Servus<correction>
+          <deletion><unreadable/></deletion>
+        </correction> <entity>Claudia</entity>, bei <entity>Lu<strikeover>
+            <expansion>c</expansion>
+
+            <expansion>a</expansion>
+          </strikeover></entity>.</closing> </exercise>
+
+    
+  </body>
+</kolipsi_document>

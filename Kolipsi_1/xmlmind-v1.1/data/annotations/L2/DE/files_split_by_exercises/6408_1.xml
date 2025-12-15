@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>6408</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Martin</entity>!</greeting> Wie geht es dir? Mir geht es sehr gut! Weißt du was an <entity>Marta</entity> im Superma<overwrite>
+        <over>r</over>
+
+        <under>k</under>
+      </overwrite>kt passiert ist? Letzte Woche war sie beim Einkaufen zuerst beim Obsthänd<overwrite>
+        <over>l</over>
+
+        <under>e</under>
+      </overwrite>er. Sie hat beim Obst- und Gemüseladen zwei oder drei S<overwrite>
+        <over>a</over>
+
+        <under>t</under>
+      </overwrite>latstücke eingekauft. Aber wenn sie bezahlt hat, hat sie den den Kassenzettel an der <error>
+        <errorType/>
+
+        <originalForm>kasse</originalForm>
+
+        <targetForm>Kasse</targetForm>
+      </error> des Obsthändlers vergessen. Eine <error>
+        <errorType/>
+
+        <originalForm>Stünde</originalForm>
+
+        <targetForm>Stunde</targetForm>
+      </error> später ist sie in den Supermarkt gegangen. Dort hat sie eine <error>
+        <errorType/>
+
+        <originalForm>Falsche</originalForm>
+
+        <targetForm>Flasche</targetForm>
+      </error> Wasser, Zucker, Milch und Pasta gekauft. Aber an der Kasse gab es ein Problem. Sie hat sich den Salat in seiner Tasche vergessen und an der Kasse dachte die Verkäuferin, dass <entity>Maria</entity> den Salat im <correction>
+        <deletion>s</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>supermarkt</originalForm>
+
+        <targetForm>Supermarkt</targetForm>
+      </error> gekauft hat. <entity>Maria</entity> hat den Kassenzettel in der Tasche gesucht, aber sie hat es nicht gefunden. Sie wollte probieren, dass sie den Salat nicht im Supermarkt sondern im Obst- und Gemüseladen gekauft hat. Aber ohne Kassenzettel hat sie den Salat <error>
+        <errorType/>
+
+        <originalForm>wiederbezahlt</originalForm>
+
+        <targetForm>wieder bezahlt</targetForm>
+      </error>.</exercise>
+
+    
+  </body>
+</kolipsi_document>

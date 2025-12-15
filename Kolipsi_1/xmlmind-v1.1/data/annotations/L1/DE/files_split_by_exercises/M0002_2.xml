@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0002</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Hi <entity>Otto</entity>, <entity>Peter</entity>, <entity>Susanne</entity>,</greeting><par/>wir wollten ja in den Sommerferien zusammen in den Urlaub fahren. Ich habe jetzt zwei Alternativen herausgesucht. Entweder wir fahren in die Berge oder ans Meer <overwrite>
+        <under>!</under>
+
+        <over>.</over>
+      </overwrite> In den Bergen <reduction>
+        <reductionType rType="Unknown"/>
+
+        <reducedForm>wär</reducedForm>
+
+        <unfoldedForm>wäre</unfoldedForm>
+      </reduction> es besser, wenn wir uns viel bewegen wollen und viel von der Natur sehen möchten.<par/><overwrite>
+        <under>I</under>
+
+        <over>A</over>
+      </overwrite>m Meer wäre es besser, wenn wir uns entspannen wollen. In den Bergen würden wir nach <entity>Südtirol</entity> fahren, <correction>
+        <deletion>wenn wir</deletion>
+      </correction> ans Meer nach <entity>Sylt</entity> an die <entity>Nordsee</entity>. Wir würden beide<correction>
+        <deletion><unreadable/></deletion>
+      </correction> Male in einer Jugend<hyphen>-</hyphen>herberge übernachten und mit dem Zug <correction>
+        <deletion>dorthin fa</deletion>
+      </correction> anreisen. Allerdings ist es auf <entity>Sylt</entity> deutlich teurer als in <entity>Südtirol</entity> und wir würden auf <entity>Sylt</entity> nur zwei Zweibettzimmer haben und in <entity>Südtirol</entity> ein Vierbettzimmer. Zusammenfassend würde ich sagen, dass ein Vierbettzimmer <sic>das <correction>
+          <deletion>bill</deletion>
+        </correction> günstiger ist besser ist</sic> als <correction>
+        <deletion>ein</deletion>
+      </correction> <correction>
+        <insertion>zwei</insertion>
+      </correction> teure<correction>
+        <deletion>s</deletion>
+      </correction> Zweibettzimmer.<par/>Meiner Meinung nach wäre es trotzdem besser, wenn wir nach <entity>Sylt</entity> fahren, da ich mich lieber entspannen würde und wir letztes Jahr schon in den Bergen waren.<par/>Außerdem kann man mit dem Zug direkt nach <entity>Sylt</entity> durchfahren. -, was nach <correction>
+        <deletion>Sy</deletion>
+      </correction> <entity>Südtirol</entity> nicht möglich ist! Ich weiß ja nicht wie ihr das seht? Meldet euch einfach mal!<par/><closing>Bis <error>
+          <errorType/>
+
+          <originalForm>Bald</originalForm>
+
+          <targetForm>bald</targetForm>
+        </error> und viele Grüße...<par/>euer   <entity>Hans Gustav Eichel Peter von Neundorff zu Mengenbroch</entity>    </closing>           </exercise>
+  </body>
+</kolipsi_document>

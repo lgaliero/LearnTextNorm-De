@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5285</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><par/><greeting>Liebe <entity>Manuela</entity>,</greeting> <par/><error>
+        <errorType/>
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> habe dafür viel gedacht, ob es besser am Meer oder in den Bergen den Urlaub machen, aber ich habe keine Lösung gefunden. In den Bergen <correction>
+        <deletion>ist</deletion>
+
+        <insertion>wäre</insertion>
+      </correction> es schön zu gehen, weil dort wir viele <sic>Spaziergangen</sic> machen konnte und <strikeover>
+        <expansion>f</expansion>
+
+        <expansion>F</expansion>
+      </strikeover>rische Luft finden werden. <error>
+        <errorType/>
+
+        <originalForm>Leztes</originalForm>
+
+        <targetForm>Letztes</targetForm>
+      </error> Jahr bin ich in den Bergen mit meine Familie gegangen und es war wirklich toll. Auf der anderen Seite aber ist einen Urlaub am Meer auch schön. Dort kann man so viele Bäde machen, und du weißt es schon, wie ich schwimmen mag. Ich würde dem ganzen Tag ins Wasser bleiben. Aber am Meer wurde es zu kalt sein! Ja, ich es <error>
+        <errorType/>
+
+        <originalForm>jetz</originalForm>
+
+        <targetForm>jetzt</targetForm>
+      </error> eine <error>
+        <errorType/>
+
+        <originalForm>Losüng</originalForm>
+
+        <targetForm>Lösung</targetForm>
+      </error> gefunden: <error>
+        <errorType/>
+
+        <originalForm>wir</originalForm>
+
+        <targetForm>Wir</targetForm>
+      </error> werden den Urlaub in den Bergen verbrachen wo es auch einen See gibt, so können wir gleichzeitig Spaziergangen machen und schwimmen. Es wird wunderbar sein? Bist du einverstanden? Schreib mir deine Antwort gleich. <par/> <closing>Grüße von <par/> <entity>Federica</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

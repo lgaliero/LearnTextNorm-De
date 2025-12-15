@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I36_GAL09DEN</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve">Maria war bei <correction>
+        <deletion>e</deletion>
+
+        <insertion>E</insertion>
+      </correction>inkaufen, sie ging <correction>
+        <deletion>erstens</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>zu erst</originalForm>
+
+        <targetForm>zuerst</targetForm>
+      </error> in einem Obst- un<correction>
+        <deletion>g</deletion>
+
+        <insertion>d</insertion>
+      </correction> <correction>
+        <deletion>g</deletion>
+
+        <insertion>G</insertion>
+      </correction>emüseladen ein, dort kaufte sie mehrere Dinge. Sie bezahlte und ging in ein anderes Geschäft. Sie ging in ein Super<correction>
+        <deletion>M </deletion>
+      </correction>markt, da <error>
+        <errorType/>
+
+        <originalForm>Verkaufen</originalForm>
+
+        <targetForm>verkaufen</targetForm>
+      </error> sie auch Obst und Gemüse. Sie ging ins <foreign_word foreign_language="Italiano">Supermarket</foreign_word>, ohne Problemen, ein. Sie nahm die Sachen die sie brauchte und ging zur Kasse.<par/>Als sie zur Kasse war, sah die Kauffrau den Tüte mit den <error>
+        <errorType/>
+
+        <originalForm>Gemüst</originalForm>
+
+        <targetForm>Gemüse</targetForm>
+      </error> und Obst. Die Arbeiteri<correction>
+        <deletion>e</deletion>
+      </correction>n sagte ihr dass es auch bezahlen sollte, aber Maria antwortete, dass <correction>
+        <insertion>sie</insertion>
+      </correction> es in ein andere <error>
+        <errorType/>
+
+        <originalForm>Gescheft</originalForm>
+
+        <targetForm>Geschäft</targetForm>
+      </error> gekauft hat. D<correction>
+        <deletion>ie</deletion>
+
+        <insertion>as</insertion>
+      </correction> Mädchen glaubte an die Frau nicht, und sie <error>
+        <errorType/>
+
+        <originalForm>widerholte</originalForm>
+
+        <targetForm>wiederholte</targetForm>
+      </error> dass sie es alles bezahlen musste, Maria erklärte dass sie es nicht geklaut hat sie ist keine Dieb<correction>
+        <deletion>,</deletion>
+
+        <insertion>.</insertion>
+      </correction> Jedoch <correction>
+        <deletion><unreadable/> w<unreadable/></deletion>
+      </correction> ärgert <correction>
+        <deletion>di</deletion>
+      </correction> die Kauffrau sich. <correction>
+        <deletion>M</deletion>
+      </correction><par/>Die Frau hatte, plötzlich, eine Idee: Maria zeigte den Zettel des anderes <error>
+        <errorType/>
+
+        <originalForm>Gescheft</originalForm>
+
+        <targetForm>Geschäft</targetForm>
+      </error>. Dort stand den <correction>
+        <deletion>Arti<unreadable/>en</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>Artickels namens</originalForm>
+
+        <targetForm>Artikelsnamens</targetForm>
+      </error> und wie viel sie <correction>
+        <deletion>ges</deletion>
+      </correction> kosteten. Als die Kauffraus es sah, versteht sie dass <correction>
+        <deletion>es</deletion>
+      </correction> sie ein <correction>
+        <deletion><unreadable/></deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>fähler</originalForm>
+
+        <targetForm>Fehler</targetForm>
+      </error> gemacht hat.</exercise>
+
+    
+  </body>
+</kolipsi_II_document>

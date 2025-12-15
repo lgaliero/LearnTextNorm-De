@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5491</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve">
+      <par/><greeting>Liebe <entity>Sabrina</entity>,</greeting> <par/>wie du schon weißt können wir endlich alleine einen Urlaub machen, weil wir endlich volljährig sind.<correction>
+        <deletion><unreadable/></deletion>
+      </correction><par/>Sicherlich wird es spaßig und unvergessbar werden, denn wir können uns sehr gut amüsieren. Berg oder Meer? Ich weiß auch nicht <error>
+        <errorType/>
+
+        <originalForm>bescheid</originalForm>
+
+        <targetForm>Bescheid</targetForm>
+      </error>, doch ich werde dir nun Gemeinsamkeiten und Unterschiede nennen, damit wir uns entscheiden können.<par/>Berg: Wir können ein schönes Häuschen mieten, auf einer grünen Alm mit den Kühen, wo wir Sonne liegen können und Spaziergänge in der frischen Luft machen. Ein wenig frische Luft schnappen tut unseren Lungen sicher nicht schlecht und auch unsere Beine zu bewegen tut nicht schlecht, doch ein Urlaub muss auch Spaß machen. Vielleicht wäre es besser wenn wir ans Meer <correction>
+        <deletion>gingen</deletion>
+
+        <insertion>fahren</insertion>
+      </correction>, denn es ist warmer und wir könnten schwimmen gehen und nachts in Discos gehen. Am Meer können wir uns bräunen und relaxen, damit wenn wir <error>
+        <errorType/>
+
+        <originalForm>zuruckkommen</originalForm>
+
+        <targetForm>zurückkommen</targetForm>
+      </error> nicht mehr so müde sind. Ich liebe das Meer und du auch, so glaube <correction>
+        <deletion>ich werden wir</deletion>
+
+        <insertion><correction>
+            <deletion><unreadable/></deletion>
+
+            <insertion>dass es besser ware</insertion>
+          </correction></insertion>
+      </correction> ans Meer <error>
+        <errorType/>
+
+        <originalForm>zufahren</originalForm>
+
+        <targetForm>zu fahren</targetForm>
+      </error> , auch weil wir von Bergen umzäunt sind. Am Berg fahren können wir auch am Sonntag oder <correction>
+        <deletion>ein</deletion>
+      </correction> an einem Wochenende. Strand, Palmen, Sonne, Wasser ist das <error>
+        <errorType/>
+
+        <originalForm>beste</originalForm>
+
+        <targetForm>Beste</targetForm>
+      </error> für uns, ich bin sicher dass du es willst. Wir werden den nächsten Flug nehmen, doch wir müssen nur noch entscheiden wo wir gerne fahren möchten: <entity>Italien</entity>, <entity>Griechenland</entity>, <entity>Kuba</entity>, <entity> <foreign_word foreign_language="English">Mexico</foreign_word></entity>, <entity> <foreign_word foreign_language="Italiano">Seychelles</foreign_word></entity>? <error>
+        <errorType/>
+
+        <originalForm>Fur</originalForm>
+
+        <targetForm>Für</targetForm>
+      </error> mich ist es egal!, <correction>
+        <deletion><unreadable/></deletion>
+      </correction> Morgen treffen wir uns für ein <error>
+        <errorType/>
+
+        <originalForm>Kaffe</originalForm>
+
+        <targetForm>Kaffee</targetForm>
+      </error> und ge<strikeover>
+        <expansion>g</expansion>
+
+        <expansion>h</expansion>
+      </strikeover>en zusammen in einem Rei<overwrite>
+        <under><unreadable/></under>
+
+        <over>s</over>
+      </overwrite>ebüro und suchen ein Ort aus.<par/>Gras, Kühe, frische Luft oder Strand, <error>
+        <errorType/>
+
+        <originalForm>Palnen</originalForm>
+
+        <targetForm>Palmen</targetForm>
+      </error>, Wasser<correction>
+        <deletion><unreadable/></deletion>
+      </correction> und Wärme? Es gibt Pro und Kontras für beide Möglichkeiten, doch wir <error>
+        <errorType/>
+
+        <originalForm>mussen</originalForm>
+
+        <targetForm>müssen</targetForm>
+      </error> die Möglichkeit aussuchen die am <error>
+        <errorType/>
+
+        <originalForm>Besten</originalForm>
+
+        <targetForm>besten</targetForm>
+      </error> für uns ist.</exercise>
+  </body>
+</kolipsi_document>

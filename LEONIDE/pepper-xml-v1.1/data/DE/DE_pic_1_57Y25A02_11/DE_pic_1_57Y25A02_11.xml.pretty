@@ -1,0 +1,62 @@
+<body>
+ <page page_number="1" transcanno_page_id="170">
+  <paragraph class="medium-paragraph" tagcode="1540418751046">
+   <div>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1540418625219" tran_correction_original="De*">
+     Der
+    </tran_word_correction_id25>
+    Kinder Gino und der
+   </div>
+   <div>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1540418646671" tran_correction_original="Großva*er">
+     Großvater
+    </tran_word_correction_id25>
+    gehe nach
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1540418662011" tran_correction_original="*arden">
+     garden
+    </tran_word_correction_id25>
+   </div>
+   <div>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1540418672714" tran_correction_original="de*">
+     der
+    </tran_word_correction_id25>
+    Gino eine paper (
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1540418686088" tran_foreign_word_language="Italian">
+     butta
+    </tran_foreign_word_id13>
+    ) in
+   </div>
+   <div>
+    die Hause und
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Großvater" tagcode="1540418695211">
+     Grosvater
+    </orth_error_id12>
+    (
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1540418708305" tran_foreign_word_language="Italian">
+     prende
+    </tran_foreign_word_id13>
+   </div>
+   <div>
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1540418714994" tran_foreign_word_language="Italian">
+     gli
+    </tran_foreign_word_id13>
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1540418722763" tran_foreign_word_language="Italian">
+     oggetti
+    </tran_foreign_word_id13>
+    ) und gehe in
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="die" tagcode="1540418733363">
+     di
+    </orth_error_id12>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Hause" tagcode="1540418738850">
+     Hase
+    </orth_error_id12>
+   </div>
+   <div>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1540418751045" tran_correction_original="d*">
+     den
+    </tran_word_correction_id25>
+    Kinder.
+   </div>
+  </paragraph>
+ </page>
+</body>

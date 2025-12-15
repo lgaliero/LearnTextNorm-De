@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0090</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Lieber <entity>Klaus</entity></greeting>,<par/>du <correction>
+        <deletion>erräst</deletion>
+      </correction> kannst dir <error>
+        <errorType/>
+
+        <originalForm>nich</originalForm>
+
+        <targetForm>nicht</targetForm>
+      </error> vorstellen, was <entity>Maria</entity> heute passiert <gap>_</gap>? Sie macht jeden Samstag ihren Großeinkauf, dementsprechend ging sie zuerst zum Obsthändler und besorgte die <correction>
+        <deletion>verschied</deletion>
+      </correction> verschiedensten Obstsorten (wegen der Party morgen). Sie war insgesamt 30 Minuten allein beim Obsthändler. Unfassbar! Schließlich ging sie zur Kasse. Während die <correction>
+        <deletion>Kassi</deletion>
+      </correction> Verkäuferin den Preis errechnete, schaute <entity>Maria</entity> auf die Uhr. Es war schon <emphasis>13:30</emphasis>. Sie bezahlte schnell und packte ihre Sachen schnell ein um noch in den Supermarkt zu gehen, bevor dieser schließt. Sie beeilte sich richtig, sie rannte sogar zum Bus. Dieses geschieht, wie du ja <correction>
+        <deletion>weißt</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>weist</originalForm>
+
+        <targetForm>weißt</targetForm>
+      </error>, nicht so oft, da <entity>Maria</entity> <sic>einer</sic> der faulsten Personen dieser Welt ist. <error>
+        <errorType/>
+
+        <originalForm>Naja</originalForm>
+
+        <targetForm>Na ja</targetForm>
+      </error>, heute ist eben alles anders. Auf jeden Fall <correction>
+        <deletion>ging sie</deletion>
+      </correction> kam sie noch recht<strikeover>
+        <expansion>z</expansion>
+
+        <expansion>s</expansion>
+      </strikeover>eitig am Supermarkt an und ging in aller Eile durch die Gänge, da der Supermarkt in genau 10 Minuten <correction>
+        <deletion>schließt</deletion>
+      </correction> hätte geschlossen werden <gap>_</gap>. <correction>
+        <deletion><palimpsest/>ie schaffte es alle Einkäufe</deletion>
+      </correction> Doch dann als <entity>Maria</entity> an der Kasse stand, fand sie <sic>ihr</sic> <correction>
+        <deletion>P</deletion>
+      </correction> Geldbörse nicht mehr. Sie bekam Angst, dass die Party wegen ihrem Fehler nicht stattfinden könne. Doch zum Glück war die Verkäuferin ihre Nachbarin. Du kennst sie auch. Ich glaub sie hieß <entity>Jessica</entity>. <overwrite>
+        <under><unreadable/></under>
+
+        <over>N</over>
+      </overwrite>achdem sie lange geredet hatten, durfte sie <correction>
+        <deletion>jed</deletion>
+      </correction> die Einkäufe mitnehmen unter der Bedingung das Geld am nächsten Tag <error>
+        <errorType/>
+
+        <originalForm>nach zu bringen</originalForm>
+
+        <targetForm>nachzubringen</targetForm>
+      </error>. <entity>Maria</entity> hatte mal wieder Glück gehabt. Sie fuhr den <overwrite>
+        <under><unreadable/></under>
+
+        <over>W</over>
+      </overwrite>eg zurück und fand ihre Geldbörse schließlich beim Obsthändler an der Kasse. In der ganzen Eile muss sie es wohl dort vergessen haben.<par/>Durch die Freundlichkeit von <entity>Jessica</entity> findet die Party morgen statt.<par/><closing><correction>
+          <deletion>MfG</deletion>
+        </correction> Bis morgen<par/><entity>Anton</entity>   </closing>             </exercise>
+
+    
+  </body>
+</kolipsi_document>

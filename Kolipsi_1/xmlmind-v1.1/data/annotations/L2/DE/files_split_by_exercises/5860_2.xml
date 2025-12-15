@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5860</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><par/><greeting><error>
+          <errorType/>
+
+          <originalForm>Herliche</originalForm>
+
+          <targetForm>Herrliche</targetForm>
+        </error> <entity>Maria</entity>,</greeting> <error>
+        <errorType/>
+
+        <originalForm>Ein</originalForm>
+
+        <targetForm>ein</targetForm>
+      </error> Urlaub in den Bergen oder am Meer? Beide sind gut. Beide haben seine Vorteile. Am Meer kann man <foreign_word foreign_language="Italiano">relax</foreign_word> haben, und auch in den Berg, <correction>
+        <deletion>Du</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>dann</originalForm>
+
+        <targetForm>denn</targetForm>
+      </error> Luft ist perfekt in beiden. Am Meer und in den Bergen kann man viele neue Leute zu kenne, machen der Sport, <error>
+        <errorType/>
+
+        <originalForm>phisiechisch</originalForm>
+
+        <targetForm>physisch</targetForm>
+      </error> und <error>
+        <errorType/>
+
+        <originalForm>psichish</originalForm>
+
+        <targetForm>psychisch</targetForm>
+      </error> gut sein. Das wird schön zusammen in den Bergen oder am Meer zu fahren. Das würde eine gute Erfahrung für <correction>
+        <deletion>euch</deletion>
+      </correction> uns. Mir selbst gefällt ein Urlaub am Meer, weil ich in den Bergen lebe; aber für dich soll eine gute Erfahrung den Bergen zu kennen. Was denkst du über? Ein langer Reise in den Bergen oder am Meer zu machen? Ich g<strikeover>
+        <expansion>l</expansion>
+
+        <expansion>b</expansion>
+      </strikeover>aube, dass <error>
+        <errorType/>
+
+        <originalForm>zu erst</originalForm>
+
+        <targetForm>zuerst</targetForm>
+      </error> kommst du zu mir, und machen wir ein Urlaub in den Berg am Januar, nur ein <strikeover>
+        <expansion>W</expansion>
+
+        <expansion>v</expansion>
+      </strikeover>oche und dann gehen wir am Meer am August zwei Woche. Gefällt dir das? Schreib mir die Antwort! Ich warte! <closing>Tschüss! <par/><entity>Sascha</entity>. <entity>Sterzing</entity>.</closing> <par/><over_capitalisation>
+        <originalForm>PS</originalForm>
+
+        <targetForm>Ps</targetForm>
+      </over_capitalisation>: Vergessen <error>
+        <errorType/>
+
+        <originalForm>nich</originalForm>
+
+        <targetForm>nicht</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>di</originalForm>
+
+        <targetForm>die</targetForm>
+      </error> Bergschuhe!</exercise>
+  </body>
+</kolipsi_document>

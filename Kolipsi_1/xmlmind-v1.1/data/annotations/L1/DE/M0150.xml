@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0150</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hi <entity>Anni</entity></greeting>!<par />Schön mal wieder was von dir zu hören!I<par />Dein Wochenende hört sich echt spannend an, aber auch bei mir ist einiges passiert.<par />Letzte Woche war <entity>Maria</entity> einkaufen, denn ihre Mutter musste länger arbeiten und hatte <entity>Maria</entity> gebeten, den Einkauf für sie zu erledigen.<par />Zuerst ging sie in einen Obst- und Gemüseladen, wo sie Salat und andere Zutaten für ein leckeres Essen kaufte. Alle Sachen sahen sehr gut aus, deswegen <palimpsest>konnte</palimpsest> <entity>Maria</entity> sich nicht ent<hyphen>-</hyphen>scheiden und kaufte viel zu viel ein. Dementsprechend teuer <palimpsest>fiel die Rechnung aus.</palimpsest><par />Nachdem sie aus dem Laden heraus war, ging sie noch zum Supermarkt. Dort kaufte sie weitere Nahrungsmittel. Doch sie verrechnete sich und so stellte sich an der Kasse heraus, dass sie zu wenig Geld bei sich hatte.<par />Die Kassiererin wurde sehr böse, denn sie unterstellte <entity>Maria</entity> versuchten Diebstahl. Aber <entity>Maria</entity> konnte alles aufklären und stellte einige Dinge zurück ins Regal.<par /><par /><closing>Viele liebe Grüße und bis bald,<par /><par /><entity><par />Charlotte</entity></closing>   </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hi <palimpsest>Schatz</palimpsest></greeting>!<par />Bald kommen die Sommerferien und wie ich dir ver<hyphen>-</hyphen>sprochen habe, habe ich mich <error>
+        <errorType />
+
+        <originalForm>schlau gemacht</originalForm>
+
+        <targetForm>schlaugemacht</targetForm>
+      </error> über die zwei verbliebenen Urlaubsorte, zwischen denen wir uns nicht entscheiden konnten.<par />Das Örtchen <entity>Filzmoos</entity> in <entity>Österreich</entity> sieht im Internet genauso gemütlich und ruhig aus, wie meine Mutter erzählt hat. Die Ferienwohnung, die wir schon oft gemietet haben, steht auch frei, wenn wir hinfahren würden. Mir gefällt besonders die tolle Aussicht, die der Natur der <entity>Karibik</entity> um nichts nachsteht. Allerdings könnte das ständige Wandern vielleicht mit der Zeit langweilig werden, da wäre eine Jugendreise auf diese wunderschöne Insel sicher besser.<par />Die langen Partynächte werden richtig Spaß machen und beim Tauchen können wir viele bunte Fische und Korallen beobachten.<par />Der Preis für die zwei Wochen <overwrite>
+        <under>u</under>
+
+        <over>U</over>
+      </overwrite>rlaub ist fast gleich hoch, doch die Ferienwohnung in den Bergen ist natürlich geräumiger als das kleine Hotelzimmer auf der Insel.<par />Ich bin dafür den Flug ans Meer zu buchen, weil ich weiß, dass mir Strandurlaub so wie in den letzten Jahren am besten gefällt.<par />Was denkst du?<par /><par /><closing>Tausend Küsse!<par /><par /><par />Deine <entity>Charlotte</entity></closing>   </exercise>
+  </body>
+</kolipsi_document>

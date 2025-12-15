@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I05_CAS06GIO</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo Mike!</greeting> <error>
+        <errorType />
+
+        <originalForm>Letze</originalForm>
+
+        <targetForm>Letzte</targetForm>
+      </error> Woche war mein Freundin Maria einkaufen: Sie war erst in einem Obst- und Gemüseladen und eine Stunde später war sie im Supermarkt. Sie hatte ein Problem an der Kasse, weil sie die Obst und Gemüse in ihre Tasche hatte. Die Frau an der Kasse hat Maria gefragt wer <correction>
+        <deletion>sie</deletion>
+      </correction> hat <correction>
+        <insertion>sie</insertion>
+      </correction> die Obst und <correction>
+        <deletion>g</deletion>
+
+        <insertion>G</insertion>
+      </correction>emüse genommen.</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo Paul!</greeting> Ich habe auf dein Erfahrung gelesen. Ich habe viele virtuelle Freunde und <error>
+        <errorType />
+
+        <originalForm>Heute</originalForm>
+
+        <targetForm>heute</targetForm>
+      </error> eine von diesen "virtuelle Freund <correction>
+        <deletion>is</deletion>
+      </correction> mein <correction>
+        <deletion>B</deletion>
+      </correction> beste Freund ist. Ich denke dass du <correction>
+        <deletion>diese</deletion>
+      </correction> eine auf diese Freund treffen musst.</exercise>
+  </body>
+</kolipsi_II_document>

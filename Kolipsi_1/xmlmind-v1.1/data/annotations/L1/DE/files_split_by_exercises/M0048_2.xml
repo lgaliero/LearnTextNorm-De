@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0048</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Hallo <entity>Anna</entity></greeting>,<par/>ich und mein Mann haben ein gewaltiges Problem, die Urlaubsplanung! Da wir uns ja letztes Jahr im Urlaub kennengelernt haben, dachte ich, du könntest mir vielleicht helfen. Zur Auswahl stehen Skifahren in <entity>Tirol</entity> und Strandurlaub in der <entity>Karibik</entity>. Das ist beides so ungla<overwrite>
+        <under><unreadable/></under>
+
+        <over>ub</over>
+      </overwrite>lich unterschiedlich, dass die <overwrite>
+        <under>e</under>
+
+        <over>E</over>
+      </overwrite>ntscheidung echt schwer fällt. In den Bergen kann <entity>Marcel</entity> endlich mal wieder <error>
+        <errorType/>
+
+        <originalForm>Skifahren</originalForm>
+
+        <targetForm>Ski fahren</targetForm>
+      </error>, das hat er schon Ewigkeiten nicht mehr gemacht, andererseits könnte<palimpsest/> mein<palimpsest/> Knie mir einen Strich durch die Rechnung machen. Am Meer hingegen könnten wir super entspannen und der Flug dauert aber wesentlich länger und du weißt ja, was <entity>Marcel</entity> von Flügen hält. Die wohl einzigen Gemeinsamkeiten sind der Preis und die Tatsache, dass beide Hotels einen unglaublich guten SPA-Bereich haben. Ein weiterer Punkt, der eher für den Urlaub am Meer spricht ist der, <palimpsest><error>
+          <errorType/>
+
+          <originalForm>das</originalForm>
+
+          <targetForm>dass</targetForm>
+        </error> ich </palimpsest> doch gerade erst 15 Kilo abgenommen hab und das möchte ich nicht unter einer <correction>
+        <deletion>dicken</deletion>
+      </correction> dicken Winterjacke verbergen. Ich hoffe wirklich dir fällt noch der <correction>
+        <deletion><unreadable/></deletion>
+      </correction> ein<palimpsest/> oder <palimpsest>and</palimpsest>ere gute Grund ein, der für eines der beiden Reiseziele spricht, oder noch besser, hast du nicht Lust mit deinem Liebsten mitzukommen? So oft sehen wir uns ja nicht und ein gemeinsamer Urlaub wäre doch wirklich klasse. Wie geht es euch denn sonst?<par/><closing>Liebe Grüße</closing>     </exercise>
+  </body>
+</kolipsi_document>

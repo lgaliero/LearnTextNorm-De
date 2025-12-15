@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Romy</transcriber>
+
+  <author_id>6398</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve">Empfänger:markus.meyer@mail.de Absender:luca.bonometti@mail.de Betreff: <entity>Maria</entity> und der Kassenzettel <greeting>Lieber <entity>Markus</entity> </greeting> <par />die <error>
+        <errorType />
+
+        <originalForm>Email</originalForm>
+
+        <targetForm>E-Mail</targetForm>
+      </error>, die du mir letztes Mal gesandt hast bzw. den Witz über den Polizisten habe ich <error>
+        <errorType />
+
+        <originalForm>wirkliclich</originalForm>
+
+        <targetForm>wirklich</targetForm>
+      </error> köstlich gefunden: <error>
+        <errorType />
+
+        <originalForm>mir</originalForm>
+
+        <targetForm>Mir</targetForm>
+      </error> sind dabei andere Witze eingefallen, die ich dir sobald wie möglich erzählen werde. Weißt du übrigens, was unserer lieben Freundin <entity>Maria</entity> vor einer Woche passiert ist? <error>
+        <errorType />
+
+        <originalForm>diese</originalForm>
+
+        <targetForm>Diese</targetForm>
+      </error> Nachricht ist gar nicht zum Lachen, denn sie hätte sogar gegen das Gesetz verstoßen können. <palimpsest>Am Wochenende</palimpsest> war sie wie üblich beim Obsthändler, weil sie nämlich vorhatte, zum Mittagessen eine Suppe zuzubereiten. Sie hat also ihr Obst gut gewählt (Kohl, Tomaten, Auberginen usw.) und dann an der Kasse den vorgesehenen Preis bezahlt: <error>
+        <errorType />
+
+        <originalForm>es</originalForm>
+
+        <targetForm>Es</targetForm>
+      </error> ist ihr aber nicht aufgefall<palimpsest>en,</palimpsest> dass <palimpsest>sie</palimpsest> den Kassenzettel <palimpsest>auf der Bank mitgenommen hatte, und die</palimpsest> Angestellte <error>
+        <errorType />
+
+        <originalForm>stelbst</originalForm>
+
+        <targetForm>selbst</targetForm>
+      </error> hat es zu spät bemerkt. Als sie dann später im Supermarkt beim Einkaufen war, trug sie natürlich noch ihre Tasche voller Obst. Die Frau an der Kasse war selbstverständlich empört und hat vielleicht vermutet, <entity>Maria</entity> <palimpsest>versuche</palimpsest> gerade einen Diebstahl. Zum Glück hatte die Obsthändlerin die Quittung aufbewahrt, sodass sie ihre Unschuld <error>
+        <errorType />
+
+        <originalForm>bewiresen</originalForm>
+
+        <targetForm>bewiesen</targetForm>
+      </error> hat. Achte also nicht nur auf die Waren, sondern au<palimpsest>ch</palimpsest> auf den Kassenzettel, denn das ist ein häufiger Fehler! <par />So, das war´s, auf bald wieder (hoffentlich mit besseren Nachrichten)!</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Giada</entity>,</greeting> <par />mir tut es ehrlich <error>
+        <errorType />
+
+        <originalForm>Leid</originalForm>
+
+        <targetForm>leid</targetForm>
+      </error>, dass du und <entity>Andrea</entity> euch letztes <error>
+        <errorType />
+
+        <originalForm>mal</originalForm>
+
+        <targetForm>Mal</targetForm>
+      </error> nicht ganz gut verständigt habt: <error>
+        <errorType />
+
+        <originalForm>ich</originalForm>
+
+        <targetForm>Ich</targetForm>
+      </error> hoffe, ihr versöhnt euch <palimpsest>bald</palimpsest> miteinander. Auf alle Fälle weißt du schon als Kusine, dass ich <palimpsest>für</palimpsest> meine Ferien immer wieder Pläne mache und dass ich sie aufs Neue überdenke. <error>
+        <errorType />
+
+        <originalForm>ch</originalForm>
+
+        <targetForm>Ich</targetForm>
+      </error> beachsichtige im kommenden Sommer, entweder ins Gebirge oder ans Meer zu fahren und möchte auch gerne wissen, ob du mitkommen darfst. <palimpsest>An zweiter Stelle möchte ich auch deine Meinung erfahren: <error>
+          <errorType />
+
+          <originalForm>was</originalForm>
+
+          <targetForm>Was</targetForm>
+        </error> schlä<palimpsest>gst</palimpsest> du mir vor?</palimpsest> Was würde dir unter den tausenden von Möglichkeiten am besten gefallen? Was die Berge anbelangt, bin ich schon manchmal ins <entity>Allgäu</entity> gefahren, <palimpsest>wobei mich seine</palimpsest> einzigartige <error>
+        <errorType />
+
+        <originalForm>Mischugn</originalForm>
+
+        <targetForm>Mischung</targetForm>
+      </error> aus Natur und Kultur beeindruckt hat. Welchen Voschlag würdest du s<palimpsest>onst u</palimpsest>nterbreiten? Es ist ja bekanntlich schwierig im Internet nachzuschlagen und nach günstigen Angeboten zu forschen: <error>
+        <errorType />
+
+        <originalForm>es</originalForm>
+
+        <targetForm>Es</targetForm>
+      </error> wäre längst besser, wenn wir schon ungefähr etwas vorhätten. Ehrlich gesagt bevorzuge ich die Stimmung und das Rauschen des Meeres: <error>
+        <errorType />
+
+        <originalForm>ich</originalForm>
+
+        <targetForm>Ich</targetForm>
+      </error> finde die Wärme und das reine Wasser faszinierend und erlebe mit meinen <error>
+        <errorType />
+
+        <originalForm>Freudnen</originalForm>
+
+        <targetForm>Freunden</targetForm>
+      </error> auf der Insel <entity>Elba</entity> eine schöne Erfahrung. Solche Badeorte haben außerdem viele Vorteile: <error>
+        <errorType />
+
+        <originalForm>die</originalForm>
+
+        <targetForm>Die</targetForm>
+      </error> salzige Luft tut unseren Lungen bekanntlich gut und der Strand ist für Sportarten wie Volleyball sehr geeignet. <palimpsest>So eine Reise</palimpsest> kann man sich durchschnittlich auch finanzielle <palimpsest>leisten</palimpsest>. Im Allgemeinen bin ich deswegen überzeugt, aber ich warte <palimpsest>hoffnungsvoll</palimpsest> auf deine Antwort. <par />Das war´s einmal, bis demnächst mal wieder! <par /><closing>Herzliche Grüße, <par /> dein <entity>Luca</entity></closing></exercise>
+  </body>
+</kolipsi_document>

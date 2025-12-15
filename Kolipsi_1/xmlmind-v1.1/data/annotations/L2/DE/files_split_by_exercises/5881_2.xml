@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5881</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Hallo <entity>Ermengarda</entity>!</greeting> <par/>Wie geht es dir? Es fehlen nur noch 2 Wochen und dann werden wir endlich zusammen im Urlaub fahren. Ich freue mich schon darauf. <error>
+        <errorType/>
+
+        <originalForm>wir</originalForm>
+
+        <targetForm>Wir</targetForm>
+      </error> müssen aber noch entscheiden o<unreadable/> wir ans Meer fahren oder ob wir auf den <error>
+        <errorType/>
+
+        <originalForm>Bergn</originalForm>
+
+        <targetForm>Bergen</targetForm>
+      </error> unseren Urlaub verbringen werden. Am Meer ist es sicher viel wärmer und wir bräuchten nur kurze Hosen und <error>
+        <errorType/>
+
+        <originalForm>T-shirts</originalForm>
+
+        <targetForm>T-Shirts</targetForm>
+      </error>. Auf den Ber<strikeover>
+        <expansion>g</expansion>
+
+        <expansion>e</expansion>
+      </strikeover>n ist es sehr kalt wir mussten sicher auch Winterjacken mitbringen. Ich glaube, dass wir uns am Meer sicher mehr unterhalten würden da es in den Clubs immer viele Aktivitäten wie Volleyball, Fußball, Tänze, Vorführungen und noch vieles mehr gibt. Am Berg hätten wir nicht sehr viel <unreadable/> und wahrscheinlich würden wir uns langweilen. Ein <sic>ander</sic> Grund warum ich lieber ans Meer fahren würde ist, dass wir hier in Südtirol jeden Tag auf dem Berg fahren könnten, aber am Meer könnten wir nicht jeden Tag fahren da es zu weit weg ist. Ich hoffe auf deine Antwort. <closing>Bis bald.</closing> </exercise>
+  </body>
+</kolipsi_document>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0031</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Sandrine</entity></greeting>. Wie geht es dir? Ich hoffe gut.<par/>Wie war dein Tag? Ich habe mich heute mit <entity>Maria</entity> getroffen und sie hat mir eine unglaubliche Geschichte erzählt. Letzte Woche war sie einkaufen.<par/>Als erstes kaufte sie etwas Obst und Gemüse beim Obsthändler. Alles war wie immer, doch als sie eine Stunde später in einem Supermarkt noch etwas einkaufen wollte, gab es an der Kasse ein Problem. Sie legte wie immer die Lebensmittel, die sie kaufen wollte, aus dem Einkaufswagen auf das Laufband der Kasse, doch als sie bezahlen wollte, blickte die Kassiererin sie wütend an, deutete auf <entity>Marias</entity> Tasche und <palimpsest>unterstellte</palimpsest> ihr stehlen zu wollen. <entity>Maria</entity> hatte in <sic>ihre</sic> Einkaufstasche noch die Einkäufe aus dem Obstladen und nun dachte die Kassiererin, sie würde stehlen. <entity>Maria</entity> war total geschockt und wusste nicht was sie sagen sollte, bis ihr einfiel, dass sie beim Obsthändler ja einen Kassenbon bekommen hatte, mit dem sie beweisen kann, dass sie keinesfalls stehlen wollte.<par/>Hektisch kramte sie in ihrer Handtasche und fand endlich den rettenden Zettel, den sie dann der wütenden Kassiererin zeigte. Letzen Endes glaubte diese <entity>Maria</entity> und entschuldigte sich vielmals. Das war wohl <palimpsest>einer</palimpsest> der erschreckendsten Tage in <entity>Marias</entity> Leben. Unglaublich, wie schnell man wie ein Verbrecher behandelt wird, oder?<par/><palimpsest>Das war es dann auch erstmal.</palimpsest><par/>Ich hoffe du schreibst schnell zurück.<par/><closing>Liebe Grüße</closing>   </exercise>
+
+    
+  </body>
+</kolipsi_document>

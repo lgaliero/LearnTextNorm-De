@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0179</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Lieber <entity><palimpsest>Dominik</palimpsest> Penzek</entity></greeting>,<par />heute ist meiner Freundin <entity>Maria</entity> etwas sehr <error>
+        <errorType />
+
+        <originalForm>groteskes</originalForm>
+
+        <targetForm>Groteskes</targetForm>
+      </error> passiert. Jeden Mittwoch geht sie ihre Besorgungen machen, und da <error>
+        <errorType />
+
+        <originalForm><overwrite>
+            <under>s</under>
+
+            <over>S</over>
+          </overwrite>ie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> im Moment stark auf <sic>diesem</sic> neumodischen Bio-Trip ab<hyphen>-</hyphen>fährt geht sie <error>
+        <errorType />
+
+        <originalForm>stehts</originalForm>
+
+        <targetForm>stets</targetForm>
+      </error> zuerst in den <error>
+        <errorType />
+
+        <originalForm>Bio - <palimpsest>O</palimpsest>bst -</originalForm>
+
+        <targetForm>Bioobst-</targetForm>
+      </error> und Gemüseladen ihres Vertrauens. Heute war es nicht anders. Sie kaufte alles was sie von dort benötigte und bezahlte ordnungsgemäß. Da <error>
+        <errorType />
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> es allerdings eilig hatte <correction>
+        <insertion>verstaute sie ihre Einkäufe nur schnell in ihrer Umhängetasche,</insertion>
+      </correction> verließ <palimpsest>anschlie</palimpsest><correction>
+        <insertion>ßend</insertion>
+      </correction> den Laden zügig und vergaß dabei ihren Rechenbeleg.<par />Sie fuhr normal mit ihrem Besorgungsgang fort und ging in einen Supermarkt, der <palimpsest>die</palimpsest> übrigen Lebensmittel im Sortiment hat die <error>
+        <errorType />
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> benötigte.<par />Als <error>
+        <errorType />
+
+        <originalForm><overwrite>
+            <under>s</under>
+
+            <over>S</over>
+          </overwrite>ie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error><palimpsest> al</palimpsest>lerdings diesen Supermarkt verlassen wollte, wurde <error>
+        <errorType />
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> von der Kassiererin auf die Lebensmittel angesprochen die <error>
+        <errorType />
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> bereits im <error>
+        <errorType />
+
+        <originalForm>Bio Laden</originalForm>
+
+        <targetForm>Bioladen</targetForm>
+      </error> rechtlich erworben hatte. <overwrite>
+        <under>d</under>
+
+        <over>D</over>
+      </overwrite>a <error>
+        <errorType />
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> keine Rechnung vorweisen konnte, wurde <error>
+        <errorType />
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> eine ganze Zeit festgehalten, bis die <error>
+        <errorType />
+
+        <originalForm><palimpsest>M</palimpsest>iesere</originalForm>
+
+        <targetForm>Misere</targetForm>
+      </error> geklärt werden konnte.<par />Ich fand die Reaktion des Supermarktes übertrieben, obwohl <overwrite>
+        <under>sie</under>
+
+        <over>er</over>
+      </overwrite> sich im Recht befand. Was meinst du dazu?<par /><closing>MfG<par />Dein <entity>Felit Plum</entity></closing>     </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Liebe Freundin,</greeting><par />wie geh<palimpsest>t</palimpsest> es dir? Mir geht es gut.<par />Ich habe die <palimpsest>m</palimpsest>öglichen Reiseziele für unseren gemeinsamen Ausflug auf zwei Orte minimiert. <palimpsest>Die</palimpsest> erste Möglichkeit wären die <entity>Alpen</entity> von <entity>Österreich</entity>. Vorteile dafür wären zum Beispiel die vielen <error>
+        <errorType />
+
+        <originalForm>Freizeit Aktivitäten</originalForm>
+
+        <targetForm>Freizeitaktivitäten</targetForm>
+      </error> die dort möglich sind; man kann dort wandern, skifahren und nach einem harten Tag <error>
+        <errorType />
+
+        <originalForm>einenen</originalForm>
+
+        <targetForm>einen</targetForm>
+      </error> gemeinsamen erotischen Abend vor dem Kamin der Skihütte verbringen und dort einmal richtig ins Schwitzen kommen bei den verschiedensten Stellungen. Außerdem ist gerade diese Region bekannt für die Vielzahl der dort <error>
+        <errorType />
+
+        <originalForm>ansäßigen</originalForm>
+
+        <targetForm>ansässigen</targetForm>
+      </error> Swingerclubs, wo man durchaus <error>
+        <errorType />
+
+        <originalForm>auchmal</originalForm>
+
+        <targetForm>auch mal</targetForm>
+      </error> was <overwrite>
+        <under>n</under>
+
+        <over>N</over>
+      </overwrite>eues mit neuen Leuten ausprobieren kann. Nachteile für die <entity>Alpen</entity> sind allerdings <correction>
+        <insertion>z.B.</insertion>
+      </correction> das nur mittelmäßige Wetter und die meist unfreundlichen Einheimischen.<par />Diese Probleme hätte man am Strand der <entity>Dominikanischen <over>R</over>epublik</entity> nicht. Das Wetter dort ist das ganze Jahr über super und die Einheimischen sind aufgrund ihrer enormen Armut immer höflich und zuvorkommend. Außerdem <palimpsest>ist</palimpsest> die Vielzahl an Freizeitmöglichkeiten ebenfalls recht <sic>ansehnlich</sic> und meiner Meinung nach ist d<overwrite>
+        <under>a</under>
+
+        <over>e</over>
+      </overwrite>r gesamte Eindruck der <entity><reduction>
+          <reductionType rType="02 abbreviation" />
+
+          <reducedForm>Dom.Rep.</reducedForm>
+
+          <unfoldedForm>Dominikanischen Republik</unfoldedForm>
+        </reduction></entity> besser weshalb ich für Sommer, Sonne, Strand und Meer tendiere.<par />Ich bitte um deine Meinung, damit wir uns noch recht-zeitig einigen können.<par /><closing>MfG<par />Dein Freund</closing>     </exercise>
+  </body>
+</kolipsi_document>

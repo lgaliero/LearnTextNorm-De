@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I19_FER05MAT</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><correction>
+        <deletion>Liebe Anna<par/>Wie geht's dir? Ich <correction>
+            <deletion>werde</deletion>
+
+            <insertion>mochte</insertion>
+          </correction> dir <correction>
+            <insertion>die</insertion>
+          </correction> Ereignisse <correction>
+            <insertion>erzahlen</insertion>
+          </correction>, die <correction>
+            <deletion>zu</deletion>
+          </correction> Maria passiert <correction>
+            <deletion>sagen</deletion>
+
+            <insertion>sind</insertion>
+          </correction>. Letzte Woche ging meine Freundin Maria <correction>
+            <deletion>ging</deletion>
+          </correction> in die Abteilung für Obst und Gemüse im Supermarket und kaufte Lebensmittel wer bezahlt das Geld Abteilung, nur wegen seiner Ablenkung Sie vergessen haben, Ihre Kassezette von der Theke nehmen. Sie wöllte eine Supper mit Obst und Gemüse gemacht</deletion>
+      </correction><par/><greeting>Liebe Anna</greeting><par/>Wie geht's dir?<par/>Ich habe viele Sachen zu erzählen aber der wichtigsten ist was Maria passiert ist. Am Montag ist Maria in eine <error>
+        <errorType/>
+
+        <originalForm>Gemuseladen</originalForm>
+
+        <targetForm>Gemüseladen</targetForm>
+      </error> gegangen. Sie wollte eine Suppe mit Obst und Gemüse gemacht.<par/><error>
+        <errorType/>
+
+        <originalForm>Tätsachlich</originalForm>
+
+        <targetForm>Tatsächlich</targetForm>
+      </error> ist sie auch in eine Gemüseladen gegangen. Dort begann die Probleme weil Maria an die Kasse die Kassezeit verloren hat. Also hat sie sofort die Polizei gerufen und ich hatte den Kassenzettel verloren. Somit sind wir mit der Polizei in die Obsthändlerei gegangen und so kannte die Verkaufen beweisen, dass es nicht so war. Sie erzählt was passiert ist. So hat die Polizei ihr die Möglichkeit gegeben. Nur für eine Kassezeit verloren musste sie in eine Quästur gehen.<par/><closing>Ich schreibe dir früh.<par/>Viele Grüße</closing><par/>Matteo</exercise>
+
+    
+  </body>
+</kolipsi_II_document>

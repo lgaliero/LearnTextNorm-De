@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0037</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Jürgen</entity></greeting>, gestern ist mit etwas <error>
+        <errorType/>
+
+        <originalForm>komisches</originalForm>
+
+        <targetForm>Komisches</targetForm>
+      </error> passiert. Ich war gestern morgen im Einkaufszentrum i<overwrite>
+        <under>n</under>
+
+        <over>m</over>
+      </overwrite> Stadtzentrum. Ich habe zuerst den Obstladen aufgesucht, da ich <correction>
+        <deletion>noch</deletion>
+      </correction> keine Gurken, Bananen und Äpfel mehr hatte. Danach war ich noch im <error>
+        <errorType/>
+
+        <originalForm>Discount-Supermarkt</originalForm>
+
+        <targetForm>Discountsupermarkt</targetForm>
+      </error> um die restlichen Einkäufe zu erledigen. An der Kasse fiel der Kassiererin meine Tüte aus dem Obstladen auf, die ich noch über der Schulter hängen hatte. Sie sprach mich an und sagte, ich solle einmal die Tasche vorzeigen, oder einen Kassenbon, anhand dessen sie überprüfen könne, dass ich nichts gestohlen habe.<par/>Darauf zeigte <correction>
+        <deletion>sie</deletion>
+      </correction> ich ihr den Kassenbon aus dem Obstladen. Die Kassiererin sagte, dass alles in Ordnung sei und ich gehen könnte. Die Frau entschuldigte sich schließlich noch einmal für ihre anfängliche Grobheit und für den Verdacht, der sich ja dann doch als falsch herausgestellt <correction>
+        <deletion><unreadable/></deletion>
+      </correction> habe.<par/><closing>Bis bald, deine <entity>Maria</entity></closing>     </exercise>
+
+    
+  </body>
+</kolipsi_document>

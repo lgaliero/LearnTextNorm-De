@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I10_MEN13SAR</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo Riccardo,</greeting><par />wie geht es dir<correction>
+        <deletion>?</deletion>
+
+        <insertion>und deine Bein, geht es besser?</insertion>
+      </correction> Was hast du heute gemacht? Ich <correction>
+        <deletion><unreadable /></deletion>
+      </correction> war letzte Woche bei Maria, <correction>
+        <insertion>meine Freundin</insertion>
+      </correction> in eine <error>
+        <errorType />
+
+        <originalForm>bar</originalForm>
+
+        <targetForm>Bar</targetForm>
+      </error> gegangen. Sie hat mir erzählt dass sie ist in einem <correction>
+        <deletion>Supermarkt <unreadable /></deletion>
+      </correction> Obst- und Gemüseladen einkaufen gegangen. Sie hat viele Sache <correction>
+        <deletion>gekauft</deletion>
+      </correction> genommen und dann ist sie bei<correction>
+        <deletion>m</deletion>
+      </correction> die Kasse gegangen<correction>
+        <deletion>,</deletion>
+      </correction> zu beza<correction>
+        <insertion>h</insertion>
+      </correction>len. Aber sie vergisst der Kassenzettel auf den Tisch von die Kasse, aber sie wusste nicht, und geht weg. Eine <correction>
+        <insertion>Stunde</insertion>
+      </correction> später <correction>
+        <deletion>sie <unreadable /> war</deletion>
+
+        <insertion>war sie</insertion>
+      </correction> im Supermarkt, kauft auch da viele Sache wie <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Milch, Brot... Aber wenn sie geht zu dem Kasse zu bezahlen, die <correction>
+        <deletion><unreadable /></deletion>
+      </correction><error>
+        <errorType />
+
+        <originalForm>verkäuferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> sieht dass in ihre Tasche hat <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Obst und Gemüse und <error>
+        <errorType />
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> denkt dass Maria hat diese Sache nicht bezahlt<correction>
+        <deletion>, und</deletion>
+
+        <insertion>.</insertion>
+      </correction> Maria könnte nicht der Kassenzettel von Obst- und Gemüseladen anschauen weil hat es an den andere Kasse <correction>
+        <deletion>verlassen</deletion>
+
+        <insertion>vergessen</insertion>
+      </correction>. Sie hat diese Sache <correction>
+        <deletion>in dem</deletion>
+      </correction> in Supermarkt verlassen, sonst <correction>
+        <deletion>Maria</deletion>
+      </correction> muss<correction>
+        <deletion>t</deletion>
+      </correction> sie bei der Polizei gehen.<par />Ist eine komische Situation aber ist sehr wichtig nicht <correction>
+        <deletion>die Sache ve</deletion>
+      </correction> etwas verlassen. Ich warte deine <error>
+        <errorType />
+
+        <originalForm>antworte</originalForm>
+
+        <targetForm>Antworte</targetForm>
+      </error>! <error>
+        <errorType />
+
+        <originalForm>Guate</originalForm>
+
+        <targetForm>Gute</targetForm>
+      </error> Besserung, viel Glück!<par />Cecilia</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo Paul,</greeting><par /><error>
+        <errorType />
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> bin Cecilia, und <correction>
+        <deletion>habe</deletion>
+      </correction> bin ich 18 Jahre alt. Ich habe deine Situation kennengelernt. Ich denke dass <correction>
+        <deletion><unreadable /></deletion>
+      </correction> zum Schluss, du musst <error>
+        <errorType />
+
+        <originalForm>nich</originalForm>
+
+        <targetForm>nicht</targetForm>
+      </error> antworte<correction>
+        <deletion>t</deletion>
+
+        <insertion>n</insertion>
+      </correction> an diese Nachrichten an Handy und so diese Personen lassen dir an. D<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>a</insertion>
+      </correction>nach wenn <error>
+        <errorType />
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> schreiben dir auch in Internet, musst du dir auslöschen. So suchen dir <correction>
+        <deletion>nicht</deletion>
+      </correction> nimmer.<par />Cecilia</exercise>
+  </body>
+</kolipsi_II_document>

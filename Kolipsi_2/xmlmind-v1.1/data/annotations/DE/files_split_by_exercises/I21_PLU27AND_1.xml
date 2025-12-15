@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I21_PLU27AND</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Lieber Matteo,</greeting><par/><correction>
+        <insertion>letzte Woche</insertion>
+      </correction> meine Freundin Maria hatte <correction>
+        <deletion>g</deletion>
+
+        <insertion>G</insertion>
+      </correction>emüse und Obst <correction>
+        <deletion>im</deletion>
+      </correction> beim Obsthändler gekaufen. Sie vergaß den Kassenzettel bei<correction>
+        <deletion><unreadable/></deletion>
+      </correction> ihm. Später gang sie im <foreign_word foreign_language="Italiano">Supermarket</foreign_word>. Sie kaufte<correction>
+        <deletion>te</deletion>
+      </correction> andere <error>
+        <errorType/>
+
+        <originalForm>sachen</originalForm>
+
+        <targetForm>Sachen</targetForm>
+      </error> aber bei den Kasse <correction>
+        <insertion>dachte</insertion>
+      </correction> die Kassiererin <correction>
+        <deletion>dachte</deletion>
+      </correction> dass sie hatte die Gemüse und Obst gestohlen. <correction>
+        <deletion>Sie telefoniert mich und ich</deletion>
+      </correction> Sie sagte dass sie vergaß der Kassanzettel bei<correction>
+        <deletion><unreadable/></deletion>
+      </correction> <correction>
+        <deletion>o</deletion>
+
+        <insertion>O</insertion>
+      </correction>bsthändler und die Kassierte glaubt ihr.<par/><closing><error>
+          <errorType/>
+
+          <originalForm>Tschuss</originalForm>
+
+          <targetForm>Tschüss</targetForm>
+        </error>,</closing> Andrea</exercise>
+
+    
+  </body>
+</kolipsi_II_document>

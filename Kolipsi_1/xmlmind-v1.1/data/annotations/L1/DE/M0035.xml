@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0035</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Julian</entity></greeting>,<par />ich hoffe, dir geht es gut! Mir geht es sehr gut, hier ist nichts <error>
+        <errorType />
+
+        <originalForm>besonderes</originalForm>
+
+        <targetForm>Besonderes</targetForm>
+      </error> passiert. Dafür ist meiner Freundin <entity>Maria</entity> <error>
+        <errorType />
+
+        <originalForm>letzens</originalForm>
+
+        <targetForm>letztens</targetForm>
+      </error> etwas Unglaubliches passiert. Sie war erst im Obst- und Gemüseladen, wo sie etwas Gemüse, <palimpsest></palimpsest> unter anderem zwei Zucchinis, eingekauft hat. Unglücklicherweise hat sie dann den Kassenzettel dort vergessen. Danach war sie im Supermarkt einkaufen. Doch als sie dann an der Kasse ihre Milch, ihr Mehl und <palimpsest></palimpsest> einige andere Kleinigkeiten bezahlen wollte, <palimpsest></palimpsest> machte die Kassiererin sie auf die beiden Zucchinis, <palimpsest></palimpsest> welche aus ihrer Tasche ragten, aufmerksam und fragte, ob sie die etwa nicht bezahlen wolle. <entity>Maria</entity> verneinte dies natürlich und hat ihr erklärt, dass sie das Gemüse bereits vorher im Obst- und Gemüseladen gekauft hatte. Leider hatte sie den Kassen<palimpsest>zettel</palimpsest> nicht, weshalb ihr die <palimpsest>Kassiererin</palimpsest> nicht geglaubt hat. Sie rief sogar den Supermarktleiter dazu, der fast eine Anzeige gegen <entity>Maria</entity> erhoben hätte. Dann hat sich zum Glück alles aufgeklärt, der Verkäufer im Obst- und Gemüseladen hat dem Leiter bestätigt, dass sie das Gemüse bei ihm gekauft hat.<par />Wahnsinn, was wegen einem vergessenen Kassenzettel alles passieren kann.<par />Ich freue mich <palimpsest></palimpsest> schon auf deine nächste Mail.<par /><closing>Liebe Grüße,<par /><entity><palimpsest>Sarah</palimpsest></entity></closing>    </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Sarah</entity></greeting>,<par />wie geht es dir? Im letzten Brief hast du eine Erkältung erwähnt, ich hoffe, die ist nun vorbei.<par />Mir geht es gut, ich freue mich schon auf die Ferien! Wir wollen ja zusammen wegfahren, aber wir müssen uns endlich überlegen, wo wir hinfahren wollen.<par />Wir haben zwei Möglichkeiten, einen Urlaub am Meer oder einen in den Bergen. Am Meer ist es natürlich viel wärmer, da scheint meistens die Sonne. In den Bergen hingegen ist es wesentlich kälter, oft wolkig und kann auch mal regnen. <palimpsest>Am Meer</palimpsest> Urlaub zu machen ist <palimpsest></palimpsest> entspannter, man verbringt die meiste Zeit damit, am Strand zu liegen und das Wetter zu genießen. Ein Urlaub in den Bergen beinhaltet mehr sportliche Aktivitäten, wie Wandern oder Bergsteigen, und ist daher anstrengender.<par />Ich habe schon beide Arten des Urlaubs erlebt, und mir hat der am Meer wesentlich besser gefallen. Nach dem Urlaub in den Bergen war ich kaputt und nicht das geringste bisschen erholt, ich hätte noch einen zweiten Urlaub gebraucht um mich von dem ersten zu erholen. Der Urlaub am Strand war allerdings sehr entspannend, den habe ich sehr genossen.<par />Von daher würde ich einen Urlaub am Meer vorziehen, aber ich bin gespannt auf deine Meinung dazu!<par /><closing>Liebe Grüße,<par /><entity>Gabi</entity></closing>    </exercise>
+  </body>
+</kolipsi_document>

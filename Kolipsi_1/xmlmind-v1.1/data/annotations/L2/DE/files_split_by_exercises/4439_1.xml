@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>4439</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve">
+ <par/><greeting>Hallo <entity>Peter</entity>,</greeting> <par/>wie geht es dir? <palimpsest>M</palimpsest>ir gut... Heute will ich über etwas <error>
+        <errorType/>
+
+        <originalForm>neu</originalForm>
+
+        <targetForm>Neu</targetForm>
+      </error> sprechen; ich will dir erzählen, was <palimpsest>letzte W</palimpsest>oche in einem Supermarkt passiert ist. Ich weiß es nicht,<palimpsest> a</palimpsest>ber die Personen, die in Geschäften arbeiten, sind nicht mehr nett.<par/>Letzte Woche ist meine Freundin <entity>Maria</entity> in einem Super<hyphen>-</hyphen>markt gegangen; die Frau, die an der Kasse arbeitete, hat sie sich geärgert ohne sichere G<palimpsest>r</palimpsest>unde.<par/>Die Frau hat gedacht, dass <entity>Maria</entity> nicht alles bezahlen wollte: <entity>Maria</entity> hatte etwas <palimpsest>a</palimpsest>ndere schon in ihrem Sack, weil ist sie bevor <palimpsest>in</palimpsest> <palimpsest>ein</palimpsest>en Obst- und Gemüse<hyphen>-</hyphen>laden gegangen. Sie hat<palimpsest> </palimpsest> Äpfel, Zitronen, Bananen,... gekauft aber sie hat den Kassenzettel vergessen. Wenn sie in den Supermarkt gegangen ist, hat die Frau gedacht, dass <entity>Maria</entity> Äpfel.... nicht bezahlen wollte... <palimpsest>Maria</palimpsest> hatte nicht den Kassenzettel und sie konnte nicht schauen der Frau, dass sie schon bezahlt hatte... Es war eine <error>
+        <errorType/>
+
+        <originalForm>Katastrofe</originalForm>
+
+        <targetForm>Katastrophe</targetForm>
+      </error>!<par/>Ist das möglich? Was denkst du <entity>Peter</entity>?<par/><closing>Viele Grüße!</closing> </exercise>
+
+    
+  </body>
+</kolipsi_document>

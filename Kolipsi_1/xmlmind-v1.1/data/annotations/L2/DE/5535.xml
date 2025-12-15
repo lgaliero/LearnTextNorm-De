@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5535</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Carol</entity>,</greeting> wie geht´s? <par />Ich muss <correction>
+        <deletion>dich</deletion>
+
+        <insertion>dir</insertion>
+      </correction> eine <error>
+        <errorType />
+
+        <originalForm>Komische</originalForm>
+
+        <targetForm>komische</targetForm>
+      </error> Geschichte erzählen! Gestern habe ich <entity>Maria</entity>, eine Freundin von mir, getroffen. Die letzte Woche war sie einkaufen aber <correction>
+        <deletion>sie</deletion>
+      </correction> hat einige Probleme gehabt. <entity>Maria</entity> muss eine Fete für sein Kind organisieren und so ist sie zuerst in eine<overwrite>
+        <over>n</over>
+
+        <under>m</under>
+      </overwrite> Obst- und Gemüseladen einkaufen <correction>
+        <insertion>gegangen</insertion>
+      </correction> und später war sie im Supermarkt aber dort hatte sie ein Problem an der Kasse. <entity>Maria</entity> hat das Brot nicht <strikeover>
+        <expansion>b</expansion>
+
+        <expansion>p</expansion>
+      </strikeover>ezahlt und die Frau an der Kasse hat gesagt, dass sie eine <sic>Diebesinn</sic> war, dass sie kein Geld um das Brot zu kaufen <correction>
+        <insertion>hat</insertion>
+      </correction> aber <correction>
+        <deletion>hat vor</deletion>
+      </correction> die <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Frau <correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>hat</insertion>
+      </correction> das Brot nicht bezahlt. Sie hat den Direktor des Supermarkt gerufen um <entity>Maria</entity> zu strafen aber er hat diese schwierige Situation verstanden und hat alles <error>
+        <errorType />
+
+        <originalForm>bezaht</originalForm>
+
+        <targetForm>bezahlt</targetForm>
+      </error>. W</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo <entity><error>
+            <errorType />
+
+            <originalForm>anna</originalForm>
+
+            <targetForm>Anna</targetForm>
+          </error></entity>,</greeting> wie geht es dir? <par />Also für unseren Urlaub haben wir <error>
+        <errorType />
+
+        <originalForm>wzei</originalForm>
+
+        <targetForm>zwei</targetForm>
+      </error> großen Möglichkeiten. <error>
+        <errorType />
+
+        <originalForm>wir</originalForm>
+
+        <targetForm>Wir</targetForm>
+      </error> können entweder in den Bergen oder am Meer fahren. Wenn wir in den Bergen fahren wollen, können wir ( <correction>
+        <deletion>in</deletion>
+      </correction> ) nach <entity>Frankreich</entity> oder nach <entity>Peru</entity> fahren ( <correction>
+        <deletion>uot</deletion>
+      </correction> ) oder nach <entity>Jamaica</entity>, wenn du das Meer willst <par />In <entity>Peru</entity> befinden sich wunderschöne Berge, ein<overwrite>
+        <over>e</over>
+
+        <under><unreadable /></under>
+      </overwrite> andere Kultur mit <error>
+        <errorType />
+
+        <originalForm>offentlichen</originalForm>
+
+        <targetForm>öffentlichen</targetForm>
+      </error> Leute und Natur. In <entity>Jamaica</entity> finden wir eines der <correction>
+        <deletion>(besten)</deletion>
+      </correction> schönste Meere der Welt. Die Leute <correction>
+        <insertion>sind</insertion>
+
+        <deletion>ist</deletion>
+      </correction> fantastisch <correction>
+        <deletion><unreadable /></deletion>
+      </correction> aber dort ist sehr sehr warm. In <entity>Peru</entity> können wir lange <sic>Spazierengangen</sic> machen, die Natur schonen. In <entity>Jamaica</entity> können wir viel baden, am Sonne liegen und <error>
+        <errorType />
+
+        <originalForm>volleyball</originalForm>
+
+        <targetForm>Volleyball</targetForm>
+      </error> spielen. Ich mag die Sonne mehr, die warme Luft und das warme Wasser der <entity><error>
+          <errorType />
+
+          <originalForm>Caribic</originalForm>
+
+          <targetForm>Karibik</targetForm>
+        </error></entity>, ich finde das fantastisch aber auch du solltest entscheiden. Ich denke, dass wir <error>
+        <errorType />
+
+        <originalForm>die selbe</originalForm>
+
+        <targetForm>dieselbe</targetForm>
+      </error> Idee haben aber vielleicht willst du etwas verschiedenes <sic>Spaziereungen</sic> am Berg oder relax am Meer. <par /><closing>Liebe Grüße <par /> <entity>Matteo</entity></closing></exercise>
+  </body>
+</kolipsi_document>

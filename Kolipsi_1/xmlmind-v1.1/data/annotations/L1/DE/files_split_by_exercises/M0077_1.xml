@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0077</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Peter</entity></greeting>,<par/>du kennst doch noch <entity>Maria</entity>, oder? Sie hat mir vorgestern eine lustige Geschichte erzählt. Die Geschichte hande<over>l</over>t von einem eigentlich völlig belanglosem Einkauf, jedoch mit einigen Schwierigkeiten.<par/>Also <entity>Maria</entity> ist, wie bereits schon erwähnt, vorgestern einkaufen gewesen. Ihr erstes Ziel war der Obstladen wo sie sich mit fruchtigen Köstlichkeiten eindeckte.<par/>Sie bezahlte und verlie<correction>
+        <deletion>ss</deletion>
+      </correction><correction>
+        <insertion>ß</insertion>
+      </correction> den Laden, vergaß jedoch zu ihrem Unglück den Kassenbon.<par/>Nachdem <correction>
+        <deletion>sie</deletion>
+      </correction> <entity>Maria</entity> den Laden verlassen hatte<correction>
+        <deletion>,</deletion>
+      </correction> machte sie sich auf den Weg nach Hause, um <correction>
+        <deletion>die</deletion>
+      </correction> den Einkauf zu Hause zu verstauen.<par/>Auf dem Weg zu ihr nach Hause traf sie jedoch zwei alte Schulfreundinnen. Du wirst dir vielleicht denken können wie lange die frisch <correction>
+        <deletion>V </deletion>
+      </correction><correction>
+        <insertion>v</insertion>
+      </correction>ereinten Mädels über Gott und die <correction>
+        <deletion>Wel</deletion>
+      </correction> Welt geredet haben.<par/>Da <entity>Maria</entity> aber unbedingt noch einige wichtige Einkaufe i<overwrite>
+        <under>n</under>
+
+        <over>m</over>
+      </overwrite> Supermarkt zu erledigen hatte, welcher auf Grund des zu langen Gespräches schon alsbald schließen würde, machte sich <entity>Maria</entity> auf <correction>
+        <deletion>direkten</deletion>
+      </correction> den direkten Weg. <correction>
+        <deletion>zum</deletion>
+      </correction><par/>Die <correction>
+        <deletion>Eink</deletion>
+      </correction> frischen Obstsorten selbstverständlich noch in ihrem Korb.<par/>Glücklich darüber, dass sie es noch geschafft hatte rechtzeitig zum Supermarkt zu kommen, füllte sie ihren Einkaufswagen mit einigen Belohnungen für sich selbst. So weit so gut. Doch als sie ihre Waren bezahlt hatte und sich gerade auf den Weg ins traute Heim machen wollte, ermahnte die bereits leicht gereizte Verkäuferin sie. Sie solle gefälligst <correction>
+        <deletion>n</deletion>
+      </correction> ihr Obst auch bezahlen. Wenn sie dies nicht täte, würde die Verkäuferin die Polizei verständigen.<par/><entity>Maria</entity>, völlig perplex durch diese Beschuldigung, <correction>
+        <deletion>suchte</deletion>
+      </correction> <correction>
+        <insertion>suchte</insertion>
+      </correction> verzweifelt nach dem Kassenbon. Ohne Erfolg.<par/>Doch genau in dieser Schrecksekunde <correction>
+        <deletion>kam</deletion>
+      </correction> <correction>
+        <insertion>trat</insertion>
+      </correction> die Besitzerin des Obstladens ins Geschehen und versicherte der erzürnten Kassiererin <entity>Marias</entity> Unschuld.<par/><entity>Maria</entity> hat sich so sehr über die Rettung gefreut, dass sie die Obstladenbesitzerin auf einen Kaffee <sic>einludt</sic>.<par/><par/>Ich weiß ja nicht was du von der ganzen Sache denkst, <entity>Peter</entity>. Aber ich kann nur sagen <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> <entity>Maria</entity> verdammtes Glück hatte. Schließlich gibt es nicht mehr so viele übersichtliche Kleinläden.<par/><closing>Ich wünsche dir noch ein schönes Wochenende,<par/><par/><error>
+          <errorType/>
+
+          <originalForm>mfg</originalForm>
+
+          <targetForm>MfG</targetForm>
+        </error><entity> Dennis</entity></closing>                      </exercise>
+
+    
+  </body>
+</kolipsi_document>

@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Jessica</transcriber>
+
+  <author_id>6329</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting><error>
+          <errorType />
+
+          <originalForm>Liber</originalForm>
+
+          <targetForm>Lieber</targetForm>
+        </error> <entity>Luca</entity>!</greeting><par /><error>
+        <errorType />
+
+        <originalForm>Host</originalForm>
+
+        <targetForm>Hast</targetForm>
+      </error> du gehören was hat gemacht deine Freundin im einem Supermarkt.<par /><correction>
+        <deletion><unreadable /></deletion>
+      </correction> Ein <error>
+        <errorType />
+
+        <originalForm>morgen</originalForm>
+
+        <targetForm>Morgen</targetForm>
+      </error> <correction>
+        <deletion><unreadable /></deletion>
+      </correction> <entity>Maria</entity> gehts zu <error>
+        <errorType />
+
+        <originalForm>Caufen</originalForm>
+
+        <targetForm>kaufen</targetForm>
+      </error> das <error>
+        <errorType />
+
+        <originalForm>obst</originalForm>
+
+        <targetForm>Obst</targetForm>
+      </error> in eine <error>
+        <errorType />
+
+        <originalForm>obst-</originalForm>
+
+        <targetForm>Obst-</targetForm>
+      </error> und Gemüsela<overwrite>
+        <under><unreadable /></under>
+
+        <over>d</over>
+      </overwrite>en. Sie <error>
+        <errorType />
+
+        <originalForm>caufen</originalForm>
+
+        <targetForm>kaufen</targetForm>
+      </error> <correction>
+        <deletion><unreadable /></deletion>
+      </correction> 2 <error>
+        <errorType />
+
+        <originalForm>Kg</originalForm>
+
+        <targetForm>kg</targetForm>
+      </error> <sic>Apfel</sic>, 2 <error>
+        <errorType />
+
+        <originalForm>Kg</originalForm>
+
+        <targetForm>kg</targetForm>
+      </error> Zitronen und 2 <error>
+        <errorType />
+
+        <originalForm>Kg</originalForm>
+
+        <targetForm>kg</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>Kartofel</originalForm>
+
+        <targetForm>Kartoffel</targetForm>
+      </error>. <error>
+        <errorType />
+
+        <originalForm>Dan</originalForm>
+
+        <targetForm>Dann</targetForm>
+      </error> sie <error>
+        <errorType />
+
+        <originalForm>Gehen</originalForm>
+
+        <targetForm>gehen</targetForm>
+      </error> in eine <error>
+        <errorType />
+
+        <originalForm>Becherei</originalForm>
+
+        <targetForm>Bäckerei</targetForm>
+      </error> für <error>
+        <errorType />
+
+        <originalForm>caufen</originalForm>
+
+        <targetForm>kaufen</targetForm>
+      </error> das <error>
+        <errorType />
+
+        <originalForm>brot</originalForm>
+
+        <targetForm>Brot</targetForm>
+      </error>. In <error>
+        <errorType />
+
+        <originalForm>Becherei</originalForm>
+
+        <targetForm>Bäckerei</targetForm>
+      </error> sie <error>
+        <errorType />
+
+        <originalForm>fergesen</originalForm>
+
+        <targetForm>vergessen</targetForm>
+      </error> das <error>
+        <errorType />
+
+        <originalForm>Kassenzetten</originalForm>
+
+        <targetForm>Kassenzettel</targetForm>
+      </error>. <error>
+        <errorType />
+
+        <originalForm>Dan</originalForm>
+
+        <targetForm>Dann</targetForm>
+      </error> <correction>
+        <deletion>sie</deletion>
+      </correction> dass <error>
+        <errorType />
+
+        <originalForm>si</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>caufen</originalForm>
+
+        <targetForm>kaufen</targetForm>
+      </error> das <error>
+        <errorType />
+
+        <originalForm>brot</originalForm>
+
+        <targetForm>Brot</targetForm>
+      </error> sie gehen <correction>
+        <deletion>zu caufen</deletion>
+      </correction> im einem <overwrite>
+        <over>S</over>
+
+        <under>s</under>
+      </overwrite>upermarkt. In <error>
+        <errorType />
+
+        <originalForm>dise</originalForm>
+
+        <targetForm>diese</targetForm>
+      </error> <overwrite>
+        <over>S</over>
+
+        <under>s</under>
+      </overwrite>upermarkt sie geh<overwrite>
+        <over>t</over>
+
+        <under><unreadable /></under>
+      </overwrite>s <error>
+        <errorType />
+
+        <originalForm>fur</originalForm>
+
+        <targetForm>für</targetForm>
+      </error> <correction>
+        <deletion><unreadable /></deletion>
+      </correction> erste <error>
+        <errorType />
+
+        <originalForm>mal</originalForm>
+
+        <targetForm>Mal</targetForm>
+      </error>. Sie <error>
+        <errorType />
+
+        <originalForm>weises</originalForm>
+
+        <targetForm>weiß es</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>nich</originalForm>
+
+        <targetForm>nicht</targetForm>
+      </error> <correction>
+        <deletion><unreadable /></deletion>
+      </correction> wo sind <correction>
+        <deletion>der</deletion>
+      </correction> die <error>
+        <errorType />
+
+        <originalForm>produkte</originalForm>
+
+        <targetForm>Produkte</targetForm>
+      </error>. Sie mach<overwrite>
+        <over>te</over>
+
+        <under>en</under>
+      </overwrite> eine <error>
+        <errorType />
+
+        <originalForm>runde</originalForm>
+
+        <targetForm>Runde</targetForm>
+      </error> und <correction>
+        <deletion><unreadable /></deletion>
+      </correction> seh<overwrite>
+        <over>te</over>
+
+        <under>en</under>
+      </overwrite> das <error>
+        <errorType />
+
+        <originalForm>milch</originalForm>
+
+        <targetForm>Milch</targetForm>
+      </error>, <error>
+        <errorType />
+
+        <originalForm>Waser</originalForm>
+
+        <targetForm>Wasser</targetForm>
+      </error> und das <error>
+        <errorType />
+
+        <originalForm>mehl</originalForm>
+
+        <targetForm>Mehl</targetForm>
+      </error>. Sie mach<overwrite>
+        <over>te</over>
+
+        <under>en</under>
+      </overwrite> eine <sic>neure</sic> <error>
+        <errorType />
+
+        <originalForm>runde</originalForm>
+
+        <targetForm>Runde</targetForm>
+      </error> und seh<overwrite>
+        <over>te</over>
+
+        <under>en</under>
+      </overwrite> das Speck, der Wein, das Nudel und d<overwrite>
+        <over>er</over>
+
+        <under><unreadable /></under>
+      </overwrite> Reis. Sie <error>
+        <errorType />
+
+        <originalForm>controliren</originalForm>
+
+        <targetForm>kontrollieren</targetForm>
+      </error> <correction>
+        <deletion><unreadable /></deletion>
+      </correction> seine <error>
+        <errorType />
+
+        <originalForm>tasche</originalForm>
+
+        <targetForm>Tasche</targetForm>
+      </error> und seht sie dass hat nicht das <error>
+        <errorType />
+
+        <originalForm>Kassen<hyphen>-</hyphen>zette</originalForm>
+
+        <targetForm>Kasselzettel</targetForm>
+      </error> für das <error>
+        <errorType />
+
+        <originalForm>brot</originalForm>
+
+        <targetForm>Brot</targetForm>
+      </error>. Sie gehts zu <error>
+        <errorType />
+
+        <originalForm>bezalen</originalForm>
+
+        <targetForm>bezahlen</targetForm>
+      </error>. Die Kassiererin <error>
+        <errorType />
+
+        <originalForm>Kontrolieren</originalForm>
+
+        <targetForm>kontrollieren</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>ales</originalForm>
+
+        <targetForm>alles</targetForm>
+      </error> und sie seh<overwrite>
+        <over>t</over>
+
+        <under>e</under>
+      </overwrite>n das <error>
+        <errorType />
+
+        <originalForm>brot</originalForm>
+
+        <targetForm>Brot</targetForm>
+      </error>. <entity>Maria</entity> <error>
+        <errorType />
+
+        <originalForm>widerholen</originalForm>
+
+        <targetForm>wiederholen</targetForm>
+      </error> da<overwrite>
+        <over>s</over>
+
+        <under><unreadable /></under>
+      </overwrite>s sie hat <error>
+        <errorType />
+
+        <originalForm>bezalen</originalForm>
+
+        <targetForm>bezahlen</targetForm>
+      </error> das <error>
+        <errorType />
+
+        <originalForm>brot</originalForm>
+
+        <targetForm>Brot</targetForm>
+      </error> aber sie hat <error>
+        <errorType />
+
+        <originalForm>fergesen</originalForm>
+
+        <targetForm>vergessen</targetForm>
+      </error> das <error>
+        <errorType />
+
+        <originalForm>kassenzetten</originalForm>
+
+        <targetForm>Kassenzettel</targetForm>
+      </error>.</exercise>
+
+    <exercise number="2" xml:space="preserve">Ich lieber das <error>
+        <errorType />
+
+        <originalForm>mehr</originalForm>
+
+        <targetForm>Meer</targetForm>
+      </error>. Ich habe <error>
+        <errorType />
+
+        <originalForm>gewont</originalForm>
+
+        <targetForm>gewohnt</targetForm>
+      </error> in das <error>
+        <errorType />
+
+        <originalForm>mehr</originalForm>
+
+        <targetForm>Meer</targetForm>
+      </error>, und ist wunderbar. In das <error>
+        <errorType />
+
+        <originalForm>mehr</originalForm>
+
+        <targetForm>Meer</targetForm>
+      </error> ist eine <correction>
+        <deletion><unreadable /></deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>fantastisce</originalForm>
+
+        <targetForm>fantastische</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>clima</originalForm>
+
+        <targetForm>Klima</targetForm>
+      </error>, ein <error>
+        <errorType />
+
+        <originalForm>fantastishe</originalForm>
+
+        <targetForm>fantastische</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>waser</originalForm>
+
+        <targetForm>Wasser</targetForm>
+      </error>, und ein <correction>
+        <deletion><unreadable /></deletion>
+      </correction> wunderbar <error>
+        <errorType />
+
+        <originalForm>sohne</originalForm>
+
+        <targetForm>Sonne</targetForm>
+      </error>. In das <error>
+        <errorType />
+
+        <originalForm>mehr</originalForm>
+
+        <targetForm>Meer</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>sin</originalForm>
+
+        <targetForm>sind</targetForm>
+      </error> <overwrite>
+        <over>v</over>
+
+        <under>f</under>
+      </overwrite>iele <sic>blaume</sic> und <error>
+        <errorType />
+
+        <originalForm>vile</originalForm>
+
+        <targetForm>viele</targetForm>
+      </error> <correction>
+        <deletion><unreadable /></deletion>
+      </correction> grüne <error>
+        <errorType />
+
+        <originalForm>Beume</originalForm>
+
+        <targetForm>Bäume</targetForm>
+      </error>. In das <error>
+        <errorType />
+
+        <originalForm>mehr</originalForm>
+
+        <targetForm>Meer</targetForm>
+      </error> du <error>
+        <errorType />
+
+        <originalForm>cans</originalForm>
+
+        <targetForm>kanns</targetForm>
+      </error> <correction>
+        <deletion><unreadable /></deletion>
+      </correction> erholen. Eine Stadt am <error>
+        <errorType />
+
+        <originalForm>mehr</originalForm>
+
+        <targetForm>Meer</targetForm>
+      </error> für mich ist <correction>
+        <deletion>s</deletion>
+      </correction> sehr schön wie eine <error>
+        <errorType />
+
+        <originalForm>Paradis</originalForm>
+
+        <targetForm>Paradies</targetForm>
+      </error>. <correction>
+        <deletion><unreadable /></deletion>
+      </correction> In <error>
+        <errorType />
+
+        <originalForm>dise</originalForm>
+
+        <targetForm>diese</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>stadt</originalForm>
+
+        <targetForm>Stadt</targetForm>
+      </error> sind <correction>
+        <deletion>f</deletion>
+      </correction> viele <error>
+        <errorType />
+
+        <originalForm>personen</originalForm>
+
+        <targetForm>Personen</targetForm>
+      </error>, zu <correction>
+        <deletion><unreadable /></deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>spaziren</originalForm>
+
+        <targetForm>spazieren</targetForm>
+      </error> gehen. In dise <error>
+        <errorType />
+
+        <originalForm>stadt</originalForm>
+
+        <targetForm>Stadt</targetForm>
+      </error> sind <correction>
+        <deletion>f</deletion>
+      </correction> viele <error>
+        <errorType />
+
+        <originalForm>bar</originalForm>
+
+        <targetForm>Bar</targetForm>
+      </error> und du <error>
+        <errorType />
+
+        <originalForm>canst</originalForm>
+
+        <targetForm>kannst</targetForm>
+      </error> <correction>
+        <deletion>g</deletion>
+      </correction> trinken viele <error>
+        <errorType />
+
+        <originalForm>kotail</originalForm>
+
+        <targetForm>Cocktail</targetForm>
+      </error>.</exercise>
+  </body>
+</kolipsi_document>

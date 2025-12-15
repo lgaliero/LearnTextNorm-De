@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0223</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hey <entity>Ma<palimpsest>ria</palimpsest>nne</entity>,</greeting><par/><error>
+        <errorType/>
+
+        <originalForm>Heute</originalForm>
+
+        <targetForm>heute</targetForm>
+      </error> habe ich was erlebt beim Einkaufen!<par/>Zuerst war ich beim Obsthändler und habe dort Obst für heute Abend gekauft.<par/>Da war dann auch <correction>
+        <deletion><unreadable/></deletion>
+      </correction> eine andere Frau, die ebenfalls Obst gekauft hat. Anschließend hat sie, genau wie ich, an der Kasse bezahlt und ist weiter zum Supermarkt an der Ecke gegangen. Das weiß ich so genau, weil ich ja auch noch dahin <correction>
+        <deletion>musst</deletion>
+      </correction> musste um <correction>
+        <deletion>noch</deletion>
+      </correction> noc<over>h</over> ein paar Steaks für das Fest heute Abend einzukaufen. Die Frau, die <entity>Maria</entity> hieß, nahm die Gurken, die sie im Obstladen an der Ecke gekauft hatte, in ihrer Hängetasche mit; somit waren sie von allen einsichtig.<par/>Als <entity>Maria</entity> sich dann im Supermarkt noch einige Dinge gekauft <correction>
+        <deletion>hatte</deletion>
+      </correction> hatte, wollte sie an der Kasse bezahlen.<par/>Die Verkäuferin dachte jedoch <correction>
+        <deletion>d</deletion>
+      </correction> <entity>Maria</entity> hätte die Gurken im Supermarkt <gap>_</gap>. Da sie den Kassenbon im Obstgeschäft liegen gelassen hatte, konnte sie nicht nachweisen, dass sie sie dort gekauft hatte.<par/>Darum musste <entity>Maria</entity> 500 € als Strafe zahlen.<par/><closing><error>
+          <errorType/>
+
+          <originalForm>Naja</originalForm>
+
+          <targetForm>Na ja</targetForm>
+        </error>, man sieht sich!<par/>Hauste rein,<par/><entity>Maria</entity></closing>       </exercise>
+
+    
+  </body>
+</kolipsi_document>

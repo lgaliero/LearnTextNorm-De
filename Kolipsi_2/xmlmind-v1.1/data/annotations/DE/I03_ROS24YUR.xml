@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I03_ROS24YUR</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe <correction>
+          <deletion>Maria</deletion>
+
+          <insertion>Jana</insertion>
+        </correction>,</greeting><par /><correction>
+        <deletion>gestern</deletion>
+
+        <insertion>letzte woche</insertion>
+      </correction> habe ich <correction>
+        <deletion><unreadable /></deletion>
+      </correction> eine<correction>
+        <deletion><unreadable /></deletion>
+      </correction> komische Situation gesehen. Unsere Freundin Maria hat Probleme im Supermarkt gehabt. Sie ist erst beim Obsthändler gegangen und dort hat sie ein bisschen Obst und Gemüse gekauft. Als sie an der <error>
+        <errorType />
+
+        <originalForm>kasse</originalForm>
+
+        <targetForm>Kasse</targetForm>
+      </error> gegangen ist hat sie gezahlt. Nachdem ist sie weggegangen aber sie vergässte den Kassenzettel auf die Kassa. Später ist sie im Supermarkt<correction>
+        <deletion><unreadable /></deletion>
+      </correction> gegangen, mit die Tasche die sie zum Obsthändler schon <correction>
+        <deletion><unreadable /></deletion>
+      </correction> hätte. Sie hat dort eingekauft und <correction>
+        <deletion>wenn</deletion>
+      </correction> als sie an der Kasse <correction>
+        <deletion>gegangen</deletion>
+      </correction> ist, denkte eine Frau <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> sie Obst und <error>
+        <errorType />
+
+        <originalForm>Gemuse</originalForm>
+
+        <targetForm>Gemüse</targetForm>
+      </error> geklaut habe. Sie sagte dass sie früher diese Sache beim Obsthändler gekauft hatte. <correction>
+        <deletion>Wenn</deletion>
+      </correction> Als diese Frau hörte diese Wörtern sagte sie zum Maria dass sie der Kassenzettel zeigen sollte. Sie <correction>
+        <deletion>S</deletion>
+      </correction> sucht es in die Tasche aber sie f<correction>
+        <deletion>e</deletion>
+
+        <insertion>i</insertion>
+      </correction>nde es nicht. Die Frau <error>
+        <errorType />
+
+        <originalForm>ergärt</originalForm>
+
+        <targetForm>ärgert</targetForm>
+      </error> sich. Maria sagte dass sie vielleicht der Kassenzettel beim <error>
+        <errorType />
+
+        <originalForm>Obsthandle</originalForm>
+
+        <targetForm>Obsthändler</targetForm>
+      </error> vergessen hat. Sie rufte den Direktor an, und er sagte dass sie dort der Kassenzettel vergessen hat. <correction>
+        <deletion>Als Maria <unreadable /> hörte</deletion>
+      </correction><par /><closing>Liebe Gruße</closing><par />Yuni</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Liebe Paul,</greeting><par />ich habe deine <error>
+        <errorType />
+
+        <originalForm>personliche</originalForm>
+
+        <targetForm>persönliche</targetForm>
+      </error> Briefe in der Zeitung "Junge Woche" <correction>
+        <deletion><unreadable /></deletion>
+      </correction> gelesen und sie hat mir sehr viel gefallen weil mi<correction>
+        <deletion>ch</deletion>
+
+        <insertion>r</insertion>
+      </correction> diese Thema gefällt. Ich denke <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> virtuellen Freundschaften nicht eine böse Sache sind weil so <correction>
+        <deletion>können wir</deletion>
+      </correction> die Menschen sehr viele neue Personen kennenlernen können. Ich denke aber dass diese virtuellen Freundschaft nicht nur virtuell bleiben sollen aber sie müssen mehr real werden. Ich selbe<correction>
+        <deletion>e</deletion>
+
+        <insertion>r</insertion>
+      </correction> chatte sehr viel während der Tage aber ich sehe diese Personen jeden Tag in der Schule. Ich denke auch dass <error>
+        <errorType />
+
+        <originalForm>chatten</originalForm>
+
+        <targetForm>Chatten</targetForm>
+      </error> gut werden kann für diese Persone die weit weg leben und dass sie nicht alle Tage sehen können aber doch <correction>
+        <deletion><unreadable /></deletion>
+      </correction> eine Relation haben wollen. Ich denke dass deine Situation ein bisschen problematisch ist weil du diese Personen nicht kennst und auf diesem Grund wurde ich dich raten nicht zu alle zu antworten aber nur an<correction>
+        <deletion>d</deletion>
+      </correction> diese Personen die du <correction>
+        <deletion><unreadable /></deletion>
+      </correction> sehr gut kennst.<par /><closing>Liebe Gruße</closing><par />Yuni</exercise>
+  </body>
+</kolipsi_II_document>

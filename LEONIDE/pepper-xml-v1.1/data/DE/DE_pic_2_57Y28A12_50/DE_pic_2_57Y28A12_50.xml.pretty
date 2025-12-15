@@ -1,0 +1,78 @@
+<body>
+ <page page_number="1" transcanno_page_id="888">
+  <paragraph class="medium-paragraph" tagcode="1611761503144">
+   <div>
+    2 Kinder gehen in einen Land, wo viele Baum sind
+   </div>
+   <div>
+    und
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1525555070138" tran_word_deletion_target="_#_">
+     ein
+    </tran_word_deletion_id8>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1525555078044" tran_word_deletion_target="_#_">
+     <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1525555103156">
+      *
+     </tran_unreadable_id17>
+    </tran_word_deletion_id8>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="jemand" tagcode="1525555086328">
+     Jemand
+    </orth_error_id12>
+    macht
+    <tran_emphasis_id11 class="medium-tran_emphasis_id11" tagcode="1526045831464">
+     <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611761485994" tran_capitalisation_target="eeee" tran_capitalisation_type="01 completely capitalised">
+      EEEE
+     </tran_capitalisation_id85>
+    </tran_emphasis_id11>
+    <tran_emphasis_id11 class="medium-tran_emphasis_id11" tagcode="1526045835248">
+     <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611761477653" tran_capitalisation_target="aaa" tran_capitalisation_type="01 completely capitalised">
+      AAA
+     </tran_capitalisation_id85>
+    </tran_emphasis_id11>
+    <tran_emphasis_id11 class="medium-tran_emphasis_id11" tagcode="1526045839296">
+     <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611761494734" tran_capitalisation_target="aaa" tran_capitalisation_type="01 completely capitalised">
+      AAA
+     </tran_capitalisation_id85>
+    </tran_emphasis_id11>
+    <tran_emphasis_id11 class="medium-tran_emphasis_id11" tagcode="1526045851246">
+     <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611761503143" tran_capitalisation_target="eee" tran_capitalisation_type="01 completely capitalised">
+      EEE
+     </tran_capitalisation_id85>
+    </tran_emphasis_id11>
+   </div>
+   <div>
+    Die 2 Kinder nehmen eine
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1525555095082" tran_word_deletion_target="_#_">
+     <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1525555109082">
+      *
+     </tran_unreadable_id17>
+    </tran_word_deletion_id8>
+    Taschenlampe und sehen
+   </div>
+   <div>
+    was passiert ist, sie gehen in eine Grotte. Da war ihr
+   </div>
+   <div>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1527370498606">
+     Lehrer
+    </tran_word_insertion_id9>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1525555122614" tran_word_deletion_target="_#_">
+     Opa
+    </tran_word_deletion_id8>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1525555150712" tran_correction_original="das*">
+     das
+    </tran_word_correction_id25>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1525555136514" tran_word_deletion_target="_#_">
+     viel
+    </tran_word_deletion_id8>
+    will sehen was machen die 2 Kinder.
+   </div>
+   <div>
+    Es war ein
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1525555164276" tran_word_deletion_target="_#_">
+     Angsprobe
+    </tran_word_deletion_id8>
+    Mutprobe.
+   </div>
+  </paragraph>
+ </page>
+</body>

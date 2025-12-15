@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0180</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Lieber <entity>Hans Peter Wurst</entity></greeting>,<par />letzte Woche war meine Freun<overwrite>
+        <under><unreadable /></under>
+
+        <over>d</over>
+      </overwrite>in einkaufen und hat mir <palimpsest>eine</palimpsest> tolle Geschichte erzählt. Zuerst war sie beim Obsthändler um Lebensmittel für das Wochenende <palimpsest>zu kau</palimpsest>fen, weil ich zu Besuch kommen wollte. Sie hatte mir versprochen ein <error>
+        <errorType />
+
+        <originalForm>drei Gänge-Menü</originalForm>
+
+        <targetForm>Drei-Gänge-Menü</targetForm>
+      </error> ver<hyphen>-</hyphen>sprochen. Anschließend bezahlte sie die Lebensmittel und <sic>führ</sic> noch in den Supermarkt um die restlichen Sachen, <palimpsest>die</palimpsest> auf <sic>den</sic> Rezept <palimpsest>stehen</palimpsest>, zu besorgen. Alle Lebensmittel hat si<overwrite>
+        <under><unreadable /></under>
+
+        <over>e</over>
+      </overwrite> in einen Tragebeutel gepackt. Im <palimpsest>Supermarkt</palimpsest> angekommen <palimpsest>holte</palimpsest> sie alle ihre Sachen und ging mit dem Einkaufswagen zur Kasse. Als sie anschließend bezahlen wollte, dachte die Verkäuferin an der Kas<overwrite>
+        <under><unreadable /></under>
+
+        <over>s</over>
+      </overwrite>e vollen <error>
+        <errorType />
+
+        <originalForm>ernstes</originalForm>
+
+        <targetForm>Ernstes</targetForm>
+      </error>, dass <entity>Maria</entity> die Sachen klauen wollte, obwohl sie die Quittung dabei hatte. Die haben heutzutage wirklich kein Vertrauen mehr in ihre Kunden. <entity>Maria</entity> sieht ja auch nicht aus wie eine Verbrecherin. Unglaublich. Findest du das auch so krass wie ich? <overwrite>
+        <under>s</under>
+
+        <over>D</over>
+      </overwrite>as ist dir doch auch sch<overwrite>
+        <under><unreadable /></under>
+
+        <over>o</over>
+      </overwrite>n mal passiert oder? Sehen uns ja morgen.<par /><closing>Liebe Grüße<par /><entity>Käse</entity></closing>    </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hi <entity><overwrite>
+            <under><unreadable /></under>
+
+            <over>K</over>
+          </overwrite>laus</entity></greeting>,<par />alles klar bei dir? Nochmal zu der Frage mit dem Urlaub. Also meiner Meinung nach wäre <palimpsest>der Strand</palimpsest> eine <correction>
+        <deletion>vie</deletion>
+      </correction> viel bessere Wahl, weil es dort viel wärmer <palimpsest>ist</palimpsest> und man einfach eine schönere Umgebung hat. Ich <palimpsest>pe</palimpsest>rsönlich stehe auch nicht auf Berge. Und es könnte dort viel öfters <error>
+        <errorType />
+
+        <originalForm>Regnen</originalForm>
+
+        <targetForm>regnen</targetForm>
+      </error> und man hat keine <palimpsest>Möglichkeit</palimpsest> zum Baden und sich schön in den Liegestuhl zu legen. Die Cocktails und das Hotel mit dem Sand ist für mich eine größere Verlockung als in den Bergen. <palimpsest>Zudem</palimpsest> finde ich das Essen im Hotel <error>
+        <errorType />
+
+        <originalForm>bzw</originalForm>
+
+        <targetForm>bzw.</targetForm>
+      </error> am Strand immer großartig. Einfach <error>
+        <errorType />
+
+        <originalForm>himmlich</originalForm>
+
+        <targetForm>himmlisch</targetForm>
+      </error> <correction>
+        <deletion>d</deletion>
+      </correction> am Strand, mit Bade<hyphen>-</hyphen>hose dort zu liegen. Am Berg also <correction>
+        <deletion><unreadable /></deletion>
+      </correction> in der Natur kann man <correction>
+        <deletion>nu</deletion>
+      </correction> fast nur wandern. Dort hat man auch keine <correction>
+        <deletion>Party</deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>Parties</originalForm>
+
+        <targetForm>Partys</targetForm>
+      </error> wie am Strand. Also ich weiß ja <error>
+        <errorType />
+
+        <originalForm>nich</originalForm>
+
+        <targetForm>nicht</targetForm>
+      </error> wie du das siehst, aber ich bevorzuge den Strand. Aber ich denke egal wo wir hinfahren, der Urlaub wird richtig schön. Ich freue mich schon sehr.<par /><closing>Hau rein. Bis denne<par />Dein <entity>Dieter</entity></closing>       </exercise>
+  </body>
+</kolipsi_document>

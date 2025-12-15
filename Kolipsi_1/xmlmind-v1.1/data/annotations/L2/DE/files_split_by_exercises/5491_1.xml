@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5491</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve">
+      <par/><greeting>Lieber <entity>Massimo</entity>,</greeting> <par/><palimpsest>gestern</palimpsest> war <entity>Maria</entity> einkaufen, <error>
+        <errorType/>
+
+        <originalForm>den</originalForm>
+
+        <targetForm>denn</targetForm>
+      </error> sie musste für ihre zwei Brüder kochen. <entity>Maria</entity> nahm das Geld und ihre Tasche und ging zum Obst- und Gemüsehändler, der sich im Zentrum der Stadt befindet und kaufte alles was sie brauchte ein. Sie kaufte <error>
+        <errorType/>
+
+        <originalForm>Salzt</originalForm>
+
+        <targetForm>Salz</targetForm>
+      </error>, Tomaten, Bananen, Äpfel und sogar Orangen, die ihren Brüder sehr schmecken. Mit einer vollen Tasche ging sie alles bezahlen und ging froh aus dem Leden. <entity>Maria</entity> ging nicht zum ersten Mal einkaufen, doch sie vergaß den Kass<overwrite>
+        <under>a</under>
+
+        <over>en</over>
+      </overwrite>zettel und die Frau des Ladens auch. <entity>Maria</entity> ging weiter und erinnerte sich, dass sie noch einige Dinge kaufen musste und ging i<strikeover>
+        <expansion>m</expansion>
+
+        <expansion>ns</expansion>
+      </strikeover> Supermarkt mit ihrer vollen Tasche. Sie kaufte zwei Reinigungsmittel für das Bad, ein Liter Wein, eine Packung Mehl, Eier, Brot und zwei Dosen Erbsen. Mit all diesen Dingen ging sie zur Kasse und bezahlte, doch die <error>
+        <errorType/>
+
+        <originalForm>Kassierin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> sah dass <correction>
+        <insertion>sich</insertion>
+      </correction> in ihrer Tasche Gemüse und Obst befand und dachte dass sie diese Nahrungsmittel gestohlen hatte. Die Frau regte sich auf, wollte die Polizei rufen, <entity>Maria</entity> versuchte die Frau daran zu hindern, doch es war nicht so leicht wie sie dachte. Zum Glück befand sich der Obst- und Gemüseladen neben dem Supermarkt und so lief sich ins andere Geschäft um den vergessenen Kass<strikeover>
+        <expansion>e</expansion>
+
+        <expansion>z</expansion>
+      </strikeover>nzettel zu holen und es der Frau ins andere Geschäft zu <correction>
+        <deletion>zeigen</deletion>
+
+        <insertion>bringen</insertion>
+      </correction>. Die Frau glaubte ihr endlich und ließ sie mit ihren großen Taschen nach Hause gehen um ihre zwei Brüder zu füttern.<par/>Ende gut alles gut.</exercise>
+
+    
+  </body>
+</kolipsi_document>

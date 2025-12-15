@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>3816</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve">
+ <par /><greeting>Hallo <entity>Elisabeth</entity>!</greeting> <par />Gestern ist meiner Cousine <entity>Maria</entity> im Supermarkt etwas <error>
+        <errorType />
+
+        <originalForm>seltsames</originalForm>
+
+        <targetForm>Seltsames</targetForm>
+      </error> passiert: Sie wollte ihre Freunde <entity>Max</entity> und <entity>Stefanie</entity> zum <error>
+        <errorType />
+
+        <originalForm>essen</originalForm>
+
+        <targetForm>Essen</targetForm>
+      </error> einladen, und benötigte zum Kochen noch Obst, Gemüse und einige andere Lebensmittel. Also ging sie gegen 13 Uhr zum Obsthändler um die Ecke, <correction>
+        <insertion>um</insertion>
+      </correction> frischen Salat und einige Äpfel zu besorgen. Sie bezahlte die Ware und ging aus dem Geschäft, allerdings ohne dabei an den Kassenzettel zu denken!<par />Später im Supermarkt ergatterte sie dann noch die letzten zwei Liter Milch und wollte damit zur Kasse gehen um zu zahlen. Die Kassiererin sagte den Preis und <entity>Maria</entity> wollte zahlen, doch als sie ihre Tasche öffnete <error>
+        <errorType />
+
+        <originalForm>viel</originalForm>
+
+        <targetForm>fiel</targetForm>
+      </error> ihr dabei der Salat vom Obsthändler heraus! Die Kassiererin wollte <entity>Maria</entity> nicht glauben, dass der Salat schon bezahlt sei, und somit kam es dazu dass die Polizei kam. Nach drei Stunden <strikeover>
+        <expansion>D</expansion>
+
+        <expansion>d</expansion>
+      </strikeover>iskussion, wurde endlich die Obsthändlerin um eine Zeugenaussage gefragt, die das <error>
+        <errorType />
+
+        <originalForm>Missverständniss</originalForm>
+
+        <targetForm>Missverständnis</targetForm>
+      </error> dann bestätigen konnte. Duch den Zwischenfall kam <entity>Maria</entity> dann auch noch zu spät <error>
+        <errorType />
+
+        <originalForm>Heim</originalForm>
+
+        <targetForm>heim</targetForm>
+      </error>, und begann somit auch zu spät zu kochen. Gegessen wurde erst um 21 Uhr, doch dafür war das Essen <error>
+        <errorType />
+
+        <originalForm>um so</originalForm>
+
+        <targetForm>umso</targetForm>
+      </error> besser und <entity>Maria</entity> verbrachte mit ihren Freuden letztendlich doch noch einen schönen Abend!<par />Das nächste Mal wird sie den Kassenzettel garantiert mitnehmen.<par /><closing>Tschüs <entity>Elisabeth</entity>, bis bald <correction>
+          <deletion><unreadable /></deletion>
+        </correction> <entity>Martha</entity> </closing> </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo <entity>Deborah</entity>!</greeting> <par />Ich wollte dich mit diesem Brief um deine Meinung zwecks unsere<strikeover>
+        <expansion>s</expansion>
+
+        <expansion>m</expansion>
+      </strikeover> diesjährigen Sommerurlaub fragen...</exercise>
+  </body>
+</kolipsi_document>

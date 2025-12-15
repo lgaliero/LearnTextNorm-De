@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>N7047</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve">
+      <par/><greeting>Liebe <entity>Giulia</entity>,</greeting> <par/>wie geht´s? Mir geht´s gut. Hast du Neuheit? <correction>
+        <deletion><unreadable/></deletion>
+      </correction> Ich bin froh! <palimpsest>unreadable</palimpsest> Wir haben noch wenige Tage vom Schule. Hast du <palimpsest>unreadable</palimpsest> ein Ziel <correction>
+        <insertion>vom unseren Urlaub</insertion>
+      </correction> gedacht? Willst du in den Bergen oder am Meer fahren? <palimpsest>unreadable</palimpsest> Mir <palimpsest>unreadable</palimpsest> gefällt <palimpsest>unreadable</palimpsest> dem Berg nicht so viel. Im <palimpsest>unreadable</palimpsest> Berg <strikeover>
+        <expansion>b</expansion>
+
+        <expansion>g</expansion>
+      </strikeover>ibt es <palimpsest/> aber reine <palimpsest>unreadable</palimpsest> Luft. Am Meer können wir uns bräunen, <palimpsest>unreadable</palimpsest> auf den Strand gehen und schwimmen.<par/>Aber ... <palimpsest>unreadable</palimpsest> Im Berg <palimpsest>unreadable</palimpsest> können wir Gange machen. <sic>Letzte</sic> Jahr bin ich a<ambiguous>
+        <alternative>m</alternative>
+
+        <alternative>n</alternative>
+      </ambiguous> Meer gefahren. <palimpsest>unreadable</palimpsest> Es war sehr lustig. Ich habe <palimpsest>unreadable</palimpsest> neue Leute <palimpsest>unreadable</palimpsest> kennengelernt Du bist <palimpsest>unreadable</palimpsest> sehr schüchtern und so kannst du dieses Problem überwinden. Im Berg haben wir auch nicht so viel zu machen. Oder?<par/>Wir können uns treffen und persönlich sprechen. <sic>Wann</sic> du <sic>dem</sic> Brief <palimpsest>unreadable</palimpsest> liest, ruf mich an. <closing>Bis bald ... <entity>Giada</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

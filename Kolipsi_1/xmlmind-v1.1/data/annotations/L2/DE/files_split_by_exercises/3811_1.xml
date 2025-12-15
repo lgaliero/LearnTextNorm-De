@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>3811</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><par/><greeting>Hallo <entity>Vale</entity>,</greeting> <par/>ich muss dir etwas <error>
+        <errorType/>
+
+        <originalForm>her</originalForm>
+
+        <targetForm>sehr</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>komisches</originalForm>
+
+        <targetForm>Komisches</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>erzehlen</originalForm>
+
+        <targetForm>erzählen</targetForm>
+      </error>, <palimpsest><error>
+          <errorType/>
+
+          <originalForm>letze</originalForm>
+
+          <targetForm>letzte</targetForm>
+        </error> <error>
+          <errorType/>
+
+          <originalForm>woche</originalForm>
+
+          <targetForm>Woche</targetForm>
+        </error></palimpsest> ist meine Freundin <entity>Maria</entity> einkaufen gewesen. Zuerst kaufte sie in einem Obst- und Gemüseladen ein, eine Stunde später ging sie im Supermarkt. Aber dort gab es ein Problem an der Kasse. Die Verkäuferin glaubte dass sie nicht alles bezahlt hatte, weil <entity>Maria</entity> ist im Supermarkt mit der Obst und die Gemüse, die schon im Obst- und <error>
+        <errorType/>
+
+        <originalForm>Gemuseladen</originalForm>
+
+        <targetForm>Gemüseladen</targetForm>
+      </error> gekauft hat, <error>
+        <errorType/>
+
+        <originalForm>hinaingegangen</originalForm>
+
+        <targetForm>hineingegangen</targetForm>
+      </error>. Deshalb glaubte die Verkäuferin dass <entity>Maria</entity> etwas gestohlen. hat. So musste <entity>Maria</entity> sich ein paar <error>
+        <errorType/>
+
+        <originalForm>minuten</originalForm>
+
+        <targetForm>Minuten</targetForm>
+      </error> mehr enthalten und an die Verkäuferin die <error>
+        <errorType/>
+
+        <originalForm>Situazion</originalForm>
+
+        <targetForm>Situation</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>erklähren</originalForm>
+
+        <targetForm>erklären</targetForm>
+      </error>. Sie zeigte der Verkäuferin das <error>
+        <errorType/>
+
+        <originalForm>zettel</originalForm>
+
+        <targetForm>Zettel</targetForm>
+      </error> von Ob<strikeover>
+        <expansion>s</expansion>
+
+        <expansion>t</expansion>
+      </strikeover>t- und <error>
+        <errorType/>
+
+        <originalForm>Gemüse<strikeover>
+            <expansion> G</expansion>
+
+            <expansion>g</expansion>
+          </strikeover>eschäft</originalForm>
+
+        <targetForm>Gemüsegeschäft</targetForm>
+      </error> und so entschuldigt sie sich <error>
+        <errorType/>
+
+        <originalForm>di</originalForm>
+
+        <targetForm>die</targetForm>
+      </error> Verkäuferin und <entity>Maria</entity> konnte ruhig <overwrite>
+        <under><unreadable/></under>
+
+        <over>n</over>
+      </overwrite><strikeover>
+        <expansion>a</expansion>
+
+        <expansion>e</expansion>
+      </strikeover>ch Hause gehen. Ist es <error>
+        <errorType/>
+
+        <originalForm>dier</originalForm>
+
+        <targetForm>dir</targetForm>
+      </error> nie etwas <correction>
+        <insertion>so</insertion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>komisches</originalForm>
+
+        <targetForm>Komisches</targetForm>
+      </error> passiert <entity><palimpsest>V</palimpsest>ale</entity>? Wenn <error>
+        <errorType/>
+
+        <originalForm>dass</originalForm>
+
+        <targetForm>das</targetForm>
+      </error> mir <entity>Maria</entity> <error>
+        <errorType/>
+
+        <originalForm>Erzählt</originalForm>
+
+        <targetForm>erzählt</targetForm>
+      </error> hat habe ich sehr viel gelacht.<par/><error>
+        <errorType/>
+
+        <originalForm>Tshuss</originalForm>
+
+        <targetForm>Tschüss</targetForm>
+      </error><closing><entity>Tanja</entity> </closing> </exercise>
+
+    
+  </body>
+</kolipsi_document>

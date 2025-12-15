@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>N7035</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve">
+      <par/><greeting>Hallo!</greeting> <par/>Meine Freundin <entity>Maria</entity> war <error>
+        <errorType/>
+
+        <originalForm>letze</originalForm>
+
+        <targetForm>letzte</targetForm>
+      </error> Woche einkaufen. <error>
+        <errorType/>
+
+        <originalForm>Zuert</originalForm>
+
+        <targetForm>Zuerst</targetForm>
+      </error> hat sie Obst- und Gemüseladen kaufte sie <strikeover>
+        <expansion>e</expansion>
+
+        <expansion>a</expansion>
+      </strikeover>in. <error>
+        <errorType/>
+
+        <originalForm>Wasser-Melone</originalForm>
+
+        <targetForm>Wassermelone</targetForm>
+      </error>, <error>
+        <errorType/>
+
+        <originalForm>Tommaten</originalForm>
+
+        <targetForm>Tomaten</targetForm>
+      </error>, Paprika, <error>
+        <errorType/>
+
+        <originalForm>Banamen</originalForm>
+
+        <targetForm>Bananen</targetForm>
+      </error> hat sie <strikeover>
+        <expansion>e</expansion>
+
+        <expansion>a</expansion>
+      </strikeover>inkaufen. <error>
+        <errorType/>
+
+        <originalForm>Nacher</originalForm>
+
+        <targetForm>Nachher</targetForm>
+      </error> hat sie bei der Kasse bezahlt. Die Verkäuferin hat gefragt <entity>Maria</entity> Wen <correction>
+        <deletion>ist</deletion>
+
+        <insertion>sind</insertion>
+      </correction> alles ok, <error>
+        <errorType/>
+
+        <originalForm>weren</originalForm>
+
+        <targetForm>während</targetForm>
+      </error> die Kassie<overwrite>
+        <under><unreadable/></under>
+
+        <over>r</over>
+      </overwrite>in die Geld ins Kassa <error>
+        <errorType/>
+
+        <originalForm>geschtehlt</originalForm>
+
+        <targetForm>gestehlt</targetForm>
+      </error>. <entity>Maria</entity> geht zu <overwrite>
+        <under><unreadable/></under>
+
+        <over>H</over>
+      </overwrite>ause. bei <error>
+        <errorType/>
+
+        <originalForm>Ihre</originalForm>
+
+        <targetForm>ihre</targetForm>
+      </error> Mutter. Sie ist nicht gut diese Tagen. Hat <error>
+        <errorType/>
+
+        <originalForm>einbischen</originalForm>
+
+        <targetForm>ein bisschen</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>Gripp</originalForm>
+
+        <targetForm>Grippe</targetForm>
+      </error>. <entity>Maria</entity> muss etwas <sic>kühen</sic> und <error>
+        <errorType/>
+
+        <originalForm>dan</originalForm>
+
+        <targetForm>dann</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>vieder</originalForm>
+
+        <targetForm>wieder</targetForm>
+      </error> <correction>
+        <deletion>b</deletion>
+      </correction>nach Supermarkt <error>
+        <errorType/>
+
+        <originalForm>milch</originalForm>
+
+        <targetForm>Milch</targetForm>
+      </error>, <error>
+        <errorType/>
+
+        <originalForm>brot</originalForm>
+
+        <targetForm>Brot</targetForm>
+      </error>, <error>
+        <errorType/>
+
+        <originalForm>butter</originalForm>
+
+        <targetForm>Butter</targetForm>
+      </error>, <error>
+        <errorType/>
+
+        <originalForm>nudeln</originalForm>
+
+        <targetForm>Nudeln</targetForm>
+      </error>, einkaufen für Seine <overwrite>
+        <under><unreadable/></under>
+
+        <over>F</over>
+      </overwrite>amilie. Wan sie an der Kasse möchte bezahlen die Kasserin der Kassenzettel frage aber <entity>Maria</entity> hat der bei <error>
+        <errorType/>
+
+        <originalForm>Obst Kasse</originalForm>
+
+        <targetForm>Obstkasse</targetForm>
+      </error> vergessen. Die <error>
+        <errorType/>
+
+        <originalForm>Kasserin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> beschuldigen <entity>Maria</entity>. <entity>Maria</entity> <error>
+        <errorType/>
+
+        <originalForm>erschroken</originalForm>
+
+        <targetForm>erschrocken</targetForm>
+      </error> <correction>
+        <deletion>in</deletion>
+      </correction> <correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>z</insertion>
+      </correction>urück nach die erste Kasse komme.<par/><direct_speech>- Ja! Ist hier Ihre Kassenzettel.</direct_speech> <par/><direct_speech>- Oh! <error>
+          <errorType/>
+
+          <originalForm>Dankefilmals</originalForm>
+
+          <targetForm>Danke vielmals</targetForm>
+        </error> .</direct_speech> <par/><direct_speech>Jetzt soll ich nach zweite Kasse gehen.</direct_speech><par/><direct_speech>Bitte. Nächte <error>
+          <errorType/>
+
+          <originalForm>mal</originalForm>
+
+          <targetForm>Mal</targetForm>
+        </error> <error>
+          <errorType/>
+
+          <originalForm>mussen</originalForm>
+
+          <targetForm>müssen</targetForm>
+        </error> Sie <correction>
+          <deletion>mehr</deletion>
+        </correction> aufpassen.</direct_speech> </exercise>
+
+    
+  </body>
+</kolipsi_document>

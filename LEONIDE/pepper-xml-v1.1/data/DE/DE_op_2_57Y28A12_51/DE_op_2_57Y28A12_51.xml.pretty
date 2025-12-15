@@ -1,0 +1,53 @@
+<body>
+ <page page_number="1" transcanno_page_id="903">
+  <paragraph class="medium-paragraph" tagcode="1527269692564">
+   <div>
+    Ich denke
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="dass" tagcode="1527269692563">
+     das
+    </orth_error_id12>
+    ist wichtig Buch lernen, mit deutsche
+   </div>
+   <div>
+    Freunde spielen, in Internet surfen, in Schule
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1527180187538" tran_word_deletion_target="_#_">
+     konze
+    </tran_word_deletion_id8>
+   </div>
+   <div>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="konzentrieren" tagcode="1527180376019">
+     konzetrieren
+    </orth_error_id12>
+    , singen.
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1527269692565">
+   <div>
+    Meine Strategien sind im Team spielen und in der
+   </div>
+   <div>
+    Schule konzentrieren
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1527269692566">
+   <div>
+    Ich denke dass alle die Strategien
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1527180432946" tran_correction_original="funktionirt">
+     funktioniert
+    </tran_word_correction_id25>
+    gut, weil
+   </div>
+   <div>
+    so
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1527180177347" tran_word_deletion_target="_#_">
+     wir
+    </tran_word_deletion_id8>
+    können wir gut
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Deutsch" tagcode="1527180402432">
+     deutsch
+    </orth_error_id12>
+    sprechen.
+   </div>
+  </paragraph>
+ </page>
+</body>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I08_KMI29SIL</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Liebe <error>
+          <errorType/>
+
+          <originalForm>Sanra</originalForm>
+
+          <targetForm>Sandra</targetForm>
+        </error>,</greeting><par/>ich will dich erzählen was ist Maria passiert. <correction>
+        <deletion>unreadable</deletion>
+      </correction> Letzte Woche war ich mit meine Freundin Maria einkaufen.<par/>Am <error>
+        <errorType/>
+
+        <originalForm>amfang</originalForm>
+
+        <targetForm>Anfang</targetForm>
+      </error> sind wir <correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>nach</insertion>
+      </correction> einem Obst- und <error>
+        <errorType/>
+
+        <originalForm>Gemüselanden</originalForm>
+
+        <targetForm>Gemüseladen</targetForm>
+      </error> gegangen, wir haben viele <error>
+        <errorType/>
+
+        <originalForm>sachen</originalForm>
+
+        <targetForm>Sachen</targetForm>
+      </error> gekauft. An die <correction>
+        <deletion>c</deletion>
+
+        <insertion>K</insertion>
+      </correction>asse hat Maria <correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>der Kassenzettel</insertion>
+      </correction> auf dem Tisch vergessen, und dann sind wi<correction>
+        <deletion>n</deletion>
+
+        <insertion>r</insertion>
+      </correction> in <error>
+        <errorType/>
+
+        <originalForm>stadt</originalForm>
+
+        <targetForm>Stadt</targetForm>
+      </error> gegangen.<par/>Eine Stunde später sind wir, mit unsere Taschen mit <error>
+        <errorType/>
+
+        <originalForm>Obst-</originalForm>
+
+        <targetForm>Obst</targetForm>
+      </error> und Gemüse, im einen Supermarkt gegangen. Wir haben einkaufen und dann sind wir an die Kasse gegangen. Die <error>
+        <errorType/>
+
+        <originalForm>Verkauferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> <correction>
+        <deletion><unreadable/></deletion>
+      </correction>, hat die <error>
+        <errorType/>
+
+        <originalForm>Obst-</originalForm>
+
+        <targetForm>Obst</targetForm>
+      </error> und Gemüse in die Tasche von Maria gesehen, und hat ih<correction>
+        <deletion>n</deletion>
+
+        <insertion>r</insertion>
+      </correction> gefragen ob sie eine Kassenzett<correction>
+        <deletion>le</deletion>
+
+        <insertion>el</insertion>
+      </correction> hat für diese <error>
+        <errorType/>
+
+        <originalForm>sachen</originalForm>
+
+        <targetForm>Sachen</targetForm>
+      </error>.<par/>Maria war versorgt weil sie kann nicht de<correction>
+        <deletion>n</deletion>
+
+        <insertion>r</insertion>
+      </correction> Kasenzettel finden, so telefoniert an <error>
+        <errorType/>
+
+        <originalForm>Obstgeschaft</originalForm>
+
+        <targetForm>Obstgeschäft</targetForm>
+      </error> und <error>
+        <errorType/>
+
+        <originalForm>So</originalForm>
+
+        <targetForm>so</targetForm>
+      </error> sind ich in den andere <error>
+        <errorType/>
+
+        <originalForm>Geschaft</originalForm>
+
+        <targetForm>Geschäft</targetForm>
+      </error> gegangen zu der Kassenzettel <error>
+        <errorType/>
+
+        <originalForm>nemen</originalForm>
+
+        <targetForm>nehmen</targetForm>
+      </error> und für die <error>
+        <errorType/>
+
+        <originalForm>Verkauferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> des Supermarkt. So wird alles <error>
+        <errorType/>
+
+        <originalForm>gelost</originalForm>
+
+        <targetForm>gelöst</targetForm>
+      </error>.<par/><closing>Liebe Grüße</closing><par/>Deine Freundin<par/>Silvia Dardane</exercise>
+
+    
+  </body>
+</kolipsi_II_document>

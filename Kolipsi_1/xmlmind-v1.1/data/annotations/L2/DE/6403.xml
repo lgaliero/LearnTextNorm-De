@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Romy</transcriber>
+
+  <author_id>6403</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Markus</entity>.</greeting> Ich will dir etwas <error>
+        <errorType />
+
+        <originalForm>lustiges</originalForm>
+
+        <targetForm>Lustiges</targetForm>
+      </error> erzählen. Meine Freundin <entity>Maria</entity> war letzte <palimpsest>Woche</palimpsest> einkaufen. Sie musste für <palimpsest>ihre</palimpsest> Familie etwas zu essen kaufen. Sie hat zuerst in einem Obst- und Gemüseladen eingekauft. Nachdem sie das Obst bezahlt hat, ist sie weggegangen. Sie hat aber an die Kasse den Kassenzettel vergessen. Hier sind <palimpsest>ihre</palimpsest> Probleme angefangen. Sie zurück nach Hause gegangen. Wenn sie das Obst <error>
+        <errorType />
+
+        <originalForm>weggereumt</originalForm>
+
+        <targetForm>weggeräumt</targetForm>
+      </error> hat, hat sie sich erinnert, dass <palimpsest>zu Hause</palimpsest> keine <error>
+        <errorType />
+
+        <originalForm>fleisch</originalForm>
+
+        <targetForm>Fleisch</targetForm>
+      </error> mehr war. <error>
+        <errorType />
+
+        <originalForm>sie</originalForm>
+
+        <targetForm>Sie</targetForm>
+      </error> musste Fleisch einkaufen gehen. Sie hätte aber kein Lust bis zur Metzgerei zu gehen. Sie ist also ins <foreign_word
+        foreign_language="Italiano">Supermarket</foreign_word>, das in die Nähe ihres Hause befindet, gegangen. Sie hätte aber nicht erinnert, dass sie einige Bananen in die Tasche vergessen hat. Als sie zur Kasse gegangen ist um zu bezahlen, <palimpsest>h</palimpsest>at die Kassiererin die Bananen gesehen und hat gedacht, dass <entity>Maria</entity> die Bananen <sic>stohlen</sic> wollte. <entity>Maria</entity> hat probiert sie zu erklären, dass sie die Bananen in ein anderes Geschäft gekauft hat. Die Kassiererin wollte also den Kassenzettel sehen, aber <entity>Maria</entity> hat sich erinnert, dass sie den Kassenzettel nicht mitgenommen hat. So hat sie die Bananen <error>
+        <errorType />
+
+        <originalForm>zwei Mal</originalForm>
+
+        <targetForm>zweimal</targetForm>
+      </error> bezahlt. Und sie <palimpsest>hat G</palimpsest>lück gehabt, weil die Kassiererin hat sie nicht an die Polizei denunziert. Ist es nicht etwas Komisches? Jetzt muss ich dir <error>
+        <errorType />
+
+        <originalForm>begrüssen</originalForm>
+
+        <targetForm>begrüßen</targetForm>
+      </error>... <par /><closing>Bis bald! Dein. <entity><palimpsest>Seppl</palimpsest></entity></closing>.</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber <entity>Markus</entity>,</greeting> <par />wie geht es dir? Mir geht es gut. Ich habe dir diesen Brief geschrieben. weil ich mit dir ein Problem sprechen will. Wir haben schon von langer Zeit entscheiden, dass wir <error>
+        <errorType />
+
+        <originalForm>dises</originalForm>
+
+        <targetForm>dieses</targetForm>
+      </error> Jahr einen gemeinsamen Urlaub machen wollen. Wir sind bald schon im Frühling und wir <error>
+        <errorType />
+
+        <originalForm>mussen</originalForm>
+
+        <targetForm>müssen</targetForm>
+      </error> planen wo wir gehen wollen. <sic>Fahrst</sic> du lieber in die Berge oder ans Meer? Ich bin nicht sicher weil für beide Optionen gibt es einige Pro und Contra. Zum Beispiel das Meer: <error>
+        <errorType />
+
+        <originalForm>es</originalForm>
+
+        <targetForm>Es</targetForm>
+      </error> ist wirklich schön. Ich <error>
+        <errorType />
+
+        <originalForm>lLiebe</originalForm>
+
+        <targetForm>liebe</targetForm>
+      </error> schwimmen gehen ins <sic>gesaltzte</sic> Wasser. <error>
+        <errorType />
+
+        <originalForm>wir</originalForm>
+
+        <targetForm>Wir</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>konnen</originalForm>
+
+        <targetForm>können</targetForm>
+      </error> einige <sic>Ausfluge</sic> mit dem Schiff machen. Sicher <error>
+        <errorType />
+
+        <originalForm>konnen</originalForm>
+
+        <targetForm>können</targetForm>
+      </error> wir dort viele neue Leute kennen lernen. Aber es gibt auch einige Contra: <error>
+        <errorType />
+
+        <originalForm>zum</originalForm>
+
+        <targetForm>Zum</targetForm>
+      </error> Beispiel es ist <palimpsest>schwierig das</palimpsest> Hause zu finden, und es wird sicher <palimpsest>unreadable </palimpsest> teuer. Das <overwrite>
+        <over>K</over>
+
+        <under>k</under>
+      </overwrite>lima ist sehr heiß! Ich habe auch einige Pro und Contra für die Berge befunden. Zum Beispiel die Berge sind wunderschön und sich billiger als am Meer zu fahren. Ich liebe in die <sic>Wälten</sic> zu <error>
+        <errorType />
+
+        <originalForm>spatzieren</originalForm>
+
+        <targetForm>spazieren</targetForm>
+      </error> und ich weiß, dass auch du es liebst. In die Berge können wir auch klettern. Wenn wir Glück haben, wir <error>
+        <errorType />
+
+        <originalForm>konnen</originalForm>
+
+        <targetForm>können</targetForm>
+      </error> auch wilde Tiere sehen. Aber wir <error>
+        <errorType />
+
+        <originalForm>mussen</originalForm>
+
+        <targetForm>müssen</targetForm>
+      </error> das richtige Zeitperiode entscheiden, sonst es <palimpsest>wi</palimpsest>rd zu kalt sein. Sag mir, wo du am liebsten fahren willst. Wir <error>
+        <errorType />
+
+        <originalForm>konnen</originalForm>
+
+        <targetForm>können</targetForm>
+      </error> <palimpsest>darüber</palimpsest> sprechen und dann unsere Urlaub planen. Schreib mir bald! Ich warte auf deine Antwort. <closing>Dein. <par /><entity>Seppl</entity></closing></exercise>
+  </body>
+</kolipsi_document>

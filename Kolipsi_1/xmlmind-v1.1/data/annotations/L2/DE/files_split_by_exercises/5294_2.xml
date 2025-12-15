@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5294</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Hallo <entity>Peter</entity>,</greeting> <par/>ich schreibe dir wegen unserem Urlaubs. <error>
+        <errorType/>
+
+        <originalForm>wir</originalForm>
+
+        <targetForm>Wir</targetForm>
+      </error> müssen uns <correction>
+        <deletion><unreadable/></deletion>
+      </correction> jetzt entscheid<overwrite>
+        <over>e</over>
+
+        <under>a</under>
+      </overwrite>n ob wir in die Bergwelt fahren oder ob wir das Meer vorziehen. Was meinst du? Ich glaube auf dem Berg ist es viel entspannender, kein Lärm und keine <error>
+        <errorType/>
+
+        <originalForm>Hektick</originalForm>
+
+        <targetForm>Hektik</targetForm>
+      </error>. Wi<overwrite>
+        <over>r</over>
+
+        <under>e</under>
+      </overwrite> könnten lange Spaziergänge machen oder einfach auf der Weide <correction>
+        <deletion> </deletion>
+      </correction> sonnenliegen. Andererseits wird das auf die Dauer sicher endlos <correction>
+        <deletion> </deletion>
+      </correction> langweilig. Ich denke das ist das größte Problem, wenn man <correction>
+        <deletion>auf den</deletion>
+
+        <insertion>am</insertion>
+      </correction> Berg seinen Urlaub verbringt. Es ist einfach überhaupt nichts los! Daher würde ich dir vorschlagen ans Meer zu fahren. Dort wird es uns sicherlich nie lahm. Wir könnten den <error>
+        <errorType/>
+
+        <originalForm>Taukurs <correction>
+            <deletion><unreadable/></deletion>
+          </correction> </originalForm>
+
+        <targetForm>Tauchkurs</targetForm>
+      </error> machen,<correction>
+        <deletion>das</deletion>
+      </correction> den <error>
+        <errorType/>
+
+        <originalForm>Planen</originalForm>
+
+        <targetForm>planen</targetForm>
+      </error> wir ja schon so unendlich lange. Anschließend konnten wir am Abend alle Lokale der Stadt besuchen und uns ein wenig amüsieren. Wenn du, aber die Bergwelt vorziehst könnten wir folgendens machen. <error>
+        <errorType/>
+
+        <originalForm>wir</originalForm>
+
+        <targetForm>Wir</targetForm>
+      </error> fahren <error>
+        <errorType/>
+
+        <originalForm>anfagngs</originalForm>
+
+        <targetForm>anfangs</targetForm>
+      </error> eine Woche ans <correction>
+        <deletion>mehr</deletion>
+      </correction> Meer und haben dort jede Menge Spaß. Die zweite <overwrite>
+        <over>W</over>
+
+        <under>w</under>
+      </overwrite>oche <error>
+        <errorType/>
+
+        <originalForm>dan</originalForm>
+
+        <targetForm>dann</targetForm>
+      </error>, <error>
+        <errorType/>
+
+        <originalForm>Fahren</originalForm>
+
+        <targetForm>fahren</targetForm>
+      </error> wir in die Berge <correction>
+        <deletion>Wo</deletion>
+      </correction> wo wir uns wirklich entspannen können. Was holst du davon? Lass mich so schnell wie möglich wissen… <par/> <closing><entity><unreadable/></entity></closing></exercise>
+  </body>
+</kolipsi_document>

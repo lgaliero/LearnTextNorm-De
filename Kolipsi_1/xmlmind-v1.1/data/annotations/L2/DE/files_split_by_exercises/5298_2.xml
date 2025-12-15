@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5298</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Hallo <entity>Robert</entity>!</greeting> <par/>Heute <correction>
+        <deletion>bin ich ein bisschen w</deletion>
+      </correction> weiß ich nicht was ich machen soll!! Ich mit meinen Freunden <sic>willen</sic> einen gemeinsamen Urlaub organisieren aber wir können nicht entscheiden zwischen Bergen und Meer. <par/>Ich und andere zwei möchten an Meer fahren aber <correction>
+        <deletion>andere</deletion>
+      </correction> die andere drei <sic>willen</sic> ins Berg gehen. Ich finde dass das Meer besser ist weil hier <correction>
+        <deletion>ka</deletion>
+      </correction> warm ist und wir können <correction>
+        <deletion>schla</deletion>
+      </correction> auch <correction>
+        <deletion>u</deletion>
+      </correction> unter der Sonne <correction>
+        <deletion>scha</deletion>
+      </correction> schlafen. Die anderen <correction>
+        <deletion>willen</deletion>
+      </correction> möchten ins Berg fahren weil so sie <error>
+        <errorType/>
+
+        <originalForm>Ski-fahren</originalForm>
+
+        <targetForm>Ski fahren</targetForm>
+      </error> könnten. Ich glaube dass ob wir im Winter sind wir können am Meer fahren weil so kann ich für eine Woche die <unreadable/> zu Hause lassen <correction>
+        <deletion>.</deletion>
+      </correction> und weil ich das Meer liebe. <par/>Ich glaube aber dass am Ende wir ins Berg gehen weil die andere sehr lustig sind. Ich möchte am <correction>
+        <deletion>Ber</deletion>
+      </correction> <unreadable/> Meer fahren aber ich liebe auch die Bergen und für mich ist fast egal. <par/>Ich möchte dir das sagen und ich warte an deine Antwort. <par/> <closing>Liebe <entity>Alessandra</entity>.</closing></exercise>
+  </body>
+</kolipsi_document>

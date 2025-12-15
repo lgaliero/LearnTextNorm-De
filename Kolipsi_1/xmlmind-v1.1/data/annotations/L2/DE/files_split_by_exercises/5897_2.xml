@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5897</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Grüß dich <entity>Manuel</entity></greeting>, <par/><error>
+        <errorType/>
+
+        <originalForm>Wir</originalForm>
+
+        <targetForm>wir</targetForm>
+      </error> woll<correction>
+        <insertion>t</insertion>
+      </correction>en doch einmal zusammen ans Meer fahren und <correction>
+        <insertion>da</insertion>
+      </correction> wir uns bereits im A<ambiguous>
+        <alternative>p</alternative>
+
+        <alternative>g</alternative>
+      </ambiguous>ril befinden habe ich mich etwas über mögliche Urlaubsziele informiert. Wir haben im Grunde zwei Möglichkeiten: entweder fahren wir in die Berge oder ans Meer.<gap>_</gap> In den Bergen ist es frischer als am Meer, wir könnten Wandertouren unternehmen ohne dabei unter der Hitze zu leiden. Wir könnten Berge besteigen und ein prächtiges Bergpanorama genießen. Wir könnten durch Wälder wandern und die Tiere b<palimpsest>e</palimpsest>obachten. Sollte es aber etwas zu warm werden ist der <palimpsest>unreadable</palimpsest> Urlaub am Meer allerdings angebrachter<overwrite>
+        <over>,</over>
+
+        <under>.</under>
+      </overwrite> denn am Meer können wir uns im Wasser ab<overwrite>
+        <over>k</over>
+
+        <under>h</under>
+      </overwrite>ühlen, was auf dem Berg etwas schwieriger wäre. Der Urlaub am Meer ist si<overwrite>
+        <over>c</over>
+
+        <under>e</under>
+      </overwrite>herlich viel erholsamer. Tagsüber liegst du in der Sonne, wenn es dir zu warm wird kannst du dich im Meer abkühlen. Am <error>
+        <errorType/>
+
+        <originalForm>abend</originalForm>
+
+        <targetForm>Abend</targetForm>
+      </error> kannst du kleine Spaziergänge unternehmen oder, wenn möglic<overwrite>
+        <over>h</over>
+
+        <under><unreadable/></under>
+      </overwrite>, <correction>
+        <insertion>dir</insertion>
+      </correction> eine Veranstaltung a<correction>
+        <insertion>ns<comment>Trennung-Verbindung</comment></insertion>
+      </correction>ehen. <par/> <ambiguous>
+        <alternative>L</alternative>
+
+        <alternative>h</alternative>
+      </ambiguous>ass mich bitte wissen, was dir lieber ist. <palimpsest>unreadable</palimpsest> Die Bergwelt zu entdecken und Touren zu unternehmen<overwrite>
+        <over>,</over>
+
+        <under>.</under>
+      </overwrite> oder am Strand in der Sonne zu faulenzen und dich wirklich auszuruhen. Ich brauche eine baldige Antwort. <closing>Grüße, <par/></closing><entity>Alex</entity> </exercise>
+  </body>
+</kolipsi_document>

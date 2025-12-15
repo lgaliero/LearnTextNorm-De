@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I03_PIR24ELI</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo Max!</greeting><par /><correction>
+        <deletion>Weißt du Heute</deletion>
+
+        <insertion>Letzte Woche</insertion>
+      </correction> ist Maria etwas <error>
+        <errorType />
+
+        <originalForm>seltsames</originalForm>
+
+        <targetForm>Seltsames</targetForm>
+      </error> passiert.<par />Sie ist <correction>
+        <deletion>g</deletion>
+      </correction> einkaufen gegangen. Beim Obsthändler hat sie eine volle Tasche an Obst und Gemüse eingekauft. Später war sie im <foreign_word
+        foreign_language="Italiano">Supermarket</foreign_word> gegangen um weitere Lebensmitteln einzukaufen. Während sie zur Kasse war, <error>
+        <errorType />
+
+        <originalForm>biepste</originalForm>
+
+        <targetForm>piepste</targetForm>
+      </error> ein Alarm. Die Kassiererin meinte, dass die etwas gestohlen hatte. Außerdem trug Maria die Tasche mit den ganzen Obst und Gemüse und es schien wirklich als hätte sie gestohlen. Maria blieb jedoch ruhig, <correction>
+        <deletion><unreadable /></deletion>
+      </correction> sie hatte ja den Kassazettel in ihrer Jacke gelegt. Die Kassiererin <correction>
+        <deletion>fragte "</deletion>
+      </correction> befahl: "Entweder <error>
+        <errorType />
+
+        <originalForm>sie</originalForm>
+
+        <targetForm>Sie</targetForm>
+      </error> zahlen den Obst oder <error>
+        <errorType />
+
+        <originalForm>sie</originalForm>
+
+        <targetForm>Sie</targetForm>
+      </error> legen es wieder zurück. Falls <correction>
+        <deletion>s</deletion>
+
+        <insertion>S</insertion>
+      </correction>ie das nicht tun werden bin ich gezwungen die Polizei anzurufen!" Darauf Maria: "Ich habe den Kassazettel in der Brieftasche, ich <reduction>
+        <reductionType rType="Unknown" />
+
+        <reducedForm>zeig'</reducedForm>
+
+        <unfoldedForm>zeige</unfoldedForm>
+      </reduction> es Ihnen." Da merkte sie, dass der Kassazettel nicht da war. Er war wie verschwunden. <correction>
+        <deletion>Sie r</deletion>
+      </correction><par />Daraufhin rief sie den Obsthändler und fragte ihn, ob sie die Rechnung dort im Geschäft liegen gelassen hatte. Und tatsächlich! <correction>
+        <deletion>Er</deletion>
+      </correction> Sie lag<correction>
+        <deletion>t</deletion>
+      </correction> bei ihn! Maria hat dieses <error>
+        <errorType />
+
+        <originalForm>mal</originalForm>
+
+        <targetForm>Mal</targetForm>
+      </error> Glück gehabt.<par /><closing>Viele Grüße,</closing> Susi. </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber Paul.</greeting><par />Ich bin in der Rubrik "Persönliche Briefe" in der <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Zeitung "Ju<correction>
+        <deletion>m</deletion>
+
+        <insertion>n</insertion>
+      </correction>ge Woche" auf Deinem Brief gestoßen. <correction>
+        <deletion>I Als erste Sache</deletion>
+      </correction><par />Das Erste, das ich dir sagen möchte ist, dass du nicht der <error>
+        <errorType />
+
+        <originalForm>einzige</originalForm>
+
+        <targetForm>Einzige</targetForm>
+      </error> bist, der in einer solchen Situation geraten ist. Eine wirksame Lösung kann ich dir nicht vorschlagen daher ich die Details nicht gut kenne. Ich habe selber einige <correction>
+        <deletion>Freu</deletion>
+      </correction> virtuelle Freunde mit denen ich ab und zu chatte. Allerdings habe ich sie nicht <correction>
+        <deletion>einfa</deletion>
+      </correction> zufällig im Internet gefunden. Ich habe sie wirklich kennengelernt und daher wir ziemlich entfernt wohnen benützen wir die "Social Networks" um in Verbindung zu bleiben. Meiner Meinung nach machen virtuelle Freundschaften Spaß, wenn man diese Menschen schon mal getroffen hat. Ansonsten finde ich sie gefährlich, weil es Menschen gibt, die Profile herstellen von Menschen, die es gar nicht gibt. So kann es zum Beispiel passieren, dass sich <error>
+        <errorType />
+
+        <originalForm>hiner</originalForm>
+
+        <targetForm>hinter</targetForm>
+      </error> einen Foto eines jungen Mädchens sich ein alter, hässlicher Mann versteckt.<par />Aus diesem Grund muss man aufpassen wie man mit dem Internet umgeht, was man über sich selbst im Internet sagt, <correction>
+        <insertion>auf</insertion>
+      </correction> welche Daten unbekannte Menschen stoßen können.<par /><error>
+        <errorType />
+
+        <originalForm>Desswegen</originalForm>
+
+        <targetForm>Deswegen</targetForm>
+      </error> warne ich dir und s<correction>
+        <deletion><unreadable />a</deletion>
+
+        <insertion>a</insertion>
+      </correction>ge: "Gib <correction>
+        <deletion>a</deletion>
+
+        <insertion>A</insertion>
+      </correction>cht! Je wenigere Sachen die Menschen über dich wissen, desto besser lebst du!", das sage ich Dir aus eigener Erfahrung.<par /><closing>Liebe Grüße,</closing><par />Vanessa</exercise>
+  </body>
+</kolipsi_II_document>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I37_PAS26MIR</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Liebe Paul,</greeting><par/><error>
+        <errorType/>
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> habe deine Brief in der Zeitung <correction>
+        <deletion><unreadable/></deletion>
+      </correction> "Junge Woche" gelesen, und ich will etwas darum sagen.<par/>Ich denke <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> virtuelle Freundschafte sind <correction>
+        <deletion><unreadable/> und</deletion>
+
+        <insertion>schön:</insertion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>du</originalForm>
+
+        <targetForm>Du</targetForm>
+      </error> kannst <correction>
+        <deletion>u</deletion>
+      </correction> mit ihn unterhalten und neue Freunde machen, aber es gibt auch etwas <error>
+        <errorType/>
+
+        <originalForm>schlecht</originalForm>
+
+        <targetForm>Schlecht</targetForm>
+      </error>. Wenn du beginnst nur zu Hause zu bleiben, um <correction>
+        <deletion>an die</deletion>
+      </correction> mit dem Computer zu schreiben und <correction>
+        <deletion>sie</deletion>
+      </correction> gehst nicht mehr mit <correction>
+        <deletion>deine un</deletion>
+      </correction> die Freunde <correction>
+        <deletion>die du in deinem</deletion>
+
+        <insertion>deiner</insertion>
+      </correction> jedentagiger <correction>
+        <deletion><unreadable/></deletion>
+      </correction> Leben aus, dann gibt es ein Problem.<par/>Ich denke<correction>
+        <deletion>,</deletion>
+      </correction>, <error>
+        <errorType/>
+
+        <originalForm>dass</originalForm>
+
+        <targetForm>das</targetForm>
+      </error><correction>
+        <deletion>,</deletion>
+      </correction> was du gemacht hast <correction>
+        <deletion>ist</deletion>
+      </correction> falsch ist, weil du kannst nicht deine wirklichen Freunde verraten<correction>
+        <deletion>;,</deletion>
+      </correction>.<par/>Meiner Meinung nach<correction>
+        <deletion><unreadable/></deletion>
+      </correction>, du <correction>
+        <deletion>m</deletion>
+      </correction> solltest mit deine virtuelle Freunde die Kontakte wiedernehmen, aber <correction>
+        <deletion><unreadable/></deletion>
+      </correction> nicht wie du<correction>
+        <deletion>e</deletion>
+      </correction> bis jetzt gemacht hast. Su solltest <correction>
+        <insertion>dem Internet</insertion>
+      </correction> einen Konfin geben, weil ich denke <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> deine Freunde sind nicht die virtuelle, aber die die in deinen Leben hast. <correction>
+        <deletion>, <unreadable/></deletion>
+      </correction><par/>Ich habe vor zwei Jahre ein<correction>
+        <deletion>e</deletion>
+      </correction> Mädchen, die deine eigene Problem hatte; nach lange Zeit <correction>
+        <deletion>sie</deletion>
+      </correction> hat sie mit seinen virtuellen Freunden nur am Abend zu sprechen <correction>
+        <deletion>E</deletion>
+      </correction> entscheidet. <correction>
+        <deletion>Sie <unreadable/> gab mehr <unreadable/></deletion>
+      </correction><par/><closing>Liebe Grüße,</closing> Miranda</exercise>
+  </body>
+</kolipsi_II_document>

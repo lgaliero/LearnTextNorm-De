@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>N7007</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve">
+ <par/><greeting>Lieber <entity>Hans</entity> </greeting> <par/>Weißt du was letzte <error>
+        <errorType/>
+
+        <originalForm>woche</originalForm>
+
+        <targetForm>Woche</targetForm>
+      </error> passiert ist? <entity>Maria</entity> war in ein Gemüsel<overwrite>
+        <under><unreadable/></under>
+
+        <over>a</over>
+      </overwrite>den<correction>
+        <deletion> </deletion>
+      </correction><par/>und hat <correction>
+        <deletion>die Bankomat</deletion>
+      </correction> der Kassenzettel hier vergessen, später <correction>
+        <deletion><unreadable/></deletion>
+      </correction>gingte sie in Supermarkt und kaufte alles was sie brauchte. Am Ende <correction>
+        <deletion>wollte sie</deletion>
+      </correction> bezahl<overwrite>
+        <under><unreadable/></under>
+
+        <over>te</over>
+      </overwrite> <correction>
+        <insertion>sie</insertion>
+      </correction> aber <palimpsest>an der Kasse<correction>
+          <deletion>,</deletion>
+        </correction> wollte sie ihre Tasche da lassen, weil <error>
+          <errorType/>
+
+          <originalForm>Sie</originalForm>
+
+          <targetForm>sie</targetForm>
+        </error> drinnen Obst hatte. Sie wollte <correction>
+          <deletion>die</deletion>
+        </correction> der Kassenzettel finden</palimpsest>, aber sie hat an die Gemüseladen vergessen. <entity>Maria</entity> zeigte die Kassiere, dass sie die Obst <correction>
+        <deletion>und</deletion>
+      </correction> an die Obsthändler gekauft hatte, aber sie musste leider seine Tasche hier lassen und die Kassenzettel wiedernehmen.<par/>Also jetzt hast du verstanden, dass <correction>
+        <deletion>die</deletion>
+      </correction> der Kassenzettel sehr wichtig ist, man muss immer nehmen.<par/><closing>Tschüss sehen uns früh<par/>Bis bald</closing> </exercise>
+
+    
+  </body>
+</kolipsi_document>

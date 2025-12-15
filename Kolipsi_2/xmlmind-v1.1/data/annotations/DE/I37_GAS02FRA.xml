@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I37_GAS02FRA</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe Heidi,</greeting><par /><error>
+        <errorType />
+
+        <originalForm>letze</originalForm>
+
+        <targetForm>letzte</targetForm>
+      </error> Woche ist etwas <error>
+        <errorType />
+
+        <originalForm>komisch</originalForm>
+
+        <targetForm>Komisch</targetForm>
+      </error> im Supermarkt passiert. Ich wollte diesen Unfall dir erzählen.<par />Maria war letzte Woche einkaufen. Am Anfang war sie in einem Obst- und Gemüseladen gegangen. Danach ging sie im Supermarkt, aber dort fand sie Probleme an die Kasse. Als sie alles gekauft hatte, konnte sie nicht zahlen, weil der Bankomat ihre Kreditkarte nicht lesen konnte. Deshalb entschied sie in die Bank zu gehen um das Geld zu nehmen. Was sie eingekauft hatte blied dort im Supermarkt an die Kasse.<par />Als sie das Geld im Bank genommen hatte, sollte sie wieder zurückkommen. Die Straße war sehr lang und sie hat mehr als eine Stunde spaziert um den Supermarkt zu erreichen. Die Frau an die Kasse hatte auf sie gewartet. <correction>
+        <deletion>Nach di</deletion>
+      </correction> Nach diesem Unfall konnte Maria endlich bezahlen und wieder nach Hause fahren.<par />Ich hatte sehr gern diesen Unfall dir zu <correction>
+        <deletion>erh</deletion>
+      </correction> erzählen.<par /><closing>Mit freundlichen Grüßen</closing><par />Francesco</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber Paul,</greeting><par /><error>
+        <errorType />
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> habe deine Meldung im Internet gelesen. Ich möchte meine <correction>
+        <deletion><unreadable /></deletion>
+      </correction> persö<correction>
+        <deletion>hn</deletion>
+
+        <insertion>nl</insertion>
+      </correction>icher Meinung zu diesem Thema geben. Ich bin neidisch über virtuelle Freundschaft. Ich denke, dass es nicht gut ist. Für mich ist besser ehrliche Freunde haben, die man wirklich kennt und die man treffen kann. Wenn man virtuelle Freundschaften macht, <error>
+        <errorType />
+
+        <originalForm>mann</originalForm>
+
+        <targetForm>man</targetForm>
+      </error> kennt nicht der andere und wie er in der Wirklichkeit ist.<par />Wenn ich dir einen Rat geben sollte, würde ich sagen zu diesen Leuten meine Meinung, dass du nicht mehr virtuelle Freunde haben willst, aber jemandem wo du deine Gefühle <correction>
+        <deletion>s</deletion>
+
+        <insertion>t</insertion>
+      </correction>auschen willst. Du hast keine Freundschaft verraten, weil du diese Leute nicht ehrlich kennengelernt hast.<par />Ich kann auch meine persönliche Erfahrung mit dem Internet erzählen. Im Internet gibt es gefährliche Leute, die am Anfang deine Freunde sind, aber dann dich stehlen und <correction>
+        <deletion>weh</deletion>
+      </correction> anlohnen <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Sie wollen <error>
+        <errorType />
+
+        <originalForm>Photos</originalForm>
+
+        <targetForm>Fotos</targetForm>
+      </error> und Geld von dir haben. Darauf musst du gut achten. Deshalb warne ich di<correction>
+        <deletion>ch</deletion>
+
+        <insertion>r</insertion>
+      </correction> über virtuelle Freundschaften. Ich denke, dass Internet beide nützlich und gefährlich sein kann. Es ist <correction>
+        <deletion>nuttich</deletion>
+      </correction> nützlich, weil man Researchen machen kann. Ich habe dich schon gesagt, weil es gefährlich sein kann.<par /><closing>Mit freundlichen Grüßen</closing><par />Francesco</exercise>
+  </body>
+</kolipsi_II_document>

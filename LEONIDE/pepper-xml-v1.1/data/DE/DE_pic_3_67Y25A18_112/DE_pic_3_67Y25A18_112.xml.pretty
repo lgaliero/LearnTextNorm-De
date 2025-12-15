@@ -1,0 +1,54 @@
+<body>
+ <page page_number="1" transcanno_page_id="2375">
+  <paragraph class="medium-paragraph" tagcode="1556727801079">
+   <div>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553594917095" tran_word_deletion_target="_#_">
+     diese
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Fotos" tagcode="1556727721478">
+      fotos
+     </orth_error_id12>
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="sprichst" tagcode="1556727789722">
+      sprichts
+     </orth_error_id12>
+     über
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Liebe" tagcode="1556727706415">
+      liebe
+     </orth_error_id12>
+    </tran_word_deletion_id8>
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1556727801081">
+   <div>
+    diese
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Fotos" tagcode="1556727756734">
+     fotos
+    </orth_error_id12>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="sprichst" tagcode="1556727777377">
+     sprichts
+    </orth_error_id12>
+    über
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Liebe" tagcode="1556727801078">
+     liebe
+    </orth_error_id12>
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1556727801083">
+   <div>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553594994957" tran_correction_original="In">
+     Im
+    </tran_word_correction_id25>
+    1942 Jonathan ist ein Juden und er
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="muss" tagcode="1553595055355">
+     müss
+    </orth_error_id12>
+   </div>
+   <div>
+    gehe im
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Mauthausen" tagcode="1553595031504">
+     Matthausen
+    </orth_error_id12>
+    .
+   </div>
+  </paragraph>
+ </page>
+</body>

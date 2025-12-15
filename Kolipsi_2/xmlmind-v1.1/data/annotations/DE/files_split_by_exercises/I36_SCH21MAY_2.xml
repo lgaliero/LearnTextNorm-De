@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I36_SCH21MAY</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Hallo Paul!</greeting><par/>Ich habe dein Brief gelesen und wollte dir helfen.<par/>Ich <correction>
+        <deletion>habe auch di</deletion>
+      </correction> war in deiner <correction>
+        <deletion>S</deletion>
+
+        <insertion>s</insertion>
+      </correction>elbe Situation. Ich hatte Sommerferien und war ein bisschen allein. Deshalb hab ich mit Chats angefangen. <par/> Ich hatte immer das Handy an der Hand und ich war immer in meinem Zimmer alleine. Das Handy und diese Chats waren für mich das Leben. Du hattest <error>
+        <errorType/>
+
+        <originalForm>dass selbe</originalForm>
+
+        <targetForm>dasselbe</targetForm>
+      </error> Problem aber du hast eine dramatische Lösung gefunden. Du hast alle Kontakten gelöscht und du sprichst mit diesen Personen nicht mehr. Meine Meinung nach sind die Personen auch Freunde! Diese Leuten <correction>
+        <deletion>mit die</deletion>
+      </correction> sind für <correction>
+        <deletion>f</deletion>
+      </correction> mich Freunde geworden! Sie leben sehr weit weg <correction>
+        <deletion>w</deletion>
+
+        <insertion>v</insertion>
+      </correction>on mir aber <error>
+        <errorType/>
+
+        <originalForm>dass</originalForm>
+
+        <targetForm>das</targetForm>
+      </error> ist mir egal. Ich habe nur eine Regel gestellt: <error>
+        <errorType/>
+
+        <originalForm>ich</originalForm>
+
+        <targetForm>Ich</targetForm>
+      </error> werde das Handy nur am Abend (für 2 <error>
+        <errorType/>
+
+        <originalForm>stunden</originalForm>
+
+        <targetForm>Stunden</targetForm>
+      </error>) benutzen. Zerstör nicht diese Freundschaften. Leb deinen Leben den ganzen Tag, aber am Abend vergiss nicht die Freunde die du nie gesehen hast aber die auch immer dich angehört haben. <correction>
+        <deletion>v</deletion>
+
+        <insertion>V</insertion>
+      </correction>irtuelle Freundschaften sind Freundschaften! Du kannst die nur nicht sehen, vergisst <error>
+        <errorType/>
+
+        <originalForm>dass</originalForm>
+
+        <targetForm>das</targetForm>
+      </error> nicht Paul! Und vielleicht wirdst du die auch eines Tages treffen!<par/><error>
+        <errorType/>
+
+        <originalForm>Dänkst</originalForm>
+
+        <targetForm>Denkst</targetForm>
+      </error> daran Paul!<par/><closing>Viel Bussi,</closing><par/>Sophie</exercise>
+  </body>
+</kolipsi_II_document>

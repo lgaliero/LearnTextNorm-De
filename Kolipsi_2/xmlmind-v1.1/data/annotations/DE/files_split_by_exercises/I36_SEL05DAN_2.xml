@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I36_SEL05DAN</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve">Ich glaube, dass du kannst besser leben, ohne <correction>
+        <deletion><unreadable/></deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>chat Freunde</originalForm>
+
+        <targetForm>Chatfreunde</targetForm>
+      </error> zu haben. Die Freunde, mit dem du <correction>
+        <deletion>hast</deletion>
+      </correction> gechattet hast, können nicht wirkliche Freunde sein. Es ist besser, ein Freund in die Wirklichkeit zu haben. Aber wenn du glaubst, deine virtuelle Freunde wichtig für dich waren, du kennst sie treffen. Internet kann eine Hilfe geben, um viele <error>
+        <errorType/>
+
+        <originalForm>sachen</originalForm>
+
+        <targetForm>Sachen</targetForm>
+      </error> zu machen, aber Freundschaften brauchen auch eine Korrespon<hyphen>-</hyphen>denz in die Realität zu haben. Die Leute, die du in Internet kennenlernst, können guten Freunden sein, aber du sollst sie <correction>
+        <deletion><unreadable/></deletion>
+      </correction> auch in einem wirklichen Ort <correction>
+        <deletion><unreadable/></deletion>
+      </correction> sehen.<par/><closing>Tschüss</closing></exercise>
+  </body>
+</kolipsi_II_document>

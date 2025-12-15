@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>6411</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Liebe <entity>Lisa</entity>!</greeting> <par/>Wie geht es dir? Mir geht es gut. Also ich will nur schreiben was <entity>Maria</entity> passiert ist! Letz<correction>
+        <insertion>t</insertion>
+      </correction>e Woche war <entity>Maria</entity> einkauf<overwrite>
+        <over>e</over>
+
+        <under>n</under>
+      </overwrite>n, weil der Geburtstag von <entity>Toni</entity> war. Sie hat zuerst in einem – Obst- und Gemüseladen eingekauft… aber sie hat den Kassenzettel vergessen! Es ist eine Gefahr, weil sie viele Obst und Gemüse <overwrite>
+        <over>g</over>
+
+        <under>G</under>
+      </overwrite>ekauft hat! Später war sie im Supermarkt. <error>
+        <errorType/>
+
+        <originalForm>also</originalForm>
+
+        <targetForm>Also</targetForm>
+      </error> sie hat Sahne, <error>
+        <errorType/>
+
+        <originalForm>Schockolade</originalForm>
+
+        <targetForm>Schokolade</targetForm>
+      </error>, Brot, <error>
+        <errorType/>
+
+        <originalForm>Yogurt</originalForm>
+
+        <targetForm>Joghurt</targetForm>
+      </error> und Cola gekauft. Aber es gab ein Problem an der Kasse! Die <sic>Kassiere</sic> hat die Gemüse von <entity>Maria</entity> gesehen und also sie hat gedacht, dass <entity>Maria</entity> nicht einkaufen will! Aber <entity>Maria</entity> hat gesagt, dass sie in einem Obst- und Gemüseladen die Produkte gekauft hat! Am Ende hat <entity>Maria</entity> <correction>
+        <deletion><unreadable/></deletion>
+      </correction> eine Lösung gefunden! Die <sic>Kassiere</sic> hat d<overwrite>
+        <over>en</over>
+
+        <under>ie</under>
+      </overwrite> <sic>Sa<overwrite>
+          <over>c</over>
+
+          <under>k</under>
+        </overwrite>kel<overwrite>
+          <over>o</over>
+
+          <under>e</under>
+        </overwrite></sic> des Obst- und Gemüseladens gesehen! <entity>Maria</entity> hat einen unvergesslichen Nachmittag passiert! Und du? <correction>
+        <deletion><unreadable/></deletion>
+      </correction> Was hast du gemacht in diesen <correction>
+        <deletion><unreadable/></deletion>
+      </correction> Woche? <par/><closing>Herzliche Grüße deine <entity>Silia</entity> </closing></exercise>
+
+    
+  </body>
+</kolipsi_document>

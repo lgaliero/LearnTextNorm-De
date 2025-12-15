@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>3559</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"> <comment>Texte nur als Kopie, schlecht zu digitalisieren</comment> <par/><greeting>Hallo <entity>Alessio</entity>!!!</greeting> <par/>Wie geht´s dir? Ich habe dir diese <error>
+        <errorType/>
+
+        <originalForm>E-mail</originalForm>
+
+        <targetForm>E-Mail</targetForm>
+      </error> geschrieben, weil ich dir etwas erzählen will. Die letzte Woche war meine Freundin <entity>Maria</entity> einkaufen. Sie kaufte zuerst in einem Obst- und Gemüseladen ein; sie<palimpsest/> kaufte alles was sie brauchte für das Abendessen mit ihrem <sic>Verlobte</sic>. Nachdem sie alles<palimpsest/> n<ambiguous>
+        <alternative>a</alternative>
+
+        <alternative>e</alternative>
+      </ambiguous>hme, ging sie zur Kasse und bezahlte. Eine Stunde später war sie im Supermarkt: <error>
+        <errorType/>
+
+        <originalForm>auch</originalForm>
+
+        <targetForm>Auch</targetForm>
+      </error> da einkaufte sie. Sie kaufte: <gap>_</gap> Wein, Brot, Fleisch, usw... Während sie zur Kasse ging, bemerkte sie <error>
+        <errorType/>
+
+        <originalForm>daß</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> sie genügend Geld nicht hatte. So öffnete sie ihrer Tasche und stellte den Einkauf hinein. Sie hatte Angst aber sie brauchte diese Sache. Wann sie vor die Kasse durchging, die Kassiererin sah <error>
+        <errorType/>
+
+        <originalForm>daß</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> <entity>Maria</entity> etwas stehle und rufte sie. <entity>Maria</entity> wollte <gap>_</gap> weglaufen aber sofort kam die <error>
+        <errorType/>
+
+        <originalForm>Polizai</originalForm>
+
+        <targetForm>Polizei</targetForm>
+      </error> und brachte sie <sic>in</sic> Gefängnis für eine Nacht. So verzichtete sie auf dem Abendessen mit ihrem Verlobte<palimpsest/> jetzt ist <entity>Maria</entity> single ...<par/><closing>Viele Grüße<par/>- <entity>Anna</entity> -</closing> </exercise>
+
+    
+  </body>
+</kolipsi_document>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I09_CER02NIN</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo Peter!</greeting><par />Alles klar?<par />Du <error>
+        <errorType />
+
+        <originalForm>weisst</originalForm>
+
+        <targetForm>weißt</targetForm>
+      </error> ja nicht was Maria letze Woche passiert ist. Die Arme... Dabei wollte sie doch nur ihre Einkäufe erledigen. Sie hat mir erzählt, sie sei zum Obsthändler gegangen und habe dort Äpfel und Bananen eingekauft. Irrtümlicherweise hat sie aber beim Bezahlen den Kassezettel vergessen, aber ihr ist nichts aufgefallen. So ist sie später in den Supermarkt gegangen und hat dort <correction>
+        <deletion>unter A</deletion>
+      </correction> einige Sachen eingekauft. Als sie dann alles bezahlt hatte, wies <correction>
+        <deletion>sie die</deletion>
+
+        <insertion>Maria</insertion>
+      </correction> eine <correction>
+        <deletion>E</deletion>
+      </correction> Angestellte darauf hin, sie hätte noch das ganze Obst zu bezahlen. Dabei handelte es sich doch nur um die Einkaufstasche mit den Früchten von vorhin. Maria wusste nicht was sagen, sie suchte vergeblich nach dem Kassazettel, den sie vergessen hatte, und die <correction>
+        <deletion>Ag</deletion>
+      </correction> Angestellte war richtig sauer.<par />Zum Glück hat sich am Ende doch alles noch geklärt: <error>
+        <errorType />
+
+        <originalForm>als</originalForm>
+
+        <targetForm>Als</targetForm>
+      </error> man im Supermarkt die Polizei verständigt hatte, ging Maria in den Obstladen von vorhin um den Wachmännern zu beweisen, dass es alles nur ein Missverständnis war.<par />Ich hoffe doch mal, dass Maria in <correction>
+        <deletion>Zu</deletion>
+      </correction> Zukunft besser aufpassen wird. Lass dich doch mal wieder bei ihr hören, du <error>
+        <errorType />
+
+        <originalForm>weisst</originalForm>
+
+        <targetForm>weißt</targetForm>
+      </error> ja... <correction>
+        <deletion><unreadable /></deletion>
+      </correction> sie vermisst dich.<par /><closing>Liebe Grüße,</closing><par />Sonja</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber Paul,</greeting><par />ich habe deinen Brief in der Zeitung "Junge Woche" gelesen, und ich merke, du brauchst Hilfe. Ich bin jetzt keineTherapeutin oder sonst wer, aber vielleicht schaff ich es ja doch dir einen Rat zu geben.<par />Freundschaften im Internet sind toll, das <error>
+        <errorType />
+
+        <originalForm>weiss</originalForm>
+
+        <targetForm>weiß</targetForm>
+      </error> ich. Man kann mit Menschen in Kontakt treten, die man sonst nicht einfach auf der Straße so ansprechen würde. <error>
+        <errorType />
+
+        <originalForm>Sichelich</originalForm>
+
+        <targetForm>Sicherlich</targetForm>
+      </error> spielt das Vertrauen eine sehr große Rolle, da man sich ja nur in der virtuellen Welt kennt und nicht in echt. Ich finde, dass man deshalb auch mal mit einer dieser Menschen videochatten sollte, um sicher feststellen zu können: "Ja, den gibt's wirklich!". Ich hatte ja selbst einmal eine sehr intime Freundschaft mit einem Mädchen aus Amerika. Wir schrieben echt viel miteinander: <correction>
+        <deletion>Oft</deletion>
+      </correction> oft fünf Stunden am Stück und ich war immer bereit mit ihr an den Wochenenden zu chatten. Du siehst, ich hatte gar keine Zeit mehr für das echte Leben und die reale Welt. So gab es, wie bei dir, auch bei mir eine Menge Streit, besonders mit meinen Eltern. <correction>
+        <deletion><unreadable />an</deletion>
+      </correction> Nach acht Monaten kündigte diese Freundin auf einmal unsere Freundschaft. Natürlich war das ein Stich ins Herz, ich hätte mir das überhaupt nie erwartet!<par />Ich kann mir gut vorstellen, dass es deinen <error>
+        <errorType />
+
+        <originalForm>Internet-Freunden</originalForm>
+
+        <targetForm>Internetfreunden</targetForm>
+      </error> jetzt nicht anders geht als mir damals. Auch wenn du diese Menschen noch nie gesehen hast, sei dir im Klaren, dass es ihnen <correction>
+        <deletion>leid tut</deletion>
+      </correction> schlecht geht. Du kannst ohne weiteres dich mehr auf deine Familie und dein reales Umfeld konzentrieren, aber ich <correction>
+        <deletion>gebe</deletion>
+      </correction> rate dir, es <correction>
+        <deletion>mit</deletion>
+      </correction> deinen <correction>
+        <deletion><unreadable /></deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>Chat-Freunden</originalForm>
+
+        <targetForm>Chatfreunden</targetForm>
+      </error> verständnisvoll zu erklären.<par />Ich hoffe, ich konnte dir irgendwie helfen!<par /><closing>Liebe Grüße,</closing><par />Anja</exercise>
+  </body>
+</kolipsi_II_document>

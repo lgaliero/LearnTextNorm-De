@@ -1,0 +1,48 @@
+<body>
+ <page page_number="1" transcanno_page_id="261">
+  <paragraph class="medium-paragraph" tagcode="1556812671018">
+   <div>
+    <tran_symbol_id32 class="medium-tran_symbol_id32" tagcode="1556812662663" tran_symbol_target="U+2022">
+     •
+    </tran_symbol_id32>
+    Ich nach der Mittelschule mache (
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1553693115915" tran_foreign_word_language="Italian">
+     danza
+    </tran_foreign_word_id13>
+    ) und
+   </div>
+   <div>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553693212417" tran_correction_original="Math*matik">
+     Mathematik
+    </tran_word_correction_id25>
+    lernen
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1556812671020">
+   <div>
+    <tran_symbol_id32 class="medium-tran_symbol_id32" tagcode="1556812666679" tran_symbol_target="U+2022">
+     •
+    </tran_symbol_id32>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553693159924" tran_correction_original="Meine">
+     Mein
+    </tran_word_correction_id25>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553693182247" tran_correction_original="Tr*umberuf">
+     Traumberuf
+    </tran_word_correction_id25>
+    ist Mathematik lernen.
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1556812671022">
+   <div>
+    <tran_symbol_id32 class="medium-tran_symbol_id32" tagcode="1556812671017" tran_symbol_target="U+2022">
+     •
+    </tran_symbol_id32>
+    (
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1553693138474" tran_foreign_word_language="Italian">
+     danza
+    </tran_foreign_word_id13>
+    )
+   </div>
+  </paragraph>
+ </page>
+</body>

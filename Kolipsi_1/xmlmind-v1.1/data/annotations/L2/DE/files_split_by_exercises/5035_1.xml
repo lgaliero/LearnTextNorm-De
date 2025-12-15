@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5035</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve">
+ <par/><greeting>Hallo <entity>Liliana</entity> </greeting> wie geht es dir? Mir geht es ganz gut. Ich habe <error>
+        <errorType/>
+
+        <originalForm>di</originalForm>
+
+        <targetForm>dir</targetForm>
+      </error><palimpsest> unreadable</palimpsest> eine <error>
+        <errorType/>
+
+        <originalForm>e-mail</originalForm>
+
+        <targetForm>E-Mail</targetForm>
+      </error> geschrieben weil <palimpsest>unreadable</palimpsest> es <palimpsest>unreadable</palimpsest> ist <palimpsest>unreadable</palimpsest> eine komische Situation <palimpsest>passiert</palimpsest>. <error>
+        <errorType/>
+
+        <originalForm>Letze</originalForm>
+
+        <targetForm>Letzte</targetForm>
+      </error> Woche war <entity>Maria</entity> einkaufen. Zuerst ging sie in einem Obst- und <error>
+        <errorType/>
+
+        <originalForm>Gemüse Gesch<ambiguous>
+            <alternative>a</alternative>
+
+            <alternative>e</alternative>
+          </ambiguous>ft</originalForm>
+
+        <targetForm>Gemüsegeschäft</targetForm>
+      </error>, und kaufte sie, <error>
+        <errorType/>
+
+        <originalForm>Carotten</originalForm>
+
+        <targetForm>Karotten</targetForm>
+      </error>, Tomaten, Kartoffeln und so weiter. Später ging sie in der Supermarkt, weil sie sollte auch Fleisch, Fisch, Käse, und noch <correction>
+        <insertion>etwas</insertion>
+      </correction> ander<overwrite>
+        <under><unreadable/></under>
+
+        <over>s</over>
+      </overwrite> kaufen. Als sie <error>
+        <errorType/>
+
+        <originalForm>vertig</originalForm>
+
+        <targetForm>fertig</targetForm>
+      </error> war, ging sie an der Kasse. Sie bezahlte ihre Speisen, aber auf <error>
+        <errorType/>
+
+        <originalForm>ein mal</originalForm>
+
+        <targetForm>einmal</targetForm>
+      </error> rufte ihnen die Verkäuferin an und fragte ihnen: <direct_speech>"Was haben Sie in die Tasche? Haben <strikeover>
+          <expansion>S</expansion>
+
+          <expansion>s</expansion>
+        </strikeover>ie <error>
+          <errorType/>
+
+          <originalForm>vielaicht</originalForm>
+
+          <targetForm>vielleicht</targetForm>
+        </error> etwas gestehlen?"</direct_speech> <entity>Maria</entity> schaute sofort in ihre Tasche, und sieht die Gemüse, die sie zuerst gekauft hatte. Sie erklärte alles an die Verkäuferin so entschuldige sie sich mit <entity>Maria</entity>. Glücklich ist alles gut gegangen. <par/><closing>Viele Grüße und viele Küsse <par/> <entity>Denise</entity> </closing> </exercise>
+
+    
+  </body>
+</kolipsi_document>

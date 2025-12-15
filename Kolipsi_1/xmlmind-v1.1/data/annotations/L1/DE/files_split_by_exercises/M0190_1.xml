@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0190</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Ingrid</entity></greeting>,<par/>ich muss dir erzählen was <correction>
+        <deletion>gestern</deletion>
+      </correction> <entity>Maria</entity> <correction>
+        <insertion>letzte Woche</insertion>
+      </correction> passiert ist! Sie hat wie immer beim <error>
+        <errorType/>
+
+        <originalForm>O<correction>
+            <insertion>b</insertion>
+          </correction>st</originalForm>
+
+        <targetForm>Obst-</targetForm>
+      </error> &amp; Gemüseladen an der <entity>Müllerstraße</entity> eingekauft, da wo es die günstigen Äpfel gibt. Dort hat sie jedoch nach ihrem Einkauf ihren Kassenbon vergessen. <correction>
+        <deletion>und</deletion>
+      </correction> Als sie danach in den Supermarkt ging, wurde sie beschuldigt die Sachen, die sie im <error>
+        <errorType/>
+
+        <originalForm>Obst</originalForm>
+
+        <targetForm>Obst-</targetForm>
+      </error> &amp; Gemüseladen gekauft hatte, dort geklaut zu haben. Und da sie den Kassenbon vergessen hatte, musste sie im Detektivbüro des Supermarktes bleiben, bis die freundliche Frau vom Obst- &amp; Gemüseladen extra vorbeikam, den Kassenbon vorbeibrachte und dafür bürgte, dass <entity>Maria</entity> bei ihr <correction>
+        <deletion>war</deletion>
+      </correction> <correction>
+        <insertion>eingekauft hatte</insertion>
+      </correction>. Mensch, war das eine Aufregung!<par/>Also ich habe daraus gelernt, nie meinen Kassenbon zu vergessen und ich rate dir dies auch!<par/><closing>Jedenfalls, wir sehen uns am Samstag, viele Grüße,<par/><entity><par/><par/>Mareike<par/></entity></closing><par/>P.S. Auch die Frau vom Obst- &amp; Gemüseladen wird am Samstag mitkommen, da <entity>Maria</entity> sie eingeladen hat. Sie ist aber auch sehr nett und vielleicht bekommen wir durch sie sogar Rabatte! Wäre das nicht großartig? Ich freue mich, bis dann!        </exercise>
+
+    
+  </body>
+</kolipsi_document>

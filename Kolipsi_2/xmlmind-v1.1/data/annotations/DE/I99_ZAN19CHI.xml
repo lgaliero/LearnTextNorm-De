@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I99_ZAN19CHI</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo Claudia,</greeting><par /><error>
+        <errorType />
+
+        <originalForm>Heute</originalForm>
+
+        <targetForm>heute</targetForm>
+      </error> habe ich Maria gesehen. Sie war um zehn <error>
+        <errorType />
+
+        <originalForm>uhr</originalForm>
+
+        <targetForm>Uhr</targetForm>
+      </error> in einem Obst- und Gemüseladen ein. Ich denke dass Maria <correction>
+        <deletion>hat</deletion>
+      </correction> eine vegetarische <error>
+        <errorType />
+
+        <originalForm>stahrung</originalForm>
+
+        <targetForm>Nahrung</targetForm>
+      </error> beginnt<correction>
+        <deletion>.</deletion>
+      </correction> hat.<par />Dann ich habe <error>
+        <errorType />
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> <correction>
+        <deletion>ein</deletion>
+      </correction> noch <error>
+        <errorType />
+
+        <originalForm>ein mal</originalForm>
+
+        <targetForm>einmal</targetForm>
+      </error> um elf <error>
+        <errorType />
+
+        <originalForm>uhr</originalForm>
+
+        <targetForm>Uhr</targetForm>
+      </error> im Supermarkt gesehen. Wir haben die einige Sache gebraucht <correction>
+        <deletion>und wir</deletion>
+      </correction> aber wenn wir war an die Kasse es gibt ein Problem mit Maria weil sie <correction>
+        <deletion>h<unreadable /></deletion>
+      </correction> hat seine Karte im die <error>
+        <errorType />
+
+        <originalForm>Obst</originalForm>
+
+        <targetForm>Obst-</targetForm>
+      </error> und Gemüseladen vergessen.<par />So <error>
+        <errorType />
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> <correction>
+        <deletion>habe Sie</deletion>
+      </correction> wartete für <error>
+        <errorType />
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> im die Supermarkt weil <error>
+        <errorType />
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> muss in die andere <foreign_word foreign_language="Italiano">Market</foreign_word> zu ihn gehen. In die <error>
+        <errorType />
+
+        <originalForm>ende</originalForm>
+
+        <targetForm>Ende</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> hat mir gesagt dass die <error>
+        <errorType />
+
+        <originalForm>Kassierin<correction>
+            <deletion>e</deletion>
+          </correction></originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> hat es auf die Kasse gelegt<correction>
+        <deletion>.</deletion>
+      </correction> und hat <error>
+        <errorType />
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>zuruck geben</originalForm>
+
+        <targetForm>zurückgeben</targetForm>
+      </error>.<par /><correction>
+        <deletion>Es war eine</deletion>
+      </correction> Ich hab viel gelacht an diese Tag. <correction>
+        <deletion><unreadable /></deletion>
+      </correction><par />Wenn du <correction>
+        <deletion>siest</deletion>
+      </correction> siehst sie sagt ihr nicht dass <error>
+        <errorType />
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> habe <correction>
+        <deletion>dich</deletion>
+      </correction> dir gesagt!<par /><closing>Viel <error>
+          <errorType />
+
+          <originalForm>spass</originalForm>
+
+          <targetForm>Spaß</targetForm>
+        </error>,</closing><par />Chiara</exercise>
+
+    <exercise number="2" xml:space="preserve">paul2000@email.de<par /><greeting>Liebe Paul,</greeting><par />logisch es freue mich nicht dass du diese Probleme hat, ich denke dass was ich sollte mache für diese Problem ist meine Meinung über das geben.<par />Ich denke dass die virtuelle Freundschaft ist nicht eine böse <error>
+        <errorType />
+
+        <originalForm>sache</originalForm>
+
+        <targetForm>Sache</targetForm>
+      </error> <correction>
+        <deletion>aber</deletion>
+      </correction> weil es gibt ihr die Possibilität zu andere Leute zu lernen können aber nicht die alte Freund <correction>
+        <deletion>zu</deletion>
+      </correction> vergessen weil sie sind wichtig als die anderen!<par />Ich denke dass du könntest dein Zeit über alles <correction>
+        <deletion>zu</deletion>
+      </correction> zeichnet.<par />Ich hoffe dass meine <correction>
+        <deletion>m</deletion>
+
+        <insertion>M</insertion>
+      </correction>einung <correction>
+        <deletion>hat</deletion>
+      </correction> dir ein bisschen hilfen hat.<par /><closing><error>
+          <errorType />
+
+          <originalForm>viel</originalForm>
+
+          <targetForm>Viel</targetForm>
+        </error> <correction>
+          <deletion>ku</deletion>
+        </correction> Küssen,</closing><par />Chiara.</exercise>
+  </body>
+</kolipsi_II_document>

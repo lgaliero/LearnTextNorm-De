@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>N7039</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><par/><greeting>Hallo <entity>Luca</entity>!</greeting> Wie geht es? Mir alles gut. <par/>Ich möchte mit dir im Urlaub gehen. Aber ich <error>
+        <errorType/>
+
+        <originalForm>weiss</originalForm>
+
+        <targetForm>weiß</targetForm>
+      </error> nicht wo, ich liebe <palimpsest>unreadable</palimpsest> die Bergen und das Meer gleichsweise, aber ich <error>
+        <errorType/>
+
+        <originalForm>weiss</originalForm>
+
+        <targetForm>weiß</targetForm>
+      </error> nicht was du lieber hast. <par/>Wenn wir ans Meer gehen können wir der ganzen Tag sonnenlieg<palimpsest>e</palimpsest>n, ins Wasser baden, <error>
+        <errorType/>
+
+        <originalForm>wirr</originalForm>
+
+        <targetForm>wir</targetForm>
+      </error> können tauchen oder Wasserski fahren... <error>
+        <errorType/>
+
+        <originalForm>wirr</originalForm>
+
+        <targetForm>Wir</targetForm>
+      </error> können uns entspannen, aber <error>
+        <errorType/>
+
+        <originalForm>dass</originalForm>
+
+        <targetForm>das</targetForm>
+      </error> können wir auch auf die Bergen machen. Auf die Bergen können wir auch Ski/Snowboard/<error>
+        <errorType/>
+
+        <originalForm>Slitte</originalForm>
+
+        <targetForm>Schlitte</targetForm>
+      </error> fahren. Aber dort können wir auch in die Berghütten gehen und typische Gerichte essen, eine gute Luft atmen. <par/>Aber ich <error>
+        <errorType/>
+
+        <originalForm>weiss</originalForm>
+
+        <targetForm>weiß</targetForm>
+      </error> wirklich nicht was du lieber hast, sag mir, wohin möchtest du mit mir gehen? <par/>Ich habe eine Idee, wir können zwei Wochen zusammen gehen, eine Woche gehen wir auf die Bergen, es wurde schön in die <entity>Dolomiten</entity> zu gehen, für mich sind die schönsten Bergen von Europa; und eine Woche können wir ans Meer gehen, Süden von Italien oder in <entity>Griechenland</entity>, i<palimpsest>c</palimpsest>h glaube <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> es wunderschön ist. Das würde einen schö<palimpsest>n</palimpsest>en Urlaub. Oder? <par/>Ich warte auf deine Antwort. <par/>Hab dich lieb. <par/><closing><error>
+          <errorType/>
+
+          <originalForm>Bussi bussi</originalForm>
+
+          <targetForm>Bussi-Bussi</targetForm>
+        </error>. <par/><entity>Natasha</entity> .</closing> </exercise>
+  </body>
+</kolipsi_document>

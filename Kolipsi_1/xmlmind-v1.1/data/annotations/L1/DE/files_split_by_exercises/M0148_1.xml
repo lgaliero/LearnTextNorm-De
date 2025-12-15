@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0148</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Thomas</entity></greeting>,<par/>wie geht es dir? Ich muss dir unbedingt was erzählen! Du <over>k</over>ennst ja noch die <entity>Maria</entity>, ne? Die war letzte Woch<over>e</over> im Obst- und <over>G</over>emüseladen. In diesem Fachgeschäft für <error>
+        <errorType/>
+
+        <originalForm>Bio Lebensmittel</originalForm>
+
+        <targetForm>Biolebensmittel</targetForm>
+      </error> kaufte sie sich einen rein <error>
+        <errorType/>
+
+        <originalForm>Biologisch</originalForm>
+
+        <targetForm>biologisch</targetForm>
+      </error> angebauten, ohne chemische Düngemittel beigesetzten, Kohl aus deutschem Anbau. War die so voll froh weil der übelst lecker war. Das hochqualifizierte Fachpersonal der deutschen Handelskammer für Obst- und Gemüseprodukte bediente sie mit der deutschen,üblichen Freundlichkeit und beriet sie zur richtigen <correction>
+        <deletion>Vorb</deletion>
+      </correction> Zubereitung <sic>einem traditionellem, deutschem</sic> Gemüseeintopfes. Dann ging die weiter in den Supermarkt da um die Ecke, aber hatte halt das Obst so in den Rucksack gesteckt. Da <correction>
+        <deletion>die</deletion>
+      </correction> <correction>
+        <insertion>an den</insertion>
+      </correction> Waren nicht deutlich erkennbar w<over>ar</over> woher diese kamen, hatte d<over>as</over> dortige Kassenpersonal Grund zur Annahme, <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> es sich um einen Diebstahl handle. <correction>
+        <deletion>Naja die <entity>Maria</entity> hat der dann halt</deletion>
+      </correction><par/><error>
+        <errorType/>
+
+        <originalForm>Naja</originalForm>
+
+        <targetForm>Na ja</targetForm>
+      </error> <entity>Maria</entity> hat der dann halt erklärt <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error><sic> die</sic> vorher beim Gemüsehändler war.<par/><closing>Hauste rein!</closing>         </exercise>
+
+    
+  </body>
+</kolipsi_document>

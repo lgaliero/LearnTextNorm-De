@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>4348</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><comment>einzelne Buchstaben, wie h,  g, a, t werden immer groß geschrieben</comment><greeting>Hallo <entity>Luise</entity>!</greeting> <error>
+        <errorType/>
+
+        <originalForm>wie</originalForm>
+
+        <targetForm>Wie</targetForm>
+      </error> geht es dir?? Ich <unreadable/> habe ein Party mit <entity>Maria</entity> gemacht. <par/>Ich erzähle dich was <entity>Maria</entity> gemacht <correction>
+        <deletion><unreadable/></deletion>
+      </correction> hat! <par/><entity>Maria </entity>war letzte Woche einkaufen. Zuerst sie ist in der <error>
+        <errorType/>
+
+        <originalForm>Obst</originalForm>
+
+        <targetForm>Obst-</targetForm>
+      </error> und Gemüseladen gegangen und hat Salat mit viele Tomaten gekauft. Sie hat auch viel Brot gekauft und bald sie hat bezahlt. Danach sie geht in der <foreign_word foreign_language="Italiano">Supermarket</foreign_word>, weil sie Ausgabe machen muss. Sie nimmt ein Einkaufswagen und sie läuft in der <foreign_word foreign_language="Italiano">Supermarkets</foreign_word> Straße. <error>
+        <errorType/>
+
+        <originalForm>sie</originalForm>
+
+        <targetForm>Sie</targetForm>
+      </error> kauft Fleis<correction>
+        <insertion>c</insertion>
+      </correction>h, ein Liter Milch, <correction>
+        <deletion><unreadable/></deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>Müesli</originalForm>
+
+        <targetForm>Müsli</targetForm>
+      </error>, zwei <error>
+        <errorType/>
+
+        <originalForm>Bier dosen</originalForm>
+
+        <targetForm>Bierdosen</targetForm>
+      </error>, drei <error>
+        <errorType/>
+
+        <originalForm>Wasser Flaschen</originalForm>
+
+        <targetForm>Wasserflaschen</targetForm>
+      </error> usw. Sie ist sehr froh. <par/>Sie will zu Hause gehen, weil sie Party prepariert muss. So sie geht in die Kasse und zahlt die <error>
+        <errorType/>
+
+        <originalForm>Prodokte</originalForm>
+
+        <targetForm>Produkte</targetForm>
+      </error> des <sic>Supermarket</sic>. Die <error>
+        <errorType/>
+
+        <originalForm>Kassirerin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> denkt dass die Obst und <correction>
+        <insertion>die</insertion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>Genüse</originalForm>
+
+        <targetForm>Gemüse</targetForm>
+      </error> die in die Tasche von <entity>Maria</entity> sind, sind nicht bezahlt und halten <entity>Maria</entity>. <entity>Maria</entity> sagt dass diese Produkte sind aus ein andere Geschenkt und zeigt der <error>
+        <errorType/>
+
+        <originalForm>Kasserzettel</originalForm>
+
+        <targetForm>Kassenzettel</targetForm>
+      </error>. Alle beide <error>
+        <errorType/>
+
+        <originalForm>isind</originalForm>
+
+        <targetForm>sind</targetForm>
+      </error> froh und lustig. <entity>Maria</entity> kommt nach <error>
+        <errorType/>
+
+        <originalForm>hause</originalForm>
+
+        <targetForm>Hause</targetForm>
+      </error> und erzählt <sic>nich</sic> diese Geschichte. Wir lachen zu viel und danach haben wir alle gekocht. <par/><closing>Bis bald <entity>Luise</entity>! Küsse!</closing> <par/><entity>Ulle Krosten</entity> <correction>
+        <deletion><unreadable/></deletion>
+      </correction> </exercise>
+
+    
+  </body>
+</kolipsi_document>

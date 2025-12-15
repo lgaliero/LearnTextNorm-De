@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I08_KMI29SIL</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Lieber Paul,</greeting><par/>ich will mit dir schreiben über virtuelle Freundschaften und andere <error>
+        <errorType/>
+
+        <originalForm>sachen</originalForm>
+
+        <targetForm>Sachen</targetForm>
+      </error>.<par/>Ich denke dass virtuelle Freundschaften sind <error>
+        <errorType/>
+
+        <originalForm>nich</originalForm>
+
+        <targetForm>nicht</targetForm>
+      </error> echte Freundschaften, weil du konntest nicht so <error>
+        <errorType/>
+
+        <originalForm>wiel</originalForm>
+
+        <targetForm>viel</targetForm>
+      </error> über diese Person wissen. Du konntest nicht <correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>wissen</insertion>
+      </correction> wie sie oder er am echte ausseht, und viele andere Sachen. Ich habe keine virtuelle Freundschaften, aber ich weiß nicht ob eines Tages werde ich habe.<par/>Ich kannte di<correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>r</insertion>
+      </correction> einen Rat geben, dass ist am besser dass du echte Freundschaften machtest und nicht virtu<correction>
+        <deletion>t</deletion>
+
+        <insertion>e</insertion>
+      </correction>lle, weil es ist besser ins Stadt mit Freuden, um einen <error>
+        <errorType/>
+
+        <originalForm>Cafee</originalForm>
+
+        <targetForm>Kaffee</targetForm>
+      </error> trinken gehen, und nicht im Haus stehen und chatten an Computer.<par/>Eine Erfahrung die ich mit Internet gemacht habe, <correction>
+        <deletion>ist</deletion>
+      </correction> war chatten mit meinen Freundinnen und Freundin in Facebook oder Whatsapp, aber ich mit die Personen die ich chatte ich gehe aus in<correction>
+        <deletion>d</deletion>
+
+        <insertion>s</insertion>
+      </correction> der Stadt.<par/><closing>Liebe Grüße</closing><par/>Deine Freundin<par/>Silvia Dardane</exercise>
+  </body>
+</kolipsi_II_document>

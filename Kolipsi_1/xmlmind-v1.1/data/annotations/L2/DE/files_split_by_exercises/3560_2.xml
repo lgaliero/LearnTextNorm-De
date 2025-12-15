@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>3560</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve">
+      <par/><greeting><sic>Lieber</sic> <entity>Elena</entity>,</greeting> <par/>was wollen <strikeover>
+        <expansion>S</expansion>
+
+        <expansion>s</expansion>
+      </strikeover>ie der nächster Urlaub. Wir machen einen Urlaub in <sic>der</sic> Bergen oder einen Urlaub am Meer?<par/>Ein Urlaub in dem Bergen ist sehr schön weil sie sind zu <error>
+        <errorType/>
+
+        <originalForm>kontakt</originalForm>
+
+        <targetForm>Kontakt</targetForm>
+      </error> mit die Natur. Und ein Urlaub in den Bergen nicht viel kostet. Ich habe nicht niemals einen Urlaub in den Bergen gemacht, und so ich will gekommt.<par/>Aber ich liebe einen Urlaub am Meer als einen Urlaub in den Bergen.<par/>Ein Urlaub am Meer ist sehr unterhaltsam und musst viele andere Personen treffen. In einen Urlaub am Meer viele Sport treiben. Ich liebe am Meer gehen.<par/>Und so <entity>Elena</entity> nächster Urlaub wir am Meer gehen.<par/>Ein Urlaub am Meer ist sehr interessant und <correction>
+        <deletion>ich wolle mit dir gekomme</deletion>
+      </correction> sehr schön für Ihre.</exercise>
+  </body>
+</kolipsi_document>

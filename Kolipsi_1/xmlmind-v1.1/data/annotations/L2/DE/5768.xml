@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5768</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve">
+      <par /><greeting>Hallo <entity>Kat<overwrite>
+            <under><unreadable /></under>
+
+            <over>i</over>
+          </overwrite>a</entity>!</greeting> Wie geht es dir? Bei <ambiguous>
+        <alternative>mir</alternative>
+
+        <alternative>uns</alternative>
+      </ambiguous> ist alles in <error>
+        <errorType />
+
+        <originalForm>ordnung</originalForm>
+
+        <targetForm>Ordnung</targetForm>
+      </error>, aber du <error>
+        <errorType />
+
+        <originalForm>weist</originalForm>
+
+        <targetForm>weißt</targetForm>
+      </error> nicht was <entity>Maria</entity> geschehen ist!<par />E<strikeover>
+        <expansion>i</expansion>
+
+        <expansion>e</expansion>
+      </strikeover>ne Woche her, ist sie wie jede Woche einkaufen gegangen. Ihre erste<unreadable /> war in dem Obst- und Gemüseladen. Sie kauft zwar ein <error>
+        <errorType />
+
+        <originalForm>bischen</originalForm>
+
+        <targetForm>bisschen</targetForm>
+      </error> Gemüse und <error>
+        <errorType />
+
+        <originalForm>obst</originalForm>
+
+        <targetForm>Obst</targetForm>
+      </error> ein.<par />Später ging sie <ambiguous>
+        <alternative>im</alternative>
+
+        <alternative>ein</alternative>
+      </ambiguous> <foreign_word foreign_language="Italiano">Supermar<overwrite>
+          <under><unreadable /></under>
+
+          <over>k</over>
+        </overwrite>et</foreign_word> etwas einkaufen. Als sie alles was sie braucht gekauft hat, ging sie an der Kassa. Sie be<overwrite>
+        <under><unreadable /></under>
+
+        <over>z</over>
+      </overwrite>ahlt die Kassierin und geht problemlos <correction>
+        <deletion>zu</deletion>
+      </correction> wieder nach Hause. <error>
+        <errorType />
+
+        <originalForm>Plat<ambiguous>
+            <alternative>s</alternative>
+
+            <alternative>z</alternative>
+          </ambiguous>lich</originalForm>
+
+        <targetForm>Plötzlich</targetForm>
+      </error> schrie die Kassierin verflixt: <direct_speech>"Was soll diese Tasche <unreadable /> sein! Du Dieb, halt dich auf!"</direct_speech> <entity>Maria</entity> <correction>
+        <deletion>was</deletion>
+      </correction> war blass <error>
+        <errorType />
+
+        <originalForm>weis</originalForm>
+
+        <targetForm>weiß</targetForm>
+      </error> im Gesicht und blieb stehen. Die Kassierin wollte dass sie ihr diese Tasche und was darinnen war, <error>
+        <errorType />
+
+        <originalForm>bezhalt</originalForm>
+
+        <targetForm>bezahlt</targetForm>
+      </error>. Maria antwortet, dass sie das Zeug in einem anderen Laden gekauft hatte. Die <correction>
+        <deletion>Kassieri</deletion>
+      </correction> Kassierin wollte nun den Kassenzettel sehen. <error>
+        <errorType />
+
+        <originalForm>Wahrend</originalForm>
+
+        <targetForm>Während</targetForm>
+      </error> <entity>Maria</entity> de<ambiguous>
+        <alternative>m</alternative>
+
+        <alternative>n</alternative>
+      </ambiguous> Kassazettel in alle<ambiguous>
+        <alternative>n</alternative>
+
+        <alternative>m</alternative>
+      </ambiguous> Taschen sucht, erinnerte sie sich dass sie es <sic>ihn</sic> <correction>
+        <deletion><unreadable /></deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>vohrherigen</originalForm>
+
+        <targetForm>vorherigen</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>Gescheft</originalForm>
+
+        <targetForm>Geschäft</targetForm>
+      </error> vergessen hat.<par />Deshalb musste sie die <error>
+        <errorType />
+
+        <originalForm>Gemusen</originalForm>
+
+        <targetForm>Gemüsen</targetForm>
+      </error> und die <sic>Öbste</sic> <correction>
+        <deletion>v</deletion>
+      </correction>wieder be<strikeover>
+        <expansion>z</expansion>
+
+        <expansion>i</expansion>
+      </strikeover>ahlen. Bei dir ist etwas <error>
+        <errorType />
+
+        <originalForm>besonderes</originalForm>
+
+        <targetForm>Besonderes</targetForm>
+      </error> geschehen? <correction>
+        <deletion>Als</deletion>
+      </correction> Wenn es so ist, schreib es mir. Ich warte auf deine <error>
+        <errorType />
+
+        <originalForm>Erlebnise</originalForm>
+
+        <targetForm>Erlebnisse</targetForm>
+      </error>!<par /><par /> <closing><par /><error>
+          <errorType />
+
+          <originalForm>Tschuss</originalForm>
+
+          <targetForm>Tschüss</targetForm>
+        </error><par /><par />Dein <error>
+          <errorType />
+
+          <originalForm>Fre<ambiguous>
+              <alternative>u</alternative>
+
+              <alternative>n</alternative>
+            </ambiguous>d</originalForm>
+
+          <targetForm>Freund</targetForm>
+        </error> <entity>Egon</entity> </closing> </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting><par /><correction>
+          <deletion>Liber <entity>Walter</entity> !</deletion>
+        </correction><par />Hallo <entity>Walter</entity>!</greeting> <par />Ich bin ziemlich <error>
+        <errorType />
+
+        <originalForm>unentsc<ambiguous>
+            <alternative>h</alternative>
+
+            <alternative>l</alternative>
+          </ambiguous>ossen</originalForm>
+
+        <targetForm>unentschlossen</targetForm>
+      </error> wo ich diesem Urla<ambiguous>
+        <alternative>u</alternative>
+
+        <alternative>a</alternative>
+      </ambiguous>b <correction>
+        <deletion>zu</deletion>
+      </correction>  verbringen soll. <error>
+        <errorType />
+
+        <originalForm>könntst</originalForm>
+
+        <targetForm>könntest</targetForm>
+      </error> du mir helfen? Ich <error>
+        <errorType />
+
+        <originalForm>weis</originalForm>
+
+        <targetForm>weiß</targetForm>
+      </error> nicht ob aufs Berg oder am Meer gehen.<par />Im Berge ist die Luft sauberer und kühler als <overwrite>
+        <under><unreadable /></under>
+
+        <over>a</over>
+      </overwrite>m Meer. Die <error>
+        <errorType />
+
+        <originalForm>sicht</originalForm>
+
+        <targetForm>Sicht</targetForm>
+      </error> und das Panorama ist eigenartig. Man kann klettern oder in de<ambiguous>
+        <alternative>n</alternative>
+
+        <alternative>m</alternative>
+      </ambiguous> Höhlen gehen. <strikeover>
+        <expansion>M</expansion>
+
+        <expansion>A</expansion>
+      </strikeover>an<unreadable /> besonderen Blumen. <correction>
+        <deletion>und man kann sie in</deletion>
+      </correction> und der <foreign_word foreign_language="English">rel<overwrite>
+          <under><unreadable /></under>
+
+          <over>a</over>
+        </overwrite>x</foreign_word> ist garantiert. Aber d<ambiguous>
+        <alternative>er</alternative>
+
+        <alternative>as</alternative>
+      </ambiguous> Meer ist nu<ambiguous>
+        <alternative>n</alternative>
+
+        <alternative>r</alternative>
+      </ambiguous> der Meer! Hier kann man schwimmen oder sonnenliegen<correction>
+        <deletion><unreadable /></deletion>
+      </correction>. Man muss sich nicht so anstrengen, um ans Meer zu <error>
+        <errorType />
+
+        <originalForm>faren</originalForm>
+
+        <targetForm>fahren</targetForm>
+      </error>. <error>
+        <errorType />
+
+        <originalForm>Ales</originalForm>
+
+        <targetForm>Alles</targetForm>
+      </error> mögliche<ambiguous>
+        <alternative>n</alternative>
+
+        <alternative>s</alternative>
+      </ambiguous> <correction>
+        <deletion>sport</deletion>
+      </correction> <sic>Wassersports</sic> probieren, <correction>
+        <deletion>wie zu</deletion>
+      </correction> <reduction>
+        <reductionType rType="02 abbreviation" />
+
+        <reducedForm>w.z.B. </reducedForm>
+
+        <unfoldedForm>wie z.B.</unfoldedForm>
+      </reduction> <foreign_word foreign_language="Italiano">Windsurf</foreign_word>, <foreign_word
+        foreign_language="Italiano">surf</foreign_word> , <unreadable /> <error>
+        <errorType />
+
+        <originalForm>u.s.w.</originalForm>
+
+        <targetForm>usw.</targetForm>
+      </error><par />Wie gesagt ich bin ziemlich unentschlossen wo hin fahren. <error>
+        <errorType />
+
+        <originalForm>Währ</originalForm>
+
+        <targetForm>Wäre</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>net</originalForm>
+
+        <targetForm>nett</targetForm>
+      </error> von <error>
+        <errorType />
+
+        <originalForm>dier</originalForm>
+
+        <targetForm>dir</targetForm>
+      </error> wenn du mir ein Platz <strikeover>
+        <expansion>R</expansion>
+
+        <expansion>r</expansion>
+      </strikeover>aten würdest. Bitte <error>
+        <errorType />
+
+        <originalForm>scheibe</originalForm>
+
+        <targetForm>schreibe</targetForm>
+      </error> <correction>
+        <deletion>mir</deletion>
+      </correction> mir, ich brauch <error>
+        <errorType />
+
+        <originalForm>unbedigt</originalForm>
+
+        <targetForm>unbedingt</targetForm>
+      </error> ein Rat. <par /><closing><par /><error>
+          <errorType />
+
+          <originalForm>Aufwiedersehen</originalForm>
+
+          <targetForm>Auf Wiedersehen</targetForm>
+        </error><par /><par />Dein <error>
+          <errorType />
+
+          <originalForm>Fre<ambiguous>
+              <alternative>u</alternative>
+
+              <alternative>n</alternative>
+            </ambiguous>d</originalForm>
+
+          <targetForm>Freund</targetForm>
+        </error> <entity>Adam</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

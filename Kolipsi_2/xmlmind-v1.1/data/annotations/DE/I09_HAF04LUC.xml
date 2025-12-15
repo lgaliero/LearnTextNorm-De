@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I09_HAF04LUC</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo Peter,</greeting><par />du weißt nicht, was m<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>einer</insertion>
+      </correction> <correction>
+        <insertion>Freundin Maria</insertion>
+      </correction> passiert ist. Letzte Woche hatte <correction>
+        <deletion>ich</deletion>
+
+        <insertion>sie</insertion>
+      </correction> Gäste zum Abendessen eingeladen, und deswegen <correction>
+        <deletion>bin ich</deletion>
+
+        <insertion>ist sie</insertion>
+      </correction> einkaufen gegangen. <correction>
+        <deletion>Ich bin</deletion>
+
+        <insertion>Sie ist</insertion>
+      </correction> zuerst zu<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>m</insertion>
+      </correction> Klammsteiner® gegangen, um das Obst für den Nachtisch zu holen. <correction>
+        <deletion>Ich habe</deletion>
+
+        <insertion>Sie hat</insertion>
+      </correction> auch ein bisschen Gemüse genommen, und <correction>
+        <deletion>bin</deletion>
+
+        <insertion>ist</insertion>
+      </correction> dann zum Supemarkt gefahren. Dort <correction>
+        <deletion>habe ich</deletion>
+
+        <insertion>hat sie</insertion>
+      </correction> das Fleisch und die Nudeln gekauft. Aber wenn <correction>
+        <deletion>ich</deletion>
+
+        <insertion>sie</insertion>
+      </correction> an der Kasse war, <correction>
+        <deletion>hat</deletion>
+
+        <insertion>ist</insertion>
+      </correction> die Angestellt<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>i</insertion>
+      </correction>n plötzlich zornig geworden, denn sie dachte, dass <correction>
+        <deletion>ich</deletion>
+
+        <insertion>Maria</insertion>
+      </correction> das Obst und das Gemüse stehlen wollte. <correction>
+        <deletion>Ich habe</deletion>
+
+        <insertion>Maria hat</insertion>
+      </correction> ihr erklärt, dass <correction>
+        <deletion>ich</deletion>
+
+        <insertion>sie</insertion>
+      </correction> das alles irgendwo anders gekauft hatte, aber <correction>
+        <deletion>sie</deletion>
+
+        <insertion>die andere</insertion>
+      </correction> wollte <correction>
+        <deletion>mich</deletion>
+
+        <insertion>ihr</insertion>
+      </correction> unbedingt nicht glauben, und hat den Chef angerufen. Hoffentlich war der Chef freundlich und hat <correction>
+        <deletion>mich</deletion>
+      </correction> sich entschuldet und <correction>
+        <deletion>Maria</deletion>
+      </correction> weggehen lassen. <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Die Angestelltin war aber ziemlich arrogant und unsympathisch und ich hoffe, dass der Chef sie wegschickt hat. Das Abendessen ist am Ende gut gegangen, hat Maria gesagt.<par /><closing>Liebe Grüße,</closing><par />Franz </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Mein lieber Paul,</greeting> du <correction>
+        <deletion>hast dich</deletion>
+
+        <insertion>bist</insertion>
+      </correction> allein in dieses Chaos gelandet. Wenn du eine Lösung willst, dann pass auf, was ich dich jetzt sage, auf. Virtuelle Freundschaften sind, wenn ich <correction>
+        <deletion>das</deletion>
+      </correction> gut verstanden habe, dein großes Problem. Aber, frage ich, bist du <correction>
+        <deletion>mit</deletion>
+      </correction> wirklich mit dieser Art von Unterhaltung zufrieden gewesen? <correction>
+        <deletion>od</deletion>
+      </correction> Es ist gut, neue Personen im Internet kennen zu lernen, aber wenn du dann die ganze Zeit mit Leute, die du nicht kennst, verbringst, <correction>
+        <deletion>wird</deletion>
+      </correction> hast du Diskussionen mit den Leuten die du kennst, und das hast du schon erlebt. Also können virtuelle Freundschaften gefährlich werden. Aber, wenn du dann "für diese Leute lebst", solltest du probieren, diese Leute einmal zu sehen und wirklich kennen zu lernen. So kriegt das ganze ein Sinn, und so wird <correction>
+        <insertion>das</insertion>
+      </correction> Chatten etwas <error>
+        <errorType />
+
+        <originalForm>nützliches</originalForm>
+
+        <targetForm>Nützliches</targetForm>
+      </error> und nicht nur eine Art Zeit zu verbringen. Mir ist auch etwas <error>
+        <errorType />
+
+        <originalForm>ähnliches</originalForm>
+
+        <targetForm>Ähnliches</targetForm>
+      </error> passiert, und dann, wenn ich entscheidet habe, diese Person, mit der ich gechattet hatte, zu treffen, habe ich gesehen, <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> sie sehr anders war als wie ich dachte. Wir sind aber trotzdem echte Freunde geworden, und sind noch jetzt in Kontakt. Also, Paul, lasse <correction>
+        <insertion>das</insertion>
+      </correction> Chatten nicht dein Leben zerstören und beginne die echte Freundschaften zu wollen. Ich hoffe, dass du dein Problem lösen kannst.<par /><closing>Bis bald,</closing> Ted<par />teddybär69@hotmail.com</exercise>
+  </body>
+</kolipsi_II_document>

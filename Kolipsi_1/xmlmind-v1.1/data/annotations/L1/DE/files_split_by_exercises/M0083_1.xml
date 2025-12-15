@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0083</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Jonas</entity></greeting>,<par/>wie geht es dir? Ich hoffe<correction>
+        <deletion><unreadable/></deletion>
+      </correction> doch gut!<par/>Ich schreibe dir, weil ich dir erzählen wollte, was meiner Freundin <entity>Maria</entity> heute passiert ist.<par/>Zuerst wollte sie beim Obsthändler ein paar Dinge einkaufen, was auch kein Problem <error>
+        <errorType/>
+
+        <originalForm>darsteltte</originalForm>
+
+        <targetForm>darstellte</targetForm>
+      </error>, <correction>
+        <deletion>Je</deletion>
+      </correction> jedoch fiel ihr daraufhin ein, dass sie noch einmal <correction>
+        <deletion>zum</deletion>
+      </correction> in den Supermarkt muss.<par/>Sie musste sich ziemlich beeilen, da sie mit den Sachen, die sie einkaufen wollte, noch das Essen vorbereiten musste. Als sie dann endlich alles in ihrem Einkaufswagen hatte und damit zügig zur Kasse ging, fiel ihr genau beim <overwrite>
+        <under>a</under>
+
+        <over>A</over>
+      </overwrite>uflegen der Einkäufe auf das Band ein, dass sie gar kein Geld mehr dabei hat, da sie alles beim Obsthändler ausgegeben hat.<par/>Die Frau an der Kasse war sichtlich verärgert, da hinter <entity>Maria</entity> noch eine Menge <sic>anderer</sic> Kunden stand<correction>
+        <insertion>en</insertion>
+      </correction> und sie erst <correction>
+        <deletion>eim<unreadable/></deletion>
+      </correction> einmal alles wieder wegräumen musste. Das hat eine Weile gedauert. Ist dir auch schon einmal so etwas <error>
+        <errorType/>
+
+        <originalForm>peinliches</originalForm>
+
+        <targetForm>Peinliches</targetForm>
+      </error> passiert?<par/>Die arme <entity>Maria</entity>!<par/>Ich würde mich sehr über eine Antwort freuen!<par/>Hoffentlich sehen wir uns bald mal wieder!<par/><closing><correction>
+          <deletion><unreadable/></deletion>
+        </correction> <entity><emphasis>Tina</emphasis></entity>    </closing>     </exercise>
+
+    
+  </body>
+</kolipsi_document>

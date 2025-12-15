@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I03_IAS02MEL</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo Sara!</greeting><par />Wie geht es dir?<par />Heute hat Maria eine sehr komische Erfahrung gehabt, und ich wollte dir die Geschichte erzählen!<par />Maria ist in einem Obst- und Gemüseladen gegangen um etwas einzukaufen: <error>
+        <errorType />
+
+        <originalForm>sie</originalForm>
+
+        <targetForm>Sie</targetForm>
+      </error> hat alles was sie brauchte genommen, an<correction>
+        <deletion>o</deletion>
+      </correction> der Kasse bezahlt und die Tasche mit der Gemüse gefüllt. Eine Stunde später war sie im Supermarkt, und als sie ihre Einkaufen zum Ende <correction>
+        <deletion><unreadable /></deletion>
+      </correction> gebracht hat, ist sie an der Kassa gegangen. Dort gab es ein Problem: <error>
+        <errorType />
+
+        <originalForm>die</originalForm>
+
+        <targetForm>Die</targetForm>
+      </error> Verkäuferin dachte, dass Maria die Gemüse gestohlen hat!<par />Maria hat gesagt, dass sie die Gemüse im Obst- und Gemüseladen gekauft hat, aber die Verkäuferin hat Maria nicht geglaubt und deshalb musste sie die Gemüse eine zweite Mal bezahlen!<par />Was denkst du <correction>
+        <deletion><unreadable /></deletion>
+      </correction> über diese Geschichte? Ich finde sie echt lustig!<par /><closing>Ich warte auf <correction>
+          <deletion><unreadable /></deletion>
+        </correction> dein Antwort!<par />Liebe Grüße,</closing><par />Melanie</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo Paul,</greeting><par /><correction>
+        <deletion><unreadable /></deletion>
+      </correction> ich habe mit großem Interesse <correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>dein</insertion>
+      </correction> Bericht in der Rubrik "Persönliche Briefe" gelesen und wollte dir meine Meinung nach sagen.<par />Ich glaube, dass virtuelle Freundschaften sehr interessant sind: <error>
+        <errorType />
+
+        <originalForm>man</originalForm>
+
+        <targetForm>Man</targetForm>
+      </error> kann neue Menschen kennenlernen, sich mit anderen Kulturen beschäftigen und auch ein bisschen den Zeit verbringen, <correction>
+        <deletion><unreadable /></deletion>
+      </correction> aber die echte Freundschaften sind <correction>
+        <deletion><unreadable /></deletion>
+      </correction> wichtiger.. Ich habe auch neu<correction>
+        <deletion>n</deletion>
+
+        <insertion>e</insertion>
+      </correction> Menschen, beim <error>
+        <errorType />
+
+        <originalForm>chatten</originalForm>
+
+        <targetForm>Chatten</targetForm>
+      </error>, kennengelernt aber ich habe nicht nur für sie gelebt.<par />Ich denke dass du dein Zeit besser teilen soll<correction>
+        <insertion>test</insertion>
+      </correction>, das <correction>
+        <deletion>B</deletion>
+
+        <insertion>b</insertion>
+      </correction>edeutet, dass du solltest mit deine <correction>
+        <deletion>Freunde</deletion>
+      </correction> "Internet-Freunde" chatten aber auch mit andere Freunden etwas unternehmen.<par />Zum Beispiel, könntest am Nachmittag mit deine echte Freunden ein Spaziergang machen, und am Abend mit die virtuelle Freunden chatten!<par />Ich finde, dass du an die Nachrichten antworten solltest und dich entschuldigen für das was du gemacht hast! Es ist nicht so schlimm, ich glaube dass alles gut gehen kann und, dass deine Freunde dich verstehen werden!<correction>
+        <deletion><unreadable /></deletion>
+      </correction> Ich hoffe, dass deine Freunde dich verstehen werden!<par /><closing>Grüße,</closing><par />Melanie</exercise>
+  </body>
+</kolipsi_II_document>

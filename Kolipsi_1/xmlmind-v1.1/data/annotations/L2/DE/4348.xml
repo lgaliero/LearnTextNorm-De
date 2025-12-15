@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Romy</transcriber>
+
+  <author_id>4348</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><comment>einzelne Buchstaben, wie h,  g, a, t werden immer groß geschrieben</comment><greeting>Hallo <entity>Luise</entity>!</greeting> <error>
+        <errorType />
+
+        <originalForm>wie</originalForm>
+
+        <targetForm>Wie</targetForm>
+      </error> geht es dir?? Ich <unreadable /> habe ein Party mit <entity>Maria</entity> gemacht. <par />Ich erzähle dich was <entity>Maria</entity> gemacht <correction>
+        <deletion><unreadable /></deletion>
+      </correction> hat! <par /><entity>Maria </entity>war letzte Woche einkaufen. Zuerst sie ist in der <error>
+        <errorType />
+
+        <originalForm>Obst</originalForm>
+
+        <targetForm>Obst-</targetForm>
+      </error> und Gemüseladen gegangen und hat Salat mit viele Tomaten gekauft. Sie hat auch viel Brot gekauft und bald sie hat bezahlt. Danach sie geht in der <foreign_word
+        foreign_language="Italiano">Supermarket</foreign_word>, weil sie Ausgabe machen muss. Sie nimmt ein Einkaufswagen und sie läuft in der <foreign_word
+        foreign_language="Italiano">Supermarkets</foreign_word> Straße. <error>
+        <errorType />
+
+        <originalForm>sie</originalForm>
+
+        <targetForm>Sie</targetForm>
+      </error> kauft Fleis<correction>
+        <insertion>c</insertion>
+      </correction>h, ein Liter Milch, <correction>
+        <deletion><unreadable /></deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>Müesli</originalForm>
+
+        <targetForm>Müsli</targetForm>
+      </error>, zwei <error>
+        <errorType />
+
+        <originalForm>Bier dosen</originalForm>
+
+        <targetForm>Bierdosen</targetForm>
+      </error>, drei <error>
+        <errorType />
+
+        <originalForm>Wasser Flaschen</originalForm>
+
+        <targetForm>Wasserflaschen</targetForm>
+      </error> usw. Sie ist sehr froh. <par />Sie will zu Hause gehen, weil sie Party prepariert muss. So sie geht in die Kasse und zahlt die <error>
+        <errorType />
+
+        <originalForm>Prodokte</originalForm>
+
+        <targetForm>Produkte</targetForm>
+      </error> des <sic>Supermarket</sic>. Die <error>
+        <errorType />
+
+        <originalForm>Kassirerin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> denkt dass die Obst und <correction>
+        <insertion>die</insertion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>Genüse</originalForm>
+
+        <targetForm>Gemüse</targetForm>
+      </error> die in die Tasche von <entity>Maria</entity> sind, sind nicht bezahlt und halten <entity>Maria</entity>. <entity>Maria</entity> sagt dass diese Produkte sind aus ein andere Geschenkt und zeigt der <error>
+        <errorType />
+
+        <originalForm>Kasserzettel</originalForm>
+
+        <targetForm>Kassenzettel</targetForm>
+      </error>. Alle beide <error>
+        <errorType />
+
+        <originalForm>isind</originalForm>
+
+        <targetForm>sind</targetForm>
+      </error> froh und lustig. <entity>Maria</entity> kommt nach <error>
+        <errorType />
+
+        <originalForm>hause</originalForm>
+
+        <targetForm>Hause</targetForm>
+      </error> und erzählt <sic>nich</sic> diese Geschichte. Wir lachen zu viel und danach haben wir alle gekocht. <par /><closing>Bis bald <entity>Luise</entity>! Küsse!</closing> <par /><entity>Ulle Krosten</entity> <correction>
+        <deletion><unreadable /></deletion>
+      </correction> </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo <error>
+          <errorType />
+
+          <originalForm>Liebe</originalForm>
+
+          <targetForm>liebe</targetForm>
+        </error> <entity>Krosten</entity>!</greeting> <par />Wie geht es dir? Ich bin <correction>
+        <deletion><unreadable /></deletion>
+      </correction> froh, weil die Ferien bald beginnen. Dieser Sommer fahre ich nach <entity>Madrid</entity>, in <foreign_word
+        foreign_language="English">Spain</foreign_word>. Da habe ich vielen Freunden. Ich kenne eine argentinische Familie, die <correction>
+        <deletion>sind</deletion>
+      </correction> in <foreign_word foreign_language="English">Spain</foreign_word> letzte Jahr angekommen sind. Ich kenne sie von vielen Jahre, weil sie viele Mal in <entity>Bozen</entity> gekommen sind. In die Karneval Ferien bin ich mit meine Freundin in <entity>Madrid</entity> gefahren. <entity>Madrid</entity> ist die Hauptstadt von <foreign_word
+        foreign_language="English">Spain</foreign_word>. Es ist sehr schön und lustig. <error>
+        <errorType />
+
+        <originalForm>wir</originalForm>
+
+        <targetForm>Wir</targetForm>
+      </error> haben viele Monumenten gesehen aber meine Lieblingsmonument ist der Park von <entity>Retiro</entity>. Es ist ein Größe Park wo die <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Königin und der König ausruhen können. <error>
+        <errorType />
+
+        <originalForm>wir</originalForm>
+
+        <targetForm>Wir</targetForm>
+      </error> sind ein Woche in <entity>Madrid</entity> geblieben und es ist phantastisch! Ich will diese Sommer noch gehen, weil ich nur wenige Monument gesehen habe. <palimpsest>I</palimpsest>m August, wenn meine Mutter Urlaub habe, gehe ich mit sie ans Meer. Wir gehen in <foreign_word
+        foreign_language="English">Egypt</foreign_word>. Auch der letzte Jahr waren sie in <foreign_word
+        foreign_language="English">Egypt</foreign_word> gefahren. Diese<strikeover>
+        <expansion>s</expansion>
+
+        <expansion>r</expansion>
+      </strikeover> Jahr fahren wir von <entity>München</entity> ab. Wir nehmen der Flugzeug am Nachmittag und seit zwei Stunden <correction>
+        <deletion>sind wir</deletion>
+      </correction> fahren wir ab. Ich mag nicht sehr des rotes Meer aber meine Mutter liebe die Wärme Temperatur und in <sic>Ägypt</sic> ist immer sehr warm, auch das Meer ist immer warm. Ins Meer gibt es die <error>
+        <errorType />
+
+        <originalForm>Korallenrieef</originalForm>
+
+        <targetForm>Korallenriff</targetForm>
+      </error>. <error>
+        <errorType />
+
+        <originalForm>da</originalForm>
+
+        <targetForm>Da</targetForm>
+      </error> gibt es viele bunte Fische. <par /><error>
+        <errorType />
+
+        <originalForm>bis</originalForm>
+
+        <targetForm>Bis</targetForm>
+      </error><closing> bald! <par />Viele Grüße und Küsse! <par /><entity>Maria</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

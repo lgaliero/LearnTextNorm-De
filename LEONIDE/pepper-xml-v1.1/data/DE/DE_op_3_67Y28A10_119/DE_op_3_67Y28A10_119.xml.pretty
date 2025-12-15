@@ -1,0 +1,75 @@
+<body>
+ <page page_number="1" transcanno_page_id="2517">
+  <paragraph class="medium-paragraph" tagcode="1556546846306">
+   <div>
+    Ich möchte Mechaniker nach der Mittelschule
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="machen" tagcode="1556546846305">
+     mochen
+    </orth_error_id12>
+    .
+   </div>
+   <div>
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1551768357435">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1551768360147" tran_word_deletion_target="_#_">
+      *
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+    Mein Traumberuf ist ein Artist .
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1551768394449" tran_correction_original="o**r">
+     oder
+    </tran_word_correction_id25>
+    ein
+   </div>
+   <div>
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1551768408215">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1551768410518" tran_word_deletion_target="_#_">
+      *
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1551768477191" tran_correction_original="Fußball spieler">
+     Fußballspieler
+    </tran_word_correction_id25>
+    .
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1556546846307">
+   <div>
+    Ich muss dafür
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Italienisch" tagcode="1551768521097">
+     italienisch
+    </orth_error_id12>
+    und
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1551768432285">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1551768438066" tran_word_deletion_target="_#_">
+      *
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1551768435445">
+     Kunst
+    </tran_word_insertion_id9>
+    lernen.
+   </div>
+   <div>
+    Ich muss
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1551768488328" tran_correction_original="lernen">
+     <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1556546789122" tran_alternative_1="lerne" tran_alternative_2="lernen">
+      lerne
+     </tran_ambiguous_id3>
+    </tran_word_correction_id25>
+    <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1551768562954" tran_alternative_1="scienze" tran_alternative_2="Scienze">
+     <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1551768568875" tran_foreign_word_language="Italian">
+      <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1551768583314" tran_correction_original="s**enze">
+       scienze
+      </tran_word_correction_id25>
+     </tran_foreign_word_id13>
+    </tran_ambiguous_id3>
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1551768463123">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1551768466047" tran_word_deletion_target="_#_">
+      *
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+    und Mathematik.
+   </div>
+  </paragraph>
+ </page>
+</body>

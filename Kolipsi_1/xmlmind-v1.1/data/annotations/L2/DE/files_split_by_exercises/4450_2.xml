@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>4450</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve">
+ <par/><greeting>Liebe <entity>Angela</entity>,</greeting> <par/><error>
+        <errorType/>
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> weiß<palimpsest> </palimpsest> nicht wer <palimpsest>gehe</palimpsest>n diesen Sommer. <palimpsest>Ich muss</palimpsest> <error>
+        <errorType/>
+
+        <originalForm>währen</originalForm>
+
+        <targetForm>wählen</targetForm>
+      </error> als die Berge oder die Meer. Ich <error>
+        <errorType/>
+
+        <originalForm>dencke</originalForm>
+
+        <targetForm>denke</targetForm>
+      </error> dass, in beiden <arrow end="open" id="1"> </arrow> gibt es <arrow end="head" id="1">viele Dingen</arrow>. In die Bergen ich liebe Ski fahren, <error>
+        <errorType/>
+
+        <originalForm>snowbording</originalForm>
+
+        <targetForm>Snowboarding</targetForm>
+      </error>, gehen spazieren und spielen mit die Sc<palimpsest>hnee</palimpsest> Am Meer ich liebe <error>
+        <errorType/>
+
+        <originalForm>swimmen</originalForm>
+
+        <targetForm>schwimmen</targetForm>
+      </error>, Sonne teilen, klettern und so... Ich bin <error>
+        <errorType/>
+
+        <originalForm>unterschiede</originalForm>
+
+        <targetForm>Unterschiede</targetForm>
+      </error>!<par/>Ich wohne nach <entity>Livigno</entity>, <palimpsest>e</palimpsest>ine Berge <error>
+        <errorType/>
+
+        <originalForm>Dorft</originalForm>
+
+        <targetForm>Dorf</targetForm>
+      </error> und so ich <error>
+        <errorType/>
+
+        <originalForm>d<overwrite>
+            <under><unreadable/></under>
+
+            <over>e</over>
+          </overwrite>ncke</originalForm>
+
+        <targetForm>denke</targetForm>
+      </error> dass ist besser am Meer. Und für gehen am Meer ich habe eine <palimpsest>g</palimpsest>üten <error>
+        <errorType/>
+
+        <originalForm>Freundinen</originalForm>
+
+        <targetForm>Freundinnen</targetForm>
+      </error>. Letzte Jahre ich in <entity>Scharm-el-Scheik</entity> wäre. Es <palimpsest>war</palimpsest> fantastisch mit meine <error>
+        <errorType/>
+
+        <originalForm>Freundinen</originalForm>
+
+        <targetForm>Freundinnen</targetForm>
+      </error>. Ich liebe die Wärme. Ja, auch die Berge ist <error>
+        <errorType/>
+
+        <originalForm>schöme</originalForm>
+
+        <targetForm>schöne</targetForm>
+      </error> aber ein Urlaub am Meer ist schön alles <error>
+        <errorType/>
+
+        <originalForm>Yahre</originalForm>
+
+        <targetForm>Jahre</targetForm>
+      </error>. Für die Berge ich liebe meine <error>
+        <errorType/>
+
+        <originalForm>Dor<overwrite>
+            <under>t</under>
+
+            <over>f</over>
+          </overwrite>t</originalForm>
+
+        <targetForm>Dorf</targetForm>
+      </error>, ist ein <sic>Turistischen</sic> <error>
+        <errorType/>
+
+        <originalForm>Do<palimpsest>rft</palimpsest></originalForm>
+
+        <targetForm>Dorf</targetForm>
+      </error> und für alle <error>
+        <errorType/>
+
+        <originalForm>Yahre</originalForm>
+
+        <targetForm>Jahre</targetForm>
+      </error> gibt es viele Personen. In Winter du kannst Ski fahren, <error>
+        <errorType/>
+
+        <originalForm>snowwbording</originalForm>
+
+        <targetForm>Snowboarding</targetForm>
+      </error>, gehen mit <foreign_word foreign_language="English">Horses</foreign_word> und viele <error>
+        <errorType/>
+
+        <originalForm>Schnee Aktivität</originalForm>
+
+        <targetForm>Schneeaktivität</targetForm>
+      </error>. In Sommer du kannst gehen spazieren, <error>
+        <errorType/>
+
+        <originalForm>schopping</originalForm>
+
+        <targetForm>Shopping</targetForm>
+      </error>, gibt es viele Geschäfte. <closing><par/>Viele <error>
+          <errorType/>
+
+          <originalForm>Grüse</originalForm>
+
+          <targetForm>Grüße</targetForm>
+        </error> <par/> <entity>Giorgia</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

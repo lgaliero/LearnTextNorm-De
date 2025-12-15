@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>4660</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve">
+ <par /><greeting>Hallo <entity>Mari</entity></greeting>,<par />wie geht es dir? Mir geht´s gut!<par />Was hast du in diesen Tagen gemacht? Weißt du was <correction>
+        <deletion>is ist</deletion>
+      </correction> <entity>Maria</entity> passiert ist? Ich w<strikeover>
+        <expansion>o</expansion>
+
+        <expansion>i</expansion>
+      </strikeover>ll<correction>
+        <deletion>ten</deletion>
+      </correction> <correction>
+        <deletion>jetzt</deletion>
+      </correction> dir erzählen. Also, sie war letzte Woche einkaufen. Sie kaufte zuerst in einem Obst- und Gemüseladen ein und bis jetzt ist nichts passiert. Eine Stunde später war sie im Supermarkt.<par />Im Supermarkt <arrow
+        end="head" id="1">hat</arrow> <arrow end="open" id="1">sie</arrow> eine Flasche Wein, eine<correction>
+        <deletion>n</deletion>
+      </correction> Konfezion <error>
+        <errorType />
+
+        <originalForm>Corn-Flakes</originalForm>
+
+        <targetForm>Cornflakes</targetForm>
+      </error>, Fleisch und Eier<correction>
+        <deletion>n</deletion>
+      </correction> <correction>
+        <insertion>eingekauft</insertion>
+      </correction>. Sie war ruhig bis <correction>
+        <deletion>wann</deletion>
+      </correction> sie an <overwrite>
+        <under><unreadable /></under>
+
+        <over>die</over>
+      </overwrite> Kasse angekomm<overwrite>
+        <under><unreadable /></under>
+
+        <over>en</over>
+      </overwrite> ist. Dort gab es <correction>
+        <deletion><unreadable /></deletion>
+      </correction> ein Problem. Sie hat <correction>
+        <deletion><unreadable /></deletion>
+      </correction> alles was sie <correction>
+        <insertion>in <foreign_word foreign_language="Italiano">Supermarket</foreign_word> </insertion>
+      </correction>gekauft hat bezahlt <correction>
+        <deletion>und</deletion>
+      </correction>, sie war beim <error>
+        <errorType />
+
+        <originalForm>weggehen</originalForm>
+
+        <targetForm>Weggehen</targetForm>
+      </error>, <correction>
+        <deletion>wenn</deletion>
+
+        <insertion>als ihr</insertion>
+      </correction> die Verkäuferin <correction>
+        <deletion>sie</deletion>
+      </correction> sagte dass sie die Handtasche öffnen musste <correction>
+        <deletion>weil es war von es</deletion>
+
+        <insertion>sah sie</insertion>
+      </correction> die <correction>
+        <deletion>Ge</deletion>
+      </correction> Spargeln. Die Verkäuferin <correction>
+        <deletion>hat gedenkt</deletion>
+
+        <insertion>dachte</insertion>
+      </correction> dass sie sie <error>
+        <errorType />
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hat weil<correction>
+        <deletion>e</deletion>
+      </correction> sie bei ihr keinen Spargeln bezahlt hat aber sie h<correction>
+        <deletion>ä</deletion>
+
+        <insertion>a</insertion>
+      </correction>tte sie schon<correction>
+        <deletion>vor</deletion>
+      </correction> bei Obst- und Gemüseladen <correction>
+        <deletion>sie</deletion>
+      </correction> bezahlen.<par /><correction>
+        <deletion>S Maria</deletion>
+      </correction> So hat <entity>Maria</entity> d<correction>
+        <deletion>as</deletion>
+
+        <insertion>en</insertion>
+      </correction> Kass<correction>
+        <deletion>a</deletion>
+
+        <insertion>a<correction>
+            <deletion>n</deletion>
+          </correction></insertion>
+      </correction>zettel <correction>
+        <deletion>gezahlt und die Verkäuferin hat</deletion>
+      </correction> gesucht, aber sie hatte ihn beim Obst- und Gemüseladen. <correction>
+        <deletion>vergessen so</deletion>
+      </correction> vergessen<correction>
+        <deletion>sie h müsste alles war sie beim Obst und Gemüse was sie davor gekauft hat im Supermarket gelasst und sie ist nach Hause</deletion>
+      </correction><par /><error>
+        <errorType />
+
+        <originalForm>Glücklicherweiße</originalForm>
+
+        <targetForm>Glücklicherweise</targetForm>
+      </error> hatte sie den Waagezettel so k<correction>
+        <deletion>ö</deletion>
+
+        <insertion>o</insertion>
+      </correction>nnte sie nach Hause gehen.</exercise>
+
+    <exercise number="2" xml:space="preserve">
+ <par /><greeting>Hallo <entity>Mari</entity> </greeting> <par />wie geht es dir?<correction>
+        <deletion>Mir gehts gut!</deletion>
+      </correction><par />Also wann<correction>
+        <deletion>m</deletion>
+      </correction> gehen wir zusammen im Urlaub? Ich bin schon zum Reisebüro gegangen um zu fragen für zweie Ziele: am Meer und <correction>
+        <deletion>am</deletion>
+      </correction> in den Bergen Wo möchtest du am liebsten <correction>
+        <insertion>hin</insertion>
+      </correction> gehen? Ich <sic>vorzie</sic> am liebsten das Meer aber wenn wir <correction>
+        <deletion>nach</deletion>
+
+        <insertion>in</insertion>
+      </correction> die Bergen fahren <correction>
+        <deletion>dann</deletion>
+
+        <insertion><correction>
+            <deletion>da</deletion>
+          </correction> dann</insertion>
+      </correction> <correction>
+        <deletion>dort</deletion>
+
+        <insertion><correction>
+            <deletion>dort k</deletion>
+          </correction></insertion>
+      </correction> können wir eine sehr saubere Luft schnaufen. Ich gerne besser <correction>
+        <deletion>den</deletion>
+
+        <insertion>ans</insertion>
+      </correction> Meer weil ich <correction>
+        <deletion>möchte</deletion>
+      </correction> die <error>
+        <errorType />
+
+        <originalForm>wärme</originalForm>
+
+        <targetForm>Wärme</targetForm>
+      </error> möchte<par />Ich wohne schon <correction>
+        <deletion>wo</deletion>
+      </correction> in d<correction>
+        <deletion>ee</deletion>
+
+        <insertion>en</insertion>
+      </correction> Bergen, <correction>
+        <deletion>aber</deletion>
+      </correction> wenn du <correction>
+        <deletion>beim</deletion>
+      </correction> mir fahren willst, ich freue mich, ohne <error>
+        <errorType />
+
+        <originalForm>geld</originalForm>
+
+        <targetForm>Geld</targetForm>
+      </error> zu ausgeben.<par /><correction>
+        <deletion>A Wen</deletion>
+      </correction> Wenn wir entscheiden <correction>
+        <deletion>zum</deletion>
+
+        <insertion>ans</insertion>
+      </correction> Meer zu fahren <arrow end="open" id="1">habe</arrow> <arrow
+        end="head" id="1">ich</arrow> <correction>
+        <deletion>s g</deletion>
+      </correction>gefragt für <correction>
+        <deletion>Cuba</deletion>
+      </correction> einen Woche in <entity> Cuba </entity> zu <correction>
+        <deletion>spenden</deletion>
+
+        <insertion>verbringen</insertion>
+      </correction> und ist nicht so teuer.<par />Aber wenn du irgendwo am liebsten gehst, du musstest mir nur sagen.<par />Es ist besser wenn wir am Meer <correction>
+        <deletion>feh</deletion>
+      </correction> fliegen, weißt du wie vielen Sachen <correction>
+        <deletion>ko</deletion>
+      </correction> machen können wie <correction>
+        <deletion>am</deletion>
+      </correction> Sonnenliegen, <foreign_word foreign_language="Italiano"><error>
+          <errorType />
+
+          <originalForm>Beachvolley</originalForm>
+
+          <targetForm>Beach volley</targetForm>
+        </error></foreign_word> spielen, im Wasser spielen und in <entity>Cuba</entity> sind vielen Pubs und <error>
+        <errorType />
+
+        <originalForm>Diskote<correction>
+            <deletion>ck</deletion>
+          </correction>ke</originalForm>
+
+        <targetForm>Diskotheke</targetForm>
+      </error>. <error>
+        <errorType />
+
+        <originalForm>Gef<overwrite>
+            <under><unreadable /></under>
+
+            <over>e</over>
+          </overwrite>ällt</originalForm>
+
+        <targetForm>Gefällt</targetForm>
+      </error> dir meine Idee?</exercise>
+  </body>
+</kolipsi_document>

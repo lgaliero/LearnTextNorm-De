@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I29_TAF07MEG</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe Anna,</greeting><par />wie geht es dir? Heute habe ich <correction>
+        <deletion><unreadable /></deletion>
+      </correction> in Zentrum Maria getroffen. Wir sind im einem Bar <correction>
+        <deletion>z</deletion>
+
+        <insertion>f</insertion>
+      </correction>ür ein Kaffee gegangen und sie hat mir erzählt was ihr passiert ist. Sie <correction>
+        <deletion><unreadable /></deletion>
+      </correction> ist <correction>
+        <deletion>an den</deletion>
+      </correction> beim Obsthändler gegangen, hat Obst und <error>
+        <errorType />
+
+        <originalForm>gemüse</originalForm>
+
+        <targetForm>Gemüse</targetForm>
+      </error> gekaufen und <error>
+        <errorType />
+
+        <originalForm>wen</originalForm>
+
+        <targetForm>wenn</targetForm>
+      </error> sie bezahlt <correction>
+        <deletion>habe</deletion>
+      </correction> hat, sie hat die Geldtasche <correction>
+        <deletion>vergessen</deletion>
+      </correction> an die Kasse vergessen. <error>
+        <errorType />
+
+        <originalForm>Wen</originalForm>
+
+        <targetForm>Wenn</targetForm>
+      </error> sie im Supermarkt gehen und hat <foreign_word
+        foreign_language="English">milk</foreign_word>, <error>
+        <errorType />
+
+        <originalForm>brot</originalForm>
+
+        <targetForm>Brot</targetForm>
+      </error> und <error>
+        <errorType />
+
+        <originalForm>pasta</originalForm>
+
+        <targetForm>Pasta</targetForm>
+      </error> gekauft sie g<correction>
+        <deletion>e</deletion>
+
+        <insertion>i</insertion>
+      </correction>ng an die Kasse und hat <error>
+        <errorType />
+
+        <originalForm>bemärkt</originalForm>
+
+        <targetForm>bemerkt</targetForm>
+      </error>, dass sie die Geldtas<correction>
+        <deletion>s</deletion>
+
+        <insertion>c</insertion>
+      </correction>he beim Obsthändler vergessen. Sie musst alle an den Supermarkt verlassen und beim Obsthändler ging zu nehmen <correction>
+        <deletion>s</deletion>
+      </correction> die Geldtasche. Später sie ist beim Supermarkt zurückgehen und hat den <error>
+        <errorType />
+
+        <originalForm>einkauft</originalForm>
+
+        <targetForm>Einkauft</targetForm>
+      </error> bezahlt.<par />Was hast du gemacht?<par /><closing>Mit freundlichen <error>
+          <errorType />
+
+          <originalForm>grüße</originalForm>
+
+          <targetForm>Grüße</targetForm>
+        </error>,</closing><par />Megi.</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo Paul,</greeting><par />auch ich wie dich habe<correction>
+        <deletion><unreadable /></deletion>
+      </correction> eine endliche <error>
+        <errorType />
+
+        <originalForm>erpfahrung</originalForm>
+
+        <targetForm>Erfahrung</targetForm>
+      </error> gehabt und dann ich verstehe dir.<par />Ich <correction>
+        <deletion>bin</deletion>
+      </correction> habe mit alle diese Menschen <error>
+        <errorType />
+
+        <originalForm>schliessen</originalForm>
+
+        <targetForm>schließen</targetForm>
+      </error>. Ich habe ein Kochkurs gemacht und da ich habe viele <error>
+        <errorType />
+
+        <originalForm>virchlike</originalForm>
+
+        <targetForm>wirkliche</targetForm>
+      </error> Personen getroffen und mit sie <error>
+        <errorType />
+
+        <originalForm>freundschaft</originalForm>
+
+        <targetForm>Freundschaft</targetForm>
+      </error> machen.<par />Ich empfehle dir zu ein Kurs oder was dir gefällt machen.<par /> <closing>Mit freundlichen <error>
+          <errorType />
+
+          <originalForm>grüße</originalForm>
+
+          <targetForm>Grüßen</targetForm>
+        </error>,</closing><par />Megi.</exercise>
+  </body>
+</kolipsi_II_document>

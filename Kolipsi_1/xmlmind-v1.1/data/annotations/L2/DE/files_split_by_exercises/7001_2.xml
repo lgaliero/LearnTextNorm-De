@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>N7001</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve">
+ <par/><greeting>Hallo <entity>Matteo</entity>,</greeting> <par/>ich scheibe dir ein Brief weil ich muss weiße wo <error>
+        <errorType/>
+
+        <originalForm>konnen</originalForm>
+
+        <targetForm>können</targetForm>
+      </error> wir <error>
+        <errorType/>
+
+        <originalForm>fähren</originalForm>
+
+        <targetForm>fahren</targetForm>
+      </error> für unsere Urlaub. Ich habe schon vielen Ort geschaut, aber ich kann nicht <sic>entscheide</sic> zwischen Bergen oder Meer; was <sic>bevorzugt</sic> du? Ich denke dass am Meer wir haben: das Strand, Meer und warme Tage; aber in die Bergen wir haben die Natur, der Wald und windige Tagen... Aber wir wohnen in <entity>Südtirol</entity> und hier wir sind in <error>
+        <errorType/>
+
+        <originalForm>mitte</originalForm>
+
+        <targetForm>Mitte</targetForm>
+      </error> den Bergen also ich denke dass wir können ans Meer fahren, ich liebe sehr das Meer und ans Meer wir können brennen uns! <correction>
+        <deletion>So</deletion>
+      </correction> Lass es mich wissen was du wollte mache will ich muss <correction>
+        <deletion><unreadable/></deletion>
+      </correction> das Hotel vormerken. <closing>Ich hab dich <error>
+          <errorType/>
+
+          <originalForm>Lieb</originalForm>
+
+          <targetForm>lieb</targetForm>
+        </error>, antworte mir bis bald, <error>
+          <errorType/>
+
+          <originalForm>tschuss</originalForm>
+
+          <targetForm>tschüss</targetForm>
+        </error>, <entity>Nicole B</entity> .</closing> </exercise>
+  </body>
+</kolipsi_document>

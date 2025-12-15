@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>4439</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve">
+ <par /><greeting>Hallo <entity>Peter</entity>,</greeting> <par />wie geht es dir? <palimpsest>M</palimpsest>ir gut... Heute will ich über etwas <error>
+        <errorType />
+
+        <originalForm>neu</originalForm>
+
+        <targetForm>Neu</targetForm>
+      </error> sprechen; ich will dir erzählen, was <palimpsest>letzte W</palimpsest>oche in einem Supermarkt passiert ist. Ich weiß es nicht,<palimpsest> a</palimpsest>ber die Personen, die in Geschäften arbeiten, sind nicht mehr nett.<par />Letzte Woche ist meine Freundin <entity>Maria</entity> in einem Super<hyphen>-</hyphen>markt gegangen; die Frau, die an der Kasse arbeitete, hat sie sich geärgert ohne sichere G<palimpsest>r</palimpsest>unde.<par />Die Frau hat gedacht, dass <entity>Maria</entity> nicht alles bezahlen wollte: <entity>Maria</entity> hatte etwas <palimpsest>a</palimpsest>ndere schon in ihrem Sack, weil ist sie bevor <palimpsest>in</palimpsest> <palimpsest>ein</palimpsest>en Obst- und Gemüse<hyphen>-</hyphen>laden gegangen. Sie hat<palimpsest> </palimpsest> Äpfel, Zitronen, Bananen,... gekauft aber sie hat den Kassenzettel vergessen. Wenn sie in den Supermarkt gegangen ist, hat die Frau gedacht, dass <entity>Maria</entity> Äpfel.... nicht bezahlen wollte... <palimpsest>Maria</palimpsest> hatte nicht den Kassenzettel und sie konnte nicht schauen der Frau, dass sie schon bezahlt hatte... Es war eine <error>
+        <errorType />
+
+        <originalForm>Katastrofe</originalForm>
+
+        <targetForm>Katastrophe</targetForm>
+      </error>!<par />Ist das möglich? Was denkst du <entity>Peter</entity>?<par /><closing>Viele Grüße!</closing> </exercise>
+
+    <exercise number="2" xml:space="preserve">
+ <par /><greeting>Liebe <entity>Markus</entity>,</greeting> <par /><error>
+        <errorType />
+
+        <originalForm>Wie</originalForm>
+
+        <targetForm>wie</targetForm>
+      </error> geht es dir? Mir gut. Ich will dir schreiben, weil der Sommer in der Nähe ist... Wir müssen entscheiden, wo wir <palimpsest>fahr</palimpsest>en wollen... Müssen wir in die Berge oder ans Meer fahren?<par />Wir müssen sagen, dass es viele Dinge in den Berge wie <palimpsest>a</palimpsest>m Meer zu machen gibt. Am Mee<palimpsest>r</palimpsest> können wir zur Strand gehen wo wir können unten dem Sonne liegen, schlafen, Volleyball spielen und schwimmen. Dort können wir faulenzen!!!<par />Keine Sorge und kein<palimpsest> </palimpsest> Sport! Nur essen und schlafen! Am Abend können wir spazieren gehen, weil die Geschäften <palimpsest>geö</palimpsest>ffnet sind, und auch in die Disco gehen: <error>
+        <errorType />
+
+        <originalForm>dort</originalForm>
+
+        <targetForm>Dort</targetForm>
+      </error> können wir neue Freunden <palimpsest>kennen</palimpsest>lernen...<par />Wenn wir in die Berge fahren, ist die Situation nicht gleich! Wir müssen aktiv sein: Sport machen, klettern und wandern... immer in Bewegung!<par />Der Landschaft ist sehr schön und wir müssen nicht die Möglichkeit unter der Natur bleiben verl<palimpsest>ie</palimpsest>ren! Was denkst du <entity>Markus</entity> ? Was willst du machen?<par />Ich warte deine Antwort.<par /> <closing>Bis später.<par />Deine <entity>Katrin</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

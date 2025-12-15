@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0166</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo meine liebe <entity>Louisa</entity></greeting>,<par/>ich hoffe, dass es <palimpsest>d</palimpsest>ir gut geht.<par/>Ich muss dir was über meine Freundin <entity>Maria</entity> erzählen.<par/>Letzte Woche war sie erst beim <correction>
+        <deletion>Ost</deletion>
+      </correction> Obsthändler einkaufen. Dort hat sie ihren Kassenbon vergessen. Später im Supermarkt hat sie noch weitere Sachen eingekauft. In ihrer Tasche hatte sie noch <correction>
+        <deletion>die Sachen</deletion>
+      </correction> ihren Einkauf vom Obsthändler. An der Kasse im Supermarkt wurde sie von der <error>
+        <errorType/>
+
+        <originalForm>Kassierin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> auf die Sachen in ihrer Tasche aufmerksam <correction>
+        <insertion>gemacht</insertion>
+      </correction>. <entity><palimpsest>M</palimpsest>aria</entity> konnte ihr leider nicht nachweisen, dass der Einkauf aus einem anderen Laden stammt. <error>
+        <errorType/>
+
+        <originalForm>Darauf hin</originalForm>
+
+        <targetForm>Daraufhin</targetForm>
+      </error> gab es heftigen Ärger. <correction>
+        <insertion>Bitte vergesse nie deinen Kassenbon. <error>
+            <errorType/>
+
+            <originalForm>Gegebenfalls</originalForm>
+
+            <targetForm>Gegebenenfalls</targetForm>
+          </error><sic> kanns</sic> du damit Stress und Ärger vermeiden.</insertion>
+      </correction><par/><par/><closing>Ich wünsche dir noch ein schönes Wochenende!<par/><par/>Deine Freundin</closing>      </exercise>
+
+    
+  </body>
+</kolipsi_document>

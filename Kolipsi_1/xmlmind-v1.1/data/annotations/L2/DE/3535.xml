@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>3535</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve">Eines Tages, geht <entity>Maria</entity> zum Obsthändler. Sie möchte Möhren, Kartoffeln, Salat und Tomaten kaufen. Sie nimmt alles was sie braucht und <sic>geh</sic> an der Kasse zu zahlen. Sie <error>
+        <errorType />
+
+        <originalForm>grüsst</originalForm>
+
+        <targetForm>grüßt</targetForm>
+      </error> der Verkäuferin und geht weg. Sie erinnert sich, dass sie kein Milch und kein Brot nach Hause hat, deswegen entscheidet sie in der Supermarkt zu gehen.<par />Dort ist sie mit der Tasche mit den Produkten dass sie bein Obsthändler gekauft hatte. Als sie an de<overwrite>
+        <under>e</under>
+
+        <over>r</over>
+      </overwrite> Kasse geht, schaut die Verkäuferin sie an. <entity>Maria</entity> versteht nicht warum die Verkäuferin diese Blick hat.<par />Die Verkäuferin sagt <entity>Maria</entity>, <correction>
+        <deletion>dass</deletion>
+      </correction> die Tasche zu öffnen. <entity>Maria</entity> war erstaunt. Endlich versteht <entity>Maria</entity> was ist passiert. Die Frau denkte dass <entity>Maria</entity>, den anderen Produkte <error>
+        <errorType />
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hatte. <entity>Maria</entity> gibt der Kassenzettel an und die beide machten eine große Lachen.</exercise>
+
+    <exercise number="2" xml:space="preserve">
+      <par /><greeting>Hallo <entity>Klaus</entity>,</greeting> <par />wie geht es dir?<par />Mir geht es gut. Die Schule ist zum Glück jetzt geendet.<par />Diese Sommer würde ich eine Reise machen, aber ich <error>
+        <errorType />
+
+        <originalForm>weiss</originalForm>
+
+        <targetForm>weiß</targetForm>
+      </error> noch nicht ob in die Berge oder ans Meer zu fahren. Am Meer <arrow
+        end="head" id="1">es</arrow> ist <arrow end="open" id="1"></arrow> immer ein schöner Wetter, aber vielleicht es ist zu warm für mich. Ins <error>
+        <errorType />
+
+        <originalForm>gebierge</originalForm>
+
+        <targetForm>Gebirge</targetForm>
+      </error> es gibt auch ein schöner Wetter, aber es gibt keine Schwüle und ist mehr erfrischt. <par />Dort habe ich ein Haus und es hat ein wunderbare Anblick.<par />Voriges Jahr bin ich nach <entity>Griechenland</entity> gefahren. <error>
+        <errorType />
+
+        <originalForm>und</originalForm>
+
+        <targetForm>Und</targetForm>
+      </error> es war ein herrliche Reise. Ich amüsierte mich so viel, dass ich eine andere Mal dort gehen will.<par />Das Land in die Berge wo ich das Haus habe, heißt <entity>Corvara</entity>: <error>
+        <errorType />
+
+        <originalForm>es</originalForm>
+
+        <targetForm>Es</targetForm>
+      </error> befindet sich in <entity>Badiatal</entity>. Im Sommer kommen hunderten Touristen und das bringt vielen Unterhaltungen.<par />Liebe <entity>Klaus</entity>, ich bin noch sehr unsicher, ob in die Berge oder ans Meer zu fahren. Jetzt du möchtet entscheiden! <emoticon>=)</emoticon> <par /><closing>Bis <error>
+          <errorType />
+
+          <originalForm>Bald</originalForm>
+
+          <targetForm>bald</targetForm>
+        </error>,<par /><par />deine <entity>Markus</entity> .</closing> </exercise>
+  </body>
+</kolipsi_document>

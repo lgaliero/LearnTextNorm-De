@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I14_RIG29DEB</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo Francesca,</greeting><par />Maria <correction>
+        <deletion>heute</deletion>
+      </correction> die <error>
+        <errorType />
+
+        <originalForm>letzete</originalForm>
+
+        <targetForm>letzte</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>woche</originalForm>
+
+        <targetForm>Woche</targetForm>
+      </error> <reduction>
+        <reductionType rType="01 contraction" />
+
+        <reducedForm>geht´s</reducedForm>
+
+        <unfoldedForm>geht es</unfoldedForm>
+      </reduction> in <error>
+        <errorType />
+
+        <originalForm>supermarkt</originalForm>
+
+        <targetForm>Supermarkt</targetForm>
+      </error> und sie einkaufen, aber eine Stunde später war sie im <foreign_word foreign_language="Italiano">Supermarket</foreign_word> und gab es ein Problem an der Kasse.<par />Also Maria hat in Supermarkt eine Brot, <error>
+        <errorType />
+
+        <originalForm>pizza</originalForm>
+
+        <targetForm>Pizza</targetForm>
+      </error>, und <error>
+        <errorType />
+
+        <originalForm>wasser</originalForm>
+
+        <targetForm>Wasser</targetForm>
+      </error> einkaufen, und die Kösten war 10.00 €. Maria hat zu geben 10 € und die Kasse hat die Resten 5 € geben.<par />Später Maria auf den Zettel hat gesehen, dass die <error>
+        <errorType />
+
+        <originalForm>resten</originalForm>
+
+        <targetForm>Resten</targetForm>
+      </error> ist nicht richtig, so Maria geht wieder einmal in <foreign_word foreign_language="Italiano">Supermarket</foreign_word>.<par />Wenn sie in <foreign_word foreign_language="Italiano">Supermarket</foreign_word>, <correction>
+        <deletion><unreadable /></deletion>
+      </correction> geht <correction>
+        <deletion><unreadable /></deletion>
+      </correction> in die Kasse zu sprachen, aber sie sagt: Kann nicht andere <error>
+        <errorType />
+
+        <originalForm>geld</originalForm>
+
+        <targetForm>Geld</targetForm>
+      </error> zu geben, weil sie <error>
+        <errorType />
+
+        <originalForm>waiss</originalForm>
+
+        <targetForm>weiß</targetForm>
+      </error> nicht, Maria sagt die realische.<par />Maria hat zu gesehen die Zettel, und die Kassieren hat zu sagen: Du hast<par /><closing><error>
+          <errorType />
+
+          <originalForm>Aufidersehen</originalForm>
+
+          <targetForm>Auf Wiedersehen</targetForm>
+        </error>.</closing></exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo Paul,</greeting><par />wie gehest es dir?<par />Ich habe seine <error>
+        <errorType />
+
+        <originalForm>E-mail</originalForm>
+
+        <targetForm>E-Mail</targetForm>
+      </error> gelesen, und du hast eine große <error>
+        <errorType />
+
+        <originalForm>problem</originalForm>
+
+        <targetForm>Problem</targetForm>
+      </error>. Meine persönlische denke, die <error>
+        <errorType />
+
+        <originalForm>Virtuelle</originalForm>
+
+        <targetForm>virtuelle</targetForm>
+      </error> Freundschaften ist nicht gut, weil du <error>
+        <errorType />
+
+        <originalForm>weisst</originalForm>
+
+        <targetForm>weißt</targetForm>
+      </error> nicht, wie ist.<par />Meine Meinung über des Internetst ist nicht schön. Einmal es gibt nicht Internet, und die Menschen lieben sehr gut. Spielen mit <error>
+        <errorType />
+
+        <originalForm>fusßball</originalForm>
+
+        <targetForm>Fußball</targetForm>
+      </error>, lesen <error>
+        <errorType />
+
+        <originalForm>buch</originalForm>
+
+        <targetForm>Buch</targetForm>
+      </error>, suchen die <error>
+        <errorType />
+
+        <originalForm>worter</originalForm>
+
+        <targetForm>Worter</targetForm>
+      </error> in <foreign_word foreign_language="Italiano"><error>
+          <errorType />
+
+          <originalForm>Dizionary</originalForm>
+
+          <targetForm>Dizionario</targetForm>
+        </error></foreign_word>, hören <error>
+        <errorType />
+
+        <originalForm>musick</originalForm>
+
+        <targetForm>Musik</targetForm>
+      </error> mit dem Radio <error>
+        <errorType />
+
+        <originalForm>ecc</originalForm>
+
+        <targetForm>etc.</targetForm>
+      </error>; aber heute ist nicht so.<par />Heute die viele Menschen spielen mit dem Handy oder <error>
+        <errorType />
+
+        <originalForm>ipod/ipad</originalForm>
+
+        <targetForm>iPod/iPad</targetForm>
+      </error>, lesen nicht mehr, aber <error>
+        <errorType />
+
+        <originalForm>wen</originalForm>
+
+        <targetForm>wenn</targetForm>
+      </error> die <error>
+        <errorType />
+
+        <originalForm>menschen</originalForm>
+
+        <targetForm>Menschen</targetForm>
+      </error> lesen, lesen auf die Tablet, suchen die <error>
+        <errorType />
+
+        <originalForm>worter</originalForm>
+
+        <targetForm>Worter</targetForm>
+      </error> oder eine <correction>
+        <deletion><unreadable /></deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>conzette</originalForm>
+
+        <targetForm>Konzept</targetForm>
+      </error> in Wikipedia, und hören <error>
+        <errorType />
+
+        <originalForm>musick</originalForm>
+
+        <targetForm>Musik</targetForm>
+      </error> mit dem <error>
+        <errorType />
+
+        <originalForm>Ipohd</originalForm>
+
+        <targetForm>iPod</targetForm>
+      </error>. Heute die Menschen schreiben mit dem <error>
+        <errorType />
+
+        <originalForm>Wahapp</originalForm>
+
+        <targetForm>Whatsapp</targetForm>
+      </error>, oder <error>
+        <errorType />
+
+        <originalForm>E-mail</originalForm>
+
+        <targetForm>E-Mail</targetForm>
+      </error>, <correction>
+        <deletion><unreadable /></deletion>
+      </correction> und Facebook.<par />Einmal die Menschen <error>
+        <errorType />
+
+        <originalForm>sc<correction>
+            <deletion>r</deletion>
+          </correction>hraiben</originalForm>
+
+        <targetForm>schreiben</targetForm>
+      </error> dem Brief, und <reduction>
+        <reductionType rType="01 contraction" />
+
+        <reducedForm>geht´s</reducedForm>
+
+        <unfoldedForm>geht es</unfoldedForm>
+      </reduction> <correction>
+        <deletion><unreadable /></deletion>
+      </correction> mehr aus mit <error>
+        <errorType />
+
+        <originalForm>freunden</originalForm>
+
+        <targetForm>Freunden</targetForm>
+      </error>, oder ins Kino <error>
+        <errorType />
+
+        <originalForm>ecc.</originalForm>
+
+        <targetForm>etc.</targetForm>
+      </error> Heute wir machen alles mit <error>
+        <errorType />
+
+        <originalForm>internet</originalForm>
+
+        <targetForm>Internet</targetForm>
+      </error>;<par />- Einkaufen <correction>
+        <deletion><unreadable /></deletion>
+      </correction> im Internet<par />- lesen<par />- suchen die Informationen<par />-chatten mit Freund<par />- <error>
+        <errorType />
+
+        <originalForm>ecc.</originalForm>
+
+        <targetForm>etc.</targetForm>
+      </error><par />Also ich habe meine Meinung zu geben, und <unreadable /> du was denken?<par /><closing><error>
+          <errorType />
+
+          <originalForm>Aufwieders</originalForm>
+
+          <targetForm>Auf Wiedersehen</targetForm>
+        </error></closing>, Paul</exercise>
+  </body>
+</kolipsi_II_document>

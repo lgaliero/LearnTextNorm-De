@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I07_ZYB02ANI</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Lieber Paul,</greeting><par/><error>
+        <errorType/>
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> habe nie wie eine Erfahrung gehabt, sondern chattiere ich nicht online und <correction>
+        <deletion>libbe mehr <unreadable/>m</deletion>
+      </correction> spende meine <error>
+        <errorType/>
+
+        <originalForm>frei Zeit</originalForm>
+
+        <targetForm>Freizeit</targetForm>
+      </error> mit meine realen Freunde.<par/>Du darfst nie mehr online mit <correction>
+        <deletion>on</deletion>
+      </correction> nicht gekannte Freunden chattieren, sogar wenn <error>
+        <errorType/>
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> schöne <error>
+        <errorType/>
+
+        <originalForm>Madchen</originalForm>
+
+        <targetForm>Mädchen</targetForm>
+      </error> sind.<par/>Jetzt kannst du deine Leben besser organisieren, nimm Zeit <correction>
+        <deletion>um</deletion>
+      </correction> in eine <foreign_word foreign_language="English">Gym</foreign_word> zu gehen oder geh <correction>
+        <deletion>Fusball</deletion>
+      </correction> spiel Fußball: <error>
+        <errorType/>
+
+        <originalForm>beim</originalForm>
+
+        <targetForm>Beim</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>Sport Aktivität</originalForm>
+
+        <targetForm>Sportaktivität</targetForm>
+      </error> macht <error>
+        <errorType/>
+
+        <originalForm>mann</originalForm>
+
+        <targetForm>man</targetForm>
+      </error> viele Freunde (sondern gute Freunden).<par/>Wenn du die Sporten nicht magst, nimm <error>
+        <errorType/>
+
+        <originalForm>Tail</originalForm>
+
+        <targetForm>teil</targetForm>
+      </error> in die <error>
+        <errorType/>
+
+        <originalForm>Stadtliche</originalForm>
+
+        <targetForm>stadtliche</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>Lebe</originalForm>
+
+        <targetForm>Leben</targetForm>
+      </error>, geh immer an die Partys das <error>
+        <errorType/>
+
+        <originalForm>aleine</originalForm>
+
+        <targetForm>alleine</targetForm>
+      </error> Fremde organisieren um neue Person kennenzulernen.<par/>Wenn du diese <error>
+        <errorType/>
+
+        <originalForm>Moglichkeiten</originalForm>
+
+        <targetForm>Möglichkeiten</targetForm>
+      </error> nicht magst, ruf <correction>
+        <deletion>a<unreadable/></deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>uberall</originalForm>
+
+        <targetForm>überall</targetForm>
+      </error> deine Stadt und find ein Arbeit, sondern bist du keine <error>
+        <errorType/>
+
+        <originalForm>sauerstoff verwend<correction>
+            <deletion>e</deletion>
+
+            <insertion>u</insertion>
+          </correction>ng</originalForm>
+
+        <targetForm>Sauerstoffverwendung</targetForm>
+      </error>.<par/>Die letzte Möglichkeit (<correction>
+        <deletion>dieses</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>wahl</originalForm>
+
+        <targetForm>wähl</targetForm>
+      </error> dieses wenn du keine anderes <correction>
+        <deletion>m completicon</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>wahlen</originalForm>
+
+        <targetForm>wählen</targetForm>
+      </error> will) ist zu dem <error>
+        <errorType/>
+
+        <originalForm>Psycologen</originalForm>
+
+        <targetForm>Psychologen</targetForm>
+      </error> zu gehen, geb am besten schenk deine Körper an der Wissenschaft.<par/> <par/><closing>Viele <error>
+          <errorType/>
+
+          <originalForm>Grüse</originalForm>
+
+          <targetForm>Grüße</targetForm>
+        </error>,</closing><par/>Ein Freund</exercise>
+  </body>
+</kolipsi_II_document>

@@ -1,0 +1,50 @@
+<body>
+ <page page_number="1" transcanno_page_id="893">
+  <paragraph class="medium-paragraph" tagcode="1527268456827">
+   <div>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1526743945740" tran_word_deletion_target="_#_">
+     2
+    </tran_word_deletion_id8>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1526743951598" tran_word_deletion_target="_#_">
+     lernen
+    </tran_word_deletion_id8>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="studieren" tagcode="1526744011964">
+     studiren
+    </orth_error_id12>
+    und ich
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1526743980565" tran_correction_original="wiederholen">
+     wiederhole
+    </tran_word_correction_id25>
+    manchmal
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1527268456829">
+   <div>
+    3) Wiederhole
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1526744030312" tran_correction_original="functioniert">
+     funktioniert
+    </tran_word_correction_id25>
+    gut
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1526744038786" tran_word_deletion_target="_#_">
+     warum
+    </tran_word_deletion_id8>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1527268456826">
+     weil
+    </tran_word_insertion_id9>
+    ich nicht vergisst
+   </div>
+   <div>
+    schreiben
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1526744237537">
+     *ezte
+    </tran_unreadable_id17>
+    weil ich besser merke
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1527268456830">
+   <div>
+    4
+   </div>
+  </paragraph>
+ </page>
+</body>

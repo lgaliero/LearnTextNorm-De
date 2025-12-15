@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5880</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><entity>Maria</entity> <correction>
+        <deletion>letzte Woche</deletion>
+      </correction> ist letzte Woche einkaufen gegangen. Am Morgen hat sie Obst und Gemüse gekauft. Später ist sie im Supermak<overwrite>
+        <over>t</over>
+
+        <under>e</under>
+      </overwrite> gegangen. Dort hat sie etwas <sic>anderst</sic> gekauft. Wenn ist sie an der Kasse gegangen, gab es ein Problem: <error>
+        <errorType/>
+
+        <originalForm>sie</originalForm>
+
+        <targetForm>Sie</targetForm>
+      </error> hat nicht all<correction>
+        <insertion>e</insertion>
+      </correction>s bezahlt <correction>
+        <deletion><unreadable/></deletion>
+      </correction> und so die <error>
+        <errorType/>
+
+        <originalForm>frau</originalForm>
+
+        <targetForm>Frau</targetForm>
+      </error> von der Kasse hat sie gefragt warum zahlt sie nicht alles. <entity>Maria</entity> am Anfang hat nicht verstanden, aber nach einigen Sekunden hat sie sich erinnert dass sie früher auch Obst und Gemüse gekauft hat. So jetzt gab es dieses Problem. <entity>Maria</entity> sagt <correction>
+        <deletion><unreadable/></deletion>
+      </correction> dass sie früher auch Obst und Gemüse gekauft hat. <par/>Aber die Fr<unreadable/> von Supermarkt glaubte sie nicht und so hat sie den Direktor <sic>geruft</sic> <correction>
+        <deletion>en</deletion>
+      </correction>. Der Direktor fragt <entity>Maria</entity> wo <correction>
+        <deletion>ist</deletion>
+      </correction> das Problem ist. <entity>Maria</entity> antwortet dass sie das Obst und das Gemüse i<overwrite>
+        <over>m</over>
+
+        <under>n</under>
+      </overwrite> Obsthändler gekauft hat Der <error>
+        <errorType/>
+
+        <originalForm>direktor</originalForm>
+
+        <targetForm>Direktor</targetForm>
+      </error> fra<strikeover>
+        <expansion>g</expansion>
+
+        <expansion>t</expansion>
+      </strikeover> sie das Kassazettel. <entity>Maria</entity> zeigt ihm und so d<overwrite>
+        <over>a</over>
+
+        <under><unreadable/></under>
+      </overwrite> sie wieder l<overwrite>
+        <over>a</over>
+
+        <under><unreadable/></under>
+      </overwrite>ss gehen. <par/><closing>Viele Grüße</closing></exercise>
+
+    
+  </body>
+</kolipsi_document>

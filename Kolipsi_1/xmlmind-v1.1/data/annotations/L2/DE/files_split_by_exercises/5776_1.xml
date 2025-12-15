@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5776</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve">
+      <par/><greeting>Liebe <entity>Amanda</entity>,</greeting> <par/><error>
+        <errorType/>
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> mochte dir <correction>
+        <deletion>eine</deletion>
+      </correction> erzählen was meine Freundin <entity>Maria</entity> <error>
+        <errorType/>
+
+        <originalForm>pssiert</originalForm>
+
+        <targetForm>passiert</targetForm>
+      </error> ist. Letzte Woche <correction>
+        <deletion>geht sie</deletion>
+      </correction> ist sie in ein Obst- Gemüseladen gegangen. <entity>Maria</entity> kauft welche Produkte. Eine Stunde sp<strikeover>
+        <expansion>ä</expansion>
+
+        <expansion>ö</expansion>
+      </strikeover>ter geht sie im Supermarkt. Sie nimmt viele Konfektione und bringt sie zur Kasse. Wenn<correction>
+        <deletion>s</deletion>
+      </correction> <entity><overwrite>
+          <under>s</under>
+
+          <over>M</over>
+        </overwrite>aria</entity> alles gezahlt hat, nimmt sie <correction>
+        <deletion>seine</deletion>
+      </correction> ihre Produkte und <correction>
+        <deletion>legt</deletion>
+      </correction> legt sie in die <error>
+        <errorType/>
+
+        <originalForm>Tasce</originalForm>
+
+        <targetForm>Tasche</targetForm>
+      </error>. <correction>
+        <deletion><unreadable/></deletion>
+      </correction> Meine Freundin möchtet <error>
+        <errorType/>
+
+        <originalForm>weg gehen</originalForm>
+
+        <targetForm>weggehen</targetForm>
+      </error> aber die Verkäuferin haltet sie. Die <correction>
+        <deletion>Fer</deletion>
+      </correction> Verkäuferin ärgert <correction>
+        <deletion>sich</deletion>
+      </correction> sich mit <entity>Maria</entity> <correction>
+        <deletion>von</deletion>
+      </correction> weil sie meint dass meine Freundin etwas gest<correction>
+        <deletion>ö</deletion>
+
+        <insertion>o</insertion>
+      </correction>hlen hat. Die Verkäuferin <correction>
+        <deletion><unreadable/></deletion>
+      </correction> nimmt der Telefon und <correction>
+        <deletion>sie ft</deletion>
+      </correction> <correction>
+        <deletion>an</deletion>
+      </correction> ruft die Polizei an. Nach ein <error>
+        <errorType/>
+
+        <originalForm>Paar</originalForm>
+
+        <targetForm>paar</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>minuten</originalForm>
+
+        <targetForm>Minuten</targetForm>
+      </error> sind die Polizisten in Supermarkt. <correction>
+        <deletion>So wird sie ist jetzt</deletion>
+      </correction> <entity>Maria</entity> wurde in die <error>
+        <errorType/>
+
+        <originalForm>Zentral</originalForm>
+
+        <targetForm>Zentrale</targetForm>
+      </error> gebracht <correction>
+        <deletion>,</deletion>
+      </correction>. <correction>
+        <deletion>auch</deletion>
+      </correction>Meine Freunde hat aber nicht gestohlen, die Verkäuferin hat die <error>
+        <errorType/>
+
+        <originalForm>Produckte</originalForm>
+
+        <targetForm>Produkte</targetForm>
+      </error> <correction>
+        <deletion>von</deletion>
+      </correction> die sie früher <error>
+        <errorType/>
+
+        <originalForm>gekaukt</originalForm>
+
+        <targetForm>gekauft</targetForm>
+      </error> gesehen, so hat sie <correction>
+        <deletion>gemeint</deletion>
+      </correction> gemeint dass sie gestohlen hat.<par/>Jetzt ist <entity>Maria</entity> in <error>
+        <errorType/>
+
+        <originalForm>Gefängniss</originalForm>
+
+        <targetForm>Gefängnis</targetForm>
+      </error>.<par/><correction>
+        <deletion>Liebe Grüße</deletion>
+      </correction> <closing><error>
+          <errorType/>
+
+          <originalForm>Bye Bye</originalForm>
+
+          <targetForm>Bye-bye</targetForm>
+        </error> <entity>Ugo Joh Jep Jep</entity> </closing> </exercise>
+
+    
+  </body>
+</kolipsi_document>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>N7024</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><par/><greeting>Lieber Freund,</greeting><par/>bald werden wir im Sommer sein, und die Schule wird <palimpsest><unreadable/></palimpsest><correction>
+        <insertion>bald</insertion>
+      </correction> enden.. <par/>Die Frage ist jetzt, was wollen wir tun? Endlich <palimpsest><unreadable/></palimpsest> <correction>
+        <insertion>sind</insertion>
+      </correction> wir beiden 18 Jahre <overwrite>
+        <under><unreadable/></under>
+
+        <over>a</over>
+      </overwrite>lt, <correction>
+        <insertion>und</insertion>
+      </correction> wir müssen diese Ferien <palimpsest><unreadable/></palimpsest> <correction>
+        <insertion>gut</insertion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>plänen</originalForm>
+
+        <targetForm>planen</targetForm>
+      </error>.. <overwrite>
+        <under><unreadable/></under>
+
+        <over><palimpsest>E</palimpsest>s</over>
+      </overwrite> <palimpsest><unreadable/></palimpsest> <correction>
+        <insertion>wird</insertion>
+      </correction> unsere erste Urlaub <palimpsest><unreadable/></palimpsest> <palimpsest><unreadable/></palimpsest> zusammen oh<overwrite>
+        <under><unreadable/></under>
+
+        <over>n</over>
+      </overwrite>e Eltern sein!! <par/><palimpsest><unreadable/></palimpsest><overwrite>
+        <under>d</under>
+
+        <over>D</over>
+      </overwrite>u weißt, dass ich Meer und Strand und <error>
+        <errorType/>
+
+        <originalForm>Luxus-Hotels</originalForm>
+
+        <targetForm>Luxushotels</targetForm>
+      </error> nicht liebe.. Deswegen wollte ich dir <error>
+        <errorType/>
+
+        <originalForm>vorschlägen</originalForm>
+
+        <targetForm>vorschlagen</targetForm>
+      </error>.. Zwei Wochen i<ambiguous>
+        <alternative>n</alternative>
+
+        <alternative>m</alternative>
+      </ambiguous> den Bergen im <entity>Thailand</entity> !! Rucksack, Zelt, und.. los!! <par/>Nur ich und <palimpsest><unreadable/></palimpsest> du, i<ambiguous>
+        <alternative>n</alternative>
+
+        <alternative>m</alternative>
+      </ambiguous> der tiefste Natur de<overwrite>
+        <under><unreadable/></under>
+
+        <over>r</over>
+      </overwrite> Welt. Es wird eine wunderschöne Erfahrung sein!! Dann können wir auch zwei Monate ans Meer verbringen, wenn und wo du willst.. Aber bitte, machen wir beide.. Zwei <error>
+        <errorType/>
+
+        <originalForm>traum-Erfahrungen</originalForm>
+
+        <targetForm>Traumerfahrungen</targetForm>
+      </error> werden sicher besser als eine sein!! Ich warte auf deine<ambiguous>
+        <alternative>r</alternative>
+
+        <alternative>n</alternative>
+      </ambiguous> Antwort. <par/><closing><error>
+          <errorType/>
+
+          <originalForm>deine</originalForm>
+
+          <targetForm>Deine</targetForm>
+        </error> <entity>Lisa</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

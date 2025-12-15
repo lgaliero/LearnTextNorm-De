@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I24_GAB19LUD</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe <correction>
+          <deletion>Maria</deletion>
+
+          <insertion>Giovanna</insertion>
+        </correction>,</greeting><par />wie gehts dir? Hoffe gut.<par />Gestern hat mir <correction>
+        <deletion><unreadable /> geruft.</deletion>
+      </correction> Maria geruft, <correction>
+        <deletion><unreadable /></deletion>
+      </correction> und hat mir eine schöne <error>
+        <errorType />
+
+        <originalForm>gedicht</originalForm>
+
+        <targetForm>Gedicht</targetForm>
+      </error> erzählt.<par /><correction>
+        <deletion>Gestern war Maria</deletion>
+      </correction> Letzte Woche war Maria in ein <foreign_word
+        foreign_language="Italiano">Market</foreign_word>, wo sie einen Obst- und Gemüseladen gekauft hat. Nach eine Stunde <correction>
+        <deletion><unreadable /></deletion>
+      </correction> ist sie nach ein <foreign_word foreign_language="Italiano">Supermarket</foreign_word> gegangen. Dort <correction>
+        <deletion>hatte</deletion>
+      </correction> hat sie andere <error>
+        <errorType />
+
+        <originalForm>sache</originalForm>
+
+        <targetForm>Sache</targetForm>
+      </error> gekauft.<par />Wann sie <correction>
+        <deletion>ist</deletion>
+      </correction> an die Kasse gegangen war, die <error>
+        <errorType />
+
+        <originalForm>Freulein</originalForm>
+
+        <targetForm>Fräulein</targetForm>
+      </error> <correction>
+        <deletion>von von d</deletion>
+      </correction> vom <foreign_word foreign_language="Italiano">Supermarket</foreign_word>, schaut seine Rucksack wo <error>
+        <errorType />
+
+        <originalForm>Obst-</originalForm>
+
+        <targetForm>Obst</targetForm>
+      </error> und Gemüse waren <correction>
+        <deletion><unreadable />ein</deletion>
+      </correction> hinein. Danach hat die <error>
+        <errorType />
+
+        <originalForm>Freulein</originalForm>
+
+        <targetForm>Fräulein</targetForm>
+      </error> an Maria gefragt, ob sie etwas <error>
+        <errorType />
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hat.<par /><error>
+        <errorType />
+
+        <originalForm>Got</originalForm>
+
+        <targetForm>Gott</targetForm>
+      </error> sei <error>
+        <errorType />
+
+        <originalForm>dank</originalForm>
+
+        <targetForm>Dank</targetForm>
+      </error>, Maria hat <correction>
+        <deletion>alles <unreadable /></deletion>
+      </correction> alles gesagt und die <error>
+        <errorType />
+
+        <originalForm>Freulein</originalForm>
+
+        <targetForm>Fräulein</targetForm>
+      </error> nicht böse war.<par />Ja, UNMÖGLICH. Maria ist ein bisschen <correction>
+        <deletion><unreadable /></deletion>
+      </correction> dumm, und diese <error>
+        <errorType />
+
+        <originalForm>mal</originalForm>
+
+        <targetForm>Mal</targetForm>
+      </error> hatte sie viel Glück gehabt.<par />Sonst, wie gehts dir in Deutschland? Ist Berlin eine schöne Stadt? Ich hoffe gut, weil du meine beste Freundin bist.<par /><closing>Bis bald</closing><par />Ludovico</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo Paul,</greeting><par /><error>
+        <errorType />
+
+        <originalForm>Diese</originalForm>
+
+        <targetForm>diese</targetForm>
+      </error> ist überhaupt nich ein<correction>
+        <deletion><unreadable /></deletion>
+      </correction> schöne<correction>
+        <deletion><unreadable /></deletion>
+      </correction> Problem.<par />Ich denke, dass Sie in <correction>
+        <deletion>die</deletion>
+      </correction> andere Freunden machen müssen. Es gibt sehr viele Networks die Sie benutz<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>e</insertion>
+      </correction>n können, wie z. B. Facebook, Twitter <correction>
+        <deletion>oder so was</deletion>
+      </correction> usw.<par />Was <correction>
+        <deletion><unreadable />denkst <unreadable /></deletion>
+      </correction> denken Sie über virtuelle Freundschaften?<par />Ich habe <correction>
+        <deletion>Sie</deletion>
+
+        <insertion>Ihr</insertion>
+      </correction> diese Frage angestellt, weil es eine gute Möglichkeit ist.<par />Ich <correction>
+        <deletion>ke</deletion>
+      </correction> habe sehr viele Menschen <correction>
+        <deletion>ke<unreadable /></deletion>
+      </correction> kennengelernt, die virtuelle Freundschaften haben, und <correction>
+        <deletion>sie haben <unreadable /></deletion>
+      </correction> jetzt haben sie keine Problemen. Warum, denken Sie. <error>
+        <errorType />
+
+        <originalForm>Veil</originalForm>
+
+        <targetForm>Weil</targetForm>
+      </error> mit virtuelle Freunde <correction>
+        <deletion>k<unreadable />en</deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>konnen</originalForm>
+
+        <targetForm>können</targetForm>
+      </error> Sie andere Menschen die diese Problemen haben gekennen haben. <correction>
+        <deletion><unreadable /> Sie</deletion>
+      </correction><par />Natürlich, am <error>
+        <errorType />
+
+        <originalForm>Anfag</originalForm>
+
+        <targetForm>Anfang</targetForm>
+      </error> ist ein bisschen schwierig, aber <error>
+        <errorType />
+
+        <originalForm>danch</originalForm>
+
+        <targetForm>danach</targetForm>
+      </error> <correction>
+        <deletion>gehts</deletion>
+      </correction> immer besser geht.<par />Ich <correction>
+        <deletion><unreadable /></deletion>
+      </correction> habe eine <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Erfahrung mit Internet gemacht <correction>
+        <deletion>habe</deletion>
+      </correction>. Wo ich lebe, <correction>
+        <deletion>gibt es</deletion>
+
+        <insertion>hätte</insertion>
+      </correction> dumme <correction>
+        <deletion>Mens</deletion>
+      </correction> Freunden und <error>
+        <errorType />
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> war sehr böse.<par />Danach hätte ich Facebook <error>
+        <errorType />
+
+        <originalForm>bnutzt</originalForm>
+
+        <targetForm>benutzt</targetForm>
+      </error>, um <correction>
+        <deletion><unreadable /></deletion>
+      </correction> andere Freunden kennen zu lernen. Ich habe Lisa gekonnt, und jetzt <correction>
+        <deletion><unreadable /></deletion>
+      </correction> habe ich eine sehr schöne Freundschaft.<par />Sonst, können Sie noch ein andere Stadt fahren um andere Freunden kennen zu lernen, vielleicht es besser ist.<par /><closing>Viele Grüßen</closing><par />Die Redaktion<par />Ludovico Cilieu</exercise>
+  </body>
+</kolipsi_II_document>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5358</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><par/><greeting>Hallo <entity>Richard</entity>,</greeting> <par/>ich habe über unseren Urlaub gedacht. Wir müssen noch entscheiden, wohin wir fahren werden! Wir haben zwei Möglichkeiten: ins Gebirge oder ans Meer. <par/>Wenn wir uns nur ausruhen wollen, das Meer ist sicher besser. Wir können den ganzen Tag in der Sonne liegen, baden und schlafen. Es wird auch im Hotel viel zu essen geben. Wenn du den ganzen Tag nicht schlafen willst, können wir auch den Bus nehmen und uns die Umgebung anschauen oder eine andere Stadt besichtigen, obwohl das Wetter heiß sein wird. Dagegen, wenn wir einen aktiven Urlaub machen wollen, können wir ins Gebirge fahren. Dort gibt es viel zu wandern, wunderschöne Landschaften und immer neue Orte zu sehen. Es wird ein<correction>
+        <deletion><unreadable/></deletion>
+      </correction> bisschen anstrengend sein, aber sicher wird es eine wunderschöne Erfahrung sein. Noch ein Vorteil dazu: <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>Das</targetForm>
+      </error> Wetter wird nicht so heiß sein! <par/>Ich bin mehrmals ans Meer gefahren, und habe immer Spaß gehabt. Meiner Meinung nach ist das Meer die beste Lösung. Schreib mir bitte, was du darüber denkst! <closing>Bis bald, <entity>Luca</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

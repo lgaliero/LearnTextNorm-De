@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>4466</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Liebe<entity> Anna</entity>,</greeting> <par/>wie geht es? Wir sehen uns nicht von fünf <overwrite>
+        <under>d</under>
+
+        <over>T</over>
+      </overwrite>agen und ich bin sehr traurig. Zwei <palimpsest> </palimpsest> <overwrite>
+        <over>M</over>
+
+        <under>m</under>
+      </overwrite>onate <overwrite>
+        <over>u</over>
+
+        <under>d</under>
+      </overwrite>nd die Sc<overwrite>
+        <over>hu</over>
+
+        <under>u</under>
+      </overwrite>le fertig ist so wir sehen uns wenn wir wollen. Wo willst du in diesem Urlaub gehen? <error>
+        <errorType/>
+
+        <originalForm>also</originalForm>
+
+        <targetForm>Also</targetForm>
+      </error>, wir <error>
+        <errorType/>
+
+        <originalForm>mussen</originalForm>
+
+        <targetForm>müssen</targetForm>
+      </error> am Meer oder in den Bergen <palimpsest> </palimpsest> fahren. Die Bergen sin<overwrite>
+        <under>g</under>
+
+        <over>d</over>
+      </overwrite> schön, weil es alles <palimpsest> </palimpsest> grün ist, alle <error>
+        <errorType/>
+
+        <originalForm>is</originalForm>
+
+        <targetForm>ist</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>gepuzt</originalForm>
+
+        <targetForm>geputzt</targetForm>
+      </error> ab<unreadable/> wa<overwrite>
+        <over>s</over>
+
+        <under>r</under>
+      </overwrite> machen wir alles Tages? <palimpsest> </palimpsest> Die Bergen sind langweiligen. Wenn die Sonne weg geht, ist es kalt und <correction>
+        <deletion><unreadable/></deletion>
+      </correction> in die Berge sind viele <overwrite>
+        <over>I</over>
+
+        <under>i</under>
+      </overwrite>nsekte. <par/>Das Meer ist wunderschön, weil, <error>
+        <errorType/>
+
+        <originalForm>wen</originalForm>
+
+        <targetForm>wenn</targetForm>
+      </error> <ambiguous>
+        <alternative>du</alternative>
+
+        <alternative>dnn</alternative>
+      </ambiguous> warm hast du muss in die Wasser gehen. Es ist immer warm, und <overwrite>
+        <under>ei</under>
+
+        <over>d</over>
+      </overwrite>ie Insekten sind nicht so viel, sind <correction>
+        <deletion><unreadable/></deletion>
+      </correction> nu<overwrite>
+        <over>r</over>
+
+        <under>n</under>
+      </overwrite> die Mücken. <correction>
+        <deletion>Am</deletion>
+      </correction> In der Nacht <error>
+        <errorType/>
+
+        <originalForm>mussen</originalForm>
+
+        <targetForm>müssen</targetForm>
+      </error> <correction>
+        <deletion><unreadable/></deletion>
+      </correction> viele <error>
+        <errorType/>
+
+        <originalForm>leuten</originalForm>
+
+        <targetForm>Leuten</targetForm>
+      </error> kennenlernen. Ich will <correction>
+        <deletion>im</deletion>
+      </correction> am Meer fa<overwrite>
+        <over>hr</over>
+
+        <under>r</under>
+      </overwrite>en, sagst du mir <correction>
+        <deletion>was</deletion>
+      </correction> wo du <correction>
+        <deletion><unreadable/></deletion>
+      </correction> fahren wolltest. Ich kann <correction>
+        <insertion>es</insertion>
+      </correction> nicht erwarten dich wieder <error>
+        <errorType/>
+
+        <originalForm>zusehen</originalForm>
+
+        <targetForm>zu sehen</targetForm>
+      </error>. <par/><closing>Ich hab dich lieb.</closing></exercise>
+  </body>
+</kolipsi_document>

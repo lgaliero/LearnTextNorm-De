@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0192</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting><sic><palimpsest>H</palimpsest>isen</sic>!</greeting><par/>Na wie geht's? Mir geht's ganz gut! Ich muss dir unbedingt erzählen, was <entity>Maria</entity> passiert ist. Also - (Gedankenpause, Luft<palimpsest>hohler</palimpsest>) <entity>Maria</entity> war für ihre Mutter einkaufen. Du weißt ja, dass die sich das Bein gebrochen hat als sie über die Katze gefallen ist (lol).<par/><entity>Maria</entity> war erst bei diesem Gemüsehändler der nur zwei <overwrite>
+        <under>s</under>
+
+        <over>S</over>
+      </overwrite>t<overwrite>
+        <under><unreadable/></under>
+
+        <over>ra</over>
+      </overwrite>ßen von ihrer Wohnung entfernt ist. Du wirst es nicht glauben aber die hat geschlagene 30 Minuten gebraucht um sich zu entscheiden (Nehm ich diese Paprika oder die da <overwrite>
+        <under><unreadable/></under>
+
+        <over>d</over>
+      </overwrite>rüben oder doch lieber die da hinten). Nun ja aber es kommt noch dicker. <overwrite>
+        <under>s</under>
+
+        <over>S</over>
+      </overwrite>ie hat das <error>
+        <errorType/>
+
+        <originalForm>gesammte</originalForm>
+
+        <targetForm>gesamte</targetForm>
+      </error> Geld für O<palimpsest>bst und</palimpsest> Gemüse ausgegeben und gar nicht daran gedacht <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> sie noch welch<over>e</over>s für den <error>
+        <errorType/>
+
+        <originalForm>einkauf</originalForm>
+
+        <targetForm>Einkauf</targetForm>
+      </error> bei <entity>Rewe</entity> braucht.<par/>Bei <entity>Rewe</entity> hat sie dann richtig reingehauen. So wie ich gehört habe hat sie wohl die halbe Süßwarenabteilung eingeladen. An der Kasse ist dann <error>
+        <errorType/>
+
+        <originalForm>auf gefallen</originalForm>
+
+        <targetForm>aufgefallen</targetForm>
+      </error>, dass sie gar kein Geld hat. Ihre Mutter musste <entity>Maria</entity> abholen und <entity>Maria</entity> hat sich nicht einmal entschuldigt.<par/>Wie <reduction>
+        <reductionType rType="02 abbreviation"/>
+
+        <reducedForm>Asi</reducedForm>
+
+        <unfoldedForm>asozial</unfoldedForm>
+      </reduction> darf man eigentlich sein?<par/><closing><foreign_word foreign_language="English"><error>
+            <errorType/>
+
+            <originalForm>Greatings</originalForm>
+
+            <targetForm>Greetings</targetForm>
+          </error></foreign_word> <entity>XXXX</entity></closing>    </exercise>
+
+    
+  </body>
+</kolipsi_document>

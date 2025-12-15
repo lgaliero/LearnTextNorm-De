@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5538</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Liebe <entity>Ursula</entity>,</greeting> <par/>gestern habe <error>
+        <errorType/>
+
+        <originalForm>iich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> <entity>Maria</entity>, erst im <error>
+        <errorType/>
+
+        <originalForm>Obst</originalForm>
+
+        <targetForm>Obst-</targetForm>
+      </error> und Gemüseladen und dann im Supermarkt gesehen. Sie war sehr froh und hat <palimpsest>mit mir gesp</palimpsest>rochen. Zuerst hat sie Brot und Salat im Gemüs<palimpsest>e</palimpsest>laden gekauft, und dann hat sie <palimpsest>eine</palimpsest> Flasche Wein, zwei eingelegtes Gemüse und Getreide im Supermarkt gekauft. Sie war nicht bei <error>
+        <errorType/>
+
+        <originalForm>dei</originalForm>
+
+        <targetForm>der</targetForm>
+      </error> Sache, und hat <correction>
+        <insertion>nicht</insertion>
+      </correction> den Ticket <palimpsest>im Gemüseladen</palimpsest> genomme<palimpsest>n, und die</palimpsest> <error>
+        <errorType/>
+
+        <originalForm>Verkäiferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> hat es nicht gesehen. <palimpsest>Eine Stunde <overwrite>
+          <over>s</over>
+
+          <under>S</under>
+        </overwrite>päter</palimpsest> war sie im Supermarkt und sie hat ein <strikeover>
+        <expansion>P</expansion>
+
+        <expansion>B</expansion>
+      </strikeover>roblem an der Kasse gehabt. Sie hat die Sachen die sie im Supermarkt gekauft hat, bezahlt<palimpsest>. D</palimpsest>ie <error>
+        <errorType/>
+
+        <originalForm>Verkäferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> denkt <correction>
+        <insertion><palimpsest><unreadable/></palimpsest></insertion>
+      </correction> dass sie die anderen Lebensmittel, die in die Tasche waren <error>
+        <errorType/>
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hat. So ruft sie die <palimpsest>P</palimpsest>olizei und verhaftet <entity>Maria</entity>. Sie stirbt im Gefängnis. <par/><closing>Herzliche Grüße <par/> <entity>Giuseppe</entity></closing></exercise>
+
+    
+  </body>
+</kolipsi_document>

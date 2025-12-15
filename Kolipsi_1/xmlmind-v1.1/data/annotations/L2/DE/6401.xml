@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Romy</transcriber>
+
+  <author_id>6401</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe <entity>Niccolá</entity>,</greeting> <par />wie geht es dir? Findest du, dass deine neue Stadt schön ist? Ist es alles in Ordnung mit deinen Prüfungen? Ich hoffe, dass du sie bestanden hast. <par />Jetzt schreibe ich dir, um die Geschichte von <entity>Maria</entity> zu erzählen. Das was passiert ist, ist wirklich komisch gewesen. Letzte Woche war sie einkaufen, da der Kühl<hyphen>-</hyphen>schrank leer war. Zuerst hat sie wie immer Obst und Gemüse eingekauft, aber sie hat in dem Geschäft der Kassenzettel vergessen! Da sie es nicht bemerkt hat, ist sie eine Stunde später in den Supermarkt gegangen. Als sie an der Kasse war, gab es aber ein Problem: <error>
+        <errorType />
+
+        <originalForm>ohne</originalForm>
+
+        <targetForm>Ohne</targetForm>
+      </error> den Kassenzettel konnte sie nicht zeigen, dass sie Obst und Gemüse bezählt hatte. Man konnte denken, dass sie es gestohlen hatte. Was für eine komische Lage! Zum Glück hatte sie das Handy dabei und so auch die Möglichkeit das andere Geschäft zu rufen. Nach dem Telefonan<palimpsest>ru</palimpsest>f war das Problem gelöscht. <par />Schreib mir bald, <par /><closing><entity>Daniele</entity></closing></exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Veronica</entity>,</greeting> <par />wie geht es dir? Es hat wirklich viel Zeit verbracht, seit ich dir geschrieben hatte. Jetzt schreibe ich, um dich zu fragen, ob ich meinen Urlaub mit den Freunden in den Bergen oder am Meer machen soll. Ich brauche einen Rat von dir. <par />Ich bin der Meinung, dass das Meer schöner als die Berge ist, aber meine Freunde denken es anders. Ich finde, dass das Meer die Möglichkeit <arrow
+        end="open" id="1"> </arrow>sich zu entspannen <arrow end="head" id="1">bietet</arrow>, obwohl dort viele <sic>Lärme</sic> gibt. Im Vergleich zu dem Meer, sind aber die Berge ruhiger. Der Unterschied besteht für mich aus den verschiedenene Aktivitäten, die man dort machen kann. Ich finde, dass man am Meer ein aktives Leben führen kann, ohne unter Stress zu sein; in den Bergen hat man die Möglichkeit in Ruhe zu leben und viel zu denken. An der zweiten Stelle kann man dort auch spazieren gehen und <error>
+        <errorType />
+
+        <originalForm>friesches</originalForm>
+
+        <targetForm>frisches</targetForm>
+      </error> Luft atmen. Ich kann nicht eine Entscheidung treffen, deshalb brauche ich ein Rat von dir. Sicher bist du im Stande mir zu helfen. <par />Ich warte auf deine Antwort. Schreib mir bald, <par /><closing><entity>Daniele</entity></closing></exercise>
+  </body>
+</kolipsi_document>

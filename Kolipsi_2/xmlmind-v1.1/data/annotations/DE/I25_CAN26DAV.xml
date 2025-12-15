@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I25_CAN26DAV</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve">Ein Tag mein<correction>
+        <deletion><unreadable /></deletion>
+      </correction> Freundin Maria geht in ein <correction>
+        <deletion>Superm</deletion>
+      </correction> Obst- und Gemüsehändler aber sie nicht finden. Maria geht in ein<correction>
+        <deletion>er</deletion>
+      </correction> <foreign_word foreign_language="Italiano">Supermarket</foreign_word> und kauft Produkt. Wenn sie kommt in Kasse <correction>
+        <deletion>der Ka<unreadable /></deletion>
+      </correction> der Kassierer haben ein Proble<correction>
+        <deletion>n</deletion>
+
+        <insertion>m</insertion>
+      </correction>.<par />Plötzlich ein <correction>
+        <deletion>m</deletion>
+
+        <insertion>M</insertion>
+      </correction>ann mit eine Pistole eintreten auf der <foreign_word foreign_language="Italiano">Supermarket</foreign_word>. Er <error>
+        <errorType />
+
+        <originalForm>drocht</originalForm>
+
+        <targetForm>droht</targetForm>
+      </error> Maria und der <error>
+        <errorType />
+
+        <originalForm>Kasserar</originalForm>
+
+        <targetForm>Kassierer</targetForm>
+      </error> <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Er nehmen die Geld aber Maria neh<correction>
+        <deletion>n</deletion>
+
+        <insertion>m</insertion>
+      </correction>en eine Stuhl und sucht an hauen Mann. Der Mann schießt <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Maria und sie ist tot.</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Liebe Paul</greeting><par />wie geht<correction>
+        <deletion>'s</deletion>
+      </correction> es dir? Ich nicht so gut. <correction>
+        <deletion><unreadable /></deletion>
+      </correction><par />Für mich die Freundschaften ist ein schlecht Ding weil eine <error>
+        <errorType />
+
+        <originalForm>person</originalForm>
+
+        <targetForm>Person</targetForm>
+      </error> wir musse sehen. Ich habe keine Freundschaften.<par />Meine Rat für dich ist: <error>
+        <errorType />
+
+        <originalForm>geht</originalForm>
+
+        <targetForm>Geht</targetForm>
+      </error> aus seine Haus und sprechen mit die <correction>
+        <deletion>p</deletion>
+      </correction> real <error>
+        <errorType />
+
+        <originalForm>person</originalForm>
+
+        <targetForm>Person</targetForm>
+      </error>. Ich <correction>
+        <deletion>keine</deletion>
+      </correction> habe keine Erfahrung. </exercise>
+  </body>
+</kolipsi_II_document>

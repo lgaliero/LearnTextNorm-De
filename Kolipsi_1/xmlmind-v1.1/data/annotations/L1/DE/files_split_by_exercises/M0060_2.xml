@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0060</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Hallo <entity>Natascha</entity></greeting>,<par/>wir hatten einen Urlaub gemeinsam geplant. Ich habe schon zwei Orte gefunden. <palimpsest>Also <correction>
+          <deletion>einmal</deletion>
+        </correction> die Berge <correction>
+          <deletion>und</deletion>
+        </correction> oder das Meer?!</palimpsest><par/>Bei mir wäre beides <correction>
+        <deletion>ganz</deletion>
+      </correction> plausibel. Ich überlasse dir die Entscheidung! Wenn wir in die Berge fahren wäre das Klettern eigentlich ganz lustig und aufregend. Wir würden sehr <correction>
+        <deletion><unreadable/></deletion>
+      </correction> viel grüne Fläche zu Gesicht bekommen. Die Luft wäre ganz anders als hier in der Stadt. Wir würden ein Hostel im Wald reservieren, würde ich sagen oder irgendwo wo man einen <overwrite>
+        <under><unreadable/></under>
+
+        <over>h</over>
+      </overwrite>immlischen <overwrite>
+        <under><unreadable/></under>
+
+        <over>A</over>
+      </overwrite>usblick hat. Ach ich freu mich jetzt schon auf die Erholung im Urlaub.<par/><error>
+        <errorType/>
+
+        <originalForm>Naja</originalForm>
+
+        <targetForm>Na ja</targetForm>
+      </error> wir haben ja auch eine zweite Möglichkeit: <palimpsest>da</palimpsest>s Meer. Urlaub am Strand wäre natürlich auch toll. Aber da hätten wir einen <error>
+        <errorType/>
+
+        <originalForm><overwrite>
+            <under><unreadable/></under>
+
+            <over>r</over>
+          </overwrite>isigen</originalForm>
+
+        <targetForm>riesigen</targetForm>
+      </error> negativen Punkt bei (!): <correction>
+        <deletion>sl</deletion>
+      </correction> schlechtes Wetter. Man <error>
+        <errorType/>
+
+        <originalForm>weiss</originalForm>
+
+        <targetForm>weiß</targetForm>
+      </error> ja nie wie das Wetter am nächsten Tag oder sogar die ganze Woche sein wird. <correction>
+        <deletion>Deswegen</deletion>
+      </correction><par/>Aber das Beste wäre wenn wir nach dem Urlaub knusprig <correction>
+        <deletion><unreadable/></deletion>
+      </correction> braun zurückkommen. Da würde man uns ansehen, dass wir im Urlaub waren. Ach wär das super!<par/>Doch die Hauptsache ist ja natürlich, dass wir Spaß haben und uns reichlich erholen, sonst wäre das sinnlos.<par/>Wie gesagt, ich <palimpsest>überlasse dir die Entscheidung!</palimpsest><par/><closing>Pass sehr gut auf dich auf! (nicht <error>
+          <errorType/>
+
+          <originalForm>das</originalForm>
+
+          <targetForm>dass</targetForm>
+        </error> du krank wi<over>r</over>st!) Schöne Grüße an alle!<par/><entity>M0060</entity></closing>       </exercise>
+  </body>
+</kolipsi_document>

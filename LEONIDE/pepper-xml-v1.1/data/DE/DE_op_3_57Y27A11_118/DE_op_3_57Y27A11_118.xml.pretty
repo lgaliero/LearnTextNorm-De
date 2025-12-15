@@ -1,0 +1,72 @@
+<body>
+ <page page_number="1" transcanno_page_id="2496">
+  <paragraph class="medium-paragraph" tagcode="1553028377547">
+   <div>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553028005622" tran_word_deletion_target="_#_">
+     I
+    </tran_word_deletion_id8>
+    Ich nach
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553028113800" tran_correction_original="Mitte**ule">
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Mittelschule" tagcode="1553028121683">
+      Mittelshule
+     </orth_error_id12>
+    </tran_word_correction_id25>
+    <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1553028042215" tran_alternative_1="mache" tran_alternative_2="meche">
+     mache
+    </tran_ambiguous_id3>
+    ist
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Mechanik" tagcode="1553028051767">
+     mecanic
+    </orth_error_id12>
+   </div>
+   <div>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553028079577" tran_word_deletion_target="_#_">
+     mein Traumberuf
+     <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553028074119" tran_correction_original="*">
+      und
+     </tran_word_correction_id25>
+     ist ich
+     <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1553028065832">
+      *
+     </tran_unreadable_id17>
+     habe nicht
+    </tran_word_deletion_id8>
+   </div>
+   <div>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553028147655" tran_word_deletion_target="_#_">
+     ein
+    </tran_word_deletion_id8>
+    mein Traumberuf ist
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Mechanik" tagcode="1553028166049">
+     mecanic
+    </orth_error_id12>
+   </div>
+   <div>
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1553028230951">
+     *
+    </tran_unreadable_id17>
+    können lernen die
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Motor" tagcode="1553028215009">
+     <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553028224998" tran_correction_original="mo*or">
+      motor
+     </tran_word_correction_id25>
+    </orth_error_id12>
+    und mecanism
+   </div>
+   <div>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553028377546" tran_correction_original="lern*">
+     lerne
+    </tran_word_correction_id25>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Komposition" tagcode="1553028295404">
+     <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553028352488" tran_correction_original="com*osizion">
+      composition
+     </tran_word_correction_id25>
+    </orth_error_id12>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553028262934" tran_word_deletion_target="_#_">
+     fo
+    </tran_word_deletion_id8>
+    von die Auto
+   </div>
+  </paragraph>
+ </page>
+</body>

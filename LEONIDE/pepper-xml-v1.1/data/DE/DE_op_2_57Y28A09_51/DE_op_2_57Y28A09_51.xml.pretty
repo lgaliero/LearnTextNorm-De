@@ -1,0 +1,45 @@
+<body>
+ <page page_number="1" transcanno_page_id="901">
+  <paragraph class="medium-paragraph" tagcode="1527179356271">
+   <div>
+    Sie müssen viele Bücher in anderen Sprachen zu lesen. Aber auch
+   </div>
+   <div>
+    zur Schule. Ich
+    <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1527179356270" tran_alternative_1="lerner" tran_alternative_2="">
+     lernen
+    </tran_ambiguous_id3>
+    neue Sprachen zur Schule. Zur Schule
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="lernen" tagcode="1527179248281">
+     lerenen
+    </orth_error_id12>
+   </div>
+   <div>
+    ist eine gute Strategie weil du kannst mit Freunden und anderen
+   </div>
+   <div>
+    Menschen sprechen
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1527179211139" tran_word_deletion_target="_#_">
+     ,
+    </tran_word_deletion_id8>
+    und die Lehrer helfen mir.
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1527179141645">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1527179156187" tran_word_deletion_target="_#_">
+      *
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+    Aber
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1527179190476" tran_word_deletion_target="_#_">
+     in
+    </tran_word_deletion_id8>
+    <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1527179199849" tran_alternative_1="an" tran_alternative_2="">
+     am
+    </tran_ambiguous_id3>
+    Computer
+   </div>
+   <div>
+    lernen ist schlecht weil da können Fehler sein.
+   </div>
+  </paragraph>
+ </page>
+</body>

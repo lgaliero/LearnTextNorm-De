@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>6408</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Lieber <entity>Martin</entity>,</greeting> <par/>wie geht es dir? Mir geht es gut. Was machst du <error>
+        <errorType/>
+
+        <originalForm>immoment</originalForm>
+
+        <targetForm>im Moment</targetForm>
+      </error>? Ich besuche die vierte Klasse Oberschule. Ich denke, dass wir dieses Jahr gemeinsam in Urlaub fahren können. Glaubst du nicht? Ich denke, dass es <error>
+        <errorType/>
+
+        <originalForm>wunderschon</originalForm>
+
+        <targetForm>wunderschön</targetForm>
+      </error> sein kann. Zwei Woche alleine in den Bergen oder am Meer zu verdienen. <error>
+        <errorType/>
+
+        <originalForm>was</originalForm>
+
+        <targetForm>Was</targetForm>
+      </error> magst du lieber? Wir haben diese zwei Möglichkeiten. Ich denke, dass es am Meer wärmer ist und dort können wir viel Spaß haben. Wenn wir ans Meer fahren sollen, sollen wir nach den Süden fahren. Dort gibt es das beste Meer <entity>Italiens</entity> und auch schöne Landschaften. In den Bergen ist es kälter aber dort gibt es auch wunderschöne Landschaften und frische Luft. Wenn wir in die Berge fahren sollen, sollen wir nach <entity>Vigo di Fassa</entity> fahren. Dort hat meine Familie eine kleine Wohnung <error>
+        <errorType/>
+
+        <originalForm>indie</originalForm>
+
+        <targetForm>in die</targetForm>
+      </error> wir schlafen und essen können. Ich kenne viele schöne Orte in der <sic>Nähen</sic> von <entity>Vigo</entity> und ich kann deinen Führer sein. <par/>Ich warte auf deine Antwort mit deiner Entscheidung! Bis bald! <par/><closing>Viele Grüße, <entity>Davide</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5292</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Liebe <entity>Jack</entity> </greeting> <par/><correction>
+        <deletion>Heute ist <entity>Maria</entity> </deletion>
+      </correction> Wie geht es dir? Mir sehr gut. Erinnerst du <entity>Maria</entity>, meine <correction>
+        <deletion>Schwester</deletion>
+
+        <insertion>Freundin</insertion>
+      </correction>? Gestern <correction>
+        <deletion>sie ging in</deletion>
+      </correction> ist sie<overwrite>
+        <over> bei</over>
+
+        <under><unreadable/></under>
+      </overwrite> in Obsthändler gegangen um Obst, Gemüse und Brot zu kaufen aber sie hat das Zettel <error>
+        <errorType/>
+
+        <originalForm>verlören</originalForm>
+
+        <targetForm>verloren</targetForm>
+      </error>. <par/>Später <correction>
+        <deletion>sie</deletion>
+
+        <insertion>sie</insertion>
+      </correction> ist in Supermarkt gegangen um Wein, Öl und <foreign_word foreign_language="English"><overwrite>
+          <over>S</over>
+
+          <under>s</under>
+        </overwrite>alt</foreign_word> zu kaufen. <par/>Wenn sie <correction>
+        <deletion>and</deletion>
+      </correction> an <correction>
+        <deletion>s</deletion>
+      </correction> die Kasse kommt die Frau wollte das Zettel von dem Brot sehen aber <correction>
+        <deletion>mai</deletion>
+      </correction> <entity>Maria</entity> hatte <overwrite>
+        <over>e</over>
+
+        <under>s</under>
+      </overwrite>s nicht! <par/>Die Frau ruft die Polizei an und <correction>
+        <deletion>wenn sie kommen</deletion>
+      </correction> i<overwrite>
+        <over>nd</over>
+
+        <under>m</under>
+      </overwrite> das selbe Moment ein Mann sagt: <direct_speech>“Das Feuer! Feuer!“</direct_speech> und <correction>
+        <deletion>du</deletion>
+      </correction> die Menschen <error>
+        <errorType/>
+
+        <originalForm>läufen</originalForm>
+
+        <targetForm>laufen</targetForm>
+      </error> aus dem <error>
+        <errorType/>
+
+        <originalForm>Supermakrt</originalForm>
+
+        <targetForm>Supermarkt</targetForm>
+      </error> und <entity>Maria</entity> könnt <overwrite>
+        <over>e</over>
+
+        <under><unreadable/></under>
+      </overwrite> weggehen. Sie ging nicht nach Hause und sende<ambiguous>
+        <alternative>n</alternative>
+
+        <alternative>m</alternative>
+      </ambiguous> <correction>
+        <deletion><unreadable/></deletion>
+      </correction> nach Obsthändler um das Zettel zu nehmen. Sie nahm das Zettel und <error>
+        <errorType/>
+
+        <originalForm>Heute</originalForm>
+
+        <targetForm>heute</targetForm>
+      </error> ist sie noch einmal nach Supermarkt gegangen und hat das Zettel der Frau gezogen.</exercise>
+
+    
+  </body>
+</kolipsi_document>

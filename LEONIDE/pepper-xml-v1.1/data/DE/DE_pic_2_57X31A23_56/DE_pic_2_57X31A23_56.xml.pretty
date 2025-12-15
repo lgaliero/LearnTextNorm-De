@@ -1,0 +1,107 @@
+<body>
+ <page page_number="1" transcanno_page_id="1015">
+  <paragraph class="medium-paragraph" tagcode="1611765520139">
+   <div>
+    <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1550916339374" tran_alternative_1="Ein" tran_alternative_2="En">
+     Ein
+    </tran_ambiguous_id3>
+    einen Samstag sind die
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1550916320656" tran_correction_original="z*ei">
+     zwei
+    </tran_word_correction_id25>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Mädchen" tagcode="1550916309529">
+     Mädichen
+    </orth_error_id12>
+   </div>
+   <div>
+    in den Wald und
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="erforschen" tagcode="1550916496306">
+     <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1556483089972" tran_alternative_1="er forschen" tran_alternative_2="erforschen">
+      er forschen
+     </tran_ambiguous_id3>
+    </orth_error_id12>
+    die
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1550916372605" tran_correction_original="Nat**">
+     Natur
+    </tran_word_correction_id25>
+    .
+   </div>
+   <div>
+    Da höher sie
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1556483171449">
+     diemen
+    </tran_unreadable_id17>
+    aber sie
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="wollen" tagcode="1550916412644">
+     vollen
+    </orth_error_id12>
+    nicht
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="hingehen" tagcode="1550916545504">
+     in
+    </orth_error_id12>
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1611765520140">
+   <div>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="hingehen" tagcode="1550916545504">
+     gehen
+    </orth_error_id12>
+    . Sie haben
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Angst" tagcode="1550916454317">
+     angts
+    </orth_error_id12>
+    und tife und er hat
+   </div>
+   <div>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1550916637271" tran_correction_original="ges*gt">
+     gesagt
+    </tran_word_correction_id25>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="dass" tagcode="1550916630229">
+     das
+    </orth_error_id12>
+    sie
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="sterben" tagcode="1550916963688">
+     streben
+    </orth_error_id12>
+    . Und dann gehen sie
+   </div>
+   <div>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="wieder" tagcode="1550916833835">
+     vider
+    </orth_error_id12>
+    nach Hause es ist er
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="spät" tagcode="1550916912509">
+     späd
+    </orth_error_id12>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="ungefähr" tagcode="1550916931578">
+     ungefer
+    </orth_error_id12>
+    22:30.
+   </div>
+   <div>
+    Die zwei
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Mädchen" tagcode="1550917027673">
+     Mädichen
+    </orth_error_id12>
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1550917064522">
+     heiß
+    </tran_unreadable_id17>
+    Laura und Sabrina .
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1611765520142">
+   <div>
+    <tran_foreign_word_id13 class="medium-tran_foreign_word_id13" tagcode="1550917206067" tran_foreign_word_language="English">
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="The" tagcode="1550917212205">
+      <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611765512647" tran_capitalisation_target="The" tran_capitalisation_type="01 completely capitalised">
+       TE
+      </tran_capitalisation_id85>
+     </orth_error_id12>
+     <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611765520138" tran_capitalisation_target="end" tran_capitalisation_type="01 completely capitalised">
+      END
+     </tran_capitalisation_id85>
+    </tran_foreign_word_id13>
+   </div>
+  </paragraph>
+ </page>
+</body>

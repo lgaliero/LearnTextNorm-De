@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>4357</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve">
+ <par/> <greeting>Liebe <entity>Monica</entity>,</greeting> <par/>darf ich dir eine Frage stellen? Also, willst du in Urlaub in den Bergen oder am Meer <correction>
+        <deletion>?</deletion>
+
+        <insertion>f</insertion>
+      </correction>ahren? Ich <error>
+        <errorType/>
+
+        <originalForm>weis</originalForm>
+
+        <targetForm>weiß</targetForm>
+      </error> es nicht! Ob wir in den Bergen fahren will, können wir zwei Wochen <correction>
+        <insertion>in <entity>Malosco</entity></insertion>
+      </correction> in ein <palimpsest> </palimpsest> Hof bleiben. Es kostet nur 200 € pro Woche. Wir können <palimpsest> </palimpsest> viele <error>
+        <errorType/>
+
+        <originalForm>spaziergange</originalForm>
+
+        <targetForm>Spaziergange</targetForm>
+      </error> machen <palimpsest> </palimpsest> <correction>
+        <insertion>und</insertion>
+      </correction> reiten mit schönen Pferden. <palimpsest>Ob wir am Meer</palimpsest> fahren will, können wir in <palimpsest> </palimpsest> <entity><error>
+          <errorType/>
+
+          <originalForm>Croatien</originalForm>
+
+          <targetForm>Kroatien</targetForm>
+        </error></entity> fahren. Ich habe <palimpsest> </palimpsest> an <entity> <foreign_word foreign_language="Italiano">Pola</foreign_word> </entity> gedacht. Gefällt dir? Sind auch zwei Wochen aber es kostet 400 € pro Woche. Positiv ist, dass wir ein Rabatt haben. Wir sind nur 17 Jahre alt, also für uns e<overwrite>
+        <under>r</under>
+
+        <over>s</over>
+      </overwrite> kostet weniger; 2<strikeover>
+        <expansion>5</expansion>
+
+        <expansion>6</expansion>
+      </strikeover>0 €. Wenn wir mehr warm haben, können wir ins Wasser schwimmen <correction>
+        <insertion>und unter Sonne liegen</insertion>
+      </correction>. Wir können auch viele Jungen finden <emoticon>:)</emoticon> ! Also, was willst du machen? <par/>Während des Jahres können <correction>
+        <insertion>wir</insertion>
+      </correction> schon in den Bergen fahren und nicht am Meer. Ich denke, dass besser <palimpsest> </palimpsest> am Meer fahren <correction>
+        <insertion>ist</insertion>
+      </correction>. <par/> <closing>Tschüss <par/> <entity>Stefy</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

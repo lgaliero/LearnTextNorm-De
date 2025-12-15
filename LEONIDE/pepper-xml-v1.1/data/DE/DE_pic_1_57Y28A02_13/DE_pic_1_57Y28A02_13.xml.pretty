@@ -1,0 +1,111 @@
+<body>
+ <page page_number="1" transcanno_page_id="209">
+  <paragraph class="medium-paragraph" tagcode="1611823269573">
+   <div>
+    1) Die
+    <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611823049958" tran_capitalisation_target="Hus" tran_capitalisation_type="01 completely capitalised">
+     HUS
+    </tran_capitalisation_id85>
+    <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611823060822" tran_capitalisation_target="ist" tran_capitalisation_type="01 completely capitalised">
+     IST
+    </tran_capitalisation_id85>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="brennt" tagcode="1540841693196">
+     <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611823077896" tran_capitalisation_target="brennt" tran_capitalisation_type="01 completely capitalised">
+      BRENT
+     </tran_capitalisation_id85>
+    </orth_error_id12>
+    !
+    <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611823087779" tran_capitalisation_target="Und" tran_capitalisation_type="01 completely capitalised">
+     UND
+    </tran_capitalisation_id85>
+    <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611823098432" tran_capitalisation_target="Paul" tran_capitalisation_type="01 completely capitalised">
+     PAUL
+    </tran_capitalisation_id85>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="läuft" tagcode="1540841702085">
+     <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611823107938" tran_capitalisation_target="läuft" tran_capitalisation_type="01 completely capitalised">
+      LOIFT
+     </tran_capitalisation_id85>
+    </orth_error_id12>
+    <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611823114442" tran_capitalisation_target="Haus" tran_capitalisation_type="01 completely capitalised">
+     HAUS
+    </tran_capitalisation_id85>
+    <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611823123555" tran_capitalisation_target="dem" tran_capitalisation_type="01 completely capitalised">
+     DEM
+    </tran_capitalisation_id85>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Haus" tagcode="1540841709585">
+     <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611823133395" tran_capitalisation_target="Haus" tran_capitalisation_type="01 completely capitalised">
+      HAU
+     </tran_capitalisation_id85>
+    </orth_error_id12>
+   </div>
+   <div>
+    <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611823139793" tran_capitalisation_target="und" tran_capitalisation_type="01 completely capitalised">
+     UND
+    </tran_capitalisation_id85>
+    <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611823151016" tran_capitalisation_target="Robert" tran_capitalisation_type="01 completely capitalised">
+     ROBERT
+    </tran_capitalisation_id85>
+    <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611823157298" tran_capitalisation_target="hat" tran_capitalisation_type="01 completely capitalised">
+     HAT
+    </tran_capitalisation_id85>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="traurig" tagcode="1540841717934">
+     <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611823169143" tran_capitalisation_target="traurig" tran_capitalisation_type="01 completely capitalised">
+      TRAURIK
+     </tran_capitalisation_id85>
+    </orth_error_id12>
+    .
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1611823269574">
+   <div>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1540841635455" tran_word_deletion_target="_#_">
+     PAUL
+    </tran_word_deletion_id8>
+    <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611823186199" tran_capitalisation_target="Robert" tran_capitalisation_type="01 completely capitalised">
+     ROBERT
+    </tran_capitalisation_id85>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1540841646264" tran_correction_original="HOLE">
+     <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611823192643" tran_capitalisation_target="hol" tran_capitalisation_type="01 completely capitalised">
+      HOL
+     </tran_capitalisation_id85>
+    </tran_word_correction_id25>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1540841666065" tran_correction_original="H**AUS">
+     <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611823200231" tran_capitalisation_target="heraus" tran_capitalisation_type="01 completely capitalised">
+      HERAUS
+     </tran_capitalisation_id85>
+    </tran_word_correction_id25>
+    <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611823207653" tran_capitalisation_target="die" tran_capitalisation_type="01 completely capitalised">
+     DIE
+    </tran_capitalisation_id85>
+    <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611823215725" tran_capitalisation_target="Blatt" tran_capitalisation_type="01 completely capitalised">
+     BLATT
+    </tran_capitalisation_id85>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="in die" tagcode="1540841674382">
+     <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611823225930" tran_capitalisation_target="in die" tran_capitalisation_type="01 completely capitalised">
+      INDIE
+     </tran_capitalisation_id85>
+    </orth_error_id12>
+    <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611823234404" tran_capitalisation_target="Tasche" tran_capitalisation_type="01 completely capitalised">
+     TASCHE
+    </tran_capitalisation_id85>
+   </div>
+   <div>
+    <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611823243314" tran_capitalisation_target="Robert" tran_capitalisation_type="01 completely capitalised">
+     ROBERT
+    </tran_capitalisation_id85>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="wirft" tagcode="1540841683400">
+     <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611823254289" tran_capitalisation_target="wirft" tran_capitalisation_type="01 completely capitalised">
+      FÜRFT
+     </tran_capitalisation_id85>
+    </orth_error_id12>
+    <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611823261085" tran_capitalisation_target="die" tran_capitalisation_type="01 completely capitalised">
+     DIE
+    </tran_capitalisation_id85>
+    <tran_capitalisation_id85 class="medium-tran_capitalisation_id85" tagcode="1611823269572" tran_capitalisation_target="Blatt" tran_capitalisation_type="01 completely capitalised">
+     BLATT
+    </tran_capitalisation_id85>
+    .
+   </div>
+  </paragraph>
+ </page>
+</body>

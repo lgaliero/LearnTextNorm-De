@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I13_TRI14MIR</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve">Liebe Lisa<par />Gestern Maria ist in einem <error>
+        <errorType />
+
+        <originalForm>Obst</originalForm>
+
+        <targetForm>Obst-</targetForm>
+      </error> und <error>
+        <errorType />
+
+        <originalForm>Gemüsladen</originalForm>
+
+        <targetForm>Gemüseladen</targetForm>
+      </error> gegangen.<par />Sie hat <foreign_word
+        foreign_language="Italiano"><error>
+          <errorType />
+
+          <originalForm>Insalat</originalForm>
+
+          <targetForm>Insalata</targetForm>
+        </error></foreign_word> und viele andere Gemüse gekauft. Aber sie hat nicht bezahlt. <par /> Eine Stunde später ist sie im <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Supermarkt gegangen. Sie hat eine Runde gemacht und sie hat Essen und Trinken gekauft.<par />Danach sie ist an der Kasse gegangen, aber sie hat nicht Obst und Gemüse <correction>
+        <deletion><unreadable /></deletion>
+      </correction> im <error>
+        <errorType />
+
+        <originalForm>Gemüsladen</originalForm>
+
+        <targetForm>Gemüseladen</targetForm>
+      </error> bezahlt.<par />Die <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Verkäuferin hat sie gesagt und Maria hat schnell bezahlt und danach ist sie zurück im <error>
+        <errorType />
+
+        <originalForm>Gemüsladen</originalForm>
+
+        <targetForm>Gemüseladen</targetForm>
+      </error> für zahlt gegangen.</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting><foreign_word
+          foreign_language="English"><error>
+            <errorType />
+
+            <originalForm>Dier</originalForm>
+
+            <targetForm>Dear</targetForm>
+          </error></foreign_word> Paul,</greeting><par /><error>
+        <errorType />
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> bin froh, weil du hast mir geschr<correction>
+        <deletion>ei</deletion>
+
+        <insertion>ie</insertion>
+      </correction>ben. <par /> Für mich ist <correction>
+        <deletion><unreadable /></deletion>
+      </correction> nicht normal was du tun, weil das Leben ist ni<correction>
+        <deletion><unreadable /></deletion>
+      </correction>cht auf dem Computer.<par />Sie sind nicht Freunden, weil hast du nicht gesehen. <par /><par /><par />Internet ist nicht immer <correction>
+        <deletion>P</deletion>
+
+        <insertion>p</insertion>
+      </correction>ositiv, weil viele Kindern<correction>
+        <deletion><unreadable /></deletion>
+      </correction> mit der Sonne bleiben zu Hause.<par />Ist positiv für Schule, <comment>An dieser Stelle wird der Text abgebrochen</comment></exercise>
+  </body>
+</kolipsi_II_document>

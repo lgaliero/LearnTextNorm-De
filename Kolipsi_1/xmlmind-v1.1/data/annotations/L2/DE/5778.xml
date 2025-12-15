@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5778</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><par /><greeting>Hallo <entity><emphasis><over_capitalisation>
+              <originalForm>NICK</originalForm>
+
+              <targetForm>Nick</targetForm>
+            </over_capitalisation></emphasis></entity></greeting>!<par />Wie geht es dir? Mir <correction>
+        <deletion>ghe</deletion>
+      </correction> geht es gut... Ich wollte dich was <entity>Maria</entity> passiert ist! Erinner<correction>
+        <deletion>st</deletion>
+      </correction> du <correction>
+        <deletion>wer</deletion>
+      </correction> <entity>Maria</entity>? Unsere Freundin, dass wir in Sommer kennengelernt haben? Also... Sie ist <correction>
+        <deletion>bei Supermarket</deletion>
+
+        <insertion>Beim Obsthändler</insertion>
+      </correction> gegangen <error>
+        <errorType />
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> hat Obst und <error>
+        <errorType />
+
+        <originalForm>Gemuse</originalForm>
+
+        <targetForm>Gemüse</targetForm>
+      </error> <correction>
+        <deletion><unreadable /></deletion>
+      </correction> genommen, dann <correction>
+        <deletion>sie ist sie beim</deletion>
+      </correction> hat sie ein paar <error>
+        <errorType />
+
+        <originalForm>baguetten</originalForm>
+
+        <targetForm>Baguetten</targetForm>
+      </error> gekaufen, <error>
+        <errorType />
+
+        <originalForm>speter</originalForm>
+
+        <targetForm>später</targetForm>
+      </error> sie ist weggegangen und sie hat den <correction>
+        <insertion><correction>
+            <deletion>scontrino</deletion>
+          </correction></insertion>
+      </correction> Kassenzettel auf dem <error>
+        <errorType />
+
+        <originalForm><ambiguous>
+            <alternative>F</alternative>
+
+            <alternative>T</alternative>
+          </ambiguous>I<overwrite>
+            <under>c</under>
+
+            <over>s</over>
+          </overwrite>ch</originalForm>
+
+        <targetForm>Tisch</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>fergessen</originalForm>
+
+        <targetForm>vergessen</targetForm>
+      </error>, danach ist sie in <correction>
+        <deletion><unreadable /></deletion>
+      </correction> ein<correction>
+        <deletion>ander</deletion>
+      </correction> <foreign_word foreign_language="Italiano">Supermarket</foreign_word> gegangen um etwas zu kaufen, und <correction>
+        <deletion>wenn</deletion>
+      </correction> als <error>
+        <errorType />
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> an die Kasse gekommen ist und alles gekauft hat, wurde sie mit die <error>
+        <errorType />
+
+        <originalForm>baguetten</originalForm>
+
+        <targetForm>Baguetten</targetForm>
+      </error> in die Rucktasche <error>
+        <errorType />
+
+        <originalForm>weg gegangen</originalForm>
+
+        <targetForm>weggegangen</targetForm>
+      </error>, die <error>
+        <errorType />
+
+        <originalForm>Verk<overwrite>
+            <under><unreadable /></under>
+
+            <over>a</over>
+          </overwrite>uferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> hat gedacht dass <correction>
+        <deletion><unreadable /></deletion>
+      </correction> <entity>Maria</entity> <error>
+        <errorType />
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hat, also sie kommt wieder <error>
+        <errorType />
+
+        <originalForm>zurük</originalForm>
+
+        <targetForm>zurück</targetForm>
+      </error> aber sie war ohne <palimpsest>Kassenzettel</palimpsest>. <correction>
+        <deletion>und</deletion>
+      </correction><par />Also sie hat alles im <error>
+        <errorType />
+
+        <originalForm>Supermaket</originalForm>
+
+        <targetForm>Supermarkt</targetForm>
+      </error> gelassen, <error>
+        <errorType />
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> ist <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Beim <error>
+        <errorType />
+
+        <originalForm>Obsthädler</originalForm>
+
+        <targetForm>Obsthändler</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>zurük gegangen</originalForm>
+
+        <targetForm>zurückgegangen</targetForm>
+      </error>, hat den Kassenzettel genommen, und <correction>
+        <deletion><unreadable /></deletion>
+      </correction> wieder <overwrite>
+        <under>i</under>
+
+        <over>a</over>
+      </overwrite>m <foreign_word foreign_language="Italiano">Supermar<overwrite>
+          <under><unreadable /></under>
+
+          <over>k</over>
+        </overwrite>et</foreign_word> gegangen, <error>
+        <errorType />
+
+        <originalForm>So</originalForm>
+
+        <targetForm>so</targetForm>
+      </error> die <error>
+        <errorType />
+
+        <originalForm>Verkauferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> hat gesehen dass <correction>
+        <deletion>sie</deletion>
+      </correction> <entity>Maria</entity> nicht <error>
+        <errorType />
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hatte.<correction>
+        <deletion>und</deletion>
+      </correction><par />Also <entity>Maria</entity> <correction>
+        <deletion><unreadable /></deletion>
+      </correction>wurde froh und ist zu <error>
+        <errorType />
+
+        <originalForm>hause</originalForm>
+
+        <targetForm>Hause</targetForm>
+      </error> gegangen.</exercise>
+
+    <exercise number="2" xml:space="preserve">
+      <par /> <greeting>Hallo <entity>Nick</entity>!</greeting> <par />Ich habe eine große Idee, willst du, mit mir ein<strikeover>
+        <expansion>e</expansion>
+
+        <expansion>o</expansion>
+      </strikeover> <correction>
+        <deletion>Reise</deletion>
+      </correction> Urlaub machen?<par />Ich habe zwei <overwrite>
+        <under>m</under>
+
+        <over>M</over>
+      </overwrite>öglichkeiten: in den Bergen oder am Meer.<par />Die erste, können wir in <entity>Sü<overwrite>
+          <under>r</under>
+
+          <over>d</over>
+        </overwrite>tirol</entity> <overwrite>
+        <under><unreadable /></under>
+
+        <over>f</over>
+      </overwrite>ahren und wir <overwrite>
+        <under>u</under>
+
+        <over>k</over>
+      </overwrite>önnen eine schöne <overwrite>
+        <under>w</under>
+
+        <over>W</over>
+      </overwrite>oche <error>
+        <errorType />
+
+        <originalForm>ind</originalForm>
+
+        <targetForm>in</targetForm>
+      </error> dem Wald machen; für die zweite, <error>
+        <errorType />
+
+        <originalForm>dass</originalForm>
+
+        <targetForm>das</targetForm>
+      </error> ist meine lieblingte, wir können in <entity>Pozoi<overwrite>
+          <under>s</under>
+
+          <over>z</over>
+        </overwrite>quierdo</entity>, in <entity>Gran <strikeover>
+          <expansion>C</expansion>
+
+          <expansion>K</expansion>
+        </strikeover>anaria</entity> fahren, um eine <foreign_word
+        foreign_language="English"><error>
+          <errorType />
+
+          <originalForm>powerfull</originalForm>
+
+          <targetForm>powerful</targetForm>
+        </error></foreign_word> Woche mit <foreign_word
+        foreign_language="Italiano"><overwrite>
+          <under>w</under>
+
+          <over>W</over>
+        </overwrite>indsurf</foreign_word> machen.<par />Für die erste wir müssen <error>
+        <errorType />
+
+        <originalForm>bezalen</originalForm>
+
+        <targetForm>bezahlen</targetForm>
+      </error> 300 € pro Kopf, für die zweite 400 € aber wir sind am Meer mit die Disco, was <error>
+        <errorType />
+
+        <originalForm>wilst</originalForm>
+
+        <targetForm>willst</targetForm>
+      </error> du machen?<par /><correction>
+        <deletion>Ich habe ein Rat</deletion>
+      </correction> Ich gehe <overwrite>
+        <under>t</under>
+
+        <over>d</over>
+      </overwrite>ich ein Ra<strikeover>
+        <expansion>h</expansion>
+
+        <expansion>t</expansion>
+      </strikeover>t, wir lieben <foreign_word foreign_language="Italiano">Windsurf</foreign_word> machen, <overwrite>
+        <under>l</under>
+
+        <over>M</over>
+      </overwrite>eer, Disco, Wind und <error>
+        <errorType />
+
+        <originalForm>M<strikeover>
+            <expansion>ä</expansion>
+
+            <expansion>e</expansion>
+          </strikeover>dschen</originalForm>
+
+        <targetForm>Mädchen</targetForm>
+      </error>..<par />Ich habe schon ent<overwrite>
+        <under>c</under>
+
+        <over>s</over>
+      </overwrite>cheiden ich wollte j<correction>
+        <insertion>etzt</insertion>
+      </correction> deine <strikeover>
+        <expansion>M</expansion>
+
+        <expansion>m</expansion>
+      </strikeover>einung.<par />Ich habe noch eine Sache <correction>
+        <deletion>zu</deletion>
+
+        <insertion>um dir zu</insertion>
+      </correction> sa<overwrite>
+        <under><unreadable /></under>
+
+        <over>g</over>
+      </overwrite>e<overwrite>
+        <under><unreadable /></under>
+
+        <over>n</over>
+      </overwrite>, am Meer ist warm, in den Bergen ist ein <error>
+        <errorType />
+
+        <originalForm>bissien</originalForm>
+
+        <targetForm>bisschen</targetForm>
+      </error> kalt a<overwrite>
+        <under><unreadable /></under>
+
+        <over>m</over>
+      </overwrite> <strikeover>
+        <expansion>F</expansion>
+
+        <expansion>T</expansion>
+      </strikeover>ag und sehr kalt <strikeover>
+        <expansion>a</expansion>
+
+        <expansion>i</expansion>
+      </strikeover>m Nacht. <closing>Hallo <entity>Nick!</entity> <par /><unreadable /></closing> </exercise>
+  </body>
+</kolipsi_document>

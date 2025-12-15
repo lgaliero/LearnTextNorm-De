@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>4352</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve">
+ <par /><greeting>Hallo <entity>Michael</entity>,</greeting> wie geht es dir? Mir alles gut! Heute bin ich ins Supermarkt gegangen<strikeover>
+        <expansion>.</expansion>
+
+        <expansion>,</expansion>
+      </strikeover><par />"<correction>
+        <deletion>d</deletion>
+
+        <insertion>D</insertion>
+      </correction>u <correction>
+        <deletion>kannst nicht</deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>weist</originalForm>
+
+        <targetForm>weißt</targetForm>
+      </error> nicht was heute in <error>
+        <errorType />
+
+        <originalForm>supermarkt</originalForm>
+
+        <targetForm>Supermarkt</targetForm>
+      </error> passiert ist!"<par />Ich war neben die Kasse und ich habe gehört, dass die <error>
+        <errorType />
+
+        <originalForm>Kassierin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> streitet. Sie denkt, dass eine Frau das Brot <error>
+        <errorType />
+
+        <originalForm>gestol<strikeover>
+            <expansion>e</expansion>
+
+            <expansion>t</expansion>
+          </strikeover>n</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hat.<par /><strikeover>
+        <expansion>A</expansion>
+
+        <expansion>E</expansion>
+      </strikeover>ber es war nicht so<palimpsest> </palimpsest>. <strikeover>
+        <expansion>I</expansion>
+
+        <expansion>i</expansion>
+      </strikeover>ch <palimpsest>habe ges<correction>
+          <insertion>ehe</insertion>
+        </correction></palimpsest> diese Frau<palimpsest> </palimpsest>,<palimpsest> </palimpsest> <correction>
+        <insertion>die</insertion>
+      </correction> in eine <error>
+        <errorType />
+
+        <originalForm>Brotgescheft</originalForm>
+
+        <targetForm>Brotgeschäft</targetForm>
+      </error> gehet. <correction>
+        <deletion>Alle</deletion>
+      </correction> Dank Gott, a<strikeover>
+        <expansion>l</expansion>
+
+        <expansion>s</expansion>
+      </strikeover>les ist<palimpsest> </palimpsest> <correction>
+        <insertion>am beste<overwrite>
+            <under>n</under>
+
+            <over>s</over>
+          </overwrite></insertion>
+      </correction> gegangen.<palimpsest> </palimpsest> Aber die Frau hat sehr <error>
+        <errorType />
+
+        <originalForm>angst</originalForm>
+
+        <targetForm>Angst</targetForm>
+      </error> geha<overwrite>
+        <under><unreadable /></under>
+
+        <over>b</over>
+      </overwrite>t <correction>
+        <deletion>,</deletion>
+      </correction> und hat auch geweint. Die <error>
+        <errorType />
+
+        <originalForm>Kassierin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> hat auch <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Polizei angeruft aber sie war zu langsam und wenn sie angekommen waren d<strikeover>
+        <expansion>as</expansion>
+
+        <expansion>ie</expansion>
+      </strikeover> Problem war <error>
+        <errorType />
+
+        <originalForm>shon</originalForm>
+
+        <targetForm>schon</targetForm>
+      </error><palimpsest> </palimpsest> <overwrite>
+        <under><unreadable /></under>
+
+        <over>ge</over>
+      </overwrite>löst <correction>
+        <deletion>Die Frau</deletion>
+      </correction> Ich <correction>
+        <deletion>hab</deletion>
+      </correction> bin gelauft in die <error>
+        <errorType />
+
+        <originalForm>Brotgescheft</originalForm>
+
+        <targetForm>Brotgeschäft</targetForm>
+      </error>, <palimpsest> </palimpsest>habe ich d<palimpsest>er</palimpsest> <overwrite>
+        <under>Z</under>
+
+        <over>K</over>
+      </overwrite>assenzettel <correction>
+        <insertion>von d<strikeover>
+            <expansion>ie</expansion>
+
+            <expansion>as</expansion>
+          </strikeover></insertion>
+      </correction> Frau geholt und bin ich in <foreign_word
+        foreign_language="Italiano">Supermarket</foreign_word> wiedergefla<ambiguous>
+        <alternative>u</alternative>
+
+        <alternative>n</alternative>
+      </ambiguous>t. Die Kassierin hat sich ent<overwrite>
+        <under><unreadable /></under>
+
+        <over>sc</over>
+      </overwrite>huldigt und das Frau ist zu <strikeover>
+        <expansion>H</expansion>
+
+        <expansion>h</expansion>
+      </strikeover>ause gegangen!<par /><palimpsest> </palimpsest><strikeover>
+        <expansion>W</expansion>
+
+        <expansion>w</expansion>
+      </strikeover>as hast du heute gemacht?<par />Ich meine etwas <error>
+        <errorType />
+
+        <originalForm>lustig</originalForm>
+
+        <targetForm>Lustig</targetForm>
+      </error>!<par /><closing>Wir sehen uns bald.<par /> <entity>Miriam</entity> </closing> </exercise>
+
+    <exercise number="2" xml:space="preserve">
+ <par /><greeting>Hallo <entity>BiBi</entity>,</greeting> <par />wie <error>
+        <errorType />
+
+        <originalForm>gehts</originalForm>
+
+        <targetForm>geht´s</targetForm>
+      </error>? Mir alles gut.<par />Also, ich habe gedacht auf die unsere <strikeover>
+        <expansion>S</expansion>
+
+        <expansion>s</expansion>
+      </strikeover>o<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>mm</insertion>
+      </correction>erfe<hyphen>-</hyphen>rien: "Berge oder Meer?"<par />Jetzt stelle ich d<palimpsest>ir</palimpsest> einige Möglichkeiten vor.<palimpsest> </palimpsest> Wir können ins <entity>Apulien</entity> <correction>
+        <deletion>gehen</deletion>
+      </correction> <arrow end="open" id="1"> </arrow> sondern ins <error>
+        <errorType />
+
+        <originalForm>berg</originalForm>
+
+        <targetForm>Berg</targetForm>
+      </error>, neben <entity>Ruffré</entity> <arrow end="head" id="1">fahren</arrow> .<par />Für mich ist gleich, weil wie du <error>
+        <errorType />
+
+        <originalForm>weist</originalForm>
+
+        <targetForm>weißt</targetForm>
+      </error> ich <arrow end="open" id="2"> </arrow> alle zwei Möglichkeiten <arrow
+        end="head" id="2">liebe</arrow>.<par />Aber <correction>
+        <deletion>ans</deletion>
+      </correction> wi<overwrite>
+        <under><unreadable /></under>
+
+        <over>r</over>
+      </overwrite> leben im <entity>Bozen</entity>!, also möchte ich <error>
+        <errorType />
+
+        <originalForm>dies<palimpsest> </palimpsest> mal</originalForm>
+
+        <targetForm>diesmal</targetForm>
+      </error> <strikeover>
+        <expansion>n</expansion>
+
+        <expansion>i</expansion>
+      </strikeover>ach Meer<palimpsest> </palimpsest> <correction>
+        <deletion><palimpsest> </palimpsest></deletion>
+
+        <insertion>fahren</insertion>
+      </correction>! Ich habe <entity>Apulien</entity> <error>
+        <errorType />
+
+        <originalForm>guewält</originalForm>
+
+        <targetForm>gewählt</targetForm>
+      </error>, weil sehr sehr schön ist, aber wenn du es nicht magst, musst du mir sagen. Ja, auch Berg ist schön, wir können ins <error>
+        <errorType />
+
+        <originalForm>shöne</originalForm>
+
+        <targetForm>schöne</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>disko</originalForm>
+
+        <targetForm>Disko</targetForm>
+      </error><arrow end="open" id="3"> </arrow> oder spazieren <arrow
+        end="head" id="3">gehen</arrow>. Ich habe eines Haus auf die Berge aber ich gehe dort nur im <correction>
+        <deletion>Som</deletion>
+      </correction> Winterferien. Der <strikeover>
+        <expansion>O</expansion>
+
+        <expansion>o</expansion>
+      </strikeover>rt ist schön, aber <correction>
+        <insertion>ist</insertion>
+      </correction> kalt auch im Sommer.<par />Ich warte deine <error>
+        <errorType />
+
+        <originalForm>antworte<correction>
+            <deletion>n</deletion>
+          </correction></originalForm>
+
+        <targetForm>Antworte</targetForm>
+      </error>.<par /><closing>K<overwrite>
+          <under><unreadable /></under>
+
+          <over>ü</over>
+        </overwrite>ssch<correction>
+          <deletion>i</deletion>
+        </correction>en <entity>Miriam</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

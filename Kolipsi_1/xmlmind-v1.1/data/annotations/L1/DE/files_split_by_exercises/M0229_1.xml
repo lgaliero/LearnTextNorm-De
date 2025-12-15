@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0229</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hi du</greeting>,<par/>wie geht's dir so. Ich hoffe gut. Du kennst ja meine Freundin <entity>Maria</entity>, oder? Der ist letzte Woche was Komisches passiert. Du weißt ja, dass sie sehr vergesslich ist. Das hat sich dann auch beim Einkaufen bemerkbar gemacht. Sie wollte ein paar Sachen für die Salate für unser Grill<hyphen>-</hyphen>fest am Wochenende holen und ist <palimpsest>zu</palimpsest> ihrer Mutter in den Obst- und Gemüseladen gegangen, um <palimpsest>die Z</palimpsest>utaten für den Bauernsalat zu holen. Dann haben sich <entity>Maria</entity> und ihre Mutter ziemlich lange unterhalten und deswegen hat <entity>Maria</entity> dann auch den Kassenzettel für das Gemüse auf de<palimpsest>r</palimpsest> Th<palimpsest>eke li</palimpsest>egen lassen. Sie wollte dann noch in den Supermarkt um für den Rest der Woche einzu<hyphen>-</hyphen>kaufen. Doch an der Kasse hat die Kassiererin das Gemüse in ihrer Tasche gesehen und dachte sie wollte es aus dem Supermarkt klauen. <entity>Maria</entity> konnte die Kassiererin nicht überzeugen, dass das Gemüse aus einem anderen Laden ist, also musste ihre Mutter kommen um zu bestätigen, dass das Gemüse aus ihrem Laden ist. Typisch <entity>Maria</entity>. Sie schafft es aus den einfachsten Sachen ein großes Problem zu machen. <error>
+        <errorType/>
+
+        <originalForm>Naja</originalForm>
+
+        <targetForm>Na ja</targetForm>
+      </error>, wenigstens war der Salat gut. Wir können uns ja nochmal zu dritt treffen. Wäre bestimmt toll.<par/><closing>Liebe Grüße, <entity>I</entity></closing>   </exercise>
+
+    
+  </body>
+</kolipsi_document>

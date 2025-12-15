@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I23_IOR12BIA</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve">Bozen, 27.03.'15<par/><greeting>Sehr geehrte Herr Paul,</greeting><par/>das ist <correction>
+        <deletion><unreadable/></deletion>
+      </correction> die Radaktion von "Junge Woche", die <correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>dir</insertion>
+      </correction> schreibt. Wir haben dein<correction>
+        <deletion>e</deletion>
+
+        <insertion>en</insertion>
+      </correction> Brief gelesen, <correction>
+        <deletion><unreadable/></deletion>
+      </correction> und wir verstehen dein Problem mit dem Chatten. <correction>
+        <deletion><unreadable/></deletion>
+      </correction><par/>Virtuelle Chatten können dir helfen, wenn du nur jemanden mit wem du sprechen brauchst; aber wenn du ein Freund brauchst, du kannst nicht virtuelle Freundschaften machen, weil es <correction>
+        <deletion>w</deletion>
+      </correction> nicht eine Person, mit wem du spielen kannst, wäre, <correction>
+        <deletion>aber nu</deletion>
+      </correction> sonst nur Wörte auf den Computer.<par/>Ich denke, dass <correction>
+        <deletion>Alle</deletion>
+      </correction> alle Menschen eine Erfahrung, die sie mit dem Internet gemacht haben, wie ich. Einmal habe ich mit jemanden geschrieben, aber beide uns brauchten etwas mehr. Jetzt wird ich dir einen Rat geben, was du tun könntest: <error>
+        <errorType/>
+
+        <originalForm>ich</originalForm>
+
+        <targetForm>Ich</targetForm>
+      </error> <correction>
+        <deletion><unreadable/></deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>glabe</originalForm>
+
+        <targetForm>glaube</targetForm>
+      </error>, dass du die Situation erzählen sollte, und wenn eine richtige Person, die an der andere Seite <correction>
+        <deletion>ist</deletion>
+      </correction> der Chatte ist, sie wird verstehen. Vielleicht, wenn du jemand mit wem sprechen brauchst, du kannst immer an deine virtuelle Freunde schreiben. "Junge Woche" hofft, dass er dir geholfen hat, und er bedankt dir, dass du uns <correction>
+        <deletion>gesch<unreadable/></deletion>
+      </correction> geschrieben hat.<par/><closing><error>
+          <errorType/>
+
+          <originalForm>Dankeschön</originalForm>
+
+          <targetForm>Danke schön</targetForm>
+        </error>,</closing><par/>die Redaktion</exercise>
+  </body>
+</kolipsi_II_document>

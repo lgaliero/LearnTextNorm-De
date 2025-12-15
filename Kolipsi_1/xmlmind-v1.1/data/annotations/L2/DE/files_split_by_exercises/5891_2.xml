@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5891</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Hilde</entity>,</greeting>wie geht es dir? <par/><palimpsest>Es ist</palimpsest> lange Zeit <correction>
+        <insertion>vergangen ohne</insertion>
+      </correction> dass wir uns <palimpsest>geschrieben</palimpsest> haben! <par/>Gehst du noch in d<palimpsest>ie <over_capitalisation>
+          <originalForm>UNI</originalForm>
+
+          <targetForm>Uni</targetForm>
+        </over_capitalisation>?</palimpsest> Ich denke schon. <par/><error>
+        <errorType/>
+
+        <originalForm>also</originalForm>
+
+        <targetForm>Also</targetForm>
+      </error>, endlich Ferien! <error>
+        <errorType/>
+
+        <originalForm>wo</originalForm>
+
+        <targetForm>Wo</targetForm>
+      </error> möchten wir <palimpsest>gehen</palimpsest>? <par/>Letztes Jahr sind wir ans Meer gegangen. <error>
+        <errorType/>
+
+        <originalForm>erinnerst</originalForm>
+
+        <targetForm>Erinnerst</targetForm>
+      </error> du wie schön es war? Die Palmern, der Strand die warme Sonne. Wir können aber auch auf dem Berg gehen! Dort ist es auch eine warme Sonne und <error>
+        <errorType/>
+
+        <originalForm>friesche</originalForm>
+
+        <targetForm>frische</targetForm>
+      </error> Luft. Wir können Spaziergänge machen, unter die Sonne liegen, aber leider können wir nicht schwimmen… Ich liebe schwimmen und in das Wasser liegen. A<palimpsest>m</palimpsest> Meer sind auch <palimpsest>ganz tolle <error>
+          <errorType/>
+
+          <originalForm>boys</originalForm>
+
+          <targetForm>Boys</targetForm>
+        </error> Auf dem Berg</palimpsest> sind aber auch viele Leute und wir können neue Personen kennen<hyphen>-</hyphen>lernen.. Ich weiß noch nicht was wir machen sollen … Und du? Was glaubst du? Letztes Jahr bekam ich Sommersprossen als wir am Meer waren. Ich möchte aber dieses Jahr nicht Sommersprossen haben. Aber am Meer werde ich braun schneller. <par/>Also, wir haben viele Möglichkeiten! <par/>Wir werden sicher ein super-tolles Sommer verbringen! Schreib mir bald, so können wir uns entscheiden! <par/><closing>Viele <sic>Küssen</sic>! <par/> Deine liebe <entity>Chiara</entity> </closing></exercise>
+  </body>
+</kolipsi_document>

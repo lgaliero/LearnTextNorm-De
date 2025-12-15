@@ -1,0 +1,81 @@
+<body>
+ <page page_number="1" transcanno_page_id="160">
+  <paragraph class="medium-paragraph" tagcode="1610967211960">
+   <div>
+    1) Ich möchte
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1540331718155" tran_word_deletion_target="_#_">
+     m
+    </tran_word_deletion_id8>
+    nach
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1540331721080">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1540331724824" tran_word_deletion_target="_#_">
+      *
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+    der Mittelschule
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1540331729441">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1540331732256" tran_word_deletion_target="_#_">
+      *
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+    das
+    <tran_hyphen_id15 class="medium-tran_hyphen_id15" tagcode="1540331739504" tran_hyphen_target="_#_">
+     Erdkunde-
+    </tran_hyphen_id15>
+   </div>
+   <div>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="lyzeum" tagcode="1540331745907">
+     Lizeum
+    </orth_error_id12>
+    und dann die Universität.
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1610967211961">
+   <div>
+    2) Mein
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Traumberuf" tagcode="1610967211959">
+     traumberuf
+    </orth_error_id12>
+    ist Lehrer werden, weil man die
+   </div>
+   <div>
+    anderen Kinder
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="lernen" tagcode="1540331757372">
+     lehrnen
+    </orth_error_id12>
+    und es ist schön.
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1610967211962">
+   <div>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1540331707558">
+     <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1540331766417" tran_correction_original="4">
+      3
+     </tran_word_correction_id25>
+     ) Ich muss, gut studieren.
+    </tran_word_insertion_id9>
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1610967211964">
+   <div>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1540331772958" tran_correction_original="*">
+     4
+    </tran_word_correction_id25>
+    ) Ich muss, das Fach lernen das ich
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="spezialisiert" tagcode="1540331793856">
+     <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1540331781874">
+      specialiesiert
+     </tran_word_insertion_id9>
+    </orth_error_id12>
+    bin ein
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="guter" tagcode="1540331807261">
+     Guter
+    </orth_error_id12>
+    Lehrer
+   </div>
+   <div>
+    werden konnte.
+   </div>
+  </paragraph>
+ </page>
+</body>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0198</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting><palimpsest>Hey</palimpsest> <entity>Herbert</entity></greeting>,<par /><palimpsest></palimpsest> wie geht es dir?<par />Ich muss dir dringend etwas erzählen. Du glaubst nicht was gestern unserer <entity>Maria</entity> passiert ist.<par />Alles begann als <correction>
+        <deletion>Si</deletion>
+      </correction> sie am <strikeover>
+        <expansion>m</expansion>
+
+        <expansion>M</expansion>
+      </strikeover>orgen zum Obsthändler um die Ecke ging, um dort ihre Einkäufe für die kommende Woche zu erledigen. Wie du weißt, achtet sie sehr auf ihre Ernährung. Nachdem sie alles was sie benötigte im <correction>
+        <deletion>Einkaufswagen</deletion>
+      </correction> <correction>
+        <insertion>Korb</insertion>
+      </correction> hatte, ging sie zu der Theke um das Obst zu bezahlen. Natürlich redete <entity>Marie</entity> in <sic>einen</sic> <overwrite>
+        <under>m</under>
+
+        <over>M</over>
+      </overwrite>oment mit der <error>
+        <errorType />
+
+        <originalForm>Kassierin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> und war <correction>
+        <deletion>so sehr</deletion>
+      </correction> <correction>
+        <insertion>dann</insertion>
+      </correction> mit den Gedanken ganz woanders, sodass sie den Kassenbon liegen ließ.<par />Danach fuhr sie los um noch ein paar Besorgungen zu machen. Ca. 1 Stunde später fuhr sie zum Supermarkt, um dort den Rest einzukaufen. <correction>
+        <deletion>Während des gesamten Einkaufs machte sie sich keine Sorgen,d</deletion>
+      </correction> Später an der Kasse bezahlte <entity>Marie</entity> mit gutem Gewissen ihre Einkäufe, als plötzlich die <error>
+        <errorType />
+
+        <originalForm>Kassierin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> auf<hyphen>-</hyphen>geregt <entity><error>
+          <errorType />
+
+          <originalForm>Marie</originalForm>
+
+          <targetForm>Maria</targetForm>
+        </error></entity> des Diebstahls bezichtigte. <entity><error>
+          <errorType />
+
+          <originalForm>Marie</originalForm>
+
+          <targetForm>Maria</targetForm>
+        </error></entity> war die Situation selbstverständlich unangenehm und <gap>_</gap> versuchte den Kassenbon aus <correction>
+        <deletion>dem Ob</deletion>
+      </correction> von dem Obsthändler zu finden, als <overwrite>
+        <under>e</under>
+
+        <over>i</over>
+      </overwrite>hr endlich auf<hyphen>-</hyphen>fiel, dass sie diesen vergessen hatte. Die <error>
+        <errorType />
+
+        <originalForm>Kassierin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> war sehr <error>
+        <errorType />
+
+        <originalForm>Zornig</originalForm>
+
+        <targetForm>zornig</targetForm>
+      </error>! Die Situation hat sich zum Gunsten von <entity><error>
+          <errorType />
+
+          <originalForm>Marie</originalForm>
+
+          <targetForm>Maria</targetForm>
+        </error></entity> dann noch aufgeklärt. Immer in Schwierigkeiten aber alles läuft <error>
+        <errorType />
+
+        <originalForm>Gut</originalForm>
+
+        <targetForm>gut</targetForm>
+      </error>! <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Wirklich ein Glückspilz.<par /><closing>Bis demnächst<par />deine herzallerliebste<par /><entity>Inge</entity> <emoticon>;)</emoticon></closing>              </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Berta</entity></greeting>,<par />es tut mir <correction>
+        <deletion>L</deletion>
+      </correction> leid, dass ich mich erst jetzt melde, aber <correction>
+        <deletion>es</deletion>
+      </correction> <correction>
+        <deletion>es w</deletion>
+      </correction> ich hatte viel in der Schule zu tun. Nun ist die Zeit sehr knapp, sodass ich <correction>
+        <deletion>n</deletion>
+      </correction> dir <correction>
+        <deletion>die</deletion>
+      </correction> versuche meine Ansicht der beiden Möglichkeiten <correction>
+        <deletion>versuche</deletion>
+      </correction> in diesem Brief darzulegen.<par />Die Berge sind wirklich schön, vor allem, wenn man ins Tal an d<correction>
+        <deletion>en</deletion>
+      </correction><correction>
+        <insertion>ie</insertion>
+      </correction> Seen zum <error>
+        <errorType />
+
+        <originalForm>schwimmen</originalForm>
+
+        <targetForm>Schwimmen</targetForm>
+      </error> geht. Die Ufer sind nicht überladen von den <correction>
+        <deletion>Menschen</deletion>
+      </correction> Touristen, welche sich um die besten Plätze streiten.<par />Jedoch <correction>
+        <deletion>sind am M</deletion>
+      </correction> sind am Meer Sandstrände, Palmen und das klare <error>
+        <errorType />
+
+        <originalForm>Türkis farbende</originalForm>
+
+        <targetForm>türkisfarbene</targetForm>
+      </error> Wasser, welches mich <correction>
+        <deletion>w</deletion>
+      </correction> sehr beeindruckt. Das Gefühl von Erholung und Urlaub wird für mich dabei besonders hervorgehoben.<par /><correction>
+        <deletion>De</deletion>
+      </correction> Wenn wir zum Meer fahren, wird uns auch ein<correction>
+        <deletion>e</deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>Vielseitiges</originalForm>
+
+        <targetForm>vielseitiges</targetForm>
+      </error> Freizeit<hyphen>-</hyphen>angebot von unserem Hotel angeboten. Bis jetzt habe ich sehr gute Erfahrungen damit gemacht.<par />In den Bergen <correction>
+        <deletion>wird uns</deletion>
+      </correction> <correction>
+        <insertion>gibt es</insertion>
+      </correction> selbstverständlich auch <correction>
+        <deletion>s</deletion>
+      </correction> Angebote, jedoch sind diese nicht so vielseitig.<par /><correction>
+        <insertion>Im Großen und <overwrite>
+            <under>g</under>
+
+            <over>G</over>
+          </overwrite>anzen <error>
+            <errorType />
+
+            <originalForm>Bevorzuge</originalForm>
+
+            <targetForm>bevorzuge</targetForm>
+          </error> ich eher das warme <correction>
+            <deletion>und</deletion>
+          </correction> Wetter und ein vielfältiges Frei<overwrite>
+            <under>t</under>
+
+            <over>z</over>
+          </overwrite>eitangebot. <palimpsest>Die <sic>Bergen</sic> sind für mich zum Skifahren im Winter</palimpsest> sehr schön, jedoch im Sommer ist es mir zu eintönig dort.</insertion>
+      </correction><par />Die Entscheidung liegt bei dir. Ich möchte dich nur noch einmal darauf <error>
+        <errorType />
+
+        <originalForm>Hinweisen</originalForm>
+
+        <targetForm>hinweisen</targetForm>
+      </error>, <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> du bitte nicht unsere Preisgrenze über<hyphen>-</hyphen>schreitest. <correction>
+        <deletion>und <unreadable /> vielleicht die</deletion>
+      </correction><par /><correction>
+        <deletion>Wie würde</deletion>
+      </correction> Du wolltest auch noch wissen, wann ich gerne <overwrite>
+        <under>F</under>
+
+        <over>f</over>
+      </overwrite>ahren würde. Wie wäre es mit den ersten beiden Wochen der Sommerferien?<par /><closing>Liebe Grüße<par /><entity>Uschi</entity></closing>                   </exercise>
+  </body>
+</kolipsi_document>

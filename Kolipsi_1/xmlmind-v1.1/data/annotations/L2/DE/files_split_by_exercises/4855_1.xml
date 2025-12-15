@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>4855</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Liebe <entity>Anna</entity>,</greeting> <par/>ich erzähle dir was letzte Woche <entity>Maria</entity> passiert ist. Sie ist beim Obsthändler gegangen. Dort hat sie einige Gemüse und Obst eingekauft, sie hat alles bezahlt aber <error>
+        <errorType/>
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> hat die Kassenzettel auf den Kassentisch gelassen und ist <error>
+        <errorType/>
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>weg gegangen</originalForm>
+
+        <targetForm>weggegangen</targetForm>
+      </error>. <par/>Eine Stunde später war sie im <foreign_word foreign_language="Italiano">Supermarket</foreign_word>, sie hat alles was sie brauchte genommen, und ist an die Kasse gegangen. Aber sie hat einen Problem mit die Verkäuferin gehabt. Sie hat alles bezahlt, aber die Verkäuferin hat Obst und Gemüse in die Tasche von <entity>Maria</entity> gesehen. <par/>Also hat die Frau ihnen gefragt: <direct_speech>”<error>
+          <errorType/>
+
+          <originalForm>Freulein</originalForm>
+
+          <targetForm>Fräulein</targetForm>
+        </error>, was ist in ihre Tasche? Obst und Gemüse sehe ich. Hat <overwrite>
+          <under>s</under>
+
+          <over>S</over>
+        </overwrite>ie vielleicht gestohlen?“</direct_speech> und <entity>Maria</entity> antwortete: <direct_speech>“Nein, ich habe es beim Obsthändler eine Stunde vor gekauft.“</direct_speech> <par/>Die Verkäuferin:<direct_speech> <palimpsest>Z</palimpsest>ei<palimpsest>g</palimpsest> mir <palimpsest> </palimpsest> dem Kassenzettel, wenn du es hast.“</direct_speech> <entity>Maria</entity> sucht es in die Tasche, aber dort war es nicht, also erinnerte sie sich dass sie es vergessen zu nehmen hat, und sie sagte das an die Verkäuferin. Aber sie war wütend: <direct_speech>„Nein, dass stimmt es nicht. Du hast es gestohlen, und du <error>
+          <errorType/>
+
+          <originalForm>must</originalForm>
+
+          <targetForm>musst</targetForm>
+        </error> es sofort bezahlen.“</direct_speech> So hatte <entity>Maria</entity> alles wieder bezahlt. <par/>Also, liebe Freu<palimpsest>n</palimpsest>din, erinnert dir immer die Kassenzettel <error>
+        <errorType/>
+
+        <originalForm>mit zu nehmen</originalForm>
+
+        <targetForm>mitzunehmen</targetForm>
+      </error>! <par/><closing>Liebe <error>
+          <errorType/>
+
+          <originalForm>Gruße</originalForm>
+
+          <targetForm>Grüße</targetForm>
+        </error> <entity>Valentina</entity> </closing> </exercise>
+
+    
+  </body>
+</kolipsi_document>

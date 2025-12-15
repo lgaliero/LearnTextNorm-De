@@ -1,0 +1,72 @@
+<body>
+ <page page_number="1" transcanno_page_id="2381">
+  <paragraph class="medium-paragraph" tagcode="1552769641984">
+   <div>
+    Sie sind zwei
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Personen" tagcode="1552769441876">
+     personen
+    </orth_error_id12>
+    , ein
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552769433684" tran_word_deletion_target="_#_">
+     mädchen
+    </tran_word_deletion_id8>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1552769450893">
+     Kind
+    </tran_word_insertion_id9>
+    und seine
+   </div>
+   <div>
+    Vater.
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552769524979" tran_word_deletion_target="_#_">
+     Das Vater und
+    </tran_word_deletion_id8>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552769539273" tran_word_deletion_target="_#_">
+     das mädchen
+    </tran_word_deletion_id8>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552769536034" tran_word_deletion_target="_#_">
+     seine
+    </tran_word_deletion_id8>
+   </div>
+   <div>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552769562526" tran_word_deletion_target="_#_">
+     kind
+    </tran_word_deletion_id8>
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1552769558519">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552769564961" tran_word_deletion_target="_#_">
+      *
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552769552502" tran_word_deletion_target="_#_">
+     Und
+    </tran_word_deletion_id8>
+    Danach komme
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1552769604842" tran_correction_original="di*">
+     die
+    </tran_word_correction_id25>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Mutter" tagcode="1552769588102">
+     mutter
+    </orth_error_id12>
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1552769592931">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552769597222" tran_word_deletion_target="_#_">
+      *
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+   </div>
+   <div>
+    vor
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1552769622617">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552769625315" tran_word_deletion_target="_#_">
+      *
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1552769635016" tran_correction_original="da*">
+     das
+    </tran_word_correction_id25>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Kind" tagcode="1552769641979">
+     kind
+    </orth_error_id12>
+    .
+   </div>
+  </paragraph>
+ </page>
+</body>

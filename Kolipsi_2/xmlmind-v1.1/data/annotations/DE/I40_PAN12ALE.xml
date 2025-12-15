@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I40_PAN12ALE</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo Chiara,</greeting><par /><error>
+        <errorType />
+
+        <originalForm>gester</originalForm>
+
+        <targetForm>gestern</targetForm>
+      </error> meine <correction>
+        <deletion>f</deletion>
+
+        <insertion>F</insertion>
+      </correction>reu<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>n</insertion>
+      </correction>din Maria war in eine Supermarkt, aber <correction>
+        <insertion>erst</insertion>
+
+        <deletion><unreadable /></deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> kauft viele Obst und Gemüse in eine andere Superm<correction>
+        <deletion>e</deletion>
+
+        <insertion>a</insertion>
+      </correction>rkt.<par />So, wenn sie <correction>
+        <deletion><unreadable /></deletion>
+      </correction> an der Kasse war, das Frau, <error>
+        <errorType />
+
+        <originalForm>dass</originalForm>
+
+        <targetForm>das</targetForm>
+      </error> arbeitete da, sah die Tasche mit die Obst und die Gemüse. Das Frau fragte sie <correction>
+        <deletion>wo hast sie</deletion>
+      </correction> warum wollte sie diese Sache nicht bezahlen.<par />Maria antwortet, dass <error>
+        <errorType />
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> in eine Gemüseladen <correction>
+        <deletion>ge<unreadable /></deletion>
+      </correction> diese Sache gekaufen, <correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>aber</insertion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> <correction>
+        <deletion>die</deletion>
+      </correction> der Kassenzettel in <correction>
+        <deletion><unreadable /></deletion>
+      </correction> ihre Tasche nicht finden.<par />Sie h<correction>
+        <deletion>e</deletion>
+
+        <insertion>a</insertion>
+      </correction>t ein große <correction>
+        <deletion>p<unreadable /></deletion>
+      </correction> Problem, die Verkäferin sagt, dass <error>
+        <errorType />
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> eine Diebin war. Aber <error>
+        <errorType />
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> hat nur der Kassenzettel in die andere <foreign_word foreign_language="Italiano">Supermarket</foreign_word> vergessen. Die Verkäuferin entscheidet die <error>
+        <errorType />
+
+        <originalForm>Polizai</originalForm>
+
+        <targetForm>Polizei</targetForm>
+      </error> zu anrufen, so Maria <error>
+        <errorType />
+
+        <originalForm>mußt</originalForm>
+
+        <targetForm>musst</targetForm>
+      </error> <correction>
+        <deletion>s ihre Geschichte</deletion>
+      </correction> ihre Geschichte eine andere Mal <error>
+        <errorType />
+
+        <originalForm>erzahlen</originalForm>
+
+        <targetForm>erzählen</targetForm>
+      </error>.<par />Die <error>
+        <errorType />
+
+        <originalForm>Polizai</originalForm>
+
+        <targetForm>Polizei</targetForm>
+      </error> entscheidet zur die andere Supermarkt zu gehen, <error>
+        <errorType />
+
+        <originalForm>un</originalForm>
+
+        <targetForm>und</targetForm>
+      </error> da sie findet der Kassenzettel.<par />Dann Maria <correction>
+        <deletion>zu Hause</deletion>
+      </correction> ist nach Hause gegangen. <error>
+        <errorType />
+
+        <originalForm>Ok</originalForm>
+
+        <targetForm>O.k.</targetForm>
+      </error>, das Geschichte ist fertig, <closing><error>
+          <errorType />
+
+          <originalForm>aufwiedersen</originalForm>
+
+          <targetForm>auf Wiedersehen</targetForm>
+        </error>.</closing></exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo Paul,</greeting><par />ich habe deine Brief<correction>
+        <deletion>e</deletion>
+      </correction> in der Rubrik "Junge Woche" gelesen. Meine Meinung über virtuelle Freundschaften, ist dass sie sind nicht währe, weil du diese Leute nicht kennen.<par />Zum Beispiel ich habe nicht Facebook, und ich bin sehr <error>
+        <errorType />
+
+        <originalForm>fröh</originalForm>
+
+        <targetForm>froh</targetForm>
+      </error>, weil meine Freunden <correction>
+        <deletion><unreadable /></deletion>
+      </correction> realistisch sind.<par />Ich sage nicht, dass deine <correction>
+        <deletion>F</deletion>
+      </correction> virtuelle Freundschaften sind <correction>
+        <deletion>alle</deletion>
+      </correction> nicht <error>
+        <errorType />
+
+        <originalForm>güte</originalForm>
+
+        <targetForm>gute</targetForm>
+      </error> Personen, aber du konntest <correction>
+        <deletion><unreadable /></deletion>
+      </correction> sie nicht.<par /><correction>
+        <deletion>Ich sage</deletion>
+      </correction> Ich denke, dass du <correction>
+        <insertion>mit</insertion>
+
+        <deletion>sie</deletion>
+      </correction> dem <correction>
+        <deletion>ge</deletion>
+      </correction> chattet; und erzähle sie die <error>
+        <errorType />
+
+        <originalForm>situation</originalForm>
+
+        <targetForm>Situation</targetForm>
+      </error>.</exercise>
+  </body>
+</kolipsi_II_document>

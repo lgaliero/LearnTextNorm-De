@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>3544</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><par/><greeting>Liebe <entity>Sara</entity>,</greeting> <par/><error>
+        <errorType/>
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> will dich erzählt, dass ich <sic>eine</sic> Haus auf <sic>den</sic> Berg habe. <overwrite>
+        <under>s</under>
+
+        <over>S</over>
+      </overwrite>o ich weiß wie ist auf de<ambiguous>
+        <alternative>r</alternative>
+
+        <alternative>n</alternative>
+      </ambiguous> Berg.<par/>Der Berg ist ein Platz wo du bist zusammen mit der Natur, die Tiere und ist nicht langweilig. Der Berg ist ein schön Platz wo deine Kinder sind immer froh und können immer <sic>spiele</sic> ohne Angst für dich und für deine Kinder. Auf <sic>den</sic> Berg war wenig Auto und so wenig <error>
+        <errorType/>
+
+        <originalForm>smog</originalForm>
+
+        <targetForm>Smog</targetForm>
+      </error>. Am Meer sind viele Auto und so viele <error>
+        <errorType/>
+
+        <originalForm>smog</originalForm>
+
+        <targetForm>Smog</targetForm>
+      </error> und für deine Kinder ist nicht gut. Am Meer deine Kinder können nicht <sic>spiele</sic> ohne Angst, weil <error>
+        <errorType/>
+
+        <originalForm>E<overwrite>
+            <under><unreadable/></under>
+
+            <over>r</over>
+          </overwrite>trinken</originalForm>
+
+        <targetForm>ertrinken</targetForm>
+      </error> können. Am Meer war viele Leute und deine Kindern haben keine Platz wo spielen. <correction>
+        <insertion>Das</insertion>
+      </correction> Meer ist viele langweilig, weil du viele <error>
+        <errorType/>
+
+        <originalForm>uhr</originalForm>
+
+        <targetForm>Uhr</targetForm>
+      </error> un<overwrite>
+        <under>d</under>
+
+        <over>t</over>
+      </overwrite>er der Sonne <sic>steht</sic>. Du musst geben viele Geld für den Sonnenschirm auf der Berg nicht. <sic>Letzte</sic> Sommer ich bin auf den Berg gegangen und hatte ich <sic>viele</sic> Spaß auf den Berg. Das Meer ist viele <error>
+        <errorType/>
+
+        <originalForm>gefärlich</originalForm>
+
+        <targetForm>gefährlich</targetForm>
+      </error>, der Berg nicht.<par/>Ich wartet deine Antwort.</exercise>
+  </body>
+</kolipsi_document>

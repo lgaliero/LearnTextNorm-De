@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5697</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><comment>Der ganze Text ist in Form eines Chat-Dialogs verfasst, closing fehlt </comment><entity>Lucia</entity>: <direct_speech>Hallo <entity>Maria</entity> wie geht es dir?</direct_speech><entity> Maria</entity>: <direct_speech><palimpsest>H</palimpsest>allo, <entity>Lucia</entity>, es geht! Letzte Woche war ich einkaufen und ist mir etwas passiert…</direct_speech><direct_speech>Ich war zuerst wie <sic>jedes</sic> Morgen Obst- und Gemüseladen einkaufen gegangen.</direct_speech><par/><palimpsest>unreadable</palimpsest><entity>Lucia</entity>: <direct_speech>Aha, was ist dann passiert? Bis jetzt ist nicht <sic>psonders</sic> <correction>
+          <insertion>etwas</insertion>
+        </correction> passiert….</direct_speech><par/><entity>Maria</entity>: <direct_speech>Ja, die <error>
+          <errorType/>
+
+          <originalForm>Verkeuferin</originalForm>
+
+          <targetForm>Verkäuferin</targetForm>
+        </error> hat mir keine Tasche gegeben, so habe ich <sic>die</sic> <error>
+          <errorType/>
+
+          <originalForm>Gemuse</originalForm>
+
+          <targetForm>Gemüse</targetForm>
+        </error> <correction>
+          <deletion>und</deletion>
+        </correction> in die Handtasche <sic>getragt</sic>.</direct_speech><par/><entity>Lucia</entity>: <direct_speech>Ja, ich mache das auch!</direct_speech><par/><entity>Maria</entity>: <direct_speech>Eine <overwrite>
+          <under>s</under>
+
+          <over>S</over>
+        </overwrite>tunde später war <correction>
+          <deletion><unreadable/></deletion>
+        </correction> ich im Supermarkt einkaufen. Wenn ich an der Kassa war, hat <sic>mir</sic> die <error>
+          <errorType/>
+
+          <originalForm>Verkeuferin</originalForm>
+
+          <targetForm>Verkäuferin</targetForm>
+        </error> ganz <correction>
+          <deletion>sch</deletion>
+        </correction> böse angeschaut. Ich habe, <error>
+          <errorType/>
+
+          <originalForm><overwrite>
+              <under>j</under>
+
+              <over>J</over>
+            </overwrite>a</originalForm>
+
+          <targetForm>ja</targetForm>
+        </error> nicht verstanden…</direct_speech><entity>Lucia</entity>: <direct_speech>Was ist passiert?</direct_speech><par/><entity>Maria</entity>: <direct_speech>Sie hat <correction>
+          <deletion>meint das</deletion>
+
+          <insertion>gemeint</insertion>
+        </correction> <error>
+          <errorType/>
+
+          <originalForm>das</originalForm>
+
+          <targetForm>dass</targetForm>
+        </error> ich <error>
+          <errorType/>
+
+          <originalForm>Gemuse</originalForm>
+
+          <targetForm>Gemüse</targetForm>
+        </error> <error>
+          <errorType/>
+
+          <originalForm>gestolen</originalForm>
+
+          <targetForm>gestohlen</targetForm>
+        </error> habe!</direct_speech><par/><entity>Lucia</entity>: <direct_speech><emphasis>Naaaaaaah</emphasis> ist das <error>
+          <errorType/>
+
+          <originalForm>gemeind</originalForm>
+
+          <targetForm>gemein</targetForm>
+        </error>!</direct_speech><par/><entity>Maria</entity>: <direct_speech>Ich habe <sic>Sie</sic> die Kassazettel <correction>
+          <deletion><unreadable/></deletion>
+        </correction> von Obsthändler, und h<correction>
+          <deletion>ä</deletion>
+
+          <insertion>a</insertion>
+        </correction>tte sie mich verstanden!</direct_speech><par/></exercise>
+
+    
+  </body>
+</kolipsi_document>

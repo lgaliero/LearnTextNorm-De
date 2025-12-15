@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>6404</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Ylenia</entity>!</greeting> <par/>Danke für deinen Brief! Ich freue mich ja immer sehr, wenn ich Post von dir bekomme! Wie geht es dir? <par/>Die Schule ist bald fertig: <error>
+        <errorType/>
+
+        <originalForm>wir</originalForm>
+
+        <targetForm>Wir</targetForm>
+      </error> können unseren Urlaub planen. Wir müssen noch das Ziel wählen: Urlaub in den Bergen oder am Meer? Am Meer ist der Urlaub erholsam, wir können am Strand liegen, schwimmen, Fische sehen und vielleicht auch in die Disko gehen, obwohl ich sie nicht mag. <par/>In den Bergen können wir lange Spaziergänge machen, frische Luft atmen, viele Tiere und Blumen sehen und mehr in Kontakt mit der Natur sein. Es gibt sicher Gemeinsamkeiten, wie die Natur, und Unterschiede, wie die Landschaft. Ich habe die Berge lieber, weil ich <palimpsest>viele</palimpsest> Reisen und Spaziergänge gemacht habe und die Landschaft mag. Man kann sehen wie schön die Welt ist, wenn man in den Bergen geht. <par/>Wir können unseren Urlaub in den Bergen verbringen, oder hast du den Urlaub am Meer lieber? <par/>Wenn wir das Ziel gewählt haben, kaufen wir die Fahrkarten und buchen ein Zimmer in einem Hotel oder einen Bungalow in einem Camping. <par/>Schreib mir bald!<par/><closing>Herzliche <sic>Gruße</sic> <par/> <entity>Elena</entity> </closing></exercise>
+  </body>
+</kolipsi_document>

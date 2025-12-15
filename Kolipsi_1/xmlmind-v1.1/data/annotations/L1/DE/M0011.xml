@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0011</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe ...,</greeting><par />auch wenn es dich wahrscheinlich nicht interessiert möchte ich dir <correction>
+        <deletion>eine Geschich</deletion>
+      </correction> erzählen, was meiner Freundin <entity>Maria</entity> letzte Woche beim Einkaufen passiert ist: Zuerst ging sie <correction>
+        <deletion>in den Su</deletion>
+      </correction> zum Obst- &amp; Gemüsehändler um ein paar Gurken für einen Salat zu kaufen. Sie bezahlte und verließ den Laden, ließ aber ihren Kassenzettel liegen. Wer braucht denn schließlich einen Bon für 3 Tomaten, 2 Gurken und einen Kopfsalat? Naja, <error>
+        <errorType />
+
+        <originalForm>dannach</originalForm>
+
+        <targetForm>danach</targetForm>
+      </error> ging sie in den Supermarkt und kaufte ein. Blöderweise hatte sie das Gemüse noch in ihrer Tasche und dummerweise guckte noch eine Gurke raus. So viele <overwrite>
+        <under><unreadable /></under>
+
+        <over>d</over>
+      </overwrite>umme Zufälle auf einmal. Natürlich hat ihr <correction>
+        <deletion>die</deletion>
+      </correction> <correction>
+        <insertion>der</insertion>
+      </correction> unfre<overwrite>
+        <under>n</under>
+
+        <over>u</over>
+      </overwrite>ndliche <correction>
+        <deletion>Kassiererin vor</deletion>
+      </correction> Kassierer sofort vorgeworfen, dass sie die Sachen gestohlen hätte. Als ob sie dann so dumm wäre und sie so offen vor dem Kassierer herumtragen würde... Am Ende musste sie die Waren nochmals bezahlen. Tja. <ambiguous>
+        <alternative>P</alternative>
+
+        <alternative>p</alternative>
+      </ambiguous>ech gehabt. Was lernen wir daraus:<par />immer den Rucksack zumachen oder den Kassenzettel mitnehmen. Ich <error>
+        <errorType />
+
+        <originalForm>frag'</originalForm>
+
+        <targetForm>frag</targetForm>
+      </error> mich sowieso, warum sie ihr Gemüse nicht im Supermarkt gekauft hat. Das Gemüse dort ist genauso schlecht wie überall sonst auch.<par />Tut mir leid, dass ich deine Zeit vergeudet habe, ich hatte nur aus irgendwelchen (mir unerfindlichen) Gründen das Bedürfnis jemandem von <entity>Marias</entity> Tag zu erzählen<par /><closing>Schönen Tag noch<par /><unreadable /></closing>      </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo...</greeting><par />erst einmal die obligatorische Begrüßung (obwohl mich deine Antworten ei<hyphen>-</hyphen>gentlich nicht interessie<over>r</over>en): Wie geht es dir, wie geht es deiner Familie und wie geht es deinem Hund? Bevor du <correction>
+        <deletion>mich</deletion>
+      </correction> jetzt, wie es erwartet wird, antworten kannst "gut" (eine Antwort die <error>
+        <errorType />
+
+        <originalForm>Bedeutet</originalForm>
+
+        <targetForm>bedeutet</targetForm>
+      </error>: Wir leben alle noch, aber <error>
+        <errorType />
+
+        <originalForm>frag'</originalForm>
+
+        <targetForm>frag</targetForm>
+      </error> bitte nicht weiter nach) und mich meinerseits fragen kannst "Und wie geht es dir?", möchte ich dir sagen "ja, mir geht es auch 'gut'". Durch meine Einleitung habe ich jetzt leider vergessen, warum ich dir <correction>
+        <deletion>geschrieben</deletion>
+      </correction> schreiben wollte. Aber da ich es so einfach vergessen habe, kann es ja nicht so wichtig sein.<par />Ach ja, unser Urlaub! Wie konnte ich das schönste geplante Erlebnis meines Lebens vergessen?! Ich will in die Berge. Ich will wieder Berge, Wälder, Seen, <error>
+        <errorType />
+
+        <originalForm>Täle</originalForm>
+
+        <targetForm>Täler</targetForm>
+      </error> und Tiere sehen. Als wir letztes Jahr ans Meer gefahren sind, habe ich <correction>
+        <deletion>mir</deletion>
+      </correction> mich nur gelangweilt. Ich hasse es an einem dreckigen Strand mit einem vollgealgtem Meer rumzugammeln. Nie wieder Meer. <correction>
+        <deletion>Wenn</deletion>
+      </correction><par /><unreadable /> fällt mir gerade auf, dass ich keinen Übergang zwischen Mittelteil und Schluss hinbekomme. Tja, dann lasse ich ihn halt weg. (Ich hoffe, du bist mir nicht böse <emoticon>:)</emoticon> )<par />Wir sehn uns im Urlaub. In den Bergen.<par /><closing>Tschüss<par /><unreadable /></closing>        </exercise>
+  </body>
+</kolipsi_document>

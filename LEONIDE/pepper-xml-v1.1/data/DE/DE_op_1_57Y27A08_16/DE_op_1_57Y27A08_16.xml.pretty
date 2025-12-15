@@ -1,0 +1,43 @@
+<body>
+ <page page_number="1" transcanno_page_id="260">
+  <paragraph class="medium-paragraph" tagcode="1553689927184">
+   <div>
+    Ich möchte nach der Mittelschule gehen
+   </div>
+   <div>
+    zu Gymnasium
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1553689927186">
+   <div>
+    Mein
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Traumberuf" tagcode="1553689871639">
+     Tramberuf
+    </orth_error_id12>
+    ist
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Veterinären" tagcode="1553689859709">
+     Veterinarien
+    </orth_error_id12>
+    weil ich
+   </div>
+   <div>
+    liebe Tiere
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1553689927188">
+   <div>
+    Ich musst lernen die Kranken von Tiere
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1553689927190">
+   <div>
+    Ich lerne die
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Tiere" tagcode="1553689904672">
+     <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1553689927183" tran_alternative_1="tiere" tran_alternative_2="Tiere">
+      tiere
+     </tran_ambiguous_id3>
+    </orth_error_id12>
+   </div>
+  </paragraph>
+ </page>
+</body>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I11_PIL24ALB</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><correction>
+        <deletion>Eine Woche <unreadable /> <correction>
+            <insertion>war</insertion>
+          </correction> ich einkaufen</deletion>
+      </correction><par /><greeting>Hallo Tobias,</greeting><par />eine <correction>
+        <deletion>w</deletion>
+
+        <insertion>W</insertion>
+      </correction>oche vor <correction>
+        <deletion><unreadable /></deletion>
+      </correction> war ich einkaufen. Zuerst bin ich in einem <error>
+        <errorType />
+
+        <originalForm>Obst und Gemüse Geschäft</originalForm>
+
+        <targetForm>Obst- und Gemüsegeschäft</targetForm>
+      </error> gewesen. Dort habe ich <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Salat gekauft. Logischerweise habe ich bezahlt, aber den Ticket dort verloren. <correction>
+        <deletion>Danach bin ich in</deletion>
+      </correction> Eine Stunde <correction>
+        <deletion>S</deletion>
+      </correction> später war ich im Supermarkt. Ich sollte andere Sachen kaufen, aber wenn ich an die Kasse kam, machten mir Probleme. Die Arbeiterin dachte<correction>
+        <deletion>, <unreadable /></deletion>
+      </correction> dass, ich den Salat ohne bezahlen genommen hatte. Ich wollte ihr den Ticket des Geschäfts zeigen, <correction>
+        <deletion><unreadable /></deletion>
+      </correction> aber ich habe es nicht gefunden. Sie hat die <error>
+        <errorType />
+
+        <originalForm>Scurity</originalForm>
+
+        <targetForm>Security</targetForm>
+      </error> angeruft und sie haben kontrolliert die Situation. Ich dem anderen Geschäft <correction>
+        <deletion>hatten</deletion>
+      </correction> haben gesagt, dass ich dort Salat gekauft hatte und den Sack was anders. So haben wir <correction>
+        <deletion>die</deletion>
+      </correction> das Problem gelöst und die Arbeiterin hat sich entschuldigt. Ich habe eine wichtige Sache gelernt: <error>
+        <errorType />
+
+        <originalForm>man</originalForm>
+
+        <targetForm>Man</targetForm>
+      </error> muss aufpassen um das Ticket nicht verlieren und <correction>
+        <deletion>ma<unreadable /></deletion>
+      </correction> man <correction>
+        <deletion>m<unreadable /></deletion>
+      </correction> soll die Probleme mit <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Diplomatie und ohne Angst lösen.<par /><closing>Viele Grüße,</closing><par />Maria</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Guten Tag Paul,</greeting><par />ich habe dein<correction>
+        <deletion>e</deletion>
+      </correction> Brief über die Zeitung "Junge Woche" gelesen und habe gedacht, ist es richtig dich helfen. Menschen machen <error>
+        <errorType />
+
+        <originalForm>Fehelern</originalForm>
+
+        <targetForm>Fehlern</targetForm>
+      </error>, es ist unser Natur. Die große Menschen aber, können seine Probleme <correction>
+        <deletion>L</deletion>
+      </correction> lösen. Also lösen wir dein Problem. Du hast <error>
+        <errorType />
+
+        <originalForm>wirchliche</originalForm>
+
+        <targetForm>wirkliche</targetForm>
+      </error> Freunde verloren, um virtuelle Freunde zu haben. Das ist nicht schön, also <correction>
+        <deletion>ich</deletion>
+      </correction> denke ich, <correction>
+        <deletion><unreadable /></deletion>
+      </correction> dass <correction>
+        <deletion><unreadable /></deletion>
+      </correction> du deine elektronische Apparaten <error>
+        <errorType />
+
+        <originalForm>wegschmeisen</originalForm>
+
+        <targetForm>wegschmeißen</targetForm>
+      </error> sollst. So, um eine <error>
+        <errorType />
+
+        <originalForm>Soziale-Leben</originalForm>
+
+        <targetForm>soziale Leben</targetForm>
+      </error> zu haben, sollst du ausgehen <correction>
+        <deletion><unreadable /></deletion>
+      </correction> und neue Leute treffen. Ich denke, dass<correction>
+        <deletion>,</deletion>
+      </correction> virtuelle Freundschaften keine Freundschaften sind. Du <error>
+        <errorType />
+
+        <originalForm>kanst</originalForm>
+
+        <targetForm>kannst</targetForm>
+      </error> keine Emotionen haben und so bleibst du immer zu Hause; das ist auch für deine Gesundheit <error>
+        <errorType />
+
+        <originalForm>gefarlich</originalForm>
+
+        <targetForm>gefährlich</targetForm>
+      </error>. Du sollst die Sonne genossen, auf eine Wiese spielen und diese <correction>
+        <deletion>s</deletion>
+
+        <insertion>S</insertion>
+      </correction>achen machen <correction>
+        <deletion><unreadable /></deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>mitdem</originalForm>
+
+        <targetForm>mit dem</targetForm>
+      </error> du<correction>
+        <deletion><unreadable /></deletion>
+      </correction> neue Leute kennen lernen <correction>
+        <deletion>kanst</deletion>
+      </correction> kannst. Danach kannst du wieder Internet benützen und deine virtuelle Freunde antworten, <correction>
+        <deletion>,</deletion>
+      </correction> dass<correction>
+        <deletion>,</deletion>
+      </correction> du eine wirkliche Leben hast und froh bist.<par /><closing>Viele Grüße,</closing><par />Andreas</exercise>
+  </body>
+</kolipsi_II_document>

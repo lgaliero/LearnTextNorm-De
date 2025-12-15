@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5886</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Liebe <entity>Tina</entity></greeting>, <par/><gap>_</gap> heute habe <correction>
+        <insertion>ich</insertion>
+      </correction> meine Freundin <entity>Maria</entity> getroffen und sie hat mir erzählt, dass sie <palimpsest>vor kurzer Zeit</palimpsest> in den Supermarkt gegan<strikeover>
+        <expansion>g</expansion>
+
+        <expansion>e</expansion>
+      </strikeover>n war<palimpsest>, um etwas zu kaufen</palimpsest>. Sie hatte ein seltsames Problem zu lösen, weil sie seine Geldtasche in der Bäckerei vergessen hatte und <palimpsest>unreadable</palimpsest> hatte sie kein Ge<palimpsest>ld</palimpsest> mehr um <ambiguous>
+        <alternative>a</alternative>
+
+        <alternative>o</alternative>
+      </ambiguous>n der Kasse die Produkte zu erwerben. Sie schämte sich sehr und sagte der Verkäuferin, dass sie in wenig Zeit wieder gekommen wäre. In der Zwischenzeit, hätte sie seine Identitätskarte oder ein Dokument im Supermarkt gelassen, um die Verkäuferin <correction>
+        <deletion>überzeu</deletion>
+      </correction> zu überzeugen, d<overwrite>
+        <over>a</over>
+
+        <under><unreadable/></under>
+      </overwrite>ss sie nicht stehlen wollte. <par/>Sie rannte in der Richtung zu Bäckerei und traf mich auf dem Weg, während ich <error>
+        <errorType/>
+
+        <originalForm>spazier<overwrite>
+            <over>e</over>
+
+            <under>i</under>
+          </overwrite>nging</originalForm>
+
+        <targetForm>spazieren ging</targetForm>
+      </error>. Sie <correction>
+        <deletion>erscheinte</deletion>
+
+        <insertion>erschien</insertion>
+      </correction> <correction>
+        <deletion>seh</deletion>
+      </correction> u<ambiguous>
+        <alternative>n</alternative>
+
+        <alternative>m</alternative>
+      </ambiguous>d <correction>
+        <deletion>sicht</deletion>
+      </correction> sah sehr nervös aus; deshalb, haben wir uns nur gegrüßt. Danach hat sie mich ebenfalls telefoniert, um mir die gan<strikeover>
+        <expansion>z</expansion>
+
+        <expansion>e</expansion>
+      </strikeover> Geschicht<correction>
+        <insertion>e</insertion>
+      </correction> zu erzählen. <par/><closing>Viele Grüße.<correction>
+          <deletion><unreadable/></deletion>
+        </correction> <entity>Julia</entity> </closing></exercise>
+
+    
+  </body>
+</kolipsi_document>

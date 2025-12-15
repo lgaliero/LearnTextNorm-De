@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Romy</transcriber>
+
+  <author_id>3554</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe  <entity>Giada</entity>,</greeting> <par /><error>
+        <errorType />
+
+        <originalForm>Wie</originalForm>
+
+        <targetForm>wie</targetForm>
+      </error> geht <correction>
+        <deletion><unreadable /></deletion>
+      </correction> es dir? <gap>_</gap> Mir <correction>
+        <insertion>geht</insertion>
+      </correction> es gut. Ich habe eine Freundin. Sie <error>
+        <errorType />
+
+        <originalForm>haißt</originalForm>
+
+        <targetForm>heißt</targetForm>
+      </error> <entity>Maria</entity>. Sie ist 19 <error>
+        <errorType />
+
+        <originalForm>Jhare</originalForm>
+
+        <targetForm>Jahre</targetForm>
+      </error> alt. Eines Morgens, <entity>Maria</entity> war in „Obst <error>
+        <errorType />
+
+        <originalForm>&amp;Gemüse“</originalForm>
+
+        <targetForm>&amp; Gemüse“</targetForm>
+      </error> einkaufen. Sie wollte <error>
+        <errorType />
+
+        <originalForm>Obst-</originalForm>
+
+        <targetForm>Obst</targetForm>
+      </error> und Gemüs<overwrite>
+        <over>e</over>
+
+        <under><unreadable /></under>
+      </overwrite> einkaufen. Sie wollte mir <correction>
+        <deletion>bei ein</deletion>
+      </correction> zum Abendessen einladen. Sie hatte Tomaten, Kartoffeln, Salat <correction>
+        <insertion>und Bananen</insertion>
+      </correction> gekauft, weil ich <correction>
+        <insertion>viele</insertion>
+      </correction> Obst und Gemüse esse. <par />Dann sie ging zu die Kassenführerin, <entity>Maria</entity> bezahlte die Obst und Gemüse und ging hinaus. Eine Stunde später war <entity>Maria in Supermarkt. Sie kauft Brot, <error>
+          <errorType />
+
+          <originalForm>fleis<overwrite>
+              <over>ch</over>
+
+              <under><unreadable /></under>
+            </overwrite></originalForm>
+
+          <targetForm>Fleisch</targetForm>
+        </error></entity> und Teig. <gap>_</gap> Als <entity>Maria</entity> ging aus der <error>
+        <errorType />
+
+        <originalForm>kasse</originalForm>
+
+        <targetForm>Kasse</targetForm>
+      </error> ein <error>
+        <errorType />
+
+        <originalForm>problem</originalForm>
+
+        <targetForm>Problem</targetForm>
+      </error> <unreadable /> <entity>Maria</entity> halte einen Säckchen mit den <sic>Obsten</sic> und <sic>Gemüsen</sic>. Die Kassenführerin, dass <entity>Maria</entity> die <sic>Obste</sic> und Gemüse <correction>
+        <deletion>stehlen haben</deletion>
+      </correction> gestohlen hatte usw… <par /><closing>Viele Grüßen</closing></exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber <entity>Mattia</entity>,</greeting> <par />wie geht es dir? Mir <correction>
+        <insertion>geht</insertion>
+      </correction> es gut. In <gap>_</gap> diesem Brief will ich über unseren Urlaub <correction>
+        <deletion><unreadable /></deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>erzhelen</originalForm>
+
+        <targetForm>erzählen</targetForm>
+      </error>. Ich wünsch ans Meer fahren, weil vielen Disko sind. <par />Am Meer kann ich im Wasser schwimmen. <par />Am Abend können wir gehen neben der Strand und küssen wir unter der Mond. <par />Am Meer ist es warm und in die Berge ist es kalt. Auf dem Berg müssen wir zu Fuß gehen aber mir <error>
+        <errorType />
+
+        <originalForm>gefhöllt</originalForm>
+
+        <targetForm>gefällt</targetForm>
+      </error> nicht. <par />Meine <error>
+        <errorType />
+
+        <originalForm>Lieblings Reise</originalForm>
+
+        <targetForm>Lieblingsreise</targetForm>
+      </error> ist nach <entity>Ägypten</entity> fahren. Letzte Jahre war ich nach <entity>Ägypten</entity> <sic>gefährt</sic>. Ich denke dass <entity>Ägypten</entity> mehr schön ist. Ich <correction>
+        <insertion>hasse den</insertion>
+      </correction> Berg und für diesen Grund ich liebe das Meer. <par />Was willst du machen? Wo willst du fahren? Willst du in die Berge oder ans Meer fahren?</exercise>
+  </body>
+</kolipsi_document>

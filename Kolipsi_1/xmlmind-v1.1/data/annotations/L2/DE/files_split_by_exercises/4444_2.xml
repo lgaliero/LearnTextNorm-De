@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>4444</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve">
+ <par/><greeting>Hallo <entity>Iva</entity>,</greeting> <par/>wie geht es dir? Mir passt alles, weil es ist fast Sommer! Wohin wolltes du diesem Sommer fahren? Wir könnten eine Woche am Berg oder am Meer gehen.<par/>Die frische <error>
+        <errorType/>
+
+        <originalForm>Atmosfere</originalForm>
+
+        <targetForm>Atmosphäre</targetForm>
+      </error> der Bergen, könnte uns viel <sic>Relay</sic> schenken. Magst du <correction>
+        <insertion>das</insertion>
+      </correction>? Die grünen Wiesen, die Bäumen, die Blumen... Wir könnten<palimpsest> </palimpsest> <error>
+        <errorType/>
+
+        <originalForm>spatzieren</originalForm>
+
+        <targetForm>spazieren</targetForm>
+      </error> gehen und was anders?? Lass mich denken?? Na ja, aber es ist Sommer und am Berg ist <error>
+        <errorType/>
+
+        <originalForm>bessen</originalForm>
+
+        <targetForm>besser</targetForm>
+      </error> wenn wir im Winters Urlaub gehen. Oder? Am <error>
+        <errorType/>
+
+        <originalForm>erlichkeit</originalForm>
+
+        <targetForm>Ehrlichkeit</targetForm>
+      </error> wollte ich nach Meer fahren! Ich wollte dass Meer <palimpsest>unseres</palimpsest> Land sehen! Erinnerst du dich? Auch im Winter war es seh<palimpsest>r</palimpsest> schön. Der Sand, das Meer, die Sonne... <error>
+        <errorType/>
+
+        <originalForm>ich</originalForm>
+
+        <targetForm>Ich</targetForm>
+      </error> mag <error>
+        <errorType/>
+
+        <originalForm>dass</originalForm>
+
+        <targetForm>das</targetForm>
+      </error> über alles! Viel <error>
+        <errorType/>
+
+        <originalForm>spaß</originalForm>
+
+        <targetForm>Spaß</targetForm>
+      </error> werden wir haben und auch eine schöne <sic>Abronzatur</sic>. Ja, d<overwrite>
+        <under>i</under>
+
+        <over>a</over>
+      </overwrite>s erste Tag werden wir ein <error>
+        <errorType/>
+
+        <originalForm>bisschien</originalForm>
+
+        <targetForm>bisschen</targetForm>
+      </error> rot, aber später braun! Sommer ist gleich mit Urlaub, und Urlaub im Sommer ist gleich mit Meer!<par/>Schreibt mich bitte schnell z<palimpsest>u</palimpsest>rück. Was denkst du? Ich muss es organisieren!<par/><closing>Deine <entity>Fjori</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

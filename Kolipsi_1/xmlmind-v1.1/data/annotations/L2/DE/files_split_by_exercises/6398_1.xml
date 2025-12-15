@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>6398</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve">Empfänger:markus.meyer@mail.de Absender:luca.bonometti@mail.de Betreff: <entity>Maria</entity> und der Kassenzettel <greeting>Lieber <entity>Markus</entity> </greeting> <par/>die <error>
+        <errorType/>
+
+        <originalForm>Email</originalForm>
+
+        <targetForm>E-Mail</targetForm>
+      </error>, die du mir letztes Mal gesandt hast bzw. den Witz über den Polizisten habe ich <error>
+        <errorType/>
+
+        <originalForm>wirkliclich</originalForm>
+
+        <targetForm>wirklich</targetForm>
+      </error> köstlich gefunden: <error>
+        <errorType/>
+
+        <originalForm>mir</originalForm>
+
+        <targetForm>Mir</targetForm>
+      </error> sind dabei andere Witze eingefallen, die ich dir sobald wie möglich erzählen werde. Weißt du übrigens, was unserer lieben Freundin <entity>Maria</entity> vor einer Woche passiert ist? <error>
+        <errorType/>
+
+        <originalForm>diese</originalForm>
+
+        <targetForm>Diese</targetForm>
+      </error> Nachricht ist gar nicht zum Lachen, denn sie hätte sogar gegen das Gesetz verstoßen können. <palimpsest>Am Wochenende</palimpsest> war sie wie üblich beim Obsthändler, weil sie nämlich vorhatte, zum Mittagessen eine Suppe zuzubereiten. Sie hat also ihr Obst gut gewählt (Kohl, Tomaten, Auberginen usw.) und dann an der Kasse den vorgesehenen Preis bezahlt: <error>
+        <errorType/>
+
+        <originalForm>es</originalForm>
+
+        <targetForm>Es</targetForm>
+      </error> ist ihr aber nicht aufgefall<palimpsest>en,</palimpsest> dass <palimpsest>sie</palimpsest> den Kassenzettel <palimpsest>auf der Bank mitgenommen hatte, und die</palimpsest> Angestellte <error>
+        <errorType/>
+
+        <originalForm>stelbst</originalForm>
+
+        <targetForm>selbst</targetForm>
+      </error> hat es zu spät bemerkt. Als sie dann später im Supermarkt beim Einkaufen war, trug sie natürlich noch ihre Tasche voller Obst. Die Frau an der Kasse war selbstverständlich empört und hat vielleicht vermutet, <entity>Maria</entity> <palimpsest>versuche</palimpsest> gerade einen Diebstahl. Zum Glück hatte die Obsthändlerin die Quittung aufbewahrt, sodass sie ihre Unschuld <error>
+        <errorType/>
+
+        <originalForm>bewiresen</originalForm>
+
+        <targetForm>bewiesen</targetForm>
+      </error> hat. Achte also nicht nur auf die Waren, sondern au<palimpsest>ch</palimpsest> auf den Kassenzettel, denn das ist ein häufiger Fehler! <par/>So, das war´s, auf bald wieder (hoffentlich mit besseren Nachrichten)!</exercise>
+
+    
+  </body>
+</kolipsi_document>

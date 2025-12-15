@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5701</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Mattia</entity> </greeting> <par />wie geht´s dir? Mir sehr gut! Heute habe ich <entity>Maria</entity> getroffen und sie hat mir erzählt ihre schlechten Tage. Am Morgen ist sie in einem Obst- und <error>
+        <errorType />
+
+        <originalForm>Gemüselden</originalForm>
+
+        <targetForm>Gemüseladen</targetForm>
+      </error> ein um etwas zu kaufen. Sie hatte keine Tasche also sie <error>
+        <errorType />
+
+        <originalForm>nahn</originalForm>
+
+        <targetForm>nahm</targetForm>
+      </error> die Gemüse ins ihre Handtasche. Später ist sie ins <foreign_word
+        foreign_language="Italiano">Supermarket</foreign_word> um weniger <error>
+        <errorType />
+
+        <originalForm>sache</originalForm>
+
+        <targetForm>Sache</targetForm>
+      </error> zu kaufen aber wenn <error>
+        <errorType />
+
+        <originalForm>muß</originalForm>
+
+        <targetForm>muss</targetForm>
+      </error> sie bezahlen, die <error>
+        <errorType />
+
+        <originalForm>Verkauferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> denkt man <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> sie die Gemüse <error>
+        <errorType />
+
+        <originalForm>geschtolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hat. Sie hat eine <palimpsest>unreadable</palimpsest> sehr schlechte <error>
+        <errorType />
+
+        <originalForm>figur</originalForm>
+
+        <targetForm>Figur</targetForm>
+      </error> gemacht. Arme <entity>Maria</entity>. We<overwrite>
+        <over>n</over>
+
+        <under>e</under>
+      </overwrite>n ich mit sie würde kann ich sie die Tasche tragen, aber ich würde nach zu Hause sein.<par /><entity>Maria</entity> jetzt ist beim Direktor um das Problem zu <sic>er<overwrite>
+          <over>k</over>
+
+          <under>z</under>
+        </overwrite>ärt</sic> ich hoffe <error>
+        <errorType />
+
+        <originalForm>daß</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> alles gut gehen wird.<par /><par /><closing>= Liebe <entity>Terry</entity> =</closing></exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo <entity>Mattia</entity>,</greeting><par />wie geht´s dir? Mir gut danke, ich habe jetzt deine Briefe bekommen. Dein <error>
+        <errorType />
+
+        <originalForm>problem</originalForm>
+
+        <targetForm>Problem</targetForm>
+      </error> ist ein sehr wichtig <error>
+        <errorType />
+
+        <originalForm>situazion</originalForm>
+
+        <targetForm>Situation</targetForm>
+      </error>. Die Bergen aber das Meer entscheiden. In dieser Sommer wenn ich d<overwrite>
+        <under>ie</under>
+
+        <over>u</over>
+      </overwrite> <error>
+        <errorType />
+
+        <originalForm>währe</originalForm>
+
+        <targetForm>wäre</targetForm>
+      </error>, gehe ich über ein Brief wenn ich letzten Sommer am Meer würde, aber das <error>
+        <errorType />
+
+        <originalForm>gegenteil</originalForm>
+
+        <targetForm>Gegenteil</targetForm>
+      </error>! Die Bergen sind sehr schöne, wenn sehr <sic>hohige</sic> sein scheint gar immer die Sonne, stehen sehr viele <error>
+        <errorType />
+
+        <originalForm>plätzte</originalForm>
+
+        <targetForm>Plätze</targetForm>
+      </error> wo liegen sich <palimpsest>unreadable</palimpsest> u<palimpsest>m</palimpsest> die Naturmusik zu hören. Die Bergen sind sehr gemütlich um eini<overwrite>
+        <over>g</over>
+
+        <under><unreadable /></under>
+      </overwrite>e r<overwrite>
+        <over>uh</over>
+
+        <under><unreadable /></under>
+      </overwrite>ige <error>
+        <errorType />
+
+        <originalForm>tage</originalForm>
+
+        <targetForm>Tage</targetForm>
+      </error> zu verbringen. Das Meer ist sehr wunderbar, sehr schön. Am Meer <sic>könnst</sic> du <palimpsest>Sonnen</palimpsest> liegen neben das Meerwasser. Am Meer ist ein <error>
+        <errorType />
+
+        <originalForm>bischen</originalForm>
+
+        <targetForm>bisschen</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>schwirig</originalForm>
+
+        <targetForm>schwierig</targetForm>
+      </error> um gemütlich <palimpsest>m</palimpsest>achen, <correction>
+        <deletion>sch</deletion>
+      </correction> schwimmen, laufen, <sic>sonnen</sic> liegen es ist sehr <error>
+        <errorType />
+
+        <originalForm>ermüdent</originalForm>
+
+        <targetForm>ermüdend</targetForm>
+      </error>. Für mich also, wenn <correction>
+        <deletion><unreadable /></deletion>
+      </correction> du eine gemütliche Ferien <palimpsest>m</palimpsest>achen wollen also <error>
+        <errorType />
+
+        <originalForm>mu<overwrite>
+            <over>ß</over>
+
+            <under>s</under>
+          </overwrite></originalForm>
+
+        <targetForm>muss</targetForm>
+      </error> du in die Bergen zu gehen <error>
+        <errorType />
+
+        <originalForm>Sonnst</originalForm>
+
+        <targetForm>sonst</targetForm>
+      </error> gehst du am Meer. <error>
+        <errorType />
+
+        <originalForm>es</originalForm>
+
+        <targetForm>Es</targetForm>
+      </error> <palimpsest>unreadable</palimpsest> sind sehr schön die beiden <error>
+        <errorType />
+
+        <originalForm>plätz<correction>
+            <insertion>t</insertion>
+          </correction>e</originalForm>
+
+        <targetForm>Plätze</targetForm>
+      </error> <overwrite>
+        <over>J</over>
+
+        <under>j</under>
+      </overwrite>etzt es ist war eine <error>
+        <errorType />
+
+        <originalForm>geschmackte</originalForm>
+
+        <targetForm>Geschmackte</targetForm>
+      </error> <sic>problem</sic>, wenn du willst die <error>
+        <errorType />
+
+        <originalForm>rühigkeit</originalForm>
+
+        <targetForm>Rühigkeit</targetForm>
+      </error> gehst du in die Bergen <error>
+        <errorType />
+
+        <originalForm>sonnst</originalForm>
+
+        <targetForm>sonst</targetForm>
+      </error> am Meer.</exercise>
+  </body>
+</kolipsi_document>

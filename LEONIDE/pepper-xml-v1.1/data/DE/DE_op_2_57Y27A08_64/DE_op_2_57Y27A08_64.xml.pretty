@@ -1,0 +1,31 @@
+<body>
+ <page page_number="1" transcanno_page_id="1152">
+  <paragraph class="medium-paragraph" tagcode="1556610767496">
+   <div>
+    1) Sprache die neue Sprache
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1556610767497">
+   <div>
+    2) Meine Strategie ist
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="mache" tagcode="1552208275898">
+     <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1556610767495" tran_alternative_1="moche" tran_alternative_2="mache">
+      moche
+     </tran_ambiguous_id3>
+    </orth_error_id12>
+    Hausaufgaben. Für reisen in
+   </div>
+   <div>
+    der Erde
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1556610767498">
+   <div>
+    3) Mache Hausaufgaben. Weil ich lerne neue Wörter
+   </div>
+   <div>
+    4) Mag keine Hausaufgaben. Weil du nicht lerne neue Wörter
+   </div>
+  </paragraph>
+ </page>
+</body>

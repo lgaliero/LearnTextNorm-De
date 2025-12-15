@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I39_VAN18ENR</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Sehr geehrter Paul,</greeting><par/>ich habe <correction>
+        <deletion>i</deletion>
+
+        <insertion>I</insertion>
+      </correction>hren Brief gelesen und ich muss sagen, dass auch ich eine Erfahrung wie Ihre gehabt habe.<par/><correction>
+        <deletion>Virtuelle Freundschaften</deletion>
+      </correction><par/>Meiner Meinung nach sind virtuelle Freundschaften sicherlich eine gute Möglichkeit, um neue Leute zu kennen. Aber diese virtuelle Freundschaften sollen nicht nur "virtuelle" bleiben. Man muss seine virtuellen Freunden <correction>
+        <deletion><unreadable/></deletion>
+      </correction> im Wahrheit treffen. Meine Erfahrung mit virtuellen Freundschaften ist wirklich gut gegangen: <error>
+        <errorType/>
+
+        <originalForm>ich</originalForm>
+
+        <targetForm>Ich</targetForm>
+      </error> habe mit <correction>
+        <deletion>zwei ein</deletion>
+      </correction> zwei Jugendliche <correction>
+        <deletion>gechattet</deletion>
+      </correction> für eine Monate gechattet und danach haben wir die Entscheidung genommen diese virtuelle Freundschaft wahr zu machen. Wir haben uns getroffen und <error>
+        <errorType/>
+
+        <originalForm>jetz</originalForm>
+
+        <targetForm>jetzt</targetForm>
+      </error> sind wir beste Freunde und machen wir alles zusammen.<par/>Meiner Meinung nach müssen Sie jetzt die gleiche Sache machen: <error>
+        <errorType/>
+
+        <originalForm>diese</originalForm>
+
+        <targetForm>Diese</targetForm>
+      </error> virtuelle Freunde rufen und ein Treffen organisieren. Ihr könnte einen <error>
+        <errorType/>
+
+        <originalForm>Pic-Nic</originalForm>
+
+        <targetForm>Picknick</targetForm>
+      </error> machen<correction>
+        <deletion>,</deletion>
+      </correction> oder ein Konzert zusammen hören und vielleicht würde diese virtuelle Freundschaft eine wahre, starke Freundschaft. Es ist unmöglich, diese Möglichkeit zu verloren.<par/>Ich hoffe, dass mein Rat nützlich wird, um Sie zu helfen.<par/><closing>Mit freundlichen Grüßen,</closing><par/>Emico Solfrini.</exercise>
+  </body>
+</kolipsi_II_document>

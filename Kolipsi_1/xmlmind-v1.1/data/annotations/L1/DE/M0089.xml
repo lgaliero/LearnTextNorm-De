@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0089</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Lisa</entity></greeting>!<par />Ich hatte heute ein Erlebnis im Supermarkt, welches ich dir unbedingt erzählen muss!<par />Ich habe mich, nachdem ich alle Besorgungen in meinen Einkaufswagen getan hatte, <correction>
+        <deletion>and</deletion>
+      </correction> an der Schlange der Kasse angestellt, die natürlich, wie immer, ellenlang war. Es ging nur sehr langsam <error>
+        <errorType />
+
+        <originalForm>vorran</originalForm>
+
+        <targetForm>voran</targetForm>
+      </error>, und ich war froh, als endlich die letzte Kundin vor mir an der Reihe war. Doch als sie gerade <error>
+        <errorType />
+
+        <originalForm>Bezahlen</originalForm>
+
+        <targetForm>bezahlen</targetForm>
+      </error> wollte, fragte die Kassiererin plötzlich<correction>
+        <deletion>,</deletion>
+      </correction> die Frau, was sie denn noch in ihrer Tasche habe.<par />Die Frau schien sich darüber zu wundern und antwortete, dass sie nichts in ihrer Tasche habe.<par />Erst <correction>
+        <deletion>jetzt habe</deletion>
+      </correction> da hatte ich gesehen, dass ihr einige Lebensmittel aus der Tasche <correction>
+        <deletion>gugk</deletion>
+      </correction> guckten!<par />Die Kassiererin sagte der Kundin, sie solle bitte warten, und rief einen Mann aus. In der Zeit ging der Kassenbetrieb natürlich nicht weiter, und da ich im<hyphen>-</hyphen>mer so ein Glück habe, war auch keine andere Kasse geöffnet. Also blieb mir nichts anderes übrig <correction>
+        <deletion>als</deletion>
+      </correction> als zu warten und mich zu ärgern, während die Schlange hinter mir immer länger und länger wurde. Nach wenigen Minuten kam schließlich der Mann, <correction>
+        <insertion>der ausgerufen worden war</insertion>
+      </correction>, wie sich herausstellte der Geschäftsführer und bat die Frau vor mir <correction>
+        <deletion>in</deletion>
+      </correction> mit in sein Büro zu kommen. Sie fragte ihn aus welchen Gründen sie das tun sollte, und selbstverständlich war seine Antwort, dass sie versucht habe die Ware aus seinem Geschäft ohne Bezahlen zu entwenden, und das ist nunmal strafbar. Sie schien erst verdutzt, blickte dann in ihre Tasche und fing an zu lachen. Sie beteuer<hyphen>-</hyphen>te, dass sie vor ihrem Einkauf im Supermarkt in einem Obsthändler gewesen wäre. Daraufhin bat der Geschäftsführer sie, den Kassenbeleg vorzuzeigen. Sie kramte eine Weile in ihrer Tasche, dann sagte sie, dass sie diesen wohl vergessen hätte. Daraufhin ging sie dem Geschäftsführer nach.<par />Also <entity>Lisa</entity>, meiner Meinung nach war diese Frau eine ganz freche Lügnerin! Sie <correction>
+        <deletion><unreadable /></deletion>
+      </correction> wollte nicht nur den Supermarkt bestehlen, sondern hat mich und die anderen Kunden lange warten lassen, oder was meinst du dazu?<par /><closing>Liebe Grüße!</closing>           </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Lisa</entity></greeting>!<par />Da wir ja im Sommer zusammen <error>
+        <errorType />
+
+        <originalForm>vereisen</originalForm>
+
+        <targetForm>verreisen</targetForm>
+      </error> wollten, <correction>
+        <deletion>habe</deletion>
+      </correction> und uns noch nicht sicher sind, wohin es gehen soll, habe ich mir im Internet einige Informationen durchgelesen.<par />Zuerst war ich auf einer Seite für Liebhaber der Berge. Dort gab es wunderschöne Bilder mit tollen Aussichten über das Berg<hyphen>-</hyphen>panorama<overwrite>
+        <under>,</under>
+
+        <over>.</over>
+      </overwrite> Die haben mich sehr beeindruckt! <error>
+        <errorType />
+
+        <originalForm>Desweiteren</originalForm>
+
+        <targetForm>Des Weiteren</targetForm>
+      </error> konnte ich dort <error>
+        <errorType />
+
+        <originalForm>nachlsesen</originalForm>
+
+        <targetForm>nachlesen</targetForm>
+      </error>, wie viel Erholung solch eine Bergland<hyphen>-</hyphen>schaft bietet. Man hat die Möglichkeit geführte Wandertouren zu unternehmen und kann dabei in der Natur Tiere und Pflanzen entdecken, die man sonst nur von Bildern kennt. Je nachdem in welchem Ort bzw. in welchem Land die Berge sind, könnte es sogar sein, dass da Schnee liegt, und wir Ski <error>
+        <errorType />
+
+        <originalForm>fahrn</originalForm>
+
+        <targetForm>fahren</targetForm>
+      </error> können, und das im Sommer! Da hätten wir einen echten "Erholungsurlaub", denn die Dörfer, <correction>
+        <deletion>der</deletion>
+      </correction> <correction>
+        <deletion><unreadable /></deletion>
+      </correction> die in den Bergen liegen, sind meist klein, <correction>
+        <deletion>beschl</deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>beschaulig</originalForm>
+
+        <targetForm>beschaulich</targetForm>
+      </error> und ruhig.<par />Nach diesen Eindrücken, die mich wirklich <error>
+        <errorType />
+
+        <originalForm>faszinierd</originalForm>
+
+        <targetForm>fasziniert</targetForm>
+      </error> haben, war ich auf einer Website, die für den Urlaub am Meer ge<hyphen>-</hyphen>worben hat. Auch hier gab es tolle Bilder. Fast weißer, ganz feiner Strand und dahinter das <error>
+        <errorType />
+
+        <originalForm>glaskare</originalForm>
+
+        <targetForm>glasklare</targetForm>
+      </error>, blaue Meer, welches sich bis zum Horizont erstreckt.<par />Dort <correction>
+        <deletion>Hier</deletion>
+      </correction> könnten wir zwei endlich mal so richtig braun werden, in der Sonne liegen und faulenzen. Aber natürlich haben wir auch <correction>
+        <deletion><unreadable /></deletion>
+      </correction> da einige sportliche Angebote: neben dem Schwimmen gibt es die Möglichkeit zu surfen, Wasserski zu fahren... und vieles mehr!<par />Ich glaube, nachdem ich mir diese Websites angesehen habe, kann ich mich noch weniger für ein<correction>
+        <deletion>es</deletion>
+      </correction> Reiseziel entscheiden.<par />Auf der einen Seite haben wir dieses tolle Bergpanorama, so richtig naturverbunden, und auf der anderen Seite einen <error>
+        <errorType />
+
+        <originalForm>Traum<hyphen>-</hyphen>Strand</originalForm>
+
+        <targetForm>Traumstrand</targetForm>
+      </error> mit einer guten Mischung aus Entspannung und Action.<par />Welches der zwei Angebote <correction>
+        <deletion>ge</deletion>
+      </correction> <correction>
+        <deletion>s</deletion>
+      </correction> sagt dir denn <correction>
+        <deletion><unreadable /></deletion>
+      </correction> momen<hyphen>-</hyphen>tan mehr zu?<par />Egal welches wir nehmen, nach dem Urlaub sollten wir schon unseren nächsten planen <emoticon>;)</emoticon><par /><closing>Liebe Grüße</closing>             </exercise>
+  </body>
+</kolipsi_document>

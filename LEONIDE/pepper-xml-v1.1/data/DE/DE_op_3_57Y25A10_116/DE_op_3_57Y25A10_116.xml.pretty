@@ -1,0 +1,59 @@
+<body>
+ <page page_number="1" transcanno_page_id="2462">
+  <paragraph class="medium-paragraph" tagcode="1553513446410">
+   <div>
+    Nach der Mittelschule will ich
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553512720074" tran_word_deletion_target="_#_">
+     im
+    </tran_word_deletion_id8>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1553512722743">
+     ins
+    </tran_word_insertion_id9>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Sprachenlyzeum" tagcode="1553512890438">
+     Sprachenlüzeum
+    </orth_error_id12>
+    .
+   </div>
+   <div>
+    Ich liebe die Sprachen und ich will viel fahren.
+   </div>
+   <div>
+    Ich möchte Spanien,
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Südamerika" tagcode="1553513046559">
+     Süd Amerika
+    </orth_error_id12>
+    , England besuchen
+   </div>
+   <div>
+    Aber mache ich eine Sport , und ich liebe diese.
+   </div>
+   <div>
+    Mein Vater war ein Handballspiel und ich, wenn
+   </div>
+   <div>
+    kleine war, ich habe alle seine Match gesehen.
+   </div>
+   <div>
+    Und ich möchte wie er werden.
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1553513446411">
+   <div>
+    Mein Traumberuf ist ein Handballspielerin werden oder
+   </div>
+   <div>
+    alle Land besuchen, weil ich andere
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1553513412050" tran_word_deletion_target="_#_">
+     Lan
+    </tran_word_deletion_id8>
+    Stadt wollte
+   </div>
+   <div>
+    sehen
+    <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1553513446409" tran_alternative_1="." tran_alternative_2=";">
+     .
+    </tran_ambiguous_id3>
+   </div>
+  </paragraph>
+ </page>
+</body>

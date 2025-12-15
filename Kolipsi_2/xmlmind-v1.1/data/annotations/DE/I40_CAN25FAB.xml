@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I40_CAN25FAB</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe Freundin Sara,</greeting><par /><error>
+        <errorType />
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> schreibe Ihnen ein Brief um erzählen was ist an Maria passiert. Letzte Woche war sie einkaufen. Sie kaufte <correction>
+        <deletion>sie</deletion>
+
+        <insertion>zuerst</insertion>
+      </correction> in einem Obst- und Gemüseladen weil sie wollte <error>
+        <errorType />
+
+        <originalForm>Kilogram</originalForm>
+
+        <targetForm>Kilogramm</targetForm>
+      </error> zu <correction>
+        <deletion><unreadable /></deletion>
+      </correction> verloren. Danach geht sie im Supermarkt um Brot <correction>
+        <insertion>und <foreign_word foreign_language="English">Milk</foreign_word></insertion>
+      </correction> zu kaufen. Wenn sie an der Kasse war, gab es ein Problem: Maria hat realisiert dass sie hatte kein Geld um das Brot zu kaufen: <error>
+        <errorType />
+
+        <originalForm>es</originalForm>
+
+        <targetForm>Es</targetForm>
+      </error> fehlt <correction>
+        <deletion>15 <unreadable /></deletion>
+      </correction> fünfzehn <error>
+        <errorType />
+
+        <originalForm>cent</originalForm>
+
+        <targetForm>Cent</targetForm>
+      </error>. Der Frau an die Kasse war sehr <error>
+        <errorType />
+
+        <originalForm>unsympatisch</originalForm>
+
+        <targetForm>unsympathisch</targetForm>
+      </error> und sagte <correction>
+        <deletion><unreadable /></deletion>
+      </correction> an Maria dass sie musst das Brot <correction>
+        <deletion>hineingeben</deletion>
+      </correction> zurückgeben. Und Maria war sehr traurig. Danach, Maria beschließt, Brot zu stehlen. Sie gehe zurück in der Supermarkt und versetzt das Brot in der Tasche. Sie kauft der <foreign_word
+        foreign_language="English">Milk</foreign_word> und <error>
+        <errorType />
+
+        <originalForm>we<correction>
+            <deletion>sn</deletion>
+
+            <insertion>n</insertion>
+          </correction></originalForm>
+
+        <targetForm>wenn</targetForm>
+      </error> sie an die Türe war, die Alarmtöne <foreign_word
+        foreign_language="English">rang</foreign_word>!</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Liebe Paul,</greeting> <error>
+        <errorType />
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> wollte sagen was ich über <correction>
+        <deletion>F</deletion>
+      </correction> virtuelle Freundschaften denke.<par />Virtuelle Freundschaften sind nicht real. Es ist wichtig der Vertrauen zu <correction>
+        <deletion>di<unreadable /></deletion>
+      </correction> zeigen wenn zwei <correction>
+        <deletion>P</deletion>
+
+        <insertion>M</insertion>
+      </correction>enschen weit ist. Die <correction>
+        <deletion><unreadable /></deletion>
+      </correction> realen Freundschaften ist wenn zwei Menschen können <error>
+        <errorType />
+
+        <originalForm>Emoktionen</originalForm>
+
+        <targetForm>Emotionen</targetForm>
+      </error> <correction>
+        <deletion>teilen</deletion>
+      </correction> mitteilen. Wenn du hinein ein Computer bist, du kannst nicht wissen wer sicher ist der Person mit wen du schreibst.</exercise>
+  </body>
+</kolipsi_II_document>

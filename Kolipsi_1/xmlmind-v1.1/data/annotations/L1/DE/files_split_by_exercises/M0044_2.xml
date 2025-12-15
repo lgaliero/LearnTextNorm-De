@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0044</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Hallo <entity>Tim</entity></greeting>,<par/>wie geht es dir? Ich hoffe gut. Du? Ich hab mir noch einmal ein paar Gedanken über unseren gemeinsamen Urlaub gemacht und bin mir überhaupt nicht sicher, ob wir <correction>
+        <deletion>lieber</deletion>
+      </correction> in die Berge oder doch lieber ans Meer fahren sollen. Du hast es dir ja natürlich wieder einfach gemacht, indem du mir diese Entscheidung überlassen hast... Also ich habe mir mal zwei Prospekte schicken lassen. Einen über Urlaub in den Bergen und einen über das Meer. <error>
+        <errorType/>
+
+        <originalForm>Zu <overwrite>
+            <under><unreadable/></under>
+
+            <over>A</over>
+          </overwrite>llererst</originalForm>
+
+        <targetForm>zuallererst</targetForm>
+      </error> lässt sich sagen, dass sowohl eine Woche in den Bergen, als auch eine Woche am Meer gleich teuer sind. Pro <error>
+        <errorType/>
+
+        <originalForm>person</originalForm>
+
+        <targetForm>Person</targetForm>
+      </error> 600 €. Ist ein bisschen viel oder? Ebenso sind beide Orte mit Wohlfühloasen ausgestattet, was im Klartext heißt, dass wir wunderbar entspannen können. Allerdings ist die Ausstattung der Zimmer anders. <overwrite>
+        <under>s</under>
+
+        <over>S</over>
+      </overwrite>prich: In dem Berghotel gibt es keinen Kühlschrank etc. und natürlich sind wir in den Bergen von der Öffentlichkeit so ziemlich abgeschnitten. So haben wir also in den Bergen keine Möglichkeit mal soeben in <reduction>
+        <reductionType rType="Unknown"/>
+
+        <reducedForm>ne</reducedForm>
+
+        <unfoldedForm>eine</unfoldedForm>
+      </reduction> Stadt zu fahren und dort shoppen zu gehen. Logisch ist es ja wohl auch, dass es auf den Bergen etwas kälter ist als am Meer. Am Meer ist es schön warm und wir haben jede Menge Bars und Diskos. Also der Funfaktor ist unter<hyphen>-</hyphen>schiedlich! Die Berge eignen sich wohl mehr zum Wandern. Also ich ganz persönlich würde eher ans Meer fahren wollen<overwrite>
+        <under>,</under>
+
+        <over>.</over>
+      </overwrite> Da ist einfach viel mehr los. In den Bergen war ich damals mit meinen Großeltern... Und es war kalt, anstrengend und langweilig. Aber ich möchte dir die Entscheidung überlassen. Ich fahr mit dir überall hin. Du musst halt nur entscheiden, ob du eher pure Entspannung und viele Wanderungen in den Bergen suchst oder doch eher Action, Bars, Diskos und natürlich Sonne (wobei das von der jeweiligen Wetterlage abhängt!).<par/><error>
+        <errorType/>
+
+        <originalForm>Naja</originalForm>
+
+        <targetForm>Na ja</targetForm>
+      </error> das <reduction>
+        <reductionType/>
+
+        <reducedForm>wars</reducedForm>
+
+        <unfoldedForm>war es</unfoldedForm>
+      </reduction> erstmal. <correction>
+        <insertion>Ich fahr gerne mit dir in Richtung<correction>
+            <deletion>,</deletion>
+          </correction>  <overwrite>
+            <under><unreadable/></under>
+
+            <over>S</over>
+          </overwrite>onne, als auch in die Berge.</insertion>
+      </correction><par/>Ruf mich bitte mal auf dem Handy an, damit wir das nochmal besprechen können.<par/><closing>Liebe Grüße<par/><correction>
+          <deletion>D</deletion>
+        </correction><correction>
+          <insertion>D</insertion>
+        </correction>eine <error>
+          <errorType/>
+
+          <originalForm>somerfreudige</originalForm>
+
+          <targetForm>sommerfreudige</targetForm>
+        </error> und actionsüchtige<par/><correction>
+          <deletion><entity>Tim</entity></deletion>
+        </correction> <entity>Sarah</entity></closing>      </exercise>
+  </body>
+</kolipsi_document>

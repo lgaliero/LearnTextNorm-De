@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5776</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><par/><greeting>Liebe <entity>Pe</entity>,</greeting> <par/><error>
+        <errorType/>
+
+        <originalForm>Wo</originalForm>
+
+        <targetForm>wo</targetForm>
+      </error> gehen wir dieses Sommer?<par/><error>
+        <errorType/>
+
+        <originalForm>Mehr</originalForm>
+
+        <targetForm>Meer</targetForm>
+      </error> oder in den Bergen?<par/>I<overwrite>
+        <under>s</under>
+
+        <over>c</over>
+      </overwrite>h möchte gerne <correction>
+        <deletion>nach</deletion>
+      </correction> in <entity> <foreign_word foreign_language="English">Egypt</foreign_word> </entity> fliegen. Voriges Jahr haben wir viel <error>
+        <errorType/>
+
+        <originalForm><overwrite>
+            <under>s</under>
+
+            <over>S</over>
+          </overwrite>pass</originalForm>
+
+        <targetForm>Spaß</targetForm>
+      </error> gehabt. <error>
+        <errorType/>
+
+        <originalForm>Herinnerst</originalForm>
+
+        <targetForm>Erinnerst</targetForm>
+      </error> du noch? Der Meer war so hell, und der Sonne war <overwrite>
+        <under><unreadable/></under>
+
+        <over>s</over>
+      </overwrite>o warm.<par/><correction>
+        <deletion><unreadable/></deletion>
+      </correction>Und wenn wir hier in Italien bleiben? Wir konnen n<ambiguous>
+        <alternative>a</alternative>
+
+        <alternative>o</alternative>
+      </ambiguous>ch <entity>Rimini</entity> <error>
+        <errorType/>
+
+        <originalForm>geben</originalForm>
+
+        <targetForm>gehen</targetForm>
+      </error>, oder <entity>Riccione</entity>. Da sind wirklich viele <error>
+        <errorType/>
+
+        <originalForm>Diskotecken</originalForm>
+
+        <targetForm>Diskotheken</targetForm>
+      </error>, so <error>
+        <errorType/>
+
+        <originalForm>konnen</originalForm>
+
+        <targetForm>können</targetForm>
+      </error> wir jedes <correction>
+        <deletion><unreadable/></deletion>
+      </correction> Nacht eine andere besuchen, und <overwrite>
+        <under><unreadable/></under>
+
+        <over>b</over>
+      </overwrite>is Morgen tanzen.<par/>Aber wenn du willst, <error>
+        <errorType/>
+
+        <originalForm>konnen</originalForm>
+
+        <targetForm>können</targetForm>
+      </error> wir in den Bergen <correction>
+        <deletion>urlauben</deletion>
+
+        <insertion>gehen.</insertion>
+      </correction> Hier sind auch schöne Platze, aber wenige <error>
+        <errorType/>
+
+        <originalForm>Diskotecken</originalForm>
+
+        <targetForm>Diskotheken</targetForm>
+      </error>. Wir <error>
+        <errorType/>
+
+        <originalForm>konnen</originalForm>
+
+        <targetForm>können</targetForm>
+      </error> Sonnenliegen, und frische <error>
+        <errorType/>
+
+        <originalForm>luft</originalForm>
+
+        <targetForm>Luft</targetForm>
+      </error> atmen. Wenn wir <ambiguous>
+        <alternative>n</alternative>
+
+        <alternative>m</alternative>
+      </ambiguous>ach <correction>
+        <deletion>Trad</deletion>
+      </correction>  <entity>Truden</entity> gehen <error>
+        <errorType/>
+
+        <originalForm>konnen</originalForm>
+
+        <targetForm>können</targetForm>
+      </error> wir mein Onkel besuchen, er wird wirklich froh sein.<par/>Auf jeden <correction>
+        <deletion>Fal</deletion>
+      </correction> <overwrite>
+        <under>f</under>
+
+        <over>F</over>
+      </overwrite>all werden wir sicher <error>
+        <errorType/>
+
+        <originalForm><strikeover>
+            <expansion>S</expansion>
+
+            <expansion>s</expansion>
+          </strikeover>pass</originalForm>
+
+        <targetForm>Spaß</targetForm>
+      </error> haben, Berg oder Meer ist für mich ganz <error>
+        <errorType/>
+
+        <originalForm>egahl</originalForm>
+
+        <targetForm>egal</targetForm>
+      </error>.<par/><error>
+        <errorType/>
+
+        <originalForm>Fur</originalForm>
+
+        <targetForm>Für</targetForm>
+      </error> mich ist es gleich, ich will nur mir dir sein.<par/><error>
+        <errorType/>
+
+        <originalForm>Bye Bye</originalForm>
+
+        <targetForm>Bye-bye</targetForm>
+      </error><closing><par/><correction>
+          <deletion> <entity><unreadable/></entity> </deletion>
+        </correction><par/> <entity>Benedetto Sedicesimo</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

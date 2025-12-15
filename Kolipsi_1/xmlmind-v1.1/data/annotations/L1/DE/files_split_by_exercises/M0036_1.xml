@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0036</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Anna</entity></greeting>,<par/>wie geht es dir? Lange nichts mehr gehört von dir. Was machst du so? Weißt du was meiner Freundin <entity>Maria</entity> letzte Woche passiert ist? Sie war beim Obsthändler um Obst für ihren Obstsalat zu kaufen, den sie für die Schule machen sollte. Sie hatte ganz normal an der Kasse bezahlt, hatte aber den Kassenzettel auf der Theke liegen lassen. Das an sich ist ja gar nicht so schlimm, doch als sie dann später im Supermarkt war und sich an die Kasse gestellt hatte und bezahlen wollte, glaubte die Frau an der Kasse <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> <entity>Maria</entity> das Obst aus dem Supermarkt geklaut hatte.<par/>Nur das <error>
+        <errorType/>
+
+        <originalForm>blöde</originalForm>
+
+        <targetForm>Blöde</targetForm>
+      </error> war, <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> <entity>Maria</entity> nicht beweisen konnte, dass sie das Obst beim Obsthändler gekauft hatte. Als <entity>Maria</entity> mich danach angerufen hatte, war sie total aufgelöst, weil sie jetzt eine Anzeige wegen <error>
+        <errorType/>
+
+        <originalForm>Diebsta<correction>
+            <deletion>h</deletion>
+          </correction>l</originalForm>
+
+        <targetForm>Diebstahl</targetForm>
+      </error> bekommen hatte. Doch zum Glück hat <entity>Maria</entity> was aus der <correction>
+        <deletion>Sache</deletion>
+      </correction> Situation gelernt und wir gleich mit, nicht wahr?<par/>Wir sollten immer unseren Kassenzettel mitnehmen, wenn wir wissen, <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> wir nicht in einen anderen Supermarkt wollen. <error>
+        <errorType/>
+
+        <originalForm>Naja</originalForm>
+
+        <targetForm>Na ja</targetForm>
+      </error>! <closing>Viele <error>
+          <errorType/>
+
+          <originalForm>Liebe</originalForm>
+
+          <targetForm>liebe</targetForm>
+        </error> <error>
+          <errorType/>
+
+          <originalForm>grüße</originalForm>
+
+          <targetForm>Grüße</targetForm>
+        </error> an deine Familie und hoffentlich bis bald!<par/>Deine <entity>Lisa</entity>   </closing>      </exercise>
+
+    
+  </body>
+</kolipsi_document>

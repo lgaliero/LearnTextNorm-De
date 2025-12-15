@@ -1,0 +1,41 @@
+<body>
+ <page page_number="1" transcanno_page_id="228">
+  <paragraph class="medium-paragraph" tagcode="1540847623469">
+   <div>
+    Ich will ein
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Informatikoberschule" tagcode="1540847468713">
+     Informatik Oberschule
+    </orth_error_id12>
+    machen.
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1540847623470">
+   <div>
+    Ich will ein
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Spieleprogrammierer" tagcode="1540847482035">
+     Spiele-Programmierer
+    </orth_error_id12>
+    werden weil das interessiert
+   </div>
+   <div>
+    mich.
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1540847623471">
+   <div>
+    Ich muss
+    <tran_image_id33 class="medium-tran_image_id33" tagcode="1540847528405" tran_image_type="arrows for signalling place exchange above words">
+     <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1540847623468" tran_correction_original="gut den">
+      den gut
+     </tran_word_correction_id25>
+    </tran_image_id33>
+    Computer benutzen können.
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1540847623472">
+   <div>
+    Ich muss Informatik lernen.
+   </div>
+  </paragraph>
+ </page>
+</body>

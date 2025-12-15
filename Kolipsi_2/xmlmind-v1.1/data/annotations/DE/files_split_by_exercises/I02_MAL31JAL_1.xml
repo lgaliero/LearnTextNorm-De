@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I02_MAL31JAL</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Liebe Anna,</greeting> <error>
+        <errorType/>
+
+        <originalForm>Wie</originalForm>
+
+        <targetForm>wie</targetForm>
+      </error> geht es dir? Mir geht es gut.<par/>Ich schreibe dir, weil ich vermisse dich. Ich muss dir etwas <error>
+        <errorType/>
+
+        <originalForm>komisch</originalForm>
+
+        <targetForm>Komisch</targetForm>
+      </error> sagen.<par/>Letzte Woche <correction>
+        <deletion>bin</deletion>
+      </correction> ging ich in einen <error>
+        <errorType/>
+
+        <originalForm>Obst</originalForm>
+
+        <targetForm>Obst-</targetForm>
+      </error> und Gemüseladen ein.<par/>Die Obst und Gemüse waren echt schön. Sie waren bunt und sahen lecker aus. Erst hatte ich eine Tasche, weil ich etwas drinnen möchte, <correction>
+        <deletion>aber das <unreadable/></deletion>
+      </correction> und ich hab <correction>
+        <deletion><unreadable/></deletion>
+      </correction> Salate, Äpfel, Orange, Banane und etwas anders gekauft <correction>
+        <deletion><unreadable/></deletion>
+      </correction>, ich hab es <correction>
+        <deletion><unreadable/></deletion>
+      </correction>bezahlt und bin ich <correction>
+        <deletion><unreadable/></deletion>
+      </correction> aus von den <error>
+        <errorType/>
+
+        <originalForm>Obst</originalForm>
+
+        <targetForm>Obst-</targetForm>
+      </error> und Gemüseladen gegangen.<par/>Später bin ich in Supermark gegange, weil ich <correction>
+        <deletion><unreadable/></deletion>
+      </correction> Mehl, Reis, <error>
+        <errorType/>
+
+        <originalForm>Sukker</originalForm>
+
+        <targetForm>Zucker</targetForm>
+      </error> und etwas anders brauchte. Ich hab ein <error>
+        <errorType/>
+
+        <originalForm>Wage</originalForm>
+
+        <targetForm>Wagen</targetForm>
+      </error> genommen dann, hab ich ins <error>
+        <errorType/>
+
+        <originalForm>Wage</originalForm>
+
+        <targetForm>Wagen</targetForm>
+      </error> die Sachen drinnen gelegt.<par/>Als ich in die Kassa ging die <error>
+        <errorType/>
+
+        <originalForm>Verkeuferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> hat gedacht, <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> ich das Obst und Gemüse <error>
+        <errorType/>
+
+        <originalForm>gesthole</originalForm>
+
+        <targetForm>gestohle</targetForm>
+      </error> habe. Ich hab ihr gesagt <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> ich bei <error>
+        <errorType/>
+
+        <originalForm>Obst</originalForm>
+
+        <targetForm>Obst-</targetForm>
+      </error> und Gemüseladen war, aber sie hat mir nicht <correction>
+        <deletion>geglaud</deletion>
+      </correction> geglaubt, <error>
+        <errorType/>
+
+        <originalForm>dan</originalForm>
+
+        <targetForm>dann</targetForm>
+      </error> war ich so zornig, <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> ich raus von Supermarkt bin.<par/>So das ich die <error>
+        <errorType/>
+
+        <originalForm>Ganze</originalForm>
+
+        <targetForm>ganze</targetForm>
+      </error> Geschichte.<par/>Jetzt muss ich gehen.<par/><closing>Ich warte auf deinen Antwort.<par/><error>
+          <errorType/>
+
+          <originalForm>Aufwiedersehn</originalForm>
+
+          <targetForm>Auf Wiedersehen</targetForm>
+        </error>.</closing></exercise>
+
+    
+  </body>
+</kolipsi_II_document>

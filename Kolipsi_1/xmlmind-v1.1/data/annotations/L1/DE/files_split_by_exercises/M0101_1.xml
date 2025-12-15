@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0101</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Liebe <entity>Julia</entity></greeting>!<par/>Ich hoffe doch sehr <overwrite>
+        <under>D</under>
+
+        <over>d</over>
+      </overwrite>ir geht es gut und du genießt die Zeit in <entity>Amerika</entity>. Deine letzte <error>
+        <errorType/>
+
+        <originalForm>Email</originalForm>
+
+        <targetForm>E-Mail</targetForm>
+      </error> hat mich sehr gefreut und ich halte dich <correction>
+        <deletion>sehr</deletion>
+      </correction> gerne auf dem Laufenden. Hier ist alles soweit beim Alten. Schule, Training und das übliche Gerede. Aber es gibt ein paar neue, sehr amüsante und interessante Geschichten über unseren kleinen Tollpatsch <entity>Maria</entity>.<par/>Die Liebe tretet ja bekanntlich nicht in Fettnäpfchen, sondern in Friteusen, so wie es letzte Woche, mal wieder, der Fall war. Da beschloss sie nämlich einen Großeinkauf zu starten, erst bei <error>
+        <errorType/>
+
+        <originalForm>Ihrem</originalForm>
+
+        <targetForm>ihrem</targetForm>
+      </error> Obst- und Gemüsehändler und anschließend im Supermarkt. Du kennst sie ja, von der ganzen Frischkost nimmt <error>
+        <errorType/>
+
+        <originalForm><overwrite>
+            <under>s</under>
+
+            <over>S</over>
+          </overwrite>ie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> nur das<correction>
+        <deletion><unreadable/></deletion>
+      </correction> Beste vom Besten und bei Wurst, Käse und co. spart <error>
+        <errorType/>
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> ein. So vergesslich wie <correction>
+        <deletion>Sie</deletion>
+      </correction> <entity>Maria</entity> ist, vergaß <error>
+        <errorType/>
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> nach dem <error>
+        <errorType/>
+
+        <originalForm>bezahlen</originalForm>
+
+        <targetForm>Bezahlen</targetForm>
+      </error> beim Obsthändler ihren Kassenbon und ging mit ihrer vollgestopften Tasche in den Supermarkt, erledigte dort <error>
+        <errorType/>
+
+        <originalForm>Ihren</originalForm>
+
+        <targetForm>ihren</targetForm>
+      </error> Einkauf, wollte bezahlen und ab nach Hause kochen. Die Kassiererin wollte leider nicht so wie <entity>Maria</entity> wollte und beschuldigte <error>
+        <errorType/>
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> das komplette Obst und Gemüse klauen zu wollen. <entity>Maria</entity> war außer sich und wollte der lieben Frau direkt die Rechnung aus dem Obstladen zeigen .... tja leider hatte sie den ja vergessen und so fingen die beiden Damen, <entity>Maria</entity> und die Kassiererin, an <error>
+        <errorType/>
+
+        <originalForm>heftigs</originalForm>
+
+        <targetForm>heftig</targetForm>
+      </error> zu diskutieren. Das <error>
+        <errorType/>
+
+        <originalForm>ganze</originalForm>
+
+        <targetForm>Ganze</targetForm>
+      </error> wäre beinahe eskaliert, die <error>
+        <errorType/>
+
+        <originalForm>Kassierin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> war drauf <error>
+        <errorType/>
+
+        <originalForm>un</originalForm>
+
+        <targetForm>und</targetForm>
+      </error> dran die Polizei zu rufen, aber da kam unserer pfiffigen Freundin doch noch ein rettender Einfall: Der Laden <error>
+        <errorType/>
+
+        <originalForm>indem</originalForm>
+
+        <targetForm>in dem</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm><overwrite>
+            <under>s</under>
+
+            <over>S</over>
+          </overwrite>ie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> ihr <error>
+        <errorType/>
+
+        <originalForm>Obst-</originalForm>
+
+        <targetForm>Obst</targetForm>
+      </error> und Gemüse herholt, verkauft ausschließlich Bio- und <error>
+        <errorType/>
+
+        <originalForm>Fair Trade Ware</originalForm>
+
+        <targetForm>Fair-Trade-Ware</targetForm>
+      </error>, Artikel die der Supermarkt nicht in seinem Sortiment hat. Und so konnte <entity>Maria</entity> die Beschuldigung des Diebstahls widerlegen und stolzierte aus dem Laden. Ihr war die ganze <gap>_</gap> trotzdem so peinlich, dass <error>
+        <errorType/>
+
+        <originalForm><overwrite>
+            <under>s</under>
+
+            <over>S</over>
+          </overwrite>ie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> sich fest vor<hyphen>-</hyphen>genommen hat, keinen Fuß mehr in den Laden zu setzen. An dieser Stelle soll ich dir noch schöne Grüße von <entity>Maria</entity> bestellen, mit dem Versprechen sich auch bald bei dir zu melden, jetzt muss ich auch schnell los, ein paar Einkäufe erledigen. <closing>Bis bald <correction>
+          <deletion><unreadable/></deletion>
+        </correction></closing>       </exercise>
+
+    
+  </body>
+</kolipsi_document>

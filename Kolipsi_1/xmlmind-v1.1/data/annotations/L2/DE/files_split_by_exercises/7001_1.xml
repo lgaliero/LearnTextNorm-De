@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>N7001</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve">
+ <par/><greeting>Hallo <entity>Charlotte</entity>,</greeting> <par/>ich habe eine sehr <sic>wichtig</sic> <error>
+        <errorType/>
+
+        <originalForm>nachricht</originalForm>
+
+        <targetForm>Nachricht</targetForm>
+      </error> zu <error>
+        <errorType/>
+
+        <originalForm>erzehle</originalForm>
+
+        <targetForm>erzähle</targetForm>
+      </error>!<par/>Also, <entity>Maria</entity>, <error>
+        <errorType/>
+
+        <originalForm>weisst</originalForm>
+
+        <targetForm>weißt</targetForm>
+      </error> du die <entity>Maria</entity>? Das Mädchen das <error>
+        <errorType/>
+
+        <originalForm>Blonde</originalForm>
+
+        <targetForm>blonde</targetForm>
+      </error> Haare hat! Sie hat mir erzählt dass ihr <error>
+        <errorType/>
+
+        <originalForm>Heute</originalForm>
+
+        <targetForm>heute</targetForm>
+      </error> eine sehr schlimme <error>
+        <errorType/>
+
+        <originalForm>sache</originalForm>
+
+        <targetForm>Sache</targetForm>
+      </error> passiert ist. Also sie ist zuerst im einem Obst- <error>
+        <errorType/>
+
+        <originalForm>Gemuseladen</originalForm>
+
+        <targetForm>Gemüseladen</targetForm>
+      </error> gegangen wo sie Obst und andere <error>
+        <errorType/>
+
+        <originalForm>sache</originalForm>
+
+        <targetForm>Sache</targetForm>
+      </error> gekauft hat, aber hier in diese O. und <error>
+        <errorType/>
+
+        <originalForm>Gemuseladen</originalForm>
+
+        <targetForm>Gemüseladen</targetForm>
+      </error> hatte sie dem Kassenzettel vergessen; in diese <error>
+        <errorType/>
+
+        <originalForm>moment</originalForm>
+
+        <targetForm>Moment</targetForm>
+      </error> war nicht so wichtig...<par/>Eine Stünde später war sie <error>
+        <errorType/>
+
+        <originalForm>inn</originalForm>
+
+        <targetForm>im</targetForm>
+      </error> <foreign_word foreign_language="Italiano">Supermarket</foreign_word> und dort gab eine große <error>
+        <errorType/>
+
+        <originalForm>problem</originalForm>
+
+        <targetForm>Problem</targetForm>
+      </error> an der Kasse weil, (ich denke dass du <error>
+        <errorType/>
+
+        <originalForm>schön</originalForm>
+
+        <targetForm>schon</targetForm>
+      </error> <sic>versteht</sic> welche war das Problem) ... an der Kasse, die Frau hat <entity>Maria</entity> was das Tasche <correction>
+        <deletion>war</deletion>
+      </correction> mit O. und <error>
+        <errorType/>
+
+        <originalForm>Gemuse</originalForm>
+
+        <targetForm>Gemüse</targetForm>
+      </error> war, und kannst du <sic>verstehe</sic> dass <correction>
+        <deletion>p</deletion>
+      </correction> <entity>Maria</entity> war in <foreign_word foreign_language="Italiano">problema</foreign_word> weil wie <error>
+        <errorType/>
+
+        <originalForm>Könnte</originalForm>
+
+        <targetForm>könnte</targetForm>
+      </error> sie <sic>dimostriere</sic> dass die Sache <sic>im</sic> das Tasche waren nicht gestohlen aber waren gekaufen in eine andere Markt? <entity>Maria</entity> hat viel <error>
+        <errorType/>
+
+        <originalForm>zeit</originalForm>
+
+        <targetForm>Zeit</targetForm>
+      </error> mit die Frau <sic>gespröchen</sic> und am <error>
+        <errorType/>
+
+        <originalForm>ende</originalForm>
+
+        <targetForm>Ende</targetForm>
+      </error> das Frau hat <entity>Maria</entity> verstanden.. Hahaha <entity>Charlotte</entity>, das ist so eine komische <error>
+        <errorType/>
+
+        <originalForm>episode</originalForm>
+
+        <targetForm>Episode</targetForm>
+      </error>! Erinnert: der Kassenzettel immer <correction>
+        <deletion><unreadable/></deletion>
+      </correction> zu bringen.</exercise>
+
+    
+  </body>
+</kolipsi_document>

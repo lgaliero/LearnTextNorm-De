@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0080</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hi <entity>Toni</entity></greeting>,<par/><entity>Maria</entity> hat mir gestern etwas wirklich <error>
+        <errorType/>
+
+        <originalForm>witzige<overwrite>
+            <under>r</under>
+
+            <over>s</over>
+          </overwrite></originalForm>
+
+        <targetForm>Witziges</targetForm>
+      </error> erzählt! Sie war gestern einkaufen, zuerst bei einem Obsthändler und dann im Supermarkt.<par/>Dummerweise hat sie den <error>
+        <errorType/>
+
+        <originalForm>Bong</originalForm>
+
+        <targetForm>Bon</targetForm>
+      </error> des Obsthändlers vergessen und die Kassiererin dachte natürlich sie hätte die Sachen aus der Obst- und Gemüse<hyphen>-</hyphen>abteilung geklaut!<par/>Das war natürlich ein schreckliches Missverständnis was <correction>
+        <deletion>sie</deletion>
+      </correction> <entity>Maria</entity> auch versucht hat zu erklären, aber sie hatte natürlich <sic>kein</sic> Beweis <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> sie die Lebensmittel schon beim Obsthändler gekauft hatte. Also musste sie die eingekauften Sachen <correction>
+        <deletion>bei</deletion>
+      </correction> im Supermarkt lassen (auch das Obst) und <error>
+        <errorType/>
+
+        <originalForm>ersteinmal</originalForm>
+
+        <targetForm>erst einmal</targetForm>
+      </error> den <error>
+        <errorType/>
+
+        <originalForm>Bong</originalForm>
+
+        <targetForm>Bon</targetForm>
+      </error> holen um der Kassiererin <error>
+        <errorType/>
+
+        <originalForm>klar zu machen</originalForm>
+
+        <targetForm>klarzumachen</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> ihr Verdacht falsch war.<par/>Das hat sie dann zum Glück auch eingesehen und <entity>Maria</entity> konnte nach Hause gehen, mit ihren Sachen. Sowas kann auch nur <entity>Maria</entity> erzählen, dieses tollpatschige Mädchen.<par/>Ist dir auch schonmal so etwas passiert? Also mir nicht.<par/>Ich würde mich freuen wenn du antwortest und grüß die Familie von mir.<par/><closing>Liebe Grüße</closing>    </exercise>
+
+    
+  </body>
+</kolipsi_document>

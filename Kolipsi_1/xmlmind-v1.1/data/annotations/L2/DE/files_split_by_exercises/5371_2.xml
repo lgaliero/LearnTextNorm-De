@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5371</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Hallo mein lieber <entity>Lucas</entity>,</greeting> wie geht es dir? <overwrite>
+        <over>M</over>
+
+        <under>m</under>
+      </overwrite>ir gut. <par/>Diese Sommer will ich einen Urlaub mit dir machen, aber jetzt weiß ich nicht wo, entweder Meer oder auf dem Berg. <par/>Müssen wir uns entscheiden. <entity><error>
+          <errorType/>
+
+          <originalForm>Cuba</originalForm>
+
+          <targetForm>Kuba</targetForm>
+        </error></entity> oder <entity>Cortina d´Ampezzo</entity>. <par/><entity><error>
+          <errorType/>
+
+          <originalForm>Cuba</originalForm>
+
+          <targetForm>Kuba</targetForm>
+        </error></entity> ist eine sehr schöne Insel mit <error>
+        <errorType/>
+
+        <originalForm>weisse</originalForm>
+
+        <targetForm>weiße</targetForm>
+      </error> <correction>
+        <deletion>Strand</deletion>
+
+        <insertion>Sand</insertion>
+      </correction>, <sic>dursichte</sic> Wasser und eines der schönste Vegetations der Welt <correction>
+        <deletion><unreadable/></deletion>
+      </correction>. Wir <correction>
+        <deletion>bleiben</deletion>
+      </correction> schlafen in einem des schönste <error>
+        <errorType/>
+
+        <originalForm>Hotrls</originalForm>
+
+        <targetForm>Hotels</targetForm>
+      </error> des Insel neben dem Strand! <error>
+        <errorType/>
+
+        <originalForm>wir</originalForm>
+
+        <targetForm>Wir</targetForm>
+      </error> bleiben dort <correction>
+        <deletion>ein</deletion>
+      </correction> zwei Woche und das ist nicht zu teuer. <par/>Die andere Möglichkeit ist <entity>Cortina d´Ampezzo</entity>. Auch dort bleiben wir zwei Woche in ein Hotel in der Mittel der Stadt. <par/>Das Reisebüro hat mir gesagt dass das Wetter ist schön und es ist warm aber auf dem Bergspitze gibt es <error>
+        <errorType/>
+
+        <originalForm>villeicht</originalForm>
+
+        <targetForm>vielleicht</targetForm>
+      </error> ein <error>
+        <errorType/>
+
+        <originalForm>bischien</originalForm>
+
+        <targetForm>bisschen</targetForm>
+      </error> Wind. <par/>Nächste Woche müssen wir eine <sic>Antworte</sic> geben sonst <sic>verlören</sic> wir die Plätze. <error>
+        <errorType/>
+
+        <originalForm>Villeich</originalForm>
+
+        <targetForm>Vielleicht</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>Morgen</originalForm>
+
+        <targetForm>morgen</targetForm>
+      </error> oder <error>
+        <errorType/>
+
+        <originalForm>Ubermorgen</originalForm>
+
+        <targetForm>übermorgen</targetForm>
+      </error> ruft du mir an und sprechen sie langsam. <closing>Tschüs bis bald <par/> <par/>Deine Freunde <entity>Marco</entity> </closing></exercise>
+  </body>
+</kolipsi_document>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5887</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting><correction>
+          <deletion>Liebe</deletion>
+        </correction> Lieber <entity>Maurizio</entity>!</greeting> <par/>Ich weiß dass wir uns bald sehen werden, aber ich schreibe dich dieses Brief, weil ich muss dich etwas fragen. <par/>Erinnerst du dich an le<correction>
+        <deletion><unreadable/></deletion>
+      </correction>ztes Samstag, als wir <correction>
+        <insertion>uns</insertion>
+      </correction> mit <entity>Heidy</entity>, <entity>Martino</entity> und<entity> Federico</entity> <sic>getreffen</sic> haben? Wir wollen zusammen ein <error>
+        <errorType/>
+
+        <originalForm>Urlab</originalForm>
+
+        <targetForm>Urlaub</targetForm>
+      </error> machen, und ich <error>
+        <errorType/>
+
+        <originalForm>glabe</originalForm>
+
+        <targetForm>glaube</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>dass</originalForm>
+
+        <targetForm>das</targetForm>
+      </error> wäre eine ganz nett <overwrite>
+        <over>I</over>
+
+        <under>i</under>
+      </overwrite>dee <correction>
+        <deletion>will</deletion>
+      </correction> wir alle zusammen wegfahren! <par/>Wir <error>
+        <errorType/>
+
+        <originalForm>mussen</originalForm>
+
+        <targetForm>müssen</targetForm>
+      </error> aber alles schon jetzt planen. <par/>Ich schreibe <correction>
+        <deletion>dich,</deletion>
+      </correction> dich weil du der beste v<overwrite>
+        <over>o</over>
+
+        <under>e</under>
+      </overwrite>n uns in <error>
+        <errorType/>
+
+        <originalForm>planen</originalForm>
+
+        <targetForm>Planen</targetForm>
+      </error> bist!<emoticon>=)</emoticon> <par/>Zuerst: <error>
+        <errorType/>
+
+        <originalForm>fahren</originalForm>
+
+        <targetForm>Fahren</targetForm>
+      </error> wir ans Meer oder in die Berge? Ich weiß dass du die Berge sehr magst, aber ich und <entity>Martino</entity> <sic>magen</sic> das Meer… <par/>Berge sind sehr ruhig, das ideal um sich zu <sic>relaxieren</sic>, aber am Meer <error>
+        <errorType/>
+
+        <originalForm>vielle<correction>
+            <insertion>i</insertion>
+          </correction>ch</originalForm>
+
+        <targetForm>vielleicht</targetForm>
+      </error> haben wir mehr Spaß! <entity>Federico</entity> hat eine <error>
+        <errorType/>
+
+        <originalForm>alergie</originalForm>
+
+        <targetForm>Allergie</targetForm>
+      </error> für einige Bergpflanzen… <par/>Meiner Meinung nach es ist besser ein Haus am <overwrite>
+        <over>M</over>
+
+        <under>m</under>
+      </overwrite>eer zu mieten, und dort ein paar Wochen bleiben. Was <error>
+        <errorType/>
+
+        <originalForm>glabst</originalForm>
+
+        <targetForm>glaubst</targetForm>
+      </error> du? <par/>Ich denken wir <correction>
+        <deletion>muss</deletion>
+      </correction> sollen uns wieder alle treffen <correction>
+        <deletion>und</deletion>
+
+        <insertion>um</insertion>
+      </correction> zusammen zu entscheiden ob besser Meer oder Berge sein. Ich bin sicher wir werden ein wunderbares Urlaub machen, am Meer oder Berge ist nicht <overwrite>
+        <over>w</over>
+
+        <under>v</under>
+      </overwrite>ichtig. Wichtig ist nur dass wir zusammen sind! <emoticon>=)</emoticon> <par/>Rufe mich an, <correction>
+        <deletion>du</deletion>
+      </correction> sage mich wann <arrow end="open" id="1"> </arrow> <overwrite>
+        <over>d</over>
+
+        <under><unreadable/></under>
+      </overwrite>u Zeit <arrow end="head" id="1">hast</arrow> um mit uns alles zu planen. <par/><closing>Bis bald! <par/> <entity>Lucia</entity> </closing></exercise>
+  </body>
+</kolipsi_document>

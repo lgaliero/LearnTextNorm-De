@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I41_BAR10MAT</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo <error>
+          <errorType />
+
+          <originalForm>christian</originalForm>
+
+          <targetForm>Christian</targetForm>
+        </error>,</greeting><par />gestern war ich im Supermarkt, während ich das Gemüse kaufte, sah ich, eine komische Szene: <error>
+        <errorType />
+
+        <originalForm>Marie</originalForm>
+
+        <targetForm>Maria</targetForm>
+      </error>, die hatte früher Obst und Gemüse gekauft, kaufte Getränke und andere Sachen. Am Ende des Einkaufens, ging Maria an die Kasse, da <correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>wirdt</insertion>
+      </correction> die <error>
+        <errorType />
+
+        <originalForm>Situazion</originalForm>
+
+        <targetForm>Situation</targetForm>
+      </error> komisch: die Verkäuferin<correction>
+        <deletion>g</deletion>
+      </correction>, die Obst und Gemüse sah, <correction>
+        <deletion><unreadable /></deletion>
+      </correction> glaubte dass <error>
+        <errorType />
+
+        <originalForm>Marie</originalForm>
+
+        <targetForm>Maria</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>obst</originalForm>
+
+        <targetForm>Obst</targetForm>
+      </error> und Gemüse gestohlen hatte: <error>
+        <errorType />
+
+        <originalForm>Marie</originalForm>
+
+        <targetForm>Maria</targetForm>
+      </error> war plötzlich verwundert. Die Verkäuferin wollte <error>
+        <errorType />
+
+        <originalForm>Maries</originalForm>
+
+        <targetForm>Marias</targetForm>
+      </error> <correction>
+        <deletion>g</deletion>
+
+        <insertion>G</insertion>
+      </correction>eschichte nicht glauben also hält sie das ängstliches Fräuleins an. <error>
+        <errorType />
+
+        <originalForm>Marie</originalForm>
+
+        <targetForm>Maria</targetForm>
+      </error> fragte die Verkäuferin <correction>
+        <deletion>um</deletion>
+
+        <insertion>ob</insertion>
+      </correction> sie zum Obstladen ging, sodass sie die Wahrheit <correction>
+        <deletion><unreadable /></deletion>
+      </correction> sehen konnte. Die Verkäuferin <correction>
+        <deletion><unreadable /></deletion>
+      </correction> wollte keine Entschuldigungen hören und so <correction>
+        <deletion><unreadable /></deletion>
+      </correction> fragte <error>
+        <errorType />
+
+        <originalForm>Marie</originalForm>
+
+        <targetForm>Maria</targetForm>
+      </error> den Kassenzettel an. <error>
+        <errorType />
+
+        <originalForm>Marie</originalForm>
+
+        <targetForm>Maria</targetForm>
+      </error> hatte es früher <error>
+        <errorType />
+
+        <originalForm>weg<correction>
+            <deletion>ge</deletion>
+          </correction> geschossen</originalForm>
+
+        <targetForm>weggeschossen</targetForm>
+      </error> und also sie wusste nicht was sie machen konnte. Die Verkäuferin ruft die Polizei an.<par />Dann wollte ich dort bleiben und die Ende des Szene sehen, aber ich hatte keine Zeit, weil ich Deutsch lernen musste.<par /><closing>Ein <error>
+          <errorType />
+
+          <originalForm>Herzlichen</originalForm>
+
+          <targetForm>herzlichen</targetForm>
+        </error> Gruß,</closing><par />dein Freund Mattia.</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber Paul,</greeting><par />du hattest einen großen Fehler gemacht, du solltest diese Dialoge<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>n</insertion>
+      </correction> nicht beg<correction>
+        <deletion>o</deletion>
+
+        <insertion>i</insertion>
+      </correction>nnen. Meiner Meinung nach sollst du mit diesen Personen nicht mehr chatten, weil du die wahre Person, die auf der anderen <correction>
+        <deletion>s</deletion>
+
+        <insertion>S</insertion>
+      </correction>eit de<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>s</insertion>
+      </correction> <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Computers steht, nicht sehen kannst.<par />In manchen Fällen sind Situationen wie dein<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>e</insertion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>gefärlich</originalForm>
+
+        <targetForm>gefährlich</targetForm>
+      </error> geworden, du kannst so viel nicht riskieren. Wenn ich dich wirdt, würde ich das Account löschen und mit diesen Personen nicht<correction>
+        <deletion><unreadable /></deletion>
+      </correction> mehr keine Wörter schreiben. Zum Glück habe ich keine Erfahrungen wie deiniger und ich will sie nicht haben, weil sie viele Problemen bringen kann. Internet <correction>
+        <deletion><unreadable /></deletion>
+      </correction> kann in viele Fälle nützlich sein, aber manchmal ist es auch <error>
+        <errorType />
+
+        <originalForm>gefärlich</originalForm>
+
+        <targetForm>gefährlich</targetForm>
+      </error>, und wenn es <error>
+        <errorType />
+
+        <originalForm>Gefärlich</originalForm>
+
+        <targetForm>gefährlich</targetForm>
+      </error> ist, riskierst du sehr viel. Ich denke dass <correction>
+        <deletion><unreadable /></deletion>
+      </correction> wahre Freundschaftlichen nicht online sind, sondern wahre Freundschaften durch die Straßen <error>
+        <errorType />
+
+        <originalForm>schlißen</originalForm>
+
+        <targetForm>schließen</targetForm>
+      </error> <correction>
+        <deletion><unreadable /></deletion>
+      </correction> sollen. Jetzt soll ich gehen. Ich <correction>
+        <deletion><unreadable /></deletion>
+      </correction> muss für d<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>ie</insertion>
+      </correction> <correction>
+        <deletion>s</deletion>
+
+        <insertion>S</insertion>
+      </correction>chularbeit lernen.<par /><closing>Herzlichen Grüßen,</closing><par />dein Freund Mattio.</exercise>
+  </body>
+</kolipsi_II_document>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>4665</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve">
+ <par/><greeting>Liebe <entity>Mari</entity>!!</greeting> <par/>Wie geht´s? <sic>Weiss</sic> du was ist <error>
+        <errorType/>
+
+        <originalForm>Heute</originalForm>
+
+        <targetForm>heute</targetForm>
+      </error> zur <entity>Maria</entity> passiert! Heute <error>
+        <errorType/>
+
+        <originalForm>morgen</originalForm>
+
+        <targetForm>Morgen</targetForm>
+      </error> sie ist beim Obsthändler gegangen und hat Salat, <error>
+        <errorType/>
+
+        <originalForm>Carotten</originalForm>
+
+        <targetForm>Karotten</targetForm>
+      </error>, Tomaten und andere Gemüse gekauft. Sie hat 10 € bezahlt. Dann sie ist in die Mittelstadt gegangen und hat andere <error>
+        <errorType/>
+
+        <originalForm>Geshäfte</originalForm>
+
+        <targetForm>Geschäfte</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>besu<strikeover>
+            <expansion>c</expansion>
+
+            <expansion>a</expansion>
+          </strikeover>t</originalForm>
+
+        <targetForm>besucht</targetForm>
+      </error> und ein <error>
+        <errorType/>
+
+        <originalForm>bißchen</originalForm>
+
+        <targetForm>bisschen</targetForm>
+      </error> durch die Stadt gebummelt. Später ist sie in einen <error>
+        <errorType/>
+
+        <originalForm>Supermaket</originalForm>
+
+        <targetForm>Supermarkt</targetForm>
+      </error> gegangen um die letzte Sache <palimpsest>ein</palimpsest><palimpsest>zu</palimpsest>kaufen. Sie hat Milch, Wein, Pasta, Brot und <error>
+        <errorType/>
+
+        <originalForm>Zahnpaste</originalForm>
+
+        <targetForm>Zahnpasta</targetForm>
+      </error> in den <palimpsest><error>
+          <errorType/>
+
+          <originalForm>einkaufswagen</originalForm>
+
+          <targetForm>Einkaufswagen</targetForm>
+        </error></palimpsest> gelegen und ist zur Kassa gegangen um zu zahlen. Sie hat alle Sachen auf die Kassa gelegen und hat seine Brieftasche genommen. Die Kassiere hat aber die Gemüse die <entity>Maria</entity> beim Obsthändler vorher gekaufen hat in ihre Tasche un<strikeover>
+        <expansion>d</expansion>
+
+        <expansion>g</expansion>
+      </strikeover> meinte dass sie sie <error>
+        <errorType/>
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hatte... Es war eine sehr schlechte Figur!!<palimpsest> </palimpsest> <entity>Maria</entity> <sic>hätte</sic> die Kassazettel von Obst und Gemüse ins Geschäft vergessen und jetzt sie kann nicht beweisen dass sie diese Sachen <error>
+        <errorType/>
+
+        <originalForm>schön</originalForm>
+
+        <targetForm>schon</targetForm>
+      </error> bezahlt hat! So sie musste alles <error>
+        <errorType/>
+
+        <originalForm>nocheinmal</originalForm>
+
+        <targetForm>noch einmal</targetForm>
+      </error> zahlen... Arme <entity>Maria</entity>!! Nächstes Mal sie würde sicher ihre Kassazettel bemerken!</exercise>
+
+    
+  </body>
+</kolipsi_document>

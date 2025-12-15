@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5029</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe <entity>Tania</entity>,</greeting> wie geht es dir? <par />Du weißt nicht was mir diesen Morgen passiert ist… Ich bin einkaufen gegangen, er<palimpsest>s</palimpsest>t beim Obsthändler, wo ich Salat, Kartoffeln und Mais <correction>
+        <deletion>gef</deletion>
+      </correction> <correction>
+        <insertion>ein-</insertion>
+      </correction>gekauft habe, und dann beim Supermakrt. Im Supermarkt habe ich einige <error>
+        <errorType />
+
+        <originalForm>dinge</originalForm>
+
+        <targetForm>Dinge</targetForm>
+      </error> für den Haushalt <correction>
+        <deletion>es</deletion>
+      </correction> gekauft, aber als ich bezahlt hatte und weggehen wollte, ärgerte sich die Frau an <correction>
+        <deletion>d</deletion>
+      </correction> der Kasse mit mir! Ich hatte das Gemüse von Obsthändler in der Tasche, sie sah den Mais <correction>
+        <deletion>und</deletion>
+      </correction> und dachte, dass ich diesen stehlen wollte! Sie fing an mich anzuschreien und die Leute im Supermarkt drehten sich um… Ich schämte mich furchtbar! So langsam habe ich versucht ihr zu <error>
+        <errorType />
+
+        <originalForm>erklähren</originalForm>
+
+        <targetForm>erklären</targetForm>
+      </error>, dass ich diesen Mais im Gemüseladen gekauft hatte aber sie wollte mir einfach nicht glauben! Zum Glück hatt ich die Rechnung nicht weggeworfen, wie ich <error>
+        <errorType />
+
+        <originalForm>normalerweiße</originalForm>
+
+        <targetForm>normalerweise</targetForm>
+      </error> auch mache<correction>
+        <deletion>n</deletion>
+      </correction>, und konnte ihr <error>
+        <errorType />
+
+        <originalForm>beweißen</originalForm>
+
+        <targetForm>beweisen</targetForm>
+      </error> dass ich alle <correction>
+        <deletion><unreadable /></deletion>
+      </correction> schon bezahlt hatte. Am Ende schämte sie sich und entschuldigte sich sehr für alles… Ich konnte dann endlich wieder nach Hause zurück! So was war mir noch nie passiert! Na ja … Was hast du <error>
+        <errorType />
+
+        <originalForm>schönes</originalForm>
+
+        <targetForm>Schönes</targetForm>
+      </error> heute gemacht? Du hattest sicher einene ruhigen Tag als meinen! <par /><closing>Bis bald mein Sternchen! <par /> <entity>Nadine</entity></closing></exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo liebe <entity>Tania</entity></greeting>, endlich komme ich auch an diesen Brief! <par />Für diesen Sommer dachte ich, dass wir zusammen im Urlaub <correction>
+        <deletion>gehen</deletion>
+      </correction> fahren könnten; was denkst du?? Das <error>
+        <errorType />
+
+        <originalForm>währe</originalForm>
+
+        <targetForm>wäre</targetForm>
+      </error> ja eine tolle Idee! Jetzt bleibt nur ein Fragezei<palimpsest>ch</palimpsest>en: Berge oder Meer?? Beide Landschaften sind sehr schön! Am Meer ist es wahrschein<hyphen>-</hyphen>lich wärmer und dort können wir auch noch baden; auf den Berg kann es fris<palimpsest>ch</palimpsest>er sein aber wir könnten viel wandern. Am Sommer bin ich <error>
+        <errorType />
+
+        <originalForm>eigendlich</originalForm>
+
+        <targetForm>eigentlich</targetForm>
+      </error> noch nie in die Berge gefahren, immer nur ans Meer und ich muss sagen dass ich es fast lieber habe. <par />Wir könnten zu einer tropischen Insel fliegen, mit weißen Strände, durchsichtiges Wasser, Palmen und viel <foreign_word
+        foreign_language="Italiano">Relax</foreign_word> ! Weil ich dich gut kenne, denke ich dass du auch das Meer <correction>
+        <deletion>liber</deletion>
+      </correction> lieber hast, oder <error>
+        <errorType />
+
+        <originalForm>teusche</originalForm>
+
+        <targetForm>täusche</targetForm>
+      </error> ich mich?? <correction>
+        <deletion>A</deletion>
+      </correction> <par />Antworte mir so schnell wie möglich, damit ich auch gl<palimpsest>ei</palimpsest>ch buchen kann… Denk auch an einen Ort für uns beide! Ich weiß, dass du was <error>
+        <errorType />
+
+        <originalForm>tolles</originalForm>
+
+        <targetForm>Tolles</targetForm>
+      </error> finden wirst! <closing>Bis bald <overwrite>
+          <over>L</over>
+
+          <under>l</under>
+        </overwrite>iebe <par /> <entity>Nadine</entity> </closing></exercise>
+  </body>
+</kolipsi_document>

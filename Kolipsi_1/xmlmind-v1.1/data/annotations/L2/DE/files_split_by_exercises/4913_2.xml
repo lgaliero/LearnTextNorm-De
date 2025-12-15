@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>4913</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting><sic>Dier</sic> Freund,</greeting> <error>
+        <errorType/>
+
+        <originalForm>Diese</originalForm>
+
+        <targetForm>diese</targetForm>
+      </error> Sommerferien wurde ich in den Bergen oder am Meer fahren. <par/><palimpsest>die Berg ist sehr schön</palimpsest> , gibt es viele Wald und kann ich <palimpsest><sic>spatiergangen</sic>,</palimpsest> mache ich viele <error>
+        <errorType/>
+
+        <originalForm>Spass</originalForm>
+
+        <targetForm>Spaß</targetForm>
+      </error>. <par/>Mein Kindern kann auch viele Spiele <palimpsest>machen und gibt es auch viele Struktur</palimpsest> für die <error>
+        <errorType/>
+
+        <originalForm>spass</originalForm>
+
+        <targetForm>Spaß</targetForm>
+      </error>. <par/>Am <palimpsest>Meer aber,</palimpsest> kann ich <sic>vile</sic> Sonne nehmen. <par/>Ich wolle ans <palimpsest>Me</palimpsest> er gehen. <closing>Herzliche <error>
+          <errorType/>
+
+          <originalForm>Gruße</originalForm>
+
+          <targetForm>Grüße</targetForm>
+        </error><par/><entity>Dana</entity></closing> </exercise>
+  </body>
+</kolipsi_document>

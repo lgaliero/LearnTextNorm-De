@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5489</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Peter</entity>,</greeting> wie geht es dir? Ich muss dir etwas erzählen… <par/>Kennst du meine Freundin <entity>Maria</entity>, <error>
+        <errorType/>
+
+        <originalForm>die jenige</originalForm>
+
+        <targetForm>diejenige</targetForm>
+      </error> die mit mir wohnt? <par/>Also heute ist sie einkaufen gegangen, zuerst ist sie beim Obsthändler gegangen um ein bisschen Gemüse zu kaufen weil es zu Hause fertig war. Sie hatte <error>
+        <errorType/>
+
+        <originalForm>Salad</originalForm>
+
+        <targetForm>Salat</targetForm>
+      </error>. Bananen und Kartoffeln gekauft. <par/>Sie ging an die Kasse und bezahlte was sie genommen hatte und, dann packte sie alles in dem Sack hinein. Beim <error>
+        <errorType/>
+
+        <originalForm>einpacken</originalForm>
+
+        <targetForm>Einpacken</targetForm>
+      </error> hatte sie den Kassenzettel vergessen. <par/>Nach dem Obsthändler ging sie zum <foreign_word foreign_language="Italiano">Supermarket</foreign_word> um andere Sache zu kaufen. Sie nahm die Putzmitteln, das Öl und alles anderes mögliches. Als sie an die Kasse ging die <error>
+        <errorType/>
+
+        <originalForm>Kassirerin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> glötzte sie komisch an, weil sie dachte dass <entity>Maria</entity>, etwas gestohlen hat. Sie konnte nicht beweisen, dass das Obst nicht geklaut wurde, weil <palimpsest>sie</palimpsest> den Kassazettel <sic>un</sic> Obsthändler vergessen hatte. Ich musste schnell beim Obsthändler laufen und <palimpsest>unreadable</palimpsest> den Kassazettel nehmen um sein Unschuldigkeit zu beweisen. <par/>Was denkst du über die Geschi<overwrite>
+        <over>c</over>
+
+        <under>s</under>
+      </overwrite>hte?</exercise>
+
+    
+  </body>
+</kolipsi_document>

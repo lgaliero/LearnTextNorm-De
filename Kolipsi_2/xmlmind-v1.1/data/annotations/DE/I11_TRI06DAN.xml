@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I11_TRI06DAN</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo Andrea,</greeting><par />ich wollte <correction>
+        <deletion>dich</deletion>
+
+        <insertion>dir erklären</insertion>
+      </correction> eine komische Situation, die <correction>
+        <deletion>gestern</deletion>
+
+        <insertion>letzte Woche</insertion>
+      </correction> Maria im Supermarkt passierte ist. Zuerst war sie beim Obst- und Gemüseladen einkaufen, aber an der Kasse verlierte sie den Kassenzettel und ging sie draußen. Ungefähr eine Stunde später ging Maria zum Supermarkt einkaufen. Dort <correction>
+        <deletion>m</deletion>
+      </correction> nimmte sie was sie brauchte, wie Dosen, Flaschen, etwas zum <error>
+        <errorType />
+
+        <originalForm>essen</originalForm>
+
+        <targetForm>Essen</targetForm>
+      </error> und <error>
+        <errorType />
+
+        <originalForm>trinken</originalForm>
+
+        <targetForm>Trinken</targetForm>
+      </error>. Wenn sie fertig wäre, und alles was sie brauchte genommen hätte, ging sie an der Kasse um alles zu bezahlen.<par />Nach <correction>
+        <deletion>a</deletion>
+      </correction> eine lange Reihe an der Kasse wurde sie dran und gab im <correction>
+        <deletion>e</deletion>
+
+        <insertion>E</insertion>
+      </correction>inkauf der Frau an der Kasse. Aber dort gab es ein Problem, sie hatte den Kassenzettel von den Obst- und Gemüseladen vergessen und die Frau dachte dass <correction>
+        <deletion>si</deletion>
+      </correction> Maria ihren <error>
+        <errorType />
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hatte.<par /><closing>Mit freundlichen Grüßen,</closing><par />X</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo Paul,</greeting><par />ich schreibe dir diese E-Mail um dir meiner Meinung <correction>
+        <deletion>zu</deletion>
+      </correction> über dieses Argument zu geben.<par />Ich denke dass virtuelle Freundschaften nicht richtig <error>
+        <errorType />
+
+        <originalForm>Wahr</originalForm>
+
+        <targetForm>wahr</targetForm>
+      </error> sind, weil du nicht wirklich weißt wer sie sind. Weißt du nicht wirklich wer hinter den Computer oder den Handy ist, er oder sie kann dich sagen dass <correction>
+        <deletion>ist</deletion>
+      </correction> 16 Jahre alt ist, und dass in der Schule geht, wenn in Wahr ist 50 Jahre alt. und hat vielleicht auch Kinder zu Hause.<par />Diese sind keine Freundschaften, weil mit einem richtigen Freund kann man alles machen und braucht man kein Computer hinter den man stecken kann.<par />Meiner Meinung nach, musst du neue Leute kennenlernen aber nicht mit Internet, sondern in der Schule, <correction>
+        <deletion>od</deletion>
+      </correction> beim Sport oder <error>
+        <errorType />
+
+        <originalForm>Jugendtliche</originalForm>
+
+        <targetForm>Jugendliche</targetForm>
+      </error> <foreign_word foreign_language="English"><error>
+          <errorType />
+
+          <originalForm>Zentr<correction>
+              <deletion><unreadable /></deletion>
+
+              <insertion>er</insertion>
+            </correction></originalForm>
+
+          <targetForm>Center</targetForm>
+        </error></foreign_word>. Man braucht nicht viel um eine Freundschaft zu schließen.<par />Also gehe <correction>
+        <deletion>in</deletion>
+      </correction> ein bisschen draußen und habt <correction>
+        <deletion>s</deletion>
+
+        <insertion>S</insertion>
+      </correction>paß, ist das <error>
+        <errorType />
+
+        <originalForm>beste</originalForm>
+
+        <targetForm>Beste</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>dass</originalForm>
+
+        <targetForm>das</targetForm>
+      </error> du machen kannst.<par /><closing>Mit freundlichen Grüßen,</closing><par />X</exercise>
+  </body>
+</kolipsi_II_document>

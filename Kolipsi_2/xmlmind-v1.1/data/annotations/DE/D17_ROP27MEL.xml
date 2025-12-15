@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>D17_ROP27MEL</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Lieber Felix,</greeting><par />ich schreibe dir, um dir zu erzählen, was Maria letzte Woche passiert ist.<par />Sie war einkaufen, weil sie ein gutes Abendessen für die ganze Familie kochen wollte. Zuerst ging sie in eines Obst- und Gemüseladen und kaufte Salat, Tomaten und <error>
+        <errorType />
+
+        <originalForm>Karoten</originalForm>
+
+        <targetForm>Karotten</targetForm>
+      </error>. Sie entschied sich dafür, Gemüse nicht im Supermarkt zu kaufen, denn die Produkte sind frischer und besser beim Obsthändler. Eine Stunde später ging sie in den Supermarkt, um andere Speisen zu kaufen, aber sie hatte ein Problem an der Kasse! Tatsächlich dachte die Frau an der Kasse, dass Maria die Gemüse im Supermarkt genommen hatte und für sie nicht bezahlen wollte! Maria ärgerte sich, sie ist keine Dieberin! Dann beruhigte sie sich und erklärte der Frau die Situation, die sich sofort entschuldigte.<par />Ist es dir auch etwas Ähnliches passiert?<par /><closing>Schreib mir bald</closing><par />Lara</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber Paul,</greeting><par />ich habe deinen Brief in der Rubrik "Persönliche Briefe" der Zeitung "Junge Woche" gelesen und ich möchte dir helfen. Ich denke, dass es richtig ist, was du gemacht hast. Meiner Meinung nach solltest du nicht die Nachrichten deiner "Freunden" ignorieren, sondern sie antworten und ihnen erklären, warum du dich nicht mehr meldest. Du hast Angst davor, nur "falsche Freunde" zu haben, oder? Ich denke, dass virtuelle Freundschaften nicht gut sind, weil man lebt für Menschen, die man nicht gesehen hat und nie wirklich kennengelernt hat. Diese Menschen können nicht da sein, wenn man sie braucht. Außerdem können sie gefährliche Menschen sein oder lügen, wenn sie davor Lust haben. Man weiß nicht, mit wem man chatten. Auf diesem Grund glaube ich, dass man nicht Menschen durch das Internet kennenlernen sollte. Man sollte das Internet wenig verwenden. Ich hoffe, dass ich dir ein bisschen geholfen haben!<par /><closing>Schreib mir bald</closing><par />Jakob</exercise>
+  </body>
+</kolipsi_II_document>

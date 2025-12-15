@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5534</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe <entity>Hanna</entity>,</greeting> <par />wie geht´s dir? Bei mir ist alles in bester Ordnung. Kannst du dich noch an meine Freundin <entity>Maria</entity> erinnern? <par />Ich muss dir unbedingt erzählen was ihr letzte Woche beim Einkaufen passiert ist. Wie üblich hat sie ihr Gemüse beim Obsthändler gekauft, weil es dort frischer ist als im Supermarkt. Später hat sie dann noch die restlichen Einkäufe im Supermarkt getätigt. Als sie schließlich an der Kasse angelangt war, bemerkte die <error>
+        <errorType />
+
+        <originalForm>Kassirerin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> das Obst und Gemüse in ihren Tasche und dachte sofort, dass <entity>Maria</entity> eine Diebin wäre. <entity>Maria</entity> reagierte schlagfertig und erklärte der Verkäuferin freundlich, dass sie zuvor beim Obst- und Gemüsehändler gewesen sei. Die Verkäuferin war dennoch skeptisch und wollte den Kassenzettel sehen. Erst jetzt bemerkte <entity>Maria</entity>, dass sie diesen im Obstladen an der Kasse vergessen hatte. Als <entity>Maria</entity> das der Verkäuferin erklärte dachte diese sofort an eine dumme <palimpsest>unreadable</palimpsest> Ausrede und wurde ziemlich wütend. Um die Situation zu schlichten bot <entity>Maria</entity> der Verkäuferin an ihre Tasche in der Zwischenzeit <palimpsest>dort</palimpsest> zu lassen und den vergessenen Kassenzettel beim Obsthändler zu holen. <par />Am Ende nahm die ganze Geschichte dann doch noch einen guten Ausgang und die Verkäuferin entschuldigte sich sogar noch bei <entity>Maria</entity>. <par /> Also vergiss ja nie den Kassenzettel, sonst wirst du noch wegen Diebstahl angezeigt. <emoticon>=)</emoticon> <par /><closing>Liebe Grüße und bis bald <par /> </closing>deine <entity>Julia</entity> </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Michi</entity>,</greeting> <par />ich hoffe dir geht es gut! Bei mir ist alles in Ordnung. Ich freue mich schon riesig auf die Sommer gemeinsam auf Urlaub zu fahren und ich glaube langsam ist es an der <error>
+        <errorType />
+
+        <originalForm>eit</originalForm>
+
+        <targetForm>Zeit</targetForm>
+      </error> zu entscheiden wohin wir fahren. <par />Was würdest du von einem Urlaub im Gebirge halten? Zum Beispiel in der <entity>Schweiz</entity> oder in <entity>Österreich</entity> wir hätten dort sicher viele Möglichkeiten unsere Freizeit zu gestalten. Wir könnten wandern, mountainbiken oder in den Gebirgsseen baden. Die frische Bergluft würde uns sicher <error>
+        <errorType />
+
+        <originalForm>gut tun</originalForm>
+
+        <targetForm>guttun</targetForm>
+      </error>. Andererseits gibt es dort glaub ich kein Nachtleben und am Abend könnte uns langweilig werden. Um das Nachtleben zu <error>
+        <errorType />
+
+        <originalForm>genißen</originalForm>
+
+        <targetForm>genießen</targetForm>
+      </error> wäre ein Urlaub am Meer sicher geeigneter. Ich habe gehört, dass es auf den griechischen Inseln sehr schön sein soll. <par /><entity>Santorini</entity>, eine der <entity>ägäischen</entity> <palimpsest>unreadable</palimpsest> Inseln, <palimpsest>unreadable</palimpsest> soll ein wahres Partyparadies sein. Während den Sommermonaten tummeln sich dort nur junge Leute. <par />Bei Tag könnten wir die Sonne und das Meer am Strand genießen und abends, nach einem leckeren griechischen Abendessen, die Diskos unsicher machen. <par />Ich <error>
+        <errorType />
+
+        <originalForm>galube</originalForm>
+
+        <targetForm>glaube</targetForm>
+      </error> wir würden dort sicher viele neue Leute kennenlernen. <par />Was hältst du von meinen Vorschlägen? Zusammenfassend können wir sagen, dass beide Urlaube sicher einzigartig wären. Ich glaube in Griechenland würden wir aber mehr Geld ausgeben, schon allein die Reise mit dem Flugzeug würde uns viel Geld kosten. <par />Jetzt warte ich auf deine Meinung, denn für heute habe ich schon genug gesagt. <par /><closing>Mit den besten Grüßen <par /> deine <entity>Julia</entity> </closing></exercise>
+  </body>
+</kolipsi_document>

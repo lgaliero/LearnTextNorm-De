@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>4959</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Liebe <correction>
+          <deletion><unreadable/></deletion>
+        </correction> <entity>Siegliende</entity> </greeting> <par/>Also wo gehen wir dieses Sommer? Ins <error>
+        <errorType/>
+
+        <originalForm><overwrite>
+            <over>G</over>
+
+            <under>g</under>
+          </overwrite>ebierge</originalForm>
+
+        <targetForm>Gebirge</targetForm>
+      </error> oder ans Meer? <correction>
+        <deletion>A,</deletion>
+      </correction> Ins <error>
+        <errorType/>
+
+        <originalForm>Gebierge</originalForm>
+
+        <targetForm>Gebirge</targetForm>
+      </error> es ist nicht so warm, wir <error>
+        <errorType/>
+
+        <originalForm>konnen</originalForm>
+
+        <targetForm>können</targetForm>
+      </error> spazieren gehen, <correction>
+        <deletion><unreadable/></deletion>
+      </correction> an die Wiesen liegen, <overwrite>
+        <over>fri</over>
+
+        <under>Ihre</under>
+      </overwrite>sche Milch trinken, <error>
+        <errorType/>
+
+        <originalForm>friesche</originalForm>
+
+        <targetForm>frische</targetForm>
+      </error> Luft atmen. <error>
+        <errorType/>
+
+        <originalForm>aber</originalForm>
+
+        <targetForm>Aber</targetForm>
+      </error> ins <error>
+        <errorType/>
+
+        <originalForm>Gebierge</originalForm>
+
+        <targetForm>Gebirge</targetForm>
+      </error> es <correction>
+        <deletion><unreadable/></deletion>
+      </correction> ist <error>
+        <errorType/>
+
+        <originalForm>langweilieg</originalForm>
+
+        <targetForm>langweilig</targetForm>
+      </error> es sind keine Diskos, keine Pubs. Ans Meer wir <error>
+        <errorType/>
+
+        <originalForm>konnen</originalForm>
+
+        <targetForm>können</targetForm>
+      </error> Sonnenliegen, am <correction>
+        <deletion><unreadable/></deletion>
+      </correction> Strand spazieren, <correction>
+        <deletion>l</deletion>
+      </correction> neue <overwrite>
+        <over>L</over>
+
+        <under>l</under>
+      </overwrite>eute kennenlernen, wir <error>
+        <errorType/>
+
+        <originalForm>konnen</originalForm>
+
+        <targetForm>können</targetForm>
+      </error> zu die Disko gehen am Abend, wir <error>
+        <errorType/>
+
+        <originalForm>konnen</originalForm>
+
+        <targetForm>können</targetForm>
+      </error> <correction>
+        <deletion>M</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm><foreign_word foreign_language="Italiano">Beach<overwrite>
+              <over>v</over>
+
+              <under>w</under>
+            </overwrite>olley</foreign_word></originalForm>
+
+        <targetForm>Beach volley</targetForm>
+      </error> spielen. <par/><correction>
+        <deletion>D</deletion>
+      </correction> Du kannst mir sagen was dir lieber magst. Aber ich <sic>mage</sic> lieber ans Meer weil wir unterhalten uns mehr. <par/>Ich erwarte für eine Antwort <par/><closing>Ciao!!! <par/>Bis <error>
+          <errorType/>
+
+          <originalForm>Bald</originalForm>
+
+          <targetForm>bald</targetForm>
+        </error> </closing></exercise>
+  </body>
+</kolipsi_document>

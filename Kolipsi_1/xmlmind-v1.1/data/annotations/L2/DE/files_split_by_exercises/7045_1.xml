@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>N7045</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Markus</entity>, </greeting> <par/>wie geht´s. Ich muss dich erzählen was die letzte <error>
+        <errorType/>
+
+        <originalForm>woche</originalForm>
+
+        <targetForm>Woche</targetForm>
+      </error> <entity>Maria</entity> passiert ist. Die arme <entity>Maria</entity> hat ein Problem an der Kasse einem Supermarkt gehabt. <par/>Sie ist zuerst in einem Obst- und Gemüseladen gegangen um <overwrite>
+        <over>G</over>
+
+        <under>g</under>
+      </overwrite>emüse zu kaufen. <par/>An die Kasse trifft sie ihre Freundin <entity>Emma</entity>, sie <error>
+        <errorType/>
+
+        <originalForm>zöhlt</originalForm>
+
+        <targetForm>zahlt</targetForm>
+      </error> an die Kasse und eine Stunde später ging sie im Supermarkt weil sie Zucker, Pasta und Öl brauchte. <par/>Sie ging an der Kasse um alles zu <error>
+        <errorType/>
+
+        <originalForm>zählen</originalForm>
+
+        <targetForm>zahlen</targetForm>
+      </error> aber die <error>
+        <errorType/>
+
+        <originalForm>Kasserfrau</originalForm>
+
+        <targetForm>Kassenfrau</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>beganu</originalForm>
+
+        <targetForm>begann</targetForm>
+      </error> zu <entity>Maria</entity> schrei<overwrite>
+        <over>en</over>
+
+        <under>n</under>
+      </overwrite>. Die <error>
+        <errorType/>
+
+        <originalForm>Kasserfrau</originalForm>
+
+        <targetForm>Kassenfrau</targetForm>
+      </error> sagt <entity>Maria</entity> dass sie die G<overwrite>
+        <under>ä</under>
+
+        <over>e</over>
+      </overwrite>müse gestohlen hat und sie muss der Kassenzettel sehen. <entity>Maria</entity> war sehr traurig weil sie erinnert sich dass der Kassenzettel vergisst hat. <par/>Glücklich ihre Freundin <entity>Emma</entity> war auch im Supermarkt und sagte die <error>
+        <errorType/>
+
+        <originalForm>Kasserfrau</originalForm>
+
+        <targetForm>Kassenfrau</targetForm>
+      </error> dass die Gemüse nicht gestohlen war. <par/><closing><error>
+          <errorType/>
+
+          <originalForm>Tchuss</originalForm>
+
+          <targetForm>Tschüss</targetForm>
+        </error> <entity>Markus</entity>, bis bald <entity>Ilaria</entity> </closing> </exercise>
+
+    
+  </body>
+</kolipsi_document>

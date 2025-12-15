@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Jessica</transcriber>
+
+  <author_id>5036</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Ilaria</entity>!</greeting> <par/>Wie geht es dir? Mir geht es gut… <par/>Weißt du was ist <palimpsest>passiert</palimpsest>? <entity>Maria</entity> war letzte Woche in dem <foreign_word foreign_language="Italiano">Supermarket</foreign_word> einkaufen aber dort gab es ein <error>
+        <errorType/>
+
+        <originalForm>Problen</originalForm>
+
+        <targetForm>Problem</targetForm>
+      </error> an der Kasse! <par/>Zuerst sie kaufte in einem <error>
+        <errorType/>
+
+        <originalForm>Obst</originalForm>
+
+        <targetForm>Obst-</targetForm>
+      </error> und Gemüseladen ein, <foreign_word foreign_language="English">salad</foreign_word>, <error>
+        <errorType/>
+
+        <originalForm>tomaten</originalForm>
+
+        <targetForm>Tomaten</targetForm>
+      </error>, <error>
+        <errorType/>
+
+        <originalForm>apfel</originalForm>
+
+        <targetForm>Apfel</targetForm>
+      </error>, <error>
+        <errorType/>
+
+        <originalForm>kartoffeln</originalForm>
+
+        <targetForm>Kartoffeln</targetForm>
+      </error> und weiter. Eine Stunde später war sie in Supermarkt wo <palimpsest>unreadable</palimpsest> <error>
+        <errorType/>
+
+        <originalForm>brot</originalForm>
+
+        <targetForm>Brot</targetForm>
+      </error>, <error>
+        <errorType/>
+
+        <originalForm>zucker</originalForm>
+
+        <targetForm>Zucker</targetForm>
+      </error>, <foreign_word foreign_language="English">milk</foreign_word> und <correction>
+        <deletion>wass</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>mineralwasser</originalForm>
+
+        <targetForm>Mineralwasser</targetForm>
+      </error> <palimpsest>kaufte</palimpsest>. Aber sie g<overwrite>
+        <under>e</under>
+
+        <over>i</over>
+      </overwrite>ng im <foreign_word foreign_language="Italiano">Supermarket</foreign_word> mit die andere Dingen wo sie in dem <error>
+        <errorType/>
+
+        <originalForm>obsthändler</originalForm>
+
+        <targetForm>Obsthändler</targetForm>
+      </error> einkaufen hatte. So die Dame an der Kasse <sic>denkte</sic> dass sie die Obst und Gemüse an dem Supermarkt <error>
+        <errorType/>
+
+        <originalForm>gestholen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hatte. Sie ging zu Direktor und <correction>
+        <deletion>sagte</deletion>
+      </correction> hat sie der Problem <sic>gezehlt</sic>. Sie hatte auch der Kassenzettel und so der Direktor <correction>
+        <deletion><unreadable/></deletion>
+      </correction> machte die <sic>Entschuldigen</sic>. <entity>Maria</entity> ist ein Dieb? Nein ich <sic>scherz</sic>! <par/>Wir sehen <palimpsest>in</palimpsest> <palimpsest>der</palimpsest> Schule! <greeting><par/>Viele <error>
+          <errorType/>
+
+          <originalForm>küssen</originalForm>
+
+          <targetForm>Küssen</targetForm>
+        </error> <par/> <par/><entity>Nadia</entity> </greeting></exercise>
+
+    
+  </body>
+</kolipsi_document>

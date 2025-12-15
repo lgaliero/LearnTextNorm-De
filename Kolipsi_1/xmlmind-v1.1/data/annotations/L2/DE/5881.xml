@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5881</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><comment>auch die äußere Form einer E-Mail wurde eingehalten –eine E-Mailadresse wurde mit angegeben</comment>ermengarda.stigata@hotmail.bu<greeting> Hallo <entity>Ermi</entity> </greeting> Ich bin der Lorenz. Ich muss dir erzählen was gestern der <entity>Maria</entity> passiert ist… <par />Sie musste für ihre Mutter beim Obsthändler einkaufen gehen und rat mal was sie nach dem Zahlen vergessen hat! Die Geldtasche und der Verkäufer hat das sicher bemerkt aber der <palimpsest><entity>Maria</entity></palimpsest> hat er nichts gesagt und wahrscheinlich sitzt er nun zu Hause mit 50 € mehr in seiner Geldtasche. Wie schon gesagt hat <entity>Maria</entity> überhaupt nichts bemerkt und wenige Minuten später war sie in einem Supermarkt. Als sie diemals bei der Kasse zahlen wollte hat sie natürlich gemerkt, dass sie die Geldtasche verloren hatte… Was sie dann gemacht hat, hat sie mir nicht erzählt aber ich bin mir sicher, dass sie weggelaufen ist. Die Geldtasche aber hat <correction>
+        <insertion>mehr</insertion>
+      </correction> gefunden.</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo <entity>Ermengarda</entity>!</greeting> <par />Wie geht es dir? Es fehlen nur noch 2 Wochen und dann werden wir endlich zusammen im Urlaub fahren. Ich freue mich schon darauf. <error>
+        <errorType />
+
+        <originalForm>wir</originalForm>
+
+        <targetForm>Wir</targetForm>
+      </error> müssen aber noch entscheiden o<unreadable /> wir ans Meer fahren oder ob wir auf den <error>
+        <errorType />
+
+        <originalForm>Bergn</originalForm>
+
+        <targetForm>Bergen</targetForm>
+      </error> unseren Urlaub verbringen werden. Am Meer ist es sicher viel wärmer und wir bräuchten nur kurze Hosen und <error>
+        <errorType />
+
+        <originalForm>T-shirts</originalForm>
+
+        <targetForm>T-Shirts</targetForm>
+      </error>. Auf den Ber<strikeover>
+        <expansion>g</expansion>
+
+        <expansion>e</expansion>
+      </strikeover>n ist es sehr kalt wir mussten sicher auch Winterjacken mitbringen. Ich glaube, dass wir uns am Meer sicher mehr unterhalten würden da es in den Clubs immer viele Aktivitäten wie Volleyball, Fußball, Tänze, Vorführungen und noch vieles mehr gibt. Am Berg hätten wir nicht sehr viel <unreadable /> und wahrscheinlich würden wir uns langweilen. Ein <sic>ander</sic> Grund warum ich lieber ans Meer fahren würde ist, dass wir hier in Südtirol jeden Tag auf dem Berg fahren könnten, aber am Meer könnten wir nicht jeden Tag fahren da es zu weit weg ist. Ich hoffe auf deine Antwort. <closing>Bis bald.</closing> </exercise>
+  </body>
+</kolipsi_document>

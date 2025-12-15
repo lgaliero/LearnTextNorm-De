@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0018</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Eva</entity></greeting>, rate mal was <entity>Maria</entity> heute passiert ist! Sie war beim Obsthändler einkaufen und konnte ganz normal bezahlen, aber eine Stunde später war sie im Supermarkt und es gab ein Problem an der Kasse. <palimpsest>Die Verkäuferin dachte, dass <entity>Maria</entity> etwas geklaut hätte, da sie ihre Waren vom Obsthändler noch mithatte. Sie hatte auch den Bon liegen lassen! Aber sie konnte es erklären und die Verkäuferin glaubte ihr.</palimpsest> <correction>
+        <insertion>Und ließ sie gehen, auch wenn erst der Besitzer des Obstladens angerufen wurde</insertion>
+      </correction> <palimpsest>Ich</palimpsest> hoffe, dass ihr das nicht wieder passiert! Und dir natürlich auch nicht! <emoticon>:D</emoticon><par /><closing>Liebe Grüße &amp; bis bald,<par />deine <entity>Linda</entity></closing>    </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting><over>Hallo </over><entity><over>Alex</over></entity></greeting>,<par />ich wollte mich nochmal wegen unserem gemeinsamen Urlaub bei dir melden. Ich habe zwei Angebote gefunden: eine Reise in die Berge oder ans Meer.<par /><par />Einerseits ist in den Bergen die Luft gut, <correction>
+        <deletion>und</deletion>
+      </correction> es gibt mit Sicher<hyphen>-</hyphen>heit eine tolle Aussicht und viel Grün, aber andererseits kann ich mir vorstellen, dass es dort recht schnell lang<hyphen>-</hyphen>weilig wird, da dort viel gewandert wird, kaum Leute in unserem Alter sind und außerdem ist es dort kühler als am Meer.<par /><par />Am Meer hingegen können wir schwimmen gehen, Muscheln sammeln, die Sonne genießen und uns bräunen. Außerdem sind dort mehr Leute in unserem Alter mit denen wir evtl. feiern können. Auch wenn es dort gegebenenfalls zu warm sein könnte denke ich, dass uns beiden <overwrite>
+        <under>w</under>
+
+        <over>W</over>
+      </overwrite>ärme trotzdem lieber ist als Kälte! <emoticon>;-)</emoticon> Zudem <correction>
+        <deletion>kenne</deletion>
+      </correction> <correction>
+        <insertion>bin</insertion>
+      </correction> ich <error>
+        <errorType />
+
+        <originalForm>schön</originalForm>
+
+        <targetForm>schon</targetForm>
+      </error> öfters ans Meer gefahren und habe es bis jetzt immer genossen!<par /><par />Abschließend kann ich sagen, dass ich eher dafür wäre ans Meer zu fahren, aber falls du lieber in die Berge möchtest können wir uns ja nochmal zusammensetzen und darüber reden.<par /><closing>Bis dahin und liebe Grüße,<par />deine <entity>Linda</entity></closing>      </exercise>
+  </body>
+</kolipsi_document>

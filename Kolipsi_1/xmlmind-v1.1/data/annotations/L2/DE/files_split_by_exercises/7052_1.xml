@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>N7052</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Martina</entity>!</greeting> <par/>Wie geht es dir? Alles in Ordnung? Mir geht es gut. <palimpsest>Du <error>
+          <errorType/>
+
+          <originalForm>weiss</originalForm>
+
+          <targetForm>weiß</targetForm>
+        </error></palimpsest>, ich hatte gedacht, für meinen Geburtstag eine Party zu organisieren. <par/>Da Premiere Freizeit hatte, ging ich in ein Obst- und Gemüseladen einkaufen. <par/>Dort kaufte ich ein paar Erdbeeren und Äpfel um einen Kuchen zu machen, während von Gemüse gab es nicht <error>
+        <errorType/>
+
+        <originalForm>besonderes</originalForm>
+
+        <targetForm>Besonderes</targetForm>
+      </error> so habe ich nur ein paar Tomaten und Salat gekauft. <par/>Eine Stunde später <palimpsest>ging ich zum</palimpsest> Supermarkt <entity>a&amp;o</entity>., <palimpsest>um alles anderes zu kaufen</palimpsest>, wie Getränke, <palimpsest>Chips</palimpsest> oder <sic>Cocktailgebäcke</sic>, aber an der Kasse gab es ein Problem. <par/>Die Verkäuferin hat <palimpsest>unreadable</palimpsest> <error>
+        <errorType/>
+
+        <originalForm>Schrie</originalForm>
+
+        <targetForm>schrie</targetForm>
+      </error>: <direct_speech>“Diebin, wohin geht’s du?“</direct_speech> <error>
+        <errorType/>
+
+        <originalForm>ich</originalForm>
+
+        <targetForm>Ich</targetForm>
+      </error> hab so komisch geguckt: <direct_speech>“Wie? Scherzt sie?“</direct_speech> <palimpsest>unreadable</palimpsest> hab ich nur gedacht. Sie meinte dass ich etwas stehlen wollte. Sie zeigte mir die Tüte die ich in meine Tasche gesteckt habe, und dann ich habe endlich verstanden. <par/>Sie glaubte mir nicht bis den Kassenzettel gezeigt haben. <par/>Es ist sicher dass ich nie wieder in jener Supermarkt! <par/>Ich hoffe, dass du mir antworten wirst. <par/><closing><entity>Guilia</entity> Bozen, <error>
+          <errorType/>
+
+          <originalForm>11</originalForm>
+
+          <targetForm>11.</targetForm>
+        </error> Juni 2008</closing></exercise>
+
+    
+  </body>
+</kolipsi_document>

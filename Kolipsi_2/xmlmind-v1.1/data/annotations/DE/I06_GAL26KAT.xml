@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I06_GAL26KAT</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Liebe Anna,</greeting><par />wie gehts <correction>
+        <deletion>dich</deletion>
+      </correction> dir?<par />Am Montag ich habe mit Maria gesprochen <correction>
+        <deletion><unreadable /></deletion>
+      </correction> und sie hat mich eine traurige Geschichte erzählt<correction>
+        <deletion>e</deletion>
+      </correction>.<par />Letzte<correction>
+        <deletion>n</deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>Woch</originalForm>
+
+        <targetForm>Woche</targetForm>
+      </error> <correction>
+        <insertion>war</insertion>
+      </correction> sie <correction>
+        <deletion>g</deletion>
+      </correction> einkaufen: Sie kaufte zuerst in einem Obst- und Gemüseladen ein, ins <correction>
+        <deletion>via</deletion>
+      </correction> Cesare Battisti<hyphen>-</hyphen>straße. Sie musste eine Suppe kochen <correction>
+        <deletion>sonst</deletion>
+
+        <insertion>so</insertion>
+      </correction> sie <correction>
+        <deletion>braucht</deletion>
+      </correction> Obst und Gemüse braucht. Dann eine Stunde später <correction>
+        <insertion>war</insertion>
+      </correction> sie im Supermarkt, weil sie <correction>
+        <deletion>brauch</deletion>
+      </correction> ein paar Dinge für d<correction>
+        <deletion>e</deletion>
+
+        <insertion>a</insertion>
+      </correction>s Haus <correction>
+        <deletion>braucht</deletion>
+      </correction> und die Familie braucht. Aber in diesem <foreign_word
+        foreign_language="Italiano">Supermarket</foreign_word> gab es ein Problem an der Kasse. Die Frau an de<correction>
+        <deletion>n</deletion>
+
+        <insertion>r</insertion>
+      </correction> Kasse hat gesagt dass Maria hat nicht <correction>
+        <deletion>eine Tasche gezahlt</deletion>
+      </correction> ein paar <correction>
+        <deletion>Brotchen</deletion>
+      </correction> Shampoo gezahlt. Abe<correction>
+        <deletion>n</deletion>
+
+        <insertion>r</insertion>
+      </correction> Maria <correction>
+        <deletion>versteht</deletion>
+
+        <insertion>versteht</insertion>
+      </correction> nicht was passiert weil sie <correction>
+        <deletion>hat</deletion>
+      </correction> alles<correction>
+        <deletion><unreadable /></deletion>
+      </correction> hat gezählt. Dann die Frau an der Kasse hat der Polizei geruft. Die Polizei hat alles kontrolliert und da gab keine Probleme mit Maria sie hat alles bezäh<correction>
+        <deletion>n</deletion>
+      </correction>lt aber da waren Probleme mit der Kasse, es <correction>
+        <deletion>funzioniert</deletion>
+      </correction> nicht gut <error>
+        <errorType />
+
+        <originalForm>funzioniert</originalForm>
+
+        <targetForm>funktioniert</targetForm>
+      </error>. <correction>
+        <deletion>und</deletion>
+      </correction><par /><error>
+        <errorType />
+
+        <originalForm>Dass</originalForm>
+
+        <targetForm>Das</targetForm>
+      </error> passiert mit Maria!!!<par /><closing>Vi<correction>
+          <deletion>le</deletion>
+
+          <insertion>ele</insertion>
+        </correction> Grüße</closing> Tabata.</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Liebe Paul,</greeting><par /><correction>
+        <deletion>ich heiße ich habe</deletion>
+      </correction> wie gehts dir? Ich hoffe gut! Ich <correction>
+        <deletion>denke</deletion>
+      </correction> habe eine schlechte Idee über virtuelle Freundschaften. Ich denke dass du <error>
+        <errorType />
+
+        <originalForm>kanst</originalForm>
+
+        <targetForm>kannst</targetForm>
+      </error> nicht <error>
+        <errorType />
+
+        <originalForm>freunden</originalForm>
+
+        <targetForm>Freunden</targetForm>
+      </error> an Internet weil du <correction>
+        <deletion>weist nich</deletion>
+      </correction> seh<correction>
+        <insertion>e</insertion>
+      </correction>st nicht mit wem du schreib<correction>
+        <deletion>e</deletion>
+
+        <insertion>t</insertion>
+      </correction>, wer ist er, wie ist er! <correction>
+        <deletion>Ich denke dass</deletion>
+      </correction> Freunden sich an Internet ist auch ein <foreign_word
+        foreign_language="English"><error>
+          <errorType />
+
+          <originalForm>Risck</originalForm>
+
+          <targetForm>Risk</targetForm>
+        </error></foreign_word>. <correction>
+        <deletion>Weil du weist nich wer er in</deletion>
+      </correction> Um neuen Leuten kennenzulernen du muss an vielen Party gehen, da sind vielen Leuten <error>
+        <errorType />
+
+        <originalForm>dass</originalForm>
+
+        <targetForm>das</targetForm>
+      </error> <correction>
+        <deletion>w</deletion>
+      </correction> unterhalten wollen und neuen <correction>
+        <deletion>f</deletion>
+
+        <insertion>F</insertion>
+      </correction>reunden kennenzulernen.<par />Ein Mal <emphasis>auch</emphasis> ich hatte an Interne<correction>
+        <deletion>n</deletion>
+
+        <insertion>t</insertion>
+      </correction> ein Freund kennenzulernt. Ich ha<correction>
+        <deletion>b</deletion>
+
+        <insertion>tt</insertion>
+      </correction>e mit er ein paar Monate geschreiben und wenn ich wollte ihn sehen er hat mich gesagt dass in <error>
+        <errorType />
+
+        <originalForm>Wircklichkeit</originalForm>
+
+        <targetForm>Wirklichkeit</targetForm>
+      </error> er war <error>
+        <errorType />
+
+        <originalForm>nich</originalForm>
+
+        <targetForm>nicht</targetForm>
+      </error> ein Mensch<correction>
+        <deletion>t</deletion>
+      </correction> sonst eine Frau von 60 Jahren <correction>
+        <insertion>alt</insertion>
+      </correction>. Dann ich habe <correction>
+        <deletion><unreadable /> Ich hoffe</deletion>
+      </correction> mit die <correction>
+        <deletion>Fre <unreadable /></deletion>
+      </correction> Freunden als <correction>
+        <deletion><unreadable /></deletion>
+      </correction> in Internet hat kennenzulernt hat geendet.<par />Ich hoffe dass du mein Rat hört, dass du viele neue Freunden kennenzulernt und dass du mit <correction>
+        <deletion>er</deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>Sie</originalForm>
+
+        <targetForm>sie</targetForm>
+      </error> unterhalten kennte.<par /><closing><error>
+          <errorType />
+
+          <originalForm>Vill</originalForm>
+
+          <targetForm>Viel</targetForm>
+        </error> Grüße</closing> Maria</exercise>
+  </body>
+</kolipsi_II_document>

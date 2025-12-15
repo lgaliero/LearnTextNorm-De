@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I22_GOL13NIC</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo liebe Manuela,</greeting><par />wie geht es dir? <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Lange nichts mehr von dir gehört. Ich habe dir natürlich viel zu erzählen. Hier in der neuen <error>
+        <errorType />
+
+        <originalForm>Statt</originalForm>
+
+        <targetForm>Stadt</targetForm>
+      </error> komme ich eigentlich ganz gut zurecht. Die Leute sind alle sehr nett und wenn ich Hilfe brauche, kann ich mich problemlos an <correction>
+        <deletion>den</deletion>
+      </correction> meine<correction>
+        <deletion><unreadable /></deletion>
+      </correction> nette Nachbarn melden. Aber neulich ist mir ein kleines Missgeschick passiert: Ich war letzte Woche im Gemüseladen einkaufen. Ich habe dann mit meiner Kreditkarte bezahlt. Später bin ich <correction>
+        <deletion><unreadable /></deletion>
+      </correction> in den <correction>
+        <deletion>Supermark</deletion>
+      </correction> Supermarkt um mir noch einige Sachen zu besorgen. Bei der Kasse wollte ich dann auch mit <correction>
+        <deletion>K</deletion>
+      </correction> meiner Kreditkarte bezahlen, doch sie war nicht mehr in meiner Brieftasche. Ich schaute überall nach doch ich konnte sie nicht finden. Plötzlich fiel mir ein, dass ich die Kreditkarte <error>
+        <errorType />
+
+        <originalForm>ausversehen</originalForm>
+
+        <targetForm>aus Versehen</targetForm>
+      </error> im Gemüseladen liegen gelassen habe. <correction>
+        <deletion>Ich</deletion>
+      </correction> Die Situation im <correction>
+        <deletion>Superma<unreadable /></deletion>
+      </correction> Supermarkt war mir sehr unangenehm und <correction>
+        <deletion>ich</deletion>
+      </correction> alle schauten mich an. <correction>
+        <deletion>Ich steckte</deletion>
+      </correction> Die Verkäuferin gab mir eine Einkaufstasche und ich <correction>
+        <deletion>konnte</deletion>
+      </correction> packte die Sachen in die Tasche und ließ sie währenddessen im <correction>
+        <deletion>Supermak</deletion>
+      </correction> Supermarkt aufbewahren. Also ging ich wieder in den Gemüseladen und die <correction>
+        <deletion>Frau</deletion>
+      </correction> Verkäuferin hatte meine Kreditkarte noch. Ich war <error>
+        <errorType />
+
+        <originalForm>über glücklich</originalForm>
+
+        <targetForm>überglücklich</targetForm>
+      </error>. Ich ging wieder zum Supermarkt und bezahl<correction>
+        <deletion>e</deletion>
+
+        <insertion>t</insertion>
+      </correction>e alles. Ich war so froh, <correction>
+        <deletion><unreadable /></deletion>
+      </correction> als ich meine Kreditkarte in den Händen hielt. Es sind wirklich nette Leute hier in der Stadt und ich hoffe du kommst mich bald besuchen.<par /><closing>Bis bald.<par />Liebe Grüße</closing><par />Maria</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo lieber Paul,</greeting><par /><error>
+        <errorType />
+
+        <originalForm>Danke</originalForm>
+
+        <targetForm>danke</targetForm>
+      </error> für deinen Brief. Du brauchst dir keine Sorgen <correction>
+        <deletion><unreadable /></deletion>
+      </correction> über dein Problem machen. Es gibt viele Menschen die in der gleichen Situation stecken wie du. Kinder und Jugendliche ziehen sich immer mehr von der realen Welt zurück und verstecken sich in der virtuellen Welt. Dort finden die Jugendlichen <error>
+        <errorType />
+
+        <originalForm>halt</originalForm>
+
+        <targetForm>Halt</targetForm>
+      </error> und <error>
+        <errorType />
+
+        <originalForm>geborgenheit</originalForm>
+
+        <targetForm>Geborgenheit</targetForm>
+      </error> bei fremden Menschen die nicht wissen wie sie aussehen. <correction>
+        <deletion>und so nir</deletion>
+      </correction><par />Doch die virtuelle Welt kann genauso gefährlich sein wie die reale. Man kann auch dort von den Menschen gemobbt werden oder auch ausgeschlossen. Und nicht immer verbergen sich <correction>
+        <deletion>die wahr</deletion>
+      </correction> hinter den Computern die wahren Gesichter, die sie auch im Internet zeigen.<par />Aber es ist gut Paul, dass du dich entschieden hast, weiter für die reale Welt zu leben. Sie ist viel spannender als die virtuelle Welt und außerdem ist es gut, in der Gesellschaft mit <correction>
+        <deletion>Me</deletion>
+      </correction> den Menschen gut <correction>
+        <deletion>zurechtzu zu ko<unreadable /></deletion>
+      </correction> auszukommen.<par /><correction>
+        <deletion>Ich selbst bin <unreadable /></deletion>
+      </correction> Du könntest aber deinen virtuellen Freunden deine<correction>
+        <deletion>n</deletion>
+      </correction> Situation <error>
+        <errorType />
+
+        <originalForm>erklähren</originalForm>
+
+        <targetForm>erklären</targetForm>
+      </error> und vielleicht könntest du dich auf ein<correction>
+        <deletion>e</deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>treffen</originalForm>
+
+        <targetForm>Treffen</targetForm>
+      </error> in der realen Welt einlassen?<par />Auch ich bin viel im <correction>
+        <deletion>Inde</deletion>
+      </correction> Internet, <correction>
+        <deletion><unreadable /></deletion>
+      </correction> aber man sollte trotzdem den <error>
+        <errorType />
+
+        <originalForm>umgang</originalForm>
+
+        <targetForm>Umgang</targetForm>
+      </error> mit der Gesellschaft gut pflegen.<par />Ich wünsche dir weiterhin viel Glück in deinem Leben und ich hoffe<correction>
+        <deletion>n</deletion>
+      </correction> meine paar Zeilen haben dir geholfen.<par /><closing>Liebe Grüße</closing><par />Das Team der Zeitung "Junge Woche"</exercise>
+  </body>
+</kolipsi_II_document>

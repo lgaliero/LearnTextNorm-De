@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0223</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Hey <entity>Max</entity></greeting>,<par/>wie geht es dir? <correction>
+        <deletion>Weißt</deletion>
+      </correction> Hast du dir schon überlegt, ob du lieber in die Berge oder ans Meer fahren möchtest? Also ich für meine Seite würde es präferieren, wenn wir in die Berge fahren. Ich meine, da wir ja im Herbst fahren<correction>
+        <deletion>,</deletion>
+      </correction> könnten wir sowieso nicht baden gehen oder am Strand liegen. Dagegen könnten wir, zum Beispiel im <entity>Schwarzwald</entity>, <correction>
+        <deletion>das schöne Wetter</deletion>
+      </correction> egal bei welchem Wetter in den <entity>Europapark</entity> gehen.<par/>Zwar könnte <correction>
+        <deletion>ni</deletion>
+      </correction> man auch am Meer in Freizeitclubs gehen oder einfach <error>
+        <errorType/>
+
+        <originalForm>Parties</originalForm>
+
+        <targetForm>Partys</targetForm>
+      </error> machen, aber <entity>Malle</entity> ist mir zu überfüllt. Auch ist man auf <entity>Malle</entity> überall umringt von Besoffenen und Schnapsleichen. Das <correction>
+        <deletion>kann</deletion>
+      </correction> habe ich hier jeden Tag!<par/>Und wie gesagt: Wenn es regnet ist es höchst suboptimal noch betrunken aus einer Disco <correction>
+        <insertion>sich</insertion>
+      </correction> nachhause schleppen zu müssen.<par/>Ich hoffe du bist jetzt auch der Meinung, dass wir lieber in den <entity>Schwarz<hyphen>-</hyphen>wald</entity> als <correction>
+        <deletion><unreadable/></deletion>
+      </correction> auf <entity>Malle</entity> fahren sollten.<par/>Mit der angenehmen Luft ist <correction>
+        <deletion><unreadable/></deletion>
+      </correction> es ja auch gut für dein Ast<correction>
+        <insertion>h</insertion>
+      </correction>ma, was die rauchige Luft in den Discos ja nicht ist.<par/><closing><closing>Bis dann,<par/><entity>Markus</entity></closing></closing>              </exercise>
+  </body>
+</kolipsi_document>

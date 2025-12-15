@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I39_SEP25STE</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Lieber Freundin,</greeting><par /><error>
+        <errorType />
+
+        <originalForm>errinnerst</originalForm>
+
+        <targetForm>erinnerst</targetForm>
+      </error> du Maria? Du hast sie in meine <error>
+        <errorType />
+
+        <originalForm>Geburstag</originalForm>
+
+        <targetForm>Geburtstag</targetForm>
+      </error> getroffen.<par />Letze Woche war sie in einem Obst- und Gemüseladen und dann <correction>
+        <deletion>i<unreadable /></deletion>
+      </correction> im Supermark<correction>
+        <deletion>e</deletion>
+      </correction>t. Sie kaufte zuerst einige Obst, und da keine Problem, aber wenn sie, eine Stunde später, in Supermarkt war, <correction>
+        <deletion><unreadable /></deletion>
+      </correction> gab es ein Problem.<par /><correction>
+        <deletion>W<unreadable /> sie</deletion>
+      </correction> Sie war an der Kasse um <correction>
+        <deletion>die</deletion>
+
+        <insertion>seine</insertion>
+      </correction> Sache zu kaufen, und bezahlen. Aber wenn sie bezahlen <correction>
+        <deletion>wo</deletion>
+      </correction> wollte, die Kasse <foreign_word foreign_language="English">"Error"</foreign_word> <correction>
+        <deletion>sagte</deletion>
+      </correction> gesagt hat, die Frauen von die Kasse <correction>
+        <deletion><unreadable /></deletion>
+      </correction> rufte die Polizei, Maria <correction>
+        <deletion><unreadable /></deletion>
+      </correction> war sehr wütend.<par />Das Problem? <correction>
+        <deletion><unreadable />at</deletion>
+      </correction> Maria hat mit falsche Geld bezahlen<correction>
+        <deletion>, aber sie hat dass sie nicht wiss</deletion>
+      </correction> aber sie weisste nicht über diese Sache.<par />Dann, mit viele, die Polizei <correction>
+        <deletion>hat</deletion>
+      </correction> hat viele falsche Geld in Obst und Supermarkt gefunden. So <correction>
+        <deletion>hatt</deletion>
+      </correction> hat Maria die falsche Geld bei <error>
+        <errorType />
+
+        <originalForm>Obst Supermarkt</originalForm>
+
+        <targetForm>Obstsupermarkt</targetForm>
+      </error> <correction>
+        <deletion>genommen</deletion>
+      </correction> gehabt, <correction>
+        <deletion><unreadable /></deletion>
+      </correction> es ist passiert wenn sie bezahlte und <correction>
+        <insertion>wenn</insertion>
+
+        <deletion><unreadable /></deletion>
+      </correction> das Rest hat gehabt.</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber Paul,</greeting><par />ich habe <correction>
+        <deletion><unreadable /> seine Briefe</deletion>
+
+        <insertion><error>
+            <errorType />
+
+            <originalForm>E-mail</originalForm>
+
+            <targetForm>E-Mail</targetForm>
+          </error></insertion>
+      </correction> gelesen, und ich denke einige Sache.<par />Du willst neue Leute kennen, und <correction>
+        <deletion>dann</deletion>
+      </correction> so du hast Internet benutzt, wollen neue Leute kennen ist eine <correction>
+        <deletion><unreadable /></deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>schone</originalForm>
+
+        <targetForm>schöne</targetForm>
+      </error> Sache, aber für benutzen Internet <correction>
+        <deletion>ist</deletion>
+      </correction> musst<correction>
+        <deletion>e</deletion>
+      </correction> du Achtung machen. Zweite Punkt ist dass <correction>
+        <deletion>ist <unreadable /> gehen <unreadable /></deletion>
+      </correction> die Kontakte <correction>
+        <insertion>zu alles geben</insertion>
+      </correction> ist nicht <correction>
+        <insertion>immer</insertion>
+      </correction> eine gute Sache, ist gefährlich.<par />Mit Internet <correction>
+        <insertion>sind</insertion>
+      </correction> <unreadable />sen Informationen benützen um viele Sache zu machen, aber nicht alle diese Sache sind gute, weil Internet <error>
+        <errorType />
+
+        <originalForm>gefärlich</originalForm>
+
+        <targetForm>gefährlich</targetForm>
+      </error> ist.<par />Jetzt <correction>
+        <deletion><unreadable /></deletion>
+      </correction> konnen <error>
+        <errorType />
+
+        <originalForm>sie</originalForm>
+
+        <targetForm>Sie</targetForm>
+      </error> alle machen mit <error>
+        <errorType />
+
+        <originalForm>ihre</originalForm>
+
+        <targetForm>Ihre</targetForm>
+      </error> Kontakte und Internet, auch eine <correction>
+        <deletion><ambiguous>
+            <alternative>deine</alternative>
+
+            <alternative>diese</alternative>
+          </ambiguous></deletion>
+      </correction> Mädchen.<par />Du ha<correction>
+        <deletion>t</deletion>
+
+        <insertion>s</insertion>
+      </correction>t <correction>
+        <deletion>die</deletion>
+      </correction> was <correction>
+        <deletion>haben</deletion>
+      </correction> diese Menschen gemacht <correction>
+        <insertion>haben</insertion>
+      </correction> gesehen, und jetzt du hast ein Problem mit diese Menschen und mit diese Frage.<par />Ich <error>
+        <errorType />
+
+        <originalForm>weisse</originalForm>
+
+        <targetForm>weiße</targetForm>
+      </error> nicht was sollst du nur tun.....<par /><error>
+        <errorType />
+
+        <originalForm>Entschulligung</originalForm>
+
+        <targetForm>Entschuldigung</targetForm>
+      </error> Paul.<par />Stefania</exercise>
+  </body>
+</kolipsi_II_document>

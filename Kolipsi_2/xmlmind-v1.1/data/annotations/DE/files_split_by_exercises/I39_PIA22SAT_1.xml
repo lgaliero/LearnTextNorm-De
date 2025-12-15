@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I39_PIA22SAT</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo Mark,</greeting><par/>wie geht es dir? Mir gut danke. Ich wi<correction>
+        <deletion>ss</deletion>
+
+        <insertion>ll</insertion>
+      </correction> dir meine Erfahrung von die letzte Woche erzählen.<par/>Ich war beim Obsthändler, hier in meiner <error>
+        <errorType/>
+
+        <originalForm>Nahe</originalForm>
+
+        <targetForm>Nähe</targetForm>
+      </error>, weil ich einige Gemüse kaufen wollte. <error>
+        <errorType/>
+
+        <originalForm>Spater</originalForm>
+
+        <targetForm>Später</targetForm>
+      </error>, wenn ich an der <correction>
+        <deletion>K<unreadable/>e</deletion>
+      </correction> Kasse war habe ich <correction>
+        <deletion>den</deletion>
+      </correction> alle meine Sachen verpacket in einen Beutel die ich mit mir hatte. Ich war zufrieden, ich hatte alles was ich brauchte gefunden und musste nur die frische <error>
+        <errorType/>
+
+        <originalForm>Gemuse</originalForm>
+
+        <targetForm>Gemüse</targetForm>
+      </error> nach Hause bringen. <error>
+        <errorType/>
+
+        <originalForm>Tatsachlich</originalForm>
+
+        <targetForm>Tatsächlich</targetForm>
+      </error> nachdem ich bezahlt hatte, habe ich den Kasse<correction>
+        <deletion>l</deletion>
+
+        <insertion>n</insertion>
+      </correction>zettel dort vergessen und <error>
+        <errorType/>
+
+        <originalForm>wahrend</originalForm>
+
+        <targetForm>während</targetForm>
+      </error> ich <error>
+        <errorType/>
+
+        <originalForm>ruckwigs</originalForm>
+
+        <targetForm>rückwegs</targetForm>
+      </error> fahrte habe ich eine nicht so tolle <error>
+        <errorType/>
+
+        <originalForm>entscheidung</originalForm>
+
+        <targetForm>Entscheidung</targetForm>
+      </error> getroffen, im Supermarkt direkt zu gehen ohne nach Hause zu gehen. Hätte ich das nie gemacht! Nachdem ich einige Sachen genommen hatte und an der Kasse warte um alles zu bezahlen hat die Frau an der Kasse mich <error>
+        <errorType/>
+
+        <originalForm>bestrafft</originalForm>
+
+        <targetForm>bestraft</targetForm>
+      </error> für die Gemüse die ich in meine Tasche hatte. Sie fragte mich für ein Kassenzettel um sie zu überzeugen dass ich nicht stehlen wollte und dass ich sie gekauft hatte, aber ich hatte es leider im Obstladen vergessen! Endlich ist alles gut gegangen ich habe mich entschuldigt und sie haben mir nicht extra bezahlen machen. Gott sei <error>
+        <errorType/>
+
+        <originalForm>dank</originalForm>
+
+        <targetForm>Dank</targetForm>
+      </error>!<par/>Ja diese war meine Erlebnis, hast du auch<correction>
+        <deletion><unreadable/></deletion>
+      </correction> etwas so <error>
+        <errorType/>
+
+        <originalForm>komisch</originalForm>
+
+        <targetForm>Komisch</targetForm>
+      </error> erlebt? Erzähle es mir eventuell!<par/><closing>Ich warte auf deine Antwort.<par/>Viele Grüßen</closing><par/>Maria</exercise>
+
+    
+  </body>
+</kolipsi_II_document>

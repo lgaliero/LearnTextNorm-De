@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0222</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Lieber <correction>
+          <deletion>Gus</deletion>
+        </correction> <entity>Anton</entity>,</greeting><par />ich muss dir etwas unendlich <error>
+        <errorType />
+
+        <originalForm>wichtiges</originalForm>
+
+        <targetForm>Wichtiges</targetForm>
+      </error> erzählen. Stell dir vor! <entity>Maria</entity> ist einkaufen gegangen und hat nachdem sie Obst gekauft hat ihr Geld vergessen wieder einzupacken. Später im Supermarkt hatte sie dann kein Geld an der Kasse und hielt ihre Hände ganz komisch. Es sah aus <correction>
+        <deletion>das</deletion>
+      </correction>, als wenn sie ein Quadrat mit ihren Händen <correction>
+        <deletion><unreadable /></deletion>
+      </correction> formen wollte. Sie hielt ihre <error>
+        <errorType />
+
+        <originalForm>Hande</originalForm>
+
+        <targetForm>Hände</targetForm>
+      </error> wirklich sehr gerade und bewegte sich nicht. Ich dachte, dass sie nun nie wieder ihre Hände bewegen kann. Letztendlich entschied sie sich dafür ihre Hände zu lösen, die <correction>
+        <deletion>h</deletion>
+      </correction> linke Hand zu heben und sich am Kopf zu kratzen. Es war sehr nötig, da es sie schon den ganzen Tag unheimlich <error>
+        <errorType />
+
+        <originalForm>gejukt</originalForm>
+
+        <targetForm>gejuckt</targetForm>
+      </error> hat.      </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber <entity>Anton</entity></greeting>,<par />wir müssen uns über unseren Urlaub unterhalten. Wir könnten zum Meer fahren oder in die Berge. In den Bergen könnten wir klettern und wandern gehen, wohingegen wir am Meer uns den ganzen Tag an den Strand legen könnten. Mir persönlich gefällt es am Meer besser, da ich das Wasser mag und ich eigtl. nicht gerne wandern gehe. Ich würde gerne deine Meinung dazu hören. Am Strand würde es uns wirklich gut gehen, schwimmen und sonnen ist einfach gut.   </exercise>
+  </body>
+</kolipsi_document>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I20_GAU14GAB</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo Edward,</greeting><par />wie geht es dir? Weißt du was meiner <correction>
+        <deletion>Mutter</deletion>
+
+        <insertion>Freundin</insertion>
+      </correction> Maria <correction>
+        <deletion>heute</deletion>
+
+        <insertion>in der letzten Woche</insertion>
+      </correction> passiert ist? Etwas wirklich <error>
+        <errorType />
+
+        <originalForm>verwirrend</originalForm>
+
+        <targetForm>Verwirrend</targetForm>
+      </error>! Sie kaufte in einem Obst- und Gemüseladen ein und vergaß dort den Kassazettel. Eine Stunde später war sie im Supermarkt. Dort hat sie Milch und <error>
+        <errorType />
+
+        <originalForm>Müslie</originalForm>
+
+        <targetForm>Müsli</targetForm>
+      </error> eingekauft. Als sie an der Kasse stand sah die Angestellte, dass Maria das Obst und das Gemüse in der <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Stofftasche nicht herausgenommen hatte. Da fragte sie <correction>
+        <deletion>erstaunt</deletion>
+      </correction> ihr erstaunt warum? Maria antwortete <correction>
+        <deletion>gleich und stellte fest, dass</deletion>
+      </correction> und stellte gleich fest, dass sie den Inhalt der Stofftasche in einem anderen Geschäft gekauft hatte! Aber die Kassiererin war davon nicht überzeugt, und fragte so nach dem Kassazettel. Maria fing an es zu suchen, aber es war verschwunden. Ohne eine Lösung zu finden, ging die Angestellte ihren Direktor rufen. In der Zwischenzeit, dachte Maria, dass ihr niemand glauben konnte denn sie hatte den Kassazettel nicht mehr. Du kennst doch Maria, und weißt, dass sie sehr <error>
+        <errorType />
+
+        <originalForm>impuslif</originalForm>
+
+        <targetForm>impusliv</targetForm>
+      </error> <correction>
+        <insertion>ist</insertion>
+      </correction>. Sie schaute sich kurz herum, ließ alle ihre Lebensmittel an der Kasse und rannte so schnell sie konnte nach Hause.<par />Jetzt sitzt sie bei der Polizei... Wir werden sehen wie es ausgeht.<par /><closing>Bis bald</closing></exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Hallo Paul,</greeting><par />ich habe deine E-Mail gelesen und zu dem Problem den du mir beschreibst viel nachgedacht. Als <error>
+        <errorType />
+
+        <originalForm>erstes</originalForm>
+
+        <targetForm>Erstes</targetForm>
+      </error> möchte ich dir meine Meinung über virtuelle Freundschaften äußern, damit du meine Tipps <error>
+        <errorType />
+
+        <originalForm>vielleichtbesser</originalForm>
+
+        <targetForm>vielleicht besser</targetForm>
+      </error> verstehen kannst. Virtuelle Freundschaften sind sehr kompliziert und ich <correction>
+        <deletion><unreadable /></deletion>
+      </correction> erkläre dir auch gleich warum. Als <error>
+        <errorType />
+
+        <originalForm>erstes</originalForm>
+
+        <targetForm>Erstes</targetForm>
+      </error> musst du wissen, dass du nie sicher sein kannst über die reale Existenz von diesem Freund. Es könnte älter oder jünger sein. Es könnte sich als Frau vorstellen aber in <error>
+        <errorType />
+
+        <originalForm>wirklichkeit</originalForm>
+
+        <targetForm>Wirklichkeit</targetForm>
+      </error> ein Mann sein. Es gibt leider viele verschiedene Möglichkeiten um jemandem im Internet an der Nase herumführen. Ich denke also, dass wenn man diese Probleme verhinder will, sollte man nur mit Leute chatten die <correction>
+        <deletion><unreadable /></deletion>
+      </correction> man persönlich schon <error>
+        <errorType />
+
+        <originalForm>Mal</originalForm>
+
+        <targetForm>mal</targetForm>
+      </error> gesehen <correction>
+        <deletion><unreadable /></deletion>
+      </correction> hat. Ich habe selber unerwünschte Erfahrungen gemacht. Es kann immer passieren, dass in Facebook zum Beispiel dir jemand anfängt zu schreiben, aber du <correction>
+        <deletion>merkt</deletion>
+      </correction> merkst <error>
+        <errorType />
+
+        <originalForm>wärend</originalForm>
+
+        <targetForm>während</targetForm>
+      </error> du dessen Profil anschaust, dass diese Person nicht existiert! Leider kommt es immer mehr vor.<par />Einen Rat aber kann ich dir geben: <error>
+        <errorType />
+
+        <originalForm>chatte</originalForm>
+
+        <targetForm>Chatte</targetForm>
+      </error> immer mit Leute wo du dir sicher bist, dass sie von dir nichts wollen (Geld, usw...) und Hauptsache, dass du mit diese<correction>
+        <deletion>n</deletion>
+      </correction> Leute nur ausgehst wenn du <correction>
+        <deletion>weiß</deletion>
+      </correction> sie schon <error>
+        <errorType />
+
+        <originalForm>Mal</originalForm>
+
+        <targetForm>mal</targetForm>
+      </error> gesehen hast!<par />Ich hoffe, dass ich dir geholfen habe. Um andere Fragen schreibe mir e<correction>
+        <deletion>e</deletion>
+
+        <insertion>i</insertion>
+      </correction>nfach und ich werde dir antworten.<par /><closing>Tschüss</closing></exercise>
+  </body>
+</kolipsi_II_document>

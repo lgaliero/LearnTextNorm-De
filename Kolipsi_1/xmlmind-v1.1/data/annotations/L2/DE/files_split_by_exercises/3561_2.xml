@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>3561</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve">
+      <par/><greeting>Lieb <entity>Wolfgang Amadeus</entity>,</greeting> <par/>wie geht´s?<par/>Ich habe ein Problem. <correction>
+        <deletion>Ich muss</deletion>
+      </correction> Am 1.  <error>
+        <errorType/>
+
+        <originalForm><overwrite>
+            <under>N</under>
+
+            <over>D</over>
+          </overwrite><correction>
+            <deletion>ove</deletion>
+
+            <insertion>ece</insertion>
+          </correction>mber</originalForm>
+
+        <targetForm>Dezember</targetForm>
+      </error>, ich und meinen Freundin möchten eine Urlaub machen. Aber wir  <correction>
+        <deletion>müssen</deletion>
+      </correction> sind <correction>
+        <deletion>mich</deletion>
+      </correction> uns noch nicht sicher, ob wir lieber in die Berge oder lieber ans Meer fahren sollen.<par/>Welche <correction>
+        <deletion>Ratsch</deletion>
+      </correction> Ratschl<strikeover>
+        <expansion>e</expansion>
+
+        <expansion>a</expansion>
+      </strikeover>ge<correction>
+        <insertion>n</insertion>
+      </correction> gibst du mir? Ich möchte ans Meer gehen, weil es mir gefällt. Ich liebe sonnen mich und auf den <error>
+        <errorType/>
+
+        <originalForm>Stand</originalForm>
+
+        <targetForm>Strand</targetForm>
+      </error> <correction>
+        <deletion><unreadable/></deletion>
+      </correction> bleiben. Aber meine Freundin letztes Jahr hat eine <error>
+        <errorType/>
+
+        <originalForm>schlächte</originalForm>
+
+        <targetForm>schlechte</targetForm>
+      </error> Erfahrung gemacht. Jetzt sie hat <error>
+        <errorType/>
+
+        <originalForm>angst</originalForm>
+
+        <targetForm>Angst</targetForm>
+      </error> von der Wasser. Am letztes Jahr ich und meinen Freunden <correction>
+        <deletion>war</deletion>
+      </correction> sind <correction>
+        <deletion>zum</deletion>
+      </correction> ans Meer gefahren. Wir haben eine sehr <overwrite>
+        <under><unreadable/></under>
+
+        <over>g</over>
+      </overwrite>ut Erfahrung gemacht <correction>
+        <deletion>und</deletion>
+      </correction> aber jetzt ich <correction>
+        <deletion>will</deletion>
+      </correction>  möchte wechseln.<par/>In die Berge ist <error>
+        <errorType/>
+
+        <originalForm>Reinne</originalForm>
+
+        <targetForm>reine</targetForm>
+      </error> Luft. Es ist eine se<overwrite>
+        <under><unreadable/></under>
+
+        <over>h</over>
+      </overwrite>r schön Platz un<overwrite>
+        <under><correction>
+            <deletion>t</deletion>
+          </correction></under>
+
+        <over>d</over>
+      </overwrite> gefällt mir sehr. <correction>
+        <deletion>Ich liebe</deletion>
+      </correction> Ich liebe sehr Promenaden <correction>
+        <deletion>machen</deletion>
+      </correction> machen und <correction>
+        <deletion>bleiben</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>Stunden lang</originalForm>
+
+        <targetForm>stundenlang</targetForm>
+      </error> <correction>
+        <deletion>zu</deletion>
+      </correction> in<correction>
+        <deletion>s</deletion>
+      </correction> der Natur bleiben.<par/>In beiden ich bin sehr froh eine<correction>
+        <deletion>r</deletion>
+      </correction> Urlaub mit meinen Freund<overwrite>
+        <under>e</under>
+
+        <over>i</over>
+      </overwrite>n mache und für mich es <correction>
+        <deletion>s</deletion>
+      </correction> ist <correction>
+        <deletion>egal</deletion>
+      </correction> gleich. <error>
+        <errorType/>
+
+        <originalForm>Un</originalForm>
+
+        <targetForm>Und</targetForm>
+      </error> du also: Was machst du diese Sommer?<par/>Möchtest du kommen <correction>
+        <deletion><unreadable/></deletion>
+      </correction> mit uns?<par/>Sagt mir später.<par/><correction>
+        <deletion>Wie</deletion>
+      </correction> Jetzt ich gehe,<par/>viele Spaß und viele <error>
+        <errorType/>
+
+        <originalForm>grüße</originalForm>
+
+        <targetForm>Grüße</targetForm>
+      </error><par/> <entity>Imma</entity> </exercise>
+  </body>
+</kolipsi_document>

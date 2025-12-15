@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5897</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Carsten</entity>,</greeting> <par/>meine Schwester <entity>Maria</entity> war letzte Woche beim Obsthändler einkaufen. Sie kaufte etwas Salat und Lauch ein und ging später noch zum Superma<palimpsest>rkt</palimpsest>. Dort stel<overwrite>
+        <over>l</over>
+
+        <under>t</under>
+      </overwrite>te sie mehreres in den Einkaufswagen und bezah<overwrite>
+        <over>l</over>
+
+        <under>t</under>
+      </overwrite>te die Ware schließlich an der Kasse. Die Frau an d<overwrite>
+        <over>er</over>
+
+        <under>i</under>
+      </overwrite> Kasse verlangte jedoch, dass <entity>Maria</entity> auch das Obst bezahl<correction>
+        <insertion>e</insertion>
+      </correction>, denn die Frau meinte sie habe es im Supermar<overwrite>
+        <over>k</over>
+
+        <under>ke</under>
+      </overwrite>t gekauft. <entity>Maria</entity> konnte unglücklicher<hyphen>-</hyphen>weise nicht beweisen, dass sie das Obst beim Obsthändler bezah<strikeover>
+        <expansion>t</expansion>
+
+        <expansion>l</expansion>
+      </strikeover>t hatte, da sie dort den Kassenzettel vergessen hatte. Die Frau an der Kass<ambiguous>
+        <alternative>e</alternative>
+
+        <alternative>a</alternative>
+      </ambiguous> regte sich auf und rief den Besitzer des Geschäfts. Dieser <palimpsest>unreadable</palimpsest> musterte das Obst in <entity>Marias</entity> Einkaufstasche und stellte dabei fest, dass Lauch in seinem Geschäft gar nicht verfügbar war. Das genügte als Beweis und <entity>Maria</entity> konnte beruhigt ihren Einkaufstag fortführen. Natürlich <palimpsest>entschuldigte sich die Frau an der Kasse au<overwrite>
+          <over>ß</over>
+
+          <under>s</under>
+        </overwrite></palimpsest>erordentlich und bot sogar an, die Einkaufstaschen bis zu <entity>Marias</entity> Wagen zu schleppen. <entity>Maria</entity> lehnte je<overwrite>
+        <over>d</over>
+
+        <under>l</under>
+      </overwrite>och ab und trug sie selber weiter. Schreib mir dei<overwrite>
+        <over>n</over>
+
+        <under>r</under>
+      </overwrite>e Meinung zu dieser verblüffenden Geschichte. <closing>Grüße, <par/><entity>Alex</entity> </closing> </exercise>
+
+    
+  </body>
+</kolipsi_document>

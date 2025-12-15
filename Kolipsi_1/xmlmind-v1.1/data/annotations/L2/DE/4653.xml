@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>4653</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve">
+ <par /><greeting>Liebe <entity>Mirko</entity>,</greeting> <par />wie geht es dir? Ich bin gut danke. Ich möchte dir eine <error>
+        <errorType />
+
+        <originalForm>Email</originalForm>
+
+        <targetForm>E-Mail</targetForm>
+      </error> schreiben weil ich will was gestern <correction>
+        <insertion>zu <entity>Maria</entity></insertion>
+      </correction> passiert ist. Gestern <entity>Maria</entity> <overwrite>
+        <under><unreadable /></under>
+
+        <over>war</over>
+      </overwrite> <correction>
+        <deletion>in</deletion>
+      </correction> draußen etwas kaufen. Erst, sie ist in einem Obstladen gegangen und sie hat Ä<strikeover>
+        <expansion>p</expansion>
+
+        <expansion>f</expansion>
+      </strikeover>fel, Pfirsiche, Salat, Kartoffeln gekauft Zweite sie ist in <sic>einen</sic> Bäckerei gegangen und sie hat <sic>Broten</sic>, Krapfen, Buchteln ge<correction>
+        <deletion>a</deletion>
+
+        <insertion>k</insertion>
+      </correction>auft.<par />Danach sie <strikeover>
+        <expansion>i</expansion>
+
+        <expansion>s</expansion>
+      </strikeover>st in Supermarkt gegangen wo sie eine <sic>schlecht</sic> Figur gemacht hat.<par />Also sie ist im Supermarkt etwas zu nehmen: Sie hat Salz, Tomatensoße und <sic>Reinigungs</sic> gekauft. Danach sie ist an der Kasse gegangen wo sie eine Probleme <sic>hätte</sic>.<par />Die Kassiererin will nicht sie vorbeigehen weil sie <correction>
+        <insertion>hat ge</insertion>
+      </correction>denkt dass sie gestehlt hat. <entity>Maria</entity>, deshalb muss die Wahrheit beweisen. Endlich sie ist als gut gegangen!<par /><closing>Tschüs Ich habe dich lieb.</closing> </exercise>
+
+    <exercise number="2" xml:space="preserve">
+ <par /><greeting>Liebe <entity>Sharon</entity>,</greeting> <par />wie geht es dir? Ich bin gut danke.<par />Also wir müssen zwischen Meer oder Berge entscheiden.<par />Ich denke dass das Meer die best ist, aber wir müsse <error>
+        <errorType />
+
+        <originalForm>nein</originalForm>
+
+        <targetForm>ein</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>bi<overwrite>
+            <under><unreadable /></under>
+
+            <over>ß</over>
+          </overwrite>chen</originalForm>
+
+        <targetForm>bisschen</targetForm>
+      </error> aufdenken. Ob wir gehen am Meer; wir <error>
+        <errorType />
+
+        <originalForm>konnen</originalForm>
+
+        <targetForm>können</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>Radfahren</originalForm>
+
+        <targetForm>Rad fahren</targetForm>
+      </error>, <foreign_word foreign_language="Italiano"><error>
+          <errorType />
+
+          <originalForm>Beachvolley</originalForm>
+
+          <targetForm>Beach volley</targetForm>
+        </error></foreign_word> spielen, <error>
+        <errorType />
+
+        <originalForm>swimmen</originalForm>
+
+        <targetForm>schwimmen</targetForm>
+      </error> und so weiter, aber ob wir zur Berge gehen wir können spazieren gehen, Ski fahren, Tennis spielen (wir können am Meer auch machen)<strikeover>
+        <expansion>.</expansion>
+
+        <expansion>,</expansion>
+      </strikeover><par />Ich vorziehe das Meer.<par />Was denkst du? Bist du einig?<par />Ok... Schreib<strikeover>
+        <expansion>t</expansion>
+
+        <expansion>e</expansion>
+      </strikeover> mir!<par />Danke für <error>
+        <errorType />
+
+        <originalForm>als</originalForm>
+
+        <targetForm>alles</targetForm>
+      </error>.<par /><closing>Dein <entity>Daniel</entity>.</closing> </exercise>
+  </body>
+</kolipsi_document>

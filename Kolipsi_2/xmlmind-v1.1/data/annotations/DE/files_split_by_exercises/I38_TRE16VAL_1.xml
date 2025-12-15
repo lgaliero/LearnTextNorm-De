@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I38_TRE16VAL</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Liebe M<correction>
+          <deletion>aria</deletion>
+
+          <insertion>onik</insertion>
+        </correction>a,</greeting><par/>wie geht es dir? Ich schreibe dir, weil etwas <error>
+        <errorType/>
+
+        <originalForm>einsam</originalForm>
+
+        <targetForm>Einsam</targetForm>
+      </error> <correction>
+        <insertion>mit</insertion>
+      </correction> Maria passiert ist. Sie kaufte zuerst in einem Obst- und Gemüseladen ein. Danach war sie im Supermarkt. Doch gab es Probleme an der Kasse: <error>
+        <errorType/>
+
+        <originalForm>in</originalForm>
+
+        <targetForm>In</targetForm>
+      </error> dem ersten Supermarkt hat sie den Rest dort vergessen. Später, als sie im Supermarkt war, vergiss sie die <correction>
+        <deletion>Ob</deletion>
+
+        <insertion>Do</insertion>
+      </correction>se die sie schon bezahlt hatte an der Kasse.<par/>Ich habe es wirklich unglaublich gefunden. Wie ist es möglich <error>
+        <errorType/>
+
+        <originalForm>zwei Mal</originalForm>
+
+        <targetForm>zweimal</targetForm>
+      </error> am gleichen Tag etwas an der K<correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>a</insertion>
+      </correction>sse zu vergessen? Den Rest ist auch möglich, dass sie dort für den Laden lassen möchte, aber sicher nicht die Dose die sie erst gekauft hatte! Sie ist i<correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>n</insertion>
+      </correction> Supermarkt gegangen genau, weil sie diese Dosen kaufen musste!!<par/>Ich hoffe, dass ihr nichts passiert ist, dass sie nicht traurig ist oder Probleme hat. Vielleicht hat sie nur vieles zu tun und ist ein bisschen gestresst.<par/>Was meinst du dazu Monika?<par/><closing>Viele Grüße,</closing><par/>Valentina</exercise>
+
+    
+  </body>
+</kolipsi_II_document>

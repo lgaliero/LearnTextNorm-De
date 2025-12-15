@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I39_BER28SIR</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo Marta,</greeting><par/>wie geht es dir? ... Du wirdst nicht an was <correction>
+        <deletion>mir</deletion>
+
+        <insertion>heute Maria</insertion>
+      </correction> passiert ist glauben.<par/>Letzte Woche war sie am erste in eine<correction>
+        <deletion>m</deletion>
+
+        <insertion>n</insertion>
+      </correction> Obst- und Gemüseladen, und <correction>
+        <deletion>Wenn sie eine Salat</deletion>
+      </correction> dann in <foreign_word foreign_language="Italiano">Supermarket</foreign_word> gegangen. <correction>
+        <deletion>Wenn sie die Sachen, die sie im Supermarket <correction>
+            <insertion>ein</insertion>
+          </correction>gekaufet hat, zahlen muss, findet sie <correction>
+            <deletion>nicht <unreadable/></deletion>
+          </correction> das Geld nicht. Sie hat das Geld i<correction>
+            <deletion>m</deletion>
+
+            <insertion>n</insertion>
+          </correction> dem Obst- und Gemüseladen vergessen!</deletion>
+      </correction><par/>Sie hat die Sachen, die sie schon in dem Obst- <correction>
+        <deletion>G</deletion>
+      </correction>und Gemüseladen eingekauft hat, in ihre Tasche gelegen, aber sie hat <correction>
+        <insertion>hier</insertion>
+      </correction> die Zahlpapier vergessen.<par/>Wenn sie im <foreign_word foreign_language="Italiano">Supermarket</foreign_word> war und sie die anderen Sachen zahlen muss, <correction>
+        <deletion>Ergert si sie sch<correction>
+            <insertion>weint</insertion>
+          </correction></deletion>
+      </correction> die Frau, die hinte<correction>
+        <deletion>n</deletion>
+
+        <insertion>r</insertion>
+      </correction> die Kasse <correction>
+        <deletion>s</deletion>
+      </correction> war, <correction>
+        <deletion><unreadable/></deletion>
+      </correction> die Gemüse <correction>
+        <insertion>die in der Tasche war,</insertion>
+      </correction> gesehen.<par/>Sie <correction>
+        <deletion>meint,</deletion>
+      </correction> hat gemeint, dass Maria es <error>
+        <errorType/>
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hat, <correction>
+        <deletion><unreadable/></deletion>
+      </correction> weil sie die <correction>
+        <deletion>Zeilp</deletion>
+      </correction> Zahlpapier nicht hat.<par/><correction>
+        <deletion>Die Polizei hat <unreadable/> ge</deletion>
+      </correction> Die Frau hat die Polizei angeruft, <correction>
+        <deletion>und</deletion>
+      </correction> die bei dem Gemüseladen gegangen ist.<par/><correction>
+        <deletion>Die Wahrheit f Di Sie haben Alle</deletion>
+      </correction> Die Polizei hat die Wahrheit entdeckt und alles war gut gegangen.<par/>Es ist mir <correction>
+        <deletion>es nich</deletion>
+      </correction> nie passiert! Und dir?<par/><closing>Ich warte an deine Antwort.<par/>Schöne Grüße</closing><par/>Diria</exercise>
+
+    
+  </body>
+</kolipsi_II_document>

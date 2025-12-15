@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5358</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><par /><greeting>Liebe <entity>Sybille</entity>,</greeting> <par />wie geht es dir? Mir geht es alles gut. Erinnerst du dich an <entity>Maria</entity>? Gestern war ein sehr schöner Tag und so wie entschieden, zusammen einkaufen zu gehen. <correction>
+        <deletion>Jetzt</deletion>
+      </correction> Ich möchte dir jetzt erzählen, was ihr passiert ist. <par />Zuerst gingen wir in einen Obst- und Gemüseladen und dort kauften wir Salat und andere Lebensmittel. Wir zahlten, aber <entity>Maria</entity> vergaß den Zettel im Geschäft. Ungefähr eine Stunde später gingen wir in einen Supermarkt <correction>
+        <deletion>ein</deletion>
+      </correction> ein, aber wenn wir an der Kasse waren, gab es ein Problem. <par />Die Kassiererin (?) dachte, dass <entity>Maria</entity> das Gemüse stehlen wollte. Wir erklärten, was passiert war, aber die Frau wollte uns nicht trauen, denn <entity>Maria</entity> hatte keinen Zettel. Sie sagte auch, dass sie die Polizei anrufen würde, wenn sie nicht gezahlt hätte. Da es nicht viel Geld war, zahlte <entity>Maria</entity> das Gemüse wieder. <par /> <correction>
+        <deletion>Aber</deletion>
+      </correction> Es war ihr Schuld, nächstes Mal wird sie sicher den Zettel nicht vergessen! <par />Schreib mir bald zurück! <par /><closing>Dein <entity>Luca</entity> </closing> </exercise>
+
+    <exercise number="2" xml:space="preserve"><par /><greeting>Hallo <entity>Richard</entity>,</greeting> <par />ich habe über unseren Urlaub gedacht. Wir müssen noch entscheiden, wohin wir fahren werden! Wir haben zwei Möglichkeiten: ins Gebirge oder ans Meer. <par />Wenn wir uns nur ausruhen wollen, das Meer ist sicher besser. Wir können den ganzen Tag in der Sonne liegen, baden und schlafen. Es wird auch im Hotel viel zu essen geben. Wenn du den ganzen Tag nicht schlafen willst, können wir auch den Bus nehmen und uns die Umgebung anschauen oder eine andere Stadt besichtigen, obwohl das Wetter heiß sein wird. Dagegen, wenn wir einen aktiven Urlaub machen wollen, können wir ins Gebirge fahren. Dort gibt es viel zu wandern, wunderschöne Landschaften und immer neue Orte zu sehen. Es wird ein<correction>
+        <deletion><unreadable /></deletion>
+      </correction> bisschen anstrengend sein, aber sicher wird es eine wunderschöne Erfahrung sein. Noch ein Vorteil dazu: <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>Das</targetForm>
+      </error> Wetter wird nicht so heiß sein! <par />Ich bin mehrmals ans Meer gefahren, und habe immer Spaß gehabt. Meiner Meinung nach ist das Meer die beste Lösung. Schreib mir bitte, was du darüber denkst! <closing>Bis bald, <entity>Luca</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

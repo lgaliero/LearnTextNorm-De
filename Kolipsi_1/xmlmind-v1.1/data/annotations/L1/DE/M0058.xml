@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0058</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Julia</entity></greeting>,<par /><palimpsest>du erinnerst dich</palimpsest> bestimmt noch an meine Fr<palimpsest>e</palimpsest>undin <entity>Maria</entity>... Letzte Woche ist etwas <error>
+        <errorType />
+
+        <originalForm>merkwürdiges</originalForm>
+
+        <targetForm>Merkwürdiges</targetForm>
+      </error> gesc<palimpsest>hehen</palimpsest>. Wir beide hatten uns verabredet um gemeinsam bei ihr zu Hause zu kochen, aus dem Grund hatte <entity>Maria</entity> sich bereit <palimpsest>erklärt</palimpsest> die nötigen Zu<hyphen>-</hyphen>taten für unser Vorhaben zu besorgen. Wir wollten einen leckeren Salat zu<hyphen>-</hyphen>bereiten, deswegen ist sie in den Obst- und Gemüseladen gegangen um die entsprechenden Zutaten zu kaufen. Zudem kaufte sie noch etwas Obst, um <correction>
+        <deletion>aus diesen</deletion>
+      </correction> einen Obstsalat zu machen. Daraufhin ist <entity>Maria</entity> in einen nahegelegenen Supermarkt ge<hyphen>-</hyphen>gangen, um die noch fehlenden Zutaten zu kaufen. Doch als sie dann an der Kasse war gab es Probleme. <entity>Maria</entity> <correction>
+        <deletion>hat</deletion>
+      </correction> wollte im Supermarkt noch Tomaten besorgen, da sie vergessen hatte die<overwrite>
+        <under>se</under>
+
+        <over>s</over>
+      </overwrite> im Obst- und Gemüsel<palimpsest>aden</palimpsest> <error>
+        <errorType />
+
+        <originalForm>zutun</originalForm>
+
+        <targetForm>zu tun</targetForm>
+      </error>. Doch die W<overwrite>
+        <under><unreadable /></under>
+
+        <over>aa</over>
+      </overwrite>ge mit der <error>
+        <errorType />
+
+        <originalForm>Ettiketierfunktion</originalForm>
+
+        <targetForm>Etikettierfunktion</targetForm>
+      </error> <correction>
+        <deletion>hattenicht</deletion>
+      </correction> hat nicht funktioniert, weswegen sie mit den nicht gewogenen Tomaten an die Kasse <correction>
+        <deletion>ging</deletion>
+      </correction> <correction>
+        <insertion>gegangen ist</insertion>
+      </correction>. Die Kassiererin war nicht erfreut darüber, da <entity>Maria</entity> nochmal zurück zu der von ihr <sic>über<hyphen>-</hyphen>sehenden</sic> und funktionierenden Waage musste um die Tomaten abzuwiegen und somit die Kasse für die anderen Käufer blockierte. Dies war <entity>Maria</entity> sehr peinlich, wie sie mir bei ihr zu Hause am selben Abend erzählte. Doch sie konnte hinterher auch über die Geschichte lachen.<par />Ich hoffe dir geht es gut und melde dich doch bitte wieder <correction>
+        <deletion>beir</deletion>
+      </correction> bei mir!<par /><closing>Deine<par /><entity>Jennifer</entity></closing>              </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Julia</entity></greeting>,<par />freust du dich <sic>schon auch</sic> so sehr auf die Ferien wie ich? Bestimmt! Unser gemeinsamer Urlaub wird bestimmt richtig toll, nur die Frage ist wo<correction>
+        <deletion><unreadable /></deletion>
+      </correction> wir diesen verbringen. Ich habe zwei Vorschläge: <correction>
+        <deletion>eina</deletion>
+      </correction> zum einen könnten wir in die Berge, zum anderen ans Meer. Betrachtet man die Kosten, sind beide Optionen für 2 Wochen Urlaub fast gleich teuer.<par />Ich für meinen Teil bin sehr unentschlossen. Das Meer und die Berge sind von Grund aus sehr unterschiedlich.<par />Auf den Bergen ist <correction>
+        <insertion>es</insertion>
+      </correction> eher kalt, wogegen am Meer warmes Wetter auf uns warten würde. Zudem wären die Berge vorteil<hyphen>-</hyphen>haft, wenn wir uns <correction>
+        <deletion>im</deletion>
+      </correction> sportlich be<hyphen>-</hyphen>tätigen wollen. Am Meer <correction>
+        <deletion>da</deletion>
+      </correction> können wir uns aber sportlich betätigen und am Strand entspannen.<par />Ich bin noch nie zuvor in den Bergen gewesen, deswegen kann ich mir unter einem Urlaub in den Bergen auch nicht soviel vorstellen. Dennoch weiß ich, dass ich in meinem Urlaub am Meer immer viel Spaß hatte, das schöne Wetter genossen hab und nette Leute kennen<hyphen>-</hyphen>gelernt habe.<par /><correction>
+        <deletion>Ich hoffe</deletion>
+      </correction> Vielleicht hast du <correction>
+        <insertion>gute</insertion>
+      </correction> Erfahrungen <correction>
+        <deletion>von</deletion>
+      </correction> <correction>
+        <insertion>aus</insertion>
+      </correction> deinem Urlaub in den Bergen und kannst mich vielleicht davon über<hyphen>-</hyphen>zeugen. Ich hoffe auf eine <sic>schnell</sic> Antwort von dir.<par /><closing>Deine<par /><correction>
+          <deletion>Jan</deletion>
+        </correction> <entity>Jennifer</entity></closing>            </exercise>
+  </body>
+</kolipsi_document>

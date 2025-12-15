@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0165</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Lisa</entity></greeting>,<par/>du kennst doch <entity>Maria</entity>, eine Freundin von mir. Ihr ist schon wieder etwas echt <error>
+        <errorType/>
+
+        <originalForm>lustiges</originalForm>
+
+        <targetForm>Lustiges</targetForm>
+      </error> passiert. Sie war neulich in einem Obst- und Gemüseladen einkaufen. Sie kaufte Gurken, Äpfel und Salat. Nachdem sie be<hyphen>-</hyphen>zahlt hatte packte sie die ganzen Sachen in ihre Tasche und war mal wieder mit den Gedanken ganz woanders. Du kennst ja ihre Tagträumereien. <error>
+        <errorType/>
+
+        <originalForm>Aufjedenfall</originalForm>
+
+        <targetForm>Auf jeden Fall</targetForm>
+      </error> war sie wieder nicht bei der Sache und verließ den Laden, ohne den Kassenbon einzustecken. Die nette Verkäuferin rief ihr noch hinterher, aber <entity>Maria</entity> hörte es nicht mehr.<par/>Sie schlenderte über die Straße und als sie den Supermarkt vor sich sah, fiel ihr ein, dass sie noch einiges kaufen musste.<par/>Im Supermarkt packte <entity>Maria</entity> dann schnell alles in ihren Einkaufswagen. Doch als sie dann an der Kasse stand und bezahlen wollte, schrie die Verkäuferin laut los. Sie dachte tatsächlich, dass <entity>Maria</entity> die Sachen aus dem Supermarkt klauen wollte. <entity>Maria</entity> versuchte der wütenden Verkäuferin zu erklären, dass sie vorher im Gemüseladen war, aber die Frau aus dem Supermarkt konnte sich nicht beruhigen. Sie forderte <entity>Maria</entity> auf ihr den Kassenzettel zu zeigen, doch dann merkte <entity>Maria</entity> erst, dass sie ihn im Gemüseladen vergessen haben muss. Sämtliche Erklärungen und Bitten nützten nichts. Die Verkäuferin rief die Polizei. Erst dann konnte <entity>Maria</entity> beweisen, dass sie das Gemüse nicht klauen wollte. Die Polizei prüfte die Situation und ließ <entity>Maria</entity> endlich frei. <entity>Marias</entity> Tag war natürlich gelaufen. Du weißt ja auch, wie schnell sie in Stress gerät. Daraufhin habe ich sie <error>
+        <errorType/>
+
+        <originalForm>ersteinmal</originalForm>
+
+        <targetForm>erst einmal</targetForm>
+      </error> auf einen Drink eingeladen.<par/><closing>Wir sehen uns.<par/>Bis bald <entity>Kati</entity></closing>    </exercise>
+
+    
+  </body>
+</kolipsi_document>

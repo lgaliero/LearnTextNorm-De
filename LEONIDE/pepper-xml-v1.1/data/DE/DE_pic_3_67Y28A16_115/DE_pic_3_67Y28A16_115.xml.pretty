@@ -1,0 +1,57 @@
+<body>
+ <page page_number="1" transcanno_page_id="2452">
+  <paragraph class="medium-paragraph" tagcode="1552072954452">
+   <div>
+    Ich
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1552072734529" tran_correction_original="anfange">
+     fange
+    </tran_word_correction_id25>
+    zu weinen
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1552072738724">
+     an
+    </tran_word_insertion_id9>
+    und auch meine
+   </div>
+   <div>
+    Mutter. Wir
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1552072759030" tran_correction_original="uarmen">
+     umarmen
+    </tran_word_correction_id25>
+    der Vater und nach
+   </div>
+   <div>
+    ein paar
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Sekunden" tagcode="1552072854347">
+     secunden
+    </orth_error_id12>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552072830617" tran_word_deletion_target="_#_">
+     er
+    </tran_word_deletion_id8>
+    steigt er an Zug. Sie
+   </div>
+   <div>
+    geben sich die
+    <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1552072885211" tran_correction_original="Hä*de">
+     Hände
+    </tran_word_correction_id25>
+    , der Zug
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1552072896643">
+     ist
+    </tran_word_insertion_id9>
+    abgefahren
+   </div>
+   <div>
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1552072912116">
+     <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1552072918085" tran_word_deletion_target="_#_">
+      *
+     </tran_word_deletion_id8>
+    </tran_unreadable_id17>
+    und wir müsse
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="loslassen" tagcode="1552072954451">
+     los lassen
+    </orth_error_id12>
+    .
+   </div>
+  </paragraph>
+ </page>
+</body>

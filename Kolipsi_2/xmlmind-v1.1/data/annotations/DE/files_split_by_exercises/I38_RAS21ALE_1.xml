@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I38_RAS21ALE</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Liebe Andrea,</greeting><par/><error>
+        <errorType/>
+
+        <originalForm>Heute</originalForm>
+
+        <targetForm>heute</targetForm>
+      </error> will ich dir <error>
+        <errorType/>
+
+        <originalForm>erzahlen</originalForm>
+
+        <targetForm>erzählen</targetForm>
+      </error>, was <correction>
+        <deletion>passierd</deletion>
+      </correction> Maria passiert ist. Sie ging zuerst in einem Obst- und Gemüseladen, und sie kaufte viele Gemüse. Eine Stunde später war sie im Supermarkt, aber dort gab es ein Problem an der Kasse. Sie hatte <correction>
+        <deletion>nichd genug</deletion>
+      </correction> nicht genug Geld zu bezahlen. Maria <correction>
+        <deletion><unreadable/></deletion>
+      </correction> weiß nicht, was sie soll machen, so sie rufte mir und sagte, dass ich Geld bringen muss. Ich <correction>
+        <deletion><unreadable/></deletion>
+      </correction> lief schnell nach die <foreign_word foreign_language="Italiano">Supermarket</foreign_word> mit viele Geld, aber <correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>ein</insertion>
+      </correction> Mann<correction>
+        <deletion><unreadable/></deletion>
+      </correction> hielt mir und sagte, dass ich mein Geld zu ihm geben muss. Ich <error>
+        <errorType/>
+
+        <originalForm>schultete</originalForm>
+
+        <targetForm>schüttelte</targetForm>
+      </error> das Kopf so, der Mann schlagt mir mit eine Steine, brachte mein Geld und dann er <correction>
+        <deletion><unreadable/></deletion>
+      </correction> floh. Ich <correction>
+        <deletion>ruf</deletion>
+      </correction> rief die Polizei aber sie kannte nicht der Dieb zu verhaften. Am Ende der Geschichte kaufte Maria Brot, Nudeln und Fleisch nicht.<par/><closing>Viele Grüße.</closing><par/>Alessandro</exercise>
+
+    
+  </body>
+</kolipsi_II_document>

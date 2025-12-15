@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5897</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Carsten</entity>,</greeting> <par />meine Schwester <entity>Maria</entity> war letzte Woche beim Obsthändler einkaufen. Sie kaufte etwas Salat und Lauch ein und ging später noch zum Superma<palimpsest>rkt</palimpsest>. Dort stel<overwrite>
+        <over>l</over>
+
+        <under>t</under>
+      </overwrite>te sie mehreres in den Einkaufswagen und bezah<overwrite>
+        <over>l</over>
+
+        <under>t</under>
+      </overwrite>te die Ware schließlich an der Kasse. Die Frau an d<overwrite>
+        <over>er</over>
+
+        <under>i</under>
+      </overwrite> Kasse verlangte jedoch, dass <entity>Maria</entity> auch das Obst bezahl<correction>
+        <insertion>e</insertion>
+      </correction>, denn die Frau meinte sie habe es im Supermar<overwrite>
+        <over>k</over>
+
+        <under>ke</under>
+      </overwrite>t gekauft. <entity>Maria</entity> konnte unglücklicher<hyphen>-</hyphen>weise nicht beweisen, dass sie das Obst beim Obsthändler bezah<strikeover>
+        <expansion>t</expansion>
+
+        <expansion>l</expansion>
+      </strikeover>t hatte, da sie dort den Kassenzettel vergessen hatte. Die Frau an der Kass<ambiguous>
+        <alternative>e</alternative>
+
+        <alternative>a</alternative>
+      </ambiguous> regte sich auf und rief den Besitzer des Geschäfts. Dieser <palimpsest>unreadable</palimpsest> musterte das Obst in <entity>Marias</entity> Einkaufstasche und stellte dabei fest, dass Lauch in seinem Geschäft gar nicht verfügbar war. Das genügte als Beweis und <entity>Maria</entity> konnte beruhigt ihren Einkaufstag fortführen. Natürlich <palimpsest>entschuldigte sich die Frau an der Kasse au<overwrite>
+          <over>ß</over>
+
+          <under>s</under>
+        </overwrite></palimpsest>erordentlich und bot sogar an, die Einkaufstaschen bis zu <entity>Marias</entity> Wagen zu schleppen. <entity>Maria</entity> lehnte je<overwrite>
+        <over>d</over>
+
+        <under>l</under>
+      </overwrite>och ab und trug sie selber weiter. Schreib mir dei<overwrite>
+        <over>n</over>
+
+        <under>r</under>
+      </overwrite>e Meinung zu dieser verblüffenden Geschichte. <closing>Grüße, <par /><entity>Alex</entity> </closing> </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Grüß dich <entity>Manuel</entity></greeting>, <par /><error>
+        <errorType />
+
+        <originalForm>Wir</originalForm>
+
+        <targetForm>wir</targetForm>
+      </error> woll<correction>
+        <insertion>t</insertion>
+      </correction>en doch einmal zusammen ans Meer fahren und <correction>
+        <insertion>da</insertion>
+      </correction> wir uns bereits im A<ambiguous>
+        <alternative>p</alternative>
+
+        <alternative>g</alternative>
+      </ambiguous>ril befinden habe ich mich etwas über mögliche Urlaubsziele informiert. Wir haben im Grunde zwei Möglichkeiten: entweder fahren wir in die Berge oder ans Meer.<gap>_</gap> In den Bergen ist es frischer als am Meer, wir könnten Wandertouren unternehmen ohne dabei unter der Hitze zu leiden. Wir könnten Berge besteigen und ein prächtiges Bergpanorama genießen. Wir könnten durch Wälder wandern und die Tiere b<palimpsest>e</palimpsest>obachten. Sollte es aber etwas zu warm werden ist der <palimpsest>unreadable</palimpsest> Urlaub am Meer allerdings angebrachter<overwrite>
+        <over>,</over>
+
+        <under>.</under>
+      </overwrite> denn am Meer können wir uns im Wasser ab<overwrite>
+        <over>k</over>
+
+        <under>h</under>
+      </overwrite>ühlen, was auf dem Berg etwas schwieriger wäre. Der Urlaub am Meer ist si<overwrite>
+        <over>c</over>
+
+        <under>e</under>
+      </overwrite>herlich viel erholsamer. Tagsüber liegst du in der Sonne, wenn es dir zu warm wird kannst du dich im Meer abkühlen. Am <error>
+        <errorType />
+
+        <originalForm>abend</originalForm>
+
+        <targetForm>Abend</targetForm>
+      </error> kannst du kleine Spaziergänge unternehmen oder, wenn möglic<overwrite>
+        <over>h</over>
+
+        <under><unreadable /></under>
+      </overwrite>, <correction>
+        <insertion>dir</insertion>
+      </correction> eine Veranstaltung a<correction>
+        <insertion>ns<comment>Trennung-Verbindung</comment></insertion>
+      </correction>ehen. <par /> <ambiguous>
+        <alternative>L</alternative>
+
+        <alternative>h</alternative>
+      </ambiguous>ass mich bitte wissen, was dir lieber ist. <palimpsest>unreadable</palimpsest> Die Bergwelt zu entdecken und Touren zu unternehmen<overwrite>
+        <over>,</over>
+
+        <under>.</under>
+      </overwrite> oder am Strand in der Sonne zu faulenzen und dich wirklich auszuruhen. Ich brauche eine baldige Antwort. <closing>Grüße, <par /></closing><entity>Alex</entity> </exercise>
+  </body>
+</kolipsi_document>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5357</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Hallo <entity>Josie</entity></greeting>! <par/>Die Ferien sind endlich angefangen! Bist du nicht froh? Ich habe <error>
+        <errorType/>
+
+        <originalForm>die</originalForm>
+
+        <targetForm>dich</targetForm>
+      </error> vol<hyphen>-</hyphen>le lieb, also habe ich gedacht, dass wir zusammen irgendwo fahren könnten! Ich <error>
+        <errorType/>
+
+        <originalForm>weiss</originalForm>
+
+        <targetForm>weiß</targetForm>
+      </error> aber nicht, ob du lieber in die Berge oder ans Meer fahren <correction>
+        <deletion><unreadable/></deletion>
+      </correction> möchtest. Es geben Ähnlichkeiten und Unterschiede, zum Beispiel <correction>
+        <deletion>bie</deletion>
+      </correction> haben beide Orten eine saubere und gesunden Luft, und können echte <sic>Wunderen</sic> der Natur zeigen, so wie die Spitze den Bergen unter <correction>
+        <deletion><unreadable/></deletion>
+      </correction> den Schnee obere die <overwrite>
+        <over>h</over>
+
+        <under>H</under>
+      </overwrite>ellblaue Wasser des Meeres. <error>
+        <errorType/>
+
+        <originalForm>Ins Gesamt</originalForm>
+
+        <targetForm>Insgesamt</targetForm>
+      </error> sind aber die zwei Orten total verschieden. Das Klima ändert sich, persönlich <correction>
+        <deletion>habe</deletion>
+      </correction> <sic>mage </sic> ich das Klima ins Gebirge, voriges Jahre <correction>
+        <deletion><unreadable/></deletion>
+      </correction> ist <correction>
+        <deletion>es</deletion>
+      </correction> wunderschön gewesen, auf die <unreadable/> zu fahren. Vielleicht möchtest du aber lieber ein bisschen schwimmen oder? Es wäre schön… entscheide bitte in maximal zwei Tagen! <par/>Schreib mir zurück! <par/><closing>Dein <entity>Vladimir</entity></closing></exercise>
+  </body>
+</kolipsi_document>

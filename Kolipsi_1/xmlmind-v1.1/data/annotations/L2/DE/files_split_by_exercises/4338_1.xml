@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>4338</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo <entity>Sabine,</entity></greeting> weißt du <error>
+        <errorType/>
+
+        <originalForm>wass</originalForm>
+
+        <targetForm>was</targetForm>
+      </error> a<correction>
+        <deletion>m</deletion>
+
+        <insertion>n</insertion>
+      </correction> <entity>Maria</entity> <error>
+        <errorType/>
+
+        <originalForm>Passiert</originalForm>
+
+        <targetForm>passiert</targetForm>
+      </error> ist?? <par/>Es ist Montag und <entity>Maria</entity> ist in ein Obsthändler gegangen um zu Obst und Gemüse <error>
+        <errorType/>
+
+        <originalForm>Kaufen</originalForm>
+
+        <targetForm>kaufen</targetForm>
+      </error>. Sie hat <error>
+        <errorType/>
+
+        <originalForm>bananen</originalForm>
+
+        <targetForm>Bananen</targetForm>
+      </error>, <error>
+        <errorType/>
+
+        <originalForm>äpfel</originalForm>
+
+        <targetForm>Äpfel</targetForm>
+      </error>, Salat <error>
+        <errorType/>
+
+        <originalForm>orangen</originalForm>
+
+        <targetForm>Orangen</targetForm>
+      </error> und <sic>Pirschen</sic> <correction>
+        <insertion>genommen</insertion>
+      </correction>. Wenn sie <correction>
+        <deletion>Kostet</deletion>
+
+        <insertion>zäh<overwrite>
+            <over>l</over>
+
+            <under>t</under>
+          </overwrite></insertion>
+      </correction>t , <error>
+        <errorType/>
+
+        <originalForm>vergiesst</originalForm>
+
+        <targetForm>vergisst</targetForm>
+      </error> sie den Kassenzettel. Nachdem einen Stunde geht sie in Supermarkt. Hier <sic>käuft</sic> sie Milch, Mineralswasser, <error>
+        <errorType/>
+
+        <originalForm>nais</originalForm>
+
+        <targetForm>Mais</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>tomaten</originalForm>
+
+        <targetForm>Tomaten</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>eier</originalForm>
+
+        <targetForm>Eier</targetForm>
+      </error>, <error>
+        <errorType/>
+
+        <originalForm>speck</originalForm>
+
+        <targetForm>Speck</targetForm>
+      </error>, Kartoffeln, <error>
+        <errorType/>
+
+        <originalForm>Brotchen</originalForm>
+
+        <targetForm>Brötchen</targetForm>
+      </error>, <entity><error>
+          <errorType/>
+
+          <originalForm>coca cola</originalForm>
+
+          <targetForm>Coca-Cola</targetForm>
+        </error></entity>, <error>
+        <errorType/>
+
+        <originalForm>pasta</originalForm>
+
+        <targetForm>Pasta</targetForm>
+      </error>. Sie wollte viele andere nehmen und so musst sie ein Einkaufswagen nehmen. <par/>Wenn sie fertig ist, geht sie um zu zahlen. <par/>Sie wollte weggehen, aber die Kassiererin siehst was sie zuerst gekauft hat und fragt ihnen was sie wollte machen… <entity>Maria</entity> sucht den Kassenzettel, aber sie hat es nicht; <par/>So <entity>Maria</entity> <error>
+        <errorType/>
+
+        <originalForm>mußte</originalForm>
+
+        <targetForm>musste</targetForm>
+      </error> noch einmal zahlen… was sie in früher gekauft hat. Es ist <sic>unglaubnis</sic>! Ich hoffe dass es <overwrite>
+        <over>nie</over>
+
+        <under>me</under>
+      </overwrite> <error>
+        <errorType/>
+
+        <originalForm>nir</originalForm>
+
+        <targetForm>mir</targetForm>
+      </error> passiert! <closing>Deine <entity>Emiliano</entity> <overwrite>
+          <over>,</over>
+
+          <under>.</under>
+        </overwrite> viele <overwrite>
+          <over>G</over>
+
+          <under>g</under>
+        </overwrite>rüßen</closing>.</exercise>
+
+    
+  </body>
+</kolipsi_document>

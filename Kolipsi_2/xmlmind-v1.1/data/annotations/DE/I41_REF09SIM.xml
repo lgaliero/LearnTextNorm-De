@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I41_REF09SIM</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Lieber Fabian,</greeting><par />wie geht es dir? Hier in Bozen geht alles gut. Ich spiele noch Eishockey und ich besuche das <correction>
+        <deletion>S</deletion>
+      </correction>Sportgymnasium. Bei meinem Familie geht alles gut.<par />Ich habe dieses Mail geschrieben, um <error>
+        <errorType />
+
+        <originalForm>dier</originalForm>
+
+        <targetForm>dir</targetForm>
+      </error> zu erzählen was Maria passiert ist. Letzte Woche war sie einkaufen. Zuerst hat sie etwas in dem Obst- und Gemüseladen eingekauft. Später war sie im Supermarkt, an der Kasse waren Problemen. Ich dachte dass sie nur ein <error>
+        <errorType />
+
+        <originalForm>Paar</originalForm>
+
+        <targetForm>paar</targetForm>
+      </error> gute Gemüse in der <error>
+        <errorType />
+
+        <originalForm>speziallisierte</originalForm>
+
+        <targetForm>spezialisierte</targetForm>
+      </error> Laden gekaufen wollte. Aber wann sie an der Kasse von den Supermarkt war die Verkäuferin hat die Gemüse <correction>
+        <deletion>gesehen</deletion>
+      </correction> gesehen. Die Verkäuferin hat gedacht dass Maria die Gemüse <error>
+        <errorType />
+
+        <originalForm>gesholen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hat. Es ist sehr <error>
+        <errorType />
+
+        <originalForm>Witzig</originalForm>
+
+        <targetForm>witzig</targetForm>
+      </error> weil die Gemüse in ein andere Tüte waren, <correction>
+        <deletion>und Maria ist hat</deletion>
+      </correction> der <error>
+        <errorType />
+
+        <originalForm>Fäler</originalForm>
+
+        <targetForm>Fehler</targetForm>
+      </error> von Maria ist wenn sie der Zettel in der Gemüseladen <error>
+        <errorType />
+
+        <originalForm>gellesst</originalForm>
+
+        <targetForm>gelesst</targetForm>
+      </error> hat. Ich weiß es nicht wie weiter gegangen ist, kannst du Maria <error>
+        <errorType />
+
+        <originalForm>konktattieren</originalForm>
+
+        <targetForm>konktatieren</targetForm>
+      </error>...<par />Und bei dir? Wie geht es? Betreibst du Sport? Bei dei<correction>
+        <deletion>e</deletion>
+
+        <insertion>n</insertion>
+      </correction>e Familie, ist alles klar? Ist etwas so bei dir passirt?<par /><closing>Vielen Grüßen,</closing> Simone.</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber Paul,</greeting><par /><correction>
+        <deletion>M</deletion>
+      </correction> meiner Meinung nach <correction>
+        <insertion>ist</insertion>
+      </correction> d<correction>
+        <deletion>er</deletion>
+
+        <insertion>ie</insertion>
+      </correction> Verwendung des Internets <correction>
+        <insertion>heute viel zu stark, die Jugendlichen isoliern sich immer mehr</insertion>
+
+        <deletion>ist dass jemend muss auf es beachten</deletion>
+      </correction>. Auf der Wel<correction>
+        <deletion>d</deletion>
+
+        <insertion>t</insertion>
+      </correction> gibt <correction>
+        <insertion>es</insertion>
+      </correction> vielen Leute die <correction>
+        <deletion>dass</deletion>
+      </correction> wollen von dir <correction>
+        <deletion>g</deletion>
+
+        <insertion>G</insertion>
+      </correction>eld<correction>
+        <deletion>t</deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>stelen</originalForm>
+
+        <targetForm>stehlen</targetForm>
+      </error>, und <correction>
+        <deletion>ist</deletion>
+      </correction> mit Internet ist <correction>
+        <insertion>es</insertion>
+      </correction> sehr einfach! Muss man auf die Leute die<correction>
+        <deletion><unreadable /></deletion>
+      </correction> wir nicht kennen <correction>
+        <deletion>be</deletion>
+      </correction>achten. <correction>
+        <insertion>Wenn</insertion>
+
+        <deletion>Ob</deletion>
+      </correction> wir jemand neue<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>n</insertion>
+      </correction> kennenlernen wollen, mussen wir zuerst nur einen <error>
+        <errorType />
+
+        <originalForm>online Kontakt</originalForm>
+
+        <targetForm>Online-Kontakt</targetForm>
+      </error> geben! Mit diese <error>
+        <errorType />
+
+        <originalForm>sozial-netze</originalForm>
+
+        <targetForm>Sozial Netze</targetForm>
+      </error> ist <correction>
+        <insertion>es</insertion>
+      </correction> immer einfach jemand <correction>
+        <deletion>zu</deletion>
+      </correction> kennen<correction>
+        <insertion>zu</insertion>
+      </correction>lernen. Ich <error>
+        <errorType />
+
+        <originalForm>personlich</originalForm>
+
+        <targetForm>persönlich</targetForm>
+      </error> habe viele "Facebook-Freunde" dass nur ein <error>
+        <errorType />
+
+        <originalForm>Paar</originalForm>
+
+        <targetForm>paar</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>mal<correction>
+            <deletion>e</deletion>
+          </correction></originalForm>
+
+        <targetForm>Mal</targetForm>
+      </error> in der <error>
+        <errorType />
+
+        <originalForm>Lebe</originalForm>
+
+        <targetForm>Leben</targetForm>
+      </error> <correction>
+        <deletion>gesieht</deletion>
+
+        <insertion>gesehen</insertion>
+      </correction> habe.<par />Ich habe ein Erfahrung gemacht. Letzte Jahr habe ich Sara auf <correction>
+        <deletion>f</deletion>
+
+        <insertion>F</insertion>
+      </correction>acebook kennen<hyphen>-</hyphen>gelernt, wir haben für ein <error>
+        <errorType />
+
+        <originalForm>Paar</originalForm>
+
+        <targetForm>paar</targetForm>
+      </error> Monaten gechattet. Dann haben wir entscheidet dass wir treffen können. Wenn wir <correction>
+        <insertion>uns</insertion>
+      </correction> getreffen <correction>
+        <deletion>habe</deletion>
+      </correction> sind, haben wir etwas anderes <error>
+        <errorType />
+
+        <originalForm>gefüllt</originalForm>
+
+        <targetForm>gefühlt</targetForm>
+      </error>, es wa<correction>
+        <deletion>s</deletion>
+
+        <insertion>r</insertion>
+      </correction> viel besser. Habe wir die <error>
+        <errorType />
+
+        <originalForm>Handy nummer</originalForm>
+
+        <targetForm>Handynummer</targetForm>
+      </error> <correction>
+        <deletion>verhändert</deletion>
+      </correction> getausch und jetzt sind 2 Jahren dass wir zusammen sind.<par />Ich wollte <error>
+        <errorType />
+
+        <originalForm>dier</originalForm>
+
+        <targetForm>dir</targetForm>
+      </error> ein Rat geben, <correction>
+        <deletion>muss</deletion>
+
+        <insertion>kann</insertion>
+      </correction> man mit vielen Leute <correction>
+        <deletion>n</deletion>
+
+        <insertion>N</insertion>
+      </correction>achrichten senden aber muss man keine <error>
+        <errorType />
+
+        <originalForm>privat nummer</originalForm>
+
+        <targetForm>Privatnummer</targetForm>
+      </error> <correction>
+        <deletion>geben</deletion>
+      </correction> oder <error>
+        <errorType />
+
+        <originalForm>infos</originalForm>
+
+        <targetForm>Infos</targetForm>
+      </error> geben! Ich würde di<correction>
+        <deletion>e</deletion>
+      </correction>r <correction>
+        <deletion>d</deletion>
+      </correction> meine selbe Erfahrung, viel Glück.<par /><closing>Bis bald,</closing> Simone.</exercise>
+  </body>
+</kolipsi_II_document>

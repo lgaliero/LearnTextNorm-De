@@ -1,0 +1,40 @@
+<body>
+ <page page_number="1" transcanno_page_id="243">
+  <paragraph class="medium-paragraph" tagcode="1553682038844">
+   <div>
+    1
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="brennen" tagcode="1553682026962">
+     prenen
+    </orth_error_id12>
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1553682038846">
+   <div>
+    2
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="brennen" tagcode="1553682034441">
+     prenen
+    </orth_error_id12>
+    die
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Diktat" tagcode="1553681828543">
+     <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553681901486" tran_correction_original="Diktat*">
+      Diktatx
+     </tran_word_correction_id25>
+    </orth_error_id12>
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1553682038848">
+   <div>
+    3
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="brennen" tagcode="1553682038843">
+     prennen
+    </orth_error_id12>
+    die
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Hause" tagcode="1553681770029">
+     <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1553681782884" tran_alternative_1="House" tran_alternative_2="Hause">
+      House
+     </tran_ambiguous_id3>
+    </orth_error_id12>
+   </div>
+  </paragraph>
+ </page>
+</body>

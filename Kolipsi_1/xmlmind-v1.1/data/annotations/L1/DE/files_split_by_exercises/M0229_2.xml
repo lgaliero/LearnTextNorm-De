@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0229</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Hallo <entity><palimpsest>Regina</palimpsest></entity></greeting>,<par/>ich wollte wissen, wo du lieber Urlaub machen würdest: in den Bergen oder am Meer?<par/>Ich hab mich da mal schlau gemacht und wollte dir je<palimpsest>t</palimpsest>zt mal schreiben, was ich so herausge<hyphen>-</hyphen>funden hab.<par/>Fangen wir mal mit der unangenehmen Sache an, dem Preis. Es wäre natürlich bei der An<hyphen>-</hyphen>reise günstiger in die Berge zu fahren und die Hotels sind auch günstiger als am Meer, da man am Meer auch teurere Hotels findet als in den Bergen. Von den Preisen her, würde es aber beides in unser Budget passen. Müssen wir mal gucken, was un<palimpsest>s</palimpsest> von den anderen Aspekten aus überzeugt.<par/>Reden wir mal über das Wetter. In den Bergen ist es im Sommer schön angenehm warm, am Meer ist es dann schon richtig warm, bis zu 30 Grad i<palimpsest>m</palimpsest> Schatten. Allerdings habe ich bei meinem letzten Urlaub in der <entity>Türkei</entity> mit meiner Familie gemerkt, dass diese enorme Hitze durch die Meeres<palimpsest>luft</palimpsest> gar nicht so sehr bemerkbar ist.<par/>Von den Aktivitäten her ist beides bestimmt ganz interessant. In den Bergen wandern und klettern und am Meer Wasserski und Jetski fahren. Schwimmen und sonnen können wir un<palimpsest>s</palimpsest> in beiden Gebieten, obwohl es in den Bergen auch mal kühler werden <palimpsest>k</palimpsest>önnte. Das würde allerdings das Risiko eines Sonnenbrandes verring<palimpsest>ern</palimpsest>.<par/>Nun ja, also du weißt, dass es mir egal ist wo wir hinfahren, deshalb wäre es toll, wenn du mir Bescheid sagen könntest, <palimpsest>wo</palimpsest> du lieber hinfahren würdest. Ich freu mich schon.<par/><closing>Liebe Grüße und Kuss<par/><entity>I</entity></closing><par/>PS: Sollte es dir auch egal sein, wo wir hinfahren, dann losen wir eben einen Ort aus.   </exercise>
+  </body>
+</kolipsi_document>

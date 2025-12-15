@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I08_SAL16LUC</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Hallo Eduardo,</greeting><par/>wie geht es <emphasis>dir?</emphasis> Mir geht alles gut. Ich <correction>
+        <deletion>habe eine</deletion>
+      </correction> will dir <error>
+        <errorType/>
+
+        <originalForm>erzahle</originalForm>
+
+        <targetForm>erzähle</targetForm>
+      </error> was ist letzte Woche passiert. Ich war mit <correction>
+        <deletion>mit</deletion>
+      </correction> meiner Freundin Maria in einem Obst- und Gemüseladen <correction>
+        <deletion>ein</deletion>
+      </correction> zu verkaufen. Wir haben <correction>
+        <deletion>Obst,</deletion>
+      </correction> Salat, Tomaten und andere <correction>
+        <deletion>typ</deletion>
+      </correction> Obst verkauft, und dann wir sind zur die Kasse für <error>
+        <errorType/>
+
+        <originalForm>zahlen</originalForm>
+
+        <targetForm>Zahlen</targetForm>
+      </error> gegangen. Danach <correction>
+        <deletion>wir sind</deletion>
+
+        <insertion>sind wir</insertion>
+      </correction> nach Auto gegangen <correction>
+        <deletion>und wenn</deletion>
+
+        <insertion>und</insertion>
+      </correction> d<correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>ie</insertion>
+      </correction> Verkäuferin ist <correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>hinter</insertion>
+      </correction> uns gelauft. Wir haben <correction>
+        <deletion>him</deletion>
+
+        <insertion>sie</insertion>
+      </correction> gefragt, <correction>
+        <deletion>wiso</deletion>
+      </correction> "Wieso bist du hinter uns gelauft?" <correction>
+        <deletion>und</deletion>
+      </correction> "Weil <correction>
+        <deletion>Ihr</deletion>
+      </correction> ihr haben der Kassenzettel an der Kasse vergessen. Es war so toll, dass die Verkäuferin läuft hinter u<correction>
+        <deletion>s</deletion>
+
+        <insertion>n</insertion>
+      </correction>s <error>
+        <errorType/>
+
+        <originalForm>nuhr</originalForm>
+
+        <targetForm>nur</targetForm>
+      </error> für ein Kassenzettel. Danach wir sind in <foreign_word foreign_language="Italiano">Supermarket</foreign_word> gegangen und wir haben net zu viele Sache <correction>
+        <deletion>vekau</deletion>
+      </correction> verkauft. Dann wir sind an der Kasse gegangen und die Verkäuferin war überzeugt, dass Maria hat das Obst <correction>
+        <deletion>gestol<unreadable/></deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>gestolen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error>, weil sie <correction>
+        <deletion>haben</deletion>
+      </correction> hatten noch das Obst <error>
+        <errorType/>
+
+        <originalForm>dass</originalForm>
+
+        <targetForm>das</targetForm>
+      </error> wir haben <correction>
+        <deletion>sho</deletion>
+      </correction> schon gezahlt.<par/>Diese <unreadable/> war sehr toll, so ich habe dir <correction>
+        <deletion>z</deletion>
+
+        <insertion>e</insertion>
+      </correction>rzählt.<par/><closing>Viele Grußen, schreibst mir bald.</closing><par/>Dein Freund<par/>Bando Giraldo</exercise>
+
+    
+  </body>
+</kolipsi_II_document>

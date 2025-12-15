@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>3565</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><palimpsest>Hallo… Weißt du…</palimpsest> Eines Tages die Frau <entity>Maria</entity> ist zu <error>
+        <errorType/>
+
+        <originalForm>Obsthändier</originalForm>
+
+        <targetForm>Obsthändler</targetForm>
+      </error> gegangen. Sie wollte <overwrite>
+        <over>O</over>
+
+        <under>o</under>
+      </overwrite>bst und Gemüse kaufen. Sofort sie hat d<overwrite>
+        <over>e</over>
+
+        <under>i</under>
+      </overwrite>r Salat kontrolliert. <correction>
+        <deletion>Die shöne Salat</deletion>
+      </correction> <entity>Maria</entity> hat <overwrite>
+        <over>n</over>
+
+        <under>m</under>
+      </overwrite>ur <error>
+        <errorType/>
+
+        <originalForm>di</originalForm>
+
+        <targetForm>die</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>shöne</originalForm>
+
+        <targetForm>schöne</targetForm>
+      </error> Salat in ihrem Korb zu gelegt. Sie hat auch die Tomaten, <error>
+        <errorType/>
+
+        <originalForm>Bier<overwrite>
+            <over>ne</over>
+
+            <under>me</under>
+          </overwrite></originalForm>
+
+        <targetForm>Birne</targetForm>
+      </error>, Äpfel, Bananen und <error>
+        <errorType/>
+
+        <originalForm>Zucchine</originalForm>
+
+        <targetForm>Zucchini</targetForm>
+      </error> gekauft. Aber wenn sie die Geld hat gegeben sie hat nicht die <correction>
+        <deletion><unreadable/></deletion>
+      </correction> Rechnung gebringt. <par/>Dann die Frau <entity>Maria</entity> <overwrite>
+        <over>ist</over>
+
+        <under>in</under>
+      </overwrite> in Supermarkt gegangen. <entity>Maria</entity> hat noch viele Dinge in ihre<correction>
+        <deletion>n</deletion>
+      </correction> Einkaufwagen gelegt. Die Börse von <entity>Maria</entity> war voll von <overwrite>
+        <over>O</over>
+
+        <under>o</under>
+      </overwrite>bst und Gemüse und wenn <entity>Maria</entity> <correction>
+        <insertion>ist</insertion>
+      </correction> neben die Kasse gekommen, die Kassiererin hat gefragt, wo <entity>Maria</entity> diese Obst und Gemüse gebracht hat. <par/><entity>Maria</entity> an<correction>
+        <insertion>t</insertion>
+      </correction>wortet<correction>
+        <deletion>e</deletion>
+      </correction>, dass sie die Obst und Gemüse in ein Obsthändler gekauft hat. Aber <correction>
+        <deletion>ei</deletion>
+
+        <insertion>sie</insertion>
+      </correction> hatte nicht die Rechnung. <correction>
+        <deletion>Als</deletion>
+
+        <insertion>So</insertion>
+      </correction> die Kassiererin sagt<correction>
+        <deletion><unreadable/></deletion>
+      </correction> <direct_speech>“O<overwrite>
+          <over>h</over>
+
+          <under><unreadable/></under>
+        </overwrite>, aber der <error>
+          <errorType/>
+
+          <originalForm>nexte</originalForm>
+
+          <targetForm>nächste</targetForm>
+        </error> <error>
+          <errorType/>
+
+          <originalForm>mall</originalForm>
+
+          <targetForm>Mal</targetForm>
+        </error> bringe die Kassenzettel.“</direct_speech> <palimpsest><closing>Viele Grüße</closing></palimpsest></exercise>
+
+    
+  </body>
+</kolipsi_document>

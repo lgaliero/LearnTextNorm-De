@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I41_GAV23ALI</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Liebe Anna,</greeting> <correction>
+        <deletion>wie get es di<unreadable/> letzte Woche</deletion>
+
+        <insertion>wie geht es dir? Mir geht es gut</insertion>
+      </correction> <correction>
+        <deletion>m</deletion>
+
+        <insertion>M</insertion>
+      </correction>eine Freundin Maria war letzte Woche einkaufen. Sie kaufte zuerst in einem Obst- und <error>
+        <errorType/>
+
+        <originalForm>Gemüselanden</originalForm>
+
+        <targetForm>Gemüseladen</targetForm>
+      </error> und dann in einem Supermarkt <correction>
+        <insertion>weil sie muss anderen <error>
+            <errorType/>
+
+            <originalForm>sachen</originalForm>
+
+            <targetForm>Sachen</targetForm>
+          </error> kaufen.</insertion>
+      </correction> In dem Supermarkt die <error>
+        <errorType/>
+
+        <originalForm>Verkauferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> sagt <correction>
+        <deletion>das,</deletion>
+      </correction> dass Maria <error>
+        <errorType/>
+
+        <originalForm>gestol<correction>
+            <deletion><unreadable/></deletion>
+
+            <insertion>e</insertion>
+          </correction>n</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hat. Maria kannt nicht den Kass<correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>enzettel</insertion>
+      </correction> zeigen, weil sie hat ihn im <error>
+        <errorType/>
+
+        <originalForm>Obst und Gemüselanden</originalForm>
+
+        <targetForm>Obst- und Gemüseladen</targetForm>
+      </error> vergessen. Die Verkäuferin telefoniert <correction>
+        <deletion>zu</deletion>
+      </correction> die Polizei. In <correction>
+        <deletion>eine zehn</deletion>
+      </correction> zehn Minuten <correction>
+        <insertion>kommt</insertion>
+      </correction> die Polizei <correction>
+        <deletion>kommt</deletion>
+      </correction>. Wenn <correction>
+        <insertion>komm<correction>
+            <deletion>en</deletion>
+
+            <insertion>t</insertion>
+          </correction></insertion>
+      </correction> die Polizei <correction>
+        <deletion>komm<correction>
+            <deletion>en<correction>
+                <insertion>t</insertion>
+              </correction></deletion>
+          </correction></deletion>
+      </correction> sie sperren <correction>
+        <deletion>sich</deletion>
+      </correction> ans Gefängnis. Anna <correction>
+        <deletion>nimmt</deletion>
+      </correction> nimmt einen guten Advokat so sie <correction>
+        <deletion>geht</deletion>
+      </correction> gewinnt <correction>
+        <insertion>sie den Fall</insertion>
+
+        <deletion>die Ka<unreadable/>se</deletion>
+      </correction> und geht nach Hause. </exercise>
+
+    
+  </body>
+</kolipsi_II_document>

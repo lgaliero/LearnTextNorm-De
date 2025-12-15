@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I19_DEE01FRA</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><correction>
+        <deletion>Hallo Giada,<par/>wie ghet es dir? Mir <correction>
+            <deletion>ghet</deletion>
+
+            <insertion>geht</insertion>
+          </correction> es gut.<par/>Heute war ich auf dem Supermarkt <correction>
+            <insertion>mit Maria</insertion>
+          </correction> und <correction>
+            <deletion>passiert</deletion>
+
+            <insertion>da ist</insertion>
+          </correction> etwas <correction>
+            <deletion><unreadable/> Seltsames passiert</deletion>
+          </correction> Seltsames passiert.<par/><correction>
+            <deletion>Sie</deletion>
+          </correction> Es gab ein Problem an <correction>
+            <deletion>die</deletion>
+
+            <insertion>der</insertion>
+          </correction> Kasse, weil <correction>
+            <insertion>die Kassiere dachte dass</insertion>
+          </correction> sie nicht <correction>
+            <deletion>fas Brot</deletion>
+
+            <insertion>die Banane</insertion>
+          </correction> bezhalen hat. Die Kassiererin wurde sie <correction>
+            <deletion>sich sehr ärgern</deletion>
+
+            <insertion>zornig</insertion>
+          </correction> und rufte die Polizei.<par/>Maria versuchte zu erkläre dass <correction>
+            <insertion>war nur</insertion>
+          </correction> ein Fehler <correction>
+            <deletion><unreadable/></deletion>
+
+            <insertion>war</insertion>
+          </correction>, und dass sie <correction>
+            <insertion>die Banane eine Stunde <correction>
+                <deletion>vor</deletion>
+
+                <insertion>vor</insertion>
+              </correction> gekaufen hatte.</insertion>
+
+            <deletion>das Brot zählen würde</deletion>
+          </correction> Die Kassiererin wollte es nicht wissen und wenn die Polizei <correction>
+            <deletion>kommte</deletion>
+          </correction> kam, <correction>
+            <deletion>bring<unreadable/>e</deletion>
+
+            <insertion>brachte</insertion>
+          </correction> sie <correction>
+            <insertion>sie</insertion>
+          </correction> in das Gefängnis.<par/>Hier k<correction>
+            <deletion>ö</deletion>
+
+            <insertion>o</insertion>
+          </correction>nnte sie <correction>
+            <insertion>alles</insertion>
+          </correction> erklären <correction>
+            <deletion>un die zeigte sie</deletion>
+          </correction> und suchte den Kassazettel, aber sie hatte es ihn verloren!<par/>Glücklicherweise fande ich, in meiner Tasche, <correction>
+            <deletion>seine</deletion>
+
+            <insertion>ihren</insertion>
+          </correction> Kassazettel und so <correction>
+            <insertion>konnte</insertion>
+          </correction> Maria <correction>
+            <deletion>konnte</deletion>
+          </correction> nach Hause <correction>
+            <insertion>züruck</insertion>
+          </correction> gehen.<par/><correction>
+            <deletion>Heute</deletion>
+          </correction> Und was passierte dir? Hast du <correction>
+            <deletion>die</deletion>
+
+            <insertion>den</insertion>
+          </correction> <correction>
+            <deletion>d</deletion>
+
+            <insertion>D</insertion>
+          </correction>eutsche<correction>
+            <deletion> </deletion>
+          </correction>Unterrict <correction>
+            <deletion>gemacht?</deletion>
+          </correction> gehab<par/>Ich hoffe, dass dein<correction>
+            <deletion>e</deletion>
+          </correction> Tag besser verlaufen ist als meiner.</deletion>
+      </correction> <par/> <par/> <greeting>Hallo Giada,</greeting><par/>wie geht es dir? Mir geht es gut.<par/><error>
+        <errorType/>
+
+        <originalForm>Heuete</originalForm>
+
+        <targetForm>Heute</targetForm>
+      </error> war ich auf dem Supermarkt mit Maria und da ist etwas Seltsames passier.<par/>Es gab ein Problem an der Kasse, weil die <correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>K</insertion>
+      </correction>assiere dachte dass <correction>
+        <deletion><unreadable/></deletion>
+      </correction> sie nicht die Banane bezahlen hat.<par/>Die Kassiererin wurde sie zornig und rufte die Polizei. Maria versucht zu erkläre dass es nur ein Fehler war, und dass sie die Banane eine <correction>
+        <deletion>s</deletion>
+      </correction> Stunde vor gekaufen hatte.<par/>Die Kassiererin wollte es nicht wissen und wenn die Polizei kam, brachte sie sie ins Gefängnis. <par/> Hier konnte sie alles erklären und suchte den Kassazettel aber sie hatte es ihn verloren!<par/><error>
+        <errorType/>
+
+        <originalForm>Glucklicherweise</originalForm>
+
+        <targetForm>Glücklicherweise</targetForm>
+      </error> fande ich, in meiner Tasche, ihren Kassazettel und so konnte Maria nach Hause <error>
+        <errorType/>
+
+        <originalForm>züruckgehen</originalForm>
+
+        <targetForm>zurückgehen</targetForm>
+      </error>.<par/>Und was passierte dir? Hast du den Deutscheunterricht gehabt?<par/>Ich hoffe, dass dein Tag besser verlaufen ist als meiner.<par/><closing>Viele Grunde,</closing> Franca</exercise>
+
+    
+  </body>
+</kolipsi_II_document>

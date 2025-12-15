@@ -1,0 +1,40 @@
+<body>
+ <page page_number="1" transcanno_page_id="2503">
+  <paragraph class="medium-paragraph" tagcode="1578999236750">
+   <div>
+    Hallo, ich bin
+    <tran_anonymization_id34 class="medium-tran_anonymization_id34" tagcode="1578999236749">
+     Forename
+    </tran_anonymization_id34>
+    .
+   </div>
+  </paragraph>
+  <paragraph class="medium-paragraph" tagcode="1578999236751">
+   <div>
+    Nach der Mittelschule ich
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="möchte" tagcode="1553064749151">
+     <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1553064758652" tran_correction_original="Möchtest">
+      Möchte
+     </tran_word_correction_id25>
+    </orth_error_id12>
+    der ITE.
+   </div>
+   <div>
+    Meine Traumberuf ist
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="mache" tagcode="1553064909726">
+     mäche
+    </orth_error_id12>
+    Bankangestellter.
+   </div>
+   <div>
+    Nach ITE ich glaube mache der
+    <tran_ambiguous_id3 class="medium-tran_ambiguous_id3" tagcode="1553064818730" tran_alternative_1="Universitet" tran_alternative_2="Universitat">
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Universität" tagcode="1553064866139">
+      Universitet
+     </orth_error_id12>
+    </tran_ambiguous_id3>
+    .
+   </div>
+  </paragraph>
+ </page>
+</body>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_II_document xsi:schemaLocation="http://www.eurac.edu/kolipsi_II kolipsi_II.xsd"
+                     xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I37_PAS26MIR</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting><greeting>Liebe Anna,</greeting></greeting><par /><error>
+        <errorType />
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> schreibe dir um eine Geschichte die <correction>
+        <deletion>einer Frau<correction>
+            <deletion><correction>
+                <insertion>mei an</insertion>
+              </correction></deletion>
+
+            <insertion>an meiner Freundin</insertion>
+          </correction></deletion>
+      </correction> passiert ist. <correction>
+        <deletion>Sie <unreadable /></deletion>
+      </correction> Sie heißt Maria und <correction>
+        <deletion>sie</deletion>
+      </correction> letzte Woche war sie einkaufen. Sie kaufte zuerst in einem Obst- und Gemüseladen ein. Eine Stunde später war sie im Supermarkt. Wenn sie an der Kasse war, gab es ein Problem: <error>
+        <errorType />
+
+        <originalForm>die</originalForm>
+
+        <targetForm>Die</targetForm>
+      </error> Frau war an der <correction>
+        <deletion>c</deletion>
+
+        <insertion>K</insertion>
+      </correction>asse glaubte <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> Maria <correction>
+        <deletion><unreadable /></deletion>
+      </correction> die Obst und die Gemüse <correction>
+        <deletion>gestn</deletion>
+      </correction> gestehlt <correction>
+        <deletion>a</deletion>
+      </correction> hätte, weil <correction>
+        <deletion>die Frau</deletion>
+      </correction> sie wusste nicht <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> Maria zuerst in dem Obst- und Gemüseladen war. Die <correction>
+        <deletion>Jun<unreadable /></deletion>
+      </correction> junge Mädchen sagte <correction>
+        <deletion><unreadable /> zu M das<unreadable /></deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> Maria große Problemen haben wurde, wenn sie nicht das Obst und die Gemüse wiedergeben hätte! Maria probierte mit de<correction>
+        <deletion>m</deletion>
+
+        <insertion>r</insertion>
+      </correction> Frau zu sprechen, aber sie <correction>
+        <deletion>h</deletion>
+      </correction> hörte nichts und rief den Direktor des Supermarkts. Wenn er kam, Maria konnte endlich ihre Problem erzählen. Der Direktor<correction>
+        <deletion>, versteht alles, und</deletion>
+      </correction> wollte die <correction>
+        <deletion>Papier</deletion>
+      </correction> Skontrinen sehen, und <correction>
+        <deletion>nach</deletion>
+      </correction> danach versteht alles und <correction>
+        <deletion>entschuldigt sich mit Maria</deletion>
+      </correction> beide er und die <correction>
+        <deletion>F</deletion>
+      </correction> junge Frau entschuldigen mit ihn. Die Geschichte war sehr lustig, denkst du?<par /><closing>Liebe Grüße,</closing> Miranda</exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Liebe Paul,</greeting><par /><error>
+        <errorType />
+
+        <originalForm>Ich</originalForm>
+
+        <targetForm>ich</targetForm>
+      </error> habe deine Brief in der Zeitung <correction>
+        <deletion><unreadable /></deletion>
+      </correction> "Junge Woche" gelesen, und ich will etwas darum sagen.<par />Ich denke <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> virtuelle Freundschafte sind <correction>
+        <deletion><unreadable /> und</deletion>
+
+        <insertion>schön:</insertion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>du</originalForm>
+
+        <targetForm>Du</targetForm>
+      </error> kannst <correction>
+        <deletion>u</deletion>
+      </correction> mit ihn unterhalten und neue Freunde machen, aber es gibt auch etwas <error>
+        <errorType />
+
+        <originalForm>schlecht</originalForm>
+
+        <targetForm>Schlecht</targetForm>
+      </error>. Wenn du beginnst nur zu Hause zu bleiben, um <correction>
+        <deletion>an die</deletion>
+      </correction> mit dem Computer zu schreiben und <correction>
+        <deletion>sie</deletion>
+      </correction> gehst nicht mehr mit <correction>
+        <deletion>deine un</deletion>
+      </correction> die Freunde <correction>
+        <deletion>die du in deinem</deletion>
+
+        <insertion>deiner</insertion>
+      </correction> jedentagiger <correction>
+        <deletion><unreadable /></deletion>
+      </correction> Leben aus, dann gibt es ein Problem.<par />Ich denke<correction>
+        <deletion>,</deletion>
+      </correction>, <error>
+        <errorType />
+
+        <originalForm>dass</originalForm>
+
+        <targetForm>das</targetForm>
+      </error><correction>
+        <deletion>,</deletion>
+      </correction> was du gemacht hast <correction>
+        <deletion>ist</deletion>
+      </correction> falsch ist, weil du kannst nicht deine wirklichen Freunde verraten<correction>
+        <deletion>;,</deletion>
+      </correction>.<par />Meiner Meinung nach<correction>
+        <deletion><unreadable /></deletion>
+      </correction>, du <correction>
+        <deletion>m</deletion>
+      </correction> solltest mit deine virtuelle Freunde die Kontakte wiedernehmen, aber <correction>
+        <deletion><unreadable /></deletion>
+      </correction> nicht wie du<correction>
+        <deletion>e</deletion>
+      </correction> bis jetzt gemacht hast. Su solltest <correction>
+        <insertion>dem Internet</insertion>
+      </correction> einen Konfin geben, weil ich denke <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> deine Freunde sind nicht die virtuelle, aber die die in deinen Leben hast. <correction>
+        <deletion>, <unreadable /></deletion>
+      </correction><par />Ich habe vor zwei Jahre ein<correction>
+        <deletion>e</deletion>
+      </correction> Mädchen, die deine eigene Problem hatte; nach lange Zeit <correction>
+        <deletion>sie</deletion>
+      </correction> hat sie mit seinen virtuellen Freunden nur am Abend zu sprechen <correction>
+        <deletion>E</deletion>
+      </correction> entscheidet. <correction>
+        <deletion>Sie <unreadable /> gab mehr <unreadable /></deletion>
+      </correction><par /><closing>Liebe Grüße,</closing> Miranda</exercise>
+  </body>
+</kolipsi_II_document>

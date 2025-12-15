@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>5890</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting><palimpsest>unreadable</palimpsest> Guten Morgen <par/></greeting><par/>Die Freundin <entity>Maria</entity> kauf<palimpsest>te</palimpsest> die <error>
+        <errorType/>
+
+        <originalForm>Öbst</originalForm>
+
+        <targetForm>Obst</targetForm>
+      </error> und Gemüse.<par/><palimpsest>Später</palimpsest> ein Stunden w<overwrite>
+        <over>a</over>
+
+        <under><unreadable/></under>
+      </overwrite>r sie im <foreign_word foreign_language="Italiano">Supermarket</foreign_word>. <par/>Dort gab es ein Problem an der Kasse.<par/>Warum gab es <palimpsest>ein</palimpsest> Problem an der <overwrite>
+        <over>K</over>
+
+        <under>k</under>
+      </overwrite>asse? <par/><palimpsest><entity>Maria</entity> vergessen hatte in die <error>
+          <errorType/>
+
+          <originalForm>Obst</originalForm>
+
+          <targetForm>Obst-</targetForm>
+        </error></palimpsest> und Gemüseland die Kassenzette<overwrite>
+        <over>l</over>
+
+        <under>t</under>
+      </overwrite> und <correction>
+        <insertion>i</insertion>
+      </correction>m <foreign_word foreign_language="Italiano">Superma<overwrite>
+          <over>r</over>
+
+          <under><palimpsest>k</palimpsest></under>
+        </overwrite>ket</foreign_word> sie <par/>vergessen die Kassenzettel, aber die Freundi<overwrite>
+        <over>n</over>
+
+        <under><unreadable/></under>
+      </overwrite> <par/> / <par/> <palimpsest> </palimpsest> </exercise>
+
+    
+  </body>
+</kolipsi_document>

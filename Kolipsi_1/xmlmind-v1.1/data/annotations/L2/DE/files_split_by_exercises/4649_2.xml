@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>4649</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve">
+ <par/><greeting>Hallo <entity>Thomas</entity>,</greeting> <par/>wie geht es dir? Mir geht es gut. Ich weiß dass du <sic>weiß</sic> noch nicht ob <correction>
+        <insertion>wir</insertion>
+      </correction> unsere Urlaub in die Berge oder ans <overwrite>
+        <under>m</under>
+
+        <over>M</over>
+      </overwrite>eer machen sollen. Wir <error>
+        <errorType/>
+
+        <originalForm>mussen</originalForm>
+
+        <targetForm>müssen</targetForm>
+      </error> uns schnell entscheiden, wenn wir in die Berge gehen wir haben viele frische Luft und grüne Wiese; viele kleinen Stadt aber es kann sehr kalt sein. Wenn wir ans Meer gehen können wir die Sonne nehmen und ins Meer schwimmen aber es kann zu warm sei. Es ist eine schwierig <error>
+        <errorType/>
+
+        <originalForm>entscheidung</originalForm>
+
+        <targetForm>Entscheidung</targetForm>
+      </error> weil sind zwei <error>
+        <errorType/>
+
+        <originalForm>wunderschone</originalForm>
+
+        <targetForm>wunderschöne</targetForm>
+      </error> Plätze. Mir gefällt mehr das Meer weil ich liebe die Sonne nehmen und viele schwimmen. Ich liebe auch Fisch zu essen und immer mit warme Temperatur sein. Wo willst du am liebsten gehen? Ich denke dass wir <error>
+        <errorType/>
+
+        <originalForm>mussen</originalForm>
+
+        <targetForm>müssen</targetForm>
+      </error> ans Meer gehen weil wi<correction>
+        <deletion><unreadable/></deletion>
+
+        <insertion>r</insertion>
+      </correction> in <entity>Südtirol</entity> <error>
+        <errorType/>
+
+        <originalForm>Leben</originalForm>
+
+        <targetForm>leben</targetForm>
+      </error>. Wir sehen die Berge jeden Tag. Du kannst noch ein <error>
+        <errorType/>
+
+        <originalForm>Paar</originalForm>
+
+        <targetForm>paar</targetForm>
+      </error> Woche denken. Ich warte auf deine <error>
+        <errorType/>
+
+        <originalForm>antwort</originalForm>
+
+        <targetForm>Antwort</targetForm>
+      </error>. <closing>Bis bald und tschüss<par/><entity>Dennis</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

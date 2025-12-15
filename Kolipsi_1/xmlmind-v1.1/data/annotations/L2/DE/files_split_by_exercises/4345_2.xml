@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_document xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd">
+  <transcriber>Romy</transcriber>
+
+  <author_id>4345</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Liebe <entity>Petra</entity> </greeting> <par/>Diese Jahr <correction>
+        <deletion><unreadable/></deletion>
+      </correction> kommen die Ferien bald. <error>
+        <errorType/>
+
+        <originalForm>Zur Zeit</originalForm>
+
+        <targetForm>Zurzeit</targetForm>
+      </error> bin ich auf dem <entity>Ritten,</entity> in meinem Haus. Bei mir die <error>
+        <errorType/>
+
+        <originalForm>Temteratur</originalForm>
+
+        <targetForm>Temperatur</targetForm>
+      </error> ist nicht gur für ein Urlaub. Vorgestern hat den ganzen Tag geregnet und <error>
+        <errorType/>
+
+        <originalForm>Jetzt</originalForm>
+
+        <targetForm>jetzt</targetForm>
+      </error> das Wetter ist noch nicht gut und es ist kalt <error>
+        <errorType/>
+
+        <originalForm>fur</originalForm>
+
+        <targetForm>für</targetForm>
+      </error> diese Ja<overwrite>
+        <over>h</over>
+
+        <under>r</under>
+      </overwrite>reszeit. Es ist ein <correction>
+        <deletion><unreadable/></deletion>
+      </correction> Signal, wir muss auf <entity>Sharm el Sheik</entity> <error>
+        <errorType/>
+
+        <originalForm>zuruckkommen</originalForm>
+
+        <targetForm>zurückkommen</targetForm>
+      </error><overwrite>
+        <over>,</over>
+
+        <under>.</under>
+      </overwrite> wie in die Faschingsferien, erinnerst du? <correction>
+        <deletion><unreadable/></deletion>
+      </correction> Die lange <error>
+        <errorType/>
+
+        <originalForm>slaziergang</originalForm>
+
+        <targetForm>Spaziergang</targetForm>
+      </error> auf die <error>
+        <errorType/>
+
+        <originalForm>weise</originalForm>
+
+        <targetForm>weiße</targetForm>
+      </error> Strand, das rote Meer, das <foreign_word foreign_language="Italiano">Reef</foreign_word>. Ich <error>
+        <errorType/>
+
+        <originalForm>weis</originalForm>
+
+        <targetForm>weiß</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>daß</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> du nicht ablehnen wird. <correction>
+        <deletion><unreadable/></deletion>
+      </correction> <palimpsest><entity>Ägypten</entity></palimpsest> ist die beste<palimpsest>,</palimpsest> ist der Platz wo <palimpsest>wir</palimpsest> kennengelernt sind! In diese Zeit eine Urlaub auf die Berge <correction>
+        <deletion><unreadable/></deletion>
+      </correction> keinen <overwrite>
+        <over>S</over>
+
+        <under>s</under>
+      </overwrite>inn hat! So habe ich die <error>
+        <errorType/>
+
+        <originalForm>flugkarte</originalForm>
+
+        <targetForm>Flugkarte</targetForm>
+      </error> reserviert. Das Flugzeug <correction>
+        <deletion><unreadable/></deletion>
+      </correction> fliegen morgen ab! Jetzt fahre ich nach <entity>Bozen</entity> um den Rucksack zu packen. Ich liebe dich, sehen wir uns morgen.<par/><closing><error>
+          <errorType/>
+
+          <originalForm>viele</originalForm>
+
+          <targetForm>Viele</targetForm>
+        </error> <error>
+          <errorType/>
+
+          <originalForm><overwrite>
+              <over>G</over>
+
+              <under>g</under>
+            </overwrite>rü<overwrite>
+              <over>ss</over>
+
+              <under>se</under>
+            </overwrite>e</originalForm>
+
+          <targetForm>Grüße</targetForm>
+        </error> <par/> dein <entity>Michele</entity> </closing></exercise>
+  </body>
+</kolipsi_document>

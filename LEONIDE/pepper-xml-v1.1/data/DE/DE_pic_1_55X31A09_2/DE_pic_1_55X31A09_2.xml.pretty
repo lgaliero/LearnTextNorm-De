@@ -1,0 +1,78 @@
+<body>
+ <page page_number="1" transcanno_page_id="10">
+  <paragraph class="medium-paragraph" tagcode="1559054004168">
+   <div>
+    <tran_word_deletion_id8 class="medium-tran_word_deletion_id8" tagcode="1542424192811" tran_word_deletion_target="_#_">
+     D
+    </tran_word_deletion_id8>
+    Ins Haus ist Feuer. Der
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="brennt" tagcode="1542424372970">
+     brent
+    </orth_error_id12>
+    , der Vater nimmt
+   </div>
+   <div>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1559053806281">
+     sein
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Rucksack" tagcode="1559053869572">
+      rucksack
+     </orth_error_id12>
+     , sein
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Ball" tagcode="1559053879362">
+      <tran_word_correction_id25 class="medium-tran_word_correction_id25" tagcode="1559053937577" tran_correction_original="pall">
+       ball
+      </tran_word_correction_id25>
+     </orth_error_id12>
+     und sein
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Pferdspiel" tagcode="1559053909252">
+      pferd spiel
+     </orth_error_id12>
+     .
+    </tran_word_insertion_id9>
+    seine besten Sachen mit. Der Vater ist schlau aber
+   </div>
+   <div>
+    der junge ist noch schlauer.
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1542424219900">
+     wahrend der Vater weg ist
+    </tran_word_insertion_id9>
+    <tran_unreadable_id17 class="medium-tran_unreadable_id17" tagcode="1542424227949">
+     *
+    </tran_unreadable_id17>
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="nimmt" tagcode="1542424343559">
+     nimt
+    </orth_error_id12>
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1542424237250">
+     er
+    </tran_word_insertion_id9>
+    sein
+    <tran_word_insertion_id9 class="medium-tran_word_insertion_id9" tagcode="1559053975325">
+     Er
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="nimmt" tagcode="1559053983823">
+      nimt
+     </orth_error_id12>
+     seine
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="Schulsachen" tagcode="1559053992456">
+      schulsachen
+     </orth_error_id12>
+     und
+     <orth_error_id12 class="medium-orth_error_id12" orth_error_target="schmeißt" tagcode="1559054004167">
+      schmeist
+     </orth_error_id12>
+     es ins Feuer.
+    </tran_word_insertion_id9>
+    Diktat
+   </div>
+   <div>
+    und wirft es ins Feuer rein. Der Vater
+    <orth_error_id12 class="medium-orth_error_id12" orth_error_target="sieht" tagcode="1542424248268">
+     siht
+    </orth_error_id12>
+    es aber
+   </div>
+   <div>
+    geht er weiter.
+   </div>
+  </paragraph>
+ </page>
+</body>

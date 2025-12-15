@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I14_VIS31EMA</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><comment>Die Person verwechselt Groß- und Kleinschreibung. Es ist nicht klar, nach welchem Prinzip</comment><par/><greeting>Hallo Daniel.</greeting><par/>Wie <error>
+        <errorType/>
+
+        <originalForm>get</originalForm>
+
+        <targetForm>geht</targetForm>
+      </error> es sich?<par/>Ich <error>
+        <errorType/>
+
+        <originalForm>abe</originalForm>
+
+        <targetForm>habe</targetForm>
+      </error> diese <error>
+        <errorType/>
+
+        <originalForm>emelil</originalForm>
+
+        <targetForm>E-Mail</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>gescribt</originalForm>
+
+        <targetForm>geschriebt</targetForm>
+      </error>, <error>
+        <errorType/>
+
+        <originalForm>gescribt</originalForm>
+
+        <targetForm>geschriebt</targetForm>
+      </error> meine Freundin <error>
+        <errorType/>
+
+        <originalForm>aht</originalForm>
+
+        <targetForm>hat</targetForm>
+      </error> ein Problem von d<correction>
+        <deletion>e</deletion>
+      </correction>er Kasse.<par/><correction>
+        <deletion>M</deletion>
+      </correction> Sie ging von den <correction>
+        <insertion>Obstmarket</insertion>
+
+        <deletion>Marken</deletion>
+      </correction>, sie kaufte ein <error>
+        <errorType/>
+
+        <originalForm>pisien</originalForm>
+
+        <targetForm>bisschen</targetForm>
+      </error> von Obst und <error>
+        <errorType/>
+
+        <originalForm>Gemus</originalForm>
+
+        <targetForm>gemüse</targetForm>
+      </error>, nach sie gingt von eine <error>
+        <errorType/>
+
+        <originalForm>Bekar</originalForm>
+
+        <targetForm>Bäcker</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>vur</originalForm>
+
+        <targetForm>für</targetForm>
+      </error> <correction>
+        <deletion>kauf eine <unreadable/> Brot</deletion>
+      </correction> viele Brot gekaufen. Nach sie <error>
+        <errorType/>
+
+        <originalForm>gaing</originalForm>
+
+        <targetForm>ging</targetForm>
+      </error> <error>
+        <errorType/>
+
+        <originalForm>vur</originalForm>
+
+        <targetForm>für</targetForm>
+      </error> eine <foreign_word foreign_language="Italiano">Supermarket</foreign_word>, <error>
+        <errorType/>
+
+        <originalForm>ven</originalForm>
+
+        <targetForm>wenn</targetForm>
+      </error> sie fand von die Kasse die <correction>
+        <insertion><error>
+            <errorType/>
+
+            <originalForm>Verkoifer</originalForm>
+
+            <targetForm>Verkäufer</targetForm>
+          </error></insertion>
+      </correction> <correction>
+        <deletion>denken</deletion>
+      </correction> <error>
+        <errorType/>
+
+        <originalForm>dankt</originalForm>
+
+        <targetForm>denkt</targetForm>
+      </error> die Maria hat <correction>
+        <insertion><error>
+            <errorType/>
+
+            <originalForm>zehlen</originalForm>
+
+            <targetForm>zahlen</targetForm>
+          </error></insertion>
+      </correction> die <error>
+        <errorType/>
+
+        <originalForm>Borot</originalForm>
+
+        <targetForm>Brot</targetForm>
+      </error>, Maria macht sprechen <correction>
+        <insertion>sie</insertion>
+      </correction> aber <error>
+        <errorType/>
+
+        <originalForm>her</originalForm>
+
+        <targetForm>er</targetForm>
+      </error> hat verlore den Kassenzettel.<par/>Die <correction>
+        <insertion><error>
+            <errorType/>
+
+            <originalForm>Ferkoifer</originalForm>
+
+            <targetForm>Verkäufer</targetForm>
+          </error></insertion>
+      </correction> ruf den <error>
+        <errorType/>
+
+        <originalForm>Polizai</originalForm>
+
+        <targetForm>Polizei</targetForm>
+      </error>. Sie <error>
+        <errorType/>
+
+        <originalForm>kom</originalForm>
+
+        <targetForm>komm</targetForm>
+      </error> und <correction>
+        <deletion>sprachen</deletion>
+      </correction> haben mit Maria gesprochen.<par/>Die <error>
+        <errorType/>
+
+        <originalForm>Polizai</originalForm>
+
+        <targetForm>Polizei</targetForm>
+      </error> ruft<correction>
+        <deletion>n</deletion>
+      </correction> den <error>
+        <errorType/>
+
+        <originalForm>Beker</originalForm>
+
+        <targetForm>Bäcker</targetForm>
+      </error> und spechen mit <error>
+        <errorType/>
+
+        <originalForm>in</originalForm>
+
+        <targetForm>ihn</targetForm>
+      </error>. Er sagt die Maria hat <correction>
+        <deletion>ve<unreadable/>en</deletion>
+      </correction> die Kassenzettel <error>
+        <errorType/>
+
+        <originalForm>vergesen</originalForm>
+
+        <targetForm>vergessen</targetForm>
+      </error>. Am <error>
+        <errorType/>
+
+        <originalForm>ende</originalForm>
+
+        <targetForm>Ende</targetForm>
+      </error> von diese <error>
+        <errorType/>
+
+        <originalForm>Ghesichte</originalForm>
+
+        <targetForm>Geschichte</targetForm>
+      </error>, die <error>
+        <errorType/>
+
+        <originalForm>Ferkoifer</originalForm>
+
+        <targetForm>Verkäufer</targetForm>
+      </error> macht <error>
+        <errorType/>
+
+        <originalForm>enculgum</originalForm>
+
+        <targetForm>Entschuldigung</targetForm>
+      </error> und alle ist fertig.</exercise>
+
+    
+  </body>
+</kolipsi_II_document>

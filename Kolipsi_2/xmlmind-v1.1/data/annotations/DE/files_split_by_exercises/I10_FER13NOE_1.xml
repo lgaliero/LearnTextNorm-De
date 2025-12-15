@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I10_FER13NOE</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+      <exercise number="1" xml:space="preserve"><greeting>Liebe Ester,</greeting><par/>wie geht es dir? Mir gut, heute ist eine Sache passiert und jetzt w<correction>
+        <deletion>o</deletion>
+
+        <insertion>i</insertion>
+      </correction>ll ich dich erzählen.<par/>Erinnerst du dich Maria? Sie ist <correction>
+        <deletion><unreadable/></deletion>
+      </correction> mit mir nach <foreign_word foreign_language="English">Poland</foreign_word> gefahren... Heute ist sie in ein <foreign_word foreign_language="Italiano">Supermarket</foreign_word> gegangen <correction>
+        <deletion><unreadable/></deletion>
+      </correction> etwas zu einkaufen, sie hat bezahlt und sie ist wieder nach <error>
+        <errorType/>
+
+        <originalForm>hause</originalForm>
+
+        <targetForm>Hause</targetForm>
+      </error> gegangen. Dann sie ist in <foreign_word foreign_language="English">gym</foreign_word> gegangen <correction>
+        <deletion><unreadable/></deletion>
+      </correction> 2 Uhr nach, hat seine Mutter telefoniert und sie hat gefragt ob sie wieder in <foreign_word foreign_language="Italiano">Supermarket</foreign_word> geht weil sie hat das Milch vergessen. Maria ist gegangen aber früh hat sie die Kassenzettel verloren, sie hat das <error>
+        <errorType/>
+
+        <originalForm>rest</originalForm>
+
+        <targetForm>Rest</targetForm>
+      </error> in der <error>
+        <errorType/>
+
+        <originalForm>rucksack</originalForm>
+
+        <targetForm>Rucksack</targetForm>
+      </error> und die <error>
+        <errorType/>
+
+        <originalForm>Verkauferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> hat sie <error>
+        <errorType/>
+
+        <originalForm>gefrackt</originalForm>
+
+        <targetForm>gefragt</targetForm>
+      </error> der Kassenzettel aber sie hat es nicht. <correction>
+        <deletion>Sie</deletion>
+      </correction> Maria hat erzählt dass <correction>
+        <deletion>die</deletion>
+      </correction> der Kassenzettel verlor hat. Die <error>
+        <errorType/>
+
+        <originalForm>Verkauferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> glaub es nicht und sie denkt <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> Maria hat <error>
+        <errorType/>
+
+        <originalForm>nich</originalForm>
+
+        <targetForm>nicht</targetForm>
+      </error> bezahlt.<par/>Maria konnte es nicht glauben, und sie hat das Milch in der <foreign_word foreign_language="Italiano">Supermarket</foreign_word> gelasst. Für mich ist es nicht möglich! <correction>
+        <deletion>Als</deletion>
+      </correction> Die arme Maria ist wieder zu <error>
+        <errorType/>
+
+        <originalForm>hause</originalForm>
+
+        <targetForm>Hause</targetForm>
+      </error> gegangen, und sie hat alles an seine Mutter erzählt. <correction>
+        <deletion><unreadable/></deletion>
+      </correction> Die Mutter ist in <foreign_word foreign_language="Italiano">Supermarket</foreign_word> gegangen, und jetzt ist alle in Ornung.<par/>Komisch <error>
+        <errorType/>
+
+        <originalForm>gel</originalForm>
+
+        <targetForm>gell</targetForm>
+      </error>? Ich <error>
+        <errorType/>
+
+        <originalForm>wunsche</originalForm>
+
+        <targetForm>wünsche</targetForm>
+      </error> dass du mir wieder schreibst.<par/><closing>Viele Grüße, ein Bussi</closing><par/>Elisa</exercise>
+
+    
+  </body>
+</kolipsi_II_document>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>5031</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><par /><greeting>Hallo <entity>Sarah</entity>!</greeting> <par />Wie <error>
+        <errorType />
+
+        <originalForm>get</originalForm>
+
+        <targetForm>geht</targetForm>
+      </error> es dir? Mir get es gut. Heute bin ich mit <entity>Maria</entity> in einem <palimpsest>Obst- und Gem</palimpsest>üse<correction>
+        <insertion>laden,</insertion>
+      </correction> für Gemüse kaufen gegangen. <palimpsest>Sie</palimpsest> hat Tomaten, <error>
+        <errorType />
+
+        <originalForm>Pomme</originalForm>
+
+        <targetForm>Pommes</targetForm>
+      </error> und Bananen gekauft. Danach hat sie gezahl und ist mit die Gemüse in <palimpsest>das</palimpsest> Sack <error>
+        <errorType />
+
+        <originalForm><palimpsest>weg g</palimpsest>egangen</originalForm>
+
+        <targetForm>weggegangen</targetForm>
+      </error>. <par />Eine <palimpsest>S</palimpsest>tunde später ist sie im <foreign_word
+        foreign_language="Italiano">Supermarket</foreign_word> gegangen. Sie hat Milch und Brot gekauft, und wenn sie an der Kasse geht, die <error>
+        <errorType />
+
+        <originalForm>Kasserin</originalForm>
+
+        <targetForm>Kassiererin</targetForm>
+      </error> sieht die Gemüse in das Sack und sagt ihr, dass sie eine <error>
+        <errorType />
+
+        <originalForm>Reuberin</originalForm>
+
+        <targetForm>Räuberin</targetForm>
+      </error> ist. Sie entschuldigte sie und <error>
+        <errorType />
+
+        <originalForm>erzahlt</originalForm>
+
+        <targetForm>erzählt</targetForm>
+      </error> ihr, dass sie im <palimpsest>Obst</palimpsest>- und Gemüseladen gekauft hat. <par />An der <error>
+        <errorType />
+
+        <originalForm>ende</originalForm>
+
+        <targetForm>Ende</targetForm>
+      </error> <entity>Maria</entity> hat die Gemüse im <foreign_word
+        foreign_language="Italiano">Supermarket</foreign_word> wieder gezahlt... Es war so lustig wenn sei mir erz<strikeover>
+        <expansion>ä</expansion>
+
+        <expansion>e</expansion>
+      </strikeover>hlt hat...! <par />Ich warte deine <error>
+        <errorType />
+
+        <originalForm>antworte</originalForm>
+
+        <targetForm>Antworte</targetForm>
+      </error>! <palimpsest>unreadable</palimpsest> <par />Sehen wir morgen, ob du wieder in der Schule kommst. <par /><closing><error>
+          <errorType />
+
+          <originalForm>viele grüße</originalForm>
+
+          <targetForm>Viele Grüße</targetForm>
+        </error> <par /> <entity>Roberta</entity> </closing> </exercise>
+
+    <exercise number="2" xml:space="preserve"><par /><greeting>Liebe <entity>Francesca</entity>,</greeting> <par />wie geht es dir? Mir geht es <error>
+        <errorType />
+
+        <originalForm>zimmlich</originalForm>
+
+        <targetForm>ziemlich</targetForm>
+      </error> gut... Ich schr<correction>
+        <deletion><unreadable /></deletion>
+
+        <insertion>e</insertion>
+      </correction>ibe dich weil ich bin <error>
+        <errorType />
+
+        <originalForm>nich</originalForm>
+
+        <targetForm>nicht</targetForm>
+      </error> sicher, ob wir in die Berge oder ans Meer fahren soll<palimpsest>ten.</palimpsest> So will ich dass du sagst mir wohin <palimpsest>du fahren willst</palimpsest> <par />Die erste Möglichkeit is eine U<palimpsest>rl</palimpsest>aub in die Berge, es ist <error>
+        <errorType />
+
+        <originalForm>warscheinlich</originalForm>
+
+        <targetForm>wahrscheinlich</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>schon</originalForm>
+
+        <targetForm>schön</targetForm>
+      </error>, das Wetter ist ein <error>
+        <errorType />
+
+        <originalForm>bischen</originalForm>
+
+        <targetForm>bisschen</targetForm>
+      </error> kalt aber wir <error>
+        <errorType />
+
+        <originalForm>konn<palimpsest>e</palimpsest>n</originalForm>
+
+        <targetForm>können</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>ski</originalForm>
+
+        <targetForm>Ski</targetForm>
+      </error> fahren. <par />Diese Urlaub kostet 600 <error>
+        <errorType />
+
+        <originalForm>euro</originalForm>
+
+        <targetForm>Euro</targetForm>
+      </error> für 2 Wochen aber das Hotel hat auch eine <error>
+        <errorType />
+
+        <originalForm>Schwummbad</originalForm>
+
+        <targetForm>Schwimmbad</targetForm>
+      </error>, <palimpsest>und</palimpsest> das <error>
+        <errorType />
+
+        <originalForm>Resteurant</originalForm>
+
+        <targetForm>Restaurant</targetForm>
+      </error>, es ist <error>
+        <errorType />
+
+        <originalForm>all inclusive</originalForm>
+
+        <targetForm>all-inclusive</targetForm>
+      </error> Die zweite Möglichkeit ist eine <error>
+        <errorType />
+
+        <originalForm>Uraub</originalForm>
+
+        <targetForm>Urlaub</targetForm>
+      </error> ans Meer, es ist sehr schön, das Sand ist klein, und das Wetter ist sehr <error>
+        <errorType />
+
+        <originalForm><palimpsest>heis</palimpsest></originalForm>
+
+        <targetForm>heiß</targetForm>
+      </error>.<par />Dieses Urlaub kostet 1000 <error>
+        <errorType />
+
+        <originalForm>euro</originalForm>
+
+        <targetForm>Euro</targetForm>
+      </error> immer für 2 Wochen aber für dieses Urlaub brauchen wir das Flugzeug. Das Esse müssen wir extra zahlen, und dieses Hotel hat nicht eine <error>
+        <errorType />
+
+        <originalForm>Schwummbad</originalForm>
+
+        <targetForm>Schwimmbad</targetForm>
+      </error> aber das Meer ist <error>
+        <errorType />
+
+        <originalForm>das <palimpsest>selbe</palimpsest></originalForm>
+
+        <targetForm>dasselbe</targetForm>
+      </error><palimpsest>.</palimpsest> <par />Ich <error>
+        <errorType />
+
+        <originalForm>weise</originalForm>
+
+        <targetForm>weiße</targetForm>
+      </error> nicht was das besten ist, ich warte deine <error>
+        <errorType />
+
+        <originalForm>antworte</originalForm>
+
+        <targetForm>Antworte</targetForm>
+      </error>, für mich ist egal, mir gefalle beide! <par /> <closing>Bis bald! <par /><error>
+          <errorType />
+
+          <originalForm>viele grüße</originalForm>
+
+          <targetForm>Viele Grüße</targetForm>
+        </error>, <par /><error>
+          <errorType />
+
+          <originalForm>küßen</originalForm>
+
+          <targetForm>Küssen</targetForm>
+        </error> <entity>Roberta</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

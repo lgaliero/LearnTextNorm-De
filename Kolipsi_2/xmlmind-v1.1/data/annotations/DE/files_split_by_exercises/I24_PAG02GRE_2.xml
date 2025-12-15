@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolipsi_II_document xmlns="http://www.eurac.edu/kolipsi_II"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:ns="http://www.eurac.edu/kolipsi_II"
+                     xsi:schemaLocation="http://www.eurac.edu/kolipsi_II file:kolipsi_II.xsd">
+  <transcriber>Anna</transcriber>
+
+  <author_id>I24_PAG02GRE</author_id>
+
+  <exam_type>Kolipsi II</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    
+
+      <exercise number="2" xml:space="preserve"><greeting>Hallo Paul,</greeting><par/><correction>
+        <deletion>I</deletion>
+      </correction> ich habe deinen <error>
+        <errorType/>
+
+        <originalForm>e-Mail</originalForm>
+
+        <targetForm>E-Mail</targetForm>
+      </error> <correction>
+        <insertion>heute</insertion>
+      </correction> gelesen.<par/><correction>
+        <deletion>Ich habe viele Dingen zu dir <unreadable/> zu</deletion>
+      </correction> Ich muss dich viele Dingen <correction>
+        <deletion>zu</deletion>
+      </correction> sagen.<par/>Ich finde <error>
+        <errorType/>
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> <correction>
+        <deletion>Virt</deletion>
+      </correction> virtuellen Freundschaften sind nicht eine gute Idee, weil sie oft <correction>
+        <deletion>s</deletion>
+      </correction> falsch sind. Du<correction>
+        <deletion><unreadable/></deletion>
+      </correction> kennst nicht die Menschen an den andere Seite des Computers und es wurde gefährlich sein.<par/>Ich bin der Meinung, dass du benützte kein Internet <correction>
+        <deletion>zu</deletion>
+
+        <insertion>für</insertion>
+      </correction> Menschen zu kennen. Könntest du auch zu einem Kurs <correction>
+        <deletion>z<unreadable/></deletion>
+      </correction> gehen (Sportliches- oder Sprachigeskurs) ob  Personen zu kennen!<par/><correction>
+        <deletion>Du</deletion>
+      </correction><par/>Du musst nicht traurig sein ob du keinen Freunden habest, <correction>
+        <deletion><unreadable/></deletion>
+      </correction> weil die Familie ist <correction>
+        <deletion>meh</deletion>
+      </correction> wichtigster als Freundschaft.<par/><closing>Viele Grüßen</closing><par/>Greta</exercise>
+  </body>
+</kolipsi_II_document>

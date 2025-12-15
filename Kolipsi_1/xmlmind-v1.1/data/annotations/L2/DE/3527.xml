@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>3527</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><par /><greeting>Liebe <entity>Federica</entity>,</greeting> <par />wie geht es dir? Ich hoffe gut. Es ist schon langer, dass wir uns nicht hören und es sind eigene Sachen passiert. <par />Ich will dir eine Sache erzählen, die vor eigene Tagen passiert ist. <entity>Maria</entity> ging letzten Donnerstag in ein Geschäft um Gemüse zu kaufen. Als sie die Geschäft <error>
+        <errorType />
+
+        <originalForm>verlasen</originalForm>
+
+        <targetForm>verlassen</targetForm>
+      </error> hat und auf dem Weg nach Hause war, fiel ihr ein, dass sie vergessen hat Obst zu kaufen. <par />Dann sie ist in einem <foreign_word
+        foreign_language="Italiano">Supermarket</foreign_word> gegangen um das Obst zu kaufen. Als sie zu Kasse war, fiel der <error>
+        <errorType />
+
+        <originalForm>Verkäferin</originalForm>
+
+        <targetForm>Verkäuferin</targetForm>
+      </error> das Gemüse in ih<overwrite>
+        <under>e</under>
+
+        <over>r</over>
+      </overwrite>e Tasche. <par />D<strikeover>
+        <expansion>ie</expansion>
+
+        <expansion>er</expansion>
+      </strikeover> Verkä<overwrite>
+        <under><unreadable /></under>
+
+        <over>u</over>
+      </overwrite>ferin war sehr unangenehm, weil die anderen Kunden <error>
+        <errorType />
+
+        <originalForm>drum <strikeover>
+            <expansion>s</expansion>
+
+            <expansion>h</expansion>
+          </strikeover>erum</originalForm>
+
+        <targetForm>drumherum</targetForm>
+      </error> standen un<overwrite>
+        <under><unreadable /></under>
+
+        <over>d</over>
+      </overwrite> gesehen, was passiert ist. <par />Die Verkäuferin sagte dass <entity>Maria</entity> die Gemüse gestohlen hatte, aber sie sagte dass <correction>
+        <deletion>di</deletion>
+      </correction> sie die Gemüse in einem anderen <error>
+        <errorType />
+
+        <originalForm>geschäft</originalForm>
+
+        <targetForm>Geschäft</targetForm>
+      </error> gekauft hatte. Zum Glück, <entity>Maria</entity> den Schein h<overwrite>
+        <under><unreadable /></under>
+
+        <over>a</over>
+      </overwrite>tte, so sie konnte beweisen, dass es nichts <error>
+        <errorType />
+
+        <originalForm>gestholen</originalForm>
+
+        <targetForm>gestohlen</targetForm>
+      </error> hatte! <par />Was ist dir <correction>
+        <deletion><unreadable /></deletion>
+      </correction> in den letzten Tagen passiert? <par />Schreib schnell zurück!!<par /> <closing><correction>
+          <deletion><unreadable /></deletion>
+        </correction> <entity>Claudia</entity> </closing> </exercise>
+
+    <exercise number="2" xml:space="preserve"><par /><greeting>Hallo <entity>Daniela</entity>!</greeting> <par />Wie geht es dir? Ich wollte dir immer schreiben, aber ich hatte keine Zeit. <par />Die Schule ist vorbei und es <error>
+        <errorType />
+
+        <originalForm>zei<overwrite>
+            <under>n</under>
+
+            <over>t</over>
+          </overwrite></originalForm>
+
+        <targetForm>Zeit</targetForm>
+      </error> von Urlaub!!! <par />Das einzige Problem ist, dass meine Eltern und ich nicht entscheiden können, ob wir in den Bergen oder ans Meer fahren. <par />Es sind beide sehr schöne Plätze, wo man sich entspannen die Natur <foreign_word
+        foreign_language="English"><strikeover>
+          <expansion>u</expansion>
+
+          <expansion>a</expansion>
+        </strikeover>nd</foreign_word> die Ruhe <error>
+        <errorType />
+
+        <originalForm>geniessen</originalForm>
+
+        <targetForm>genießen</targetForm>
+      </error> kann weit weg von der Stadt. <correction>
+        <deletion><unreadable /></deletion>
+      </correction>Hinzu an diesem Plätzen wie diese neue Leute kennen lernen. <correction>
+        <deletion>und</deletion>
+      </correction> <par />Der Unterschied ist nur, dass es in den Bergen keine Unterhaltung und keine Geschäft gibt. Am Meer hat man die <error>
+        <errorType />
+
+        <originalForm>Moglichkeiten</originalForm>
+
+        <targetForm>Möglichkeiten</targetForm>
+      </error> mehr zu unternehmen, in die Stadt zu gehen und schöne Plätze zu besuchen. Ich <error>
+        <errorType />
+
+        <originalForm>weis</originalForm>
+
+        <targetForm>weiß</targetForm>
+      </error> einfach nicht was ich nehmen soll. <par />Wir sind viele Jahre in der Berge gefahren aber auch ans Meer. <error>
+        <errorType />
+
+        <originalForm>Villeicht</originalForm>
+
+        <targetForm>Vielleicht</targetForm>
+      </error> ist das Meer besser. Ich brauche deinen Rat! <par />Sch<strikeover>
+        <expansion>e</expansion>
+
+        <expansion>r</expansion>
+      </strikeover>eib mir bald! <par /><closing><entity>Michelle.</entity> </closing> </exercise>
+  </body>
+</kolipsi_document>

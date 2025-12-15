@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <transcriber>Corinna</transcriber>
+
+  <author_id>N7046</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"> <comment>Texte nur als Kopien, schlecht zu digitalisieren</comment> <correction>
+        <deletion>Hallo Florian! Wie gehst du? Alles gut? Eine Tage, ich gehe in einem Obst und Gemüse Laden zu ankaufen Obst und zwei Lattich und Tomate, aber wenn ich h zwei Lattisch und ene Packung Tomaten, aber wenn ich habe fertig, ich gehe ich zum Kasse</deletion>
+      </correction><par /><greeting>Hallo <entity>Florian</entity>!</greeting> <par />Wie <error>
+        <errorType />
+
+        <originalForm>gehts</originalForm>
+
+        <targetForm>geht´s</targetForm>
+      </error> du? Alles gut?<par />Ich bin sehr <sic>gute</sic>.<par /><sic>Eine</sic> Tage, ich bin in einem Obst- und <error>
+        <errorType />
+
+        <originalForm>Gemüsenladen</originalForm>
+
+        <targetForm>Gemüseladen</targetForm>
+      </error> gegangen. Ich <sic>wolle</sic> zwei große <sic>Lattich</sic> und eine Packung Tomaten ankaufen. Aber wenn ich fertig hatte, ich bin zur Kasse gegangen.<par />Ich habe meine Obst und Gemüse gezahlen. Aber ich habe <sic>der</sic> Kassenzettel vergessen in <sic>der</sic> Laden.<par />Eine Stunde später ich bin im <foreign_word
+        foreign_language="Italiano">Supermarket</foreign_word> gegangen.<par />Ich habe eine Flasche Milch, zwei Schachtel Marmelade, und eine Schachtel Getreide <par />Aber wenn ich bin <correction>
+        <deletion>nach</deletion>
+
+        <insertion>zur</insertion>
+      </correction> Kasse gegangen, dort gab es ein Problem. Die Kassierer hat in meine Tasche alles Obst und Gemüse gesehen. Dann er hat mi<strikeover>
+        <expansion>r</expansion>
+
+        <expansion>c</expansion>
+      </strikeover>h gesagt auch meine Obst und Gemüse zu zahlen. Aber ich habe sie gesagt: <direct_speech>«<error>
+          <errorType />
+
+          <originalForm>ich</originalForm>
+
+          <targetForm>Ich</targetForm>
+        </error> habe in einem <error>
+          <errorType />
+
+          <originalForm>Ob<strikeover>
+              <expansion>st</expansion>
+
+              <expansion>ts</expansion>
+            </strikeover></originalForm>
+
+          <targetForm>Obst-</targetForm>
+        </error> und Gemüseladen gekaufen. Ich wolle nicht zwei <error>
+          <errorType />
+
+          <originalForm>male</originalForm>
+
+          <targetForm>Male</targetForm>
+        </error> gezahlen»</direct_speech> Und dann ich gehe nach Hause.<par />Und das ist alles!<par /><closing>Tschüs <entity>Florian</entity>!</closing> </exercise>
+
+    <exercise number="2" xml:space="preserve">
+      <par /><greeting><sic>Liebe</sic> <entity>Florian</entity> !</greeting> <par />Wie <sic>gehst du</sic>? Alles gut?<par />Ich bin sehr gut.<par />Hast du festsetzen wo willst du einen gemeinsamen Urlaub mit mich gehen?<par />Ich wolle ans Meer fahren. Weil das Meer, ist der ideale Platz für die <error>
+        <errorType />
+
+        <originalForm>Sommer ferien</originalForm>
+
+        <targetForm>Sommerferien</targetForm>
+      </error>.<par />Wenn du <correction>
+        <deletion>hast</deletion>
+      </correction> sehr warm hast, kannst du <sic>ans</sic> Meer springen. Am Meer du <sic>könnst</sic> in <error>
+        <errorType />
+
+        <originalForm>Viele</originalForm>
+
+        <targetForm>viele</targetForm>
+      </error> Disco gehen und viele schöne Mädchen treffen.<par />Am Meer du <sic>könnst</sic> viele Sport treiben, zum <error>
+        <errorType />
+
+        <originalForm>beispiel</originalForm>
+
+        <targetForm>Beispiel</targetForm>
+      </error> <error>
+        <errorType />
+
+        <originalForm>skifahren</originalForm>
+
+        <targetForm>Ski fahren</targetForm>
+      </error>, <foreign_word foreign_language="Italiano">surf</foreign_word>, <foreign_word
+        foreign_language="English"><error>
+          <errorType />
+
+          <originalForm>snorkelling</originalForm>
+
+          <targetForm>snorkeling</targetForm>
+        </error></foreign_word>, <error>
+        <errorType />
+
+        <originalForm>swimmen</originalForm>
+
+        <targetForm>Schwimmen</targetForm>
+      </error> und mit Schiffe weit weg. Bitte kommst du mit mir a<ambiguous>
+        <alternative>m</alternative>
+
+        <alternative>n</alternative>
+      </ambiguous> Meer.<par />Ist eine schöne Platz.<par />Das ist alles!<par /><closing>Tschüs <entity>Florian</entity>!</closing> </exercise>
+  </body>
+</kolipsi_document>

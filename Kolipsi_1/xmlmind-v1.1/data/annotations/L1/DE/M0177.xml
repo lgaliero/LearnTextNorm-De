@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolipsi_document xsi:schemaLocation="http://www.eurac.edu/kolipsi file:kolipsi.xsd"
+                  xmlns="http://www.eurac.edu/kolipsi"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns="http://www.eurac.edu/kolipsi">
+  <transcriber>Yella</transcriber>
+
+  <author_id>M0177</author_id>
+
+  <exam_type>Kolipsi</exam_type>
+
+  <text_language>Deutsch</text_language>
+
+  <body>
+    <exercise number="1" xml:space="preserve"><greeting>Lieber <entity>Max</entity></greeting>,<par />gerade eben noch hat <correction>
+        <deletion><unreadable /></deletion>
+      </correction> <correction>
+        <insertion>mir</insertion>
+      </correction> <entity>Maria</entity> ei<over>n</over>e lustige <overwrite>
+        <under>g</under>
+
+        <over>G</over>
+      </overwrite>eschicht<over>e</over> erzählt, die ich di<over>r</over><correction>
+        <deletion><unreadable /></deletion>
+      </correction> <error>
+        <errorType />
+
+        <originalForm>unbeding</originalForm>
+
+        <targetForm>unbedingt</targetForm>
+      </error> erklären muss. Also als <entity>Maria</entity> <correction>
+        <deletion><unreadable /></deletion>
+      </correction> let<over>zte</over> Woche <overwrite>
+        <under>E</under>
+
+        <over>e</over>
+      </overwrite>inkaufen war, hat sie zuerst frisches Obst und <strikeover>
+        <expansion>g</expansion>
+
+        <expansion>G</expansion>
+      </strikeover>emüse, für das <over>E</over>ssen zu dem sie ein paar Freunde eingeladen hatte am Samstag, ge<over>k</over>auft. Allerdings hatte sie <correction>
+        <deletion>im</deletion>
+      </correction> <correction>
+        <deletion><unreadable /></deletion>
+      </correction> bei dem Obsthändler ihren Kassenbon liegen gelassen, <error>
+        <errorType />
+
+        <originalForm>dass</originalForm>
+
+        <targetForm>das</targetForm>
+      </error> ist ihr a<over>b</over>er erst eine Stunde später im Supermarkt an<correction>
+        <deletion>d</deletion>
+      </correction> der Kasse aufgefallen. Als sie dort nämlich bezahlen wollte, war die Kassiererin der Meinun<overwrite>
+        <under><unreadable /></under>
+
+        <over>g</over>
+      </overwrite>, dass <correction>
+        <insertion>das</insertion>
+      </correction> Obst und Gemüse aus <entity>Marias</entity> Tasche auch aus dem Supermar<over>k</over>t wäre und sie es nun auch bezahlen müsse. Schlie<over>ß</over>lich nach <correction>
+        <deletion>einiger</deletion>
+      </correction> einer langwierigen <error>
+        <errorType />
+
+        <originalForm>Diskusion</originalForm>
+
+        <targetForm>Diskussion</targetForm>
+      </error> ist <entity>Maria</entity> dann einfach gegangen ohne überhaupt etwas zu bezahlen und hat nur ihr <over>O</over>bst und Gemüse <sic>mitgenomme</sic> un<over>d</over> die <overwrite>
+        <under>s</under>
+
+        <over>S</over>
+      </overwrite>achen, die sie kaufen wollte einfach an der Kasse liegen lassen. Das wars au<overwrite>
+        <under><unreadable /></under>
+
+        <over>c</over>
+      </overwrite>h<correction>
+        <deletion>,</deletion>
+      </correction> schon. Ich hoffe wir sehen uns <over>a</over>m Wo<over>c</over>henende<correction>
+        <deletion><unreadable /></deletion>
+      </correction>. <correction>
+        <deletion>Bis <unreadable /></deletion>
+      </correction> <closing>Bis bald<par />Deine <entity>Marie</entity></closing>                </exercise>
+
+    <exercise number="2" xml:space="preserve"><greeting>Lieber <entity>Max</entity></greeting>,<par /><error>
+        <errorType />
+
+        <originalForm>Da</originalForm>
+
+        <targetForm>da</targetForm>
+      </error> es inzwischen gar nicht mehr soweit hin ist wird es <overwrite>
+        <under><unreadable /></under>
+
+        <over>Z</over>
+      </overwrite>eit <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> wir uns für unser Urlaubsziel entscheiden. <correction>
+        <deletion>Berge</deletion>
+      </correction> Zuerst stellt sich auch noch die Frage Berge oder Meer. Dazu muss ich sagen, dass ich mich für meinen Teil eher zum Meer hingezogen fühle, ich allerdings jetzt auch deine Meinung dazu brauche <correction>
+        <deletion>im <unreadable /><unreadable /></deletion>
+      </correction> um <correction>
+        <deletion>genauer</deletion>
+      </correction> ein genaueres Ziel planen zu können. <over>Ich</over> denke Meer wäre die bessere Entscheidung, da<correction>
+        <deletion><unreadable /></deletion>
+      </correction> in den Bergen um diese Jahreszeit nichts los ist und man einfach nicht so <correction>
+        <deletion><unreadable /></deletion>
+      </correction> viele <sic>verschieden</sic> Möglichkeiten zu Unternehmungen findet. Dazu kommt <error>
+        <errorType />
+
+        <originalForm>das</originalForm>
+
+        <targetForm>dass</targetForm>
+      </error> ich <error>
+        <errorType />
+
+        <originalForm>zu<overwrite>
+            <under><unreadable /></under>
+
+            <over>l</over>
+          </overwrite>etz</originalForm>
+
+        <targetForm>zuletzt</targetForm>
+      </error> diesen Winter in den Bergen war und ein Urlaub am Me<overwrite>
+        <under>r</under>
+
+        <over>e</over>
+      </overwrite>r weiter <error>
+        <errorType />
+
+        <originalForm>zurück<correction>
+            <deletion><unreadable /></deletion>
+          </correction> liegt</originalForm>
+
+        <targetForm>zurückliegt</targetForm>
+      </error>.<par />Am Meer <over>k</over>ann man meiner Meinung nach viel besser entspannen und je <error>
+        <errorType />
+
+        <originalForm>nach dem</originalForm>
+
+        <targetForm>nachdem</targetForm>
+      </error> in welcher Gegend abends auch noch gut <error>
+        <errorType />
+
+        <originalForm>weg gehen</originalForm>
+
+        <targetForm>weggehen</targetForm>
+      </error>.<par />Ich will <gap>_</gap> allerdings auch noch Spielraum für eine eigene Entscheidung lassen, deshalb höre ich hiermit au<over>f</over><correction>
+        <deletion><unreadable /></deletion>
+      </correction>. Schreib mir bitte bald zurück, damit ich weiter planen kann.<par /><closing>Dein <entity>Markus</entity></closing>         </exercise>
+  </body>
+</kolipsi_document>
