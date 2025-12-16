@@ -1142,6 +1142,23 @@ def process_corpora(
                 continue
             
             xml_filename = os.path.basename(member)
+            # Detect text type from filename
+            if corpus_name in ["Kolipsi_1_L1", "Kolipsi_1_L2", "Kolipsi_2"]:
+                # Kolipsi: _1.xml = picture story, _2.xml = opinion
+                if xml_filename.endswith("_1.xml"):
+                    text_type = "picture story"
+                elif xml_filename.endswith("_2.xml"):
+                    text_type = "opinion"
+                else:
+                    text_type = "unknown"
+            else:  # LEONIDE
+                # LEONIDE: "pic" = picture story, "op" = opinion
+                if "_pic_" in xml_filename:
+                    text_type = "picture story"
+                elif "_op_" in xml_filename:
+                    text_type = "opinion"
+                else:
+                    text_type = "unknown"
             for sent_num, pair in enumerate(pairs, start=1):
                 all_data.append({
                     'corpus': corpus_name,
@@ -1150,7 +1167,8 @@ def process_corpora(
                     'sent_num': sent_num,
                     'src': pair.src,
                     'tgt': pair.tgt,
-                    'corrected': pair.has_correction
+                    'corrected': pair.has_correction,
+                    'text_type': text_type
                 })
             
             corpus_pairs.extend(pairs)

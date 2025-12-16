@@ -202,7 +202,6 @@ def compute_corrected_only_stats(csv_path="LearnTextNorm-Deoutput/all_corpora.cs
                 'unique_tokens': unique_tokens,
                 'avg_words_per_sentence': round(avg_words, 2)
             })
-            print(f"  ✓ Done\n")
         
         # Whole corpus corrected pairs
         print(f"  Processing ALL corrected pairs ({len(df_corrected_only):,} rows)...")
@@ -245,11 +244,7 @@ def compute_corrected_only_stats(csv_path="LearnTextNorm-Deoutput/all_corpora.cs
         print(f"✗ CSV file not found: {csv_path}")
         return pd.DataFrame()
 
-
-
-#REMEMBER THE VARIABLES
-
-# MAIN EXECUTION - THIS ACTUALLY RUNS THE CODE
+# MAIN EXECUTION 
 if __name__ == "__main__":
     import stats_config
     print("\n" + "="*80)
@@ -323,3 +318,48 @@ if __name__ == "__main__":
         df_corrected_stats = compute_corrected_only_stats(csv_path="output/all_corpora.csv")
         if not df_corrected_stats.empty:
             display(df_corrected_stats)
+
+    # 5. Text Type Breakdown
+    if stats_config.SHOW_STATS_PER_TEXT_TYPE:
+        print("\n" + "="*80)
+        print("TEXT TYPE BREAKDOWN")
+        print("="*80)
+        
+        try:
+            if 'df_csv_full' not in locals():
+                df_csv_full = pd.read_csv("output/all_corpora.csv", encoding="utf-8")
+            
+            # Sentence-level breakdown
+            print("\n--- Sentence-Level Statistics ---")
+            sentence_level = df_csv_full.groupby('text_type').agg({
+                'src': 'count',
+                'corrected': ['sum', lambda x: f"{x.sum()/len(x)*100:.2f}%"]
+            }).reset_index()
+            sentence_level.columns = ['text_type', 'total_sentences', 'corrected_sentences', 'corrected_pct']
+            display(sentence_level)
+            
+            # Document-level breakdown
+            print("\n--- Document-Level Statistics ---")
+            # Get unique xml_file + text_type combinations
+            unique_docs = df_csv_full.groupby(['xml_file', 'text_type']).size().reset_index(name='sentences_in_doc')
+            doc_level = unique_docs.groupby('text_type').agg({
+                'xml_file': 'count',
+                'sentences_in_doc': ['sum', 'mean']
+            }).reset_index()
+            doc_level.columns = ['text_type', 'document_count', 'total_sentences', 'avg_sentences_per_doc']
+            doc_level['avg_sentences_per_doc'] = doc_level['avg_sentences_per_doc'].round(2)
+            display(doc_level)
+            
+            # Combined breakdown by corpus and text type
+            print("\n--- By Corpus and Text Type ---")
+            corpus_text_breakdown = df_csv_full.groupby(['corpus', 'text_type']).agg({
+                'src': 'count',
+                'corrected': ['sum', lambda x: f"{x.sum()/len(x)*100:.2f}%"]
+            }).reset_index()
+            corpus_text_breakdown.columns = ['corpus', 'text_type', 'total_sentences', 'corrected_sentences', 'corrected_pct']
+            display(corpus_text_breakdown)
+            
+        except FileNotFoundError:
+            print("✗ CSV file not found for text type analysis")
+        except KeyError as e:
+            print(f"✗ Column not found: {e}. Make sure 'text_type' column exists in CSV.")

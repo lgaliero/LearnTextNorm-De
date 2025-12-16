@@ -1,6 +1,10 @@
+
 """
 Configuration file for XML extraction pipeline.
-Contains corpus paths and extraction parameters.
+Contains 
+1. Corpus paths and extraction parameters.
+2. Statistics display options
+3. Other parameters
 """
 
 # Corpus configurations
@@ -34,3 +38,17 @@ MAX_FILES_PER_CORPUS = None  # None = process all files, or set to integer to li
 
 # Sentencizer settings (if needed in future)
 SENTENCIZER_KWARGS = None
+
+
+# For Stats computing
+# CONTROL PANEL - CUSTOMIZE YOUR OUTPUT HERE
+
+# 1. Choose data source
+#SOURCE = "csv"  # Options: "txt", "csv", or "both"
+
+# 2. Choose which DataFrames to display (True = show, False = hide)
+SHOW_MAIN_STATS = True              # Main corpus statistics table
+SHOW_CORRECTION_BREAKDOWN = True    # Correction stats by subcorpus
+SHOW_CORRECTION_SUMMARY = True      # Overall correction summary
+SHOW_CORRECTED_ONLY_STATS =  True   # Detailed stats for corrected pairs only
+SHOW_STATS_PER_TEXT_TYPE = True     #
