@@ -1193,7 +1193,7 @@ def process_corpora(
 # ============================================================================
 if __name__ == "__main__":
     import argparse
-    import config
+    import corpus_config
     
     parser = argparse.ArgumentParser(description='Extract German learner corpora')
     parser.add_argument('--corpora', nargs='+', 
