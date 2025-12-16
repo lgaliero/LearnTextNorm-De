@@ -1199,9 +1199,9 @@ if __name__ == "__main__":
     parser.add_argument('--corpora', nargs='+', 
                        help='Corpora to process (space-separated)',
                        default=None)
-    parser.add_argument('--output-dir', default=config.OUTPUT_DIR,
+    parser.add_argument('--output-dir', default=corpus_config.OUTPUT_DIR,
                        help='Output directory')
-    parser.add_argument('--format', default=config.OUTPUT_FORMAT,
+    parser.add_argument('--format', default=corpus_config.OUTPUT_FORMAT,
                        choices=['txt', 'csv', 'norm', 'both'],
                        help='Output format')
     parser.add_argument('--max-files', type=int, default=None,
@@ -1213,7 +1213,7 @@ if __name__ == "__main__":
     active_corpora = args.corpora if args.corpora else config.ACTIVE_CORPORA
     
     configs_to_run = {
-        k: v for k, v in config.CORPUS_CONFIGS.items() 
+        k: v for k, v in corpus_config.CORPUS_CONFIGS.items() 
         if k in active_corpora
     }
     
