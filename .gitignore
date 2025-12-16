@@ -1,5 +1,5 @@
 .env
 memos.txt
-
 __pycache__/
-stats_config.py
+scripts/stats_config.py
+scripts/corpus_config.py
