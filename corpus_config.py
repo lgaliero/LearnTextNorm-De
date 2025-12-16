@@ -6,19 +6,19 @@ Contains corpus paths and extraction parameters.
 # Corpus configurations
 CORPUS_CONFIGS = {
     'LEONIDE': {
-        'base_dir': 'LEONIDE/pepper-xml-v1.1/data/DE',
+        'base_dir': 'corpora/LEONIDE/pepper-xml-v1.1/data/DE',
         'lang_prof': 'L2'
     },
     'Kolipsi_1_L2': {
-        'base_dir': 'Kolipsi_1/xmlmind-v1.1/data/annotations/L2/DE/files_split_by_exercises',
+        'base_dir': 'corpora/Kolipsi_1/xmlmind-v1.1/data/annotations/L2/DE/files_split_by_exercises',
         'lang_prof': 'L2'
     },
     'Kolipsi_1_L1': {
-        'base_dir': 'Kolipsi_1/xmlmind-v1.1/data/annotations/L1/DE/files_split_by_exercises',
+        'base_dir': 'corpora/Kolipsi_1/xmlmind-v1.1/data/annotations/L1/DE/files_split_by_exercises',
         'lang_prof': 'L1'
     },
     'Kolipsi_2': {
-        'base_dir': 'Kolipsi_2/xmlmind-v1.1/data/annotations/DE/files_split_by_exercises',
+        'base_dir': 'corpora/Kolipsi_2/xmlmind-v1.1/data/annotations/DE/files_split_by_exercises',
         'lang_prof': 'L2'
     }
 }
