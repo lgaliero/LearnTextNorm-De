@@ -18,7 +18,7 @@ CORPUS_CONFIGS = {
         'lang_prof': 'L1'
     },
     'Kolipsi_2': {
-        'base_dir': 'Kolipsi_2',
+        'base_dir': 'Kolipsi_2/xmlmind-v1.1/data/annotations/DE/files_split_by_exercises',
         'lang_prof': 'L2'
     }
 }
