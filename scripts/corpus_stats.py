@@ -256,8 +256,35 @@ if __name__ == "__main__":
         df_stats = compute_corpus_stats(csv_path="output/all_corpora.csv")
         display(df_stats)
 
+    # 2. Sentence Count by Subcorpus
+    print("\n" + "="*80)
+    print("SENTENCE COUNT BY SUBCORPUS")
+    print("="*80)
 
-    # 2. Correction Breakdown by Subcorpus
+    try:
+        if 'df_csv_full' not in locals():
+            df_csv_full = pd.read_csv("output/all_corpora.csv", encoding="utf-8")
+        
+        total_sentences = len(df_csv_full)
+        
+        sentence_count_by_corpus = df_csv_full.groupby('corpus').size().reset_index(name='sentence_count')
+        sentence_count_by_corpus['percentage'] = (sentence_count_by_corpus['sentence_count'] / total_sentences * 100).round(2).astype(str) + '%'
+        
+        # Add total row
+        total_row = pd.DataFrame([{
+            'corpus': 'WHOLE_CORPUS',
+            'sentence_count': total_sentences,
+            'percentage': '100.00%'
+        }])
+        sentence_count_by_corpus = pd.concat([sentence_count_by_corpus, total_row], ignore_index=True)
+        
+        display(sentence_count_by_corpus)
+        
+    except FileNotFoundError:
+        print("✗ CSV file not found for sentence count analysis")
+
+
+    # 3. Correction Breakdown by Subcorpus
     if stats_config.SHOW_CORRECTION_BREAKDOWN:
         print("\n" + "="*80)
         print("CORRECTION STATISTICS BREAKDOWN")
@@ -279,7 +306,7 @@ if __name__ == "__main__":
         except FileNotFoundError:
             print("✗ CSV file not found for correction analysis")
     
-    # 3. Overall Correction Summary
+    # 4. Overall Correction Summary
     if stats_config.SHOW_CORRECTION_SUMMARY:
         try:
             if 'df_csv_full' not in locals():
@@ -309,7 +336,7 @@ if __name__ == "__main__":
         except FileNotFoundError:
             print("✗ CSV file not found for correction analysis")
         
-    # 4. Corrected Pairs Only - Detailed Stats
+    # 5. Corrected Pairs Only - Detailed Stats
     if stats_config.SHOW_CORRECTED_ONLY_STATS:
         print("\n" + "="*80)
         print("CORRECTED PAIRS ONLY - DETAILED STATISTICS")
@@ -329,35 +356,69 @@ if __name__ == "__main__":
             if 'df_csv_full' not in locals():
                 df_csv_full = pd.read_csv("output/all_corpora.csv", encoding="utf-8")
             
-            # Sentence-level breakdown
-            print("\n--- Sentence-Level Statistics ---")
-            sentence_level = df_csv_full.groupby('text_type').agg({
-                'src': 'count',
-                'corrected': ['sum', lambda x: f"{x.sum()/len(x)*100:.2f}%"]
-            }).reset_index()
-            sentence_level.columns = ['text_type', 'total_sentences', 'corrected_sentences', 'corrected_pct']
-            display(sentence_level)
+            total_sentences_overall = len(df_csv_full)
             
-            # Document-level breakdown
-            print("\n--- Document-Level Statistics ---")
-            # Get unique xml_file + text_type combinations
-            unique_docs = df_csv_full.groupby(['xml_file', 'text_type']).size().reset_index(name='sentences_in_doc')
-            doc_level = unique_docs.groupby('text_type').agg({
-                'xml_file': 'count',
-                'sentences_in_doc': ['sum', 'mean']
-            }).reset_index()
-            doc_level.columns = ['text_type', 'document_count', 'total_sentences', 'avg_sentences_per_doc']
-            doc_level['avg_sentences_per_doc'] = doc_level['avg_sentences_per_doc'].round(2)
-            display(doc_level)
+            # 5A. Sentence-level breakdown
+            if stats_config.TEXT_TYPE_SENTENCE_LEV:
+                print("\n--- Sentence-Level Statistics ---")
+                sentence_level = df_csv_full.groupby('text_type').size().reset_index(name='sentence_count')
+                sentence_level['percentage'] = (sentence_level['sentence_count'] / total_sentences_overall * 100).round(2).astype(str) + '%'
+                
+                # Add total row
+                total_row = pd.DataFrame([{
+                    'text_type': 'TOTAL',
+                    'sentence_count': total_sentences_overall,
+                    'percentage': '100.00%'
+                }])
+                sentence_level = pd.concat([sentence_level, total_row], ignore_index=True)
+                display(sentence_level)
+                
+
+            # 5B. Document-level breakdown
+            if stats_config.TEXT_TYPE_DOCUMENT_LEV:
+                print("\n--- Document-Level Statistics ---")
+                # Get unique xml_file + text_type combinations
+                unique_docs = df_csv_full.groupby(['xml_file', 'text_type']).size().reset_index(name='sentences_in_doc')
+                total_docs = len(unique_docs)
+                
+                doc_level = unique_docs.groupby('text_type').agg({
+                    'xml_file': 'count',
+                    'sentences_in_doc': ['sum', 'mean']
+                }).reset_index()
+                doc_level.columns = ['text_type', 'document_count', 'total_sentences', 'avg_sentences_per_doc']
+                doc_level['percentage'] = (doc_level['document_count'] / total_docs * 100).round(2).astype(str) + '%'
+                doc_level['avg_sentences_per_doc'] = doc_level['avg_sentences_per_doc'].round(2)
+                
+                # Add total row
+                total_doc_row = pd.DataFrame([{
+                    'text_type': 'TOTAL',
+                    'document_count': total_docs,
+                    'total_sentences': unique_docs['sentences_in_doc'].sum(),
+                    'avg_sentences_per_doc': (unique_docs['sentences_in_doc'].sum() / total_docs).round(2),
+                    'percentage': '100.00%'
+                }])
+                doc_level = pd.concat([doc_level, total_doc_row], ignore_index=True)
+                display(doc_level)
             
-            # Combined breakdown by corpus and text type
-            print("\n--- By Corpus and Text Type ---")
-            corpus_text_breakdown = df_csv_full.groupby(['corpus', 'text_type']).agg({
-                'src': 'count',
-                'corrected': ['sum', lambda x: f"{x.sum()/len(x)*100:.2f}%"]
-            }).reset_index()
-            corpus_text_breakdown.columns = ['corpus', 'text_type', 'total_sentences', 'corrected_sentences', 'corrected_pct']
-            display(corpus_text_breakdown)
+            # 5C. Combined breakdown by corpus and text type
+            if stats_config.TEXT_TYPE_COMBO_LEV:
+                print("\n--- By Corpus and Text Type ---")
+                corpus_text_breakdown = df_csv_full.groupby(['corpus', 'text_type']).size().reset_index(name='sentence_count')
+                
+                # Calculate percentages within each corpus
+                corpus_totals = df_csv_full.groupby('corpus').size().reset_index(name='corpus_total')
+                corpus_text_breakdown = corpus_text_breakdown.merge(corpus_totals, on='corpus')
+                corpus_text_breakdown['percentage'] = (corpus_text_breakdown['sentence_count'] / corpus_text_breakdown['corpus_total'] * 100).round(2).astype(str) + '%'
+                corpus_text_breakdown = corpus_text_breakdown[['corpus', 'text_type', 'sentence_count', 'percentage']]
+                
+                # Add WHOLE_CORPUS totals
+                whole_corpus_breakdown = df_csv_full.groupby('text_type').size().reset_index(name='sentence_count')
+                whole_corpus_breakdown['corpus'] = 'WHOLE_CORPUS'
+                whole_corpus_breakdown['percentage'] = (whole_corpus_breakdown['sentence_count'] / total_sentences_overall * 100).round(2).astype(str) + '%'
+                whole_corpus_breakdown = whole_corpus_breakdown[['corpus', 'text_type', 'sentence_count', 'percentage']]
+                
+                corpus_text_breakdown = pd.concat([corpus_text_breakdown, whole_corpus_breakdown], ignore_index=True)
+                display(corpus_text_breakdown)
             
         except FileNotFoundError:
             print("✗ CSV file not found for text type analysis")
