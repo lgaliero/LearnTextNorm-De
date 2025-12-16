@@ -1210,7 +1210,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     
     # Use command-line args if provided, otherwise use config
-    active_corpora = args.corpora if args.corpora else config.ACTIVE_CORPORA
+    active_corpora = args.corpora if args.corpora else corpus_config.ACTIVE_CORPORA
     
     configs_to_run = {
         k: v for k, v in corpus_config.CORPUS_CONFIGS.items() 
