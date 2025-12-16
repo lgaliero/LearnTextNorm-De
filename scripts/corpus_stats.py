@@ -253,7 +253,7 @@ def compute_corrected_only_stats(csv_path="LearnTextNorm-Deoutput/all_corpora.cs
 if __name__ == "__main__":
     import stats_config
     print("\n" + "="*80)
-    print(f"CORPUS STATISTICS (Source: {stats_config.SOURCE.upper()})")
+    print(f"CORPUS STATISTICS")
     print("="*80)
 
     # 1. Main Statistics
