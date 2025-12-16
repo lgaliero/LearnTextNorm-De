@@ -1107,7 +1107,6 @@ def process_corpora(
     os.makedirs(output_dir, exist_ok=True)
     
     all_data = []
-    file_id = 1
     
     for corpus_name, cfg in corpus_configs.items():
         print(f"\n--- Processing {corpus_name} ---")
@@ -1148,7 +1147,6 @@ def process_corpora(
                     'corpus': corpus_name,
                     'lang_prof': lang_prof,
                     'xml_file': xml_filename,
-                    'file_id': file_id,
                     'sent_num': sent_num,
                     'src': pair.src,
                     'tgt': pair.tgt,
@@ -1156,7 +1154,6 @@ def process_corpora(
                 })
             
             corpus_pairs.extend(pairs)
-            file_id += 1
 
         # Write NORM output if requested (verticalized word-by-word format)
         if output_format in ["norm", "both"]:
