@@ -1202,7 +1202,7 @@ if __name__ == "__main__":
     parser.add_argument('--output-dir', default=corpus_config.OUTPUT_DIR,
                        help='Output directory')
     parser.add_argument('--format', default=corpus_config.OUTPUT_FORMAT,
-                       choices=['txt', 'csv', 'norm', 'both'],
+                       choices=['csv', 'norm', 'both'],
                        help='Output format')
     parser.add_argument('--max-files', type=int, default=None,
                        help='Max files per corpus (for testing)')
