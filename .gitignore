@@ -2,4 +2,4 @@
 memos.txt
 __pycache__/
 scripts/stats_config.py
-scripts/corpus_config.py
+scripts/corpus_stats.py

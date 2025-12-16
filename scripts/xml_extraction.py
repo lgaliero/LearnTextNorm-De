@@ -1190,15 +1190,15 @@ def process_corpora(
 # ============================================================================
 if __name__ == "__main__":
     import argparse
-    import corpus_config
+    import extract_config
     
     parser = argparse.ArgumentParser(description='Extract German learner corpora')
     parser.add_argument('--corpora', nargs='+', 
                        help='Corpora to process (space-separated)',
                        default=None)
-    parser.add_argument('--output-dir', default=corpus_config.OUTPUT_DIR,
+    parser.add_argument('--output-dir', default=extract_config.OUTPUT_DIR,
                        help='Output directory')
-    parser.add_argument('--format', default=corpus_config.OUTPUT_FORMAT,
+    parser.add_argument('--format', default=extract_config.OUTPUT_FORMAT,
                        choices=['csv', 'norm', 'both'],
                        help='Output format')
     parser.add_argument('--max-files', type=int, default=None,
@@ -1207,10 +1207,10 @@ if __name__ == "__main__":
     args = parser.parse_args()
     
     # Use command-line args if provided, otherwise use config
-    active_corpora = args.corpora if args.corpora else corpus_config.ACTIVE_CORPORA
+    active_corpora = args.corpora if args.corpora else extract_config.ACTIVE_CORPORA
     
     configs_to_run = {
-        k: v for k, v in corpus_config.CORPUS_CONFIGS.items() 
+        k: v for k, v in extract_config.CORPUS_CONFIGS.items() 
         if k in active_corpora
     }
     
