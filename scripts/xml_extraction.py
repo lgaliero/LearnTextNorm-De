@@ -3,8 +3,8 @@ import re
 import os
 import spacy
 import argparse
-import extract_config
 import pandas as pd
+import extract_config
 from spacy.lang.de import German
 import xml.etree.ElementTree as ET
 from typing import List, Tuple, Dict, Optional
