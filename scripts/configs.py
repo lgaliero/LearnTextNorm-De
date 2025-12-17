@@ -76,3 +76,5 @@ SET_SPLITS = "../output/data_splits"
 # =======================
 LLM_TGT = "../output/results/test_LLaMA3_2.tgt"
 CONTEXT = "Du bekommst deutsche Sätze, einen nach dem anderen. Alle Sätze stammen von Lernenden aus Mittel- und Oberschulen; jede Instanz steht dabei außerhalb ihres ursprünglichen Kontextes. Es liegen keine weiteren Informationen zu Alter oder Muttersprache der Autor*innen vor. Deine Aufgabe ist es, vorhandene Rechtschreibfehler zu korrigieren. Gib ausschließlich den vollständigen Satz in seiner bestmöglichen korrigierten Form wieder, ohne Erklärungen, Kommentare, Hinweise, Labels oder Titel. Grammatikfehler (z. B. Wortstellung, Interpunktion, Kasus oder falsche Wortarten) dürfen nicht korrigiert werden."
+HOST = "http://51.124.247.170:80'"
+API_MODEL = "llama3.2:latest"
