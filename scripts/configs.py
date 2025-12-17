@@ -69,3 +69,10 @@ TEXT_TYPE_COMBO_LEV = True  # Stats for text type
 
 # TEST SET CREATION
 SET_SPLITS = "../output/data_splits"
+
+
+# =======================
+# LLM TESTING (via institution API)
+# =======================
+LLM_TGT = "../output/results/test_LLaMA3_2.tgt"
+CONTEXT = "Du bekommst Sätze auf Deutsch, einen nach dem anderem. Alle Sätze stammen von Lernenden aus Mittel- und Oberschulen der Autonomen Provinz Bozen, aber jede Instanz steht dabei außerhalb ihres ursprünglichen Kontexts. Es liegen keine weiteren Informationen zu Alter oder Muttersprache der Autor*innen vor. Korrigiere die Rechtschreibfehler, falls vorhanden. Gib ausschließlich den ganzen Satz mit deiner bestmöglichen orthographischen Korrektur wieder, ohne weitere Erklärungen, Kommentare, Hinweise, Labels oder Titel. Konzentriere dich ausschließlich auf die Rechtschreibung und halte dich dabei an das amtliche Regelwerk der deutschen Rechtschreibung, insbesondere an die Aktualisierung von 2024."
