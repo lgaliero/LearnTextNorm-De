@@ -8,3 +8,4 @@ splits/
 API.ipynb
 prototypes/
 test_LLaMA3_2.tgt
+api_query.py
