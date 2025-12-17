@@ -26,8 +26,8 @@ CORPUS_CONFIGS = {
 ACTIVE_CORPORA = ['LEONIDE', 'Kolipsi_1_L2', 'Kolipsi_1_L1', 'Kolipsi_2']
 
 # Output settings
-OUTPUT_DIR = 'output'
-OUTPUT_FORMAT = 'both'  # Options: "txt", "csv", "norm", or "both"
+OUTPUT_DIR = '../output'
+OUTPUT_FORMAT = 'both'  # Options: "csv", "norm", or "both"
 
 # Processing limits
 MAX_FILES_PER_CORPUS = None  # None = process all files, or set to integer to limit

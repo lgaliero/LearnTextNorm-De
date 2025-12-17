@@ -2,6 +2,8 @@
 import re
 import os
 import spacy
+import argparse
+import extract_config
 import pandas as pd
 from spacy.lang.de import German
 import xml.etree.ElementTree as ET
@@ -1099,7 +1101,7 @@ def process_file(xml_path: str, corpus_type: str) -> List[SentencePair]:
 
 def process_corpora(
     corpus_configs: Dict[str, Dict],
-    output_dir: str = "output",
+    output_dir: str = extract_config.OUTPUT_DIR,
     max_files_per_corpus: Optional[int] = None,
     output_format: str = "norm"  # "txt", "csv", "norm", or "both"
 ) -> pd.DataFrame:
@@ -1207,8 +1209,6 @@ def process_corpora(
 # MAIN EXECUTION
 # ============================================================================
 if __name__ == "__main__":
-    import argparse
-    import extract_config
     
     parser = argparse.ArgumentParser(description='Extract German learner corpora')
     parser.add_argument('--corpora', nargs='+', 
