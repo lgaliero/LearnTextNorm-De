@@ -4,7 +4,7 @@ import os
 import spacy
 import argparse
 import pandas as pd
-import extract_config
+import configs
 from spacy.lang.de import German
 import xml.etree.ElementTree as ET
 from typing import List, Tuple, Dict, Optional
@@ -1101,7 +1101,7 @@ def process_file(xml_path: str, corpus_type: str) -> List[SentencePair]:
 
 def process_corpora(
     corpus_configs: Dict[str, Dict],
-    output_dir: str = extract_config.OUTPUT_DIR,
+    output_dir: str = configs.OUTPUT_DIR,
     max_files_per_corpus: Optional[int] = None,
     output_format: str = "norm"  # "txt", "csv", "norm", or "both"
 ) -> pd.DataFrame:
@@ -1214,9 +1214,9 @@ if __name__ == "__main__":
     parser.add_argument('--corpora', nargs='+', 
                        help='Corpora to process (space-separated)',
                        default=None)
-    parser.add_argument('--output-dir', default=extract_config.OUTPUT_DIR,
+    parser.add_argument('--output-dir', default=configs.OUTPUT_DIR,
                        help='Output directory')
-    parser.add_argument('--format', default=extract_config.OUTPUT_FORMAT,
+    parser.add_argument('--format', default=configs.OUTPUT_FORMAT,
                        choices=['csv', 'norm', 'both'],
                        help='Output format')
     parser.add_argument('--max-files', type=int, default=None,
@@ -1225,10 +1225,10 @@ if __name__ == "__main__":
     args = parser.parse_args()
     
     # Use command-line args if provided, otherwise use config
-    active_corpora = args.corpora if args.corpora else extract_config.ACTIVE_CORPORA
+    active_corpora = args.corpora if args.corpora else configs.ACTIVE_CORPORA
     
     configs_to_run = {
-        k: v for k, v in extract_config.CORPUS_CONFIGS.items() 
+        k: v for k, v in configs.CORPUS_CONFIGS.items() 
         if k in active_corpora
     }
     

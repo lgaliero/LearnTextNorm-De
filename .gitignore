@@ -3,4 +3,3 @@ memos.txt
 __pycache__/
 scripts/stats_config.py
 data_split.ipynb
-configs.py
