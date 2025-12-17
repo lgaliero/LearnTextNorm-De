@@ -3,3 +3,7 @@ memos.txt
 __pycache__/
 scripts/stats_config.py
 data_split.ipynb
+.gitignore+
+extract_config.py
+scripts/.gitignore
+stats_config.py
