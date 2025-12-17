@@ -2,8 +2,9 @@
 memos.txt
 __pycache__/
 scripts_archive/
-prototypes/
 
 #to be updated once finalized
 test_set.py
 splits/
+API.ipynb
+prototypes/
