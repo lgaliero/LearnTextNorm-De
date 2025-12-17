@@ -252,40 +252,44 @@ if __name__ == "__main__":
     print("="*80)
 
     # 1. Main Statistics
-    if configs.SHOW_MAIN_STATS:
+    if configs.MAIN_STATS:
+        print("\n" + "="*80)
+        print(f"GENERAL OVERVIEW")
+        print("="*80)
         df_stats = compute_corpus_stats(csv_path=configs.CSV_PATH)
         display(df_stats)
 
     # 2. Sentence Count by Subcorpus
-    print("\n" + "="*80)
-    print("SENTENCE COUNT BY SUBCORPUS")
-    print("="*80)
+    if configs.SUBCORPUS_STATS:
+        print("\n" + "="*80)
+        print("SENTENCE COUNT BY SUBCORPUS")
+        print("="*80)
 
-    try:
-        if 'df_csv_full' not in locals():
-            df_csv_full = pd.read_csv(configs.CSV_PATH, encoding="utf-8")
-        
-        total_sentences = len(df_csv_full)
-        
-        sentence_count_by_corpus = df_csv_full.groupby('corpus').size().reset_index(name='sentence_count')
-        sentence_count_by_corpus['percentage'] = (sentence_count_by_corpus['sentence_count'] / total_sentences * 100).round(2).astype(str) + '%'
-        
-        # Add total row
-        total_row = pd.DataFrame([{
-            'corpus': 'WHOLE_CORPUS',
-            'sentence_count': total_sentences,
-            'percentage': '100.00%'
-        }])
-        sentence_count_by_corpus = pd.concat([sentence_count_by_corpus, total_row], ignore_index=True)
-        
-        display(sentence_count_by_corpus)
-        
-    except FileNotFoundError:
-        print("✗ CSV file not found for sentence count analysis")
+        try:
+            if 'df_csv_full' not in locals():
+                df_csv_full = pd.read_csv(configs.CSV_PATH, encoding="utf-8")
+            
+            total_sentences = len(df_csv_full)
+            
+            sentence_count_by_corpus = df_csv_full.groupby('corpus').size().reset_index(name='sentence_count')
+            sentence_count_by_corpus['percentage'] = (sentence_count_by_corpus['sentence_count'] / total_sentences * 100).round(2).astype(str) + '%'
+            
+            # Add total row
+            total_row = pd.DataFrame([{
+                'corpus': 'WHOLE_CORPUS',
+                'sentence_count': total_sentences,
+                'percentage': '100.00%'
+            }])
+            sentence_count_by_corpus = pd.concat([sentence_count_by_corpus, total_row], ignore_index=True)
+            
+            display(sentence_count_by_corpus)
+            
+        except FileNotFoundError:
+            print("✗ CSV file not found for sentence count analysis")
 
 
     # 3. Correction Breakdown by Subcorpus
-    if configs.SHOW_CORRECTION_BREAKDOWN:
+    if configs.CORRECTION_BREAKDOWN:
         print("\n" + "="*80)
         print("CORRECTION STATISTICS BREAKDOWN")
         print("="*80)
@@ -307,7 +311,7 @@ if __name__ == "__main__":
             print("✗ CSV file not found for correction analysis")
     
     # 4. Overall Correction Summary
-    if configs.SHOW_CORRECTION_SUMMARY:
+    if configs.CORRECTION_SUMMARY:
         try:
             if 'df_csv_full' not in locals():
                 df_csv_full = pd.read_csv(configs.CSV_PATH, encoding="utf-8")
@@ -337,7 +341,7 @@ if __name__ == "__main__":
             print("✗ CSV file not found for correction analysis")
         
     # 5. Corrected Pairs Only - Detailed Stats
-    if configs.SHOW_CORRECTED_ONLY_STATS:
+    if configs.CORRECTED_ONLY_STATS:
         print("\n" + "="*80)
         print("CORRECTED PAIRS ONLY - DETAILED STATISTICS")
         print("="*80)
@@ -347,7 +351,7 @@ if __name__ == "__main__":
             display(df_corrected_stats)
 
     # 5. Text Type Breakdown
-    if configs.SHOW_STATS_PER_TEXT_TYPE:
+    if configs.STATS_PER_TEXT_TYPE:
         print("\n" + "="*80)
         print("TEXT TYPE BREAKDOWN")
         print("="*80)

@@ -31,7 +31,7 @@ CORPUS_CONFIGS = {
 ACTIVE_CORPORA = ['LEONIDE', 'Kolipsi_1_L2', 'Kolipsi_1_L1', 'Kolipsi_2']
 
 # Output settings
-OUTPUT_DIR = '../output'
+OUTPUT_DIR = '../output/extraction'
 OUTPUT_FORMAT = 'both'  # Options: "csv", "norm", or "both"
 
 # Processing limits
@@ -46,22 +46,26 @@ SENTENCIZER_KWARGS = None
 # COMPUTING STATISTICS
 # =======================
 
-CSV_PATH = "../output/all_corpora.csv"
+CSV_PATH = "../output/extraction/all_corpora.csv"
 
-#1
-SHOW_MAIN_STATS = True              # Main corpus statistics table
+#1 Display overview
+MAIN_STATS = True              # Main corpus statistics table
 
-#2
+#2 Display sentence count by subcorpus
+SUBCORPUS_STATS = True
 
-#3
-SHOW_CORRECTION_BREAKDOWN = True    # Correction stats by subcorpus
-SHOW_CORRECTION_SUMMARY = True      # Overall correction summary
+#3 Correction breakdown by subcorpus
+CORRECTION_BREAKDOWN = True    # Correction stats by subcorpus
+CORRECTION_SUMMARY = True      # Overall correction summary
 
 #4
-SHOW_CORRECTED_ONLY_STATS =  False   # Detailed stats for corrected pairs only
+CORRECTED_ONLY_STATS =  False   # Detailed stats for corrected pairs only
 
 #5
-SHOW_STATS_PER_TEXT_TYPE = True
+STATS_PER_TEXT_TYPE = True
 TEXT_TYPE_SENTENCE_LEV = False
 TEXT_TYPE_DOCUMENT_LEV = False
 TEXT_TYPE_COMBO_LEV = True  # Stats for text type
+
+# TEST SET CREATION
+SET_SPLITS = "../output/data_splits"
