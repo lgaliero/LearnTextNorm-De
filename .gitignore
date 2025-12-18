@@ -7,5 +7,5 @@ test_set.py
 data_split/
 API.ipynb
 prototypes/
-test_LLaMA3_2.tgt
+results/
 api_query.py
