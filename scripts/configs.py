@@ -71,7 +71,7 @@ class ApiConfig:
     HOST = "http://51.124.247.170:80"
     MODEL = "llama3.2:latest"
     MODE = "baseline"  # or "2-shot"
-    SYS_BASELINE = "Du bekommst deutsche Sätze, einen nach dem anderen. Alle stammen von Lernenden aus Mittel- und Oberschulen; jede Instanz steht außerhalb ihres ursprünglichen Kontexts. Es liegen keine Angaben zu Alter oder Muttersprache vor. Korrigiere ausschließlich Rechtschreibfehler (falsche Wortformen) und gib den vollständigen Satz in korrigierter Form zurück. Grammatikfehler (Wortstellung, Interpunktion, Kasus, falsche Wortarten) nicht korrigieren. Keine Erklärungen, Kommentare, Hinweise, Labels oder Titel."
+    SYS_BASELINE = "Du bekommst deutsche Sätze, einen nach dem anderen. Alle stammen von Lernenden aus Mittel- und Oberschulen; jede Instanz steht außerhalb ihres ursprünglichen Kontexts. Es liegen keine Angaben zu Alter oder Muttersprache vor. Korrigiere ausschließlich Rechtschreibfehler (falsch geschriebene Wörter) und gib den vollständigen Satz in korrigierter Form zurück. Halte dich so weit wie möglich am Inhalt des Ausgangstexts. Füge keine weiteren Ergänzungen hinzu. Grammatikfehler (Wortstellung, Interpunktion, Kasus, falsche Wortarten) nicht korrigieren. Keine Erklärungen, Kommentare, Hinweise, Labels oder Titel, auch wenn der Satz unverständlich ist."
     SYS_2_SHOT = "" #to be uptadted
 
 # 2 shots to be added soon

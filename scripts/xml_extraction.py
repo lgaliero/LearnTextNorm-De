@@ -1,4 +1,3 @@
-# .sort TO BE ADDED
 import re
 import os
 import spacy
@@ -87,16 +86,13 @@ class TextBuilder:
         text = re.sub(r'\s+([.:;!?,])', r'\1', text)
         return text.strip()
 
-
 def has_leading_whitespace(text: Optional[str]) -> bool:
     """Check if text starts with whitespace in original XML."""
     return text is not None and len(text) > 0 and text[0].isspace()
 
-
 def has_trailing_whitespace(text: Optional[str]) -> bool:
     """Check if text ends with whitespace in original XML."""
     return text is not None and len(text) > 0 and text[-1].isspace()
-
 
 def strip_namespace(tag: str) -> str:
     """Remove XML namespace from tag."""
@@ -104,13 +100,11 @@ def strip_namespace(tag: str) -> str:
         return tag.split('}', 1)[1]
     return tag
 
-
 def has_sentence_ending(text: str) -> bool:
     """Check if text ends with sentence-ending punctuation."""
     if not text:
         return False
     return bool(re.search(r'[.!?]\s*$', text.strip()))
-
 
 def spacy_sent(text: str) -> List[str]:
     """Split German text into sentences using spaCy."""
@@ -119,8 +113,17 @@ def spacy_sent(text: str) -> List[str]:
 
     # Pre-split on double/triple periods
     text = re.sub(r'\.{2,}', '.<SPLIT>', text)
+
+    # SPLIT after colon if it introduces a numbered list (": 1)", ": 2)", etc.)
+    text = re.sub(r':\s*(\d+\))', r': <SPLIT>\1', text)
+
+    # FORCE split before any numbered list marker, even if glued to words
+    # FORCE hard sentence break before numbered items
+    text = re.sub(r'(\d+\))', r'.<SPLIT>\1', text)
+
+
     # Add space after sentence-ending punctuation if missing
-    text = re.sub(r'([.!?]+)([A-ZÄÖÜ])', r'\1 \2', text)
+    text = re.sub(r'([.!?]+)([A-ZÃ„Ã–Ãœ])', r'\1 \2', text)
 
     chunks = text.split('<SPLIT>')
     all_sentences = []
@@ -129,6 +132,7 @@ def spacy_sent(text: str) -> List[str]:
         if not chunk.strip():
             continue
         
+        # DO NOT remove markers here - keep them for now
         clean = re.sub(r"<[^>]+>", " ", chunk)
         clean = re.sub(r"[ ]+", " ", clean)
         clean = re.sub(r"\n{2,}", "\n<PAR>\n", clean)
@@ -138,7 +142,7 @@ def spacy_sent(text: str) -> List[str]:
         out = []
         for sent in doc.sents:
             s = sent.text.strip()
-            if not s or re.fullmatch(r"[\.\?!]+", s) or re.fullmatch(r"\d+[\.\)]\s*$", s):
+            if not s or re.fullmatch(r"[\.\?!]+", s):
                 continue
             s = s.replace("<PAR>", "").strip()
             if s:
@@ -165,7 +169,14 @@ def spacy_sent(text: str) -> List[str]:
     if buffer:
         merged.append(buffer)
 
-    return merged
+    # ONLY NOW remove numbered markers at the very end
+    cleaned = []
+    for sent in merged:
+        sent = re.sub(r'^\s*\d+\s*(?:\.?\))\s*', '', sent).strip()
+        if sent:
+            cleaned.append(sent)
+    
+    return cleaned
 
 # ============================================================================
 # KOLIPSI EXTRACTION
@@ -682,7 +693,6 @@ def extract_kolipsi(element) -> Tuple[str, str, bool]:
     recurse(element, src_builder, tgt_builder)
     return src_builder.get_text(), tgt_builder.get_text(), has_corrections
 
-
 def extract_kolipsi_sentences(element) -> List[SentencePair]:
     """Extract sentence pairs from Kolipsi element."""
     src_full, tgt_full, _ = extract_kolipsi(element)
@@ -913,7 +923,6 @@ def extract_leonide(paragraph) -> Tuple[str, str, bool]:
     process_node(paragraph, src_builder, tgt_builder)
     return src_builder.get_text(), tgt_builder.get_text(), has_corrections
 
-
 def extract_leonide_sentences(paragraph) -> List[SentencePair]:
     """Extract sentence pairs from LEONIDE paragraph."""
     src, tgt, _ = extract_leonide(paragraph)
@@ -989,7 +998,6 @@ def inject_spaces_between_tags(xml_string: str) -> str:
     
     return result
 
-
 def extract_from_xml(xml_content: str, corpus_type: str) -> List[SentencePair]:
     """Main extraction function."""
     # Inject space wrappers
@@ -1036,7 +1044,6 @@ def extract_from_xml(xml_content: str, corpus_type: str) -> List[SentencePair]:
 
         return all_pairs
 
-
 def clean_sentence_pairs(pairs: List[SentencePair]) -> List[SentencePair]:
     """Clean and deduplicate sentence pairs."""
     cleaned = []
@@ -1055,11 +1062,41 @@ def clean_sentence_pairs(pairs: List[SentencePair]) -> List[SentencePair]:
         if '*' in src or '*' in tgt:
             continue
 
-        if re.fullmatch(empty_regex, src) or re.fullmatch(empty_regex, tgt):
+        # CRITICAL FIX: Check EACH sentence separately (not combined)
+        src_lower = src.lower()
+        tgt_lower = tgt.lower()
+
+        # Check for @ symbol in either sentence
+        if '@' in src or '@' in tgt:
             continue
 
-        src = re.sub(r"^\d+[\.\)]\s+", "", src).strip()
-        tgt = re.sub(r"^\d+[\.\)]\s+", "", tgt).strip()
+        # Check for "Fortsetzung der Aufgabe 2 fehlt"
+        if 'fortsetzung der aufgabe 2 fehlt' in src_lower or 'fortsetzung der aufgabe 2 fehlt' in tgt_lower:
+            continue
+
+        # Check for "Text nicht beendet"
+        if 'text nicht beendet' in src_lower or 'text nicht beendet' in tgt_lower:
+            continue
+
+        # Check for "der Text abgebrochen"
+        if 'der text abgebrochen' in src_lower or 'der text abgebrochen' in tgt_lower:
+            continue
+
+        # Check for "die Aufgabe abgebrochen" (with or without number)
+        if re.search(r'die aufgabe\s*\d?\s*abgebrochen', src_lower) or re.search(r'die aufgabe\s*\d?\s*abgebrochen', tgt_lower):
+            continue
+
+        # Check for any other "abgebrochen" pattern with "Text" or "Aufgabe"
+        if 'abgebrochen' in src_lower or 'abgebrochen' in tgt_lower:
+            if 'text' in src_lower or 'text' in tgt_lower or 'aufgabe' in src_lower or 'aufgabe' in tgt_lower:
+                continue
+                if re.fullmatch(empty_regex, src) or re.fullmatch(empty_regex, tgt):
+                    continue
+
+        # Remove any remaining numbered list markers
+        src = re.sub(r"^\s*\d+\s*[\.\)]\s*", "", src).strip()
+        tgt = re.sub(r"^\s*\d+\s*[\.\)]\s*", "", tgt).strip()
+
 
         if not src or not tgt:
             continue
@@ -1081,7 +1118,6 @@ def clean_sentence_pairs(pairs: List[SentencePair]) -> List[SentencePair]:
 
     return cleaned
 
-
 def process_file(xml_path: str, corpus_type: str) -> List[SentencePair]:
     """Process a single XML file."""
     if not os.path.exists(xml_path):
@@ -1097,7 +1133,6 @@ def process_file(xml_path: str, corpus_type: str) -> List[SentencePair]:
     cleaned = clean_sentence_pairs(pairs)
     
     return cleaned
-
 
 def process_corpora(
     corpus_configs: Dict[str, Dict],
