@@ -1,6 +1,6 @@
 import spacy
-import configs
 import pandas as pd
+from configs import Paths, StatsDisplay
 from IPython.display import display
 
 # Load spaCy with sentencizer
@@ -97,7 +97,7 @@ def process_csv_stats_spacy_optimized(df_subset):
         "corrected_sentences_pct": round(corrected_sentences / total_sentences * 100, 2) if total_sentences else 0
     }
 
-def compute_corpus_stats(csv_path=configs.CSV_PATH):
+def compute_corpus_stats(csv_path=Paths.EXTRACT_CSV):
     """
     Compute statistics on corpus data.
     
@@ -147,7 +147,7 @@ def compute_corpus_stats(csv_path=configs.CSV_PATH):
     
     return df_results
 
-def compute_corrected_only_stats(csv_path=configs.CSV_PATH):
+def compute_corrected_only_stats(csv_path=Paths.EXTRACT_CSV):
     """
     Compute statistics for corrected pairs only.
     
@@ -252,22 +252,22 @@ if __name__ == "__main__":
     print("="*80)
 
     # 1. Main Statistics
-    if configs.MAIN_STATS:
+    if StatsDisplay.MAIN_STATS:
         print("\n" + "="*80)
         print(f"GENERAL OVERVIEW")
         print("="*80)
-        df_stats = compute_corpus_stats(csv_path=configs.CSV_PATH)
+        df_stats = compute_corpus_stats(csv_path=Paths.EXTRACT_CSV)
         display(df_stats)
 
     # 2. Sentence Count by Subcorpus
-    if configs.SUBCORPUS_STATS:
+    if StatsDisplay.SUBCORPUS_STATS:
         print("\n" + "="*80)
         print("SENTENCE COUNT BY SUBCORPUS")
         print("="*80)
 
         try:
             if 'df_csv_full' not in locals():
-                df_csv_full = pd.read_csv(configs.CSV_PATH, encoding="utf-8")
+                df_csv_full = pd.read_csv(Paths.EXTRACT_CSV, encoding="utf-8")
             
             total_sentences = len(df_csv_full)
             
@@ -289,13 +289,13 @@ if __name__ == "__main__":
 
 
     # 3. Correction Breakdown by Subcorpus
-    if configs.CORRECTION_BREAKDOWN:
+    if StatsDisplay.CORRECTION_BREAKDOWN:
         print("\n" + "="*80)
         print("CORRECTION STATISTICS BREAKDOWN")
         print("="*80)
         
         try:
-            df_csv_full = pd.read_csv(configs.CSV_PATH, encoding="utf-8")
+            df_csv_full = pd.read_csv(Paths.EXTRACT_CSV, encoding="utf-8")
             
             print("\n--- By Subcorpus ---")
             correction_by_corpus = df_csv_full.groupby('corpus')['corrected'].agg([
@@ -311,10 +311,10 @@ if __name__ == "__main__":
             print("✗ CSV file not found for correction analysis")
     
     # 4. Overall Correction Summary
-    if configs.CORRECTION_SUMMARY:
+    if StatsDisplay.CORRECTION_SUMMARY:
         try:
             if 'df_csv_full' not in locals():
-                df_csv_full = pd.read_csv(configs.CSV_PATH, encoding="utf-8")
+                df_csv_full = pd.read_csv(Paths.EXTRACT_CSV, encoding="utf-8")
             
             print("\n--- Whole Corpus ---")
             total_pairs = len(df_csv_full)
@@ -341,29 +341,29 @@ if __name__ == "__main__":
             print("✗ CSV file not found for correction analysis")
         
     # 5. Corrected Pairs Only - Detailed Stats
-    if configs.CORRECTED_ONLY_STATS:
+    if StatsDisplay.CORRECTED_ONLY_STATS:
         print("\n" + "="*80)
         print("CORRECTED PAIRS ONLY - DETAILED STATISTICS")
         print("="*80)
         
-        df_corrected_stats = compute_corrected_only_stats(csv_path=configs.CSV_PATH)
+        df_corrected_stats = compute_corrected_only_stats(csv_path=Paths.EXTRACT_CSV)
         if not df_corrected_stats.empty:
             display(df_corrected_stats)
 
     # 5. Text Type Breakdown
-    if configs.STATS_PER_TEXT_TYPE:
+    if StatsDisplay.STATS_PER_TEXT_TYPE:
         print("\n" + "="*80)
         print("TEXT TYPE BREAKDOWN")
         print("="*80)
         
         try:
             if 'df_csv_full' not in locals():
-                df_csv_full = pd.read_csv(configs.CSV_PATH, encoding="utf-8")
+                df_csv_full = pd.read_csv(Paths.EXTRACT_CSV, encoding="utf-8")
             
             total_sentences_overall = len(df_csv_full)
             
             # 5A. Sentence-level breakdown
-            if configs.TEXT_TYPE_SENTENCE_LEV:
+            if StatsDisplay.TEXT_TYPE_SENTENCE_LEV:
                 print("\n--- Sentence-Level Statistics ---")
                 sentence_level = df_csv_full.groupby('text_type').size().reset_index(name='sentence_count')
                 sentence_level['percentage'] = (sentence_level['sentence_count'] / total_sentences_overall * 100).round(2).astype(str) + '%'
@@ -379,7 +379,7 @@ if __name__ == "__main__":
                 
 
             # 5B. Document-level breakdown
-            if configs.TEXT_TYPE_DOCUMENT_LEV:
+            if StatsDisplay.TEXT_TYPE_DOCUMENT_LEV:
                 print("\n--- Document-Level Statistics ---")
                 # Get unique xml_file + text_type combinations
                 unique_docs = df_csv_full.groupby(['xml_file', 'text_type']).size().reset_index(name='sentences_in_doc')
@@ -405,7 +405,7 @@ if __name__ == "__main__":
                 display(doc_level)
             
             # 5C. Combined breakdown by corpus and text type
-            if configs.TEXT_TYPE_COMBO_LEV:
+            if StatsDisplay.TEXT_TYPE_COMBINED:
                 print("\n--- By Corpus and Text Type ---")
                 corpus_text_breakdown = df_csv_full.groupby(['corpus', 'text_type']).size().reset_index(name='sentence_count')
                 

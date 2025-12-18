@@ -4,77 +4,75 @@ Contains:
 1. Corpus paths and extraction parameters
 2. Stats display options
 """
+class Paths: 
+    EXTRACT_OUT = '../output/extraction'  
+    EXTRACT_CSV = "../output/extraction/all_corpora.csv"
+    SET_SPLITS = "../output/splits"
+    LLM_BASE = "../output/results/LLaMA3_2_base.tgt"
+    LLM_2S = "../output/results/LLaMA3_2_2S.tgt"
 
 # =======================
 # XML EXTRACTION CONFIGS
 # =======================
-
-CORPUS_CONFIGS = {
-    'LEONIDE': {
-        'base_dir': '../corpora/LEONIDE/pepper-xml-v1.1/data/DE',
-        'lang_prof': 'L2'
-    },
-    'Kolipsi_1_L2': {
-        'base_dir': '../corpora/Kolipsi_1/xmlmind-v1.1/data/annotations/L2/DE/files_split_by_exercises',
-        'lang_prof': 'L2'
-    },
-    'Kolipsi_1_L1': {
-        'base_dir': '../corpora/Kolipsi_1/xmlmind-v1.1/data/annotations/L1/DE/files_split_by_exercises',
-        'lang_prof': 'L1'
-    },
-    'Kolipsi_2': {
-        'base_dir': '../corpora/Kolipsi_2',
-        'lang_prof': 'L2'
+class ExtractionParams:
+    CORPORA = {
+        'LEONIDE': {
+            'base_dir': '../corpora/LEONIDE/pepper-xml-v1.1/data/DE',
+            'lang_prof': 'L2'
+        },
+        'Kolipsi_1_L2': {
+            'base_dir': '../corpora/Kolipsi_1/xmlmind-v1.1/data/annotations/L2/DE/files_split_by_exercises',
+            'lang_prof': 'L2'
+        },
+        'Kolipsi_1_L1': {
+            'base_dir': '../corpora/Kolipsi_1/xmlmind-v1.1/data/annotations/L1/DE/files_split_by_exercises',
+            'lang_prof': 'L1'
+        },
+        'Kolipsi_2': {
+            'base_dir': '../corpora/Kolipsi_2',
+            'lang_prof': 'L2'
+        }
     }
-}
-#Corpora to process (empty list = process none)
-ACTIVE_CORPORA = ['LEONIDE', 'Kolipsi_1_L2', 'Kolipsi_1_L1', 'Kolipsi_2']
-
-# Output settings
-OUTPUT_DIR = '../output/extraction'
-OUTPUT_FORMAT = 'both'  # Options: "csv", "norm", or "both"
-
-# Processing limits
-MAX_FILES_PER_CORPUS = None  # None = process all files, or set to integer to limit
-
-# Sentencizer settings (if needed in future)
-SENTENCIZER_KWARGS = None
-
+    ACTIVE_CORPORA = ['LEONIDE', 'Kolipsi_1_L2', 'Kolipsi_1_L1', 'Kolipsi_2']   # Corpora to process (empty list = process none)
+    OUTPUT_FORMAT = 'both'                                                      # Output settings - Options: "csv", "norm", or "both"
+    MAX_FILES_PER_CORPUS = None                                                 # Processing limits - None = process all files, or set to integer to limit
+    SENTENCIZER_KWARGS = None                                                   # Sentencizer settings (if needed in future)
 
 
 # =======================
 # COMPUTING STATISTICS
 # =======================
+class StatsDisplay:
+    MAIN_STATS = True               #1 Display overview # Main corpus statistics table
+    SUBCORPUS_STATS = True          #2 Display sentence count by subcorpus
+    CORRECTION_BREAKDOWN = True     #3A Correction breakdown by subcorpus # Correction stats by subcorpus
+    CORRECTION_SUMMARY = True       #3B Correction breakdown by subcorpus # Overall correction summary
+    CORRECTED_ONLY_STATS =  False   #4 Detailed stats for corrected pairs only
+    STATS_PER_TEXT_TYPE = True      #5A
+    TEXT_TYPE_SENTENCE_LEV = False  #5B
+    TEXT_TYPE_DOCUMENT_LEV = False  #5C
+    TEXT_TYPE_COMBINED = True      #6 Stats for text type
 
-CSV_PATH = "../output/extraction/all_corpora.csv"
-
-#1 Display overview
-MAIN_STATS = True              # Main corpus statistics table
-
-#2 Display sentence count by subcorpus
-SUBCORPUS_STATS = True
-
-#3 Correction breakdown by subcorpus
-CORRECTION_BREAKDOWN = True    # Correction stats by subcorpus
-CORRECTION_SUMMARY = True      # Overall correction summary
-
-#4
-CORRECTED_ONLY_STATS =  False   # Detailed stats for corrected pairs only
-
-#5
-STATS_PER_TEXT_TYPE = True
-TEXT_TYPE_SENTENCE_LEV = False
-TEXT_TYPE_DOCUMENT_LEV = False
-TEXT_TYPE_COMBO_LEV = True  # Stats for text type
-
+# =======================
 # TEST SET CREATION
-SET_SPLITS = "../output/data_splits"
+# =======================
+class DataSplits:
+    TEST = 0.10
+    DEV = 0.10
+    TRAIN = 0.80
+
 
 
 # =======================
 # LLM TESTING (via institution API)
 # =======================
-LLM_TGT = "../output/results/test_LLaMA3_2.tgt"
-CONTEXT = "Du bekommst deutsche Sätze, einen nach dem anderen. Alle Sätze stammen von Lernenden aus Mittel- und Oberschulen; jede Instanz steht dabei außerhalb ihres ursprünglichen Kontextes. Es liegen keine weiteren Informationen zu Alter oder Muttersprache der Autor*innen vor. Deine Aufgabe ist es, vorhandene Rechtschreibfehler zu korrigieren. Gib ausschließlich den vollständigen Satz in seiner bestmöglichen korrigierten Form wieder, ohne Erklärungen, Kommentare, Hinweise, Labels oder Titel. Grammatikfehler (z. B. Wortstellung, Interpunktion, Kasus oder falsche Wortarten) dürfen nicht korrigiert werden."
-HOST = "http://51.124.247.170:80'"
-API_MODEL = "llama3.2:latest"
+class ApiConfig:
+    HOST = "http://51.124.247.170:80"
+    MODEL = "llama3.2:latest"
+
+    # Add these new configuration variables
+    MODE = "baseline"  # or "2-shot"
+    SYS_BASELINE = "Du bekommst deutsche Sätze, einen nach dem anderen. Alle Sätze stammen von Lernenden aus Mittel- und Oberschulen; jede Instanz steht dabei außerhalb ihres ursprünglichen Kontextes. Es liegen keine weiteren Informationen zu Alter oder Muttersprache der Autor*innen vor. Deine Aufgabe ist es, vorhandene Rechtschreibfehler für alle Sätze zu korrigieren. Das gilt auch für Fragen, d.h. Sätze die mit dem Fragenzeichen enden. Gib ausschließlich den vollständigen Satz in seiner bestmöglichen korrigierten Form wieder, ohne Erklärungen, Kommentare, Hinweise, Labels oder Titel. Grammatikfehler (z. B. Wortstellung, Interpunktion, Kasus oder falsche Wortarten) dürfen nicht korrigiert werden."
+    SYS_2_SHOT = "" #to be uptadted
+
+# 2 shots to be added soon
