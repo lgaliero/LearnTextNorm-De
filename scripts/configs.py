@@ -7,9 +7,10 @@ Contains:
 class Paths: 
     EXTRACT_OUT = '../output/extraction'  
     EXTRACT_CSV = "../output/extraction/all_corpora.csv"
-    SET_SPLITS = "../output/splits"
-    LLM_BASE = "../output/results/LLaMA3_2_base.tgt"
-    LLM_2S = "../output/results/LLaMA3_2_2S.tgt"
+    SET_SPLITS = "../output/data_split"
+    MODELS = "../output/results"
+    LLM_BASE = "../output/results/llm_prompting/LLaMA3_2_base.tgt"
+    LLM_2S = "../output/results/llm_prompting/LLaMA3_2_2S.tgt"
 
 # =======================
 # XML EXTRACTION CONFIGS

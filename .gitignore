@@ -4,7 +4,7 @@ scripts_archive/
 
 #to be updated once finalized
 test_set.py
-splits/
+data_split/
 API.ipynb
 prototypes/
 test_LLaMA3_2.tgt

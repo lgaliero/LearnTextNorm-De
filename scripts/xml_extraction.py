@@ -1128,12 +1128,14 @@ def process_corpora(
                 if f.lower().endswith(".xml") and not f.lower().endswith(".xml.pretty"):
                     xml_members.append(os.path.join(root_dir, f))
 
+        xml_members.sort()  # Sort full paths to ensure consistent order
+
         print(f"  Found {len(xml_members)} XML files")
 
         if max_files_per_corpus:
             xml_members = xml_members[:max_files_per_corpus]
 
-        corpus_pairs = []
+        corpus_pairs_with_files = []  # Changed from corpus_pairs
         for idx, member in enumerate(xml_members):
             print(f"   [{idx + 1}/{len(xml_members)}] {member}")
 
@@ -1144,6 +1146,7 @@ def process_corpora(
                 continue
             
             xml_filename = os.path.basename(member)
+
             # Detect text type from filename
             if corpus_name in ["Kolipsi_1_L1", "Kolipsi_1_L2", "Kolipsi_2"]:
                 # Kolipsi: _1.xml = picture story, _2.xml = opinion
@@ -1173,27 +1176,28 @@ def process_corpora(
                     'text_type': text_type
                 })
             
-            corpus_pairs.extend(pairs)
+            corpus_pairs_with_files.append((xml_filename, pairs))
 
         # Write NORM output if requested (verticalized word-by-word format)
         if output_format in ["norm", "both"]:
             out_path = os.path.join(output_dir, f"{corpus_name}_full.norm")
             with open(out_path, "w", encoding="utf-8") as fh:
-                for pair in corpus_pairs:
-                    # Split sentences into words
-                    src_words = pair.src.split()
-                    tgt_words = pair.tgt.split()
-                    
-                    # Write word pairs (align by position)
-                    max_len = max(len(src_words), len(tgt_words))
-                    for i in range(max_len):
-                        src_word = src_words[i] if i < len(src_words) else ""
-                        tgt_word = tgt_words[i] if i < len(tgt_words) else ""
-                        fh.write(f"{src_word}\t{tgt_word}\n")
-                    
-                    # Blank line between sentences
-                    fh.write("\n")
-            print(f"  Wrote {len(corpus_pairs)} pairs to {out_path}")
+                # Write file-by-file in processing order
+                for xml_filename, pairs in corpus_pairs_with_files:
+                    for pair in pairs:
+                        src_words = pair.src.split()
+                        tgt_words = pair.tgt.split()
+                        
+                        max_len = max(len(src_words), len(tgt_words))
+                        for i in range(max_len):
+                            src_word = src_words[i] if i < len(src_words) else ""
+                            tgt_word = tgt_words[i] if i < len(tgt_words) else ""
+                            fh.write(f"{src_word}\t{tgt_word}\n")
+                        
+                        fh.write("\n")
+            
+            total_pairs = sum(len(pairs) for _, pairs in corpus_pairs_with_files)
+            print(f"  Wrote {total_pairs} pairs to {out_path}")
 
     df = pd.DataFrame(all_data)
     
