@@ -70,8 +70,6 @@ class DataSplits:
 class ApiConfig:
     HOST = "http://51.124.247.170:80"
     MODEL = "llama3.2:latest"
-
-    # Add these new configuration variables
     MODE = "baseline"  # or "2-shot"
     SYS_BASELINE = "Du bekommst deutsche Sätze, einen nach dem anderen. Alle Sätze stammen von Lernenden aus Mittel- und Oberschulen; jede Instanz steht dabei außerhalb ihres ursprünglichen Kontextes. Es liegen keine weiteren Informationen zu Alter oder Muttersprache der Autor*innen vor. Deine Aufgabe ist es, vorhandene Rechtschreibfehler für alle Sätze zu korrigieren. Das gilt auch für Fragen, d.h. Sätze die mit dem Fragenzeichen enden. Gib ausschließlich den vollständigen Satz in seiner bestmöglichen korrigierten Form wieder, ohne Erklärungen, Kommentare, Hinweise, Labels oder Titel. Grammatikfehler (z. B. Wortstellung, Interpunktion, Kasus oder falsche Wortarten) dürfen nicht korrigiert werden."
     SYS_2_SHOT = "" #to be uptadted
