@@ -115,12 +115,11 @@ def spacy_sent(text: str) -> List[str]:
     text = re.sub(r'\.{2,}', '.<SPLIT>', text)
 
     # SPLIT after colon if it introduces a numbered list (": 1)", ": 2)", etc.)
-    text = re.sub(r':\s*(\d+\))', r': <SPLIT>\1', text)
+    text = re.sub(r':\s*(\d+\s*\))', r': <SPLIT>\1', text)
 
-    # FORCE split before any numbered list marker, even if glued to words
-    # FORCE hard sentence break before numbered items
-    text = re.sub(r'(\d+\))', r'.<SPLIT>\1', text)
-
+    # FORCE split before any numbered list marker with or without space before )
+    # Matches both "1)" and "1 )"
+    text = re.sub(r'(\d+\s*\))', r'.<SPLIT>\1', text)
 
     # Add space after sentence-ending punctuation if missing
     text = re.sub(r'([.!?]+)([A-ZÃ„Ã–Ãœ])', r'\1 \2', text)
@@ -170,13 +169,12 @@ def spacy_sent(text: str) -> List[str]:
         merged.append(buffer)
 
     # ONLY NOW remove numbered markers at the very end
+    # Handles "1)", "1 )", "1.)", "1 .)"
     cleaned = []
     for sent in merged:
-        sent = re.sub(r'^\s*\d+\s*(?:\.?\))\s*', '', sent).strip()
+        sent = re.sub(r'^\s*\d+\s*(?:\.?\s*\))\s*', '', sent).strip()
         if sent:
             cleaned.append(sent)
-    
-    return cleaned
 
 # ============================================================================
 # KOLIPSI EXTRACTION
@@ -778,15 +776,17 @@ def extract_leonide(paragraph) -> Tuple[str, str, bool]:
 
             # FOREIGN WORD
             if 'tran_foreign_word' in tag:
-                foreign_text = child.text.strip() if child.text and child.text.strip() else ""
+                # Mark ALL content inside foreign_word, including nested orth_errors
+                # Get ALL text from inside this foreign word element
+                all_foreign_text = ''.join(child.itertext()).strip()
                 
-                if foreign_text:
-                    marked_word = f'FOREIGNWORDSTART{foreign_text}FOREIGNWORDEND'
+                if all_foreign_text:
+                    marked_word = f'FOREIGNWORDSTART{all_foreign_text}FOREIGNWORDEND'
                     src.add_text(marked_word)
                     tgt.add_text(marked_word)
                 
-                for grandchild in child:
-                    process_node(grandchild, src, tgt)
+                # Don't process children - we've already captured everything
+                # This prevents nested orth_error from being processed separately
                 
                 if child.tail:
                     if has_leading_whitespace(child.tail):
@@ -1055,9 +1055,9 @@ def clean_sentence_pairs(pairs: List[SentencePair]) -> List[SentencePair]:
         if pair.has_foreign:
             continue
         
-        src = re.sub(r"\s*\n\s*", " ", pair.src).strip()
-        tgt = re.sub(r"\s*\n\s*", " ", pair.tgt).strip()
-
+        # Remove any remaining numbered list markers (handles "1)", "1 )", "1.)", etc.)
+        src = re.sub(r"^\s*\d+\s*[\.\s*\)]\s*", "", src).strip()
+        tgt = re.sub(r"^\s*\d+\s*[\.\s*\)]\s*", "", tgt).strip()
         # Skip asterisks (censored content)
         if '*' in src or '*' in tgt:
             continue
