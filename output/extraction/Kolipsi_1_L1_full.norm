@@ -4333,8 +4333,6 @@ auf	auf
 deine	deine
 Antwort.	Antwort.
 
-P.	P.
-S.	S.
 Am	Am
 Meer	Meer
 könnten	könnten
@@ -5197,9 +5195,9 @@ sollte;	sollte;
 außer	außer
 einem	einem
 leisen:	leisen:
-"Bitte	"Bitte
+Bitte	Bitte
 entschuldigen	entschuldigen
-Sie".,	Sie".,
+Sie.,	Sie.,
 konnte	konnte
 sie	sie
 keine	keine
@@ -5231,7 +5229,7 @@ Zeitungen.	Zeitungen.
 
 Durch	Durch
 diese	diese
-"Reklame"	"Reklame"
+Reklame	Reklame
 wurde	wurde
 sie	sie
 sogar	sogar
@@ -5239,9 +5237,9 @@ zum	zum
 Gesicht	Gesicht
 der	der
 neuen	neuen
-"Gesünder	"Gesünder
+Gesünder	Gesünder
 essen	essen
-Kampagne"	Kampagne"
+Kampagne	Kampagne
 gewählt.	gewählt.
 
 Du	Du
@@ -5751,10 +5749,6 @@ hört	hört
 hier	hier
 auf	auf
 
-Hallo	Hallo
-Mr.	Mr
-X,	X,
-
 ich	ich
 möchte	möchte
 dir	dir
@@ -6050,6 +6044,7 @@ Supermarkt	Supermarkt
 passiert	passiert
 is	is
 t.	t.
+
 Maria	Maria
 wollte	wollte
 letzte	letzte
@@ -6358,8 +6353,7 @@ in	in
 den	den
 Alpen	Alpen
 gefunden,	gefunden,
-z.	z.
-B.	B.
+z.B.	z.B.
 gibt	gibt
 es	es
 dort	dort
@@ -6386,11 +6380,8 @@ viele	viele
 verschiedene	verschiedene
 Kosmetik	Kosmetikbehandlungen,
 Behandlungen,	wie
-wie	z.
-z.	B.
-B.	Schlammbäder
-Schlammbäder	buchen.
-buchen.	
+wie	z.B.
+z.B.	
 
 Also,	Also,
 was	was
@@ -12451,8 +12442,8 @@ waren.	waren.
 
 Sie	Sie
 hat	hat
-z.	z.
-B.	B.
+z.B.	z.B.
+
 Murmeltiere	Murmeltiere
 und	und
 Bergziegen	Bergziegen
@@ -15602,7 +15593,7 @@ mit	mit
 Tomatensoße	Tomatensoße
 und	und
 Gemüs	Gemüs
-e.	e.
+.	.
 
 Sie	Sie
 ist	ist
@@ -17816,6 +17807,7 @@ Gemüseladen	Gemüseladen
 Ecke	Ecke
 Lindemannstr.	Lindemannstr.
 u.	u.
+
 Neuer	Neuer
 Graben	Graben
 und	und
@@ -18522,7 +18514,6 @@ die	die
 Kassiererin	Kassiererin
 plötzlich	plötzlich
 lautstark:	lautstark:
-"	"
 SIE	Sie
 DIEBIN!	Diebin!
 
@@ -18532,7 +18523,8 @@ SOFORT	sofort
 DIE	die
 GEKLAUTEN	geklauten
 SACHEN	Sachen
-HIER!"	hier!"
+HIER!	hier!
+
 Maria	Maria
 drehte	drehte
 sich	sich
@@ -18556,10 +18548,10 @@ sie	sie
 selbst	selbst
 gemeint	gemeint
 war.	war.
-"	"
+
 Jaaaha,	Jaaaha,
 genau	genau
-SIE!"	Sie!"
+SIE!	Sie!
 sagte	sagte
 die	die
 Kassiererin	Kassiererin
@@ -18846,6 +18838,7 @@ jeden	jeden
 wohl	wohl
 so	so
 600€.	600€.
+
 Außerdem	Außerdem
 gibt	gibt
 es	es
@@ -18861,8 +18854,8 @@ zu	zu
 entspannen,	entspannen,
 aber	aber
 auch	auch
-z.	z.
-B.	B.
+z.B.	z.B.
+
 Wasserski	Wasserski
 zu	zu
 fahren	fahren
@@ -19919,8 +19912,7 @@ den	den
 Süden	Süden
 wär	wär
 als	als
-z.	z.
-B.	B.
+z.B.	z.B.
 die	die
 Ostsee.	Ostsee.
 
@@ -20761,7 +20753,7 @@ und	und
 hysterisch	hysterisch
 zu	zu
 schreien:	schreien:
-"Das	"Das
+Das	Das
 ist	ist
 eine	eine
 Diebin!	Diebin!
@@ -20770,7 +20762,8 @@ Die	Die
 Frau	Frau
 will	will
 Bananen	Bananen
-klauen!"	klauen!"
+klauen!	klauen!
+
 Maria	Maria
 wirbelte	wirbelte
 herum,	herum,
@@ -21009,7 +21002,6 @@ Argumenten.	Argumenten.
 Ich	Ich
 liebe	liebe
 es	es
-e	e
 infach	infach
 mal	mal
 ins	ins
@@ -21175,8 +21167,7 @@ auch	auch
 stressig	stressig
 sein,	sein,
 wenn	wenn
-z.	z.
-B.	B.
+z.B.	z.B.
 viele	viele
 Touristen	Touristen
 am	am
@@ -21339,7 +21330,7 @@ frage.
 
 Für	Für
 ihre	ihre
-"Vegi-Party"	"Veggieparty"
+Vegi-Party	Veggieparty
 brauchte	brauchte
 sie	sie
 aber	aber
@@ -21506,8 +21497,7 @@ uns	uns
 beide	beide
 ein	ein
 zur	zur
-"Vegi-Party".	"Veggieparty".
-
+Vegi-Party	Veggieparty
 Pack	Pack
 dein	dein
 Soja	Soja
@@ -22838,7 +22828,7 @@ Kassiererin	Kassiererin
 hinter	hinter
 ihr	ihr
 gerufen:	gerufen:
-"Sie	"Sie
+Sie	Sie
 hat	hat
 Obst	Obst
 in	in
@@ -22848,7 +22838,8 @@ Tasche!	Tasche!
 Sie	Sie
 wollte	wollte
 es	es
-klauen!"	klauen!"
+klauen!	klauen!
+
 Maria	Maria
 wollte	wollte
 sie	sie
@@ -23095,8 +23086,7 @@ Dühnen!	Dünen!
 
 In	In
 Holland	Holland
-z.	z.
-B.	B.
+z.B.	z.B.
 gibt	gibt
 es	es
 wunderschöne	wunderschöne
@@ -23720,8 +23710,6 @@ verlockend	verlockend
 oder	oder
 nicht?!	nicht?!
 
-Das	Das
-2.	2.
 Angebot	Angebot
 ist	ist
 ein	ein
@@ -24543,8 +24531,8 @@ jegliche	jegliche
 Wassersportarten	Wassersportarten
 ausprobieren	ausprobieren
 wie	wie
-z.	z.
-B.	B.
+z.B.	z.B.
+
 Wasserski	Wasserski
 fahren,	fahren,
 was	was
@@ -24686,8 +24674,6 @@ Bergen	Bergen
 kein	kein
 Wasser	Wasser
 bzw.	bzw.
-Meer	Meer
-gibt.	gibt.
 
 Doch	Doch
 dafür	dafür
@@ -24712,6 +24698,7 @@ Vor-	Vor-
 und	und
 Nachteile	Nachteile
 bzw.	bzw.
+
 Gemeinsamkeiten	Gemeinsamkeiten
 und	und
 Unterschiede	Unterschiede
@@ -25118,7 +25105,8 @@ es	es
 wohl	wohl
 eher	eher
 ein	ein
-"Standart-Urlaub",	"Standard-Urlaub",
+Standart-Urlaub	Standard-Urlaub
+,	,
 der	der
 aber	aber
 definitiv	definitiv
@@ -25445,8 +25433,7 @@ sind.	sind.
 Die	Die
 Alpen	Alpen
 sind	sind
-z.	z.
-B.	B.
+z.B.	z.B.
 nicht	nicht
 so	so
 weit	weit
@@ -27788,7 +27775,8 @@ hätten	hätten
 wir	wir
 einen	einen
 echten	echten
-"Erholungsurlaub",	"Erholungsurlaub",
+Erholungsurlaub	Erholungsurlaub
+,	,
 denn	denn
 die	die
 Dörfer,	Dörfer,
@@ -28031,6 +28019,7 @@ Es	Es
 war	war
 schon	schon
 13:30.	13:30.
+
 Sie	Sie
 bezahlte	bezahlte
 schnell	schnell
@@ -30825,7 +30814,6 @@ hat	hat
 te,	te,
 musste	musste
 si	si
-e	e
 noch	noch
 in	in
 den	den
@@ -31640,74 +31628,76 @@ das	das
 Geschäft	Geschäft
 keine	keine
 Milchprodukte	Milchprodukte
-o.ä.,	o.
-deshalb	Ä.,
-ist	deshalb
-sie	ist
-anschließend	sie
-noch	anschließend
-in	noch
-die	in
-Innenstadt	die
-gefahren,	Innenstadt
-mit	gefahren,
-dem	mit
-ganzen	dem
-Gemüse.	ganzen
-	Gemüse.
+.ä.,	.
+deshalb	
+ist	
+sie	
+anschließend	
+noch	
+in	
+die	
+Innenstadt	
+gefahren,	
+mit	
+dem	
+ganzen	
+Gemüse.	
 
-Als	Als
-sie	sie
-dann	dann
+Als	Ä.,
+sie	deshalb
+dann	ist
+in	sie
+dem	anschließend
+Laden	noch
 in	in
-dem	dem
-Laden	Laden
-in	in
-der	der
-Stadt	Stadt
-an	an
-der	der
-Kasse	Kasse
-stand,	stand,
-wollte	wollte
-die	die
-Kassiererin	Kassiererin
-tatsächlich	tatsächlich
-den	den
-Bon	Bon
-für	für
-das	das
-Gemuse	Gemüse
-von	von
-dem	dem
-anderen	anderen
-Händler	Händler
-sehen.	sehen.
+der	die
+Stadt	Innenstadt
+an	gefahren,
+der	mit
+Kasse	dem
+stand,	ganzen
+wollte	Gemüse.
+die	
+Kassiererin	
+tatsächlich	
+den	
+Bon	
+für	
+das	
+Gemuse	
+von	
+dem	
+anderen	
+Händler	
+sehen.	
 
-Maria	Maria
-war	war
-in	in
-dem	dem
-großen	großen
-Einkaufszentrum	Einkaufszentrum
-am	am
-Kaiserplatz,	Kaiserplatz,
-und	und
-die	die
-führen	führen
-natürlich	natürlich
-auch	auch
-Salat	Salat
-und	und
-Gurken	Gurken
-und	und
-was	was
-sie	sie
-noch	noch
-alles	alles
-so	so
-dabei	dabei
-hatte.	hatte.
+Maria	Als
+war	sie
+in	dann
+dem	in
+großen	dem
+Einkaufszentrum	Laden
+am	in
+Kaiserplatz,	der
+und	Stadt
+die	an
+führen	der
+natürlich	Kasse
+auch	stand,
+Salat	wollte
+und	die
+Gurken	Kassiererin
+und	tatsächlich
+was	den
+sie	Bon
+noch	für
+alles	das
+so	Gemüse
+dabei	von
+hatte.	dem
+	anderen
+	Händler
+	sehen.
 
 Allerdings	Allerdings
 konnte	konnte
@@ -32756,7 +32746,6 @@ an	an
 der	der
 Kasse,	Kasse,
 wi	wi
-e	e
 sie	sie
 bezahlte.	bezahlte.
 
@@ -32779,7 +32768,7 @@ sehr	sehr
 Sie	Sie
 fragte	fragte
 Maria:	Maria:
-"Was	"Was
+Was	Was
 sind	sind
 das	das
 für	für
@@ -32790,7 +32779,8 @@ sie	Sie
 die	die
 einfach	einfach
 so	so
-mitnehmen?"	mitnehmen?"
+mitnehmen?	mitnehmen?
+
 Maria	Maria
 antwortete	antwortete
 natürlich	natürlich
@@ -32810,25 +32800,26 @@ glaubte	glaubte
 ihr	ihr
 natürlich	natürlich
 nicht.	nicht.
-"	"
+
 Zeigen	Zeigen
 sie	Sie
 mir	mir
 ihren	ihren
-Bong!",	Bon!",
+Bong!	Bon!
+
+,	,
 meinte	meinte
 die	die
 Frau	Frau
 hinter	hinter
 der	der
 Kasse.	Kasse.
-"	"
+
 Den	Den
-ha	ha
 be.	be.
 ehm.	ehm.
 ich	ich
-nicht."	nicht."
+nicht.	nicht.
 
 Aber	Aber
 ich	ich
@@ -34692,8 +34683,7 @@ Liebe	Liebe
 Grüße	Grüße
 Z.	Z.
 
-P.	P.
-S.:	S.:
+P.S.:	P.S.:
 Als	Als
 ic	ic
 h	h
@@ -36049,8 +36039,7 @@ sie	sie
 keine	keine
 Mängel	Mängel
 wie	wie
-z.	z.
-B.	B.
+z.B.	z.B.
 braune	braune
 Blätter	Blätter
 am	am
@@ -37915,7 +37904,6 @@ sehr	sehr
 peinlich.	peinlich.
 
 Sie	Sie
-ha	ha
 t	t
 versucht	versucht
 der	der
@@ -37927,7 +37915,6 @@ los	los
 ist,	ist,
 aber	aber
 dies	dies
-e	e
 hat	hat
 sie	sie
 vor	vor
@@ -39056,7 +39043,6 @@ entscheiden.	entscheiden.
 
 Einerseits	Einerseits
 wär	wär
-e	e
 es	es
 wunderbar	wunderbar
 einfach	einfach
@@ -39867,8 +39853,7 @@ auch	auch
 finden,	finden,
 am	am
 Strand	Strand
-z.	z.
-B.	B.
+z.B.	z.B.
 eine	eine
 Muschel	Muschel
 und	und
@@ -40527,8 +40512,7 @@ verbringen.	verbringen.
 
 Es	Es
 kann	kann
-z.	z.
-B.	B.
+z.B.	z.B.
 ein	ein
 Gewitter	Gewitter
 auftreten	auftreten
@@ -40910,6 +40894,7 @@ in	in
 einem	einem
 Obst	Obst
 u.	u.
+
 Gemüseladen	Gemüseladen
 eingekauft	eingekauft
 und	und
@@ -42611,7 +42596,7 @@ sie	sie
 die	die
 Verkäuferin	Verkäuferin
 an:	an:
-"Hey,	"Hey,
+Hey,	Hey,
 und	und
 das	das
 Obst	Obst
@@ -42627,7 +42612,8 @@ das	das
 etwa	etwa
 so	so
 mitgehen	mitgehen
-lassen?"	lassen?"
+lassen?	lassen?
+
 Maria	Maria
 erklärte	erklärte
 der	der
@@ -43080,33 +43066,32 @@ Ich	Ich
 weiss	weiß
 jetzt	jetzt
 zB,	z.
-wie	B.,
-verschiedene	wie
-Vögel	verschiedene
-zwitschern,	Vögel
-oder	zwitschern,
-welche	oder
-Pilze	welche
-giftig	Pilze
-und	giftig
-welche	und
-essbar	welche
-sind!	essbar
-	sind!
+wie	
+verschiedene	
+Vögel	
+zwitschern,	
+oder	
+welche	
+Pilze	
+giftig	
+und	
+welche	
+essbar	
+sind!	
 
-Am	Am
-Meer	Meer
-habe	habe
-ich	ich
-dafür	dafür
-das	das
-Windsurfen	Windsurfen
-gelernt,	gelernt,
-das	das
-großen	großen
-Spaß	Spaß
-gemacht	gemacht
-hat.	hat.
+Am	B.,
+Meer	wie
+habe	verschiedene
+ich	Vögel
+dafür	zwitschern,
+das	oder
+Windsurfen	welche
+gelernt,	Pilze
+das	giftig
+großen	und
+Spaß	welche
+gemacht	essbar
+hat.	sind!
 
 Tja,	Tja,
 ich	ich
@@ -43408,6 +43393,7 @@ hat	hat
 keinen	keinen
 Druck	Druck
 bzw.	bzw.
+
 Stress	Stress
 vom	vom
 vielen	vielen
@@ -44835,6 +44821,7 @@ im	Internet
 Internet	gefunden!
 gefunden!	
 
+2	2
 Wochen	Wochen
 an's	ans
 Meer	Meer
@@ -45347,11 +45334,11 @@ am	am
 Samstag	Samstag
 beim	beim
 Obsthändler	Obsthändler
-"Der	"Der
+Der	Der
 mit	mit
 der	der
 roten	roten
-Kirsche!"	Kirsche!"
+Kirsche!	Kirsche!
 und	und
 wollte	wollte
 Blattsalat,	Blattsalat,
@@ -45597,8 +45584,7 @@ genießen.	genießen.
 
 Man	Man
 kann	kann
-z.	z.
-B	B
+z.B	z.B
 wandern	wandern
 oder	oder
 die	die
@@ -45743,7 +45729,6 @@ Die	Die
 war	war
 letzte	letzte
 Woch	Woch
-e	e
 im	im
 Obst-	Obst-
 und	und
@@ -46231,6 +46216,7 @@ nochmal	nochmal
 zu	zu
 deinem	deinem
 63.	63.
+
 Geburtstag	Geburtstag
 und	und
 deinem	deinem
@@ -47929,8 +47915,7 @@ wir	wir
 in	in
 die	die
 Berge	Berge
-z.	z.
-B.	B.
+z.B.	z.B.
 nach	nach
 Österreich	Österreich
 und	und
@@ -48762,7 +48747,7 @@ zeigte	zeigte
 und	und
 sie	sie
 anbrüllte:	anbrüllte:
-"Junge	"Junge
+Junge	Junge
 Dame,	Dame,
 so	so
 geht	geht
@@ -48774,7 +48759,8 @@ sie	sie
 müssen	müssen
 die	die
 Lebensmittel	Lebensmittel
-bezahlen!"	bezahlen!"
+bezahlen!	bezahlen!
+
 Sie	Sie
 verstand	verstand
 nicht	nicht
@@ -48807,7 +48793,7 @@ aufgeregt	aufgeregt
 und	und
 antwortete	antwortete
 schnell:	schnell:
-"Oh.	"Oh.
+Oh.	Oh.
 
 Ich	Ich
 habe	habe
@@ -48825,7 +48811,8 @@ in	in
 einem	einem
 anderen	anderen
 Laden	Laden
-eingekauft."	eingekauft."
+eingekauft.	eingekauft.
+
 Die	Die
 Kassiererin	Kassiererin
 wartete	wartete
@@ -48860,7 +48847,7 @@ wurde	wurde
 rot	rot
 und	und
 sagte:	sagte:
-"Oh.	"Oh.
+Oh.	Oh.
 
 ,	,
 ich	ich
@@ -48870,12 +48857,11 @@ Quittung	Quittung
 vergessen	vergessen
 mitzunehmen.	mitzunehmen.
 
-"	"
 Daraufhin	Daraufhin
 antwortete	antwortete
 die	die
 Kassiererin:	Kassiererin:
-"Dann	"Dann
+Dann	Dann
 holen	holen
 sie	Sie
 diese	diese
@@ -48892,7 +48878,8 @@ Tasche	Tasche
 beziehungsweise	beziehungsweise
 die	die
 Lebensmittel	Lebensmittel
-hier!"	hier!"
+hier!	hier!
+
 Maria	Maria
 nickte	nickte
 nur,	nur,
@@ -49628,7 +49615,8 @@ belegen	nicht
 kann!	belegen
 	kann!
 
-Und	Und
+krass,	Krass,
+oder?!Und	oder?!Und
 du	du
 glaubst	glaubst
 es	es
@@ -50145,7 +50133,6 @@ und	und
 im	im
 Meer	Meer
 mit	mit
-Ha	Ha
 ien	ien
 schwimmen,	schwimmen,
 als	als
@@ -50500,6 +50487,7 @@ von	von
 den	den
 Urlaubsziele	Urlaubsziele
 n.	n.
+
 Wir	Wir
 könnten	könnten
 den	den
@@ -50700,10 +50688,6 @@ Dir	Dir
 geht	geht
 es	es
 gut!	gut!
-
-Liebst	Liebst
-e	e
-Klara,	Klara,
 
 wie	wie
 geht	geht
@@ -51186,8 +51170,8 @@ nicht	nicht
 haben	haben
 wollte.	wollte.
 
-"Überflüssiges	"Überflüssiges
-Papier",	Papier",
+Überflüssiges	Überflüssiges
+Papier,	Papier,
 sagt	sagt
 sie	sie
 ja	ja
@@ -51254,9 +51238,10 @@ Aber	Aber
 so	so
 ganz	ganz
 ohne	ohne
-"über	"über
+über	über
 -flüssiges	-flüssiges
-Papier",	Papier",
+Papier	Papier
+,	,
 selber	selber
 Schuld.	Schuld.
 
@@ -51553,7 +51538,7 @@ anderen	anderen
 deutsches	deutsches
 Klima	Klima
 und	und
-"Rentnerleben".	"Rentnerleben".
+Rentnerleben	Rentnerleben
 
 Meine	Meine
 Meinung	Meinung
@@ -51956,19 +51941,6 @@ Freizeit	Freizeit
 -angeboten	-angeboten
 wie	wie
 zB.	z.
-Bootsausflüge,	B.
-Taucherkurs,	Bootsausflüge,
-Beachvolleyball	Taucherkurs,
-tunieren	Beachvolleyballturnieren
-und	und
-ein	ein
-großen	großen
-Kinderspielplatz	Kinderspielplatz
-mit	mit
-Hüpfburg	Hüpfburg
-und	und
-anderen	anderen
-Atraktionen.	Attraktionen.
 
 Ich	Ich
 hoffe,	hoffe,
@@ -54120,6 +54092,7 @@ in	in
 einem	einem
 Obst-	Obst-
 bzw.	bzw.
+
 Gemüseladen	Gemüseladen
 einkaufen,	einkaufen,
 hat	hat
@@ -54614,7 +54587,6 @@ Kassierer	Kassierer
 rief	rief
 schnell	schnell
 di	di
-e	e
 Polizei.	Polizei.
 
 Damit	Damit
@@ -55836,10 +55808,10 @@ Kassenzettel	Kassenzettel
 gleich	gleich
 parat	parat
 hatte.	hatte.
-"	"
+
 Glück	Glück
 im	im
-Unglück"	Unglück"
+Unglück	Unglück
 würde	würde
 man	man
 sagen.	sagen.
@@ -56636,8 +56608,6 @@ du	du
 Fahrrad	Fahrrad
 fährst.	fährst.
 
-Das	Das
-2.	2.
 Reiseziel	Reiseziel
 wäre	wäre
 Sardinien	Sardinien
@@ -56828,7 +56798,6 @@ ei	ei
 ne	ne
 lustige	lustige
 Geschicht	Geschicht
-e	e
 erzählt,	erzählt,
 die	die
 ich	ich
@@ -57133,6 +57102,7 @@ ich	ich
 hiermit	hiermit
 au	au
 f.	f.
+
 Schreib	Schreib
 mir	mir
 bitte	bitte
@@ -57758,8 +57728,7 @@ die	die
 Alpen	Alpen
 sind	sind
 allerdings	allerdings
-z.	z.
-B.	B.
+z.B.	z.B.
 das	das
 nur	nur
 mittelmäßige	mittelmäßige
@@ -58601,7 +58570,6 @@ Aber	Aber
 dann	dann
 entdeckte	entdeckte
 di	di
-e	e
 Kassiererin	Kassiererin
 das	das
 Obst	Obst
@@ -58610,7 +58578,6 @@ Gemüse	Gemüse
 in	in
 der	der
 Tasch	Tasch
-e	e
 und	und
 dachte	dachte
 irrtümlic	irrtümlic
@@ -58795,7 +58762,6 @@ genießen.	genießen.
 
 Ein	Ein
 Mank	Mank
-o	o
 ist	ist
 jedoch	jedoch
 das	das
@@ -59363,9 +59329,9 @@ Plastologie	Plastologie
 ging	ging
 in	in
 den	den
-"Obst-	"Obst-
+Obst-	Obst-
 und	und
-Gemüseladen"	Gemüseladen"
+Gemüseladen	Gemüseladen
 und	und
 kaufte	kaufte
 das	das
@@ -59911,15 +59877,15 @@ Einkauf	Einkauf
 zu	zu
 komplettieren.	komplettieren.
 
-U.	U.
-A.	a.
-kamen	kamen
-Milch,	Milch,
-Mar	Mar
--melade	-melade
-und	und
-Cornflakes	Cornflakes
-hinzu.	hinzu.
+U.A.	U.
+kamen	a.
+Milch,	kamen
+Mar	Milch,
+-melade	Mar
+und	-melade
+Cornflakes	und
+hinzu.	Cornflakes
+	hinzu.
 
 Maria	Maria
 ging	ging
@@ -60321,8 +60287,8 @@ Verkäuferin	Verkäuferin
 rückte	rückte
 nur	nur
 ein	ein
-"Na	"Na
-endlich!"	endlich!"
+Na	Na
+endlich!	endlich!
 raus	raus
 und	und
 war	war
@@ -60669,7 +60635,6 @@ auf	auf
 das	das
 Band	Band
 gelegt	gelegt
-ha	ha
 be,	be,
 nannte	nannte
 mir	mir
@@ -60964,8 +60929,6 @@ würden	würden
 wir	wir
 Sonnenauf-	Sonnenauf-
 bzw.	bzw.
-Sonnenuntergänge	Sonnenuntergänge
-beobachten.	beobachten.
 
 Also,	Also,
 ich	ich
@@ -61177,8 +61140,6 @@ Samstag,	Samstag,
 viele	viele
 Grüße,	Grüße,
 
-P.	P.
-S.	S.
 Auch	Auch
 die	die
 Frau	Frau
@@ -61511,8 +61472,7 @@ deine	deine
 Marei	Marei
 ke	ke
 
-P.	P.
-S.:	S.:
+P.S.:	P.S.:
 Vielleicht	Vielleicht
 können	können
 auch	auch
@@ -63033,8 +62993,7 @@ können.	können.
 Es	Es
 grüßt	grüßt
 dich,	dich,
-A.	A.
-S.	S.
+A.S.	A.S.
 
 na	na
 wie	wie
@@ -64620,7 +64579,6 @@ gehen.	gehen.
 Liebe	Liebe
 Grüße,	Grüße,
 Car	Car
-o	o
 
 noch	noch
 immer	immer
@@ -65378,6 +65336,7 @@ Besorgungen	Besorgungen
 zu	zu
 machen.	machen.
 
+1	1
 Stunde	Stunde
 später	später
 fuhr	fuhr
@@ -65732,7 +65691,6 @@ beim	beim
 Obsthändler,	Obsthändler,
 weil	weil
 di	di
-e	e
 Qualität	Qualität
 und	und
 die	die
@@ -66524,7 +66482,6 @@ bezahlen,	bezahlen,
 hat	hat
 die	die
 doof	doof
-e	e
 Kassiererin	Kassiererin
 die	die
 Polizei	Polizei
@@ -66938,7 +66895,7 @@ antwortete	antwortete
 schon	schon
 leicht	leicht
 genervt:	genervt:
-"Ja	"Ja
+Ja	Ja
 natürlich	natürlich
 war	war
 das	das
@@ -66949,7 +66906,8 @@ ich	ich
 jetzt	jetzt
 bitte	bitte
 endlich	endlich
-zahlen?"	zahlen?"
+zahlen?	zahlen?
+
 Doch	Doch
 die	die
 Kassiererin	Kassiererin
@@ -67003,7 +66961,7 @@ Darauf	Darauf
 erwiderte	erwiderte
 die	die
 Kassiererin:	Kassiererin:
-"Dann	"Dann
+Dann	Dann
 können	können
 Sie	Sie
 ja	ja
@@ -67012,9 +66970,9 @@ einen	einen
 Kassen	Kassen
 -zettel	-zettel
 nachweisen	nachweisen
-oder?"	oder?"
-"	"
-Natürlich",	Natürlich",
+oder?	oder?
+
+"Natürlich",	"Natürlich",
 antwortete	antwortete
 Maria	Maria
 und	und
@@ -67068,7 +67026,6 @@ Maria!	Maria!
 
 Dennoch	Dennoch
 wurd	wurd
-e	e
 sie	sie
 bereits	bereits
 von	von
@@ -67713,10 +67670,9 @@ die	die
 Berge	Berge
 zum	zum
 Ski	Ski-
-o.	oder
-Snowboard	Snowboardfahren
-fahren	wollen.
-wollen.	
+.	oder
+	Snowboardfahren
+	wollen.
 
 Also	Also
 ich	ich
@@ -69349,8 +69305,7 @@ Urlaubsaktivitäten.	Urlaubsaktivitäten.
 
 Wir	Wir
 könnten	könnten
-z.	z.
-B.	B.
+z.B.	z.B.
 eher	eher
 einen	einen
 ruhigen	ruhigen
@@ -71022,8 +70977,7 @@ und	und
 andere	andere
 Sachen	Sachen
 machen,	machen,
-z.	z.
-B.	B.
+z.B.	z.B.
 schone	schöne
 Mädels	Mädels
 beobachten!	beobachten!
@@ -71189,8 +71143,7 @@ muss	muss
 dringend	dringend
 los.	los.
 
-P.	P.
-S:	S:
+P.S:	P.S:
 Sie	Sie
 hat	hat
 ihr	ihr
@@ -71946,12 +71899,12 @@ die	die
 Verkäuferin	Verkäuferin
 sie	sie
 an:	an:
-"Wollten	"Wollten
+Wollten	Wollten
 Sie	Sie
 etwa	etwa
 das	das
 Gemüse	Gemüse
-klauen?"	klauen?"
+klauen?	klauen?
 
 Maria	Maria
 erklärte	erklärte
@@ -72005,8 +71958,6 @@ Ich	Ich
 musste	musste
 lachen.	lachen.
 
-P.	P.
-S.	S.
 Es	Es
 wäre	wäre
 schön,	schön,
@@ -73584,13 +73535,14 @@ gewählt	gewählt
 hatte,	hatte,
 schrie	schrie
 Maria:	Maria:
-"Halt,	"Halt,
-Haaalt!"	Haaalt!"
-"	"
+Halt,	Halt,
+Haaalt!	Haaalt!
+
 Ich	Ich
 habe	habe
 nichts	nichts
-gestohlen!"	gestohlen!"
+gestohlen!	gestohlen!
+
 Die	Die
 Verkäuferin	Verkäuferin
 legt	legt
@@ -73598,7 +73550,7 @@ den	den
 Hörer	Hörer
 weg.	weg.
 
-"Ich	"Ich
+Ich	Ich
 war	war
 bereits	bereits
 im	im
@@ -73612,7 +73564,7 @@ ich	ich
 habe	habe
 den	den
 Beleg	Beleg
-aufbewahrt."	aufbewahrt."
+aufbewahrt.	aufbewahrt.
 
 Maria	Maria
 sucht	sucht

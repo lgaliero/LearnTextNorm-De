@@ -133,11 +133,15 @@ def spacy_sent(text: str) -> List[str]:
     # German quotes: „Word word word"
     text = re.sub(r'„([A-ZÄÖÜ][^"]{10,})"', r'<SPLIT>\1<SPLIT>', text)
 
-    # Add space after sentence-ending punctuation if missing
-    text = re.sub(r'([.!?]+)([A-ZÄÖÜ])', r'\1 \2', text)
+    # FINAL safeguard:
+    # Force split after sentence-ending punctuation + space + uppercase
+    # (e.g. "geshaut. Danach")
+    text = re.sub(r'([.!?])\s+([A-ZÄÖÜ])', r'\1<SPLIT>\2', text)
 
     chunks = text.split('<SPLIT>')
+    print("[DEBUG CHUNKS]", chunks)
     all_sentences = []
+
     
     for chunk in chunks:
         if not chunk.strip():
@@ -824,8 +828,14 @@ def extract_leonide(paragraph) -> Tuple[str, str, bool]:
 
             # DIV
             if tag == 'div':
-                src.add_space()
-                tgt.add_space()
+                # DIV elements often signal paragraph/sentence breaks
+                prev_text = src.get_text()
+                if prev_text and has_sentence_ending(prev_text):
+                    src.add_marker(" <SENTBREAK> ")
+                    tgt.add_marker(" <SENTBREAK> ")
+                else:
+                    src.add_space()
+                    tgt.add_space()
 
                 process_node(child, src, tgt)
 
@@ -879,22 +889,59 @@ def extract_leonide(paragraph) -> Tuple[str, str, bool]:
                 
                 target_attr = child.get('orth_error_target')
                 
-                # Check duplicates
-                should_add_target = True
-                if target_attr and tgt.parts:
-                    recent_text = ' '.join(tgt.parts[-3:]) if len(tgt.parts) >= 3 else ' '.join(tgt.parts)
-                    if target_attr in recent_text:
-                        should_add_target = False
+                # Get ONLY the direct text of orth_error element (not nested foreign_word text)
+                original_text = (child.text or "").strip()
+
+                if not original_text:
+                    for sub in child:
+                        sub_tag = sub.tag.lower()
+                        if 'tran_word_correction' in sub_tag:
+                            original_text = (sub.text or "").strip()
+                            break
+
+                # Check for sentence break BEFORE adding text
+                prev_src = src.get_text()
+                if target_attr and original_text:
+                    # Case 1: Capitalization change (lowercase → uppercase) signals new sentence
+                    if (len(original_text) > 0 and len(target_attr) > 0
+                        and original_text[0].islower() and target_attr[0].isupper()
+                        and has_sentence_ending(prev_src)):
+                        src.add_marker(" <SENTBREAK> ")
+                        tgt.add_marker(" <SENTBREAK> ")
+                    # Case 2: Both uppercase after sentence-ending punctuation (natural boundary)
+                    elif (len(original_text) > 0 and len(target_attr) > 0
+                        and original_text[0].isupper() and target_attr[0].isupper()
+                        and has_sentence_ending(prev_src)):
+                        src.add_marker(" <SENTBREAK> ")
+                        tgt.add_marker(" <SENTBREAK> ")
+                    elif (prev_src and prev_src.rstrip().endswith('.')
+                        and len(original_text) > 0 and original_text[0].isupper()
+                        and len(target_attr) > 0 and target_attr[0].isupper()):
+                        src.add_marker(" <SENTBREAK> ")
+                        tgt.add_marker(" <SENTBREAK> ")
                 
-                if target_attr and should_add_target:
-                    tgt.add_text(target_attr)
+                # Handle deletion case (no target or empty target)
+                if not target_attr or not target_attr.strip():
+                    # This is a deletion - source has word, target should be empty
+                    # BUT: to maintain alignment, we use a special marker
+                    if original_text:
+                        src.add_text(original_text)
+                        tgt.add_text("<DEL>")  # Placeholder for deletion
+                else:
+                    # Normal correction case
+                    # Check for duplicates
+                    should_add_target = True
+                    if tgt.parts:
+                        recent_text = ' '.join(tgt.parts[-3:]) if len(tgt.parts) >= 3 else ' '.join(tgt.parts)
+                        if target_attr in recent_text:
+                            should_add_target = False
+                    
+                    if original_text:
+                        src.add_text(original_text)
+                    if should_add_target:
+                        tgt.add_text(target_attr)
                 
-                # Get all text from inside orth_error
-                original_text = ''.join(child.itertext()).strip()
-                if original_text:
-                    src.add_text(original_text)
-                
-                # CRITICAL: Check for leading space in tail
+                # Handle tail with proper spacing
                 if child.tail:
                     if has_leading_whitespace(child.tail):
                         src.add_space()
@@ -903,7 +950,7 @@ def extract_leonide(paragraph) -> Tuple[str, str, bool]:
                         src.add_text(child.tail.strip())
                         tgt.add_text(child.tail.strip())
                 continue
-                
+                            
             # CAPITALISATION
             if 'tran_capitalisation' in tag:
                 original_attr = child.text
@@ -946,32 +993,79 @@ def extract_leonide_sentences(paragraph) -> List[SentencePair]:
 
     # Detect foreign words before cleaning markers
     has_foreign = 'FOREIGNWORDSTART' in src or 'FOREIGNWORDSTART' in tgt
-    
-    # Clean markers
-    src = re.sub(r'FOREIGNWORDSTART(.*?)FOREIGNWORDEND', r'\1', src)
-    tgt = re.sub(r'FOREIGNWORDSTART(.*?)FOREIGNWORDEND', r'\1', tgt)
-    
-    src_sents = spacy_sent(src)
-    tgt_sents = spacy_sent(tgt)
 
-    max_len = max(len(src_sents), len(tgt_sents))
-    pairs = []
+    # CRITICAL FIX: Check if BOTH src and tgt have the same number of sentence breaks
+    src_break_count = src.count('<SENTBREAK>')
+    tgt_break_count = tgt.count('<SENTBREAK>')
     
-    for i in range(max_len):
-        src_sent = src_sents[i] if i < len(src_sents) else ""
-        tgt_sent = tgt_sents[i] if i < len(tgt_sents) else ""
+    # Only use explicit breaks if they match in count
+    use_explicit_breaks = (src_break_count > 0 and src_break_count == tgt_break_count)
+    
+    if use_explicit_breaks:
+        # Verify breaks are in roughly the same positions
+        src_chunks = [s.strip() for s in src.split('<SENTBREAK>') if s.strip()]
+        tgt_chunks = [s.strip() for s in tgt.split('<SENTBREAK>') if s.strip()]
         
-        has_correction = (src_sent.strip() != tgt_sent.strip())
+        # If chunk counts don't match, fall back to spacy
+        if len(src_chunks) != len(tgt_chunks):
+            use_explicit_breaks = False
+    
+    if use_explicit_breaks:
+        # Clean foreign word markers
+        src_chunks = [re.sub(r'FOREIGNWORDSTART(.*?)FOREIGNWORDEND', r'\1', chunk) for chunk in src_chunks]
+        tgt_chunks = [re.sub(r'FOREIGNWORDSTART(.*?)FOREIGNWORDEND', r'\1', chunk) for chunk in tgt_chunks]
         
-        if src_sent or tgt_sent:
-            pairs.append(SentencePair(
-                src=src_sent,
-                tgt=tgt_sent,
-                has_correction=has_correction,
-                has_foreign=has_foreign
-            ))
+        pairs = []
+        for i in range(len(src_chunks)):
+            src_sent = src_chunks[i]
+            tgt_sent = tgt_chunks[i]
+            
+            has_correction = (src_sent.strip() != tgt_sent.strip())
+            
+            if src_sent or tgt_sent:
+                pairs.append(SentencePair(
+                    src=src_sent,
+                    tgt=tgt_sent,
+                    has_correction=has_correction,
+                    has_foreign=has_foreign
+                ))
+        
+        return pairs
+    
+    else:
+        # Remove any SENTBREAK markers since we're not using them
+        src = re.sub(r'<SENTBREAK>', ' ', src)
+        tgt = re.sub(r'<SENTBREAK>', ' ', tgt)
+        
+        # Clean foreign word markers
+        src = re.sub(r'FOREIGNWORDSTART(.*?)FOREIGNWORDEND', r'\1', src)
+        tgt = re.sub(r'FOREIGNWORDSTART(.*?)FOREIGNWORDEND', r'\1', tgt)
+        
+        # Clean up multiple spaces
+        src = re.sub(r'\s+', ' ', src).strip()
+        tgt = re.sub(r'\s+', ' ', tgt).strip()
+        
+        src_sents = spacy_sent(src)
+        tgt_sents = spacy_sent(tgt)
 
-    return pairs
+        max_len = max(len(src_sents), len(tgt_sents))
+        pairs = []
+        
+        for i in range(max_len):
+            src_sent = src_sents[i] if i < len(src_sents) else ""
+            tgt_sent = tgt_sents[i] if i < len(tgt_sents) else ""
+            
+            has_correction = (src_sent.strip() != tgt_sent.strip())
+            
+            if src_sent or tgt_sent:
+                pairs.append(SentencePair(
+                    src=src_sent,
+                    tgt=tgt_sent,
+                    has_correction=has_correction,
+                    has_foreign=has_foreign
+                ))
+
+        return pairs
 
 # ============================================================================
 # MAIN EXTRACTION PIPELINE
@@ -1090,7 +1184,7 @@ def clean_sentence_pairs(pairs: List[SentencePair]) -> List[SentencePair]:
         # Matches: start of string + hyphen + space + (quote or uppercase letter)
         src = re.sub(r'^-\s+(?=[""„A-ZÄÖÜ])', '', src)
         tgt = re.sub(r'^-\s+(?=[""„A-ZÄÖÜ])', '', tgt)
-        
+
         # === END HYPHEN REMOVAL ===
         # Skip asterisks (censored content)
         if '*' in src or '*' in tgt:
@@ -1129,9 +1223,8 @@ def clean_sentence_pairs(pairs: List[SentencePair]) -> List[SentencePair]:
 
         # Remove any remaining numbered list markers
         # Remove any remaining numbered list markers (handles "1)", "1 )", "1.)", etc.)
-        src = re.sub(r"^\s*\d+\s*[\.\s*\)]\s*", "", src).strip()
-        tgt = re.sub(r"^\s*\d+\s*[\.\s*\)]\s*", "", tgt).strip()
-
+        src = re.sub(r"^\s*\d+\s*[.\)]\s*", "", src).strip()
+        tgt = re.sub(r"^\s*\d+\s*[.\)]\s*", "", tgt).strip()
         if not src or not tgt:
             continue
         
@@ -1263,15 +1356,25 @@ def process_corpora(
                     for pair in pairs:
                         src_words = pair.src.split()
                         tgt_words = pair.tgt.split()
-                        
+
                         max_len = max(len(src_words), len(tgt_words))
+
                         for i in range(max_len):
                             src_word = src_words[i] if i < len(src_words) else ""
                             tgt_word = tgt_words[i] if i < len(tgt_words) else ""
+
+                            if tgt_word == "<DEL>":
+                                tgt_word = ""
+
+                            if not src_word and not tgt_word:
+                                continue
+
                             fh.write(f"{src_word}\t{tgt_word}\n")
-                        
+
+                        # EXACTLY ONE blank line after EACH sentence pair
                         fh.write("\n")
-            
+
+
             total_pairs = sum(len(pairs) for _, pairs in corpus_pairs_with_files)
             print(f"  Wrote {total_pairs} pairs to {out_path}")
 
