@@ -117,12 +117,24 @@ def spacy_sent(text: str) -> List[str]:
     # SPLIT after colon if it introduces a numbered list (": 1)", ": 2)", etc.)
     text = re.sub(r':\s*(\d+\s*\))', r': <SPLIT>\1', text)
 
-    # FORCE split before any numbered list marker with or without space before )
-    # Matches both "1)" and "1 )"
+    # Split before any numbered list marker with or without space before ) , matches both "1)" and "1 )"
     text = re.sub(r'(\d+\s*\))', r'.<SPLIT>\1', text)
 
+    # First, remove quotes from quoted segments with multiple sentences inside
+    # Match: opening quote + content with sentence-ending punctuation + more content + closing quote
+    # Pattern: ["„] + text + [.!?] + text + [""]
+    text = re.sub(r'([""„])([^"""„]+[.!?]\s+[^"""„]+)(["""])', r'\2', text)
+
+    # Now handle quoted segments that should be standalone sentences
+    # Match quotes around text starting with uppercase and having 3+ words
+    # English quotes: "Word word word"
+    text = re.sub(r'"([A-ZÄÖÜ][^"]{10,})"', r'<SPLIT>\1<SPLIT>', text)
+
+    # German quotes: „Word word word"
+    text = re.sub(r'„([A-ZÄÖÜ][^"]{10,})"', r'<SPLIT>\1<SPLIT>', text)
+
     # Add space after sentence-ending punctuation if missing
-    text = re.sub(r'([.!?]+)([A-ZÃ„Ã–Ãœ])', r'\1 \2', text)
+    text = re.sub(r'([.!?]+)([A-ZÄÖÜ])', r'\1 \2', text)
 
     chunks = text.split('<SPLIT>')
     all_sentences = []
@@ -175,6 +187,8 @@ def spacy_sent(text: str) -> List[str]:
         sent = re.sub(r'^\s*\d+\s*(?:\.?\s*\))\s*', '', sent).strip()
         if sent:
             cleaned.append(sent)
+    
+    return cleaned
 
 # ============================================================================
 # KOLIPSI EXTRACTION
@@ -1055,9 +1069,29 @@ def clean_sentence_pairs(pairs: List[SentencePair]) -> List[SentencePair]:
         if pair.has_foreign:
             continue
         
-        # Remove any remaining numbered list markers (handles "1)", "1 )", "1.)", etc.)
-        src = re.sub(r"^\s*\d+\s*[\.\s*\)]\s*", "", src).strip()
-        tgt = re.sub(r"^\s*\d+\s*[\.\s*\)]\s*", "", tgt).strip()
+        src = re.sub(r"\s*\n\s*", " ", pair.src).strip()
+        tgt = re.sub(r"\s*\n\s*", " ", pair.tgt).strip()
+
+        # === NEW: Remove interjections and laughs (standalone words only) ===
+        # Pattern matches word boundaries to avoid removing parts of real words
+        # Also matches interjections followed by punctuation like Ha". or ee!
+        interjection_pattern = r'\b(h[aeo]+|e+|o+|y+e+|gahahaha|hahaha+|noo+)(?:[.!?,"\s]|$)'
+        
+        # Remove interjections but keep any trailing punctuation
+        src = re.sub(interjection_pattern, lambda m: m.group(0)[-1] if m.group(0)[-1] in '.!?,"' else '', src, flags=re.IGNORECASE)
+        tgt = re.sub(interjection_pattern, lambda m: m.group(0)[-1] if m.group(0)[-1] in '.!?,"' else '', tgt, flags=re.IGNORECASE)
+        
+        # Clean up extra spaces left by removals
+        src = re.sub(r'\s+', ' ', src).strip()
+        tgt = re.sub(r'\s+', ' ', tgt).strip()
+        # === END INTERJECTION REMOVAL ===
+
+        # === NEW: Remove leading hyphens before quotes or uppercase ===
+        # Matches: start of string + hyphen + space + (quote or uppercase letter)
+        src = re.sub(r'^-\s+(?=[""„A-ZÄÖÜ])', '', src)
+        tgt = re.sub(r'^-\s+(?=[""„A-ZÄÖÜ])', '', tgt)
+        
+        # === END HYPHEN REMOVAL ===
         # Skip asterisks (censored content)
         if '*' in src or '*' in tgt:
             continue
@@ -1094,9 +1128,9 @@ def clean_sentence_pairs(pairs: List[SentencePair]) -> List[SentencePair]:
                     continue
 
         # Remove any remaining numbered list markers
-        src = re.sub(r"^\s*\d+\s*[\.\)]\s*", "", src).strip()
-        tgt = re.sub(r"^\s*\d+\s*[\.\)]\s*", "", tgt).strip()
-
+        # Remove any remaining numbered list markers (handles "1)", "1 )", "1.)", etc.)
+        src = re.sub(r"^\s*\d+\s*[\.\s*\)]\s*", "", src).strip()
+        tgt = re.sub(r"^\s*\d+\s*[\.\s*\)]\s*", "", tgt).strip()
 
         if not src or not tgt:
             continue
@@ -1172,6 +1206,13 @@ def process_corpora(
 
         corpus_pairs_with_files = []  # Changed from corpus_pairs
         for idx, member in enumerate(xml_members):
+            xml_filename = os.path.basename(member)
+            
+            # Skip excluded files
+            if xml_filename in ExtractionParams.EXCLUDE:
+                print(f"   [{idx + 1}/{len(xml_members)}] {member} [SKIPPED - excluded]")
+                continue
+            
             print(f"   [{idx + 1}/{len(xml_members)}] {member}")
 
             try:

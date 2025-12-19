@@ -36,6 +36,7 @@ class ExtractionParams:
     }
     ACTIVE_CORPORA = ['LEONIDE', 'Kolipsi_1_L2', 'Kolipsi_1_L1', 'Kolipsi_2']   # Corpora to process (empty list = process none)
     OUTPUT_FORMAT = 'both'                                                      # Output settings - Options: "csv", "norm", or "both"
+    EXCLUDE = ["DE_pic_2_57Y25A14_59.xml"," DE_pic_2_57Y25A03_59.xml"]
     MAX_FILES_PER_CORPUS = None                                                 # Processing limits - None = process all files, or set to integer to limit
     SENTENCIZER_KWARGS = None                                                   # Sentencizer settings (if needed in future)
 

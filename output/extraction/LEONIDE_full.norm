@@ -239,7 +239,6 @@ arbeit	Arbeit
 ist	ist
 das	das
 
-3	3
 Ich	Ich
 muss	muss
 lernen	lernen
@@ -1215,7 +1214,7 @@ Rusisch,	Russisch,
 Chineschisch	Chinesisch
 und	und
 English	Englisch
-".	".
+.	.
 
 Weil	Weil
 English	Englisch
@@ -1248,7 +1247,7 @@ wie:	wie:
 Chineschischesmauer.	Chinesische
 	Mauer.
 
-")	")
+)	)
 und	und
 ich	ich
 will	will
@@ -2799,7 +2798,7 @@ könnte	könnte
 man	man
 die	die
 Sprache	Sprache
-"Französisch"	"Französisch"
+Französisch	Französisch
 auch	auch
 noch	noch
 dazulernen,	dazulernen,
@@ -2813,7 +2812,6 @@ schöne	schöne
 Sprache	Sprache
 ist.	ist.
 
--	-
 Meine	Meine
 Meinung	Meinung
 nach	nach
@@ -2881,7 +2879,6 @@ man	man
 komunizieren	kommunizieren
 kann.	kann.
 
--	-
 Ich	Ich
 kann	kann
 Italienisch,	Italienisch,
@@ -6670,20 +6667,6 @@ und	und
 Biologe	Biologe
 werden	werden
 
-Ich	Ich
-möchte	möchte
-eine	eine
-Avvocat,	Advokat,
-weil	weil
-ist	ist
-schön.	schön.
-
-Ich	Ich
-muss	muss
-lernen	lernen
-die	die
-LEGGE.	LEGGE.
-
 Mein	Mein
 Traumberuf	Traumberuf
 ist	ist
@@ -6756,12 +6739,6 @@ hat	hat
 shön	schon
 ein	ein
 Haus-Zahnarst.	Haus-Zahnarzt.
-
-Ich	Ich
-muss	muss
-OPERAZIONI	operazioni
-gemacht,	gemacht,
-APPARECCHI,.	APPARECCHI,.
 
 Ich	Ich
 muss	muss
@@ -7312,65 +7289,6 @@ jeden	jeden
 tag.	Tag.
 
 Ich	Ich
-will	will
-ein	ein
-Eishockey	Eishockeyspieler
-spieler	werden
-werden	oder
-oder	ein
-ein	schonen
-schonen	Arbeit
-arbeit	machen,
-machen,	aber
-aber	welche?
-welche?	
-
-Ich	Ich
-kann	kann
-ein	ein
-"	"
-IMBIANCHINO	IMBIANCHINO
-"	"
-machen,	machen,
-in	in
-ein	ein
-supermarket	Supermarket
-arbeiten.	arbeiten.
-
-Ich	Ich
-will	will
-"	"
-IMBIANCHINO	IMBIANCHINO
-"	"
-machen	machen
-und	und
-von	von
-hobby	Hobby
-ein	ein
-Eishockey	Eishockeyspieler
-spieler	werden.
-werden.	
-
-Ich	Ich
-will	will
-"	"
-IMBIANCHINO	IMBIANCHINO
-"	"
-machen	machen
-weil	weil
-mein	mein
-Vater	Vater
-ist	ist
-ein	ein
-"	"
-IMBIANCHINO	IMBIANCHINO
-".	".
-
-Wir	Wir
-arbeiten	arbeiten
-zusammen.	zusammen.
-
-Ich	Ich
 muss	muss
 viele	viele
 lernen,	lernen,
@@ -7455,24 +7373,16 @@ muss	muss
 lernen	lernen
 Matematic.	Mathematik.
 
-1	1
 In	In
 der	der
 mitte	mitte
 schule	schule
 Fußballspiele	Fußballspiele
 
-2	2
 ich	Ich
 wolle	wolle
 lhernen.	lernen.
 
-4	4
-mathe	Mathe
-und	und
-scenze	scenze
-
-4	4
 Ich	Ich
 musst	musst
 lernen	lernen
@@ -7636,18 +7546,6 @@ Mittelschule	Mittelschule
 mach	mach
 Hockey	Hockey
 spiele	Spiele
-
-ich	ich
-spile	spiele
-Hockey	Hockey
-ist	ist
-guat	gut
-ist	ist
-ein	ein
-sport	Sport
-fein	fein
-und	und
-Albergiero	Albergiero
 
 Ich	Ich
 musse	musse
@@ -7915,7 +7813,6 @@ dem	dem
 Korpr	Korpr
 lernen	lernen
 
-4	4
 Ich	Ich
 lerne,	lerne,
 wiel	weil
@@ -8113,8 +8010,8 @@ ich	ich
 ein	ein
 Notar	Notar
 werden	werden
-1	1
-)	)
+.	.
+
 Nach	Nach
 der	der
 Mittelschule	Mittelschule
@@ -8257,23 +8154,16 @@ und	und
 noch	noch
 üben.	üben.
 
-1	1
 Möchtest	Möchtest
 nach	nach
 der	der
 Mittelschule	Mittelschule
 Kosmetikerin.	Kosmetikerin.
 
-2	2
-Traumberuf	Traumberuf
-staylistin.	Stylistin.
-
-3	3
 Traumberuf	Traumberuf
 können	können
 estetik.	estetik.
 
-4	4
 Ich	Ich
 muss	muss
 lernen	lernen
@@ -12866,10 +12756,10 @@ denke	denke
 ich	ich
 mir	mir
 auch:	auch:
-„Die	„Die
+Die	Die
 sollen	sollen
 drüben	drüben
-bleiben!"	bleiben!"
+bleiben!	bleiben!
 
 Die	Die
 Menschen	Menschen
@@ -13586,8 +13476,8 @@ dem	enorm
 enorm	gestiegen,
 gestiegen,	wenn
 Wenn	diese
-diese	"Kriminellen"
-"Kriminellen"	theoretisch
+diese	Kriminellen
+Kriminellen	theoretisch
 theoretisch	weg
 weg	wären
 wären	müsste
@@ -16235,7 +16125,6 @@ machen	machen
 computer	Computer
 spielen.	spielen.
 
--	-
 Lernen	Lernen
 alle	alle
 Tage	Tage
@@ -17490,17 +17379,11 @@ Familie	Familie
 jeden	jeden
 Tag.	Tag.
 
-1	1
-got	got
-Apissien	Apissien
-
-2	2
 Ich	Ich
 habe	habe
 nicht	nicht
 strategiert	strategiert
 
-3	3
 ascoltiert	ascoltiert
 die	die
 TV	TV
@@ -17775,7 +17658,6 @@ lesen	lesen
 Bücher	Bücher
 und	und
 kapiert	kapiert
-O	O
 die	die
 Strategi	Strategie
 sehr	sehr
@@ -18537,7 +18419,6 @@ sprechen	sprechen
 und	und
 hören.	hören.
 
--	-
 Bücher	Bücher
 lesen	lesen
 und	und
@@ -18833,7 +18714,7 @@ haben.	haben.
 Wir	Wir
 sollen	sollen
 die	die
-„Flüchtlinge"	„Flüchtlinge"
+Flüchtlinge	Flüchtlinge
 wie	wie
 alle	alle
 menschen	Menschen
@@ -18866,7 +18747,7 @@ land	Land
 z.	z.
 B.	B.
 10.500	10.500
-„Flüchtlinge"	„Flüchtlinge"
+Flüchtlinge	Flüchtlinge
 und	und
 ein	ein
 anderes	anderes
@@ -20572,7 +20453,6 @@ schlechte	schlechte
 Situazionen	Situationen
 helfen.	helfen.
 
-1	1
 ich	ich
 denke	denke
 Deutsch,	Deutsch,
@@ -20582,7 +20462,6 @@ Japanisch	Japanisch
 und	und
 Spanisch	Spanisch
 
-2	2
 weil	Weil
 mier	mir
 diese	diese
@@ -24504,8 +24383,7 @@ weil	weil
 Englisch	Englisch
 ist	ist
 die	die
-"Weltsprache".	"Weltsprache".
-
+Weltsprache	Weltsprache
 Ich	Ich
 würde	würde
 Französisch	Französisch
@@ -26604,45 +26482,6 @@ ein	ein
 Fusballspieler	Fußballspieler
 werden.	werden.
 
-MEIN	Mein
-TRAUMBERUF	Traumberuf
-IST	ist
-LELHERIN!	Lehrerin!
-
-ICH	Ich
-MITTELSCHULE	Mittelschule
-MACHEN	machen
-(	(
-SCHIENZE	scienze
-)	)
-(	(
-SCIENZE	scienze
-UMANE	UMANE
-).	).
-
-ICH	Ich
-MOCHTE	möchte
-DER	der
-UNIVERSITÄT	Universität
-STUDIEREN.	STUDIEREN.
-
-ICH	ICH
-MOCHTE	möchte
-LERNEN	LERNEN
-DIE	die
-(	(
-PENSIERO	PENSIERO
-DELLE	DELLE
-PERSONE	PERSONE
-).	).
-
-ICH	Ich
-MUSS	muss
-DAFÜR	dafür
-VIEL	viel
-PSICOLOCHI	Psychologie
-LERNEN	LERNEN
-
 Ich	Ich
 mochte	möchte
 nicht	nicht
@@ -27025,7 +26864,7 @@ in	in
 die	die
 I.	I.
 T.	T.
-E.	E.
+.	.
 Uberschule.	Oberschule.
 
 Mein	Mein
@@ -27680,7 +27519,6 @@ mache	mache
 (	(
 I.	I.
 T.	T.
-E	E
 ),	),
 hilft	hilft
 mir	mir
@@ -27716,7 +27554,7 @@ ich	ich
 in	in
 das	das
 Oberschule	Oberschule
-"ITE"	"ITE"
+ITE	ITE
 von	von
 Placename	Placename
 lernen.	lernen.
@@ -27752,7 +27590,7 @@ rechnen.	rechnen.
 In	In
 die	die
 Schule	Schule
-"ITE"	"ITE"
+ITE	ITE
 mussen	müssen
 die	die
 Schuler	Schüler
@@ -27842,7 +27680,6 @@ ich	ich
 lernen	lernen
 muss.	muss.
 
-1	1
 Ich	Ich
 möchte	möchte
 nach	nach
@@ -27852,7 +27689,6 @@ in	in
 ITE	ITE
 gehen.	gehen.
 
-2	2
 Mein	Mein
 Traumberuf	Traumberuf
 ist	ist
@@ -27874,7 +27710,6 @@ Kleider	von
 fon	USA.
 USA.	
 
-3	3
 Für	Für
 den	den
 Traumberuf	Traumberuf
@@ -27885,7 +27720,6 @@ Wirdschaft	Wirtschaft
 in	in
 ITE.	ITE.
 
-4	4
 Ich	Ich
 muss	muss
 lernen	lernen
@@ -27893,7 +27727,6 @@ Wirdschaft	Wirtschaft
 in	in
 ITE.	ITE.
 
-2	2
 Meine	Meine
 andere	andere
 Traumberuf	Traumberuf
@@ -27934,7 +27767,6 @@ diese	Sprachen
 Sprachen	sprechen.
 sprechen.	
 
--	-
 Die	Die
 Schüler	Schüler
 sollen	sollen
@@ -27946,7 +27778,6 @@ Italienisch,	Italienisch,
 Englisch	Englisch
 lernen.	lernen.
 
--	-
 Weil	Weil
 Englisch	Englisch
 die	die
@@ -28593,14 +28424,14 @@ sich	sich
 dan	dann
 auslöscht.	auslöscht.
 
-E	Es
-war	war
-einmal	einmal
-ein	ein
-Bub	Bub
-und	und
-ein	ein
-Man.	mann.
+war	Es
+einmal	war
+ein	einmal
+Bub	ein
+und	Bub
+ein	und
+Man.	ein
+	mann.
 
 Einmal	Ein
 in	Mal
@@ -29146,7 +28977,8 @@ wir	wir
 müssen	müssen
 rau	raus
 es	es
-brennt."	brennt."
+brennt.	brennt.
+
 Der	Der
 kleine	kleine
 Max	Max
@@ -29200,7 +29032,6 @@ Schultasche	Schultasche
 und	und
 dachte	dachte
 sich:	sich:
-"	"
 wen	Wenn
 ich	ich
 einfach	einfach
@@ -29526,7 +29357,8 @@ Haus.	Haus.
 Es	Es
 prennt	brennt
 es	es
-prennt!"	brennt!"
+prennt!	brennt!
+
 Als	Als
 der	der
 Sohn	Sohn
@@ -29592,7 +29424,7 @@ Der	Der
 Vater	Vater
 dachte	dachte
 sich:	sich:
-"Was	"Was
+Was	Was
 macht	macht
 den	denn
 mein	mein
@@ -29647,7 +29479,8 @@ rief	rief
 Benjamin:"	Benjamin:"
 Hinaus,	Hinaus,
 schnell	schnell
-hinaus!"	hinaus!"
+hinaus!	hinaus!
+
 Herr	Herr
 Meier	Meier
 nahm	nahm
@@ -29673,7 +29506,7 @@ am	am
 Boden	Boden
 und	und
 dachte:	dachte:
-"Ich	"Ich
+Ich	Ich
 habe	habe
 in	in
 dieser	dieser
@@ -29900,7 +29733,7 @@ geruch	geruch
 hörte	hörte
 und	und
 rief:	rief:
-"Oh	"Oh
+Oh	Oh
 nein!	nein!
 
 Tom	Tom
@@ -29917,7 +29750,8 @@ Sachen	Sachen
 und	und
 dann	dann
 gehe	gehe
-raus!"	raus!"
+raus!	raus!
+
 Vater	Vater
 nahm	nahm
 seine	seine
@@ -30235,8 +30069,8 @@ die	Blätter
 Blätter	herausgetan
 herausgetan	und
 und	dachte:
-dachte:	"Wenn
-"Wenn	es
+dachte:	Wenn
+Wenn	es
 es	mein
 mein	Vater
 Vater	Bigfoot
@@ -30245,46 +30079,48 @@ weis	dann
 dann	hatte
 hatte	er
 er	mir
-mir	Bignals."
-Bignals."	Dann
-Dann	ist
-ist	sein
-sein	Vater
-Vater	wie
-wie	Bigfoot
-Bigfoot	dringelaufen
-dringelaufen	und
-und	dann
-dan	hat
-hat	Justin
-Jastin	seine
-seine	Blätter
-Blätter	in
-in	den
-den	Feuer
-Feuer	dann
-dann	sagt
-sagt	der
-der	Vater:
-Vater:	"Dummer
-"Dummer	warum
-warum	hast
-hast	du
-du	es
-es	geworfen
-geworfen	jetzt
-jetzt	brennt
-brent	es
-es	mehr."
-mehr."	Justin
-Jastin	sagt:
-sagt:	"Je
-"Je	Je
+mir	Bignals.
+Bignals.	
+
+Dann	Dann
+ist	ist
+sein	sein
+Vater	Vater
+wie	wie
+Bigfoot	Bigfoot
+dringelaufen	dringelaufen
+und	und
+dan	dann
+hat	hat
+Jastin	Justin
+seine	seine
+Blätter	Blätter
+in	in
+den	den
+Feuer	Feuer
+dann	dann
+sagt	sagt
+der	der
+Vater:	Vater:
+Dummer	Dummer
+warum	warum
+hast	hast
+du	du
+es	es
+geworfen	geworfen
+jetzt	jetzt
+brent	brennt
+es	es
+mehr.	mehr.
+
+Jastin	Justin
+sagt:	sagt:
+"Je	"Je
 Je	Je
 Je	Je
 Je	Je
-Je	Je!!!!
-Je!!!!	
+Je	Je
+Je!!!!	Je!!!!
 
 Der	Der
 Kluge	Kluge
@@ -30443,7 +30279,7 @@ Bob	Bob
 sah	sah
 schrie	schrie
 er:	er:
-"Nein,	"Nein,
+Nein,	Nein,
 was	was
 machst	machst
 du	du
@@ -30452,7 +30288,8 @@ da,	da,
 das	das
 waren	waren
 meine	meine
-Schuhlhefte."	Schuhlhefte."
+Schuhlhefte.	Schuhlhefte.
+
 Bob	Bob
 wollte	wollte
 die	die
@@ -30467,13 +30304,13 @@ verbrant	verbrannt
 dann	dann
 sagt	sagt
 er:	er:
-"Ja,	"Ja,
+Ja,	Ja,
 jetzt	jetzt
 musst	musst
 du	du
 wieder	wieder
 zur	zur
-Schuhle."	Schule."
+Schuhle.	Schule.
 
 In	In
 Haus	Haus
@@ -30757,8 +30594,8 @@ Sohn)	seine
 seine	Hefte,
 Hefte,	und
 und	meinte:
-Meinte:	"Wenn
-"Wenn	ich
+Meinte:	Wenn
+Wenn	ich
 ich	das
 das	ins
 ins	Feuer
@@ -30767,24 +30604,24 @@ werfe	habe
 habe	ich
 ich	keine
 keine	Hausaufgabe
-Hausafgabe	mehr".
-mehr".	
+Hausafgabe	mehr
+mehr	Franz
+Franz	warf
+warf	sie
+sie	hinein
+hinein	der
+der	Vater
+Vater	sah
+sah	es
+es	und
+und	meinte:
+Meinte:	Ist
+Ist	der
+der	Junge
+Junge	verrückt
+verrückt	geworden.
+geworden.	
 
-Franz	Franz
-warf	warf
-sie	sie
-hinein	hinein
-der	der
-Vater	Vater
-sah	sah
-es	es
-und	und
-Meinte:	meinte:
-"Ist	"Ist
-der	der
-Junge	Junge
-verrückt	verrückt
-geworden."	geworden."
 Der	Der
 Vater	Vater
 holte	holte
@@ -30857,7 +30694,7 @@ Feuer.	Feuer.
 Der	Der
 Vater	Vater
 sagte:	sagte:
-"Gut	"Gut
+Gut	Gut
 gemacht	gemacht
 jetzt	jetzt
 fahren	fahren
@@ -30871,7 +30708,7 @@ mein	mein
 Wörterbuch!	Wörterbuch!
 
 Ist	Ist
-egal!"	egal!"
+egal!	egal!
 "	"
 Ja!",	Ja!",
 sagte	sagte
@@ -30969,51 +30806,51 @@ machte	und
 und	schimpfte
 schimpfte	mit
 mit	ihm.
-ihm.	"
-"	Wir
-Wir	müssen
-müssen	schnell
-schnell	unsere
-unsere	Möbel
-Möbel	retten!"
-retten!"	sagte
-sagte	Tom
-Tom	zwischen
-zwischen	der
-der	Vater
-Vater	mit
-mit	ihm
-ihm	schimpfte.
-schimpfte.	"
-"	Alle
-Alle	Möbel
-Möbel	sind
-sind	gerettet."
-gerettet."	sagte
-sagte	Vater
-Vater	fröhlich
-fröhlich	alle
-alle	waren
-waren	gerettet
-gerettet	und
-und	auch
-auch	Tom
-Tom	weil
-weil	sein
-sein	Vater
-Vater	hatte
-hatte	sich
-sich	vergessen
-vergessen	DASS
-das	er
-er	alle
-alle	Hefte
-Hefte	im
-im	Feuer
-Feuer	SCHMISS
-schmieß	
+ihm.	
 
-"Drrring!",	"Drrring!",
+Wir	Wir
+müssen	müssen
+schnell	schnell
+unsere	unsere
+Möbel	Möbel
+retten!	retten!
+sagte	sagte
+Tom	Tom
+zwischen	zwischen
+der	der
+Vater	Vater
+mit	mit
+ihm	ihm
+schimpfte.	schimpfte.
+
+Alle	Alle
+Möbel	Möbel
+sind	sind
+gerettet.	gerettet.
+sagte	sagte
+Vater	Vater
+fröhlich	fröhlich
+alle	alle
+waren	waren
+gerettet	gerettet
+und	und
+auch	auch
+Tom	Tom
+weil	weil
+sein	sein
+Vater	Vater
+hatte	hatte
+sich	sich
+vergessen	vergessen
+das	DASS
+er	er
+alle	alle
+Hefte	Hefte
+im	im
+Feuer	Feuer
+schmieß	SCHMISS
+
+Drrring!,	Drrring!,
 der	der
 Feueralarm.	Feueralarm.
 
@@ -31126,7 +30963,7 @@ habe.	habe.
 Ich	Ich
 antwortete	antwortete
 darauf:	darauf:
-"Ich	"Ich
+Ich	Ich
 wollte	wollte
 dir	dir
 gerade	gerade
@@ -31135,8 +30972,8 @@ supergelaufenes	supergelaufenes
 Diktat	Diktat
 und	und
 mein	mein
-"ohne	"ohne
-Fehler"	Fehler"
+ohne	ohne
+Fehler	Fehler
 Rechenheft	Rechenheft
 zeigen.	zeigen.
 
@@ -31158,7 +30995,8 @@ Jetzt	Jetzt
 bin	bin
 ich	ich
 so	so
-traurig!"	traurig!"
+traurig!	traurig!
+
 Ich	Ich
 werde	werde
 dieses	dieses
@@ -31169,7 +31007,9 @@ Heft	Heft
 nicht	nicht
 mehr	mehr
 retten	retten
-können."Das	können."Das
+können.	können.
+
+Das	Das
 ist	ist
 nicht	nicht
 so	so
@@ -31190,7 +31030,9 @@ gut	gut
 in	in
 der	der
 Schule	Schule
-bist!",	bist!",
+bist!	bist!
+
+,	,
 behauptete	behauptete
 mein	mein
 Vater.	Vater.
@@ -31210,7 +31052,6 @@ haben.	haben.
 Ich	Ich
 dachte	dachte
 mir:	mir:
-"	"
 Gescheider	Gescheiter
 Sohn,	Sohn,
 dummer	dummer
@@ -31256,13 +31097,13 @@ hatten.	hatten.
 
 Aber	Aber
 Plötzlich,	plötzlich,
-"Feuer,	"Feuer,
+Feuer,	Feuer,
 feuer	feuer
 hilfe!	hilfe!
 
 Ruft	Ruft
 die	die
-Feuerwehr!",	Feuerwehr!",
+Feuerwehr!,	Feuerwehr!,
 rief	rief
 Lukas,	Lukas,
 aber	aber
@@ -31333,7 +31174,7 @@ immer	immer
 der	der
 Lehrerin	Lehrerin
 sagt:	sagt:
-"Ich	"Ich
+Ich	Ich
 habe	habe
 die	die
 Hausaufgabe	Hausaufgabe
@@ -31345,7 +31186,8 @@ sie	sie
 vom	vom
 Erdbeeben	Erdbeben
 verschluckt	verschluckt
-worden."	worden."
+worden.	worden.
+
 Jetz	Jetz
 aber	aber
 kann	kann
@@ -31615,182 +31457,6 @@ Diktat	Diktat
 waren	waren
 verbrannt.	verbrannt.
 
-Heute	Heute
-möchte	möchte
-mein	mein
-Vater	Vater
-plötzlich	plötzlich
-Huhn	Huhn
-braten,	braten,
-aber	aber
-ich	ich
-frage	frage
-mich	mich
-kann	kann
-überhaupt	überhaupt
-mein	mein
-Vater	Vater
-kochen?	kochen?
-
-Dass	Das
-wissen	wissen
-wir	wir
-nicht	nicht
-aber	aber
-sehn	sehen
-wir	wir
-einmal.	einmal.
-
-Ich	Ich
-chillte	chillte
-auf	auf
-meiner	meiner
-caoch	couch
-und	und
-sah	sah
-Fern	Fern
-an.	an.
-
-Plötzlich	Plötzlich
-hörte	hörte
-ich	ich
-den	den
-Feueralarm	Feueralarm
-und	und
-mein	mein
-Vater	Vater
-schrie:	schrie:
-"Fillip	"Fillip
-kom	komm
-raus	raus
-es	es
-brennt!"	brennt!"
-Ich	Ich
-hüpfte	hüpfte
-schneller	schneller
-als	als
-eine	eine
-ängstliche	ängstliche
-Maus	Maus
-und	und
-nahm	nahm
-Hut	Hut
-und	und
-Pippa	Pippa
-vom	vom
-Vater	Vater
-und	und
-ging	ging
-Raus,	Raus,
-mein	mein
-Vater	Vater
-nahm	nahm
-mein	mein
-Pferd	Pferd
-aus	aus
-Holz	Holz
-und	und
-meine	meine
-Schultasche!	Schultasche!
-
-Wieso	Wieso
-die	die
-Schultasche!	Schultasche!
-
-Und	Und
-nicht	nicht
-z.	z.
-B.	B.
-unsere	unsere
-Foto!	Foto!
-
-Bevor	Bevor
-mein	mein
-Vater	Vater
-raus	raus
-kam	kam
-mit	mit
-anderen	anderen
-Sachen	Sachen
-nahm	nahm
-ich	ich
-schnell	schnell
-mein	mein
-Diktat	Diktat
-und	und
-Rechenheft	Rechenheft
-und	und
-warf	warf
-ihn	ihn
-ins	ins
-Feuer,	Feuer,
-mein	mein
-Vater	Vater
-kam	kam
-raus	raus
-und	und
-erschrack	erschrack
-"Was	"Was
-tust	tust
-du	du
-denn,	denn,
-hat	hat
-dich	dich
-der	der
-Rauch	Rauch
-vergiftet!"	vergiftet!"
-schrie	schrie
-mein	mein
-Vater	Vater
-als	als
-wäre	wäre
-er	er
-meine	meine
-Lehrerin.	Lehrerin.
-
-Am	Am
-Tag	Tag
-danach	danach
-hatten	hatten
-wir	wir
-Mathematik	Mathematik
-Schularbeit,	Schularbeit,
-unsere	unsere
-Lehrerin	Lehrerin
-ist	ist
-so	so
-blöd,	blöd,
-dass	dass
-sie	sie
-uns	uns
-die	die
-Schularbeit	Schularbeit
-im	im
-Rechenheft	Rechenheft
-machen	machen
-lässt	lässt
-da	da
-stehen	stehen
-alle	alle
-Lösungen	Lösungen
-draufgeschrieben!	draufgeschrieben!
-
-Ich	Ich
-sagte	sagte
-meiner	meiner
-Lehrerin	Lehrerin
-das	dass
-mein	mein
-Vater	Vater
-gestern	gestern
-Huhn	Huhn
-braten	braten
-als	als
-Abendessen	Abendessen
-machte	machte
-aber	aber
-brennte	brennte
-
 das	das
 ganze	ganze
 Haus	Haus
@@ -31990,9 +31656,10 @@ schaute	schaute
 und	und
 er	er
 rufte:	rufte:
-"Was	"Was
+Was	Was
 machst	machst
-du!"	du!"
+du!	du!
+
 Er	Er
 rief:	rief:
 "nichts	"nichts
@@ -32268,7 +31935,8 @@ sich:	sich:
 wird	wird
 eine	eine
 gute	gute
-Ausrede!"	Ausrede!"
+Ausrede!	Ausrede!
+
 Genau	Genau
 in	in
 dem	dem
@@ -32333,7 +32001,8 @@ ich	ich
 schon	schon
 immer	immer
 entsorgen	entsorgen
-wollte."	wollte."
+wollte.	wollte.
+
 In	In
 der	der
 Schule	Schule
@@ -32419,11 +32088,12 @@ seinen	seinen
 Vater	Vater
 schreien	schreien
 hörte:	hörte:
-"Max,	"Max,
+Max,	Max,
 raus	raus
 aus	aus
 dem	dem
-Haus!"	Haus!"
+Haus!	Haus!
+
 Max	Max
 schlug	schlug
 die	die
@@ -32645,23 +32315,24 @@ ihn.	ihn.
 Lukas	Lukas
 rief	rief
 hastig:	hastig:
-"Papi,	"Papi,
+Papi,	Papi,
 Papi	Papi
 wir	wir
 müssen	müssen
 Weg!!!!	weg!!!!
-"	"
+
 Sein	Sein
 Vater	Vater
 sagte	sagte
 ruhig:	ruhig:
-"Na,	"Na,
+Na,	Na,
 dass	das
 is	is
 nichts	nichts
 nur	nur
 der	der
-Ofen."	Ofen."
+Ofen.	Ofen.
+
 Lukas	Lukas
 Fotzte	Fotzte
 ihm	ihm
@@ -32694,21 +32365,21 @@ sie	ließ
 ins	sie
 Feuer	ins
 fallen.	Feuer
-"	fallen.
-Ja!	"
-sagte	Ja!
-Lukas	sagte
-leise.	Lukas
-"	leise.
-Lukas,	"
-Lukas	Lukas,
-wach	Lukas
-auf!!	wach
-"	auf!!
-rief	"
-eine	rief
-Stimme.	eine
-	Stimme.
+	fallen.
+
+Ja!	Ja!
+sagte	sagte
+Lukas	Lukas
+leise.	leise.
+
+Lukas,	Lukas,
+Lukas	Lukas
+wach	wach
+auf!!	auf!!
+"	"
+rief	rief
+eine	eine
+Stimme.	Stimme.
 
 Er	Er
 wachte	wachte
@@ -32803,7 +32474,7 @@ einem	einem
 Teppich	Teppich
 und	und
 schrie:	schrie:
-"Hast	"Hast
+Hast	Hast
 du	du
 den	den
 Verstand	Verstand
@@ -32815,7 +32486,7 @@ du	du
 bis	bis
 MORGEN	morgen
 alles	alles
-nach"	nach"
+nach	nach
 Oh	Oh
 meine	meine
 Güte,	Güte,
@@ -32912,13 +32583,13 @@ Und	Und
 dann	dann
 sagte	sagte
 Paul	Paul
-"Ich	"Ich
+Ich	Ich
 habe	habe
 eine	eine
 zehn	zehn
 bei	bei
 den	den
-Diktat!"	Diktat!"
+Diktat!	Diktat!
 und	und
 wo	wo
 ist	ist
@@ -33211,8 +32882,8 @@ dabei:	dabei:
 Bey	Bye
 Bey	Mathe
 Mathe	und
-und	Deutsch!"
-Deutsch!"	und
+und	Deutsch!
+Deutsch!	und
 und	Kicherte.
 Kicherte.	
 
@@ -33247,7 +32918,7 @@ steht	steht
 auf	auf
 und	und
 sagt:	sagt:
-"Meine	"Meine
+Meine	Meine
 Nase	Nase
 tut	tut
 weh!"	weh!"
@@ -33268,21 +32939,22 @@ und	und
 eines	eines
 Tages	Tages
 basiertees:	passierte
-"Schnell	es:
-es	"Schnell
+Schnell	es:
+es	Schnell
 brennt	es
 in	brennt
 Haus	in
 antwortete	Haus
 der	antwortete
-Mann."	der
-Die	Mann."
-zwei	Die
-laufen	zwei
-im	laufen
-Garten	im
-hinaus.	Garten
-	hinaus.
+Mann.	der
+	Mann.
+
+Die	Die
+zwei	zwei
+laufen	laufen
+im	im
+Garten	Garten
+hinaus.	hinaus.
 
 Sie	Sie
 haben	haben
@@ -33461,7 +33133,7 @@ erzählte	erzählte
 dem	dem
 kleinen	kleinen
 Sepp:	Sepp:
-"Als	"Als
+Als	Als
 ich	ich
 so	so
 alt	alt
@@ -33525,7 +33197,7 @@ Eltern	Eltern
 hat	hat
 sie	sie
 gesagt:	gesagt:
-"Franz	"Franz
+Franz	Franz
 wurde	wurde
 beraubt!"	beraubt!"
 
@@ -34385,7 +34057,7 @@ Aber	Aber
 das	das
 Kind	Kind
 sagte:	sagte:
-„Ja	„Ja
+Ja	Ja
 Ja	ja
 papa	Papa
 berhuige	beruhige
@@ -34397,7 +34069,7 @@ Hausaufgaben	Hausaufgaben
 machen	machen
 ist	ist
 ja	ja
-logisch!"	logisch!"
+logisch!	logisch!
 
 Es	Es
 brannte	brannte
@@ -35503,9 +35175,8 @@ Kind	Kind
 etwas	etwas
 es	es
 rief:	rief:
-"Feuer!!	"Feuer!!
+Feuer!!	Feuer!!
 
-Feuer!!"	Feuer!!"
 Der	Der
 Vater	Vater
 nahm	nahm
@@ -35589,8 +35260,6 @@ Teppiche	Teppiche
 in	in
 Sicherheit	Sicherheit
 
-"Oh	"Oh
-nein!"	nein!"
 Das	Das
 Haus	Haus
 brennt!	brennt!
@@ -35672,11 +35341,11 @@ seine	seine
 Hefte	Hefte
 ins	ins
 Feuer.	Feuer.
-"	"
+
 Was	Was
 tust	tust
 du	du
-da?"	da?"
+da?	da?
 schrie	schrie
 der	der
 Vater.	Vater.
@@ -35684,17 +35353,17 @@ Vater.	Vater.
 Der	Der
 Sohn	Sohn
 sagte:	sagte:
-"Diese	"Diese
+Diese	Diese
 Gelegenheit	Gelegenheit
 muss	muss
 man	man
-nutzen!"	nutzen!"
+nutzen!	nutzen!
 
-"Nein	"Nein
+Nein	Nein
 Klaus,	Klaus,
 nicht	nicht
 die	die
-Pfeife!"	Pfeife!"
+Pfeife!	Pfeife!
 schreit	schreit
 der	der
 Vater	Vater
@@ -35733,13 +35402,14 @@ nicht.	nicht.
 Da	Da
 schreit	schreit
 er:	er:
-"Nimm	"Nimm
+Nimm	Nimm
 alle	alle
 Sachen	Sachen
 mit	mit
 und	und
 renn	renn
-raus!"	raus!"
+raus!	raus!
+
 Klaus	Klaus
 nimmt	nimmt
 den	den
@@ -36448,12 +36118,13 @@ Er	Er
 bekam	bekam
 eine	eine
 Idee:	Idee:
-"Ich	"Ich
+Ich	Ich
 konnte	konnte
 die	die
 im	im
 Haus	Haus
-werfen!"	werfen!"
+werfen!	werfen!
+
 Er	Er
 warf	warf
 die	die
@@ -36473,22 +36144,22 @@ Haus	Haus
 hinaus	hinaus
 und	und
 schrie:	schrie:
-"Was	"Was
+Was	Was
 machst	machst
 du	du
 denn	denn
-da!"	da!"
+da!	da!
+
 Tom	Tom
 antwortete	antwortete
-"Entschuldigung,	"Entschuldigung,
+Entschuldigung,	Entschuldigung,
 die	die
 sind	sind
 mir	mir
 aus	aus
 der	der
 Hand	Hand
-gerutsch."	gerutscht."
-Ende	Ende
+gerutsch.	gerutscht.
 
 Eines	Eines
 schönen	schönen
@@ -36617,7 +36288,7 @@ und	und
 sagte	sagte
 zur	zur
 Lehrerin:	Lehrerin:
-"Ich	"Ich
+Ich	Ich
 habe	habe
 gestern	gestern
 ein	ein
@@ -36629,78 +36300,7 @@ Leider	leider
 die	die
 Hefte	Hefte
 drinen	drinnen
-vergessen."	vergessen."
-
-Genoveffa	Genoveffa
-war	war
-mit	mit
-sein	sein
-Lehrer	Lehrer
-in	in
-der	der
-Garten	Garten
-vom	vom
-der	der
-Schule.	Schule.
-
-Wen	Wenn
-sie	sie
-sind	sind
-nach	nach
-den	den
-Klasse	Klasse
-gekommen	gekommen
-haben	haben
-sie	sie
-Feuer	Feuer
-gesehen.	gesehen.
-
-Sie	Sie
-sind	sind
-weg	weg
-gelaufen	gelaufen
-und	und
-Genoveffa	Genoveffa
-hat	hat
-seine	seine
-Heften	Heften
-genommen	genommen
-für	für
-helfen	helfen
-sein	sein
-Lehren	Lehren
-zum	zum
-Feuer	Feuer
-loschen	löschen
-(	(
-SPEGNERE	SPEGNERE
-)	)
-Dann	Dann
-hat	hat
-sie	sie
-die	die
-Heften	Heften
-ge	ge
-(	(
-LANCIATO	LANCIATO
-)	)
-aber	aber
-sie	sie
-hat	hat
-nicht	nicht
-gut	gut
-gemacht	gemacht
-und	und
-der	der
-Lehrer	Lehrer
-war	war
-sehr	sehr
-böse.	böse.
-(	(
-PREOCCUPATO	PREOCCUPATO
-E	E
-AGITATO	AGITATO
-)	)
+vergessen.	vergessen.
 
 Jacob	Jacob
 und	und
@@ -36966,17 +36566,6 @@ in	in
 den	den
 Feuer.	Feuer.
 
-Der	Der
-Vater	Vater
-von	von
-der	der
-kinder	Kinder
-bauen	bauen
-eine	eine
-"	"
-PIPA	PIPA
-".	".
-
 ICH	Ich
 SPRECHE	spreche
 NICHT	nicht
@@ -37064,7 +36653,6 @@ foiern	feuern
 und	und
 Marco	Marco
 
-1	1
 Die	Die
 kind	Kind
 helfe	helfe
@@ -37072,7 +36660,6 @@ die	die
 Alter	alter
 Mann	Mann
 
-2	2
 Die	Die
 kind	Kind
 helfe	helfe
@@ -37080,20 +36667,10 @@ die	die
 Altes	Altes
 Mann	Mann
 
-3	3
-Die	Die
-kind	Kind
-helfe	helfe
-die	die
-Alter	Alter
-Mann	Mann
-
-2	2
 prenen	brennen
 die	die
 Diktatx	Diktat
 
-3	3
 prennen	brennen
 die	die
 House	Hause
@@ -37918,13 +37495,11 @@ arbeitet.	arbeitet.
 
 Sie	Sie
 fragten:	fragten:
-„Was	„Was
+Was	Was
 für	für
 scherzen	Scherzen
 sind	sind
 dass	das
-".	".
-
 Er	Er
 erklärte	erklärte
 dass:	dass:
@@ -38090,92 +37665,122 @@ hören	hören
 sie	sie
 einige	einige
 stime:	Stimme:
-„Hooo,	„Hooo,
-EEEEE,	eeeee,
-HAHAHA."	HAHAHA."
-sie	Sie
-kriegen	kriegen
-Angst	Angst
-und	und
-sie	sie
-wißen	wißen
-nicht	nicht
-was	was
-da	da
-war.	war.
+,	,
+,	,
+.	.
+sie	
+kriegen	
+Angst	
+und	
+sie	
+wißen	
+nicht	
+was	
+da	
+war.	
+
+Die	Sie
+kleine	kriegen
+Mädchen	Angst
+hat	und
+viel	sie
+Angs	wißen
+die	nicht
+andere	was
+weint.	da
+	war.
 
 Die	Die
-kleine	kleine
-Mädchen	Mädchen
-hat	hat
-viel	viel
-Angs	Angst
-die	die
-andere	andere
-weint.	weint.
+Mutter	kleine
+und	Mädchen
+der	hat
+Vater	viel
+suchen	Angst
+sie	die
+aber	andere
+sie	weint.
+finden	
+sie	
+nicht.	
 
-Die	Die
-Mutter	Mutter
-und	und
-der	der
-Vater	Vater
-suchen	suchen
-sie	sie
-aber	aber
-sie	sie
-finden	finden
-sie	sie
-nicht.	nicht.
+Danach	Die
+die	Mutter
+zwei	und
+Mädchen	der
+rennen	Vater
+nach	suchen
+Hause	sie
+zurück.	aber
+	sie
+	finden
+	sie
+	nicht.
 
-Danach	Danach
-die	die
-zwei	zwei
-Mädchen	Mädchen
-rennen	rennen
-nach	nach
-Hause	Hause
-zurück.	zurück.
+Wenn	Danach
+sie	die
+zu	zwei
+Hause	Mädchen
+sind	rennen
+sie	nach
+finden	Hause
+ihren	zurück.
+Eltern	
+nicht,	
+sie	
+sind	
+draußend	
+geblieben	
+bis	
+die	
+Eltern	
+gekommen	
+sind	
+wenn	
+sie	
+gekommen	
+sind	
+sie	
+sahen	
+ihren	
+Eltern	
+und	
+rennen	
+sie	
+zu	
+ihmenen.	
 
-Wenn	Wenn
-sie	sie
-zu	zu
-Hause	Hause
-sind	sind
-sie	sie
-finden	finden
-ihren	ihren
-Eltern	Eltern
-nicht,	nicht,
-sie	sie
-sind	sind
-draußend	draußen
-geblieben	geblieben
-bis	bis
-die	die
-Eltern	Eltern
-gekommen	gekommen
-sind	sind
-wenn	wenn
-sie	sie
-gekommen	gekommen
-sind	sind
-sie	sie
-sahen	sahen
-ihren	ihren
-Eltern	Eltern
-und	und
-rennen	rennen
-sie	sie
-zu	zu
-ihmenen.	ihmenen.
-
-Danach	Danach
-erzählen	erzählen
-sie	sie
-was	was
-ihmenen	ihmenen
-passiert	passiert
-ist.	ist.
+Danach	Wenn
+erzählen	sie
+sie	zu
+was	Hause
+ihmenen	sind
+passiert	sie
+ist.	finden
+	ihren
+	Eltern
+	nicht,
+	sie
+	sind
+	draußen
+	geblieben
+	bis
+	die
+	Eltern
+	gekommen
+	sind
+	wenn
+	sie
+	gekommen
+	sind
+	sie
+	sahen
+	ihren
+	Eltern
+	und
+	rennen
+	sie
+	zu
+	ihmenen.
 
 Ist	Ist
 nacht	Nacht
@@ -38187,8 +37792,7 @@ gehe	gehe
 im	im
 Wald.	Wald.
 
--	-
-"Nina	"Nina
+Nina	Nina
 Hörest	hörst
 du	du
 nicht	nicht
@@ -38196,17 +37800,16 @@ was	was
 am	am
 Wald	Wald
 verspricht	verspricht
--"	-"
-
 -	-
-"Fasuina	"Fasuina
+
+Fasuina	Fasuina
 in	in
 dürren	dürren
 blettern	Blättern
 seulset	seulset
 der	der
 Wind	Wind
--".	-".
+-	-
 
 Eine	Eine
 Wolf	Wolf
@@ -39547,7 +39150,7 @@ sah	sah
 sie	sie
 es.	es.
 
-„Wuff,	„Wuff,
+Wuff,	Wuff,
 wuff,	wuff,
 wuff,.	wuff,.
 
@@ -39963,9 +39566,7 @@ in	in
 den	den
 Wald	Wald
 wie	wie
-EEEEE	EEEEE
 oder	oder
-HOOOOOOO	hooooooo
 sie	sie
 hatten	hatten
 immer	immer
@@ -40001,11 +39602,10 @@ Es	Es
 war	war
 ganz	ganz
 dunckel	dunkel
-"Die	"Die
+Die	Die
 Batterie	Batterie
 ist	ist
 lahr	leer
-"	"
 sagt	sagt
 eine.	eine.
 
@@ -40343,9 +39943,8 @@ zu	zu
 schreien	schreien
 Aaaah	Aaaah
 eeeeeh	eeeeeh
-noooo	noooo
 und	und
-hooo.	hooo.
+.	.
 
 Da	Da
 waren	waren
@@ -40521,13 +40120,11 @@ sie	sie
 hörten	hörten
 manche	manche
 Stimmen:	Stimmen:
-„	„
-HOO,	Hoo,
-EEEE,	eeee,
-HAHAHA,	hahaha,
-NOO.	noo.
+,	,
+,	,
+,	,
+.	.
 '	'
-"	"
 
 Sie	Sie
 fragten	fragten
@@ -41199,13 +40796,14 @@ hörten	hörten
 sie	sie
 komische	komische
 geräusche:	Geräusche:
-„Heee,	„Heee,
+,	,
 Hahahaha!,	Hahahaha!,
-Nooo!"	Nooo!"
-„	„
+!	!
+
 Was	Was
 war	war
-das",	das",
+das	das
+,	,
 fragte	fragte
 Marie	Marie
 erschrocken.	erschrocken.
@@ -41226,17 +40824,15 @@ von	von
 Lena	Lena
 zu	zu
 suchen.	suchen.
-„	„
-Lena!	Lena!
 
 Ich	Ich
 habs	habs
-gefunden!",	gefunden!",
+gefunden!,	gefunden!,
 schrie	schrie
 Maria	Maria
 laut.	laut.
-„	„
-Ma-Ma-Marie!."	Ma-Ma-Marie!."
+
+Ma-Ma-Marie!.	Ma-Ma-Marie!.
 zitterte	zitterte
 Lena	Lena
 von	von
@@ -43986,18 +43582,18 @@ gereusche	Geräusche
 und	und
 fragte	fragte
 Marie:	Marie:
-„Marie,	„Marie,
+Marie,	Marie,
 was	was
 ist	ist
-das?"	das?"
-„	„
-Was	Was
+das?	das?
+
+„Was	„Was
 denn?"	denn?"
 antwortete	antwortete
 Marie.	Marie.
-„	„
+
 Diese	Diese
-Geräusche."	Geräusche."
+Geräusche.	Geräusche.
 fürchtete	fürchtete
 sich	sich
 Nina.	Nina.
@@ -44034,7 +43630,7 @@ wollte	wollte
 nicht	nicht
 und	und
 sagte:	sagte:
-„Wenn	„Wenn
+Wenn	Wenn
 du	du
 dich	dich
 dort	dort
@@ -44061,7 +43657,8 @@ dunkeln	Dunkeln
 alleine	alleine
 sitzen	sitzen
 und	und
-warten."	warten."
+warten.	warten.
+
 Marie	Marie
 antwortete	antwortete
 „	„
@@ -44101,14 +43698,15 @@ zu	zu
 ihr	ihr
 und	und
 sagte:	sagte:
-„Mama	„Mama
+Mama	Mama
 und	und
 Papa	Papa
 suchen	suchen
 sicher	sicher
 schon	schon
 nach	nach
-uns."	uns."
+uns.	uns.
+
 Doch	Doch
 dann	dann
 sagte	sagte
@@ -44402,7 +44000,7 @@ Sofie	Sofie
 sagt	sagt
 zu	zu
 Magdalena:	Magdalena:
-„Wir	„Wir
+Wir	Wir
 müssen	müssen
 uns	uns
 beeilen!	beeilen!
@@ -44416,9 +44014,7 @@ wird	wird
 auf	auf
 dem	dem
 Zeltplatz	Zeltplatz
-sein!"	sein!"
-Magdalena	Magdalena
-nickte.	nickte.
+sein!	sein!
 
 Langsam	Langsam
 wurde	wurde
@@ -44480,9 +44076,8 @@ Richtung	Richtung
 der	der
 Geräusche,	Geräusche,
 "Buuh"	"Buuh"
-"Arrrr.	"Arrrr.
+Arrrr.	Arrrr.
 
-"	"
 "Grrr",	"Grrr",
 plötzlich	plötzlich
 springen	springen
@@ -44728,7 +44323,7 @@ Plötzlich	Plötzlich
 hört	hört
 man:	man:
 „	„
-EEEEEEE!"	Eeeeeee!"
+!"	!"
 EH	Eh
 EH!"	eh!"
 
@@ -45309,7 +44904,7 @@ bestrafte	bestrafte
 die	die
 Jungen.	Jungen.
 
-„Heeeeee"	„Heeeeee"
+„"	„"
 hörten	hörten
 auf	auf
 einmal	einmal
@@ -45402,15 +44997,17 @@ Lena	Lena
 schrie	schrie
 ganz	ganz
 laut:	laut:
-„Hilfe,	„Hilfe,
+Hilfe,	Hilfe,
 Hilfe,	Hilfe,
 Hilfe	Hilfe
-aaaah!"	aaaah!"
+aaaah!	aaaah!
+
 Maren	Maren
 sagte:	sagte:
-„Beruhigt	„Beruhigt
+Beruhigt	Beruhigt
 dich	dich
-Lena!"	Lena!"
+Lena!	Lena!
+
 Sie	Sie
 liefen	liefen
 so	so
@@ -45474,7 +45071,6 @@ noch	noch
 diese	diese
 Geräusche.	Geräusche.
 
-0	0
 (Protagonisten)	(Protagonisten)
 nehmen,	nehmen,
 sich	sich
@@ -45880,7 +45476,7 @@ ein	ein
 kleiner	kleiner
 weißer	weißer
 Zwergpudel.	Zwergpudel.
-„	„
+
 Ist	Ist
 der	der
 süß.	süß.
@@ -45890,7 +45486,7 @@ wann	wann
 hast	hast
 du	du
 den	den
-Hund?"	Hund?"
+Hund?	Hund?
 fragte	fragte
 ich	ich
 sie.	sie.
@@ -45912,7 +45508,7 @@ gestern	gestern
 beim	beim
 Telefon	Telefon
 gesagt.	gesagt.
-"	"
+
 Sie	Sie
 schüttelte	schüttelte
 den	den
@@ -45926,7 +45522,8 @@ solange	solange
 es	es
 noch	noch
 hell	hell
-ist."	ist."
+ist.	ist.
+
 Es	Es
 war	war
 zwar	zwar
@@ -46021,7 +45618,7 @@ er	er
 kam	kam
 nicht	nicht
 zurück.	zurück.
-„	„
+
 Was	Was
 war	war
 das	das
@@ -46044,13 +45641,11 @@ Beppo	Beppo
 so	so
 verrückt	verrückt
 losgebellt	losgebellt
-hat!"	hat!"
+hat!	hat!
 erklärte	erklärte
 ich	ich
 ängstlich.	ängstlich.
-„	„
-Komm	Komm
-Nele."	Nele."
+
 Wir	Wir
 schlichen	schlichen
 uns	uns
@@ -46066,7 +45661,8 @@ habe	habe
 ich	ich
 eine	eine
 Taschenlampe	Taschenlampe
-mit."	mit."
+mit.	mit.
+
 Plötzlich	Plötzlich
 stand	stand
 vor	vor
@@ -46082,7 +45678,7 @@ uns:	uns:
 der	der
 Hund	Hund
 zu	zu
-euch?"	euch?"
+euch?	euch?
 und	und
 hielt	hielt
 uns	uns
@@ -46193,7 +45789,7 @@ Ines	Ines
 nicht.	nicht.
 
 Sie	Sie
-schrie:„	schrie:„
+schrie:	schrie:
 Ines	Ines
 wo	wo
 bist	bist
@@ -46202,7 +45798,8 @@ du!	du!
 Ines	Ines
 wo	wo
 bist	bist
-du!"	du!"
+du!	du!
+
 Aber	Aber
 es	es
 kam	kam
@@ -46538,11 +46135,12 @@ Da	Da
 sagte	sagte
 Tobias	Tobias
 ängstlich:	ängstlich:
-„Dann	„Dann
+Dann	Dann
 stell	stell
 uns	uns
 deine	deine
-Frage!"	Frage!"
+Frage!	Frage!
+
 Darauf	Darauf
 der	der
 Geist:	Geist:
@@ -46552,11 +46150,10 @@ ist	viel
 13	ist
 ·	13
 379?"	·
-„	379?"
-Na	„
+Na	379?"
 toll,	Na
-Mathe"	toll,
-sagte	Mathe"
+Mathe	toll,
+sagte	Mathe
 Tobias.	sagte
 	Tobias.
 
@@ -46659,23 +46256,25 @@ einmal	einmal
 sprach	sprach
 eine	eine
 Stimme:	Stimme:
-„Wer	„Wer
+Wer	Wer
 knuspert	knuspert
 da	da
 an	an
 meinem	meinem
-Häuschen?"	Häuschen?"
+Häuschen?	Häuschen?
+
 Und	Und
 sie	sie
 antworteten:	antworteten:
-„Der	„Der
+Der	Der
 Wind,	Wind,
 der	der
 Wind	Wind
 oder	oder
 das	das
 himmlische	himmlische
-Kind!"	Kind!"
+Kind!	Kind!
+
 Jetzt	Jetzt
 hörte	hörte
 man	man
@@ -46856,9 +46455,9 @@ hören	hören
 Sie	sie
 ein	ein
 schrei	Schrei
-EEEEE,	Eeeee,
+,	,
 Heehee,	Heehee,
-Hooo.	Hooo.
+.	.
 
 Tom	Tom
 und	und
@@ -47108,7 +46707,6 @@ Kopf.	Kopf.
 Jenny	Jenny
 stotterte	stotterte
 plötzlich:	plötzlich:
-„	„
 Sky	Sky
 wir	wir
 müssen	müssen
@@ -47119,7 +46717,8 @@ Die	Die
 Wette	Wette
 muss	muss
 abgebrochen	abgebrochen
-werden!"	werden!"
+werden!	werden!
+
 Sky	Sky
 nickte	nickte
 ein	ein
@@ -47138,15 +46737,14 @@ quitschenden	quietschenden
 Reisverschluss	Reißverschluss
 des	des
 Zeltes.	Zeltes.
-„	„
-Jenny?	Jenny?
 
 Was	Was
 machen	machen
 wir	wir
 mit	mit
 dem	dem
-Zelt?"	Zelt?"
+Zelt?	Zelt?
+
 Zögernt	Zögernd
 sagte	sagte
 Jenny	Jenny
@@ -47212,7 +46810,7 @@ aus	aus
 den	den
 Büschen	Büschen
 ziehen:	ziehen:
-„Nah	„Nah
+Nah	Nah
 ihr	ihr
 Feiglinge!	Feiglinge!
 
@@ -47222,7 +46820,7 @@ Wette	Wette
 wohl	wohl
 doch	doch
 nicht	nicht
-geschafft!"	geschafft!"
+geschafft!	geschafft!
 
 Sky	Sky
 und	und
@@ -47235,7 +46833,7 @@ und	und
 verspürten	verspürten
 eine	eine
 Wut.	Wut.
-„	„
+
 Jack!,	Jack!,
 Daniel!	Daniel!
 spinnt	spinnt
@@ -47283,12 +46881,11 @@ nicht.
 Sky	Das
 fragte	traute
 leise:	sie
-„	sich
-Was,	aber
-wollen	dann
-wir	trotzdem
-hier	nicht.
-noch	
+Was,	sich
+wollen	aber
+wir	dann
+hier	trotzdem
+noch	nicht.
 übernachten	
 oder	
 gehen	
@@ -47298,12 +46895,11 @@ nachhause?
 Wer	Sky
 ist	fragte
 für	leise:
-Heimwärtz?"	„
-Die	Was,
-Hände	wollen
-hoben	wir
-sich	hier
-schnell.	noch
+Heimwärtz?	Was,
+	wollen
+	wir
+	hier
+	noch
 	übernachten
 	oder
 	gehen
@@ -47311,34 +46907,42 @@ schnell.	noch
 	nach
 	Hause?
 
-Jack	Wer
-flüsterte:	ist
-„	für
-Dann	heimwärts?"
-kommt	Die
-das	Hände
-Zelt	hoben
-nehmen	sich
-wir	schnell.
+Die	Wer
+Hände	ist
+hoben	für
+sich	heimwärts?
+schnell.	
+
+Jack	Die
+flüsterte:	Hände
+Dann	hoben
+kommt	sich
+das	schnell.
+Zelt	
+nehmen	
+wir	
 Morgen	
 mit.	
 
 Langsam	Jack
 wird	flüsterte:
-es	„
-mir	Dann
-hier	kommt
-echt	das
-zu	Zelt
-gruselig."	nehmen
-Die	wir
-4	morgen
-Freunde	mit.
-nahmen	
-sich	
-alle	
-an	
-den	
+es	Dann
+mir	kommt
+hier	das
+echt	Zelt
+zu	nehmen
+gruselig.	wir
+	morgen
+	mit.
+
+Die	Langsam
+4	wird
+Freunde	es
+nahmen	mir
+sich	hier
+alle	echt
+an	zu
+den	gruselig.
 Händen	
 da	
 keiner	
@@ -47346,25 +46950,17 @@ verloren
 werden	
 will.	
 
-Lachend	Langsam
-lifen	wird
-sie	es
-nach	mir
-Hause.	hier
-„	echt
-So	zu
-eine	gruselig."
-Nacht	Die
-im	4
-Wald.	Freunde
-	nahmen
-	sich
-	alle
-	an
-	den
-	Händen
-	da
-	keiner
+Lachend	Die
+lifen	4
+sie	Freunde
+nach	nahmen
+Hause.	sich
+„	alle
+So	an
+eine	den
+Nacht	Händen
+im	da
+Wald.	keiner
 	verloren
 	werden
 	will.
@@ -47408,7 +47004,7 @@ war.	war.
 Da	Da
 sagte	sagte
 Jonny:	Johnny:
-„Schnell	„Schnell
+Schnell	Schnell
 gehen	gehen
 wir.	wir.
 
@@ -47420,7 +47016,8 @@ mehr	mehr
 wohin	wohin
 wir	wir
 gehen	gehen
-sollen!"	sollen!"
+sollen!	sollen!
+
 Die	Die
 Beiden	beiden
 packten	packten
@@ -47447,13 +47044,6 @@ hörten	hörten
 sie	sie
 schreckliche	schreckliche
 Geräusche.	Geräusche.
-
-Ein	Ein
-„Hoo",	„Hoo",
-ein	ein
-„	„
-EEEE	Eeee
-".	".
 
 Sie	Sie
 zuckten	zuckten
@@ -47785,102 +47375,97 @@ nicht	nicht
 und	und
 sie	sie
 ruften:	ruften:
-„Mamma,	„Mamma,
+Mamma,	Mamma,
 Papa	Papa
 seit	seid
 ihr	ihr
 noch	noch
-da?"	da?"
-niemand	Niemand
-Antwortete.	antwortete.
+da?	da?
+niemand	
+Antwortete.	
 
-Lisa	Lisa
-und	und
-Lena	Lena
-hatten	hatten
-so	so
-Angst	Angst
-das	dass
-sie	sie
-am	am
-ganzen	ganzen
-Körper	Körper
-zitterten.	zitterten.
+Sie	Lisa
+hatten	und
+Gottseidank	Lena
+beide	hatten
+eine	so
+Taschenlampe	Angst
+dabei:	dass
+Sie	sie
+versuchten	am
+den	ganzen
+Weg	Körper
+zurück	zitterten.
+zu	
+finden	
+als	
+sie	
+plötzlich	
+komische	
+Gereusche.	
 
-Sie	Sie
-hatten	hatten
-Gottseidank	Gott
-beide	sei
-eine	Dank
-Taschenlampe	beide
-dabei:	eine
-Sie	Taschenlampe
-versuchten	dabei:
-den	Sie
-Weg	versuchten
-zurück	den
-zu	Weg
-finden	zurück
-als	zu
-sie	finden
-plötzlich	als
-komische	sie
-Gereusche.	plötzlich
+Lena	Sie
+lasste	hatten
+die	Gott
+Taschenlampe	sei
+fallen	Dank
+und	beide
+flüsterte	eine
+ängstlich	Taschenlampe
+zu	dabei:
+Lisa:	Sie
+Ehhh,	versuchten
+icchh	den
+haabe	Weg
+Anngstt!	zurück
+	zu
+	finden
+	als
+	sie
+	plötzlich
 	komische
 	Geräusche.
 
-Lisa	Lisa
-fing	fing
-auch	auch
-langsam	langsam
-Angst	Angst
-zu	zu
-bekommen,	bekommen,
-aber	aber
-sie	sie
-ging	ging
-tapfer	tapfer
-weiter	weiter
-als	als
-plötzlich	plötzlich
-die	die
-Familien	Familien
-rausspringen	rausspringen
-und	und
-die	die
-beiden	beiden
-erschrecken.	erschrecken.
+Die	Lisa
+beiden	fing
+Freundinen	auch
+bekommen	langsam
+einen	Angst
+halben	zu
+Herzinfakt.	bekommen,
+„	aber
+Das	sie
+war	ging
+dafür,	tapfer
+dass	weiter
+ihr	als
+einfach	plötzlich
+so	die
+nach	Familien
+vorne	rausspringen
+ranntet".	und
+	die
+	beiden
+	erschrecken.
 
-Die	Die
-beiden	beiden
-Freundinen	Freundinnen
-bekommen	bekommen
-einen	einen
-halben	halben
-Herzinfakt.	Herzinfarkt.
-„	„
-Das	Das
-war	war
-dafür,	dafür,
-dass	dass
-ihr	ihr
-einfach	einfach
-so	so
-nach	nach
-vorne	vorne
-ranntet".	ranntet".
-
-Sagten	Sagten
-die	die
-Eltern,	Eltern,
-und	und
-sie	sie
-gingen	gingen
-alle	alle
-wieder	wieder
-zum	zum
-Campingplatz	Campingplatz
-zurück.	zurück.
+Sagten	Die
+die	beiden
+Eltern,	Freundinnen
+und	bekommen
+sie	einen
+gingen	halben
+alle	Herzinfarkt.
+wieder	„
+zum	Das
+Campingplatz	war
+zurück.	dafür,
+	dass
+	ihr
+	einfach
+	so
+	nach
+	vorne
+	ranntet".
 
 Es	Es
 sind	sind
@@ -48419,8 +48004,8 @@ man	man
 geräusche	Geräusche
 hört	hört
 „	„
-Hee,	Hee,
-Haaaa.	Haaaa.
+,	,
+.	.
 
 Jana	Jana
 und	und
@@ -48600,7 +48185,6 @@ Angst.	Angst.
 Und	Und
 Lina	Lina
 stotterte:	stotterte:
-„	„
 Ich	Ich
 will	will
 nach	nach
@@ -48610,7 +48194,8 @@ In	In
 diesen	diesen
 Wald	Wald
 spuckt	spuckt
-es!"	es!"
+es!	es!
+
 Um	Um
 sie	sie
 zu	zu
@@ -49023,10 +48608,10 @@ Wald	Wald
 zu	zu
 uns	uns
 schallen.	schallen.
-„	„
+
 Was	Was
 ist	ist
-das?"	das?"
+das?	das?
 fragte	fragte
 mich	mich
 Gigi	Gigi
@@ -49092,8 +48677,7 @@ sich	an
 an	einen
 einen	Baum
 Baum	stützte
-stützte	„
-„	was
+stützte	was
 was	ist
 ist	das?
 das?	
@@ -49102,7 +48686,7 @@ es
 vielleicht	
 ein	
 Alien	
-Raumschiff-kapsell?"	
+Raumschiff-kapsell?	
 und	
 wir	
 gingen	
@@ -49116,7 +48700,7 @@ plötzlich	es
 hinter	vielleicht
 einem	ein
 Baum	Alien
-kam	Raumschiff-kapsell?"
+kam	Raumschiff-kapsell?
 eine	und
 Hand	wir
 hervor	gingen
@@ -49235,8 +48819,6 @@ sind	sind
 eine	eine
 rumoriren	rumoriren
 (	(
-EEEEEEE	Eeeeeee
-HA	HA
 )	)
 die	die
 Mami	Mami
@@ -49254,20 +48836,10 @@ Sohn	Sohn
 tot	tot
 
 James	James
-e	e
 Alex	Alex
 gehe	gehe
 in	in
 Wald.	Wald.
-
-Mohen	Mohen
-"	"
-EEEEEEEEEE!"	eeeeeeeee!"
-HOOO	hooo
-OOOO	oooo
-OOO!	ooo!
-	yee
-	ee!
 
 Ali	Ali
 und	und
@@ -49293,20 +48865,17 @@ Ya	Ja
 Komm	Komm
 mit	mit
 mir!"	mir!"
-"	"
 Du	Du
 bist	bist
 ein	ein
-Dunkpof!"	Dunkpof!"
-"	"
-Uff.	Uff.
+Dunkpof!	Dunkpof!
 
 Ok	Ok
 ich	ich
 gehe	gehe
-alleine."	alleine."
-"	"
-Bye"	Bye"
+alleine.	alleine.
+
+"Bye"	"Bye"
 Nach	Nach
 1	1
 Stunde.	Stunde.
@@ -49799,40 +49368,11 @@ mehr	mehr
 ihre	ihre
 Söhne.	Söhne.
 
-"Ooooohhh	"Ooooohhh
--	-
-Ha	Ha
-ha	ha
-haaa	haaa
--	-
-spasteknofigararosamentespiralitosopaurosamentecampegiatoresssaaah".	spasteknofigararosamentespiralitosopaurosamentecampegiatoresssaaah".
-saght	sagt
-das	das
-keine.	keine.
-"	"
-Gianfranca	Gianfranca
-was	was
-ist	ist
-pasiert	passiert
-"	"
-saght	sagt
-Ali	Ali
-"Keine	"Keine
-"	"
-saght	sagt
-Gianfranca.	Gianfranca.
-
-2	2
 Mädchen	Mädchen
 ghen	gehen
 im	im
 dem	dem
 Wald.	Wald.
-
-Hören	Hören
-yeee,	yeee,
-hahahaha,	hahahaha,
-hooo	hooo
 
 Sie	Sie
 sind	sind
@@ -50379,10 +49919,8 @@ sie	sie
 horen	hören
 ein	ein
 gerëusche:	Geräusche:
-"Hoo,	"Hoo,
-eee,	eee,
-hahaha".	hahaha".
-
+,	,
+,	,
 Sie	Sie
 haben	haben
 hangst	Angst
@@ -50447,7 +49985,6 @@ werden	werden
 von	von
 Gejacht	gejagt
 
-1	1
 Zwei	Zwei
 künder	Kinder
 in	in
@@ -50466,35 +50003,6 @@ Er	Er
 ören	ören
 viele	viele
 schreien.	schreien.
-
-Anna	Anna
-ein	ein
-mädchen	Mädchen
-habt	habt
-ein	ein
-(	(
-PASSEGGIATA	PASSEGGIATA
-)	)
-mit	mit
-sein	sein
-Schwester.	Schwester.
-
-Anna	Anna
-habt	habt
-ein	ein
-gereusche	Geräusche
-gehort	gehört
-und	und
-ein	ein
-angst	Angst
-gehabt.	gehabt.
-
-Sie	Sie
-haben	haben
-streiten	streiten
-und	und
-gelaufen	gelaufen
-weg.	weg.
 
 Zwei	Zwei
 Freundin	Freundin
@@ -50702,17 +50210,14 @@ sehr	sehr
 Groß	groß
 Wölf.	Wolf.
 
-1	1
 Was	Was
 ist	ist
 passiert?	passiert?
 
-2	2
 Was	Was
 ist	ist
 das	das
 
-3	3
 Hilfe	Hilfe
 was	was
 ist	ist
@@ -50993,106 +50498,95 @@ CATARINA	Catarina
 SHREIT	schreit
 ANNAS	Annas
 NAME.	name.
-"	"
-CATRINA!	Catarina!
 
-HILFE!"	Hilfe!"
-SCHREIT	schreit
-ANNA	Anna
-CATARINA	Catarina
-LÄUFT	läuft
-ZU	ZU
-EINEN	einen
-BAUM	Baum
-UND	und
-FINDET	findet
-ANNA	Anna
-MIT	mit
-BLUT	Blut
-ÜBER	über
-SEINEN	SEINEN
-BEIN.	Bein.
-"	"
-OH	Oh
-GOT.	Gott.
+WAS	Sagt
+IST	Anna
+PASSIERT?	sehr
+	ERSCHRECKT.
 
-WAS	Was
-IST	ist
-PASSIERT?"	passiert?"
-FRAGT	fragt
-CATARINA	Catarina
-UND	und
-HILFT	hilft
-ANNA.	Anna.
-"	"
-ICH	Ich
-WEIß	weiß
-ES	es
-NICHT."	nicht."
-SAGT	Sagt
-ANNA	Anna
-SEHR	sehr
-ERSCHRECKT.	ERSCHRECKT.
+FRAGT	Plötzlich
+CATARINA	hören
+UND	sie
+HILFT	andere
+ANNA.	Leuten
+"	lachen.
+ICH	
+WEIß	
+ES	
+NICHT.	
 
-PLÖTZLICH	Plötzlich
-HÖREN	hören
-SIE	sie
-ANDERE	andere
-LEUTEN	Leuten
-LACHEN.	lachen.
-"	"
-WER	Wer
-IST	ist
-ES?"	es?"
-SCHREIT	schreit
-ANNA.	Anna.
-"	"
-GAHAHAHA	Gahahaha
-"	"
-HÖREN	hören
-SIE	sie
-DIE	die
-LEUTEN	Leuten
-LACHEN	lachen
-MEHR.	mehr.
-"	"
-ES	Es
-IST	ist
-BESSER	besser
-NACH	nach
-HAUSE	Hause
-ZU	zu
-GEHEN."	gehen."
-SAGT	Sagt
-CATARINA	Catarina
-"	"
-WARTE	Warte
-ICH	ich
-HABE	habe
-ETWAS	etwas
-GESEHEN	gesehen
-"	"
-SAGT	sagt
-ANNA.	Anna.
+SAGT	Wer
+ANNA	ist
+SEHR	es?"
+ERSCHRECKT.	schreit
+	Anna.
+	"
+	"
+	hören
+	sie
+	die
+	Leuten
+	lachen
+	mehr.
+	"
+	Es
+	ist
+	besser
+	nach
+	Hause
+	zu
+	gehen."
+	Sagt
+	Catarina
+	"
+	Warte
+	ich
+	habe
+	etwas
+	gesehen
+	sagt
+	Anna.
 
-CATARINA	Catarina
-EINSCHALTET	EINSCHALTET
-DIE	die
-LAMPE	Lampe
-UND	und
-KANN	kann
-NICHT	nicht
-SEHEN.	sehen.
-"	"
-WARTE	Warte
-HIER	hier
-"	"
-SAGT	sagt
-CATARINA	Catarina
-UND	und
-LÄSST	lässt
-ANNA	Anna
-ZURÜCK.	ZURÜCK.
+PLÖTZLICH	Catarina
+HÖREN	EINSCHALTET
+SIE	die
+ANDERE	Lampe
+LEUTEN	und
+LACHEN.	kann
+	nicht
+	sehen.
+
+WER	Warte
+IST	hier
+ES?"	"
+SCHREIT	sagt
+ANNA.	Catarina
+"	und
+"	lässt
+HÖREN	Anna
+SIE	ZURÜCK.
+DIE	
+LEUTEN	
+LACHEN	
+MEHR.	
+"	
+ES	
+IST	
+BESSER	
+NACH	
+HAUSE	
+ZU	
+GEHEN."	
+SAGT	
+CATARINA	
+"	
+WARTE	
+ICH	
+HABE	
+ETWAS	
+GESEHEN	
+SAGT	
+ANNA.	
 
 Mauro	Mauro
 und	und
@@ -51249,7 +50743,6 @@ erzählen	erzählen
 sie	sie
 alles.	alles.
 
-2	2
 Kinder	Kinder
 gehen	gehen
 in	in
@@ -51262,10 +50755,8 @@ sind	sind
 und	und
 Jemand	jemand
 macht	macht
-EEEE	eeee
 AAA	aaa
 AAA	aaa
-EEE	eee
 Die	Die
 2	2
 Kinder	Kinder
@@ -51657,9 +51148,8 @@ hört	hört
 man	man
 schreie:	Schreie:
 „	„
-Heee	Heee
 -	-
-Ha".	Ha".
+".	".
 
 Ines	Ines
 und	und
@@ -51725,31 +51215,6 @@ spukt	spukt
 es	es
 noch	noch
 Heute.	Heute.
-
-WELKOME	Welcome
-IN	in
-EINE	eine
-NEW	NEW
-EPISODE	EPISODE
-OF	OF
-"	"
-DIE	Die
-MUTTER	Mutter
-VERSCHUNDEN	verschwunden
-"	"
-ZWEI	zwei
-KINDER	KINDER
-IN	in
-EINE	eine
-WALT	Wald
-OHREN	hören
-VIELE	viele
-STIMMEL.	Stimmen.
-
-SIE	Sie
-HABEN	haben
-EINE	eine
-LAMPE.	Lampe.
 
 NACH	Nach
 ZWEI	Zwei
@@ -51960,10 +51425,11 @@ er	er
 starten	starten
 und	und
 antwortete:	antwortete:
-"Morgen	"Morgen
+Morgen	Morgen
 in	in
 der	der
-Früh."	Früh."
+Früh.	Früh.
+
 Die	Die
 Mutter	Mutter
 war	war
@@ -52381,11 +51847,12 @@ und	und
 sagt	sagt
 zu	zu
 ihm:	ihm:
-"Ich	"Ich
+Ich	Ich
 habe	habe
 dich	dich
 lieb,	lieb,
-Vater!"	Vater!"
+Vater!	Vater!
+
 Stefania	Stefania
 ist	ist
 immer	immer
@@ -53512,7 +52979,7 @@ ihr	ihr
 etwas	etwas
 ins	ins
 Ohr:	Ohr:
-"Sei	"Sei
+Sei	Sei
 mutig	mutig
 und	und
 tapfer,	tapfer,
@@ -53526,7 +52993,8 @@ ihmmer	immer
 in	in
 meinem	meinem
 Herzen	Herzen
-haben."	haben."
+haben.	haben.
+
 Friedrich	Friedrich
 stieg	stieg
 in	in
@@ -53649,14 +53117,14 @@ brachte	brachte
 ihm	ihm
 davon.	davon.
 
-"Ich	"Ich
+Ich	Ich
 muss	muss
 fahren	fahren
-Martina"	Martina"
+Martina	Martina
 sagte	sagte
 Gabriel	Gabriel
 Busselata.	Busselata.
-"	"
+
 Nein	Nein
 Papi	Papi
 wieso	wieso
@@ -53666,7 +53134,8 @@ nicht	nicht
 bleiben	bleiben
 bitte	bitte
 bleib	bleib
-hier."	hier."
+hier.	hier.
+
 Ich	Ich
 muss	muss
 gehen	gehen
@@ -53685,16 +53154,14 @@ Frau,	Frau,
 die	die
 weinte	weinte
 gerade.	gerade.
-"	"
+
 Wieso,	Wieso,
 wieso	wieso
-".	".
-"	"
 Es	Es
 tut	tut
 mir	mir
 leid	leid
-Ilaria."	Ilaria."
+Ilaria.	Ilaria.
 sagte	sagte
 der	der
 Mann	Mann
@@ -53708,20 +53175,18 @@ sie	sie
 auf	auf
 der	der
 Wange.	Wange.
-"	"
+
 Jetzt	Jetzt
 muss	muss
 ich	ich
 leider	leider
-gehen."	gehen."
-"	"
+gehen.	gehen.
+
 Ich	Ich
 werde	werde
 euch	euch
 sehr	sehr
 vermissen	vermissen
-".	".
-
 Martina	Martina
 nahm	nahm
 die	die
@@ -54041,10 +53506,10 @@ Er	Er
 sagte	sagte
 zu	zu
 ihr	ihr
-"Ich	"Ich
+Ich	Ich
 bin	bin
 gleich	gleich
-zurück".	zurück".
+zurück	zurück
 
 Er	Er
 nahm	nahm
@@ -54058,7 +53523,6 @@ rein	rein
 und	und
 startette.	startete.
 
-4	4
 Jahre	Jahre
 später	später
 der	der
@@ -54148,7 +53612,7 @@ sagte	sagte
 er	er
 seine	seine
 Frau:	Frau:
-"Weine	"Weine
+Weine	Weine
 nicht	nicht
 ich	ich
 werde	werde
@@ -54158,7 +53622,7 @@ und	und
 auf	auf
 euch	euch
 wieder	wieder
-aufpassen!".	aufpassen!".
+aufpassen!	aufpassen!
 
 Aber	Aber
 seine	seine
@@ -54392,8 +53856,8 @@ Max	Max
 fragte	fragte
 ob	ob
 er	er
-"Seine	"Seine
-Freundin"	Freundin"
+Seine	Seine
+Freundin	Freundin
 grüßen	grüßen
 konnte,	konnte,
 der	der
@@ -54627,7 +54091,7 @@ sie	sie
 sagte	sagte
 dem	dem
 Vater:	Vater:
-"Danke	"Danke
+Danke	Danke
 Papi,	Papi,
 wir	wir
 werden	werden
@@ -54639,7 +54103,8 @@ werden	werden
 danach	danach
 mein	mein
 Gebutstag	Geburtstag
-feiern."	feiern."
+feiern.	feiern.
+
 Der	Der
 Vater	Vater
 lächelt	lächelt
@@ -54673,10 +54138,11 @@ der	der
 Wange	Wange
 Er	Er
 sagte:	sagte:
-"Passt	"Passt
+Passt	Passt
 auf	auf
 euch	euch
-auf!"	auf!"
+auf!	auf!
+
 Er	Er
 stieg	stieg
 auf	auf
@@ -54777,7 +54243,7 @@ Familie	Familie
 Holzman	Holzman
 einen	einen
 Brief:	Brief:
-"Lieber	"Lieber
+Lieber	Lieber
 Herr	Herr
 Holzman	Holzman
 sie	sie
@@ -54808,7 +54274,7 @@ sie	sie
 morgen	morgen
 um	um
 9:00	9:00
-Uhr."	Uhr."
+Uhr.	Uhr.
 
 Am	Am
 nächsten	nächsten
@@ -55133,7 +54599,7 @@ GEH	geh
 NICHT	nicht
 WEG!"	Weg!"
 
-"Bitte	"Bitte
+Bitte	Bitte
 Vater,	Vater,
 bleib	bleib
 hier!	hier!
@@ -55148,7 +54614,7 @@ hast	hast
 kann	kann
 statt	statt
 dir	dir
-gehen!"	gehen!"
+gehen!	gehen!
 flüsterte	flüsterte
 Maya	Maya
 weinend.	weinend.
@@ -55159,7 +54625,7 @@ mit	mit
 gebrochenem	gebrochenem
 Herz	Herz
 sagte:	sagte:
-"Schatz,	"Schatz,
+Schatz,	Schatz,
 leider	leider
 geht	geht
 es	es
@@ -55173,8 +54639,8 @@ dass	dass
 ich	ich
 gleich	gleich
 wieder	wieder
-zurück	zurückkomme!"
-komme!"	
+zurück	zurückkomme!
+komme!	
 
 Maya	Maya
 nickte	nickte
@@ -55194,13 +54660,12 @@ und	und
 verabschiedete	verabschiedete
 sie.	sie.
 
-"Bitte	"Bitte
+Bitte	Bitte
 pass	pass
 gut	gut
 auf	auf
 Maya	Maya
 auf,	auf,
-"	"
 flüsterte	flüsterte
 der	der
 Vater.	Vater.
@@ -55209,7 +54674,7 @@ Die	Die
 Mutter	Mutter
 antwortete	antwortete
 ihm:	ihm:
-"Ja,	"Ja,
+Ja,	Ja,
 naturlich.	natürlich.
 
 Bitte	Bitte
@@ -55220,7 +54685,6 @@ in	in
 dem	dem
 Krieg!	Krieg!
 
-Bitte!"	Bitte!"
 Der	Der
 Vater	Vater
 nahm	nahm
@@ -55495,7 +54959,7 @@ Vater	Vater
 zu	zu
 verabschieden.	verabschieden.
 
-"Hey,	"Hey,
+Hey,	Hey,
 Emilia	Emilia
 ich	ich
 habe	habe
@@ -55503,7 +54967,7 @@ noch	noch
 ein	ein
 Geschenk	Geschenk
 für	für
-dich."	dich."
+dich.	dich.
 sagt	sagt
 Papa	Papa
 Friedrich	Friedrich
@@ -56021,16 +55485,13 @@ den	den
 Zug	Zug
 langsam	langsam
 
-wegh	wegfahren.
-fahren.	"
-"	Auf
-Auf	Niewiedersehen
-nie	mein
-wieder	Mann"
-sehen	sagte
-mein	die
-Mann"	Frau.
-sagte	
+Auf	Auf
+nie	Niewiedersehen
+wieder	mein
+sehen	Mann
+mein	sagte
+Mann	die
+sagte	Frau.
 die	
 Frau.	
 
@@ -56821,10 +56282,6 @@ mehr	mehr
 zu	zu
 sehen	sehen
 ist.	ist.
-
-22	22
-Mai	Mai
-1947:	1947:
 
 Ein	Ein
 Junge	Junge
@@ -58220,9 +57677,9 @@ flüsterte	flüsterte
 ihr	ihr
 ins	ins
 Ohr:	Ohr:
-"Ich	"Ich
+Ich	Ich
 liebe	liebe
-dich"	dich"
+dich	dich
 und	und
 stieg	stieg
 in	in
@@ -58359,7 +57816,7 @@ schenken.	schenken.
 Der	Der
 Vater	Vater
 sagte:	sagte:
-"Behalte	"Behalte
+Behalte	Behalte
 dir	dir
 diesen	diesen
 kleinen	kleinen
@@ -58367,7 +57824,8 @@ Vogel	Vogel
 als	als
 Andenken	Andenken
 an	an
-mich."	mich."
+mich.	mich.
+
 Danach	Danach
 weint	weint
 die	die
@@ -58382,12 +57840,13 @@ flüstert	flüstert
 ihr	ihr
 ins	ins
 Ohr:	Ohr:
-"Ich	"Ich
+Ich	Ich
 komme	komme
 heute	heute
 Abend	Abend
 wieder	wieder
-zurück."	zurück."
+zurück.	zurück.
+
 Daraufhin	Daraufhin
 steigt	steigt
 er	er
@@ -59543,11 +59002,12 @@ Die	Die
 Mutter	Mutter
 vergießt	vergießt
 Tränen.	Tränen.
-"	"
+
 Wir	Wir
 werden	werden
 dich	dich
-vermissen."	vermissen."
+vermissen.	vermissen.
+
 Nun	Nun
 heißt	heißt
 es	es
@@ -59910,11 +59370,11 @@ um	um
 nicht	nicht
 zu	zu
 weinen.	weinen.
-"	"
+
 Ich	Ich
 komme	komme
 bald	bald
-wieder"	wieder"
+wieder	wieder
 flüsterte	flüsterte
 er	er
 ihr	ihr
@@ -60709,7 +60169,6 @@ ihr	ihr
 sagte	sagte
 er	er
 dies:	dies:
-"O	"O
 weh,	weh,
 welch	welch
 Schicksal	Schicksal
@@ -60736,7 +60195,8 @@ wir	wir
 uns	uns
 wiedersehen	wiedersehen
 oder	oder
-nicht."	nicht."
+nicht.	nicht.
+
 Und	Und
 mit	mit
 diesen	diesen
@@ -61353,13 +60813,13 @@ und	flüstert
 flüstert	ihr
 ihr	ins
 ins	Ohr,
-Ohr,	"Ach,
-"Ach,	ich
+Ohr,	Ach,
+Ach,	ich
 ich	komme
 komme	doch
 doch	bald
-bald	wieder"
-wieder"	doch
+bald	wieder
+wieder	doch
 doch	ob
 ob	er
 er	wieder
@@ -61500,14 +60960,14 @@ Der	Der
 Vater	Vater
 sagt	sagt
 ihm:	ihm:
-"Bleib	"Bleib
+Bleib	Bleib
 ruhig,	ruhig,
 am	am
 Ende	Ende
 alles	alles
 wird	wird
 gut.	gut.
-"	"
+
 Aber	Aber
 es	es
 ist	ist
@@ -61539,7 +60999,7 @@ geht	geht
 weg.	weg.
 
 Vater:	Vater:
-"Ich	"Ich
+Ich	Ich
 gebe	gebe
 dir	dir
 Cip,	Cip,
@@ -61552,10 +61012,10 @@ ihn	ihn
 futtern	futtern
 und	und
 Zuwendungen	Zuwendungen
-geben."	geben."
+geben.	geben.
 
 Giuly:	Giuly:
-"Danke	"Danke
+Danke	Danke
 Papa!	Papa!
 
 Cip:	Cip:
@@ -61563,61 +61023,61 @@ Cip:	Cip:
 cip!"	cip!"
 
 Vater:	Vater:
-"Wir	"Wir
+Wir	Wir
 sehen	sehen
 uns	uns
 bald	bald
-Giuly"	Giuly"
+Giuly	Giuly
 
 Giuly:	Giuly:
-"Wo	"Wo
+Wo	Wo
 gehst	gehst
-du?"	du?"
+du?	du?
 
 Vater:	Vater:
-"Ich	"Ich
+Ich	Ich
 gehe	gehe
 in	in
 einer	einer
 wunderschöner	wunderschöner
-Platz"	Platz"
+Platz	Platz
 
 Giuly:	Giuly:
 "Bis	"Bis
 bald!"	bald!"
 
 Vater:	Vater:
-"Oh	"Oh
+Oh	Oh
 meine	meine
 Liebe,	Liebe,
 du	du
 musst	musst
 nich	nich
-weinen!"	weinen!"
+weinen!	weinen!
 
 Mutter:	Mutter:
-"Ich	"Ich
+Ich	Ich
 will	will
 nicht,	nicht,
 dass	dass
 du	du
-weg	wegfährst!"
-fahrst!"	
+weg	wegfährst!
+fahrst!	
 
 Vater:	Vater:
-"Ich	"Ich
+Ich	Ich
 komme	komme
 bald	bald
-zurück!"	zurück!"
+zurück!	zurück!
 
 Mutter:	Mutter:
-"Ich	"Ich
+Ich	Ich
 weiß,	weiß,
 dass	dass
 es	es
 nicht	nicht
 so	so
-ist!"	ist!"
+ist!	ist!
 
 Der	Der
 Vater	Vater
@@ -61805,13 +61265,11 @@ war	war
 ihre	ihre
 Heimat.	Heimat.
 
--	-
-"Vivian,	"Vivian,
+Vivian,	Vivian,
 konn	komm
-hir!"	hier!"
+hir!	hier!
 
--	-
-"Eine	"Eine
+Eine	Eine
 moment	Moment
 Mami!	Mami!
 
@@ -61819,13 +61277,12 @@ Ich	Ich
 spiele	spiele
 mit	mit
 Mr.	Mr.
-Bobby!"	Bobby!"
+Bobby!	Bobby!
 
--	-
 "Wer	"Wer
 ist	ist
-"Mr.	"Mr.
-Bobby?"	Bobby?"
+Mr.	Mr.
+Bobby?	Bobby?
 
 Mr	Mr
 Bobby	Bobby
@@ -61833,10 +61290,9 @@ ist	ist
 meine	meine
 neue	neue
 Beste	beste
-Freund."	Freund."
+Freund.	Freund.
 
--	-
-"Uh,	"Uh,
+Uh,	Uh,
 Hallo	hallo
 Mr.	Mr.
 Bobby!	Bobby!
@@ -61852,11 +61308,10 @@ meine	meine
 Tochter	Tochter
 sprechen.	sprechen.
 
--	-
-"Was	"Was
+Was	Was
 ist	ist
 passiert	passiert
-Papi?"	Papi?"
+Papi?	Papi?
 
 Heute	Heute
 ich	ich
@@ -61865,10 +61320,9 @@ gehen	gehen
 in.	in.
 in.	in.
 in	in
-Greek!"	Greek!"
+Greek!	Greek!
 
--	-
-"In	"In
+In	In
 Greek,	Greek,
 weil?	weil?
 
@@ -61876,10 +61330,9 @@ Ich	Ich
 möchte	möchte
 mit	mit
 dir	dir
-kommen!"	kommen!"
+kommen!	kommen!
 
--	-
-"Nein,	"Nein,
+Nein,	Nein,
 du	du
 muss	muss
 gehen	gehen
@@ -61887,25 +61340,23 @@ nach	nach
 schule	Schule
 nich	nicht
 mit	mit
-mir."	mir."
+mir.	mir.
 
 -'	-'
-"Ich	"Ich
+Ich	Ich
 liebe	liebe
-dich"	dich"
+dich	dich
 
--	-
-"Mami,	"Mami,
+Mami,	Mami,
 weil	weil
 bist	bist
 du	du
-Traurig?"	traurig?"
+Traurig?	traurig?
 
--	-
-"Ich	"Ich
+Ich	Ich
 bin	bin
 nicht	nicht
-traurig."	traurig."
+traurig.	traurig.
 
 Der	Der
 Vater	Vater
@@ -62687,72 +62138,6 @@ Zug	Zug
 vird	wird
 los.	los.
 
-KINDER	KINDER
-HANNO	HANNO
-AIN	ein
-FOGLEL	Vogel
-AS	aus
-UM	umarmen
-ARBEM	Tränen
-TRENEN	VATER
-VATER	Tochter
-TOCTER	
-
-DIE	Die
-KINDER	Kinder
-UND	und
-VATER	Vater
-(	(
-HANNO	HANNO
-)	)
-AIN	ein
-FOGLEL	Vogel
-AS	aus
-PAPIER	Papier
-UND	und
-UM	um
-ARBEIM	arbeim
-UND	und
-DIE	die
-TRENNEN	trennen
-VATER	Vater
-UMAREIM	umareim
-DIE	die
-MUTTER	Mutter
-ON	on
-KINDER	Kinder
-TOKTER	Tochter
-DIE	die
-VATER	Vater
-("	("
-GLI	GLI
-DICE:	DICE:
-STAI	STAI
-ATTENTA	ATTENTA
-A	A
-NOSTRA	NOSTRA
-FIGLIA	FIGLIA
-")	")
-UND	und
-DIE	die
-VATER	Vater
-IN	in
-DEN	den
-ZUGSTAIG	Zug
-UND	steigt
-RUSHEN	und
-DIE	rushen
-FAMILIE	die
-(	Familie
-DANDOGLI	(
-LA	DANDOGLI
-MANO	LA
-):	MANO
-DIE	):
-TRENEN	die
-FERLOLOSE.	Trenen
-	ferlolose.
-
 DIE	Die
 MARIE	Marie
 IST	ist
@@ -62776,25 +62161,6 @@ ACCKATTATEN	acckattaten
 DIE	die
 IPHONE	I-Phone
 X.	X.
-
-IPHON	I-Phone
-X	X
-COSTIEREN	costieren
-TROPPEN	troppen
-VON	von
-MAPKUS	Markus
-VARUM	warum
-DER	der
-ICT	ICT
-POVERO	POVERO
-E	E
-NON	NON
-AVIREN	aviren
-UNA	UNA
-CASEN	casen
-SOLDEN	solden
-UND	und
-DIGNITÀ.	dignità.
 
 Der	Der
 Vater	Vater
@@ -63299,7 +62665,6 @@ Krieg	Krieg
 Polen	Polen
 erklärt.	erklärt.
 
-2	2
 große	große
 Ländern	Ländern
 kämpfen	kämpfen
@@ -63647,7 +63012,6 @@ Und	Und
 sagt	sagt
 "	"
 danke	danke
-"	"
 am	am
 Markus.	Markus.
 
@@ -63681,7 +63045,6 @@ am	am
 sie,	sie,
 und	und
 sagt:	sagt:
-"	"
 Chuss,	Tschüss,
 liebe	liebe
 Blume,	Blume,
@@ -63690,7 +63053,7 @@ denken	denken
 an	an
 dir	dir
 alle	alle
-Tag".	Tag".
+Tag.	Tag.
 
 Vaters	Vaters
 von	von
@@ -63713,7 +63076,7 @@ Zug	Zug
 fährt	fährt
 sehr	sehr
 schnell.	schnell.
-"	"
+
 Chuss,	Tschüss,
 Chuss	Tschüss
 "	"
