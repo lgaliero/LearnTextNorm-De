@@ -2040,8 +2040,7 @@ weiß	weiß
 wie	wie
 ist	ist
 auf	auf
-de	de
-r	r
+der	der
 Berg.	Berg.
 
 Der	Der
@@ -2604,7 +2603,6 @@ Birne,	Birne,
 die	die
 Zucchine	Zucchini
 usw.	usw.
-
 Sie	Sie
 bezahlte	bezahlte
 nicht	nicht
@@ -3719,8 +3717,7 @@ Maria.	Maria.
 
 Wenn	Wenn
 Maria	Maria
-ein	ein
-kaufen	kaufen
+einkaufen	einkaufen
 fertig	fertig
 hat,	hat,
 geht	geht
@@ -3987,8 +3984,7 @@ sie	sie
 hat	hat
 gemacht	gemacht
 im	im
-Superm	Superm
-arkt.	arkt.
+Supermarkt.	Supermarkt.
 
 Eine	Eine
 Dinge	Dinge
@@ -4484,8 +4480,7 @@ Verlobte.	Verlobte.
 Nachdem	Nachdem
 sie	sie
 alles	alles
-n	n
-ahme,	ahme,
+nahme,	nahme,
 ging	ging
 sie	sie
 zur	zur
@@ -4511,7 +4506,7 @@ _	_
 Wein,	Wein,
 Brot,	Brot,
 Fleisch,	Fleisch,
-usw.	usw.
+usw..	usw..
 
 Während	Während
 sie	sie
@@ -4961,8 +4956,7 @@ Ware.	Ware.
 
 Maria	Maria
 nicht	nicht
-verste	verste
-hte	hte
+verstehte	verstehte
 die	die
 Situation	Situation
 Die	Die
@@ -4999,8 +4993,7 @@ Kassenzettel.	Kassenzettel.
 
 Die	Die
 Verkäuferin	Verkäuferin
-verste	verste
-hte	hte
+verstehte	verstehte
 und	und
 so	so
 Maria	Maria
@@ -6444,12 +6437,13 @@ paar	paar
 platze	Plätze
 ausgesucht	ausgesucht
 zb.:	z.
-Pejo,	
-Cortina	
-und	
-Croatien	
-und	
-Apulien!	
+Pejo,	B.:
+Cortina	Pejo,
+und	Cortina
+Croatien	und
+und	Kroatien
+Apulien!	und
+	Apulien!
 
 Heute	Heute
 in	in
@@ -6694,8 +6688,7 @@ die	die
 Kasse	Kasse
 dem	dem
 Supermarkt	Supermarkt
-gegang	gegang
-en	en
+gegangen	gegangen
 und	und
 sie	sie
 hat	hat
@@ -6832,7 +6825,7 @@ genommen.	genommen.
 
 Wenn	Wenn
 sie	sie
-lzäht,	lzäht,
+zählt,	zählt,
 vergiesst	vergisst
 sie	sie
 den	den
@@ -7114,6 +7107,7 @@ mir,	mir,
 dein	dein
 Emiliano!	Emiliano!
 
+P.S.	P.S.
 Ich	Ich
 kann	kann
 es	es
@@ -7662,8 +7656,7 @@ Tomaten	Tomaten
 und	und
 15	15
 Karoten	Karotten
-weg	weg
-geschnappen	geschnappen
+weggeschnappen	weggeschnappen
 hätte.	hätte.
 
 Dann	Dann
@@ -7851,8 +7844,7 @@ hat!	hat!
 
 sie	Sie
 kauft	kauft
-Fleis	Fleis
-ch,	ch,
+Fleisch,	Fleisch,
 ein	ein
 Liter	Liter
 Milch,	Milch,
@@ -7862,13 +7854,12 @@ Bier	Bierdosen,
 dosen,	drei
 drei	Wasserflaschen
 Wasser	usw.
-Flaschen	
-usw.	
-
-Sie	Sie
-ist	ist
-sehr	sehr
-froh.	froh.
+Flaschen	Sie
+usw.	ist
+Sie	sehr
+ist	froh.
+sehr	
+froh.	
 
 Sie	Sie
 will	will
@@ -9368,8 +9359,8 @@ gab	gab
 ein	ein
 Problem.	Problem.
 
-Kasserin	Kassiererin
 Die	Die
+Kasserin	Kassiererin
 hat	hat
 gesagt,	gesagt,
 dass	dass
@@ -9393,11 +9384,11 @@ der	der
 Kasse	Kasse
 vom	vom
 Gemüseladen	Gemüseladen
+und	und
+die	die
 Kasserin	Kassiererin
 entschuldigt	entschuldigt
-sie.	sie.
-und	und
-die,	die,
+sie.,	sie.,
 dann	dann
 Maria	Maria
 ist	ist
@@ -10492,8 +10483,7 @@ vergessen.
 
 Maria	Maria
 erklärt	erklärt
-a	a
-m	m
+am	am
 Polizei	Polizei
 dass,	dass,
 sie	sie
@@ -10509,8 +10499,7 @@ so,	so,
 sind	sind
 die	die
 Polizei	Polizei
-bei	bei
-m	m
+beim	beim
 Obsthändler	Obsthändler
 gegangen,	gegangen,
 wo	wo
@@ -11913,8 +11902,7 @@ gekauft	gekauft
 wie	wie
 Erdbeeren,	Erdbeeren,
 Birne,	Birne,
-Zit	Zit
-ronen,	ronen,
+Zitronen,	Zitronen,
 Orangen,	Orangen,
 Apfel	Apfel
 und	und
@@ -11989,8 +11977,7 @@ die	die
 Gemuse	Gemüse
 von	von
 Supermarkt	Supermarkt
-gesto	gesto
-hlt	hlt
+gestohlt	gestohlt
 hat	hat
 und	und
 rufte	rufte
@@ -12157,8 +12144,7 @@ kaufte	kaufte
 viele	viele
 Gemüse.	Gemüse.
 
-Wen	Wen
-n	n
+Wenn	Wenn
 sie	sie
 gezahlen	gezahlen
 hatte,	hatte,
@@ -12717,8 +12703,7 @@ ein	ein
 warme	warme
 Sonno,	Sonne,
 viele	viele
-Pal	Pal
-men	men
+Palmen	Palmen
 und	und
 Glüchlieste	glücklichste
 Menshen.	Menschen.
@@ -12737,8 +12722,7 @@ ist	ist
 eine	eine
 Idee!	Idee!
 
-F	F
-ährst	ährst
+Fährst	Fährst
 du	du
 gern	gern
 in	in
@@ -13193,7 +13177,6 @@ eigenen	eigenen
 Tasche	Tasche
 Obst	Obst
 u.	u.
-
 Gemüse	Gemüse
 hatte;	hatte;
 natürlich	natürlich
@@ -15239,8 +15222,7 @@ Romagna.	Romagna.
 Ich	Ich
 liebe	liebe
 die	die
-Berge	Berge
-n	n
+Bergen	Bergen
 nicht,	nicht,
 du	du
 weißt,	weißt,
@@ -16145,8 +16127,7 @@ ist	ist
 viele	viele
 besser	besser
 und	und
-unterh	unterh
-olt	olt
+unterholt	unterholt
 das	das
 Meer.	Meer.
 
@@ -16182,8 +16163,7 @@ Sonder	Sonder
 wir	wir
 können	können
 ins	ins
-Mad	Mad
-onna	onna
+Madonna	Madonna
 di	di
 Campiglio	Campiglio
 gehen.	gehen.
@@ -16272,8 +16252,8 @@ ich	ich
 will	will
 was	was
 gestern	gestern
-Maria	Maria
 zu	zu
+Maria	Maria
 passiert	passiert
 ist.	ist.
 
@@ -16656,8 +16636,7 @@ machen.	lang
 Für	Für
 mich	mich
 die	die
-Url	Url
-aub	aub
+Urlaub	Urlaub
 am	am
 Meer	Meer
 und	und
@@ -16685,8 +16664,7 @@ bist	bist
 mit	mit
 deinen	deinen
 Freunden	Freunden
-alle	alle
-s	s
+alles	alles
 Urlaub	Urlaub
 sind	sind
 schönen	schönen
@@ -18159,7 +18137,7 @@ Erdbeeren,Waldbeeren,	Orangen,
 Orangen,	Zitronen,
 Zitronen,	Peperoni,
 Peperoni,	Zucchini,
-Zucchini,	etc.
+Zucchini,	etc..
 ecc.	
 
 Sie	Sie
@@ -18222,13 +18200,12 @@ neue	dass
 Tasche	sie
 und	hat
 beschuldigt	etwas
-Maria	gescht
-das	ollt.
+Maria	geschtollt.
+das	
 sie	
 hat	
 etwas	
-gescht	
-ollt.	
+geschtollt.	
 
 Sie	Sie
 war	war
@@ -18241,8 +18218,7 @@ beweißen	beweisen
 dass	dass
 sie	sie
 nicht	nicht
-gest	gest
-ellt	ellt
+gestellt	gestellt
 hatte	hatte
 mit	mit
 sie	sie
@@ -21695,8 +21671,7 @@ auf	auf
 die	die
 Berge	Berge
 fahren	fahren
-soll	soll
-en.	en.
+sollen.	sollen.
 
 Am	Am
 Meer	Meer
@@ -22210,8 +22185,7 @@ ein	ein
 Urlaub	Urlaub
 nur	nur
 mit	mit
-Freunde	Freunde
-n	n
+Freunden	Freunden
 keine	keine
 Eltern!	Eltern!
 
@@ -23373,8 +23347,7 @@ in	in
 einem	einem
 Obst-	Obst-
 und	und
-Gemüse	Gemüse
-laden,	laden,
+Gemüseladen,	Gemüseladen,
 für	für
 Gemüse	Gemüse
 kaufen	kaufen
@@ -23432,8 +23405,7 @@ zimmlich	ziemlich
 gut.	gut.
 
 Ich	Ich
-schr	schr
-eibe	eibe
+schreibe	schreibe
 dich	dich
 weil	weil
 ich	ich
@@ -23769,8 +23741,7 @@ ist,	ist,
 weil	weil
 wir	wir
 können:	können:
-schwim	schwim
-men,	men,
+schwimmen,	schwimmen,
 Ffussball	Ffussball
 spielen,	spielen,
 und	und
@@ -27545,8 +27516,7 @@ nicht	nicht
 nach	nach
 Hause	Hause
 und	und
-sende	sende
-n	n
+senden	senden
 nach	nach
 Obsthändler	Obsthändler
 um	um
@@ -28177,8 +28147,7 @@ stelle	stelle
 ich	ich
 dir	dir
 2	2
-verschi	verschi
-edene	edene
+verschiedene	verschiedene
 Programmen	Programmen
 vor.	vor.
 
@@ -29759,8 +29728,7 @@ Jetzt	Jetzt
 muss	muss
 ich	ich
 in	in
-de	de
-n	n
+den	den
 Supermarkt	Supermarkt
 gehen!	gehen!
 
@@ -31134,8 +31102,7 @@ in	in
 einem	einem
 Obst-	Obst-
 und	und
-Gemüsela	Gemüsela
-den	den
+Gemüseladen	Gemüseladen
 gegangen.	gegangen.
 
 Ich	Ich
@@ -31389,8 +31356,7 @@ eine	eine
 schöne	schöne
 Urlaub:	Urlaub:
 Sonne,	Sonne,
-wunderschö	wunderschö
-ne	ne
+wunderschöne	wunderschöne
 Meer,	Meer,
 Jugendliche.	Jugendliche.
 
@@ -31478,7 +31444,6 @@ neue	neue
 Sache	Sache
 erkennen	erkennen
 usw.	usw.
-
 Am	Am
 Meer	Meer
 Spaß	Spaß
@@ -35689,8 +35654,7 @@ und	und
 sie	sie
 muss	muss
 in	in
-Kass	Kass
-a	a
+Kassa	Kassa
 die	die
 Lebensmittel	Lebensmittel
 gelassen.	gelassen.
@@ -36710,8 +36674,7 @@ auch	auch
 durchsichtig.	durchsichtig.
 
 Man	Man
-k	k
-ann	ann
+kann	kann
 Sonnenuntergang	Sonnenuntergang
 am	am
 Wasser	Wasser
@@ -36727,8 +36690,7 @@ wir	wir
 mit	mit
 bickin	Bikini
 spazieren	spazieren
-ge	ge
-hen,	hen,
+gehen,	gehen,
 und	und
 so	so
 weiter….	weiter….
@@ -36747,8 +36709,7 @@ mache	mache
 was	was
 wir	wir
 zu	zu
-Me	Me
-er	er
+Meer	Meer
 machen.	machen.
 
 Die	Die
@@ -36786,8 +36747,7 @@ Briefe	Briefe
 bekommt.	bekommt.
 
 Dein	Dein
-Pr	Pr
-oblem	oblem
+Problem	Problem
 ist	ist
 ein	ein
 sehr	sehr
@@ -36854,8 +36814,7 @@ Die	Die
 Bergen	Bergen
 sind	sind
 sehr	sehr
-ge	ge
-mütlich	mütlich
+gemütlich	gemütlich
 um	um
 einige	einige
 ruighe	ruhige
@@ -36870,8 +36829,7 @@ sehr	sehr
 wunderboor	wunderbar
 schön.	schön.
 
-A	A
-m	m
+Am	Am
 Meer	Meer
 könnst	könnst
 du	du
@@ -36880,8 +36838,7 @@ liegen	liegen
 neben	neben
 Meerwosser.	Meerwasser.
 
-A	A
-mMeer	mMeer
+AmMeer	AmMeer
 ist	ist
 ein	ein
 bischen	bisschen
@@ -36961,7 +36918,7 @@ sehr	sehr
 schöne,	schöne,
 wenn	wenn
 sehr	sehr
-hige	hige
+hohige	hohige
 sein	sein
 scheint	scheint
 gar	gar
@@ -37132,8 +37089,7 @@ Zuerst	Zuerst
 sie	sie
 ist	ist
 in	in
-eine	eine
-n	n
+einen	einen
 Obst-	Obst-
 und	und
 Gemüse	Gemüse
@@ -37230,8 +37186,7 @@ kan	kann
 nach	nach
 Berge	Berge
 oder	oder
-n	n
-ach	ach
+nach	nach
 Mer	Meer
 fahren.	fahren.
 
@@ -37345,8 +37300,7 @@ unentschlossen	unentschlossen
 wo	wo
 ich	ich
 diesem	diesem
-Urla	Urla
-ub	ub
+Urlaub	Urlaub
 verbringen	verbringen
 soll.	soll.
 könntst	könntest
@@ -37741,8 +37695,7 @@ ghehts	ghehts
 es	es
 dir?	dir?
 
-Mi	Mi
-r	r
+Mir	Mir
 alles	alles
 gut.	gut.
 
@@ -37812,8 +37765,7 @@ geths	gehts
 es	es
 dir?	dir?
 
-Mi	Mi
-r	r
+Mir	Mir
 alles	alles
 gut!	gut!
 
@@ -37822,8 +37774,7 @@ diesen	diesen
 Sommer	Sommer
 wo	wo
 gehen	gehen
-wi	wi
-r?	r?
+wir?	wir?
 
 Am	Am
 Merer	Merer
@@ -38200,8 +38151,7 @@ Ich	Ich
 habe	habe
 auch	auch
 verschiedene	verschiedene
-Pl	Pl
-ätze,	ätze,
+Plätze,	Plätze,
 wo	wo
 wir	wir
 gehen	gehen
@@ -38534,8 +38484,7 @@ bleiben?	bleiben?
 
 Wir	Wir
 konnen	konnen
-n	n
-ach	ach
+nach	nach
 Rimini	Rimini
 geben,	gehen,
 oder	oder
@@ -38647,7 +38596,7 @@ Freundin.	Freundin.
 
 Sie	Sie
 hat	hat
-ein	ein
+eine	eine
 komische	komische
 Adventur	Adventure
 gehabt.	gehabt.
@@ -38676,8 +38625,7 @@ Geld	Geld
 dem	dem
 Obst	Obst
 und	und
-de	de
-m	m
+dem	dem
 Gemüse	Gemüse
 gekauft	gekauft
 und	und
@@ -38697,7 +38645,7 @@ gegangen.	gegangen.
 Sie	Sie
 ist	ist
 mit	mit
-end	end
+den	den
 Obst	Obst
 und	und
 Gemüse	Gemüse
@@ -38735,8 +38683,8 @@ die	die
 Runde,	Runde,
 sie	sie
 geht	geht
-der	der
 bei	bei
+der	der
 Kasse.	Kasse.
 
 Sie	Sie
@@ -38875,8 +38823,7 @@ sehr	sehr
 putz	putz
 und	und
 viele	viele
-Kilo	Kilo
-meter	meter
+Kilometer	Kilometer
 von	von
 grünen	grünen
 Felden	Felden
@@ -39085,8 +39032,7 @@ spater	später
 ist	ist
 Maria	Maria
 in	in
-Supe	Supe
-rmarkt	rmarkt
+Supermarkt	Supermarkt
 gegangen.	gegangen.
 
 Auch	Auch
@@ -39305,9 +39251,8 @@ bezahlt.	bezahlt.
 Seit	Seitdem
 dem	ich
 ich	behalte
-behalte	imm
-imm	er
-er	der
+behalte	immer
+immer	der
 der	Bon.
 Bonn.	
 
@@ -39385,7 +39330,7 @@ und	und
 geht	geht
 an	an
 die	die
-Kass	Kass
+Kasse	Kasse
 zu	zu
 bezahlen.	bezahlen.
 
@@ -39397,7 +39342,7 @@ die	die
 Frau	Frau
 an	an
 die	die
-Kass	Kass
+Kasse	Kasse
 sieht	sieht
 sie	sie
 und	und
@@ -39518,8 +39463,7 @@ die	die
 Möglichkeiten	Möglichkeiten
 von	von
 unsere	unsere
-Url	Url
-aub	aub
+Urlaub	Urlaub
 für	für
 dieses	dieses
 Sommer.	Sommer.
@@ -40927,8 +40871,7 @@ Problem:	Problem:
 sie	Sie
 hat	hat
 nicht	nicht
-all	all
-es	es
+alles	alles
 bezahlt	bezahlt
 und	und
 so	so
@@ -41052,8 +40995,7 @@ dieses	dieses
 Brief	Brief
 um	um
 unseren	unseren
-Url	Url
-aub.	aub.
+Urlaub.	Urlaub.
 
 Wir	Wir
 könnten	könnten
@@ -41630,8 +41572,7 @@ Hause	Hause
 vergessen,	vergessen,
 ss	ss
 die	die
-Poliziste	Poliziste
-n	n
+Polizisten	Polizisten
 trugen	trugen
 sie	sie
 ins	ins
@@ -42069,8 +42010,7 @@ spazierenging.	spazieren
 
 Sie	Sie
 erschien	erschien
-u	u
-nd	nd
+und	und
 sah	sah
 sehr	sehr
 nervös	nervös
@@ -42092,7 +42032,7 @@ um	um
 mir	mir
 die	die
 ganze	ganze
-Geschicht	Geschicht
+Geschichte	Geschichte
 zu	zu
 erzählen.	erzählen.
 
@@ -42107,8 +42047,7 @@ ich	ich
 mich	mich
 für	für
 einen	einen
-gem	gem
-einsamen	einsamen
+gemeinsamen	gemeinsamen
 Urlaub	Urlaub
 intressiert.	interessiert.
 
@@ -42121,8 +42060,7 @@ sicher	sicher
 ob	ob
 es	es
 angenehmer	angenehmer
-w	w
-äre,	äre,
+wäre,	wäre,
 in	in
 die	die
 Berge	Berge
@@ -42151,8 +42089,7 @@ nur	nur
 auf	auf
 meine	meine
 eigene	eigene
-Erf	Erf
-ahrungen	ahrungen
+Erfahrungen	Erfahrungen
 eingehen:	eingehen:
 Ich	Ich
 bin	bin
@@ -42467,8 +42404,7 @@ sie	sie
 mir	mir
 die	die
 ganze	ganze
-Geschich	Geschich
-te	te
+Geschichte	Geschichte
 erzählen	erzählen
 hat.	hat.
 
@@ -43600,9 +43536,6 @@ dir	dir
 etwas	etwas
 besonders	besonders
 sagen!	sagen!
-"	"
-HÖR"	HÖR"
-mich!!	mich!!
 
 Gestern	Gestern
 wurde	wurde
@@ -44137,8 +44070,7 @@ Maria	Maria
 auch	auch
 das	das
 Obst	Obst
-bezahl	bezahl
-,	,
+bezahle,	bezahle,
 denn	denn
 die	die
 Frau	Frau
@@ -44176,7 +44108,7 @@ Die	Die
 Frau	Frau
 an	an
 der	der
-Kass	Kass
+Kasse	Kasse
 regte	regte
 sich	sich
 auf	auf
@@ -44266,8 +44198,7 @@ dich	dich
 Manuel,	Manuel,
 
 Wir	wir
-woll	woll
-ten	ten
+wollten	wollten
 doch	doch
 einmal	einmal
 zusammen	zusammen
@@ -44280,8 +44211,7 @@ wir	wir
 uns	uns
 bereits	bereits
 im	im
-A	A
-pril	pril
+April	April
 befinden	befinden
 habe	habe
 ich	ich
@@ -44421,9 +44351,8 @@ möglich,	möglich,
 dir	dir
 eine	eine
 Veranstaltung	Veranstaltung
-a	a
-Trennung-Verbindung	Trennung-Verbindung
-nsehen.	nsehen.
+ans	ans
+Trennung-Verbindungehen.	Trennung-Verbindungehen.
 
 Lass	Lass
 mich	mich
@@ -47819,8 +47748,7 @@ Obst	Obst
 und	und
 Gemüse	Gemüse
 beim	beim
-Obsthänd	Obsthänd
-ler	ler
+Obsthändler	Obsthändler
 gekauft.	gekauft.
 
 Sie	Sie
@@ -50985,8 +50913,7 @@ Maria	Maria
 passiert	passiert
 ist!	ist!
 
-Letz	Letz
-te	te
+Letzte	Letzte
 Woche	Woche
 war	war
 Maria	Maria
@@ -53177,8 +53104,7 @@ unheimlich	unheimlich
 diese	diese
 "unhöflichen	"unhöflichen
 und	und
-inkompete	inkompete
-nten	nten
+inkompetenten	inkompetenten
 Verkäuferinnen"	Verkäuferinnen"
 aufgeregt.	aufgeregt.
 
@@ -56488,8 +56414,7 @@ würden	würden
 den	den
 ganzen	ganzen
 Tag	Tag
-lan	lan
-g	g
+lang	lang
 schlafen	schlafen
 und	und
 Sonnenbaden.	sonnenbaden.
@@ -56800,8 +56725,7 @@ vorschlägen.	vorschlagen.
 
 Zwei	Zwei
 Wochen	Wochen
-i	i
-n	n
+in	in
 den	den
 Bergen	Bergen
 im	im
@@ -56816,8 +56740,7 @@ Nur	Nur
 ich	ich
 und	und
 du,	du,
-i	i
-n	n
+in	in
 der	der
 tiefste	tiefste
 Natur	Natur
@@ -56864,8 +56787,7 @@ sein!!	sein!!
 Ich	Ich
 warte	warte
 auf	auf
-deine	deine
-r	r
+deiner	deiner
 Antwort.	Antwort.
 
 Wie	Wie
@@ -56959,8 +56881,7 @@ an	an
 die	die
 Azzorre,	Azzorre,
 in	in
-eine	eine
-m	m
+einem	einem
 kleinen	kleinen
 Haus,	Haus,
 mit	mit
@@ -58131,8 +58052,7 @@ Berg	Berg
 ist	ist
 schöner	schöner
 als	als
-d	d
-er	er
+der	der
 Meer,	Meer,
 aber	aber
 sie	sie
@@ -59655,7 +59575,6 @@ sprechen.	sprechen.
 
 wie	wie
 geht´s.	geht´s.
-
 Ich	Ich
 muss	muss
 dich	dich
@@ -60240,8 +60159,7 @@ Gemüse	Gemüse
 und	und
 Obst	Obst
 in	in
-eine	eine
-m	m
+einem	einem
 andere	andere
 Supermarkt	Supermarkt
 einkaufen	einkaufen
@@ -60390,8 +60308,7 @@ Letzte	Letzte
 Jahr	Jahr
 bin	bin
 ich	ich
-a	a
-m	m
+am	am
 Meer	Meer
 gefahren.	gefahren.
 
@@ -61018,8 +60935,8 @@ Wie	Wie
 geht´s?	geht´s?
 
 Mir	Mir
-eht	eht
-esg	esg
+geht	geht
+es	es
 gut,	gut,
 aber	aber
 Maria	Maria
@@ -61115,8 +61032,7 @@ Sie	Sie
 ist	ist
 der	der
 Nacht	Nacht
-i	i
-m	m
+im	im
 die	die
 Zentrale	Zentrale
 geblieben.	geblieben.
@@ -61321,74 +61237,65 @@ Unterschiede.	Unterschiede.
 Letztes	Letztes
 Jahr	Jahr
 zB	Z.
-bin	
-ich	
-mit	
-meine	
-Familie	
-in	
-die	
-Berge	
-gefahren.	
+bin	B.
+ich	bin
+mit	ich
+meine	mit
+Familie	meine
+in	Familie
+die	in
+Berge	die
+gefahren.	Berge
+	gefahren.
 
-Dort	B.
-gab	bin
-es	ich
-wenige	mit
-Judentliche	meine
-weil	Familie
-es	in
-ein	die
-kleines	Berge
-Dorf	gefahren.
-war	
-mit	
-nur	
-ein	
-Paar	
-Geschäfte	
-und	
-keine	
-lustige	
-Lokalen.	
-
-Es	Dort
-war	gab
-wirklich	es
-langweilig	wenige
-aber	Jugendliche
-war	weil
-schön	es
-im	ein
-Wald	kleines
-wandern!	Dorf
-	war
-	mit
-	nur
-	ein
-	paar
-	Geschäfte
-	und
-	keine
-	lustige
-	Lokalen.
+Dort	Dort
+gab	gab
+es	es
+wenige	wenige
+Judentliche	Jugendliche
+weil	weil
+es	es
+ein	ein
+kleines	kleines
+Dorf	Dorf
+war	war
+mit	mit
+nur	nur
+ein	ein
+Paar	paar
+Geschäfte	Geschäfte
+und	und
+keine	keine
+lustige	lustige
+Lokalen.	Lokalen.
 
 Es	Es
 war	war
-nicht	wirklich
-so	langweilig
-warm	aber
-wie	war
-in	schön
-die	im
-Stadt	Wald
-und	wandern!
-ich	
-hatte	
-viele	
-ungezähmte	
-Tiere	
-gesehen!	
+wirklich	wirklich
+langweilig	langweilig
+aber	aber
+war	war
+schön	schön
+im	im
+Wald	Wald
+wandern!	wandern!
+
+Es	Es
+war	war
+nicht	nicht
+so	so
+warm	warm
+wie	wie
+in	in
+die	die
+Stadt	Stadt
+und	und
+ich	ich
+hatte	hatte
+viele	viele
+ungezähmte	ungezähmte
+Tiere	Tiere
+gesehen!	gesehen!
 
 Aber,	Aber,
 ehrlich	ehrlich
@@ -61712,15 +61619,16 @@ Unterschiede.	Unterschiede.
 Letzt	Letzt
 Jahr	Jahr
 zb	z.
-war	
-ich	
-mit	
-meine	
-Familie	
-in	
-die	
-Berge	
-gefahren.	
+war	B.
+ich	war
+mit	ich
+meine	mit
+Familie	meine
+in	Familie
+die	in
+Berge	die
+gefahren.	Berge
+	gefahren.
 
 Dort	Dort
 gab	gab

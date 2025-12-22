@@ -16,6 +16,7 @@ class Paths:
 # XML EXTRACTION CONFIGS
 # =======================
 class ExtractionParams:
+    """Configuration for extraction process."""
     CORPORA = {
         'LEONIDE': {
             'base_dir': '../corpora/LEONIDE/pepper-xml-v1.1/data/DE',
@@ -34,11 +35,11 @@ class ExtractionParams:
             'lang_prof': 'L2'
         }
     }
-    ACTIVE_CORPORA = ['LEONIDE', 'Kolipsi_1_L2', 'Kolipsi_1_L1', 'Kolipsi_2']   # Corpora to process (empty list = process none)
-    OUTPUT_FORMAT = 'both'                                                      # Output settings - Options: "csv", "norm", or "both"
-    EXCLUDE = ["DE_pic_2_57Y25A14_59.xml"," DE_pic_2_57Y25A03_59.xml"]
-    MAX_FILES_PER_CORPUS = None                                                 # Processing limits - None = process all files, or set to integer to limit
-    SENTENCIZER_KWARGS = None                                                   # Sentencizer settings (if needed in future)
+    ACTIVE_CORPORA = ['LEONIDE']  # Corpora to process (empty list = process none)
+    OUTPUT_FORMAT = 'norm'         # Output settings - Options: "csv", "norm", or "both"
+    EXCLUDE = ["DE_pic_2_57Y25A14_59.xml"," DE_pic_2_57Y25A03_59.xml", "DE_pic_3_67Y25A21_112.xml"]
+    MAX_FILES_PER_CORPUS = None    # Processing limits - None = process all files, or set to integer to limit
+    SENTENCIZER_KWARGS = None      # Sentencizer settings (if needed in future)
 
 
 # =======================
@@ -53,7 +54,7 @@ class StatsDisplay:
     STATS_PER_TEXT_TYPE = True      #5A
     TEXT_TYPE_SENTENCE_LEV = False  #5B
     TEXT_TYPE_DOCUMENT_LEV = False  #5C
-    TEXT_TYPE_COMBINED = True      #6 Stats for text type
+    TEXT_TYPE_COMBINED = True       #6 Stats for text type
 
 # =======================
 # TEST SET CREATION
