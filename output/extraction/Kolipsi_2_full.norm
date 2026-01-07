@@ -387,6 +387,11 @@ Grüße,	Grüße,
 bis	bis
 bald!	bald!
 
+Bozen,	Bozen,
+27.	27.
+Mai	Mai
+2015	2015
+
 wie	wie
 geht's	geht's
 dir?	dir?
@@ -508,8 +513,8 @@ eine	eine
 Leserin	Leserin
 der	der
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 und	und
 vor	vor
 zwei	zwei
@@ -884,12 +889,12 @@ Brief	Brief
 in	in
 der	der
 Rubrik	Rubrik
-Persönliche	Persönliche
-Briefe	Briefe
+"Persönliche	"Persönliche
+Briefe"	Briefe"
 der	der
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 gelesen	gelesen
 und	und
 ich	ich
@@ -917,7 +922,7 @@ nicht	nicht
 die	die
 Nachrichten	Nachrichten
 deiner	deiner
-Freunden	Freunden
+"Freunden"	"Freunden"
 ignorieren,	ignorieren,
 sondern	sondern
 sie	sie
@@ -937,8 +942,8 @@ hast	hast
 Angst	Angst
 davor,	davor,
 nur	nur
-falsche	falsche
-Freunde	Freunde
+"falsche	"falsche
+Freunde"	Freunde"
 zu	zu
 haben,	haben,
 oder?	oder?
@@ -1637,7 +1642,7 @@ letzten	letzten
 zutaten	Zutaten
 für	für
 ihre	ihre
-"sSupperrezept"	Superrezept
+"sSupperrezept"	"Superrezept"
 und	und
 ging	ging
 an	an
@@ -1686,6 +1691,7 @@ und	und
 ruft	ruft
 die	die
 Bewacher.	Bewacher.
+
 werend	während
 Marta	Maria
 den	den
@@ -2181,8 +2187,8 @@ Brief	Brief
 auf	auf
 der	der
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 gelesen.	gelesen.
 
 Man	Man
@@ -2452,8 +2458,8 @@ einer	einer
 Rubrik	Rubrik
 der	der
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 gelesen	gelesen
 und	und
 wollte	wollte
@@ -2718,7 +2724,6 @@ und	und
 ich	ich
 bin	bin
 18.	18.
-
 Ich	Ich
 kann	kann
 dein	dein
@@ -4307,7 +4312,7 @@ die	Die
 Verkauferin	Verkäuferin
 sagte	sagte
 Maria:	Maria:
-Zahlst	Zahlst
+"Zahlst	"Zahlst
 du	du
 nicht	nicht
 was	was
@@ -4315,11 +4320,10 @@ du	du
 in	in
 die	die
 Tasche	Tasche
-hast!?	hast!?
-
+hast!?"	hast!?"
 Maria	Maria
 antwortete:	antwortete:
-Diese	Diese
+"Diese	"Diese
 Sachen	Sachen
 den	den
 Sie	Sie
@@ -4334,8 +4338,7 @@ einen	einen
 Obst-	Obst-
 und	und
 Gemüseladen	Gemüseladen
-eingekauft.	eingekauft.
-
+eingekauft."	eingekauft."
 Die	Die
 Verkäuferin	Verkäuferin
 glaubte	glaubte
@@ -4343,14 +4346,14 @@ Maria	Maria
 nicht	nicht
 und	und
 sah:	sag:
-Mach	Mach
+"Mach	"Mach
 mir	mir
 die	die
 Rechnung	Rechnung
 oder	oder
 die	die
 Kassenzettel	Kassenzettel
-ansehen?	ansehen?
+ansehen?".	ansehen?".
 
 Maria	Maria
 suchte	suchte
@@ -4460,7 +4463,7 @@ würde	würde
 ich	ich
 deine	deine
 virtuelle	virtuelle
-Freunde	Freunde
+"Freunde"	"Freunde"
 schreiben	schreiben
 um	um
 zu	zu
@@ -4479,7 +4482,7 @@ im	im
 Internet	Internet
 so	so
 viele	viele
-Freunde	Freunde
+"Freunde"	"Freunde"
 gefunden	gefunden
 die	die
 mich	mich
@@ -5442,12 +5445,12 @@ email	E-Mail
 in	in
 der	der
 Rubrik	Rubrik
-Persönliche	Persönliche
-Briefe	Briefe
+"Persönliche	"Persönliche
+Briefe"	Briefe"
 der	der
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 gelesen.	gelesen.
 
 Ich	Ich
@@ -6321,8 +6324,8 @@ Bericht	Bericht
 in	in
 der	der
 Rubrik	Rubrik
-Persönliche	Persönliche
-Briefe	Briefe
+"Persönliche	"Persönliche
+Briefe"	Briefe"
 gelesen	gelesen
 und	und
 wollte	wollte
@@ -6362,7 +6365,7 @@ die	die
 echte	echte
 Freundschaften	Freundschaften
 sind	sind
-wichtiger.	wichtiger.
+wichtiger..	wichtiger..
 
 Ich	Ich
 habe	habe
@@ -6397,7 +6400,7 @@ du	du
 solltest	solltest
 mit	mit
 deine	deine
-Internet-Freunde	Internet-Freunde
+"Internet-Freunde"	"Internet-Freunde"
 chatten	chatten
 aber	aber
 auch	auch
@@ -6804,7 +6807,6 @@ Marco	Marco
 und	und
 bin	bin
 17.	17.
-
 Ich	Ich
 gratulieren	gratulieren
 mich	mich
@@ -6854,6 +6856,7 @@ man	man
 kann	kann
 z.	z.
 B.	B.
+
 die	die
 Art	Art
 und	und
@@ -7153,8 +7156,8 @@ Briefe	Briefe
 in	in
 der	der
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 gelesen	gelesen
 und	und
 sie	sie
@@ -7714,7 +7717,7 @@ Bei	Bei
 mir	mir
 ist	ist
 alles	alles
-ok.	.k.
+ok.	.k..
 
 Ich	Ich
 wollte	wollte
@@ -7815,7 +7818,7 @@ Ende	Ende
 eine	eine
 Art	Art
 von	von
-Lösung	Lösung
+"Lösung"	"Lösung"
 gefunden	gefunden
 hast.	hast.
 
@@ -7875,7 +7878,7 @@ Art	Art
 um	um
 Leute	Leute
 zu	zu
-kennen	kennen
+"kennen"	"kennen"
 total	total
 Falsch.	falsch.
 
@@ -8148,7 +8151,7 @@ wo	wo
 du	du
 schreibt	schreibt
 dass:	dass:
-Ich	Ich
+"Ich	"Ich
 habe	habe
 alle	alle
 meine	meine
@@ -8168,8 +8171,8 @@ hatte,	hatte,
 kann	kann
 mich	mich
 im	im
-Personal	Personalchat
-chat	geschrieben.
+"Personal	"Personalchat"
+chat"	geschrieben.
 gerscrieben.	
 
 Dass	Dass
@@ -9470,6 +9473,8 @@ funktionirt.	funktioniert.
 Bozen,	Bozen,
 den	den
 1.	1.
+April	April
+2015	2015
 
 Mir	Mir
 gehts	gehts
@@ -9510,6 +9515,7 @@ kennengelern	kennengelern
 willst,	willst,
 z.	z.
 B.	B.
+
 ist	ist
 wenig	wenig
 surfen	surfen
@@ -9633,15 +9639,16 @@ einkaufen	einkaufen
 wie	wie
 zB.	z.
 	B.
-	Brot,
-	Milch,
-	Käse,
-	Fleich
-	und
-	auch
-	eine
-	Tablette
-	Schokolade.
+
+Brot,	Brot,
+Milch,	Milch,
+Käse,	Käse,
+Fleich	Fleich
+und	und
+auch	auch
+eine	eine
+Tablette	Tablette
+Schokolade.	Schokolade.
 
 ich	ich
 habe	habe
@@ -9650,8 +9657,8 @@ Brief	Brief
 auf	auf
 der	der
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 gelesen	gelesen
 und	und
 ich	ich
@@ -11703,7 +11710,7 @@ noch	noch
 nie	nie
 gesehen	gesehen
 hatte	hatte
-machen.	machen.
+machen...	machen...
 
 Du	Du
 bist	bist
@@ -12010,13 +12017,13 @@ hat	hat
 die	die
 Frau	Frau
 gesagt:	gesagt:
-Hast	Hast
+"Hast	"Hast
 du	du
 die	die
 Obst	Obst
 und	und
 Gemüse	Gemüse
-gestolen?	gestohlen?
+gestolen?"	gestohlen?"
 
 Die	Die
 Frau	Frau
@@ -12276,12 +12283,12 @@ Brief	Brief
 in	in
 der	der
 Rubrik	Rubrik
-Persönliche	Persönliche
-Briefe	Briefe
+"Persönliche	"Persönliche
+Briefe"	Briefe"
 der	der
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 gelesen.	gelesen.
 
 So	So
@@ -12453,7 +12460,7 @@ Dort	Dort
 gab	gab
 es	es
 ein	ein
-Problem.	Problem.
+Problem...	Problem...
 
 Sie	Sie
 hätte	hätte
@@ -12960,12 +12967,12 @@ und	und
 habe	habe
 ich	ich
 deine	deine
-Persönliche	Persönliche
-Briefe	Briefe
+"Persönliche	"Persönliche
+Briefe"	Briefe"
 der	der
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 gelesen.	gelesen.
 
 Meine	Meine
@@ -13575,6 +13582,11 @@ oder	oder
 andere	andere
 sachen.	Sachen.
 
+BOZEN,	Bozen,
+1.	1.
+APRIL	April
+2015	2015
+
 Wie	wie
 geht	geht
 es	es
@@ -13660,6 +13672,11 @@ warte	warte
 auf	auf
 deine	deine
 Antwort!	Antwort!
+
+BOZEN,	Bozen,
+1.	1.
+APRIL	April
+2015	2015
 
 Ich	Ich
 bin	bin
@@ -14039,7 +14056,7 @@ hat	hat
 zu	zu
 Maria	Maria
 gesagt:	gesagt:
-Entschuldigung,	Entschuldigung,
+"Entschuldigung,	"Entschuldigung,
 darf	darf
 ich	ich
 die	die
@@ -14047,12 +14064,12 @@ Kassezettel	Kassezettel
 für	für
 die	die
 Obst	Obst
-gesehen?	gesehen?
+gesehen?"	gesehen?"
 und	und
 Maria	Maria
 hat	hat
 antwortet	antwortet
-Ja,	Ja,
+"Ja,	"Ja,
 aber	aber
 habe	habe
 ich	ich
@@ -14061,27 +14078,26 @@ Obst	Obst
 in	in
 anderen	anderen
 Geschaft	Geschäft
-ankaufte	ankaufte
-,	,
+ankaufte",	ankaufte",
 die	die
 Verkäuferin	Verkäuferin
 hat	hat
 dann	dann
 gesagt	gesagt
-Ist	Ist
+"Ist	"Ist
 mir	mir
 egal,	egal,
 ich	ich
 müss	müss
 die	die
 Kassezettel	Kassezettel
-sehen	sehen
+sehen"	sehen"
 und	und
 Maria	Maria
 hat	hat
 dann	dann
 antwortet	antwortet
-Ja,	Ja,
+"Ja,	"Ja,
 auch	auch
 für	für
 mich	mich
@@ -14090,7 +14106,7 @@ egal,	egal,
 hier	hier
 ist	ist
 die	die
-Kassezettel	Kassezettel
+Kassezettel"	Kassezettel"
 und	und
 die	die
 Verkäuferin	Verkäuferin
@@ -14112,13 +14128,13 @@ habe	habe
 in	in
 der	der
 Rubrik	Rubrik
-Persönliche	Persönliche
-Briefe	Briefe
+"Persönliche	"Persönliche
+Briefe"	Briefe"
 in	in
 der	der
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 deinen	deinen
 Brief	Brief
 gelesen.	gelesen.
@@ -14149,7 +14165,7 @@ deinen	deinen
 Freunde,	Freunde,
 dass	dass
 du	du
-Ja,	Ja,
+"Ja,	"Ja,
 für	für
 alle	alle
 meinen	meinen
@@ -14164,7 +14180,7 @@ bin	bin
 besser	besser
 mit	mit
 seinen	seinen
-hilfen.	Hilfen.
+hilfen."	Hilfen."
 angeschriben.	angeschrieben.
 
 Du	Du
@@ -14215,9 +14231,9 @@ du	du
 immer	immer
 das	das
 Liet	Lied
-Ist	Ist
+"Ist	"Ist
 mir	mir
-egal	egal
+egal".	egal".
 
 gestern	gestern
 war	war
@@ -15669,12 +15685,12 @@ habe	habe
 in	in
 der	der
 Rubrik	Rubrik
-Persönliche	Persönliche
-Briefe	Briefe
+"Persönliche	"Persönliche
+Briefe"	Briefe"
 der	der
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 dein	dein
 Problem	Problem
 gelesen	gelesen
@@ -16063,16 +16079,16 @@ gesehen.	gesehen.
 
 Sie	Sie
 hat	hat
-Du	Du
+"Du	"Du
 hast	hast
 die	die
 Zucchini	Zucchini
-gestolen	gestohlen
+gestolen"	gestohlen"
 gesagt.	gesagt.
 
 Maria	Maria
 hat	hat
-nein	nein
+"nein"	"nein"
 gesagt.	gesagt.
 
 Die	Die
@@ -16093,11 +16109,11 @@ Gemüseladen.	Gemüseladen.
 Die	Die
 Verkäuferin	Verkäuferin
 hat	hat
-Ich	Ich
+"Ich	"Ich
 habe	habe
 falsch	falsch
 gedenkt	gedenkt
-entschuldigung	Entschuldigung
+entschuldigung"	Entschuldigung"
 
 Maria	Maria
 und	und
@@ -17389,6 +17405,7 @@ du	du
 konnte	konnte
 z.	z.
 B.	B.
+
 den	den
 Personen	Personen
 es	es
@@ -17443,6 +17460,7 @@ kannst	kannst
 du	du
 ihnen	ihnen
 treffen.	treffen.
+
 b)	b)
 Deine	Deine
 Kontakte	Kontakte
@@ -17558,7 +17576,7 @@ gebe	gebe
 ich	ich
 dich	dich
 ein	ein
-Ratschlage.	Ratschlage.
+Ratschlage...	Ratschlage...
 
 Wenn	Wenn
 du	du
@@ -17748,7 +17766,7 @@ mir	mir
 die	die
 Kassierin	Kassierin
 gesagt:	gesagt:
-Hei!	Hei!
+"Hei!	"Hei!
 
 Was	Was
 machen	machen
@@ -17756,9 +17774,9 @@ sie	Sie
 mit	mit
 solche	solche
 Tasche?	Tasche?
-.	.
+".	".
 
-Sie	Sie
+"Sie	"Sie
 können	können
 hier	hier
 die	die
@@ -17767,20 +17785,20 @@ lassen	lassen
 und	und
 das	das
 Zettel	Zettel
-suchen	suchen
+suchen"	suchen"
 "	"
 Ok,	.k.,
 ich	ich
 bring	bring
 es	es
-gleich	gleich
+gleich"	gleich"
 So	So
 rennte	rennte
 ich	ich
 zum	zum
 Obsthändler	Obsthändler
 und	und
-suchte.	suchte.
+suchte...	suchte...
 
 Ich	Ich
 konnte	konnte
@@ -17800,7 +17818,7 @@ er	er
 es	es
 gesehen	gesehen
 hat.	hat.
-
+"	"
 Ja,	Ja,
 es	es
 war	war
@@ -17817,13 +17835,14 @@ nicht	nicht
 wo	wo
 es	es
 ist!"	ist!"
+"	"
 Ok	Ok
 danke,	danke,
 ich	ich
 such	such
 es	es
 wieder	wieder
-einmal	einmal
+einmal"	einmal"
 Nach	Nach
 30	30
 Minuten	Minuten
@@ -19037,7 +19056,7 @@ Kasse.	Kasse.
 Es	Es
 ist	ist
 nicht	nicht
-möglich.	möglich.
+möglich...	möglich...
 
 Man	Man
 kann	kann
@@ -19140,12 +19159,12 @@ habe	habe
 in	in
 der	der
 Rubrik	Rubrik
-Persönliche	Persönliche
-Briefe	Briefe
+"Persönliche	"Persönliche
+Briefe"	Briefe"
 der	der
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 deinen	deinen
 Brief	Brief
 gelesen.	gelesen.
@@ -19475,7 +19494,7 @@ habe	habe
 auch	auch
 eine	eine
 änliche	ähnliche
-Stritt-Phase,	Stritt-Phase,
+"Stritt-Phase",	"Stritt-Phase",
 so	so
 wie	wie
 du,	du,
@@ -19488,7 +19507,7 @@ man	man
 sich	sich
 mit	mit
 den	den
-Chatten	Chatten
+"Chatten"	"Chatten"
 sehr	sehr
 wichtig	wichtig
 und	und
@@ -19516,7 +19535,8 @@ meines	meines
 Leben	Leben
 von	von
 einen	einen
-Screen	Screen
+"Screen".	"Screen".
+
 Ich	Ich
 hatte	hatte
 eine	eine
@@ -20396,12 +20416,12 @@ deiner	deiner
 Artikel	Artikel
 in	in
 der	der
-Persönliche	Persönliche
-Briefe	Briefe
+"Persönliche	"Persönliche
+Briefe"	Briefe"
 der	der
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 gelesen.	gelesen.
 
 For	Vor
@@ -20425,8 +20445,8 @@ Ich	Ich
 war	war
 mit	mit
 ein	ein
-Social	Social
-Network	Network
+"Social	"Social
+Network"	Network"
 einsüchtig,	einsüchtig,
 ich	ich
 war	war
@@ -20455,8 +20475,8 @@ die	die
 Freunde	Freunde
 auf	auf
 dieser	dieser
-Social	Social
-Network	Network
+"Social	"Social
+Network"	Network"
 die	die
 mir	mir
 immer	immer
@@ -20963,7 +20983,7 @@ sie	sie
 shon	schon
 an	an
 der	der
-Kasse.	Kasse.
+Kasse...	Kasse...
 aber	aber
 der	der
 Kasse	Kasse
@@ -21012,7 +21032,7 @@ haben	haben
 wir	wir
 nicht	nicht
 mehr	mehr
-gechatten.	gechatten.
+gechatten..	gechatten..
 
 Ich	Ich
 denke,	denke,
@@ -21116,7 +21136,7 @@ meine	meine
 Hilfe	Hilfe
 kann	kann
 pratische	praktische
-ist.	ist.
+ist...	ist...
 
 Schreibst	Schreibst
 bitte	bitte
@@ -21167,13 +21187,13 @@ gelest	gelest
 auf	auf
 der	der
 Rubrik	Rubrik
-Persönliche	Persönliche
-Briefe	Briefe
+"Persönliche	"Persönliche
+Briefe"	Briefe"
 auf	auf
 der	der
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 und	und
 ich	ich
 wollte	wollte
@@ -21304,7 +21324,7 @@ wie	wie
 du	du
 gemacht.	gemacht.
 
-Jetzt.	Jetzt.
+Jetzt...	Jetzt...
 gehst	gehst
 du	du
 online	online
@@ -21472,7 +21492,7 @@ viele	viele
 Sache	Sache
 wie	wie
 Milch,	Milch,
-Brot.	Brot.
+Brot...	Brot...
 
 Aber	Aber
 wenn	wenn
@@ -22633,8 +22653,8 @@ Brief	Brief
 in	in
 der	der
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 gelesen.	gelesen.
 
 Ich	Ich
@@ -22746,6 +22766,7 @@ verwenden	verwenden
 müssen:	müssen:
 z.	z.
 B.	B.
+
 wir	wir
 können	können
 ihn	ihn
@@ -23231,7 +23252,7 @@ gekauft.	gekauft.
 Bis	Bis
 jetzt	jetzt
 alles	alles
-ok.	.k.
+ok.	.k..
 
 Sie	Sie
 hat	hat
@@ -23859,7 +23880,7 @@ Realfreunde	Realfreunde
 ins	ins
 Kino,	Kino,
 zu	zu
-spazieren.	spazieren.
+spazieren...	spazieren...
 was	was
 du	du
 willst.	willst.
@@ -24054,7 +24075,7 @@ nicht	nicht
 so	so
 ist.	ist.
 
-Z.B:	Z.B.:
+Z.B:	z.B.:
 du	du
 chattest	chattest
 mit	mit
@@ -24237,7 +24258,7 @@ so	so
 wie	wie
 Milch,	Milch,
 Brot,	Brot,
-Getranke.	Getränke.
+Getranke...	Getränke...
 
 Am	Am
 Ende	Ende
@@ -24371,8 +24392,8 @@ auch	auch
 ein	ein
 Stolker	Stalker
 sein.	sein.
-
-"Reden"	"Reden"
+"	"
+Reden"	Reden"
 ist	ist
 immer	immer
 besser	besser
@@ -24626,7 +24647,25 @@ wir	wir
 konnen	können
 viele	viele
 Sache	Sache
-sagen.	sagen.
+sagen...	sagen...
+
+Im	Im
+21	21.
+Jahrhundert	Jahrhundert
+utilisieren	utilisieren
+menschen	Menschen
+Internet	Internet
+zu	zu
+viel,	viel,
+ich	ich
+habe	habe
+auch	auch
+einige	einige
+Freunde	Freunde
+dauf	auf
+Sozial	Social
+Network	Network
+haben.	haben.
 
 Liebe	Liebe
 Francesca,	Francesca,
@@ -24900,8 +24939,9 @@ bleiben	bleiben
 und	und
 mit	mit
 ein	ein
-Computer	Computer
-reden	reden
+"Computer	"Computer
+reden".	reden".
+
 Es	Es
 ist	ist
 sehr	sehr
@@ -25103,7 +25143,7 @@ Gemüse	Gemüse
 für	für
 morgen.	morgen.
 
-Bis	Bis
+"Bis	"Bis
 vor	vor
 einigen	einigen
 Monaten	Monaten
@@ -25113,7 +25153,7 @@ gechattet,	gechattet,
 um	um
 neue	neue
 Leute	Leute
-kennenzulernen	kennenzulernen
+kennenzulernen".	kennenzulernen".
 
 Ist	Ist
 es	es
@@ -25300,31 +25340,43 @@ nach	nach
 circa	circa
 30	30
 min.	Min.
-sind	sind
-ich	ich
-mit	mit
-die	die
-Polizei	Polizei
-beim	beim
-den	den
-obsthändler	Obsthändler
-gegangen	gegangen
-und	und
-die	die
-Frau	Frau
-an	an
-der	der
-Kasse	Kasse
-hat	hat
-mir	mir
-angeseht.	angeseht.
+sind	
+ich	
+mit	
+die	
+Polizei	
+beim	
+den	
+obsthändler	
+gegangen	
+und	
+die	
+Frau	
+an	
+der	
+Kasse	
+hat	
+mir	
+angeseht.	
 
-Die	Die
-Polizei	Polizei
-hat	hat
-mir	mir
-so	so
-gelassen.	gelassen.
+Die	sind
+Polizei	ich
+hat	mit
+mir	die
+so	Polizei
+gelassen.	beim
+	den
+	Obsthändler
+	gegangen
+	und
+	die
+	Frau
+	an
+	der
+	Kasse
+	hat
+	mir
+	angeseht.
 
 wie	wie
 geht's	geht's
@@ -25334,7 +25386,7 @@ dir?	dir?
 Mir	Mir
 nicht	nicht
 so	so
-gut.	gut.
+gut...	gut...
 hier	hier
 gab	gab
 es	es
@@ -26671,8 +26723,8 @@ Brief	Brief
 über	über
 die	die
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 gelesen	gelesen
 und	und
 habe	habe
@@ -27626,6 +27678,7 @@ ist	ist
 50	50
 Jahre	Jahre
 alt.	alt.
+
 und	und
 hat	hat
 vielleicht	vielleicht
@@ -28232,8 +28285,8 @@ Eintrag	Eintrag
 in	in
 der	der
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 gelesen	gelesen
 und	und
 habe	habe
@@ -28459,12 +28512,12 @@ Anmeldung,	Anmeldung,
 in	in
 der	der
 Rubrik	Rubrik
-Persönliche	Persönliche
-Briefe	Briefe
+"Persönliche	"Persönliche
+Briefe"	Briefe"
 der	der
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 gelesen.	gelesen.
 
 Ich	Ich
@@ -29875,7 +29928,7 @@ eine	eine
 Frau	Frau
 gedacht,	gedacht,
 dass	dass
-Maria.	Maria.
+Maria........	Maria........
 
 Paul	Paul
 wenn	wenn
@@ -30039,7 +30092,7 @@ aber	aber
 jetzt	jetzt
 ist	ist
 alles	alles
-OK.	.K.
+OK.	.K..
 
 Wenn	Wenn
 di	die
@@ -30940,7 +30993,7 @@ dir?	dir?
 
 Mir	Mir
 schon	schon
-gut.	gut.
+gut...	gut...
 
 So	So
 ich	ich
@@ -31939,6 +31992,11 @@ ist	ist
 nich	nicht
 alle.	alle.
 
+Bozen,	Bozen,
+27	27.
+März	März
+2015	2015
+
 Wie	Wie
 geht	geht
 es	es
@@ -32061,6 +32119,11 @@ schon	schon
 uns	uns
 treffen.	treffen.
 
+Bozen,	Bozen,
+27	27.
+März	März
+2015	2015
+
 Wie	Wie
 geht	geht
 es	es
@@ -32121,6 +32184,11 @@ die	die
 besten	besten
 Wecken	Wecken
 machen.	machen.
+
+Bozen,	Bozen,
+27.	27.
+März	März
+2015	2015
 
 wie	wie
 geht's	geht's
@@ -32236,6 +32304,11 @@ Viele	Viele
 Küssen,	Küssen,
 bis	bis
 bald.	bald.
+
+Bozen,	Bozen,
+27.	27.
+März	März
+2015	2015
 
 in	in
 diesem	diesem
@@ -32495,6 +32568,11 @@ oder	oder
 club	Club
 besuchen.	besuchen.
 
+Bozen,	Bozen,
+27	27.
+März	März
+2015	2015
+
 Diese	Diese
 ist	ist
 eine	eine
@@ -32508,6 +32586,11 @@ dich	dich
 und	und
 deine	deine
 Familie.	Familie.
+
+Bozen,	Bozen,
+27	27.
+März	März
+2015	2015
 
 Wie	wie
 geht's	geht's
@@ -32689,6 +32772,11 @@ in	in
 ein	ein
 Ort.	Ort.
 
+Bozen,	Bozen,
+27	27.
+März	März
+2015	2015
+
 Die	Die
 Käuferin	Käuferin
 werft	werft
@@ -32718,6 +32806,11 @@ Viele	Viele
 Küssen,	Küssen,
 bis	bis
 bald	bald
+
+Bozen	Bozen
+26	26.
+März	März
+2015	2015
 
 Wie	Wie
 geht	geht
@@ -34528,6 +34621,7 @@ ging	ging
 sie	sie
 zur	zur
 Kasse.	Kasse.
+
 um	um
 es	es
 zu	zu
@@ -34715,22 +34809,23 @@ dir?	dir?
 In	In
 der	der
 Rubrik	Rubrik
-Persönliche	Persönliche
-Briefe	Briefe
+"Persönliche	"Persönliche
+Briefe"	Briefe"
 der	der
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 habe	habe
 ich	ich
 dein	dein
 Brief	Brief
 gelesen.	gelesen.
-
+"	"
 Probleme	Probleme
 mit	mit
 dem	dem
-Chatten	Chatten
+Chatten".	Chatten".
+
 Ich	Ich
 denke,	denke,
 dass	dass
@@ -35022,7 +35117,7 @@ hat,	hat,
 aber	aber
 Maria	Maria
 sagte:	sagte:
-Nein!	Nein!
+"Nein!	"Nein!
 
 Das	Das
 habe	habe
@@ -35031,7 +35126,7 @@ beim	beim
 Obst	Obst
 &	&
 Gemüse	Gemüse
-gekauft!!,	gekauft!!,
+gekauft!!",	gekauft!!",
 die	die
 Frau	Frau
 antwortete:	antwortete:
@@ -35043,6 +35138,7 @@ der	der
 Kassenzettel	Kassenzettel
 sehen?",	sehen?",
 Maria:	Maria:
+"	"
 Ja,	Ja,
 warten	warten
 sie	Sie
@@ -35060,7 +35156,7 @@ ich	ich
 dort	dort
 liegen	liegen
 gelassen	gelassen
-habe!,	habe!,
+habe!",	habe!",
 da	da
 ist	ist
 die	die
@@ -35165,11 +35261,12 @@ mit	mit
 deine	deine
 Freunde	Freunde
 drauß	drausgehen.
-gehen.	und
-und	nicht
-nicht	mehr
-mehr	stritten.
-stritten.	
+gehen.	
+
+und	und
+nicht	nicht
+mehr	mehr
+stritten.	stritten.
 
 Ich	Ich
 verstehe	verstehe
@@ -35208,7 +35305,7 @@ Bar	Bar
 gehst	gehst
 oder	oder
 beim	beim
-Diskotek.	Diskothek.
+Diskotek...	Diskothek...
 was	was
 denkst	denkst
 du?	du?
@@ -35451,10 +35548,10 @@ der	der
 Zeitung	Zeitung
 den	den
 Artikel	Artikel
-Probleme	Probleme
+"Probleme	"Probleme
 mit	mit
 dem	dem
-Chatten	Chatten
+Chatten"	Chatten"
 gelesen.	gelesen.
 
 Ich	Ich
@@ -36422,7 +36519,7 @@ sie	sie
 in	in
 der	der
 Hand	Hand
-hatte.	hatte.
+hatte...	hatte...
 
 Den	Den
 Kassenzettel,	Kassenzettel,
@@ -36926,12 +37023,12 @@ habe	habe
 in	in
 der	der
 Rubrik	Rubrik
-Persönliche	Persönliche
-Briefe	Briefe
+"Persönliche	"Persönliche
+Briefe"	Briefe"
 der	der
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 seinen	seinen
 Brief	Brief
 gelesen.	gelesen.
@@ -36981,10 +37078,10 @@ glaube	glaube
 du	du
 hast	hast
 nie	nie
-Catfish	Catfish
+"Catfish	"Catfish
 -	-
 False	False
-identita	identita
+identita"	identita"
 gesehen.	gesehen.
 
 Dort	Dort
@@ -38317,8 +38414,8 @@ holen.	holen.
 In	in
 der	der
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 habe	habe
 ich	ich
 deinen	deinen
@@ -38839,6 +38936,7 @@ zum	zum
 Obst	Obst
 -	-
 Gemüseladen.	Gemüseladen.
+
 um	um
 Obst	Obst
 zu	zu
@@ -39719,8 +39817,8 @@ Anzeige	Anzeige
 in	in
 der	der
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 gelesen.	gelesen.
 
 Ich	Ich
@@ -40321,7 +40419,7 @@ Wahre	Ware
 an	an
 der	der
 Kasse	Kasse
-reinspaziert.	reinspaziert.
+reinspaziert...	reinspaziert...
 es	es
 war	war
 ja	ja
@@ -40336,7 +40434,7 @@ einen	einen
 anderen	anderen
 Laden	Laden
 gekauft	gekauft
-hatte.	hatte.
+hatte...	hatte...
 aber	aber
 nein,	nein,
 sie	sie
@@ -40378,7 +40476,7 @@ blöd,	blöd,
 was	was
 da	da
 so	so
-passiert.	passiert.
+passiert...	passiert...
 
 Jetzt	Jetzt
 muss	muss
@@ -40398,8 +40496,8 @@ Brief	Brief
 in	in
 der	der
 Rubrik	Rubrik
-Persönliche	Persönliche
-Briefe	Briefe
+"Persönliche	"Persönliche
+Briefe"	Briefe"
 gelesen	gelesen
 und	und
 habe	habe
@@ -40526,7 +40624,7 @@ Rat:	Rat:
 lösch	Lösch
 deine	deine
 ganzen	ganzen
-Freundschaften	Freundschaften
+"Freundschaften"	"Freundschaften"
 nicht	nicht
 komplett	komplett
 ab,	ab,
@@ -41104,13 +41202,13 @@ Brief	Brief
 in	in
 der	der
 Rubrik	Rubrik
-Persönliche	Persönliche
-Briefe	Briefe
+"Persönliche	"Persönliche
+Briefe"	Briefe"
 in	in
 der	der
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 gelesen.	gelesen.
 
 Ich	Ich
@@ -41691,7 +41789,8 @@ besser	besser
 sein	sein
 als	als
 die	die
-Chat-Freunde	Chatfreunde
+"Chat-Freunde".	"Chatfreunde".
+
 Ich	Ich
 hoffe	hoffe
 ich	ich
@@ -41810,6 +41909,7 @@ geglaubt.	geglaubt.
 Edlich	Edlich
 musste	musste
 Maria.	Maria.
+
 alles	alles
 nocheinmal	noch
 bezahlen.	einmal
@@ -41854,13 +41954,13 @@ habe	habe
 in	in
 der	der
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 in	in
 der	der
 Rubrik	Rubrik
-Persönliche	Persönliche
-Briefe	Briefe
+"Persönliche	"Persönliche
+Briefe"	Briefe"
 dein	dein
 Brief	Brief
 gelesen.	gelesen.
@@ -41922,96 +42022,115 @@ deiner	deiner
 Freizeit	Freizeit
 machen,	machen,
 wie	wie
-z.b.	z.
+z.B.	z.
 ins	B.
-Kino	ins
-gehen.	Kino
-	gehen.
+Kino	
+gehen.	
 
-Es	Es
-ist	ist
-auch	auch
-wichtig,	wichtig,
-dass	dass
-wenn	wenn
-du	du
-Hilfe	Hilfe
-brauchst	brauchst
-kannst	kannst
-du	du
-jemand	jemand
-anrufen.	anrufen.
+Es	ins
+ist	Kino
+auch	gehen.
+wichtig,	
+dass	
+wenn	
+du	
+Hilfe	
+brauchst	
+kannst	
+du	
+jemand	
+anrufen.	
+
+Ich	Es
+will	ist
+dir	auch
+einen	wichtig,
+Rat	dass
+geben:	wenn
+erhaltest	du
+du	Hilfe
+noch	brauchst
+Kontakte	kannst
+mit	du
+deinen	jemand
+virtuelle	anrufen.
+Freunden	
+aber	
+probierst	
+du	
+auch	
+wahre	
+Freunde	
+haben.	
 
 Ich	Ich
-will	will
-dir	dir
-einen	einen
-Rat	Rat
-geben:	geben:
-erhaltest	erhaltest
-du	du
-noch	noch
-Kontakte	Kontakte
-mit	mit
-deinen	deinen
-virtuelle	virtuelle
-Freunden	Freunden
-aber	aber
-probierst	probierst
-du	du
-auch	auch
-wahre	wahre
-Freunde	Freunde
-haben.	haben.
+hatte	will
+auch	dir
+eine	einen
+Erfahrung	Rat
+mit	geben:
+dem	erhaltest
+Internet	du
+gehabt.	noch
+	Kontakte
+	mit
+	deinen
+	virtuelle
+	Freunden
+	aber
+	probierst
+	du
+	auch
+	wahre
+	Freunde
+	haben.
 
 Ich	Ich
 hatte	hatte
 auch	auch
-eine	eine
-Erfahrung	Erfahrung
-mit	mit
-dem	dem
-Internet	Internet
-gehabt.	gehabt.
+virtuelle	eine
+Freunde	Erfahrung
+gehabt	mit
+und	dem
+ich	Internet
+habe	gehabt.
+noch	
+heute	
+mit	
+ihr	
+Kontakte.	
 
-Ich	Ich
-hatte	hatte
+Sie	Ich
+haben	hatte
 auch	auch
-virtuelle	virtuelle
-Freunde	Freunde
-gehabt	gehabt
-und	und
-ich	ich
-habe	habe
-noch	noch
-heute	heute
-mit	mit
-ihr	ihr
-Kontakte.	Kontakte.
+mir	virtuelle
+manchmal	Freunde
+geholfen.	gehabt
+	und
+	ich
+	habe
+	noch
+	heute
+	mit
+	ihr
+	Kontakte.
 
-Sie	Sie
-haben	haben
-auch	auch
-mir	mir
-manchmal	manchmal
-geholfen.	geholfen.
+Glücklich	Sie
+habe	haben
+ich	auch
+immer	mir
+wahre	manchmal
+Freunde	geholfen.
+gehabt.	
 
-Glücklich	Glücklich
-habe	habe
-ich	ich
-immer	immer
-wahre	wahre
-Freunde	Freunde
-gehabt.	gehabt.
-
-Ich	Ich
-hoffe,	hoffe,
-dass	dass
-du	du
-deine	deine
-Problemen	Problemen
-lösen	lösen
-würdest.	würdest.
+Ich	Glücklich
+hoffe,	habe
+dass	ich
+du	immer
+deine	wahre
+Problemen	Freunde
+lösen	gehabt.
+würdest.	
 
 Schreib	Schreib
 mir	mir
@@ -42042,8 +42161,8 @@ Brief	Brief
 in	in
 der	der
 Rubrik	Rubrik
-Persönliche	Persönliche
-Briefe	Briefe
+"Persönliche	"Persönliche
+Briefe"	Briefe"
 in	in
 den	den
 Zeitung	Zeitung
@@ -42653,7 +42772,7 @@ denke	denke
 dass	dass
 du	du
 aufpassen	aufpassen
-musst.	musst.
+musst......	musst......
 
 Es	Es
 ist	ist
@@ -42889,10 +43008,10 @@ hatte.	hatte.
 
 Maria	Maria
 antwortete:	antwortete:
-Nein,	Nein,
+"Nein,	"Nein,
 im	im
 anderen	anderen
-Laden.	Laden.
+Laden."	Laden."
 
 Aber	Aber
 die	die
@@ -43498,13 +43617,12 @@ Komnese	Commessa
 hat	hat
 sie	sie
 gefragt:	gefragt:
-Wo	Wo
+"Wo	"Wo
 hast	hast
 du	du
 diese	diese
 sachen	Sachen
-gekauft?	gekauft?
-
+gekauft?"	gekauft?"
 Maria	Maria
 hat	hat
 sie	sie
@@ -44670,6 +44788,10 @@ Mit	Mit
 freundliche	freundliche
 Grüßen,	Grüßen,
 
+Dr.	Dr.
+Herbert	Herbert
+Weisswasser.	Weisswasser.
+
 gestern	gestern
 war	war
 ich	ich
@@ -45046,13 +45168,13 @@ in	in
 der	der
 gestrigen	gestrigen
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 in	in
 der	der
 Rubrik	Rubrik
-Persönliche	Persönliche
-Briefe	Briefe
+"Persönliche	"Persönliche
+Briefe"	Briefe"
 gelesen.	gelesen.
 
 Ich	Ich
@@ -45456,7 +45578,7 @@ der	der
 beste	beste
 Teil	Teil
 kommt	kommt
-noch.	noch.
+noch...	noch...
 
 Als	Als
 Maria	Maria
@@ -45481,7 +45603,7 @@ befand.	befand.
 
 Sie	Sie
 antwortete:	antwortete:
-Ich	Ich
+"Ich	"Ich
 habe	habe
 diese	diese
 Lebensmittel	Lebensmittel
@@ -45489,12 +45611,11 @@ im	im
 Obst-	Obst-
 und	und
 Gemüseladen	Gemüseladen
-gekauft.	gekauft.
-
+gekauft."	gekauft."
 Darauf	Darauf
 antwortete	antwortete
 sie:	sie:
-Du	Du
+"Du	"Du
 hast	hast
 diese	diese
 Sachen	Sachen
@@ -45506,13 +45627,12 @@ nur	nur
 die	die
 halben	halben
 Sachen	Sachen
-bezahlen.	bezahlen.
-
+bezahlen."	bezahlen."
+"	"
 Nein,	Nein,
 schrie	schrie
 Maria	Maria
-laut.	laut.
-
+laut."	laut."
 Die	Die
 Kassiererin	Kassiererin
 wollte	wollte
@@ -45616,8 +45736,8 @@ habe	habe
 in	in
 der	der
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 dein	dein
 Brief	Brief
 gelesen	gelesen
@@ -46400,6 +46520,7 @@ wirkliche	wirkliche
 Freunden	Freunden
 zu	zu
 kennenlernen.	kennenlernen.
+
 als	als
 virtuellen	virtuellen
 Freunden.	Freunden.
@@ -46556,13 +46677,12 @@ vergaß	vergaß
 den	den
 Einkaufszettel	Einkaufszettel
 mitzunehmen!	mitzunehmen!
-
+"	"
 So	So
 schlimm	schlimm
 ist	ist
 es	es
-nicht	nicht
-,	,
+nicht",	nicht",
 dachte	dachte
 sie,	sie,
 was	was
@@ -46746,8 +46866,8 @@ gestern	gestern
 in	in
 der	der
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 ihren	Ihren
 Brief	Brief
 gelesen	gelesen
@@ -47222,9 +47342,8 @@ An	An
 die	die
 Redaktion	Redaktion
 der	der
-Junge	Junge
-Woche	Woche
-,	,
+"Junge	"Junge
+Woche",	Woche",
 
 Antwort	Antwort
 zum	zum
@@ -47602,9 +47721,8 @@ ist	ist
 die	die
 Radaktion	Radaktion
 von	von
-Junge	Junge
-Woche	Woche
-,	,
+"Junge	"Junge
+Woche",	Woche",
 die	die
 dir	dir
 schreibt.	schreibt.
@@ -47749,9 +47867,9 @@ deine	deine
 virtuelle	virtuelle
 Freunde	Freunde
 schreiben.	schreiben.
-
+"	"
 Junge	Junge
-Woche	Woche
+Woche"	Woche"
 hofft,	hofft,
 dass	dass
 er	er
@@ -47872,9 +47990,7 @@ kennengelern.	kennengelern.
 Er	Er
 war	war
 schön,	schön,
-freundlich,.	freundlich,.
-
-,	,
+freundlich,...,	freundlich,...,
 und	und
 wir	wir
 haben	haben
@@ -47946,7 +48062,7 @@ möchtest,	möchtest,
 kannst	kannst
 du	du
 mir	mir
-schreiben.	schreiben.
+schreiben...	schreiben...
 
 Aber	Aber
 bitte,	bitte,
@@ -48241,7 +48357,7 @@ Problem	Problem
 gelesen,	gelesen,
 reale	reale
 und	und
-"Internet"	Internetfreunde
+"Internet"	"Internetfreunde"
 Freunde	zu
 zu	haben,
 haben,	aus
@@ -48877,8 +48993,8 @@ Leben!	Leben!
 
 Der	Der
 Rubrik	Rubrik
-Persönliche	Persönliche
-Briefe	Briefe
+"Persönliche	"Persönliche
+Briefe"	Briefe"
 
 wie	wie
 geht	geht
@@ -49081,8 +49197,8 @@ Brief	Brief
 in	in
 der	der
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 gelesen,	gelesen,
 und	und
 möchte	möchte
@@ -49955,8 +50071,8 @@ Briefe	Briefe
 in	in
 der	der
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 gelesen.	gelesen.
 
 Ich	Ich
@@ -49971,7 +50087,7 @@ weil	weil
 Sie	sie
 in	in
 realität	Realität
-virtuelle	virtuelle
+"virtuelle"	"virtuelle"
 sind.	sind.
 
 Auch	Auch
@@ -50000,12 +50116,12 @@ Na	Na
 ja,	ja,
 du	du
 konntest;	konntest;
-im	im
+"im	"im
 Internet	Internet
 habe	habe
 ich	ich
 viele	viele
-Freunde	Freunde
+Freunde"	Freunde"
 sagen,	sagen,
 aber	aber
 es	es
@@ -50993,7 +51109,7 @@ dass	dass
 das	das
 nicht	nicht
 wieder	wieder
-passiert.	passiert.
+passiert...	passiert...
 
 Wann	Wann
 treffen	treffen
@@ -51407,7 +51523,7 @@ dir?	dir?
 Mir	Mir
 geht	geht
 es	es
-super.	super.
+super...	super...
 
 Wie	Wie
 geht	geht
@@ -51655,7 +51771,7 @@ dass	dass
 meine	meine
 Ratschläge	Ratschläge
 hilfreich	hilfreich
-waren.	waren.
+waren...	waren...
 
 Schreib	Schreib
 mir	mir
@@ -51948,7 +52064,7 @@ bringen.	bringen.
 
 Es	Es
 ist	ist
-komisch.	komisch.
+komisch...	komisch...
 findest	findest
 du	du
 auch?	auch?
@@ -52794,7 +52910,7 @@ fragte:	fragte:
 Und	Und
 diese	diese
 Tasche?	Tasche?
-.	.
+".	".
 
 Maria	Maria
 antwortet	antwortet
@@ -52821,7 +52937,7 @@ hat.	hat.
 
 Maria	Maria
 antwortet:	antwortet:
-Nein,	Nein,
+"Nein,	"Nein,
 ich	ich
 habe	habe
 ihn	ihn
@@ -53324,6 +53440,7 @@ ist	ist
 ein	ein
 großes	großes
 Problem.	Problem.
+
 weil	weil
 es	es
 gibt	gibt
@@ -53405,7 +53522,7 @@ sehr	sehr
 gut	gut
 um	um
 zu	zu
-kochen.	kochen.
+kochen...	kochen...
 aber	aber
 sie	sie
 hat	hat
@@ -54170,18 +54287,17 @@ hat,	hat,
 fragte	fragte
 die	die
 Kasserin:	Kassiererin:
-Und	Und
+"Und	"Und
 diese	diese
-Tasche?	Tasche?
-
+Tasche?".	Tasche?".
+"	"
 Ich	Ich
 habe	habe
 in	in
 einem	einem
 andere	andere
 Markt	Markt
-gekauft	gekauft
-,	,
+gekauft",	gekauft",
 antwortet	antwortet
 Maria.	Maria.
 
@@ -54465,7 +54581,7 @@ Salat,	Salat,
 Äpfel,	Äpfel,
 Bananen,	Bananen,
 Orangen,	Orangen,
-ecc.	etc..
+ecc....	etc....
 
 Eine	Eine
 Stunde	Stunde
@@ -54500,8 +54616,8 @@ Brief	Brief
 auf	auf
 dem	dem
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche".	Woche".
 
 Ich	Ich
 denke,	denke,
@@ -55300,7 +55416,7 @@ ist	ist
 wieder	wieder
 mit	mit
 deinem	deinem
-Ex-Freunden	Ex-Freunden
+"Ex-Freunden"	"Ex-Freunden"
 zu	zu
 schreiben	schreiben
 und	und
@@ -56240,8 +56356,8 @@ die	fort,
 Einkäufe	die
 zu	Einkäufe
 erledigen,	zu
-gehen.	erledigen,
-	gehen.
+gehen...	erledigen,
+	gehen...
 
 In	In
 den	den
@@ -58431,12 +58547,12 @@ Meldung	Meldung
 in	in
 der	der
 Rubrik	Rubrik
-Persönliche	Persönliche
-Briefe	Briefe
+"Persönliche	"Persönliche
+Briefe"	Briefe"
 der	der
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 gelesen	gelesen
 und	und
 wollte	wollte
@@ -59145,8 +59261,8 @@ gestern	gestern
 auf	auf
 der	der
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 in	in
 der	der
 Rubrik	Rubrik
@@ -59483,8 +59599,8 @@ Brief	Brief
 in	in
 der	der
 Rubrik	Rubrik
-Persönliche	Persönliche
-Briefe	Briefe
+"Persönliche	"Persönliche
+Briefe"	Briefe"
 gelesen.	gelesen.
 
 Ich	Ich
@@ -59512,7 +59628,7 @@ in	in
 die	die
 Disco	Disco
 gehen,	gehen,
-sprechen.	sprechen.
+sprechen...	sprechen...
 
 Virtuelle	Virtuelle
 Freundschaften	Freundschaften
@@ -59656,13 +59772,13 @@ Kasse	Kasse
 war	war
 sagte	sagte
 Maria:	Maria:
-Was	Was
+"Was	"Was
 ist	ist
-das?	das?
+das?".	das?".
 
 Maria	Maria
 antwortete:	antwortete:
-Obst	Obst
+"Obst	"Obst
 und	und
 Gemüse.	Gemüse.
 
@@ -59670,8 +59786,7 @@ Ich	Ich
 habe	habe
 sie	sie
 fruher	früher
-eingekauft!	eingekauft!
-
+eingekauft!"	eingekauft!"
 Konnten	Konnten
 sie	Sie
 bitte	bitte
@@ -59758,12 +59873,12 @@ Brief	Brief
 in	in
 der	der
 Rubrik	Rubrik
-Persönliche	Persönliche
-Briefe	Briefe
+"Persönliche	"Persönliche
+Briefe"	Briefe"
 der	der
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 gelesen	gelesen
 und	und
 ich	ich
@@ -60061,12 +60176,12 @@ du	du
 für	für
 die	die
 Rubrik	Rubrik
-Persönliche	Persönliche
-Briefe	Briefe
+"Persönliche	"Persönliche
+Briefe"	Briefe"
 der	der
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 geschrieben	geschrieben
 hast.	hast.
 
@@ -60441,6 +60556,11 @@ Was	Was
 denkst	denkst
 du?	du?
 
+Bozen,	Bozen,
+01.	01.
+April	April
+2015	2015
+
 virtuelle	virtuelle
 Freundschaften	Freundschaften
 sind	sind
@@ -60724,12 +60844,12 @@ habe	habe
 in	in
 der	der
 Rubrik	Rubrik
-Persönliche	Persönliche
-Briefe	Briefe
+"Persönliche	"Persönliche
+Briefe"	Briefe"
 der	der
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 ihren	Ihren
 Brief	Brief
 gelesen.	gelesen.
@@ -61104,6 +61224,7 @@ hat?	hat?
 Etwas	Etwas
 vierklich	wirklich
 Spannendes!	Spannendes!
+
 iIch	ich
 möchte	möchte
 es	es
@@ -61187,12 +61308,13 @@ Brief	Brief
 in	in
 der	der
 Rubrik	Rubrik
-Persönliche	Persönliche
-Briefe	Briefe
+"Persönliche	"Persönliche
+Briefe"	Briefe"
 der	der
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche".	Woche".
+
 Ich	Ich
 wollte	wollte
 ihnen	Ihnen
@@ -61418,15 +61540,15 @@ habe	habe
 deinen	deinen
 Brief	Brief
 über	über
-Probleme	Probleme
+"Probleme	"Probleme
 mit	mit
 dem	dem
-Chatten	Chatten
+Chatten"	Chatten"
 in	in
 der	der
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 gelesen	gelesen
 und	und
 ich	ich
@@ -62658,8 +62780,8 @@ Brief	Brief
 in	in
 der	der
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 gelesen.	gelesen.
 
 Meine	Meine
@@ -63714,8 +63836,8 @@ ich	ich
 heute	heute
 diese	diese
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 gekauft	gekauft
 und	und
 bin	bin
@@ -64117,8 +64239,8 @@ muss	muss
 von	von
 alles	alles
 approfitieren.	approfitieren.
-
-"Carpe	"Carpe
+"	"
+Carpe	Carpe
 diem"	diem"
 Paul!	Paul!
 
@@ -64350,6 +64472,7 @@ Jahre	Jahre
 ein	ein
 Buben	Buben
 kennengelernt.	kennengelernt.
+
 hatte	hatte
 deine	deine
 eigene	eigene
@@ -64732,6 +64855,8 @@ Grüßen	Grüßen
 Freitag,	Freitag,
 den	den
 27.	27.
+März	März
+2015	2015
 
 letzte	letzte
 Woche	Woche
@@ -64770,7 +64895,7 @@ ist.	ist.
 Vielleicht	Vielleicht
 kennst	kennst
 du	du
-sie.	sie.
+sie...	sie...
 
 Jetzt	Jetzt
 erzähle	erzähle
@@ -64868,7 +64993,7 @@ muss.	muss.
 Jetzt	Jetzt
 kommt	kommt
 das	das
-Problem.	Problem.
+Problem...	Problem...
 
 Sie	Sie
 hat	hat
@@ -64910,6 +65035,8 @@ Antwort,	Antwort,
 Freitag,	Freitag,
 den	den
 27.	27.
+März	März
+2015	2015
 
 Ich	ich
 habe	habe
@@ -65234,8 +65361,8 @@ Brief	Brief
 in	in
 der	der
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 gelesen,	gelesen,
 und	und
 ich	ich
@@ -65726,6 +65853,11 @@ neue	neue
 Freunde	Freunde
 machen.	machen.
 
+Montag,	Montag,
+8.	8.
+Dezember	Dezember
+2014	2014
+
 wie	wie
 geht	geht
 es	es
@@ -65995,7 +66127,7 @@ ist	ist
 eine	eine
 sehr	sehr
 wichtige	wichtige
-Lehre.	Lehre.
+Lehre...	Lehre...
 man	man
 muss	muss
 immer	immer
@@ -66049,6 +66181,7 @@ ich	ich
 wollte	wollte
 Ihen	Ihnen
 antworten.	antworten.
+
 kann	kann
 ich	ich
 Ihnen	Ihnen
@@ -67238,12 +67371,12 @@ habe	habe
 in	in
 der	der
 Rubrik	Rubrik
-Persönliche	Persönliche
-Briefe	Briefe
+"Persönliche	"Persönliche
+Briefe"	Briefe"
 der	der
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 deinen	deinen
 Brief	Brief
 gelesen.	gelesen.
@@ -67726,6 +67859,8 @@ Grüßen	Grüßen
 Bozen,	Bozen,
 den	den
 27.	27.
+März	März
+2015	2015
 
 BETREFF:	Betreff:
 Maria	Maria
@@ -67920,6 +68055,8 @@ Abenteuer!	Abenteuer!
 Bozen,	Bozen,
 den	den
 27.	27.
+März	März
+2015	2015
 
 BETREFF:	Betreff:
 Sei	Sei
@@ -68976,8 +69113,8 @@ mein	mein
 "Smatphone",	"Smatphone",
 habe	habe
 ich	ich
-Social	Social
-Networks	Networks
+"Social	"Social
+Networks"	Networks"
 wie	wie
 Facebook,	Facebook,
 Tumber	Tumber
@@ -69062,7 +69199,7 @@ nicht	nicht
 mehr	mehr
 ihnen	ihnen
 schreibst,	schreibst,
-ecc.	etc..
+ecc...	etc....
 
 Zum	Zum
 Beispiel	Beispiel
@@ -69410,8 +69547,8 @@ Liebe	Liebe
 Freundin,	Freundin,
 Bozen,	Bozen,
 27	27.
-März	
-2015	
+März	März
+2015	2015
 
 ich	ich
 will	will
@@ -69554,8 +69691,8 @@ Lieber	Lieber
 Paul,	Paul,
 Bozen	Bozen
 27	27.
-März	
-2015	
+März	März
+2015	2015
 
 ich	ich
 habe	habe
@@ -69564,13 +69701,13 @@ Brief	Brief
 in	in
 der	der
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 in	in
 der	der
 Rubrik	Rubrik
-Persönliche	Persönliche
-Briefe	Briefe
+"Persönliche	"Persönliche
+Briefe"	Briefe"
 gelesen,	gelesen,
 und	und
 ich	ich
@@ -69988,8 +70125,9 @@ eine	eine
 schlechte	schlechte
 Erfahrung	Erfahrung
 mit	mit
-Social	Social
-Network	Network
+"Social	"Social
+Network".	Network".
+
 Viele	Viele
 Menschen	Menschen
 von	von
@@ -70578,8 +70716,7 @@ zu	zu
 geben	geben
 -	-
 Adresse,	Adresse,
-Telefonnummer,.	Telefonnummer,.
-
+Telefonnummer,...	Telefonnummer,...
 -	-
 oder	oder
 auch	auch
@@ -70602,7 +70739,7 @@ Serie	Serie
 im	im
 Fernsehen	Fernsehen
 die	die
-Catfish	Catfish
+"Catfish"	"Catfish"
 heißt.	heißt.
 
 Dort	Dort
@@ -70731,7 +70868,7 @@ ich	ich
 glaube,	glaube,
 dass	dass
 du	du
-wahre	wahre
+"wahre"	"wahre"
 Freundschaften	Freundschaften
 brauchst.	brauchst.
 
@@ -70884,7 +71021,6 @@ ins	ins
 Studio	Studio
 seit	seit
 2004.	2004.
-
 Sie	Sie
 konnte	konnte
 aber	aber
@@ -70925,8 +71061,8 @@ bin	bin
 Martina,	Martina,
 der	der
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 und	und
 habe	habe
 deine	deine
@@ -71017,7 +71153,7 @@ Martina	Martina
 wie	wie
 geht	geht
 es	es
-dir?.	dir?.
+dir?...	dir?...
 
 Du	Du
 wirdst	wirdst
@@ -72024,7 +72160,7 @@ dir?	dir?
 
 Ich	Ich
 hoffe	hoffe
-gut.	gut.
+gut...	gut...
 
 Erinnerst	Erinnerst
 du	du
@@ -72162,8 +72298,8 @@ Brief	Brief
 auf	auf
 der	der
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 gelesen	gelesen
 habe.	habe.
 
@@ -72185,7 +72321,7 @@ Erfahrung	Erfahrung
 mit	mit
 dem	dem
 Internet	Internet
-teilen.	teilen.
+teilen...	teilen...
 
 Ich	Ich
 habe	habe
@@ -72301,7 +72437,7 @@ weil	weil
 Sie	Sie
 noch	noch
 Freunden	Freunden
-sind.	sind.
+sind...	sind...
 
 Ich	Ich
 hoffe,	hoffe,
@@ -72557,8 +72693,8 @@ die	die
 Meldung	Meldung
 im	im
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 auszudrucken.	auszudrücken.
 
 Heuzutag	Heutzutage
@@ -72582,7 +72718,7 @@ man	man
 heute	heute
 viel	viel
 mehr	mehr
-Freundschaften	Freundschaften
+"Freundschaften"	"Freundschaften"
 dank	dank
 Internet	Internet
 und	und
@@ -73297,7 +73433,7 @@ Maria	Maria
 und	und
 ihr	ihr
 schwaches	schwaches
-Gedächtnis.	Gedächtnis.
+Gedächtnis...	Gedächtnis...
 
 Tja,	Tja,
 gestern	gestern
@@ -74030,8 +74166,8 @@ Sie	Sie
 für	für
 die	die
 Zeitung	Zeitung
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 geschrieben	geschrieben
 hatten.	hatten.
 
@@ -74065,7 +74201,8 @@ lebte	lebte
 nur	nur
 noch	noch
 in	in
-Chatrooms	Chatrooms
+"Chatrooms".	"Chatrooms".
+
 Ich	Ich
 chattete	chattete
 mit	mit
@@ -76494,8 +76631,8 @@ Brief	Brief
 in	in
 der	der
 Rubrik	Rubrik
-Junge	Junge
-Woche	Woche
+"Junge	"Junge
+Woche"	Woche"
 gelesen.	gelesen.
 
 Meine	Meine
@@ -78246,7 +78383,7 @@ ist,	ist,
 kannst	kannst
 du	du
 Maria	Maria
-konktattieren.	konktatieren.
+konktattieren...	konktatieren...
 
 Und	Und
 bei	bei
@@ -78359,7 +78496,7 @@ Ich	Ich
 personlich	persönlich
 habe	habe
 viele	viele
-Facebook-Freunde	Facebook-Freunde
+"Facebook-Freunde"	"Facebook-Freunde"
 dass	dass
 nur	nur
 ein	ein
@@ -79189,7 +79326,7 @@ wollen	wollen
 du	du
 bist	bist
 frei	frei
-am.	am.
+am....	am....
 
 Ich	Ich
 Ppersonlich	persönlich
@@ -80257,6 +80394,7 @@ immer	immer
 alles	alles
 geht	geht
 gut.	gut.
+
 aber	aber
 du	du
 wisst	wisst
