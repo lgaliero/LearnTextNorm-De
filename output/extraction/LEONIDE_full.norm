@@ -134,14 +134,14 @@ reden.	reden.
 Arabisch	Arabisch
 auch	auch
 weil	weil
-im,	im
-Dubai,	Arabien,
-Marocco	Dubai,
-und	Marokko
-Tunesien	und
-geredet	Tunesien
-wird.	geredet
-	wird.
+im	im
+Araben,	Arabien,
+Dubai,	Dubai,
+Marocco	Marokko
+und	und
+Tunesien	Tunesien
+geredet	geredet
+wird.	wird.
 
 Englisch	Englisch
 ist	ist
@@ -4944,7 +4944,8 @@ weil	weil
 das	das
 die	die
 Weld	Weltsprache
-ist.	ist.
+sprache	ist.
+ist.	
 
 ladinisch	Ladinisch
 sollte	sollte
@@ -15064,6 +15065,33 @@ könnte	könnte
 man	man
 machen.	machen.
 
+Meine	Meine
+Meinung	Meinung
+ist	ist
+Ja	Ja
+,	,
+weil	weil
+wenn	wenn
+wir	wir
+nicht	nicht
+ihr	ihr
+Land	Land
+zerstören	zerstören
+oder	oder
+sogar	sogar
+Kriege	Kriege
+führen,	führen,
+dann	dann
+würden	würden
+sie	sie
+ja	ja
+dort	dort
+bleiben	bleiben
+von	von
+wo	wo
+sie	sie
+kommen.	kommen.
+
 Außerdem	Außerdem
 ist	ist
 jeder	jeder
@@ -15157,6 +15185,14 @@ Nahrung	Nahrung
 zum	zum
 Leben	Leben
 brauchen.	brauchen.
+
+ja	ja
+bedeutet	bedeutet
+das	dass
+man	man
+ihnen	ihnen
+helfen	helfen
+sollte.	sollte.
 
 Nein,	Nein,
 die	die
@@ -15867,6 +15903,59 @@ sind	sind
 die	die
 Diktate.	Diktate.
 
+Meine	Meine
+Meinung	Meinung
+nach	nach
+ist	ist
+dass	dass
+ist	ist
+wichtig	wichtig
+dass	dass
+eine	eine
+neue	neue
+Sprache	Sprache
+lernen	lernen
+mussen,	müssen,
+weil,	weil,
+wann	wann
+ich	ich
+diese	diese
+neue	neue
+Sprache	Sprache
+kann,	kann,
+Ich	ich
+kann	kann
+in	in
+zb	z.B.
+England	England
+fahren,	fahren,
+weil	weil
+Ich	ich
+Englisch	Englisch
+gut	gut
+gelernt	gelernt
+habe.	habe.
+
+Wenn	Wenn
+ich	ich
+studiere	studiere
+eine	eine
+neue	neue
+Sprache,	Sprache,
+Ich	ich
+mache	mache
+Hausaufgabe	Hausaufgabe
+und	und
+ich	ich
+spreche	spreche
+sehr	sehr
+viel	viel
+auf	auf
+Deutsch	Deutsch
+mit	mit
+meiner	meiner
+Vater.	Vater.
+
 Oder	Oder
 lese	lese
 ich	ich
@@ -15894,19 +15983,19 @@ mich	mich
 ist	ist
 es	es
 gut	gut
-AUF,	auf
-weil	Deutsch
-muss	sprechen,
-mann	weil
-auch	muss
-auf	man
-Deutsch	auch
-sprechen,	auf
-nur	Deutsch
-immer	sprechen,
-Italienisch.	nur
-	immer
-	Italienisch.
+AUF	auf
+DEUSTSCH	Deutsch
+SPERCHEN,	sprechen,
+weil	weil
+muss	muss
+mann	man
+auch	auch
+auf	auf
+Deutsch	Deutsch
+sprechen,	sprechen,
+nur	nur
+immer	immer
+Italienisch.	Italienisch.
 
 Ich	Ich
 studiere	studiere
@@ -16968,7 +17057,7 @@ alls	alles
 ist	ist
 wichtig	wichtig
 in	in
-	Deutsch
+deutch	Deutsch
 
 Meine	Meine
 strategie	Strategie
@@ -17886,7 +17975,6 @@ Computer	Computer
 und	und
 gehen	gehen
 in	in
-Bibliotek	Bibliothek
 
 lesen	lesen
 100	100
@@ -27466,9 +27554,10 @@ der	der
 ITE	ITE
 und	und
 da	danach
-in	in
-der	der
-Universität.	Universität.
+nach	in
+in	der
+der	Universität.
+Universität.	
 
 Meine	Meine
 Traumberuf	Traumberuf
@@ -27729,16 +27818,17 @@ Und	Und
 wenn	wenn
 ich	ich
 hinaus	hinausgehen
-möchte,	möchte,
-kann	kann
-ich	ich
-das	das
-machen	machen
-ohne	ohne
-die	die
-Zeit	Zeit
-zu	zu
-beachten.	beachten.
+gehen	möchte,
+möchte,	kann
+kann	ich
+ich	das
+das	machen
+machen	ohne
+ohne	die
+die	Zeit
+Zeit	zu
+zu	beachten.
+beachten.	
 
 Und	Und
 das	das
@@ -28159,7 +28249,7 @@ mein	mein
 Vorbild	Vorbild
 Ich	Ich
 muss	muss
-	Basketball
+Basquetball	Basketball
 
 Ich	Ich
 musst	musst
@@ -28357,6 +28447,17 @@ mein	mein
 computer	Computer
 zu	zu
 hause.	Hause.
+
+Ich	Ich
+müss	muss
+können	können
+informatik	Informatik
+und	und
+studieren	studieren
+der	der
+computer	Computer
+component	component
+.	.
 
 Ich	Ich
 gehe	gehe
@@ -30524,6 +30625,14 @@ Je!!!!
 Der	Der
 Kluge	Kluge
 Kind!	Kind!
+
+Ko	Ko
+ers	ers
+Haus	Haus
+var	war
+in	in
+flammen	Flammen
+geraten.	geraten.
 
 Jans	Jans
 Pappa	Papa
@@ -34506,7 +34615,8 @@ Plötzlich	Plötzlich
 sah	sah
 er	er
 sein	sein
-Geometri.	Geometrieheft.
+Geometri	Geometrieheft.
+Heft.	
 
 Er	Er
 wollte	wollte
@@ -37399,7 +37509,7 @@ hous.	Haus.
 ICH	Ich
 SPRECHE	spreche
 NICHT	nicht
-	Deutsch
+DUTSCHE	Deutsch
 
 Es	Es
 war	war
@@ -37738,13 +37848,12 @@ eine	eine
 Hause	Hause
 ist	ist
 eine	eine
-Brand,	Feuerwehr
-die	Brand,
-Vater	die
-und	Vater
-Giacomino	und
-flugzoich.	Giacomino
-	flugzoich.
+Brand,	Brand,
+die	die
+Vater	Vater
+und	und
+Giacomino	Giacomino
+flugzoich.	flugzoich.
 
 Die	Die
 Vater	Vater
@@ -38556,39 +38665,39 @@ weiter	weiter
 und	und
 sahen	sahen
 einen	einen
-Schatten	schwarzen
-und	Schatten
-sie	und
-volkten	sie
-ihm	folgten
-bis	ihm
-zu	bis
-ihrem	zu
-zuhause	ihrem
-und	Zuhause
-dort	und
-war	dort
-ehr	war
-in	er
-einen	in
-schuppen	einen
-rein	Schuppen
-gegangen	rein
-un	gegangen
-Anna	un
-öfnete	Anna
-den	öffnete
-Schuppen	den
-und	Schuppen
-sah	und
-Marko	sah
-der	Marko
-ihnen	der
-einen	ihnen
-Streich	einen
-spielen	Streich
-wolte.	spielen
-	wollte.
+Schwarzen	schwarzen
+Schatten	Schatten
+und	und
+sie	sie
+volkten	folgten
+ihm	ihm
+bis	bis
+zu	zu
+ihrem	ihrem
+zuhause	Zuhause
+und	und
+dort	dort
+war	war
+ehr	er
+in	in
+einen	einen
+schuppen	Schuppen
+rein	rein
+gegangen	gegangen
+un	un
+Anna	Anna
+öfnete	öffnete
+den	den
+Schuppen	Schuppen
+und	und
+sah	sah
+Marko	Marko
+der	der
+ihnen	ihnen
+einen	einen
+Streich	Streich
+spielen	spielen
+wolte.	wollte.
 
 Es	Es
 war	war
@@ -38790,8 +38899,8 @@ Wald	Wald
 wahre	war
 ein	ein
 Eule	Eule
-und.	und
-	Eichhörnchen.
+und	und
+Eichöhorchen.	Eichhörnchen.
 
 Und	Und
 die	die
@@ -40321,11 +40430,12 @@ Mädchen.	Mädchen.
 Sie	Sie
 wollten	wollten
 Weg	wegrennen
-aber	aber
-es	es
-war	war
-zu	zu
-spät.	spät.
+rennen	aber
+aber	es
+es	war
+war	zu
+zu	spät.
+spät.	
 
 Lilly	Lilly
 und	und
@@ -48933,12 +49043,12 @@ andere	andere
 meinte	meinte
 aber:	aber:
 „	„
-uns	lass
-nachschauen	uns
-was	nachschauen
-da	was
-ist.	da
-	ist.
+las	lass
+uns	uns
+nachschauen	nachschauen
+was	was
+da	da
+ist.	ist.
 
 Sie	Sie
 hatten	hatten
@@ -52561,11 +52671,11 @@ Heute.	heute.
 NACH	Nach
 ZWEI	Zwei
 MINUTEN	Minuten
-SICH	verstecken
-MARTA	sich
-UND	Marta
-GIANNIA.	und
-	Giannia.
+FERSTECCEN	verstecken
+SICH	sich
+MARTA	Marta
+UND	und
+GIANNIA.	Giannia.
 
 SIE	Sie
 WOLLE	wolle
@@ -54546,6 +54656,27 @@ Hand	Hand
 und	und
 ging.	ging.
 
+Der	Der
+Zug	Zug
+fing	fing
+an	an
+zu	zu
+fahren	fahren
+er	er
+ging	ging
+immer	immer
+schneller	schneller
+und	und
+immer	immer
+weiter	weiter
+bis	is
+man	man
+nur	nur
+einen	einen
+schwarzen	schwarzen
+Punkt	Punkt
+sieht.	sieht.
+
 Eines	Eines
 Tages	Tages
 musste	musste
@@ -55072,7 +55203,8 @@ das	dass
 der	der
 Vater	Vater
 nicht	nicht
-veg.	weggeht.
+veg	weggeht.
+geht.	
 
 Der	Der
 Vater	Vater
@@ -55674,7 +55806,8 @@ gab	gab
 ihm	ihm
 ihren	ihren
 Papier	Papiervogel
-(origami).	(origami).
+Vogel	(origami).
+(origami).	
 
 Dann	Dann
 grüßte	grüßte
@@ -62315,7 +62448,8 @@ ist	ist
 es	es
 Zeit	Zeit
 weg	wegzugehen.
-zu.	
+zu	
+gehen.	
 
 Der	Der
 Vater	Vater
@@ -62484,8 +62618,8 @@ Arbeit.	Arbeit.
 Sie	Sie
 gibt	gibt
 ihn	ihn
-ein.	ein
-	Glücksobjekt.
+ein	ein
+Glückobjekt.	Glücksobjekt.
 
 Carlo	Carlo
 fährt	fährt
@@ -63459,9 +63593,10 @@ veil	weil
 sie	sie
 musste	musste
 vek	weggehen
-mit	mit
-den	den
-Zug.	Zug.
+ghehen	mit
+mit	den
+den	Zug.
+Zug.	
 
 Der	Der
 Zug	Zug
@@ -65026,8 +65161,8 @@ die	die
 hand	Hand
 und	und
 sagte	sagte
-Aufwieder.	auf
-	Wiedersehen.
+Aufwieder	auf
+sehn.	Wiedersehen.
 
 Er	Er
 stieg	stieg
