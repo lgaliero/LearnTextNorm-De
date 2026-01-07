@@ -134,14 +134,14 @@ reden.	reden.
 Arabisch	Arabisch
 auch	auch
 weil	weil
-im	im
-Araben,	Arabien,
-Dubai,	Dubai,
-Marocco	Marokko
-und	und
-Tunesien	Tunesien
-geredet	geredet
-wird.	wird.
+im,	im
+Dubai,	Arabien,
+Marocco	Dubai,
+und	Marokko
+Tunesien	und
+geredet	Tunesien
+wird.	geredet
+	wird.
 
 Englisch	Englisch
 ist	ist
@@ -4944,8 +4944,7 @@ weil	weil
 das	das
 die	die
 Weld	Weltsprache
-sprache	ist.
-ist.	
+ist.	ist.
 
 ladinisch	Ladinisch
 sollte	sollte
@@ -5085,6 +5084,7 @@ lernen.	lernen.
 Deutsch:	Deutsch:
 (	(
 italienisch	Italienisch
+):	):
 Weil	Weil
 das,	das,
 genau	genau
@@ -7038,6 +7038,11 @@ schön.	schön.
 
 Ich	Ich
 muss,	muss,
+gut	gut
+studieren.	studieren.
+
+Ich	Ich
+muss,	muss,
 das	das
 Fach	Fach
 lernen	lernen
@@ -7759,7 +7764,6 @@ Ich	Ich
 will	will
 werden	werden
 zur	zur
-arbeite	arbeite
 eine	eine
 Arztintieren,	Arztintieren,
 weil	weil
@@ -9053,6 +9057,7 @@ man	man
 nicht	nicht
 einmal	einmal
 normal	normal
+nach	nach
 hause	Hause
 gehen	gehen
 kan	kann
@@ -12318,7 +12323,7 @@ weil	weil
 sonst	sonst
 uns	uns
 "	"
-CHRISTENTUM	CHRISTENTUM
+CHRISTENTUM	Christentum
 "	"
 wir	wir
 immer	immer
@@ -12760,7 +12765,8 @@ ihnen	ihnen
 weh	weh
 tun	tun
 oder	oder
-Terroranschläche.	Terroranschläge.
+Terroranschläche	Terroranschläge
+machen.	machen.
 
 Aber	Aber
 ich	ich
@@ -14152,7 +14158,7 @@ SIE	sie
 SOLLTEN	sollten
 AUCH	auch
 NACH	nach
-AMERIKA	AMERIKA
+AMERIKA	Amerika
 ODER	oder
 ASIEN,	Asien,
 DENN	denn
@@ -14193,13 +14199,13 @@ Grenzen.	Grenzen.
 
 ICH	Ich
 FINDE,	finde,
-JEDER	JEDER
+JEDER	jeder
 MENSCH	Mensch
 HAT	hat
 EIN	ein
 RECHT,	Recht,
 ÜBERALL	überall
-HINZUGEHEN,	HINZUGEHEN,
+HINZUGEHEN,	hinzugehen,
 WO	wo
 SIE	sie
 WOLLEN.	wollen.
@@ -15506,8 +15512,12 @@ viele	viele
 Worter.	Wörter.
 
 lernen	Lernen
+Gedichte	Gedichte
+helfen,	helfen,
+oder	oder
 lernen	lernen
 gut	gut
+die	die
 artikel.	Artikel.
 helfen	helfen
 auch.	auch.
@@ -15884,19 +15894,19 @@ mich	mich
 ist	ist
 es	es
 gut	gut
-AUF	AUF
-DEUSTSCH	Deutsch
-SPERCHEN,	sprechen,
-weil	weil
-muss	muss
-mann	man
-auch	auch
-auf	auf
-Deutsch	Deutsch
-sprechen,	sprechen,
-nur	nur
-immer	immer
-Italienisch.	Italienisch.
+AUF,	auf
+weil	Deutsch
+muss	sprechen,
+mann	weil
+auch	muss
+auf	man
+Deutsch	auch
+sprechen,	auf
+nur	Deutsch
+immer	sprechen,
+Italienisch.	nur
+	immer
+	Italienisch.
 
 Ich	Ich
 studiere	studiere
@@ -16958,7 +16968,7 @@ alls	alles
 ist	ist
 wichtig	wichtig
 in	in
-deutch	Deutsch
+	Deutsch
 
 Meine	Meine
 strategie	Strategie
@@ -19091,7 +19101,7 @@ internette	Internet
 und	und
 sprechen.	sprechen.
 
-FÜR	FÜR
+FÜR	Für
 MICH	mich
 IST	ist
 WICHTIG	wichtig
@@ -19106,10 +19116,10 @@ VIDERHOLEN	wiederholen
 4/5	4/5
 MAL.	Male.
 
-FÜR	FÜR
+FÜR	Für
 MICH	mich
 IST	ist
-GUT	GUT
+GUT	gut
 BÜCHER	Bücher
 IN	in
 ANDEREN	anderen
@@ -19128,7 +19138,7 @@ VIELE	viele
 NEUE	neue
 WÖRTER.	Wörter.
 
-FÜR	FÜR
+FÜR	Für
 MICH	mich
 EINE	eine
 STRATEGIEREN	Strategien
@@ -19136,12 +19146,12 @@ NICHT	nicht
 FUNZIONIEREN	funktionieren
 IST	ist
 AUSWENDIG	auswendig
-LERNEN.	LERNEN.
+LERNEN.	lernen.
 
 WEIL	Weil
 IST	ist
 NICHT	nicht
-FUNZIONIEREN.	funktionieren
+FUNZIONIEREN	funktionieren
 
 Für	Für
 mich	mich
@@ -24530,6 +24540,7 @@ und	und
 Englisch	Englisch
 können	können
 den	denn
+das	das
 ist	ist
 die	die
 Weltsprache.	Weltsprache.
@@ -25852,6 +25863,7 @@ Und	Und
 weil,	weil,
 ein	ein
 großteil	Großteil
+von	von
 Mensch	Mensch
 diese	diese
 sprache	Sprache
@@ -25921,6 +25933,7 @@ Traumberuf	Traumberuf
 sind	sind
 zwei:	zwei:
 die	Die
+erste	erste
 ist	ist
 Giornalistin.	Journalistin.
 
@@ -26216,6 +26229,7 @@ machte	machte
 nach	nach
 die	die
 Mittelschulee	Mittelschule
+ist	ist
 Schoolname	Schoolname
 die	die
 berufschule	Berufsschule
@@ -27452,10 +27466,9 @@ der	der
 ITE	ITE
 und	und
 da	danach
-nach	in
-in	der
-der	Universität.
-Universität.	
+in	in
+der	der
+Universität.	Universität.
 
 Meine	Meine
 Traumberuf	Traumberuf
@@ -27716,17 +27729,16 @@ Und	Und
 wenn	wenn
 ich	ich
 hinaus	hinausgehen
-gehen	möchte,
-möchte,	kann
-kann	ich
-ich	das
-das	machen
-machen	ohne
-ohne	die
-die	Zeit
-Zeit	zu
-zu	beachten.
-beachten.	
+möchte,	möchte,
+kann	kann
+ich	ich
+das	das
+machen	machen
+ohne	ohne
+die	die
+Zeit	Zeit
+zu	zu
+beachten.	beachten.
 
 Und	Und
 das	das
@@ -28147,7 +28159,7 @@ mein	mein
 Vorbild	Vorbild
 Ich	Ich
 muss	muss
-Basquetball	Basketball
+	Basketball
 
 Ich	Ich
 musst	musst
@@ -28334,7 +28346,8 @@ ist	ist
 machen	machen
 ein	ein
 arbeit	Arbeit
-computer..	Computer..
+mit	mit
+computer...	Computer...
 
 Weil	Weil
 ich	ich
@@ -28439,14 +28452,18 @@ der	der
 Vater	Vater
 nimmt	nimmt
 sein	sein
-rucksack	Rucksack
+rucksack,	Rucksack,
+sein	sein
 ball	Ball
-pferd	Pferdspiel
-spiel	seine
-seine	besten
-besten	Sachen
-Sachen	mit.
-mit.	
+und	und
+sein	sein
+pferd	Pferdspiel.
+spiel.	
+
+seine	seine
+besten	besten
+Sachen	Sachen
+mit.	mit.
 
 Der	Der
 Vater	Vater
@@ -28469,8 +28486,14 @@ er	er
 sein	sein
 Er	Er
 nimt	nimmt
+seine	seine
 schulsachen	Schulsachen
+und	und
 schmeist	schmeißt
+es	es
+ins	ins
+Feuer.	Feuer.
+
 Diktat	Diktat
 und	und
 wirft	wirft
@@ -31925,10 +31948,18 @@ er	er
 brachte	brachte
 die	die
 sachen	Sache
+auf	auf
+der	der
+Wiese	Wiese
+und	und
+ich	ich
 nam	nahm
 sein	sein
 Hud	Hut
-Pinzel	Pinsel
+und	und
+sein	sein
+Pinzel.	Pinsel.
+
 Ich	Ich
 nam	nahm
 meine	meine
@@ -31953,12 +31984,23 @@ Hausaufgaben	Hausaufgaben
 machen.	machen.
 
 Wärend	Während
+ich	ich
+die	die
+Schulsachen	Schulsachen
+in	in
+das	das
+Feuer	Feuer
+warf	warf
+kam	kam
 mein	mein
 Opa	Opa
 mit	mit
 einem	einem
 Tepich	Teppich
+und	und
+einen	einen
 Decke	Decke
+aus	aus
 dem	dem
 Haus.	Haus.
 
@@ -34464,8 +34506,7 @@ Plötzlich	Plötzlich
 sah	sah
 er	er
 sein	sein
-Geometri	Geometrieheft.
-Heft.	
+Geometri.	Geometrieheft.
 
 Er	Er
 wollte	wollte
@@ -34643,54 +34684,59 @@ immer	immer
 immer	immer
 größer.	größer.
 
-Peters	Die
-ist	höllisch
-aus	heißen
-heiterem	Flammen
-Himmel	breiten
-die	sich
-Bude	über
-abgebrand.	die
-	Räume
-	aus.
+Fam.	Familie
+Peters	Peters
+ist	ist
+aus	aus
+heiterem	heiterem
+Himmel	Himmel
+die	die
+Bude	Bude
+abgebrand.	abgebrannt.
 
-Die	Keine
-Höllisch	Chance
-heißen	man
-Flammen	muss
-breiten	raus.
-sich	
-über	
-die	
-Räume	
-aus.	
+Die	Die
+Höllisch	höllisch
+heißen	heißen
+Flammen	Flammen
+breiten	breiten
+sich	sich
+über	über
+die	die
+Räume	Räume
+aus.	aus.
 
-Keine	Alles
-Chance	was
-man	geht
-muss	retten
-raus.	die
-	Leute.
+Keine	Keine
+Chance	Chance
+man	man
+muss	muss
+raus.	raus.
 
-alles	Als
-was	Vater
-geht	Paul
-retten	schon
-die	Schultasche
-Leute.	und
-	Pferd
-	gerettet
-	hatte
-	rannte
-	er
-	wieder
-	rein
-	um
-	den
-	teuren
-	Teppich
-	zu
-	holen.
+alles	Alles
+was	was
+geht	geht
+retten	retten
+die	die
+Leute.	Leute.
+
+Als	Als
+Vater	Vater
+Paul	Paul
+schon	schon
+Schultasche	Schultasche
+und	und
+pferd	Pferd
+geretet	gerettet
+hatte	hatte
+rannte	rannte
+er	er
+wieder	wieder
+rein	rein
+um	um
+den	den
+Teuren	teuren
+Teppich	Teppich
+zu	zu
+hollen.	holen.
 
 In	In
 der	der
@@ -37353,7 +37399,7 @@ hous.	Haus.
 ICH	Ich
 SPRECHE	spreche
 NICHT	nicht
-DUTSCHE	Deutsch
+	Deutsch
 
 Es	Es
 war	war
@@ -37692,13 +37738,13 @@ eine	eine
 Hause	Hause
 ist	ist
 eine	eine
-feuerwehr	Feuerwehr
-Brand,	Brand,
-die	die
-Vater	Vater
-und	und
-Giacomino	Giacomino
-flugzoich.	flugzoich.
+Brand,	Feuerwehr
+die	Brand,
+Vater	die
+und	Vater
+Giacomino	und
+flugzoich.	Giacomino
+	flugzoich.
 
 Die	Die
 Vater	Vater
@@ -37801,8 +37847,8 @@ HAT	hat
 TRAURIK.	traurig.
 
 ROBERT	Robert
-HOL	HOL
-HERAUS	HERAUS
+HOL	hol
+HERAUS	heraus
 DIE	die
 BLATT	Blatt
 INDIE	in
@@ -38317,7 +38363,7 @@ IN	in
 DEN	den
 FOIER	Feuer
 UND	und
-RAUCH	RAUCH
+RAUCH	Rauch
 UND	und
 VATER	Vater
 LAUFEN	laufen
@@ -38510,39 +38556,39 @@ weiter	weiter
 und	und
 sahen	sahen
 einen	einen
-Schwarzen	schwarzen
-Schatten	Schatten
-und	und
-sie	sie
-volkten	folgten
-ihm	ihm
-bis	bis
-zu	zu
-ihrem	ihrem
-zuhause	Zuhause
-und	und
-dort	dort
-war	war
-ehr	er
-in	in
-einen	einen
-schuppen	Schuppen
-rein	rein
-gegangen	gegangen
-un	un
-Anna	Anna
-öfnete	öffnete
-den	den
-Schuppen	Schuppen
-und	und
-sah	sah
-Marko	Marko
-der	der
-ihnen	ihnen
-einen	einen
-Streich	Streich
-spielen	spielen
-wolte.	wollte.
+Schatten	schwarzen
+und	Schatten
+sie	und
+volkten	sie
+ihm	folgten
+bis	ihm
+zu	bis
+ihrem	zu
+zuhause	ihrem
+und	Zuhause
+dort	und
+war	dort
+ehr	war
+in	er
+einen	in
+schuppen	einen
+rein	Schuppen
+gegangen	rein
+un	gegangen
+Anna	un
+öfnete	Anna
+den	öffnete
+Schuppen	den
+und	Schuppen
+sah	und
+Marko	sah
+der	Marko
+ihnen	der
+einen	ihnen
+Streich	einen
+spielen	Streich
+wolte.	spielen
+	wollte.
 
 Es	Es
 war	war
@@ -38744,8 +38790,8 @@ Wald	Wald
 wahre	war
 ein	ein
 Eule	Eule
-und	und
-Eichöhorchen.	Eichhörnchen.
+und.	und
+	Eichhörnchen.
 
 Und	Und
 die	die
@@ -39221,9 +39267,9 @@ sie	sie
 hießen:	hießen:
 LOL,	Lol,
 BLOB,	Blob,
-SUPERKAKERLAKE,	SUPERKAKERLAKE,
+SUPERKAKERLAKE,	Superkakerlake,
 GUÈ	Guè
-PEQUEÑO	PEQUEÑO
+PEQUEÑO	Pequeño
 und	und
 Brutto	Brutto
 Sfigatello.	Sfigatello.
@@ -40275,12 +40321,11 @@ Mädchen.	Mädchen.
 Sie	Sie
 wollten	wollten
 Weg	wegrennen
-rennen	aber
-aber	es
-es	war
-war	zu
-zu	spät.
-spät.	
+aber	aber
+es	es
+war	war
+zu	zu
+spät.	spät.
 
 Lilly	Lilly
 und	und
@@ -42642,6 +42687,7 @@ werden.
 
 Wir	Wir
 gingen	gingen
+ein	ein
 bischen	bisschen
 spatziren	spazieren
 und	und
@@ -46575,6 +46621,8 @@ dunkle	dunkle
 Haare	Haare
 und	und
 dunkle	dunkle
+Augen.	Augen.
+
 Ich	Ich
 ging	ging
 mit	mit
@@ -48227,6 +48275,7 @@ Jonny	Johnny
 und	und
 Schantall	Schantall
 rannten	rannten
+nach	nach
 hause.	Hause.
 
 Als	Als
@@ -48831,6 +48880,7 @@ tag	Tag
 ans	ans
 Meer.	Meer.
 
+Eines	Eines
 tages	Tages
 wolten	wollten
 sie	sie
@@ -48883,12 +48933,12 @@ andere	andere
 meinte	meinte
 aber:	aber:
 „	„
-las	lass
-uns	uns
-nachschauen	nachschauen
-was	was
-da	da
-ist.	ist.
+uns	lass
+nachschauen	uns
+was	nachschauen
+da	was
+ist.	da
+	ist.
 
 Sie	Sie
 hatten	hatten
@@ -51418,7 +51468,9 @@ wo	wo
 will	will
 die	die
 Nacht	Nacht
-in.	in.
+in	in
+Wald	Wald
+schlafen.	schlafen.
 
 Sie	Sie
 gehen	gehen
@@ -51764,7 +51816,7 @@ getötet.	getötet.
 CATARINA	Catarina
 SHREIT	schreit
 ANNAS	Annas
-NAME.	NAME.
+NAME.	name.
 "	"
 CATRINA!	Catarina!
 
@@ -51773,7 +51825,7 @@ SCHREIT	schreit
 ANNA	Anna
 CATARINA	Catarina
 LÄUFT	läuft
-ZU	ZU
+ZU	zu
 EINEN	einen
 BAUM	Baum
 UND	und
@@ -51782,7 +51834,7 @@ ANNA	Anna
 MIT	mit
 BLUT	Blut
 ÜBER	über
-SEINEN	SEINEN
+SEINEN	seinen
 BEIN.	Bein.
 "	"
 OH	Oh
@@ -51804,7 +51856,7 @@ NICHT."	nicht."
 SAGT	Sagt
 ANNA	Anna
 SEHR	sehr
-ERSCHRECKT.	ERSCHRECKT.
+ERSCHRECKT.	erschreckt.
 
 PLÖTZLICH	Plötzlich
 HÖREN	hören
@@ -51847,7 +51899,7 @@ SAGT	sagt
 ANNA.	Anna.
 
 CATARINA	Catarina
-EINSCHALTET	EINSCHALTET
+EINSCHALTET	einschaltet
 DIE	die
 LAMPE	Lampe
 UND	und
@@ -51863,7 +51915,7 @@ CATARINA	Catarina
 UND	und
 LÄSST	lässt
 ANNA	Anna
-ZURÜCK.	ZURÜCK.
+ZURÜCK.	zurück.
 
 Mauro	Mauro
 und	und
@@ -51912,6 +51964,18 @@ Baum	Baum
 immer	immer
 größer	größer
 wird.	wird.
+
+Sie	Sie
+versuche	versuche
+weg	wegzulaufen,
+zu	aber
+laufen,	sie
+aber	können
+sie	sich
+können	nicht
+sich	bewegen.
+nicht	
+bewegen.	
 
 Sie	Sie
 sehen	sehen
@@ -52302,13 +52366,13 @@ UND	und
 SIE	Sie
 HABEN	haben
 EINE	eine
-TASCHENLAMPE	TASCHENLAMPE
+TASCHENLAMPE	Taschenlampe
 WEIL	weil
 IST	ist
 ABEND.	Abend.
 
 SIE	Sie
-SIND	SIND
+SIND	sind
 SARAH	Sarah
 UND	und
 GRACE.	Grace.
@@ -52348,7 +52412,7 @@ MENSCHEN	Menschen
 LAUFEN	laufen
 UND	und
 GEHEN	gehen
-IN	IN
+IN	in
 HAUSE	Hause
 ERSCHROCKEN.	erschrocken.
 
@@ -52494,20 +52558,20 @@ es	es
 noch	noch
 Heute.	heute.
 
-NACH	NACH
+NACH	Nach
 ZWEI	Zwei
 MINUTEN	Minuten
-FERSTECCEN	verstecken
-SICH	sich
-MARTA	Marta
-UND	und
-GIANNIA.	Giannia.
+SICH	verstecken
+MARTA	sich
+UND	Marta
+GIANNIA.	und
+	Giannia.
 
 SIE	Sie
 WOLLE	wolle
 RETTEN	retten
 IHRE	ihre
-MUTTER,	MUTTER,
+MUTTER,	Mutter,
 ABER	aber
 IHR	ihr
 HABT	habt
@@ -54197,7 +54261,13 @@ dass	dass
 sobald	sobald
 ich	ich
 die	die
-möglichkeit.	Möglichkeit.
+möglichkeit	Möglichkeit
+habe,	habe,
+werde	werde
+ich	ich
+zu	zu
+euch	euch
+zurückkehren.	zurückkehren.
 
 Ella	Ella
 und	und
@@ -55002,8 +55072,7 @@ das	dass
 der	der
 Vater	Vater
 nicht	nicht
-veg	weggeht.
-geht.	
+veg.	weggeht.
 
 Der	Der
 Vater	Vater
@@ -55605,8 +55674,7 @@ gab	gab
 ihm	ihm
 ihren	ihren
 Papier	Papiervogel
-Vogel	(origami).
-(origami).	
+(origami).	(origami).
 
 Dann	Dann
 grüßte	grüßte
@@ -62138,7 +62206,15 @@ keiner.	keiner.
 
 Eine	Eine
 Judische	jüdische
+Familie,	Familie,
+Die	Die
+Kinder	Kinder
+heiß	heiß
+Maria,	Maria,
 der	der
+Vater	Vater
+Carl	Carl
+und	und
 die	die
 Mutter	Mutter
 Augusta.	Augusta.
@@ -62239,8 +62315,7 @@ ist	ist
 es	es
 Zeit	Zeit
 weg	wegzugehen.
-zu	
-gehen.	
+zu.	
 
 Der	Der
 Vater	Vater
@@ -62409,8 +62484,8 @@ Arbeit.	Arbeit.
 Sie	Sie
 gibt	gibt
 ihn	ihn
-ein	ein
-Glückobjekt.	Glücksobjekt.
+ein.	ein
+	Glücksobjekt.
 
 Carlo	Carlo
 fährt	fährt
@@ -63343,11 +63418,12 @@ ist	sicher
 sicher	dass
 dass	zurückkommt
 zurug	Aber
-Aber	das
-das	ist
-ist	nicht
-nicht	so
-so	sicher...
+komt	das
+Aber	ist
+das	nicht
+ist	so
+nicht	sicher...
+so	
 sicher...	
 
 Ein	Ein
@@ -63383,22 +63459,14 @@ veil	weil
 sie	sie
 musste	musste
 vek	weggehen
-ghehen	mit
-mit	den
-den	Zug.
-Zug.	
+mit	mit
+den	den
+Zug.	Zug.
 
 Der	Der
 Zug	Zug
 vird	wird
 los.	los.
-
-AIN	ein
-FOGLEL	Vogel
-AS	aus
-UM	umarmen
-TRENEN	Tränen
-TOCTER	Tochter
 
 DIE	Die
 MARIE	Marie
@@ -64021,7 +64089,6 @@ wenn	wenn
 ihrer	ihrer
 Mann	Mann
 weg	weggeht.
-gehet	
 geht.	
 
 Sie	Sie
@@ -64959,8 +65026,8 @@ die	die
 hand	Hand
 und	und
 sagte	sagte
-Aufwieder	auf
-sehn.	Wiedersehen.
+Aufwieder.	auf
+	Wiedersehen.
 
 Er	Er
 stieg	stieg
@@ -65330,4 +65397,21 @@ Tochter	Tochter
 uns	uns
 seine	seine
 Frau.	Frau.
+
+Danach,	Danach,
+er	er
+steigt	steigt
+in	in
+den	den
+Zug,	Zug,
+Sie	Sie
+geben	geben
+sich	sich
+die	die
+Hände	Hände
+und	und
+er	er
+fährt	fährt
+weit	weit
+weg.	weg.
 
