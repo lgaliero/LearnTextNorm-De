@@ -7425,8 +7425,7 @@ in	in
 ca.	ca.
 15	15
 min.	min
-erreicht.	erreicht.
-
+erreicht	erreicht
 und	und
 die	die
 nächst	nächst
@@ -14150,7 +14149,6 @@ dass	dass
 sie	sie
 ihr	ihr
 Geld	Geld
-eh	eh
 nicht	nicht
 dabei	dabei
 hat.	hat.
@@ -14879,7 +14877,7 @@ stehts?	stehts?
 
 Maria	Maria
 ist	ist
-gGestern	gGestern
+Gestern	Gestern
 was	was
 dämliches	Dämliches
 passiert.	passiert.
@@ -27803,7 +27801,7 @@ zu	zu
 surfen,	surfen,
 Wasserski	Wasserski
 zu	zu
-fahren...	fahren...
+fahren..	fahren..
 und	und
 vieles	vieles
 mehr!	mehr!
@@ -28008,7 +28006,7 @@ Fall	Fall
 kam	kam
 sie	sie
 noch	noch
-rechtzseitig	rechtzseitig
+rechtseitig	rechtseitig
 am	am
 Supermarkt	Supermarkt
 an	an
@@ -31251,7 +31249,7 @@ einmal	vor.
 vor.	
 
 Zum	Zum
-Eeinen	Eeinen
+einen	einen
 können	können
 wir	wir
 in	in
@@ -31291,7 +31289,7 @@ eine	eine
 kleine	kleine
 Jägershütte,	Jägershütte,
 wo	wo
-fwir	fwir
+wir	wir
 in	in
 Ruhe	Ruhe
 und	und
@@ -31543,76 +31541,73 @@ das	das
 Geschäft	Geschäft
 keine	keine
 Milchprodukte	Milchprodukte
-.ä.,	.
-deshalb	
-ist	
-sie	
-anschließend	
-noch	
-in	
-die	
-Innenstadt	
-gefahren,	
-mit	
-dem	
-ganzen	
-Gemüse.	
-
-Als	Ä.,
-sie	deshalb
-dann	ist
-in	sie
-dem	anschließend
-Laden	noch
+o.ä.,	o.ä.,
+deshalb	deshalb
+ist	ist
+sie	sie
+anschließend	anschließend
+noch	noch
 in	in
-der	die
-Stadt	Innenstadt
-an	gefahren,
-der	mit
-Kasse	dem
-stand,	ganzen
-wollte	Gemüse.
-die	
-Kassiererin	
-tatsächlich	
-den	
-Bon	
-für	
-das	
-Gemuse	
-von	
-dem	
-anderen	
-Händler	
-sehen.	
+die	die
+Innenstadt	Innenstadt
+gefahren,	gefahren,
+mit	mit
+dem	dem
+ganzen	ganzen
+Gemüse.	Gemüse.
 
-Maria	Als
-war	sie
-in	dann
-dem	in
-großen	dem
-Einkaufszentrum	Laden
-am	in
-Kaiserplatz,	der
-und	Stadt
-die	an
-führen	der
-natürlich	Kasse
-auch	stand,
-Salat	wollte
-und	die
-Gurken	Kassiererin
-und	tatsächlich
-was	den
-sie	Bon
-noch	für
-alles	das
-so	Gemüse
-dabei	von
-hatte.	dem
-	anderen
-	Händler
-	sehen.
+Als	Als
+sie	sie
+dann	dann
+in	in
+dem	dem
+Laden	Laden
+in	in
+der	der
+Stadt	Stadt
+an	an
+der	der
+Kasse	Kasse
+stand,	stand,
+wollte	wollte
+die	die
+Kassiererin	Kassiererin
+tatsächlich	tatsächlich
+den	den
+Bon	Bon
+für	für
+das	das
+Gemuse	Gemüse
+von	von
+dem	dem
+anderen	anderen
+Händler	Händler
+sehen.	sehen.
+
+Maria	Maria
+war	war
+in	in
+dem	dem
+großen	großen
+Einkaufszentrum	Einkaufszentrum
+am	am
+Kaiserplatz,	Kaiserplatz,
+und	und
+die	die
+führen	führen
+natürlich	natürlich
+auch	auch
+Salat	Salat
+und	und
+Gurken	Gurken
+und	und
+was	was
+sie	sie
+noch	noch
+alles	alles
+so	so
+dabei	dabei
+hatte.	hatte.
 
 Allerdings	Allerdings
 konnte	konnte
@@ -49043,7 +49038,6 @@ mit.	mit.
 Das	Das
 macht	macht
 ja	ja
-eh	eh
 kein	kein
 Mensch!	Mensch!
 
@@ -51793,21 +51787,19 @@ Freizeit	Freizeit
 -angeboten	-angeboten
 wie	wie
 zB.	z.
-	B.
-
-Bootsausflüge,	Bootsausflüge,
-Taucherkurs,	Taucherkurs,
-Beachvolleyball	Beachvolleyballturnieren
-tunieren	und
-und	ein
-ein	großen
-großen	Kinderspielplatz
-Kinderspielplatz	mit
-mit	Hüpfburg
-Hüpfburg	und
-und	anderen
-anderen	Attraktionen.
-Atraktionen.	
+Bootsausflüge,	B.
+Taucherkurs,	Bootsausflüge,
+Beachvolleyball	Taucherkurs,
+tunieren	Beachvolleyballturnieren
+und	und
+ein	ein
+großen	großen
+Kinderspielplatz	Kinderspielplatz
+mit	mit
+Hüpfburg	Hüpfburg
+und	und
+anderen	anderen
+Atraktionen.	Attraktionen.
 
 Ich	Ich
 hoffe,	hoffe,
@@ -56418,6 +56410,7 @@ mal	mal
 kurz	kurz
 vor.	vor.
 
+1.	1.
 Möglichkeit:	Möglichkeit:
 in	in
 die	die
@@ -56677,7 +56670,7 @@ zuerst	zuerst
 frisches	frisches
 Obst	Obst
 und	und
-gGemüse,	gGemüse,
+Gemüse,	Gemüse,
 für	für
 das	das
 Essen	Essen
@@ -65073,7 +65066,7 @@ begann	begann
 als	als
 sie	sie
 am	am
-mMorgen	mMorgen
+Morgen	Morgen
 zum	zum
 Obsthändler	Obsthändler
 um	um
@@ -67030,7 +67023,7 @@ Meer	Meer
 wäre	wäre
 natürlich	natürlich
 die	die
-pPerfekte	pPerfekte
+Perfekte	Perfekte
 Mischung	Mischung
 zwischen	zwischen
 Erholung	Erholung
@@ -67487,9 +67480,10 @@ die	die
 Berge	Berge
 zum	zum
 Ski	Ski-
-.	oder
-	Snowboardfahren
-	wollen.
+o.	oder
+Snowboard	Snowboardfahren
+fahren	wollen.
+wollen.	
 
 Also	Also
 ich	ich
@@ -68070,8 +68064,7 @@ gleiche	gleiche
 Hütteneinrichtung,	Hütteneinrichtung,
 der	der
 gleiche	gleiche
-Preis.	Preis.
-
+Preis	Preis
 und	und
 die	die
 gleiche	gleiche
@@ -68540,7 +68533,8 @@ aus	aus
 wenn	wenn
 du	du
 braun	braun
-bist..	bist..
+bist.	bist.
+
 und	und
 sonst	sonst
 natürlich	natürlich
@@ -68587,7 +68581,6 @@ kann	kann
 ist	ist
 es	es
 da	da
-eh	eh
 viel	viel
 schöner.	schöner.
 
