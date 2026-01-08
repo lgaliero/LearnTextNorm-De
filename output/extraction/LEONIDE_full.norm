@@ -117,6 +117,7 @@ müssen	müssen
 wir	wir
 können.	können.
 
+1.	1.
 Aufgabe:	Aufgabe:
 Deine	Deine
 Meinung!	Meinung!
@@ -244,6 +245,7 @@ muss	muss
 lernen	lernen
 Mathematik.	Mathematik.
 
+1.	1.
 Deutsch,	Deutsch,
 Italienisch	Italienisch
 und	und
@@ -258,6 +260,7 @@ der	der
 Mittelschule	Mittelschule
 Lernen.	lernen.
 
+2.	2.
 Warum,	Warum,
 Wenn	wenn
 du	du
@@ -686,6 +689,7 @@ die	die
 Römisch	Römisch
 redet.	redet.
 
+1.	1.
 Ich	Ich
 denke	denke
 man	man
@@ -2448,8 +2452,7 @@ diese	diese
 SPRACHEN	Sprachen
 ganz	ganz
 "	"
-WICHTIG	wichtig
-",	",
+WICHTIG",	wichtig",
 weil	weil
 man	man
 sie	sie
@@ -2656,6 +2659,7 @@ sehr	sehr
 gut	gut
 wissen.	wissen.
 
+1.	1.
 Ich	Ich
 meine	meine
 das	dass
@@ -4042,7 +4046,7 @@ weil	weil
 sonst	sonst
 könten	könnten
 sich	sich
-z.B.	z.B.
+z.b.	z.B.
 ein	ein
 Franzose	Franzose
 und	und
@@ -4476,6 +4480,7 @@ und	und
 Französisch	Französisch
 lernen.	lernen.
 
+2.)	2.)
 Meiner	Meiner
 Meinung	Meinung
 nach	nach
@@ -4489,6 +4494,7 @@ Mittelschule	Mittelschule
 Französisch	Französisch
 lernen.	lernen.
 
+3.)	3.)
 Man	Man
 sollte	sollte
 Französisch	Französisch
@@ -4501,6 +4507,7 @@ interessante	interessante
 Sprache	Sprache
 ist.	ist.
 
+1.)	1.)
 Ich	Ich
 finde	finde
 es	es
@@ -5562,6 +5569,7 @@ mit	mit
 Englisch	Englisch
 komunitzieren.	kommunizeren.
 
+1.)	1.)
 In	In
 der	der
 Mitelschule	Mittelschule
@@ -5587,6 +5595,7 @@ mein	mein
 Leben	Leben
 weiterzu	weiterzukommen
 
+2.)	2.)
 Nach	Nach
 Mitelschule	Mittelschule
 lernt	lernt
@@ -5611,6 +5620,7 @@ ferien	Ferien
 machen	machen
 kann.	kann.
 
+1.	1.
 Ich	Ich
 denke	denke
 man	man
@@ -5684,6 +5694,7 @@ entsprechenden	entsprechenden
 Ländern	Ländern
 lernen.	lernen.
 
+2.	2.
 Englisch	Englisch
 ist	ist
 die	die
@@ -7037,11 +7048,15 @@ es	es
 ist	ist
 schön.	schön.
 
+3	3
+)	)
 Ich	Ich
 muss,	muss,
 gut	gut
 studieren.	studieren.
 
+4	4
+)	)
 Ich	Ich
 muss,	muss,
 das	das
@@ -7368,7 +7383,7 @@ oder	oder
 machen	machen
 ein	ein
 Matematic	Mathematik
-2)	2)
+
 Mein	Mein
 Traumberuf	Traumberuf
 ist	ist
@@ -7432,11 +7447,13 @@ die	die
 meine	meine
 passion.	Passion.
 
+1.	1.
 Ich	Ich
 müchte	möchte
 ein	ein
 wertedn:	werden:
 
+2.	2.
 Ich	Ich
 müchte	möchte
 ein	ein
@@ -7444,6 +7461,10 @@ Itelienis	Itelienis
 werden,	werden,
 eine	eine
 Mattematich	Mathematik
+
+4.	4.
+le	le
+lingue	lingue
 
 Nach	Nach
 Mittelschule	Mittelschule
@@ -7599,12 +7620,14 @@ Ich	Ich
 lerne	lerne
 scientifik.	scientifik.
 
+1.	1.
 Ich	Ich
 möchte	möchte
 ein	ein
 Basketspieler	Basketspieler
 werden.	werden.
 
+2.	2.
 Ich	Ich
 möchte	möchte
 ein	ein
@@ -7616,6 +7639,11 @@ gut	gut
 Mathe	Mathe
 kann.	kann.
 
+3.	3.
+Viel	Viel
+studieren	studieren
+
+4.	4.
 Ich	Ich
 muss	muss
 viel	viel
@@ -7660,6 +7688,7 @@ von	von
 Tiere	Tiere
 lernen	lernen
 
+1.	1.
 Ich	Ich
 möchte	möchte
 in	in
@@ -7670,6 +7699,7 @@ und	und
 Artz	Arzt
 werden.	werden.
 
+2.	2.
 Mein	Mein
 Traumberuf	Traumberuf
 ist	ist
@@ -7684,11 +7714,13 @@ Menschen	Menschen
 im	im
 Krankenhaus.	Krankenhaus.
 
+3.	3.
 Ich	Ich
 muss	muss
 Medizin	Medizin
 können.	können.
 
+4.	4.
 Ich	Ich
 muss	muss
 viel	viel
@@ -8028,6 +8060,8 @@ muss	muss
 Informatik	Informatik
 lernen.	lernen.
 
+2	2
+)	)
 Nach	Nach
 der	der
 Mittelschule	Mittelschule
@@ -10354,7 +10388,7 @@ auch	auch
 nicht	nicht
 sterben.	sterben.
 
-z.B.	z.B.
+Z.B.	Z.B.
 Wir	Wir
 bauen	bauen
 auch	auch
@@ -12892,8 +12926,7 @@ auch	auch
 ein	ein
 krieg	Krieg
 kommen	kommen
-könnte.	könnte.
-
+könnte	könnte
 und	und
 man	man
 brauchte	brauchte
@@ -13593,8 +13626,7 @@ nimt	nimmt
 sie	sie
 in	in
 Europa	Europa
-auf.	auf.
-
+auf	auf
 und	und
 schikt	schickt
 sie	sie
@@ -13607,8 +13639,7 @@ nur	nur
 sie	sie
 wollen	wollen
 nicht	nicht
-zurück.	zurück.
-
+zurück	zurück
 und	und
 sie	sie
 kommen	kommen
@@ -13622,8 +13653,7 @@ auch	auch
 in	in
 ihren	ihren
 Ländern	Ländern
-bleiben.	bleiben.
-
+bleiben	bleiben
 und	und
 nicht	nicht
 nach	nach
@@ -16835,6 +16865,7 @@ Strategieren	Strategien
 funktionieren	funktionieren
 gut.	gut.
 
+1.	1.
 Für	Für
 gut	gut
 und	und
@@ -16854,6 +16885,7 @@ viel	viel
 lusst	Lust
 haben.	haben.
 
+2.	2.
 Ich	Ich
 lehrne	lerne
 neue	neue
@@ -16887,6 +16919,7 @@ dem	dem
 Deutschen	Deutschen
 Professor.	Professor.
 
+3.	3.
 Das	Das
 strategie	Strategie
 das	das
@@ -16915,6 +16948,7 @@ gut	gut
 Ungarisch	Ungarisch
 sprechen.	sprechen.
 
+4.	4.
 Das	Das
 strategie	Strategie
 das	das
@@ -17484,7 +17518,7 @@ ich	ich
 lerne	lerne
 neue	neue
 Wörter	Wörter
-4)	4)
+
 Mag	Mag
 keine	keine
 Hausaufgaben.	Hausaufgaben.
@@ -17617,20 +17651,20 @@ is	is
 viele	viele
 gut	gut
 züm:	zum:
-1)	1)
+
 Lesen	Lesen
 Buch	Buch
 in	in
 eine	eine
 neu	neu
 Sprachen	Sprachen
-2)	2)
+
 Sehe	Sehe
 film	Film
 und	und
 TV's	TV
 series	series
-3)	3)
+
 Spiele	Spiele
 eine	eine
 Sport	Sport
@@ -17639,7 +17673,7 @@ sprechen	sprechen
 deine	deine
 neu	neu
 Sprachen	Sprachen
-4)	4)
+
 Gehe	Gehe
 in	in
 eine	eine
@@ -17656,10 +17690,7 @@ Deutschland,	Deutschland,
 Spanisch	Spanisch
 Spanien	Spanien
 ecc;)	etc.;)
-5)	5)
-Ubeng	Übung
-machte	machte
-6)	6)
+
 Machte	Machte
 freünde	Freunde
 kannt	kannt
@@ -17667,9 +17698,6 @@ spreche	spreche
 deine	deine
 neue	neue
 Sprachen	Sprachen
-7)	7)
-Spiele	Spiele
-computerspiele	Computerspiele
 
 Ich	Ich
 mache	mache
@@ -17937,6 +17965,7 @@ sie	sie
 sind	sind
 langweilig.	langweilig.
 
+1.	1.
 Sehr	Sehr
 lernen	lernen
 in	in
@@ -17952,6 +17981,7 @@ den	den
 freunde	Freunde
 /	/
 
+2.	2.
 Ich	Ich
 lernen	lernen
 mit	mit
@@ -17965,6 +17995,7 @@ in	in
 die	die
 Pause	Pause
 
+3.	3.
 Die	Die
 Strategie	Strategie
 ist	ist
@@ -17977,11 +18008,13 @@ gehen	gehen
 in	in
 Bibliotek	Bibliothek
 
+4.	4.
 lesen	lesen
 100	100
 Bücher	Bücher
 und	und
 kapiert	kapiert
+O	O
 die	die
 Strategi	Strategie
 sehr	sehr
@@ -19190,6 +19223,7 @@ internette	Internet
 und	und
 sprechen.	sprechen.
 
+1.	1.
 FÜR	Für
 MICH	mich
 IST	ist
@@ -19198,6 +19232,7 @@ STUDIEREN	studieren
 MIT	mit
 KONZENTRIERE.	Konzentration.
 
+2.	2.
 MEINE	Meine
 STRATEGIE	Strategie
 IST	ist
@@ -19205,6 +19240,7 @@ VIDERHOLEN	wiederholen
 4/5	4/5
 MAL.	Male.
 
+3.	3.
 FÜR	Für
 MICH	mich
 IST	ist
@@ -19227,6 +19263,7 @@ VIELE	viele
 NEUE	neue
 WÖRTER.	Wörter.
 
+4.	4.
 FÜR	Für
 MICH	mich
 EINE	eine
@@ -19614,6 +19651,7 @@ für	für
 ihre	ihre
 Zukunft.	Zukunft.
 
+1.	1.
 Meiner	Meiner
 Meinung	Meinung
 nach	nach
@@ -20426,6 +20464,7 @@ Sprachen	Sprachen
 verbessert	verbessert
 hab.	hab.
 
+1.	1.
 Ich	Ich
 finde,	finde,
 dass	dass
@@ -20451,6 +20490,7 @@ eine	eine
 gute	gute
 Arbeit.	Arbeit.
 
+2.	2.
 Jeder	Jeder
 Schüler/innen	Schüler/innen
 sollte	sollte
@@ -20484,6 +20524,7 @@ Zukunft	Zukunft
 behilflich	behilflich
 sein.	sein.
 
+3.	3.
 Wie	Wie
 ich	ich
 schon	schon
@@ -22162,7 +22203,7 @@ sie	sie
 mehr	mehr
 braucht.	braucht.
 
-z.B.	z.B.
+Z.B.	Z.B.
 Englisch	Englisch
 weil	weil
 man	man
@@ -23103,15 +23144,14 @@ irgendwo	irgendwo
 hin	hinfährt
 fährt	z.
 z.	B.
-B.	
-
-nach	nach
-Rom	Rom
-oder	oder
-Enfland	Enfland
-oder	oder
-sonst	sonst
-irgendwo.	irgendwo.
+B.	nach
+nach	Rom
+Rom	oder
+oder	Enfland
+Enfland	oder
+oder	sonst
+sonst	irgendwo.
+irgendwo.	
 
 An	An
 den	den
@@ -24005,7 +24045,7 @@ benötigt.	benötigt.
 
 Wenn	Wenn
 man	man
-z.B.	z.B.
+z.b.	z.B.
 nach	nach
 Turin	Turin
 fährt	fährt
@@ -24024,7 +24064,7 @@ dringend.	dringend.
 
 Wenn	Wenn
 man	man
-z.B.	z.B.
+z.b.	z.B.
 nach	nach
 England	England
 fährt,	fährt,
@@ -24048,7 +24088,7 @@ umbedingt.	umbedingt.
 
 Wenn	Wenn
 man	man
-z.B.	z.B.
+z.b.	z.B.
 einen	einen
 Job	Job
 auswählt	auswählt
@@ -24082,7 +24122,7 @@ sagen.	sagen.
 
 Ich	Ich
 finde	finde
-z.B.	z.B.
+z.b.	z.B.
 Englisch	Englisch
 auch	auch
 nicht	nicht
@@ -25797,7 +25837,7 @@ entfernten	entfernten
 Land	Land
 ist	ist
 wie	wie
-z.B.	z.B.
+z.b.	z.b.
 Englisch.	Englisch.
 
 Man	Man
@@ -25989,8 +26029,7 @@ ich	ich
 eine	eine
 Sanitäre	sanitäre
 Schule	Schule
-besuchen.	besuchen.
-
+besuchen	besuchen
 und	und
 meine	meine
 Traumberuf	Traumberuf
@@ -26778,7 +26817,7 @@ mir	mir
 die	die
 Fächer.	Fächer.
 
-z.B.	z.B.
+Z.B.	Z.B.
 Psicologie,	Psychologie,
 Sociologie.	Soziologie.
 
@@ -27249,7 +27288,7 @@ gehe	gehe
 ich	ich
 in	in
 die	die
-I.T..	I.T..
+I.T.E.	I.T.E.
 
 Mein	Mein
 Traumberuf	Traumberuf
@@ -27895,7 +27934,8 @@ die	die
 ich	ich
 mache	mache
 (	(
-I.T.),	I.T.),
+I.T.E	I.T.E
+),	),
 hilft	hilft
 mir	mir
 ein	ein
@@ -27987,8 +28027,7 @@ Mathematic,	Mathematik,
 Geschichte,	Geschichte,
 Erdkunde,	Erdkunde,
 Biologie,	Biologie,
-Sport.	Sport.
-
+Sport	Sport
 und	und
 Religion	Religion
 lernen.	lernen.
@@ -28518,7 +28557,7 @@ muss	muss
 können	können
 viele	viele
 Sprachen	Sprachen
-z.B.	z.B.
+z.b.	z.B.
 Englisch,	Englisch,
 Deutsch,	Deutsch,
 Spanisch	Spanisch
@@ -28884,14 +28923,14 @@ sich	sich
 dan	dann
 auslöscht.	auslöscht.
 
-war	Es
-einmal	war
-ein	einmal
-Bub	ein
-und	Bub
-ein	und
-Man.	ein
-	mann.
+E	Es
+war	war
+einmal	einmal
+ein	ein
+Bub	Bub
+und	und
+ein	ein
+Man.	mann.
 
 Einmal	Ein
 in	Mal
@@ -32866,7 +32905,7 @@ für	für
 ein	ein
 Strafe!”	Strafe!”
 „	„
-Hahahaha!”	Hahahaha!”
+!”	!”
 sagte	sagte
 der	der
 Professor.	Professor.
@@ -34930,8 +34969,7 @@ dachte	sich
 sich	die
 die	Sachen
 Sachen	sind
-sind	eh
-eh	nicht
+sind	nicht
 nich	wichtig
 wichtig	weil
 weil	er
@@ -34943,8 +34981,7 @@ eine	5
 hate	und
 und	in
 in	Mathe
-Mate	eh
-eh	schlecht
+Mate	schlecht
 schlecht	war
 war	und
 und	wenn
@@ -34955,8 +34992,7 @@ abrend	ist
 ist	die
 die	schlechte
 schlechte	Note
-Note	eh
-eh	weg
+Note	weg
 weg	aber
 aber	er
 er	dachte
@@ -37542,6 +37578,7 @@ ein	ein
 Diktat	Diktat
 so	so
 gang	gang
+e	e
 zum	zum
 das	das
 Hauses	Hauses
@@ -38541,7 +38578,7 @@ nacht.	Nacht.
 Da	Da
 Lachte	lachte
 plotzlich	plötzlich
-jemand.	jemand.
+jemand	jemand
 und	und
 viel.	viel.
 
@@ -40195,10 +40232,6 @@ sah	sah
 sie	sie
 es.	es.
 
-„Wuff,	„Wuff,
-wuff,	wuff,
-wuff,..."	wuff,..."
-
 Es	Es
 war	war
 Kahins	Kahins
@@ -41097,6 +41130,7 @@ zu	zu
 schreien	schreien
 Aaaah	Aaaah
 eeeeeh	eeeeeh
+noooo	noooo
 und	und
 .....	.....
 
@@ -41309,7 +41343,7 @@ Stimmen:	Stimmen:
 ,	,
 ,	,
 ,	,
-.	.
+NOO.	noo.
 '	'
 "	"
 
@@ -41983,9 +42017,9 @@ hörten	sie
 sie	komische
 komische	Geräusche:
 geräusche:	„,
-„,	Hahahaha!,
-Hahahaha!,	!"
-!"	„
+„,	!,
+!,	Nooo!"
+Nooo!"	„
 „	Was
 Was	war
 war	das",
@@ -43909,8 +43943,8 @@ laute	Laute
 zu	zu
 hören:	hören:
 Eeeeeheheee,	Eeeeeheheee,
-hahaaahah,	hahaaahah,
-hooho,	hooho,
+,	,
+,	,
 huuhuu;	huuhuu;
 Sie	Sie
 hatten	hatten
@@ -45322,8 +45356,8 @@ Richtung	Richtung
 der	der
 Geräusche,	Geräusche,
 ""	""
-"Arrrr..."	"Arrrr..."
-"Grrr",	"Grrr",
+"..."	"..."
+"",	"",
 plötzlich	plötzlich
 springen	springen
 die	die
@@ -45568,8 +45602,7 @@ hört	hört
 man:	man:
 „	„
 !"	!"
-EH	Eh
-EH!"	eh!"
+!"	!"
 
 Eine	Eine
 klasse	Klasse
@@ -45895,8 +45928,7 @@ entlang.	entlang.
 Plötzlich	Plötzlich
 hörten	hörten
 sie	sie
-Stimmen.	Stimmen.
-
+Stimmen	Stimmen
 und	und
 sahen	sahen
 ein	ein
@@ -47220,7 +47252,7 @@ war	war
 ein:	ein:
 
 „	„
-Hahahahahaha.	Hahahahahaha.
+.	.
 "	"
 Sie	Sie
 rannten	rannten
@@ -47987,7 +48019,6 @@ zu	zu
 Sky:	Sky:
 „	„
 Sky...	Sky...
-
 Hörst	Hörst
 du	du
 das	das
@@ -48254,8 +48285,8 @@ eine	eine
 Nacht	Nacht
 im	im
 Wald...	Wald...
-	nie
-	wieder!"
+NIE	nie
+WIEDER!"	wieder!"
 
 Einmal,	Einmal,
 als	als
@@ -48720,7 +48751,7 @@ flüsterte	flüsterte
 ängstlich	ängstlich
 zu	zu
 Lisa:	Lisa:
-„Ehhh,	„Ehhh,
+„,	„,
 icchh	icchh
 haabe	haabe
 Anngstt!"	Anngstt!"
@@ -49853,7 +49884,6 @@ hinein	hinein
 und	und
 plötzlich....	plötzlich....
 „	„
-Buhhh	Buhhh
 "	"
 sie	sie
 machten	machten
@@ -50199,6 +50229,7 @@ Sohn	Sohn
 tot	tot
 
 James	James
+e	e
 Alex	Alex
 gehe	gehe
 in	in
@@ -50490,7 +50521,6 @@ Lach....	Lach....
 Da	Da
 war	war
 Lukas	Lukas
-AHAHAH	ahahah
 
 War	War
 Nacht,	Nacht,
@@ -50566,8 +50596,7 @@ War	War
 zwei	zwei
 Bett,	Bett,
 die	die
-Küchen.	Küchen.
-
+Küchen	Küchen
 und	und
 eine	eine
 Sofa.	Sofa.
@@ -52004,8 +52033,7 @@ WARTE	Warte
 ICH	ich
 HABE	habe
 ETWAS	etwas
-GESEHEN	gesehen
-"	"
+GESEHEN"	gesehen"
 SAGT	sagt
 ANNA.	Anna.
 
@@ -52019,8 +52047,7 @@ NICHT	nicht
 SEHEN.	sehen.
 "	"
 WARTE	Warte
-HIER	hier
-"	"
+HIER"	hier"
 SAGT	sagt
 CATARINA	Catarina
 UND	und
@@ -52208,8 +52235,6 @@ sind	sind
 und	und
 Jemand	jemand
 macht	macht
-AAA	aaa
-AAA	aaa
 Die	Die
 2	2
 Kinder	Kinder
@@ -53737,6 +53762,7 @@ Vater	Vater
 gestorben	gestorben
 war.	war.
 
+1.	1.
 Am	Am
 eine	eine
 hässliche	hässliche
@@ -61656,7 +61682,8 @@ ihr	ihr
 sagte	sagte
 er	er
 dies:	dies:
-"weh,	"weh,
+"O	"O
+weh,	weh,
 welch	welch
 Schicksal	Schicksal
 mich	mich
@@ -62293,7 +62320,7 @@ er	er
 wieder	wieder
 kommt	kommt
 wusste	wusste
-niemand...	niemand...
+niemand..	niemand..
 und	und
 darauf	darauf
 stieg	stieg
