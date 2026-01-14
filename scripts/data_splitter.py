@@ -2,14 +2,15 @@
 """
 Create stratified test/train/dev sets from the corpus.
 Maintains proportions of: subcorpora, text types, and correction ratios.
+Uses line-number-based random sampling for reproducibility.
 Saves all set sentences and tracks indices to prevent overlap.
 """
 
 import os
 from configs import Paths, DataSplits
 import pandas as pd
-import numpy as np
-from typing import Dict, Tuple, Optional, List
+import random
+from typing import Dict, Tuple, Optional, List, Set
 
 def load_existing_indices(output_dir: str) -> set:
     """Load indices from existing test set to avoid overlap."""
@@ -42,27 +43,90 @@ def save_split_files(df_split: pd.DataFrame, split_name: str,
     print(f"✓ Saved {split_name} target: {tgt_file}")
     print(f"✓ Saved {split_name} indices: {indices_file}")
 
-def stratified_sample(df: pd.DataFrame, sample_size: float, 
-                     random_seed: int, split_name: str) -> Tuple[pd.DataFrame, List[int]]:
-    """Perform stratified sampling on a dataframe."""
+def stratified_sample_by_line_numbers(df: pd.DataFrame, sample_size: float, 
+                                     split_name: str, 
+                                     excluded_indices: Set[int] = None) -> Tuple[pd.DataFrame, List[int]]:
+    """
+    Perform stratified sampling using line numbers as the random pool.
+    For each stratum, collect all valid line numbers and randomly select from them.
+    """
+    if excluded_indices is None:
+        excluded_indices = set()
+    
+    # Create stratification key
     df['strat_key'] = (
         df['corpus'].astype(str) + "_" + 
         df['text_type'].astype(str) + "_" + 
         df['corrected'].astype(str)
     )
     
+    print(f"\n{'='*80}")
+    print(f"STRATIFIED SAMPLING FOR {split_name.upper()} SET")
+    print(f"{'='*80}")
+    
     sampled_indices = []
+    sampling_details = []
     
     for strat_key, group in df.groupby('strat_key'):
-        n_total = len(group)
+        # Get line numbers (indices) for this stratum, excluding already used ones
+        available_line_numbers = [idx for idx in group.index if idx not in excluded_indices]
+        
+        if len(available_line_numbers) == 0:
+            continue
+        
+        n_total = len(available_line_numbers)
         n_sample = max(1, int(n_total * sample_size))
         
-        sampled = group.sample(n=n_sample, random_state=random_seed)
-        sampled_indices.extend(sampled.index.tolist())
+        # Ensure we don't sample more than available
+        n_sample = min(n_sample, n_total)
+        
+        # Random sampling from available line numbers
+        sampled_lines = random.sample(available_line_numbers, n_sample)
+        sampled_indices.extend(sampled_lines)
+        
+        # Parse strat_key for reporting
+        parts = strat_key.split('_')
+        if len(parts) >= 3:
+            corpus = '_'.join(parts[:-2])
+            text_type = parts[-2]
+            corrected = parts[-1]
+        else:
+            corpus, text_type, corrected = strat_key, "unknown", "unknown"
+        
+        sampling_details.append({
+            'stratum': strat_key,
+            'corpus': corpus,
+            'text_type': text_type,
+            'corrected': corrected,
+            'available_lines': n_total,
+            'sampled': n_sample,
+            'percentage': f"{n_sample/n_total*100:.2f}%",
+            'sample_line_numbers': sorted(sampled_lines)[:5]  # Show first 5 as example
+        })
     
+    # Sort indices for consistent ordering
     sampled_indices_sorted = sorted(sampled_indices)
+    
+    # Create sampled dataframe
     df_sampled = df.loc[sampled_indices_sorted].copy()
     df_sampled = df_sampled.drop(columns=['strat_key'])
+    
+    # Print sampling details
+    print(f"\nTotal strata: {len(sampling_details)}")
+    print(f"Total sampled: {len(sampled_indices_sorted):,} line numbers")
+    print("\nSampling breakdown (showing first 10 strata):")
+    for detail in sampling_details[:10]:
+        print(f"  {detail['corpus']} | {detail['text_type']} | {detail['corrected']}: "
+              f"{detail['sampled']}/{detail['available_lines']} lines "
+              f"(e.g., lines {detail['sample_line_numbers']}...)")
+    
+    if len(sampling_details) > 10:
+        print(f"  ... and {len(sampling_details) - 10} more strata")
+    
+    # Save detailed sampling report
+    report_df = pd.DataFrame(sampling_details)
+    # Remove the sample_line_numbers column for the CSV (too verbose)
+    report_df_save = report_df.drop(columns=['sample_line_numbers'])
     
     return df_sampled, sampled_indices_sorted
 
@@ -105,12 +169,19 @@ def print_proportion_verification(df_full: pd.DataFrame, df_split: pd.DataFrame,
 
 def create_test_set(df: pd.DataFrame, output_dir: str, test_size: float, 
                    random_seed: int) -> Tuple[pd.DataFrame, pd.DataFrame, List[int]]:
-    """Create stratified test set."""
+    """Create stratified test set using line-number-based sampling."""
     print("\n" + "=" * 80)
     print("CREATING TEST SET")
     print("=" * 80)
+    print(f"Random seed: {random_seed}")
     
-    df_test, test_indices = stratified_sample(df, test_size, random_seed, "test")
+    # Set random seed
+    random.seed(random_seed)
+    
+    df_test, test_indices = stratified_sample_by_line_numbers(
+        df, test_size, "test", excluded_indices=set()
+    )
+    
     df_remaining = df.drop(test_indices).copy()
     
     print(f"\nTest set size: {len(df_test):,} sentences ({len(df_test)/len(df)*100:.2f}%)")
@@ -126,19 +197,29 @@ def create_test_set(df: pd.DataFrame, output_dir: str, test_size: float,
     return df_test, df_remaining, test_indices
 
 def create_train_dev_sets(df_remaining: pd.DataFrame, output_dir: str, 
-                          dev_size: float, random_seed: int) -> None:
+                          dev_size: float, test_size: float, 
+                          random_seed: int, excluded_indices: Set[int]) -> None:
     """Create train and dev sets from remaining data after test set."""
     print("\n" + "=" * 80)
     print("CREATING DEV SET FROM REMAINING DATA")
     print("=" * 80)
+    print(f"Random seed: {random_seed}")
+    
+    # Set random seed
+    random.seed(random_seed)
     
     # Calculate dev proportion relative to remaining data
-    dev_proportion = dev_size / (1 - DataSplits.TEST)
+    dev_proportion = dev_size / (1 - test_size)
     
-    df_dev, dev_indices = stratified_sample(df_remaining, dev_proportion, 
-                                             random_seed, "dev")
-    df_train = df_remaining.drop(dev_indices).copy()
-    train_indices = sorted(df_train.index.tolist())
+    df_dev, dev_indices = stratified_sample_by_line_numbers(
+        df_remaining, dev_proportion, "dev", excluded_indices=excluded_indices
+    )
+    
+    # Train set is everything remaining after test and dev
+    all_remaining_indices = set(df_remaining.index)
+    train_indices_set = all_remaining_indices - set(dev_indices)
+    train_indices = sorted(list(train_indices_set))
+    df_train = df_remaining.loc[train_indices].copy()
     
     print(f"\nEval set size: {len(df_dev):,} sentences ({len(df_dev)/len(df_remaining)*100:.2f}% of remaining)")
     print(f"Train set size: {len(df_train):,} sentences ({len(df_train)/len(df_remaining)*100:.2f}% of remaining)")
@@ -159,7 +240,7 @@ def main(csv_path: str = Paths.EXTRACT_CSV,
          random_seed: int = 42,
          create_mode: str = "interactive"):
     """
-    Main function to create dataset splits.
+    Main function to create dataset splits using line-number-based sampling.
     
     Args:
         csv_path: Path to full corpus CSV
@@ -169,7 +250,6 @@ def main(csv_path: str = Paths.EXTRACT_CSV,
         random_seed: For reproducibility
         create_mode: 'all', 'test', 'train', 'dev', or 'interactive'
     """
-    np.random.seed(random_seed)
     os.makedirs(output_dir, exist_ok=True)
     
     # Load corpus
@@ -177,10 +257,12 @@ def main(csv_path: str = Paths.EXTRACT_CSV,
     df = pd.read_csv(csv_path, encoding="utf-8")
     total_sentences = len(df)
     
-    print(f"Total sentences: {total_sentences:,}")
-    print(f"Test set: {test_size*100}% = {int(total_sentences * test_size):,} sentences")
-    print(f"Eval set: {dev_size*100}% = {int(total_sentences * dev_size):,} sentences")
-    print(f"Train set: {(1-test_size-dev_size)*100:.1f}% = {int(total_sentences * (1-test_size-dev_size)):,} sentences")
+    print(f"\nTotal sentences: {total_sentences:,}")
+    print(f"CSV line numbers: 0 to {total_sentences - 1} (header excluded)")
+    print(f"\nTarget splits:")
+    print(f"  Test set: {test_size*100}% = {int(total_sentences * test_size):,} sentences")
+    print(f"  Eval set: {dev_size*100}% = {int(total_sentences * dev_size):,} sentences")
+    print(f"  Train set: {(1-test_size-dev_size)*100:.1f}% = {int(total_sentences * (1-test_size-dev_size)):,} sentences")
     
     # Check for existing test set
     existing_test_indices = load_existing_indices(output_dir)
@@ -188,6 +270,7 @@ def main(csv_path: str = Paths.EXTRACT_CSV,
     
     if test_exists:
         print(f"\n⚠️  Found existing test set with {len(existing_test_indices):,} sentences")
+        print(f"    Line numbers: {sorted(list(existing_test_indices))[:10]}... (showing first 10)")
     
     # Interactive mode selection
     if create_mode == "interactive":
@@ -236,7 +319,8 @@ def main(csv_path: str = Paths.EXTRACT_CSV,
     if create_mode == "all":
         df_test, df_remaining, test_indices = create_test_set(df, output_dir, 
                                                               test_size, random_seed)
-        create_train_dev_sets(df_remaining, output_dir, dev_size, random_seed)
+        create_train_dev_sets(df_remaining, output_dir, dev_size, test_size,
+                              random_seed, set(test_indices))
         print("\n✅ All sets created successfully!")
         
     elif create_mode == "test":
@@ -245,7 +329,8 @@ def main(csv_path: str = Paths.EXTRACT_CSV,
         
         response = input("\nDo you want to create train and dev sets now? (yes/no): ").strip().lower()
         if response in ['yes', 'y']:
-            create_train_dev_sets(df_remaining, output_dir, dev_size, random_seed)
+            create_train_dev_sets(df_remaining, output_dir, dev_size, test_size,
+                                  random_seed, set(test_indices))
             print("\n✅ All sets created successfully!")
         else:
             print("\n✅ Test set created. You can create train/dev sets later.")
@@ -256,26 +341,30 @@ def main(csv_path: str = Paths.EXTRACT_CSV,
             return
         
         df_remaining = df.drop(list(existing_test_indices)).copy()
-        create_train_dev_sets(df_remaining, output_dir, dev_size, random_seed)
+        create_train_dev_sets(df_remaining, output_dir, dev_size, test_size,
+                              random_seed, existing_test_indices)
         print("\n✅ Train and dev sets created successfully!")
     
     elif create_mode == "train":
         if not test_exists:
             df_test, df_remaining, test_indices = create_test_set(df, output_dir, 
                                                                   test_size, random_seed)
+            excluded = set(test_indices)
         else:
             df_remaining = df.drop(list(existing_test_indices)).copy()
+            excluded = existing_test_indices
         
         response = input("\nDo you want to create dev set too? (yes/no): ").strip().lower()
         if response in ['yes', 'y']:
-            create_train_dev_sets(df_remaining, output_dir, dev_size, random_seed)
+            create_train_dev_sets(df_remaining, output_dir, dev_size, test_size,
+                                  random_seed, excluded)
             print("\n✅ Train and dev sets created successfully!")
         else:
-            # Create only train set
+            # Create only train set (all remaining data)
             train_indices = sorted(df_remaining.index.tolist())
             df_train = df_remaining.copy()
             print("\n" + "=" * 80)
-            print("SAVING TRAIN SET")
+            print("SAVING TRAIN SET (ALL REMAINING DATA)")
             print("=" * 80)
             save_split_files(df_train, "train", output_dir, train_indices)
             print("\n✅ Train set created!")
@@ -284,18 +373,23 @@ def main(csv_path: str = Paths.EXTRACT_CSV,
         if not test_exists:
             df_test, df_remaining, test_indices = create_test_set(df, output_dir, 
                                                                   test_size, random_seed)
+            excluded = set(test_indices)
         else:
             df_remaining = df.drop(list(existing_test_indices)).copy()
+            excluded = existing_test_indices
         
         response = input("\nDo you want to create train set too? (yes/no): ").strip().lower()
         if response in ['yes', 'y']:
-            create_train_dev_sets(df_remaining, output_dir, dev_size, random_seed)
+            create_train_dev_sets(df_remaining, output_dir, dev_size, test_size,
+                                  random_seed, excluded)
             print("\n✅ Eval and train sets created successfully!")
         else:
             # Create only dev set
+            random.seed(random_seed)
             dev_proportion = dev_size / (1 - test_size)
-            df_dev, dev_indices = stratified_sample(df_remaining, dev_proportion, 
-                                                     random_seed, "dev")
+            df_dev, dev_indices = stratified_sample_by_line_numbers(
+                df_remaining, dev_proportion, "dev", excluded_indices=excluded
+            )
             print("\n" + "=" * 80)
             print("SAVING DEV SET")
             print("=" * 80)
@@ -306,7 +400,9 @@ def main(csv_path: str = Paths.EXTRACT_CSV,
 if __name__ == "__main__":
     import argparse
     
-    parser = argparse.ArgumentParser(description='Create stratified dataset splits')
+    parser = argparse.ArgumentParser(
+        description='Create stratified dataset splits using line-number-based sampling'
+    )
     parser.add_argument('--csv', default=Paths.EXTRACT_CSV,
                        help='Input CSV file')
     parser.add_argument('--output-dir', default=Paths.SET_SPLITS,
