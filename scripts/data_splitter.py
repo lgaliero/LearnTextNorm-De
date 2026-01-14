@@ -47,8 +47,9 @@ def stratified_sample_by_line_numbers(df: pd.DataFrame, sample_size: float,
                                      split_name: str, 
                                      excluded_indices: Set[int] = None) -> Tuple[pd.DataFrame, List[int]]:
     """
-    Perform stratified sampling using line numbers as the random pool.
-    For each stratum, collect all valid line numbers and randomly select from them.
+    Perform stratified sampling by iteratively picking random line numbers from strata.
+    Maintains proportions by tracking how many samples each stratum needs.
+    Excludes any indices already used in previous sets.
     """
     if excluded_indices is None:
         excluded_indices = set()
@@ -64,11 +65,12 @@ def stratified_sample_by_line_numbers(df: pd.DataFrame, sample_size: float,
     print(f"STRATIFIED SAMPLING FOR {split_name.upper()} SET")
     print(f"{'='*80}")
     
-    sampled_indices = []
-    sampling_details = []
+    # Build stratum info: available line numbers (excluding already used) and target sample size
+    strata_info = {}
+    total_available = 0
     
     for strat_key, group in df.groupby('strat_key'):
-        # Get line numbers (indices) for this stratum, excluding already used ones
+        # Get line numbers for this stratum, EXCLUDING any already used indices
         available_line_numbers = [idx for idx in group.index if idx not in excluded_indices]
         
         if len(available_line_numbers) == 0:
@@ -76,15 +78,42 @@ def stratified_sample_by_line_numbers(df: pd.DataFrame, sample_size: float,
         
         n_total = len(available_line_numbers)
         n_sample = max(1, int(n_total * sample_size))
-        
-        # Ensure we don't sample more than available
         n_sample = min(n_sample, n_total)
         
-        # Random sampling from available line numbers
-        sampled_lines = random.sample(available_line_numbers, n_sample)
-        sampled_indices.extend(sampled_lines)
+        strata_info[strat_key] = {
+            'available': available_line_numbers.copy(),
+            'target': n_sample,
+            'sampled': []
+        }
+        total_available += n_total
+    
+    print(f"Total available indices (excluding {len(excluded_indices)} already used): {total_available:,}")
+    
+    # Iteratively pick random lines from strata until all targets are met
+    sampled_indices = []
+    
+    while True:
+        # Find strata that still need samples
+        active_strata = {k: v for k, v in strata_info.items() 
+                        if len(v['sampled']) < v['target'] and len(v['available']) > 0}
         
-        # Parse strat_key for reporting
+        if not active_strata:
+            break
+        
+        # Pick a random stratum from those that need samples
+        strat_key = random.choice(list(active_strata.keys()))
+        
+        # Pick a random line number from this stratum's available pool
+        line_num = random.choice(strata_info[strat_key]['available'])
+        
+        # Record the sample
+        strata_info[strat_key]['sampled'].append(line_num)
+        strata_info[strat_key]['available'].remove(line_num)
+        sampled_indices.append(line_num)
+    
+    # Prepare sampling details for reporting
+    sampling_details = []
+    for strat_key, info in strata_info.items():
         parts = strat_key.split('_')
         if len(parts) >= 3:
             corpus = '_'.join(parts[:-2])
@@ -93,19 +122,19 @@ def stratified_sample_by_line_numbers(df: pd.DataFrame, sample_size: float,
         else:
             corpus, text_type, corrected = strat_key, "unknown", "unknown"
         
+        total_available = len(info['available']) + len(info['sampled'])
         sampling_details.append({
             'stratum': strat_key,
             'corpus': corpus,
             'text_type': text_type,
             'corrected': corrected,
-            'available_lines': n_total,
-            'sampled': n_sample,
-            'percentage': f"{n_sample/n_total*100:.2f}%",
-            'sample_line_numbers': sampled_lines[:5]  # Show first 5 as example
+            'available_lines': total_available,
+            'sampled': len(info['sampled']),
+            'percentage': f"{len(info['sampled'])/total_available*100:.2f}%",
+            'sample_line_numbers': info['sampled'][:5]
         })
     
-    
-    # Create sampled dataframe
+    # Create sampled dataframe (keep extraction order)
     df_sampled = df.loc[sampled_indices].copy()
     df_sampled = df_sampled.drop(columns=['strat_key'])
     
@@ -120,11 +149,6 @@ def stratified_sample_by_line_numbers(df: pd.DataFrame, sample_size: float,
     
     if len(sampling_details) > 10:
         print(f"  ... and {len(sampling_details) - 10} more strata")
-    
-    # Save detailed sampling report
-    report_df = pd.DataFrame(sampling_details)
-    # Remove the sample_line_numbers column for the CSV (too verbose)
-    report_df_save = report_df.drop(columns=['sample_line_numbers'])
     
     return df_sampled, sampled_indices
 
@@ -171,10 +195,6 @@ def create_test_set(df: pd.DataFrame, output_dir: str, test_size: float,
     print("\n" + "=" * 80)
     print("CREATING TEST SET")
     print("=" * 80)
-    print(f"Random seed: {random_seed}")
-    
-    # Set random seed
-    random.seed(random_seed)
     
     df_test, test_indices = stratified_sample_by_line_numbers(
         df, test_size, "test", excluded_indices=set()
@@ -194,31 +214,30 @@ def create_test_set(df: pd.DataFrame, output_dir: str, test_size: float,
     
     return df_test, df_remaining, test_indices
 
-def create_train_dev_sets(df_remaining: pd.DataFrame, output_dir: str, 
+def create_train_dev_sets(df: pd.DataFrame, df_remaining: pd.DataFrame, output_dir: str, 
                           dev_size: float, test_size: float, 
                           random_seed: int, excluded_indices: Set[int]) -> None:
     """Create train and dev sets from remaining data after test set."""
     print("\n" + "=" * 80)
     print("CREATING DEV SET FROM REMAINING DATA")
     print("=" * 80)
-    print(f"Random seed: {random_seed}")
     
-    # Set random seed
-    random.seed(random_seed)
     
     # Calculate dev proportion relative to remaining data
     dev_proportion = dev_size / (1 - test_size)
     
+    # Dev set: sample from all data EXCLUDING test set indices
     df_dev, dev_indices = stratified_sample_by_line_numbers(
-        df_remaining, dev_proportion, "dev", excluded_indices=excluded_indices
+        df, dev_proportion, "dev", excluded_indices=excluded_indices
     )
     
     # Train set is everything remaining after test and dev
-    all_remaining_indices = set(df_remaining.index)
-    train_indices_set = all_remaining_indices - set(dev_indices)
+    all_indices = set(df.index)
+    used_indices = excluded_indices | set(dev_indices)
+    train_indices_set = all_indices - used_indices
     train_indices = list(train_indices_set)
-    df_train = df_remaining.loc[train_indices].copy()
-    
+    df_train = df.loc[train_indices].copy()
+
     print(f"\nEval set size: {len(df_dev):,} sentences ({len(df_dev)/len(df_remaining)*100:.2f}% of remaining)")
     print(f"Train set size: {len(df_train):,} sentences ({len(df_train)/len(df_remaining)*100:.2f}% of remaining)")
     
@@ -316,7 +335,7 @@ def main(csv_path: str = Paths.EXTRACT_CSV,
     if create_mode == "all":
         df_test, df_remaining, test_indices = create_test_set(df, output_dir, 
                                                               test_size, random_seed)
-        create_train_dev_sets(df_remaining, output_dir, dev_size, test_size,
+        create_train_dev_sets(df, df_remaining, output_dir, dev_size, test_size,
                               random_seed, set(test_indices))
         print("\n✅ All sets created successfully!")
         
@@ -326,7 +345,7 @@ def main(csv_path: str = Paths.EXTRACT_CSV,
         
         response = input("\nDo you want to create train and dev sets now? (yes/no): ").strip().lower()
         if response in ['yes', 'y']:
-            create_train_dev_sets(df_remaining, output_dir, dev_size, test_size,
+            create_train_dev_sets(df, df_remaining, output_dir, dev_size, test_size,
                                   random_seed, set(test_indices))
             print("\n✅ All sets created successfully!")
         else:
@@ -338,7 +357,7 @@ def main(csv_path: str = Paths.EXTRACT_CSV,
             return
         
         df_remaining = df.drop(list(existing_test_indices)).copy()
-        create_train_dev_sets(df_remaining, output_dir, dev_size, test_size,
+        create_train_dev_sets(df, df_remaining, output_dir, dev_size, test_size,
                               random_seed, existing_test_indices)
         print("\n✅ Train and dev sets created successfully!")
     
@@ -353,7 +372,7 @@ def main(csv_path: str = Paths.EXTRACT_CSV,
         
         response = input("\nDo you want to create dev set too? (yes/no): ").strip().lower()
         if response in ['yes', 'y']:
-            create_train_dev_sets(df_remaining, output_dir, dev_size, test_size,
+            create_train_dev_sets(df, df_remaining, output_dir, dev_size, test_size,
                                   random_seed, excluded)
             print("\n✅ Train and dev sets created successfully!")
         else:
@@ -377,7 +396,7 @@ def main(csv_path: str = Paths.EXTRACT_CSV,
         
         response = input("\nDo you want to create train set too? (yes/no): ").strip().lower()
         if response in ['yes', 'y']:
-            create_train_dev_sets(df_remaining, output_dir, dev_size, test_size,
+            create_train_dev_sets(df, df_remaining, output_dir, dev_size, test_size,
                                   random_seed, excluded)
             print("\n✅ Eval and train sets created successfully!")
         else:
