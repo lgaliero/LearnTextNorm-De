@@ -101,19 +101,17 @@ def stratified_sample_by_line_numbers(df: pd.DataFrame, sample_size: float,
             'available_lines': n_total,
             'sampled': n_sample,
             'percentage': f"{n_sample/n_total*100:.2f}%",
-            'sample_line_numbers': sorted(sampled_lines)[:5]  # Show first 5 as example
+            'sample_line_numbers': sampled_lines[:5]  # Show first 5 as example
         })
     
-    # Sort indices for consistent ordering
-    sampled_indices_sorted = sorted(sampled_indices)
     
     # Create sampled dataframe
-    df_sampled = df.loc[sampled_indices_sorted].copy()
+    df_sampled = df.loc[sampled_indices].copy()
     df_sampled = df_sampled.drop(columns=['strat_key'])
     
     # Print sampling details
     print(f"\nTotal strata: {len(sampling_details)}")
-    print(f"Total sampled: {len(sampled_indices_sorted):,} line numbers")
+    print(f"Total sampled: {len(sampled_indices):,} line numbers")
     print("\nSampling breakdown (showing first 10 strata):")
     for detail in sampling_details[:10]:
         print(f"  {detail['corpus']} | {detail['text_type']} | {detail['corrected']}: "
@@ -128,7 +126,7 @@ def stratified_sample_by_line_numbers(df: pd.DataFrame, sample_size: float,
     # Remove the sample_line_numbers column for the CSV (too verbose)
     report_df_save = report_df.drop(columns=['sample_line_numbers'])
     
-    return df_sampled, sampled_indices_sorted
+    return df_sampled, sampled_indices
 
 def print_proportion_verification(df_full: pd.DataFrame, df_split: pd.DataFrame, 
                                  split_name: str) -> None:
@@ -218,7 +216,7 @@ def create_train_dev_sets(df_remaining: pd.DataFrame, output_dir: str,
     # Train set is everything remaining after test and dev
     all_remaining_indices = set(df_remaining.index)
     train_indices_set = all_remaining_indices - set(dev_indices)
-    train_indices = sorted(list(train_indices_set))
+    train_indices = list(train_indices_set)
     df_train = df_remaining.loc[train_indices].copy()
     
     print(f"\nEval set size: {len(df_dev):,} sentences ({len(df_dev)/len(df_remaining)*100:.2f}% of remaining)")
@@ -270,8 +268,7 @@ def main(csv_path: str = Paths.EXTRACT_CSV,
     
     if test_exists:
         print(f"\n⚠️  Found existing test set with {len(existing_test_indices):,} sentences")
-        print(f"    Line numbers: {sorted(list(existing_test_indices))[:10]}... (showing first 10)")
-    
+        print(f"    Line numbers: {list(existing_test_indices)[:10]}... (showing first 10)")    
     # Interactive mode selection
     if create_mode == "interactive":
         print("\n" + "=" * 80)
@@ -361,7 +358,7 @@ def main(csv_path: str = Paths.EXTRACT_CSV,
             print("\n✅ Train and dev sets created successfully!")
         else:
             # Create only train set (all remaining data)
-            train_indices = sorted(df_remaining.index.tolist())
+            train_indices = df_remaining.index.tolist()
             df_train = df_remaining.copy()
             print("\n" + "=" * 80)
             print("SAVING TRAIN SET (ALL REMAINING DATA)")
