@@ -3,17 +3,12 @@ __pycache__/
 scripts_archive/
 
 #to be updated once finalized
-test_set.py
 data_split/
-API.ipynb
-prototypes/
-results/
 api_query.py
-bug_fix.ipynb
-fix.ipynb
 untitled.txt
 .ipynb_checkpoints/
-fix_quote.py
 output/extraction/all_corpora_edit_log.txt
 output/extraction/extraction_debug.log
 output/extraction/all_corpora OLD.csv
+output/llm_prompting/LLaMA3_2_base.tgt
+scripts/idx_lookup.py
