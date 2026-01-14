@@ -11,7 +11,7 @@ class Paths:
     SET_SPLITS = "../output/data_split"
     MODELS = "../output/results"
     LLM_BASE = "../output/results/llm_prompting/LLaMA3_2_base.tgt"
-    LLM_2S = "../output/results/llm_prompting/LLaMA3_2_2S.tgt"
+    LLM_2S = "../output/llm_prompting/LLaMA3_2_2S.tgt"
 
 # =======================
 # XML EXTRACTION CONFIGS
