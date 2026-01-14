@@ -14,3 +14,5 @@ fix.ipynb
 untitled.txt
 .ipynb_checkpoints/
 fix_quote.py
+output/extraction/all_corpora_edit_log.txt
+output/extraction/extraction_debug.log

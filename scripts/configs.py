@@ -5,6 +5,7 @@ Contains:
 2. Stats display options
 """
 class Paths: 
+    EXT_LOG_FILE ="../output/extraction/extraction_debug.log"
     EXTRACT_OUT = '../output/extraction'  
     EXTRACT_CSV = "../output/extraction/all_corpora.csv"
     SET_SPLITS = "../output/data_split"
@@ -73,7 +74,7 @@ class ApiConfig:
     HOST = "http://51.124.247.170:80"
     MODEL = "llama3.2:latest"
     MODE = "baseline"  # or "2-shot"
-    SYS_BASELINE = "Du bekommst deutsche Sätze, die von Lernenden aus Mittel- und Oberschulen geschrieben wurden. Korrigiere nur orthographische Fehler, falls vorhanden (falsche Buchstaben, Groß- und Kleinschreibung, Umlaute, ß/ss). Gib immer nur den vollständigen Satz zurück, ohne Kommentare oder Labels - auch wenn der Satz unverständlich ist. Weitere Änderungen oder Ergänzungen des Ausgangstexts sind nicht erlaubt."
+    SYS_BASELINE = "Du bekommst deutsche Sätze, die von Lernenden aus Mittel- und Oberschulen geschrieben wurden. Korrigiere nur orthographische Fehler, falls vorhanden (falsche Buchstaben, Groß- und Kleinschreibung, Umlaute, ß/ss, Getrennt- und Zusammenschreibung). Gib immer nur den vollständigen Satz zurück. Kommentiere die Sätze nicht, beantworte keine Fragen und füge keine Labels hinzu – auch wenn der Satz unverständlich ist." 
     SYS_2_SHOT = "" #to be uptadted
 
 # 2 shots to be added soon

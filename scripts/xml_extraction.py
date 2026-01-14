@@ -1,16 +1,51 @@
 import re
 import os
+import copy
 import spacy
 import argparse
+import logging
 import pandas as pd
 from configs import Paths, ExtractionParams
-from spacy.lang.de import German
+from spacy.language import Language
+from spacy.pipeline import Sentencizer
 import xml.etree.ElementTree as ET
 from typing import List, Tuple, Dict, Optional
 from dataclasses import dataclass
 
-nlp = German()
-nlp.add_pipe("sentencizer", config={"punct_chars": [".", "?", "!"]})
+
+# Compile pattern to de
+# Global abbreviation patterns - used for both sentence splitting and NORM alignment
+ABBREVIATIONS = [
+    r'bo\.\s',
+    r'o\.\s?ä',
+    r'o\.\sÄ',
+    r'[zZ]\.\s?[bB]',
+    r'\bw\.\s*z\.\s*[bB]\.?\b',
+    r'\bu\.?s\.?w\.?\)?\b',
+    r'u\.n\.w',
+    r'u\.a',
+    r'd\.h',
+    r'c\.a',
+    r'\b[oO]\.?[kK]\.?',
+    r'Min', r'min', r'bzw', r'usw', r'etc', r'ecc', r'ca', r'evtl', 
+    r'ggf', r'inkl', r'max', r'Nr', r'Tel', r'vs', r'Mr', r'Mrs', 
+    r'Ms', r'Dr', r'Prof', r'Fam'
+]
+
+
+# Compile pattern to detect any abbreviation with optional spacing
+ABBREV_PATTERN = re.compile(
+    r'\b(' + '|'.join(ABBREVIATIONS) + r')\.?\b',
+    re.IGNORECASE
+)
+
+# Create a blank German pipeline
+nlp = spacy.blank("de")
+
+# Add Sentencizer if not present
+if "sentencizer" not in nlp.pipe_names:
+    nlp.add_pipe("sentencizer")
+
 
 # ============================================================================
 # SHARED UTILITIES
@@ -23,10 +58,14 @@ class SentencePair:
     tgt: str
     has_correction: bool
     has_foreign: bool
+    orth_mappings: List[Tuple[str, str, int]] = None  # [(original, target), ...]
+    
+    def __post_init__(self):
+        if self.orth_mappings is None:
+            self.orth_mappings = []
     
     def to_tuple(self):
         return (self.src, self.tgt, self.has_correction, self.has_foreign)
-
 
 class TextBuilder:
     """
@@ -108,46 +147,94 @@ def has_sentence_ending(text: str) -> bool:
 
 def spacy_sent(text: str) -> List[str]:
     """Split German text into sentences using spaCy."""
+    debug("[DEBUG ENTER spacy_sent]")
     if not text or not text.strip():
         return []
+    debug(f"[DEBUG ORIGINAL TEXT]: {text[:200]}")
+    
+    
+    zb_map = {}
+    zb_counter = [0]
 
-    # Pre-split on double/triple periods
-    text = re.sub(r'\.{2,}', '.<SPLIT>', text)
+    def zb_replacer(match):
+        original = match.group(0)
+        placeholder = f'ZBTOKEN{zb_counter[0]}'
+        zb_map[placeholder] = original
+        zb_counter[0] += 1
+        return placeholder
 
-    # SPLIT after colon if it introduces a numbered list (": 1)", ": 2)", etc.)
-    text = re.sub(r':\s*(\d+\s*\))', r': <SPLIT>\1', text)
+    text = re.sub(r'\bw\.\s*z\.\s*[bB]\.?\b', zb_replacer, text, flags=re.IGNORECASE)
+    
+    text = re.sub(r'\b[zZ]\s*\.?\s*[bB]\.?\b', zb_replacer, text, flags=re.IGNORECASE)
 
-    # Split before any numbered list marker with or without space before ) , matches both "1)" and "1 )"
-    text = re.sub(r'(\d+\s*\))', r'.<SPLIT>\1', text)
+    # Store ALL abbreviations to preserve original form
+    abbrev_map = {}
+    abbrev_counter = [0]
 
-    # First, remove quotes from quoted segments with multiple sentences inside
-    # Match: opening quote + content with sentence-ending punctuation + more content + closing quote
-    # Pattern: ["„] + text + [.!?] + text + [""]
-    text = re.sub(r'([""„])([^"""„]+[.!?]\s+[^"""„]+)(["""])', r'\2', text)
+    def abbrev_replacer(match):
+        original = match.group(0)
+        placeholder = f'ABBREVTOKEN{abbrev_counter[0]}'
+        abbrev_map[placeholder] = original
+        abbrev_counter[0] += 1
+        return placeholder
 
-    # Now handle quoted segments that should be standalone sentences
-    # Match quotes around text starting with uppercase and having 3+ words
-    # English quotes: "Word word word"
-    text = re.sub(r'"([A-ZÄÖÜ][^"]{10,})"', r'<SPLIT>\1<SPLIT>', text)
+    # Protect multi-letter abbreviations with internal periods
+    text = re.sub(r'\bu\.?s\.?w\.?\)?\b', abbrev_replacer, text, flags=re.IGNORECASE)
+    text = re.sub(r'\bu\.n\.w\.', abbrev_replacer, text, flags=re.IGNORECASE)
+    text = re.sub(r'\bu\.a\.', abbrev_replacer, text, flags=re.IGNORECASE)
+    text = re.sub(r'\bd\.h\.', abbrev_replacer, text, flags=re.IGNORECASE)
+    text = re.sub(r'\bc\.a\.', abbrev_replacer, text, flags=re.IGNORECASE)
+    text = re.sub(r'\bo\.\s?ä\.', abbrev_replacer, text, flags=re.IGNORECASE)
+    text = re.sub(r'\bo\.\sÄ\.', abbrev_replacer, text, flags=re.IGNORECASE)
+    text = re.sub(r'\bo\.\s', abbrev_replacer, text, flags=re.IGNORECASE)
+    text = re.sub(r'etc\.?\)?', abbrev_replacer, text, flags=re.IGNORECASE) 
 
-    # German quotes: „Word word word"
-    text = re.sub(r'„([A-ZÄÖÜ][^"]{10,})"', r'<SPLIT>\1<SPLIT>', text)
+    text = re.sub(r'\b[oO]\.?[kK]\.?', abbrev_replacer, text)  # Matches Ok, ok, O.K., o.k., etc.
+    # Single-word abbreviations
+    text = re.sub(r'\b(Min|min|bzw|usw|etc|ecc|ca|evtl|ggf|inkl|max|Nr|Tel|vs|Mr|Mrs|Ms|Dr|Prof|Fam)\.', abbrev_replacer, text)
 
-    # FINAL safeguard:
-    # Force split after sentence-ending punctuation + space + uppercase
-    # (e.g. "geshaut. Danach")
-    text = re.sub(r'([.!?])\s+([A-ZÄÖÜ])', r'\1<SPLIT>\2', text)
+    
+    # CRITICAL: Split at numbered markers IMMEDIATELY - before ANY other processing
+    text = re.sub(r'(\S)\s*\d+\)\s*', r'\1<SPLIT>', text)
+
+
+    # CRITICAL FIX: Protect ellipsis inside quotes from being treated as sentence boundary
+    # Pattern: „ Text... WORD → should NOT split
+    text = re.sub(r'(„[^"]*?)\.\.\.(\s+)([A-ZÄÖÜ])', r'\1ELLIPSISMARKER\2\3', text)
+
+    # CRITICAL: Force split at period + space + uppercase (sentence boundaries)
+    # This runs AFTER abbreviation protection, so z.B. is already safe as ZBTOKEN
+    # Handle optional asterisks/bullets between period and uppercase
+    text = re.sub(r'(?<!\d)\.(?!\.)(?!<DOT>)\s+(?:\*\s+)?([A-ZÄÖÜ])', r'.<SPLIT>\1', text)
+    
+    # Split at uppercase coordinating conjunctions  
+    text = re.sub(r'(?<=[.!?\s])\s+(Und|Aber|Oder|Denn|Sondern|Doch)(?=\s+[A-ZÄÖÜ])', r' <SPLIT>\1', text)
+
+    # Only split after sentence-ending punctuation + space + uppercase letter
+    # But NOT after abbreviations or numbers
+    # Check what comes after: if it's "und" or other lowercase text, it's likely a compound word, not sentence end
+    text = re.sub(r'(?<!\d)\.(?!\.)(?!<DOT>)(\s+)(?=und\s)', r'\1', text)  # Remove period but keep space before "und" (compound word)
+    # First, temporarily mark periods inside ZBPROTECT zones so they won't be split
+    text = re.sub(r'(ZBPROTECT[^Z]*?)\.(.*?ZBPROTECTEND)', r'\1<ZBDOT>\2', text)
+    # Now split at periods, but exclude <ZBDOT>
+    text = re.sub(r'(?<!\d)\.(?!\.)(?!<DOT>)(?!<ZBDOT>)\s+([A-ZÄÖÜ])', r'.<SPLIT>\1', text)
+    # Restore the protected periods
+    text = text.replace('<ZBDOT>', '.')
+    # For short words before "und", only split if word is longer than 5 characters
+    text = re.sub(r'(?<!\d)(\w{6,})\.(?!\.)(?!<DOT>)\s+(und\s[A-ZÄÖÜ])', r'\1.<SPLIT>\2', text)
 
     chunks = text.split('<SPLIT>')
-    print("[DEBUG CHUNKS]", chunks)
     all_sentences = []
-
     
     for chunk in chunks:
         if not chunk.strip():
             continue
-        
-        # DO NOT remove markers here - keep them for now
+
+        debug(f"[DEBUG CHUNK BEFORE PROCESSING]: '{chunk[:100]}'")
+    
+        # Remove numbered markers at the start of chunks (with word boundary protection)
+        chunk = re.sub(r'^\d+\)\s*', '', chunk)
+
         clean = re.sub(r"<[^>]+>", " ", chunk)
         clean = re.sub(r"[ ]+", " ", clean)
         clean = re.sub(r"\n{2,}", "\n<PAR>\n", clean)
@@ -157,48 +244,295 @@ def spacy_sent(text: str) -> List[str]:
         out = []
         for sent in doc.sents:
             s = sent.text.strip()
-            if not s or re.fullmatch(r"[\.\?!]+", s):
+            if not s or re.fullmatch(r"[\.\\?!]+", s):
                 continue
             s = s.replace("<PAR>", "").strip()
+
+             # Restore ellipsis
+            s = s.replace('ELLIPSISMARKER', '...')
+
+            # Restore original z.B. forms from map
+            for placeholder, original in zb_map.items():
+                s = s.replace(placeholder, original)
+
+            # Restore ALL abbreviations with their original form
+            for placeholder, original in abbrev_map.items():
+                s = s.replace(placeholder, original)
             if s:
                 out.append(s)
+        
+        # Mark end of this chunk with a special marker
+        if out:
+            out[-1] = out[-1] + " <CHUNKEND>"
         
         all_sentences.extend(out)
 
     # Merge fragments
     merged = []
     buffer = ""
+    coordinating_start = re.compile(r'^(Und|Aber|Oder|Denn|Sondern|Doch)\s')
+
     for sentence in all_sentences:
         s_strip = sentence.strip()
+        
+        # Check if this sentence is marked as chunk boundary
+        is_chunk_end = s_strip.endswith('<CHUNKEND>')
+        if is_chunk_end:
+            s_strip = s_strip.replace('<CHUNKEND>', '').strip()
+        
         if not s_strip:
             continue
         if buffer:
-            if s_strip[0].islower() or not re.search(r'[.!?]$', buffer):
+            # Don't merge if next sentence starts with uppercase coordinating conjunction
+            starts_with_coord = coordinating_start.match(s_strip)
+            
+            # Check if buffer has ending punctuation
+            buffer_has_punct = re.search(r'[.!?]$', buffer)
+            
+            if starts_with_coord:
+                # Force new sentence at coordinating conjunction
+                merged.append(buffer)
+                buffer = s_strip
+            elif buffer_has_punct and s_strip[0].islower():
+                # If previous has punctuation but next is lowercase, check word count
+                # If next sentence has 3+ words, it's likely a new sentence
+                next_words = s_strip.split()
+                if len(next_words) >= 3:
+                    merged.append(buffer)
+                    buffer = s_strip
+                else:
+                    buffer += " " + s_strip
+            elif s_strip[0].islower() or not buffer_has_punct:
                 buffer += " " + s_strip
             else:
                 merged.append(buffer)
                 buffer = s_strip
         else:
             buffer = s_strip
-    
+        # CRITICAL: Force sentence boundary at chunk end (from numbered list splits)
+        if is_chunk_end and buffer:
+            merged.append(buffer)
+            buffer = ""
+
     if buffer:
         merged.append(buffer)
 
-    # ONLY NOW remove numbered markers at the very end
-    # Handles "1)", "1 )", "1.)", "1 .)"
+    # Remove numbered markers after all sentence processing is complete
     cleaned = []
     for sent in merged:
-        sent = re.sub(r'^\s*\d+\s*(?:\.?\s*\))\s*', '', sent).strip()
+        sent = re.sub(r'\d+\)', '', sent).strip()
         if sent:
             cleaned.append(sent)
-    
+
+    debug(f"[DEBUG SPACY OUTPUT] {cleaned}")
     return cleaned
+
+def split_at_quotes_aligned(src_text: str, tgt_text: str) -> Tuple[List[str], List[str], List[bool]]:
+    """
+    Split both src and tgt at quotes, keeping alignment.
+    Returns: (src_segments, tgt_segments, should_remove_quotes_per_segment)
+    Rules:
+    - Count words between quote pairs
+    - 1-3 words: Don't split, don't remove quotes
+    - 4+ words: Split and mark for quote removal
+    - Single opening quote: check words until sentence end
+    - Discourse commas: Same logic as quotes (1-3: keep, 4+: split and remove)
+    """
+    opening_quotes = r'[„"«"'']'
+    closing_quotes = r'[""»""]'
+    
+    src_words = src_text.split()
+    tgt_words = tgt_text.split()
+    
+    split_indices = []
+    quote_removal_ranges = []  # Track which segments should have quotes removed
+    comma_removal_ranges = []  # Track which segments should have commas removed
+    
+    # PHASE 1: Process quotes
+    i = 0
+    while i < len(src_words):
+        word = src_words[i]
+        
+        # Check if word starts with opening quote
+        if re.match(opening_quotes, word):
+            # Count words until closing quote
+            quote_word_count = 0
+            j = i
+            found_closing = False
+            
+            while j < len(src_words):
+                # Check if this word contains closing quote
+                if re.search(closing_quotes, src_words[j]):
+                    found_closing = True
+                    quote_word_count += 1
+                    break
+                quote_word_count += 1
+                j += 1
+            
+            # If no closing quote found, count to end of sentence
+            if not found_closing:
+                quote_word_count = len(src_words) - i
+            
+            # Apply rules based on word count
+            if quote_word_count >= 4:
+                # Split and mark for quote removal
+                if i > 0:
+                    split_indices.append(i)
+                if found_closing and j + 1 < len(src_words):
+                    split_indices.append(j + 1)
+                quote_removal_ranges.append((i, j + 1 if found_closing else len(src_words)))
+            # If 1-3 words: don't split, don't remove quotes (do nothing)
+            
+            # Move past the quoted section
+            i = j + 1 if found_closing else i + 1
+        else:
+            i += 1
+    
+    # PHASE 2: Process discourse commas (same logic as quotes)
+    i = 0
+    while i < len(src_words):
+        word = src_words[i]
+        
+        # Check if word starts with opening discourse comma (opening quote + word + comma)
+        # Pattern: „word, or "word,
+        if re.match(r'^[„"«"''][^„"""''»"]+,$', word):
+            # Count words until next discourse comma or sentence end
+            comma_word_count = 1  # Count this word
+            j = i + 1
+            found_closing_comma = False
+            
+            while j < len(src_words):
+                next_word = src_words[j]
+                # Check if this is a closing discourse comma (ends with comma before closing quote)
+                # or another discourse comma
+                if re.search(r',[„"""''»"]$', next_word) or re.match(r'^[„"«"''][^„"""''»"]+,$', next_word):
+                    found_closing_comma = True
+                    comma_word_count += 1
+                    break
+                # Check if we hit sentence-ending punctuation
+                if re.search(r'[.!?][""]?$', next_word):
+                    comma_word_count += 1
+                    break
+                comma_word_count += 1
+                j += 1
+            
+            # If we didn't find a closing comma, count to end
+            if not found_closing_comma and j >= len(src_words):
+                comma_word_count = len(src_words) - i
+            
+            # Apply rules based on word count
+            if comma_word_count >= 4:
+                # Split and mark for comma removal
+                if i > 0 and i not in split_indices:
+                    split_indices.append(i)
+                if found_closing_comma and j + 1 < len(src_words) and (j + 1) not in split_indices:
+                    split_indices.append(j + 1)
+                comma_removal_ranges.append((i, j + 1 if found_closing_comma else len(src_words)))
+            elif comma_word_count <= 3:
+                # Just mark for comma removal without splitting
+                comma_removal_ranges.append((i, j + 1 if found_closing_comma else len(src_words)))
+            
+            # Move past the comma section
+            i = j + 1 if found_closing_comma else i + 1
+        else:
+            i += 1
+    
+    # If no splits, return as-is with appropriate removal flags
+    if not split_indices:
+        has_quotes = any(start <= 0 and end >= len(src_words) for start, end in quote_removal_ranges)
+        has_commas = any(start <= 0 and end >= len(src_words) for start, end in comma_removal_ranges)
+        return [src_text], [tgt_text], [has_quotes or has_commas]
+    
+    # Remove duplicates and sort
+    split_indices = sorted(set(split_indices))
+    
+    # Apply splits to both src and tgt
+    src_segments = []
+    tgt_segments = []
+    should_remove_quotes = []
+    
+    prev_idx = 0
+    for split_idx in split_indices:
+        src_seg = ' '.join(src_words[prev_idx:split_idx]).strip()
+        tgt_seg = ' '.join(tgt_words[prev_idx:split_idx]).strip()
+        
+        if src_seg or tgt_seg:
+            src_segments.append(src_seg)
+            tgt_segments.append(tgt_seg)
+            
+            # Check if this segment needs quote removal
+            segment_has_quotes = any(
+                prev_idx >= start and split_idx <= end 
+                for start, end in quote_removal_ranges
+            )
+            
+            # Check if this segment needs comma removal
+            segment_has_commas = any(
+                prev_idx >= start and split_idx <= end 
+                for start, end in comma_removal_ranges
+            )
+            
+            should_remove_quotes.append(segment_has_quotes or segment_has_commas)
+        
+        prev_idx = split_idx
+    
+    # Add remaining
+    src_seg = ' '.join(src_words[prev_idx:]).strip()
+    tgt_seg = ' '.join(tgt_words[prev_idx:]).strip()
+    
+    if src_seg or tgt_seg:
+        src_segments.append(src_seg)
+        tgt_segments.append(tgt_seg)
+        
+        segment_has_quotes = any(
+            prev_idx >= start 
+            for start, end in quote_removal_ranges
+        )
+        
+        segment_has_commas = any(
+            prev_idx >= start 
+            for start, end in comma_removal_ranges
+        )
+        
+        should_remove_quotes.append(segment_has_quotes or segment_has_commas)
+    
+    # Ensure equal length
+    while len(src_segments) < len(tgt_segments):
+        src_segments.append('')
+        should_remove_quotes.append(False)
+    while len(tgt_segments) < len(src_segments):
+        tgt_segments.append('')
+    
+    return src_segments, tgt_segments, should_remove_quotes
+
+def remove_quote_markers(text: str) -> str:
+    """Remove standalone quote markers and discourse commas."""
+    words = text.split()
+    filtered = []
+    
+    for word in words:
+        # Remove standalone quotes
+        if re.fullmatch(r'[„"""«»'']+', word):
+            continue
+        
+        # Remove discourse commas (opening quote + text + comma)
+        # Strip the comma if it's a discourse marker
+        if re.match(r'^[„"«"''][^„"""''»"]+,$', word):
+            # Remove trailing comma before closing quote
+            word = word.rstrip(',')
+        
+        # Also remove commas before closing quotes in any word
+        word = re.sub(r',([„"""''»"])$', r'\1', word)
+        
+        filtered.append(word)
+    
+    return ' '.join(filtered)
 
 # ============================================================================
 # KOLIPSI EXTRACTION
 # ============================================================================
 
-def extract_kolipsi(element) -> Tuple[str, str, bool]:
+def extract_kolipsi(element) -> Tuple[str, str, bool, List[Tuple[str, str]]]:
     """
     Extract src and tgt from Kolipsi element.
     Returns (src_text, tgt_text, has_corrections)
@@ -206,6 +540,7 @@ def extract_kolipsi(element) -> Tuple[str, str, bool]:
     src_builder = TextBuilder()
     tgt_builder = TextBuilder()
     has_corrections = False
+    orth_mappings = []
 
     def get_element_text(elem):
         """Get all text from element and descendants."""
@@ -276,20 +611,42 @@ def extract_kolipsi(element) -> Tuple[str, str, bool]:
 
             orig_text = get_original_form_text(original) if original is not None else ""
             tgt_text = get_element_text(target) if target is not None else ""
+            if orig_text and tgt_text and orig_text.strip() != tgt_text.strip():
+                orth_mappings.append((orig_text.strip(), tgt_text.strip()))
 
             # Check for sentence break
             prev_src = src.get_text()
+            # Don't split if target ends with hyphen (compound word component like "Obst-")
             if (orig_text and tgt_text
                 and len(orig_text) > 0 and len(tgt_text) > 0
                 and orig_text[0].islower() != tgt_text[0].islower()
-                and has_sentence_ending(prev_src)):
-                src.add_marker(" <SENTBREAK> ")
-                tgt.add_marker(" <SENTBREAK> ")
-
+                and has_sentence_ending(prev_src)
+                and not tgt_text.endswith('-')):
+                
+                # Check if previous word is an adjective/adverb that shouldn't trigger split
+                prev_words = prev_src.split()
+                if prev_words:
+                    last_word = prev_words[-1].rstrip('.,!?').lower()
+                    # Don't split after common adjectives/adverbs before nouns
+                    non_boundary_words = {'sehr', 'viel', 'viele', 'wenig', 'wenige', 'mehr', 'alle', 'einige', 'manche', 'solche'}
+                    if last_word not in non_boundary_words:
+                        src.add_marker(" <SENTBREAK> ")
+                        tgt.add_marker(" <SENTBREAK> ")
+                        
+            # Split multi-word forms by spaces and add word-by-word
             if orig_text:
-                src.add_text(orig_text)
+                orig_words = orig_text.split()
+                for i, word in enumerate(orig_words):
+                    if i > 0:
+                        src.add_space()
+                    src.add_text(word)
+
             if tgt_text:
-                tgt.add_text(tgt_text)
+                tgt_words = tgt_text.split()
+                for i, word in enumerate(tgt_words):
+                    if i > 0:
+                        tgt.add_space()
+                    tgt.add_text(word)
 
             # Handle tail with proper spacing
             if node.tail:
@@ -425,48 +782,39 @@ def extract_kolipsi(element) -> Tuple[str, str, bool]:
 
         # CORRECTION
         elif tag == "correction":
-            deletion_text = ""
-            insertion_text = ""
-            
             for child in node:
                 child_tag = strip_namespace(child.tag).lower()
                 
+                # Ignore deletion entirely
                 if child_tag == "deletion":
-                    if child.text and child.text.strip():
-                        deletion_text = child.text.strip()
+                    continue
                 
                 elif child_tag == "insertion":
+                    # Process insertion in document order: text and children mixed
+                    # Check spacing before insertion content
+                    should_merge = (
+                        src.parts 
+                        and src.parts[-1] 
+                        and not src.parts[-1].endswith((' ', '\n'))
+                    )
+                    
+                    # Add text before first child (if any)
                     if child.text and child.text.strip():
-                        insertion_text = child.text.strip()
+                        src.add_text(child.text.strip(), merge=should_merge)
+                        tgt.add_text(child.text.strip(), merge=should_merge)
+                    
+                    # Process nested elements (like overwrite)
                     for grandchild in child:
                         recurse(grandchild, src, tgt)
-            
-            if deletion_text and insertion_text:
-                src.add_text(insertion_text, merge=True)
-                tgt.add_text(insertion_text, merge=True)
-            elif insertion_text and not deletion_text:
-                needs_space_before = False
-                if src.parts:
-                    last_part = src.parts[-1]
-                    if last_part and last_part[-1].islower():
-                        words = last_part.split()
-                        if words and len(words[-1]) > 2:
-                            needs_space_before = True
-                
-                if needs_space_before:
-                    src.add_space()
-                    tgt.add_space()
-                
-                src.add_text(insertion_text, merge=True)
-                tgt.add_text(insertion_text, merge=True)
             
             if node.tail:
                 if has_leading_whitespace(node.tail):
                     src.add_space()
                     tgt.add_space()
                 if node.tail.strip():
-                    src.add_text(node.tail.strip(), merge=True)
-                    tgt.add_text(node.tail.strip(), merge=True)
+                    merge_tail = not has_leading_whitespace(node.tail)
+                    src.add_text(node.tail.strip(), merge=merge_tail)
+                    tgt.add_text(node.tail.strip(), merge=merge_tail)
             return
 
         # REDUCTION
@@ -507,6 +855,17 @@ def extract_kolipsi(element) -> Tuple[str, str, bool]:
 
         # AMBIGUOUS
         elif tag == "ambiguous":
+            # Handle text before alternatives
+            if node.text and node.text.strip():
+                should_merge = (
+                    src.parts 
+                    and src.parts[-1] 
+                    and not src.parts[-1].endswith((' ', '\n'))
+                )
+                src.add_text(node.text.strip(), merge=should_merge)
+                tgt.add_text(node.text.strip(), merge=should_merge)
+            
+            # Get first alternative
             first_alternative = None
             for child in node:
                 child_tag = strip_namespace(child.tag).lower()
@@ -516,20 +875,16 @@ def extract_kolipsi(element) -> Tuple[str, str, bool]:
             
             if first_alternative is not None and first_alternative.text:
                 alt_text = first_alternative.text.strip()
-                needs_space = False
-                if src.parts:
-                    last_part = src.parts[-1]
-                    if last_part and last_part[-1].isalpha():
-                        words = last_part.split()
-                        if words and len(words[-1]) > 2:
-                            needs_space = True
                 
-                if needs_space:
-                    src.add_space()
-                    tgt.add_space()
+                # Check spacing before <alternative> tag
+                should_merge = (
+                    src.parts 
+                    and src.parts[-1] 
+                    and not src.parts[-1].endswith((' ', '\n'))
+                )
                 
-                src.add_text(alt_text)
-                tgt.add_text(alt_text)
+                src.add_text(alt_text, merge=should_merge)
+                tgt.add_text(alt_text, merge=should_merge)
             
             if node.tail:
                 if has_leading_whitespace(node.tail):
@@ -544,23 +899,24 @@ def extract_kolipsi(element) -> Tuple[str, str, bool]:
         # STRIKEOVER
         elif tag == "strikeover":
             expansions = [child.text for child in node
-                          if strip_namespace(child.tag).lower() == "expansion" and child.text]
-        
-            merged = "".join(expansions)
-        
-            should_merge = (
-                src.parts
-                and src.parts[-1]
-                and not src.parts[-1].endswith((" ", "\n"))
-            )
-        
-            if should_merge:
-                src.add_text(merged, merge=True)
-                tgt.add_text(merged, merge=True)
-            else:
-                src.add_text(merged)
-                tgt.add_text(merged)
-        
+            if strip_namespace(child.tag).lower() == "expansion" and child.text]
+            # Use only the FIRST expansion (the original character before strikethrough)
+            merged = expansions[1] if expansions else ""
+
+            if merged:
+                should_merge = (
+                    src.parts
+                    and src.parts[-1]
+                    and not src.parts[-1].endswith((" ", "\n"))
+                )
+
+                if should_merge:
+                    src.add_text(merged, merge=True)
+                    tgt.add_text(merged, merge=True)
+                else:
+                    src.add_text(merged)
+                    tgt.add_text(merged)
+
             if node.tail:
                 if has_leading_whitespace(node.tail):
                     src.add_space()
@@ -579,20 +935,53 @@ def extract_kolipsi(element) -> Tuple[str, str, bool]:
                 if child_tag == "over":
                     over = child
                     break
-
+        
             over_text = over.text if over is not None and over.text else ""
-
+        
             if over_text:
-                src.add_text(over_text, merge=True)
-                tgt.add_text(over_text, merge=True)
-
+                # Check spacing before <overwrite> tag
+                should_merge = (
+                    src.parts 
+                    and src.parts[-1] 
+                    and not src.parts[-1].endswith((' ', '\n'))
+                )
+                
+                src.add_text(over_text, merge=should_merge)
+                tgt.add_text(over_text, merge=should_merge)
+        
             if node.tail:
                 if has_leading_whitespace(node.tail):
                     src.add_space()
                     tgt.add_space()
                 if node.tail.strip():
-                    src.add_text(node.tail.strip(), merge=True)
-                    tgt.add_text(node.tail.strip(), merge=True)
+                    merge_tail = not has_leading_whitespace(node.tail)
+                    src.add_text(node.tail.strip(), merge=merge_tail)
+                    tgt.add_text(node.tail.strip(), merge=merge_tail)
+            return
+
+        # OVER (standalone, not inside overwrite)
+        elif tag == "over":
+            over_text = node.text.strip() if node.text else ""
+            
+            if over_text:
+                # Check spacing before <over> tag
+                should_merge = (
+                    src.parts 
+                    and src.parts[-1] 
+                    and not src.parts[-1].endswith((' ', '\n'))
+                )
+                
+                src.add_text(over_text, merge=should_merge)
+                tgt.add_text(over_text, merge=should_merge)
+            
+            if node.tail:
+                if has_leading_whitespace(node.tail):
+                    src.add_space()
+                    tgt.add_space()
+                if node.tail.strip():
+                    merge_tail = not has_leading_whitespace(node.tail)
+                    src.add_text(node.tail.strip(), merge=merge_tail)
+                    tgt.add_text(node.tail.strip(), merge=merge_tail)
             return
 
         # FOREIGN_WORD
@@ -635,12 +1024,31 @@ def extract_kolipsi(element) -> Tuple[str, str, bool]:
             tgt.add_marker(" <SENTBREAK> ")
             
             if node.tail:
-                if has_leading_whitespace(node.tail):
-                    src.add_space()
-                    tgt.add_space()
-                if node.tail.strip():
-                    src.add_text(node.tail.strip())
-                    tgt.add_text(node.tail.strip())
+                # Split tail at sentence boundaries (periods followed by lowercase/uppercase)
+                tail_text = node.tail.strip()
+                if tail_text:
+                    # Check if tail starts immediately with period+text (like "..und")
+                    if re.match(r'^\.+\w', tail_text):
+                        # Split: keep periods with previous, start new sentence with word
+                        match = re.match(r'^(\.+)(.+)$', tail_text)
+                        if match:
+                            periods = match.group(1)
+                            rest = match.group(2)
+                            src.add_text(periods, merge=True)
+                            tgt.add_text(periods, merge=True)
+                            src.add_marker(" <SENTBREAK> ")
+                            tgt.add_marker(" <SENTBREAK> ")
+                            src.add_text(rest)
+                            tgt.add_text(rest)
+                        else:
+                            src.add_text(tail_text)
+                            tgt.add_text(tail_text)
+                    else:
+                        if has_leading_whitespace(node.tail):
+                            src.add_space()
+                            tgt.add_space()
+                        src.add_text(tail_text)
+                        tgt.add_text(tail_text)
             return
 
         # SPACEWRAPPER
@@ -679,6 +1087,30 @@ def extract_kolipsi(element) -> Tuple[str, str, bool]:
                 src.add_space()
                 tgt.add_space()
             return
+    
+        # SIC
+        elif tag == "sic":
+            sic_text = node.text.strip() if node.text and node.text.strip() else ""
+            
+            if sic_text:
+                # Add sic content to BOTH src and tgt (it's the actual text that appears)
+                src.add_text(sic_text)
+                tgt.add_text(sic_text)
+            
+            # Process any nested elements (though sic usually has just text)
+            for child in node:
+                recurse(child, src, tgt)
+            
+            # Handle tail
+            if node.tail:
+                if has_leading_whitespace(node.tail):
+                    src.add_space()
+                    tgt.add_space()
+                if node.tail.strip():
+                    merge_tail = not has_leading_whitespace(node.tail)
+                    src.add_text(node.tail.strip(), merge=merge_tail)
+                    tgt.add_text(node.tail.strip(), merge=merge_tail)
+            return
 
         # OTHER (default handler)
         else:
@@ -707,11 +1139,11 @@ def extract_kolipsi(element) -> Tuple[str, str, bool]:
                     tgt.add_text(node.tail.strip(), merge=merge_tail)
 
     recurse(element, src_builder, tgt_builder)
-    return src_builder.get_text(), tgt_builder.get_text(), has_corrections
+    return src_builder.get_text(), tgt_builder.get_text(), has_corrections, orth_mappings
 
 def extract_kolipsi_sentences(element) -> List[SentencePair]:
     """Extract sentence pairs from Kolipsi element."""
-    src_full, tgt_full, _ = extract_kolipsi(element)
+    src_full, tgt_full, _, orth_mappings = extract_kolipsi(element)
 
     if not src_full and not tgt_full:
         return []
@@ -751,6 +1183,22 @@ def extract_kolipsi_sentences(element) -> List[SentencePair]:
         src_sents = spacy_sent(src_chunk) if src_chunk else []
         tgt_sents = spacy_sent(tgt_chunk) if tgt_chunk else []
 
+        # NEW: Apply quote-based splitting WITH ALIGNMENT
+        src_sents_split = []
+        tgt_sents_split = []
+
+        for i in range(len(src_sents)):
+            src_sent = src_sents[i] if i < len(src_sents) else ""
+            tgt_sent = tgt_sents[i] if i < len(tgt_sents) else ""
+            
+            # Split with alignment and get quote removal flags
+            src_segs, tgt_segs, remove_quotes_flags = split_at_quotes_aligned(src_sent, tgt_sent)
+            src_sents_split.extend(src_segs)
+            tgt_sents_split.extend(tgt_segs)
+
+        src_sents = src_sents_split
+        tgt_sents = tgt_sents_split
+
         if not src_sents and not tgt_sents:
             continue
 
@@ -758,44 +1206,198 @@ def extract_kolipsi_sentences(element) -> List[SentencePair]:
         for i in range(max_len):
             src_sent = src_sents[i] if i < len(src_sents) else ""
             tgt_sent = tgt_sents[i] if i < len(tgt_sents) else ""
-            
+     
             has_correction = (src_sent.strip() != tgt_sent.strip())
+            # Check if this is continuation of split compound word
+            if (pairs and 
+                src_sent and len(src_sent.split()) == 1 and src_sent[0].islower() and
+                tgt_sent and len(tgt_sent.split()) == 1 and tgt_sent[0].isupper()):
+                # Merge with previous pair - replace its target with current target
+                pairs[-1] = SentencePair(
+                    src=pairs[-1].src,
+                    tgt=tgt_sent,
+                    has_correction=True,
+                    has_foreign=pairs[-1].has_foreign or has_foreign_in_chunk
+                )
+                continue  # Skip adding this as separate pair
             
             if src_sent or tgt_sent:
+                # Filter mappings that appear in this sentence
+                sent_mappings = [
+                    (orig, tgt_map) for orig, tgt_map in orth_mappings
+                    if orig in src_sent
+                ]
+                
                 pairs.append(SentencePair(
                     src=src_sent,
                     tgt=tgt_sent,
                     has_correction=has_correction,
-                    has_foreign=has_foreign_in_chunk
+                    has_foreign=has_foreign_in_chunk,
+                    orth_mappings=sent_mappings
                 ))
 
     return pairs
-
 
 # ============================================================================
 # LEONIDE EXTRACTION
 # ============================================================================
 
-def extract_leonide(paragraph) -> Tuple[str, str, bool]:
+def extract_leonide(paragraph, all_paragraphs=None) -> Tuple[str, str, bool, List[Tuple[str, str]]]:
     """Extract text from LEONIDE paragraph."""
     src_builder = TextBuilder()
     tgt_builder = TextBuilder()
     has_corrections = False
+    orth_error_mappings = []  # NEW: Collect (original, target) pairs
+
+    def get_nested_text(element) -> str:
+        """Recursively extract text from nested elements."""
+        if element is None:
+            return ""
+        
+        # Try direct text first
+        if element.text and element.text.strip():
+            return element.text.strip()
+        
+        # Check if any children exist
+        children_list = list(element)
+        
+        # If no children, use itertext as fallback
+        if not children_list:
+            return ''.join(element.itertext()).strip()
+        
+        # Has children - recursively search them
+        for child in children_list:
+            text = get_nested_text(child)  # ALWAYS recurse
+            if text:
+                return text
+        
+        # If no text found in children, use itertext as last resort
+        return ''.join(element.itertext()).strip()
 
     def process_node(node, src: TextBuilder, tgt: TextBuilder):
         nonlocal has_corrections
+        nonlocal orth_error_mappings 
+        debug(f"[DEBUG PROCESS_NODE CALLED] tag={strip_namespace(node.tag)}")
         
-        if node.text and node.text.strip():
+        # Check if the node itself is an orth_error (when called recursively)
+        if 'orth_error' in node.tag.lower():
+            debug(f"[DEBUG PROCESS_NODE] Handling orth_error")
+            has_corrections = True
+            
+            target_attr = node.get('orth_error_target', '')
+            
+            # Check if there are special children that need custom handling
+            has_ambiguous_child = any('tran_ambiguous' in c.tag.lower() for c in node)
+            has_deletion_child = any('tran_word_deletion' in c.tag.lower() for c in node)
+
+            if has_ambiguous_child or has_deletion_child:
+                # Build text manually, skipping deletions and handling ambiguous
+                original_parts = []
+                
+                # Add node.text (e.g., "weg")
+                if node.text and node.text.strip():
+                    original_parts.append(node.text.strip())
+                
+                for child in node:
+                    child_tag = child.tag.lower()                    
+                    # Skip deletions entirely
+                    if 'tran_word_deletion' in child_tag:
+                        # But add the tail after deletion
+                        if child.tail and child.tail.strip():
+                            if original_parts and not original_parts[-1].endswith(' '):
+                                original_parts.append(' ')
+                            original_parts.append(child.tail.strip())
+                        continue
+                    
+                    # Handle ambiguous - use get_nested_text to handle deep nesting
+                    if 'tran_ambiguous' in child_tag:
+                        if original_parts and not original_parts[-1].endswith(' '):
+                            original_parts.append(' ')
+                        # Use get_nested_text to extract from potentially nested structures
+                        ambiguous_text = get_nested_text(child)
+                        if ambiguous_text:
+                            original_parts.append(ambiguous_text)
+                
+                original_text = ''.join(original_parts)
+            else:
+                # Use get_nested_text to handle nested structures
+                original_text = get_nested_text(node)
+            if node.text and has_leading_whitespace(node.text):
+                src.add_space()
+                tgt.add_space()
+            
+            if original_text:
+                src.add_text(original_text)
+            
+            if target_attr:
+                tgt.add_text(target_attr)
+            elif original_text:
+                tgt.add_text(original_text)
+            
+            return  # Don't process children or continue 
+
+        # Check if the node itself is a tran_capitalisation (when called recursively)
+        if 'tran_capitalisation' in node.tag.lower():
+            original_text = node.text.strip() if node.text else ""
+            target_attr = node.get('tran_capitalisation_target', '')
+               
+            # Only add space if we already have content
+            if (original_text or target_attr) and src.parts:
+                src.add_space()
+                tgt.add_space()
+            
+            if original_text:
+                src.add_text(original_text)
+            
+            if target_attr:
+                tgt.add_text(target_attr)
+            elif original_text:
+                # Fallback: if no target, use original for both
+                tgt.add_text(original_text)
+            
+            return  # Don't process children or continue      
+        
+        # Add node.text for tags that don't handle their own text specially
+        node_tag = node.tag.lower()
+        tags_that_handle_own_text = ['tran_word_correction', 'tran_word_insertion', 'tran_word_deletion', 
+                                       'tran_foreign_word', 'tran_symbol', 'tran_emoticon', 
+                                       'tran_unreadable', 'tran_reduction', 'tran_capitalisation']
+
+        # Add node.text for leaf nodes or for tags that don't handle their own text specially
+        if node.text and node.text.strip() and (len(node) == 0 or not any(tag in node_tag for tag in tags_that_handle_own_text)):
             src.add_text(node.text.strip())
             tgt.add_text(node.text.strip())
-
+    
         for child in node:
             tag = child.tag.lower()
 
+            # DIV
+            if 'div' in tag.lower():
+                debug(f"[DEBUG DIV] Processing div with {len(child)} children")
+                # Check if this div ends mid-word (compound word split across divs)
+                ends_mid_word = (src.parts and src.parts[-1] and 
+                                not src.parts[-1].endswith((' ', '\n')) and
+                                src.parts[-1][-1].isalpha())
+                
+                if child.text and child.text.strip():
+                    # If previous div ended mid-word, merge directly
+                    src.add_text(child.text.strip(), merge=ends_mid_word)
+                    tgt.add_text(child.text.strip(), merge=ends_mid_word)
+                
+                for grandchild in child:
+                    process_node(grandchild, src, tgt)
+                
+                if child.tail:
+                    if has_leading_whitespace(child.tail):
+                        src.add_space()
+                        tgt.add_space()
+                    if child.tail.strip():
+                        src.add_text(child.tail.strip())
+                        tgt.add_text(child.tail.strip())
+                continue
+
             # FOREIGN WORD
             if 'tran_foreign_word' in tag:
-                # Mark ALL content inside foreign_word, including nested orth_errors
-                # Get ALL text from inside this foreign word element
                 all_foreign_text = ''.join(child.itertext()).strip()
                 
                 if all_foreign_text:
@@ -803,9 +1405,6 @@ def extract_leonide(paragraph) -> Tuple[str, str, bool]:
                     src.add_text(marked_word)
                     tgt.add_text(marked_word)
                 
-                # Don't process children - we've already captured everything
-                # This prevents nested orth_error from being processed separately
-                
                 if child.tail:
                     if has_leading_whitespace(child.tail):
                         src.add_space()
@@ -815,8 +1414,8 @@ def extract_leonide(paragraph) -> Tuple[str, str, bool]:
                         tgt.add_text(child.tail.strip())
                 continue
 
-            # SYMBOL / EMOTICON
-            if 'tran_symbol' in tag or 'tran_emoticon' in tag:
+            # SYMBOL / EMOTICON / UNREADABLE
+            if 'tran_symbol' in tag or 'tran_emoticon' in tag or 'tran_unreadable' in tag:
                 if child.tail:
                     if has_leading_whitespace(child.tail):
                         src.add_space()
@@ -826,38 +1425,17 @@ def extract_leonide(paragraph) -> Tuple[str, str, bool]:
                         tgt.add_text(child.tail.strip())
                 continue
 
-            # DIV
-            if tag == 'div':
-                # DIV elements often signal paragraph/sentence breaks
-                prev_text = src.get_text()
-                if prev_text and has_sentence_ending(prev_text):
-                    src.add_marker(" <SENTBREAK> ")
-                    tgt.add_marker(" <SENTBREAK> ")
-                else:
-                    src.add_space()
-                    tgt.add_space()
-
-                process_node(child, src, tgt)
-
-                if child.tail and child.tail.strip():
-                    src.add_space()
-                    tgt.add_space()
-                    src.add_text(child.tail.strip())
-                    tgt.add_text(child.tail.strip())
-                else:
-                    src.add_space()
-                    tgt.add_space()
-                continue
-
-            # WORD CORRECTION / AMBIGUOUS
-            if 'tran_word_correction' in tag or 'tran_ambiguous' in tag:
+            # AMBIGUOUS
+            if 'tran_ambiguous' in tag:
                 src.add_space()
                 tgt.add_space()
                 
+                # CRITICAL FIX: Always add child.text BEFORE processing nested elements
                 if child.text and child.text.strip():
                     src.add_text(child.text.strip())
                     tgt.add_text(child.text.strip())
-                    
+                
+                # Always recurse into children to handle nested structures
                 for grandchild in child:
                     process_node(grandchild, src, tgt)
                     
@@ -872,6 +1450,135 @@ def extract_leonide(paragraph) -> Tuple[str, str, bool]:
 
             # WORD DELETION
             if 'tran_word_deletion' in tag:
+                # Skip the deleted content entirely - do NOT add child.text to either src or tgt
+                # Only process the tail
+                if child.tail:
+                    if has_leading_whitespace(child.tail) or src.parts:
+                        src.add_space()
+                        tgt.add_space()
+                    if child.tail.strip():
+                        src.add_text(child.tail.strip())
+                        tgt.add_text(child.tail.strip())
+                continue
+
+            # For pure tran_word_insertion wrapping only tran_capitalisation: skip text, just recurse
+            if 'tran_word_correction' in tag or 'tran_word_insertion' in tag:
+                # Check what children exist
+                has_children = len(child) > 0
+                direct_capitalisation_child = any('tran_capitalisation' in c.tag.lower() for c in child)
+                orth_error_descendants = any('orth_error' in elem.tag.lower() for elem in child.iter())
+                debug(f"[DEBUG INSERTION] tag={tag}, has_children={has_children}, direct_cap={direct_capitalisation_child}, orth_descendants={orth_error_descendants}")
+
+                # CASE 1: Pure tran_word_insertion wrapping only tran_capitalisation (NOT inside orth_error)
+                # When inside orth_error, we want the orth_error handler to manage everything
+                parent_is_orth_error = 'orth_error' in node.tag.lower()
+                
+                if ('tran_word_insertion' in tag and direct_capitalisation_child 
+                    and not orth_error_descendants and not parent_is_orth_error
+                    and (not child.text or not child.text.strip())):
+                    for grandchild in child:
+                        process_node(grandchild, src, tgt)
+                    
+                    if child.tail:
+                        if has_leading_whitespace(child.tail):
+                            src.add_space()
+                            tgt.add_space()
+                        if child.tail.strip():
+                            src.add_text(child.tail.strip())
+                            tgt.add_text(child.tail.strip())
+                    continue
+
+                # CASE 2: tran_word_insertion with mixed content OR inside orth_error
+                # Process in document order, DON'T add extra space (parent orth_error handles spacing)
+                if 'tran_word_insertion' in tag:
+                    # DON'T add space here - let parent orth_error handle it
+                    
+                    # Add child.text first (if any)
+                    if child.text and child.text.strip():
+                        src.add_text(child.text.strip())
+                        tgt.add_text(child.text.strip())
+                    
+                    # Process each grandchild in order
+                    for grandchild in child:
+                        grandchild_tag = grandchild.tag.lower()
+                        
+                        # Skip deletions and unreadable, but keep their tails
+                        if 'tran_word_deletion' in grandchild_tag or 'tran_unreadable' in grandchild_tag:
+                            debug(f"[DEBUG INSERTION] Skipping deletion/unreadable")
+                            if grandchild.tail and grandchild.tail.strip():
+                                if has_leading_whitespace(grandchild.tail):
+                                    src.add_space()
+                                    tgt.add_space()
+                                src.add_text(grandchild.tail.strip())
+                                tgt.add_text(grandchild.tail.strip())
+                        # Recurse for other elements
+                        else:
+                            debug(f"[DEBUG INSERTION] Recursing into {grandchild_tag}")
+                            # CRITICAL: Extract orth_error mappings from nested elements BEFORE processing
+                            if 'orth_error' in grandchild_tag:
+                                target_attr = grandchild.get('orth_error_target', '')
+                                # Build complete original text including nested ambiguous/other tags
+                                orig_parts = []
+                                if grandchild.text and grandchild.text.strip():
+                                    orig_parts.append(grandchild.text.strip())
+                                for nested in grandchild:
+                                    nested_tag = nested.tag.lower()
+                                    if 'tran_ambiguous' in nested_tag:
+                                        if nested.text and nested.text.strip():
+                                            orig_parts.append(nested.text.strip())
+                                    elif 'tran_word_deletion' not in nested_tag:
+                                        nested_text = get_nested_text(nested)
+                                        if nested_text:
+                                            orig_parts.append(nested_text)
+                                
+                                nested_original = ' '.join(orig_parts)
+                                if nested_original and target_attr:
+                                    orth_error_mappings.append((nested_original.strip(), target_attr.strip()))
+                                    debug(f"[DEBUG INSERTION] *** STORED NESTED MAPPING: '{nested_original.strip()}' → '{target_attr.strip()}'")
+
+                            process_node(grandchild, src, tgt)
+                            
+                            # Handle tail after the element
+                            if grandchild.tail and grandchild.tail.strip():
+                                if has_leading_whitespace(grandchild.tail):
+                                    src.add_space()
+                                    tgt.add_space()
+                                src.add_text(grandchild.tail.strip())
+                                tgt.add_text(grandchild.tail.strip())
+                    
+                    # Handle child.tail
+                    if child.tail:
+                        if has_leading_whitespace(child.tail):
+                            src.add_space()
+                            tgt.add_space()
+                        if child.tail.strip():
+                            src.add_text(child.tail.strip())
+                            tgt.add_text(child.tail.strip())
+                    continue
+                
+                # CASE 3: tran_word_correction (general case)
+                if has_children and src.parts:
+                    src.add_space()
+                    tgt.add_space()
+                
+                if child.text and child.text.strip():
+                    src.add_text(child.text.strip())
+                    tgt.add_text(child.text.strip())
+                
+                for grandchild in child:
+                    grandchild_tag = grandchild.tag.lower()
+                    
+                    if 'tran_word_deletion' in grandchild_tag:
+                        if grandchild.tail:
+                            if has_leading_whitespace(grandchild.tail): 
+                                src.add_space()
+                                tgt.add_space()
+                            if grandchild.tail.strip(): 
+                                src.add_text(grandchild.tail.strip())
+                                tgt.add_text(grandchild.tail.strip())
+                    else:
+                        process_node(grandchild, src, tgt)
+                
                 if child.tail:
                     if has_leading_whitespace(child.tail):
                         src.add_space()
@@ -880,68 +1587,304 @@ def extract_leonide(paragraph) -> Tuple[str, str, bool]:
                         src.add_text(child.tail.strip())
                         tgt.add_text(child.tail.strip())
                 continue
-
+                        
+            # VARIANTS
+            if 'tran_variants' in tag:
+                if child.text and child.text.strip():
+                    src.add_text(child.text.strip())
+                    tgt.add_text(child.text.strip())
+                
+                for grandchild in child:
+                    process_node(grandchild, src, tgt)
+                
+                if child.tail:
+                    if has_leading_whitespace(child.tail):
+                        src.add_space()
+                        tgt.add_space()
+                    if child.tail.strip():
+                        src.add_text(child.tail.strip())
+                        tgt.add_text(child.tail.strip())
+                continue
+                
+            # REDUCTION
+            if 'tran_reduction' in tag:
+                target_attr = child.get('tran_reduction_target', '')
+                
+                # Get ALL text from reduction element (handles nested tags)
+                reduced_text = get_nested_text(child)
+                
+                if reduced_text and target_attr:
+                    # CRITICAL: Store mapping BEFORE any processing
+                    orth_error_mappings.append((reduced_text.strip(), target_attr.strip()))
+                    
+                    # DON'T add space automatically - check if we need it
+                    needs_space = src.parts and src.parts[-1] and not src.parts[-1].endswith(' ')
+                    
+                    if needs_space:
+                        src.add_space()
+                        tgt.add_space()
+                    
+                    # Split multi-word reductions word-by-word
+                    src_words = reduced_text.split()
+                    tgt_words = target_attr.split()
+                    
+                    # Add src words
+                    for i, word in enumerate(src_words):
+                        if i > 0:
+                            src.add_space()
+                        src.add_text(word)
+                    
+                    # Add tgt words  
+                    for i, word in enumerate(tgt_words):
+                        if i > 0:
+                            tgt.add_space()
+                        tgt.add_text(word)
+                
+                if child.tail:
+                    if has_leading_whitespace(child.tail):
+                        src.add_space()
+                        tgt.add_space()
+                    if child.tail.strip():
+                        merge_tail = not has_leading_whitespace(child.tail)
+                        src.add_text(child.tail.strip(), merge=merge_tail)
+                        tgt.add_text(child.tail.strip(), merge=merge_tail)
+                continue
             # ORTH ERROR
             if 'orth_error' in tag:
+                debug(f"[DEBUG ORTH_ERROR IN PROCESS_NODE] tagcode={child.get('tagcode', 'NONE')}, target={child.get('orth_error_target', 'NONE')}")
                 has_corrections = True
-                src.add_space()
-                tgt.add_space()
                 
-                target_attr = child.get('orth_error_target')
-                
-                # Get ONLY the direct text of orth_error element (not nested foreign_word text)
-                original_text = (child.text or "").strip()
+                # Get the target attribute (this is the corrected form)
+                target_attr = child.get('orth_error_target', '')
+                tagcode = child.get('tagcode', '')
+                debug(f"[DEBUG ORTH_ERROR] Processing orth_error with target='{target_attr}', tagcode='{tagcode}'")                
 
-                if not original_text:
-                    for sub in child:
-                        sub_tag = sub.tag.lower()
-                        if 'tran_word_correction' in sub_tag:
-                            original_text = (sub.text or "").strip()
+                # Check if this orth_error is a continuation (same tagcode appeared earlier)
+                is_continuation = False
+                
+                if tagcode and all_paragraphs:
+                    # Search ALL previous orth_errors in ALL paragraphs for matching tagcode
+                    found_earlier = False
+                    for prev_para in all_paragraphs:
+                        for prev_elem in prev_para.iter():
+                            if 'orth_error' in prev_elem.tag.lower():
+                                prev_tagcode = prev_elem.get('tagcode', '')
+                                if prev_tagcode == tagcode:
+                                    # Check if this is the SAME element (not earlier occurrence)
+                                    if prev_elem is child:
+                                        # We've reached the current element, stop searching
+                                        break
+                                    else:
+                                        # Found an earlier occurrence with same tagcode
+                                        found_earlier = True
+                                        debug(f"[DEBUG ORTH_ERROR] Found earlier orth_error with same tagcode='{tagcode}'")
+                                        break
+                        if found_earlier:
                             break
-
-                # Check for sentence break BEFORE adding text
-                prev_src = src.get_text()
-                if target_attr and original_text:
-                    # Case 1: Capitalization change (lowercase → uppercase) signals new sentence
-                    if (len(original_text) > 0 and len(target_attr) > 0
-                        and original_text[0].islower() and target_attr[0].isupper()
-                        and has_sentence_ending(prev_src)):
-                        src.add_marker(" <SENTBREAK> ")
-                        tgt.add_marker(" <SENTBREAK> ")
-                    # Case 2: Both uppercase after sentence-ending punctuation (natural boundary)
-                    elif (len(original_text) > 0 and len(target_attr) > 0
-                        and original_text[0].isupper() and target_attr[0].isupper()
-                        and has_sentence_ending(prev_src)):
-                        src.add_marker(" <SENTBREAK> ")
-                        tgt.add_marker(" <SENTBREAK> ")
-                    elif (prev_src and prev_src.rstrip().endswith('.')
-                        and len(original_text) > 0 and original_text[0].isupper()
-                        and len(target_attr) > 0 and target_attr[0].isupper()):
-                        src.add_marker(" <SENTBREAK> ")
-                        tgt.add_marker(" <SENTBREAK> ")
-                
-                # Handle deletion case (no target or empty target)
-                if not target_attr or not target_attr.strip():
-                    # This is a deletion - source has word, target should be empty
-                    # BUT: to maintain alignment, we use a special marker
-                    if original_text:
-                        src.add_text(original_text)
-                        tgt.add_text("<DEL>")  # Placeholder for deletion
-                else:
-                    # Normal correction case
-                    # Check for duplicates
-                    should_add_target = True
-                    if tgt.parts:
-                        recent_text = ' '.join(tgt.parts[-3:]) if len(tgt.parts) >= 3 else ' '.join(tgt.parts)
-                        if target_attr in recent_text:
-                            should_add_target = False
                     
-                    if original_text:
-                        src.add_text(original_text)
-                    if should_add_target:
-                        tgt.add_text(target_attr)
+                    is_continuation = found_earlier
                 
-                # Handle tail with proper spacing
+                if is_continuation:
+                    debug(f"[DEBUG ORTH_ERROR] *** CONTINUATION DETECTED *** (tagcode='{tagcode}') - SKIPPING target addition")
+
+                
+                # Build original text by processing ALL content in document order
+                original_parts = []
+                
+                # Add child.text first
+                if child.text and child.text.strip():
+                    original_parts.append(child.text.strip())
+                    debug(f"[DEBUG ORTH_ERROR] Added child.text: '{child.text.strip()}'")
+              
+                # Process each grandchild in document order
+                for grandchild in child:
+                    grandchild_tag = grandchild.tag.lower()
+                    
+                    # Skip deletion content entirely - don't extract anything from it
+                    if 'tran_word_deletion' in grandchild_tag:
+                        # Don't add any text from deletion to original_parts
+                        # Just handle the tail
+                        if grandchild.tail and grandchild.tail.strip():
+                            if original_parts and not original_parts[-1].endswith(' '):
+                                original_parts.append(' ')
+                            original_parts.append(grandchild.tail.strip())
+                        continue
+                                    
+                    # For tran_word_insertion or tran_word_correction, extract nested content
+                    if 'tran_word_insertion' in grandchild_tag or 'tran_word_correction' in grandchild_tag:
+                        # CRITICAL FIX: For tran_word_correction inside orth_error, we want the ORIGINAL text
+                        # Look for the visible text content, not nested corrections
+                        
+                        # First add the direct text of tran_word_correction itself
+                        if grandchild.text and grandchild.text.strip():
+                            if original_parts and not original_parts[-1].endswith(' '):
+                                original_parts.append(' ')
+                            original_parts.append(grandchild.text.strip())
+                        
+                        # Then look for nested elements (capitalisation, ambiguous)
+                        for nested in grandchild:
+                            nested_tag = nested.tag.lower()
+                            
+                            # Direct capitalisation
+                            if 'tran_capitalisation' in nested_tag:
+                                if nested.text and nested.text.strip():
+                                    if original_parts and not original_parts[-1].endswith(' '):
+                                        original_parts.append(' ')
+                                    original_parts.append(nested.text.strip())
+                            
+                            # Direct ambiguous - extract all text
+                            elif 'tran_ambiguous' in nested_tag:
+                                ambiguous_text = ''.join(nested.itertext()).strip()
+                                if ambiguous_text:
+                                    if original_parts and not original_parts[-1].endswith(' '):
+                                        original_parts.append(' ')
+                                    original_parts.append(ambiguous_text)
+                            
+                            # One level deeper (e.g., tran_word_correction > tran_word_insertion > tran_capitalisation)
+                            elif 'tran_word_insertion' in nested_tag:
+                                for deep_nested in nested:
+                                    deep_tag = deep_nested.tag.lower()
+                                    if 'tran_capitalisation' in deep_tag:
+                                        if deep_nested.text and deep_nested.text.strip():
+                                            if original_parts and not original_parts[-1].endswith(' '):
+                                                original_parts.append(' ')
+                                            original_parts.append(deep_nested.text.strip())
+                                    elif 'tran_ambiguous' in deep_tag:
+                                        ambiguous_text = ''.join(deep_nested.itertext()).strip()
+                                        if ambiguous_text:
+                                            if original_parts and not original_parts[-1].endswith(' '):
+                                                original_parts.append(' ')
+                                            original_parts.append(ambiguous_text)
+                        
+                        # Handle tail after tran_word_insertion/correction
+                        if grandchild.tail and grandchild.tail.strip():
+                            if original_parts and not original_parts[-1].endswith(' '):
+                                original_parts.append(' ')
+                            original_parts.append(grandchild.tail.strip())
+                        continue
+
+
+                    # Handle tran_emphasis - extract direct text AND nested content
+                    if 'tran_emphasis' in grandchild_tag:
+                        # CRITICAL: Add direct text from tran_emphasis first
+                        if grandchild.text and grandchild.text.strip():
+                            if original_parts and not original_parts[-1].endswith(' '):
+                                original_parts.append(' ')
+                            original_parts.append(grandchild.text.strip())
+                        
+                        # Then recursively extract from nested elements
+                        for nested in grandchild:
+                            nested_tag = nested.tag.lower()
+                            
+                            if 'tran_capitalisation' in nested_tag:
+                                if nested.text and nested.text.strip():
+                                    if original_parts and not original_parts[-1].endswith(' '):
+                                        original_parts.append(' ')
+                                    original_parts.append(nested.text.strip())
+                            
+                            elif 'tran_word_insertion' in nested_tag or 'tran_word_correction' in nested_tag:
+                                for deep_nested in nested:
+                                    deep_tag = deep_nested.tag.lower()
+                                    if 'tran_capitalisation' in deep_tag:
+                                        if deep_nested.text and deep_nested.text.strip():
+                                            if original_parts and not original_parts[-1].endswith(' '):
+                                                original_parts.append(' ')
+                                            original_parts.append(deep_nested.text.strip())
+                        
+                        # Handle tail after tran_emphasis
+                        if grandchild.tail and grandchild.tail.strip():
+                            if original_parts and not original_parts[-1].endswith(' '):
+                                original_parts.append(' ')
+                            original_parts.append(grandchild.tail.strip())
+                        continue
+
+                    # For ambiguous, recursively extract all text
+                    if 'tran_ambiguous' in grandchild_tag:
+                        if original_parts and not original_parts[-1].endswith(' '):
+                            original_parts.append(' ')
+                        ambiguous_text = ''.join(grandchild.itertext()).strip()
+                        if ambiguous_text:
+                            original_parts.append(ambiguous_text)
+                        
+                        # CRITICAL FIX: Handle tail after ambiguous
+                        if grandchild.tail and grandchild.tail.strip():
+                            if original_parts and not original_parts[-1].endswith(' '):
+                                original_parts.append(' ')
+                            original_parts.append(grandchild.tail.strip())
+                        continue
+                    
+                    # For other tags, just get their text
+                    if grandchild.text and grandchild.text.strip():
+                        if original_parts and not original_parts[-1].endswith(' '):
+                            original_parts.append(' ')
+                        original_parts.append(grandchild.text.strip())
+                
+                original_text = ''.join(original_parts)
+
+                # Store mapping for ALL parts (both first occurrence and continuation)
+                # This ensures NORM alignment can handle split words
+                if original_text and target_attr:
+                    # Store ALL mappings - even duplicates (they occur at different positions)
+                    orth_error_mappings.append((original_text.strip(), target_attr.strip()))
+                if not original_text and target_attr:
+                    # This orth_error only wraps deletions - skip it entirely
+                    if child.tail:
+                        if has_leading_whitespace(child.tail):
+                            src.add_space()
+                            tgt.add_space()
+                        if child.tail.strip():
+                            src.add_text(child.tail.strip())
+                            tgt.add_text(child.tail.strip())
+                    continue
+                
+                # Add space if needed
+                if child.text and has_leading_whitespace(child.text):
+                    src.add_space()
+                    tgt.add_space()
+                
+                # SENTBREAK logic (only if we have both original and target)
+                if target_attr and original_text:
+                    prev_src = src.get_text()
+                    if prev_src:
+                        prev_text_clean = prev_src.replace('<SENTBREAK>', '').replace('<DEL>', '').strip()
+                        has_real_punctuation = prev_text_clean and prev_text_clean[-1] in '.!?'
+                        
+                        if has_real_punctuation:
+                            if len(original_text) > 0 and len(target_attr) > 0:
+                                prev_words = prev_text_clean.split()
+                                last_word = prev_words[-1] if prev_words else ""
+                                last_word_lower = last_word.rstrip('.,!?').lower()
+                                
+                                non_boundary_words = {'zum', 'der', 'die', 'das', 'den', 'dem', 'des', 'ein', 'eine', 'einen', 'einem', 'einer', 'im', 'am', 'vom', 'beim'}
+                                
+                                is_abbreviation = last_word.rstrip('.,!?') in {'z.B', 'u.a', 'd.h', 'bzw', 'etc', 'ca', 'evtl', 'Mr', 'Dr', 'Prof', 'vs', 'Fam'}
+                                
+                                if last_word_lower not in non_boundary_words and not is_abbreviation:
+                                    if original_text[0].islower() and target_attr[0].isupper():
+                                        src.add_marker(" <SENTBREAK> ")
+                                        tgt.add_marker(" <SENTBREAK> ")
+                                    elif original_text[0].isupper() and target_attr[0].isupper():
+                                        src.add_marker(" <SENTBREAK> ")
+                                        tgt.add_marker(" <SENTBREAK> ")
+                
+                # Add original text to src
+                if original_text:
+                    src.add_text(original_text)
+                    debug(f"[DEBUG ORTH_ERROR] Added to SRC: '{original_text}'")
+
+
+                # Add target to tgt ONLY if not a continuation
+                if target_attr and not is_continuation:
+                    tgt.add_text(target_attr)
+                    debug(f"[DEBUG ORTH_ERROR] Added to TGT: '{target_attr}'")
+                elif original_text and not is_continuation:
+                    debug(f"[DEBUG ORTH_ERROR] Added original to TGT: '{original_text}'")
+                    tgt.add_text(original_text)
+                elif is_continuation:
+                    debug(f"[DEBUG ORTH_ERROR] *** SKIPPED adding target to TGT (continuation)")
+
+
+                # Handle tail
                 if child.tail:
                     if has_leading_whitespace(child.tail):
                         src.add_space()
@@ -949,24 +1892,40 @@ def extract_leonide(paragraph) -> Tuple[str, str, bool]:
                     if child.tail.strip():
                         src.add_text(child.tail.strip())
                         tgt.add_text(child.tail.strip())
-                continue
-                            
+                        debug(f"[DEBUG ORTH_ERROR] Added tail: '{child.tail.strip()}'")
+
+                continue               
             # CAPITALISATION
             if 'tran_capitalisation' in tag:
-                original_attr = child.text
-                target_attr = child.get('tran_capitalisation_target')
-                if original_attr:
-                    src.add_text(original_attr)
+                original_text = child.text.strip() if child.text else ""
+                target_attr = child.get('tran_capitalisation_target', '')
+                
+                # Add space before capitalisation if we have content
+                if (original_text or target_attr) and src.parts:
+                    src.add_space()
+                    tgt.add_space()
+                
+                # CRITICAL FIX: Always add original text to SRC (e.g., "NIE")
+                if original_text:
+                    src.add_text(original_text)
+                
+                # Add target (lowercase) to TGT (e.g., "nie")
                 if target_attr:
                     tgt.add_text(target_attr)
-                    
+                elif original_text:
+                    # Fallback: if no target, use original for both
+                    tgt.add_text(original_text)
+                
                 if child.tail:
                     if has_leading_whitespace(child.tail):
                         src.add_space()
                         tgt.add_space()
                     if child.tail.strip():
-                        src.add_text(child.tail.strip())
-                        tgt.add_text(child.tail.strip())
+                        # Merge punctuation directly (no space before !" or .")
+                        tail_stripped = child.tail.strip()
+                        merge_tail = tail_stripped[0] in '!?".,;:' if tail_stripped else False
+                        src.add_text(tail_stripped, merge=merge_tail)
+                        tgt.add_text(tail_stripped, merge=merge_tail)
                 continue
 
             # Recurse for other tags
@@ -981,12 +1940,20 @@ def extract_leonide(paragraph) -> Tuple[str, str, bool]:
                     src.add_text(child.tail.strip())
                     tgt.add_text(child.tail.strip())
 
-    process_node(paragraph, src_builder, tgt_builder)
-    return src_builder.get_text(), tgt_builder.get_text(), has_corrections
-
-def extract_leonide_sentences(paragraph) -> List[SentencePair]:
+    for child in paragraph:
+        process_node(child, src_builder, tgt_builder)
+    
+    debug(f"[DEBUG extract_leonide] Collected {len(orth_error_mappings)} orth_error mappings:")
+    for orig, tgt in orth_error_mappings:
+        debug(f"  '{orig}' → '{tgt}'")
+    
+    return src_builder.get_text(), tgt_builder.get_text(), has_corrections, orth_error_mappings
+    
+def extract_leonide_sentences(paragraph, all_paragraphs=None) -> List[SentencePair]:
     """Extract sentence pairs from LEONIDE paragraph."""
-    src, tgt, _ = extract_leonide(paragraph)
+    src, tgt, _, orth_mappings = extract_leonide(paragraph, all_paragraphs)
+    debug(f"[DEBUG extract_leonide_sentences] RAW SRC: '{src}'")
+    debug(f"[DEBUG extract_leonide_sentences] RAW TGT: '{tgt}'")
 
     if not src and not tgt:
         return []
@@ -994,13 +1961,27 @@ def extract_leonide_sentences(paragraph) -> List[SentencePair]:
     # Detect foreign words before cleaning markers
     has_foreign = 'FOREIGNWORDSTART' in src or 'FOREIGNWORDSTART' in tgt
 
-    # CRITICAL FIX: Check if BOTH src and tgt have the same number of sentence breaks
+    # CRITICAL FIX: NEVER use explicit breaks from DIV tags - they're unreliable
+    # Always rely on spacy for sentence splitting
     src_break_count = src.count('<SENTBREAK>')
     tgt_break_count = tgt.count('<SENTBREAK>')
     
-    # Only use explicit breaks if they match in count
-    use_explicit_breaks = (src_break_count > 0 and src_break_count == tgt_break_count)
-    
+    debug(
+        "[DEBUG LEONIDE BREAK COUNT]",
+        "src_breaks=", src_break_count,
+        "tgt_breaks=", tgt_break_count
+    )
+
+    # Force spacy splitting for all cases
+    use_explicit_breaks = False
+
+    debug(
+        "[DEBUG BREAK DECISION]",
+        "src_breaks=", src_break_count,
+        "tgt_breaks=", tgt_break_count,
+        "use_explicit_breaks=", use_explicit_breaks
+    )
+
     if use_explicit_breaks:
         # Verify breaks are in roughly the same positions
         src_chunks = [s.strip() for s in src.split('<SENTBREAK>') if s.strip()]
@@ -1009,7 +1990,7 @@ def extract_leonide_sentences(paragraph) -> List[SentencePair]:
         # If chunk counts don't match, fall back to spacy
         if len(src_chunks) != len(tgt_chunks):
             use_explicit_breaks = False
-    
+
     if use_explicit_breaks:
         # Clean foreign word markers
         src_chunks = [re.sub(r'FOREIGNWORDSTART(.*?)FOREIGNWORDEND', r'\1', chunk) for chunk in src_chunks]
@@ -1017,54 +1998,120 @@ def extract_leonide_sentences(paragraph) -> List[SentencePair]:
         
         pairs = []
         for i in range(len(src_chunks)):
-            src_sent = src_chunks[i]
-            tgt_sent = tgt_chunks[i]
+            src_chunk = src_chunks[i]
+            tgt_chunk = tgt_chunks[i]
             
-            has_correction = (src_sent.strip() != tgt_sent.strip())
+            # CRITICAL FIX: Still need to split chunks with spaCy in case they contain multiple sentences
+            src_sents = spacy_sent(src_chunk) if src_chunk else []
+            tgt_sents = spacy_sent(tgt_chunk) if tgt_chunk else []
             
-            if src_sent or tgt_sent:
-                pairs.append(SentencePair(
-                    src=src_sent,
-                    tgt=tgt_sent,
-                    has_correction=has_correction,
-                    has_foreign=has_foreign
-                ))
-        
+            # Align sentences within this chunk
+            max_len = max(len(src_sents), len(tgt_sents))
+            for j in range(max_len):
+                src_sent = src_sents[j] if j < len(src_sents) else ""
+                tgt_sent = tgt_sents[j] if j < len(tgt_sents) else ""
+                
+                has_correction = (src_sent.strip() != tgt_sent.strip())
+                
+                if src_sent or tgt_sent:
+                    # Filter mappings that appear in this sentence
+                    # Keep ALL occurrences - NORM alignment will handle which one is actually corrected
+                    sent_mappings = [
+                        (orig, tgt_map) for orig, tgt_map in orth_mappings
+                        if orig in src_sent
+                    ]
+                    
+                    pairs.append(SentencePair(
+                        src=src_sent,
+                        tgt=tgt_sent,
+                        has_correction=has_correction,
+                        has_foreign=has_foreign_in_sent,
+                        orth_mappings=sent_mappings
+                    ))
         return pairs
-    
+
     else:
-        # Remove any SENTBREAK markers since we're not using them
-        src = re.sub(r'<SENTBREAK>', ' ', src)
-        tgt = re.sub(r'<SENTBREAK>', ' ', tgt)
+        debug("[DEBUG USING SPACY FOR SENTENCE SPLIT - IGNORING SENTBREAK]")
+        # Don't use SENTBREAK markers from DIVs - just treat as one continuous text
+        # Remove ALL SENTBREAK markers and treat as continuous text
+        src = src.replace('<SENTBREAK>', ' ')
+        tgt = tgt.replace('<SENTBREAK>', ' ')
         
-        # Clean foreign word markers
-        src = re.sub(r'FOREIGNWORDSTART(.*?)FOREIGNWORDEND', r'\1', src)
-        tgt = re.sub(r'FOREIGNWORDSTART(.*?)FOREIGNWORDEND', r'\1', tgt)
-        
-        # Clean up multiple spaces
+        # DON'T clean foreign word markers yet - keep them to detect per-sentence
+        # Clean up spaces
         src = re.sub(r'\s+', ' ', src).strip()
         tgt = re.sub(r'\s+', ' ', tgt).strip()
-        
-        src_sents = spacy_sent(src)
-        tgt_sents = spacy_sent(tgt)
 
-        max_len = max(len(src_sents), len(tgt_sents))
-        pairs = []
+        debug(f"[DEBUG SRC (cleaned)]: '{src[:200]}'")
+        debug(f"[DEBUG TGT (cleaned)]: '{tgt[:200]}'")
         
-        for i in range(max_len):
+        # Split into sentences using spacy (WITH foreign markers still present)
+        src_sents = spacy_sent(src) if src else []
+        tgt_sents = spacy_sent(tgt) if tgt else []
+
+        debug(f"[DEBUG SENTENCE COUNTS] SRC={len(src_sents)}, TGT={len(tgt_sents)}")
+
+        # NEW: Apply quote-based splitting WITH ALIGNMENT
+        src_sents_split = []
+        tgt_sents_split = []
+        all_remove_quotes_flags = []  # ✓ Accumulate ALL flags
+
+        # CRITICAL: Iterate over max length, not just src_sents
+        max_len = max(len(src_sents), len(tgt_sents))
+
+        for i in range(len(src_sents)):
             src_sent = src_sents[i] if i < len(src_sents) else ""
             tgt_sent = tgt_sents[i] if i < len(tgt_sents) else ""
             
+            # Split with alignment and get quote removal flags   
+            src_segs, tgt_segs, remove_quotes_flags = split_at_quotes_aligned(src_sent, tgt_sent)
+            src_sents_split.extend(src_segs)
+            tgt_sents_split.extend(tgt_segs)
+            all_remove_quotes_flags.extend(remove_quotes_flags)  # ✓ Accumulate flags
+        
+        # Use the split sentences
+        src_sents = src_sents_split
+        tgt_sents = tgt_sents_split
+        
+        debug(f"[DEBUG AFTER QUOTE SPLIT] SRC={len(src_sents_split)}, TGT={len(tgt_sents_split)}")
+
+        # Align sentences and detect foreign words PER SENTENCE
+        pairs = []
+        max_sents = max(len(src_sents), len(tgt_sents))
+
+        for i in range(max_sents):
+            src_sent = src_sents[i] if i < len(src_sents) else ""
+            tgt_sent = tgt_sents[i] if i < len(tgt_sents) else ""
+            
+            # Detect foreign words in THIS sentence only
+            has_foreign_in_sent = ('FOREIGNWORDSTART' in src_sent or 
+                                'FOREIGNWORDSTART' in tgt_sent)
+            
+            # Clean foreign word markers from sentences
+            src_sent = re.sub(r'FOREIGNWORDSTART(.*?)FOREIGNWORDEND', r'\1', src_sent)
+            tgt_sent = re.sub(r'FOREIGNWORDSTART(.*?)FOREIGNWORDEND', r'\1', tgt_sent)
+            
+            # Apply quote removal if this was a quote-split segment
+            if i < len(all_remove_quotes_flags) and all_remove_quotes_flags[i]:
+                src_sent = remove_quote_markers(src_sent)
+                tgt_sent = remove_quote_markers(tgt_sent)
+                        
             has_correction = (src_sent.strip() != tgt_sent.strip())
             
             if src_sent or tgt_sent:
+                sent_mappings = [
+                    (orig, tgt_map) for orig, tgt_map in orth_mappings
+                    if orig in src_sent
+                ]
+                
                 pairs.append(SentencePair(
                     src=src_sent,
                     tgt=tgt_sent,
                     has_correction=has_correction,
-                    has_foreign=has_foreign
+                    has_foreign=has_foreign_in_sent,
+                    orth_mappings=sent_mappings
                 ))
-
+                
         return pairs
 
 # ============================================================================
@@ -1119,10 +2166,70 @@ def extract_from_xml(xml_content: str, corpus_type: str) -> List[SentencePair]:
 
     if corpus_type == "LEONIDE":
         paras = root.findall('.//{http://www.eurac.edu/transcanno}paragraph') or root.findall('.//paragraph')
-        all_pairs = []
+        
+        unique_paras = []
+        seen_ids = set()
         for para in paras:
-            pairs = extract_leonide_sentences(para)
-            all_pairs.extend(pairs)
+            para_id = id(para)
+            if para_id not in seen_ids:
+                seen_ids.add(para_id)
+                unique_paras.append(para)
+        
+        all_pairs = []
+        consumed = set()
+        last_para_orth_errors = {}  # Track tagcodes across paragraphs
+        
+        for i, para in enumerate(unique_paras):
+            if i in consumed:
+                continue
+            
+            # Extract orth_errors from this paragraph BEFORE sentence extraction
+            current_para_orth_errors = {}
+            for elem in para.iter():
+                tag = strip_namespace(elem.tag)
+                if 'orth_error' in tag:
+                    tagcode = elem.get('tagcode', '')
+                    target = elem.get('orth_error_target', '')
+                    if tagcode and target:
+                        current_para_orth_errors[tagcode] = target
+            
+            para_pairs = extract_leonide_sentences(para, unique_paras)
+            
+            # Check for incomplete sentence at end (existing logic)
+            if para_pairs and i + 1 < len(unique_paras):
+                last_pair = para_pairs[-1]
+                src_incomplete = last_pair.src and not last_pair.src.rstrip().endswith(('.', '!', '?'))
+                tgt_incomplete = last_pair.tgt and not last_pair.tgt.rstrip().endswith(('.', '!', '?'))
+                
+                if src_incomplete or tgt_incomplete:
+                    next_pairs = extract_leonide_sentences(unique_paras[i + 1])
+                    
+                    if next_pairs:
+                        next_pair = next_pairs[0]
+                        next_src_lower = next_pair.src and (len(next_pair.src) == 0 or next_pair.src[0].islower())
+                        next_tgt_lower = next_pair.tgt and (len(next_pair.tgt) == 0 or next_pair.tgt[0].islower())
+                        
+                        if next_src_lower or next_tgt_lower:
+                            merged_src = last_pair.src.rstrip() + ' ' + next_pair.src
+                            merged_tgt = last_pair.tgt.rstrip() + ' ' + next_pair.tgt
+                            merged_mappings = list(last_pair.orth_mappings) + list(next_pair.orth_mappings)
+                            
+                            para_pairs[-1] = SentencePair(
+                                src=merged_src,
+                                tgt=merged_tgt,
+                                has_correction=(merged_src.strip() != merged_tgt.strip()),
+                                has_foreign=last_pair.has_foreign or next_pair.has_foreign,
+                                orth_mappings=merged_mappings
+                            )
+                            consumed.add(i + 1)
+                            all_pairs.extend(para_pairs)
+                            all_pairs.extend(next_pairs[1:])
+                            last_para_orth_errors = current_para_orth_errors
+                            continue
+            
+            all_pairs.extend(para_pairs)
+            last_para_orth_errors = current_para_orth_errors
+        
         return all_pairs
 
     else:  # Kolipsi
@@ -1154,95 +2261,228 @@ def extract_from_xml(xml_content: str, corpus_type: str) -> List[SentencePair]:
 
 def clean_sentence_pairs(pairs: List[SentencePair]) -> List[SentencePair]:
     """Clean and deduplicate sentence pairs."""
+    debug(f"\n[DEBUG clean_sentence_pairs] INPUT: {len(pairs)} pairs")
+    
     cleaned = []
     seen_pairs = set()
     empty_regex = r"^\s*[\.\?!]*\s*$"
+    
+    filter_counts = {
+        'foreign': 0,
+        'interjection': 0,
+        'asterisk': 0,
+        'at_symbol': 0,
+        'meta_text': 0,
+        'empty': 0,
+        'too_short': 0,
+        'duplicate': 0
+    }
 
-    for pair in pairs:
+    for idx, pair in enumerate(pairs):
+        original_src = pair.src
+        original_tgt = pair.tgt
+        
         # Skip foreign words
         if pair.has_foreign:
+            filter_counts['foreign'] += 1
+            debug(f"  [{idx}] FILTERED (foreign): {original_src[:50]}...")
             continue
         
         src = re.sub(r"\s*\n\s*", " ", pair.src).strip()
         tgt = re.sub(r"\s*\n\s*", " ", pair.tgt).strip()
 
-        # === NEW: Remove interjections and laughs (standalone words only) ===
-        # Pattern matches word boundaries to avoid removing parts of real words
-        # Also matches interjections followed by punctuation like Ha". or ee!
-        interjection_pattern = r'\b(h[aeo]+|e+|o+|y+e+|gahahaha|hahaha+|noo+)(?:[.!?,"\s]|$)'
-        
-        # Remove interjections but keep any trailing punctuation
-        src = re.sub(interjection_pattern, lambda m: m.group(0)[-1] if m.group(0)[-1] in '.!?,"' else '', src, flags=re.IGNORECASE)
-        tgt = re.sub(interjection_pattern, lambda m: m.group(0)[-1] if m.group(0)[-1] in '.!?,"' else '', tgt, flags=re.IGNORECASE)
-        
-        # Clean up extra spaces left by removals
+        # Remove interjections
+        src_before_interj = src
+        tgt_before_interj = tgt
+
+        # Remove interjections using list-based matching (lowercase only, case-insensitive comparison)
+        interjection_words = {'haha', 'hahaha', 'hahahaha', 'hahahahaha', 'gahaha', 'gahahaha',
+                            'hee', 'heee', 'heeee', 'haheee', 'haheeee', 'haheeeeaaha',
+                            'eeeeeheheee', 'hahaaahah', 'huuhuu', 'ahhh', 'ahhhh', 'ahhhhh',
+                            'nooo', 'noo', 'noooo', 'eh', 'ehhh', 'haaaa', 'xeee', 
+                            'hooho', 'hooo', 'hoo', 'hooooo', 'wuff', 'grrr', 'arrr', 'arrrr',
+                            'buh', 'buuh', 'buhhh', 'yee', 'yeee', 'heehee', 'heeeeee', 'aaaah','eeeeeh','hooooooo'}
+
+        # Pattern-based check for repetitive interjections (e.g., EEEEEE, OOOO)
+        def is_interjection(word_clean):
+            if word_clean in interjection_words:
+                return True
+            # Check for repetitive vowels: 3+ of the SAME vowel repeated
+            if re.fullmatch(r'([aehou])\1{2,}', word_clean, flags=re.IGNORECASE):  # <-- FIXED: \1{2,} means "same char repeated 2+ more times"
+                return True
+            return False
+
+        def strip_discourse_comma(word):
+            """Remove trailing comma from discourse markers/interjections inside quotes."""
+            # If word is quoted and ends with comma before closing quote: "Uh," -> "Uh"
+            if re.match(r'^[„"""][^„"""]+,$', word):
+                return word[:-1]  # Remove comma before quote
+            return word
+
+        def filter_interjections(text):
+            words = text.split()
+            filtered = []
+            i = 0
+            
+            while i < len(words):
+                word = words[i]
+                word = strip_discourse_comma(word)
+                word_clean = word.strip('"\'""„'',.:;!?').lower()
+                
+                if is_interjection(word_clean):
+                    # Check if this is a standalone quoted interjection: „Heee" or „Hoo",
+                    if word.startswith(('„', '"', '"')) or (filtered and filtered[-1] in ('„', '"', '"')):
+                        # Remove preceding quote if it exists
+                        if filtered and filtered[-1] in ('„', '"', '"'):
+                            filtered.pop()
+                        
+                        # Skip the interjection
+                        # Check if followed by closing quote and/or comma
+                        if i + 1 < len(words):
+                            next_word = words[i + 1]
+                            # Skip closing quote/comma tokens
+                            if next_word in ('"', '"', '"', ',', '",', '",', '",'):
+                                i += 2
+                                continue
+                        
+                        i += 1
+                        continue
+                    
+                    # Regular interjection with comma: "Heee,"
+                    if word.endswith(','):
+                        i += 1
+                        continue
+                    
+                    # Skip interjection
+                    i += 1
+                    continue
+                
+                filtered.append(word)
+                i += 1
+            
+            return ' '.join(filtered)
+
+        src = filter_interjections(src)
+        tgt = filter_interjections(tgt)
+
+        if src != src_before_interj or tgt != tgt_before_interj:
+            debug(f"  [{idx}] Interjection removed: '{src_before_interj[:40]}' → '{src[:40]}'")
+
+        # Remove leading asterisk bullet points
+        src = re.sub(r'^\*\s*', '', src).strip()
+        tgt = re.sub(r'^\*\s*', '', tgt).strip()
+
+        # Remove standalone asterisks
+        src = re.sub(r'\s*\*\s*', ' ', src).strip()
+        tgt = re.sub(r'\s*\*\s*', ' ', tgt).strip()
+
+        # Clean up multiple spaces
         src = re.sub(r'\s+', ' ', src).strip()
         tgt = re.sub(r'\s+', ' ', tgt).strip()
-        # === END INTERJECTION REMOVAL ===
 
-        # === NEW: Remove leading hyphens before quotes or uppercase ===
-        # Matches: start of string + hyphen + space + (quote or uppercase letter)
+        # Remove leading hyphens
         src = re.sub(r'^-\s+(?=[""„A-ZÄÖÜ])', '', src)
         tgt = re.sub(r'^-\s+(?=[""„A-ZÄÖÜ])', '', tgt)
 
-        # === END HYPHEN REMOVAL ===
-        # Skip asterisks (censored content)
-        if '*' in src or '*' in tgt:
+        # Remove numbered list markers
+        src = re.sub(r'\b\d+\)', '', src)
+        tgt = re.sub(r'\b\d+\)', '', tgt)
+
+        src = re.sub(r'\s+', ' ', src).strip()
+        tgt = re.sub(r'\s+', ' ', tgt).strip()
+        
+        # Skip multiple asterisks
+        if re.search(r'\*{2,}', src) or re.search(r'\*{2,}', tgt):
+            filter_counts['asterisk'] += 1
+            debug(f"  [{idx}] FILTERED (asterisk): {src[:50]}...")
             continue
 
-        # CRITICAL FIX: Check EACH sentence separately (not combined)
         src_lower = src.lower()
         tgt_lower = tgt.lower()
 
-        # Check for @ symbol in either sentence
+        # Check for @ symbol
         if '@' in src or '@' in tgt:
+            filter_counts['at_symbol'] += 1
+            debug(f"  [{idx}] FILTERED (@): {src[:50]}...")
             continue
 
-        # Check for "Fortsetzung der Aufgabe 2 fehlt"
-        if 'fortsetzung der aufgabe 2 fehlt' in src_lower or 'fortsetzung der aufgabe 2 fehlt' in tgt_lower:
+        # Check for meta text patterns
+        meta_patterns = [
+            'fortsetzung der aufgabe 2 fehlt',
+            'text nicht beendet',
+            'der text abgebrochen',
+            r'die aufgabe\s*\d?\s*abgebrochen'
+        ]
+        
+        skip_meta = False
+        for pattern in meta_patterns:
+            if re.search(pattern, src_lower) or re.search(pattern, tgt_lower):
+                filter_counts['meta_text'] += 1
+                debug(f"  [{idx}] FILTERED (meta: {pattern}): {src[:50]}...")
+                skip_meta = True
+                break
+        
+        if skip_meta:
             continue
 
-        # Check for "Text nicht beendet"
-        if 'text nicht beendet' in src_lower or 'text nicht beendet' in tgt_lower:
-            continue
-
-        # Check for "der Text abgebrochen"
-        if 'der text abgebrochen' in src_lower or 'der text abgebrochen' in tgt_lower:
-            continue
-
-        # Check for "die Aufgabe abgebrochen" (with or without number)
-        if re.search(r'die aufgabe\s*\d?\s*abgebrochen', src_lower) or re.search(r'die aufgabe\s*\d?\s*abgebrochen', tgt_lower):
-            continue
-
-        # Check for any other "abgebrochen" pattern with "Text" or "Aufgabe"
+        # Check for "abgebrochen" with text/aufgabe
         if 'abgebrochen' in src_lower or 'abgebrochen' in tgt_lower:
             if 'text' in src_lower or 'text' in tgt_lower or 'aufgabe' in src_lower or 'aufgabe' in tgt_lower:
+                filter_counts['meta_text'] += 1
+                debug(f"  [{idx}] FILTERED (abgebrochen): {src[:50]}...")
                 continue
-                if re.fullmatch(empty_regex, src) or re.fullmatch(empty_regex, tgt):
-                    continue
 
-        # Remove any remaining numbered list markers
-        # Remove any remaining numbered list markers (handles "1)", "1 )", "1.)", etc.)
-        src = re.sub(r"^\s*\d+\s*[.\)]\s*", "", src).strip()
-        tgt = re.sub(r"^\s*\d+\s*[.\)]\s*", "", tgt).strip()
+        # Check for empty
+        if re.fullmatch(empty_regex, src) or re.fullmatch(empty_regex, tgt):
+            filter_counts['empty'] += 1
+            debug(f"  [{idx}] FILTERED (empty regex): SRC='{src}' TGT='{tgt}'")
+            continue
+
+        # Remove numbered markers
+        src = re.sub(r"\s*\d+\)\s*", " ", src).strip()
+        tgt = re.sub(r"\s*\d+\)\s*", " ", tgt).strip()
+
+        src = re.sub(r'\s+', ' ', src).strip()
+        tgt = re.sub(r'\s+', ' ', tgt).strip()
+
         if not src or not tgt:
+            filter_counts['empty'] += 1
+            debug(f"  [{idx}] FILTERED (empty after cleanup): SRC='{src}' TGT='{tgt}'")
             continue
         
-        # THIS IS THE FILTER FOR SINGLE-WORD SENTENCES
-        src_words = re.findall(r'\b\w+\b', src)
-        tgt_words = re.findall(r'\b\w+\b', tgt)
-        
-        if len(src_words) <= 2 or len(tgt_words) <= 2:
+        # Word count filter
+        src_abbrev_collapsed = re.sub(r'\b([a-zA-Z]\.)+', 'ABBREV', src)
+        tgt_abbrev_collapsed = re.sub(r'\b([a-zA-Z]\.)+', 'ABBREV', tgt)
+
+        src_words = [w for w in src_abbrev_collapsed.split() if re.search(r'\w', w)]
+        tgt_words = [w for w in tgt_abbrev_collapsed.split() if re.search(r'\w', w)]
+
+        if len(src_words) <=3 or len(tgt_words) <= 3:
+            filter_counts['too_short'] += 1
+            debug(f"  [{idx}] FILTERED (word count): SRC={len(src_words)} words, TGT={len(tgt_words)} words")
+            debug(f"        SRC: {src[:60]}...")
+            debug(f"        TGT: {tgt[:60]}...")
             continue
-        # END OF FILTER
-        
+                
         pair_key = (src.lower(), tgt.lower())
         if pair_key in seen_pairs:
+            filter_counts['duplicate'] += 1
+            debug(f"  [{idx}] FILTERED (duplicate): {src[:50]}...")
             continue
         
         seen_pairs.add(pair_key)
-        cleaned.append(SentencePair(src, tgt, pair.has_correction, pair.has_foreign))
 
+        cleaned.append(SentencePair(
+            src=src,
+            tgt=tgt,
+            has_correction=pair.has_correction,
+            has_foreign=pair.has_foreign,
+            orth_mappings=pair.orth_mappings
+        ))
+        debug(f"  [{idx}] ✓ KEPT: {src[:60]}... (with {len(pair.orth_mappings)} mappings)")
+
+    debug(f"\n[DEBUG clean_sentence_pairs] OUTPUT: {len(cleaned)} pairs")
+    debug(f"[DEBUG FILTER STATS]: {filter_counts}")
     return cleaned
 
 def process_file(xml_path: str, corpus_type: str) -> List[SentencePair]:
@@ -1265,7 +2505,7 @@ def process_corpora(
     corpus_configs: Dict[str, Dict],
     output_dir: str = Paths.EXTRACT_OUT,
     max_files_per_corpus: Optional[int] = None,
-    output_format: str = "norm"  # "txt", "csv", "norm", or "both"
+    output_format: str = "both"  # "txt", "csv", "norm", or "both"
 ) -> pd.DataFrame:
     """Process multiple corpora."""
     os.makedirs(output_dir, exist_ok=True)
@@ -1347,33 +2587,279 @@ def process_corpora(
             
             corpus_pairs_with_files.append((xml_filename, pairs))
 
-        # Write NORM output if requested (verticalized word-by-word format)
+       # Write NORM output if requested (verticalized word-by-word format)
         if output_format in ["norm", "both"]:
+            debug(f"\n[DEBUG NORM] Writing NORM output for {corpus_name}...")
             out_path = os.path.join(output_dir, f"{corpus_name}_full.norm")
             with open(out_path, "w", encoding="utf-8") as fh:
-                # Write file-by-file in processing order
+                debug(f"[DEBUG NORM] Processing {len(corpus_pairs_with_files)} files...")
+
+                mapping_dict = {}
+                target_counts = {}
                 for xml_filename, pairs in corpus_pairs_with_files:
-                    for pair in pairs:
-                        src_words = pair.src.split()
-                        tgt_words = pair.tgt.split()
+                    for pair_idx, pair in enumerate(pairs):
+                        debug(f"[DEBUG NORM] Pair {pair_idx} has {len(pair.orth_mappings)} mappings: {pair.orth_mappings[:3] if len(pair.orth_mappings) > 3 else pair.orth_mappings}")
+                        # Build mapping dict PER PAIR (like display_norm_preview does)
+                        # Keep BOTH dict (for fast lookup) and list (for tracking consumption)
+                        mapping_list = pair.orth_mappings
+                        mapping_dict = {orig: tgt_map for orig, tgt_map in pair.orth_mappings}
+                        used_mapping_indices = set()  # Track which mapping indices we've consumed
 
-                        max_len = max(len(src_words), len(tgt_words))
+                        # Count how many src words map to the same target (for many-to-1 cases)
+                        target_counts = {}
+                        for orig, tgt_map in pair.orth_mappings:
+                            target_counts[tgt_map] = target_counts.get(tgt_map, 0) + 1
+                        debug(f"[DEBUG NORM] Pair {pair_idx} has {len(pair.orth_mappings)} mappings: {pair.orth_mappings[:3] if len(pair.orth_mappings) > 3 else pair.orth_mappings}")
+         
+                        # If we have orth_error mappings, use them for precise alignment
+                        if True:
+                            src_words = pair.src.split()
+                            tgt_words = pair.tgt.split()
 
-                        for i in range(max_len):
-                            src_word = src_words[i] if i < len(src_words) else ""
-                            tgt_word = tgt_words[i] if i < len(tgt_words) else ""
+                            # If we have orth_error mappings, use them for precise alignment
+                            if pair.orth_mappings:
+                                # Group mappings by target to detect splits
+                                target_groups = {}
+                                for orig, tgt_map in pair.orth_mappings:
+                                    if tgt_map not in target_groups:
+                                        target_groups[tgt_map] = []
+                                    target_groups[tgt_map].append(orig)
+                                
+                                # Create final mappings with merged sources
+                                final_mappings = []
+                                for tgt_map, sources in target_groups.items():
+                                    if len(sources) > 1:
+                                        # Multi-word source for same target
+                                        merged = ' '.join(sources)
+                                        final_mappings.append((merged, tgt_map))
+                                    else:
+                                        final_mappings.append((sources[0], tgt_map))
+                                
+                                # Use final_mappings instead of pair.orth_mappings for alignment
+                                src_i = 0
+                                tgt_i = 0
 
-                            if tgt_word == "<DEL>":
-                                tgt_word = ""
+                                while src_i < len(src_words) and tgt_i < len(tgt_words):
+                                    src_word = src_words[src_i]
+                                    tgt_word = tgt_words[tgt_i]
+                                    tgt_word_clean = tgt_word.rstrip('.,!?;:')
+                                    src_word_clean = src_word.rstrip('.,!?;:')
+                                    
+                                    # FIRST: Check for multi-word mappings (e.g., "Sprachen oberschule" → "Sprachenoberschule")
+                                    found_multiword = False
+                                    for orig_key, tgt_val in mapping_dict.items():
+                                        if ' ' in orig_key:  # Multi-word source
+                                            orig_words_clean = [w.rstrip('.,!?;:') for w in orig_key.split()]
+                                            
+                                            if src_word_clean == orig_words_clean[0]:
+                                                if src_i + len(orig_words_clean) <= len(src_words):
+                                                    remaining_clean = [src_words[src_i + j].rstrip('.,!?;:') for j in range(len(orig_words_clean))]
+                                                    # CRITICAL: Check if the EXACT sequence exists in mapping (not just similar words)
+                                                    if remaining_clean == orig_words_clean:
+                                                        # Verify this mapping is for THIS occurrence by checking target alignment
+                                                        tgt_val_words = tgt_val.split()
+                                                        expected_tgt_clean = tgt_val_words[0].rstrip('.,!?;:') if tgt_val_words else ""
+                                                        # Only match if current tgt position matches expected target
+                                                        if tgt_i < len(tgt_words) and tgt_words[tgt_i].rstrip('.,!?;:') == expected_tgt_clean:
+                                                            src_group = [src_words[src_i + j] for j in range(len(orig_words_clean))]
+                                                            fh.write(f"{' '.join(src_group)}\t{tgt_val}\n")
+                                                            src_i += len(orig_words_clean)
+                                                            tgt_i += len(tgt_val_words)
+                                                            found_multiword = True
+                                                            break
+                                                    orig_normalized = re.sub(r'\s+', '', orig_key)
+                                                    if src_i + len(orig_words_clean) <= len(src_words):
+                                                        remaining_clean = [src_words[src_i + j].rstrip('.,!?;:') for j in range(len(orig_words_clean))]
+                                                        remaining_normalized = re.sub(r'\s+', '', ' '.join(remaining_clean))
+                                                        
+                                                        if remaining_normalized == orig_normalized:
+                                                            tgt_val_words = tgt_val.split()
+                                                            expected_tgt_clean = tgt_val_words[0].rstrip('.,!?;:') if tgt_val_words else ""
+                                                            if tgt_i < len(tgt_words) and tgt_words[tgt_i].rstrip('.,!?;:') == expected_tgt_clean:
+                                                                src_group = [src_words[src_i + j] for j in range(len(orig_words_clean))]
+                                                                fh.write(f"{' '.join(src_group)}\t{tgt_val}\n")
+                                                                src_i += len(orig_words_clean)
+                                                                tgt_i += len(tgt_val_words)
+                                                                found_multiword = True
+                                                                break
+                                            
+                                    if found_multiword:
+                                        continue
 
-                            if not src_word and not tgt_word:
-                                continue
+                                    # SPECIAL: Check if current word is start of a spaced abbreviation
+                                    # e.g., "w." followed by "z." followed by "B" should match "w. z. B" → "wie z.B."
+                                    if src_word_clean.endswith('.') and len(src_word_clean) <= 3:  # Short abbreviation fragment
+                                        debug(f"[DEBUG ABBREV] Found potential abbreviation start: '{src_word}' (clean: '{src_word_clean}')")
 
-                            fh.write(f"{src_word}\t{tgt_word}\n")
+                                        # Look ahead to collect potential multi-part abbreviation
+                                        lookahead_words = [src_word]
+                                        temp_i = src_i + 1
+                                        
+                                        # Collect up to 3 more single-letter abbreviations
+                                        while temp_i < len(src_words) and len(lookahead_words) < 4:
+                                            next_word = src_words[temp_i]
+                                            next_clean = next_word.rstrip('.,!?;:')
+                                            debug(f"[DEBUG ABBREV] Checking lookahead word: '{next_word}' (clean: '{next_clean}', len={len(next_clean)})")
 
-                        # EXACTLY ONE blank line after EACH sentence pair
-                        fh.write("\n")
+                                            # Check if it's a single letter with period or just a letter
+                                            if (len(next_clean) <= 2 and ('.' in next_word or next_clean.isalpha())):
+                                                lookahead_words.append(next_word)
+                                                debug(f"[DEBUG ABBREV] Added to lookahead: '{next_word}' (total words: {len(lookahead_words)})")
+                                                temp_i += 1
+                                            else:
+                                                debug(f"[DEBUG ABBREV] Stopped lookahead at: '{next_word}'")
+                                                break
+                                        
+                                        # Try to match the collected sequence against mappings
+                                        if len(lookahead_words) > 1:
+                                            lookahead_text = ' '.join(lookahead_words)
+                                            lookahead_normalized = re.sub(r'\s+', '', lookahead_text.replace('.', '.'))
+                                            
+                                            debug(f"[DEBUG ABBREV] Lookahead collected {len(lookahead_words)} words: '{lookahead_text}'")
+                                            debug(f"[DEBUG ABBREV] Lookahead normalized: '{lookahead_normalized}'")
+                                            debug(f"[DEBUG ABBREV] Checking against {len(mapping_dict)} mappings...")
+                                                                                        
+                                            for orig_key, tgt_val in mapping_dict.items():
+                                                orig_normalized = re.sub(r'\s+', '', orig_key)
+                                                debug(f"[DEBUG ABBREV]   Comparing with mapping: '{orig_key}' (normalized: '{orig_normalized}') -> '{tgt_val}'")
+                                                
+                                                if lookahead_normalized == orig_normalized:
+                                                    debug(f"[DEBUG ABBREV]   ✓ NORMALIZED MATCH: '{lookahead_text}' == '{orig_key}'")
+                                                    fh.write(f"{lookahead_text}\t{tgt_val}\n")
+                                                    src_i += len(lookahead_words)
+                                                    tgt_i += len(tgt_val.split())
+                                                    found_multiword = True
+                                                    break
+                                                elif lookahead_text == orig_key:
+                                                    fh.write(f"{lookahead_text}\t{tgt_val}\n")
+                                                    src_i += len(lookahead_words)
+                                                    tgt_i += len(tgt_val.split())
+                                                    found_multiword = True
+                                                    break
+                                                else:
+                                                    debug(f"[DEBUG ABBREV]   ✗ No match (normalized: '{lookahead_normalized}' != '{orig_normalized}', exact: '{lookahead_text}' != '{orig_key}')")
+                                            
+                                            if found_multiword:
+                                                debug(f"[DEBUG ABBREV] Successfully matched abbreviation, advancing src_i by {len(lookahead_words)}, tgt_i by {len(tgt_val.split())}")
+                                                continue
+                                            else:
+                                                debug(f"[DEBUG ABBREV] No mapping found for lookahead sequence: '{lookahead_text}'")
+                                        else:
+                                            debug(f"[DEBUG ABBREV] Only collected 1 word, skipping abbreviation matching")
+                                    
+                                    # SECOND: Check if current src word has a single-word mapping (fast dict lookup)
+                                    if src_word_clean in mapping_dict:
+                                        # Find the FIRST unused occurrence of this mapping in the list
+                                        matching_idx = None
+                                        for idx, (orig, tgt_map) in enumerate(mapping_list):
+                                            if idx not in used_mapping_indices and orig == src_word_clean:
+                                                matching_idx = idx
+                                                break
+                                        
+                                        # If all occurrences already used, treat as regular word
+                                        if matching_idx is None:
+                                            fh.write(f"{src_word}\t{tgt_word}\n")
+                                            src_i += 1
+                                            tgt_i += 1
+                                            continue
+                                        
+                                        # Get the expected target from THIS specific mapping occurrence
+                                        expected_tgt = mapping_list[matching_idx][1]
+                                        expected_tgt_clean = expected_tgt.rstrip('.,!?;:')
+                                        # NEW: Extract punctuation from src_word to restore it later
+                                        src_punct = src_word[len(src_word_clean):] if len(src_word) > len(src_word_clean) else ""
+                                        
+                                        # Check if NEXT consecutive src word ALSO maps to SAME target (many-to-1)
+                                        if src_i + 1 < len(src_words):
+                                            next_src_clean = src_words[src_i + 1].rstrip('.,!?;:')
+                                            
+                                            # Check if next word has an UNUSED mapping to the same target
+                                            next_has_unused_mapping = False
+                                            for idx, (orig, tgt_map) in enumerate(mapping_list):
+                                                if idx not in used_mapping_indices and orig == next_src_clean and tgt_map == expected_tgt:
+                                                    next_has_unused_mapping = True
+                                                    break
+                                            
+                                            next_tgt_clean = tgt_words[tgt_i + 1].rstrip('.,!?;:') if tgt_i + 1 < len(tgt_words) else None
+                                            tgt_repeats = (next_tgt_clean == expected_tgt_clean)
+                                            
+                                            # Only group if next word has UNUSED mapping AND target doesn't repeat
+                                            if (next_has_unused_mapping and 
+                                                src_word_clean != expected_tgt_clean and 
+                                                next_src_clean != expected_tgt_clean and
+                                                tgt_word_clean == expected_tgt_clean and 
+                                                not tgt_repeats):
+                                                # Collect ALL consecutive src words with unused mappings to same target
+                                                src_group = [src_word]
+                                                temp_i = src_i + 1
+                                                consumed_indices = [matching_idx]
+                                                
+                                                while temp_i < len(src_words):
+                                                    temp_word_clean = src_words[temp_i].rstrip('.,!?;:')
+                                                    
+                                                    # Find unused mapping for this word
+                                                    temp_mapping_idx = None
+                                                    for idx, (orig, tgt_map) in enumerate(mapping_list):
+                                                        if idx not in used_mapping_indices and idx not in consumed_indices and orig == temp_word_clean and tgt_map == expected_tgt:
+                                                            temp_mapping_idx = idx
+                                                            break
+                                                    
+                                                    if temp_mapping_idx is not None:
+                                                        src_group.append(src_words[temp_i])
+                                                        consumed_indices.append(temp_mapping_idx)
+                                                        temp_i += 1
+                                                    else:
+                                                        break
+                                                
+                                                fh.write(f"{' '.join(src_group)}\t{tgt_word}\n")
+                                                for idx in consumed_indices:
+                                                    used_mapping_indices.add(idx)
+                                                src_i += len(src_group)
+                                                tgt_i += 1
+                                                continue
+                                        
+                                        # Handle 1-to-many (e.g., "sollteman" → "sollte man")
+                                        if ' ' in expected_tgt:
+                                            expected_tgt_words = expected_tgt.split()
+                                            # NEW: Restore punctuation on target
+                                            tgt_with_punct = expected_tgt + src_punct
+                                            fh.write(f"{src_word}\t{tgt_with_punct}\n")
+                                            used_mapping_indices.add(matching_idx)
+                                            src_i += 1
+                                            tgt_i += len(expected_tgt_words)
+                                            continue
+                                        
+                                        # Single-word correction
+                                        if tgt_word_clean == expected_tgt_clean:
+                                            tgt_with_punct = tgt_word if src_punct == "" else expected_tgt + src_punct
+                                            debug(f"[DEBUG NORM] Single-word correction: '{src_word}' -> '{tgt_with_punct}', adding to used_mappings")
+                                            fh.write(f"{src_word}\t{tgt_with_punct}\n")
+                                            used_mapping_indices.add(matching_idx)  # THIS LINE SHOULD EXIST
+                                            src_i += 1
+                                            tgt_i += 1
+                                            continue
+                                    # Default: word-by-word alignment
+                                    fh.write(f"{src_word}\t{tgt_word}\n")
+                                    src_i += 1
+                                    tgt_i += 1
 
+                                # Handle remaining words
+                                while src_i < len(src_words):
+                                    fh.write(f"{src_words[src_i]}\t\n")
+                                    src_i += 1
+
+                                while tgt_i < len(tgt_words):
+                                    fh.write(f"\t{tgt_words[tgt_i]}\n")
+                                    tgt_i += 1
+                            else:
+                                # No mappings: simple word-by-word alignment
+                                max_len = max(len(src_words), len(tgt_words))
+                                for i in range(max_len):
+                                    src_w = src_words[i] if i < len(src_words) else ""
+                                    tgt_w = tgt_words[i] if i < len(tgt_words) else ""
+                                    fh.write(f"{src_w}\t{tgt_w}\n")
+
+                            fh.write("\n")
 
             total_pairs = sum(len(pairs) for _, pairs in corpus_pairs_with_files)
             print(f"  Wrote {total_pairs} pairs to {out_path}")
@@ -1392,41 +2878,79 @@ def process_corpora(
 # MAIN EXECUTION
 # ============================================================================
 if __name__ == "__main__":
-    
+
+    # Setup debug logging to file (not to terminal)  
+    logging.basicConfig(
+        filename=Paths.EXT_LOG_FILE,
+        filemode='a',
+        level=logging.DEBUG,
+        format="%(asctime)s [%(levelname)s] %(message)s"
+    )
+
+    def debug(msg):
+        logging.debug(msg)
+        
     parser = argparse.ArgumentParser(description='Extract German learner corpora')
-    parser.add_argument('--corpora', nargs='+', 
-                       help='Corpora to process (space-separated)',
-                       default=None)
-    parser.add_argument('--output-dir', default=Paths.EXTRACT_OUT,
-                       help='Output directory')
-    parser.add_argument('--format', default=ExtractionParams.OUTPUT_FORMAT,
-                       choices=['csv', 'norm', 'both'],
-                       help='Output format')
-    parser.add_argument('--max-files', type=int, default=None,
-                       help='Max files per corpus (for testing)')
-    
+    parser.add_argument('--corpora', nargs='+', default=None,
+    help='Specify which corpora to process (e.g., LEONIDE Kolipsi_1_L2)')
+    parser.add_argument('--output-dir', default=Paths.EXTRACT_OUT)
+    parser.add_argument('--format',
+                        default=ExtractionParams.OUTPUT_FORMAT,
+                        choices=['csv', 'norm', 'both'])
+    parser.add_argument('--max-files', type=int, default=None)
+
+    # FIX: Determine which corpora to process
     args = parser.parse_args()
-    
-    # Use command-line args if provided, otherwise use config
-    active_corpora = args.corpora if args.corpora else ExtractionParams.ACTIVE_CORPORA
-    
+    if args.corpora:
+        # User specified corpora via command line
+        active_corpora = args.corpora
+        print(f"Processing user-specified corpora: {active_corpora}")
+    elif hasattr(ExtractionParams, 'ACTIVE_CORPORA') and ExtractionParams.ACTIVE_CORPORA:
+        # Use ACTIVE_CORPORA from config if defined and not empty
+        active_corpora = ExtractionParams.ACTIVE_CORPORA
+        print(f"Processing corpora from config: {active_corpora}")
+    else:
+        # If ACTIVE_CORPORA is None or empty, DON'T process anything
+        active_corpora = []
+        print(f"⚠️  No corpora specified - extraction disabled.")
+    # Filter to only include corpora that exist in CORPORA config
     configs_to_run = {
-        k: v for k, v in ExtractionParams.CORPORA.items() 
+        k: v for k, v in ExtractionParams.CORPORA.items()
         if k in active_corpora
     }
-    
+
+    # Validate that all requested corpora exist
+    missing_corpora = set(active_corpora) - set(configs_to_run.keys())
+    if missing_corpora:
+        print(f"⚠️  WARNING: The following corpora are not defined in CORPORA config: {missing_corpora}")
+        print(f"Available corpora: {list(ExtractionParams.CORPORA.keys())}")
+
     if configs_to_run:
+        print(f"\n{'='*80}")
+        print(f"STARTING EXTRACTION")
+        print(f"{'='*80}")
+        print(f"Corpora to process: {list(configs_to_run.keys())}")
+        print(f"Output directory: {args.output_dir}")
+        print(f"Output format: {args.format}")
+        if args.max_files:
+            print(f"Max files per corpus: {args.max_files}")
+        print(f"{'='*80}\n")
+        
         df = process_corpora(
             corpus_configs=configs_to_run,
             output_dir=args.output_dir,
             output_format=args.format,
             max_files_per_corpus=args.max_files
         )
-        
+
         if not df.empty:
-            print("\n=== SUMMARY ===")
+            print(f"\n{'='*80}")
+            print("EXTRACTION SUMMARY")
+            print(f"{'='*80}")
             print(f"Total rows: {len(df)}")
             print("\nCorpus breakdown:")
             print(df.groupby(['corpus', 'lang_prof']).size())
+  
     else:
-        print("No corpora selected.")
+        print("❌ No corpora selected or found. Check your configuration.")
+        print(f"Available corpora in config: {list(ExtractionParams.CORPORA.keys())}")
