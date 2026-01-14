@@ -411,8 +411,12 @@ def apply_operations(df: pd.DataFrame, corpus_name: str,
     
     # Combine with other corpora
     df_updated = pd.concat([df_other, new_corpus_df], ignore_index=True)
-    df_updated = df_updated.sort_values(['corpus', 'xml_file', 'sent_num']).reset_index(drop=True)
     
+    # Preserve original corpus order from input CSV
+    corpus_order = {corpus: i for i, corpus in enumerate(df['corpus'].unique())}
+    df_updated['_corpus_order'] = df_updated['corpus'].map(corpus_order)
+    df_updated = df_updated.sort_values(['_corpus_order', 'xml_file', 'sent_num']).drop('_corpus_order', axis=1).reset_index(drop=True)
+        
     return df_updated, stats, edit_details
 
 
