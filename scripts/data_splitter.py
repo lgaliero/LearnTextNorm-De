@@ -219,36 +219,35 @@ def create_train_dev_sets(df: pd.DataFrame, df_remaining: pd.DataFrame, output_d
                           random_seed: int, excluded_indices: Set[int]) -> None:
     """Create train and dev sets from remaining data after test set."""
     print("\n" + "=" * 80)
-    print("CREATING DEV SET FROM REMAINING DATA")
+    print("CREATING TRAIN SET FROM REMAINING DATA")
     print("=" * 80)
     
+    # Calculate train proportion relative to remaining data
+    train_proportion = (1 - test_size - dev_size) / (1 - test_size)
     
-    # Calculate dev proportion relative to remaining data
-    dev_proportion = dev_size / (1 - test_size)
-    
-    # Dev set: sample from all data EXCLUDING test set indices
-    df_dev, dev_indices = stratified_sample_by_line_numbers(
-        df, dev_proportion, "dev", excluded_indices=excluded_indices
+    # Train set: sample from all data EXCLUDING test set indices
+    df_train, train_indices = stratified_sample_by_line_numbers(
+        df, train_proportion, "train", excluded_indices=excluded_indices
     )
     
-    # Train set is everything remaining after test and dev
+    # Dev set is everything remaining after test and train
     all_indices = set(df.index)
-    used_indices = excluded_indices | set(dev_indices)
-    train_indices_set = all_indices - used_indices
-    train_indices = list(train_indices_set)
-    df_train = df.loc[train_indices].copy()
+    used_indices = excluded_indices | set(train_indices)
+    dev_indices_set = all_indices - used_indices
+    dev_indices = list(dev_indices_set)
+    df_dev = df.loc[dev_indices].copy()
 
-    print(f"\nEval set size: {len(df_dev):,} sentences ({len(df_dev)/len(df_remaining)*100:.2f}% of remaining)")
-    print(f"Train set size: {len(df_train):,} sentences ({len(df_train)/len(df_remaining)*100:.2f}% of remaining)")
+    print(f"\nTrain set size: {len(df_train):,} sentences ({len(df_train)/len(df_remaining)*100:.2f}% of remaining)")
+    print(f"Dev set size: {len(df_dev):,} sentences ({len(df_dev)/len(df_remaining)*100:.2f}% of remaining)")
     
-    print_proportion_verification(df_remaining, df_dev, "Eval")
     print_proportion_verification(df_remaining, df_train, "Train")
+    print_proportion_verification(df_remaining, df_dev, "Dev")
     
     print("\n" + "=" * 80)
-    print("SAVING DEV AND TRAIN SETS")
+    print("SAVING TRAIN AND DEV SETS")
     print("=" * 80)
-    save_split_files(df_dev, "dev", output_dir, dev_indices)
     save_split_files(df_train, "train", output_dir, train_indices)
+    save_split_files(df_dev, "dev", output_dir, dev_indices)
 
 def main(csv_path: str = Paths.EXTRACT_CSV,
          output_dir: str = Paths.SET_SPLITS,
@@ -278,7 +277,7 @@ def main(csv_path: str = Paths.EXTRACT_CSV,
     print(f"CSV line numbers: 0 to {total_sentences - 1} (header excluded)")
     print(f"\nTarget splits:")
     print(f"  Test set: {test_size*100}% = {int(total_sentences * test_size):,} sentences")
-    print(f"  Eval set: {dev_size*100}% = {int(total_sentences * dev_size):,} sentences")
+    print(f"  Dev set: {dev_size*100}% = {int(total_sentences * dev_size):,} sentences")
     print(f"  Train set: {(1-test_size-dev_size)*100:.1f}% = {int(total_sentences * (1-test_size-dev_size)):,} sentences")
     
     # Check for existing test set
@@ -398,19 +397,16 @@ def main(csv_path: str = Paths.EXTRACT_CSV,
         if response in ['yes', 'y']:
             create_train_dev_sets(df, df_remaining, output_dir, dev_size, test_size,
                                   random_seed, excluded)
-            print("\n✅ Eval and train sets created successfully!")
+            print("\n✅ Dev and train sets created successfully!")
         else:
-            # Create only dev set
-            random.seed(random_seed)
-            dev_proportion = dev_size / (1 - test_size)
-            df_dev, dev_indices = stratified_sample_by_line_numbers(
-                df_remaining, dev_proportion, "dev", excluded_indices=excluded
-            )
+            # Create only dev set (all remaining data after test)
+            dev_indices = df_remaining.index.tolist()
+            df_dev = df_remaining.copy()
             print("\n" + "=" * 80)
-            print("SAVING DEV SET")
+            print("SAVING DEV SET (ALL REMAINING DATA)")
             print("=" * 80)
             save_split_files(df_dev, "dev", output_dir, dev_indices)
-            print("\n✅ Eval set created!")
+            print("\n✅ Dev set created!")
 
 
 if __name__ == "__main__":
@@ -426,7 +422,7 @@ if __name__ == "__main__":
     parser.add_argument('--test-size', type=float, default=DataSplits.TEST,
                        help='Test set proportion (default: 0.10)')
     parser.add_argument('--dev-size', type=float, default=DataSplits.DEV,
-                       help='Eval set proportion (default: 0.10)')
+                       help='Dev set proportion (default: 0.10)')
     parser.add_argument('--seed', type=int, default=42,
                        help='Random seed for reproducibility')
     parser.add_argument('--mode', choices=['all', 'test', 'train', 'dev', 
