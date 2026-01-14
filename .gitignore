@@ -12,3 +12,4 @@ output/extraction/extraction_debug.log
 output/extraction/all_corpora OLD.csv
 output/llm_prompting/LLaMA3_2_base.tgt
 scripts/idx_lookup.py
+output/llm_prompting/0s_notes.txt
