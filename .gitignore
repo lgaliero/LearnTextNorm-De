@@ -1,6 +1,6 @@
 memos.txt
 __pycache__/
-scripts_archive/
+archive/
 
 #to be updated once finalized
 data_split/
@@ -10,6 +10,6 @@ untitled.txt
 output/extraction/all_corpora_edit_log.txt
 output/extraction/extraction_debug.log
 output/extraction/all_corpora OLD.csv
-output/llm_prompting/LLaMA3_2_base.tgt
 scripts/idx_lookup.py
 output/llm_prompting/0s_notes.txt
+output/llm_prompting/baseline_LLaMA3_2.tgt
