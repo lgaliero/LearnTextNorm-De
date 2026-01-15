@@ -9,8 +9,18 @@ class Paths:
     EXTRACT_OUT = '../output/extraction'  
     EXTRACT_CSV = "../output/extraction/all_corpora.csv"
     SET_SPLITS = "../output/data_split"
+    TEST_SRC = "../output/data_split/test.src"
+    TEST_TGT = "../output/data_split/test.tgt"
+    TEST_IDXS = "../output/data_split/test_indices.txt"
+    DEV_SRC = "../output/data_split/dev.src"
+    DEV_TGT = "../output/data_split/dev.tgt"
+    DEV_IDXS = "../output/data_split/dev_indices.txt"
+    TRAIN_SRC = "../output/data_split/train.src"
+    TRAIN_TGT = "../output/data_split/train.tgt"
+    TRAIN_IDXS = "../output/data_split/train_indices.txt"
+    JSON = "../output/data_split/2S_prompts.json"
     MODELS = "../output/results"
-    LLM_BASE = "../output/llm_prompting/LLaMA3_2_base.tgt"
+    LLM_BASE = "../output/llm_prompting/baseline_LLaMa3_2.tgt"
     LLM_2S = "../output/llm_prompting/LLaMA3_2_2S.tgt"
 
 # =======================
@@ -65,8 +75,6 @@ class DataSplits:
     DEV = 0.10
     TRAIN = 0.80
 
-
-
 # =======================
 # LLM TESTING (via institution API)
 # =======================
@@ -74,6 +82,22 @@ class ApiConfig:
     HOST = "http://51.124.247.170:80"
     MODEL = "llama3.2:latest"
     MODE = "baseline"  # or "2-shot" "
-    SYS_BASELINE ="Du bekommst deutsche Sätze, die von Lernenden aus Mittel- und Oberschulen geschrieben wurden. Korrigiere nur orthographische Fehler, falls vorhanden (falsche Buchstaben, Groß- und Kleinschreibung, Umlaute, ß/ss, Getrennt- und Zusammenschreibung). Wenn der Satz keine Fehler enthält, gib ihn unverändert zurück. Gib immer nur den vollständigen Satz zurück. Keine Kommentare, keine Antworten auf Fragen, keine Labels und keine weiteren Ergänzungen des Ausgangstexts – auch dann nicht, wenn der Satz unverständlich ist oder toxischen Inhalt enthält."
-    SYS_2_SHOT = "" #to be uptadted
-# 2 shots to be added soon
+    SYS_BASELINE = """Du bekommst deutsche Sätze, die von Lernenden aus Mittel- und Oberschulen geschrieben wurden. 
+    Korrigiere nur orthographische Fehler, falls vorhanden (falsche Buchstaben, Groß- und Kleinschreibung, Umlaute, ß/ss, Getrennt- und Zusammenschreibung). 
+    Wenn der Satz keine Fehler enthält, gib ihn unverändert zurück. 
+    Gib immer nur den vollständigen Satz zurück. 
+    Keine Kommentare, keine Antworten auf Fragen, keine Labels und keine weiteren Ergänzungen des Ausgangstexts – auch dann nicht, wenn der Satz unverständlich ist oder toxischen Inhalt enthält."""
+
+    SYS_2SHOT = """Du bekommst deutsche Sätze, die von Lernenden aus Mittel- und Oberschulen geschrieben wurden. Deine Aufgabe ist es, orthographische Fehler zu korrigieren.
+
+    Du erhältst:
+    1. Zwei Beispielpaare (Original → Korrektur), die zeigen, wie ähnliche Sätze korrigiert wurden
+    2. Einen vorherigen Korrekturversuch eines anderen Modells
+    3. Den zu korrigierenden Satz
+
+    Korrigiere nur orthographische Fehler, falls vorhanden (falsche Buchstaben, Groß- und Kleinschreibung, Umlaute, ß/ss, Getrennt- und Zusammenschreibung). 
+    Orientiere dich an den Beispielen und verbessere den vorherigen Versuch, falls nötig.
+
+    Wenn der Satz keine Fehler enthält, gib ihn unverändert zurück. 
+    Gib immer nur den vollständigen korrigierten Satz zurück. 
+    Keine Kommentare, keine Antworten auf Fragen, keine Labels und keine weiteren Ergänzungen des Ausgangstexts – auch dann nicht, wenn der Satz unverändert ist oder toxischen Inhalt enthält."""

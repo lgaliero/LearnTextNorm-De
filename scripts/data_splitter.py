@@ -14,6 +14,8 @@ import json
 from typing import Dict, Tuple, Optional, List, Set
 from sentence_transformers import SentenceTransformer, util
 import spacy
+import torch
+import time
 
 # Global models for example generation (lazy loaded)
 _nlp_model = None
@@ -30,10 +32,10 @@ def get_tf_model():
     if _sentence_model is None:
         _sentence_model = SentenceTransformer('all-MiniLM-L6-v2')
     return _sentence_model
-    
+
 def load_indices(output_dir: str) -> set:
     """Load indices from existing test set to avoid overlap."""
-    test_indices_file = os.path.join(output_dir, "test_indices.txt")
+    test_indices_file = Paths.TEST_INDICES if hasattr(Paths, 'TEST_INDICES') else os.path.join(output_dir, "test_indices.txt")
     if os.path.exists(test_indices_file):
         with open(test_indices_file, 'r') as f:
             return set(int(line.strip()) for line in f if line.strip())
@@ -42,9 +44,25 @@ def load_indices(output_dir: str) -> set:
 def save_splits(df_split: pd.DataFrame, split_name: str, 
                      output_dir: str, indices: List[int]) -> None:
     """Save source, target, and indices files for a dataset split."""
-    src_file = os.path.join(output_dir, f"{split_name}.src")
-    tgt_file = os.path.join(output_dir, f"{split_name}.tgt")
+    # Use paths from configs if available
+    if split_name == "test":
+        src_file = Paths.TEST_SRC if hasattr(Paths, 'TEST_SRC') else os.path.join(output_dir, f"{split_name}.src")
+    elif split_name == "train":
+        src_file = Paths.TRAIN_SRC if hasattr(Paths, 'TRAIN_SRC') else os.path.join(output_dir, f"{split_name}.src")
+        tgt_file = Paths.TRAIN_TGT if hasattr(Paths, 'TRAIN_TGT') else os.path.join(output_dir, f"{split_name}.tgt")
+    elif split_name == "dev":
+        src_file = Paths.DEV_SRC if hasattr(Paths, 'DEV_SRC') else os.path.join(output_dir, f"{split_name}.src")
+        tgt_file = Paths.DEV_TGT if hasattr(Paths, 'DEV_TGT') else os.path.join(output_dir, f"{split_name}.tgt")
+    else:
+        src_file = os.path.join(output_dir, f"{split_name}.src")
+        tgt_file = os.path.join(output_dir, f"{split_name}.tgt")
+    
     indices_file = os.path.join(output_dir, f"{split_name}_indices.txt")
+
+    # Create directories if they don't exist
+    os.makedirs(os.path.dirname(src_file), exist_ok=True)
+    os.makedirs(os.path.dirname(tgt_file), exist_ok=True)
+    os.makedirs(os.path.dirname(indices_file), exist_ok=True)
     
     with open(src_file, 'w', encoding='utf-8') as f:
         for src in df_split['src']:
@@ -171,7 +189,7 @@ def stratify_sample(df: pd.DataFrame, sample_size: float,
     
     return df_sampled, sampled_indices
 
-def check_proportions(df_full: pd.DataFrame, df_split: pd.DataFrame, 
+def check_proportion(df_full: pd.DataFrame, df_split: pd.DataFrame, 
                                  split_name: str) -> None:
     """Print verification of proportions maintained in split."""
     print("\n" + "=" * 80)
@@ -208,7 +226,7 @@ def check_proportions(df_full: pd.DataFrame, df_split: pd.DataFrame,
     }).round(2)
     print(corr_comparison)
 
-def create_test(df: pd.DataFrame, output_dir: str, test_size: float, 
+def create_test_set(df: pd.DataFrame, output_dir: str, test_size: float, 
                    random_seed: int) -> Tuple[pd.DataFrame, pd.DataFrame, List[int]]:
     """Create stratified test set using line-number-based sampling."""
     print("\n" + "=" * 80)
@@ -224,7 +242,7 @@ def create_test(df: pd.DataFrame, output_dir: str, test_size: float,
     print(f"\nTest set size: {len(df_test):,} sentences ({len(df_test)/len(df)*100:.2f}%)")
     print(f"Remaining: {len(df_remaining):,} sentences ({len(df_remaining)/len(df)*100:.2f}%)")
     
-    check_proportions(df, df_test, "Test")
+    check_proportion(df, df_test, "Test")
     
     print("\n" + "=" * 80)
     print("SAVING TEST SET")
@@ -233,7 +251,7 @@ def create_test(df: pd.DataFrame, output_dir: str, test_size: float,
     
     return df_test, df_remaining, test_indices
 
-def create_train_dev(df: pd.DataFrame, df_remaining: pd.DataFrame, output_dir: str, 
+def create_train_dev_sets(df: pd.DataFrame, df_remaining: pd.DataFrame, output_dir: str, 
                           dev_size: float, test_size: float, 
                           random_seed: int, excluded_indices: Set[int]) -> None:
     """Create train and dev sets from remaining data after test set."""
@@ -259,8 +277,8 @@ def create_train_dev(df: pd.DataFrame, df_remaining: pd.DataFrame, output_dir: s
     print(f"\nTrain set size: {len(df_train):,} sentences ({len(df_train)/len(df_remaining)*100:.2f}% of remaining)")
     print(f"Dev set size: {len(df_dev):,} sentences ({len(df_dev)/len(df_remaining)*100:.2f}% of remaining)")
     
-    check_proportions(df_remaining, df_train, "Train")
-    check_proportions(df_remaining, df_dev, "Dev")
+    check_proportion(df_remaining, df_train, "Train")
+    check_proportion(df_remaining, df_dev, "Dev")
     
     print("\n" + "=" * 80)
     print("SAVING TRAIN AND DEV SETS")
@@ -280,10 +298,10 @@ def load_files(file_path: str) -> List[str]:
     with open(file_path, 'r', encoding='utf-8-sig') as f:
         return [line.strip() for line in f if line.strip()]
 
-def generate_json(output_dir: str, baseline_file: str = None, 
+def create_json(output_dir: str, baseline_file: str = None, 
                           json_output: str = None, update_mode: bool = False) -> None:
     """
-    Generate examples.json with 2-shot examples and baseline outputs.
+    Generate 2S_prompts.json with 2-shot examples and baseline outputs.
     
     Args:
         output_dir: Directory containing test.src, test.tgt, train.src, train.tgt, dev.src, dev.tgt
@@ -293,17 +311,17 @@ def generate_json(output_dir: str, baseline_file: str = None,
     """
     print("\n" + "=" * 80)
     if update_mode:
-        print("UPDATING BASELINE OUTPUTS IN EXAMPLES.JSON")
+        print("UPDATING BASELINE OUTPUTS IN 2S_prompts.json")
     else:
-        print("GENERATING EXAMPLES.JSON WITH 2-SHOT EXAMPLES")
+        print("GENERATING 2S_prompts.json WITH 2-SHOT EXAMPLES")
     print("=" * 80)
     
     # Set default paths
     if json_output is None:
-        json_output = os.path.join(output_dir, "examples.json")
+        json_output = Paths.JSON if hasattr(Paths, 'JSON') else os.path.join(output_dir, "2S_prompts.json")
     
     if baseline_file is None:
-        baseline_file = os.path.join(output_dir, "baseline_LLaMA3_2.tgt")
+        baseline_file = Paths.LLM_BASE if hasattr(Paths, 'LLM_BASE') else os.path.join(output_dir, "baseline_LLaMA3_2.tgt")
     
     # Load baseline outputs
     baseline_outputs = load_files(baseline_file)
@@ -358,7 +376,6 @@ def generate_json(output_dir: str, baseline_file: str = None,
     
     # Load all files
     test_src = load_files(os.path.join(output_dir, "test.src"))
-    test_tgt = load_files(os.path.join(output_dir, "test.tgt"))
     train_src = load_files(os.path.join(output_dir, "train.src"))
     train_tgt = load_files(os.path.join(output_dir, "train.tgt"))
     dev_src = load_files(os.path.join(output_dir, "dev.src"))
@@ -368,6 +385,7 @@ def generate_json(output_dir: str, baseline_file: str = None,
     print(f"  Test: {len(test_src)} sentences")
     print(f"  Train: {len(train_src)} sentences")
     print(f"  Dev: {len(dev_src)} sentences")
+    start = time.time()
     
     # Create source-target pairs with metadata
     train_pairs = [
@@ -386,27 +404,49 @@ def generate_json(output_dir: str, baseline_file: str = None,
     excluded_sentences = set(test_src)
     candidate_pairs = [
         pair for pair in all_candidate_pairs 
-        if pair["source"] not in excluded_sentences and len(pair["source"].split()) <= 80
+        if pair["source"] not in excluded_sentences #and len(pair["source"].split()) <= 80
     ]
     
     candidate_sources = [pair["source"] for pair in candidate_pairs]
+    print(f"✓ Created candidate pairs in {time.time() - start:.2f}s")
     
-    print(f"\nCandidate pool: {len(candidate_pairs)} sentences (excluding test set, max 80 words)")
+    print(f"\nCandidate pool: {len(candidate_pairs)} sentences (excluding test set)")
+    
+    # OPTIMIZATION: Encode all candidates ONCE (not 2000 times!)
+    device = 'cuda' if torch.cuda.is_available() else 'cpu'
+    print(f"\nUsing device: {device}")
+    print("Preprocessing and encoding all candidates (this happens once)...")
+    
+    # Simple preprocessing (skip spaCy for speed)
+    preprocessed_candidates = [s.lower().strip() for s in candidate_sources]
+    print(f"✓ Preprocessed in {time.time() - start:.2f}s")
+    start = time.time()
+    
+    # Encode all candidates in one batch
+    candidate_embeddings = model.encode(
+        preprocessed_candidates,
+        convert_to_tensor=True,
+        batch_size=256,
+        show_progress_bar=True,
+        device=device
+    )
+    print(f"✓ Encoded {len(candidate_pairs)} candidates")
+    print(f"✓ Encoding took {time.time() - start:.2f}s")
+    start = time.time()
     
     # Process each test sentence
     results = []
     
-    for idx, (test_sentence, test_target) in enumerate(zip(test_src, test_tgt)):
+    print(f"\nProcessing {len(test_src)} test sentences...")
+    for idx, test_sentence in enumerate(test_src):
         if (idx + 1) % 100 == 0:
-            print(f"Processing {idx + 1}/{len(test_src)}...")
+            print(f"  {idx + 1}/{len(test_src)}...")
         
-        # Tokenize and preprocess
-        preprocessed_test = tokenize_and_preprocess(test_sentence, nlp)
-        preprocessed_candidates = [tokenize_and_preprocess(s, nlp) for s in candidate_sources]
+        # Preprocess and encode just this test sentence
+        preprocessed_test = test_sentence.lower().strip()
+        test_embedding = model.encode(preprocessed_test, convert_to_tensor=True, device=device)
         
-        # Compute embeddings and similarity
-        test_embedding = model.encode(preprocessed_test, convert_to_tensor=True)
-        candidate_embeddings = model.encode(preprocessed_candidates, convert_to_tensor=True)
+        # Compute similarity against ALL candidates (fast - already encoded)
         similarity_scores = util.pytorch_cos_sim(test_embedding, candidate_embeddings).squeeze(0).tolist()
         
         # Get top 2 similar sentences
@@ -433,13 +473,15 @@ def generate_json(output_dir: str, baseline_file: str = None,
         # Add to results
         result_entry = {
             "test_source": test_sentence,
-            "test_target": test_target,
             "examples": examples,
             "baseline_output": baseline_output
         }
         results.append(result_entry)
     
-    # Write to JSON file
+    print(f"✓ Processed test sentences in {time.time() - start:.2f}s") 
+
+    # Write to JSON file (create directory if needed)
+    os.makedirs(os.path.dirname(json_output), exist_ok=True)
     with open(json_output, 'w', encoding='utf-8') as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
     
@@ -468,17 +510,11 @@ def main(csv_path: str = Paths.EXTRACT_CSV,
     
     # Handle JSON generation modes
     if create_mode == "json":
-        baseline_file = input("Enter baseline file path (press Enter for default baseline_LLaMA3_2.tgt): ").strip()
-        if not baseline_file:
-            baseline_file = os.path.join(output_dir, "baseline_LLaMA3_2.tgt")
-        generate_json(output_dir, baseline_file=baseline_file, update_mode=False)
-        return
+       create_json(output_dir, update_mode=False)
+       return
     
     if create_mode == "update_json":
-        baseline_file = input("Enter baseline file path (press Enter for default baseline_LLaMA3_2.tgt): ").strip()
-        if not baseline_file:
-            baseline_file = os.path.join(output_dir, "baseline_LLaMA3_2.tgt")
-        generate_json(output_dir, baseline_file=baseline_file, update_mode=True)
+        create_json(output_dir, baseline_file=baseline_file, update_mode=True)
         return
     
     # Load corpus
@@ -511,30 +547,24 @@ def main(csv_path: str = Paths.EXTRACT_CSV,
             print("2. Recreate all (will overwrite test set)")
             print("3. Create only train set")
             print("4. Create only dev set")
-            print("5. Generate examples.json (2-shot prompting)")
-            print("6. Update baseline outputs in examples.json")
+            print("5. Generate 2S_prompts.json (2-shot prompting)")
+            print("6. Update baseline outputs in 2S_prompts.json")
         else:
             print("1. Create all sets (test, train, dev)")
             print("2. Create only test set")
             print("3. Create test and train sets")
             print("4. Create test and dev sets")
-            print("5. Generate examples.json (2-shot prompting)")
-            print("6. Update baseline outputs in examples.json")
+            print("5. Generate 2S_prompts.json (2-shot prompting)")
+            print("6. Update baseline outputs in 2S_prompts.json")
         
         choice = input("\nEnter your choice (1-6): ").strip()
         
         if choice == "5":
-            baseline_file = input("Enter baseline file path (press Enter for default): ").strip()
-            if not baseline_file:
-                baseline_file = os.path.join(output_dir, "baseline_LLaMA3_2.tgt")
-            generate_json(output_dir, baseline_file=baseline_file, update_mode=False)
+            create_json(output_dir, update_mode=False)
             return
-        
+
         if choice == "6":
-            baseline_file = input("Enter baseline file path (press Enter for default): ").strip()
-            if not baseline_file:
-                baseline_file = os.path.join(output_dir, "baseline_LLaMA3_2.tgt")
-            generate_json(output_dir, baseline_file=baseline_file, update_mode=True)
+            create_json(output_dir, update_mode=True)
             return
         
         if test_exists:
@@ -564,27 +594,27 @@ def main(csv_path: str = Paths.EXTRACT_CSV,
     
     # Execute based on mode
     if create_mode == "all":
-        df_test, df_remaining, test_indices = create_test(df, output_dir, 
+        df_test, df_remaining, test_indices = create_test_set(df, output_dir, 
                                                               test_size, random_seed)
-        create_train_dev(df, df_remaining, output_dir, dev_size, test_size,
+        create_train_dev_sets(df, df_remaining, output_dir, dev_size, test_size,
                               random_seed, set(test_indices))
         print("\n✅ All sets created successfully!")
         
         # Ask if user wants to generate JSON
-        response = input("\nDo you want to generate examples.json now? (yes/no): ").strip().lower()
+        response = input("\nDo you want to generate 2S_prompts.json now? (yes/no): ").strip().lower()
         if response in ['yes', 'y']:
             baseline_file = input("Enter baseline file path (press Enter for default): ").strip()
             if not baseline_file:
                 baseline_file = os.path.join(output_dir, "baseline_LLaMA3_2.tgt")
-            generate_json(output_dir, baseline_file=baseline_file, update_mode=False)
+            create_json(output_dir, baseline_file=baseline_file, update_mode=False)
         
     elif create_mode == "test":
-        df_test, df_remaining, test_indices = create_test(df, output_dir, 
+        df_test, df_remaining, test_indices = create_test_set(df, output_dir, 
                                                               test_size, random_seed)
         
         response = input("\nDo you want to create train and dev sets now? (yes/no): ").strip().lower()
         if response in ['yes', 'y']:
-            create_train_dev(df, df_remaining, output_dir, dev_size, test_size,
+            create_train_dev_sets(df, df_remaining, output_dir, dev_size, test_size,
                                   random_seed, set(test_indices))
             print("\n✅ All sets created successfully!")
         else:
@@ -596,21 +626,21 @@ def main(csv_path: str = Paths.EXTRACT_CSV,
             return
         
         df_remaining = df.drop(list(existing_test_indices)).copy()
-        create_train_dev(df, df_remaining, output_dir, dev_size, test_size,
+        create_train_dev_sets(df, df_remaining, output_dir, dev_size, test_size,
                               random_seed, existing_test_indices)
         print("\n✅ Train and dev sets created successfully!")
         
         # Ask if user wants to generate JSON
-        response = input("\nDo you want to generate examples.json now? (yes/no): ").strip().lower()
+        response = input("\nDo you want to generate 2S_prompts.json now? (yes/no): ").strip().lower()
         if response in ['yes', 'y']:
             baseline_file = input("Enter baseline file path (press Enter for default): ").strip()
             if not baseline_file:
                 baseline_file = os.path.join(output_dir, "baseline_LLaMA3_2.tgt")
-            generate_json(output_dir, baseline_file=baseline_file, update_mode=False)
+            create_json(output_dir, baseline_file=baseline_file, update_mode=False)
     
     elif create_mode == "train":
         if not test_exists:
-            df_test, df_remaining, test_indices = create_test(df, output_dir, 
+            df_test, df_remaining, test_indices = create_test_set(df, output_dir, 
                                                                   test_size, random_seed)
             excluded = set(test_indices)
         else:
@@ -619,7 +649,7 @@ def main(csv_path: str = Paths.EXTRACT_CSV,
         
         response = input("\nDo you want to create dev set too? (yes/no): ").strip().lower()
         if response in ['yes', 'y']:
-            create_train_dev(df, df_remaining, output_dir, dev_size, test_size,
+            create_train_dev_sets(df, df_remaining, output_dir, dev_size, test_size,
                                   random_seed, excluded)
             print("\n✅ Train and dev sets created successfully!")
         else:
@@ -634,7 +664,7 @@ def main(csv_path: str = Paths.EXTRACT_CSV,
     
     elif create_mode == "dev":
         if not test_exists:
-            df_test, df_remaining, test_indices = create_test(df, output_dir, 
+            df_test, df_remaining, test_indices = create_test_set(df, output_dir, 
                                                                   test_size, random_seed)
             excluded = set(test_indices)
         else:
@@ -643,7 +673,7 @@ def main(csv_path: str = Paths.EXTRACT_CSV,
         
         response = input("\nDo you want to create train set too? (yes/no): ").strip().lower()
         if response in ['yes', 'y']:
-            create_train_dev(df, df_remaining, output_dir, dev_size, test_size,
+            create_train_dev_sets(df, df_remaining, output_dir, dev_size, test_size,
                                   random_seed, excluded)
             print("\n✅ Dev and train sets created successfully!")
         else:
