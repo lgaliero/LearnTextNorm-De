@@ -15,3 +15,12 @@ output/llm_prompting/LLaMa3_2_base.tgt
 output/llm_prompting/LLaMA3_2_2S.tgt
 output/llm_prompting/2S_verbose.txt
 output/llm_prompting/base_verbose.txt
+scripts/eval.py
+scripts/eval_config.yaml
+scripts/green.py
+output/eval/llm/baseline_results.yaml
+output/eval/llm/baseline_strip.txt
+output/eval/llm/2shot_results.yaml
+output/eval/llm/baseline_clean.txt
+output/eval/llm/base_results.yaml
+output/eval/llm/results.yaml
