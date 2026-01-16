@@ -11,6 +11,7 @@ output/extraction/all_corpora_edit_log.txt
 output/extraction/extraction_debug.log
 output/extraction/all_corpora OLD.csv
 scripts/idx_lookup.py
-output/llm_prompting/0s_notes.txt
-output/llm_prompting/baseline_LLaMa3_2.tgt
+output/llm_prompting/LLaMa3_2_base.tgt
 output/llm_prompting/LLaMA3_2_2S.tgt
+output/llm_prompting/2S_verbose.txt
+output/llm_prompting/base_verbose.txt

@@ -478,12 +478,25 @@ def create_json(output_dir: str, baseline_file: str = None,
         }
         results.append(result_entry)
     
-    print(f"✓ Processed test sentences in {time.time() - start:.2f}s") 
-
-    # Write to JSON file (create directory if needed)
-    os.makedirs(os.path.dirname(json_output), exist_ok=True)
+    # Write to JSON file
     with open(json_output, 'w', encoding='utf-8') as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
+    
+    # Verify no duplicate test sources (this would be a real problem)
+    test_sources = [r['test_source'] for r in results]
+    if len(test_sources) != len(set(test_sources)):
+        print("\n⚠️  WARNING: Duplicate test_source entries found in JSON!")
+    
+    # Count duplicate baselines (this is OK - model can produce same output)
+    baseline_counts = {}
+    for r in results:
+        baseline = r['baseline_output']
+        baseline_counts[baseline] = baseline_counts.get(baseline, 0) + 1
+    
+    duplicates = {k: v for k, v in baseline_counts.items() if v > 1 and k != "to be added"}
+    if duplicates:
+        print(f"\nℹ️  Note: {len(duplicates)} baseline outputs appear multiple times (this is normal)")
+        print(f"   Example: \"{list(duplicates.keys())[0][:50]}...\" appears {list(duplicates.values())[0]} times")
     
     print(f"\n✓ JSON file saved to: {json_output}")
     print(f"✓ Processed {len(results)} test sentences")
