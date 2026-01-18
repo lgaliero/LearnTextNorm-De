@@ -20,8 +20,8 @@ class Paths:
     TRAIN_IDXS = "../output/data_split/train_indices.txt"
     JSON = "../output/data_split/2S_prompts.json"
     MODELS = "../output/results"
-    LLM_BASE = "../output/llm_prompting/baseline_LLaMa3_2.tgt"
-    LLM_2S = "../output/llm_prompting/LLaMA3_2_2S.tgt"
+    LLM_BASE = "../output/llama3-2/baseline_raw.tgt"
+    LLM_2S = "../output/llama3-2/2shot_raw.tgt"
 
 # =======================
 # XML EXTRACTION CONFIGS
