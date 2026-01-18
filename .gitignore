@@ -14,3 +14,12 @@ scripts/idx_lookup.py
 scripts/clean_verbose.py
 output/eval/llama
 
+scripts/wer++.py
+scripts/normEval.py
+scripts/evaluate.sh
+scripts/baseline.py
+scripts/eval copy.py
+scripts/convert_to_norm.py
+scripts/lai.py
+scripts/train.tgt
+scripts/w_acc.py
