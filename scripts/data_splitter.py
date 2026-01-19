@@ -502,6 +502,129 @@ def create_json(output_dir: str, baseline_file: str = None,
     print(f"✓ Processed {len(results)} test sentences")
     print(f"✓ Baselines included: {sum(1 for r in results if r['baseline_output'] != 'to be added')}/{len(results)}")
 
+def create_norm_files(output_dir: str, csv_path: str) -> None:
+    """
+    Generate verticalized .norm files for train, dev, and test splits.
+    
+    Args:
+        output_dir: Directory containing the split indices files
+        csv_path: Path to the corpus CSV
+        corpus_dir: Directory containing the .norm files for each corpus
+    """
+    print("\n" + "=" * 80)
+    print("GENERATING .norm FILES FOR SPLITS")
+    corpus_dir = Paths.EXTRACT_OUT
+    print("=" * 80)
+    
+    # Load the full dataframe
+    df = pd.read_csv(csv_path, encoding="utf-8")
+    print(f"Loaded corpus CSV with {len(df)} sentences")
+    
+    # Process each split
+    for split_name in ['train', 'dev', 'test']:
+        indices_file = os.path.join(output_dir, f"{split_name}_indices.txt")
+        
+        if not os.path.exists(indices_file):
+            print(f"\n⚠️  Skipping {split_name}: indices file not found")
+            continue
+        
+        # Load indices
+        with open(indices_file, 'r') as f:
+            indices = [int(line.strip()) for line in f if line.strip()]
+        
+        print(f"\n--- Processing {split_name} set ({len(indices)} sentences) ---")
+        
+        # Output files
+        src_norm_file = os.path.join(output_dir, f"{split_name}_src.norm")
+        tgt_norm_file = os.path.join(output_dir, f"{split_name}_tgt.norm")
+        
+        src_lines = []
+        tgt_lines = []
+        
+        # Cache for loaded .norm files
+        norm_cache = {}
+        
+        for idx_position, df_index in enumerate(indices):
+            if (idx_position + 1) % 100 == 0:
+                print(f"  Processed {idx_position + 1}/{len(indices)} sentences...")
+            
+            # Get corpus name and source sentence from dataframe
+            corpus_name = df.loc[df_index, 'corpus']
+            src_sentence = df.loc[df_index, 'src']
+            
+            # Load .norm file if not cached
+            if corpus_name not in norm_cache:
+                norm_file_path = os.path.join(corpus_dir, f"{corpus_name}.norm")
+                if not os.path.exists(norm_file_path):
+                    print(f"\n⚠️  Error: {norm_file_path} not found")
+                    continue
+                
+                # Parse .norm file into sentences
+                with open(norm_file_path, 'r', encoding='utf-8') as f:
+                    sentences = []
+                    current_sentence = []
+                    
+                    for line in f:
+                        line = line.rstrip('\n')
+                        
+                        if line == '':  # Blank line = sentence boundary
+                            if current_sentence:
+                                sentences.append(current_sentence)
+                                current_sentence = []
+                        else:
+                            current_sentence.append(line)
+                    
+                    # Add last sentence if file doesn't end with blank line
+                    if current_sentence:
+                        sentences.append(current_sentence)
+                
+                norm_cache[corpus_name] = sentences
+            
+            # Find matching sentence in .norm file
+            norm_sentences = norm_cache[corpus_name]
+            src_words = src_sentence.split()
+            matched = False
+            
+            for norm_sentence in norm_sentences:
+                # Extract left side (source) from each line
+                norm_src_words = [line.split('\t')[0] for line in norm_sentence]
+                
+                # Check if it matches
+                if norm_src_words == src_words:
+                    # Extract source and target
+                    for line in norm_sentence:
+                        parts = line.split('\t')
+                        if len(parts) >= 2:
+                            src_lines.append(f"{parts[0]}\t{parts[0]}")
+                            tgt_lines.append(f"{parts[0]}\t{parts[1]}")
+                        else:
+                            # Handle lines with only one column
+                            src_lines.append(f"{parts[0]}\t{parts[0]}")
+                            tgt_lines.append(f"{parts[0]}\t")
+                    
+                    # Add blank line after sentence (except for first sentence)
+                    if idx_position > 0:
+                        src_lines.insert(len(src_lines) - len(norm_sentence), '')
+                        tgt_lines.insert(len(tgt_lines) - len(norm_sentence), '')
+                    
+                    matched = True
+                    break
+            
+            if not matched:
+                print(f"\n⚠️  Warning: Could not find match for index {df_index}: '{src_sentence}'")
+        
+        # Write output files
+        with open(src_norm_file, 'w', encoding='utf-8') as f:
+            f.write('\n'.join(src_lines))
+        
+        with open(tgt_norm_file, 'w', encoding='utf-8') as f:
+            f.write('\n'.join(tgt_lines))
+        
+        print(f"✓ Saved {split_name}_src.norm: {src_norm_file}")
+        print(f"✓ Saved {split_name}_tgt.norm: {tgt_norm_file}")
+    
+    print("\n✅ All .norm files generated successfully!")
+
 def main(csv_path: str = Paths.EXTRACT_CSV,
          output_dir: str = Paths.SET_SPLITS,
          test_size: float = DataSplits.TEST,
@@ -528,6 +651,10 @@ def main(csv_path: str = Paths.EXTRACT_CSV,
     
     if create_mode == "update_json":
         create_json(output_dir, baseline_file=baseline_file, update_mode=True)
+        return
+
+    if create_mode == "norm":
+        create_norm_files(output_dir, csv_path, corpus_dir)
         return
     
     # Load corpus
@@ -562,6 +689,7 @@ def main(csv_path: str = Paths.EXTRACT_CSV,
             print("4. Create only dev set")
             print("5. Generate 2S_prompts.json (2-shot prompting)")
             print("6. Update baseline outputs in 2S_prompts.json")
+            print("7. Generate .norm files for splits")
         else:
             print("1. Create all sets (test, train, dev)")
             print("2. Create only test set")
@@ -569,8 +697,9 @@ def main(csv_path: str = Paths.EXTRACT_CSV,
             print("4. Create test and dev sets")
             print("5. Generate 2S_prompts.json (2-shot prompting)")
             print("6. Update baseline outputs in 2S_prompts.json")
+            print("7. Generate .norm files for splits")
         
-        choice = input("\nEnter your choice (1-6): ").strip()
+        choice = input("\nEnter your choice (1-7): ").strip()
         
         if choice == "5":
             create_json(output_dir, update_mode=False)
@@ -578,6 +707,10 @@ def main(csv_path: str = Paths.EXTRACT_CSV,
 
         if choice == "6":
             create_json(output_dir, update_mode=True)
+            return
+        
+        if choice == "7":
+            create_norm_files(output_dir, csv_path)
             return
         
         if test_exists:
@@ -717,7 +850,7 @@ if __name__ == "__main__":
     parser.add_argument('--seed', type=int, default=42,
                        help='Random seed for reproducibility')
     parser.add_argument('--mode', choices=['all', 'test', 'train', 'dev', 
-                                          'train_dev', 'json', 'update_json', 'interactive'],
+                                          'train_dev', 'json', 'update_json', 'norm','interactive'],
                        default='interactive',
                        help='What to create (default: interactive)')
     
