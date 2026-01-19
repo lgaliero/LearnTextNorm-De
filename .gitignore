@@ -3,8 +3,6 @@ __pycache__/
 archive/
 
 #to be updated once finalized
-data_split/
-api_query.py
 untitled.txt
 .ipynb_checkpoints/
 scripts/clean_verbose.py
@@ -12,7 +10,6 @@ output/eval/llama
 scripts/normEval.py
 scripts/evaluate.sh
 scripts/baseline.py
-scripts/eval copy.py
 scripts/convert_to_norm.py
 scripts/lai.py
 scripts/train.tgt
@@ -30,3 +27,5 @@ sets/test.norm
 sets/train_indices.txt
 sets/test_indices.txt
 sets/dev_indices.txt
+scripts/idx_lookup.py
+scripts/TEST_xml.py
