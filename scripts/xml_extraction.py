@@ -2590,7 +2590,7 @@ def process_corpora(
        # Write NORM output if requested (verticalized word-by-word format)
         if output_format in ["norm", "both"]:
             debug(f"\n[DEBUG NORM] Writing NORM output for {corpus_name}...")
-            out_path = os.path.join(output_dir, f"{corpus_name}_full.norm")
+            out_path = os.path.join(output_dir, f"{corpus_name}.norm")
             with open(out_path, "w", encoding="utf-8") as fh:
                 debug(f"[DEBUG NORM] Processing {len(corpus_pairs_with_files)} files...")
 
