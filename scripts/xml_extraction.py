@@ -1067,7 +1067,7 @@ def extract_kolipsi(element) -> Tuple[str, str, bool, List[Tuple[str, str]]]:
             return
 
         # GREETING / CLOSING / ENTITY
-        elif tag in ("greeting", "closing", "entity"):
+        elif tag in ("greeting", "entity"):
             if node.text and node.text.strip():
                 src.add_text(node.text.strip())
                 tgt.add_text(node.text.strip())
@@ -2505,7 +2505,7 @@ def process_corpora(
     corpus_configs: Dict[str, Dict],
     output_dir: str = Paths.EXTRACT_OUT,
     max_files_per_corpus: Optional[int] = None,
-    output_format: str = "both"  # "txt", "csv", "norm", or "both"
+    output_format: str = "both"  # "txt", "tsv", "norm", or "both"
 ) -> pd.DataFrame:
     """Process multiple corpora."""
     os.makedirs(output_dir, exist_ok=True)
@@ -2866,11 +2866,11 @@ def process_corpora(
 
     df = pd.DataFrame(all_data)
     
-    # Write CSV output
-    if output_format in ["csv", "both"]:
-        csv_path = os.path.join(output_dir, "all_corpora.csv")
-        df.to_csv(csv_path, index=False, encoding="utf-8")
-        print(f"\n=== Wrote {len(df)} rows to {csv_path} ===")
+    # Write TSV output
+    if output_format in ["tsv", "both"]:
+        tsv_path = os.path.join(output_dir, "all_corpora.tsv", sep="\t")
+        df.to_csv(tsv_path, index=False, encoding="utf-8")
+        print(f"\n=== Wrote {len(df)} rows to {tsv_path} ===")
     
     return df
 
@@ -2896,7 +2896,7 @@ if __name__ == "__main__":
     parser.add_argument('--output-dir', default=Paths.EXTRACT_OUT)
     parser.add_argument('--format',
                         default=ExtractionParams.OUTPUT_FORMAT,
-                        choices=['csv', 'norm', 'both'])
+                        choices=['tsv', 'norm', 'both'])
     parser.add_argument('--max-files', type=int, default=None)
 
     # FIX: Determine which corpora to process

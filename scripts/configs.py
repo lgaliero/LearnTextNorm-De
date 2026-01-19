@@ -1,26 +1,29 @@
 """
-Configuration file for XML extraction, computing statistics and more.
+Configuration file for the normalization pipeline, form XML extraction to evaluation
 Contains:
-1. Corpus paths and extraction parameters
-2. Stats display options
+1. File paths 
+2. XML extraction parameters
+3. Stats display options
+4. Dataset splitting 
+5. API configurations and system messages for model testing in 0-shot and 2-shot
 """
 class Paths: 
     EXT_LOG_FILE ="../processed_data/extraction_debug.log"
     EXTRACT_OUT = '../processed_data'  
-    EXTRACT_CSV = "../processed_data/all_corpora.csv"
+    EXTRACT_TSV = "../processed_data/all_corpora.tsv"
     SET_SPLITS = "../sets"
-    TEST_SRC = "../sets/test.src"
-    TEST_TGT = "../sets/test.tgt"
-    TEST_IDXS = "../sets/test_indices.txt"
-    DEV_SRC = "../sets/dev.src"
-    DEV_TGT = "../sets/dev.tgt"
-    DEV_IDXS = "../sets/dev_indices.txt"
+    TEST_SRC = "../sets/test/test.src"
+    TEST_TGT = "../sets/test/test.tgt"
+    TEST_IDXS = "../sets/test/test_meta.tsv"
+    DEV_SRC = "../sets/dev/dev.src"
+    DEV_TGT = "../sets/dev/dev.tgt"
+    DEV_IDXS = "../sets/dev/dev_meta.tsv"
     TRAIN_SRC = "../sets/train.src"
     TRAIN_TGT = "../sets/train.tgt"
-    TRAIN_IDXS = "../sets/train_indices.txt"
-    JSON = "../sets/2S_prompts.json"
+    TRAIN_IDXS = "../sets/train/train_meta.tsv"
+    JSON = "../sets/2S_prompts.json" 
     MODELS = "../output/llama3-2"
-    LLM_BASE = "../output/llama3-2/baseline_raw.tgt"
+    LLM_BASE = "../output/llama3-2/0shot_raw.tgt"
     LLM_2S = "../output/llama3-2/2shot_raw.tgt"
 
 # =======================
@@ -48,7 +51,7 @@ class ExtractionParams:
     }
     ACTIVE_CORPORA = ['LEONIDE', 'Kolipsi_1_L1', "Kolipsi_1_L2", "Kolipsi_2"] # Corpora to process (empty list = process none)
     OUTPUT_FORMAT = 'both'      # Output settings - Options: "csv", "norm", or "both"
-    EXCLUDE = ["DE_pic_2_57Y25A14_59.xml"," DE_pic_2_57Y25A03_59.xml", "DE_pic_3_67Y25A21_112.xml"," DE_pic_1_57Y28A01_13.xml"]
+    EXCLUDE = ["DE_pic_2_57Y25A14_59.xml"," DE_pic_2_57Y25A03_59.xml", "DE_pic_3_67Y25A21_112.xml"," DE_pic_1_57Y28A01_13.xml","I22_DIL27SIM_2.xml"]
     MAX_FILES_PER_CORPUS = None    # Processing limits - None = process all files, or set to integer to limit
     SENTENCIZER_KWARGS = None      # Sentencizer settings (if needed in future)
 
@@ -84,7 +87,7 @@ class ApiConfig:
     MODE = "baseline"  # or "2-shot" "
     SYS_BASELINE = """Du bekommst deutsche Sätze, die von Lernenden aus Mittel- und Oberschulen geschrieben wurden. 
     Korrigiere nur orthographische Fehler, falls vorhanden (falsche Buchstaben, Groß- und Kleinschreibung, Umlaute, ß/ss, Getrennt- und Zusammenschreibung). 
-    Wenn der Satz keine Fehler enthält, gib ihn unverändert zurück. 
+    Wenn der Satz keine ortographischen Fehler enthält, gib ihn unverändert zurück, mit allen gegebenen Grammatikfehler. 
     Gib immer nur den vollständigen Satz zurück. 
     Keine Kommentare, keine Antworten auf Fragen, keine Labels und keine weiteren Ergänzungen des Ausgangstexts – auch dann nicht, wenn der Satz unverständlich ist oder toxischen Inhalt enthält."""
 
@@ -98,6 +101,6 @@ class ApiConfig:
     Korrigiere nur orthographische Fehler, falls vorhanden (falsche Buchstaben, Groß- und Kleinschreibung, Umlaute, ß/ss, Getrennt- und Zusammenschreibung). 
     Orientiere dich an den Beispielen und verbessere den vorherigen Versuch, falls nötig.
 
-    Wenn der Satz keine Fehler enthält, gib ihn unverändert zurück. 
+    Wenn der Satz keine ortographischen Fehler enthält, gib ihn unverändert zurück, mit allen gegebenen Grammatikfehler.
     Gib immer nur den vollständigen korrigierten Satz zurück. 
     Keine Kommentare, keine Antworten auf Fragen, keine Labels und keine weiteren Ergänzungen des Ausgangstexts – auch dann nicht, wenn der Satz unverändert ist oder toxischen Inhalt enthält."""

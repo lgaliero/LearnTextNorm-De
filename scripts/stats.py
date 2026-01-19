@@ -16,33 +16,11 @@ def load_spacy(model="de_core_news_sm"):
 nlp = load_spacy()
 nlp.max_length = 2_000_000
 
-# Process one corpus file (TXT)
-def process_corpus_spacy(path: str):
-    with open(path, "r", encoding="utf-8", errors="ignore") as f:
-        text = f.read().strip()
-    if not text:
-        return {"n_sentences": 0, "words": 0, "unique_tokens": 0, "avg_words_per_sentence": 0}
-    
-    doc = nlp(text)
-    sentences = [sent.text.strip() for sent in doc.sents if sent.text.strip()]
-    tokens = [tok.text for tok in doc if tok.is_alpha]
-    num_sent = len(sentences)
-    num_words = len(tokens)
-    unique_tokens = len(set(tokens))
-    avg_words_per_sentence = num_words / num_sent if num_sent else 0
-    
-    return {
-        "n_sentences": num_sent,
-        "words": num_words,
-        "unique_tokens": unique_tokens,
-        "avg_words_per_sentence": round(avg_words_per_sentence, 2)
-    }
-
-# Process CSV with spaCy row-by-row (much faster than concatenating)
-def process_csv_stats_spacy_optimized(df_subset):
+# Process TSV with spaCy row-by-row (much faster than concatenating)
+def process_tsv(df_subset):
     """
-    Process CSV data with spaCy row-by-row to avoid memory issues.
-    Each sentence is already split in the CSV, so we process individually.
+    Process TSV data with spaCy row-by-row to avoid memory issues.
+    Each sentence is already split in the TSV, so we process individually.
     """
     total_pairs = len(df_subset)
     corrected_pairs = df_subset['corrected'].sum()
@@ -97,12 +75,12 @@ def process_csv_stats_spacy_optimized(df_subset):
         "corrected_sentences_pct": round(corrected_sentences / total_sentences * 100, 2) if total_sentences else 0
     }
 
-def compute_corpus_stats(csv_path=Paths.EXTRACT_CSV):
+def compute_stats(tsv_path=Paths.EXTRACT_TSV):
     """
     Compute statistics on corpus data.
     
     Args:
-        csv_path: Path to CSV file
+        tsv_path: Path to TSV file
     
     Returns:
         DataFrame with statistics
@@ -110,24 +88,24 @@ def compute_corpus_stats(csv_path=Paths.EXTRACT_CSV):
 
     results = []
     try:
-        df_csv = pd.read_csv(csv_path, encoding="utf-8")
+        df_tsv = pd.read_csv(tsv_path, encoding="utf-8")
         
-        # Individual corpora from CSV
-        corpus_names = sorted(df_csv['corpus'].unique())
+        # Individual corpora from TSV
+        corpus_names = sorted(df_tsv['corpus'].unique())
         
         for corpus_name in corpus_names:
-            df_subset = df_csv[df_csv['corpus'] == corpus_name]
-            stats = process_csv_stats_spacy_optimized(df_subset)
+            df_subset = df_tsv[df_tsv['corpus'] == corpus_name]
+            stats = process_tsv(df_subset)
             stats["corpus"] = corpus_name
             results.append(stats)
         
-        # Whole CSV corpus
-        all_csv_stats = process_csv_stats_spacy_optimized(df_csv)
+        # Whole TSV corpus
+        all_csv_stats = process_tsv(df_tsv)
         all_csv_stats["corpus"] = "WHOLE_CORPUS"
         results.append(all_csv_stats)
 
     except FileNotFoundError:
-        print(f"✗ CSV file not found: {csv_path}")
+        print(f"✗ TSV file not found: {tsv_path}")
     
     # Convert to DataFrame
     df_results = pd.DataFrame(results)
@@ -147,7 +125,7 @@ def compute_corpus_stats(csv_path=Paths.EXTRACT_CSV):
     
     return df_results
 
-def compute_corrected_only_stats(csv_path=Paths.EXTRACT_CSV):
+def correction_stats_only(tsv_path=Paths.EXTRACT_TSV):
     """
     Compute statistics for corrected pairs only.
     
@@ -155,8 +133,8 @@ def compute_corrected_only_stats(csv_path=Paths.EXTRACT_CSV):
         DataFrame with corrected-only statistics
     """
     try:
-        df_csv_full = pd.read_csv(csv_path, encoding="utf-8")
-        df_corrected_only = df_csv_full[df_csv_full['corrected'] == True]
+        df_tsv_full = pd.read_csv(tsv_path, encoding="utf-8")
+        df_corrected_only = df_tsv_full[df_tsv_full['corrected'] == True]
         
         if len(df_corrected_only) == 0:
             print("No corrected pairs found in the dataset.")
@@ -242,7 +220,7 @@ def compute_corrected_only_stats(csv_path=Paths.EXTRACT_CSV):
         return pd.DataFrame(corrected_stats)
         
     except FileNotFoundError:
-        print(f"✗ CSV file not found: {csv_path}")
+        print(f"✗ TSV file not found: {tsv_path}")
         return pd.DataFrame()
 
 # MAIN EXECUTION 
@@ -256,7 +234,7 @@ if __name__ == "__main__":
         print("\n" + "="*80)
         print(f"GENERAL OVERVIEW")
         print("="*80)
-        df_stats = compute_corpus_stats(csv_path=Paths.EXTRACT_CSV)
+        df_stats = compute_stats(tsv_path=Paths.EXTRACT_TSV)
         display(df_stats)
 
     # 2. Sentence Count by Subcorpus
@@ -266,12 +244,12 @@ if __name__ == "__main__":
         print("="*80)
 
         try:
-            if 'df_csv_full' not in locals():
-                df_csv_full = pd.read_csv(Paths.EXTRACT_CSV, encoding="utf-8")
+            if 'df_tsv_full' not in locals():
+                df_tsv_full = pd.read_csv(Paths.EXTRACT_TSV, encoding="utf-8")
             
-            total_sentences = len(df_csv_full)
+            total_sentences = len(df_tsv_full)
             
-            sentence_count_by_corpus = df_csv_full.groupby('corpus').size().reset_index(name='sentence_count')
+            sentence_count_by_corpus = df_tsv_full.groupby('corpus').size().reset_index(name='sentence_count')
             sentence_count_by_corpus['percentage'] = (sentence_count_by_corpus['sentence_count'] / total_sentences * 100).round(2).astype(str) + '%'
             
             # Add total row
@@ -285,7 +263,7 @@ if __name__ == "__main__":
             display(sentence_count_by_corpus)
             
         except FileNotFoundError:
-            print("✗ CSV file not found for sentence count analysis")
+            print("✗ TSV file not found for sentence count analysis")
 
 
     # 3. Correction Breakdown by Subcorpus
@@ -295,10 +273,10 @@ if __name__ == "__main__":
         print("="*80)
         
         try:
-            df_csv_full = pd.read_csv(Paths.EXTRACT_CSV, encoding="utf-8")
+            df_tsv_full = pd.read_csv(Paths.EXTRACT_TSV, encoding="utf-8")
             
             print("\n--- By Subcorpus ---")
-            correction_by_corpus = df_csv_full.groupby('corpus')['corrected'].agg([
+            correction_by_corpus = df_tsv_full.groupby('corpus')['corrected'].agg([
                 ('total_pairs', 'count'),
                 ('corrected_pairs', 'sum'),
                 ('left_as_is', lambda x: (~x).sum()),
@@ -308,17 +286,17 @@ if __name__ == "__main__":
             display(correction_by_corpus)
             
         except FileNotFoundError:
-            print("✗ CSV file not found for correction analysis")
+            print("✗ TSV file not found for correction analysis")
     
     # 4. Overall Correction Summary
     if StatsDisplay.CORRECTION_SUMMARY:
         try:
-            if 'df_csv_full' not in locals():
-                df_csv_full = pd.read_csv(Paths.EXTRACT_CSV, encoding="utf-8")
+            if 'df_tsv_full' not in locals():
+                df_tsv_full = pd.read_csv(Paths.EXTRACT_TSV, encoding="utf-8")
             
             print("\n--- Whole Corpus ---")
-            total_pairs = len(df_csv_full)
-            corrected_pairs = df_csv_full['corrected'].sum()
+            total_pairs = len(df_tsv_full)
+            corrected_pairs = df_tsv_full['corrected'].sum()
             left_as_is = total_pairs - corrected_pairs
             
             overall_stats = pd.DataFrame([{
@@ -338,7 +316,7 @@ if __name__ == "__main__":
             display(overall_stats)
             
         except FileNotFoundError:
-            print("✗ CSV file not found for correction analysis")
+            print("✗ TSV file not found for correction analysis")
         
     # 5. Corrected Pairs Only - Detailed Stats
     if StatsDisplay.CORRECTED_ONLY_STATS:
@@ -346,7 +324,7 @@ if __name__ == "__main__":
         print("CORRECTED PAIRS ONLY - DETAILED STATISTICS")
         print("="*80)
         
-        df_corrected_stats = compute_corrected_only_stats(csv_path=Paths.EXTRACT_CSV)
+        df_corrected_stats = correction_stats_only(tsv_path=Paths.EXTRACT_TSV)
         if not df_corrected_stats.empty:
             display(df_corrected_stats)
 
@@ -357,15 +335,15 @@ if __name__ == "__main__":
         print("="*80)
         
         try:
-            if 'df_csv_full' not in locals():
-                df_csv_full = pd.read_csv(Paths.EXTRACT_CSV, encoding="utf-8")
+            if 'df_tsv_full' not in locals():
+                df_tsv_full = pd.read_csv(Paths.EXTRACT_TSV, encoding="utf-8")
             
-            total_sentences_overall = len(df_csv_full)
+            total_sentences_overall = len(df_tsv_full)
             
             # 5A. Sentence-level breakdown
             if StatsDisplay.TEXT_TYPE_SENTENCE_LEV:
                 print("\n--- Sentence-Level Statistics ---")
-                sentence_level = df_csv_full.groupby('text_type').size().reset_index(name='sentence_count')
+                sentence_level = df_tsv_full.groupby('text_type').size().reset_index(name='sentence_count')
                 sentence_level['percentage'] = (sentence_level['sentence_count'] / total_sentences_overall * 100).round(2).astype(str) + '%'
                 
                 # Add total row
@@ -382,7 +360,7 @@ if __name__ == "__main__":
             if StatsDisplay.TEXT_TYPE_DOCUMENT_LEV:
                 print("\n--- Document-Level Statistics ---")
                 # Get unique xml_file + text_type combinations
-                unique_docs = df_csv_full.groupby(['xml_file', 'text_type']).size().reset_index(name='sentences_in_doc')
+                unique_docs = df_tsv_full.groupby(['xml_file', 'text_type']).size().reset_index(name='sentences_in_doc')
                 total_docs = len(unique_docs)
                 
                 doc_level = unique_docs.groupby('text_type').agg({
@@ -407,16 +385,16 @@ if __name__ == "__main__":
             # 5C. Combined breakdown by corpus and text type
             if StatsDisplay.TEXT_TYPE_COMBINED:
                 print("\n--- By Corpus and Text Type ---")
-                corpus_text_breakdown = df_csv_full.groupby(['corpus', 'text_type']).size().reset_index(name='sentence_count')
+                corpus_text_breakdown = df_tsv_full.groupby(['corpus', 'text_type']).size().reset_index(name='sentence_count')
                 
                 # Calculate percentages within each corpus
-                corpus_totals = df_csv_full.groupby('corpus').size().reset_index(name='corpus_total')
+                corpus_totals = df_tsv_full.groupby('corpus').size().reset_index(name='corpus_total')
                 corpus_text_breakdown = corpus_text_breakdown.merge(corpus_totals, on='corpus')
                 corpus_text_breakdown['percentage'] = (corpus_text_breakdown['sentence_count'] / corpus_text_breakdown['corpus_total'] * 100).round(2).astype(str) + '%'
                 corpus_text_breakdown = corpus_text_breakdown[['corpus', 'text_type', 'sentence_count', 'percentage']]
                 
                 # Add WHOLE_CORPUS totals
-                whole_corpus_breakdown = df_csv_full.groupby('text_type').size().reset_index(name='sentence_count')
+                whole_corpus_breakdown = df_tsv_full.groupby('text_type').size().reset_index(name='sentence_count')
                 whole_corpus_breakdown['corpus'] = 'WHOLE_CORPUS'
                 whole_corpus_breakdown['percentage'] = (whole_corpus_breakdown['sentence_count'] / total_sentences_overall * 100).round(2).astype(str) + '%'
                 whole_corpus_breakdown = whole_corpus_breakdown[['corpus', 'text_type', 'sentence_count', 'percentage']]
@@ -425,6 +403,6 @@ if __name__ == "__main__":
                 display(corpus_text_breakdown)
             
         except FileNotFoundError:
-            print("✗ CSV file not found for text type analysis")
+            print("✗ TSV file not found for text type analysis")
         except KeyError as e:
-            print(f"✗ Column not found: {e}. Make sure 'text_type' column exists in CSV.")
+            print(f"✗ Column not found: {e}. Make sure 'text_type' column exists in TSV.")
