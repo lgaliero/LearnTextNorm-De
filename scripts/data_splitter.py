@@ -35,14 +35,15 @@ def get_tf_model():
 
 def load_indices(output_dir: str) -> set:
     """Load indices from existing test set to avoid overlap."""
-    test_indices_file = Paths.TEST_INDICES if hasattr(Paths, 'TEST_INDICES') else os.path.join(output_dir, "test_indices.txt")
+    test_indices_file = Paths.TEST_INDICES if hasattr(Paths, 'TEST_INDICES') else os.path.join(output_dir, "test_indices.tsv")
     if os.path.exists(test_indices_file):
-        with open(test_indices_file, 'r') as f:
-            return set(int(line.strip()) for line in f if line.strip())
+        # Read TSV and extract DF_INDEX column
+        df_indices = pd.read_csv(test_indices_file, sep='\t', encoding='utf-8')
+        return set(df_indices['DF_INDEX'].tolist())
     return set()
 
 def save_splits(df_split: pd.DataFrame, split_name: str, 
-                     output_dir: str, indices: List[int]) -> None:
+                output_dir: str, indices: List[int], df_full: pd.DataFrame) -> None:
     """Save source, target, and indices files for a dataset split."""
     # Use paths from configs if available
     if split_name == "test":
@@ -57,7 +58,7 @@ def save_splits(df_split: pd.DataFrame, split_name: str,
         src_file = os.path.join(output_dir, f"{split_name}.src")
         tgt_file = os.path.join(output_dir, f"{split_name}.tgt")
     
-    indices_file = os.path.join(output_dir, f"{split_name}_indices.txt")
+    indices_file = os.path.join(output_dir, f"{split_name}_indices.tsv")  # Changed to .tsv
 
     # Create directories if they don't exist
     os.makedirs(os.path.dirname(src_file), exist_ok=True)
@@ -72,13 +73,20 @@ def save_splits(df_split: pd.DataFrame, split_name: str,
         for tgt in df_split['tgt']:
             f.write(f"{tgt}\n")
     
-    with open(indices_file, 'w', encoding='utf-8') as f:
-        for idx in indices:
-            f.write(f"{idx}\n")
+    # Create indices TSV with full metadata
+    # Get the rows from full dataframe for these indices
+    df_indices = df_full.loc[indices].copy()
+    
+    # Add DF_INDEX column as first column
+    df_indices.insert(0, 'DF_INDEX', indices)
+    
+    # Save as TSV with header
+    df_indices.to_csv(indices_file, sep='\t', index=False, encoding='utf-8')
     
     print(f"✓ Saved {split_name} source: {src_file}")
     print(f"✓ Saved {split_name} target: {tgt_file}")
     print(f"✓ Saved {split_name} indices: {indices_file}")
+
 
 def stratify_sample(df: pd.DataFrame, sample_size: float, 
                                      split_name: str, 
@@ -247,7 +255,7 @@ def create_test_set(df: pd.DataFrame, output_dir: str, test_size: float,
     print("\n" + "=" * 80)
     print("SAVING TEST SET")
     print("=" * 80)
-    save_splits(df_test, "test", output_dir, test_indices)
+    save_splits(df_test, "test", output_dir, test_indices, df)  # Added df parameter
     
     return df_test, df_remaining, test_indices
 
@@ -283,9 +291,9 @@ def create_train_dev_sets(df: pd.DataFrame, df_remaining: pd.DataFrame, output_d
     print("\n" + "=" * 80)
     print("SAVING TRAIN AND DEV SETS")
     print("=" * 80)
-    save_splits(df_train, "train", output_dir, train_indices)
-    save_splits(df_dev, "dev", output_dir, dev_indices)
-
+    save_splits(df_train, "train", output_dir, train_indices, df)  # Added df parameter
+    save_splits(df_dev, "dev", output_dir, dev_indices, df)
+            # Added df parameter
 def tokenize_and_preprocess(sentence: str, nlp) -> str:
     """Tokenize and preprocess sentences."""
     doc = nlp(sentence)
@@ -502,126 +510,161 @@ def create_json(output_dir: str, baseline_file: str = None,
     print(f"✓ Processed {len(results)} test sentences")
     print(f"✓ Baselines included: {sum(1 for r in results if r['baseline_output'] != 'to be added')}/{len(results)}")
 
-def create_norm_files(output_dir: str, csv_path: str) -> None:
+def create_norm_files(output_dir: str, csv_path: str, metadata_file: str = None) -> None:
     """
-    Generate verticalized .norm files for train, dev, and test splits.
+    Generate verticalized .norm files for train, dev, and test splits using metadata.
     
     Args:
         output_dir: Directory containing the split indices files
         csv_path: Path to the corpus CSV
-        corpus_dir: Directory containing the .norm files for each corpus
+        metadata_file: Path to all_corpora.norm.meta.txt (optional, auto-detected if None)
     """
     print("\n" + "=" * 80)
     print("GENERATING .norm FILES FOR SPLITS")
-    corpus_dir = Paths.EXTRACT_OUT
     print("=" * 80)
     
+    corpus_dir = Paths.EXTRACT_OUT
+    
+    # Auto-detect metadata file if not provided
+    if metadata_file is None:
+        metadata_file = os.path.join(corpus_dir, "all_corpora.norm.meta.txt")
+    
+    if not os.path.exists(metadata_file):
+        print(f"❌ Error: Metadata file not found: {metadata_file}")
+        return
+    
+    print(f"Using metadata file: {metadata_file}")
+    
+    # Parse metadata file
+    print("\nParsing metadata file...")
+    metadata_by_corpus = {}
+    
+    with open(metadata_file, 'r', encoding='utf-8') as f:
+        for line in f:
+            line = line.strip()
+            
+            # Skip comments and empty lines
+            if line.startswith('#') or not line:
+                continue
+            
+            parts = line.split('\t')
+            if len(parts) != 7:
+                continue
+            
+            corpus, xml_file, sent_num, line_start, line_end, src, tgt = parts
+            
+            if corpus not in metadata_by_corpus:
+                metadata_by_corpus[corpus] = []
+            
+            metadata_by_corpus[corpus].append({
+                'xml_file': xml_file,
+                'sent_num': int(sent_num),
+                'line_start': int(line_start),
+                'line_end': int(line_end),
+                'src': src,
+                'tgt': tgt
+            })
+    
+    print(f"✓ Loaded metadata for {len(metadata_by_corpus)} corpora")
+    
     # Load the full dataframe
-    df = pd.read_csv(csv_path, encoding="utf-8")
-    print(f"Loaded corpus CSV with {len(df)} sentences")
+    df = pd.read_csv(csv_path, encoding="utf-8", sep='\t')
+    print(f"✓ Loaded corpus CSV with {len(df)} sentences")
     
     # Process each split
     for split_name in ['train', 'dev', 'test']:
-        indices_file = os.path.join(output_dir, f"{split_name}_indices.txt")
+        indices_file = os.path.join(output_dir, f"{split_name}_indices.tsv")  # Changed to .tsv
         
         if not os.path.exists(indices_file):
             print(f"\n⚠️  Skipping {split_name}: indices file not found")
             continue
         
-        # Load indices
-        with open(indices_file, 'r') as f:
-            indices = [int(line.strip()) for line in f if line.strip()]
+        # Load indices from TSV
+        df_indices = pd.read_csv(indices_file, sep='\t', encoding='utf-8')
+        indices = df_indices['DF_INDEX'].tolist()
         
         print(f"\n--- Processing {split_name} set ({len(indices)} sentences) ---")
-        
-        # Output files
-        src_norm_file = os.path.join(output_dir, f"{split_name}_src.norm")
-        tgt_norm_file = os.path.join(output_dir, f"{split_name}_tgt.norm")
-        
-        src_lines = []
-        tgt_lines = []
+
+        # Output file (combined source and target in same file)
+        norm_output = os.path.join(output_dir, f"{split_name}.norm")
         
         # Cache for loaded .norm files
         norm_cache = {}
+        
+        output_lines = []
+        sentences_processed = 0
         
         for idx_position, df_index in enumerate(indices):
             if (idx_position + 1) % 100 == 0:
                 print(f"  Processed {idx_position + 1}/{len(indices)} sentences...")
             
-            # Get corpus name and source sentence from dataframe
-            corpus_name = df.loc[df_index, 'corpus']
-            src_sentence = df.loc[df_index, 'src']
+            # Get metadata from dataframe
+            row = df.loc[df_index]
+            corpus_name = row['corpus']
+            xml_file = row['xml_file']
+            sent_num = row['sent_num']
+            src_sentence = row['src']
+            tgt_sentence = row['tgt']
+            
+            # Find matching metadata entry
+            if corpus_name not in metadata_by_corpus:
+                print(f"\n⚠️  Warning: No metadata found for corpus '{corpus_name}'")
+                continue
+            
+            # Search for exact match in metadata
+            matched_meta = None
+            for meta in metadata_by_corpus[corpus_name]:
+                if (meta['xml_file'] == xml_file and 
+                    meta['sent_num'] == sent_num and
+                    meta['src'] == src_sentence):
+                    matched_meta = meta
+                    break
+            
+            if matched_meta is None:
+                print(f"\n⚠️  Warning: No metadata match for {corpus_name}/{xml_file}/sent_{sent_num}")
+                print(f"     Source: {src_sentence[:50]}...")
+                continue
             
             # Load .norm file if not cached
+            norm_file_path = os.path.join(corpus_dir, f"{corpus_name}.norm")
+            
             if corpus_name not in norm_cache:
-                norm_file_path = os.path.join(corpus_dir, f"{corpus_name}.norm")
                 if not os.path.exists(norm_file_path):
                     print(f"\n⚠️  Error: {norm_file_path} not found")
                     continue
                 
-                # Parse .norm file into sentences
                 with open(norm_file_path, 'r', encoding='utf-8') as f:
-                    sentences = []
-                    current_sentence = []
-                    
-                    for line in f:
-                        line = line.rstrip('\n')
-                        
-                        if line == '':  # Blank line = sentence boundary
-                            if current_sentence:
-                                sentences.append(current_sentence)
-                                current_sentence = []
-                        else:
-                            current_sentence.append(line)
-                    
-                    # Add last sentence if file doesn't end with blank line
-                    if current_sentence:
-                        sentences.append(current_sentence)
-                
-                norm_cache[corpus_name] = sentences
+                    norm_cache[corpus_name] = [line.rstrip('\n') for line in f]
             
-            # Find matching sentence in .norm file
-            norm_sentences = norm_cache[corpus_name]
-            src_words = src_sentence.split()
-            matched = False
+            # Extract lines using metadata line numbers
+            line_start = matched_meta['line_start'] - 1  # Convert to 0-indexed
+            line_end = matched_meta['line_end']          # End is inclusive (blank line)
             
-            for norm_sentence in norm_sentences:
-                # Extract left side (source) from each line
-                norm_src_words = [line.split('\t')[0] for line in norm_sentence]
-                
-                # Check if it matches
-                if norm_src_words == src_words:
-                    # Extract source and target
-                    for line in norm_sentence:
-                        parts = line.split('\t')
-                        if len(parts) >= 2:
-                            src_lines.append(f"{parts[0]}\t{parts[0]}")
-                            tgt_lines.append(f"{parts[0]}\t{parts[1]}")
-                        else:
-                            # Handle lines with only one column
-                            src_lines.append(f"{parts[0]}\t{parts[0]}")
-                            tgt_lines.append(f"{parts[0]}\t")
-                    
-                    # Add blank line after sentence (except for first sentence)
-                    if idx_position > 0:
-                        src_lines.insert(len(src_lines) - len(norm_sentence), '')
-                        tgt_lines.insert(len(tgt_lines) - len(norm_sentence), '')
-                    
-                    matched = True
-                    break
+            norm_lines = norm_cache[corpus_name]
             
-            if not matched:
-                print(f"\n⚠️  Warning: Could not find match for index {df_index}: '{src_sentence}'")
+            # Extract sentence lines (including blank line at end)
+            sentence_lines = norm_lines[line_start:line_end]
+            
+            # Add blank line separator BEFORE sentence (except for first sentence)
+            if sentences_processed > 0:
+                output_lines.append('')
+            
+            # Add all lines for this sentence (excluding final blank line from source)
+            for line in sentence_lines:
+                if line.strip():  # Only add non-blank lines
+                    output_lines.append(line)
+            
+            sentences_processed += 1
         
-        # Write output files
-        with open(src_norm_file, 'w', encoding='utf-8') as f:
-            f.write('\n'.join(src_lines))
+        # Write output file
+        with open(norm_output, 'w', encoding='utf-8') as f:
+            f.write('\n'.join(output_lines))
+            # Add final newline
+            if output_lines:
+                f.write('\n')
         
-        with open(tgt_norm_file, 'w', encoding='utf-8') as f:
-            f.write('\n'.join(tgt_lines))
-        
-        print(f"✓ Saved {split_name}_src.norm: {src_norm_file}")
-        print(f"✓ Saved {split_name}_tgt.norm: {tgt_norm_file}")
+        print(f"✓ Saved {split_name}.norm: {norm_output}")
+        print(f"  ({sentences_processed} sentences, {len(output_lines)} lines)")
     
     print("\n✅ All .norm files generated successfully!")
 
@@ -630,7 +673,8 @@ def main(csv_path: str = Paths.EXTRACT_CSV,
          test_size: float = DataSplits.TEST,
          dev_size: float = DataSplits.DEV,
          random_seed: int = 42,
-         create_mode: str = "interactive"):
+         create_mode: str = "interactive",
+         metadata_file: str = None):
     """
     Main function to create dataset splits using line-number-based sampling.
     
@@ -654,7 +698,8 @@ def main(csv_path: str = Paths.EXTRACT_CSV,
         return
 
     if create_mode == "norm":
-        create_norm_files(output_dir, csv_path, corpus_dir)
+        metadata_file = os.path.join(Paths.EXTRACT_OUT, "all_corpora.norm.meta.txt")
+        create_norm_files(output_dir, csv_path, metadata_file)
         return
     
     # Load corpus
@@ -710,7 +755,8 @@ def main(csv_path: str = Paths.EXTRACT_CSV,
             return
         
         if choice == "7":
-            create_norm_files(output_dir, csv_path)
+            metadata_file = os.path.join(Paths.EXTRACT_OUT, "all_corpora.norm.meta.txt")
+            create_norm_files(output_dir, csv_path, metadata_file)
             return
         
         if test_exists:
@@ -751,7 +797,7 @@ def main(csv_path: str = Paths.EXTRACT_CSV,
         if response in ['yes', 'y']:
             baseline_file = input("Enter baseline file path (press Enter for default): ").strip()
             if not baseline_file:
-                baseline_file = os.path.join(output_dir, "baseline_LLaMA3_2.tgt")
+                baseline_file = os.path.join(output_dir, "0shot_raw.tgt")
             create_json(output_dir, baseline_file=baseline_file, update_mode=False)
         
     elif create_mode == "test":
@@ -805,7 +851,7 @@ def main(csv_path: str = Paths.EXTRACT_CSV,
             print("\n" + "=" * 80)
             print("SAVING TRAIN SET (ALL REMAINING DATA)")
             print("=" * 80)
-            save_splits(df_train, "train", output_dir, train_indices)
+            save_splits(df_train, "train", output_dir, train_indices, df)  # Added df parameter
             print("\n✅ Train set created!")
     
     elif create_mode == "dev":
@@ -829,9 +875,8 @@ def main(csv_path: str = Paths.EXTRACT_CSV,
             print("\n" + "=" * 80)
             print("SAVING DEV SET (ALL REMAINING DATA)")
             print("=" * 80)
-            save_splits(df_dev, "dev", output_dir, dev_indices)
+            save_splits(df_dev, "dev", output_dir, dev_indices, df)  # Added df parameter
             print("\n✅ Dev set created!")
-
 
 if __name__ == "__main__":
     import argparse
@@ -854,6 +899,9 @@ if __name__ == "__main__":
                        default='interactive',
                        help='What to create (default: interactive)')
     
+    parser.add_argument('--metadata-file', default=None,
+                       help='Path to all_corpora.norm.meta.txt (auto-detected if not specified)')
+    
     args = parser.parse_args()
     
     main(
@@ -862,5 +910,6 @@ if __name__ == "__main__":
         test_size=args.test_size,
         dev_size=args.dev_size,
         random_seed=args.seed,
-        create_mode=args.mode
+        create_mode=args.mode,
+        metadata_file=args.metadata_file  # NEW
     )

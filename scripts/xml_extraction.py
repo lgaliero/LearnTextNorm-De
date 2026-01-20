@@ -15,6 +15,29 @@ from dataclasses import dataclass
 
 # Compile pattern to de
 # Global abbreviation patterns - used for both sentence splitting and NORM alignment
+# Abbreviation patterns for NORM tokenization - match core abbreviation structure
+ABBREV_PATTERNS_NORM = [
+    r'w\.\s*z\.\s*[bB]\.?',   # w.z.B, w. z. B, w.z.B.
+    r'[zZ]\.\s*[bB]\.?',       # z.B, z. B, z.B., Z.B
+    r'[zZ][bB]\.?',            # zB, ZB, zB., ZB.
+    r'u\.s\.w\.?',             # u.s.w, u.s.w.
+    r'u\.n\.w\.?',             # u.n.w.
+    r'u\.a\.?',                # u.a, u.a.
+    r'd\.h\.?',                # d.h, d.h.
+    r'c\.a\.?',                # c.a, c.a.
+    r'o\.\s*[äÄ]\.?',          # o.ä, o. Ä, o.ä.
+    r'o\.',                    # o. (standalone)
+    r'[oO]\.[kK]\.?',          # o.k., O.K., o.k
+    r'[U]\.?[A]\.?',            # U.A, U.A. etc.
+    r'M\.S\.?',                # M.S, M.S.
+    r'[A-ZÄÖÜ]\.',             # Single capital letter abbreviations: H., P., M., etc.
+    r'Min\.', r'min\.', r'bzw\.', r'usw\.', r'etc\.', r'ecc\.', r'ca\.', r'evtl\.', 
+    r'ggf\.', r'inkl\.', r'max\.', r'Nr\.', r'Tel\.', r'vs\.', 
+    r'Mr\.', r'Mrs\.', r'Ms\.', r'Dr\.', r'Prof\.', r'Fam\.'
+]
+
+
+# Keep original ABBREVIATIONS for spacy_sent
 ABBREVIATIONS = [
     r'bo\.\s',
     r'o\.\s?ä',
@@ -27,11 +50,50 @@ ABBREVIATIONS = [
     r'd\.h',
     r'c\.a',
     r'\b[oO]\.?[kK]\.?',
+    r'P\.S',
     r'Min', r'min', r'bzw', r'usw', r'etc', r'ecc', r'ca', r'evtl', 
     r'ggf', r'inkl', r'max', r'Nr', r'Tel', r'vs', r'Mr', r'Mrs', 
     r'Ms', r'Dr', r'Prof', r'Fam'
 ]
 
+def tokenize_preserve_abbrev(text: str) -> List[str]:
+    """Tokenize text, separating punctuation except for abbreviations."""
+    # First, find and protect abbreviations with placeholders
+    protected = text
+    abbrev_map = {}
+    counter = [0]
+    
+    def protect_match(match):
+        placeholder = f'___ABBREV{counter[0]}___'
+        abbrev_map[placeholder] = match.group(0)
+        counter[0] += 1
+        return placeholder
+    
+    # Protect abbreviations by matching them in order of specificity (longest first)
+    for pattern in sorted(ABBREV_PATTERNS_NORM, key=len, reverse=True):
+        protected = re.sub(pattern, protect_match, protected, flags=re.IGNORECASE)
+    
+    # Now tokenize: separate punctuation from words
+    # Add space before punctuation (except within placeholders)
+    tokenized = re.sub(r'([a-zA-ZäöüÄÖÜß0-9_])([.,!?;:)\]])', r'\1 \2', protected)
+    # Add space after punctuation
+    tokenized = re.sub(r'([.,!?;:])([a-zA-ZäöüÄÖÜß0-9_„""])', r'\1 \2', tokenized)
+    # Handle opening quotes/parentheses
+    tokenized = re.sub(r'([\[„"(])([a-zA-ZäöüÄÖÜß0-9_])', r'\1 \2', tokenized)
+    
+    # Split on whitespace
+    tokens = tokenized.split()
+    
+    # Restore abbreviations in each token
+    final_tokens = []
+    for token in tokens:
+        # Replace all placeholders in this token
+        restored = token
+        for placeholder, original in abbrev_map.items():
+            restored = restored.replace(placeholder, original)
+        final_tokens.append(restored)
+    
+    return final_tokens
 
 # Compile pattern to detect any abbreviation with optional spacing
 ABBREV_PATTERN = re.compile(
@@ -121,8 +183,7 @@ class TextBuilder:
         text = ''.join(self.parts)
         # Clean up multiple spaces but preserve single spaces
         text = re.sub(r' +', ' ', text)
-        # Remove spaces before punctuation
-        text = re.sub(r'\s+([.:;!?,])', r'\1', text)
+        # Preserve all original punctuation spacing
         return text.strip()
 
 def has_leading_whitespace(text: Optional[str]) -> bool:
@@ -180,6 +241,7 @@ def spacy_sent(text: str) -> List[str]:
 
     # Protect multi-letter abbreviations with internal periods
     text = re.sub(r'\bu\.?s\.?w\.?\)?\b', abbrev_replacer, text, flags=re.IGNORECASE)
+
     text = re.sub(r'\bu\.n\.w\.', abbrev_replacer, text, flags=re.IGNORECASE)
     text = re.sub(r'\bu\.a\.', abbrev_replacer, text, flags=re.IGNORECASE)
     text = re.sub(r'\bd\.h\.', abbrev_replacer, text, flags=re.IGNORECASE)
@@ -191,7 +253,7 @@ def spacy_sent(text: str) -> List[str]:
 
     text = re.sub(r'\b[oO]\.?[kK]\.?', abbrev_replacer, text)  # Matches Ok, ok, O.K., o.k., etc.
     # Single-word abbreviations
-    text = re.sub(r'\b(Min|min|bzw|usw|etc|ecc|ca|evtl|ggf|inkl|max|Nr|Tel|vs|Mr|Mrs|Ms|Dr|Prof|Fam)\.', abbrev_replacer, text)
+    text = re.sub(r'\b(Min|min|bzw|usw|etc|ecc|ca|evtl|ggf|inkl|max|Nr|Tel|vs|Mr|Mrs|Ms|Dr|Prof|Fam|XXI|P\.S)\.', abbrev_replacer, text)
 
     
     # CRITICAL: Split at numbered markers IMMEDIATELY - before ANY other processing
@@ -244,7 +306,7 @@ def spacy_sent(text: str) -> List[str]:
         out = []
         for sent in doc.sents:
             s = sent.text.strip()
-            if not s or re.fullmatch(r"[\.\\?!]+", s):
+            if not s:
                 continue
             s = s.replace("<PAR>", "").strip()
 
@@ -327,207 +389,6 @@ def spacy_sent(text: str) -> List[str]:
     debug(f"[DEBUG SPACY OUTPUT] {cleaned}")
     return cleaned
 
-def split_at_quotes_aligned(src_text: str, tgt_text: str) -> Tuple[List[str], List[str], List[bool]]:
-    """
-    Split both src and tgt at quotes, keeping alignment.
-    Returns: (src_segments, tgt_segments, should_remove_quotes_per_segment)
-    Rules:
-    - Count words between quote pairs
-    - 1-3 words: Don't split, don't remove quotes
-    - 4+ words: Split and mark for quote removal
-    - Single opening quote: check words until sentence end
-    - Discourse commas: Same logic as quotes (1-3: keep, 4+: split and remove)
-    """
-    opening_quotes = r'[„"«"'']'
-    closing_quotes = r'[""»""]'
-    
-    src_words = src_text.split()
-    tgt_words = tgt_text.split()
-    
-    split_indices = []
-    quote_removal_ranges = []  # Track which segments should have quotes removed
-    comma_removal_ranges = []  # Track which segments should have commas removed
-    
-    # PHASE 1: Process quotes
-    i = 0
-    while i < len(src_words):
-        word = src_words[i]
-        
-        # Check if word starts with opening quote
-        if re.match(opening_quotes, word):
-            # Count words until closing quote
-            quote_word_count = 0
-            j = i
-            found_closing = False
-            
-            while j < len(src_words):
-                # Check if this word contains closing quote
-                if re.search(closing_quotes, src_words[j]):
-                    found_closing = True
-                    quote_word_count += 1
-                    break
-                quote_word_count += 1
-                j += 1
-            
-            # If no closing quote found, count to end of sentence
-            if not found_closing:
-                quote_word_count = len(src_words) - i
-            
-            # Apply rules based on word count
-            if quote_word_count >= 4:
-                # Split and mark for quote removal
-                if i > 0:
-                    split_indices.append(i)
-                if found_closing and j + 1 < len(src_words):
-                    split_indices.append(j + 1)
-                quote_removal_ranges.append((i, j + 1 if found_closing else len(src_words)))
-            # If 1-3 words: don't split, don't remove quotes (do nothing)
-            
-            # Move past the quoted section
-            i = j + 1 if found_closing else i + 1
-        else:
-            i += 1
-    
-    # PHASE 2: Process discourse commas (same logic as quotes)
-    i = 0
-    while i < len(src_words):
-        word = src_words[i]
-        
-        # Check if word starts with opening discourse comma (opening quote + word + comma)
-        # Pattern: „word, or "word,
-        if re.match(r'^[„"«"''][^„"""''»"]+,$', word):
-            # Count words until next discourse comma or sentence end
-            comma_word_count = 1  # Count this word
-            j = i + 1
-            found_closing_comma = False
-            
-            while j < len(src_words):
-                next_word = src_words[j]
-                # Check if this is a closing discourse comma (ends with comma before closing quote)
-                # or another discourse comma
-                if re.search(r',[„"""''»"]$', next_word) or re.match(r'^[„"«"''][^„"""''»"]+,$', next_word):
-                    found_closing_comma = True
-                    comma_word_count += 1
-                    break
-                # Check if we hit sentence-ending punctuation
-                if re.search(r'[.!?][""]?$', next_word):
-                    comma_word_count += 1
-                    break
-                comma_word_count += 1
-                j += 1
-            
-            # If we didn't find a closing comma, count to end
-            if not found_closing_comma and j >= len(src_words):
-                comma_word_count = len(src_words) - i
-            
-            # Apply rules based on word count
-            if comma_word_count >= 4:
-                # Split and mark for comma removal
-                if i > 0 and i not in split_indices:
-                    split_indices.append(i)
-                if found_closing_comma and j + 1 < len(src_words) and (j + 1) not in split_indices:
-                    split_indices.append(j + 1)
-                comma_removal_ranges.append((i, j + 1 if found_closing_comma else len(src_words)))
-            elif comma_word_count <= 3:
-                # Just mark for comma removal without splitting
-                comma_removal_ranges.append((i, j + 1 if found_closing_comma else len(src_words)))
-            
-            # Move past the comma section
-            i = j + 1 if found_closing_comma else i + 1
-        else:
-            i += 1
-    
-    # If no splits, return as-is with appropriate removal flags
-    if not split_indices:
-        has_quotes = any(start <= 0 and end >= len(src_words) for start, end in quote_removal_ranges)
-        has_commas = any(start <= 0 and end >= len(src_words) for start, end in comma_removal_ranges)
-        return [src_text], [tgt_text], [has_quotes or has_commas]
-    
-    # Remove duplicates and sort
-    split_indices = sorted(set(split_indices))
-    
-    # Apply splits to both src and tgt
-    src_segments = []
-    tgt_segments = []
-    should_remove_quotes = []
-    
-    prev_idx = 0
-    for split_idx in split_indices:
-        src_seg = ' '.join(src_words[prev_idx:split_idx]).strip()
-        tgt_seg = ' '.join(tgt_words[prev_idx:split_idx]).strip()
-        
-        if src_seg or tgt_seg:
-            src_segments.append(src_seg)
-            tgt_segments.append(tgt_seg)
-            
-            # Check if this segment needs quote removal
-            segment_has_quotes = any(
-                prev_idx >= start and split_idx <= end 
-                for start, end in quote_removal_ranges
-            )
-            
-            # Check if this segment needs comma removal
-            segment_has_commas = any(
-                prev_idx >= start and split_idx <= end 
-                for start, end in comma_removal_ranges
-            )
-            
-            should_remove_quotes.append(segment_has_quotes or segment_has_commas)
-        
-        prev_idx = split_idx
-    
-    # Add remaining
-    src_seg = ' '.join(src_words[prev_idx:]).strip()
-    tgt_seg = ' '.join(tgt_words[prev_idx:]).strip()
-    
-    if src_seg or tgt_seg:
-        src_segments.append(src_seg)
-        tgt_segments.append(tgt_seg)
-        
-        segment_has_quotes = any(
-            prev_idx >= start 
-            for start, end in quote_removal_ranges
-        )
-        
-        segment_has_commas = any(
-            prev_idx >= start 
-            for start, end in comma_removal_ranges
-        )
-        
-        should_remove_quotes.append(segment_has_quotes or segment_has_commas)
-    
-    # Ensure equal length
-    while len(src_segments) < len(tgt_segments):
-        src_segments.append('')
-        should_remove_quotes.append(False)
-    while len(tgt_segments) < len(src_segments):
-        tgt_segments.append('')
-    
-    return src_segments, tgt_segments, should_remove_quotes
-
-def remove_quote_markers(text: str) -> str:
-    """Remove standalone quote markers and discourse commas."""
-    words = text.split()
-    filtered = []
-    
-    for word in words:
-        # Remove standalone quotes
-        if re.fullmatch(r'[„"""«»'']+', word):
-            continue
-        
-        # Remove discourse commas (opening quote + text + comma)
-        # Strip the comma if it's a discourse marker
-        if re.match(r'^[„"«"''][^„"""''»"]+,$', word):
-            # Remove trailing comma before closing quote
-            word = word.rstrip(',')
-        
-        # Also remove commas before closing quotes in any word
-        word = re.sub(r',([„"""''»"])$', r'\1', word)
-        
-        filtered.append(word)
-    
-    return ' '.join(filtered)
-
 # ============================================================================
 # KOLIPSI EXTRACTION
 # ============================================================================
@@ -609,10 +470,20 @@ def extract_kolipsi(element) -> Tuple[str, str, bool, List[Tuple[str, str]]]:
                 elif child_tag == "targetform":
                     target = child
 
-            orig_text = get_original_form_text(original) if original is not None else ""
-            tgt_text = get_element_text(target) if target is not None else ""
-            if orig_text and tgt_text and orig_text.strip() != tgt_text.strip():
-                orth_mappings.append((orig_text.strip(), tgt_text.strip()))
+            # Get RAW text first to check for trailing whitespace
+            orig_text_raw = get_original_form_text(original) if original is not None else ""
+            tgt_text_raw = ''.join(target.itertext()) if target is not None else ""
+            
+            # Check for trailing whitespace BEFORE stripping
+            orig_has_trailing = has_trailing_whitespace(orig_text_raw)
+            tgt_has_trailing = has_trailing_whitespace(tgt_text_raw)
+            
+            # Now strip for processing
+            orig_text = orig_text_raw.strip()
+            tgt_text = tgt_text_raw.strip()
+            
+            if orig_text and tgt_text and orig_text != tgt_text:
+                orth_mappings.append((orig_text, tgt_text))
 
             # Check for sentence break
             prev_src = src.get_text()
@@ -654,10 +525,18 @@ def extract_kolipsi(element) -> Tuple[str, str, bool, List[Tuple[str, str]]]:
                     src.add_space()
                     tgt.add_space()
                 tail_text = node.tail.strip()
+                tail_text = node.tail.strip()
                 if tail_text:
-                    src.add_text(tail_text, merge=True)
-                    tgt.add_text(tail_text, merge=True)
-            return
+                    # Only merge if forms DON'T have trailing whitespace
+                    should_merge = not (orig_has_trailing or tgt_has_trailing)
+                    src.add_text(tail_text, merge=should_merge)
+                    tgt.add_text(tail_text, merge=should_merge)
+                    
+                    # Add sentence break if tail ends with sentence-ending punctuation
+                    if node.tail and re.search(r'[.!?]\s*$', node.tail):
+                        src.add_marker(" <SENTBREAK> ")
+                        tgt.add_marker(" <SENTBREAK> ")
+                return
 
         # PALIMPSEST
         elif tag == "palimpsest":
@@ -1007,7 +886,7 @@ def extract_kolipsi(element) -> Tuple[str, str, bool, List[Tuple[str, str]]]:
             return
 
         # IGNORE
-        elif tag in ("symbol", "emoticon", "unreadable"):
+        elif tag in ("symbol", "emoticon", "unreadable","comment"):
             if node.tail:
                 if has_leading_whitespace(node.tail):
                     src.add_space()
@@ -1020,35 +899,14 @@ def extract_kolipsi(element) -> Tuple[str, str, bool, List[Tuple[str, str]]]:
 
         # PAR
         elif tag == "par":
-            src.add_marker(" <SENTBREAK> ")
-            tgt.add_marker(" <SENTBREAK> ")
-            
+            # For Kolipsi: DON'T add sentence breaks, just preserve spacing
             if node.tail:
-                # Split tail at sentence boundaries (periods followed by lowercase/uppercase)
-                tail_text = node.tail.strip()
-                if tail_text:
-                    # Check if tail starts immediately with period+text (like "..und")
-                    if re.match(r'^\.+\w', tail_text):
-                        # Split: keep periods with previous, start new sentence with word
-                        match = re.match(r'^(\.+)(.+)$', tail_text)
-                        if match:
-                            periods = match.group(1)
-                            rest = match.group(2)
-                            src.add_text(periods, merge=True)
-                            tgt.add_text(periods, merge=True)
-                            src.add_marker(" <SENTBREAK> ")
-                            tgt.add_marker(" <SENTBREAK> ")
-                            src.add_text(rest)
-                            tgt.add_text(rest)
-                        else:
-                            src.add_text(tail_text)
-                            tgt.add_text(tail_text)
-                    else:
-                        if has_leading_whitespace(node.tail):
-                            src.add_space()
-                            tgt.add_space()
-                        src.add_text(tail_text)
-                        tgt.add_text(tail_text)
+                if has_leading_whitespace(node.tail):
+                    src.add_space()
+                    tgt.add_space()
+                if node.tail.strip():
+                    src.add_text(node.tail.strip())
+                    tgt.add_text(node.tail.strip())
             return
 
         # SPACEWRAPPER
@@ -1067,7 +925,7 @@ def extract_kolipsi(element) -> Tuple[str, str, bool, List[Tuple[str, str]]]:
             return
 
         # GREETING / CLOSING / ENTITY
-        elif tag in ("greeting", "entity"):
+        elif tag in ("greeting","closing","entity"):
             if node.text and node.text.strip():
                 src.add_text(node.text.strip())
                 tgt.add_text(node.text.strip())
@@ -1183,23 +1041,15 @@ def extract_kolipsi_sentences(element) -> List[SentencePair]:
         src_sents = spacy_sent(src_chunk) if src_chunk else []
         tgt_sents = spacy_sent(tgt_chunk) if tgt_chunk else []
 
-        # NEW: Apply quote-based splitting WITH ALIGNMENT
-        src_sents_split = []
-        tgt_sents_split = []
-
-        for i in range(len(src_sents)):
-            src_sent = src_sents[i] if i < len(src_sents) else ""
-            tgt_sent = tgt_sents[i] if i < len(tgt_sents) else ""
-            
-            # Split with alignment and get quote removal flags
-            src_segs, tgt_segs, remove_quotes_flags = split_at_quotes_aligned(src_sent, tgt_sent)
-            src_sents_split.extend(src_segs)
-            tgt_sents_split.extend(tgt_segs)
-
-        src_sents = src_sents_split
-        tgt_sents = tgt_sents_split
-
         if not src_sents and not tgt_sents:
+            continue
+
+        if src_sents is None:
+            src_sents = []
+        if tgt_sents is None:
+            tgt_sents = []
+
+        if len(src_sents) == 0 and len(tgt_sents) == 0:
             continue
 
         max_len = max(len(src_sents), len(tgt_sents))
@@ -1657,6 +1507,25 @@ def extract_leonide(paragraph, all_paragraphs=None) -> Tuple[str, str, bool, Lis
                 # Get the target attribute (this is the corrected form)
                 target_attr = child.get('orth_error_target', '')
                 tagcode = child.get('tagcode', '')
+                # Check if orth_error contains nested foreign words
+                has_nested_foreign = any('tran_foreign_word' in elem.tag.lower() for elem in child.iter())
+                
+                if has_nested_foreign:
+                    # Mark the foreign content and skip processing
+                    foreign_text = ''.join(child.itertext()).strip()
+                    if foreign_text:
+                        marked_word = f'FOREIGNWORDSTART{foreign_text}FOREIGNWORDEND'
+                        src.add_text(marked_word)
+                        tgt.add_text(marked_word)
+                    
+                    if child.tail:
+                        if has_leading_whitespace(child.tail):
+                            src.add_space()
+                            tgt.add_space()
+                        if child.tail.strip():
+                            src.add_text(child.tail.strip())
+                            tgt.add_text(child.tail.strip())
+                    continue
                 debug(f"[DEBUG ORTH_ERROR] Processing orth_error with target='{target_attr}', tagcode='{tagcode}'")                
 
                 # Check if this orth_error is a continuation (same tagcode appeared earlier)
@@ -1966,21 +1835,12 @@ def extract_leonide_sentences(paragraph, all_paragraphs=None) -> List[SentencePa
     src_break_count = src.count('<SENTBREAK>')
     tgt_break_count = tgt.count('<SENTBREAK>')
     
-    debug(
-        "[DEBUG LEONIDE BREAK COUNT]",
-        "src_breaks=", src_break_count,
-        "tgt_breaks=", tgt_break_count
-    )
+    debug(f"[DEBUG LEONIDE BREAK COUNT] src_breaks={src_break_count}, tgt_breaks={tgt_break_count}")
 
     # Force spacy splitting for all cases
     use_explicit_breaks = False
 
-    debug(
-        "[DEBUG BREAK DECISION]",
-        "src_breaks=", src_break_count,
-        "tgt_breaks=", tgt_break_count,
-        "use_explicit_breaks=", use_explicit_breaks
-    )
+    debug(f"[DEBUG BREAK DECISION] src_breaks={src_break_count}, tgt_breaks={tgt_break_count}, use_explicit_breaks={use_explicit_breaks}")
 
     if use_explicit_breaks:
         # Verify breaks are in roughly the same positions
@@ -2051,31 +1911,6 @@ def extract_leonide_sentences(paragraph, all_paragraphs=None) -> List[SentencePa
 
         debug(f"[DEBUG SENTENCE COUNTS] SRC={len(src_sents)}, TGT={len(tgt_sents)}")
 
-        # NEW: Apply quote-based splitting WITH ALIGNMENT
-        src_sents_split = []
-        tgt_sents_split = []
-        all_remove_quotes_flags = []  # ✓ Accumulate ALL flags
-
-        # CRITICAL: Iterate over max length, not just src_sents
-        max_len = max(len(src_sents), len(tgt_sents))
-
-        for i in range(len(src_sents)):
-            src_sent = src_sents[i] if i < len(src_sents) else ""
-            tgt_sent = tgt_sents[i] if i < len(tgt_sents) else ""
-            
-            # Split with alignment and get quote removal flags   
-            src_segs, tgt_segs, remove_quotes_flags = split_at_quotes_aligned(src_sent, tgt_sent)
-            src_sents_split.extend(src_segs)
-            tgt_sents_split.extend(tgt_segs)
-            all_remove_quotes_flags.extend(remove_quotes_flags)  # ✓ Accumulate flags
-        
-        # Use the split sentences
-        src_sents = src_sents_split
-        tgt_sents = tgt_sents_split
-        
-        debug(f"[DEBUG AFTER QUOTE SPLIT] SRC={len(src_sents_split)}, TGT={len(tgt_sents_split)}")
-
-        # Align sentences and detect foreign words PER SENTENCE
         pairs = []
         max_sents = max(len(src_sents), len(tgt_sents))
 
@@ -2092,9 +1927,9 @@ def extract_leonide_sentences(paragraph, all_paragraphs=None) -> List[SentencePa
             tgt_sent = re.sub(r'FOREIGNWORDSTART(.*?)FOREIGNWORDEND', r'\1', tgt_sent)
             
             # Apply quote removal if this was a quote-split segment
-            if i < len(all_remove_quotes_flags) and all_remove_quotes_flags[i]:
-                src_sent = remove_quote_markers(src_sent)
-                tgt_sent = remove_quote_markers(tgt_sent)
+            # if i < len(all_remove_quotes_flags) and all_remove_quotes_flags[i]:
+            #     src_sent = remove_quote_markers(src_sent)
+            #     tgt_sent = remove_quote_markers(tgt_sent)
                         
             has_correction = (src_sent.strip() != tgt_sent.strip())
             
@@ -2269,10 +2104,10 @@ def clean_sentence_pairs(pairs: List[SentencePair]) -> List[SentencePair]:
     
     filter_counts = {
         'foreign': 0,
-        'interjection': 0,
+        #'interjection': 0,
         'asterisk': 0,
         'at_symbol': 0,
-        'meta_text': 0,
+        #'underscore':0,
         'empty': 0,
         'too_short': 0,
         'duplicate': 0
@@ -2291,82 +2126,82 @@ def clean_sentence_pairs(pairs: List[SentencePair]) -> List[SentencePair]:
         src = re.sub(r"\s*\n\s*", " ", pair.src).strip()
         tgt = re.sub(r"\s*\n\s*", " ", pair.tgt).strip()
 
-        # Remove interjections
-        src_before_interj = src
-        tgt_before_interj = tgt
+        # # Remove interjections
+        # src_before_interj = src
+        # tgt_before_interj = tgt
 
-        # Remove interjections using list-based matching (lowercase only, case-insensitive comparison)
-        interjection_words = {'haha', 'hahaha', 'hahahaha', 'hahahahaha', 'gahaha', 'gahahaha',
-                            'hee', 'heee', 'heeee', 'haheee', 'haheeee', 'haheeeeaaha',
-                            'eeeeeheheee', 'hahaaahah', 'huuhuu', 'ahhh', 'ahhhh', 'ahhhhh',
-                            'nooo', 'noo', 'noooo', 'eh', 'ehhh', 'haaaa', 'xeee', 
-                            'hooho', 'hooo', 'hoo', 'hooooo', 'wuff', 'grrr', 'arrr', 'arrrr',
-                            'buh', 'buuh', 'buhhh', 'yee', 'yeee', 'heehee', 'heeeeee', 'aaaah','eeeeeh','hooooooo'}
+        # # Remove interjections using list-based matching (lowercase only, case-insensitive comparison)
+        # interjection_words = {'haha', 'hahaha', 'hahahaha', 'hahahahaha', 'gahaha', 'gahahaha',
+        #                     'hee', 'heee', 'heeee', 'haheee', 'haheeee', 'haheeeeaaha',
+        #                     'eeeeeheheee', 'hahaaahah', 'huuhuu', 'ahhh', 'ahhhh', 'ahhhhh',
+        #                     'nooo', 'noo', 'noooo', 'eh', 'ehhh', 'haaaa', 'xeee', 
+        #                     'hooho', 'hooo', 'hoo', 'hooooo', 'wuff', 'grrr', 'arrr', 'arrrr',
+        #                     'buh', 'buuh', 'buhhh', 'yee', 'yeee', 'heehee', 'heeeeee', 'aaaah','eeeeeh','hooooooo'}
 
-        # Pattern-based check for repetitive interjections (e.g., EEEEEE, OOOO)
-        def is_interjection(word_clean):
-            if word_clean in interjection_words:
-                return True
-            # Check for repetitive vowels: 3+ of the SAME vowel repeated
-            if re.fullmatch(r'([aehou])\1{2,}', word_clean, flags=re.IGNORECASE):  # <-- FIXED: \1{2,} means "same char repeated 2+ more times"
-                return True
-            return False
+        # # Pattern-based check for repetitive interjections (e.g., EEEEEE, OOOO)
+        # def is_interjection(word_clean):
+        #     if word_clean in interjection_words:
+        #         return True
+        #     # Check for repetitive vowels: 3+ of the SAME vowel repeated
+        #     if re.fullmatch(r'([aehou])\1{2,}', word_clean, flags=re.IGNORECASE):  # <-- FIXED: \1{2,} means "same char repeated 2+ more times"
+        #         return True
+        #     return False
 
-        def strip_discourse_comma(word):
-            """Remove trailing comma from discourse markers/interjections inside quotes."""
-            # If word is quoted and ends with comma before closing quote: "Uh," -> "Uh"
-            if re.match(r'^[„"""][^„"""]+,$', word):
-                return word[:-1]  # Remove comma before quote
-            return word
+        # def strip_discourse_comma(word):
+        #     """Remove trailing comma from discourse markers/interjections inside quotes."""
+        #     # If word is quoted and ends with comma before closing quote: "Uh," -> "Uh"
+        #     if re.match(r'^[„"""][^„"""]+,$', word):
+        #         return word[:-1]  # Remove comma before quote
+        #     return word
 
-        def filter_interjections(text):
-            words = text.split()
-            filtered = []
-            i = 0
+        # def filter_interjections(text):
+        #     words = text.split()
+        #     filtered = []
+        #     i = 0
             
-            while i < len(words):
-                word = words[i]
-                word = strip_discourse_comma(word)
-                word_clean = word.strip('"\'""„'',.:;!?').lower()
+        #     while i < len(words):
+        #         word = words[i]
+        #         word = strip_discourse_comma(word)
+        #         word_clean = word.strip('"\'""„'',.:;!?').lower()
                 
-                if is_interjection(word_clean):
-                    # Check if this is a standalone quoted interjection: „Heee" or „Hoo",
-                    if word.startswith(('„', '"', '"')) or (filtered and filtered[-1] in ('„', '"', '"')):
-                        # Remove preceding quote if it exists
-                        if filtered and filtered[-1] in ('„', '"', '"'):
-                            filtered.pop()
+        #         if is_interjection(word_clean):
+        #             # Check if this is a standalone quoted interjection: „Heee" or „Hoo",
+        #             if word.startswith(('„', '"', '"')) or (filtered and filtered[-1] in ('„', '"', '"')):
+        #                 # Remove preceding quote if it exists
+        #                 if filtered and filtered[-1] in ('„', '"', '"'):
+        #                     filtered.pop()
                         
-                        # Skip the interjection
-                        # Check if followed by closing quote and/or comma
-                        if i + 1 < len(words):
-                            next_word = words[i + 1]
-                            # Skip closing quote/comma tokens
-                            if next_word in ('"', '"', '"', ',', '",', '",', '",'):
-                                i += 2
-                                continue
+        #                 # Skip the interjection
+        #                 # Check if followed by closing quote and/or comma
+        #                 if i + 1 < len(words):
+        #                     next_word = words[i + 1]
+        #                     # Skip closing quote/comma tokens
+        #                     if next_word in ('"', '"', '"', ',', '",', '",', '",'):
+        #                         i += 2
+        #                         continue
                         
-                        i += 1
-                        continue
+        #                 i += 1
+        #                 continue
                     
-                    # Regular interjection with comma: "Heee,"
-                    if word.endswith(','):
-                        i += 1
-                        continue
+        #             # Regular interjection with comma: "Heee,"
+        #             if word.endswith(','):
+        #                 i += 1
+        #                 continue
                     
-                    # Skip interjection
-                    i += 1
-                    continue
+        #             # Skip interjection
+        #             i += 1
+        #             continue
                 
-                filtered.append(word)
-                i += 1
+        #         filtered.append(word)
+        #         i += 1
             
-            return ' '.join(filtered)
+        #     return ' '.join(filtered)
 
-        src = filter_interjections(src)
-        tgt = filter_interjections(tgt)
+        # src = filter_interjections(src)
+        # tgt = filter_interjections(tgt)
 
-        if src != src_before_interj or tgt != tgt_before_interj:
-            debug(f"  [{idx}] Interjection removed: '{src_before_interj[:40]}' → '{src[:40]}'")
+        # if src != src_before_interj or tgt != tgt_before_interj:
+        #     debug(f"  [{idx}] Interjection removed: '{src_before_interj[:40]}' → '{src[:40]}'")
 
         # Remove leading asterisk bullet points
         src = re.sub(r'^\*\s*', '', src).strip()
@@ -2406,31 +2241,11 @@ def clean_sentence_pairs(pairs: List[SentencePair]) -> List[SentencePair]:
             debug(f"  [{idx}] FILTERED (@): {src[:50]}...")
             continue
 
-        # Check for meta text patterns
-        meta_patterns = [
-            'fortsetzung der aufgabe 2 fehlt',
-            'text nicht beendet',
-            'der text abgebrochen',
-            r'die aufgabe\s*\d?\s*abgebrochen'
-        ]
-        
-        skip_meta = False
-        for pattern in meta_patterns:
-            if re.search(pattern, src_lower) or re.search(pattern, tgt_lower):
-                filter_counts['meta_text'] += 1
-                debug(f"  [{idx}] FILTERED (meta: {pattern}): {src[:50]}...")
-                skip_meta = True
-                break
-        
-        if skip_meta:
-            continue
+        # if '_' in src or '_' in tgt:
+        #     filter_counts['underscore'] += 1
+        #     debug(f"  [{idx}] FILTERED (): {src[:50]}...")
+        #     continue
 
-        # Check for "abgebrochen" with text/aufgabe
-        if 'abgebrochen' in src_lower or 'abgebrochen' in tgt_lower:
-            if 'text' in src_lower or 'text' in tgt_lower or 'aufgabe' in src_lower or 'aufgabe' in tgt_lower:
-                filter_counts['meta_text'] += 1
-                debug(f"  [{idx}] FILTERED (abgebrochen): {src[:50]}...")
-                continue
 
         # Check for empty
         if re.fullmatch(empty_regex, src) or re.fullmatch(empty_regex, tgt):
@@ -2492,14 +2307,18 @@ def process_file(xml_path: str, corpus_type: str) -> List[SentencePair]:
 
     with open(xml_path, "r", encoding="utf-8", errors="ignore") as f:
         xml_content = f.read()
-
-    # CRITICAL: Each file is a fresh extraction
-    pairs = extract_from_xml(xml_content, corpus_type)
     
-    # Clean pairs for THIS file only
-    cleaned = clean_sentence_pairs(pairs)
-    
-    return cleaned
+    try:
+        # CRITICAL: Each file is a fresh extraction
+        pairs = extract_from_xml(xml_content, corpus_type)
+        
+        # Clean pairs for THIS file only
+        cleaned = clean_sentence_pairs(pairs)
+        
+        return cleaned
+    except Exception as e:
+        print(f"     ERROR: {e}")
+        return []
 
 def process_corpora(
     corpus_configs: Dict[str, Dict],
@@ -2546,7 +2365,7 @@ def process_corpora(
                 print(f"   [{idx + 1}/{len(xml_members)}] {member} [SKIPPED - excluded]")
                 continue
             
-            print(f"   [{idx + 1}/{len(xml_members)}] {member}")
+            debug(f"   [{idx + 1}/{len(xml_members)}] {member}")
 
             try:
                 pairs = process_file(member, corpus_name)
@@ -2591,6 +2410,9 @@ def process_corpora(
         if output_format in ["norm", "both"]:
             debug(f"\n[DEBUG NORM] Writing NORM output for {corpus_name}...")
             out_path = os.path.join(output_dir, f"{corpus_name}.norm")
+            #Track metadata for each sentence
+            norm_metadata = [] #list of dicts with metadata for each sentence
+            current_line = 1 # Track line number in .norm file
             with open(out_path, "w", encoding="utf-8") as fh:
                 debug(f"[DEBUG NORM] Processing {len(corpus_pairs_with_files)} files...")
 
@@ -2598,6 +2420,7 @@ def process_corpora(
                 target_counts = {}
                 for xml_filename, pairs in corpus_pairs_with_files:
                     for pair_idx, pair in enumerate(pairs):
+                        sent_start_line = current_line
                         debug(f"[DEBUG NORM] Pair {pair_idx} has {len(pair.orth_mappings)} mappings: {pair.orth_mappings[:3] if len(pair.orth_mappings) > 3 else pair.orth_mappings}")
                         # Build mapping dict PER PAIR (like display_norm_preview does)
                         # Keep BOTH dict (for fast lookup) and list (for tracking consumption)
@@ -2613,8 +2436,15 @@ def process_corpora(
          
                         # If we have orth_error mappings, use them for precise alignment
                         if True:
-                            src_words = pair.src.split()
-                            tgt_words = pair.tgt.split()
+                            src_words = tokenize_preserve_abbrev(pair.src)
+                            tgt_words = tokenize_preserve_abbrev(pair.tgt)
+
+                            # Pre-compute tokenized lengths for all mapping targets
+                            target_token_counts = {}
+                            if pair.orth_mappings:
+                                for _, tgt_val in pair.orth_mappings:
+                                    if tgt_val not in target_token_counts:
+                                        target_token_counts[tgt_val] = len(tokenize_preserve_abbrev(tgt_val))
 
                             # If we have orth_error mappings, use them for precise alignment
                             if pair.orth_mappings:
@@ -2636,16 +2466,41 @@ def process_corpora(
                                         final_mappings.append((sources[0], tgt_map))
                                 
                                 # Use final_mappings instead of pair.orth_mappings for alignment
+                                # Use final_mappings instead of pair.orth_mappings for alignment
                                 src_i = 0
                                 tgt_i = 0
+                                iteration_count = 0
+                                max_iterations = len(src_words) + len(tgt_words) + 100
 
                                 while src_i < len(src_words) and tgt_i < len(tgt_words):
+                                    iteration_count += 1
+                                    if iteration_count > max_iterations:  # ADD THIS
+                                        debug(f"[ERROR] Infinite loop detected at src_i={src_i}, tgt_i={tgt_i}")  # ADD THIS
+                                        break  # ADD THIS
                                     src_word = src_words[src_i]
                                     tgt_word = tgt_words[tgt_i]
-                                    tgt_word_clean = tgt_word.rstrip('.,!?;:')
-                                    src_word_clean = src_word.rstrip('.,!?;:')
                                     
-                                    # FIRST: Check for multi-word mappings (e.g., "Sprachen oberschule" → "Sprachenoberschule")
+                                    # Helper function to separate punctuation from word
+                                    def separate_punct(word):
+                                        """Separate trailing punctuation, preserving abbreviations."""
+                                        # Check if it's an abbreviation (protected patterns)
+                                        if ABBREV_PATTERN.match(word):
+                                            return word, ""
+                                        
+                                        # Separate trailing punctuation
+                                        match = re.match(r'^(.*?)([.,!?;:]+)$', word)
+                                        if match:
+                                            return match.group(1), match.group(2)
+                                        return word, ""
+                                    
+                                    src_word_base, src_punct = separate_punct(src_word)
+                                    tgt_word_base, tgt_punct = separate_punct(tgt_word)
+                                    
+                                    # Use base forms for matching
+                                    src_word_clean = src_word_base
+                                    tgt_word_clean = tgt_word_base
+                                    
+                                   # FIRST: Check for multi-word mappings (e.g., "Sprachen oberschule" → "Sprachenoberschule")
                                     found_multiword = False
                                     for orig_key, tgt_val in mapping_dict.items():
                                         if ' ' in orig_key:  # Multi-word source
@@ -2667,6 +2522,7 @@ def process_corpora(
                                                             tgt_i += len(tgt_val_words)
                                                             found_multiword = True
                                                             break
+                                                        
                                                     orig_normalized = re.sub(r'\s+', '', orig_key)
                                                     if src_i + len(orig_words_clean) <= len(src_words):
                                                         remaining_clean = [src_words[src_i + j].rstrip('.,!?;:') for j in range(len(orig_words_clean))]
@@ -2781,8 +2637,8 @@ def process_corpora(
                                                     break
                                             
                                             next_tgt_clean = tgt_words[tgt_i + 1].rstrip('.,!?;:') if tgt_i + 1 < len(tgt_words) else None
-                                            tgt_repeats = (next_tgt_clean == expected_tgt_clean)
-                                            
+                                            tgt_repeats = (next_tgt_clean and next_tgt_clean.lower() == expected_tgt_clean.lower())
+
                                             # Only group if next word has UNUSED mapping AND target doesn't repeat
                                             if (next_has_unused_mapping and 
                                                 src_word_clean != expected_tgt_clean and 
@@ -2818,27 +2674,34 @@ def process_corpora(
                                                 tgt_i += 1
                                                 continue
                                         
-                                        # Handle 1-to-many (e.g., "sollteman" → "sollte man")
-                                        if ' ' in expected_tgt:
-                                            expected_tgt_words = expected_tgt.split()
-                                            # NEW: Restore punctuation on target
-                                            tgt_with_punct = expected_tgt + src_punct
+                                        # Get pre-computed token count for target
+                                        expected_tgt_token_count = target_token_counts.get(expected_tgt, 1)
+                                        
+                                        # Single-word correction (target is also single token)
+                                        if expected_tgt_token_count == 1 and tgt_word_clean == expected_tgt_clean:
+                                            tgt_with_punct = tgt_word if src_punct == "" else expected_tgt + src_punct
                                             fh.write(f"{src_word}\t{tgt_with_punct}\n")
                                             used_mapping_indices.add(matching_idx)
                                             src_i += 1
-                                            tgt_i += len(expected_tgt_words)
-                                            continue
-                                        
-                                        # Single-word correction
-                                        if tgt_word_clean == expected_tgt_clean:
-                                            tgt_with_punct = tgt_word if src_punct == "" else expected_tgt + src_punct
-                                            debug(f"[DEBUG NORM] Single-word correction: '{src_word}' -> '{tgt_with_punct}', adding to used_mappings")
-                                            fh.write(f"{src_word}\t{tgt_with_punct}\n")
-                                            used_mapping_indices.add(matching_idx)  # THIS LINE SHOULD EXIST
-                                            src_i += 1
                                             tgt_i += 1
                                             continue
-                                    # Default: word-by-word alignment
+
+                                        elif expected_tgt_token_count > 1:
+                                            # Multi-token target: verify alignment before advancing
+                                            expected_tgt_tokens = tokenize_preserve_abbrev(expected_tgt)
+                                            expected_first_clean = expected_tgt_tokens[0].rstrip('.,!?;:')
+                                            
+                                            # Only apply mapping if current tgt position matches first token
+                                            if tgt_word_clean == expected_first_clean:
+                                                tgt_with_punct = expected_tgt + src_punct
+                                                fh.write(f"{src_word}\t{tgt_with_punct}\n")
+                                                used_mapping_indices.add(matching_idx)
+                                                src_i += 1
+                                                tgt_i += expected_tgt_token_count
+                                                continue
+                                            # If alignment doesn't match, fall through to default alignment
+                                    
+                                    # Default: no mapping found, simple word-by-word alignment
                                     fh.write(f"{src_word}\t{tgt_word}\n")
                                     src_i += 1
                                     tgt_i += 1
@@ -2860,16 +2723,60 @@ def process_corpora(
                                     fh.write(f"{src_w}\t{tgt_w}\n")
 
                             fh.write("\n")
+                            sent_end_line = current_line #End line is the blank line
+                            current_line += 1
+
+                            # Store metadata for each sentence
+                            norm_metadata.append({
+                                'corpus': corpus_name,
+                                'xml_file': xml_filename,
+                                'sent_num': pair_idx + 1,
+                                'line_start': sent_start_line,
+                                'line_end': sent_end_line,
+                                'src': pair.src,
+                                'tgt': pair.tgt
+                            })
 
             total_pairs = sum(len(pairs) for _, pairs in corpus_pairs_with_files)
             print(f"  Wrote {total_pairs} pairs to {out_path}")
+
+            # Write metadata file for this corpus
+            meta_path = os.path.join(output_dir, f"{corpus_name}.norm.meta.txt")
+            with open(meta_path, "w", encoding="utf-8") as meta_fh:
+                meta_fh.write(f"# Metadata for {corpus_name}.norm\n")
+                meta_fh.write(f"# Format: corpus | xml_file | sent_num | line_start | line_end | src | tgt\n\n")
+                for meta in norm_metadata:
+                    meta_fh.write(f"{meta['corpus']}\t{meta['xml_file']}\t{meta['sent_num']}\t"
+                                f"{meta['line_start']}\t{meta['line_end']}\t"
+                                f"{meta['src']}\t{meta['tgt']}\n")
+            print(f"  Wrote metadata to {meta_path}")
+    
+     # NEW: Create single combined metadata file with all corpora
+    if output_format in ["norm", "both"]:
+        combined_meta_path = os.path.join(output_dir, "all_corpora.norm.meta.txt")
+        with open(combined_meta_path, "w", encoding="utf-8") as combined_fh:
+            combined_fh.write("# Combined metadata for all NORM files\n")
+            combined_fh.write("# Format: corpus | xml_file | sent_num | line_start | line_end | src | tgt\n\n")
+            
+            # Process in order: LEONIDE, Kolipsi_1_L1, Kolipsi_1_L2, Kolipsi_2
+            corpus_order = ['LEONIDE', 'Kolipsi_1_L1', 'Kolipsi_1_L2', 'Kolipsi_2']
+            for corpus_name in corpus_order:
+                if corpus_name in configs_to_run:
+                    meta_file = os.path.join(output_dir, f"{corpus_name}.norm.meta.txt")
+                    if os.path.exists(meta_file):
+                        with open(meta_file, "r", encoding="utf-8") as meta_fh:
+                            # Skip header lines
+                            for line in meta_fh:
+                                if not line.startswith('#') and line.strip():
+                                    combined_fh.write(line)
+        print(f"\n  Wrote combined metadata to {combined_meta_path}")
 
     df = pd.DataFrame(all_data)
     
     # Write TSV output
     if output_format in ["tsv", "both"]:
-        tsv_path = os.path.join(output_dir, "all_corpora.tsv", sep="\t")
-        df.to_csv(tsv_path, index=False, encoding="utf-8")
+        tsv_path = os.path.join(output_dir, "all_corpora.tsv")
+        df.to_csv(tsv_path, index=False, encoding="utf-8",sep="\t")
         print(f"\n=== Wrote {len(df)} rows to {tsv_path} ===")
     
     return df
