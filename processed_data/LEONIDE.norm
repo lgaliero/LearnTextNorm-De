@@ -33482,6 +33482,7 @@ er	er
 :	:
 "	"
 Nein	Nein
+,	,
 was	was
 machst	machst
 du	du
@@ -33509,6 +33510,7 @@ er	er
 :	:
 "	"
 Ja	Ja
+,	,
 jetzt	jetzt
 musst	musst
 du	du
@@ -34361,6 +34363,7 @@ Plötzlich	plötzlich
 ,	,
 "	"
 Feuer	Feuer
+,	,
 feuer	feuer
 hilfe	hilfe
 !	!
@@ -34936,6 +34939,8 @@ nicht	nicht
 die	die
 Schularbeit	Schularbeit
 machen	machen
+Xeee	Xeee
+!	!
 
 Dafür	Dafür
 bekam	bekam
@@ -35608,6 +35613,7 @@ hörte	hörte
 :	:
 "	"
 Max	Max
+,	,
 raus	raus
 aus	aus
 dem	dem
@@ -35893,6 +35899,7 @@ hastig	hastig
 :	:
 "	"
 Papi	Papi
+,	,
 Papi	Papi
 wir	wir
 müssen	müssen
@@ -35906,6 +35913,7 @@ ruhig	ruhig
 :	:
 "	"
 Na	Na
+,	,
 dass	das
 is	is
 nichts	nichts
@@ -37122,6 +37130,7 @@ rief	rief
 :	:
 „	„
 Tim	Tim
+,	,
 wir	wir
 müssen	müssen
 schnell	schnell
@@ -37971,6 +37980,7 @@ sich	sich
 die	die
 Sachen	Sachen
 sind	sind
+eh	eh
 nich	nicht
 wichtig	wichtig
 weil	weil
@@ -37983,6 +37993,7 @@ hate	hatte
 und	und
 in	in
 Mate	Mathe
+eh	eh
 schlecht	schlecht
 war	war
 und	und
@@ -37994,6 +38005,7 @@ ist	ist
 die	die
 schlechte	schlechte
 Note	Note
+eh	eh
 weg	weg
 aber	aber
 er	er
@@ -40032,6 +40044,7 @@ Tom	Tom
 antwortete	antwortete
 "	"
 Entschuldigung	Entschuldigung
+,	,
 die	die
 sind	sind
 mir	mir
@@ -42309,6 +42322,12 @@ sie	sie
 einige	einige
 stime	Stimme
 :	:
+„	„
+Hooo	Hooo
+,	,
+EEEEE	eeeee
+,	,
+HAHAHA	hahaha
 .	.
 "	"
 sie	Sie
@@ -44237,7 +44256,9 @@ in	in
 den	den
 Wald	Wald
 wie	wie
+EEEEE	eeeee
 oder	oder
+HOOOOOOO	hooooooo
 sie	sie
 hatten	hatten
 immer	immer
@@ -44588,6 +44609,7 @@ sagte	sagte
 :	:
 „	„
 Nein	Nein
+,	,
 nicht	nicht
 angst	Angst
 haben	haben
@@ -44747,7 +44769,12 @@ angefangen	angefangen
 hat	hat
 zu	zu
 schreien	schreien
+Aaaah	Aaaah
+eeeeeh	eeeeeh
+noooo	noooo
 und	und
+hooo.	hooo.
+....	....
 
 Sie	Sie
 hatten	hatten
@@ -44965,7 +44992,14 @@ hörten	hörten
 manche	manche
 Stimmen	Stimmen
 :	:
+„	„
+HOO	Hoo
 ,	,
+EEEE	eeee
+,	,
+HAHAHA	hahaha
+,	,
+NOO.	noo.
 '	'
 "	"
 
@@ -45676,8 +45710,15 @@ hörten	sie
 sie	komische
 komische	Geräusche
 geräusche	:
-:	!,
-!,	„
+:	„
+„	Heee
+Heee	,
+,	Hahahaha
+Hahahaha	!,
+!,	Nooo
+Nooo	!
+!	"
+"	„
 „	Was
 Was	war
 war	das",
@@ -46574,6 +46615,8 @@ ich	ich
 hörte	hörte
 auf	auf
 einmal	einmal
+Ahhhhh	Ahhhhh
+!!!	!!!
 
 ich	Ich
 ging	ging
@@ -47709,6 +47752,13 @@ laute	Laute
 zu	zu
 hören	hören
 :	:
+Eeeeeheheee	Eeeeeheheee
+,	,
+hahaaahah	hahaaahah
+,	,
+hooho	hooho
+,	,
+huuhuu	huuhuu
 ;	;
 Sie	Sie
 hatten	hatten
@@ -48652,6 +48702,7 @@ Marie	Marie
 :	:
 „	„
 Marie	Marie
+,	,
 was	was
 ist	ist
 das	das
@@ -49187,6 +49238,15 @@ Richtung	Richtung
 der	der
 Geräusche	Geräusche
 ,	,
+"	"
+Buuh"	Buuh"
+"	"
+Arrrr.	Arrrr.
+..	..
+"	"
+"	"
+Grrr"	Grrr"
+,	,
 plötzlich	plötzlich
 springen	springen
 die	die
@@ -49430,6 +49490,19 @@ in	in
 die	die
 Nähe	Nähe
 gehen.	gehen.
+
+Plötzlich	Plötzlich
+hört	hört
+man	man
+:	:
+„	„
+EEEEEEE	Eeeeeee
+!	!
+"	"
+EH	Eh
+EH	eh
+!	!
+"	"
 
 Eine	Eine
 klasse	Klasse
@@ -50046,6 +50119,8 @@ bestrafte	bestrafte
 die	die
 Jungen.	Jungen.
 
+„	„
+Heeeeee"	Heeeeee"
 hörten	hörten
 auf	auf
 einmal	einmal
@@ -50165,9 +50240,13 @@ laut	laut
 :	:
 „	„
 Hilfe	Hilfe
+,	,
 Hilfe	Hilfe
 ,	,
 Hilfe	Hilfe
+aaaah	aaaah
+!	!
+"	"
 Maren	Maren
 sagte	sagte
 :	:
@@ -51761,7 +51840,11 @@ hören	hören
 Sie	sie
 ein	ein
 schrei	Schrei
+EEEEE	Eeeee
 ,	,
+Heehee	Heehee
+,	,
+Hooo	Hooo
 .	.
 
 Tom	Tom
@@ -52376,6 +52459,13 @@ sie	sie
 schreckliche	schreckliche
 Geräusche.	Geräusche.
 
+Ein	Ein
+„	„
+Hoo",	Hoo",
+ein	ein
+„	„
+EEEE".	Eeee".
+
 Trotz	Trotz
 der	der
 Angst	Angst
@@ -52721,6 +52811,7 @@ ruften	ruften
 :	:
 „	„
 Mamma	Mamma
+,	,
 Papa	Papa
 seit	seid
 ihr	ihr
@@ -52778,6 +52869,9 @@ flüsterte	flüsterte
 zu	zu
 Lisa	Lisa
 :	:
+„	„
+Ehhh	Ehhh
+,	,
 icchh	icchh
 haabe	haabe
 Anngstt	Anngstt
@@ -53470,6 +53564,10 @@ wo	wo
 man	man
 geräusche	Geräusche
 hört	hört
+„	„
+Hee	Hee
+,	,
+Haaaa	Haaaa
 ...	...
 ".	".
 
@@ -53971,6 +54069,9 @@ hinein	hinein
 und	und
 plötzlich	plötzlich
 ....	....
+„	„
+Buhhh	Buhhh
+"	"
 sie	sie
 machten	machten
 ein	ein
@@ -54317,6 +54418,7 @@ sind	sind
 eine	eine
 rumoriren	rumoriren
 (	(
+EEEEEEE	Eeeeeee
 HA	ha
 )	)
 die	die
@@ -54341,6 +54443,19 @@ gehe	gehe
 in	in
 Wald	Wald
 .	.
+
+Mohen	Mohen
+"	"
+EEEEEEEEEE	eeeeeeeee
+!	!
+"	"
+HOOO	hooo
+OOOO	oooo
+OOO	ooo
+!	!
+	yee
+	ee
+	!
 
 Ali	Ali
 und	und
@@ -54989,6 +55104,13 @@ ghen	gehen
 im	im
 dem	dem
 Wald.	Wald.
+
+Hören	Hören
+yeee	yeee
+,	,
+hahahaha	hahahaha
+,	,
+hooo	hooo
 
 Sie	Sie
 sind	sind
@@ -55684,7 +55806,12 @@ horen	hören
 ein	ein
 gerëusche	Geräusche
 :	:
+"	"
+Hoo	Hoo
 ,	,
+eee	eee
+,	,
+hahaha"..	hahaha"..
 
 Sie	Sie
 haben	haben
@@ -55765,7 +55892,20 @@ und	und
 Sie	sie
 hören	hören
 :	:
+"	"
+Hooooo	Hooooo
+",	",
+"	"
+Eeeee",	Eeeee",
+"	"
+Hahaha",	Hahaha",
+"	"
+Noooo"	Noooo"
 und	und
+"	"
+Haheeeeaaha	Haheeeeaaha
+!	!
+".	".
 
 Jessika	Jessika
 und	und
@@ -56450,6 +56590,8 @@ ES	es
 "	"
 SCHREIT	schreit
 ANNA.	Anna.
+"	"
+GAHAHAHA"	Gahahaha"
 HÖREN	hören
 SIE	sie
 DIE	die
@@ -56671,6 +56813,10 @@ sind	sind
 und	und
 Jemand	jemand
 macht	macht
+EEEE	eeee
+AAA	aaa
+AAA	aaa
+EEE	eee
 Die	Die
 2	2
 Kinder	Kinder
@@ -57085,6 +57231,8 @@ hört	hört
 man	man
 schreie	Schreie
 :	:
+„	„
+Heee	Heee
 -	-
 Ha".	Ha".
 
@@ -60809,6 +60957,7 @@ sagte	sagte
 :	:
 "	"
 Schatz	Schatz
+,	,
 leider	leider
 geht	geht
 es	es
@@ -60864,6 +61013,7 @@ ihm	ihm
 :	:
 "	"
 Ja	Ja
+,	,
 naturlich	natürlich
 .	.
 
@@ -61170,6 +61320,7 @@ verabschieden.	verabschieden.
 
 "	"
 Hey	Hey
+,	,
 Emilia	Emilia
 ich	ich
 habe	habe
@@ -67304,6 +67455,7 @@ Ohr	Ohr
 ,	,
 "	"
 Ach	Ach
+,	,
 ich	ich
 komme	komme
 doch	doch
@@ -67843,6 +67995,7 @@ Freund."	Freund."
 
 "	"
 Uh	Uh
+,	,
 Hallo	hallo
 Mr.	Mr.
 Bobby	Bobby
@@ -67893,6 +68046,7 @@ kommen	kommen
 
 "	"
 Nein	Nein
+,	,
 du	du
 muss	muss
 gehen	gehen
@@ -67904,6 +68058,7 @@ mir."	mir."
 
 "	"
 Mami	Mami
+,	,
 weil	weil
 bist	bist
 du	du

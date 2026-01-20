@@ -2203,6 +2203,10 @@ def clean_sentence_pairs(pairs: List[SentencePair]) -> List[SentencePair]:
         # if src != src_before_interj or tgt != tgt_before_interj:
         #     debug(f"  [{idx}] Interjection removed: '{src_before_interj[:40]}' → '{src[:40]}'")
 
+        # Remove underscores
+        src = src.replace('_', '')
+        tgt = tgt.replace('_', '')
+
         # Remove leading asterisk bullet points
         src = re.sub(r'^\*\s*', '', src).strip()
         tgt = re.sub(r'^\*\s*', '', tgt).strip()
@@ -2739,20 +2743,22 @@ def process_corpora(
 
             total_pairs = sum(len(pairs) for _, pairs in corpus_pairs_with_files)
             print(f"  Wrote {total_pairs} pairs to {out_path}")
+            
+            norm_metadata.extend(norm_metadata)
 
             # Write metadata file for this corpus
-            meta_path = os.path.join(output_dir, f"{corpus_name}.norm.meta.txt")
-            with open(meta_path, "w", encoding="utf-8") as meta_fh:
-                meta_fh.write(f"# Metadata for {corpus_name}.norm\n")
-                meta_fh.write(f"# Format: corpus | xml_file | sent_num | line_start | line_end | src | tgt\n\n")
-                for meta in norm_metadata:
-                    meta_fh.write(f"{meta['corpus']}\t{meta['xml_file']}\t{meta['sent_num']}\t"
-                                f"{meta['line_start']}\t{meta['line_end']}\t"
-                                f"{meta['src']}\t{meta['tgt']}\n")
-            print(f"  Wrote metadata to {meta_path}")
+            # meta_path = os.path.join(output_dir, f"{corpus_name}.norm.meta.txt")
+            # with open(meta_path, "w", encoding="utf-8") as meta_fh:
+            #     meta_fh.write(f"# Metadata for {corpus_name}.norm\n")
+            #     meta_fh.write(f"# Format: corpus | xml_file | sent_num | line_start | line_end | src | tgt\n\n")
+            #     for meta in norm_metadata:
+            #         meta_fh.write(f"{meta['corpus']}\t{meta['xml_file']}\t{meta['sent_num']}\t"
+            #                     f"{meta['line_start']}\t{meta['line_end']}\t"
+            #                     f"{meta['src']}\t{meta['tgt']}\n")
+            # print(f"  Wrote metadata to {meta_path}")
     
-     # NEW: Create single combined metadata file with all corpora
-    if output_format in ["norm", "both"]:
+    # NEW: Create single combined metadata file from in-memory data
+    if output_format in ["norm", "both"] and norm_metadata:
         combined_meta_path = os.path.join(output_dir, "all_corpora.norm.meta.txt")
         with open(combined_meta_path, "w", encoding="utf-8") as combined_fh:
             combined_fh.write("# Combined metadata for all NORM files\n")
@@ -2761,22 +2767,22 @@ def process_corpora(
             # Process in order: LEONIDE, Kolipsi_1_L1, Kolipsi_1_L2, Kolipsi_2
             corpus_order = ['LEONIDE', 'Kolipsi_1_L1', 'Kolipsi_1_L2', 'Kolipsi_2']
             for corpus_name in corpus_order:
-                if corpus_name in configs_to_run:
-                    meta_file = os.path.join(output_dir, f"{corpus_name}.norm.meta.txt")
-                    if os.path.exists(meta_file):
-                        with open(meta_file, "r", encoding="utf-8") as meta_fh:
-                            # Skip header lines
-                            for line in meta_fh:
-                                if not line.startswith('#') and line.strip():
-                                    combined_fh.write(line)
+                # Filter metadata for this corpus
+                corpus_meta = [m for m in norm_metadata if m['corpus'] == corpus_name]
+                for meta in corpus_meta:
+                    combined_fh.write(f"{meta['corpus']}\t{meta['xml_file']}\t{meta['sent_num']}\t"
+                                    f"{meta['line_start']}\t{meta['line_end']}\t"
+                                    f"{meta['src']}\t{meta['tgt']}\n")
+        
         print(f"\n  Wrote combined metadata to {combined_meta_path}")
+        print(f"  Total metadata entries: {len(norm_metadata)}")
 
     df = pd.DataFrame(all_data)
     
     # Write TSV output
     if output_format in ["tsv", "both"]:
         tsv_path = os.path.join(output_dir, "all_corpora.tsv")
-        df.to_csv(tsv_path, index=False, encoding="utf-8",sep="\t")
+        df.to_csv(tsv_path, index=False, encoding="utf-8", sep="\t")
         print(f"\n=== Wrote {len(df)} rows to {tsv_path} ===")
     
     return df

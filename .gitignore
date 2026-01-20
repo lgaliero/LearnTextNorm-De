@@ -29,3 +29,7 @@ sets/test_indices.txt
 sets/dev_indices.txt
 scripts/idx_lookup.py
 scripts/TEST_xml.py
+processed_data/LEONIDE.norm.meta.txt
+processed_data/Kolipsi_2.norm.meta.txt
+processed_data/Kolipsi_1_L2.norm.meta.txt
+processed_data/Kolipsi_1_L1.norm.meta.txt
