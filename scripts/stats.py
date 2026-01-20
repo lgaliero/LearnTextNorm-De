@@ -88,7 +88,7 @@ def compute_stats(tsv_path=Paths.EXTRACT_TSV):
 
     results = []
     try:
-        df_tsv = pd.read_csv(tsv_path, encoding="utf-8")
+        df_tsv = pd.read_csv(tsv_path, encoding="utf-8", sep="\t")
         
         # Individual corpora from TSV
         corpus_names = sorted(df_tsv['corpus'].unique())
@@ -133,7 +133,7 @@ def correction_stats_only(tsv_path=Paths.EXTRACT_TSV):
         DataFrame with corrected-only statistics
     """
     try:
-        df_tsv_full = pd.read_csv(tsv_path, encoding="utf-8")
+        df_tsv_full = pd.read_csv(tsv_path, encoding="utf-8",sep="\t")
         df_corrected_only = df_tsv_full[df_tsv_full['corrected'] == True]
         
         if len(df_corrected_only) == 0:
@@ -245,7 +245,7 @@ if __name__ == "__main__":
 
         try:
             if 'df_tsv_full' not in locals():
-                df_tsv_full = pd.read_csv(Paths.EXTRACT_TSV, encoding="utf-8")
+                df_tsv_full = pd.read_csv(Paths.EXTRACT_TSV, encoding="utf-8", sep="\t")
             
             total_sentences = len(df_tsv_full)
             
@@ -273,7 +273,7 @@ if __name__ == "__main__":
         print("="*80)
         
         try:
-            df_tsv_full = pd.read_csv(Paths.EXTRACT_TSV, encoding="utf-8")
+            df_tsv_full = pd.read_csv(Paths.EXTRACT_TSV, encoding="utf-8", sep="\t")
             
             print("\n--- By Subcorpus ---")
             correction_by_corpus = df_tsv_full.groupby('corpus')['corrected'].agg([
@@ -292,7 +292,7 @@ if __name__ == "__main__":
     if StatsDisplay.CORRECTION_SUMMARY:
         try:
             if 'df_tsv_full' not in locals():
-                df_tsv_full = pd.read_csv(Paths.EXTRACT_TSV, encoding="utf-8")
+                df_tsv_full = pd.read_csv(Paths.EXTRACT_TSV, encoding="utf-8", sep="\t")
             
             print("\n--- Whole Corpus ---")
             total_pairs = len(df_tsv_full)
@@ -336,7 +336,7 @@ if __name__ == "__main__":
         
         try:
             if 'df_tsv_full' not in locals():
-                df_tsv_full = pd.read_csv(Paths.EXTRACT_TSV, encoding="utf-8")
+                df_tsv_full = pd.read_csv(Paths.EXTRACT_TSV, encoding="utf-8", sep="\t")
             
             total_sentences_overall = len(df_tsv_full)
             

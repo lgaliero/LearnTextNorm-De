@@ -499,7 +499,7 @@ def extract_kolipsi(element) -> Tuple[str, str, bool, List[Tuple[str, str]]]:
                 if prev_words:
                     last_word = prev_words[-1].rstrip('.,!?').lower()
                     # Don't split after common adjectives/adverbs before nouns
-                    non_boundary_words = {'sehr', 'viel', 'viele', 'wenig', 'wenige', 'mehr', 'alle', 'einige', 'manche', 'solche'}
+                    non_boundary_words = {'sehr', 'viel', 'viele', 'wenig', 'wenige', 'mehr', 'alle', 'einige', 'manche', 'solche', "in"}
                     if last_word not in non_boundary_words:
                         src.add_marker(" <SENTBREAK> ")
                         tgt.add_marker(" <SENTBREAK> ")
@@ -776,11 +776,21 @@ def extract_kolipsi(element) -> Tuple[str, str, bool, List[Tuple[str, str]]]:
             return
 
         # STRIKEOVER
+        # STRIKEOVER
         elif tag == "strikeover":
             expansions = [child.text for child in node
             if strip_namespace(child.tag).lower() == "expansion" and child.text]
-            # Use only the FIRST expansion (the original character before strikethrough)
-            merged = expansions[1] if expansions else ""
+            
+            # Use the appropriate expansion based on what's available
+            # If there are 2+ expansions, use the second one (index 1)
+            # If there's only 1 expansion, use it (index 0)
+            # If there are no expansions, use empty string
+            if len(expansions) >= 2:
+                merged = expansions[1]  # Second expansion (the correction)
+            elif len(expansions) == 1:
+                merged = expansions[0]  # Only one expansion available
+            else:
+                merged = ""  # No expansions
 
             if merged:
                 should_merge = (
@@ -886,7 +896,7 @@ def extract_kolipsi(element) -> Tuple[str, str, bool, List[Tuple[str, str]]]:
             return
 
         # IGNORE
-        elif tag in ("symbol", "emoticon", "unreadable","comment"):
+        elif tag in ("symbol", "emoticon", "unreadable","comment","gap"):
             if node.tail:
                 if has_leading_whitespace(node.tail):
                     src.add_space()
@@ -1762,8 +1772,11 @@ def extract_leonide(paragraph, all_paragraphs=None) -> Tuple[str, str, bool, Lis
                         src.add_text(child.tail.strip())
                         tgt.add_text(child.tail.strip())
                         debug(f"[DEBUG ORTH_ERROR] Added tail: '{child.tail.strip()}'")
-
-                continue               
+                    
+                    # Add sentence break if tail ends with sentence-ending punctuation
+                    if re.search(r'[.!?]\s*$', child.tail):
+                        src.add_marker(" <SENTBREAK> ")
+                        tgt.add_marker(" <SENTBREAK> ")           
             # CAPITALISATION
             if 'tran_capitalisation' in tag:
                 original_text = child.text.strip() if child.text else ""
@@ -2104,10 +2117,9 @@ def clean_sentence_pairs(pairs: List[SentencePair]) -> List[SentencePair]:
     
     filter_counts = {
         'foreign': 0,
-        #'interjection': 0,
         'asterisk': 0,
         'at_symbol': 0,
-        #'underscore':0,
+        'arrow': 0,
         'empty': 0,
         'too_short': 0,
         'duplicate': 0
@@ -2126,86 +2138,15 @@ def clean_sentence_pairs(pairs: List[SentencePair]) -> List[SentencePair]:
         src = re.sub(r"\s*\n\s*", " ", pair.src).strip()
         tgt = re.sub(r"\s*\n\s*", " ", pair.tgt).strip()
 
-        # # Remove interjections
-        # src_before_interj = src
-        # tgt_before_interj = tgt
+        # Skip sentences containing arrow ->
+        if '->' in src or '->' in tgt:
+            filter_counts['arrow'] += 1
+            debug(f"  [{idx}] FILTERED (arrow): {src[:50]}...")
+            continue
 
-        # # Remove interjections using list-based matching (lowercase only, case-insensitive comparison)
-        # interjection_words = {'haha', 'hahaha', 'hahahaha', 'hahahahaha', 'gahaha', 'gahahaha',
-        #                     'hee', 'heee', 'heeee', 'haheee', 'haheeee', 'haheeeeaaha',
-        #                     'eeeeeheheee', 'hahaaahah', 'huuhuu', 'ahhh', 'ahhhh', 'ahhhhh',
-        #                     'nooo', 'noo', 'noooo', 'eh', 'ehhh', 'haaaa', 'xeee', 
-        #                     'hooho', 'hooo', 'hoo', 'hooooo', 'wuff', 'grrr', 'arrr', 'arrrr',
-        #                     'buh', 'buuh', 'buhhh', 'yee', 'yeee', 'heehee', 'heeeeee', 'aaaah','eeeeeh','hooooooo'}
-
-        # # Pattern-based check for repetitive interjections (e.g., EEEEEE, OOOO)
-        # def is_interjection(word_clean):
-        #     if word_clean in interjection_words:
-        #         return True
-        #     # Check for repetitive vowels: 3+ of the SAME vowel repeated
-        #     if re.fullmatch(r'([aehou])\1{2,}', word_clean, flags=re.IGNORECASE):  # <-- FIXED: \1{2,} means "same char repeated 2+ more times"
-        #         return True
-        #     return False
-
-        # def strip_discourse_comma(word):
-        #     """Remove trailing comma from discourse markers/interjections inside quotes."""
-        #     # If word is quoted and ends with comma before closing quote: "Uh," -> "Uh"
-        #     if re.match(r'^[„"""][^„"""]+,$', word):
-        #         return word[:-1]  # Remove comma before quote
-        #     return word
-
-        # def filter_interjections(text):
-        #     words = text.split()
-        #     filtered = []
-        #     i = 0
-            
-        #     while i < len(words):
-        #         word = words[i]
-        #         word = strip_discourse_comma(word)
-        #         word_clean = word.strip('"\'""„'',.:;!?').lower()
-                
-        #         if is_interjection(word_clean):
-        #             # Check if this is a standalone quoted interjection: „Heee" or „Hoo",
-        #             if word.startswith(('„', '"', '"')) or (filtered and filtered[-1] in ('„', '"', '"')):
-        #                 # Remove preceding quote if it exists
-        #                 if filtered and filtered[-1] in ('„', '"', '"'):
-        #                     filtered.pop()
-                        
-        #                 # Skip the interjection
-        #                 # Check if followed by closing quote and/or comma
-        #                 if i + 1 < len(words):
-        #                     next_word = words[i + 1]
-        #                     # Skip closing quote/comma tokens
-        #                     if next_word in ('"', '"', '"', ',', '",', '",', '",'):
-        #                         i += 2
-        #                         continue
-                        
-        #                 i += 1
-        #                 continue
-                    
-        #             # Regular interjection with comma: "Heee,"
-        #             if word.endswith(','):
-        #                 i += 1
-        #                 continue
-                    
-        #             # Skip interjection
-        #             i += 1
-        #             continue
-                
-        #         filtered.append(word)
-        #         i += 1
-            
-        #     return ' '.join(filtered)
-
-        # src = filter_interjections(src)
-        # tgt = filter_interjections(tgt)
-
-        # if src != src_before_interj or tgt != tgt_before_interj:
-        #     debug(f"  [{idx}] Interjection removed: '{src_before_interj[:40]}' → '{src[:40]}'")
-
-        # Remove underscores
-        src = src.replace('_', '')
-        tgt = tgt.replace('_', '')
+        # INSERT INTERJECTION CODE HERE
+        # INTERJECT GOES HERE
+        #insert interacion code before this if wanting to restore it
 
         # Remove leading asterisk bullet points
         src = re.sub(r'^\*\s*', '', src).strip()
@@ -2245,12 +2186,6 @@ def clean_sentence_pairs(pairs: List[SentencePair]) -> List[SentencePair]:
             debug(f"  [{idx}] FILTERED (@): {src[:50]}...")
             continue
 
-        # if '_' in src or '_' in tgt:
-        #     filter_counts['underscore'] += 1
-        #     debug(f"  [{idx}] FILTERED (): {src[:50]}...")
-        #     continue
-
-
         # Check for empty
         if re.fullmatch(empty_regex, src) or re.fullmatch(empty_regex, tgt):
             filter_counts['empty'] += 1
@@ -2276,12 +2211,13 @@ def clean_sentence_pairs(pairs: List[SentencePair]) -> List[SentencePair]:
         src_words = [w for w in src_abbrev_collapsed.split() if re.search(r'\w', w)]
         tgt_words = [w for w in tgt_abbrev_collapsed.split() if re.search(r'\w', w)]
 
-        if len(src_words) <=3 or len(tgt_words) <= 3:
+        if len(src_words) <=4 or len(tgt_words) <= 4:
             filter_counts['too_short'] += 1
             debug(f"  [{idx}] FILTERED (word count): SRC={len(src_words)} words, TGT={len(tgt_words)} words")
             debug(f"        SRC: {src[:60]}...")
             debug(f"        TGT: {tgt[:60]}...")
             continue
+
                 
         pair_key = (src.lower(), tgt.lower())
         if pair_key in seen_pairs:
@@ -2303,6 +2239,7 @@ def clean_sentence_pairs(pairs: List[SentencePair]) -> List[SentencePair]:
     debug(f"\n[DEBUG clean_sentence_pairs] OUTPUT: {len(cleaned)} pairs")
     debug(f"[DEBUG FILTER STATS]: {filter_counts}")
     return cleaned
+        
 
 def process_file(xml_path: str, corpus_type: str) -> List[SentencePair]:
     """Process a single XML file."""
@@ -2334,6 +2271,7 @@ def process_corpora(
     os.makedirs(output_dir, exist_ok=True)
     
     all_data = []
+    norm_metadata = [] #list of dicts with metadata for each sentence
     
     for corpus_name, cfg in corpus_configs.items():
         print(f"\n--- Processing {corpus_name} ---")
@@ -2366,7 +2304,7 @@ def process_corpora(
             
             # Skip excluded files
             if xml_filename in ExtractionParams.EXCLUDE:
-                print(f"   [{idx + 1}/{len(xml_members)}] {member} [SKIPPED - excluded]")
+                print(f"   [{idx + 1}/{len(xml_members)}] {xml_filename} [SKIPPED - excluded]")
                 continue
             
             debug(f"   [{idx + 1}/{len(xml_members)}] {member}")
@@ -2374,7 +2312,9 @@ def process_corpora(
             try:
                 pairs = process_file(member, corpus_name)
             except Exception as e:
-                print(f"     ERROR: {e}")
+                print(f"     ERROR in {xml_filename}: {e}")  # Show filename here too
+                import traceback
+                traceback.print_exc()
                 continue
             
             xml_filename = os.path.basename(member)
@@ -2415,7 +2355,6 @@ def process_corpora(
             debug(f"\n[DEBUG NORM] Writing NORM output for {corpus_name}...")
             out_path = os.path.join(output_dir, f"{corpus_name}.norm")
             #Track metadata for each sentence
-            norm_metadata = [] #list of dicts with metadata for each sentence
             current_line = 1 # Track line number in .norm file
             with open(out_path, "w", encoding="utf-8") as fh:
                 debug(f"[DEBUG NORM] Processing {len(corpus_pairs_with_files)} files...")
@@ -2707,16 +2646,19 @@ def process_corpora(
                                     
                                     # Default: no mapping found, simple word-by-word alignment
                                     fh.write(f"{src_word}\t{tgt_word}\n")
+                                    current_line += 1
                                     src_i += 1
                                     tgt_i += 1
 
                                 # Handle remaining words
                                 while src_i < len(src_words):
                                     fh.write(f"{src_words[src_i]}\t\n")
+                                    current_line += 1
                                     src_i += 1
 
                                 while tgt_i < len(tgt_words):
                                     fh.write(f"\t{tgt_words[tgt_i]}\n")
+                                    current_line += 1
                                     tgt_i += 1
                             else:
                                 # No mappings: simple word-by-word alignment
@@ -2725,6 +2667,7 @@ def process_corpora(
                                     src_w = src_words[i] if i < len(src_words) else ""
                                     tgt_w = tgt_words[i] if i < len(tgt_words) else ""
                                     fh.write(f"{src_w}\t{tgt_w}\n")
+                                    current_line += 1
 
                             fh.write("\n")
                             sent_end_line = current_line #End line is the blank line
@@ -2744,19 +2687,7 @@ def process_corpora(
             total_pairs = sum(len(pairs) for _, pairs in corpus_pairs_with_files)
             print(f"  Wrote {total_pairs} pairs to {out_path}")
             
-            norm_metadata.extend(norm_metadata)
-
-            # Write metadata file for this corpus
-            # meta_path = os.path.join(output_dir, f"{corpus_name}.norm.meta.txt")
-            # with open(meta_path, "w", encoding="utf-8") as meta_fh:
-            #     meta_fh.write(f"# Metadata for {corpus_name}.norm\n")
-            #     meta_fh.write(f"# Format: corpus | xml_file | sent_num | line_start | line_end | src | tgt\n\n")
-            #     for meta in norm_metadata:
-            #         meta_fh.write(f"{meta['corpus']}\t{meta['xml_file']}\t{meta['sent_num']}\t"
-            #                     f"{meta['line_start']}\t{meta['line_end']}\t"
-            #                     f"{meta['src']}\t{meta['tgt']}\n")
-            # print(f"  Wrote metadata to {meta_path}")
-    
+            
     # NEW: Create single combined metadata file from in-memory data
     if output_format in ["norm", "both"] and norm_metadata:
         combined_meta_path = os.path.join(output_dir, "all_corpora.norm.meta.txt")
