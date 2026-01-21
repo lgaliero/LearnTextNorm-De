@@ -510,14 +510,13 @@ def create_json(output_dir: str, baseline_file: str = None,
     print(f"✓ Processed {len(results)} test sentences")
     print(f"✓ Baselines included: {sum(1 for r in results if r['baseline_output'] != 'to be added')}/{len(results)}")
 
-def create_norm_files(output_dir: str, csv_path: str, metadata_file: str = None) -> None:
+def create_norm_files(output_dir: str, tsv_path: str) -> None:
     """
-    Generate verticalized .norm files for train, dev, and test splits using metadata.
+    Generate verticalized .norm files for train, dev, and test splits using TSV metadata.
     
     Args:
         output_dir: Directory containing the split indices files
-        csv_path: Path to the corpus CSV
-        metadata_file: Path to all_corpora.norm.meta.txt (optional, auto-detected if None)
+        tsv_path: Path to the corpus TSV (contains all metadata)
     """
     print("\n" + "=" * 80)
     print("GENERATING .norm FILES FOR SPLITS")
@@ -525,19 +524,13 @@ def create_norm_files(output_dir: str, csv_path: str, metadata_file: str = None)
     
     corpus_dir = Paths.EXTRACT_OUT
     
-    # Auto-detect metadata file if not provided
-    if metadata_file is None:
-        metadata_file = os.path.join(corpus_dir, "all_corpora.norm.meta.txt")
+    # Load the full dataframe (this IS our metadata)
+    df = pd.read_csv(tsv_path, encoding="utf-8", sep='\t')
+    print(f"✓ Loaded corpus TSV with {len(df)} sentences as metadata source")
     
-    if not os.path.exists(metadata_file):
-        print(f"❌ Error: Metadata file not found: {metadata_file}")
-        return
-    
-    print(f"Using metadata file: {metadata_file}")
     
     # Parse metadata file
-    print("\nParsing metadata file...")
-    metadata_by_corpus = {}
+    print("\nParsing metadata...")
     
     with open(metadata_file, 'r', encoding='utf-8') as f:
         for line in f:
@@ -550,26 +543,21 @@ def create_norm_files(output_dir: str, csv_path: str, metadata_file: str = None)
             parts = line.split('\t')
             if len(parts) != 7:
                 continue
-            
-            corpus, xml_file, sent_num, line_start, line_end, src, tgt = parts
-            
-            if corpus not in metadata_by_corpus:
-                metadata_by_corpus[corpus] = []
-            
-            metadata_by_corpus[corpus].append({
-                'xml_file': xml_file,
-                'sent_num': int(sent_num),
-                'line_start': int(line_start),
-                'line_end': int(line_end),
-                'src': src,
-                'tgt': tgt
-            })
-    
-    print(f"✓ Loaded metadata for {len(metadata_by_corpus)} corpora")
-    
+
+            corpus, xml_file, sent_num, src, tgt, line_start, line_end, = parts
+            # Get metadata directly from TSV row
+            row = df.loc[df_index]
+            corpus_name = row['corpus']
+            xml_file = row['xml_file']
+            sent_num = row['sent_num']
+            src_sentence = row['src']
+            tgt_sentence = row['tgt']
+            line_start = row['line_start']
+            line_end = row['line_end']           
+
     # Load the full dataframe
-    df = pd.read_csv(csv_path, encoding="utf-8", sep='\t')
-    print(f"✓ Loaded corpus CSV with {len(df)} sentences")
+    df = pd.read_csv(tsv_path, encoding="utf-8", sep='\t')
+    print(f"✓ Loaded corpus TSV with {len(df)} sentences")
     
     # Process each split
     for split_name in ['train', 'dev', 'test']:
@@ -606,24 +594,6 @@ def create_norm_files(output_dir: str, csv_path: str, metadata_file: str = None)
             src_sentence = row['src']
             tgt_sentence = row['tgt']
             
-            # Find matching metadata entry
-            if corpus_name not in metadata_by_corpus:
-                print(f"\n⚠️  Warning: No metadata found for corpus '{corpus_name}'")
-                continue
-            
-            # Search for exact match in metadata
-            matched_meta = None
-            for meta in metadata_by_corpus[corpus_name]:
-                if (meta['xml_file'] == xml_file and 
-                    meta['sent_num'] == sent_num and
-                    meta['src'] == src_sentence):
-                    matched_meta = meta
-                    break
-            
-            if matched_meta is None:
-                print(f"\n⚠️  Warning: No metadata match for {corpus_name}/{xml_file}/sent_{sent_num}")
-                print(f"     Source: {src_sentence[:50]}...")
-                continue
             
             # Load .norm file if not cached
             norm_file_path = os.path.join(corpus_dir, f"{corpus_name}.norm")
@@ -635,10 +605,6 @@ def create_norm_files(output_dir: str, csv_path: str, metadata_file: str = None)
                 
                 with open(norm_file_path, 'r', encoding='utf-8') as f:
                     norm_cache[corpus_name] = [line.rstrip('\n') for line in f]
-            
-            # Extract lines using metadata line numbers
-            line_start = matched_meta['line_start'] - 1  # Convert to 0-indexed
-            line_end = matched_meta['line_end']          # End is inclusive (blank line)
             
             norm_lines = norm_cache[corpus_name]
             
@@ -668,18 +634,17 @@ def create_norm_files(output_dir: str, csv_path: str, metadata_file: str = None)
     
     print("\n✅ All .norm files generated successfully!")
 
-def main(csv_path: str = Paths.EXTRACT_CSV,
+def main(tsv_path: str = Paths.EXTRACT_TSV,
          output_dir: str = Paths.SET_SPLITS,
          test_size: float = DataSplits.TEST,
          dev_size: float = DataSplits.DEV,
          random_seed: int = 42,
-         create_mode: str = "interactive",
-         metadata_file: str = None):
+         create_mode: str = "interactive"):
     """
     Main function to create dataset splits using line-number-based sampling.
     
     Args:
-        csv_path: Path to full corpus CSV
+        tsv_path: Path to full corpus TSV
         output_dir: Where to save split files
         test_size: Proportion for test set
         dev_size: Proportion for dev set (of total data)
@@ -698,17 +663,16 @@ def main(csv_path: str = Paths.EXTRACT_CSV,
         return
 
     if create_mode == "norm":
-        metadata_file = os.path.join(Paths.EXTRACT_OUT, "all_corpora.norm.meta.txt")
-        create_norm_files(output_dir, csv_path, metadata_file)
+        create_norm_files(output_dir, tsv_path)
         return
     
     # Load corpus
-    print(f"Loading corpus from {csv_path}...")
-    df = pd.read_csv(csv_path, encoding="utf-8")
+    print(f"Loading corpus from {tsv_path}...")
+    df = pd.read_csv(tsv_path, encoding="utf-8")
     total_sentences = len(df)
     
     print(f"\nTotal sentences: {total_sentences:,}")
-    print(f"CSV line numbers: 0 to {total_sentences - 1} (header excluded)")
+    print(f"TSV line numbers: 0 to {total_sentences - 1} (header excluded)")
     print(f"\nTarget splits:")
     print(f"  Test set: {test_size*100}% = {int(total_sentences * test_size):,} sentences")
     print(f"  Dev set: {dev_size*100}% = {int(total_sentences * dev_size):,} sentences")
@@ -755,8 +719,7 @@ def main(csv_path: str = Paths.EXTRACT_CSV,
             return
         
         if choice == "7":
-            metadata_file = os.path.join(Paths.EXTRACT_OUT, "all_corpora.norm.meta.txt")
-            create_norm_files(output_dir, csv_path, metadata_file)
+            create_norm_files(output_dir, tsv_path)
             return
         
         if test_exists:
@@ -884,8 +847,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description='Create stratified dataset splits using line-number-based sampling'
     )
-    parser.add_argument('--csv', default=Paths.EXTRACT_CSV,
-                       help='Input CSV file')
+    parser.add_argument('--tsv', default=Paths.EXTRACT_TSV,
+                       help='Input TSV file')
     parser.add_argument('--output-dir', default=Paths.SET_SPLITS,
                        help='Output directory for splits')
     parser.add_argument('--test-size', type=float, default=DataSplits.TEST,
@@ -898,18 +861,13 @@ if __name__ == "__main__":
                                           'train_dev', 'json', 'update_json', 'norm','interactive'],
                        default='interactive',
                        help='What to create (default: interactive)')
-    
-    parser.add_argument('--metadata-file', default=None,
-                       help='Path to all_corpora.norm.meta.txt (auto-detected if not specified)')
-    
     args = parser.parse_args()
     
     main(
-        csv_path=args.csv,
+        tsv_path=args.tsv,
         output_dir=args.output_dir,
         test_size=args.test_size,
         dev_size=args.dev_size,
         random_seed=args.seed,
-        create_mode=args.mode,
-        metadata_file=args.metadata_file  # NEW
+        create_mode=args.mode
     )

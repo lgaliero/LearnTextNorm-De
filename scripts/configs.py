@@ -32,25 +32,25 @@ class Paths:
 class ExtractionParams:
     """Configuration for extraction process."""
     CORPORA = {
-        'LEONIDE': {
-            'base_dir': '../corpora/LEONIDE/pepper-xml-v1.1/data/DE',
-            'lang_prof': 'L2'
+        'Kolipsi_1_L1': {
+            'base_dir': '../corpora/Kolipsi_1/xmlmind-v1.1/data/annotations/L1/DE/files_split_by_exercises',
+            'lang_prof': 'L1'
         },
         'Kolipsi_1_L2': {
             'base_dir': '../corpora/Kolipsi_1/xmlmind-v1.1/data/annotations/L2/DE/files_split_by_exercises',
             'lang_prof': 'L2'
         },
-        'Kolipsi_1_L1': {
-            'base_dir': '../corpora/Kolipsi_1/xmlmind-v1.1/data/annotations/L1/DE/files_split_by_exercises',
-            'lang_prof': 'L1'
-        },
         'Kolipsi_2': {
             'base_dir': '../corpora/Kolipsi_2',
+            'lang_prof': 'L2'
+        },
+        'LEONIDE': {
+            'base_dir': '../corpora/LEONIDE/pepper-xml-v1.1/data/DE',
             'lang_prof': 'L2'
         }
     }
     ACTIVE_CORPORA = ['LEONIDE', 'Kolipsi_1_L1', "Kolipsi_1_L2", "Kolipsi_2"] # Corpora to process (empty list = process none)
-    OUTPUT_FORMAT = 'both'      # Output settings - Options: "csv", "norm", or "both"
+    OUTPUT_FORMAT = 'both'      # Output settings - Options: "tsv", "norm", or "both"
     EXCLUDE = ["DE_pic_2_57Y25A14_59.xml"," DE_pic_2_57Y25A03_59.xml", "DE_pic_3_67Y25A21_112.xml"," DE_pic_1_57Y28A01_13.xml","I22_DIL27SIM_2.xml"]
     MAX_FILES_PER_CORPUS = None    # Processing limits - None = process all files, or set to integer to limit
     SENTENCIZER_KWARGS = None      # Sentencizer settings (if needed in future)

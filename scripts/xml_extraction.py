@@ -2271,7 +2271,7 @@ def process_corpora(
     os.makedirs(output_dir, exist_ok=True)
     
     all_data = []
-    norm_metadata = [] #list of dicts with metadata for each sentence
+    norm_line_map = {}
     
     for corpus_name, cfg in corpus_configs.items():
         print(f"\n--- Processing {corpus_name} ---")
@@ -2318,36 +2318,6 @@ def process_corpora(
                 continue
             
             xml_filename = os.path.basename(member)
-
-            # Detect text type from filename
-            if corpus_name in ["Kolipsi_1_L1", "Kolipsi_1_L2", "Kolipsi_2"]:
-                # Kolipsi: _1.xml = picture story, _2.xml = opinion
-                if xml_filename.endswith("_1.xml"):
-                    text_type = "picture story"
-                elif xml_filename.endswith("_2.xml"):
-                    text_type = "opinion"
-                else:
-                    text_type = "unknown"
-            else:  # LEONIDE
-                # LEONIDE: "pic" = picture story, "op" = opinion
-                if "_pic_" in xml_filename:
-                    text_type = "picture story"
-                elif "_op_" in xml_filename:
-                    text_type = "opinion"
-                else:
-                    text_type = "unknown"
-            for sent_num, pair in enumerate(pairs, start=1):
-                all_data.append({
-                    'corpus': corpus_name,
-                    'lang_prof': lang_prof,
-                    'xml_file': xml_filename,
-                    'sent_num': sent_num,
-                    'src': pair.src,
-                    'tgt': pair.tgt,
-                    'corrected': pair.has_correction,
-                    'text_type': text_type
-                })
-            
             corpus_pairs_with_files.append((xml_filename, pairs))
 
        # Write NORM output if requested (verticalized word-by-word format)
@@ -2673,41 +2643,46 @@ def process_corpora(
                             sent_end_line = current_line #End line is the blank line
                             current_line += 1
 
-                            # Store metadata for each sentence
-                            norm_metadata.append({
-                                'corpus': corpus_name,
-                                'xml_file': xml_filename,
-                                'sent_num': pair_idx + 1,
-                                'line_start': sent_start_line,
-                                'line_end': sent_end_line,
-                                'src': pair.src,
-                                'tgt': pair.tgt
-                            })
+                            # Store line mapping
+                            norm_line_map[(corpus_name, xml_filename, pair_idx + 1)] = (sent_start_line, sent_end_line)
 
             total_pairs = sum(len(pairs) for _, pairs in corpus_pairs_with_files)
             print(f"  Wrote {total_pairs} pairs to {out_path}")
             
+        for xml_filename, pairs in corpus_pairs_with_files:    
+            # Detect text type from filename
+            if corpus_name in ["Kolipsi_1_L1", "Kolipsi_1_L2", "Kolipsi_2"]:
+                # Kolipsi: _1.xml = picture story, _2.xml = opinion
+                if xml_filename.endswith("_1.xml"):
+                    text_type = "picture story"
+                elif xml_filename.endswith("_2.xml"):
+                    text_type = "opinion"
+                else:
+                    text_type = "unknown"
+            else:  # LEONIDE
+                # LEONIDE: "pic" = picture story, "op" = opinion
+                if "_pic_" in xml_filename:
+                    text_type = "picture story"
+                elif "_op_" in xml_filename:
+                    text_type = "opinion"
+                else:
+                    text_type = "unknown"
+            for sent_num, pair in enumerate(pairs, start=1):
+                line_start, line_end = norm_line_map.get((corpus_name, xml_filename, sent_num), (None, None))
+                
+                all_data.append({
+                    'corpus': corpus_name,
+                    'lang_prof': lang_prof,
+                    'xml_file': xml_filename,
+                    'sent_num': sent_num,
+                    'src': pair.src,
+                    'tgt': pair.tgt,
+                    'corrected': pair.has_correction,
+                    'text_type': text_type,
+                    'line_start': line_start,
+                    'line_end': line_end
+                })
             
-    # NEW: Create single combined metadata file from in-memory data
-    if output_format in ["norm", "both"] and norm_metadata:
-        combined_meta_path = os.path.join(output_dir, "all_corpora.norm.meta.txt")
-        with open(combined_meta_path, "w", encoding="utf-8") as combined_fh:
-            combined_fh.write("# Combined metadata for all NORM files\n")
-            combined_fh.write("# Format: corpus | xml_file | sent_num | line_start | line_end | src | tgt\n\n")
-            
-            # Process in order: LEONIDE, Kolipsi_1_L1, Kolipsi_1_L2, Kolipsi_2
-            corpus_order = ['LEONIDE', 'Kolipsi_1_L1', 'Kolipsi_1_L2', 'Kolipsi_2']
-            for corpus_name in corpus_order:
-                # Filter metadata for this corpus
-                corpus_meta = [m for m in norm_metadata if m['corpus'] == corpus_name]
-                for meta in corpus_meta:
-                    combined_fh.write(f"{meta['corpus']}\t{meta['xml_file']}\t{meta['sent_num']}\t"
-                                    f"{meta['line_start']}\t{meta['line_end']}\t"
-                                    f"{meta['src']}\t{meta['tgt']}\n")
-        
-        print(f"\n  Wrote combined metadata to {combined_meta_path}")
-        print(f"  Total metadata entries: {len(norm_metadata)}")
-
     df = pd.DataFrame(all_data)
     
     # Write TSV output
