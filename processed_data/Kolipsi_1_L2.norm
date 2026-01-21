@@ -662,8 +662,7 @@ feuer	Feuer
 Eine	Eine
 schaft	schaft
 von	von
-C.I.A	C.I.A
-.	.
+C.I.A.	C.I.A.
 macht	macht
 eine	eine
 blitz	Blitz
@@ -4490,8 +4489,7 @@ dann	dann
 sie	sie
 ging	ging
 auß	aus
-	.
-.	
+.	.
 
 Eine	Eine
 Stunde	Stunde
@@ -4852,8 +4850,7 @@ Meer	Meer
 nicht	nicht
 entspannend	entspannend
 muß	muss
-	.
-.	
+.	.
 
 Das	Das
 letzte	letzte
@@ -5892,9 +5889,9 @@ nexte	nächste
 mall	Mal
 bringe	bringe
 die	die
-Kassenzettel.“	Kassenzettel.“
-Viele	Viele
-Grüße	Grüße
+Kassenzettel	Kassenzettel
+.	.
+“	“
 
 Lieber	Lieber
 Willy	Willy
@@ -6649,8 +6646,7 @@ ein	ein
 paar	paar
 platze	Plätze
 ausgesucht	ausgesucht
-zb	z. B.
-.	
+zb.	z. B.
 :	:
 Pejo	Pejo
 ,	,
@@ -7537,10 +7533,9 @@ mit	mit
 wunsch	wunsch
 und	und
 grüßen	grüßen
-dir.“	dir.“
-Stefano	Stefano
-und	und
-Efi	Efi
+dir	dir
+.	.
+“	“
 
 Wernn	Wenn
 sie	sie
@@ -17380,25 +17375,23 @@ einkaufen	einkaufen
 gegangen	gegangen
 .	.
 
-Zu	Zuerst
-erst	ist
-ist	sie
-sie	beim
-beim	Obsthändler
-Obsthändler	gegangen
-gegangen	und
-und	hat
-hat	dort
-dort	verschiedene
-verschiedene	Gemüse
-Gemüse	gekauft
-gekauft	und
-und	das
-das	Brot
-Brot	gekauft
-	.
-gekauft	
-.	
+Zu erst	Zuerst
+ist	ist
+sie	sie
+beim	beim
+Obsthändler	Obsthändler
+gegangen	gegangen
+und	und
+hat	hat
+dort	dort
+verschiedene	verschiedene
+Gemüse	Gemüse
+gekauft	gekauft
+und	und
+das	das
+Brot	Brot
+gekauft	gekauft
+.	.
 
 Dann	Dann
 ,	,
@@ -21010,46 +21003,47 @@ zählte	zählte
 die	die
 Kaffe´	Kaffee
 ,	,
-die	,
-Nudel	die
-und	Nudel
-Süssenkeit	und
-,	Süssenkeit
-aber	,
-die	aber
-Verkäuferin	die
-sah	Verkäuferin
-die	sah
-Tadche	die
-mit	Tasche
-Obst	mit
-und	Obst
-Gemüse	und
-und	Gemüse
-sagte	und
-“	sagte
-was	“
-haben	Was
-sie	haben
-in	Sie
-die	in
-Tasche	die
-?“	Tasche
-sie	?“
-war	Sie
-böse	war
-weil	böse
-sie	weil
-dachte	sie
-dass	dachte
-Maria	dass
-die	Maria
-Gemüse	die
-nicht	Gemüse
-zahlen	nicht
-hatte	zahlen
-!	hatte
-	!
+die	die
+Nudel	Nudel
+und	und
+Süssenkeit	Süssenkeit
+,	,
+aber	aber
+die	die
+Verkäuferin Verkäuferin
+sah sah
+die die
+Tadche	Tasche
+mit	mit
+Obst	Obst
+und und
+Gemüse	Gemüse
+und und
+sagte sagte
+“	“
+was	Was
+haben haben
+sie	Sie
+in	in
+die	die
+Tasche	Tasche
+?	?
+“	“
+
+sie	Sie
+war	war
+böse	böse
+weil weil
+sie sie
+dachte	dachte
+dass	dass
+Maria	Maria
+die	die
+Gemüse Gemüse
+nicht	nicht
+zahlen zahlen
+hatte hatte
+!	!
 
 Maria	Maria
 war	war
@@ -21425,7 +21419,6 @@ ich	ich
 viele	viele
 Spass	Spaß
 .	.
-	.
 
 Mein	Mein
 Kindern	Kindern
@@ -21444,7 +21437,6 @@ für	für
 die	die
 spass	Spaß
 .	.
-	.
 
 Am	Am
 Meer	Meer
@@ -24094,9 +24086,8 @@ das	das
 Wetter	Wetter
 ist	ist
 sehr	sehr
-heisheis	heiß
+heis	heiß
 .	.
-	.
 
 Dieses	Dieses
 Urlaub	Urlaub
@@ -24967,27 +24958,25 @@ passieren	passieren
 
 Wen	Wenn
 du	du
-mit	mitkommst
-komst	,
-,	sollst
-sollst	du
-du	aber
-aber	auch
-auch	mir
-mir	deine
-deine	Meinung
-Meinung	sagen
-sagen	so
-so	können
-können	wir
-wir	entschieden
-entschieden	wo
-wo	wir
-wir	gehen
-gehen	wollen
-	.
-wollen	
-.	
+mit kommst	mitkommst
+,	,
+sollst	sollst
+du	du
+aber	aber
+auch	auch
+mir	mir
+deine	deine
+Meinung	Meinung
+sagen	sagen
+so	so
+können	können
+wir	wir
+entschieden	entschieden
+wo	wo
+wir	wir
+gehen	gehen
+wollen	wollen
+.	.
 
 Ich	Ich
 warte	warte
@@ -46522,7 +46511,10 @@ hast	hast
 diese	diese
 Brot	Brot
 nicht	nicht
-bezahlen.“	bezahlen.“
+bezahlen	bezahlen
+.	.
+“	“
+
 Maria	Maria
 sagt	sagt
 :	:
@@ -46538,7 +46530,9 @@ gekaufen	gekaufen
 ,	,
 ist	ist
 nicht	nicht
-ihre.“	ihre.“
+ihre	ihre
+.	.
+“	“
 Kassent	Kassent
 sagt	sagt
 :	:
@@ -46554,7 +46548,10 @@ ich	ich
 Telefoniert	telefoniert
 an	an
 den	den
-Polizei.“	Polizei.“
+Polizei	Polizei
+.	.
+“	“
+
 Maria	Maria
 :	:
 „	„
@@ -46565,7 +46562,10 @@ kaufen	kaufen
 ein	ein
 andere	andere
 Brot	Brot
-hier.“	hier.“
+hier	hier
+.	.
+“	“
+
 Kassen	Kassen
 :	:
 “Ok	“Ok
@@ -52962,9 +52962,8 @@ nämlich	nämlich
 an	an
 einem	einem
 Snowboard	Snowboardrennen
-.	
-	teilgenommen
-	.
+teilgenommen	teilgenommen
+.		.
 
 auf	Auf
 alle	alle
@@ -62436,8 +62435,7 @@ sie	sie
 ganz	ganz
 anders	anders
 auß	aus
-	.
-.	
+.	.
 
 Am	Am
 Meer	Meer
