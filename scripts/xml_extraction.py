@@ -1546,9 +1546,13 @@ def extract_leonide(paragraph, all_paragraphs=None) -> Tuple[str, str, bool, Lis
                         if child.tail.strip():
                             src.add_text(child.tail.strip())
                             tgt.add_text(child.tail.strip())
-                    continue
-                debug(f"[DEBUG ORTH_ERROR] Processing orth_error with target='{target_attr}', tagcode='{tagcode}'")                
+                            debug(f"[DEBUG ORTH_ERROR] Processing orth_error with target='{target_attr}', tagcode='{tagcode}'")                
 
+                        if re.search(r'[.!?]\s*$', child.tail):
+                            src.add_marker(" <SENTBREAK> ")
+                            tgt.add_marker(" <SENTBREAK> ")
+                    continue
+                    
                 # Check if this orth_error is a continuation (same tagcode appeared earlier)
                 is_continuation = False
                 
@@ -1787,7 +1791,9 @@ def extract_leonide(paragraph, all_paragraphs=None) -> Tuple[str, str, bool, Lis
                     # Add sentence break if tail ends with sentence-ending punctuation
                     if re.search(r'[.!?]\s*$', child.tail):
                         src.add_marker(" <SENTBREAK> ")
-                        tgt.add_marker(" <SENTBREAK> ")           
+                        tgt.add_marker(" <SENTBREAK> ")    
+                continue
+
             # CAPITALISATION
             if 'tran_capitalisation' in tag:
                 original_text = child.text.strip() if child.text else ""
@@ -2163,6 +2169,9 @@ def clean_sentence_pairs(pairs: List[SentencePair]) -> List[SentencePair]:
         src = re.sub(r'^\*\s*', '', src).strip()
         tgt = re.sub(r'^\*\s*', '', tgt).strip()
 
+        # Remove quote encoding errors (&ltt, &gt)
+        src = re.sub(r'&\s?[gl]t','', src).strip()
+        tgt = re.sub(r'&\s?[gl]t','', tgt).strip()
         # Remove standalone asterisks
         src = re.sub(r'\s*\*\s*', ' ', src).strip()
         tgt = re.sub(r'\s*\*\s*', ' ', tgt).strip()
@@ -2251,7 +2260,6 @@ def clean_sentence_pairs(pairs: List[SentencePair]) -> List[SentencePair]:
     debug(f"[DEBUG FILTER STATS]: {filter_counts}")
     return cleaned
         
-
 def process_file(xml_path: str, corpus_type: str) -> List[SentencePair]:
     """Process a single XML file."""
     if not os.path.exists(xml_path):
@@ -2370,6 +2378,39 @@ def process_corpora(
                                     if tgt_val not in target_token_counts:
                                         target_token_counts[tgt_val] = len(tokenize_preserve_abbrev(tgt_val))
 
+                                                                # Helper function to separate punctuation from word
+                            def separate_punct(word):
+                                """Separate trailing punctuation, preserving abbreviations."""
+                                # Check if it's an abbreviation (protected patterns)
+                                if ABBREV_PATTERN.match(word):
+                                    return word, ""
+                                
+                                # Separate trailing punctuation
+                                match = re.match(r'^(.*?)([.,!?;:]+)$', word)
+                                if match:
+                                    return match.group(1), match.group(2)
+                                return word, ""
+
+                            def split_punct_for_output(word):
+                                """Split word into base + punctuation for NORM output."""
+                                # Preserve abbreviations
+                                if ABBREV_PATTERN.match(word):
+                                    return [word]
+                                
+                                # Split trailing punctuation AND quotes
+                                match = re.match(r'^(.*?)([.,!?;:"„""]+)$', word)
+                                if match:
+                                    base = match.group(1)
+                                    punct = match.group(2)
+                                    # Further split punct if it contains multiple characters
+                                    # e.g., '."' should become ['.', '"']
+                                    punct_chars = list(punct)
+                                    if base:
+                                        return [base] + punct_chars
+                                    else:
+                                        return punct_chars
+                                return [word]
+
                             # If we have orth_error mappings, use them for precise alignment
                             if pair.orth_mappings:
                                 # Group mappings by target to detect splits
@@ -2390,7 +2431,6 @@ def process_corpora(
                                         final_mappings.append((sources[0], tgt_map))
                                 
                                 # Use final_mappings instead of pair.orth_mappings for alignment
-                                # Use final_mappings instead of pair.orth_mappings for alignment
                                 src_i = 0
                                 tgt_i = 0
                                 iteration_count = 0
@@ -2404,18 +2444,6 @@ def process_corpora(
                                     src_word = src_words[src_i]
                                     tgt_word = tgt_words[tgt_i]
                                     
-                                    # Helper function to separate punctuation from word
-                                    def separate_punct(word):
-                                        """Separate trailing punctuation, preserving abbreviations."""
-                                        # Check if it's an abbreviation (protected patterns)
-                                        if ABBREV_PATTERN.match(word):
-                                            return word, ""
-                                        
-                                        # Separate trailing punctuation
-                                        match = re.match(r'^(.*?)([.,!?;:]+)$', word)
-                                        if match:
-                                            return match.group(1), match.group(2)
-                                        return word, ""
                                     
                                     src_word_base, src_punct = separate_punct(src_word)
                                     tgt_word_base, tgt_punct = separate_punct(tgt_word)
@@ -2441,7 +2469,13 @@ def process_corpora(
                                                         # Only match if current tgt position matches expected target
                                                         if tgt_i < len(tgt_words) and tgt_words[tgt_i].rstrip('.,!?;:') == expected_tgt_clean:
                                                             src_group = [src_words[src_i + j] for j in range(len(orig_words_clean))]
-                                                            fh.write(f"{' '.join(src_group)}\t{tgt_val}\n")
+                                                            # CRITICAL FIX: Split punctuation from target before writing
+                                                            tgt_parts = split_punct_for_output(tgt_val)
+                                                            fh.write(f"{' '.join(src_group)}\t{tgt_parts[0]}\n")
+                                                            current_line += 1
+                                                            for punct_part in tgt_parts[1:]:
+                                                                fh.write(f"\t{punct_part}\n")
+                                                                current_line += 1
                                                             src_i += len(orig_words_clean)
                                                             tgt_i += len(tgt_val_words)
                                                             found_multiword = True
@@ -2457,7 +2491,13 @@ def process_corpora(
                                                             expected_tgt_clean = tgt_val_words[0].rstrip('.,!?;:') if tgt_val_words else ""
                                                             if tgt_i < len(tgt_words) and tgt_words[tgt_i].rstrip('.,!?;:') == expected_tgt_clean:
                                                                 src_group = [src_words[src_i + j] for j in range(len(orig_words_clean))]
-                                                                fh.write(f"{' '.join(src_group)}\t{tgt_val}\n")
+                                                                # CRITICAL FIX: Split punctuation from target before writing
+                                                                tgt_parts = split_punct_for_output(tgt_val)
+                                                                fh.write(f"{' '.join(src_group)}\t{tgt_parts[0]}\n")
+                                                                current_line += 1
+                                                                for punct_part in tgt_parts[1:]:
+                                                                    fh.write(f"\t{punct_part}\n")
+                                                                    current_line += 1
                                                                 src_i += len(orig_words_clean)
                                                                 tgt_i += len(tgt_val_words)
                                                                 found_multiword = True
@@ -2505,13 +2545,25 @@ def process_corpora(
                                                 
                                                 if lookahead_normalized == orig_normalized:
                                                     debug(f"[DEBUG ABBREV]   ✓ NORMALIZED MATCH: '{lookahead_text}' == '{orig_key}'")
-                                                    fh.write(f"{lookahead_text}\t{tgt_val}\n")
+                                                    # CRITICAL FIX: Split punctuation from target before writing
+                                                    tgt_parts = split_punct_for_output(tgt_val)
+                                                    fh.write(f"{lookahead_text}\t{tgt_parts[0]}\n")
+                                                    current_line += 1
+                                                    for punct_part in tgt_parts[1:]:
+                                                        fh.write(f"\t{punct_part}\n")
+                                                        current_line += 1
                                                     src_i += len(lookahead_words)
                                                     tgt_i += len(tgt_val.split())
                                                     found_multiword = True
                                                     break
                                                 elif lookahead_text == orig_key:
-                                                    fh.write(f"{lookahead_text}\t{tgt_val}\n")
+                                                    # CRITICAL FIX: Split punctuation from target before writing
+                                                    tgt_parts = split_punct_for_output(tgt_val)
+                                                    fh.write(f"{lookahead_text}\t{tgt_parts[0]}\n")
+                                                    current_line += 1
+                                                    for punct_part in tgt_parts[1:]:
+                                                        fh.write(f"\t{punct_part}\n")
+                                                        current_line += 1
                                                     src_i += len(lookahead_words)
                                                     tgt_i += len(tgt_val.split())
                                                     found_multiword = True
@@ -2591,7 +2643,14 @@ def process_corpora(
                                                     else:
                                                         break
                                                 
-                                                fh.write(f"{' '.join(src_group)}\t{tgt_word}\n")
+                                                # CRITICAL FIX: Split punctuation from tgt_word before writing
+                                                tgt_parts = split_punct_for_output(tgt_word)
+                                                fh.write(f"{' '.join(src_group)}\t{tgt_parts[0]}\n")
+                                                current_line += 1
+                                                # Write remaining punctuation on separate lines
+                                                for punct_part in tgt_parts[1:]:
+                                                    fh.write(f"\t{punct_part}\n")
+                                                    current_line += 1
                                                 for idx in consumed_indices:
                                                     used_mapping_indices.add(idx)
                                                 src_i += len(src_group)
@@ -2604,7 +2663,15 @@ def process_corpora(
                                         # Single-word correction (target is also single token)
                                         if expected_tgt_token_count == 1 and tgt_word_clean == expected_tgt_clean:
                                             tgt_with_punct = tgt_word if src_punct == "" else expected_tgt + src_punct
-                                            fh.write(f"{src_word}\t{tgt_with_punct}\n")
+                                            # CRITICAL FIX: Split punctuation before writing
+                                            src_parts = split_punct_for_output(src_word)
+                                            tgt_parts = split_punct_for_output(tgt_with_punct)
+                                            max_parts = max(len(src_parts), len(tgt_parts))
+                                            for i in range(max_parts):
+                                                s = src_parts[i] if i < len(src_parts) else ""
+                                                t = tgt_parts[i] if i < len(tgt_parts) else ""
+                                                fh.write(f"{s}\t{t}\n")
+                                                current_line += 1
                                             used_mapping_indices.add(matching_idx)
                                             src_i += 1
                                             tgt_i += 1
@@ -2618,7 +2685,15 @@ def process_corpora(
                                             # Only apply mapping if current tgt position matches first token
                                             if tgt_word_clean == expected_first_clean:
                                                 tgt_with_punct = expected_tgt + src_punct
-                                                fh.write(f"{src_word}\t{tgt_with_punct}\n")
+                                                # CRITICAL FIX: Split punctuation before writing
+                                                src_parts = split_punct_for_output(src_word)
+                                                tgt_parts = split_punct_for_output(tgt_with_punct)
+                                                max_parts = max(len(src_parts), len(tgt_parts))
+                                                for i in range(max_parts):
+                                                    s = src_parts[i] if i < len(src_parts) else ""
+                                                    t = tgt_parts[i] if i < len(tgt_parts) else ""
+                                                    fh.write(f"{s}\t{t}\n")
+                                                    current_line += 1
                                                 used_mapping_indices.add(matching_idx)
                                                 src_i += 1
                                                 tgt_i += expected_tgt_token_count
@@ -2626,20 +2701,30 @@ def process_corpora(
                                             # If alignment doesn't match, fall through to default alignment
                                     
                                     # Default: no mapping found, simple word-by-word alignment
-                                    fh.write(f"{src_word}\t{tgt_word}\n")
-                                    current_line += 1
+                                    src_parts = split_punct_for_output(src_word)
+                                    tgt_parts = split_punct_for_output(tgt_word)
+                                    max_parts = max(len(src_parts), len(tgt_parts))
+                                    for i in range(max_parts):
+                                        s = src_parts[i] if i < len(src_parts) else ""
+                                        t = tgt_parts[i] if i < len(tgt_parts) else ""
+                                        fh.write(f"{s}\t{t}\n")
+                                        current_line += 1
                                     src_i += 1
                                     tgt_i += 1
 
                                 # Handle remaining words
                                 while src_i < len(src_words):
-                                    fh.write(f"{src_words[src_i]}\t\n")
-                                    current_line += 1
+                                    src_parts = split_punct_for_output(src_words[src_i])
+                                    for part in src_parts:
+                                        fh.write(f"{part}\t\n")
+                                        current_line += 1
                                     src_i += 1
 
                                 while tgt_i < len(tgt_words):
-                                    fh.write(f"\t{tgt_words[tgt_i]}\n")
-                                    current_line += 1
+                                    tgt_parts = split_punct_for_output(tgt_words[tgt_i])
+                                    for part in tgt_parts:
+                                        fh.write(f"\t{part}\n")
+                                        current_line += 1
                                     tgt_i += 1
                             else:
                                 # No mappings: simple word-by-word alignment
@@ -2647,8 +2732,14 @@ def process_corpora(
                                 for i in range(max_len):
                                     src_w = src_words[i] if i < len(src_words) else ""
                                     tgt_w = tgt_words[i] if i < len(tgt_words) else ""
-                                    fh.write(f"{src_w}\t{tgt_w}\n")
-                                    current_line += 1
+                                    src_parts = split_punct_for_output(src_w) if src_w else [""]
+                                    tgt_parts = split_punct_for_output(tgt_w) if tgt_w else [""]
+                                    max_parts = max(len(src_parts), len(tgt_parts))
+                                    for j in range(max_parts):
+                                        s = src_parts[j] if j < len(src_parts) else ""
+                                        t = tgt_parts[j] if j < len(tgt_parts) else ""
+                                        fh.write(f"{s}\t{t}\n")
+                                        current_line += 1
 
                             fh.write("\n")
                             sent_end_line = current_line #End line is the blank line
