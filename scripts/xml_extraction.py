@@ -956,7 +956,17 @@ def extract_kolipsi(element) -> Tuple[str, str, bool, List[Tuple[str, str]]]:
                 src.add_space()
                 tgt.add_space()
             return
-    
+        
+        # HYPHEN
+        elif tag == "hyphen":
+            # Skip hyphen content, merge tail directly to previous text
+            # Example: Jugend<hyphen>-</hyphen>herberge → Jugendherberge
+            if node.tail and node.tail.strip():
+                # Merge directly without space
+                src.add_text(node.tail.strip(), merge=True)
+                tgt.add_text(node.tail.strip(), merge=True)
+            return
+
         # SIC
         elif tag == "sic":
             sic_text = node.text.strip() if node.text and node.text.strip() else ""

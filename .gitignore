@@ -33,3 +33,5 @@ processed_data/LEONIDE.norm.meta.txt
 processed_data/Kolipsi_2.norm.meta.txt
 processed_data/Kolipsi_1_L2.norm.meta.txt
 processed_data/Kolipsi_1_L1.norm.meta.txt
+scripts/tag_lookup.py
+scripts/my_results.log
