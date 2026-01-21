@@ -1,5 +1,6 @@
 import re
 import os
+import csv
 import copy
 import spacy
 import argparse
@@ -2688,7 +2689,7 @@ def process_corpora(
     # Write TSV output
     if output_format in ["tsv", "both"]:
         tsv_path = os.path.join(output_dir, "all_corpora.tsv")
-        df.to_csv(tsv_path, index=False, encoding="utf-8", sep="\t")
+        df.to_csv(tsv_path, index=False, encoding="utf-8", sep="\t", quoting=csv.QUOTE_NONE, escapechar=None)
         print(f"\n=== Wrote {len(df)} rows to {tsv_path} ===")
     
     return df
