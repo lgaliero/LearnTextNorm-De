@@ -1,6 +1,16 @@
 
 BASELINE SYSTEM (coi soli dati)
-MOST FREQUENT REPLACEMENT       LEAVE AS IS                
-Baseline acc.(LAI): 95.96       Baseline acc.(LAI): 95.96 
-Accuracy:           97.35       Accuracy:           95,96
-ERR:                34.43       ERR:                0.00
+MOST FREQUENT REPLACEMENT       LEAVE AS IS                 CER             WER         ChrF
+Baseline acc.(LAI): 95.96       Baseline acc.(LAI): 95.96   1.20            4.99        96,7
+Accuracy:           97.35       Accuracy:           95,96   Ins: 427        Ins: 30
+ERR:                34.43       ERR:                0.00    Dels: 373       Dels: 79
+                                                            Subs: 1213      Subs: 1213 
+                                                            Ref: 156124     Ref: 26518 
+
+
+LLAMA - ZERO SHOT:
+                                                            37.01           51.52        65,2
+                                                            Ins: 9250       Ins: 1504
+                                                            Dels: 36141     Dels: 5194
+                                                            Subs: 12394     Subs: 6962
+                                                            Ref: 156124     Ref: 26518

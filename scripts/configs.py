@@ -87,7 +87,7 @@ class DataSplits:
 # =======================
 class ApiConfig:
     HOST = "http://51.124.247.170:80"
-    MODEL = "llama3.2:latest"
+    MODEL = "gpt-oss:20b" #gpt-oss:20b llama3.2:latest gemma3:12b
     MODE = "baseline"  # or "2-shot" "
     SYS_BASELINE = """Du bekommst deutsche Sätze, die von Lernenden aus Mittel- und Oberschulen geschrieben wurden. 
     Korrigiere nur orthographische Fehler, falls vorhanden (falsche Buchstaben, Groß- und Kleinschreibung, Umlaute, ß/ss, Getrennt- und Zusammenschreibung). 
