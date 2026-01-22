@@ -528,36 +528,12 @@ def create_norm_files(output_dir: str, tsv_path: str) -> None:
     df = pd.read_csv(tsv_path, encoding="utf-8", sep='\t')
     print(f"✓ Loaded corpus TSV with {len(df)} sentences as metadata source")
     
+    # Get metadata directly from TSV row
+    row = df.loc[df_index]
+    corpus_name = row['corpus']
+    line_start = int(row['line_start'])
+    line_end = int(row['line_end'])
     
-    # Parse metadata file
-    print("\nParsing metadata...")
-    
-    with open(metadata_file, 'r', encoding='utf-8') as f:
-        for line in f:
-            line = line.strip()
-            
-            # Skip comments and empty lines
-            if line.startswith('#') or not line:
-                continue
-            
-            parts = line.split('\t')
-            if len(parts) != 7:
-                continue
-
-            corpus, xml_file, sent_num, src, tgt, line_start, line_end, = parts
-            # Get metadata directly from TSV row
-            row = df.loc[df_index]
-            corpus_name = row['corpus']
-            xml_file = row['xml_file']
-            sent_num = row['sent_num']
-            src_sentence = row['src']
-            tgt_sentence = row['tgt']
-            line_start = row['line_start']
-            line_end = row['line_end']           
-
-    # Load the full dataframe
-    df = pd.read_csv(tsv_path, encoding="utf-8", sep='\t')
-    print(f"✓ Loaded corpus TSV with {len(df)} sentences")
     
     # Process each split
     for split_name in ['train', 'dev', 'test']:
@@ -668,7 +644,7 @@ def main(tsv_path: str = Paths.EXTRACT_TSV,
     
     # Load corpus
     print(f"Loading corpus from {tsv_path}...")
-    df = pd.read_csv(tsv_path, encoding="utf-8")
+    df = pd.read_csv(tsv_path, encoding="utf-8", sep="\t")
     total_sentences = len(df)
     
     print(f"\nTotal sentences: {total_sentences:,}")

@@ -2434,7 +2434,7 @@ def process_file(xml_path: str, corpus_type: str) -> List[SentencePair]:
 
 def process_corpora(
     corpus_configs: Dict[str, Dict],
-    output_dir: str = Paths.EXTRACT_OUT,
+    output_dir: str = Paths.EXTRACT_DIR,
     max_files_per_corpus: Optional[int] = None,
     output_format: str = "both"  # "txt", "tsv", "norm", or "both"
 ) -> pd.DataFrame:
@@ -2917,6 +2917,7 @@ def process_corpora(
             print(f"  Wrote {total_pairs} pairs to {out_path}")
             
         for xml_filename, pairs in corpus_pairs_with_files:    
+            text_type = "unknown"
             # Detect text type from filename
             if corpus_name in ["Kolipsi_1_L1", "Kolipsi_1_L2", "Kolipsi_2"]:
                 # Kolipsi: _1.xml = picture story, _2.xml = opinion
@@ -2924,16 +2925,12 @@ def process_corpora(
                     text_type = "picture story"
                 elif xml_filename.endswith("_2.xml"):
                     text_type = "opinion"
-                else:
-                    text_type = "unknown"
             else:  # LEONIDE
                 # LEONIDE: "pic" = picture story, "op" = opinion
                 if "_pic_" in xml_filename:
                     text_type = "picture story"
                 elif "_op_" in xml_filename:
                     text_type = "opinion"
-                else:
-                    text_type = "unknown"
             for sent_num, pair in enumerate(pairs, start=1):
                 line_start, line_end = norm_line_map.get((corpus_name, xml_filename, sent_num), (None, None))
                 
@@ -2979,7 +2976,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Extract German learner corpora')
     parser.add_argument('--corpora', nargs='+', default=None,
     help='Specify which corpora to process (e.g., LEONIDE Kolipsi_1_L2)')
-    parser.add_argument('--output-dir', default=Paths.EXTRACT_OUT)
+    parser.add_argument('--output-dir', default=Paths.EXTRACT_DIR)
     parser.add_argument('--format',
                         default=ExtractionParams.OUTPUT_FORMAT,
                         choices=['tsv', 'norm', 'both'])

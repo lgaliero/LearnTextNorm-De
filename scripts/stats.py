@@ -385,6 +385,7 @@ if __name__ == "__main__":
             # 5C. Combined breakdown by corpus and text type
             if StatsDisplay.TEXT_TYPE_COMBINED:
                 print("\n--- By Corpus and Text Type ---")
+                print(df_tsv_full['text_type'].value_counts())
                 corpus_text_breakdown = df_tsv_full.groupby(['corpus', 'text_type']).size().reset_index(name='sentence_count')
                 
                 # Calculate percentages within each corpus

@@ -9,7 +9,7 @@ Contains:
 """
 class Paths: 
     EXT_LOG_FILE ="../processed_data/extraction_debug.log"
-    EXTRACT_OUT = '../processed_data'  
+    EXTRACT_DIR = '../processed_data'  
     EXTRACT_TSV = "../processed_data/all_corpora.tsv"
     SET_SPLITS = "../sets"
     TEST_SRC = "../sets/test/test.src"
