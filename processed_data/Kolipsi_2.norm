@@ -4381,6 +4381,7 @@ Gemüseladen	Gemüseladen
 eingekauft	eingekauft
 .	.
 "	"
+
 Die	Die
 Verkäuferin	Verkäuferin
 glaubte	glaubte
@@ -8531,12 +8532,10 @@ kann	kann
 mich	mich
 im	im
 "	"
-Personal	Personalchat
-	"
-chat	geschrieben
-"	.
-gerscrieben	
-.	
+Personal chat	Personalchat
+"	"
+gerscrieben	geschrieben
+.	.
 
 Danke	Danke
 "	"
@@ -10143,8 +10142,7 @@ andere	andere
 Sachen	Sachen
 einkaufen	einkaufen
 wie	wie
-zB	z. B.
-.	
+zB.	z. B.
 Brot	Brot
 ,	,
 Milch	Milch
@@ -18268,6 +18266,7 @@ in	in
 TV	TV
 !	!
 "	"
+
 Maria	Maria
 versteckte	versteckte
 sich	sich
@@ -24194,29 +24193,24 @@ Salat	Salat
 gekauft	gekauft
 .	.
 
-Bis	Bis
-jetzt	jetzt
-alles	alles
-ok.	o.k.
-Sie	.
-hat	Sie
-an	hat
-der	an
-Kasse	der
-bezahlt	Kasse
-,	bezahlt
-aber	,
-sie	aber
-hat	sie
-den	hat
-Kassenzettel	den
-auf	Kassenzettel
-dem	auf
-Tisch	dem
-gelassen	Tisch
-.	
-	gelassen
-	.
+
+Sie	Sie
+hat	hat
+an	an
+der	der
+Kasse	Kasse
+bezahlt bezahlt
+,	,
+aber	aber
+sie	sie
+hat	hat
+den	den
+Kassenzettel	Kassenzettel
+auf	auf
+dem dem
+Tisch 	Tisch
+gelassen	gelassen
+.	.
 
 Später	Später
 ist	ist
@@ -25379,6 +25373,7 @@ ein	ein
 Stolker	Stalker
 sein	sein
 .	.
+
 "	"
 Reden	Reden
 "	"
@@ -27313,6 +27308,7 @@ Tomaten	Tomaten
 ,	,
 Salat	Salat
 u.s.w.	usw.
+
 Als	Als
 sie	sie
 an	an
@@ -31466,8 +31462,8 @@ aber	aber
 jetzt	jetzt
 ist	ist
 alles	alles
-OK.	O.K.
-	.
+OK	O.K.
+.	.
 
 Wenn	Wenn
 di	die
@@ -32897,7 +32893,9 @@ freunden	Freunden
 oder	oder
 ins	ins
 Kino	Kino
-ecc.	etc.
+ecc	etc
+.	.
+
 Heute	Heute
 wir	wir
 machen	machen
@@ -32919,7 +32917,9 @@ Informationen	Informationen
 mit	mit
 Freund	Freund
 -	-
-ecc.	etc.
+ecc	etc
+.	.
+
 Also	Also
 ich	ich
 habe	habe
@@ -36352,13 +36352,6 @@ dein	dein
 Brief	Brief
 gelesen	gelesen
 .	.
-"	"
-Probleme	Probleme
-mit	mit
-dem	dem
-Chatten	Chatten
-"	"
-.	.
 
 Ich	Ich
 denke	denke
@@ -37628,17 +37621,6 @@ austreten	austreten
 solltes	solltes
 .	.
 
-Liebe	Liebe
-Grüse	Grüße
-,	,
-Gionluna	Gionluna
-Tr	Tr
-yiongi	yiongi
-per	per
-gli	gli
-amici	amici
-"	"
-"	"
 
 Lieber	Lieber
 Julian	Julian
@@ -44437,7 +44419,8 @@ der	der
 Kasse	Kasse
 sagte	sagte
 "	"
-OK"	O.K."
+OK	O.K.
+"	"
 und	und
 Maria	Maria
 geht	geht
@@ -45764,6 +45747,7 @@ sachen	Sachen
 gekauft	gekauft
 ?	?
 "	"
+
 Maria	Maria
 hat	hat
 sie	sie
@@ -47675,6 +47659,7 @@ Gemüseladen	Gemüseladen
 gekauft	gekauft
 .	.
 "	"
+
 Darauf	Darauf
 antwortete	antwortete
 sie	sie
@@ -47695,14 +47680,7 @@ Sachen	Sachen
 bezahlen	bezahlen
 .	.
 "	"
-"	"
-Nein	Nein
-,	,
-schrie	schrie
-Maria	Maria
-laut	laut
-.	.
-"	"
+
 Die	Die
 Kassiererin	Kassiererin
 wollte	wollte
@@ -48680,6 +48658,7 @@ den	den
 Einkaufszettel	Einkaufszettel
 mitzunehmen	mitzunehmen
 !	!
+
 "	"
 So	So
 schlimm	schlimm
@@ -50022,6 +50001,7 @@ virtuelle	virtuelle
 Freunde	Freunde
 schreiben	schreiben
 .	.
+
 "	"
 Junge	Junge
 Woche	Woche
@@ -50564,41 +50544,39 @@ gelesen	gelesen
 reale	reale
 und	und
 "	"
-Internet	Internetfreunde
+Internet Freunde	Internetfreunde
 "	"
-Freunde	zu
-zu	haben
-haben	,
-,	aus
-aus	deinem
-deinem	Brief
-Brief	verstehe
-verstehe	ich
-ich	,
-,	dass
-dass	du
-du	sehr
-sehr	viel
-viel	Wert
-Wert	auf
-auf	deine
-deine	realem
-realem	Freundschaften
-Freundschaften	legst
-legst	,
-,	doch
-doch	trotzdem
-trotzdem	die
-die	beim
-beim	Chatten
-Chatten	gefundenen
-gefundenen	Freunde
-Freunde	nicht
-nicht	verlieren
-verlieren	möchtest
-	.
-möchtest	
-.	
+zu	zu
+haben	haben
+,	,
+aus	aus
+deinem	deinem
+Brief	Brief
+verstehe	verstehe
+ich	ich
+,	,
+dass	dass
+du	du
+sehr	sehr
+viel	viel
+Wert	Wert
+auf	auf
+deine	deine
+realem	realem
+Freundschaften	Freundschaften
+legst	legst
+,	,
+doch	doch
+trotzdem	trotzdem
+die	die
+beim	beim
+Chatten	Chatten
+gefundenen	gefundenen
+Freunde	Freunde
+nicht	nicht
+verlieren	verlieren
+möchtest	möchtest
+.	.
 
 Ich	Ich
 vertrete	vertrete
@@ -53683,6 +53661,7 @@ es	es
 zuvor	zuvor
 vergessen	vergessen
 .	.
+
 "	"
 Ach	Ach
 du	du
@@ -56684,6 +56663,7 @@ Tasche	Tasche
 ?	?
 "	"
 .	.
+
 "	"
 Ich	Ich
 habe	habe
@@ -59609,6 +59589,7 @@ zu	zu
 spielen	spielen
 ,	,
 usw.	usw.
+
 Diese	Diese
 sind	sind
 Methoden	Methoden
@@ -62616,6 +62597,8 @@ sie	sie
 fruher	früher
 eingekauft	eingekauft
 !	!
+"	"
+
 "	"
 Konnten	Konnten
 sie	Sie
@@ -67231,12 +67214,6 @@ von	von
 alles	alles
 approfitieren	approfitieren
 .	.
-"	"
-Carpe	Carpe
-diem	diem
-"	"
-Paul	Paul
-!	!
 
 Das	Das
 ist	ist

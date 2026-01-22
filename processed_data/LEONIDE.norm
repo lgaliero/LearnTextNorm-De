@@ -275,15 +275,6 @@ arbeit	Arbeit
 ist	ist
 das	das
 
-3	3
-Ich	Ich
-muss	muss
-lernen	lernen
-Mathematik	Mathematik
-.	.
-
-1	1
-.	.
 Deutsch	Deutsch
 ,	,
 Italienisch	Italienisch
@@ -300,8 +291,6 @@ Mittelschule	Mittelschule
 Lernen	lernen
 .	.
 
-2	2
-.	.
 Warum	Warum
 ,	,
 Wenn	wenn
@@ -768,8 +757,6 @@ Römisch	Römisch
 redet	redet
 .	.
 
-1	1
-.	.
 Ich	Ich
 denke	denke
 man	man
@@ -1397,7 +1384,8 @@ Chineschischesmauer	Chinesische Mauer
 .	.
 .	.
 .	.
-")	")
+"	"
+)	)
 und	und
 ich	ich
 will	will
@@ -1416,11 +1404,9 @@ ich	ich
 will	will
 auch	auch
 das	das
-Chinesichesmauer	Chinesische
-besuchen	Mauer
-.	
-	besuchen
-	.
+Chinesichesmauer	Chinesische Mauer
+besuchen	besuchen
+.	.
 
 Russia	Russia
 ist	ist
@@ -2961,8 +2947,6 @@ gut	gut
 wissen	wissen
 .	.
 
-1	1
-.	.
 Ich	Ich
 meine	meine
 das	dass
@@ -4685,6 +4669,7 @@ Rechtschreibung	Rechtschreibung
 aussprache	Aussprache
 etc.	etc.
 )	)
+
 Ich	Ich
 finde	finde
 es	es
@@ -4972,8 +4957,6 @@ Französisch	Französisch
 lernen	lernen
 .	.
 
-2	2
-.)	.)
 Meiner	Meiner
 Meinung	Meinung
 nach	nach
@@ -4988,8 +4971,6 @@ Französisch	Französisch
 lernen	lernen
 .	.
 
-3	3
-.)	.)
 Man	Man
 sollte	sollte
 Französisch	Französisch
@@ -5003,8 +4984,6 @@ Sprache	Sprache
 ist	ist
 .	.
 
-1	1
-.)	.)
 Ich	Ich
 finde	finde
 es	es
@@ -6213,8 +6192,6 @@ Englisch	Englisch
 komunitzieren	kommunizeren
 .	.
 
-1	1
-.)	.)
 In	In
 der	der
 Mitelschule	Mittelschule
@@ -6242,8 +6219,6 @@ Leben	Leben
 weiterzu kommen	weiterzukommen
 .	.
 
-2	2
-.)	.)
 Nach	Nach
 Mitelschule	Mittelschule
 lernt	lernt
@@ -6270,8 +6245,6 @@ machen	machen
 kann	kann
 .	.
 
-1	1
-.	.
 Ich	Ich
 denke	denke
 man	man
@@ -6356,8 +6329,6 @@ Ländern	Ländern
 lernen	lernen
 .	.
 
-2	2
-.	.
 Englisch	Englisch
 ist	ist
 die	die
@@ -6549,8 +6520,7 @@ Südtirol	Südtirol
 in	in
 der	der
 Deutschen	Deutschen
-M.S	Mittelschule
-.	
+M.S.	Mittelschule
 ist	ist
 sollte	sollte
 man	man
@@ -7489,7 +7459,8 @@ sie	sie
 hat	hat
 schreiben	schreiben
 den	den
-H.Potter	HarryPotter
+H.	Harry
+Potter	Potter
 serien	Serien
 ich	ich
 finde	finde
@@ -7709,11 +7680,6 @@ ist	ist
 schön	schön
 .	.
 
-Ich	Ich
-trainiere	trainiere
-Jader	jeder
-Tag	Tag
-.	.
 "	"
 Paul	Paul
 Pogba	Pogba
@@ -8032,17 +7998,7 @@ ist	ist
 schön	schön
 .	.
 
-3	3
-)	)
-Ich	Ich
-muss	muss
-,	,
-gut	gut
-studieren	studieren
-.	.
 
-4	4
-)	)
 Ich	Ich
 muss	muss
 ,	,
@@ -8422,19 +8378,6 @@ deutch	Deutsch
 un	und
 biologie	Biologie
 
-1	1
-In	In
-der	der
-mitte	Mittelschule
-schule	Fußballspiele
-Fußballspiele	
-
-4	4
-Ich	Ich
-musst	musst
-lernen	lernen
-musik	Musik
-
 Ich	Ich
 mochë	mochë
 noch	nach
@@ -8453,16 +8396,6 @@ meine	meine
 passion	Passion
 .	.
 
-1	1
-.	.
-Ich	Ich
-müchte	möchte
-ein	ein
-wertedn	werden
-:	:
-
-2	2
-.	.
 Ich	Ich
 müchte	möchte
 ein	ein
@@ -8603,8 +8536,6 @@ in	in
 Gymnasium	Gymnasium
 scientifik	scientifik
 
-1	1
-.	.
 Ich	Ich
 möchte	möchte
 ein	ein
@@ -8612,8 +8543,6 @@ Basketspieler	Basketspieler
 werden	werden
 .	.
 
-2	2
-.	.
 Ich	Ich
 möchte	möchte
 ein	ein
@@ -8626,8 +8555,6 @@ Mathe	Mathe
 kann	kann
 .	.
 
-4	4
-.	.
 Ich	Ich
 muss	muss
 viel	viel
@@ -8697,8 +8624,6 @@ von	von
 Tiere	Tiere
 lernen	lernen
 
-1	1
-.	.
 Ich	Ich
 möchte	möchte
 in	in
@@ -8710,8 +8635,6 @@ Artz	Arzt
 werden	werden
 .	.
 
-2	2
-.	.
 Mein	Mein
 Traumberuf	Traumberuf
 ist	ist
@@ -8727,16 +8650,7 @@ im	im
 Krankenhaus	Krankenhaus
 .	.
 
-3	3
-.	.
-Ich	Ich
-muss	muss
-Medizin	Medizin
-können	können
-.	.
 
-4	4
-.	.
 Ich	Ich
 muss	muss
 viel	viel
@@ -8879,7 +8793,6 @@ dem	dem
 Korpr	Körper
 lernen	lernen
 
-1	1
 Ich	Ich
 nach	nach
 der	der
@@ -8889,7 +8802,6 @@ Notar	Notar
 machen	machen
 !	!
 
-4	4
 Ich	Ich
 lerne	lerne
 ,	,
@@ -9104,8 +9016,6 @@ benutzen	benutzen
 können	können
 .	.
 
-2	2
-)	)
 Nach	Nach
 der	der
 Mittelschule	Mittelschule
@@ -9114,8 +9024,7 @@ ich	ich
 ein	ein
 Notar	Notar
 werden	werden
-1	1
-)	)
+
 Nach	Nach
 der	der
 Mittelschule	Mittelschule
@@ -9277,7 +9186,6 @@ noch	noch
 üben	üben
 .	.
 
-1	1
 Möchtest	Möchtest
 nach	nach
 der	der
@@ -9285,7 +9193,6 @@ Mittelschule	Mittelschule
 Kosmetikerin	Kosmetikerin
 .	.
 
-4	4
 Ich	Ich
 muss	muss
 lernen	lernen
@@ -15621,6 +15528,7 @@ ihr	ihr
 Land	Land
 .	.
 "	"
+
 Ich	Ich
 finde	finde
 man	man
@@ -18802,8 +18710,6 @@ funktionieren	funktionieren
 gut	gut
 .	.
 
-1	1
-.	.
 Für	Für
 gut	gut
 und	und
@@ -18825,8 +18731,6 @@ lusst	Lust
 haben	haben
 .	.
 
-2	2
-.	.
 Ich	Ich
 lehrne	lerne
 neue	neue
@@ -18863,8 +18767,6 @@ Deutschen	Deutschen
 Professor	Professor
 .	.
 
-3	3
-.	.
 Das	Das
 strategie	Strategie
 das	das
@@ -18896,8 +18798,6 @@ Ungarisch	Ungarisch
 sprechen	sprechen
 .	.
 
-4	4
-.	.
 Das	Das
 strategie	Strategie
 das	das
@@ -19639,11 +19539,6 @@ STOP	stop
 !	!
 .	.
 
-2	2
-Ich	Ich
-habe	habe
-nicht	nicht
-strategiert	strategiert
 
 Für	Für
 Schülerinnen	Schülerinnen
@@ -20012,8 +19907,6 @@ sind	sind
 langweilig	langweilig
 .	.
 
-1	1
-.	.
 Sehr	Sehr
 lernen	lernen
 in	in
@@ -20030,8 +19923,6 @@ freunde	Freunde
 /	/
 freundinnen	Freundinnen
 
-2	2
-.	.
 Ich	Ich
 lernen	lernen
 mit	mit
@@ -20045,8 +19936,6 @@ in	in
 die	die
 Pause	Pause
 
-3	3
-.	.
 Die	Die
 Strategie	Strategie
 ist	ist
@@ -20059,8 +19948,6 @@ gehen	gehen
 in	in
 Bibliotek	Bibliothek
 
-4	4
-.	.
 lesen	lesen
 100	100
 Bücher	Bücher
@@ -20139,24 +20026,22 @@ passiere	passiere
 dass	dass
 wir	wir
 in	in
-einandere	ein
-Land	andere
-sind	Land
-und	sind
-wir	und
-nich	wir
-eine	nich
-Sprache	eine
-wie	Sprache
-English	wie
-konnen	Englisch
-wir	können
-konnen	wir
-nicht	können
-kommunizieren	nicht
-.	
-	kommunizieren
-	.
+einandere	ein andere
+Land	Land
+sind	sind
+und	und
+wir	wir
+nich	nich
+eine	eine
+Sprache	Sprache
+wie	wie
+English	Englisch
+konnen	können
+wir	wir
+konnen	können
+nicht	nicht
+kommunizieren	kommunizieren
+.	.
 
 Eine	Eine
 Strategie	Strategie
@@ -21391,8 +21276,6 @@ und	und
 sprechen	sprechen
 .	.
 
-1	1
-.	.
 FÜR	Für
 MICH	mich
 IST	ist
@@ -21402,8 +21285,6 @@ MIT	mit
 KONZENTRIERE	Konzentration
 .	.
 
-2	2
-.	.
 MEINE	Meine
 STRATEGIE	Strategie
 IST	ist
@@ -21412,8 +21293,6 @@ VIDERHOLEN	wiederholen
 MAL	Male
 .	.
 
-3	3
-.	.
 FÜR	Für
 MICH	mich
 IST	ist
@@ -21438,8 +21317,6 @@ NEUE	neue
 WÖRTER	Wörter
 .	.
 
-4	4
-.	.
 FÜR	Für
 MICH	mich
 EINE	eine
@@ -21545,8 +21422,7 @@ sondern	sondern
 auch	auch
 andere	andere
 Sprache	Sprache
-w. z. B	wie z.B
-	.
+w. z. B	wie z.B.
 Französisch	Französisch
 ,	,
 Latein	Latein
@@ -21652,8 +21528,7 @@ um	um
 seine	seine
 Muttersprache	Muttersprache
 lernen	lernen
-w.z.B	wie z.B
-	.
+w.z.B	wie z.B.
 ich	ich
 gehe	gehe
 hier	hier
@@ -21858,8 +21733,6 @@ ihre	ihre
 Zukunft	Zukunft
 .	.
 
-1	1
-.	.
 Meiner	Meiner
 Meinung	Meinung
 nach	nach
@@ -22769,8 +22642,6 @@ verbessert	verbessert
 hab	hab
 .	.
 
-1	1
-.	.
 Ich	Ich
 finde	finde
 ,	,
@@ -22799,8 +22670,6 @@ gute	gute
 Arbeit	Arbeit
 .	.
 
-2	2
-.	.
 Jeder	Jeder
 Schüler/innen	Schüler/innen
 sollte	sollte
@@ -22844,8 +22713,6 @@ behilflich	behilflich
 sein	sein
 .	.
 
-3	3
-.	.
 Wie	Wie
 ich	ich
 schon	schon
@@ -23189,7 +23056,6 @@ Situazionen	Situationen
 helfen	helfen
 .	.
 
-1	1
 ich	ich
 denke	denke
 Deutsch	Deutsch
@@ -23202,7 +23068,6 @@ Japanisch	Japanisch
 und	und
 Spanisch	Spanisch
 
-2	2
 weil	Weil
 mier	mir
 diese	diese
@@ -26940,7 +26805,9 @@ man	man
 wird	wird
 ferstanden	verstanden
 .	.
+
 "	"
+
 bei	bei
 uns	uns
 wird	wird
@@ -31314,7 +31181,6 @@ lernen	lernen
 muss	muss
 .	.
 
-1	1
 Ich	Ich
 möchte	möchte
 nach	nach
@@ -31325,7 +31191,6 @@ ITE	ITE
 gehen	gehen
 .	.
 
-2	2
 Mein	Mein
 Traumberuf	Traumberuf
 ist	ist
@@ -31348,7 +31213,6 @@ fon	von
 USA	USA
 .	.
 
-3	3
 Für	Für
 den	den
 Traumberuf	Traumberuf
@@ -31360,7 +31224,6 @@ in	in
 ITE	ITE
 .	.
 
-4	4
 Ich	Ich
 muss	muss
 lernen	lernen
@@ -31369,7 +31232,6 @@ in	in
 ITE	ITE
 .	.
 
-2	2
 Meine	Meine
 andere	andere
 Traumberuf	Traumberuf
@@ -33003,11 +32865,6 @@ den	denn
 Da	da
 .	.
 "	"
-ich	ich
-verbrenne	verbrenne
-meine	meine
-sachen	Sachen
-.	.
 
 Der	Der
 Vater	Vater
@@ -33376,12 +33233,6 @@ durchs	durchs
 Haus	Haus
 .	.
 
-Es	Es
-prennt	brennt
-es	es
-prennt	brennt
-!	!
-"	"
 Als	Als
 der	der
 Sohn	Sohn
@@ -33460,6 +33311,7 @@ Sohn	Sohn
 da	da
 !	!
 "	"
+
 Der	Der
 Sohn	Sohn
 schmies	schmieß
@@ -33518,6 +33370,7 @@ schnell	schnell
 hinaus	hinaus
 !	!
 "	"
+
 Herr	Herr
 Meier	Meier
 nahm	nahm
@@ -33576,6 +33429,7 @@ nich	nicht
 herausfinden	herausfinden
 .	.
 "	"
+
 Benjamin	Benjamin
 nahm	nahm
 die	die
@@ -33813,6 +33667,7 @@ gehe	gehe
 raus	raus
 !	!
 "	"
+
 Vater	Vater
 nahm	nahm
 seine	seine
@@ -34282,6 +34137,7 @@ mir	mir
 Bignals	Bignals
 .	.
 "	"
+
 Dann	Dann
 ist	ist
 sein	sein
@@ -34316,6 +34172,7 @@ es	es
 mehr	mehr
 .	.
 "	"
+
 Jastin	Justin
 sagt	sagt
 :	:
@@ -34527,6 +34384,7 @@ meine	meine
 Schuhlhefte	Schuhlhefte
 .	.
 "	"
+
 Bob	Bob
 wollte	wollte
 die	die
@@ -34905,6 +34763,7 @@ verrückt	verrückt
 geworden	geworden
 .	.
 "	"
+
 Der	Der
 Vater	Vater
 holte	holte
@@ -34995,10 +34854,6 @@ nach	nach
 Paris	Paris
 !	!
 
-Ist	Ist
-egal	egal
-!	!
-"	"
 "	"
 Ja	Ja
 !	!
@@ -35125,6 +34980,7 @@ mit	mit
 ihm	ihm
 schimpfte	schimpfte
 .	.
+
 "	"
 Alle	Alle
 Möbel	Möbel
@@ -35318,6 +35174,7 @@ so	so
 traurig	traurig
 !	!
 "	"
+
 Ich	Ich
 werde	werde
 dieses	dieses
@@ -35330,6 +35187,7 @@ mehr	mehr
 retten	retten
 können	können
 .	.
+
 "	"
 Das	Das
 ist	ist
@@ -35543,6 +35401,7 @@ verschluckt	verschluckt
 worden	worden
 .	.
 "	"
+
 Jetz	Jetz
 aber	aber
 kann	kann
@@ -35579,7 +35438,6 @@ Teppiche	Teppiche
 die	die
 er	er
 .	.
-
 hatte	hatte
 und	und
 warf	warf
@@ -35880,6 +35738,25 @@ sah	sah
 Fern	Fern
 an	an
 .	.
+
+Plötzlich	Plötzlich
+hörte	hörte
+ich	ich
+den	den
+Feueralarm	Feueralarm
+und	und
+mein	mein
+Vater	Vater
+schrie	schrie
+:	:
+"	"
+Fillip	Fillip
+kom	komm
+raus	raus
+es	es
+brennt	brennt
+!	!
+"	"
 
 Und	Und
 nicht	nicht
@@ -36271,6 +36148,7 @@ machst	machst
 du	du
 !	!
 "	"
+
 Er	Er
 rief	rief
 :	:
@@ -36296,6 +36174,7 @@ hinein	hinein
 geblasen	geblasen
 !	!
 "	"
+
 Sein	Sein
 Vater	Vater
 sagt	sagt
@@ -36579,6 +36458,7 @@ gute	gute
 Ausrede	Ausrede
 !	!
 "	"
+
 Genau	Genau
 in	in
 dem	dem
@@ -36654,6 +36534,7 @@ entsorgen	entsorgen
 wollte	wollte
 .	.
 "	"
+
 In	In
 der	der
 Schule	Schule
@@ -36752,6 +36633,7 @@ dem	dem
 Haus	Haus
 !	!
 "	"
+
 Max	Max
 schlug	schlug
 die	die
@@ -36986,6 +36868,7 @@ sagte	sagte
 der	der
 Professor	Professor
 .	.
+
 „	„
 Ich	Ich
 habe	habe
@@ -37058,6 +36941,7 @@ Weg	weg
 !	!
 !	!
 "	"
+
 Sein	Sein
 Vater	Vater
 sagte	sagte
@@ -37074,6 +36958,7 @@ der	der
 Ofen	Ofen
 .	.
 "	"
+
 Lukas	Lukas
 Fotzte	Fotzte
 ihm	ihm
@@ -37107,27 +36992,6 @@ sie	sie
 ins	ins
 Feuer	Feuer
 fallen	fallen
-.	.
-"	"
-Ja	Ja
-!	!
-
-sagte	sagte
-Lukas	Lukas
-leise	leise
-.	.
-"	"
-Lukas	Lukas
-,	,
-Lukas	Lukas
-wach	wach
-auf	auf
-!	!
-!	!
-"	"
-rief	rief
-eine	eine
-Stimme	Stimme
 .	.
 
 Er	Er
@@ -37759,6 +37623,7 @@ der	der
 Mann	Mann
 .	.
 "	"
+
 Die	Die
 zwei	zwei
 laufen	laufen
@@ -38564,7 +38429,10 @@ Schulhefte	Schulhefte
 wegschmeiße	wegschmeiße
 merkt	merkt
 es	es
-niemand.”	niemand.”
+niemand	niemand
+.	.
+”	”
+
 Sein	Sein
 Vater	Vater
 ging	ging
@@ -38646,7 +38514,10 @@ in	in
 10	10
 Minuten	Minuten
 bei	bei
-euch.”	euch.”
+euch	euch
+.	.
+”	”
+
 Der	Der
 Vater	Vater
 holte	holte
@@ -38723,7 +38594,10 @@ deine	deine
 Schultasche	Schultasche
 und	und
 die	die
-Hausaufgaben.”	Hausaufgaben.”
+Hausaufgaben	Hausaufgaben
+.	.
+”	”
+
 Der	Der
 Sohn	Sohn
 sagte	sagte
@@ -38848,7 +38722,10 @@ sagte	sagte
 was	Was
 machst	machst
 du	du
-da.”	da.”
+da	da
+.	.
+”	”
+
 Der	Der
 Sohn	Sohn
 antwortete	antwortete
@@ -40166,10 +40043,6 @@ Feuer	Feuer
 !	!
 !	!
 
-Feuer	Feuer
-!	!
-!	!
-"	"
 Der	Der
 Vater	Vater
 nahm	nahm
@@ -40260,16 +40133,6 @@ Teppiche	Teppiche
 in	in
 Sicherheit	Sicherheit
 
-"	"
-Oh	Oh
-nein	nein
-!	!
-"	"
-Das	Das
-Haus	Haus
-brennt	brennt
-!	!
-
 Schnell	Schnell
 rennt	rennt
 der	der
@@ -40356,6 +40219,7 @@ Hefte	Hefte
 ins	ins
 Feuer	Feuer
 .	.
+
 "	"
 Was	Was
 tust	tust
@@ -40437,6 +40301,7 @@ renn	renn
 raus	raus
 !	!
 "	"
+
 Klaus	Klaus
 nimmt	nimmt
 den	den
@@ -41337,6 +41202,7 @@ Haus	Haus
 werfen	werfen
 !	!
 "	"
+
 Er	Er
 warf	warf
 die	die
@@ -41366,6 +41232,7 @@ denn	denn
 da	da
 !	!
 "	"
+
 Tom	Tom
 antwortete	antwortete
 "	"
@@ -41380,7 +41247,6 @@ Hand	Hand
 gerutsch	gerutscht
 .	.
 "	"
-Ende	Ende
 
 Eines	Eines
 schönen	schönen
@@ -41650,6 +41516,13 @@ Schule	Schule
 ist	ist
 fertig	fertig
 .	.
+
+Der	Der
+Kinder	Kinder
+hatte	hatte
+eine	eine
+Idee	Idee
+!	!
 
 Du	Du
 heißt	heißt
@@ -42449,7 +42322,6 @@ foiern	feuern
 und	und
 Marco	Marco
 
-1	1
 Die	Die
 kind	Kind
 helfe	helfe
@@ -42457,7 +42329,6 @@ die	die
 Alter	alter
 Mann	Mann
 
-2	2
 Die	Die
 kind	Kind
 helfe	helfe
@@ -42465,7 +42336,6 @@ die	die
 Altes	altes
 Mann	Mann
 
-3	3
 Die	Die
 kind	Kind
 helfe	helfe
@@ -43694,6 +43564,7 @@ EEEEE	eeeee
 HAHAHA	hahaha
 .	.
 "	"
+
 sie	Sie
 kriegen	kriegen
 Angst	Angst
@@ -43808,17 +43679,6 @@ verspricht	verspricht
 -	-
 "	"
 
-"	"
-Fasuina	Fasuina
-in	in
-dürren	dürren
-blettern	Blättern
-seulset	seulset
-der	der
-Wind	Wind
--	-
-"	"
-.	.
 
 Eine	Eine
 Wolf	Wolf
@@ -44314,8 +44174,6 @@ virst	wirst
 sterben	sterben
 !	!
 "	"
-Lydia	Lydia
-läuft	läuft
 
 Gina	Gina
 und	und
@@ -44808,6 +44666,7 @@ es	es
 sind	sind
 Geschreie	Geschreie
 .	.
+
 "	"
 Leo	Leo
 sagte	sagte
@@ -44825,6 +44684,7 @@ sehr	sehr
 angst	Angst
 .	.
 "	"
+
 Sie	Sie
 nehmen	nehmen
 den	den
@@ -45588,7 +45448,8 @@ Gerausche	Geräusche
 trotzdem	trotzdem
 gingen	gingen
 sie	sie
-weiter.	weiter.
+weiter	weiter
+.	.
 
 Plötzlich	Plötzlich
 blieben	blieben
@@ -47207,37 +47068,33 @@ Als	Als
 Sie	sie
 im	im
 Wald	Wald
-rein	reingingen
-gingen	,
-,	hörten
-hörten	sie
-sie	komische
-komische	Geräusche
-geräusche	:
-:	„
-„	Heee
-Heee	,
-,	Hahahaha
-Hahahaha	!
-	,
-!	Nooo
-,	
-Nooo	!
-!	"
-"	„
-„	Was
-Was	war
-war	das
-	"
-	,
-das	fragte
-"	
-,	
-fragte	Marie
-Marie	erschrocken
-	.
-erschrocken	
-.	
+rein gingen	reingingen
+,	,
+hörten hörten
+sie	sie
+komische	komische
+geräusche	Geräusche
+:	:
+„	„
+Heee	Heee
+,	,
+Hahahaha	Hahahaha
+!	!
+,	,
+Nooo	Nooo
+!	!
+"	"
+
+„	„
+Was	Was
+war	war
+das	das
+"	"
+,	,
+fragte	fragte
+Marie	Marie
+erschrocken	erschrocken
+.	.
 
 Marie	Marie
 stotterte	stotterte
@@ -47248,6 +47105,7 @@ Keine	Keine
 Ahnung	Ahnung
 !	!
 "	"
+
 Sie	Sie
 fingen	fingen
 an	an
@@ -47258,9 +47116,6 @@ Lena	Lena
 zu	zu
 suchen	suchen
 .	.
-„	„
-Lena	Lena
-!	!
 
 Ich	Ich
 habs	habs
@@ -47272,6 +47127,7 @@ schrie	schrie
 Maria	Maria
 laut	laut
 .	.
+
 „	„
 Ma-Ma-Marie	Ma-Ma-Marie
 !	!
@@ -47590,7 +47446,9 @@ sie	sie
 wurden	wurden
 schon	schon
 nach	nach
-1-2	1-2
+1   1
+-   -
+2   2
 Stunden	Stunden
 von	von
 einem	einem
@@ -47634,6 +47492,7 @@ mich	mich
 nicht	nicht
 !	!
 "	"
+
 Nach	Nach
 diesem	diesem
 Satz	Satz
@@ -47684,6 +47543,7 @@ mich	mich
 nicht	nicht
 !	!
 "	"
+
 Marie	Marie
 bekam	bekam
 angst	Angst
@@ -47782,6 +47642,7 @@ mich	mich
 auch	auch
 !	!
 "	"
+
 Er	Er
 biss	biss
 ihr	ihr
@@ -48733,6 +48594,7 @@ schon	schon
 dunkel	dunkel
 .	.
 "	"
+
 Aanna	Anna
 antwortete	antwortete
 :	:
@@ -50353,14 +50215,7 @@ ist	ist
 das	das
 ?	?
 "	"
-„	„
-Was	Was
-denn	denn
-?	?
-"	"
-antwortete	antwortete
-Marie	Marie
-.	.
+
 „	„
 Diese	Diese
 Geräusche	Geräusche
@@ -50439,6 +50294,7 @@ und	und
 warten	warten
 .	.
 "	"
+
 Marie	Marie
 antwortete	antwortete
 „	„
@@ -50842,9 +50698,6 @@ Zeltplatz	Zeltplatz
 sein	sein
 !	!
 "	"
-Magdalena	Magdalena
-nickte	nickte
-.	.
 
 Langsam	Langsam
 wurde	wurde
@@ -50930,6 +50783,7 @@ aus	aus
 dem	dem
 Gebüsch	Gebüsch
 .	.
+
 "	"
 habt	habt
 ihr	ihr
@@ -51872,11 +51726,6 @@ ist	ist
 das	das
 ?	?
 "	"
-Dann	Dann
-gingen	gingen
-sie	sie
-näher	näher
-.	.
 
 Da	Da
 ist	ist
@@ -51969,6 +51818,7 @@ Hilfe	Hilfe
 aaaah	aaaah
 !	!
 "	"
+
 Maren	Maren
 sagte	sagte
 :	:
@@ -51978,6 +51828,7 @@ dich	dich
 Lena	Lena
 !	!
 "	"
+
 Sie	Sie
 liefen	liefen
 so	so
@@ -52346,6 +52197,7 @@ denn	denn
 passiert	passiert
 ?	?
 "	"
+
 Man	Man
 hörte	hörte
 ein	ein
@@ -52364,6 +52216,7 @@ mehr	mehr
 ru-u-unter	ru-u-unter
 !	!
 "	"
+
 Lena	Lena
 und	und
 Tina	Tina
@@ -52506,11 +52359,6 @@ kleiner	kleiner
 weißer	weißer
 Zwergpudel	Zwergpudel
 .	.
-„	„
-Ist	Ist
-der	der
-süß	süß
-.	.
 
 Seit	Seit
 wann	wann
@@ -52547,11 +52395,6 @@ Telefon	Telefon
 gesagt	gesagt
 .	.
 "	"
-Sie	Sie
-schüttelte	schüttelte
-den	den
-Kopf	Kopf
-.	.
 
 Ich	Ich
 sagte	sagte
@@ -52565,6 +52408,7 @@ hell	hell
 ist	ist
 .	.
 "	"
+
 Es	Es
 war	war
 zwar	zwar
@@ -52593,6 +52437,7 @@ totenstill	totenstill
 im	im
 Wald	Wald
 .	.
+
 „	„
 Was	Was
 machen	machen
@@ -52652,6 +52497,7 @@ verschwand	verschwand
 im	im
 Wald	Wald
 .	.
+
 „	„
 Beppo	Beppo
 ,	,
@@ -52669,6 +52515,7 @@ kam	kam
 nicht	nicht
 zurück	zurück
 .	.
+
 „	„
 Was	Was
 war	war
@@ -52701,11 +52548,7 @@ erklärte	erklärte
 ich	ich
 ängstlich	ängstlich
 .	.
-„	„
-Komm	Komm
-Nele	Nele
-.	.
-"	"
+
 Wir	Wir
 schlichen	schlichen
 uns	uns
@@ -52726,6 +52569,7 @@ Taschenlampe	Taschenlampe
 mit	mit
 .	.
 "	"
+
 Plötzlich	Plötzlich
 stand	stand
 vor	vor
@@ -52756,6 +52600,7 @@ von	von
 Beppo	Beppo
 hin	hin
 .	.
+
 „	„
 Danke	Danke
 ,	,
@@ -52844,11 +52689,6 @@ Holz	Holz
 holen	holen
 .	.
 "	"
-Sie	Sie
-gingen	gingen
-verschiedene	verschiedene
-Wege	Wege
-.	.
 
 Um	Um
 Punkt	Punkt
@@ -52876,6 +52716,7 @@ wo	wo
 bist	bist
 du	du
 !	!
+"	"
 
 Aber	Aber
 es	es
@@ -52975,6 +52816,7 @@ habe	habe
 Angst	Angst
 .	.
 "	"
+
 Ines	Ines
 antwortete	antwortete
 :	:
@@ -52996,6 +52838,7 @@ nach	nach
 Hause	Hause
 .	.
 "	"
+
 Endlich	Endlich
 waren	waren
 sie	sie
@@ -53267,6 +53110,7 @@ Fraage	Fraage
 beantworten	beantworten
 !	!
 "	"
+
 Da	Da
 sagte	sagte
 Tobias	Tobias
@@ -53280,6 +53124,7 @@ deine	deine
 Frage	Frage
 !	!
 "	"
+
 Darauf	Darauf
 der	der
 Geist	Geist
@@ -53292,6 +53137,7 @@ ist	ist
 379	379
 ?	?
 "	"
+
 „	„
 Na	Na
 toll	toll
@@ -53435,6 +53281,7 @@ himmlische	himmlische
 Kind	Kind
 !	!
 "	"
+
 Jetzt	Jetzt
 hörte	hörte
 man	man
@@ -53928,6 +53775,7 @@ abgebrochen	abgebrochen
 werden	werden
 !	!
 "	"
+
 Sky	Sky
 nickte	nickte
 ein	ein
@@ -53948,9 +53796,6 @@ Reisverschluss	Reißverschluss
 des	des
 Zeltes	Zeltes
 .	.
-„	„
-Jenny	Jenny
-?	?
 
 Was	Was
 machen	machen
@@ -53960,6 +53805,7 @@ dem	dem
 Zelt	Zelt
 ?	?
 "	"
+
 Zögernt	Zögernd
 sagte	sagte
 Jenny	Jenny
@@ -54060,12 +53906,6 @@ verspürten	verspürten
 eine	eine
 Wut	Wut
 .	.
-„	„
-Jack	Jack
-!	!
-,	,
-Daniel	Daniel
-!	!
 
 Wir	Wir
 wären	wären
@@ -54128,12 +53968,6 @@ wir	wir
 nachhause	nach Hause
 ?	?
 
-Wer	Wer
-ist	ist
-für	für
-Heimwärtz	heimwärts
-?	?
-"	"
 Die	Die
 Hände	Hände
 hoben	hoben
@@ -54165,6 +53999,7 @@ zu	zu
 gruselig	gruselig
 .	.
 "	"
+
 Die	Die
 4	4
 Freunde	Freunde
@@ -54187,6 +54022,7 @@ sie	sie
 nach	nach
 Hause	Hause
 .	.
+
 „	„
 So	So
 eine	eine
@@ -54261,6 +54097,7 @@ gehen	gehen
 sollen	sollen
 !	!
 "	"
+
 Die	Die
 Beiden	beiden
 packten	packten
@@ -54655,9 +54492,6 @@ noch	noch
 da	da
 ?	?
 "	"
-niemand	Niemand
-Antwortete	antwortete
-.	.
 
 Lisa	Lisa
 und	und
@@ -54714,6 +54548,7 @@ haabe	haabe
 Anngstt	Anngstt
 !	!
 "	"
+
 Lisa	Lisa
 darauf	darauf
 :	:
@@ -54723,6 +54558,7 @@ war	war
 das	das
 ?	?
 "	"
+
 Ohne	Ohne
 lang	lang
 zu	zu
@@ -54772,6 +54608,7 @@ einen	einen
 halben	halben
 Herzinfakt	Herzinfarkt
 .	.
+
 „	„
 Das	Das
 war	war
@@ -55301,6 +55138,7 @@ auf	auf
 sie	sie
 zu	zu
 .	.
+
 „	„
 Was	Was
 war	war
@@ -55652,6 +55490,7 @@ spuckt	spuckt
 es	es
 !	!
 "	"
+
 Um	Um
 sie	sie
 zu	zu
@@ -56105,6 +55944,7 @@ zu	zu
 uns	uns
 schallen	schallen
 .	.
+
 „	„
 Was	Was
 ist	ist
@@ -56349,19 +56189,6 @@ in	in
 Wald	Wald
 .	.
 
-Mohen	Mohen
-"	"
-EEEEEEEEEE	eeeeeeeee
-!	!
-"	"
-HOOO	hooo
-OOOO	oooo
-OOO	ooo
-!	!
-	yee
-	ee
-	!
-
 Ali	Ali
 und	und
 Stephanie	Stephanie
@@ -56383,22 +56210,7 @@ di	die
 musik	Musik
 ?	?
 "	"
-"	"
-Ya	Ja
-"	"
-"	"
-Komm	Komm
-mit	mit
-mir	mir
-!	!
-"	"
-"	"
-Du	Du
-bist	bist
-ein	ein
-Dunkpof	Dunkpof
-!	!
-"	"
+
 "	"
 Uff	Uff
 .	.
@@ -56411,20 +56223,7 @@ gehe	gehe
 alleine	alleine
 .	.
 "	"
-"	"
-Bye	Bye
-"	"
-Nach	Nach
-1	1
-Stunde	Stunde
-.	.
-.	.
-.	.
-"	"
-Stephanie	Stephanie
-?	?
-!	!
-"	"
+
 Die	Die
 2	2
 Schwester	Schwester
@@ -57834,7 +57633,6 @@ dem	dem
 Auto	Auto
 .	.
 
-1	1
 Zwei	Zwei
 künder	Kinder
 in	in
@@ -58136,11 +57934,6 @@ Groß	groß
 Wölf	Wolf
 .	.
 
-3	3
-Hilfe	Hilfe
-was	was
-ist	ist
-das	das
 
 Zwei	Zwei
 kinder	Kinder
@@ -58442,20 +58235,6 @@ Loch	Loch
 .	.
 
 CATARINA	Catarina
-SHREIT	schreit
-ANNAS	Annas
-NAME	name
-.	.
-"	"
-CATRINA	Catarina
-!	!
-
-HILFE	Hilfe
-!	!
-"	"
-SCHREIT	schreit
-ANNA	Anna
-CATARINA	Catarina
 LÄUFT	läuft
 ZU	zu
 EINEN	einen
@@ -58469,10 +58248,6 @@ BLUT	Blut
 SEINEN	seinen
 BEIN	Bein
 .	.
-"	"
-OH	Oh
-GOT	Gott
-.	.
 
 WAS	Was
 IST	ist
@@ -58485,6 +58260,7 @@ UND	und
 HILFT	hilft
 ANNA	Anna
 .	.
+
 "	"
 ICH	Ich
 WEIß	weiß
@@ -58505,6 +58281,7 @@ ANDERE	andere
 LEUTEN	Leuten
 LACHEN	lachen
 .	.
+
 "	"
 WER	Wer
 IST	ist
@@ -58514,6 +58291,7 @@ ES	es
 SCHREIT	schreit
 ANNA	Anna
 .	.
+
 "	"
 GAHAHAHA	Gahahaha
 "	"
@@ -58536,6 +58314,7 @@ GEHEN	gehen
 "	"
 SAGT	Sagt
 CATARINA	Catarina
+
 "	"
 WARTE	Warte
 ICH	ich
@@ -58556,6 +58335,7 @@ KANN	kann
 NICHT	nicht
 SEHEN	sehen
 .	.
+
 "	"
 WARTE	Warte
 HIER	hier
@@ -58653,17 +58433,16 @@ Sie	Sie
 töten	töten
 ein	ein
 Klown	Clown
-,	nehmen
-nehmen	seine
-seine	Waffe
-Waffe	und
-und	töten
-töten	auch
-auch	die
-die	andere
-	.
-andere	
-.	
+,	
+nehmen	nehmen
+seine	seine
+Waffe	Waffe
+und	und
+töten	töten
+auch	auch
+die	die
+andere	andere
+.	.
 
 Sie	Sie
 nehmen	nehmen
@@ -59116,6 +58895,7 @@ an	an
 den	den
 Türen	Türen
 .	.
+
 „	„
 Süses	Süßes
 oder	oder
@@ -59228,6 +59008,7 @@ uns	uns
 gehen	gehen
 !	!
 "	"
+
 Ines	Ines
 hält	hält
 Hannes	Hannes
@@ -59497,6 +59278,7 @@ der	der
 Früh	Früh
 .	.
 "	"
+
 Die	Die
 Mutter	Mutter
 war	war
@@ -59965,6 +59747,7 @@ lieb	lieb
 Vater	Vater
 !	!
 "	"
+
 Stefania	Stefania
 ist	ist
 immer	immer
@@ -60434,8 +60217,6 @@ gestorben	gestorben
 war	war
 .	.
 
-1	1
-.	.
 Am	Am
 eine	eine
 hässliche	hässliche
@@ -61205,7 +60986,6 @@ Frau	Frau
 ,	,
 Dana	Dana
 :	:
-
 Ihr	Ihr
 liefen	liefen
 die	die
@@ -61247,6 +61027,7 @@ Herzen	Herzen
 haben	haben
 .	.
 "	"
+
 Friedrich	Friedrich
 stieg	stieg
 in	in
@@ -61391,6 +61172,7 @@ sagte	sagte
 Gabriel	Gabriel
 Busselata	Busselata
 .	.
+
 "	"
 Nein	Nein
 Papi	Papi
@@ -61404,18 +61186,14 @@ bleib	bleib
 hier	hier
 .	.
 "	"
+
+"	"
 Ich	Ich
 muss	muss
 gehen	gehen
 für	für
 die	die
 Arbeit	Arbeit
-"	"
-.	.
-"	"
-Okey	Okay
-,	,
-Papi	Papi
 "	"
 .	.
 
@@ -61429,12 +61207,7 @@ die	die
 weinte	weinte
 gerade	gerade
 .	.
-"	"
-Wieso	Wieso
-,	,
-wieso	wieso
-"	"
-.	.
+
 "	"
 Es	Es
 tut	tut
@@ -61449,6 +61222,7 @@ Mann	Mann
 zur	zur
 Frau	Frau
 .	.
+
 "	"
 Smack	Smack
 "	"
@@ -61459,6 +61233,7 @@ auf	auf
 der	der
 Wange	Wange
 .	.
+
 "	"
 Jetzt	Jetzt
 muss	muss
@@ -61467,6 +61242,7 @@ leider	leider
 gehen	gehen
 .	.
 "	"
+
 "	"
 Ich	Ich
 werde	werde
@@ -62514,6 +62290,7 @@ Gebutstag	Geburtstag
 feiern	feiern
 .	.
 "	"
+
 Der	Der
 Vater	Vater
 lächelt	lächelt
@@ -62557,6 +62334,7 @@ euch	euch
 auf	auf
 !	!
 "	"
+
 Er	Er
 stieg	stieg
 auf	auf
@@ -63159,10 +62937,8 @@ in	in
 dem	dem
 Krieg	Krieg
 !	!
-
-Bitte	Bitte
-!	!
 "	"
+
 Der	Der
 Vater	Vater
 nahm	nahm
@@ -64044,6 +63820,7 @@ Zug	Zug
 langsam	langsam
 wegh fahren	wegfahren
 .	.
+
 "	"
 Auf	Auf
 nie wieder sehen	Niewiedersehen
@@ -64232,6 +64009,7 @@ ich	ich
 leider	leider
 gehen	gehen
 "	"
+
 Er	Er
 war	war
 in	in
@@ -66361,6 +66139,7 @@ dich	dich
 lassen	lassen
 !	!
 "	"
+
 Der	Der
 Zug	Zug
 ging	ging
@@ -66676,6 +66455,7 @@ an	an
 mich	mich
 .	.
 "	"
+
 Danach	Danach
 weint	weint
 die	die
@@ -66701,6 +66481,7 @@ wieder	wieder
 zurück	zurück
 .	.
 "	"
+
 Daraufhin	Daraufhin
 steigt	steigt
 er	er
@@ -67969,18 +67750,6 @@ ihres	ihres
 Vaters	Vaters
 .	.
 
-Die	Die
-Mutter	Mutter
-vergießt	vergießt
-Tränen	Tränen
-.	.
-"	"
-Wir	Wir
-werden	werden
-dich	dich
-vermissen	vermissen
-.	.
-"	"
 Nun	Nun
 heißt	heißt
 es	es
@@ -68374,6 +68143,7 @@ nicht	nicht
 zu	zu
 weinen	weinen
 .	.
+
 "	"
 Ich	Ich
 komme	komme
@@ -71638,9 +71408,11 @@ es	es
 und	und
 flüstern	flüstern
 :	:
-«Ich	«Ich
+«	«
+Ich	Ich
 liebe	liebe
-dich»	dich»
+dich	dich
+»	»
 und	und
 geht	geht
 weck	weg
@@ -72802,18 +72574,17 @@ zurück kommt	zurückkommt
 .	.
 
 "	"
-Aufwiedersehn	Auf
-"	Wiedersehen
-sagt	"
-meinem	sagt
-Vater	meinem
-bevor	Vater
-er	bevor
-meinem	er
-mutter	meinem
-grüßt	Mutter
-.	grüßt
-	.
+Aufwiedersehn	Auf Wiedersehen
+"	"
+sagt	sagt
+meinem	meinem
+Vater	Vater
+bevor	bevor
+er	er
+meinem	meinem
+mutter	Mutter
+grüßt	grüßt
+.	.
 
 Er	Er
 muss	muss
