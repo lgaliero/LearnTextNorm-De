@@ -1,0 +1,6 @@
+
+BASELINE SYSTEM (coi soli dati)
+MOST FREQUENT REPLACEMENT       LEAVE AS IS                
+Baseline acc.(LAI): 95.96       Baseline acc.(LAI): 95.96 
+Accuracy:           97.35       Accuracy:           95,96
+ERR:                34.43       ERR:                0.00

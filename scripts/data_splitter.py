@@ -315,7 +315,8 @@ def load_files(file_path: str) -> List[str]:
         return [line.strip() for line in f if line.strip()]
 
 def create_json(output_dir: str, baseline_file: str = None, 
-                          json_output: str = None, update_mode: bool = False) -> None:
+                          json_output: str = None, update_mode: bool = False,
+                          model_name: str = None) -> None:
     """
     Generate 2S_prompts.json with 2-shot examples and baseline outputs.
     
@@ -333,12 +334,24 @@ def create_json(output_dir: str, baseline_file: str = None,
     print("=" * 80)
     
     # Set default paths
+    # Set default paths based on model_name
     if json_output is None:
-        json_output = Paths.JSON if hasattr(Paths, 'JSON') else os.path.join(output_dir, "2S_prompts.json")
+        if model_name:
+            json_output = os.path.join(output_dir, f"2S_prompts_{model_name}.json")
+        else:
+            json_output = Paths.JSON if hasattr(Paths, 'JSON') else os.path.join(output_dir, "2S_prompts.json")
     
     if baseline_file is None:
-        baseline_file = Paths.LLM_BASE if hasattr(Paths, 'LLM_BASE') else os.path.join(output_dir, "baseline_LLaMA3_2.tgt")
-    
+        # Map model names to config paths
+        baseline_map = {
+            'llama': Paths.LLAMA_0,
+            'gpt': Paths.GPT_0,
+            'gemma': Paths.GEMMA_0
+        }
+        baseline_file = baseline_map.get(model_name) if model_name else None
+        if baseline_file is None:
+            baseline_file = os.path.join(output_dir, "0shot.hyp")
+
     # Load baseline outputs
     baseline_outputs = load_files(baseline_file)
     print(f"\nLoaded {len(baseline_outputs)} baseline outputs from {baseline_file}")
@@ -391,11 +404,12 @@ def create_json(output_dir: str, baseline_file: str = None,
     model = get_tf_model()
     
     # Load all files
-    test_src = load_files(os.path.join(output_dir, "test.src"))
-    train_src = load_files(os.path.join(output_dir, "train.src"))
-    train_tgt = load_files(os.path.join(output_dir, "train.tgt"))
-    dev_src = load_files(os.path.join(output_dir, "dev.src"))
-    dev_tgt = load_files(os.path.join(output_dir, "dev.tgt"))
+    # Load all files using paths from config
+    test_src = load_files(Paths.TEST_SRC if hasattr(Paths, 'TEST_SRC') else os.path.join(output_dir, "test.src"))
+    train_src = load_files(Paths.TRAIN_SRC if hasattr(Paths, 'TRAIN_SRC') else os.path.join(output_dir, "train.src"))
+    train_tgt = load_files(Paths.TRAIN_TGT if hasattr(Paths, 'TRAIN_TGT') else os.path.join(output_dir, "train.tgt"))
+    dev_src = load_files(Paths.DEV_SRC if hasattr(Paths, 'DEV_SRC') else os.path.join(output_dir, "dev.src"))
+    dev_tgt = load_files(Paths.DEV_TGT if hasattr(Paths, 'DEV_TGT') else os.path.join(output_dir, "dev.tgt"))
     
     print(f"\nLoaded files:")
     print(f"  Test: {len(test_src)} sentences")
@@ -686,15 +700,27 @@ def main(tsv_path: str = Paths.EXTRACT_TSV,
         choice = input("\nEnter your choice (1-7): ").strip()
         
         if choice == "5":
-            create_json(output_dir, update_mode=False)
+            print("\nSelect model:")
+            print("1. LLaMA")
+            print("2. GPT")
+            print("3. Gemma")
+            model_choice = input("Enter choice (1-3): ").strip()
+            model_map = {'1': 'llama', '2': 'gpt', '3': 'gemma'}
+            model_name = model_map.get(model_choice)
+            if model_name:
+                create_json(output_dir, update_mode=False, model_name=model_name)
             return
 
         if choice == "6":
-            create_json(output_dir, update_mode=True)
-            return
-        
-        if choice == "7":
-            create_norm_files(output_dir, tsv_path)
+            print("\nSelect model:")
+            print("1. LLaMA")
+            print("2. GPT")
+            print("3. Gemma")
+            model_choice = input("Enter choice (1-3): ").strip()
+            model_map = {'1': 'llama', '2': 'gpt', '3': 'gemma'}
+            model_name = model_map.get(model_choice)
+            if model_name:
+                create_json(output_dir, update_mode=True, model_name=model_name)
             return
         
         if test_exists:
@@ -730,14 +756,6 @@ def main(tsv_path: str = Paths.EXTRACT_TSV,
                               random_seed, set(test_indices))
         print("\n✅ All sets created successfully!")
         
-        # Ask if user wants to generate JSON
-        response = input("\nDo you want to generate 2S_prompts.json now? (yes/no): ").strip().lower()
-        if response in ['yes', 'y']:
-            baseline_file = input("Enter baseline file path (press Enter for default): ").strip()
-            if not baseline_file:
-                baseline_file = os.path.join(output_dir, "0shot_raw.tgt")
-            create_json(output_dir, baseline_file=baseline_file, update_mode=False)
-        
     elif create_mode == "test":
         df_test, df_remaining, test_indices = create_test_set(df, output_dir, 
                                                               test_size, random_seed)
@@ -765,7 +783,7 @@ def main(tsv_path: str = Paths.EXTRACT_TSV,
         if response in ['yes', 'y']:
             baseline_file = input("Enter baseline file path (press Enter for default): ").strip()
             if not baseline_file:
-                baseline_file = os.path.join(output_dir, "baseline_LLaMA3_2.tgt")
+                baseline_file = os.path.join(output_dir, "0shot.hyp")
             create_json(output_dir, baseline_file=baseline_file, update_mode=False)
     
     elif create_mode == "train":

@@ -41,6 +41,7 @@ def find_examples_for_sentence(sentence: str, examples_data: List[Dict]) -> Opti
 def query_model(
     sentence: str,
     mode: str,
+    model: str,  # *** ADD THIS PARAMETER ***
     examples: Iterable[Example] | None = None,
     baseline_output: str | None = None,
 ) -> str:
@@ -51,7 +52,7 @@ def query_model(
 
     messages = [{"role": "system", "content": system_context}]
 
-    if mode == "2-shot":
+    if mode == "2-shot-json":
         if not examples or len(examples) < 2:
             raise ValueError("2-shot mode requires at least 2 examples")
 
@@ -85,23 +86,35 @@ def query_model(
     return response.strip()
 
 
-def append_to_tgt(text: str, mode: str):
+def append_to_tgt(text: str, mode: str, model: str):
+    model_short = model.split(':')[0].replace('.', '_')
+    
     if mode == "baseline":
-        path = Paths.LLM_BASE
-    elif mode == "2-shot":
-        path = Paths.LLM_2S
+        if 'llama' in model_short:
+            path = Paths.LLAMA_0
+        elif 'gpt' in model_short:
+            path = Paths.GPT_0
+        elif 'gemma' in model_short:
+            path = Paths.GEMMA_0
+        else:
+            raise ValueError(f"Unknown model: {model}")
+    elif mode == "2-shot-json":
+        if 'llama' in model_short:
+            path = Paths.LLAMA_2
+        elif 'gpt' in model_short:
+            path = Paths.GPT_2
+        elif 'gemma' in model_short:
+            path = Paths.GEMMA_2S
+        else:
+            raise ValueError(f"Unknown model: {model}")
     else:
         raise ValueError(f"Unknown mode: {mode}")
 
-    # Replace all newlines and multiple spaces with single space
     single_line = ' '.join(text.split())
-
-    # Create directory if it doesn't exist
-    os.makedirs(os.path.dirname(path), exist_ok=True)
+    os.makedirs(os.path.dirname(path) if os.path.dirname(path) else '.', exist_ok=True)
 
     with open(path, "a+", encoding="utf-8") as f:
         f.write(single_line + "\n")
-
 
 def get_examples_interactively() -> list[Example]:
     """Prompt user to input two example pairs"""
@@ -138,14 +151,22 @@ if __name__ == "__main__":
     )
 
     parser.add_argument(
+        "--model",
+        type=str,
+        default=ApiConfig.MODEL,
+        help="Model to use for inference (e.g., llama3.2, gemma2, etc.)",
+    )
+
+    parser.add_argument(
         "--input",
         type=str,
-        default=None,
+        default=Paths.TEST_SRC,
         help="Path to input file with source sentences (one per line)",
     )
     args = parser.parse_args()
 
     mode = args.mode
+    model = args.model
     print(f"Running in {mode} mode\n")
     
     # Load examples JSON if using 2-shot-json mode
@@ -159,11 +180,6 @@ if __name__ == "__main__":
     
     if mode == "baseline":
         print("Paste a sentence and press Enter.")
-    elif mode == "2-shot":
-        print("For each source sentence, you'll provide:")
-        print("  1. Two example pairs (source/target)")
-        print("  2. Baseline AI output")
-        print("  3. Source sentence to correct")
     elif mode == "2-shot-json":
         print("Paste a test source sentence and the system will:")
         print("  1. Find matching examples from JSON")
@@ -206,13 +222,14 @@ if args.input:
         try:
             output = query_model(
                 sentence,
-                mode if mode != "2-shot-json" else "2-shot",
+                mode,
+                model, 
                 examples=examples,
                 baseline_output=baseline_output
             )
             
             print(f"  ✓ Generated output")
-            append_to_tgt(output, "2-shot" if mode == "2-shot-json" else mode)
+            append_to_tgt(output, mode, model)
             
         except Exception as e:
             print(f"  ✗ Error: {e}")
@@ -278,31 +295,18 @@ else:
                     print(f"\n⚠️  No baseline available for this sentence")
                 
                 print()
-        
-        elif mode == "2-shot":
-            # Manual mode: get examples interactively
-            examples = get_examples_interactively()
-            
-            if len(examples) < 2:
-                print("Error: Need exactly 2 examples. Try again.\n")
-                continue
-            
-            # Get baseline output
-            baseline_output = input("\nTGT_BASELINE > ").strip()
-            if not baseline_output:
-                print("Warning: 2-shot mode requires baseline output. Skipping...\n")
-                continue
 
         try:
             output = query_model(
                 sentence,
-                mode if mode != "2-shot-json" else "2-shot",
+                mode,
+                model, 
                 examples=examples,
                 baseline_output=baseline_output
             )
             
             print("\nTGT >", output, "\n")
-            append_to_tgt(output, "2-shot" if mode == "2-shot-json" else mode)
-            
+            append_to_tgt(output, mode, model)
+       
         except Exception as e:
             print(f"Error: {e}\n")
