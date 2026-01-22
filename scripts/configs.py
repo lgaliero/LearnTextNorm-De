@@ -8,9 +8,9 @@ Contains:
 5. API configurations and system messages for model testing in 0-shot and 2-shot
 """
 class Paths: 
-    EXT_LOG_FILE ="../processed_data/extraction_debug.log"
-    EXTRACT_DIR = '../processed_data'  
-    EXTRACT_TSV = "../processed_data/all_corpora.tsv"
+    EXT_LOG_FILE ="../master_files/extraction_debug.log"
+    EXTRACT_DIR = '../master_files'  
+    EXTRACT_TSV = "../master_files/all_corpora.tsv"
     SET_SPLITS = "../sets"
     TEST_SRC = "../sets/test/test.src"
     TEST_TGT = "../sets/test/test.tgt"
@@ -22,9 +22,13 @@ class Paths:
     TRAIN_TGT = "../sets/train.tgt"
     TRAIN_IDXS = "../sets/train/train_meta.tsv"
     JSON = "../sets/2S_prompts.json" 
-    MODELS = "../output/llama3-2"
-    LLM_BASE = "../output/llama3-2/0shot_raw.tgt"
-    LLM_2S = "../output/llama3-2/2shot_raw.tgt"
+    MODELS = "../hypothesis/llama3-2"
+    LLM_BASE = "../hypothesis/llama3-2/0shot_raw.hyp"
+    LLM_2S = "../hypothesis/llama3-2/2shot_raw.hyp"
+    GPT_BASE = "../hypothesis/gpt-oss/0shot_raw.hyp"
+    GPT_2S = "../hypothesis/gpt-oss/2shot_raw.hyp"
+    GEMMA_BASE = "../hypothesis/gemma/2shot_raw.hyp"
+    GEMMA_2S = "../hypothesis/gemma/2shot_raw.hyp"
 
 # =======================
 # XML EXTRACTION CONFIGS
@@ -50,7 +54,7 @@ class ExtractionParams:
         }
     }
     ACTIVE_CORPORA = ['LEONIDE', 'Kolipsi_1_L1', "Kolipsi_1_L2", "Kolipsi_2"] # Corpora to process (empty list = process none)
-    OUTPUT_FORMAT = 'both'      # Output settings - Options: "tsv", "norm", or "both"
+    hypothesis_FORMAT = 'both'      # hypothesis settings - Options: "tsv", "norm", or "both"
     EXCLUDE = ["DE_pic_2_57Y25A14_59.xml"," DE_pic_2_57Y25A03_59.xml", "DE_pic_3_67Y25A21_112.xml"," DE_pic_1_57Y28A01_13.xml","I22_DIL27SIM_2.xml"]
     MAX_FILES_PER_CORPUS = None    # Processing limits - None = process all files, or set to integer to limit
     SENTENCIZER_KWARGS = None      # Sentencizer settings (if needed in future)
