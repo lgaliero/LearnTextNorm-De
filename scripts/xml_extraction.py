@@ -2073,6 +2073,10 @@ def extract_leonide_sentences(paragraph, all_paragraphs=None) -> List[SentencePa
         # Clean up spaces
         src = re.sub(r'\s+', ' ', src).strip()
         tgt = re.sub(r'\s+', ' ', tgt).strip()
+        
+        # ADD THESE TWO LINES (in case spaces were reintroduced):
+        src = re.sub(r'\s+([.,!?;:])', r'\1', src)
+        tgt = re.sub(r'\s+([.,!?;:])', r'\1', tgt)
 
         debug(f"[DEBUG SRC (cleaned)]: '{src[:200]}'")
         debug(f"[DEBUG TGT (cleaned)]: '{tgt[:200]}'")
@@ -2306,6 +2310,10 @@ def clean_sentence_pairs(pairs: List[SentencePair]) -> List[SentencePair]:
         src = re.sub(r"\s*\n\s*", " ", pair.src).strip()
         tgt = re.sub(r"\s*\n\s*", " ", pair.tgt).strip()
 
+        # Remove spaces before punctuation for correct German typography
+        src = re.sub(r'\s+([.,!?;:])', r'\1', src)
+        tgt = re.sub(r'\s+([.,!?;:])', r'\1', tgt)
+
         # Skip sentences containing arrow ->
         if '->' in src or '->' in tgt:
             filter_counts['arrow'] += 1
@@ -2369,7 +2377,7 @@ def clean_sentence_pairs(pairs: List[SentencePair]) -> List[SentencePair]:
 
         src = re.sub(r'\s+', ' ', src).strip()
         tgt = re.sub(r'\s+', ' ', tgt).strip()
-
+        
         if not src or not tgt:
             filter_counts['empty'] += 1
             debug(f"  [{idx}] FILTERED (empty after cleanup): SRC='{src}' TGT='{tgt}'")

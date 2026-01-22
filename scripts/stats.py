@@ -88,7 +88,7 @@ def compute_stats(tsv_path=Paths.EXTRACT_TSV):
 
     results = []
     try:
-        df_tsv = pd.read_csv(tsv_path, encoding="utf-8", sep="\t")
+        df_tsv = pd.read_csv(tsv_path, encoding="utf-8", sep="\t",dtype={'corrected': bool})
         
         # Individual corpora from TSV
         corpus_names = sorted(df_tsv['corpus'].unique())
@@ -245,8 +245,7 @@ if __name__ == "__main__":
 
         try:
             if 'df_tsv_full' not in locals():
-                df_tsv_full = pd.read_csv(Paths.EXTRACT_TSV, encoding="utf-8", sep="\t")
-            
+                df_tsv_full = pd.read_csv(Paths.EXTRACT_TSV, encoding="utf-8", sep="\t", dtype=str, on_bad_lines='warn' ) # Alert on malformed rows
             total_sentences = len(df_tsv_full)
             
             sentence_count_by_corpus = df_tsv_full.groupby('corpus').size().reset_index(name='sentence_count')
@@ -273,8 +272,11 @@ if __name__ == "__main__":
         print("="*80)
         
         try:
-            df_tsv_full = pd.read_csv(Paths.EXTRACT_TSV, encoding="utf-8", sep="\t")
-            
+            df_tsv_full = pd.read_csv(Paths.EXTRACT_TSV, encoding="utf-8", sep="\t", on_bad_lines='warn')
+            # Filter out rows where text_type is numeric (data corruption)
+            if 'text_type' in df_tsv_full.columns:
+                df_tsv_full = df_tsv_full[~df_tsv_full['text_type'].astype(str).str.match(r'^\d+$', na=False)]
+                        
             print("\n--- By Subcorpus ---")
             correction_by_corpus = df_tsv_full.groupby('corpus')['corrected'].agg([
                 ('total_pairs', 'count'),
@@ -292,8 +294,11 @@ if __name__ == "__main__":
     if StatsDisplay.CORRECTION_SUMMARY:
         try:
             if 'df_tsv_full' not in locals():
-                df_tsv_full = pd.read_csv(Paths.EXTRACT_TSV, encoding="utf-8", sep="\t")
-            
+                df_tsv_full = pd.read_csv(Paths.EXTRACT_TSV, encoding="utf-8", sep="\t", on_bad_lines='warn')
+                # Filter out rows where text_type is numeric (data corruption)
+                if 'text_type' in df_tsv_full.columns:
+                    df_tsv_full = df_tsv_full[~df_tsv_full['text_type'].astype(str).str.match(r'^\d+$', na=False)]
+                            
             print("\n--- Whole Corpus ---")
             total_pairs = len(df_tsv_full)
             corrected_pairs = df_tsv_full['corrected'].sum()
@@ -336,8 +341,11 @@ if __name__ == "__main__":
         
         try:
             if 'df_tsv_full' not in locals():
-                df_tsv_full = pd.read_csv(Paths.EXTRACT_TSV, encoding="utf-8", sep="\t")
-            
+                df_tsv_full = pd.read_csv(Paths.EXTRACT_TSV, encoding="utf-8", sep="\t", on_bad_lines='warn')
+                # Filter out rows where text_type is numeric (data corruption)
+                if 'text_type' in df_tsv_full.columns:
+                    df_tsv_full = df_tsv_full[~df_tsv_full['text_type'].astype(str).str.match(r'^\d+$', na=False)]
+    
             total_sentences_overall = len(df_tsv_full)
             
             # 5A. Sentence-level breakdown
@@ -385,7 +393,6 @@ if __name__ == "__main__":
             # 5C. Combined breakdown by corpus and text type
             if StatsDisplay.TEXT_TYPE_COMBINED:
                 print("\n--- By Corpus and Text Type ---")
-                print(df_tsv_full['text_type'].value_counts())
                 corpus_text_breakdown = df_tsv_full.groupby(['corpus', 'text_type']).size().reset_index(name='sentence_count')
                 
                 # Calculate percentages within each corpus

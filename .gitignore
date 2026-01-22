@@ -13,14 +13,6 @@ scripts/baseline.py
 scripts/convert_to_norm.py
 scripts/lai.py
 scripts/train.tgt
-processed_data/all_corpora OLD.csv
-processed_data/all_corpora_edit_log.txt
-processed_data/extraction_debug.log
-scripts/2shot_1002.tgt
-scripts/baseline_1002.tgt
-scripts/test_1002.norm
-scripts/test_1002.src
-scripts/test_1002.tgt
 scripts/w_acc.py
 sets/train.norm
 sets/test.norm
@@ -29,9 +21,8 @@ sets/test_indices.txt
 sets/dev_indices.txt
 scripts/idx_lookup.py
 scripts/TEST_xml.py
-processed_data/LEONIDE.norm.meta.txt
-processed_data/Kolipsi_2.norm.meta.txt
-processed_data/Kolipsi_1_L2.norm.meta.txt
-processed_data/Kolipsi_1_L1.norm.meta.txt
 scripts/tag_lookup.py
 scripts/my_results.log
+scripts/Untitled-1.ipynb
+processed_data/all_corpora_edit_log.txt
+processed_data/extraction_debug.log

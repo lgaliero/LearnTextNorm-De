@@ -48,6 +48,7 @@ def save_splits(df_split: pd.DataFrame, split_name: str,
     # Use paths from configs if available
     if split_name == "test":
         src_file = Paths.TEST_SRC if hasattr(Paths, 'TEST_SRC') else os.path.join(output_dir, f"{split_name}.src")
+        tgt_file = Paths.TEST_TGT if hasattr(Paths, 'TEST_TGT') else os.path.join(output_dir, f"{split_name}.tgt")
     elif split_name == "train":
         src_file = Paths.TRAIN_SRC if hasattr(Paths, 'TRAIN_SRC') else os.path.join(output_dir, f"{split_name}.src")
         tgt_file = Paths.TRAIN_TGT if hasattr(Paths, 'TRAIN_TGT') else os.path.join(output_dir, f"{split_name}.tgt")
@@ -61,9 +62,16 @@ def save_splits(df_split: pd.DataFrame, split_name: str,
     indices_file = os.path.join(output_dir, f"{split_name}_indices.tsv")  # Changed to .tsv
 
     # Create directories if they don't exist
-    os.makedirs(os.path.dirname(src_file), exist_ok=True)
-    os.makedirs(os.path.dirname(tgt_file), exist_ok=True)
-    os.makedirs(os.path.dirname(indices_file), exist_ok=True)
+    src_dir = os.path.dirname(src_file)
+    tgt_dir = os.path.dirname(tgt_file)
+    indices_dir = os.path.dirname(indices_file)
+
+    if src_dir:  # Only create if there's actually a directory component
+        os.makedirs(src_dir, exist_ok=True)
+    if tgt_dir:
+        os.makedirs(tgt_dir, exist_ok=True)
+    if indices_dir:
+        os.makedirs(indices_dir, exist_ok=True)
     
     with open(src_file, 'w', encoding='utf-8') as f:
         for src in df_split['src']:
@@ -522,17 +530,11 @@ def create_norm_files(output_dir: str, tsv_path: str) -> None:
     print("GENERATING .norm FILES FOR SPLITS")
     print("=" * 80)
     
-    corpus_dir = Paths.EXTRACT_OUT
+    corpus_dir = Paths.EXTRACT_DIR
     
     # Load the full dataframe (this IS our metadata)
-    df = pd.read_csv(tsv_path, encoding="utf-8", sep='\t')
+    df = pd.read_csv(tsv_path, encoding="utf-8", sep="\t", on_bad_lines='warn')
     print(f"✓ Loaded corpus TSV with {len(df)} sentences as metadata source")
-    
-    # Get metadata directly from TSV row
-    row = df.loc[df_index]
-    corpus_name = row['corpus']
-    line_start = int(row['line_start'])
-    line_end = int(row['line_end'])
     
     
     # Process each split
@@ -569,6 +571,8 @@ def create_norm_files(output_dir: str, tsv_path: str) -> None:
             sent_num = row['sent_num']
             src_sentence = row['src']
             tgt_sentence = row['tgt']
+            line_start = int(row['line_start'])
+            line_end = int(row['line_end'])
             
             
             # Load .norm file if not cached
@@ -644,7 +648,7 @@ def main(tsv_path: str = Paths.EXTRACT_TSV,
     
     # Load corpus
     print(f"Loading corpus from {tsv_path}...")
-    df = pd.read_csv(tsv_path, encoding="utf-8", sep="\t")
+    df = pd.read_csv(tsv_path, encoding="utf-8", sep="\t", on_bad_lines='warn')
     total_sentences = len(df)
     
     print(f"\nTotal sentences: {total_sentences:,}")
