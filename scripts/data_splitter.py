@@ -539,7 +539,7 @@ def create_norm_files(output_dir: str, tsv_path: str) -> None:
     
     # Process each split
     for split_name in ['train', 'dev', 'test']:
-        indices_file = os.path.join(output_dir, f"{split_name}_indices.tsv")  # Changed to .tsv
+        indices_file = os.path.join(output_dir, f"{split_name}_indices.tsv")
         
         if not os.path.exists(indices_file):
             print(f"\n⚠️  Skipping {split_name}: indices file not found")
@@ -588,17 +588,12 @@ def create_norm_files(output_dir: str, tsv_path: str) -> None:
             
             norm_lines = norm_cache[corpus_name]
             
-            # Extract sentence lines (including blank line at end)
-            sentence_lines = norm_lines[line_start:line_end]
+            # Convert from 1-indexed file line numbers to 0-indexed array indices
+            sentence_lines = norm_lines[line_start - 1:line_end]
             
-            # Add blank line separator BEFORE sentence (except for first sentence)
-            if sentences_processed > 0:
-                output_lines.append('')
-            
-            # Add all lines for this sentence (excluding final blank line from source)
-            for line in sentence_lines:
-                if line.strip():  # Only add non-blank lines
-                    output_lines.append(line)
+            # *** FIX: Preserve all lines including blank lines ***
+            # Add all lines from sentence_lines as-is (includes blank separator at end)
+            output_lines.extend(sentence_lines)
             
             sentences_processed += 1
         
