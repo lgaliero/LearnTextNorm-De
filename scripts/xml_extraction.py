@@ -74,13 +74,29 @@ def tokenize_preserve_abbrev(text: str) -> List[str]:
     for pattern in sorted(ABBREV_PATTERNS_NORM, key=len, reverse=True):
         protected = re.sub(pattern, protect_match, protected, flags=re.IGNORECASE)
     
+    # CRITICAL: Build regex pattern from actual QUOTE_CHARS set
+    quote_pattern = '|'.join(re.escape(q) for q in QUOTE_CHARS)
+    
     # Now tokenize: separate punctuation from words
     # Add space before punctuation (except within placeholders)
     tokenized = re.sub(r'([a-zA-ZäöüÄÖÜß0-9_])([.,!?;:)\]])', r'\1 \2', protected)
     # Add space after punctuation
-    tokenized = re.sub(r'([.,!?;:])([a-zA-ZäöüÄÖÜß0-9_„""])', r'\1 \2', tokenized)
+    tokenized = re.sub(r'([.,!?;:])([a-zA-ZäöüÄÖÜß0-9_])', r'\1 \2', tokenized)
     # Handle opening quotes/parentheses
-    tokenized = re.sub(r'([\[„"(])([a-zA-ZäöüÄÖÜß0-9_])', r'\1 \2', tokenized)
+    tokenized = re.sub(r'([\[(])([a-zA-ZäöüÄÖÜß0-9_])', r'\1 \2', tokenized)
+    
+    # CRITICAL FIX: Use .format() instead of f-strings to preserve backreferences
+    # Handle quotes after punctuation: `: "` -> `: "`
+    pattern1 = '([.,!?;:])({})'.format(quote_pattern)
+    tokenized = re.sub(pattern1, r'\1 \2', tokenized)
+    
+    # Handle quotes before ANY character (not just letters)
+    pattern2 = '({})(?=\\S)'.format(quote_pattern)
+    tokenized = re.sub(pattern2, r'\1 ', tokenized)
+    
+    # Handle quotes after ANY character
+    pattern3 = '(?<=\\S)({})'.format(quote_pattern)
+    tokenized = re.sub(pattern3, r' \1', tokenized)
     
     # Split on whitespace
     tokens = tokenized.split()
@@ -101,14 +117,12 @@ ABBREV_PATTERN = re.compile(
     r'\b(' + '|'.join(ABBREVIATIONS) + r')\.?\b',
     re.IGNORECASE
 )
-
 # Create a blank German pipeline
 nlp = spacy.blank("de")
 
 # Add Sentencizer if not present
 if "sentencizer" not in nlp.pipe_names:
     nlp.add_pipe("sentencizer")
-
 
 # ============================================================================
 # SHARED UTILITIES
@@ -121,7 +135,7 @@ class SentencePair:
     tgt: str
     has_correction: bool
     has_foreign: bool
-    orth_mappings: List[Tuple[str, str, int]] = None  # [(original, target), ...]
+    orth_mappings: List[Tuple[str, str, int]] = None
     
     def __post_init__(self):
         if self.orth_mappings is None:
@@ -129,6 +143,116 @@ class SentencePair:
     
     def to_tuple(self):
         return (self.src, self.tgt, self.has_correction, self.has_foreign)
+
+# All possible quote characters
+QUOTE_CHARS = {'"', '„', '"', '"', '«', '»', '‹', '›'}
+
+
+def strip_quotes_preserve_original(text: str) -> Tuple[str, str]:
+    """
+    Strip all quotes from text but keep the original.
+    Returns: (original_text, stripped_text)
+    """
+    stripped = ''.join(char for char in text if char not in QUOTE_CHARS)
+    return text, stripped
+
+def restore_quotes_to_sentence(original_chunk: str, stripped_chunk: str, stripped_sentence: str) -> str:
+    """
+    Restore quotes to a sentence by finding its position in the original text.
+    Includes leading quotes before sentence AND trailing quotes after sentence-ending punctuation.
+    
+    Args:
+        original_chunk: Original chunk text WITH quotes
+        stripped_chunk: Same chunk WITH quotes stripped
+        stripped_sentence: A sentence extracted from stripped_chunk
+    
+    Returns:
+        The sentence with quotes restored
+    """
+    if not stripped_sentence:
+        return stripped_sentence
+    
+    # Find where this sentence appears in the stripped chunk
+    sent_start_in_stripped = stripped_chunk.find(stripped_sentence)
+    if sent_start_in_stripped == -1:
+        # Sentence not found - return as-is
+        return stripped_sentence
+    
+    sent_end_in_stripped = sent_start_in_stripped + len(stripped_sentence)
+    
+    # Now map back to the original text to extract the span with quotes
+    original_pos = 0
+    stripped_pos = 0
+    span_start_in_original = -1
+    span_end_in_original = -1
+    
+    for i, char in enumerate(original_chunk):
+        if char in QUOTE_CHARS:
+            # Quote doesn't advance stripped_pos
+            original_pos += 1
+        else:
+            # Regular character
+            if stripped_pos == sent_start_in_stripped and span_start_in_original == -1:
+                span_start_in_original = i
+            
+            if stripped_pos == sent_end_in_stripped - 1:
+                span_end_in_original = i + 1
+                # IMPORTANT: Don't break here - we need to capture trailing quotes
+            
+            original_pos += 1
+            stripped_pos += 1
+    
+    if span_start_in_original >= 0 and span_end_in_original > 0:
+        # CRITICAL: Extend span BACKWARDS to include any leading quotes (and skip over whitespace if needed)
+        leading_quote_start = span_start_in_original
+        
+        # Step 1: Go back to capture quotes immediately before the first character
+        while leading_quote_start > 0 and original_chunk[leading_quote_start - 1] in QUOTE_CHARS:
+            leading_quote_start -= 1
+        
+        # Step 2: If we hit whitespace, check if there are quotes before that whitespace
+        # This handles cases like `: "SIE` where sentence is ` SIE` and quote is between : and space
+        temp_pos = leading_quote_start - 1
+        while temp_pos >= 0 and original_chunk[temp_pos].isspace():
+            temp_pos -= 1
+        
+        # If there are quotes just before the whitespace, include them
+        while temp_pos >= 0 and original_chunk[temp_pos] in QUOTE_CHARS:
+            leading_quote_start = temp_pos
+            temp_pos -= 1
+        
+        # CRITICAL: Extend span FORWARDS to include any trailing quotes
+        trailing_quote_end = span_end_in_original
+        while trailing_quote_end < len(original_chunk) and original_chunk[trailing_quote_end] in QUOTE_CHARS:
+            trailing_quote_end += 1
+        
+        return original_chunk[leading_quote_start:trailing_quote_end]
+    
+    return stripped_sentence
+    
+def restore_quotes_to_pair(pair: SentencePair, 
+                          src_original: str, src_stripped: str,
+                          tgt_original: str, tgt_stripped: str) -> SentencePair:
+    """
+    Restore quotes to a sentence pair.
+    
+    Args:
+        pair: SentencePair with stripped text
+        src_original: Original source chunk WITH quotes
+        src_stripped: Source chunk WITHOUT quotes
+        tgt_original: Original target chunk WITH quotes  
+        tgt_stripped: Target chunk WITHOUT quotes
+    """
+    src_restored = restore_quotes_to_sentence(src_original, src_stripped, pair.src)
+    tgt_restored = restore_quotes_to_sentence(tgt_original, tgt_stripped, pair.tgt)
+    
+    return SentencePair(
+        src=src_restored,
+        tgt=tgt_restored,
+        has_correction=pair.has_correction,
+        has_foreign=pair.has_foreign,
+        orth_mappings=pair.orth_mappings
+    )   
 
 class TextBuilder:
     """
@@ -1023,6 +1147,12 @@ def extract_kolipsi(element) -> Tuple[str, str, bool, List[Tuple[str, str]]]:
 def extract_kolipsi_sentences(element) -> List[SentencePair]:
     """Extract sentence pairs from Kolipsi element."""
     src_full, tgt_full, _, orth_mappings = extract_kolipsi(element)
+    debug(f"[DEBUG EXTRACT_KOLIPSI] RAW src BEFORE strip_quotes: '{src_full[:200]}'")
+    debug(f"[DEBUG EXTRACT_KOLIPSI] RAW tgt BEFORE strip_quotes: '{tgt_full[:200]}'")
+    debug(f"[DEBUG EXTRACT_KOLIPSI] Quote check - src contains quotes: {'\"' in src_full or '„' in src_full or '"' in src_full}")
+    
+    debug(f"[DEBUG extract_kolipsi_sentence] RAW SRC: '{src_full}'")
+    debug(f"[DEBUG extract_kolipsi_sentence] RAW TGT: '{tgt_full}'") 
 
     if not src_full and not tgt_full:
         return []
@@ -1059,9 +1189,14 @@ def extract_kolipsi_sentences(element) -> List[SentencePair]:
         src_chunk = re.sub(r'\s+', ' ', src_chunk).strip()
         tgt_chunk = re.sub(r'\s+', ' ', tgt_chunk).strip()
 
-        src_sents = spacy_sent(src_chunk) if src_chunk else []
-        tgt_sents = spacy_sent(tgt_chunk) if tgt_chunk else []
+        # NEW: Keep original chunks AND create stripped versions
+        src_chunk_original = src_chunk
+        tgt_chunk_original = tgt_chunk
+        _, src_chunk_no_quotes = strip_quotes_preserve_original(src_chunk)
+        _, tgt_chunk_no_quotes = strip_quotes_preserve_original(tgt_chunk)
 
+        src_sents = spacy_sent(src_chunk_no_quotes) if src_chunk_no_quotes else []
+        tgt_sents = spacy_sent(tgt_chunk_no_quotes) if tgt_chunk_no_quotes else []
         if not src_sents and not tgt_sents:
             continue
 
@@ -1077,8 +1212,15 @@ def extract_kolipsi_sentences(element) -> List[SentencePair]:
         for i in range(max_len):
             src_sent = src_sents[i] if i < len(src_sents) else ""
             tgt_sent = tgt_sents[i] if i < len(tgt_sents) else ""
+            
+            # RESTORE QUOTES IMMEDIATELY after sentence extraction
+            if src_sent:
+                src_sent = restore_quotes_to_sentence(src_chunk_original, src_chunk_no_quotes, src_sent)
+            if tgt_sent:
+                tgt_sent = restore_quotes_to_sentence(tgt_chunk_original, tgt_chunk_no_quotes, tgt_sent)
      
             has_correction = (src_sent.strip() != tgt_sent.strip())
+            
             # Check if this is continuation of split compound word
             if (pairs and 
                 src_sent and len(src_sent.split()) == 1 and src_sent[0].islower() and
@@ -1935,9 +2077,17 @@ def extract_leonide_sentences(paragraph, all_paragraphs=None) -> List[SentencePa
         debug(f"[DEBUG SRC (cleaned)]: '{src[:200]}'")
         debug(f"[DEBUG TGT (cleaned)]: '{tgt[:200]}'")
         
-        # Split into sentences using spacy (WITH foreign markers still present)
-        src_sents = spacy_sent(src) if src else []
-        tgt_sents = spacy_sent(tgt) if tgt else []
+        # NEW: Strip quotes BEFORE sentencizing
+        # NEW: Strip quotes BEFORE sentencizing
+        src_original, src_no_quotes = strip_quotes_preserve_original(src)
+        tgt_original, tgt_no_quotes = strip_quotes_preserve_original(tgt)
+        
+        debug(f"[DEBUG SRC (no quotes)]: '{src_no_quotes[:200]}'")
+        debug(f"[DEBUG TGT (no quotes)]: '{tgt_no_quotes[:200]}'")
+        
+        # Split into sentences using spacy (WITHOUT quotes)
+        src_sents = spacy_sent(src_no_quotes) if src_no_quotes else []
+        tgt_sents = spacy_sent(tgt_no_quotes) if tgt_no_quotes else []
 
         debug(f"[DEBUG SENTENCE COUNTS] SRC={len(src_sents)}, TGT={len(tgt_sents)}")
 
@@ -1956,10 +2106,11 @@ def extract_leonide_sentences(paragraph, all_paragraphs=None) -> List[SentencePa
             src_sent = re.sub(r'FOREIGNWORDSTART(.*?)FOREIGNWORDEND', r'\1', src_sent)
             tgt_sent = re.sub(r'FOREIGNWORDSTART(.*?)FOREIGNWORDEND', r'\1', tgt_sent)
             
-            # Apply quote removal if this was a quote-split segment
-            # if i < len(all_remove_quotes_flags) and all_remove_quotes_flags[i]:
-            #     src_sent = remove_quote_markers(src_sent)
-            #     tgt_sent = remove_quote_markers(tgt_sent)
+            # RESTORE QUOTES IMMEDIATELY after sentence extraction
+            if src_sent:
+                src_sent = restore_quotes_to_sentence(src_original, src_no_quotes, src_sent)
+            if tgt_sent:
+                tgt_sent = restore_quotes_to_sentence(tgt_original, tgt_no_quotes, tgt_sent)
                         
             has_correction = (src_sent.strip() != tgt_sent.strip())
             
@@ -2254,6 +2405,7 @@ def clean_sentence_pairs(pairs: List[SentencePair]) -> List[SentencePair]:
             has_foreign=pair.has_foreign,
             orth_mappings=pair.orth_mappings
         ))
+
         debug(f"  [{idx}] ✓ KEPT: {src[:60]}... (with {len(pair.orth_mappings)} mappings)")
 
     debug(f"\n[DEBUG clean_sentence_pairs] OUTPUT: {len(cleaned)} pairs")
@@ -2272,7 +2424,7 @@ def process_file(xml_path: str, corpus_type: str) -> List[SentencePair]:
         # CRITICAL: Each file is a fresh extraction
         pairs = extract_from_xml(xml_content, corpus_type)
         
-        # Clean pairs for THIS file only
+        # Clean pairs for THIS file only (quotes are stripped at this point)
         cleaned = clean_sentence_pairs(pairs)
         
         return cleaned
@@ -2350,12 +2502,16 @@ def process_corpora(
 
                 mapping_dict = {}
                 target_counts = {}
+                # After this line (around line 1556):
                 for xml_filename, pairs in corpus_pairs_with_files:
                     for pair_idx, pair in enumerate(pairs):
                         sent_start_line = current_line
                         debug(f"[DEBUG NORM] Pair {pair_idx} has {len(pair.orth_mappings)} mappings: {pair.orth_mappings[:3] if len(pair.orth_mappings) > 3 else pair.orth_mappings}")
+                        
+                        # ADD THIS DEBUG LINE:
+                        debug(f"[DEBUG NORM BEFORE TOKEN] SRC='{pair.src}', TGT='{pair.tgt}'")
+                        
                         # Build mapping dict PER PAIR (like display_norm_preview does)
-                        # Keep BOTH dict (for fast lookup) and list (for tracking consumption)
                         mapping_list = pair.orth_mappings
                         mapping_dict = {orig: tgt_map for orig, tgt_map in pair.orth_mappings}
                         used_mapping_indices = set()  # Track which mapping indices we've consumed
@@ -2371,6 +2527,8 @@ def process_corpora(
                             src_words = tokenize_preserve_abbrev(pair.src)
                             tgt_words = tokenize_preserve_abbrev(pair.tgt)
 
+                            # ADD THIS DEBUG LINE:
+                            debug(f"[DEBUG NORM AFTER TOKEN] src_words={src_words}, tgt_words={tgt_words}")
                             # Pre-compute tokenized lengths for all mapping targets
                             target_token_counts = {}
                             if pair.orth_mappings:
@@ -2393,8 +2551,15 @@ def process_corpora(
 
                             def split_punct_for_output(word):
                                 """Split word into base + punctuation for NORM output."""
+                                if not word:
+                                    return [""]
+                                
                                 # Preserve abbreviations
                                 if ABBREV_PATTERN.match(word):
+                                    return [word]
+                                
+                                # CRITICAL: If word is ONLY a quote character, return it as-is
+                                if word in QUOTE_CHARS:
                                     return [word]
                                 
                                 # Split trailing punctuation AND quotes
@@ -2803,7 +2968,7 @@ if __name__ == "__main__":
     # Setup debug logging to file (not to terminal)  
     logging.basicConfig(
         filename=Paths.EXT_LOG_FILE,
-        filemode='a',
+        filemode='w',
         level=logging.DEBUG,
         format="%(asctime)s [%(levelname)s] %(message)s"
     )

@@ -9713,7 +9713,9 @@ deshalb	deshalb
 kein	kein
 reiner	reiner
 "	"
-Relax"-Urlaub	Relax"-Urlaub
+Relax	Relax
+"	"
+-Urlaub	-Urlaub
 .	.
 
 Obwohl	Obwohl
@@ -20381,6 +20383,7 @@ SACHEN	Sachen
 HIER	hier
 !	!
 "	"
+
 Maria	Maria
 drehte	drehte
 sich	sich
@@ -20405,19 +20408,6 @@ sie	sie
 selbst	selbst
 gemeint	gemeint
 war	war
-.	.
-
-"	"
-Jaaaha	Jaaaha
-,	,
-genau	genau
-SIE	Sie
-!	!
-"	"
-sagte	sagte
-die	die
-Kassiererin	Kassiererin
-wutenbrand	wutentbrannt
 .	.
 
 Maria	Maria
@@ -22820,6 +22810,7 @@ Bananen	Bananen
 klauen	klauen
 !	!
 "	"
+
 Maria	Maria
 wirbelte	wirbelte
 herum	herum
@@ -25094,12 +25085,6 @@ der	der
 Tasche	Tasche
 !	!
 
-Sie	Sie
-wollte	wollte
-es	es
-klauen	klauen
-!	!
-"	"
 Maria	Maria
 wollte	wollte
 sie	sie
@@ -36072,6 +36057,7 @@ so	so
 mitnehmen	mitnehmen
 ?	?
 "	"
+
 Maria	Maria
 antwortete	antwortete
 natürlich	natürlich
@@ -36094,6 +36080,7 @@ ihr	ihr
 natürlich	natürlich
 nicht	nicht
 .	.
+
 "	"
 Zeigen	Zeigen
 sie	Sie
@@ -36110,6 +36097,7 @@ hinter	hinter
 der	der
 Kasse	Kasse
 .	.
+
 "	"
 Den	Den
 habe	habe
@@ -36125,6 +36113,7 @@ nicht	nicht
 .	.
 "	"
 
+"	"
 Aber	Aber
 ich	ich
 hatte	hatte
@@ -41251,7 +41240,7 @@ Supermarkt	Supermarkt
 ,	,
 weil	weil
 es	es
-ein	;ein
+ein	ein
 ;	-
 zwei	zwei
 wichtige	wichtige
@@ -46837,6 +46826,7 @@ mitgehen	mitgehen
 lassen	lassen
 ?	?
 "	"
+
 Maria	Maria
 erklärte	erklärte
 der	der
@@ -53616,6 +53606,7 @@ Lebensmittel	Lebensmittel
 bezahlen	bezahlen
 !	!
 "	"
+
 Sie	Sie
 verstand	verstand
 nicht	nicht
@@ -53681,6 +53672,7 @@ Laden	Laden
 eingekauft	eingekauft
 .	.
 "	"
+
 Die	Die
 Kassiererin	Kassiererin
 wartete	wartete
@@ -53735,6 +53727,7 @@ mitzunehmen	mitzunehmen
 .	.
 .	.
 "	"
+
 Daraufhin	Daraufhin
 antwortete	antwortete
 die	die
@@ -53761,6 +53754,7 @@ Lebensmittel	Lebensmittel
 hier	hier
 !	!
 "	"
+
 Maria	Maria
 nickte	nickte
 nur	nur
@@ -61447,6 +61441,7 @@ gleich	gleich
 parat	parat
 hatte	hatte
 .	.
+
 "	"
 Glück	Glück
 im	im
@@ -73702,6 +73697,7 @@ nachweisen	nachweisen
 oder	oder
 ?	?
 "	"
+
 "	"
 Natürlich	Natürlich
 "	"
@@ -79093,6 +79089,7 @@ Gemüse	Gemüse
 klauen	klauen
 ?	?
 "	"
+
 Maria	Maria
 erklärte	erklärte
 ihr	ihr
@@ -80904,13 +80901,7 @@ Halt	Halt
 Haaalt	Haaalt
 !	!
 "	"
-"	"
-Ich	Ich
-habe	habe
-nichts	nichts
-gestohlen	gestohlen
-!	!
-"	"
+
 Die	Die
 Verkäuferin	Verkäuferin
 legt	legt
@@ -80918,6 +80909,7 @@ den	den
 Hörer	Hörer
 weg	weg
 .	.
+
 "	"
 Ich	Ich
 war	war
@@ -80936,6 +80928,7 @@ Beleg	Beleg
 aufbewahrt	aufbewahrt
 .	.
 "	"
+
 Maria	Maria
 sucht	sucht
 und	und

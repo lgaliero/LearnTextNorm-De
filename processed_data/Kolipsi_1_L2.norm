@@ -4225,6 +4225,7 @@ andere	andere
 Handtasche	Handtasche
 ?	?
 "	"
+
 Maria	Maria
 hat	hat
 gesagt	gesagt
@@ -8767,7 +8768,7 @@ supermarkt	Supermarkt
 passiert	passiert
 ist	ist
 !	!
-"	"
+
 Ich	Ich
 war	war
 neben	neben
@@ -8832,6 +8833,7 @@ oder	oder
 Meer	Meer
 ?	?
 "	"
+
 Jetzt	Jetzt
 stelle	stelle
 ich	ich
@@ -20856,11 +20858,6 @@ nicht	nicht
 stechen	stechen
 !	!
 "	"
-Die	Die
-Kassiererin	Kassiererin
-entschuldigt	entschuldigt
-sich	sich
-.	.
 
 Dann	Dann
 ich	ich
@@ -24262,7 +24259,8 @@ vergessen	vergessen
 Sie	Sie
 sagte	sagte
 :	:
-«Ja	«Ja
+«	«
+Ja	Ja
 ,	,
 ich	ich
 kann	kann
@@ -24280,7 +24278,9 @@ Obst-	Obst-
 und	und
 Gemüseladen	Gemüseladen
 gekauft	gekauft
-!»	!»
+!	!
+»	»
+
 Ich	Ich
 hoffe	hoffe
 dass	dass
@@ -24788,6 +24788,7 @@ etwas	etwas
 gestehlen	gestehlen
 ?	?
 "	"
+
 Maria	Maria
 schaute	schaute
 sofort	sofort
@@ -24872,6 +24873,8 @@ liebe	liebe
 Anna	Anna
 mit	mit
 ?	?
+"	"
+
 "	"
 So	So
 habe	habe
@@ -26071,8 +26074,6 @@ ans	ans
 Meer	Meer
 haben	haben
 
-1	1
-.	.
 Eine	Eine
 Frau	Frau
 ist	ist
@@ -39844,6 +39845,7 @@ die	die
 Berge	Berge
 ?	?
 "	"
+
 Ans	Ans
 Meer	Meer
 ist	ist
@@ -46533,6 +46535,7 @@ nicht	nicht
 ihre	ihre
 .	.
 “	“
+
 Kassent	Kassent
 sagt	sagt
 :	:
@@ -55423,11 +55426,6 @@ haltet	Haltet
 sie	sie
 !	!
 
-Sie	Sie
-ist	ist
-ein	ein
-Dieb	Dieb
-!	!
 "	"
 die	Die
 frau	Frau
