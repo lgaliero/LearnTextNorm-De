@@ -1,3 +1,9 @@
+# Limit concurrent requests
+
+
+# Adjust context size
+ # Default is 4096
+
 import os
 import json
 import ollama
@@ -7,6 +13,7 @@ import subprocess
 from ollama import Client
 from typing import Iterable, Tuple, Optional, Dict, List
 from configs import Paths, ApiConfig
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 api_key = os.getenv("OLLAMA_API_KEY")
 client = Client(
@@ -134,6 +141,56 @@ def get_examples_interactively() -> list[Example]:
     
     return examples
 
+import time
+import psutil
+
+
+def process_single_sentence(args_tuple):
+    idx, sentence, mode, model, examples_data = args_tuple
+    start_time = time.time()  # ← Starts timing for ANY mode
+    mem_before = psutil.Process().memory_info().rss / 1024**3
+    
+    print(f"[{idx}] Starting (Memory: {mem_before:.2f}GB)")
+    print(f"[{idx}] Processing: {sentence[:60]}{'...' if len(sentence) > 60 else ''}")
+    
+    examples = None
+    baseline_output = None
+    
+    # This block only runs for 2-shot-json mode
+    if mode == "2-shot-json":
+        entry = find_examples_for_sentence(sentence, examples_data)
+        
+        if not entry:
+            print(f"  [{idx}] ⚠️  Warning: No examples found, skipping sentence.")
+            return None
+        
+        examples = [
+            (ex['source'], ex['target']) 
+            for ex in entry['examples'][:2]
+        ]
+        baseline_output = entry.get('baseline_output', 'to be added')
+    
+    # This try block runs for BOTH baseline and 2-shot-json modes
+    try:
+        output = query_model(
+            sentence,
+            mode,
+            model, 
+            examples=examples,  # None for baseline, populated for 2-shot
+            baseline_output=baseline_output
+        )
+        
+        # Timing applies to BOTH modes
+        elapsed = time.time() - start_time
+        mem_after = psutil.Process().memory_info().rss / 1024**3
+        print(f"  [{idx}] ✓ Generated output")
+        print(f"  [{idx}] Completed in {elapsed:.1f}s (Memory: {mem_after:.2f}GB, Δ{mem_after-mem_before:.2f}GB)")
+        
+        return (idx, sentence, output)
+        
+    except Exception as e:
+        print(f"  [{idx}] ✗ Error: {e}")
+        return None
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -149,25 +206,29 @@ if __name__ == "__main__":
         default=Paths.JSON,
         help="Path to examples JSON file (for 2-shot-json mode)",
     )
-
     parser.add_argument(
         "--model",
         type=str,
         default=ApiConfig.MODEL,
         help="Model to use for inference (e.g., llama3.2, gemma2, etc.)",
     )
-
     parser.add_argument(
         "--input",
         type=str,
         default=Paths.TEST_SRC,
         help="Path to input file with source sentences (one per line)",
     )
+    parser.add_argument(
+        "--workers",
+        type=int,
+        default=2,
+        help="Number of parallel workers for API calls (default: 2)",
+    )
     args = parser.parse_args()
 
     mode = args.mode
     model = args.model
-    print(f"Running in {mode} mode\n")
+    print(f"Running in {mode} mode with {args.workers} parallel workers\n")
     
     # Load examples JSON if using 2-shot-json mode
     examples_data = []
@@ -178,135 +239,109 @@ if __name__ == "__main__":
             exit(1)
         print(f"✓ Loaded {len(examples_data)} examples from {args.json}\n")
     
-    if mode == "baseline":
-        print("Paste a sentence and press Enter.")
-    elif mode == "2-shot-json":
-        print("Paste a test source sentence and the system will:")
-        print("  1. Find matching examples from JSON")
-        print("  2. Retrieve baseline output")
-        print("  3. Generate corrected output")
-    
-    print("Type :q to quit.\n")
-
     # Determine input source
-if args.input:
-    # File-based processing
-    try:
-        with open(args.input, 'r', encoding='utf-8') as f:
-            sentences = [line.strip() for line in f if line.strip()]
-    except FileNotFoundError:
-        print(f"Error: Input file {args.input} not found.")
-        exit(1)
-    
-    print(f"Processing {len(sentences)} sentences from {args.input}\n")
-    
-    for idx, sentence in enumerate(sentences, 1):
-        print(f"[{idx}/{len(sentences)}] Processing: {sentence[:60]}{'...' if len(sentence) > 60 else ''}")
+    if args.input:
+        # File-based processing with parallelization
+        try:
+            with open(args.input, 'r', encoding='utf-8') as f:
+                sentences = [line.strip() for line in f if line.strip()]
+        except FileNotFoundError:
+            print(f"Error: Input file {args.input} not found.")
+            exit(1)
         
-        examples = None
-        baseline_output = None
+        print(f"Processing {len(sentences)} sentences from {args.input}\n")
         
+        # Prepare arguments for parallel processing
+        task_args = [
+            (idx, sentence, mode, model, examples_data)
+            for idx, sentence in enumerate(sentences, 1)
+        ]
+        
+        # Process in parallel with ThreadPoolExecutor
+        # In your main block, replace the parallel section with:
+        results = []
+        for idx, sentence in enumerate(sentences, 1):
+            result = process_single_sentence(
+                (idx, sentence, mode, model, examples_data)
+            )
+            if result is not None:
+                results.append(result)
+                # Write immediately to avoid losing progress
+                append_to_tgt(result[2], mode, model)
+        
+        # Sort results by original index to maintain order
+        results.sort(key=lambda x: x[0])
+        
+        # Write all results to file in order
+        for idx, sentence, output in results:
+            append_to_tgt(output, mode, model)
+        
+        print(f"\n✓ Completed processing {len(results)} sentences (skipped {len(sentences) - len(results)})")
+    
+    else:
+        # Interactive mode (keep original behavior)
+        print("Paste a sentence and press Enter.")
         if mode == "2-shot-json":
-            entry = find_examples_for_sentence(sentence, examples_data)
+            print("The system will find matching examples from JSON.")
+        print("Type :q to quit.\n")
+        
+        while True:
+            examples = None
+            baseline_output = None
             
-            if not entry:
-                print(f"  ⚠️  Warning: No examples found, skipping sentence.")
+            sentence = input("\nSRC > ").strip()
+            
+            if sentence == ":q":
+                print("Bye 👋")
+                break
+            
+            if not sentence:
                 continue
             
-            examples = [
-                (ex['source'], ex['target']) 
-                for ex in entry['examples'][:2]
-            ]
-            baseline_output = entry.get('baseline_output', 'to be added')
-        
-        try:
-            output = query_model(
-                sentence,
-                mode,
-                model, 
-                examples=examples,
-                baseline_output=baseline_output
-            )
-            
-            print(f"  ✓ Generated output")
-            append_to_tgt(output, mode, model)
-            
-        except Exception as e:
-            print(f"  ✗ Error: {e}")
-    
-    print(f"\n✓ Completed processing {len(sentences)} sentences")
-
-else:
-    # Interactive mode (original behavior)
-    while True:
-        examples = None
-        baseline_output = None
-        
-        # Get the source sentence first
-        sentence = input("\nSRC > ").strip()
-        
-        if sentence == ":q":
-            print("Bye 👋")
-            break
-        
-        if not sentence:
-            continue
-        
-        if mode == "2-shot-json":
-            # Find examples from JSON
-            entry = find_examples_for_sentence(sentence, examples_data)
-            
-            if not entry:
-                print(f"⚠️  Warning: No examples found for this sentence in JSON.")
-                print("   The sentence might not be in the test set or JSON wasn't generated correctly.")
+            if mode == "2-shot-json":
+                entry = find_examples_for_sentence(sentence, examples_data)
                 
-                response = input("   Continue with manual input? (yes/no): ").strip().lower()
-                if response not in ['yes', 'y']:
-                    continue
-                
-                # Fall back to manual input
-                examples = get_examples_interactively()
-                if len(examples) < 2:
-                    print("Error: Need exactly 2 examples. Skipping...\n")
-                    continue
-                
-                baseline_output = input("\nTGT_BASELINE > ").strip()
-            else:
-                # Extract examples from JSON
-                examples = [
-                    (ex['source'], ex['target']) 
-                    for ex in entry['examples'][:2]  # Take first 2 examples
-                ]
-                
-                baseline_output = entry.get('baseline_output', 'to be added')
-                
-                # Display what was found
-                print(f"\n✓ Found examples:")
-                for i, (src, tgt) in enumerate(examples, 1):
-                    dataset = entry['examples'][i-1].get('dataset', 'unknown')
-                    score = entry['examples'][i-1]
-                    print(f"  Example {i}:")
-                    print(f"    SRC: {src[:80]}{'...' if len(src) > 80 else ''}")
-                    print(f"    TGT: {tgt[:80]}{'...' if len(tgt) > 80 else ''}")
-                
-                if baseline_output != "to be added":
-                    print(f"\n✓ Baseline: {baseline_output[:80]}{'...' if len(baseline_output) > 80 else ''}")
+                if not entry:
+                    print(f"⚠️  Warning: No examples found for this sentence in JSON.")
+                    response = input("   Continue with manual input? (yes/no): ").strip().lower()
+                    if response not in ['yes', 'y']:
+                        continue
+                    
+                    examples = get_examples_interactively()
+                    if len(examples) < 2:
+                        print("Error: Need exactly 2 examples. Skipping...\n")
+                        continue
+                    
+                    baseline_output = input("\nTGT_BASELINE > ").strip()
                 else:
-                    print(f"\n⚠️  No baseline available for this sentence")
-                
-                print()
+                    examples = [
+                        (ex['source'], ex['target']) 
+                        for ex in entry['examples'][:2]
+                    ]
+                    
+                    baseline_output = entry.get('baseline_output', 'to be added')
+                    
+                    print(f"\n✓ Found examples:")
+                    for i, (src, tgt) in enumerate(examples, 1):
+                        print(f"  Example {i}:")
+                        print(f"    SRC: {src[:80]}{'...' if len(src) > 80 else ''}")
+                        print(f"    TGT: {tgt[:80]}{'...' if len(tgt) > 80 else ''}")
+                    
+                    if baseline_output != "to be added":
+                        print(f"\n✓ Baseline: {baseline_output[:80]}{'...' if len(baseline_output) > 80 else ''}")
+                    print()
 
-        try:
-            output = query_model(
-                sentence,
-                mode,
-                model, 
-                examples=examples,
-                baseline_output=baseline_output
-            )
-            
-            print("\nTGT >", output, "\n")
-            append_to_tgt(output, mode, model)
-       
-        except Exception as e:
-            print(f"Error: {e}\n")
+            try:
+                output = query_model(
+                    sentence,
+                    mode,
+                    model, 
+                    examples=examples,
+                    baseline_output=baseline_output
+                )
+                
+                print("\nTGT >", output, "\n")
+                append_to_tgt(output, mode, model)
+           
+            except Exception as e:
+                print(f"Error: {e}\n")

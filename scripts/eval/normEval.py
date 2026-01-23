@@ -26,14 +26,13 @@ def evaluate(raw, gold, pred, ignCaps=False, verbose=False):
 
     accuracy = cor / total
     lai = (total - changed) / total
-    err = (accuracy - lai) / (1-lai)
+    error_reduction = (accuracy - lai) / (1-lai)  # ← Changed from 'err' to 'error_reduction'
 
     print('Baseline acc.(LAI): {:.2f}'.format(lai * 100)) 
     print('Accuracy:           {:.2f}'.format(accuracy * 100)) 
-    print('ERR:                {:.2f}'.format(err * 100))
+    print('ERR:                {:.2f}'.format(error_reduction * 100))  # ← Changed here too
 
-    return lai, accuracy, err
-
+    return lai, accuracy, error_reduction  # ← And here
 def loadNormData(path):
     rawData = []
     goldData = []

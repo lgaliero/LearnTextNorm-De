@@ -9,8 +9,16 @@ ERR:                34.43       ERR:                0.00    Dels: 373       Dels
 
 
 LLAMA - ZERO SHOT:
-                                                            37.01           51.52        65,2
-                                                            Ins: 9250       Ins: 1504
-                                                            Dels: 36141     Dels: 5194
+Baseline acc.(LAI): 95.                                     21.36           51.52        65,2
+Accuracy:           77.34                                   Ins: 9250       Ins: 1504
+ERR:                -460.63                                 Dels: 36141     Dels: 5194
                                                             Subs: 12394     Subs: 6962
                                                             Ref: 156124     Ref: 26518
+
+
+LLAMA - 2 SHOT:
+                                                            37.01           30.22        65,2
+                                                            Ins: 4434       Ins: 862
+                                                            Dels: 23521     Dels: 4493
+                                                            Subs: 6156      Subs: 3734
+                                                            Ref: 159681     Ref: 30075
