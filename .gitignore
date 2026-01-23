@@ -7,3 +7,4 @@ master_files/all_corpora_edit_log.txt
 master_files/extraction_debug.log
 scripts/tok_out.py
 scripts/correction.py
+scripts/xml_extraction.py
