@@ -12,6 +12,8 @@ import xml.etree.ElementTree as ET
 from typing import List, Tuple, Dict, Optional
 from dataclasses import dataclass
 
+from extraction.extractor_kolipsi import extract_kolipsi_sentences
+from extraction.extractor_leonide import extract_leonide_sentences
 
 def extract_from_xml(xml_content: str, corpus_type: str) -> List[SentencePair]:
     """Main extraction function."""
