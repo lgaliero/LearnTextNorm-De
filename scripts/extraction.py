@@ -1,20 +1,10 @@
+from extraction.logger import debug
+import argparse
+from extraction.pipeline import process_corpora
+from configs import Paths, ExtractionParams
 
-# ============================================================================
-# MAIN EXECUTION
-# ============================================================================
+
 if __name__ == "__main__":
-
-    # Setup debug logging to file (not to terminal)  
-    logging.basicConfig(
-        filename=Paths.EXT_LOG_FILE,
-        filemode='w',
-        level=logging.DEBUG,
-        format="%(asctime)s [%(levelname)s] %(message)s"
-    )
-
-    def debug(msg):
-        logging.debug(msg)
-        
     parser = argparse.ArgumentParser(description='Extract German learner corpora')
     parser.add_argument('--corpora', nargs='+', default=None,
     help='Specify which corpora to process (e.g., LEONIDE Kolipsi_1_L2)')

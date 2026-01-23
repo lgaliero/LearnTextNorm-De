@@ -1,4 +1,17 @@
 
+import re
+import xml.etree.ElementTree as ET
+from typing import List, Tuple, Dict, Optional
+from .data_models import TextBuilder
+from .constants import QUOTE_CHARS, ABBREVIATIONS
+from .xml_helpers import (
+    strip_namespace,
+    has_leading_whitespace,
+    has_trailing_whitespace,
+    has_sentence_ending
+)
+from .logger import debug
+
 def extract_leonide(paragraph, all_paragraphs=None) -> Tuple[str, str, bool, List[Tuple[str, str]]]:
     """Extract text from LEONIDE paragraph."""
     src_builder = TextBuilder()
@@ -734,142 +747,3 @@ def extract_leonide(paragraph, all_paragraphs=None) -> Tuple[str, str, bool, Lis
     
     return src_builder.get_text(), tgt_builder.get_text(), has_corrections, orth_error_mappings
     
-def extract_leonide_sentences(paragraph, all_paragraphs=None) -> List[SentencePair]:
-    """Extract sentence pairs from LEONIDE paragraph."""
-    src, tgt, _, orth_mappings = extract_leonide(paragraph, all_paragraphs)
-    debug(f"[DEBUG extract_leonide_sentences] RAW SRC: '{src}'")
-    debug(f"[DEBUG extract_leonide_sentences] RAW TGT: '{tgt}'")
-
-    if not src and not tgt:
-        return []
-
-    # Detect foreign words before cleaning markers
-    has_foreign = 'FOREIGNWORDSTART' in src or 'FOREIGNWORDSTART' in tgt
-
-    # CRITICAL FIX: NEVER use explicit breaks from DIV tags - they're unreliable
-    # Always rely on spacy for sentence splitting
-    src_break_count = src.count('<SENTBREAK>')
-    tgt_break_count = tgt.count('<SENTBREAK>')
-    
-    debug(f"[DEBUG LEONIDE BREAK COUNT] src_breaks={src_break_count}, tgt_breaks={tgt_break_count}")
-
-    # Force spacy splitting for all cases
-    use_explicit_breaks = False
-
-    debug(f"[DEBUG BREAK DECISION] src_breaks={src_break_count}, tgt_breaks={tgt_break_count}, use_explicit_breaks={use_explicit_breaks}")
-
-    if use_explicit_breaks:
-        # Verify breaks are in roughly the same positions
-        src_chunks = [s.strip() for s in src.split('<SENTBREAK>') if s.strip()]
-        tgt_chunks = [s.strip() for s in tgt.split('<SENTBREAK>') if s.strip()]
-        
-        # If chunk counts don't match, fall back to spacy
-        if len(src_chunks) != len(tgt_chunks):
-            use_explicit_breaks = False
-
-    if use_explicit_breaks:
-        # Clean foreign word markers
-        src_chunks = [re.sub(r'FOREIGNWORDSTART(.*?)FOREIGNWORDEND', r'\1', chunk) for chunk in src_chunks]
-        tgt_chunks = [re.sub(r'FOREIGNWORDSTART(.*?)FOREIGNWORDEND', r'\1', chunk) for chunk in tgt_chunks]
-        
-        pairs = []
-        for i in range(len(src_chunks)):
-            src_chunk = src_chunks[i]
-            tgt_chunk = tgt_chunks[i]
-            
-            # CRITICAL FIX: Still need to split chunks with spaCy in case they contain multiple sentences
-            src_sents = spacy_sent(src_chunk) if src_chunk else []
-            tgt_sents = spacy_sent(tgt_chunk) if tgt_chunk else []
-            
-            # Align sentences within this chunk
-            max_len = max(len(src_sents), len(tgt_sents))
-            for j in range(max_len):
-                src_sent = src_sents[j] if j < len(src_sents) else ""
-                tgt_sent = tgt_sents[j] if j < len(tgt_sents) else ""
-                
-                has_correction = (src_sent.strip() != tgt_sent.strip())
-                
-                if src_sent or tgt_sent:
-                    # Filter mappings that appear in this sentence
-                    # Keep ALL occurrences - NORM alignment will handle which one is actually corrected
-                    sent_mappings = [
-                        (orig, tgt_map) for orig, tgt_map in orth_mappings
-                        if orig in src_sent
-                    ]
-                    
-                    pairs.append(SentencePair(
-                        src=src_sent,
-                        tgt=tgt_sent,
-                        has_correction=has_correction,
-                        has_foreign=has_foreign_in_sent,
-                        orth_mappings=sent_mappings
-                    ))
-        return pairs
-
-    else:
-        debug("[DEBUG USING SPACY FOR SENTENCE SPLIT - IGNORING SENTBREAK]")
-        # Don't use SENTBREAK markers from DIVs - just treat as one continuous text
-        # Remove ALL SENTBREAK markers and treat as continuous text
-        src = src.replace('<SENTBREAK>', ' ')
-        tgt = tgt.replace('<SENTBREAK>', ' ')
-        
-        # DON'T clean foreign word markers yet - keep them to detect per-sentence
-        # Clean up spaces
-        src = re.sub(r'\s+', ' ', src).strip()
-        tgt = re.sub(r'\s+', ' ', tgt).strip()
-
-        debug(f"[DEBUG SRC (cleaned)]: '{src[:200]}'")
-        debug(f"[DEBUG TGT (cleaned)]: '{tgt[:200]}'")
-        
-        # NEW: Strip quotes BEFORE sentencizing
-        # NEW: Strip quotes BEFORE sentencizing
-        src_original, src_no_quotes = strip_quotes_preserve_original(src)
-        tgt_original, tgt_no_quotes = strip_quotes_preserve_original(tgt)
-        
-        debug(f"[DEBUG SRC (no quotes)]: '{src_no_quotes[:200]}'")
-        debug(f"[DEBUG TGT (no quotes)]: '{tgt_no_quotes[:200]}'")
-        
-        # Split into sentences using spacy (WITHOUT quotes)
-        src_sents = spacy_sent(src_no_quotes) if src_no_quotes else []
-        tgt_sents = spacy_sent(tgt_no_quotes) if tgt_no_quotes else []
-
-        debug(f"[DEBUG SENTENCE COUNTS] SRC={len(src_sents)}, TGT={len(tgt_sents)}")
-
-        pairs = []
-        max_sents = max(len(src_sents), len(tgt_sents))
-
-        for i in range(max_sents):
-            src_sent = src_sents[i] if i < len(src_sents) else ""
-            tgt_sent = tgt_sents[i] if i < len(tgt_sents) else ""
-            
-            # Detect foreign words in THIS sentence only
-            has_foreign_in_sent = ('FOREIGNWORDSTART' in src_sent or 
-                                'FOREIGNWORDSTART' in tgt_sent)
-            
-            # Clean foreign word markers from sentences
-            src_sent = re.sub(r'FOREIGNWORDSTART(.*?)FOREIGNWORDEND', r'\1', src_sent)
-            tgt_sent = re.sub(r'FOREIGNWORDSTART(.*?)FOREIGNWORDEND', r'\1', tgt_sent)
-            
-            # RESTORE QUOTES IMMEDIATELY after sentence extraction
-            if src_sent:
-                src_sent = restore_quotes_to_sentence(src_original, src_no_quotes, src_sent)
-            if tgt_sent:
-                tgt_sent = restore_quotes_to_sentence(tgt_original, tgt_no_quotes, tgt_sent)
-                        
-            has_correction = (src_sent.strip() != tgt_sent.strip())
-            
-            if src_sent or tgt_sent:
-                sent_mappings = [
-                    (orig, tgt_map) for orig, tgt_map in orth_mappings
-                    if orig in src_sent
-                ]
-                
-                pairs.append(SentencePair(
-                    src=src_sent,
-                    tgt=tgt_sent,
-                    has_correction=has_correction,
-                    has_foreign=has_foreign_in_sent,
-                    orth_mappings=sent_mappings
-                ))
-                
-        return pairs

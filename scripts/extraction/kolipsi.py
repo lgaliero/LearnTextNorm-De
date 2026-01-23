@@ -1,16 +1,15 @@
 import re
-import os
-import csv
-import copy
-import spacy
-import argparse
-import logging
-import pandas as pd
-from configs import Paths, ExtractionParams
-
 import xml.etree.ElementTree as ET
 from typing import List, Tuple, Dict, Optional
-from dataclasses import dataclass
+from .data_models import TextBuilder
+from .constants import QUOTE_CHARS, ABBREVIATIONS
+from .xml_helpers import (
+    strip_namespace,
+    has_leading_whitespace,
+    has_trailing_whitespace,
+    has_sentence_ending
+)
+from .logger import debug
 
 def extract_kolipsi(element) -> Tuple[str, str, bool, List[Tuple[str, str]]]:
     """
@@ -637,110 +636,3 @@ def extract_kolipsi(element) -> Tuple[str, str, bool, List[Tuple[str, str]]]:
 
     recurse(element, src_builder, tgt_builder)
     return src_builder.get_text(), tgt_builder.get_text(), has_corrections, orth_mappings
-
-def extract_kolipsi_sentences(element) -> List[SentencePair]:
-    """Extract sentence pairs from Kolipsi element."""
-    src_full, tgt_full, _, orth_mappings = extract_kolipsi(element)
-    debug(f"[DEBUG EXTRACT_KOLIPSI] RAW src BEFORE strip_quotes: '{src_full[:200]}'")
-    debug(f"[DEBUG EXTRACT_KOLIPSI] RAW tgt BEFORE strip_quotes: '{tgt_full[:200]}'")
-    debug(f"[DEBUG EXTRACT_KOLIPSI] Quote check - src contains quotes: {'\"' in src_full or '„' in src_full or '"' in src_full}")
-    
-    debug(f"[DEBUG extract_kolipsi_sentence] RAW SRC: '{src_full}'")
-    debug(f"[DEBUG extract_kolipsi_sentence] RAW TGT: '{tgt_full}'") 
-
-    if not src_full and not tgt_full:
-        return []
-    
-    # CRITICAL: Clean any residual markers from previous documents
-    src_full = src_full.strip()
-    tgt_full = tgt_full.strip()
-    
-    # Ensure sentence breaks at document boundaries
-    if not src_full.startswith('<SENTBREAK>'):
-        src_full = '<SENTBREAK>' + src_full
-        tgt_full = '<SENTBREAK>' + tgt_full
-
-    src_chunks = [s.strip() for s in src_full.split('<SENTBREAK>') if s.strip()]
-    tgt_chunks = [s.strip() for s in tgt_full.split('<SENTBREAK>') if s.strip()]
-
-    if len(src_chunks) != len(tgt_chunks):
-        max_chunks = max(len(src_chunks), len(tgt_chunks))
-        src_chunks.extend([''] * (max_chunks - len(src_chunks)))
-        tgt_chunks.extend([''] * (max_chunks - len(tgt_chunks)))
-
-    pairs = []
-    for src_chunk, tgt_chunk in zip(src_chunks, tgt_chunks):
-        if not src_chunk and not tgt_chunk:
-            continue
-
-        # Detect foreign words at chunk level but clean before splitting
-        has_foreign_in_chunk = ('FOREIGNWORDSTART' in src_chunk or 
-                               'FOREIGNWORDSTART' in tgt_chunk)
-        
-        src_chunk = re.sub(r'FOREIGNWORDSTART(.*?)FOREIGNWORDEND', r'\1', src_chunk)
-        tgt_chunk = re.sub(r'FOREIGNWORDSTART(.*?)FOREIGNWORDEND', r'\1', tgt_chunk)
-        
-        src_chunk = re.sub(r'\s+', ' ', src_chunk).strip()
-        tgt_chunk = re.sub(r'\s+', ' ', tgt_chunk).strip()
-
-        # NEW: Keep original chunks AND create stripped versions
-        src_chunk_original = src_chunk
-        tgt_chunk_original = tgt_chunk
-        _, src_chunk_no_quotes = strip_quotes_preserve_original(src_chunk)
-        _, tgt_chunk_no_quotes = strip_quotes_preserve_original(tgt_chunk)
-
-        src_sents = spacy_sent(src_chunk_no_quotes) if src_chunk_no_quotes else []
-        tgt_sents = spacy_sent(tgt_chunk_no_quotes) if tgt_chunk_no_quotes else []
-        if not src_sents and not tgt_sents:
-            continue
-
-        if src_sents is None:
-            src_sents = []
-        if tgt_sents is None:
-            tgt_sents = []
-
-        if len(src_sents) == 0 and len(tgt_sents) == 0:
-            continue
-
-        max_len = max(len(src_sents), len(tgt_sents))
-        for i in range(max_len):
-            src_sent = src_sents[i] if i < len(src_sents) else ""
-            tgt_sent = tgt_sents[i] if i < len(tgt_sents) else ""
-            
-            # RESTORE QUOTES IMMEDIATELY after sentence extraction
-            if src_sent:
-                src_sent = restore_quotes_to_sentence(src_chunk_original, src_chunk_no_quotes, src_sent)
-            if tgt_sent:
-                tgt_sent = restore_quotes_to_sentence(tgt_chunk_original, tgt_chunk_no_quotes, tgt_sent)
-     
-            has_correction = (src_sent.strip() != tgt_sent.strip())
-            
-            # Check if this is continuation of split compound word
-            if (pairs and 
-                src_sent and len(src_sent.split()) == 1 and src_sent[0].islower() and
-                tgt_sent and len(tgt_sent.split()) == 1 and tgt_sent[0].isupper()):
-                # Merge with previous pair - replace its target with current target
-                pairs[-1] = SentencePair(
-                    src=pairs[-1].src,
-                    tgt=tgt_sent,
-                    has_correction=True,
-                    has_foreign=pairs[-1].has_foreign or has_foreign_in_chunk
-                )
-                continue  # Skip adding this as separate pair
-            
-            if src_sent or tgt_sent:
-                # Filter mappings that appear in this sentence
-                sent_mappings = [
-                    (orig, tgt_map) for orig, tgt_map in orth_mappings
-                    if orig in src_sent
-                ]
-                
-                pairs.append(SentencePair(
-                    src=src_sent,
-                    tgt=tgt_sent,
-                    has_correction=has_correction,
-                    has_foreign=has_foreign_in_chunk,
-                    orth_mappings=sent_mappings
-                ))
-
-    return pairs

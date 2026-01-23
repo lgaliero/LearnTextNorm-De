@@ -1,3 +1,5 @@
+import re
+
 ABBREV_PATTERNS_NORM = [
     r'w\.\s*z\.\s*[bB]\.?',   # w.z.B, w. z. B, w.z.B.
     r'[zZ]\.\s*[bB]\.?',       # z.B, z. B, z.B., Z.B

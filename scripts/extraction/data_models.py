@@ -1,6 +1,6 @@
-from typing import List, Tuple, Optional
-from dataclassses import dataclass
-
+import re
+from dataclasses import dataclass
+from typing import List, Tuple
 
 @dataclass
 class SentencePair:
@@ -57,4 +57,20 @@ class TextBuilder:
             if self.parts[-1] and not self.parts[-1].endswith(' '):
                 self.parts.append(' ')
             self.parts.append(text)
-  
+    
+    def add_space(self):
+        """Explicitly add a space."""
+        if self.parts and not self.parts[-1].endswith(' '):
+            self.parts.append(' ')
+    
+    def add_marker(self, marker: str):
+        """Add a marker (like <SENTBREAK> or <FOREIGN>)."""
+        self.parts.append(marker)
+    
+    def get_text(self) -> str:
+        """Get accumulated text with cleanup."""
+        text = ''.join(self.parts)
+        # Clean up multiple spaces but preserve single spaces
+        text = re.sub(r' +', ' ', text)
+        # Preserve all original punctuation spacing
+        return text.strip()

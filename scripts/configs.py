@@ -61,20 +61,6 @@ class ExtractionParams:
 
 
 # =======================
-# COMPUTING STATISTICS
-# =======================
-class StatsDisplay:
-    MAIN_STATS = True               #1 Display overview # Main corpus statistics table
-    SUBCORPUS_STATS = True          #2 Display sentence count by subcorpus
-    CORRECTION_BREAKDOWN = True     #3A Correction breakdown by subcorpus # Correction stats by subcorpus
-    CORRECTION_SUMMARY = True       #3B Correction breakdown by subcorpus # Overall correction summary
-    CORRECTED_ONLY_STATS =  False   #4 Detailed stats for corrected pairs only
-    STATS_PER_TEXT_TYPE = True      #5A
-    TEXT_TYPE_SENTENCE_LEV = False  #5B
-    TEXT_TYPE_DOCUMENT_LEV = False  #5C
-    TEXT_TYPE_COMBINED = True       #6 Stats for text type
-
-# =======================
 # TEST SET CREATION
 # =======================
 class DataSplits:

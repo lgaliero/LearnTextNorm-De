@@ -1,5 +1,7 @@
-from typing import Tuple, List, Optional
-from .constants import *
+import re
+from .data_models import SentencePair
+from typing import Tuple, Optional
+from .constants import ABBREV_PATTERNS_NORM, ABBREVIATIONS, ABBREV_PATTERN, QUOTE_CHARS
 
 def strip_quotes_preserve_original(text: str) -> Tuple[str, str]:
     """

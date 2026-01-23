@@ -1,125 +1,131 @@
-import re
+# At the top of pipeline.py
 import os
+import re
 import csv
-import copy
-import spacy
-import argparse
-import logging
 import pandas as pd
+from typing import List, Dict, Optional
 from configs import Paths, ExtractionParams
-
+from .logger import debug
+from .data_models import SentencePair
+from .pair_builder import PairBuilder
+from .file_formats import NormWriter
+from .xml_helpers import inject_spaces_between_tags, strip_namespace
+from .text_utils import tokenize_preserve_abbrev
+from .constants import ABBREV_PATTERN, QUOTE_CHARS
 import xml.etree.ElementTree as ET
-from typing import List, Tuple, Dict, Optional
-from dataclasses import dataclass
 
-from extraction.extractor_kolipsi import extract_kolipsi_sentences
-from extraction.extractor_leonide import extract_leonide_sentences
-
-def extract_from_xml(xml_content: str, corpus_type: str) -> List[SentencePair]:
-    """Main extraction function."""
-    # Inject space wrappers
-    xml_content = inject_spaces_between_tags(xml_content)
-
-    try:
-        root = ET.fromstring(xml_content)
-    except ET.ParseError as e:
-        print(f"[ERROR] XML Parse Error: {e}")
-        return []
-
-    if corpus_type == "LEONIDE":
-        paras = root.findall('.//{http://www.eurac.edu/transcanno}paragraph') or root.findall('.//paragraph')
-        
-        unique_paras = []
-        seen_ids = set()
-        for para in paras:
-            para_id = id(para)
-            if para_id not in seen_ids:
-                seen_ids.add(para_id)
-                unique_paras.append(para)
-        
-        all_pairs = []
-        consumed = set()
-        last_para_orth_errors = {}  # Track tagcodes across paragraphs
-        
-        for i, para in enumerate(unique_paras):
-            if i in consumed:
-                continue
-            
-            # Extract orth_errors from this paragraph BEFORE sentence extraction
-            current_para_orth_errors = {}
-            for elem in para.iter():
-                tag = strip_namespace(elem.tag)
-                if 'orth_error' in tag:
-                    tagcode = elem.get('tagcode', '')
-                    target = elem.get('orth_error_target', '')
-                    if tagcode and target:
-                        current_para_orth_errors[tagcode] = target
-            
-            para_pairs = extract_leonide_sentences(para, unique_paras)
-            
-            # Check for incomplete sentence at end (existing logic)
-            if para_pairs and i + 1 < len(unique_paras):
-                last_pair = para_pairs[-1]
-                src_incomplete = last_pair.src and not last_pair.src.rstrip().endswith(('.', '!', '?'))
-                tgt_incomplete = last_pair.tgt and not last_pair.tgt.rstrip().endswith(('.', '!', '?'))
-                
-                if src_incomplete or tgt_incomplete:
-                    next_pairs = extract_leonide_sentences(unique_paras[i + 1])
-                    
-                    if next_pairs:
-                        next_pair = next_pairs[0]
-                        next_src_lower = next_pair.src and (len(next_pair.src) == 0 or next_pair.src[0].islower())
-                        next_tgt_lower = next_pair.tgt and (len(next_pair.tgt) == 0 or next_pair.tgt[0].islower())
-                        
-                        if next_src_lower or next_tgt_lower:
-                            merged_src = last_pair.src.rstrip() + ' ' + next_pair.src
-                            merged_tgt = last_pair.tgt.rstrip() + ' ' + next_pair.tgt
-                            merged_mappings = list(last_pair.orth_mappings) + list(next_pair.orth_mappings)
-                            
-                            para_pairs[-1] = SentencePair(
-                                src=merged_src,
-                                tgt=merged_tgt,
-                                has_correction=(merged_src.strip() != merged_tgt.strip()),
-                                has_foreign=last_pair.has_foreign or next_pair.has_foreign,
-                                orth_mappings=merged_mappings
-                            )
-                            consumed.add(i + 1)
-                            all_pairs.extend(para_pairs)
-                            all_pairs.extend(next_pairs[1:])
-                            last_para_orth_errors = current_para_orth_errors
-                            continue
-            
-            all_pairs.extend(para_pairs)
-            last_para_orth_errors = current_para_orth_errors
-        
-        return all_pairs
-
-    else:  # Kolipsi
-        if "Kolipsi_1" in corpus_type or "Kolipsi-1" in corpus_type:
-            ns_body = '{http://www.eurac.edu/kolipsi}body'
-        else:
-            ns_body = '{http://www.eurac.edu/kolipsi_II}body'
+class TextExtractor:
+    """Handles extraction pipeline from XML content."""
     
-        body = root.find(f'.//{ns_body}')
-        if body is None:
-            body = root.find('.//body')
+    def __init__(self, corpus_type: str):
+        self.corpus_type = corpus_type
     
-        if body is None:
-            print(f"[ERROR] No body element found")
+    def extract(self, xml_content: str) -> List[SentencePair]:
+        """Main extraction function."""
+        # Inject space wrappers
+        xml_content = inject_spaces_between_tags(xml_content)
+
+        try:
+            root = ET.fromstring(xml_content)
+        except ET.ParseError as e:
+            print(f"[ERROR] XML Parse Error: {e}")
             return []
+
+        if self.corpus_type == "LEONIDE":
+            paras = root.findall('.//{http://www.eurac.edu/transcanno}paragraph') or root.findall('.//paragraph')
+            
+            unique_paras = []
+            seen_ids = set()
+            for para in paras:
+                para_id = id(para)
+                if para_id not in seen_ids:
+                    seen_ids.add(para_id)
+                    unique_paras.append(para)
+            
+            all_pairs = []
+            consumed = set()
+            last_para_orth_errors = {}  # Track tagcodes across paragraphs
+            
+            for i, para in enumerate(unique_paras):
+                if i in consumed:
+                    continue
+                
+                # Extract orth_errors from this paragraph BEFORE sentence extraction
+                current_para_orth_errors = {}
+                for elem in para.iter():
+                    tag = strip_namespace(elem.tag)
+                    if 'orth_error' in tag:
+                        tagcode = elem.get('tagcode', '')
+                        target = elem.get('orth_error_target', '')
+                        if tagcode and target:
+                            current_para_orth_errors[tagcode] = target
+                
+                para_pairs = PairBuilder.from_leonide(para, unique_paras)
+                
+                # Check for incomplete sentence at end (existing logic)
+                if para_pairs and i + 1 < len(unique_paras):
+                    last_pair = para_pairs[-1]
+                    src_incomplete = last_pair.src and not last_pair.src.rstrip().endswith(('.', '!', '?'))
+                    tgt_incomplete = last_pair.tgt and not last_pair.tgt.rstrip().endswith(('.', '!', '?'))
+                    
+                    if src_incomplete or tgt_incomplete:
+                        next_pairs = PairBuilder.from_leonide(unique_paras[i + 1])
+                        
+                        if next_pairs:
+                            next_pair = next_pairs[0]
+                            next_src_lower = next_pair.src and (len(next_pair.src) == 0 or next_pair.src[0].islower())
+                            next_tgt_lower = next_pair.tgt and (len(next_pair.tgt) == 0 or next_pair.tgt[0].islower())
+                            
+                            if next_src_lower or next_tgt_lower:
+                                merged_src = last_pair.src.rstrip() + ' ' + next_pair.src
+                                merged_tgt = last_pair.tgt.rstrip() + ' ' + next_pair.tgt
+                                merged_mappings = list(last_pair.orth_mappings) + list(next_pair.orth_mappings)
+                                
+                                para_pairs[-1] = SentencePair(
+                                    src=merged_src,
+                                    tgt=merged_tgt,
+                                    has_correction=(merged_src.strip() != merged_tgt.strip()),
+                                    has_foreign=last_pair.has_foreign or next_pair.has_foreign,
+                                    orth_mappings=merged_mappings
+                                )
+                                consumed.add(i + 1)
+                                all_pairs.extend(para_pairs)
+                                all_pairs.extend(next_pairs[1:])
+                                last_para_orth_errors = current_para_orth_errors
+                                continue
+                
+                all_pairs.extend(para_pairs)
+                last_para_orth_errors = current_para_orth_errors
+            
+            return all_pairs
+
         
-        exercises = body.findall('.//exercise')
-        if not exercises:
-            exercises = [body]
+        else:  # Kolipsi
+            if "Kolipsi_1" in self.corpus_type or "Kolipsi-1" in self.corpus_type:
+                ns_body = '{http://www.eurac.edu/kolipsi}body'
+            else:
+                ns_body = '{http://www.eurac.edu/kolipsi_II}body'
+        
+            body = root.find(f'.//{ns_body}')
+            if body is None:
+                body = root.find('.//body')
+        
+            if body is None:
+                print(f"[ERROR] No body element found")
+                return []
+            
+            exercises = body.findall('.//exercise')
+            if not exercises:
+                exercises = [body]
 
-        all_pairs = []
-        for ex in exercises:
-            if ex is None:
-                continue
-            pairs = extract_kolipsi_sentences(ex)
-            all_pairs.extend(pairs)
+            all_pairs = []
+            for ex in exercises:
+                if ex is None:
+                    continue
+                pairs = PairBuilder.from_kolipsi(ex)
+                all_pairs.extend(pairs)
 
-        return all_pairs
+            return all_pairs
 
 def clean_sentence_pairs(pairs: List[SentencePair]) -> List[SentencePair]:
     """Clean and deduplicate sentence pairs."""
@@ -263,19 +269,35 @@ def process_file(xml_path: str, corpus_type: str) -> List[SentencePair]:
     if not os.path.exists(xml_path):
         raise FileNotFoundError(f"{xml_path} not found")
 
+    # ADD THESE DEBUG LINES:
+    print(f"[DEBUG] Reading file: {xml_path}")
+    print(f"[DEBUG] File size: {os.path.getsize(xml_path)} bytes")
+
     with open(xml_path, "r", encoding="utf-8", errors="ignore") as f:
         xml_content = f.read()
     
+    # ADD THIS:
+    print(f"[DEBUG] Content length: {len(xml_content)} chars")
+    print(f"[DEBUG] First 200 chars: {xml_content[:200]}")
+    
     try:
-        # CRITICAL: Each file is a fresh extraction
-        pairs = extract_from_xml(xml_content, corpus_type)
+        # Inject space wrappers
+        xml_content = inject_spaces_between_tags(xml_content)
         
-        # Clean pairs for THIS file only (quotes are stripped at this point)
+        # ADD THIS:
+        print(f"[DEBUG] After injection: {len(xml_content)} chars")
+        
+        extractor = TextExtractor(corpus_type)
+        pairs = extractor.extract(xml_content)
+        
+        # Clean pairs
         cleaned = clean_sentence_pairs(pairs)
         
         return cleaned
     except Exception as e:
         print(f"     ERROR: {e}")
+        import traceback
+        traceback.print_exc()
         return []
 
 def process_corpora(
@@ -341,86 +363,67 @@ def process_corpora(
         if output_format in ["norm", "both"]:
             debug(f"\n[DEBUG NORM] Writing NORM output for {corpus_name}...")
             out_path = os.path.join(output_dir, f"{corpus_name}.norm")
-            #Track metadata for each sentence
-            current_line = 1 # Track line number in .norm file
-            with open(out_path, "w", encoding="utf-8") as fh:
+            
+            with NormWriter(out_path) as norm_writer:
                 debug(f"[DEBUG NORM] Processing {len(corpus_pairs_with_files)} files...")
-
-                mapping_dict = {}
-                target_counts = {}
-                # After this line (around line 1556):
+                
                 for xml_filename, pairs in corpus_pairs_with_files:
                     for pair_idx, pair in enumerate(pairs):
-                        sent_start_line = current_line
+                        sent_start_line = norm_writer.start_sentence()
                         debug(f"[DEBUG NORM] Pair {pair_idx} has {len(pair.orth_mappings)} mappings: {pair.orth_mappings[:3] if len(pair.orth_mappings) > 3 else pair.orth_mappings}")
                         
-                        # ADD THIS DEBUG LINE:
                         debug(f"[DEBUG NORM BEFORE TOKEN] SRC='{pair.src}', TGT='{pair.tgt}'")
                         
-                        # Build mapping dict PER PAIR (like display_norm_preview does)
-                        mapping_list = pair.orth_mappings
+                        # Build mapping dict PER PAIR
                         mapping_dict = {orig: tgt_map for orig, tgt_map in pair.orth_mappings}
-                        used_mapping_indices = set()  # Track which mapping indices we've consumed
-
-                        # Count how many src words map to the same target (for many-to-1 cases)
+                        used_mapping_indices = set()
+                        
+                        # Count how many src words map to the same target
                         target_counts = {}
                         for orig, tgt_map in pair.orth_mappings:
                             target_counts[tgt_map] = target_counts.get(tgt_map, 0) + 1
-                        debug(f"[DEBUG NORM] Pair {pair_idx} has {len(pair.orth_mappings)} mappings: {pair.orth_mappings[:3] if len(pair.orth_mappings) > 3 else pair.orth_mappings}")
-         
-                        # If we have orth_error mappings, use them for precise alignment
-                        if True:
-                            src_words = tokenize_preserve_abbrev(pair.src)
-                            tgt_words = tokenize_preserve_abbrev(pair.tgt)
-
-                            # ADD THIS DEBUG LINE:
-                            debug(f"[DEBUG NORM AFTER TOKEN] src_words={src_words}, tgt_words={tgt_words}")
-                            # Pre-compute tokenized lengths for all mapping targets
-                            target_token_counts = {}
-                            if pair.orth_mappings:
-                                for _, tgt_val in pair.orth_mappings:
-                                    if tgt_val not in target_token_counts:
-                                        target_token_counts[tgt_val] = len(tokenize_preserve_abbrev(tgt_val))
-
-                                                                # Helper function to separate punctuation from word
-                            def separate_punct(word):
-                                """Separate trailing punctuation, preserving abbreviations."""
-                                # Check if it's an abbreviation (protected patterns)
-                                if ABBREV_PATTERN.match(word):
-                                    return word, ""
-                                
-                                # Separate trailing punctuation
-                                match = re.match(r'^(.*?)([.,!?;:]+)$', word)
-                                if match:
-                                    return match.group(1), match.group(2)
+                        
+                        # Tokenize
+                        src_words = tokenize_preserve_abbrev(pair.src)
+                        tgt_words = tokenize_preserve_abbrev(pair.tgt)
+                        
+                        debug(f"[DEBUG NORM AFTER TOKEN] src_words={src_words}, tgt_words={tgt_words}")
+                        
+                        # Pre-compute tokenized lengths for all mapping targets
+                        target_token_counts = {}
+                        if pair.orth_mappings:
+                            for _, tgt_val in pair.orth_mappings:
+                                if tgt_val not in target_token_counts:
+                                    target_token_counts[tgt_val] = len(tokenize_preserve_abbrev(tgt_val))
+                        
+                        # Helper function to separate punctuation from word
+                        def separate_punct(word):
+                            """Separate trailing punctuation, preserving abbreviations."""
+                            if ABBREV_PATTERN.match(word):
                                 return word, ""
-
-                            def split_punct_for_output(word):
-                                """Split word into base + punctuation for NORM output."""
-                                if not word:
-                                    return [""]
-                                
-                                # Preserve abbreviations
-                                if ABBREV_PATTERN.match(word):
-                                    return [word]
-                                
-                                # CRITICAL: If word is ONLY a quote character, return it as-is
-                                if word in QUOTE_CHARS:
-                                    return [word]
-                                
-                                # Split trailing punctuation AND quotes
-                                match = re.match(r'^(.*?)([.,!?;:"„""]+)$', word)
-                                if match:
-                                    base = match.group(1)
-                                    punct = match.group(2)
-                                    # Further split punct if it contains multiple characters
-                                    # e.g., '."' should become ['.', '"']
-                                    punct_chars = list(punct)
-                                    if base:
-                                        return [base] + punct_chars
-                                    else:
-                                        return punct_chars
+                            match = re.match(r'^(.*?)([.,!?;:]+)$', word)
+                            if match:
+                                return match.group(1), match.group(2)
+                            return word, ""
+                        
+                        def split_punct_for_output(word):
+                            """Split word into base + punctuation for NORM output."""
+                            if not word:
+                                return [""]
+                            if ABBREV_PATTERN.match(word):
                                 return [word]
+                            if word in QUOTE_CHARS:
+                                return [word]
+                            match = re.match(r'^(.*?)([.,!?;:"„""]+)$', word)
+                            if match:
+                                base = match.group(1)
+                                punct = match.group(2)
+                                punct_chars = list(punct)
+                                if base:
+                                    return [base] + punct_chars
+                                else:
+                                    return punct_chars
+                            return [word]
 
                             # If we have orth_error mappings, use them for precise alignment
                             if pair.orth_mappings:
@@ -482,10 +485,10 @@ def process_corpora(
                                                             src_group = [src_words[src_i + j] for j in range(len(orig_words_clean))]
                                                             # CRITICAL FIX: Split punctuation from target before writing
                                                             tgt_parts = split_punct_for_output(tgt_val)
-                                                            fh.write(f"{' '.join(src_group)}\t{tgt_parts[0]}\n")
+                                                            norm_writer.write(f"{' '.join(src_group)}\t{tgt_parts[0]}\n")
                                                             current_line += 1
                                                             for punct_part in tgt_parts[1:]:
-                                                                fh.write(f"\t{punct_part}\n")
+                                                                norm_writer.write(f"\t{punct_part}\n")
                                                                 current_line += 1
                                                             src_i += len(orig_words_clean)
                                                             tgt_i += len(tgt_val_words)
@@ -504,10 +507,10 @@ def process_corpora(
                                                                 src_group = [src_words[src_i + j] for j in range(len(orig_words_clean))]
                                                                 # CRITICAL FIX: Split punctuation from target before writing
                                                                 tgt_parts = split_punct_for_output(tgt_val)
-                                                                fh.write(f"{' '.join(src_group)}\t{tgt_parts[0]}\n")
+                                                                norm_writer.write(f"{' '.join(src_group)}\t{tgt_parts[0]}\n")
                                                                 current_line += 1
                                                                 for punct_part in tgt_parts[1:]:
-                                                                    fh.write(f"\t{punct_part}\n")
+                                                                    norm_writer.write(f"\t{punct_part}\n")
                                                                     current_line += 1
                                                                 src_i += len(orig_words_clean)
                                                                 tgt_i += len(tgt_val_words)
@@ -558,10 +561,10 @@ def process_corpora(
                                                     debug(f"[DEBUG ABBREV]   ✓ NORMALIZED MATCH: '{lookahead_text}' == '{orig_key}'")
                                                     # CRITICAL FIX: Split punctuation from target before writing
                                                     tgt_parts = split_punct_for_output(tgt_val)
-                                                    fh.write(f"{lookahead_text}\t{tgt_parts[0]}\n")
+                                                    norm_writer.write(f"{lookahead_text}\t{tgt_parts[0]}\n")
                                                     current_line += 1
                                                     for punct_part in tgt_parts[1:]:
-                                                        fh.write(f"\t{punct_part}\n")
+                                                        norm_writer.write(f"\t{punct_part}\n")
                                                         current_line += 1
                                                     src_i += len(lookahead_words)
                                                     tgt_i += len(tgt_val.split())
@@ -570,10 +573,10 @@ def process_corpora(
                                                 elif lookahead_text == orig_key:
                                                     # CRITICAL FIX: Split punctuation from target before writing
                                                     tgt_parts = split_punct_for_output(tgt_val)
-                                                    fh.write(f"{lookahead_text}\t{tgt_parts[0]}\n")
+                                                    norm_writer.write(f"{lookahead_text}\t{tgt_parts[0]}\n")
                                                     current_line += 1
                                                     for punct_part in tgt_parts[1:]:
-                                                        fh.write(f"\t{punct_part}\n")
+                                                        norm_writer.write(f"\t{punct_part}\n")
                                                         current_line += 1
                                                     src_i += len(lookahead_words)
                                                     tgt_i += len(tgt_val.split())
@@ -601,7 +604,7 @@ def process_corpora(
                                         
                                         # If all occurrences already used, treat as regular word
                                         if matching_idx is None:
-                                            fh.write(f"{src_word}\t{tgt_word}\n")
+                                            norm_writer.write(f"{src_word}\t{tgt_word}\n")
                                             src_i += 1
                                             tgt_i += 1
                                             continue
@@ -656,11 +659,11 @@ def process_corpora(
                                                 
                                                 # CRITICAL FIX: Split punctuation from tgt_word before writing
                                                 tgt_parts = split_punct_for_output(tgt_word)
-                                                fh.write(f"{' '.join(src_group)}\t{tgt_parts[0]}\n")
+                                                norm_writer.write(f"{' '.join(src_group)}\t{tgt_parts[0]}\n")
                                                 current_line += 1
                                                 # Write remaining punctuation on separate lines
                                                 for punct_part in tgt_parts[1:]:
-                                                    fh.write(f"\t{punct_part}\n")
+                                                    norm_writer.write(f"\t{punct_part}\n")
                                                     current_line += 1
                                                 for idx in consumed_indices:
                                                     used_mapping_indices.add(idx)
@@ -681,7 +684,7 @@ def process_corpora(
                                             for i in range(max_parts):
                                                 s = src_parts[i] if i < len(src_parts) else ""
                                                 t = tgt_parts[i] if i < len(tgt_parts) else ""
-                                                fh.write(f"{s}\t{t}\n")
+                                                norm_writer.write_word_pair
                                                 current_line += 1
                                             used_mapping_indices.add(matching_idx)
                                             src_i += 1
@@ -703,7 +706,7 @@ def process_corpora(
                                                 for i in range(max_parts):
                                                     s = src_parts[i] if i < len(src_parts) else ""
                                                     t = tgt_parts[i] if i < len(tgt_parts) else ""
-                                                    fh.write(f"{s}\t{t}\n")
+                                                    norm_writer.write_word_pair
                                                     current_line += 1
                                                 used_mapping_indices.add(matching_idx)
                                                 src_i += 1
@@ -712,31 +715,31 @@ def process_corpora(
                                             # If alignment doesn't match, fall through to default alignment
                                     
                                     # Default: no mapping found, simple word-by-word alignment
+                                    # NOW USE:
                                     src_parts = split_punct_for_output(src_word)
                                     tgt_parts = split_punct_for_output(tgt_word)
                                     max_parts = max(len(src_parts), len(tgt_parts))
                                     for i in range(max_parts):
                                         s = src_parts[i] if i < len(src_parts) else ""
                                         t = tgt_parts[i] if i < len(tgt_parts) else ""
-                                        fh.write(f"{s}\t{t}\n")
-                                        current_line += 1
+                                        norm_writer.write_word_pair(s, t)  # ← CHANGED
+                                    
                                     src_i += 1
                                     tgt_i += 1
-
+                                
                                 # Handle remaining words
                                 while src_i < len(src_words):
                                     src_parts = split_punct_for_output(src_words[src_i])
                                     for part in src_parts:
-                                        fh.write(f"{part}\t\n")
-                                        current_line += 1
+                                        norm_writer.write_word_pair(part, "")  # ← CHANGED
                                     src_i += 1
-
+                                
                                 while tgt_i < len(tgt_words):
                                     tgt_parts = split_punct_for_output(tgt_words[tgt_i])
                                     for part in tgt_parts:
-                                        fh.write(f"\t{part}\n")
-                                        current_line += 1
+                                        norm_writer.write_word_pair("", part)  # ← CHANGED
                                     tgt_i += 1
+                            
                             else:
                                 # No mappings: simple word-by-word alignment
                                 max_len = max(len(src_words), len(tgt_words))
@@ -749,15 +752,11 @@ def process_corpora(
                                     for j in range(max_parts):
                                         s = src_parts[j] if j < len(src_parts) else ""
                                         t = tgt_parts[j] if j < len(tgt_parts) else ""
-                                        fh.write(f"{s}\t{t}\n")
-                                        current_line += 1
-
-                            fh.write("\n")
-                            sent_end_line = current_line #End line is the blank line
-                            current_line += 1
-
-                            # Store line mapping
-                            norm_line_map[(corpus_name, xml_filename, pair_idx + 1)] = (sent_start_line, sent_end_line)
+                                        norm_writer.write_word_pair(s, t)  # ← CHANGED
+                            
+                            # End sentence
+                            norm_writer.write_blank_line()  # ← CHANGED
+                            norm_writer.end_sentence(corpus_name, xml_filename, pair_idx + 1, sent_start_line)  # ← CHANGED
 
             total_pairs = sum(len(pairs) for _, pairs in corpus_pairs_with_files)
             print(f"  Wrote {total_pairs} pairs to {out_path}")
