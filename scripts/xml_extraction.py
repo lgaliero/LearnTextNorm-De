@@ -2073,10 +2073,6 @@ def extract_leonide_sentences(paragraph, all_paragraphs=None) -> List[SentencePa
         # Clean up spaces
         src = re.sub(r'\s+', ' ', src).strip()
         tgt = re.sub(r'\s+', ' ', tgt).strip()
-        
-        # ADD THESE TWO LINES (in case spaces were reintroduced):
-        src = re.sub(r'\s+([.,!?;:])', r'\1', src)
-        tgt = re.sub(r'\s+([.,!?;:])', r'\1', tgt)
 
         debug(f"[DEBUG SRC (cleaned)]: '{src[:200]}'")
         debug(f"[DEBUG TGT (cleaned)]: '{tgt[:200]}'")
@@ -2309,10 +2305,6 @@ def clean_sentence_pairs(pairs: List[SentencePair]) -> List[SentencePair]:
         
         src = re.sub(r"\s*\n\s*", " ", pair.src).strip()
         tgt = re.sub(r"\s*\n\s*", " ", pair.tgt).strip()
-
-        # Remove spaces before punctuation for correct German typography
-        src = re.sub(r'\s+([.,!?;:])', r'\1', src)
-        tgt = re.sub(r'\s+([.,!?;:])', r'\1', tgt)
 
         # Skip sentences containing arrow ->
         if '->' in src or '->' in tgt:
@@ -2986,7 +2978,7 @@ if __name__ == "__main__":
     help='Specify which corpora to process (e.g., LEONIDE Kolipsi_1_L2)')
     parser.add_argument('--output-dir', default=Paths.EXTRACT_DIR)
     parser.add_argument('--format',
-                        default=ExtractionParams.OUTPUT_FORMAT,
+                        default=ExtractionParams.FORMAT,
                         choices=['tsv', 'norm', 'both'])
     parser.add_argument('--max-files', type=int, default=None)
 

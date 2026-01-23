@@ -74,12 +74,7 @@ def parse_norm_file_simple(norm_path: str) -> List[Tuple[str, str, int, int]]:
                 if current_src or current_tgt:
                     src_sent = ' '.join(current_src).strip()
                     tgt_sent = ' '.join(current_tgt).strip()
-                    
-                    # *** ADD THESE TWO LINES ***
-                    # Remove spaces before punctuation for correct German typography
-                    src_sent = re.sub(r'\s+([.,!?;:)\]])', r'\1', src_sent)
-                    tgt_sent = re.sub(r'\s+([.,!?;:)\]])', r'\1', tgt_sent)
-                    
+            
                     sent_end_line = current_line  # Blank line is the end
                     sentences.append((src_sent, tgt_sent, sent_start_line, sent_end_line))
                     current_src = []
@@ -109,11 +104,6 @@ def parse_norm_file_simple(norm_path: str) -> List[Tuple[str, str, int, int]]:
     if current_src or current_tgt:
         src_sent = ' '.join(current_src).strip()
         tgt_sent = ' '.join(current_tgt).strip()
-        
-        # *** ADD THESE TWO LINES ***
-        # Remove spaces before punctuation for correct German typography
-        src_sent = re.sub(r'\s+([.,!?;:)\]])', r'\1', src_sent)
-        tgt_sent = re.sub(r'\s+([.,!?;:)\]])', r'\1', tgt_sent)
         
         sent_end_line = current_line  # Last line of file
         sentences.append((src_sent, tgt_sent, sent_start_line, sent_end_line))

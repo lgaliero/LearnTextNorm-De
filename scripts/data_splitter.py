@@ -532,6 +532,71 @@ def create_json(output_dir: str, baseline_file: str = None,
     print(f"✓ Processed {len(results)} test sentences")
     print(f"✓ Baselines included: {sum(1 for r in results if r['baseline_output'] != 'to be added')}/{len(results)}")
 
+
+def regenerate_splits_from_indices(output_dir: str, tsv_path: str) -> None:
+    """
+    Regenerate .src, .tgt files from existing indices WITHOUT creating new splits.
+    Preserves the existing random splits by reading from indices files.
+    
+    Args:
+        output_dir: Directory containing the split indices files (fallback)
+        tsv_path: Path to the corpus TSV (source of truth for sentences)
+    """
+    print("\n" + "=" * 80)
+    print("REGENERATING SPLIT FILES FROM EXISTING INDICES")
+    print("=" * 80)
+    print("⚠️  This will OVERWRITE .src and .tgt files but keep the same splits")
+    
+    # Load the full corpus TSV
+    df = pd.read_csv(tsv_path, encoding="utf-8", sep="\t", on_bad_lines='warn')
+    print(f"✓ Loaded corpus TSV with {len(df)} sentences\n")
+    
+    # Process each split
+    for split_name in ['test', 'train', 'dev']:
+        # *** FIX: Get indices path from same directory as .src file ***
+        # Use config paths if available
+        if split_name == "test":
+            src_file = Paths.TEST_SRC if hasattr(Paths, 'TEST_SRC') else os.path.join(output_dir, f"{split_name}.src")
+        elif split_name == "train":
+            src_file = Paths.TRAIN_SRC if hasattr(Paths, 'TRAIN_SRC') else os.path.join(output_dir, f"{split_name}.src")
+        elif split_name == "dev":
+            src_file = Paths.DEV_SRC if hasattr(Paths, 'DEV_SRC') else os.path.join(output_dir, f"{split_name}.src")
+        
+        # Derive indices file location from .src file directory
+        src_dir = os.path.dirname(src_file)
+        indices_file = os.path.join(src_dir, f"{split_name}_indices.tsv")
+        
+        # Fallback to output_dir if not found
+        if not os.path.exists(indices_file):
+            indices_file = os.path.join(output_dir, f"{split_name}_indices.tsv")
+        
+        if not os.path.exists(indices_file):
+            print(f"⚠️  Skipping {split_name}: indices file not found")
+            print(f"     Looked in: {src_dir}")
+            print(f"     And in: {output_dir}")
+            continue
+        
+        print(f"--- Regenerating {split_name} set ---")
+        print(f"  Reading indices from: {indices_file}")
+        
+        # Load indices from TSV
+        df_indices = pd.read_csv(indices_file, sep='\t', encoding='utf-8')
+        indices = df_indices['DF_INDEX'].tolist()
+        
+        # Get the actual data for these indices from main TSV
+        df_split = df.loc[indices].copy()
+        
+        print(f"  Loaded {len(indices)} indices")
+        print(f"  Extracting sentences from main TSV...")
+        
+        # Use save_splits to write .src and .tgt files
+        save_splits(df_split, split_name, output_dir, indices, df)
+        
+        print(f"  ✓ Regenerated {split_name}.src and {split_name}.tgt\n")
+    
+    print("✅ All split files regenerated successfully!")
+    print("   The splits remain identical (same indices used)")
+    
 def create_norm_files(output_dir: str, tsv_path: str) -> None:
     """
     Generate verticalized .norm files for train, dev, and test splits using TSV metadata.
@@ -654,6 +719,10 @@ def main(tsv_path: str = Paths.EXTRACT_TSV,
     if create_mode == "norm":
         create_norm_files(output_dir, tsv_path)
         return
+
+    if create_mode == "regenerate":
+        regenerate_splits_from_indices(output_dir, tsv_path)
+        return
     
     # Load corpus
     print(f"Loading corpus from {tsv_path}...")
@@ -688,6 +757,7 @@ def main(tsv_path: str = Paths.EXTRACT_TSV,
             print("5. Generate 2S_prompts.json (2-shot prompting)")
             print("6. Update baseline outputs in 2S_prompts.json")
             print("7. Generate .norm files for splits")
+            print("8. Regenerate .src/.tgt from existing indices (no new splits)")  # ADD THIS
         else:
             print("1. Create all sets (test, train, dev)")
             print("2. Create only test set")
@@ -696,8 +766,9 @@ def main(tsv_path: str = Paths.EXTRACT_TSV,
             print("5. Generate 2S_prompts.json (2-shot prompting)")
             print("6. Update baseline outputs in 2S_prompts.json")
             print("7. Generate .norm files for splits")
+            print("8. Regenerate .src/.tgt from existing indices (no new splits)")  # ADD THIS
         
-        choice = input("\nEnter your choice (1-7): ").strip()
+        choice = input("\nEnter your choice (1-8): ").strip()  # CHANGE to 1-8
         
         if choice == "5":
             print("\nSelect model:")
@@ -723,6 +794,28 @@ def main(tsv_path: str = Paths.EXTRACT_TSV,
                 create_json(output_dir, update_mode=True, model_name=model_name)
             return
         
+        if choice == "7":
+            create_norm_files(output_dir, tsv_path)
+            return
+        
+        # ADD THIS:
+        if choice == "8":
+            regenerate_splits_from_indices(output_dir, tsv_path)
+            
+            # Ask if user wants to regenerate JSON too
+            response = input("\nDo you want to regenerate 2S_prompts.json now? (yes/no): ").strip().lower()
+            if response in ['yes', 'y']:
+                print("\nSelect model:")
+                print("1. LLaMA")
+                print("2. GPT")
+                print("3. Gemma")
+                model_choice = input("Enter choice (1-3): ").strip()
+                model_map = {'1': 'llama', '2': 'gpt', '3': 'gemma'}
+                model_name = model_map.get(model_choice)
+                if model_name:
+                    create_json(output_dir, update_mode=False, model_name=model_name)
+            return
+
         if test_exists:
             if choice == "1":
                 create_mode = "train_dev"
@@ -851,9 +944,10 @@ if __name__ == "__main__":
     parser.add_argument('--seed', type=int, default=42,
                        help='Random seed for reproducibility')
     parser.add_argument('--mode', choices=['all', 'test', 'train', 'dev', 
-                                          'train_dev', 'json', 'update_json', 'norm','interactive'],
-                       default='interactive',
-                       help='What to create (default: interactive)')
+                                            'train_dev', 'json', 'update_json', 'norm', 
+                                            'regenerate', 'interactive'],  # ADD 'regenerate'
+                        default='interactive',
+                        help='What to create (default: interactive)')
     args = parser.parse_args()
     
     main(
