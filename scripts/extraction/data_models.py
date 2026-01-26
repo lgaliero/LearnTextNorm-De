@@ -21,7 +21,7 @@ class SentencePair:
 class TextBuilder:
     """
     Handles text accumulation with proper spacing preservation.
-    CRITICAL: Respects XML whitespace at all times.
+    Respects XML whitespace at all times.
     """
     def __init__(self):
         self.parts = []
