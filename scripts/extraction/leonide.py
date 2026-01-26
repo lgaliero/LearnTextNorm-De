@@ -8,8 +8,8 @@ from .xml_helpers import (
     strip_namespace,
     has_leading_whitespace,
     has_trailing_whitespace,
-    has_sentence_ending
 )
+from .text_utils import has_sentence_ending
 from .logger import debug
 
 def extract_leonide(paragraph, all_paragraphs=None) -> Tuple[str, str, bool, List[Tuple[str, str]]]:

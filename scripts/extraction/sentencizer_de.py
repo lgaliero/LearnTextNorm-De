@@ -63,15 +63,14 @@ def spacy_sent(text: str) -> List[str]:
     text = re.sub(r'\b(Min|min|bzw|usw|etc|ecc|ca|evtl|ggf|inkl|max|Nr|Tel|vs|Mr|Mrs|Ms|Dr|Prof|Fam|XXI|P\.S)\.', abbrev_replacer, text)
 
     
-    # CRITICAL: Split at numbered markers IMMEDIATELY - before ANY other processing
+    # Split at numbered markers IMMEDIATELY - before ANY other processing
     text = re.sub(r'(\S)\s*\d+\)\s*', r'\1<SPLIT>', text)
 
-
-    # CRITICAL FIX: Protect ellipsis inside quotes from being treated as sentence boundary
+    # Protect ellipsis inside quotes from being treated as sentence boundary
     # Pattern: „ Text... WORD → should NOT split
     text = re.sub(r'(„[^"]*?)\.\.\.(\s+)([A-ZÄÖÜ])', r'\1ELLIPSISMARKER\2\3', text)
 
-    # CRITICAL: Force split at period + space + uppercase (sentence boundaries)
+    # Force split at period + space + uppercase (sentence boundaries)
     # This runs AFTER abbreviation protection, so z.B. is already safe as ZBTOKEN
     # Handle optional asterisks/bullets between period and uppercase
     text = re.sub(r'(?<!\d)\.(?!\.)(?!<DOT>)\s+(?:\*\s+)?([A-ZÄÖÜ])', r'.<SPLIT>\1', text)
@@ -83,8 +82,10 @@ def spacy_sent(text: str) -> List[str]:
     # But NOT after abbreviations or numbers
     # Check what comes after: if it's "und" or other lowercase text, it's likely a compound word, not sentence end
     text = re.sub(r'(?<!\d)\.(?!\.)(?!<DOT>)(\s+)(?=und\s)', r'\1', text)  # Remove period but keep space before "und" (compound word)
+    
     # First, temporarily mark periods inside ZBPROTECT zones so they won't be split
     text = re.sub(r'(ZBPROTECT[^Z]*?)\.(.*?ZBPROTECTEND)', r'\1<ZBDOT>\2', text)
+    
     # Now split at periods, but exclude <ZBDOT>
     text = re.sub(r'(?<!\d)\.(?!\.)(?!<DOT>)(?!<ZBDOT>)\s+([A-ZÄÖÜ])', r'.<SPLIT>\1', text)
     # Restore the protected periods
@@ -178,7 +179,7 @@ def spacy_sent(text: str) -> List[str]:
                 buffer = s_strip
         else:
             buffer = s_strip
-        # CRITICAL: Force sentence boundary at chunk end (from numbered list splits)
+        # Force sentence boundary at chunk end (from numbered list splits)
         if is_chunk_end and buffer:
             merged.append(buffer)
             buffer = ""

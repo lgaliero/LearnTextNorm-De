@@ -4,7 +4,7 @@ from .data_models import SentencePair
 from .kolipsi import extract_kolipsi
 from .leonide import extract_leonide  # ← Make sure this is here
 from .sentencizer_de import spacy_sent
-from .xml_helpers import strip_quotes_preserve_original, restore_quotes_to_sentence
+from .text_utils import strip_quotes_preserve_original, restore_quotes_to_sentence
 from .logger import debug
 import re
 
@@ -206,8 +206,7 @@ class PairBuilder:
 
             debug(f"[DEBUG SRC (cleaned)]: '{src[:200]}'")
             debug(f"[DEBUG TGT (cleaned)]: '{tgt[:200]}'")
-            
-            # NEW: Strip quotes BEFORE sentencizing
+
             # NEW: Strip quotes BEFORE sentencizing
             src_original, src_no_quotes = strip_quotes_preserve_original(src)
             tgt_original, tgt_no_quotes = strip_quotes_preserve_original(tgt)

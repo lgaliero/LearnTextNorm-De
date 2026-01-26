@@ -269,16 +269,8 @@ def process_file(xml_path: str, corpus_type: str) -> List[SentencePair]:
     if not os.path.exists(xml_path):
         raise FileNotFoundError(f"{xml_path} not found")
 
-    # ADD THESE DEBUG LINES:
-    print(f"[DEBUG] Reading file: {xml_path}")
-    print(f"[DEBUG] File size: {os.path.getsize(xml_path)} bytes")
-
     with open(xml_path, "r", encoding="utf-8", errors="ignore") as f:
         xml_content = f.read()
-    
-    # ADD THIS:
-    print(f"[DEBUG] Content length: {len(xml_content)} chars")
-    print(f"[DEBUG] First 200 chars: {xml_content[:200]}")
     
     try:
         # Inject space wrappers

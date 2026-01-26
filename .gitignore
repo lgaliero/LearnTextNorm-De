@@ -8,3 +8,4 @@ master_files/extraction_debug.log
 scripts/tok_out.py
 scripts/correction.py
 scripts/xml_extraction.py
+scripts/old_extr.py
