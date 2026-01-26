@@ -2,9 +2,6 @@ import re
 import spacy
 from typing import List
 from extraction.logger import debug
-from spacy.language import Language
-from spacy.pipeline import Sentencizer
-
 
 # Create a blank German pipeline
 nlp = spacy.blank("de")

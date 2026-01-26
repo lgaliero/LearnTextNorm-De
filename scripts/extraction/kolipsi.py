@@ -111,16 +111,7 @@ def extract_kolipsi(element) -> Tuple[str, str, bool, List[Tuple[str, str]]]:
                 and orig_text[0].islower() != tgt_text[0].islower()
                 and has_sentence_ending(prev_src)
                 and not tgt_text.endswith('-')):
-                
-                # Check if previous word is an adjective/adverb that shouldn't trigger split
                 prev_words = prev_src.split()
-                if prev_words:
-                    last_word = prev_words[-1].rstrip('.,!?').lower()
-                    # Don't split after common adjectives/adverbs before nouns
-                    non_boundary_words = {'sehr', 'viel', 'viele', 'wenig', 'wenige', 'mehr', 'alle', 'einige', 'manche', 'solche', "in"}
-                    if last_word not in non_boundary_words:
-                        src.add_marker(" <SENTBREAK> ")
-                        tgt.add_marker(" <SENTBREAK> ")
                         
             # Split multi-word forms by spaces and add word-by-word
             if orig_text:

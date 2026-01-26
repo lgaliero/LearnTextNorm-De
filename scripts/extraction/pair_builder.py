@@ -15,12 +15,6 @@ class PairBuilder:
     def from_kolipsi(element) -> List[SentencePair]:
         """Extract sentence pairs from Kolipsi element."""
         src_full, tgt_full, _, orth_mappings = extract_kolipsi(element)
-        debug(f"[DEBUG EXTRACT_KOLIPSI] RAW src BEFORE strip_quotes: '{src_full[:200]}'")
-        debug(f"[DEBUG EXTRACT_KOLIPSI] RAW tgt BEFORE strip_quotes: '{tgt_full[:200]}'")
-        debug(f"[DEBUG EXTRACT_KOLIPSI] Quote check - src contains quotes: {'\"' in src_full or '„' in src_full or '"' in src_full}")
-        
-        debug(f"[DEBUG extract_kolipsi_sentence] RAW SRC: '{src_full}'")
-        debug(f"[DEBUG extract_kolipsi_sentence] RAW TGT: '{tgt_full}'") 
 
         if not src_full and not tgt_full:
             return []

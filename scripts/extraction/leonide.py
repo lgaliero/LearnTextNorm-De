@@ -648,17 +648,12 @@ def extract_leonide(paragraph, all_paragraphs=None) -> Tuple[str, str, bool, Lis
                                 last_word = prev_words[-1] if prev_words else ""
                                 last_word_lower = last_word.rstrip('.,!?').lower()
                                 
-                                non_boundary_words = {'zum', 'der', 'die', 'das', 'den', 'dem', 'des', 'ein', 'eine', 'einen', 'einem', 'einer', 'im', 'am', 'vom', 'beim'}
-                                
-                                is_abbreviation = last_word.rstrip('.,!?') in {'z.B', 'u.a', 'd.h', 'bzw', 'etc', 'ca', 'evtl', 'Mr', 'Dr', 'Prof', 'vs', 'Fam'}
-                                
-                                if last_word_lower not in non_boundary_words and not is_abbreviation:
-                                    if original_text[0].islower() and target_attr[0].isupper():
-                                        src.add_marker(" <SENTBREAK> ")
-                                        tgt.add_marker(" <SENTBREAK> ")
-                                    elif original_text[0].isupper() and target_attr[0].isupper():
-                                        src.add_marker(" <SENTBREAK> ")
-                                        tgt.add_marker(" <SENTBREAK> ")
+                                if original_text[0].islower() and target_attr[0].isupper():
+                                    src.add_marker(" <SENTBREAK> ")
+                                    tgt.add_marker(" <SENTBREAK> ")
+                                elif original_text[0].isupper() and target_attr[0].isupper():
+                                    src.add_marker(" <SENTBREAK> ")
+                                    tgt.add_marker(" <SENTBREAK> ")
                 
                 # Add original text to src
                 if original_text:
