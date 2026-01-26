@@ -2,6 +2,7 @@ import re
 import spacy
 from typing import List
 from extraction.logger import debug
+from .constants import ABBREV_PATTERNS_NORM, QUOTE_CHARS
 
 # Create a blank German pipeline
 nlp = spacy.blank("de")
@@ -249,7 +250,6 @@ def tokenize_preserve_abbrev(text: str) -> List[str]:
     
     return final_tokens
 
-  
     def add_space(self):
         """Explicitly add a space."""
         if self.parts and not self.parts[-1].endswith(' '):
@@ -266,3 +266,21 @@ def tokenize_preserve_abbrev(text: str) -> List[str]:
         text = re.sub(r' +', ' ', text)
         # Preserve all original punctuation spacing
         return text.strip()
+
+def tokenize_for_stats(text: str) -> List[str]:
+    """
+    Tokenize text using spaCy for statistics counting.
+    Uses the existing blank German pipeline.
+    
+    Args:
+        text: Input text to tokenize
+        
+    Returns:
+        List of tokens
+    """
+    if not text or not text.strip():
+        return []
+    
+    # Use the existing nlp pipeline for tokenization
+    doc = nlp(text)
+    return [token.text for token in doc]

@@ -4,12 +4,11 @@ import xml.etree.ElementTree as ET
 from typing import List, Tuple, Dict, Optional
 from .data_models import TextBuilder
 from .constants import QUOTE_CHARS, ABBREVIATIONS
-from .xml_helpers import (
+from .xml_utils import (
     strip_namespace,
     has_leading_whitespace,
     has_trailing_whitespace,
 )
-from .text_utils import has_sentence_ending
 from .logger import debug
 
 def extract_leonide(paragraph, all_paragraphs=None) -> Tuple[str, str, bool, List[Tuple[str, str]]]:

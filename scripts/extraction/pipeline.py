@@ -9,9 +9,9 @@ from .logger import debug
 from .data_models import SentencePair
 from .pair_builder import PairBuilder
 from .file_formats import NormWriter
-from .xml_helpers import inject_spaces_between_tags, strip_namespace
-from .text_utils import tokenize_preserve_abbrev
-from .constants import ABBREV_PATTERN, QUOTE_CHARS
+from .xml_utils import inject_spaces_between_tags, strip_namespace
+from .spacy_utils_de import tokenize_for_stats, tokenize_preserve_abbrev, spacy_sent
+from .constants import ABBREV_PATTERN, QUOTE_CHARS, ABBREV_PATTERNS_NORM
 import xml.etree.ElementTree as ET
 
 class TextExtractor:
@@ -264,6 +264,118 @@ def clean_sentence_pairs(pairs: List[SentencePair]) -> List[SentencePair]:
     debug(f"[DEBUG FILTER STATS]: {filter_counts}")
     return cleaned
         
+def calculate_corpus_stats(pairs: List[SentencePair], corpus_name: str) -> Dict:
+    """
+    Calculate statistics for a corpus.
+    
+    Args:
+        pairs: List of sentence pairs
+        corpus_name: Name of the corpus
+        
+    Returns:
+        Dict with corpus statistics
+    """
+    total_tokens_src = 0
+    total_tokens_tgt = 0
+    
+    for pair in pairs:
+        # Tokenize to count tokens (use your tokenize_preserve_abbrev function)
+        src_tokens = tokenize_preserve_abbrev(pair.src) if pair.src else []
+        tgt_tokens = tokenize_preserve_abbrev(pair.tgt) if pair.tgt else []
+        total_tokens_src += len(src_tokens)
+        total_tokens_tgt += len(tgt_tokens)
+    
+    return {
+        'corpus': corpus_name,
+        'sentences': len(pairs),
+        'tokens_src': total_tokens_src,
+        'tokens_tgt': total_tokens_tgt,
+        'tokens_total': total_tokens_src + total_tokens_tgt
+    }
+
+def display_corpus_statistics(
+    raw_stats: Dict[str, Dict],
+    filtered_stats: Dict[str, Dict],
+    doc_counts: Dict[str, Dict]
+):
+    """
+    Display before/after filtering statistics.
+    
+    Args:
+        raw_stats: Statistics before filtering {corpus_name: stats_dict}
+        filtered_stats: Statistics after filtering {corpus_name: stats_dict}
+        doc_counts: Document counts {corpus_name: {'total': X, 'processed': Y}}
+    """
+    print(f"\n{'='*110}")
+    print("CORPUS EXTRACTION STATISTICS")
+    print(f"{'='*110}")
+    
+    # Before filtering
+    print("\n📊 BEFORE FILTERING (Raw Extraction):")
+    print(f"{'Corpus':<20} {'Documents':<15} {'Sentences':<15} {'Tokens (SRC)':<18} {'Tokens (TGT)':<18}")
+    print(f"{'-'*110}")
+    
+    total_raw_sents = 0
+    total_raw_tokens_src = 0
+    total_raw_tokens_tgt = 0
+    
+    for corpus in sorted(raw_stats.keys()):
+        stats = raw_stats[corpus]
+        docs = doc_counts[corpus]['processed']
+        print(f"{corpus:<20} {docs:<15} {stats['sentences']:<15,} "
+              f"{stats['tokens_src']:<18,} {stats['tokens_tgt']:<18,}")
+        total_raw_sents += stats['sentences']
+        total_raw_tokens_src += stats['tokens_src']
+        total_raw_tokens_tgt += stats['tokens_tgt']
+    
+    print(f"{'-'*110}")
+    print(f"{'TOTAL':<20} {'':<15} {total_raw_sents:<15,} "
+          f"{total_raw_tokens_src:<18,} {total_raw_tokens_tgt:<18,}")
+    
+    # After filtering
+    print(f"\n📊 AFTER FILTERING (Final Dataset):")
+    print(f"{'Corpus':<20} {'Documents':<15} {'Sentences':<15} {'Tokens (SRC)':<18} "
+          f"{'Tokens (TGT)':<18} {'Filtered Out':<15}")
+    print(f"{'-'*110}")
+    
+    total_filtered_sents = 0
+    total_filtered_tokens_src = 0
+    total_filtered_tokens_tgt = 0
+    total_filtered_out = 0
+    
+    for corpus in sorted(filtered_stats.keys()):
+        stats = filtered_stats[corpus]
+        raw = raw_stats[corpus]
+        docs = doc_counts[corpus]['processed']
+        filtered_out = raw['sentences'] - stats['sentences']
+        filter_pct = (filtered_out / raw['sentences'] * 100) if raw['sentences'] > 0 else 0
+        
+        print(f"{corpus:<20} {docs:<15} {stats['sentences']:<15,} "
+              f"{stats['tokens_src']:<18,} {stats['tokens_tgt']:<18,} "
+              f"{filtered_out:<15,} ({filter_pct:.1f}%)")
+        
+        total_filtered_sents += stats['sentences']
+        total_filtered_tokens_src += stats['tokens_src']
+        total_filtered_tokens_tgt += stats['tokens_tgt']
+        total_filtered_out += filtered_out
+    
+    print(f"{'-'*110}")
+    total_filter_pct = (total_filtered_out / total_raw_sents * 100) if total_raw_sents > 0 else 0
+    print(f"{'TOTAL':<20} {'':<15} {total_filtered_sents:<15,} "
+          f"{total_filtered_tokens_src:<18,} {total_filtered_tokens_tgt:<18,} "
+          f"{total_filtered_out:<15,} ({total_filter_pct:.1f}%)")
+    
+    # Excluded documents summary
+    print(f"\n📋 EXCLUDED DOCUMENTS:")
+    for corpus in sorted(doc_counts.keys()):
+        total = doc_counts[corpus]['total']
+        processed = doc_counts[corpus]['processed']
+        excluded = total - processed
+        if excluded > 0:
+            print(f"  {corpus:<20} {excluded} file(s) excluded")
+    
+    print(f"{'='*110}\n")
+
 def process_file(xml_path: str, corpus_type: str) -> List[SentencePair]:
     """Process a single XML file."""
     if not os.path.exists(xml_path):
@@ -327,12 +439,20 @@ def process_corpora(
             xml_members = xml_members[:max_files_per_corpus]
 
         corpus_pairs_with_files = []  # Changed from corpus_pairs
+        excluded_pairs = []  # NEW: Track excluded file pairs for raw stats
         for idx, member in enumerate(xml_members):
             xml_filename = os.path.basename(member)
             
             # Skip excluded files
             if xml_filename in ExtractionParams.EXCLUDE:
                 print(f"   [{idx + 1}/{len(xml_members)}] {xml_filename} [SKIPPED - excluded]")
+                # Process for raw stats
+                try:
+                    pairs = process_file(member, corpus_name)
+                    excluded_pairs.extend(pairs)
+                except Exception as e:
+                    print(f"     ERROR in excluded file {xml_filename}: {e}")
+                continue
                 continue
             
             debug(f"   [{idx + 1}/{len(xml_members)}] {member}")
@@ -348,6 +468,24 @@ def process_corpora(
             xml_filename = os.path.basename(member)
             corpus_pairs_with_files.append((xml_filename, pairs))
 
+            # NEW: Calculate statistics before writing outputs
+            included_pairs = [pair for _, pairs in corpus_pairs_with_files for pair in pairs]
+            raw_stats = calculate_corpus_stats(included_pairs + excluded_pairs, corpus_name)
+            filtered_stats = calculate_corpus_stats(included_pairs, corpus_name)
+            
+            # Store for later display
+            if not hasattr(process_corpora, 'raw_stats'):
+                process_corpora.raw_stats = {}
+                process_corpora.filtered_stats = {}
+                process_corpora.doc_counts = {}
+            
+            process_corpora.raw_stats[corpus_name] = raw_stats
+            process_corpora.filtered_stats[corpus_name] = filtered_stats
+            process_corpora.doc_counts[corpus_name] = {
+                'total': len(xml_members),
+                'processed': len(corpus_pairs_with_files)
+            }
+        
        # Write NORM output if requested (verticalized word-by-word format)
         if output_format in ["norm", "both"]:
             debug(f"\n[DEBUG NORM] Writing NORM output for {corpus_name}...")
@@ -799,5 +937,13 @@ def process_corpora(
         tsv_path = os.path.join(output_dir, "all_corpora.tsv")
         df.to_csv(tsv_path, index=False, encoding="utf-8", sep="\t", quoting=csv.QUOTE_NONE, escapechar=None)
         print(f"\n=== Wrote {len(df)} rows to {tsv_path} ===")
+    
+    # NEW: Display statistics if any were collected
+    if hasattr(process_corpora, 'raw_stats'):
+        display_corpus_statistics(
+            process_corpora.raw_stats,
+            process_corpora.filtered_stats,
+            process_corpora.doc_counts
+        )
     
     return df

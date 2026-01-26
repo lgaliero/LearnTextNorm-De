@@ -3,12 +3,11 @@ import xml.etree.ElementTree as ET
 from typing import List, Tuple, Dict, Optional
 from .data_models import TextBuilder
 from .constants import QUOTE_CHARS, ABBREVIATIONS
-from .xml_helpers import (
+from .xml_utils import (
     strip_namespace,
     has_leading_whitespace,
     has_trailing_whitespace,
 )
-from .text_utils import has_sentence_ending
 from .logger import debug
 
 def extract_kolipsi(element) -> Tuple[str, str, bool, List[Tuple[str, str]]]:
@@ -109,7 +108,6 @@ def extract_kolipsi(element) -> Tuple[str, str, bool, List[Tuple[str, str]]]:
             if (orig_text and tgt_text
                 and len(orig_text) > 0 and len(tgt_text) > 0
                 and orig_text[0].islower() != tgt_text[0].islower()
-                and has_sentence_ending(prev_src)
                 and not tgt_text.endswith('-')):
                 prev_words = prev_src.split()
                         

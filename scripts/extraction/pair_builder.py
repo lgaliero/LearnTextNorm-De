@@ -2,8 +2,8 @@
 from typing import List
 from .data_models import SentencePair
 from .kolipsi import extract_kolipsi
-from .leonide import extract_leonide  # ← Make sure this is here
-from .sentencizer_de import spacy_sent
+from .leonide import extract_leonide
+from .spacy_utils_de import tokenize_for_stats, tokenize_preserve_abbrev, spacy_sent
 from .text_utils import strip_quotes_preserve_original, restore_quotes_to_sentence
 from .logger import debug
 import re
