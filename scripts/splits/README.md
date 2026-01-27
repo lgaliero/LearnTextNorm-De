@@ -1,4 +1,4 @@
-## Module 2: Splits (`splits/`)
+## Module: Splits (`splits/`)
 
 Creates stratified train/dev/test splits maintaining corpus proportions.
 
