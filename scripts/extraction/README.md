@@ -89,7 +89,7 @@ class TextBuilder:
 
 ### Corpus-Specific Extraction (The Heavy Lifters)
 
-#### `kolipsi.py` (~700 lines)
+#### `kolipsi.py`
 **Purpose:** Extracts text and corrections from Kolipsi corpus XML.
 
 **Core Function:** `extract_kolipsi(element) -> (src_text, tgt_text, has_corrections, orth_mappings)`
@@ -120,7 +120,7 @@ class TextBuilder:
 
 ---
 
-#### `leonide.py` (~700 lines)
+#### `leonide.py`
 **Purpose:** Extracts text and corrections from LEONIDE corpus XML.
 
 **Core Function:** `extract_leonide(paragraph, all_paragraphs) -> (src_text, tgt_text, has_corrections, orth_mappings)`
