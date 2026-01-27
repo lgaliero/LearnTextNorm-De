@@ -1,4 +1,3 @@
-# At the top of pipeline.py
 import os
 import re
 import csv
@@ -8,8 +7,8 @@ from configs import Paths, ExtractionParams
 from .logger import debug
 from .data_models import SentencePair
 from .pair_builder import PairBuilder
-from .file_formats import NormWriter
-from .xml_utils import inject_spaces_between_tags, strip_namespace
+from .output_writers import NormWriter
+from .xml_helpers import inject_spaces_between_tags, strip_namespace
 from .spacy_utils_de import tokenize_for_stats, tokenize_preserve_abbrev, spacy_sent
 from .constants import ABBREV_PATTERN, QUOTE_CHARS, ABBREV_PATTERNS_NORM
 import xml.etree.ElementTree as ET
@@ -405,7 +404,8 @@ def process_corpora(
     corpus_configs: Dict[str, Dict],
     output_dir: str = Paths.EXTRACT_DIR,
     max_files_per_corpus: Optional[int] = None,
-    output_format: str = "both"  # "txt", "tsv", "norm", or "both"
+    output_format: str = "both",  # "txt", "tsv", "norm", or "both"
+    compute_stats: bool = False 
 ) -> pd.DataFrame:
     """Process multiple corpora."""
     os.makedirs(output_dir, exist_ok=True)
@@ -447,12 +447,12 @@ def process_corpora(
             if xml_filename in ExtractionParams.EXCLUDE:
                 print(f"   [{idx + 1}/{len(xml_members)}] {xml_filename} [SKIPPED - excluded]")
                 # Process for raw stats
-                try:
-                    pairs = process_file(member, corpus_name)
-                    excluded_pairs.extend(pairs)
-                except Exception as e:
-                    print(f"     ERROR in excluded file {xml_filename}: {e}")
-                continue
+                if compute_stats:
+                    try:
+                        pairs = process_file(member, corpus_name)
+                        excluded_pairs.extend(pairs)
+                    except Exception as e:
+                        print(f"     ERROR in excluded file {xml_filename}: {e}")
                 continue
             
             debug(f"   [{idx + 1}/{len(xml_members)}] {member}")
@@ -468,23 +468,24 @@ def process_corpora(
             xml_filename = os.path.basename(member)
             corpus_pairs_with_files.append((xml_filename, pairs))
 
-            # NEW: Calculate statistics before writing outputs
-            included_pairs = [pair for _, pairs in corpus_pairs_with_files for pair in pairs]
-            raw_stats = calculate_corpus_stats(included_pairs + excluded_pairs, corpus_name)
-            filtered_stats = calculate_corpus_stats(included_pairs, corpus_name)
-            
-            # Store for later display
-            if not hasattr(process_corpora, 'raw_stats'):
-                process_corpora.raw_stats = {}
-                process_corpora.filtered_stats = {}
-                process_corpora.doc_counts = {}
-            
-            process_corpora.raw_stats[corpus_name] = raw_stats
-            process_corpora.filtered_stats[corpus_name] = filtered_stats
-            process_corpora.doc_counts[corpus_name] = {
-                'total': len(xml_members),
-                'processed': len(corpus_pairs_with_files)
-            }
+            # Calculate statistics if enabled
+            if compute_stats:
+                included_pairs = [pair for _, pairs in corpus_pairs_with_files for pair in pairs]
+                raw_stats = calculate_corpus_stats(included_pairs + excluded_pairs, corpus_name)
+                filtered_stats = calculate_corpus_stats(included_pairs, corpus_name)
+                
+                # Store for later display
+                if not hasattr(process_corpora, 'raw_stats'):
+                    process_corpora.raw_stats = {}
+                    process_corpora.filtered_stats = {}
+                    process_corpora.doc_counts = {}
+                
+                process_corpora.raw_stats[corpus_name] = raw_stats
+                process_corpora.filtered_stats[corpus_name] = filtered_stats
+                process_corpora.doc_counts[corpus_name] = {
+                    'total': len(xml_members),
+                    'processed': len(corpus_pairs_with_files)
+                 }
         
        # Write NORM output if requested (verticalized word-by-word format)
         if output_format in ["norm", "both"]:
@@ -938,8 +939,8 @@ def process_corpora(
         df.to_csv(tsv_path, index=False, encoding="utf-8", sep="\t", quoting=csv.QUOTE_NONE, escapechar=None)
         print(f"\n=== Wrote {len(df)} rows to {tsv_path} ===")
     
-    # NEW: Display statistics if any were collected
-    if hasattr(process_corpora, 'raw_stats'):
+    # NEW: Display statistics if they were computed
+    if compute_stats and hasattr(process_corpora, 'raw_stats'):
         display_corpus_statistics(
             process_corpora.raw_stats,
             process_corpora.filtered_stats,
