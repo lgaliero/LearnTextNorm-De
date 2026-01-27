@@ -2,7 +2,7 @@ import re
 import spacy
 from typing import List
 from extraction.logger import debug
-from .constants import ABBREV_PATTERNS_NORM, QUOTE_CHARS
+from .constants import ABBREV_VARIANTS, QUOTE_CHARS
 
 # Create a blank German pipeline
 nlp = spacy.blank("de")
@@ -11,9 +11,9 @@ nlp = spacy.blank("de")
 if "sentencizer" not in nlp.pipe_names:
     nlp.add_pipe("sentencizer")
 
-def spacy_sent(text: str) -> List[str]:
-    """Split German text into sentences using spaCy."""
-    debug("[DEBUG ENTER spacy_sent]")
+def sentencizer(text: str) -> List[str]:
+    """Split German text into sentences"""
+    debug("[DEBUG ENTER sentencizer]")
     if not text or not text.strip():
         return []
     debug(f"[DEBUG ORIGINAL TEXT]: {text[:200]}")
@@ -192,7 +192,7 @@ def spacy_sent(text: str) -> List[str]:
         if sent:
             cleaned.append(sent)
 
-    debug(f"[DEBUG SPACY OUTPUT] {cleaned}")
+    debug(f"[DEBUG SENTENCIZER OUTPUT] {cleaned}")
     return cleaned
 
 def tokenize_preserve_abbrev(text: str) -> List[str]:
@@ -209,7 +209,7 @@ def tokenize_preserve_abbrev(text: str) -> List[str]:
         return placeholder
     
     # Protect abbreviations by matching them in order of specificity (longest first)
-    for pattern in sorted(ABBREV_PATTERNS_NORM, key=len, reverse=True):
+    for pattern in sorted(ABBREV_VARIANTS, key=len, reverse=True):
         protected = re.sub(pattern, protect_match, protected, flags=re.IGNORECASE)
     
     # Build regex pattern from actual QUOTE_CHARS set

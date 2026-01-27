@@ -1,6 +1,6 @@
 import re
 
-ABBREV_PATTERNS_NORM = [
+ABBREV_VARIANTS = [
     r'w\.\s*z\.\s*[bB]\.?',   # w.z.B, w. z. B, w.z.B.
     r'[zZ]\.\s*[bB]\.?',       # z.B, z. B, z.B., Z.B
     r'[zZ][bB]\.?',            # zB, ZB, zB., ZB.
@@ -21,7 +21,7 @@ ABBREV_PATTERNS_NORM = [
 ]
 
 
-# Keep original ABBREVIATIONS for spacy_sent
+# Keep original ABBREVIATIONS for sentencizer
 ABBREVIATIONS = [
     r'bo\.\s',
     r'o\.\s?ä',

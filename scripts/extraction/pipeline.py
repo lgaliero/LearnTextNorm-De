@@ -9,8 +9,8 @@ from .data_models import SentencePair
 from .pair_builder import PairBuilder
 from .output_writers import NormWriter
 from .xml_helpers import inject_spaces_between_tags, strip_namespace
-from .spacy_utils_de import tokenize_for_stats, tokenize_preserve_abbrev, spacy_sent
-from .constants import ABBREV_PATTERN, QUOTE_CHARS, ABBREV_PATTERNS_NORM
+from .sentencizer_de import tokenize_for_stats, tokenize_preserve_abbrev, sentencizer
+from .constants import ABBREV_PATTERN, QUOTE_CHARS
 import xml.etree.ElementTree as ET
 
 class TextExtractor:

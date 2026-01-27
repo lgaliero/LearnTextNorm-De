@@ -1,7 +1,7 @@
 import re
 from .data_models import SentencePair
 from typing import Tuple, Optional
-from .constants import ABBREV_PATTERNS_NORM, ABBREVIATIONS, ABBREV_PATTERN, QUOTE_CHARS
+from .constants import ABBREV_VARIANTS, ABBREV_PATTERN, QUOTE_CHARS
 
 def has_leading_whitespace(text: Optional[str]) -> bool:
     """Check if text starts with whitespace in original XML."""

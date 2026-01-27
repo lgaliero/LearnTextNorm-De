@@ -2,7 +2,7 @@ import re
 import xml.etree.ElementTree as ET
 from typing import List, Tuple, Dict, Optional
 from .data_models import TextBuilder
-from .constants import QUOTE_CHARS, ABBREVIATIONS
+from .constants import QUOTE_CHARS
 from .xml_helpers import (
     strip_namespace,
     has_leading_whitespace,

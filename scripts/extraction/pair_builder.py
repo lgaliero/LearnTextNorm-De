@@ -3,7 +3,7 @@ from typing import List
 from .data_models import SentencePair
 from .kolipsi import extract_kolipsi
 from .leonide import extract_leonide
-from .spacy_utils_de import tokenize_for_stats, tokenize_preserve_abbrev, spacy_sent
+from .sentencizer_de import tokenize_for_stats, tokenize_preserve_abbrev, sentencizer
 from .text_utils import strip_quotes_preserve_original, restore_quotes_to_sentence
 from .logger import debug
 import re
@@ -57,8 +57,8 @@ class PairBuilder:
             _, src_chunk_no_quotes = strip_quotes_preserve_original(src_chunk)
             _, tgt_chunk_no_quotes = strip_quotes_preserve_original(tgt_chunk)
 
-            src_sents = spacy_sent(src_chunk_no_quotes) if src_chunk_no_quotes else []
-            tgt_sents = spacy_sent(tgt_chunk_no_quotes) if tgt_chunk_no_quotes else []
+            src_sents = sentencizer(src_chunk_no_quotes) if src_chunk_no_quotes else []
+            tgt_sents = sentencizer(tgt_chunk_no_quotes) if tgt_chunk_no_quotes else []
             if not src_sents and not tgt_sents:
                 continue
 
@@ -127,13 +127,13 @@ class PairBuilder:
         has_foreign = 'FOREIGNWORDSTART' in src or 'FOREIGNWORDSTART' in tgt
 
         # CRITICAL FIX: NEVER use explicit breaks from DIV tags - they're unreliable
-        # Always rely on spacy for sentence splitting
+        # Always rely on sentencizer for sentence splitting
         src_break_count = src.count('<SENTBREAK>')
         tgt_break_count = tgt.count('<SENTBREAK>')
         
         debug(f"[DEBUG LEONIDE BREAK COUNT] src_breaks={src_break_count}, tgt_breaks={tgt_break_count}")
 
-        # Force spacy splitting for all cases
+        # Force sentencizer splitting for all cases
         use_explicit_breaks = False
 
         debug(f"[DEBUG BREAK DECISION] src_breaks={src_break_count}, tgt_breaks={tgt_break_count}, use_explicit_breaks={use_explicit_breaks}")
@@ -143,7 +143,7 @@ class PairBuilder:
             src_chunks = [s.strip() for s in src.split('<SENTBREAK>') if s.strip()]
             tgt_chunks = [s.strip() for s in tgt.split('<SENTBREAK>') if s.strip()]
             
-            # If chunk counts don't match, fall back to spacy
+            # If chunk counts don't match, fall back to sentencizer
             if len(src_chunks) != len(tgt_chunks):
                 use_explicit_breaks = False
 
@@ -157,9 +157,9 @@ class PairBuilder:
                 src_chunk = src_chunks[i]
                 tgt_chunk = tgt_chunks[i]
                 
-                # CRITICAL FIX: Still need to split chunks with spaCy in case they contain multiple sentences
-                src_sents = spacy_sent(src_chunk) if src_chunk else []
-                tgt_sents = spacy_sent(tgt_chunk) if tgt_chunk else []
+                # CRITICAL FIX: Still need to split chunks with sentencizer in case they contain multiple sentences
+                src_sents = sentencizer(src_chunk) if src_chunk else []
+                tgt_sents = sentencizer(tgt_chunk) if tgt_chunk else []
                 
                 # Align sentences within this chunk
                 max_len = max(len(src_sents), len(tgt_sents))
@@ -187,7 +187,7 @@ class PairBuilder:
             return pairs
 
         else:
-            debug("[DEBUG USING SPACY FOR SENTENCE SPLIT - IGNORING SENTBREAK]")
+            debug("[DEBUG USING sentencizer FOR SENTENCE SPLIT - IGNORING SENTBREAK]")
             # Don't use SENTBREAK markers from DIVs - just treat as one continuous text
             # Remove ALL SENTBREAK markers and treat as continuous text
             src = src.replace('<SENTBREAK>', ' ')
@@ -208,9 +208,9 @@ class PairBuilder:
             debug(f"[DEBUG SRC (no quotes)]: '{src_no_quotes[:200]}'")
             debug(f"[DEBUG TGT (no quotes)]: '{tgt_no_quotes[:200]}'")
             
-            # Split into sentences using spacy (WITHOUT quotes)
-            src_sents = spacy_sent(src_no_quotes) if src_no_quotes else []
-            tgt_sents = spacy_sent(tgt_no_quotes) if tgt_no_quotes else []
+            # Split into sentences using sentencizer (WITHOUT quotes)
+            src_sents = sentencizer(src_no_quotes) if src_no_quotes else []
+            tgt_sents = sentencizer(tgt_no_quotes) if tgt_no_quotes else []
 
             debug(f"[DEBUG SENTENCE COUNTS] SRC={len(src_sents)}, TGT={len(tgt_sents)}")
 
