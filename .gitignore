@@ -11,3 +11,4 @@ scripts/old_extr.py
 scripts/raw_stats.py
 scripts/compute_stats.py
 master_files/raw_corpus_stats.json
+modularization/
