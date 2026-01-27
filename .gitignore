@@ -7,5 +7,7 @@ master_files/all_corpora_edit_log.txt
 master_files/extraction_debug.log
 scripts/tok_out.py
 scripts/correction.py
-scripts/xml_extraction.py
 scripts/old_extr.py
+scripts/raw_stats.py
+scripts/compute_stats.py
+master_files/raw_corpus_stats.json
