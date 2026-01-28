@@ -36,10 +36,10 @@ def create_norm_files(
     print("GENERATING .norm FILES FOR SPLITS")
     print("=" * 80)
     
-    # Load the full dataframe (this IS our metadata)
-    df = pd.read_csv(tsv_path, encoding="utf-8", sep="\t", on_bad_lines='warn')
-    print(f"✓ Loaded corpus TSV with {len(df)} sentences as metadata source")
-    
+    # Filter out rows where text_type is numeric (data corruption)
+    if 'text_type' in df.columns:
+        df = df[~df['text_type'].astype(str).str.match(r'^\d+$', na=False)]
+        
     # Process each split
     for split_name in splits:
         indices_file = os.path.join(output_dir, f"{split_name}_indices.tsv")
@@ -135,9 +135,10 @@ def regenerate_splits_from_indices(
     from .file_utils import save_splits
     
     # Load the full corpus TSV
-    df = pd.read_csv(tsv_path, encoding="utf-8", sep="\t", on_bad_lines='warn')
-    print(f"✓ Loaded corpus TSV with {len(df)} sentences\n")
-    
+    # Filter out rows where text_type is numeric (data corruption)
+    if 'text_type' in df.columns:
+        df = df[~df['text_type'].astype(str).str.match(r'^\d+$', na=False)]
+        
     # Process each split
     for split_name in ['test', 'train', 'dev']:
         # Get source file path from config or default

@@ -8,6 +8,7 @@ import argparse
 import sys
 import random
 from pathlib import Path
+from configs import Paths, DataSplits
 
 # Add parent directory to path for imports
 sys.path.insert(0, str(Path(__file__).parent.parent))
@@ -22,24 +23,6 @@ from splits import (
     create_norm_files,
     regenerate_splits_from_indices
 )
-
-# Import configs
-try:
-    from configs import Paths, DataSplits
-except ImportError:
-    print("Warning: configs module not found. Using default values.")
-    # Create dummy classes
-    class Paths:
-        EXTRACT_TSV = "corpus.tsv"
-        SET_SPLITS = "output/splits"
-        EXTRACT_DIR = "output/extraction"
-        TEST_SRC = None
-        TRAIN_SRC = None
-        DEV_SRC = None
-    
-    class DataSplits:
-        TEST = 0.10
-        DEV = 0.10
 
 
 def create_test_set(df, output_dir, test_size, random_seed, paths_config):
@@ -299,28 +282,28 @@ def main():
         description='Create stratified dataset splits and generate prompts/NORM files'
     )
     
-    # Common arguments
+    # Common arguments with defaults from Paths config
     parser.add_argument(
         '--tsv',
-        default=Paths.EXTRACT_TSV if hasattr(Paths, 'EXTRACT_TSV') else 'corpus.tsv',
-        help='Input TSV file'
+        default=Paths.EXTRACT_TSV,
+        help=f'Input TSV file (default: {Paths.EXTRACT_TSV})'
     )
     parser.add_argument(
         '--output-dir',
-        default=Paths.SET_SPLITS if hasattr(Paths, 'SET_SPLITS') else 'output/splits',
-        help='Output directory for splits'
+        default=Paths.SET_SPLITS,
+        help=f'Output directory for splits (default: {Paths.SET_SPLITS})'
     )
     parser.add_argument(
         '--test-size',
         type=float,
-        default=DataSplits.TEST if hasattr(DataSplits, 'TEST') else 0.10,
-        help='Test set proportion (default: 0.10)'
+        default=DataSplits.TEST,
+        help=f'Test set proportion (default: {DataSplits.TEST})'
     )
     parser.add_argument(
         '--dev-size',
         type=float,
-        default=DataSplits.DEV if hasattr(DataSplits, 'DEV') else 0.10,
-        help='Dev set proportion (default: 0.10)'
+        default=DataSplits.DEV,
+        help=f'Dev set proportion (default: {DataSplits.DEV})'
     )
     parser.add_argument(
         '--seed',
@@ -347,14 +330,14 @@ def main():
     
     # JSON generation command
     json_parser = subparsers.add_parser('json', help='Generate few-shot prompt JSON')
-    json_parser.add_argument('--baseline', help='Path to baseline output file')
-    json_parser.add_argument('--output', help='Output JSON path')
+    json_parser.add_argument('--baseline', default=Paths.LLAMA_0, help=f'Path to baseline output file (default: {Paths.LLAMA_0})')
+    json_parser.add_argument('--output', default=Paths.LLAMA_JSON, help=f'Output JSON path (default: {Paths.LLAMA_JSON})')
     json_parser.add_argument('--update', action='store_true', help='Update mode (only refresh baselines)')
-    json_parser.add_argument('--model', choices=['llama', 'gpt', 'gemma'], help='Model name')
+    json_parser.add_argument('--model', choices=['llama', 'gpt', 'gemma'], default='llama', help='Model name (default: llama)')
     
     # NORM file generation command
     norm_parser = subparsers.add_parser('norm', help='Create NORM files for splits')
-    norm_parser.add_argument('--extract-dir', help='Directory with original corpus NORM files')
+    norm_parser.add_argument('--extract-dir', default=Paths.EXTRACT_DIR, help=f'Directory with original corpus NORM files (default: {Paths.EXTRACT_DIR})')
     norm_parser.add_argument('--splits', nargs='*', default=['train', 'dev', 'test'], help='Splits to process')
     
     # Regenerate command
@@ -367,16 +350,16 @@ def main():
     
     # Build paths config
     paths_config = {
-        'TEST_SRC': Paths.TEST_SRC if hasattr(Paths, 'TEST_SRC') else None,
-        'TEST_TGT': Paths.TEST_TGT if hasattr(Paths, 'TEST_TGT') else None,
-        'TRAIN_SRC': Paths.TRAIN_SRC if hasattr(Paths, 'TRAIN_SRC') else None,
-        'TRAIN_TGT': Paths.TRAIN_TGT if hasattr(Paths, 'TRAIN_TGT') else None,
-        'DEV_SRC': Paths.DEV_SRC if hasattr(Paths, 'DEV_SRC') else None,
-        'DEV_TGT': Paths.DEV_TGT if hasattr(Paths, 'DEV_TGT') else None,
-        'LLAMA_0': Paths.LLAMA_0 if hasattr(Paths, 'LLAMA_0') else None,
-        'GPT_0': Paths.GPT_0 if hasattr(Paths, 'GPT_0') else None,
-        'GEMMA_0': Paths.GEMMA_0 if hasattr(Paths, 'GEMMA_0') else None,
-        'EXTRACT_DIR': Paths.EXTRACT_DIR if hasattr(Paths, 'EXTRACT_DIR') else None,
+        'TEST_SRC': Paths.TEST_SRC,
+        'TEST_TGT': Paths.TEST_TGT,
+        'TRAIN_SRC': Paths.TRAIN_SRC,
+        'TRAIN_TGT': Paths.TRAIN_TGT,
+        'DEV_SRC': Paths.DEV_SRC,
+        'DEV_TGT': Paths.DEV_TGT,
+        'LLAMA_0': Paths.LLAMA_0,
+        'GPT_0': Paths.GPT_0,
+        'GEMMA_0': Paths.GEMMA_0,
+        'EXTRACT_DIR': Paths.EXTRACT_DIR,
     }
     
     # Route to appropriate command
