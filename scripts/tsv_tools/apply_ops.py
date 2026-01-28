@@ -83,11 +83,14 @@ def get_norm_path_for_corpus(corpus_name: str, extract_dir: Path) -> str:
     
     Args:
         corpus_name: Name of the corpus
-        extract_dir: Directory containing NORM files
+        extract_dir: Directory containing NORM files (str or Path)
         
     Returns:
         Path to NORM file if found, None otherwise
     """
+    # Ensure extract_dir is a Path object
+    extract_dir = Path(extract_dir)
+    
     # Try common suffixes
     for suffix in ['_full', '_edited', '_with_meta', '']:
         norm_file = extract_dir / f"{corpus_name}{suffix}.norm"
@@ -120,3 +123,4 @@ def find_norm_files_in_directory(directory: str, exclude_tsv: bool = True) -> Li
                 norm_files.append(str(file))
     
     return sorted(norm_files)
+

@@ -33,6 +33,38 @@ def texts_similar(text1: str, text2: str, threshold: float = 0.95) -> bool:
     return ratio >= threshold
 
 
+def find_next_match(tsv_df, tsv_i, norm_sentences, norm_i, lookahead=10):
+    """
+    Look ahead to find the next matching pair to re-sync alignment.
+    
+    Args:
+        tsv_df: TSV DataFrame
+        tsv_i: Current TSV index
+        norm_sentences: NORM sentences list
+        norm_i: Current NORM index
+        lookahead: How many sentences ahead to search
+        
+    Returns:
+        Tuple of (tsv_offset, norm_offset) or (None, None) if no match found
+    """
+    # Search within lookahead window
+    for t_offset in range(lookahead):
+        for n_offset in range(lookahead):
+            t_idx = tsv_i + t_offset
+            n_idx = norm_i + n_offset
+            
+            if t_idx >= len(tsv_df) or n_idx >= len(norm_sentences):
+                continue
+            
+            tsv_src = tsv_df.iloc[t_idx]['src']
+            norm_src = norm_sentences[n_idx][0]
+            
+            if texts_similar(tsv_src, norm_src):
+                return (t_offset, n_offset)
+    
+    return (None, None)
+
+
 def detect_operations(
     tsv_df: pd.DataFrame,
     norm_sentences: List[Tuple[str, str, int, int]]
@@ -147,15 +179,38 @@ def detect_operations(
             tsv_i += 1
             norm_i += 1
         
+        elif texts_similar(tsv_src, norm_src, threshold=0.85):
+            # Source is similar but not exact - likely has word insertions/deletions
+            # Treat as edit
+            edit_details.append({
+                'type': 'edit',
+                'tsv_position': tsv_i + 1,
+                'original_src': tsv_src,
+                'original_tgt': tsv_tgt,
+                'new_src': norm_src,
+                'new_tgt': norm_tgt,
+                'xml_file': row['xml_file'],
+                'sent_num': row['sent_num']
+            })
+            operations.append({
+                'type': 'edit',
+                'tsv_start': tsv_i,
+                'tsv_end': tsv_i + 1,
+                'norm_start': norm_i,
+                'norm_end': norm_i + 1
+            })
+            tsv_i += 1
+            norm_i += 1
+
         else:
             # Try to detect split/merge
-            # Check if next TSV matches current NORM (possible split)
+            # Check if next TSV matches current NORM (possible merge: 2 TSV -> 1 NORM)
             if tsv_i + 1 < len(tsv_df):
                 next_row = tsv_df.iloc[tsv_i + 1]
                 combined_src = tsv_src + " " + next_row['src']
                 
                 if texts_similar(combined_src, norm_src):
-                    # Split detected - 2 TSV -> 1 NORM
+                    # Merge detected - 2 TSV -> 1 NORM
                     edit_details.append({
                         'type': 'merge',
                         'tsv_position': tsv_i + 1,
@@ -177,13 +232,13 @@ def detect_operations(
                     norm_i += 1
                     continue
             
-            # Check if next NORM matches current TSV (possible merge)
+            # Check if next NORM matches current TSV (possible split: 1 TSV -> 2 NORM)
             if norm_i + 1 < len(norm_sentences):
                 next_norm = norm_sentences[norm_i + 1]
                 combined_norm = norm_src + " " + next_norm[0]
                 
                 if texts_similar(tsv_src, combined_norm):
-                    # Merge detected - 1 TSV -> 2 NORM
+                    # Split detected - 1 TSV -> 2 NORM
                     edit_details.append({
                         'type': 'split',
                         'tsv_position': tsv_i + 1,
@@ -205,23 +260,71 @@ def detect_operations(
                     norm_i += 2
                     continue
             
-            # No clear match - mark as deletion + potential insertion
-            edit_details.append({
-                'type': 'delete',
-                'tsv_position': tsv_i + 1,
-                'original_src': tsv_src,
-                'original_tgt': tsv_tgt,
-                'new_src': '',
-                'new_tgt': '',
-                'xml_file': row['xml_file'],
-                'sent_num': row['sent_num']
-            })
-            operations.append({
-                'type': 'delete',
-                'tsv_start': tsv_i,
-                'tsv_end': tsv_i + 1
-            })
-            tsv_i += 1
+            # NEW: Try to re-sync by looking ahead
+            t_offset, n_offset = find_next_match(tsv_df, tsv_i, norm_sentences, norm_i, lookahead=5)
+            
+            if t_offset is not None and n_offset is not None:
+                # Found a match ahead - mark intervening sentences as mismatched
+                print(f"  🔄 Re-syncing at TSV {tsv_i + t_offset}, NORM {norm_i + n_offset}")
+                
+                # Mark TSV rows before match as deleted
+                for t in range(t_offset):
+                    if tsv_i + t < len(tsv_df):
+                        del_row = tsv_df.iloc[tsv_i + t]
+                        edit_details.append({
+                            'type': 'delete',
+                            'tsv_position': tsv_i + t + 1,
+                            'original_src': del_row['src'],
+                            'original_tgt': del_row['tgt'],
+                            'new_src': '',
+                            'new_tgt': '',
+                            'xml_file': del_row['xml_file'],
+                            'sent_num': del_row['sent_num']
+                        })
+                        operations.append({
+                            'type': 'delete',
+                            'tsv_start': tsv_i + t,
+                            'tsv_end': tsv_i + t + 1
+                        })
+                
+                # Skip ahead to the matching position
+                tsv_i += t_offset
+                norm_i += n_offset
+
+            else:
+                # No match found nearby - treat as insertion/deletion
+                # Check if this is likely an insertion (NORM has extra content)
+                # by checking if next TSV matches current NORM
+                is_insertion = False
+                if tsv_i + 1 < len(tsv_df):
+                    next_tsv_src = tsv_df.iloc[tsv_i + 1]['src']
+                    if texts_similar(next_tsv_src, norm_src):
+                        # TSV[i+1] matches NORM[i] - NORM has insertion before this
+                        is_insertion = True
+                
+                if is_insertion:
+                    # Don't mark as deletion - just advance norm_i to skip the insertion
+                    norm_i += 1
+                else:
+                    # Mark as deletion and advance both
+                    edit_details.append({
+                        'type': 'delete',
+                        'tsv_position': tsv_i + 1,
+                        'original_src': tsv_src,
+                        'original_tgt': tsv_tgt,
+                        'new_src': '',
+                        'new_tgt': '',
+                        'xml_file': row['xml_file'],
+                        'sent_num': row['sent_num']
+                    })
+                    operations.append({
+                        'type': 'delete',
+                        'tsv_start': tsv_i,
+                        'tsv_end': tsv_i + 1
+                    })
+                    tsv_i += 1
+                    norm_i += 1
+
     
     return operations, edit_details
 

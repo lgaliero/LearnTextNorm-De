@@ -11,6 +11,23 @@ from .norm_parser import parse_norm_file_simple
 from .diff_core import detect_operations, calculate_operation_stats
 from .apply_ops import apply_operations_to_corpus
 
+def recalculate_sent_num(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Recalculate sent_num for each file after operations (merges, splits, etc).
+    Groups by corpus and xml_file, then renumbers sentences sequentially.
+    """
+    if df.empty:
+        return df
+    
+    df = df.copy()
+    
+    # Group by corpus and xml_file
+    for (corpus, xml_file), group_idx in df.groupby(['corpus', 'xml_file']).groups.items():
+        # Renumber sequentially starting from 1
+        new_sent_nums = list(range(1, len(group_idx) + 1))
+        df.loc[group_idx, 'sent_num'] = new_sent_nums
+    
+    return df
 
 def batch_update_tsv(
     tsv_path: str,
@@ -113,8 +130,12 @@ def batch_update_tsv(
             continue
     
     # Save updated TSV
+    # Save updated TSV
     if output_path is None:
         output_path = tsv_path
+    
+    # Recalculate sent_num to fix indices after merges/splits
+    df = recalculate_sent_num(df)
     
     df.to_csv(output_path, sep='\t', index=False, encoding='utf-8')
     print(f"\n{'='*80}")

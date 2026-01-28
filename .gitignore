@@ -12,3 +12,6 @@ scripts/raw_stats.py
 scripts/compute_stats.py
 master_files/raw_corpus_stats.json
 modularization/
+scripts/diagnose.py
+scripts/quick_check.py
+scripts/test_align.py

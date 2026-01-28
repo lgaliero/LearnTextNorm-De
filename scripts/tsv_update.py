@@ -11,11 +11,8 @@ from pathlib import Path
 # Add parent directory to path for imports
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from tsv_tools import (
-    batch_update_tsv,
-    find_norm_files_in_directory,
-    get_norm_path_for_corpus
-)
+from tsv_tools.batch_update import batch_update_tsv
+from tsv_tools.apply_ops import find_norm_files_in_directory, get_norm_path_for_corpus
 
 # Import configs
 try:

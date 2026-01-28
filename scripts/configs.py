@@ -11,24 +11,24 @@ class Paths:
     EXT_LOG_FILE ="../master_files/extraction_debug.log"
     EXTRACT_DIR = '../master_files'  
     EXTRACT_TSV = "../master_files/all_corpora.tsv"
-    SET_SPLITS = "../sets"
-    TEST_SRC = "../sets/test/test.src"
-    TEST_TGT = "../sets/test/test.tgt"
-    TEST_IDXS = "../sets/test/test_indices.tsv"
-    DEV_SRC = "../sets/dev/dev.src"
-    DEV_TGT = "../sets/dev/dev.tgt"
-    DEV_IDXS = "../sets/dev/dev_indices.tsv"
-    TRAIN_SRC = "../sets/train/train.src"
-    TRAIN_TGT = "../sets/train/train.tgt"
-    TRAIN_IDXS = "../sets/train/train_indices.tsv"
-    JSON = "../sets/2S_prompts_llama.json" 
-    MODELS = "../hypothesis/llama3-2"
-    LLAMA_0 = "../hypothesis/llama3-2/0shot.hyp"
-    LLAMA_2 = "../hypothesis/llama3-2/2shot.hyp"
-    GPT_0 = "../hypothesis/gpt-oss/0shot.hyp"
-    GPT_2 = "../hypothesis/gpt-oss/2shot.hyp"
-    GEMMA_0 = "../hypothesis/gemma/0shot.hyp"
-    GEMMA_2S = "../hypothesis/gemma/2shot.hyp"
+    SET_SPLITS = "../data"
+    TEST_SRC = "../data/test/test.src"
+    TEST_TGT = "../data/test/test.tgt"
+    TEST_IDXS = "../data/test/test_indices.tsv"
+    DEV_SRC = "../data/dev/dev.src"
+    DEV_TGT = "../data/dev/dev.tgt"
+    DEV_IDXS = "../data/dev/dev_indices.tsv"
+    TRAIN_SRC = "../data/train/train.src"
+    TRAIN_TGT = "../data/train/train.tgt"
+    TRAIN_IDXS = "../data/train/train_indices.tsv"
+    LLAMA_JSON = "../data/2S_prompts/llama.json" 
+    MODELS = "../hypos/llama3-2"
+    LLAMA_0 = "../hypos/llama3-2/0shot.hyp"
+    LLAMA_2 = "../hypos/llama3-2/2shot.hyp"
+    GPT_0 = "../hypos/gpt-oss/0shot.hyp"
+    GPT_2 = "../hypos/gpt-oss/2shot.hyp"
+    GEMMA_0 = "../hypos/gemma/0shot.hyp"
+    GEMMA_2S = "../hypos/gemma/2shot.hyp"
 
 # =======================
 # XML EXTRACTION CONFIGS
@@ -54,7 +54,7 @@ class ExtractionParams:
         }
     }
     ACTIVE_CORPORA = ['LEONIDE', 'Kolipsi_1_L1', "Kolipsi_1_L2", "Kolipsi_2"] # Corpora to process (empty list = process none)
-    FORMAT = 'both'      # hypothesis settings - Options: "tsv", "norm", or "both"
+    FORMAT = 'both'      # hypos settings - Options: "tsv", "norm", or "both"
     EXCLUDE = ["DE_pic_2_57Y25A14_59.xml"," DE_pic_2_57Y25A03_59.xml", "DE_pic_3_67Y25A21_112.xml"," DE_pic_1_57Y28A01_13.xml","I22_DIL27SIM_2.xml"]
     MAX_FILES_PER_CORPUS = None    # Processing limits - None = process all files, or set to integer to limit      # Sentencizer settings (if needed in future)
 

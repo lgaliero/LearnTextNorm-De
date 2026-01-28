@@ -4,7 +4,7 @@ Handles parsing of normalized text format files.
 """
 
 from typing import List, Tuple
-
+import re
 
 def parse_norm_file_simple(norm_path: str) -> List[Tuple[str, str, int, int]]:
     """
@@ -45,13 +45,14 @@ def parse_norm_file_simple(norm_path: str) -> List[Tuple[str, str, int, int]]:
                 current_line += 1
                 continue
             
-            parts = line.split('\t')
+            # Split on tab OR multiple spaces (2+) to handle editor conversions
+            parts = re.split(r'\t|\s{2,}', line)
             
             if len(parts) == 1:
                 word = parts[0].strip()
                 if word:
                     current_src.append(word)
-            elif len(parts) == 2:
+            elif len(parts) >= 2:
                 src_word = parts[0].strip()
                 tgt_word = parts[1].strip()
                 
