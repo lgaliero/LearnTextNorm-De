@@ -1,206 +1,136 @@
-### XML Extraction and Proecessing Pipeline
+## Module: Extraction (`scripts/extraction/`)
 
-This module extracts and aligns sentence pairs from German learner corpora (LEONIDE, Kolipsi 1, Kolipsi 2), producing both TSV metadata files and verticalized NORM word-alignment files.
-
----
-
-### 📁 Module Structure and Packages (`scripts/extraction/`)
-### Configuration & Data Models
-#### `constants.py`
-**Centralized configuration constants.** 
-
-Saves abbreviations and quote character variants so that they aren't split into separate sentences.
-
-Adds a general pattern so that abbreviatoin are transcribed swiftly and correctly in the .norm files.
+Extracts and aligns sentence pairs from German learner corpora (LEONIDE, Kolipsi 1, Kolipsi 2), producing TSV metadata and verticalized NORM word-alignment files.
 
 ---
 
-#### `sentencizer_de.py`
-**Custom sentence boundary detection for German.**
+### Configuration & Constants
 
-Splits text into words and separates punctuation while keeping abbreviations (both standardized and non-) intact.
-
-Covers the following issues from triggering erroneous sentence breaks:
-- inconsistent puctuation and capitalization between src/tgt
-- numbered lists
-- ellipses
-- compounds split across lines
-
+- **`constants.py`** - Centralized configuration constants 
+  - `ABBREV_VARIANTS` - Regex patterns for German abbreviations (w.z.B, u.s.w, etc.)
+  - `ABBREVIATIONS` - Simplified patterns for quick lookups
+  - `ABBREV_PATTERN` - Compiled regex for abbreviation matching
+  - `QUOTE_CHARS` - Set of all quote character variants („, ", «, etc.)
 
 ---
 
-### Text & XML Utilities
-#### `text_utils.py`
-**Text utilities for quote handling**
+### Text Processing
 
-- Strip quotes before splitting, map sentence positions back to original, restore quotes. (Refinement needed)
-  
-- Crafted to elude inconsistent quote handling by standard sentence splitters. 
+- **`sentencizer_de.py`** - Custom German sentence boundary detection 
+  - `sentencizer(text)` - Splits text into sentences, handles abbreviations, numbered lists, ellipses, compounds
+  - `tokenize_preserve_abbrev(text)` - Tokenizes while keeping abbreviations intact
+  - `tokenize_for_stats(text)` - Simple spaCy tokenization for word counting
 
----
-
-#### `xml_helpers.py`
-**XML parsing utilities.**
-- Preserves original document spacing intent during extraction.
-  
-- Removes XML namespace prefixes for simpler tag matching.
-  
-- Checks if XML text nodes start/end with whitespace.
-  
-- Inserts explicit space markers where XML has meaningful whitespace between tags.
-  
-- Aim is to prevent incorrect merging between tag content:
-
-   e.g. `<tag>Wort</tag> <tag>noch</tag>` becomes `Wort noch` instead of `Wortnoch`
-
+- **`text_utils.py`** - Quote handling utilities 
+  - `strip_quotes_preserve_original(text)` - Returns (original, stripped) tuple
+  - `restore_quotes_to_sentence(original, stripped, sentence)` - Maps sentence positions back to restore quotes
+  - `restore_quotes_to_pair(pair, src_orig, src_strip, tgt_orig, tgt_strip)` - Restores quotes to SentencePair
+  - `has_sentence_ending(text)` - Checks for sentence-ending punctuation
 
 ---
 
-#### `data_models.py`
+### XML Processing
 
-**Core data structures used throughout the pipeline.**
+- **`xml_helpers.py`** - XML parsing utilities 
+  - `has_leading_whitespace(text)` - Checks if XML text node starts with whitespace
+  - `has_trailing_whitespace(text)` - Checks if XML text node ends with whitespace
+  - `strip_namespace(tag)` - Removes XML namespace prefixes for cleaner matching
+  - `inject_spaces_between_tags(xml_string)` - Injects `<SPACEWRAPPER>` markers for meaningful whitespace
 
-1. `SentencePair`
-   
-    - Used as the fundamental unit passed between extraction stages.
-    - Represents a single aligned sentence pair with metadata.
-    - Respects the original document's whitespace intent.
-    - Stores specific word-level corrections for precise NORM alignment.
-      e.g. `src="schreiben"`, `tgt="schreibe"`, `orth_mappings=[("schreiben", "schreibe")]`.
-    
-2. `TextBuilder`
-   
-    - Accumulates text fragments while preserving XML-specified spacing.
-    - Critical for handling mid-word insertions, compound words split across tags.
-    - The `merge` parameter handles cases like `Jugend<insertion>-</insertion>herberge`.
+---
+
+### Data Models
+
+- **`data_models.py`** - Core data structures 
+  - `SentencePair` (dataclass) - Aligned source/target pair with metadata (src, tgt, has_correction, has_foreign, orth_mappings)
+  - `TextBuilder.add_text(text, merge)` - Adds text with intelligent spacing (merge=True for mid-word)
+  - `TextBuilder.add_space()` - Explicitly adds space
+  - `TextBuilder.add_marker(marker)` - Adds markers like `<SENTBREAK>`
+  - `TextBuilder.get_text()` - Returns accumulated text with cleanup
 
 ---
 
 ### Corpus-Specific Extraction
-#### `kolipsi.py`
-**Extracts text and corrections from Kolipsi corpus family XMLs.**
-- Identifies case changes after punctuation marks to further split sentences.
 
-- Merges text split across multiple tags (e.g., `Obst-` + `laden`)
+- **`pair_builder.py`** - Sentence pair extraction orchestrator
+  - `PairBuilder.from_kolipsi(element)` - Extracts pairs from Kolipsi XML elements
+  - `PairBuilder.from_leonide(paragraph, all_paragraphs)` - Extracts pairs from LEONIDE paragraphs
+  - Handles sentence splitting with `<SENTBREAK>` markers
+  - Merges compound words split across tags (e.g., `Obst-` + `laden`)
+  - Restores quotes immediately after sentence extraction
 
-Handles the following tags:
-- `<error>`, `<over_capitalisation>`: Orthographic/capitalization errors
-  - Extracts both `<originalForm>` and `<targetForm>`
-- `<palimpsest>`: Overwritten/corrected text
-- `<strikeover>`: Strikethrough corrections with `<expansion>` children
-- `<correction>`: Generic corrections with `<deletion>` and `<insertion>`
-- `<reduction>`: Abbreviated forms (e.g., "u." → "und")
-- `<ambiguous>`: Multiple possible readings (takes first `<alternative>`)
-- `<foreign_word>`: Non-German text (marked for exclusion)
+- **`kolipsi.py`** - Kolipsi corpus extraction
+  - `extract_kolipsi(element)` - Main extraction function
+  - Handles `<error>`, `<over_capitalisation>` - Orthographic/capitalization errors
+  - Handles `<palimpsest>` - Overwritten text with nested corrections
+  - Handles `<strikeover>` - Strikethrough corrections with `<expansion>` children
+  - Handles `<correction>` - Generic corrections with `<deletion>` and `<insertion>`
+  - Handles `<reduction>` - Abbreviated forms (e.g., "u." → "und")
+  - Handles `<ambiguous>` - Multiple readings (takes first `<alternative>`)
+  - Handles `<foreign_word>` - Non-German text (marked for exclusion)
+  - Returns (src_text, tgt_text, has_corrections, orth_mappings)
 
-
-
----
-
-#### `leonide.py`
-**Extracts text and corrections from LEONIDE corpus XMLs.**
-- `tagcode` attribute links split words across paragraph boundaries, preventing content duplication
-
-```xml
-  <!-- Paragraph 1 -->
-  <orth_error tagcode="E001" orth_error_target="Sprachenoberschule">Sprachen</orth_error>
-  <!-- Paragraph 2 -->
-  <orth_error tagcode="E001">oberschule</orth_error>
-```
-Result:    
-- Recursively processes deeply nested corrections
-- Adds `<SENTBREAK>` markers when case changes in the target signal new sentences.
-
-Handles the following tags:
-- `<orth_error>`: Spelling errors with `orth_error_target` attribute
-  - Handles split words across paragraphs using `tagcode` attribute
-- `<tran_capitalisation>`: Capitalization errors
-- `<tran_word_correction>`, `<tran_word_insertion>`: Word-level edits
-- `<tran_word_deletion>`: Deleted words (excluded from output)
-- `<tran_reduction>`: Abbreviations/contractions (e.g., "Ms." → "Ms")
-- `<tran_ambiguous>`: Uncertain readings
-- `<tran_foreign_word>`: Foreign language content (marked for exclusion)
-
+- **`leonide.py`** - LEONIDE corpus extraction
+  - `extract_leonide(paragraph, all_paragraphs)` - Main extraction function
+  - Handles `<orth_error>` - Spelling errors with `orth_error_target` attribute
+  - Handles `<tran_capitalisation>` - Capitalization errors
+  - Handles `<tran_word_correction>`, `<tran_word_insertion>` - Word-level edits
+  - Handles `<tran_word_deletion>` - Deleted words (excluded from output)
+  - Handles `<tran_reduction>` - Abbreviations/contractions
+  - Handles `<tran_ambiguous>` - Uncertain readings with nested structures
+  - Handles `<tran_foreign_word>` - Foreign language content (marked for exclusion)
+  - Uses `tagcode` attribute to link split words across paragraph boundaries
+  - Returns (src_text, tgt_text, has_corrections, orth_error_mappings)
 
 ---
 
-### Output & Orchestration
-#### `output_writers.py`
-**Handles writing sentence pairs to output formats**.
+### Output Generation
 
-`NormWriter`
-
-**Produces .norm files:**
-
-```txt
-    word1_src    word1_tgt
-    word2_src    word2_tgt
-    
-    word1_src    word1_tgt
-```
-
-- Tab-separated, one word pair per line
-- Blank line separates sentences
-- Used for sequence-to-sequence model training
-- Currently displays multi-word corrections and abbreviations correction on the same line 
-e.g. (`Sprachen oberschule` → `Sprachenoberschule`)
-        (`w. z. B` → `wie z.B.`)
-
+- **`output_writers.py`** - File output handlers
+  - `NormWriter.__enter__()/__exit__()` - Context manager for file handling
+  - `NormWriter.write(text)` - Writes raw text to file
+  - `NormWriter.write_word_pair(src_word, tgt_word)` - Writes tab-separated word pair
+  - `NormWriter.write_blank_line()` - Writes sentence separator
+  - `NormWriter.end_sentence(corpus, xml_file, sent_num, start_line, end_line)` - Records line mappings
+  - Produces `.norm` files: tab-separated word pairs, blank lines between sentences
 
 ---
 
-#### `pipeline.py`
-**Orchestrates the entire extraction pipeline.**
-**1. `TextExtractor` Class:**
-```python
-extractor = TextExtractor(corpus_type="LEONIDE")
-sentence_pairs = extractor.extract(xml_content)
-```
-- Parses XML, routes to appropriate extractor (`leonide.py` or `kolipsi.py`)
-- Calls `PairBuilder` to convert text → sentence pairs
-- Handles paragraph merging (incomplete sentences split across `<paragraph>` tags)
+### Pipeline Orchestration
 
-**2. `clean_sentence_pairs(pairs) -> List[SentencePair]`:**
-Filters out:
-- Foreign language sentences
-- Sentences with `@` symbols (email addresses)
-- Arrows `->` (formatting artifacts)
-- Very short sentences (≤4 words)
-- Duplicate sentences
-- Empty/punctuation-only sentences
-
-**3. `process_file`:**
-- Reads XML file with the utilites from `xml.helpers.py`
-- Extracts sentence pairs and cleans them
-- Returns cleaned list
-
-**4. `process_corpora`:**
-Main orchestration function:
-- Processes each file to produce the sentence pairs
-- Writes `.norm` files (if requested)
-- Writes `.tsv` file with metadata (if requested)
-
+- **`pipeline.py`** - Main extraction pipeline
+  - `TextExtractor.extract(xml_content)` - Routes to appropriate corpus extractor
+  - `clean_sentence_pairs(pairs)` - Filters foreign words, arrows, @-symbols, short sentences, duplicates
+  - `calculate_corpus_stats(pairs, corpus_name)` - Computes sentence/token counts
+  - `display_corpus_statistics(raw_stats, filtered_stats, doc_counts)` - Pretty-prints before/after statistics
+  - `process_file(xml_path, corpus_type)` - Processes single XML file
+  - `process_corpora(corpus_configs, output_dir, max_files_per_corpus, output_format, compute_stats)` - Main orchestration function
+  - Outputs: `.norm` files (verticalized word alignment), `.tsv` file (metadata with line mappings)
+  - Handles paragraph merging for incomplete sentences split across `<paragraph>` tags
+  - Implements sophisticated word alignment using `orth_mappings`:
+    - Multi-word source → single target (e.g., "Sprachen oberschule" → "Sprachenoberschule")
+    - Spaced abbreviations (e.g., "w. z. B" → "wie z.B.")
+    - Many-to-one corrections (groups consecutive words mapping to same target)
+    - Punctuation splitting for proper alignment
 
 ---
 
 ### Supporting Modules
 
-#### `logger.py`
-**Centralized logging configuration.**
-- Configures Python logging to write to file (not console)
-- Provides `debug(msg)` helper function for import without cicrular dependencies.
-- Used throughout extraction for detailed debugging
+- **`logger.py`** - Centralized logging
+  - `debug(msg)` - Writes debug messages to file (not console)
+  - Configured to write to `Paths.EXT_LOG_FILE`
 
 ---
 
+### Dependencies
 
-## 📚 Dependencies
-- **spaCy:** Sentence boundary detection
-- **pandas:** DataFrame manipulation and TSV export
-- **Python 3.8+:** Dataclasses, type hints
-- **Standard library:** `re`, `xml.etree.ElementTree`, `csv`, `logging`
+- **spaCy** - Sentence boundary detection
+- **pandas** - DataFrame manipulation and TSV export
+- **Python 3.8+** - Dataclasses, type hints
+- **Standard library** - `re`, `xml.etree.ElementTree`, `csv`, `logging`
+
 ---
 
-**Last Updated:** 27th January 2026
-
+**Last Updated:** 28th January 2026  
 **Maintainer:** Lucia Galiero

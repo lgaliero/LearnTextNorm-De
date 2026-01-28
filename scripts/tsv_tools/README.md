@@ -1,4 +1,4 @@
-## Module 3: TSV Tools (`tsv_tools/`)
+## Module: TSV Tools (`tsv_tools/`)
 
 Manages batch updates of TSV files from edited NORM files.
 
@@ -21,7 +21,7 @@ Manages batch updates of TSV files from edited NORM files.
 - **`batch_update.py`** - High-level orchestration
   - `batch_update_tsv()` - Main batch update function
   
-- **`tsv_update_cli.py`** - CLI wrapper (thin, ~200 lines)
+- **`tsv_update_cli.py`** - CLI wrapper
 
 ### Usage
 
