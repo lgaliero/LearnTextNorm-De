@@ -8,7 +8,6 @@ import argparse
 import sys
 import random
 from pathlib import Path
-from configs import Paths, DataSplits
 
 # Add parent directory to path for imports
 sys.path.insert(0, str(Path(__file__).parent.parent))
@@ -21,8 +20,29 @@ from splits import (
     load_tsv,
     create_json,
     create_norm_files,
-    regenerate_splits_from_indices
+    regenerate_splits_from_indices,
+    validate_and_fix_norm_files,
+    check_norm_file,
+    get_norm_statistics
 )
+
+# Import configs
+try:
+    from configs import Paths, DataSplits
+except ImportError:
+    print("Warning: configs module not found. Using default values.")
+    # Create dummy classes
+    class Paths:
+        EXTRACT_TSV = "corpus.tsv"
+        SET_SPLITS = "output/splits"
+        EXTRACT_DIR = "output/extraction"
+        TEST_SRC = None
+        TRAIN_SRC = None
+        DEV_SRC = None
+    
+    class DataSplits:
+        TEST = 0.10
+        DEV = 0.10
 
 
 def create_test_set(df, output_dir, test_size, random_seed, paths_config):
@@ -197,6 +217,59 @@ def command_regenerate(args, paths_config):
     )
 
 
+def command_validate(args, paths_config):
+    """Validate (and optionally fix) NORM files."""
+    # Set defaults if called from interactive mode
+    if not hasattr(args, 'directory'):
+        args.directory = None
+    if not hasattr(args, 'file'):
+        args.file = None
+    if not hasattr(args, 'fix'):
+        args.fix = False
+    if not hasattr(args, 'backup'):
+        args.backup = True
+    if not hasattr(args, 'stats'):
+        args.stats = False
+    
+    # Determine directory to validate
+    if args.directory:
+        validate_dir = args.directory
+    elif args.file:
+        # Single file mode
+        if args.stats:
+            stats = get_norm_statistics(args.file)
+            print(f"\n{'='*80}")
+            print(f"STATISTICS: {args.file}")
+            print(f"{'='*80}")
+            print(f"  Total lines: {stats['total_lines']}")
+            print(f"  Empty lines: {stats['empty_lines']}")
+            print(f"  Word pairs: {stats['word_pairs']}")
+            print(f"  Single column: {stats['single_column']}")
+            print(f"  Multi column: {stats['multi_column']}")
+            print(f"  Sentences: {stats['sentences']}")
+            print(f"{'='*80}\n")
+        else:
+            issues = check_norm_file(args.file, verbose=True)
+            if args.fix:
+                total_issues = sum(len(v) for v in issues.values())
+                if total_issues > 0:
+                    from splits import fix_norm_file
+                    fix_norm_file(args.file, backup=args.backup, verbose=True)
+        return
+    elif paths_config and 'EXTRACT_DIR' in paths_config:
+        validate_dir = paths_config['EXTRACT_DIR']
+    else:
+        validate_dir = args.output_dir
+    
+    # Directory mode
+    validate_and_fix_norm_files(
+        directory=validate_dir,
+        fix=args.fix,
+        backup=args.backup,
+        verbose=True
+    )
+
+
 def interactive_mode(args, paths_config):
     """Interactive mode with menu."""
     # Check if test set exists
@@ -216,14 +289,16 @@ def interactive_mode(args, paths_config):
         print("3. Generate few-shot JSON")
         print("4. Create NORM files")
         print("5. Regenerate splits from indices")
-        print("6. Exit")
+        print("6. Validate NORM files")
+        print("7. Exit")
     else:
         print("\nOptions:")
         print("1. Create all sets (test, train, dev)")
         print("2. Create test set only")
         print("3. Generate few-shot JSON")
         print("4. Create NORM files")
-        print("5. Exit")
+        print("5. Validate NORM files")
+        print("6. Exit")
     
     choice = input("\nEnter your choice: ").strip()
     
@@ -249,6 +324,17 @@ def interactive_mode(args, paths_config):
         elif choice == "5":
             command_regenerate(args, paths_config)
         elif choice == "6":
+            # Validate NORM files
+            print("\nValidate options:")
+            print("1. Validate all NORM files in directory")
+            print("2. Validate and fix all NORM files")
+            val_choice = input("Enter choice (1-2): ").strip()
+            if val_choice == "1":
+                command_validate(args, paths_config)
+            elif val_choice == "2":
+                args.fix = True
+                command_validate(args, paths_config)
+        elif choice == "7":
             print("Bye 👋")
             return
         else:
@@ -270,6 +356,17 @@ def interactive_mode(args, paths_config):
         elif choice == "4":
             command_create_norm(args, paths_config)
         elif choice == "5":
+            # Validate NORM files
+            print("\nValidate options:")
+            print("1. Validate all NORM files in directory")
+            print("2. Validate and fix all NORM files")
+            val_choice = input("Enter choice (1-2): ").strip()
+            if val_choice == "1":
+                command_validate(args, paths_config)
+            elif val_choice == "2":
+                args.fix = True
+                command_validate(args, paths_config)
+        elif choice == "6":
             print("Bye 👋")
             return
         else:
@@ -282,28 +379,28 @@ def main():
         description='Create stratified dataset splits and generate prompts/NORM files'
     )
     
-    # Common arguments with defaults from Paths config
+    # Common arguments
     parser.add_argument(
         '--tsv',
-        default=Paths.EXTRACT_TSV,
-        help=f'Input TSV file (default: {Paths.EXTRACT_TSV})'
+        default=Paths.EXTRACT_TSV if hasattr(Paths, 'EXTRACT_TSV') else 'corpus.tsv',
+        help='Input TSV file'
     )
     parser.add_argument(
         '--output-dir',
-        default=Paths.SET_SPLITS,
-        help=f'Output directory for splits (default: {Paths.SET_SPLITS})'
+        default=Paths.SET_SPLITS if hasattr(Paths, 'SET_SPLITS') else 'output/splits',
+        help='Output directory for splits'
     )
     parser.add_argument(
         '--test-size',
         type=float,
-        default=DataSplits.TEST,
-        help=f'Test set proportion (default: {DataSplits.TEST})'
+        default=DataSplits.TEST if hasattr(DataSplits, 'TEST') else 0.10,
+        help='Test set proportion (default: 0.10)'
     )
     parser.add_argument(
         '--dev-size',
         type=float,
-        default=DataSplits.DEV,
-        help=f'Dev set proportion (default: {DataSplits.DEV})'
+        default=DataSplits.DEV if hasattr(DataSplits, 'DEV') else 0.10,
+        help='Dev set proportion (default: 0.10)'
     )
     parser.add_argument(
         '--seed',
@@ -330,18 +427,28 @@ def main():
     
     # JSON generation command
     json_parser = subparsers.add_parser('json', help='Generate few-shot prompt JSON')
-    json_parser.add_argument('--baseline', default=Paths.LLAMA_0, help=f'Path to baseline output file (default: {Paths.LLAMA_0})')
-    json_parser.add_argument('--output', default=Paths.LLAMA_JSON, help=f'Output JSON path (default: {Paths.LLAMA_JSON})')
+    json_parser.add_argument('--baseline', help='Path to baseline output file')
+    json_parser.add_argument('--output', help='Output JSON path')
     json_parser.add_argument('--update', action='store_true', help='Update mode (only refresh baselines)')
-    json_parser.add_argument('--model', choices=['llama', 'gpt', 'gemma'], default='llama', help='Model name (default: llama)')
+    json_parser.add_argument('--model', choices=['llama', 'gpt', 'gemma'], help='Model name')
     
     # NORM file generation command
     norm_parser = subparsers.add_parser('norm', help='Create NORM files for splits')
-    norm_parser.add_argument('--extract-dir', default=Paths.EXTRACT_DIR, help=f'Directory with original corpus NORM files (default: {Paths.EXTRACT_DIR})')
+    norm_parser.add_argument('--extract-dir', help='Directory with original corpus NORM files')
     norm_parser.add_argument('--splits', nargs='*', default=['train', 'dev', 'test'], help='Splits to process')
     
     # Regenerate command
     regen_parser = subparsers.add_parser('regenerate', help='Regenerate splits from existing indices')
+    
+    # Validate command
+    validate_parser = subparsers.add_parser('validate', help='Validate NORM file formatting')
+    validate_parser.add_argument('--directory', help='Directory containing .norm files to validate')
+    validate_parser.add_argument('--file', help='Single .norm file to validate')
+    validate_parser.add_argument('--fix', action='store_true', help='Automatically fix issues')
+    validate_parser.add_argument('--no-backup', dest='backup', action='store_false', 
+                                 help='Skip creating .bak backups when fixing')
+    validate_parser.add_argument('--stats', action='store_true', 
+                                 help='Show statistics for file (use with --file)')
     
     # Interactive command
     interactive_parser = subparsers.add_parser('interactive', help='Interactive mode with menu')
@@ -350,16 +457,16 @@ def main():
     
     # Build paths config
     paths_config = {
-        'TEST_SRC': Paths.TEST_SRC,
-        'TEST_TGT': Paths.TEST_TGT,
-        'TRAIN_SRC': Paths.TRAIN_SRC,
-        'TRAIN_TGT': Paths.TRAIN_TGT,
-        'DEV_SRC': Paths.DEV_SRC,
-        'DEV_TGT': Paths.DEV_TGT,
-        'LLAMA_0': Paths.LLAMA_0,
-        'GPT_0': Paths.GPT_0,
-        'GEMMA_0': Paths.GEMMA_0,
-        'EXTRACT_DIR': Paths.EXTRACT_DIR,
+        'TEST_SRC': Paths.TEST_SRC if hasattr(Paths, 'TEST_SRC') else None,
+        'TEST_TGT': Paths.TEST_TGT if hasattr(Paths, 'TEST_TGT') else None,
+        'TRAIN_SRC': Paths.TRAIN_SRC if hasattr(Paths, 'TRAIN_SRC') else None,
+        'TRAIN_TGT': Paths.TRAIN_TGT if hasattr(Paths, 'TRAIN_TGT') else None,
+        'DEV_SRC': Paths.DEV_SRC if hasattr(Paths, 'DEV_SRC') else None,
+        'DEV_TGT': Paths.DEV_TGT if hasattr(Paths, 'DEV_TGT') else None,
+        'LLAMA_0': Paths.LLAMA_0 if hasattr(Paths, 'LLAMA_0') else None,
+        'GPT_0': Paths.GPT_0 if hasattr(Paths, 'GPT_0') else None,
+        'GEMMA_0': Paths.GEMMA_0 if hasattr(Paths, 'GEMMA_0') else None,
+        'EXTRACT_DIR': Paths.EXTRACT_DIR if hasattr(Paths, 'EXTRACT_DIR') else None,
     }
     
     # Route to appropriate command
@@ -375,6 +482,8 @@ def main():
         command_create_norm(args, paths_config)
     elif args.command == 'regenerate':
         command_regenerate(args, paths_config)
+    elif args.command == 'validate':
+        command_validate(args, paths_config)
     elif args.command == 'interactive':
         interactive_mode(args, paths_config)
     else:

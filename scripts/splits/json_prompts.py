@@ -142,6 +142,9 @@ def create_json(
                     'new_baseline': new_baseline
                 })
         
+        # Ensure output directory exists before saving
+        os.makedirs(os.path.dirname(json_output), exist_ok=True)
+
         # Save updated JSON
         with open(json_output, 'w', encoding='utf-8') as f:
             json.dump(results, f, ensure_ascii=False, indent=2)
@@ -275,6 +278,9 @@ def create_json(
         }
         results.append(result_entry)
     
+    # Ensure output directory exists before saving
+    os.makedirs(os.path.dirname(json_output), exist_ok=True)
+
     # Write to JSON file
     with open(json_output, 'w', encoding='utf-8') as f:
         json.dump(results, f, ensure_ascii=False, indent=2)

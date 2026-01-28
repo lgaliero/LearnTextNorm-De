@@ -21,7 +21,7 @@ Handles LLM-based text normalization with support for different prompting strate
   - `process_single_sentence()` - Process one sentence
   - `process_batch()` - Process multiple sentences
   
-- **`api_query_cli.py`** - CLI wrapper (thin, ~200 lines)
+- **`api_query_cli.py`** - CLI wrapper
 
 ### Usage
 
