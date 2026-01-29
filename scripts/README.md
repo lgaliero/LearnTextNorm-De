@@ -7,13 +7,15 @@ Intended workflow:
 *`data_maker.py` can be queried whenever different file types are needed
 `corpus_stats.py`can be queried at anytime
 
+---
+
 ### Usage Guide
 
 #### 1. `extraction.py`
 **Execution entry point for the `extraction` module.**
 
-
 **Usage:**
+
 ```bash
 # Extract all configured corpora
 python scripts/extraction.py
@@ -28,6 +30,7 @@ python scripts/extraction.py --max-files 5 --format tsv
 python scripts/extraction.py --format norm  # or 'tsv', 'both'
 ```
 
+---
 
 #### 2. `tsv_updater.py`
 **Execution entry point for the `tsv_tools` module.**
@@ -45,6 +48,8 @@ python tsv_tools/tsv_update.py update \
     --tsv-file output/all_corpora.tsv \
     --corpora LEONIDE Kolipsi_1_L2
 ```
+
+---
 
 
 #### 3. `data_maker.py`
@@ -113,19 +118,63 @@ python data_maker.py validate \
     --stats
 ```
 
+---
+
 #### 4. `api_inference.py`
 
 **Execution entry point for the `inference` module**
+**Usage**
 
 ```bash
 # Baseline mode (zero-shot)
-python inference/api_query_cli.py --mode baseline --input test.src --model llama3.2
+python api_inference.py --mode baseline --input test.src --model llama3.2
 
 # 2-shot mode with examples from JSON
-python inference/api_query_cli.py --mode 2-shot-json --json examples.json --input test.src --model gpt
+python api_inference.py --mode 2-shot-json --json examples.json --input test.src --model gpt
 
 # Interactive mode (no input file)
-python inference/api_query_cli.py --mode baseline --model llama3.2
+python api_inference.py --mode baseline --model llama3.2
+```
+
+---
+#### `stats.py`
+
+**Execution entry point for the `inference` module**
+
+  - `compute_corpus_statistics(mode, corpus_configs, tsv_path, tokenize_func, output_json)` - Main entry point wrapper
+  - `main()` - CLI entry point for `python -m stats` execution
+  - Orchestrates raw/processed/both modes, handles JSON export
+  - Automatically imports `tokenize_for_stats` from extraction module for consistency
+
+ 
+**Usage**
+
+
+---
+#### `stats.py`
+
+**CLI wrapper script for the `stats` module**
+
+  - `compute_corpus_statistics(mode, corpus_configs, tsv_path, tokenize_func, output_json)` - Main wrapper function
+  - `main()` - CLI entry point
+  - Orchestrates raw/processed/both modes, handles JSON export
+  - Automatically imports `tokenize_for_stats` from extraction module for consistency
+
+ 
+**Usage**
+
+```bash
+# Processed statistics only
+python stats.py --mode processed --tsv ../master_files/all_corpora.tsv
+
+# Both with comparison (default mode)
+python stats.py --mode both --tsv ../master_files/all_corpora.tsv
+
+# Raw statistics only
+python stats.py --mode raw
+
+# Save to JSON
+python stats.py --mode both --tsv ../master_files/all_corpora.tsv --output stats.json
 ```
 
 **Last Updated:** 29th January 2026  
