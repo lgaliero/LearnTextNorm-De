@@ -6,6 +6,8 @@ Handles argument parsing and orchestrates the inference modules.
 
 import argparse
 import sys
+import time
+import psutil
 from pathlib import Path
 
 # Add parent directory to path for imports
@@ -16,7 +18,6 @@ from inference import (
     load_examples_json,
     load_sentences_from_file,
     append_to_tgt,
-    process_batch,
     find_examples_for_sentence,
     get_examples_interactively,
     extract_examples_from_entry
@@ -30,33 +31,95 @@ except ImportError:
     sys.exit(1)
 
 
-def interactive_mode(mode: str, model: str, model_client: ModelClient, 
-                    system_baseline: str, system_2shot: str, examples_data: list):
-    """
-    Run in interactive mode - prompt user for sentences.
+def process_file_mode(input_file: str, mode: str, model: str, model_client: ModelClient,
+                      system_baseline: str, system_2shot: str, examples_data: list, paths_config: dict):
+    """Process all sentences from a file, one at a time."""
     
-    Args:
-        mode: Inference mode
-        model: Model identifier
-        model_client: ModelClient instance
-        system_baseline: System prompt for baseline
-        system_2shot: System prompt for 2-shot
-        examples_data: List of example dictionaries
-    """
+    # Load sentences
+    try:
+        sentences = load_sentences_from_file(input_file)
+    except FileNotFoundError:
+        print(f"Error: Input file {input_file} not found.")
+        sys.exit(1)
+    
+    print(f"Processing {len(sentences)} sentences from {input_file}\n")
+    
+    processed = 0
+    skipped = 0
+    
+    # Process each sentence one at a time
+    for idx, sentence in enumerate(sentences, 1):
+        start_time = time.time()
+        mem_before = psutil.Process().memory_info().rss / 1024**3
+        
+        print(f"[{idx}/{len(sentences)}] Starting (Memory: {mem_before:.2f}GB)")
+        print(f"[{idx}/{len(sentences)}] Processing: {sentence[:60]}{'...' if len(sentence) > 60 else ''}")
+        
+        examples = None
+        baseline_output = None
+        
+        # Get examples for 2-shot mode
+        if mode == "2-shot-json":
+            if not examples_data:
+                print(f"  [{idx}] ⚠️  Warning: No examples data provided, skipping.")
+                skipped += 1
+                continue
+                
+            entry = find_examples_for_sentence(sentence, examples_data)
+            
+            if not entry:
+                print(f"  [{idx}] ⚠️  Warning: No examples found, skipping.")
+                skipped += 1
+                continue
+            
+            examples = extract_examples_from_entry(entry, count=2)
+            baseline_output = entry.get('baseline_output', 'to be added')
+            print(f"  [{idx}] Found {len(examples)} examples")
+        
+        # Query model
+        try:
+            output = model_client.query_model(
+                sentence,
+                mode,
+                model,
+                system_baseline,
+                system_2shot,
+                examples=examples,
+                baseline_output=baseline_output
+            )
+            
+            # Write immediately to disk
+            append_to_tgt(output, mode, model, paths_config)
+            
+            # Timing
+            elapsed = time.time() - start_time
+            mem_after = psutil.Process().memory_info().rss / 1024**3
+            
+            print(f"  [{idx}] ✓ Output: {output[:80]}{'...' if len(output) > 80 else ''}")
+            print(f"  [{idx}] ✓ Written to file")
+            print(f"  [{idx}] Completed in {elapsed:.1f}s (Memory: {mem_after:.2f}GB, Δ{mem_after-mem_before:.2f}GB)\n")
+            
+            processed += 1
+            
+        except Exception as e:
+            print(f"  [{idx}] ✗ Error: {e}")
+            import traceback
+            traceback.print_exc()
+            skipped += 1
+    
+    print(f"\n{'='*60}")
+    print(f"✓ Completed: {processed} sentences processed, {skipped} skipped")
+    print(f"{'='*60}\n")
+
+
+def interactive_mode(mode: str, model: str, model_client: ModelClient, 
+                    system_baseline: str, system_2shot: str, examples_data: list, paths_config: dict):
+    """Run in interactive mode - prompt user for sentences."""
+    
     print("Paste a sentence and press Enter.")
     if mode == "2-shot-json":
         print("The system will find matching examples from JSON.")
     print("Type :q to quit.\n")
-    
-    # Create paths config for append_to_tgt
-    paths_config = {
-        'LLAMA_0': Paths.LLAMA_0 if hasattr(Paths, 'LLAMA_0') else None,
-        'GPT_0': Paths.GPT_0 if hasattr(Paths, 'GPT_0') else None,
-        'GEMMA_0': Paths.GEMMA_0 if hasattr(Paths, 'GEMMA_0') else None,
-        'LLAMA_2': Paths.LLAMA_2 if hasattr(Paths, 'LLAMA_2') else None,
-        'GPT_2': Paths.GPT_2 if hasattr(Paths, 'GPT_2') else None,
-        'GEMMA_2S': Paths.GEMMA_2S if hasattr(Paths, 'GEMMA_2S') else None,
-    }
     
     while True:
         examples = None
@@ -116,52 +179,8 @@ def interactive_mode(mode: str, model: str, model_client: ModelClient,
        
         except Exception as e:
             print(f"Error: {e}\n")
-
-
-def batch_mode(input_file: str, mode: str, model: str, model_client: ModelClient,
-               system_baseline: str, system_2shot: str, examples_data: list):
-    """
-    Run in batch mode - process all sentences from file.
-    
-    Args:
-        input_file: Path to input file
-        mode: Inference mode
-        model: Model identifier
-        model_client: ModelClient instance
-        system_baseline: System prompt for baseline
-        system_2shot: System prompt for 2-shot
-        examples_data: List of example dictionaries
-    """
-    # Load sentences
-    try:
-        sentences = load_sentences_from_file(input_file)
-    except FileNotFoundError:
-        print(f"Error: Input file {input_file} not found.")
-        sys.exit(1)
-    
-    print(f"Processing {len(sentences)} sentences from {input_file}\n")
-    
-    # Create paths config for append_to_tgt
-    paths_config = {
-        'LLAMA_0': Paths.LLAMA_0 if hasattr(Paths, 'LLAMA_0') else None,
-        'GPT_0': Paths.GPT_0 if hasattr(Paths, 'GPT_0') else None,
-        'GEMMA_0': Paths.GEMMA_0 if hasattr(Paths, 'GEMMA_0') else None,
-        'LLAMA_2': Paths.LLAMA_2 if hasattr(Paths, 'LLAMA_2') else None,
-        'GPT_2': Paths.GPT_2 if hasattr(Paths, 'GPT_2') else None,
-        'GEMMA_2S': Paths.GEMMA_2S if hasattr(Paths, 'GEMMA_2S') else None,
-    }
-    
-    # Process batch
-    results = process_batch(
-        sentences, mode, model, model_client,
-        system_baseline, system_2shot, examples_data
-    )
-    
-    # Save results
-    for idx, sentence, output in results:
-        append_to_tgt(output, mode, model, paths_config)
-    
-    print(f"\n✓ Completed processing {len(results)} sentences (skipped {len(sentences) - len(results)})")
+            import traceback
+            traceback.print_exc()
 
 
 def main():
@@ -211,6 +230,16 @@ def main():
     system_baseline = ApiConfig.SYS_BASELINE if hasattr(ApiConfig, 'SYS_BASELINE') else ""
     system_2shot = ApiConfig.SYS_2SHOT if hasattr(ApiConfig, 'SYS_2SHOT') else ""
     
+    # Create paths config
+    paths_config = {
+        'LLAMA_0': Paths.LLAMA_0 if hasattr(Paths, 'LLAMA_0') else None,
+        'GPT_0': Paths.GPT_0 if hasattr(Paths, 'GPT_0') else None,
+        'GEMMA_0': Paths.GEMMA_0 if hasattr(Paths, 'GEMMA_0') else None,
+        'LLAMA_2': Paths.LLAMA_2 if hasattr(Paths, 'LLAMA_2') else None,
+        'GPT_2': Paths.GPT_2 if hasattr(Paths, 'GPT_2') else None,
+        'GEMMA_2S': Paths.GEMMA_2S if hasattr(Paths, 'GEMMA_2S') else None,
+    }
+    
     # Load examples JSON if using 2-shot-json mode
     examples_data = []
     if mode == "2-shot-json":
@@ -224,13 +253,13 @@ def main():
             sys.exit(1)
         print(f"✓ Loaded {len(examples_data)} examples from {args.json}\n")
     
-    # Run in batch or interactive mode
+    # Run in file or interactive mode
     if args.input:
-        batch_mode(args.input, mode, model, model_client, 
-                  system_baseline, system_2shot, examples_data)
+        process_file_mode(args.input, mode, model, model_client, 
+                         system_baseline, system_2shot, examples_data, paths_config)
     else:
         interactive_mode(mode, model, model_client,
-                        system_baseline, system_2shot, examples_data)
+                        system_baseline, system_2shot, examples_data, paths_config)
 
 
 if __name__ == "__main__":

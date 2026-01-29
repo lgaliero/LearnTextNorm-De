@@ -250,7 +250,8 @@ def validate_and_fix_norm_files(
     directory: str,
     fix: bool = False,
     backup: bool = True,
-    verbose: bool = True
+    verbose: bool = True,
+    recursive: bool = False
 ) -> Dict[str, Dict]:
     """
     Validate (and optionally fix) all NORM files in a directory.
@@ -260,6 +261,7 @@ def validate_and_fix_norm_files(
         fix: Apply fixes to files
         backup: Create backups before fixing
         verbose: Print detailed information
+        recursive: Search subdirectories for .norm files
         
     Returns:
         Dictionary mapping filenames to their issue reports
@@ -268,7 +270,14 @@ def validate_and_fix_norm_files(
         raise FileNotFoundError(f"Directory not found: {directory}")
     
     # Find all .norm files
-    norm_files = [f for f in os.listdir(directory) if f.endswith('.norm')]
+    if recursive:
+        norm_files = []
+        for root, dirs, files in os.walk(directory):
+            for f in files:
+                if f.endswith('.norm'):
+                    norm_files.append(os.path.join(root, f))
+    else:
+        norm_files = [os.path.join(directory, f) for f in os.listdir(directory) if f.endswith('.norm')]
     
     if not norm_files:
         print(f"No .norm files found in {directory}")
@@ -276,19 +285,22 @@ def validate_and_fix_norm_files(
     
     print(f"\n{'='*80}")
     print(f"VALIDATING {len(norm_files)} NORM FILE(S) IN: {directory}")
+    if recursive:
+        print("(searching subdirectories)")
     print(f"{'='*80}")
     
     results = {}
     
-    for filename in sorted(norm_files):
-        file_path = os.path.join(directory, filename)
+    for file_path in sorted(norm_files):
+        filename = os.path.basename(file_path)
+        relative_path = os.path.relpath(file_path, directory)
         
         if verbose:
-            print(f"\n--- {filename} ---")
+            print(f"\n--- {relative_path} ---")
         
         # Check for issues
         issues = check_norm_file(file_path, verbose=verbose)
-        results[filename] = issues
+        results[relative_path] = issues
         
         # Apply fixes if requested
         if fix:
@@ -323,6 +335,117 @@ def validate_and_fix_norm_files(
             print("  Please re-run validation to confirm all issues are resolved")
         else:
             print("\n  Run with --fix flag to automatically fix these issues")
+    
+    print(f"{'='*80}\n")
+    
+    return results
+
+
+def batch_validate_from_config(
+    paths_config: Optional[Dict] = None,
+    fix: bool = False,
+    backup: bool = True,
+    verbose: bool = True
+) -> Dict[str, Dict]:
+    """
+    Batch validate all NORM files using paths from config.
+    
+    Args:
+        paths_config: Dict with TRAIN_NORM, DEV_NORM, TEST_NORM paths
+        fix: Apply fixes to files
+        backup: Create backups before fixing
+        verbose: Print detailed information
+        
+    Returns:
+        Dictionary mapping filenames to their issue reports
+    """
+    # Get norm file paths from config
+    norm_paths = []
+    missing_files = []
+    undefined_paths = []
+    
+    if not paths_config:
+        print("❌ Error: paths_config is None or empty")
+        return {}
+    
+    for key in ['TRAIN_NORM', 'DEV_NORM', 'TEST_NORM']:
+        path = paths_config.get(key)
+        
+        if not path:
+            undefined_paths.append(key)
+        elif not os.path.exists(path):
+            missing_files.append((key, path))
+        else:
+            norm_paths.append(path)
+    
+    # Report issues
+    if undefined_paths:
+        print(f"⚠️  Warning: These paths are not defined in config:")
+        for key in undefined_paths:
+            print(f"     - {key}")
+    
+    if missing_files:
+        print(f"\n⚠️  Warning: These NORM files don't exist yet:")
+        for key, path in missing_files:
+            print(f"     - {key}: {path}")
+        print("\n💡 Tip: Create NORM files first with: python data_maker.py norm")
+    
+    if not norm_paths:
+        print("\n❌ No NORM files found to validate.")
+        print("\nPossible solutions:")
+        print("1. Create NORM files: python data_maker.py norm")
+        print("2. Use directory mode: python data_maker.py validate --directory ../data --recursive")
+        return {}
+    
+    print(f"\n{'='*80}")
+    print(f"BATCH VALIDATION: {len(norm_paths)} NORM FILE(S) FROM CONFIG")
+    print(f"{'='*80}")
+    
+    results = {}
+    
+    for file_path in sorted(norm_paths):
+        filename = os.path.basename(file_path)
+        
+        if verbose:
+            print(f"\n--- {filename} ({file_path}) ---")
+        
+        # Check for issues
+        issues = check_norm_file(file_path, verbose=verbose)
+        results[filename] = issues
+        
+        # Apply fixes if requested
+        if fix:
+            total_issues = sum(len(v) for v in issues.values())
+            if total_issues > 0:
+                fix_norm_file(file_path, backup=backup, verbose=verbose)
+                
+                # Re-check after fixing
+                if verbose:
+                    print("\nRe-checking after fixes...")
+                    new_issues = check_norm_file(file_path, verbose=True)
+                    remaining = sum(len(v) for v in new_issues.values())
+                    if remaining == 0:
+                        print("✓ All issues resolved")
+                    else:
+                        print(f"⚠️  {remaining} issues remaining (may need manual review)")
+    
+    # Summary
+    print(f"\n{'='*80}")
+    print("BATCH VALIDATION SUMMARY")
+    print(f"{'='*80}")
+    
+    files_with_issues = sum(1 for issues in results.values() if sum(len(v) for v in issues.values()) > 0)
+    
+    if files_with_issues == 0:
+        print("✓ All NORM files are properly formatted")
+    else:
+        print(f"⚠️  {files_with_issues}/{len(norm_paths)} files have issues")
+        
+        if fix:
+            print("\n✓ Fixes have been applied")
+            print("  Please re-run validation to confirm all issues are resolved")
+        else:
+            print("\n  Run with validation command and --fix flag to automatically fix these issues")
     
     print(f"{'='*80}\n")
     

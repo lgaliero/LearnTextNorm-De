@@ -15,3 +15,5 @@ modularization/
 scripts/diagnose.py
 scripts/quick_check.py
 scripts/test_align.py
+data/train/train.norm.bak
+data/dev/dev.norm.bak

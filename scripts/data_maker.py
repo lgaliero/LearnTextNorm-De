@@ -8,6 +8,7 @@ import argparse
 import sys
 import random
 from pathlib import Path
+from splits.norm_check import batch_validate_from_config
 
 # Add parent directory to path for imports
 sys.path.insert(0, str(Path(__file__).parent.parent))
@@ -22,7 +23,9 @@ from splits import (
     create_norm_files,
     regenerate_splits_from_indices,
     validate_and_fix_norm_files,
+    batch_validate_from_config,
     check_norm_file,
+    fix_norm_file,
     get_norm_statistics
 )
 
@@ -204,7 +207,8 @@ def command_create_norm(args, paths_config):
         output_dir=args.output_dir,
         tsv_path=args.tsv,
         extract_dir=extract_dir,
-        splits=args.splits
+        splits=args.splits,
+        paths_config=paths_config
     )
 
 
@@ -230,12 +234,21 @@ def command_validate(args, paths_config):
         args.backup = True
     if not hasattr(args, 'stats'):
         args.stats = False
+    if not hasattr(args, 'batch'):
+        args.batch = False
     
-    # Determine directory to validate
-    if args.directory:
-        validate_dir = args.directory
-    elif args.file:
-        # Single file mode
+    # Batch mode - use config paths
+    if args.batch:
+        batch_validate_from_config(
+            paths_config=paths_config,
+            fix=args.fix,
+            backup=args.backup,
+            verbose=True
+        )
+        return
+    
+    # Single file mode
+    if args.file:
         if args.stats:
             stats = get_norm_statistics(args.file)
             print(f"\n{'='*80}")
@@ -253,15 +266,17 @@ def command_validate(args, paths_config):
             if args.fix:
                 total_issues = sum(len(v) for v in issues.values())
                 if total_issues > 0:
-                    from splits import fix_norm_file
                     fix_norm_file(args.file, backup=args.backup, verbose=True)
         return
-    elif paths_config and 'EXTRACT_DIR' in paths_config:
-        validate_dir = paths_config['EXTRACT_DIR']
+    
+    # Directory mode
+    if args.directory:
+        validate_dir = args.directory
+    elif paths_config and 'SET_SPLITS' in paths_config:
+        validate_dir = paths_config['SET_SPLITS']
     else:
         validate_dir = args.output_dir
     
-    # Directory mode
     validate_and_fix_norm_files(
         directory=validate_dir,
         fix=args.fix,
@@ -326,12 +341,14 @@ def interactive_mode(args, paths_config):
         elif choice == "6":
             # Validate NORM files
             print("\nValidate options:")
-            print("1. Validate all NORM files in directory")
-            print("2. Validate and fix all NORM files")
+            print("1. Batch validate (using config paths)")
+            print("2. Batch validate and fix")
             val_choice = input("Enter choice (1-2): ").strip()
             if val_choice == "1":
+                args.batch = True
                 command_validate(args, paths_config)
             elif val_choice == "2":
+                args.batch = True
                 args.fix = True
                 command_validate(args, paths_config)
         elif choice == "7":
@@ -358,12 +375,14 @@ def interactive_mode(args, paths_config):
         elif choice == "5":
             # Validate NORM files
             print("\nValidate options:")
-            print("1. Validate all NORM files in directory")
-            print("2. Validate and fix all NORM files")
-            val_choice = input("Enter choice (1-2): ").strip()
+            print("1. Batch validate (using config paths)")
+            print("2. Batch validate and fix")
+            val_choice = input("Enter choice (1-4): ").strip()
             if val_choice == "1":
+                args.batch = True
                 command_validate(args, paths_config)
             elif val_choice == "2":
+                args.batch = True
                 args.fix = True
                 command_validate(args, paths_config)
         elif choice == "6":
@@ -444,6 +463,8 @@ def main():
     validate_parser = subparsers.add_parser('validate', help='Validate NORM file formatting')
     validate_parser.add_argument('--directory', help='Directory containing .norm files to validate')
     validate_parser.add_argument('--file', help='Single .norm file to validate')
+    validate_parser.add_argument('--batch', action='store_true', 
+                                 help='Batch validate using config paths (TRAIN_NORM, DEV_NORM, TEST_NORM)')
     validate_parser.add_argument('--fix', action='store_true', help='Automatically fix issues')
     validate_parser.add_argument('--no-backup', dest='backup', action='store_false', 
                                  help='Skip creating .bak backups when fixing')
@@ -459,14 +480,18 @@ def main():
     paths_config = {
         'TEST_SRC': Paths.TEST_SRC if hasattr(Paths, 'TEST_SRC') else None,
         'TEST_TGT': Paths.TEST_TGT if hasattr(Paths, 'TEST_TGT') else None,
+        'TEST_NORM': Paths.TEST_NORM if hasattr(Paths, 'TEST_NORM') else None,
         'TRAIN_SRC': Paths.TRAIN_SRC if hasattr(Paths, 'TRAIN_SRC') else None,
         'TRAIN_TGT': Paths.TRAIN_TGT if hasattr(Paths, 'TRAIN_TGT') else None,
+        'TRAIN_NORM': Paths.TRAIN_NORM if hasattr(Paths, 'TRAIN_NORM') else None,
         'DEV_SRC': Paths.DEV_SRC if hasattr(Paths, 'DEV_SRC') else None,
         'DEV_TGT': Paths.DEV_TGT if hasattr(Paths, 'DEV_TGT') else None,
+        'DEV_NORM': Paths.DEV_NORM if hasattr(Paths, 'DEV_NORM') else None,
         'LLAMA_0': Paths.LLAMA_0 if hasattr(Paths, 'LLAMA_0') else None,
         'GPT_0': Paths.GPT_0 if hasattr(Paths, 'GPT_0') else None,
         'GEMMA_0': Paths.GEMMA_0 if hasattr(Paths, 'GEMMA_0') else None,
         'EXTRACT_DIR': Paths.EXTRACT_DIR if hasattr(Paths, 'EXTRACT_DIR') else None,
+        'SET_SPLITS': Paths.SET_SPLITS if hasattr(Paths, 'SET_SPLITS') else None,
     }
     
     # Route to appropriate command

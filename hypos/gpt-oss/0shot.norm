@@ -125,7 +125,7 @@ besser	besser
 Gestern	Gestern
 habe	habe
 ich	ich
-Maria	Marias
+Maria	María
 gesehen	gesehen
 .	.
 
@@ -136,7 +136,7 @@ in	in
 einem	einem
 ruhigen	ruhigen
 ,	,
-abgelegenem	abgelegenem
+abgelegenem	abgelegenen
 Hotel	Hotel
 wohnen	wohnen
 .	.
@@ -184,7 +184,7 @@ traurig	traurig
 und	und
 weinte	weinte
 doch	doch
-der	Der
+der	der
 Mann	Mann
 hatte	hatte
 nicht	nicht
@@ -206,7 +206,7 @@ des	des
 Internets	Internets
 soll	soll
 eigentlich	eigentlich
-verringen	verringern
+verringen	verringert
 ,	,
 um	um
 das	das
@@ -218,8 +218,8 @@ sonst	sonst
 werden	werden
 wir	wir
 immer	immer
-so	so
-in	in
+so	in
+in	.
 diese	diese
 Richtung	Richtung
 weitergehen	weitergehen
@@ -243,7 +243,7 @@ müssen	müssen
 dringend	dringend
 geholfen	geholfen
 werden	werden
-,	,
+,	;
 sonst	sonst
 wird	wird
 in	in
@@ -255,15 +255,15 @@ passieren	passieren
 .	.
 
 Man	Man
-Du	Du
+Du	Es
 musst	musst
 die	die
 Leute	Leute
-in	,
-der	es
+in	in
+der	der
 Realität	Realität
-kennenlernen	kennenlernen
-,	.
+kennenlernen	kennenzulernen
+,	,
 es	es
 wäre	wäre
 schöner	schöner
@@ -328,7 +328,7 @@ weil	weil
 es	es
 wichtig	wichtig
 ist	ist
-zum	zum
+zum	Zum
 Lernen	Lernen
 wenn	wenn
 man	man
@@ -357,7 +357,7 @@ Problem	Problem
 weil	weil
 die	die
 Verkäuferin	Verkäuferin
-sagt	sagt
+sagt	sagte
 ,	,
 dass	dass
 sie	sie
@@ -379,32 +379,32 @@ Obst-	Obst
 Gemüseladen	Gemüseladen
 .	.
 
-Du	Du
-könntest	könntest
-ihnen	ihnen
-einfach	einfach
-die	die
-Wahrheit	Wahrheit
-sagen	sagen
-:	,
-Dass	dass
-du	du
-zu	zu
-viele	viel
-Zeit	Zeit
-mit	mit
-dem	dem
-Computer	Computer
-benutzt	benutzt
-und	und
-willst	willst
-mehr	mehr
-Zeit	Zeit
-für	für
-andere	andere
-Sache	Sachen
-haben	haben
-.	.
+Du	<MISMATCH>
+könntest	<MISMATCH>
+ihnen	<MISMATCH>
+einfach	<MISMATCH>
+die	<MISMATCH>
+Wahrheit	<MISMATCH>
+sagen	<MISMATCH>
+:	<MISMATCH>
+Dass	<MISMATCH>
+du	<MISMATCH>
+zu	<MISMATCH>
+viele	<MISMATCH>
+Zeit	<MISMATCH>
+mit	<MISMATCH>
+dem	<MISMATCH>
+Computer	<MISMATCH>
+benutzt	<MISMATCH>
+und	<MISMATCH>
+willst	<MISMATCH>
+mehr	<MISMATCH>
+Zeit	<MISMATCH>
+für	<MISMATCH>
+andere	<MISMATCH>
+Sache	<MISMATCH>
+haben	<MISMATCH>
+.	<MISMATCH>
 
 Mann	Mann
 ist	ist
@@ -419,18 +419,18 @@ Hause	Hause
 .	.
 
 Doch	Ich
-"	-
+"	in
 Ich	Ich
-war	war
+war	der
 bereits	bereits
-im	.
+im	-
 Obst -und	Obst -und
 Gemüseladen	Gemüseladen
 .	.
 
 Meinung	Meinung
 nach	nach
-sollen	sollten
+sollen	sollen
 die	die
 Schüler	Schüler
 in	in
@@ -469,17 +469,17 @@ in	in
 Supermarkt	Supermarkt
 .	.
 
-Um	Um
-ein	ein
+Um	am
+ein	im
 paar	paar
 Beispiele	Beispiele
 zu	zu
 nennen	nennen
-:	,
+:	:
 wir	wir
-können	sonnen
+können	können
 uns	uns
-am	im
+am	am
 Strand	Strand
 sonnen	sonnen
 ,	,
@@ -508,10 +508,10 @@ manchmal	manchmal
 arbeite	arbeite
 ich	ich
 bei	bei
-Luka's	Luka
+Luka's	Lukas
 :	:
-unsere	unser
-Lieblingst Restaurant.	Lieblingst Restaurant.
+unsere	unserem
+Lieblingst Restaurant.	Lieblingsrestaurant
 
 Mir	Mir
 geschah	geschah
@@ -530,7 +530,7 @@ Wenn	Wenn
 sie	sie
 zählt	zählt
 ,	,
-vergiesst	vergißt
+vergiesst	vergisst
 sie	sie
 den	den
 Kassenzettel	Kassenzettel
@@ -585,11 +585,11 @@ Brief	Brief
 gelesen	gelesen
 und	und
 ich	ich
-dancke	dank
-dass	dass
+dancke	danke
+dass	das
 ist	ist
-nich	nich
-ein	keine
+nich	nicht
+ein	eine
 gute	gute
 Nachricht	Nachricht
 .	.
@@ -631,8 +631,8 @@ hätte	hätte
 sie	sie
 etwas	etwas
 gekauft	gekauft
-,	,
-Aber	aber
+,	:
+Aber	Aber
 wenn	wenn
 sie	sie
 zahlen	zahlen
@@ -644,19 +644,19 @@ dass	dass
 Maria	Maria
 zwei	zwei
 Bananen	Bananen
-in	in
+in	,
 ihrer	ihrer
 Tasche	Tasche
-hätte	hatte
-die	die
-sie	sie
+hätte	hätte
+die	sie
+sie	sah
 nicht	nicht
 zahlen	zahlen
 hätte	hätte
 und	und
 ärgerte	ärgerte
 sich	sich
-.	.
+.	,
 
 Sämtliche	Sämtliche
 Erklärungen	Erklärungen
@@ -666,25 +666,25 @@ nützten	nutzten
 nichts	nichts
 .	.
 
-Doch	Doch
-eines	eines
-möchte	möchte
-ich	ich
-sofort	sofort
-klar	klar
-stellen	stellen
-:	:
-ich	Ich
-möchte	möchte
-einen	einen
-erholsamen	erholsamen
-,	,
-jedoch	jedoch
-nicht	nicht
-langweiligen	langweiligen
-Urlaub	Urlaub
-verbringen	verbringen
-.	.
+Doch	<MISMATCH>
+eines	<MISMATCH>
+möchte	<MISMATCH>
+ich	<MISMATCH>
+sofort	<MISMATCH>
+klar	<MISMATCH>
+stellen	<MISMATCH>
+:	<MISMATCH>
+ich	<MISMATCH>
+möchte	<MISMATCH>
+einen	<MISMATCH>
+erholsamen	<MISMATCH>
+,	<MISMATCH>
+jedoch	<MISMATCH>
+nicht	<MISMATCH>
+langweiligen	<MISMATCH>
+Urlaub	<MISMATCH>
+verbringen	<MISMATCH>
+.	<MISMATCH>
 
 Sie	Sie
 trägt	trägt
@@ -693,16 +693,16 @@ und	und
 ihre	ihre
 lieblings Jake.	lieblings Jake.
 
-schaute	schaute
+schaute	schau
 ich	ich
-mich	mich
+mich	mir
 um	um
 .	.
 
 Da	Da
 Eine	Eine
 positive	positive
-Dinge	Ding
+Dinge	Dinge
 über	über
 virtuelle	virtuelle
 Freundschaft	Freundschaft
@@ -752,27 +752,27 @@ Direktor	Direktor
 an	an
 ,	,
 und	und
-er	der
-sagte	hatte
+er	er
+sagte	sagte
 dass	dass
 sie	sie
 dort	dort
 der	der
 Kassenzettel	Kassenzettel
 vergessen	vergessen
-hat	hat
+hat	hatte
 .	.
 
 Aber	Aber
 wann	wann
 sie	sie
 neben	neben
-die	die
+die	der
 Kasse	Kasse
 war	war
 ,	,
 die	die
-Kassierin	Kassiererin
+Kassierin	Kassierin
 hat	hat
 Maria	Maria
 angehaltet	angehalten
@@ -820,7 +820,7 @@ angestrengt	angestrengt
 Wenn	Wenn
 sie	sie
 bezahlt	bezahlt
-hat	hat
+hat	hatte
 ,	,
 hat	hat
 sie	sie
@@ -850,16 +850,16 @@ zu	zu
 fahren	fahren
 .	.
 
-Vater	Vater
-bringen	bringen
-die	die
-Tapet	Tapet
-und	und
-flüg	flüg
-.	.
+Vater	<MISMATCH>
+bringen	<MISMATCH>
+die	<MISMATCH>
+Tapet	<MISMATCH>
+und	<MISMATCH>
+flüg	<MISMATCH>
+.	<MISMATCH>
 
 Giacomino	Giacomino
-Aber	Aber
+Aber	haben
 wir	wir
 müssen	müssen
 Achtung	Achtung
@@ -887,21 +887,21 @@ virtuelle	virtuelle
 Freundschaft	Freundschaft
 .	.
 
-diesem	<MISMATCH>
-Lizeum	<MISMATCH>
-gibt	<MISMATCH>
-es	<MISMATCH>
-auch	<MISMATCH>
-Physik	<MISMATCH>
-und	<MISMATCH>
-Chemie	<MISMATCH>
-.	<MISMATCH>
+diesem	diesem
+Lizeum	Lizeum
+gibt	gibt
+es	Im
+auch	sich
+Physik	Physik
+und	und
+Chemie	Chemie
+.	.
 
 Sie	Sie
 fliehen	fliehen
 nur	nur
 von	von
-dumme	dummen
+dumme	dumme
 Leute	Leuten
 die	die
 nur	nur
@@ -998,7 +998,7 @@ gibt	gibt
 zwei	zwei
 Möglichkeiten	Möglichkeiten
 :	:
-in	in
+in	In
 die	die
 Berge	Berge
 oder	oder
@@ -1021,7 +1021,7 @@ Grammatik	Grammatik
 ,	,
 aber	aber
 nicht	nicht
-memoriziern	Memorisen
+memoriziern	memoriziern
 .	.
 
 Meine	Meine
@@ -1030,7 +1030,7 @@ Glück	Glück
 sah	sah
 ich	ich
 sie	sie
-grade	grade
+grade	gerade
 an	an
 der	der
 Kasse	Kasse
@@ -1089,52 +1089,52 @@ schon	schon
 jetzt	jetzt
 .	.
 
-Darauf hin	<MISMATCH>
-gab	<MISMATCH>
-es	<MISMATCH>
-heftigen	<MISMATCH>
-Ärger	<MISMATCH>
-.	<MISMATCH>
-
-Jetzt	Jetzt
-benütze	benutze
-ich	ich
-Internet	Internet
-mit	mit
-Moderation	Moderation
-und	und
-Intelligenz	Intelligenz
+Darauf hin	Darauf hin
+gab	gab
+es	es
+heftigen	heftigen
+Ärger	Ärger
 .	.
+
+Jetzt	<MISMATCH>
+benütze	<MISMATCH>
+ich	<MISMATCH>
+Internet	<MISMATCH>
+mit	<MISMATCH>
+Moderation	<MISMATCH>
+und	<MISMATCH>
+Intelligenz	<MISMATCH>
+.	<MISMATCH>
 
 Eine	Eine
 Stunde	Stunde
 später	später
 war	war
 sie	sie
-in	in
-Supermarkt	Supermärkt
+in	im
+Supermarkt	Supermarkt
 .	.
 
 Ich	Ich
 denke	denke
-,	.
-dass	dass
+,	,
+dass	als
 was	was
-du	Die
+du	du
 gemacht	gemacht
 hast	hast
 falsch	falsch
 ist	ist
-,	:
+,	,
 weil	weil
-du	Du
+du	der
 kannst	kannst
 nicht	nicht
-deine	deine
+deine	keine
 wirklichen	wirklichen
 Freunde	Freunde
 verraten	verraten
-.	,
+.	.
 
 Da	Das
 können	können
@@ -1164,25 +1164,25 @@ Entscheidung	<MISMATCH>
 mit	<MISMATCH>
 .	<MISMATCH>
 
-Du	den
-sollst	sollst
-diese	diese
-Personen	Personen
-ignoriert	ignoriert
-und	und
-du	da
-sollst	sollst
-deine	keine
-Leben	Leben
-machen	machen
-.	.
+Du	<MISMATCH>
+sollst	<MISMATCH>
+diese	<MISMATCH>
+Personen	<MISMATCH>
+ignoriert	<MISMATCH>
+und	<MISMATCH>
+du	<MISMATCH>
+sollst	<MISMATCH>
+deine	<MISMATCH>
+Leben	<MISMATCH>
+machen	<MISMATCH>
+.	<MISMATCH>
 
-Ich	in
+Ich	Ich
 muss	muss
-jezt	jezt
+jezt	jetzt
 gehen	gehen
-in	den
-die	die
+in	in
+die	den
 supermarkt	Supermarkt
 VIele	viele
 Küss	Küsse
@@ -1191,14 +1191,14 @@ Freund	Freundes
 Cicciobalestra	Cicciobalestra
 .	.
 
-Hallo	Hallo
-Schatz	Schatz
-,	,
-Wie	wie
-geht	geht
-es	es
-dir	dir
-?	?
+Hallo	<MISMATCH>
+Schatz	<MISMATCH>
+,	<MISMATCH>
+Wie	<MISMATCH>
+geht	<MISMATCH>
+es	<MISMATCH>
+dir	<MISMATCH>
+?	<MISMATCH>
 
 In	In
 virtuelle	virtuellen
@@ -1260,7 +1260,7 @@ viel	viel
 wärmer	wärmer
 und	und
 wir	wir
-bräuchten	bräuchten
+bräuchten	brauchten
 nur	nur
 kurze	kurze
 Hosen	Hosen
@@ -1273,9 +1273,9 @@ würde	würde
 viel	viel
 lieber	lieber
 irgendwo	irgendwo
-in	im
-den	Süden
-Süden	Süden
+in	in
+den	den
+Süden	südenen
 .	.
 
 Sie	Sie
@@ -1283,7 +1283,7 @@ weint	weint
 ,	,
 weil	weil
 sie	sie
-alle	alle
+alle	all
 ihre	ihre
 Dokumenten	Dokumente
 verloren	verloren
@@ -1292,10 +1292,10 @@ hat	hat
 
 Außerdem	Außerdem
 mag	mag
-ich	ich
+ich	Ich
 sehr	sehr
 die	die
-Wärme	Warme
+Wärme	Wärme
 ,	,
 die	die
 dort	dort
@@ -1357,7 +1357,7 @@ Hallo	Hallo
 Mike	Mike
 ,	,
 du	du
-hast	was
+hast	hast
 nicht	nicht
 ,	,
 was	was
@@ -1434,14 +1434,14 @@ Paul	Paul
 ich	ich
 heiße	heiße
 Jessica	Jessica
-ich	ich
+ich	in
 habe	habe
-deine	deinen
-Brief	Brief
-in	in
+deine	deine
+Brief	Briefe
+in	"
 der	der
 Rubrik	Rubrik
-"	"
+"	.
 Persönliche	Persönliche
 Briefe	Briefe
 "	"
@@ -1497,7 +1497,7 @@ ist	ist
 !	!
 
 Spanisch	Spanisch
-Tätsachlich	Tätsachlich
+Tätsachlich	Tatsächlich
 ist	ist
 sie	sie
 auch	auch
@@ -1544,7 +1544,7 @@ sagte	sagte
 ihr	ihr
 dass	dass
 sie	sie
-diesen	diesen
+diesen	diese
 Spargel	Spargel
 nicht	nicht
 bezahlt	bezahlt
@@ -1580,7 +1580,7 @@ wollte	wollte
 ich	ich
 mal	mal
 fragen	fragen
-,	,
+,	.
 ob	ob
 wir	wir
 uns	uns
@@ -1657,7 +1657,7 @@ lol	lol
 )	)
 .	.
 
-Nun	nun
+Nun	Nun
 steht	steht
 dort	dort
 nicht	nicht
@@ -1711,20 +1711,20 @@ machen	machen
 und	und
 du	,
 du	zu
-darft	darfst
+darft	darft
 kommen	kommen
 .	.
 
-Am	Am
+Am	Zum
 Ende	Ende
-wacht	wachte
+wacht	wacht
 ich	ich
-auf	auf
+auf	nur
 und	und
 zum	zum
-gluck	Glück
+gluck	gluck
 war	war
-es	es
+es	ein
 nur	nur
 ein	ein
 böser	Böser
@@ -1744,7 +1744,7 @@ geht	geht
 es	es
 sehr	sehr
 gut	gut
-!	.
+!	!
 
 Woche	Woche
 nach	nach
@@ -1815,31 +1815,31 @@ verrücktes	Verrücktes
 passiert	passiert
 .	.
 
-:	,
-sie	die
-(	:
-manche	manche
-)	)
+:	(
+sie	sie
+(	)
+manche	machen
+)	.
 machen	machen
 schlimme	schlimme
-sachen	Sachen
+sachen	sachen
 .	.
 
-Meine	Meine
-hoffe	hoffe
-das	dass
-entlich	entlich
-jemand	jemand
-etwas	etwas
-tuht	tut
-sons	sons
-ganz	ganz
-Europa	Europa
-wird	wird
-ÜBERBEFOLGT	ÜBERBEFOLGT
-!	!
-!	!
-!	!
+Meine	<MISMATCH>
+hoffe	<MISMATCH>
+das	<MISMATCH>
+entlich	<MISMATCH>
+jemand	<MISMATCH>
+etwas	<MISMATCH>
+tuht	<MISMATCH>
+sons	<MISMATCH>
+ganz	<MISMATCH>
+Europa	<MISMATCH>
+wird	<MISMATCH>
+ÜBERBEFOLGT	<MISMATCH>
+!	<MISMATCH>
+!	<MISMATCH>
+!	<MISMATCH>
 
 Meine	Meine
 nahmen	nahmen
@@ -1849,7 +1849,7 @@ wie	wie
 möglich	möglich
 seine	seine
 Sachen	Sachen
-raus	heraus
+raus	raus
 .	.
 
 Sein	eine
@@ -1861,10 +1861,10 @@ Stunde	Stunde
 gedauert	gedauert
 den	den
 Jungen	Jungen
-in	,
+in	zu
 grün	grün
 begreiflich	begreiflich
-zu	zu
+zu	,
 machen	machen
 ,	,
 dass	dass
@@ -1885,10 +1885,10 @@ Kunst	Kunst
 Ich	Ich
 Mit	Mit
 Liebe	Liebe
-,	,
+,	.
 deine	deine
 Freundin	Freundin
-,	.
+,	,
 Sara	Sara
 .	.
 
@@ -1905,21 +1905,21 @@ Brot	Brot
 und	und
 Aufschnitt	Aufschnitt
 zu	zu
-mittag	mittag
-gepessen	gepessen
+mittag	Mittag
+gepessen	gepesen
 haben	haben
 
 Alina	Alina
-,	,
+,	Es
 seitdem	seitdem
-du	du
+du	.
 gezogen	gezogen
 bist	bist
 ,	,
 ist	ist
 es	es
 hier	hier
-in	.
+in	in
 Meran	Meran
 sehr	sehr
 langweilig	langweilig
@@ -1944,22 +1944,22 @@ Italien	Italien
 leben	leben
 ,	,
 und	und
-mann	Mann
+mann	man
 dort	dort
-Italienisch	Italienisch
+Italienisch	Italianisch
 redet	redet
 .	.
 
 Deutsch	Deutsch
-Lass	Lass
+Lass	Lasst
 sie	sie
-dich	dich
+dich	nicht
 nicht	nicht
 beeinflussen	beeinflussen
 .	.
 
 Hallo	Hallo
-Vale	Vale
+Vale	Valé
 ,	,
 ich	ich
 muss	muss
@@ -2069,7 +2069,7 @@ spürten	spürten
 das	dass
 sie	sie
 immer	immer
-nah	nahe
+nah	nah
 waren	waren
 .	.
 
@@ -2079,7 +2079,7 @@ man	man
 die	die
 Sprache	Sprache
 "	"
-Französisch	Französisch
+Französisch	französische
 "	"
 auch	auch
 noch	noch
@@ -2123,11 +2123,11 @@ zu	zu
 rufen	rufen
 .	.
 
-Mach's	Mach
-gut	gut
-und	und
+Mach's	Mach's
+gut	Gruß
+und	an
 Grüße	Grüße
-an	an
+an	!
 deine	deine
 Eltern	Eltern
 Peter	Peter
@@ -2135,10 +2135,10 @@ Peter	Peter
 Deswegen	Deswegen
 ist	ist
 virtuelle	virtuelle
-Freundschaften	Freundschaft
+Freundschaften	Freundschaften
 nicht	nicht
 die	die
-besten	beste
+besten	besten
 Idee	Idee
 .	.
 
@@ -2155,15 +2155,15 @@ nicht	nicht
 Paul	Paul
 !	!
 
-UND	UND
-KINDER	KINDER
-LÖSCHEN	LOSCHEN
-DAS	DAS
-FOIER	FEUER
-UND	UND
-RAUCH	RAUCHEN
-IN	IN
-HAUS	HAUSS
+UND	und
+KINDER	Kinder
+LÖSCHEN	löschen
+DAS	das
+FOIER	Feuer
+UND	und
+RAUCH	rauchen
+IN	in
+HAUS	Haus
 .	.
 
 KINDER	KINDER
@@ -2221,12 +2221,12 @@ genommen	genommen
 .	.
 
 Lieber	Lieber
-Max	Max
-,	,
+Max	mir
+,	.
 Wie	Wie
 geht	geht
 es	es
-Dir	dir
+Dir	Dir
 ?	?
 
 flüstert	flüstert
@@ -2251,7 +2251,7 @@ sieht	sieht
 .	.
 
 Er	Er
-Letzen	Letztens
+Letzen	Letzten
 Sommer	Sommer
 hatte	hatte
 ich	ich
@@ -2269,7 +2269,7 @@ dann	dann
 vor	vor
 einer	einer
 Strafe	Strafe
-bewahren	bewahren
+bewahren	bewahrt
 .	.
 
 Ich	Ich
@@ -2362,7 +2362,7 @@ nicht	nicht
 .	.
 
 Maria	Maria
-antwortet	antwortet
+antwortet	antwortete
 dass	dass
 sie	sie
 das	das
@@ -2447,24 +2447,24 @@ Ladens	Ladens
 auch	auch
 .	.
 
-Erst	Erst
-zu	zu
-Hause	Hause
-lies	liege
-ich	ich
-mich	mich
-geben	geben
-und	und
-weinte	weinte
-.	.
+Erst	<MISMATCH>
+zu	<MISMATCH>
+Hause	<MISMATCH>
+lies	<MISMATCH>
+ich	<MISMATCH>
+mich	<MISMATCH>
+geben	<MISMATCH>
+und	<MISMATCH>
+weinte	<MISMATCH>
+.	<MISMATCH>
 
-Sprachen	Sprachen
-soll	sollen
+Sprachen	Sprache
+soll	soll
 man	man
 lassen	lassen
 ,	,
 Deutsch	Deutsch
-:	:
+:	.
 das	das
 braucht	braucht
 man	man
@@ -2472,7 +2472,7 @@ immer	immer
 .	.
 
 Italienisch	Italienisch
-Einen	Einen
+Einen	Ein
 Rat	Rat
 ,	,
 die	den
@@ -2488,19 +2488,19 @@ er	er
 wieder	wieder
 die	die
 Nummer	Nummer
-von	von
-die	den
+von	in
+die	die
 Leuten	Leuten
-in	in
-der	der
+in	,
+der	er
 Handy	Handy
 antreten	antreten
 ,	,
 so	so
 kann	kann
-er	er
+er	den
 mit	mit
-die	den
+die	die
 anderen	anderen
 Leuten	Leuten
 zu	,
@@ -2553,7 +2553,7 @@ die	die
 Tochter	Tochter
 und	und
 Mutter	Mutter
-verstecken	verstecken
+verstecken	versteckten
 sich	sich
 .	.
 
@@ -2607,7 +2607,7 @@ mit	mit
 so	so
 viele	vielen
 echte	echten
-Personen	Person
+Personen	Personen
 .	.
 
 Liebe	Liebe
@@ -2617,26 +2617,26 @@ gestern	gestern
 hat	hat
 Maria	Maria
 eine	einen
-schläschste	schläschste
+schläschste	schlechsten
 Tage	Tag
 gehabt	gehabt
 .	.
 
-Lieber	Lieber
-Robert	Robert
-,	,
-alles	alles
-klar	klar
-bei	bei
-dir	dir
-?	?
+Lieber	<MISMATCH>
+Robert	<MISMATCH>
+,	<MISMATCH>
+alles	<MISMATCH>
+klar	<MISMATCH>
+bei	<MISMATCH>
+dir	<MISMATCH>
+?	<MISMATCH>
 
 So	So
 sind	sind
 vier	vier
 in	im
 Hotel	Hotel
-zuruk gekommen.	zurückgekommen
+zuruk gekommen.	zuruk gekommen.
 
 Ich	Ich
 will	will
@@ -2657,7 +2657,7 @@ viele	viele
 Stunden	Stunden
 auf	auf
 Skype	Skype
-verbracht	verbracht
+verbracht	verbringt
 ,	,
 bis	bis
 den	die
@@ -2687,18 +2687,18 @@ geht	geht
 .	.
 
 Wenn	Wenn
-du	du
+du	Es
 diese	diese
-Moglichkeiten	Möglichkeiten
+Moglichkeiten	Moglichkeiten
 nicht	nicht
 magst	magst
 ,	,
 ruf	ruf
-uberall	überall
-deine	einer
+uberall	uberall
+deine	deine
 Stadt	Stadt
 und	und
-find	eine
+find	find
 ein	ein
 Arbeit	Arbeit
 ,	,
@@ -2706,16 +2706,16 @@ sondern	sondern
 bist	bist
 du	du
 keine	keine
-sauerstoff verwendeung.	Sauerstoffverwendung
+sauerstoff verwendeung.	sauerstoff verwendeung.
 
-Willst	Willst
-du	du
-skien	skiën
-oder	oder
-schwimmen	schwimmen
-?	?
-?	?
-?	?
+Willst	<MISMATCH>
+du	<MISMATCH>
+skien	<MISMATCH>
+oder	<MISMATCH>
+schwimmen	<MISMATCH>
+?	<MISMATCH>
+?	<MISMATCH>
+?	<MISMATCH>
 
 Sie	Sie
 war	war
@@ -2808,7 +2808,7 @@ und	und
 man	man
 kann	kann
 lange	lange
-Spaziergangen	Spaziergänge
+Spaziergangen	spaziergänge
 machen	machen
 .	.
 
@@ -2842,15 +2842,15 @@ nicht	nicht
 gibt	gibt
 .	.
 
-Warum	Warum
-hat	hast
-du	du
-mit	mit
-deinen	deinen
-Freunde	Freunden
-so	so
-gemacht	gemacht
-?	?
+Warum	<MISMATCH>
+hat	<MISMATCH>
+du	<MISMATCH>
+mit	<MISMATCH>
+deinen	<MISMATCH>
+Freunde	<MISMATCH>
+so	<MISMATCH>
+gemacht	<MISMATCH>
+?	<MISMATCH>
 
 kahm	kam
 immer	immer
@@ -2878,7 +2878,7 @@ Gegend	Gegend
 
 sind	sind
 meine	meine
-traumberuf	traumberuf
+traumberuf	Träumeberuf
 ,	,
 weil	weil
 ich	ich
@@ -2907,9 +2907,9 @@ treffen	treffen
 
 Ich	Ich
 habe	habe
-mir	mir
-beides	beides
-genau	genau
+mir	mich
+beides	beide
+genau	genauer
 angeschaut	angeschaut
 ,	,
 doch	doch
@@ -2918,7 +2918,7 @@ weiß	weiß
 nicht	nicht
 wohin	wohin
 es	es
-gehen	gehen
+gehen	geht
 soll	soll
 .	.
 
@@ -2927,7 +2927,7 @@ gehen	gehen
 wir	wir
 nach	nach
 Sardinien	Sardinien
-,	,
+,	;
 dort	dort
 hatte	hatte
 ich	ich
@@ -2977,10 +2977,10 @@ angekommen	angekommen
 und	und
 der	der
 Zug	Zug
-wartet	wartete
+wartet	wartet
 auf	auf
-den	die
-Leuten	Leute
+den	den
+Leuten	Leuten
 .	.
 
 Henry	Henry
@@ -2992,7 +2992,7 @@ nicht	nicht
 haben	haben
 angst	Angst
 haben	haben
-ein	einen
+ein	ein
 feler	Fehler
 zu	zu
 machen	machen
@@ -3027,8 +3027,8 @@ können	können
 frische	frische
 Luft	Luft
 riechen	riechen
-und	Und
-uns	an
+und	und
+uns	uns
 entspannen	entspannen
 .	.
 
@@ -3065,7 +3065,7 @@ gegangen	gegangen
 ,	,
 sie	sie
 hat	hat
-Karoten	Karotten
+Karoten	Carotten
 ,	,
 Tomaten	Tomaten
 ,	,
@@ -3098,7 +3098,7 @@ Am	Am
 Abend	Abend
 können	können
 wir	wir
-Promenaden	Promenaden
+Promenaden	promenieren
 auf	auf
 dem	dem
 Strand	Strand
@@ -3113,7 +3113,7 @@ mit	mit
 einem	einem
 spanischen	spanischen
 Mädchen	Mädchen
-gechattet	chattet
+gechattet	gechattet
 ,	,
 sie	sie
 war	war
@@ -3124,7 +3124,7 @@ sympatisch	sympathisch
 ,	,
 aber	aber
 unsere	unsere
-Freundschaft	Freundschaft
+Freundschaft	Freundeschaft
 war	war
 nicht	nicht
 realistisch	realistisch
@@ -3176,17 +3176,17 @@ zu	zu
 weinen	weinen
 .	.
 
-Also	Also
-,	,
-letzte	letzte
-Woche	Woche
-ist	ist
-wirklich	wirklich
-etwas	etwas
-total	Total
-lustiges	Lustiges
-passiert	passiert
-.	.
+Also	<MISMATCH>
+,	<MISMATCH>
+letzte	<MISMATCH>
+Woche	<MISMATCH>
+ist	<MISMATCH>
+wirklich	<MISMATCH>
+etwas	<MISMATCH>
+total	<MISMATCH>
+lustiges	<MISMATCH>
+passiert	<MISMATCH>
+.	<MISMATCH>
 
 habe	habe
 so	so
@@ -3195,7 +3195,7 @@ die	die
 neue	neuen
 Sprachen	Sprachen
 :	:
-ich	ich
+ich	Ich
 mache	mache
 Leichtatletik	Leichtathletik
 auf	auf
@@ -3210,7 +3210,7 @@ lernen	lernen
 
 Ich	Ich
 Aber	Aber
-wir	wir
+wir	Wir
 sehen	sehen
 die	die
 Bergen	Bergen
@@ -3225,7 +3225,7 @@ oder	oder
 villeicht	vielleicht
 in	in
 die	die
-Bergen	Bergen
+Bergen	Berge
 .	.
 
 glaube	<MISMATCH>
@@ -3250,7 +3250,7 @@ die	die
 Verkeuferin	Verkäuferin
 ,	,
 hat	hat
-die	das
+die	die
 Gemuse	Gemüse
 und	und
 der	das
@@ -3266,7 +3266,7 @@ gedacht	gedacht
 dass	dass
 sie	sie
 gestolen	gestohlen
-hat	ist
+hat	hat
 .	.
 
 Meine	Meine
@@ -3290,7 +3290,7 @@ aber	aber
 vorher	vorher
 zu	zu
 ihren	ihren
-Obsthändler	Obsthändlern
+Obsthändler	Obsthändler
 ihres	ihres
 Vertrauens	Vertrauens
 und	und
@@ -3339,36 +3339,36 @@ Freulein	Freulein
 glaubte	glaubte
 ihr	ihr
 nicht	sich
-.	,
+.	zu
 
-Naja	Naja
-,	,
-ich	ich
-hoffen	hoffe
-du	du
-schreibst	schreibst
-mal	mal
-wieder	wieder
-und	und
-kommst	kommst
-demnächst	demnächst
-mal	mal
-vorbei	vorbei
-.	.
+Naja	<MISMATCH>
+,	<MISMATCH>
+ich	<MISMATCH>
+hoffen	<MISMATCH>
+du	<MISMATCH>
+schreibst	<MISMATCH>
+mal	<MISMATCH>
+wieder	<MISMATCH>
+und	<MISMATCH>
+kommst	<MISMATCH>
+demnächst	<MISMATCH>
+mal	<MISMATCH>
+vorbei	<MISMATCH>
+.	<MISMATCH>
 
-Andererseits	Andererseits
-würde	würde
-ich	ich
-gerne	gerne
-nochmal	nochmal
-ein	ein
-bisschen	bisschen
-mediteranes	mediterranes
-Flair	Flair
-um	um
-mich	mich
-haben	haben
-.	.
+Andererseits	<MISMATCH>
+würde	<MISMATCH>
+ich	<MISMATCH>
+gerne	<MISMATCH>
+nochmal	<MISMATCH>
+ein	<MISMATCH>
+bisschen	<MISMATCH>
+mediteranes	<MISMATCH>
+Flair	<MISMATCH>
+um	<MISMATCH>
+mich	<MISMATCH>
+haben	<MISMATCH>
+.	<MISMATCH>
 
 ging	ging
 schauen	schauen
@@ -3382,17 +3382,17 @@ plözlich	plötzlich
 .	.
 !	!
 
-Es	,
-Sag	am
-mir	mir
-,	.
-wo	wo
-du	du
-am	am
-liebsten	liebsten
-fahren	fahren
-willst	willst
-.	.
+Es	<MISMATCH>
+Sag	<MISMATCH>
+mir	<MISMATCH>
+,	<MISMATCH>
+wo	<MISMATCH>
+du	<MISMATCH>
+am	<MISMATCH>
+liebsten	<MISMATCH>
+fahren	<MISMATCH>
+willst	<MISMATCH>
+.	<MISMATCH>
 
 Als	Als
 sie	sie
@@ -3455,30 +3455,30 @@ sah	sah
 sehr	sehr
 nervös	nervös
 aus	aus
-;	.
-deshalb	Deshalb
+;	;
+deshalb	deshalb
 ,	,
 haben	haben
 wir	wir
 uns	uns
 nur	nur
-gegrüßt	gegrüßt
+gegrüßt	gegrußt
 .	.
 
 Liebe	Liebe
 Thomas	Thomas
 ,	,
 wie	wie
-gehts	gehts
-es	es
+gehts	geht
+es	s
 dir	dir
 ?	?
 
 Darauf	Darauf
 erwiderte	erwiderte
-die	die
+die	Sie
 Kassiererin	Kassiererin
-:	:
+:	ja
 "	"
 Dann	Dann
 können	können
@@ -3513,34 +3513,34 @@ Sprachen	Sprachen
 redet	redet
 .	,
 
-Und	in
+Und	Und
 Maria	Maria
 will	will
 nie	nie
 mehr	mehr
-in	.
+in	in
 diesem	diesem
 Supermarkt	Supermarkt
 einkaufen	einkaufen
 gehen	gehen
 .	.
 
-Naja	Naja
-.	,
-.	.
-ich	ich
-wollte	wollte
-dir	dir
-bloß	bloß
-bescheid	Bescheid
-sagen	sagen
-,	,
-damit	damit
-du	du
-auch	auch
-bescheid	Bescheid
-weisst	weißt
-.	.
+Naja	<MISMATCH>
+.	<MISMATCH>
+.	<MISMATCH>
+ich	<MISMATCH>
+wollte	<MISMATCH>
+dir	<MISMATCH>
+bloß	<MISMATCH>
+bescheid	<MISMATCH>
+sagen	<MISMATCH>
+,	<MISMATCH>
+damit	<MISMATCH>
+du	<MISMATCH>
+auch	<MISMATCH>
+bescheid	<MISMATCH>
+weisst	<MISMATCH>
+.	<MISMATCH>
 
 Manchmal	Manchmal
 die	die
@@ -3609,7 +3609,7 @@ ist	ist
 dass	dass
 sie	sie
 ihr	ihr
-Portmonai	Portemonnaie
+Portmonai	Portemonnaib
 verloren	verloren
 hatte	hatte
 .	.
@@ -3637,11 +3637,11 @@ geht	geht
 es	es
 sehr	sehr
 gut	gut
-!	.
+!	,
 
 Also	Also
 musste	musste
-sie	sie
+sie	im
 ihre	ihre
 Tasche	Tasche
 im	im
@@ -3653,7 +3653,7 @@ den	den
 Obst-	Obst
 und	und
 Gemüseladen	Gemüseladen
-zurück gehen.	zurückgehen
+zurück gehen.	zurück gehen.
 
 Sie	Sie
 ging	ging
@@ -3667,9 +3667,9 @@ Obsthändler	Obsthändler
 um	um
 das	das
 Zettel	Zettel
-zu	zu
+zu	(
 nehmen	nehmen
-.	.
+.	"
 
 Wenn	Wenn
 du	du
@@ -3677,7 +3677,7 @@ einen	einen
 ausgelassenen	ausgelassenen
 Urlaub	Urlaub
 mit	mit
-heißen	heißen
+heißen	heißem
 Bodies	Boden
 erleben	erleben
 willst	willst
@@ -3687,11 +3687,11 @@ du	:
 dich	dich
 für	für
 das	das
-Meer	Meer
+Meer	aber
 entscheiden	entscheiden
-.	)
+.	"
 
-Ladiensch	Ladisch
+Ladiensch	Ladinisch
 ist	ist
 auch	auch
 wichtig	wichtig
@@ -3700,7 +3700,7 @@ viele	viele
 Leute	Leute
 in	in
 Südtirol	Südtirol
-Ladinisch	Ladisch
+Ladinisch	Ladinisch
 sprechen	sprechen
 .	.
 
@@ -3722,18 +3722,18 @@ hat	hat
 
 ,	,
 Italienisch	Italienisch
-,	,
+,	in
 Englisch	Englisch
 sind	sind
 wichtig	wichtig
-in	in
+in	zu
 Italien	Italien
 sprechen	sprechen
 fasst	Fasst
 ale	alle
 Deutsch	Deutsche
 ,	,
-Italienisch	Italienischen
+Italienisch	Italienische
 ,	,
 Englisch	Englisch
 aber	aber
@@ -3768,10 +3768,10 @@ dann	dann
 kan	kann
 man	man
 nicht	nicht
-mit	mit
+mit	ist
 andre	andre
 konizieren	konizieren
-deswegen	Deswegen
+deswegen	deswegen
 ist	ist
 Deutsch	Deutsch
 ,	,
@@ -3780,29 +3780,29 @@ Englisch	Englisch
 Italienisch	Italienisch
 .	in
 
-Ich	ich
-Nur	Nur
-jetzt	jetzt
-habe	habe
-ich	ist
-entdeckt	entdeckt
-was	was
-gefahren	gefahren
-ist	ich
-und	und
-jetzt	jetzt
-will	will
-ich	ich
-dich	dir
-erzählen	erzählen
-.	.
+Ich	<MISMATCH>
+Nur	<MISMATCH>
+jetzt	<MISMATCH>
+habe	<MISMATCH>
+ich	<MISMATCH>
+entdeckt	<MISMATCH>
+was	<MISMATCH>
+gefahren	<MISMATCH>
+ist	<MISMATCH>
+und	<MISMATCH>
+jetzt	<MISMATCH>
+will	<MISMATCH>
+ich	<MISMATCH>
+dich	<MISMATCH>
+erzählen	<MISMATCH>
+.	<MISMATCH>
 
 Ich	Ich
 will	will
-nicht	nicht
-es	!
+nicht	mich
+es	,
 andenken	andenken
-!	!
+!	so
 
 Wie	Wie
 du	du
@@ -3812,7 +3812,7 @@ bin	bist
 ich	ich
 bereits	bereits
 eifrig	eifrig
-unseren	unseren
+unseren	unserem
 Urlaub	Urlaub
 für	für
 die	die
@@ -3824,14 +3824,14 @@ planen	Plan
 Ich	Ich
 denke	denke
 dass	dass
-wahre	wahre
-Freundschaftlichen	Freundschaften
+wahre	wahrere
+Freundschaftlichen	Freundschaftlichen
 nicht	nicht
 online	online
 sind	sind
 ,	,
 sondern	sondern
-wahre	wahre
+wahre	wahrere
 Freundschaften	Freundschaften
 durch	durch
 die	die
@@ -3840,18 +3840,18 @@ schlißen	schließen
 sollen	sollen
 .	.
 
-Mit	Mit
-"	"
+Mit	Man
+"	,
 normal	normal
-"	"
+"	in
 meine	meine
 ich	ich
 Leute	Leute
 ,	,
 die	die
 man	man
-in	in
-wirklichkeit	Wirklichkeit
+in	.
+wirklichkeit	wirklichkeit
 kennenlernt	kennenlernt
 .	.
 
@@ -3864,14 +3864,14 @@ in	in
 der	der
 Zeitung	Zeitung
 "	"
-Junge	Jungen
-Woche	Woche
+Junge	Junge
+Woche	Wochen
 "	"
 in	in
 der	der
 Rubrik	Rubrik
 "	"
-Persönliche	Persönliche
+Persönliche	persönliche
 Briefe	Briefe
 "	"
 dein	deinen
@@ -3900,7 +3900,7 @@ süchtig	süchtig
 werden	werden
 und	und
 nie	nie
-auserkannen	auerkennen
+auserkannen	auserkannten
 schaffen	schaffen
 .	.
 
@@ -3937,20 +3937,20 @@ kann	kann
 
 Wenn	Wenn
 Aber	Aber
-es	es
-gibt	gibt
+es	Es
+gibt	ist
 auch	auch
 einige	einige
-Contra	contra
-:	:
-zum	Zum
+Contra	Contra
+:	,
+zum	zu
 Beispiel	Beispiel
 es	es
 ist	ist
 schwierig	schwierig
 das	das
-Hause	Haus
-zu	zu
+Hause	Hause
+zu	.
 finden	finden
 ,	,
 und	und
@@ -3960,9 +3960,9 @@ sicher	sicher
 teuer	teuer
 .	.
 
-Ich	Ich
+Ich	ich
 denke	denke
-das	dass
+das	das
 ist	ist
 schon	schon
 neue	neue
@@ -3970,7 +3970,7 @@ Freunde	Freunde
 kennen	kennen
 zu	,
 lernen	lernen
-,	,
+,	es
 aber	aber
 nur	nur
 wenn	wenn
@@ -3987,7 +3987,7 @@ wegreist	wegreist
 Also	Also
 wenn	wenn
 wir	wir
-ans	ins
+ans	ans
 Meer	Meer
 fahren	fahren
 würden	würden
@@ -3995,7 +3995,7 @@ würden	würden
 könnten	könnten
 wir	wir
 uns	uns
-am	am
+am	an
 Strand	Strand
 sonnen	sonnen
 und	und
@@ -4036,10 +4036,10 @@ Meinung	Meinung
 nach	nach
 sollte	sollte
 man	man
-in	in
+in	im
 Südtirol	Südtirol
 Deutsch	Deutsch
--	-
+-	,
 und	und
 Englisch	Englisch
 können	können
@@ -4051,7 +4051,7 @@ Weltsprache	Weltsprache
 .	.
 
 Mit	Mit
-Lieber	Lieber
+Lieber	Liebe
 Paul	Paul
 ,	,
 ich	ich
@@ -4135,12 +4135,12 @@ Diebstahls	DesDiebstahls
 verdächtigt	verdächtigt
 .	.
 
-Mit	Mit
-diese	dieser
+Mit	mit
+diese	diese
 Geschichte	Geschichte
-lasse	lass
-ich	ich
-dich	dich
+lasse	dass
+ich	mich
+dich	ich
 .	.
 
 Wenn	Wenn
@@ -4200,13 +4200,13 @@ suchen	suchen
 
 Hallo	Hallo
 Karl	Karl
-,	,
+,	.
 hier	hier
 ist	ist
 Dennis	Dennis
 .	.
 
-Andererseits	Andererseits
+Andererseits	Anderseits
 spricht	spricht
 auch	auch
 viel	viel
@@ -4221,11 +4221,11 @@ Letzte	Letzte
 woche	Woche
 ist	ist
 Maria	Maria
-im	im
+im	in
 Supermarkt	Supermarkt
 gegangen	gegangen
 um	um
-zu	zu
+zu	.
 einkaufen	einkaufen
 .	.
 
@@ -4267,15 +4267,15 @@ lernen	lernen
 
 Ich	Ich
 Ich	Ich
-muss	muss
-dir	dir
+muss	musste
+dir	für
 erzählen	erzählen
 was	was
 gestern	gestern
-der	den
+der	der
 Maria	Maria
 passiert	passiert
-ist…	ist
+ist…	ist…
 Sie	Sie
 musste	musste
 für	für
@@ -4336,7 +4336,7 @@ und	und
 schmiss	schmiss
 ihm	ihm
 in	in
-einem	einen
+einem	einem
 Zug	Zug
 .	.
 
@@ -4409,7 +4409,7 @@ ich	ich
 hoffe	hoffe
 ,	,
 dass	dass
-mir	mir
+mir	dir
 das	das
 nie	nie
 wieder	wieder
@@ -4447,9 +4447,9 @@ machen	machen
 
 nicht	nicht
 z.B.	z.B.
-unsere	Unsere
-Foto	Fotos
-!	.
+unsere	Unser
+Foto	Foto
+!	!
 
 Bevor	Bevor
 Dann	Dann
@@ -4462,7 +4462,7 @@ gegangen	gegangen
 und	und
 sie	sie
 hat	hat
-ein	einen
+ein	ein
 Kafee	Kaffee
 getrunken	getrunken
 .	.
@@ -4498,22 +4498,22 @@ versucht	versucht
 eine	eine
 Flasche	Flasche
 Wein	Wein
-mitgehen	mitgehen
+mitgehen	mitzugehen
 zu	zu
 lassen	lassen
 .	.
 
-machte	machte
-nach	nach
-die	die
-Mittelschulee	Mittelschulee
-ist	ist
-Schoolname	Schoolname
-die	die
-berufschule	berufsschule
-kan	kan
-mekanischen	mechanische
-.	.
+machte	<MISMATCH>
+nach	<MISMATCH>
+die	<MISMATCH>
+Mittelschulee	<MISMATCH>
+ist	<MISMATCH>
+Schoolname	<MISMATCH>
+die	<MISMATCH>
+berufschule	<MISMATCH>
+kan	<MISMATCH>
+mekanischen	<MISMATCH>
+.	<MISMATCH>
 
 Ich	Ich
 Tages	Tages
@@ -4550,23 +4550,23 @@ Am	Das
 Das	das
 Mädchen	Mädchen
 ,	du
-das	dem
+das	hast
 du	,
 in	ein
 Chat	Chat
 kennengelernt	kennengelernt
 hast	hast
-,	.
+,	,
 manchmal	manchmal
 kannst	kannst
-sie	sie
+sie	ein
 ein	ein
 Junge	Junge
 sein	sein
 und	und
 ein	ein
 Junge	Junge
-,	,
+,	.
 ein	ein
 Mädchen	Mädchen
 .	.
@@ -4622,20 +4622,20 @@ Ferien	Ferien
 .	.
 
 Eines	Eines
-Na	Na
-ja	ja
-,	,
+Na	Du
+ja	"
+,	im
 du	du
 konntest	konntest
-;	,
-"	es
-im	ist
+;	;
+"	"
+im	ich
 Internet	Internet
 habe	habe
-ich	nicht
+ich	ich
 viele	viele
 Freunde	Freunde
-"	.
+"	"
 sagen	sagen
 ,	,
 aber	aber
@@ -4660,7 +4660,7 @@ die	die
 Frau	Frau
 erinnerte	erinnerte
 sich	sich
-an	an
+an	.
 sie	sie
 .	.
 
@@ -4679,7 +4679,7 @@ ist	ist
 .	.
 
 Niemand	Niemand
-besuchte	besucht
+besuchte	besuchte
 mich	mich
 mehr	mehr
 ,	,
@@ -4694,7 +4694,7 @@ sie	sie
 fand	fand
 es	es
 nicht	nicht
-.	,
+.	.
 
 Sie	Sie
 musste	musste
@@ -4709,7 +4709,7 @@ am	am
 nächsten	nächsten
 Tag	Tag
 das	das
-blöde	bloße
+blöde	Blödes
 Missverständnis	Missverständnis
 und	und
 ihre	ihre
@@ -4732,7 +4732,7 @@ Meinung	Meinung
 nach	nach
 in	in
 der	der
-MS	?
+MS	-
 gelernt	gelernt
 werden	werden
 ?	?
@@ -4780,7 +4780,7 @@ ihre	ihre
 Geldbörse	Geldbörse
 verloren	verloren
 hatte	hatte
-.	,
+.	.
 
 alles	alles
 klappt	klappt
@@ -4835,11 +4835,11 @@ Ich	ich
 hoffe	hoffe
 dir	dir
 geht	geht
-es	es
+es	s
 gut	gut
 ?	.
 
-wegschiken	wegschicken
+wegschiken	wegschikken
 denn	denn
 sie	sie
 sind	sind
@@ -4854,7 +4854,7 @@ Und	Und
 diese	diese
 unvorteilhaften	unvorteilhaften
 Bikinis	Bikinis
-diesen	diesen
+diesen	dieser
 Sommer	Sommer
 !	!
 
@@ -4919,8 +4919,8 @@ wo	,
 man	man
 Flüchtlinge	Flüchtlinge
 aufnimmt	aufnimmt
-könnte	könnten
-man	man
+könnte	könnte
+man	kann
 machen	machen
 .	.
 
@@ -4947,23 +4947,23 @@ vergessen	vergessen
 hat	hat
 .	.
 
-ADRESSE	ADRESSe
-:	:
-VON	Von
-:	:
-LIEBE	Liebe
-ANITA	Anita
-,	,
-WIE	wie
-GETETHgeth	GETETHgeth
-ES	es
-DIERdier	DIERdier
-?	?
+ADRESSE	<MISMATCH>
+:	<MISMATCH>
+VON	<MISMATCH>
+:	<MISMATCH>
+LIEBE	<MISMATCH>
+ANITA	<MISMATCH>
+,	<MISMATCH>
+WIE	<MISMATCH>
+GETETHgeth	<MISMATCH>
+ES	<MISMATCH>
+DIERdier	<MISMATCH>
+?	<MISMATCH>
 
 ich	ich
-lernen	lerne
+lernen	lernst
 ich	ich
-schaue	schaue
+schaue	schaust
 ein	ein
 video	Video
 an	an
@@ -4999,7 +4999,7 @@ Stunde	Stunde
 später	später
 ging	ging
 sie	sie
-im	ins
+im	in
 Supermarkt	Supermarkt
 .	.
 
@@ -5028,34 +5028,34 @@ zu	zu
 verbringen	verbringen
 .	.
 
-Schreibe	Schreibe
-mir	mir
-mal	mal
-zurück	zurück
-wenn	wenn
-du	du
-Zeit	Zeit
-hast	hast
-!	!
+Schreibe	<MISMATCH>
+mir	<MISMATCH>
+mal	<MISMATCH>
+zurück	<MISMATCH>
+wenn	<MISMATCH>
+du	<MISMATCH>
+Zeit	<MISMATCH>
+hast	<MISMATCH>
+!	<MISMATCH>
 
 Ich	Ich
 hoffe	hoffe
-du	du
+du	Es
 bist	bist
 jetzt	jetzt
 auch	auch
-der	der
+der	du
 Meinung	Meinung
 ,	,
 dass	dass
-wir	wir
+wir	der
 lieber	lieber
 in	in
 den	den
 Schwarzwald	Schwarzwald
 als	als
 auf	auf
-Malle	Mallen
+Malle	Malle
 fahren	fahren
 sollten	sollten
 .	.
@@ -5072,7 +5072,7 @@ kann	kann
 ist	ist
 das	das
 viel	viel
-besser	besser
+besser	bessere
 .	.
 
 Ich	Ich
@@ -5080,7 +5080,7 @@ Außerdem	Außerdem
 gibt	gibt
 es	es
 an	und
-der	es
+der	der
 Strandpromenade	Strandpromenade
 viele	viele
 Diskos	Diskos
@@ -5120,41 +5120,41 @@ ein	ein
 Hundeschwanz	Hundeschwanz
 .	.
 
-Es	Da
-Da	Da
-wir	wir
-aber	aber
-noch	noch
-nicht	nicht
-genau	genau
-wissen	wissen
-wohin	wohin
-es	es
-gehen	gehen
-soll	soll
-,	,
-dachte	dachte
-ich	ich
-mir	mir
-ich	ich
-wege	wege
-beide	beide
-Reiseziele	Reiseziele
-mal	mal
-ab	du
-und	und
-du	,
-schreibst	schreibst
-mir	mir
-dann	dann
-wohin	wohin
-du	du
-lieber	lieber
-möchstes	möchtest
-.	.
+Es	<MISMATCH>
+Da	<MISMATCH>
+wir	<MISMATCH>
+aber	<MISMATCH>
+noch	<MISMATCH>
+nicht	<MISMATCH>
+genau	<MISMATCH>
+wissen	<MISMATCH>
+wohin	<MISMATCH>
+es	<MISMATCH>
+gehen	<MISMATCH>
+soll	<MISMATCH>
+,	<MISMATCH>
+dachte	<MISMATCH>
+ich	<MISMATCH>
+mir	<MISMATCH>
+ich	<MISMATCH>
+wege	<MISMATCH>
+beide	<MISMATCH>
+Reiseziele	<MISMATCH>
+mal	<MISMATCH>
+ab	<MISMATCH>
+und	<MISMATCH>
+du	<MISMATCH>
+schreibst	<MISMATCH>
+mir	<MISMATCH>
+dann	<MISMATCH>
+wohin	<MISMATCH>
+du	<MISMATCH>
+lieber	<MISMATCH>
+möchstes	<MISMATCH>
+.	<MISMATCH>
 
 in	in
-ihnen	ihrem
+ihnen	denen
 Land	Land
 bleiben	bleiben
 und	und
@@ -5162,20 +5162,20 @@ Frieden	Frieden
 verbreiten	verbreiten
 .	.
 
-Aber	der
-Sicher	Sicher
-bist	bist
-du	zu
-im	.
-Stande	Stande
-mir	mir
-zu	zu
-helfen	helfen
-.	.
+Aber	<MISMATCH>
+Sicher	<MISMATCH>
+bist	<MISMATCH>
+du	<MISMATCH>
+im	<MISMATCH>
+Stande	<MISMATCH>
+mir	<MISMATCH>
+zu	<MISMATCH>
+helfen	<MISMATCH>
+.	<MISMATCH>
 
-Und	Und
-rate	rates
-mal	mal
+Und	und
+rate	rate
+mal	was
 was	was
 sie	sie
 in	in
@@ -5234,7 +5234,7 @@ zum	zum
 Beispiel	Beispiel
 nach	nach
 Südfrankreich	Südfrankreich
-ans	ans
+ans	an
 Mittelmeer	Mittelmeer
 fahren	fahren
 .	.
@@ -5264,17 +5264,17 @@ baden	baden
 Also	Also
 ich	ich
 liebe	liebe
-ans	ans
+ans	es
 Meer	Meer
 wie	wie
 auf	auf
-den	die
-Bergen	Berge
+den	den
+Bergen	Bergen
 fahren	fahren
-;	,
+;	;
 mir	mir
-gefällen	gefällt
-beiden	beiden
+gefällen	gefallen
+beiden	beide
 !	!
 
 Ihre	Ihre
@@ -5331,7 +5331,7 @@ MariaAktion	MariaAktion
 Die	Die
 Möglichkeiten	Möglichkeiten
 zum	zum
-feiern	feiern
+feiern	Feiern
 gehen	gehen
 sind	sind
 wohl	wohl
@@ -5446,7 +5446,7 @@ viele	viele
 kleine	kleine
 Reise	Reisen
 machen	machen
-:	:
+:	;
 wir	wir
 können	können
 zum	zum
@@ -5455,19 +5455,19 @@ nach	nach
 Innsbruck	Innsbruck
 oder	oder
 nach	nach
-Trient	Trient
+Trient	Trento
 mit	mit
 dem	dem
 Zug	Zug
 fahren	fahren
 .	.
 
-Als	Als
+Als	als
 sie	sie
 danach	danach
 in	in
 den	den
-Supermarkt	Supermarkt
+Supermarkt	supermarkt
 ging	ging
 ,	,
 wurde	wurde
@@ -5497,24 +5497,24 @@ ich	ich
 dass	dass
 du	du
 sagst	sagst
-mir	mir
+mir	Die
 wohin	wohin
 du	du
 fahren	fahren
 willst	willst
-Die	Die
+Die	eine
 erste	erste
 Möglichkeit	Möglichkeit
-is	ist
-eine	eine
+is	in
+eine	die
 Urlaub	Urlaub
-in	in
+in	;
 die	die
 Berge	Berge
-,	;
-es	es
+,	,
+es	das
 ist	ist
-warscheinlich	wahrscheinlich
+warscheinlich	warscheinlich
 schon	schon
 ,	,
 das	das
@@ -5543,7 +5543,7 @@ Dorf	<MISMATCH>
 
 Schwimmen	Schwimmen
 und	und
-sonnen	Sonne
+sonnen	Sonnen
 können	können
 wir	wir
 uns	uns
@@ -5643,22 +5643,22 @@ Sachen	Sachen
 passiert	passiert
 .	.
 
-Wenn	Wenn
-hast	hast
-du	du
-alles	alles
-gemacht	gemacht
-,	,
-du	den
-keine	keine
-probleme	probleme
-mit	im
-den	den
-Menschen	Menschen
-aus	aus
-chat	Chat
-haben	haben
-.	.
+Wenn	<MISMATCH>
+hast	<MISMATCH>
+du	<MISMATCH>
+alles	<MISMATCH>
+gemacht	<MISMATCH>
+,	<MISMATCH>
+du	<MISMATCH>
+keine	<MISMATCH>
+probleme	<MISMATCH>
+mit	<MISMATCH>
+den	<MISMATCH>
+Menschen	<MISMATCH>
+aus	<MISMATCH>
+chat	<MISMATCH>
+haben	<MISMATCH>
+.	<MISMATCH>
 
 Wir	Wir
 würden	würden
@@ -5679,7 +5679,7 @@ man	man
 ganz	ganzen
 viele	viele
 Sprachen	Sprachen
-können	können
+können	kennen
 ,	,
 so	so
 dürfen	dürfen
@@ -5764,47 +5764,47 @@ mehr	mehr
 machen	machen
 wäre	wäre
 das	das
-beste	Beste
+beste	Bestes
 .	.
 
-Ich	auch
+Ich	Ich
 war	war
 auch	auch
 ein	ein
 Hotel	Hotel
 .	.
 
-Wenn	Wenn
-wäre	wäre
-auch	auch
-interessant	interessant
-zu	zu
-können	können
-weil	weil
-es	es
-auch	auch
-eine	eine
-coole	coole
-Sprache	Sprache
-ist	ist
-und	und
-den	dem
-italienisch	italienischen
-gleicht	gleicht
-deswegen	deswegen
-haben	haben
-wir	wir
-hier	hier
-in	in
-Italien	Italien
-einen	einen
-vorteil	Vorteil
-und	und
-Spanisch	spanisch
-wäre	wäre
-auch	auch
-cool	cool
-.	.
+Wenn	<MISMATCH>
+wäre	<MISMATCH>
+auch	<MISMATCH>
+interessant	<MISMATCH>
+zu	<MISMATCH>
+können	<MISMATCH>
+weil	<MISMATCH>
+es	<MISMATCH>
+auch	<MISMATCH>
+eine	<MISMATCH>
+coole	<MISMATCH>
+Sprache	<MISMATCH>
+ist	<MISMATCH>
+und	<MISMATCH>
+den	<MISMATCH>
+italienisch	<MISMATCH>
+gleicht	<MISMATCH>
+deswegen	<MISMATCH>
+haben	<MISMATCH>
+wir	<MISMATCH>
+hier	<MISMATCH>
+in	<MISMATCH>
+Italien	<MISMATCH>
+einen	<MISMATCH>
+vorteil	<MISMATCH>
+und	<MISMATCH>
+Spanisch	<MISMATCH>
+wäre	<MISMATCH>
+auch	<MISMATCH>
+cool	<MISMATCH>
+.	<MISMATCH>
 
 Japanisch	Japanisch
 Man	Man
@@ -5828,7 +5828,7 @@ können	können
 muss	muss
 der	den
 Zug	Zug
-holen	holen
+holen	holven
 ,	,
 veil	weil
 er	er
@@ -5852,27 +5852,27 @@ das	das
 Flougzeug	Flougzeug
 .	.
 
-Ich	nicht
-Ich	Ich
-weiß	weil
-nicht	nicht
-wie	weiß
-du	du
-es	es
-geschafft	geschafft
-hast	hast
-so	so
-einen	einen
-Brief	Brief
-zu	zu
-schreiben	schreiben
-weil	weil
-ich	ich
-es	es
-nicht	nicht
-gemacht	gemacht
-hätte	hätte
-.	.
+Ich	<MISMATCH>
+Ich	<MISMATCH>
+weiß	<MISMATCH>
+nicht	<MISMATCH>
+wie	<MISMATCH>
+du	<MISMATCH>
+es	<MISMATCH>
+geschafft	<MISMATCH>
+hast	<MISMATCH>
+so	<MISMATCH>
+einen	<MISMATCH>
+Brief	<MISMATCH>
+zu	<MISMATCH>
+schreiben	<MISMATCH>
+weil	<MISMATCH>
+ich	<MISMATCH>
+es	<MISMATCH>
+nicht	<MISMATCH>
+gemacht	<MISMATCH>
+hätte	<MISMATCH>
+.	<MISMATCH>
 
 Maria	Maria
 hat	hat
@@ -5901,7 +5901,7 @@ du	du
 musst	musst
 nur	nur
 auf	auf
-dein	deinen
+dein	deinem
 Sessel	Sessel
 sitzen	sitzen
 .	.
@@ -5914,7 +5914,7 @@ Meer	Meer
 !	.
 
 Vater	Vater
-musste	musste
+musste	muss
 den	den
 Zug	Zug
 nehmen	nehmen
@@ -5931,7 +5931,7 @@ er	er
 etwas	etwas
 schlimmes	Schlimmes
 getan	getan
-hat	hatte
+hat	hat
 .	.
 
 Bevor	Bevor
@@ -5945,42 +5945,42 @@ eigenes	eigenes
 Land	Land
 .	.
 
-Der	mir
-Ich	ich
-habe	habe
-mir	ein
-gedacht	gedacht
-ich	ich
-schreibe	schreibe
-einmal	einmal
-ein	die
-paar	paar
-Sachen	Sachen
-auf	zu
-,	.
-die	die
-beim	beim
-Meer	Meer
-und	und
-Berg	Berg
-zu	zu
-beachten	beachten
-sind	sind
-.	.
+Der	<MISMATCH>
+Ich	<MISMATCH>
+habe	<MISMATCH>
+mir	<MISMATCH>
+gedacht	<MISMATCH>
+ich	<MISMATCH>
+schreibe	<MISMATCH>
+einmal	<MISMATCH>
+ein	<MISMATCH>
+paar	<MISMATCH>
+Sachen	<MISMATCH>
+auf	<MISMATCH>
+,	<MISMATCH>
+die	<MISMATCH>
+beim	<MISMATCH>
+Meer	<MISMATCH>
+und	<MISMATCH>
+Berg	<MISMATCH>
+zu	<MISMATCH>
+beachten	<MISMATCH>
+sind	<MISMATCH>
+.	<MISMATCH>
 
-Ah	Ah
-,	,
-willst	willst
-du	du
-etwas	etwas
-Lustiges	Lustiges
-hören	hören
-?	?
+Ah	<MISMATCH>
+,	<MISMATCH>
+willst	<MISMATCH>
+du	<MISMATCH>
+etwas	<MISMATCH>
+Lustiges	<MISMATCH>
+hören	<MISMATCH>
+?	<MISMATCH>
 
 kamen	kamen
 aus	aus
 dem	dem
-inneren	inneren
+inneren	Inneren
 des	des
 Waldes	Waldes
 .	.
@@ -6031,14 +6031,14 @@ essen	essen
 oder	oder
 ein	einen
 Film	Film
-zu	zu
+zu	.
 schauen	schauen
 .	.
 
-Ich	Ihr
-war	waren
+Ich	Ich
+war	war
 in	in
-deiner	meiner
+deiner	deiner
 selbe	selben
 Situation	Situation
 .	.
@@ -6061,8 +6061,8 @@ Bergen	Bergen
 genauso	genauso
 gut	gut
 wie	wie
-am	am
-Meer	Meer
+am	an
+Meer	der
 .	.
 .	.
 .	.
@@ -6071,7 +6071,7 @@ Für	Für
 sie	sie
 war	war
 eines	ein
-schwarze	schwarzer
+schwarze	schwarze
 Tag	Tag
 .	.
 
@@ -6088,13 +6088,13 @@ ist	<MISMATCH>
 ?	<MISMATCH>
 !	<MISMATCH>
 
-beispiel	Beispiel
-wir	wir
+beispiel	beispiel
+wir	Wir
 gehen	gehen
 mit	mit
 die	der
 Professorin	Professorin
-Film	Film
+Film	Filmen
 sehen	sehen
 .	.
 
@@ -6105,7 +6105,7 @@ war	warst
 beim	beim
 erzählen	Erzählen
 etwas	etwas
-,	?
+,	,
 oder	oder
 ?	?
 
@@ -6133,7 +6133,7 @@ Flammen	Flammen
 
 Frau	Frau
 Ich	Ich
-brauchte	brauchtest
+brauchte	brauchst
 nämlich	nämlich
 Erdbeeren	Erdbeeren
 ,	,
@@ -6187,10 +6187,10 @@ Blu-Jeans	Blu-Jeans
 verkaufen	verkauft
 .	.
 
-Als	Als
+Als	als
 ich	ich
 nach	nach
-Hause	Hause
+Hause	hause
 ging	ging
 ,	,
 ist	ist
@@ -6223,7 +6223,7 @@ Sie	Sie
 musste	musste
 viele	viele
 Sachen	Sachen
-einkaufen	kaufen
+einkaufen	einkaufen
 weil	weil
 sie	sie
 am	am
@@ -6284,9 +6284,9 @@ gut	gut
 aber	aber
 ich	ich
 habe	habe
-viele	viele
-Sachen	machen
-zu	.
+viele	viel
+Sachen	Sache
+zu	zu
 machen	machen
 .	.
 
@@ -6309,7 +6309,7 @@ Maria	Maria
 auslöste	auslöste
 .	.
 
-ans	Ans
+ans	Am
 Meer	Meer
 aber	aber
 ist	ist
@@ -6339,16 +6339,16 @@ Brot	Brot
 gekauft	gekauft
 .	.
 
-Lieber	Lieber
-Paul	Paul
-,	,
-ich	ich
-habe	habe
-deine	deine
-persönlichen	persönlichen
-Briefe	Briefe
-gelesen	gelesen
-.	.
+Lieber	<MISMATCH>
+Paul	<MISMATCH>
+,	<MISMATCH>
+ich	<MISMATCH>
+habe	<MISMATCH>
+deine	<MISMATCH>
+persönlichen	<MISMATCH>
+Briefe	<MISMATCH>
+gelesen	<MISMATCH>
+.	<MISMATCH>
 
 Du	Du
 sollest	solltest
@@ -6369,7 +6369,7 @@ mir	mir
 gesagt	gesagt
 dass	dass
 ich	ich
-die	die
+die	das
 Gemüse	Gemüse
 gestohlen	gestohlen
 habe	habe
@@ -6406,12 +6406,12 @@ Meer	Meer
 und	und
 ich	ich
 liebe	liebe
-viel	viel
-die	die
+viel	die
+die	in
 Sonne	Sonne
 ,	,
 auch	auch
-in	in
+in	den
 den	den
 Bergen	Bergen
 wir	wir
@@ -6423,8 +6423,8 @@ mich	mich
 ist	ist
 egal	egal
 wo	wo
-du	du
-gehen	geht
+du	.
+gehen	gehen
 willst	willst
 .	.
 
@@ -6448,7 +6448,7 @@ Urlaub	Urlaub
 Ich	ist
 finde	finde
 dass	dass
-das	das
+das	es
 Meer	hier
 besser	besser
 ist	ist
@@ -6473,7 +6473,7 @@ Budget	Budget
 diesen	diesen
 wahrscheinlich	wahrscheinlich
 nicht	nicht
-her gibt	hergibt
+her gibt	her gibt
 ,	,
 müssen	müssen
 wir	wir
@@ -6492,7 +6492,7 @@ die	die
 Freundschaften	Freundschaften
 im	im
 Internet	Internet
-treue	treu
+treue	trüge
 sind	sind
 oder	oder
 nicht	nicht
@@ -6505,7 +6505,7 @@ um	um
 mehr	mehr
 Leute	Leute
 kennenzulernen	kennenlern
-musst	musst
+musst	muss
 du	,
 hinaus gehen	hinaus gehen
 und	und
@@ -6518,10 +6518,10 @@ Computer	Computer
 bleiben	bleiben
 .	.
 
-das	das
+das	Das
 Problem	Problem
 war	war
-das	das
+das	dass
 er	er
 Durchfall	Durchfall
 hatte	hatte
@@ -6591,7 +6591,7 @@ Bedurfnis	Bedurfnis
 .	.
 
 bedeutete	bedeutete
-Dies	es
+Dies	dies
 auch	auch
 den	den
 Abschied	Abschied
@@ -6638,7 +6638,7 @@ Urlaub	Urlaub
 fahren	fahren
 wollen	wollen
 ,	,
-habe	habe
+habe	haben
 ich	ich
 mir	mir
 schon	schon
@@ -6656,10 +6656,10 @@ fing	fing
 es	es
 an	an
 zu	zu
-Brennen	Brennen
+Brennen	brennen
 und	und
 Papa	Papa
-kugelt	kugelt
+kugelt	kugelte
 aus	aus
 dem	dem
 Haus	Haus
@@ -6694,7 +6694,7 @@ erspart	erspart
 hatte	hatte
 .	.
 
-kahm	kahe
+kahm	kamm
 sein	sein
 Vater	Vater
 aus	aus
@@ -6711,11 +6711,11 @@ Decke	Decke
 
 Doch	sich
 Abschließend	Abschließend
-lasst	dass
+lasst	lasst
 sich	sich
 sagen	sagen
-,	,
-das	das
+,	:
+das	Das
 wir	wir
 beim	beim
 Strandurlaub	Strandurlaub
@@ -6725,31 +6725,31 @@ werden	werden
 .	.
 
 Viele	Viele
-Grüße	Grüsse
+Grüße	Grüße
 und	und
 viel	viel
 Liebe	Liebe
 Valentina	Valentina
 
-Meine	<MISMATCH>
-meinung	<MISMATCH>
-nach	<MISMATCH>
-es	<MISMATCH>
-ist	<MISMATCH>
-besser	<MISMATCH>
-ein	<MISMATCH>
-Kontackt	<MISMATCH>
-mit	<MISMATCH>
-Leute	<MISMATCH>
-zu	<MISMATCH>
-haben	<MISMATCH>
-.	<MISMATCH>
+Meine	Meiner
+meinung	Meinung
+nach	nach
+es	es
+ist	mit
+besser	besser
+ein	ein
+Kontackt	Kontackt
+mit	mit
+Leute	Leuten
+zu	zu
+haben	haben
+.	.
 
 Aber	Aber
 sie	sie
 hat	hat
 der	den
-Kassenzetterr	Kassenzettler
+Kassenzetterr	Kassenzierer
 vergessen	vergessen
 .	.
 
@@ -6802,26 +6802,26 @@ nicht	nicht
 beweisen	beweisen
 .	.
 
-Hausaufgaben	Hausaufgaben
-machen	machen
-ist	ist
-nicht	nicht
-eine	keine
-gut	gute
-Strategie	Strategie
-weil	weil
-es	es
-ist	ist
-nur	nur
-langweilig	langweilig
-und	und
-ich	ich
-kann	kann
-nicht	nicht
-lernen	lernen
-wenn	wenn
-ist	ist
-langweilig	langweilig
+Hausaufgaben	<MISMATCH>
+machen	<MISMATCH>
+ist	<MISMATCH>
+nicht	<MISMATCH>
+eine	<MISMATCH>
+gut	<MISMATCH>
+Strategie	<MISMATCH>
+weil	<MISMATCH>
+es	<MISMATCH>
+ist	<MISMATCH>
+nur	<MISMATCH>
+langweilig	<MISMATCH>
+und	<MISMATCH>
+ich	<MISMATCH>
+kann	<MISMATCH>
+nicht	<MISMATCH>
+lernen	<MISMATCH>
+wenn	<MISMATCH>
+ist	<MISMATCH>
+langweilig	<MISMATCH>
 
 Ich	in
 haben	haben
@@ -6848,7 +6848,7 @@ werden	werden
 sie	sie
 uns	uns
 auch	auch
-sympatisch	sympatisch
+sympatisch	sympathisch
 ,	.
 aber	Aber
 wenn	wenn
@@ -6918,17 +6918,17 @@ machen	machen
 Hallo	Hallo
 Ludwig	Ludwig
 ,	,
-Ich	Ich
+Ich	ich
 wollte	wollte
 dir	dir
 einmal	einmal
-ein	ein
+ein	im
 paar	paar
 Informationen	Informationen
-im	im
+im	mit
 Bezug	Bezug
 auf	auf
-unseren	unseren
+unseren	unserem
 gemeinsamen	gemeinsamen
 Urlaub	Urlaub
 zukommen	zukommen
@@ -6955,12 +6955,12 @@ hatte	hatte
 .	.
 
 Ich	Ich
-bedanke	bedanke
-mich	nicht
+bedanke	danke
+mich	mich
 bei	bei
 Ihnen	Ihnen
-für	Ihr
-Ihre	Ihre
+für	für
+Ihre	Ihr
 Aufmerksamkeit	Aufmerksamkeit
 und	und
 noch	noch
@@ -7013,7 +7013,7 @@ Nicht	Nicht
 zu	zu
 vergessen	vergessen
 ,	,
-dass	dass
+dass	muss
 man	man
 auch	auch
 dort	dort
@@ -7021,7 +7021,7 @@ klettern	klettern
 kann	kann
 .	.
 
-der	der
+der	Der
 Zug	Zug
 startete	startete
 ,	,
@@ -7075,7 +7075,7 @@ schutz	Schutz
 .	.
 
 Das	Das
-Andererseits	Anderseits
+Andererseits	Andererseits
 könnten	könnten
 wir	wir
 ,	,
@@ -7088,7 +7088,7 @@ wollen	wollen
 ,	,
 ja	ja
 auch	auch
-Wandern	wandern
+Wandern	Wandern
 gehen	gehen
 .	.
 
@@ -7110,7 +7110,7 @@ Kaffee	<MISMATCH>
 dann	dann
 sagte	sagte
 Paul	Paul
-"	"
+"	:
 Ich	Ich
 habe	habe
 eine	eine
@@ -7118,16 +7118,16 @@ zehn	zehn
 bei	bei
 den	dem
 Diktat	Diktat
-!	!
-"	"
+!	“
+"	:
 und	und
-wo	wo
-ist	ist
-es	es
+wo	„
+ist	Ich
+es	bei
 sagte	sagte
-der	der
+der	dem
 Vater	Vater
-.	.
+.	“
 
 Es	in
 Maria	Maria
@@ -7160,9 +7160,9 @@ Kassenzettel	Kassenzettel
 vom	vom
 anderen	anderen
 Geschäft	Geschäft
-hätte	hätte
+hätte	hatten
 und	und
-zeigt	zeigt
+zeigt	zeigen
 ihn	ihnen
 ihnen	ihnen
 dazu	dazu
@@ -7173,7 +7173,7 @@ gehe	gehe
 ich	ich
 nicht	nicht
 mehr	mehr
-im	in
+im	um
 Supermarkt	Supermarkt
 einkaufen	Einkäufe
 .	.
@@ -7189,13 +7189,13 @@ auch	auch
 spazieren	spazieren
 gehen	gehen
 und	und
-friesches	frische
+friesches	frisches
 Luft	Luft
 atmen	atmen
 .	.
 
 Es	Es
-ist	ist
+ist	gibt
 einfach	einfach
 überhaupt	überhaupt
 nichts	nichts
@@ -7208,15 +7208,15 @@ in	in
 den	den
 Bergen	Bergen
 auch	auch
-zelten	Zelt
+zelten	Zelte
 gehen	gehen
 .	.
 
-Vorteil	Vorteil
+Vorteil	Vorteile
 von	von
 einem	einem
 Appartment	Apartment
-wäre	wäre
+wäre	wären
 natürlich	natürlich
 das	dass
 wir	wir
@@ -7235,15 +7235,15 @@ verpflegen	verpflegen
 
 Wenn	Wenn
 ich	ich
-dir	dir
+dir	mir
 einen	einen
 Rat	Rat
 geben	geben
-darf	darf
+darf	darfst
 ,	,
-klär	kläre
-dass	dass
-mit	damit
+klär	klär
+dass	das
+mit	mit
 ihnen	ihnen
 .	.
 
@@ -7254,7 +7254,7 @@ aus	aus
 dem	dem
 Haus	Haus
 zu	zu
-schaffen	beschaffen
+schaffen	schaffen
 .	.
 
 Max	Max
@@ -7321,7 +7321,7 @@ mehr	mehr
 Da	Da
 wir	wir
 beide	beide
-auf	auf
+auf	am
 dem	dem
 Berg	Berg
 wohnen	wohnen
@@ -7342,7 +7342,7 @@ Meer	Meer
 machen	machen
 .	.
 
-Sie	sie
+Sie	Sie
 kaufte	kaufte
 zuerst	zuerst
 in	in
@@ -7361,24 +7361,24 @@ virtuelle	<MISMATCH>
 Freundschaften	<MISMATCH>
 .	<MISMATCH>
 
-Das	Das
+Das	Du
 wollte	wollte
-ich	ich
+ich	mich
 dir	dir
 nur	nur
-erzählt	erzählen
+erzählt	erzählt
 haben	haben
 ,	,
 denn	denn
-ich	ich
-hab	habe
+ich	nicht
+hab	hab
 dich	dich
-ja	ja
+ja	,
 schon	schon
-seit	seit
+seit	weil
 einer	einer
 Woche	Woche
-nicht	nicht
+nicht	mich
 mehr	mehr
 gesehen	gesehen
 !	.
@@ -7471,7 +7471,7 @@ die	die
 Sonne	Sonne
 ,	,
 stehen	steht
-seherer	sicherer
+seherer	seherer
 .	.
 
 beiden	beiden
@@ -7505,7 +7505,7 @@ sollen	sollen
 
 Strategien	Strategien
 ist	ist
-hausaufgaben	Hausaufgaben
+hausaufgaben	hausaufgaben
 machen	machen
 und	und
 Sprachen	Sprachen
@@ -7555,18 +7555,18 @@ und	und
 trinken	Trinken
 .	.
 
-Dann	das
-Hätte	Hätte
-ich	ich
-das	das
-nie	nie
-gemacht	gemacht
-!	.
+Dann	<MISMATCH>
+Hätte	<MISMATCH>
+ich	<MISMATCH>
+das	<MISMATCH>
+nie	<MISMATCH>
+gemacht	<MISMATCH>
+!	<MISMATCH>
 
 Ich	Ich
-weiss	weiß
+weiss	weiss
 nur	nur
-das	das
+das	dass
 sie	sie
 jetzt	jetzt
 eine	eine
@@ -7586,7 +7586,7 @@ Tage	Tage
 verwänden	verwänden
 in	in
 den	den
-Kalabrien	Kalabrien
+Kalabrien	Kalabrier
 -Berge	Bergen
 (	(
 die	die
@@ -7627,7 +7627,7 @@ ein	ein
 paar	paar
 Jahren	Jahren
 zwei	zwei
-weisen	weise
+weisen	Weise
 die	die
 sich	sich
 Geld	Geld
@@ -7666,7 +7666,7 @@ Wasser	Wasser
 was	was
 gibt	gibt
 es	es
-besseres	besseres
+besseres	besser
 ?	?
 
 Schließlich	Schließlich
@@ -7674,7 +7674,7 @@ ging	ging
 sie	sie
 zur	zur
 Kasse	Kasse
-.	.
+.	,
 
 Persönlich	Persönlich
 habe	habe
@@ -7694,10 +7694,10 @@ Schwester	Schwester
 Maria	Maria
 ist	ist
 gestern	gestern
-Mittag	Mittag
+Mittag	mittag
 etwas	etwas
-sonderbares	sonderbar
-passiert	pasiert
+sonderbares	Sonderbares
+passiert	passiert
 .	.
 
 bin	bin
@@ -7708,17 +7708,17 @@ und	und
 interessiere	interessiere
 mich	mich
 für	für
-neue	neuen
+neue	neue
 Sprachen	Sprachen
 .	.
 
-Ich	ins
+Ich	Ich
 Wenn	Wenn
-wir	die
-ans	aus
+wir	wir
+ans	ans
 Meer	Meer
 wollen	wollen
-,	.
+,	,
 sieht	sieht
 die	die
 Sache	Sache
@@ -7767,15 +7767,15 @@ sagt	sagt
 dass	dass
 Maria	Maria
 will	will
-das	das
+das	es
 Brot	Brot
 nicht	nicht
 bezahlen	bezahlen
-,	,
+,	.
 weil	weil
-si	sie
+si	si
 hat	hat
-es	.
+es	es
 in	in
 die	die
 Tüte	Tüte
@@ -7784,7 +7784,7 @@ Tüte	Tüte
 noch	noch
 eine	eine
 kleine	kleine
-Rrauchwolke	Rauschwolke
+Rrauchwolke	Rauchwolke
 am	am
 Horizon	Horizont
 war	war
@@ -7795,10 +7795,10 @@ des	des
 Zuges	Zuges
 .	.
 
-Es	um
+Es	in
 Ich	Ich
 hab	hab
-mir	ein
+mir	die
 ein	ein
 paar	paar
 Sachen	Sachen
@@ -7816,7 +7816,7 @@ oder	oder
 ans	ans
 Meer	Meer
 fahren	fahren
-sollen	sollten
+sollen	sollen
 .	.
 
 Internet	Internet
@@ -7855,7 +7855,7 @@ ist	ist
 .	.
 
 Nach	Nach
-ca.	ca
+ca.	ca.
 20	20
 Minuten	Minuten
 verschwand	verschwand
@@ -7867,7 +7867,7 @@ Sie	Sie
 kaufte	kaufte
 Blumenkohl	Blumenkohl
 ,	,
-Mören	Mören
+Mören	Mörren
 &	.
 Tomaten	Tomaten
 .	.
@@ -7885,7 +7885,7 @@ gehen	gehen
 .	.
 
 Das	Das
-Esse	Eße
+Esse	Ess
 müssen	müssen
 wir	wir
 extra	extra
@@ -7921,11 +7921,11 @@ gehen	gehen
 Französisch	Französisch
 und	und
 Spanisch	Spanisch
-würden	würden
+würden	wären
 auch	auch
 wichtig	wichtig
-(	(
-z.B	z
+(	,
+z.B	z.B
 wenn	wenn
 man	man
 mal	mal
@@ -7944,24 +7944,24 @@ nach	nach
 hause	Hause
 und	und
 erzählt	erzählt
-nich	NICHT
+nich	nicht
 diese	diese
 Geschichte	Geschichte
 .	.
 
-schreit	schreit
-er	er
-:	:
-"	"
-Nimm	Nimm
-alle	alle
-Sachen	Sachen
-mit	mit
-und	und
-renn	renn
-raus	raus
-!	!
-"	"
+schreit	<MISMATCH>
+er	<MISMATCH>
+:	<MISMATCH>
+"	<MISMATCH>
+Nimm	<MISMATCH>
+alle	<MISMATCH>
+Sachen	<MISMATCH>
+mit	<MISMATCH>
+und	<MISMATCH>
+renn	<MISMATCH>
+raus	<MISMATCH>
+!	<MISMATCH>
+"	<MISMATCH>
 
 Klaus	Klaus
 Hast	habe
@@ -7977,7 +7977,7 @@ gehabt	gehabt
 Lieber	Lieber
 Paul	Paul
 ,	,
-Ich	ich
+Ich	Ich
 habe	habe
 deine	deine
 E-mail	Mail
@@ -7995,18 +7995,18 @@ geben	geben
 Wenn	Wenn
 ich	ich
 14	14
-war	war
+war	warst
 ,	,
-habe	habe
+habe	hast
 ich	ich
 einen	einen
 Jungen	Jungen
-,	,
+,	im
 Elia	Elia
-,	,
+,	.
 im	im
 Facebook	Facebook
-kennengelern	gekennengelernt
+kennengelern	kennengelern
 .	.
 
 Frau	Frau
@@ -8083,32 +8083,32 @@ die	die
 Bergen	Berge
 und	und
 eine	eine
-ans	am
+ans	ans
 Meer	Meer
 .	.
 
-In	in
-die	die
-Berge	Berge
-oder	oder
-lieber	lieber
-ans	ans
-Meer	Meer
-?	?
+In	<MISMATCH>
+die	<MISMATCH>
+Berge	<MISMATCH>
+oder	<MISMATCH>
+lieber	<MISMATCH>
+ans	<MISMATCH>
+Meer	<MISMATCH>
+?	<MISMATCH>
 
 Du	Du
 kannst	kannst
 nie	nie
 wissen	wissen
 ,	,
-wer	wer
+wer	wen
 die	die
 Personen	Personen
 ,	,
 mit	mit
 denen	denen
 chattest	chattest
-du	,
+du	du
 ,	.
 sind	sind
 .	.
@@ -8122,42 +8122,42 @@ im	im
 Supermarkt	Supermarkt
 .	.
 
-Jetzt	Jetzt
-solltest	solltest
-du	du
-ihnen	ihnen
-antworten	antworten
-zum	du
-Beispiel	Beispiel
-,	so
-dass	dass
-du	im
-nicht	nicht
-mehr	mehr
-so	,
-viel	viel
-im	du
-Internet	Internet
-surfen	surfen
-kannst	kannst
-oder	oder
-du	du
-kein	keine
-Zeit	Zeit
-mehr	mehr
-hat	hat
-,	,
-um	um
-ihnen	ihnen
-zu	zu
-kontaktieren	kontaktieren
-.	.
+Jetzt	<MISMATCH>
+solltest	<MISMATCH>
+du	<MISMATCH>
+ihnen	<MISMATCH>
+antworten	<MISMATCH>
+zum	<MISMATCH>
+Beispiel	<MISMATCH>
+,	<MISMATCH>
+dass	<MISMATCH>
+du	<MISMATCH>
+nicht	<MISMATCH>
+mehr	<MISMATCH>
+so	<MISMATCH>
+viel	<MISMATCH>
+im	<MISMATCH>
+Internet	<MISMATCH>
+surfen	<MISMATCH>
+kannst	<MISMATCH>
+oder	<MISMATCH>
+du	<MISMATCH>
+kein	<MISMATCH>
+Zeit	<MISMATCH>
+mehr	<MISMATCH>
+hat	<MISMATCH>
+,	<MISMATCH>
+um	<MISMATCH>
+ihnen	<MISMATCH>
+zu	<MISMATCH>
+kontaktieren	<MISMATCH>
+.	<MISMATCH>
 
 Sehr	Sehr
 geehrte	geehrte
 Elena	Elena
 ,	,
-Letzte	Letzt
+Letzte	letzte
 Woche	Woche
 ist	ist
 etwas	etwas
@@ -8167,7 +8167,7 @@ passiert	passiert
 deshalb	deshalb
 habe	habe
 ich	ich
-mir	dir
+mir	mir
 gedacht	gedacht
 ,	,
 dir	dir
@@ -8187,8 +8187,8 @@ nerwös	nervös
 und	und
 geht	geht
 in	in
-den	das
-feueredhaus	feueredhaus
+den	den
+feueredhaus	Feuerwehrhaus
 zum	um
 ihren	ihren
 sachen	Sachen
@@ -8213,7 +8213,7 @@ Der	dem
 dem	dem
 Wald	Wald
 kommen	kommen
-schreien	schrien
+schreien	Schreie
 .	.
 
 Anna	Anna
@@ -8291,7 +8291,7 @@ hatte	hatte
 .	.
 
 Der	Der
-Director	Director
+Director	Direktor
 entschuldigte	entschuldigte
 sich	sich
 mit	mit
@@ -8347,12 +8347,12 @@ China	China
 gibt	gibt
 es	es
 schöneres	schöneres
-sachen	Sachen
+sachen	Sache
 wie	wie
 :	:
 (	(
-Chineschischesmauer	Chineschischesmauer
-.	)
+Chineschischesmauer	Chinesischmauer
+.	.
 .	.
 .	.
 .	.
@@ -8384,7 +8384,7 @@ Russia	Russia
 Dort	Dort
 gab	gab
 es	ein
-ein	bei
+ein	an
 Problem	Problem
 an	.
 der	der
@@ -8456,20 +8456,20 @@ gehen	gehen
 konnte	konnte
 .	.
 
-Du	Du
-kennst	kennst
-mich	mich
-ja	ja
--	-
-ich	ich
-bin	bin
-Entscheidungsunfähig	entscheidungsunfähig
-.	.
+Du	<MISMATCH>
+kennst	<MISMATCH>
+mich	<MISMATCH>
+ja	<MISMATCH>
+-	<MISMATCH>
+ich	<MISMATCH>
+bin	<MISMATCH>
+Entscheidungsunfähig	<MISMATCH>
+.	<MISMATCH>
 
 Als	Als
 sie	sie
 alles	alles
-eingekauft	eingekauft
+eingekauft	einkauft
 hat	hat
 geht	geht
 sie	sie
@@ -8535,13 +8535,13 @@ zu	zu
 sehen	sehen
 .	.
 
-Oder	Oder
-magst	mag
-du	du
-das	das
-Meer	Meer
-gern	gern
-?	?
+Oder	<MISMATCH>
+magst	<MISMATCH>
+du	<MISMATCH>
+das	<MISMATCH>
+Meer	<MISMATCH>
+gern	<MISMATCH>
+?	<MISMATCH>
 
 die	die
 Sonne	Sonne
@@ -8549,14 +8549,14 @@ schließlich	schließlich
 unter ging	unterging
 war	war
 es	es
-totenstill	todenstill
+totenstill	totenstille
 im	im
 Wald	Wald
 .	.
 
 „	:
 Betreff	Betreff
-:	,
+:	im
 Maria	Maria
 im	,
 Supermarkt	Supermarkt
@@ -8576,16 +8576,16 @@ auch	auch
 nicht	nicht
 .	.
 
-ich	doch
-Du	Du
-kennst	kennst
-doch	noch
-bestimmt	bestimmt
-noch	noch
-meine	meine
-Freundin	Freundin
-Maria	Maria
-.	.
+ich	<MISMATCH>
+Du	<MISMATCH>
+kennst	<MISMATCH>
+doch	<MISMATCH>
+bestimmt	<MISMATCH>
+noch	<MISMATCH>
+meine	<MISMATCH>
+Freundin	<MISMATCH>
+Maria	<MISMATCH>
+.	<MISMATCH>
 
 muss	muss
 eine	eine
@@ -8614,7 +8614,7 @@ ihn	ihn
 Sie	die
 Als	Als
 Maria	Maria
-die	die
+die	sie
 Kassiererin	Kassiererin
 erschrocken	erschrocken
 ansah	ansah
@@ -8656,7 +8656,7 @@ auch	auch
 gefährlich	gefährlich
 Leute	Leuten
 auf	auf
-Internet	Internet
+Internet	internet
 kennenzulernen	kennenzulernen
 .	.
 
@@ -8700,23 +8700,23 @@ Gemüse	Gemüse
 für	für
 die	die
 nächsten	nächsten
-Tage	Tage
+Tage	Tagen
 ein	ein
 .	.
 
 Nämlich	Nämlich
 ,	,
-hat	hat
+hat	am
 sie	sie
 mir	mir
 gesagt	gesagt
-,	,
+,	.
 dass	dass
 Maria	Maria
 am	am
 Anfang	Anfang
 große	große
-schwierigkeiten	Schwierigkeiten
+schwierigkeiten	schwierigkeiten
 hatte	hatte
 .	.
 
@@ -8741,11 +8741,11 @@ die	die
 Berge	Berge
 fahren	fahren
 wären	wären
-es	es
+es	:
 die	die
 gleichen	gleichen
-fragen	Fragen
-:	:
+fragen	fragen
+:	?
 Innerhalb	Innerhalb
 Deutschlands	Deutschlands
 oder	oder
@@ -8754,15 +8754,15 @@ nicht	nicht
 
 Hallo	Hallo
 lieber	lieber
-Dirk	Dirk
-,	,
+Dirk	der
+,	:
 Ich	ich
 schreibe	schreibe
 dir	dir
-wegem	wegen
+wegem	weg
 der	der
 Buchung	Buchung
-unseres	unserer
+unseres	unseres
 Urlaubes	Urlaubes
 .	.
 
@@ -8794,27 +8794,27 @@ gestohlen	gestohlen
 hatte	hatte
 .	.
 
-:	:
-Ja	Ja
-weil	weil
-es	es
+:	,
+Ja	es
+weil	Welt
+es	.
 die	die
 Welt sprache	Welt sprache
 ist	ist
 .	.
 
 Italienisch	Italienisch
-Ich	Ich
+Ich	ist
 habe	habe
 noch	noch
-eine	eine
+eine	in
 Sache	Sache
-um	um
+um	es
 dir	dir
-zu	zu
+zu	am
 sagen	sagen
-,	,
-am	am
+,	in
+am	.
 Meer	Meer
 ist	ist
 warm	warm
@@ -8824,14 +8824,14 @@ den	den
 Bergen	Bergen
 ist	ist
 ein	ein
-bissien	bisschen
+bissien	bissien
 kalt	kalt
 am	am
 Tag	Tag
 und	und
 sehr	sehr
 kalt	kalt
-im	in
+im	im
 Nacht	Nacht
 .	.
 
@@ -8865,33 +8865,33 @@ so	so
 viel	viele
 .	.
 
-Jetzt	Jetzt
-wir	wir
-haben	haben
-eine	eine
-probleme	Probleme
-.	.
+Jetzt	<MISMATCH>
+wir	<MISMATCH>
+haben	<MISMATCH>
+eine	<MISMATCH>
+probleme	<MISMATCH>
+.	<MISMATCH>
 
-Englisch	Englisch
+Englisch	englisch
 wird	wird
 auch	auch
 oft	oft
 in	in
 anderen	anderen
-Länder	Ländern
+Länder	ländern
 gesprochen	gesprochen
 .	.
 
-Ich	in
-Zuerst	Zuerst
-sie	sie
-ist	Obst
-in	-
-einen	einen
-Obst-	Obst-
-und	und
-Gemüse	Gemüse
-ein zu kaufen.	ein zu kaufen.
+Ich	<MISMATCH>
+Zuerst	<MISMATCH>
+sie	<MISMATCH>
+ist	<MISMATCH>
+in	<MISMATCH>
+einen	<MISMATCH>
+Obst-	<MISMATCH>
+und	<MISMATCH>
+Gemüse	<MISMATCH>
+ein zu kaufen.	<MISMATCH>
 
 In	In
 die	den
@@ -8957,7 +8957,7 @@ Chatrooms	Chatrooms
 .	.
 
 Also	Also
-ich	ich
+ich	Ich
 für	für
 meine	meine
 Seite	Seite
@@ -9051,7 +9051,7 @@ kennen	kennen
 
 Jetzt	Jetzt
 haben	haben
-Sie	Sie
+Sie	wir
 drei	drei
 Kinder	Kinder
 :	:
@@ -9087,8 +9087,8 @@ plötzlich	plötzlich
 lautstark	lautstark
 :	:
 "	"
-SIE	SIE
-DIEBIN	DIEBIN
+SIE	Sie
+DIEBIN	Diebin
 !	!
 
 ist	ist
@@ -9160,12 +9160,12 @@ auch	auch
 noch	noch
 wissen	wissen
 ,	,
-wann	wann
+wann	wenn
 ich	ich
 gerne	gerne
 fahren	fahren
 würde	würde
-.	.
+.	es
 
 sollten	sollten
 mit	mit
@@ -9244,7 +9244,7 @@ Maria	Maria
 Ist	ist
 dir	dir
 Etwas	etwas
-schönes	Schönes
+schönes	schön
 passiert	passiert
 ?	.
 
@@ -9266,29 +9266,29 @@ kaufen	kaufen
 
 Wir	Wir
 kennengelernt	kennengelernt
-neue	neue
+neue	neu
 Freunde	Freunde
 und	und
 am	am
 Abend	Abend
 gehen	gehen
 wir	wir
-in	in
+in	und
 Disco	Disco
-tanzen	Tanzen
+tanzen	tanzen
 .	.
 
-Sag	<MISMATCH>
-mir	<MISMATCH>
-schnell	<MISMATCH>
-bescheid	<MISMATCH>
-,	<MISMATCH>
-wenn	<MISMATCH>
-du	<MISMATCH>
-dich	<MISMATCH>
-entschieden	<MISMATCH>
-hast	<MISMATCH>
-.	<MISMATCH>
+Sag	Sag
+mir	mich
+schnell	schnell
+bescheid	bescheid
+,	,
+wenn	den
+du	"
+dich	dich
+entschieden	entschieden
+hast	hast
+.	,
 
 sah	sah
 sein	seinen
@@ -9297,16 +9297,16 @@ Fernseher	Fernseher
 schauen	schauen
 .	.
 
-Aber	der
+Aber	Aber
 Sie	Sie
 ist	ist
 bei	bei
-der	der
+der	zur
 Kasse	Kasse
 ,	,
 um	um
 zu	zu
-zahlen	bezahlen
+zahlen	zahlen
 ,	,
 gegangen	gegangen
 ,	,
@@ -9334,39 +9334,39 @@ mehr	mehr
 Leben	Leben
 .	.
 
-Wen	Wen
-sie	sie
-dir	Du
-schreiben	schreiben
-,	,
-wie	wie
-sie	sie
-das	das
-eigentlich	eigentlich
-machen	machen
-,	,
-antworte	Antworten
-ihnen	ihnen
-nicht	nicht
-den	deine
-an sosnsten	an sosnsten
-fängst	fängst
-du	,
-wieder	wieder
-an	an
-zu	zu
-chatten	chatten
-.	.
+Wen	<MISMATCH>
+sie	<MISMATCH>
+dir	<MISMATCH>
+schreiben	<MISMATCH>
+,	<MISMATCH>
+wie	<MISMATCH>
+sie	<MISMATCH>
+das	<MISMATCH>
+eigentlich	<MISMATCH>
+machen	<MISMATCH>
+,	<MISMATCH>
+antworte	<MISMATCH>
+ihnen	<MISMATCH>
+nicht	<MISMATCH>
+den	<MISMATCH>
+an sosnsten	<MISMATCH>
+fängst	<MISMATCH>
+du	<MISMATCH>
+wieder	<MISMATCH>
+an	<MISMATCH>
+zu	<MISMATCH>
+chatten	<MISMATCH>
+.	<MISMATCH>
 
 ein	ein
 bisschen	bisschen
 schon	schon
 weil	weil
-mann	man
+mann	mann
 auch	auch
 Deutsch	Deutsch
 redet	redet
-.	.
+.	!
 
 Oder	Oder
 Sie	Sie
@@ -9415,17 +9415,17 @@ Liebe	Liebe
 Lucia	Lucia
 ,	,
 weißt	weißt
-du	du
+du	an
 schon	schon
 was	was
-an	an
+an	?
 Maria	Maria
 passiert	passiert
 ist	ist
 ?	?
 
 Ich	Ich
-denke	denke
+denke	denkst
 ,	,
 dass	dass
 du	du
@@ -9438,21 +9438,21 @@ unterhalten	unterhalten
 kannst	kannst
 .	.
 
-Ein	Einen
-Tag	Tag
-habe	habe
-ich	ich
-mit	mit
-eine	einem
-Madchen	Mädchen
-Chatten	Chatten
-,	,
-und	und
-habe	habe
-meine	meinen
-Lieblingfreund	Lieblingfreund
-vergessen	vergessen
-.	.
+Ein	<MISMATCH>
+Tag	<MISMATCH>
+habe	<MISMATCH>
+ich	<MISMATCH>
+mit	<MISMATCH>
+eine	<MISMATCH>
+Madchen	<MISMATCH>
+Chatten	<MISMATCH>
+,	<MISMATCH>
+und	<MISMATCH>
+habe	<MISMATCH>
+meine	<MISMATCH>
+Lieblingfreund	<MISMATCH>
+vergessen	<MISMATCH>
+.	<MISMATCH>
 
 Zu aller erst	Zu aller erst
 ,	Zu
@@ -9499,15 +9499,15 @@ Natürlich	Natürlich
 wenn	wenn
 du	du
 am	am
-liebsten	liebsten
-eine	eine
-rühige	ruhige
+liebsten	liebst
+eine	in
+rühige	rühige
 Reise	Reise
 machen	machen
 liebst	liebst
 ,	,
-in	in
-die	die
+in	die
+die	das
 Berge	Berge
 fahren	fahren
 ist	ist
@@ -9581,13 +9581,13 @@ hat	hat
 
 :	:
 Weil	Weil
-von	von
+von	man
 vielen	vielen
 Jahren	Jahren
-im	im
+im	.
 Rom	Rom
 nur	nur
-Römisch	Römisches
+Römisch	Römisch
 geredet	geredet
 .	.
 
@@ -9602,7 +9602,7 @@ sicher	sicher
 ist	ist
 .	.
 
-Darauf hin	Daraufhin
+Darauf hin	Darauf hin
 wollte	wollte
 die	die
 Kassiererin	Kassiererin
@@ -9643,28 +9643,28 @@ dass	dass
 ich	ich
 mit	mit
 dem	dem
-Chatten	Chatten
+Chatten	Chattern
 zur	zur
-Ende	Ende
+Ende	Enden
 kommen	kommen
 musste	musste
 .	.
 
-sollte	sollte
-man	man
-auch	auch
-die	die
-Sprache	Sprache
-des	des
-Nachbarlandes	Nachbarlandes
-können	können
-.	.
+sollte	<MISMATCH>
+man	<MISMATCH>
+auch	<MISMATCH>
+die	<MISMATCH>
+Sprache	<MISMATCH>
+des	<MISMATCH>
+Nachbarlandes	<MISMATCH>
+können	<MISMATCH>
+.	<MISMATCH>
 
 Englisch	Englisch
 Ich	Ich
 habe	habe
 "	"
-Nein	Nein
+Nein	wenn
 "	"
 gesagt	gesagt
 aber	aber
@@ -9704,13 +9704,13 @@ gelassen	lassen
 
 Außerdem	Außerdem
 ist	ist
-das	das
+das	als
 Strandhotel	Strandhotel
 billiger	billiger
-als	als
+als	Alm
 die	die
 Hütte	Hütte
-in	in
+in	.
 der	der
 Alm	Alm
 .	.
@@ -9718,8 +9718,8 @@ Alm	Alm
 Danach	Danach
 ist	ist
 sie	sie
-im	in
-Supermarkt	Supermarkt
+im	im
+Supermarkt	supermarkt
 gefahren	gefahren
 und	und
 auch	auch
@@ -9727,8 +9727,8 @@ dort	dort
 hat	hat
 sie	sie
 sehr	sehr
-viele	viele
-Lebensmitteln	Lebensmittel
+viele	viel
+Lebensmitteln	lebensmittel
 gekauft	gekauft
 .	.
 
@@ -9774,7 +9774,7 @@ dem	dem
 Obstladen	Obstladen
 aufmerksam	aufmerksam
 ,	.
-denn	Denn
+denn	denn
 tollpatschig	tollpatschig
 wie	wie
 sie	sie
@@ -9837,10 +9837,10 @@ Spaß	<MISMATCH>
 .	<MISMATCH>
 
 Oder	Oder
-sollen	sollen
+sollen	soll
 wir	wir
 lieber	lieber
-schwimmen	Schwimmen
+schwimmen	schwimmen
 gehen	gehen
 ,	,
 anstatt	anstatt
@@ -9872,31 +9872,31 @@ Fabian	Fabian
 Hallo	Hallo
 Alex	Alex
 ,	,
-Wie	Wie
+Wie	wie
 geht	geht
 es	es
 dir	dir
 ?	?
 
-Erinnerst	erinnere
-du	,
-dich	dich
-an	als
-leztes	letztes
-Samstag	Samstag
-,	,
-als	uns
-wir	mit
-uns	und
-mit	mit
-Heidy	Heidy
-,	.
-Martino	Martino
-und	und
-Federico	Federico
-getreffen	getreffen
-haben	haben
-?	?
+Erinnerst	<MISMATCH>
+du	<MISMATCH>
+dich	<MISMATCH>
+an	<MISMATCH>
+leztes	<MISMATCH>
+Samstag	<MISMATCH>
+,	<MISMATCH>
+als	<MISMATCH>
+wir	<MISMATCH>
+uns	<MISMATCH>
+mit	<MISMATCH>
+Heidy	<MISMATCH>
+,	<MISMATCH>
+Martino	<MISMATCH>
+und	<MISMATCH>
+Federico	<MISMATCH>
+getreffen	<MISMATCH>
+haben	<MISMATCH>
+?	<MISMATCH>
 
 Vogel	Vogel
 war	war
@@ -9912,29 +9912,29 @@ ab	.
 gesehen	gesehen
 .	.
 
-Ich	Ich
-English	English
-lesen	lesen
-.	[
-[	]
-Der	Der
-strategie	Strategie
-]	,
-Der	das
-strategien	strategien
-dass	dass
-sehr	sehr
-schlecht	schlecht
-ist	ist
-dass	dass
-die	die
-Hausaufgaben	Hausaufgaben
-machen	machen
-weil	weil
-ich	ich
-bin	bin
-gebflicht	gebflicht
-.	zu
+Ich	<MISMATCH>
+English	<MISMATCH>
+lesen	<MISMATCH>
+.	<MISMATCH>
+[	<MISMATCH>
+Der	<MISMATCH>
+strategie	<MISMATCH>
+]	<MISMATCH>
+Der	<MISMATCH>
+strategien	<MISMATCH>
+dass	<MISMATCH>
+sehr	<MISMATCH>
+schlecht	<MISMATCH>
+ist	<MISMATCH>
+dass	<MISMATCH>
+die	<MISMATCH>
+Hausaufgaben	<MISMATCH>
+machen	<MISMATCH>
+weil	<MISMATCH>
+ich	<MISMATCH>
+bin	<MISMATCH>
+gebflicht	<MISMATCH>
+.	<MISMATCH>
 
 oder	oder
 Liebe	Liebe
@@ -10079,10 +10079,10 @@ hätte	hätten
 .	.
 
 Aber	Aber
-die	die
+die	Die
 Verkauferin	Verkäuferin
 glaubt	glaubt
-das	dass
+das	das
 nicht	nicht
 und	und
 ruft	ruft
@@ -10092,8 +10092,8 @@ Polizei	Polizei
 
 Hallo	Hallo
 Freund	Freund
-,	,
-Wie	wie
+,	.
+Wie	Wie
 geht	geht
 es	es
 dir	dir
@@ -10117,7 +10117,7 @@ hat	hat
 !	!
 
 Die	Die
-Kassierin	Kassiererin
+Kassierin	Kassierin
 vorderte	vorderte
 den	den
 Kassenzettel	Kassenzettel
@@ -10151,14 +10151,14 @@ Wohnung	Wohnung
 lassen	lassen
 .	.
 
-Es	Es
-Ich	Ich
-solle	soll
-dir	dir
-viele	viele
-Dinge	Dinge
-erzählen	erzählen
-.	.
+Es	<MISMATCH>
+Ich	<MISMATCH>
+solle	<MISMATCH>
+dir	<MISMATCH>
+viele	<MISMATCH>
+Dinge	<MISMATCH>
+erzählen	<MISMATCH>
+.	<MISMATCH>
 
 Junge	Junge
 dachte	dachte
@@ -10197,7 +10197,7 @@ glaubt	glaubt
 dass	dass
 einige	einige
 Person	Person
-hatte	hatte
+hatte	hat
 seiner	seinen
 Geldbeutel	Geldbeutel
 gestahlen	gestohlen
@@ -10206,7 +10206,7 @@ gestahlen	gestohlen
 Hey	Hey
 Luzi	Luzi
 ,	,
-Letzte	Letzte
+Letzte	letzte
 Woche	Woche
 war	war
 Maria	Maria
@@ -10228,7 +10228,7 @@ Obsthändler	Obsthändler
 Liebe	Liebe
 Karen	Karen
 ,	,
-Wie	wie
+Wie	Wie
 geht	geht
 es	es
 dir	dir
@@ -10243,7 +10243,7 @@ dann	dann
 sie	sich
 entschuldigte	entschuldigte
 mit	mit
-mir	mir
+mir	dir
 .	.
 
 Wenn	Wenn
@@ -10253,8 +10253,8 @@ ist	ist
 ,	,
 geht	geht
 sie	sie
-um	zum
-zu	.
+um	um
+zu	zu
 zahlen	zahlen
 .	.
 
@@ -10267,7 +10267,7 @@ Mutter	Mutter
 .	.
 
 Sie	Sie
-kaufe	kaufe
+kaufe	kaufst
 Obst	Obst
 und	und
 Gemuseladen	Gemüseladen
@@ -10341,9 +10341,9 @@ ausgegangen	ausgegangen
 ist	ist
 ,	,
 aber	aber
-Eines	EINES
-ist	IST
-sicher	SICHER
+Eines	eins
+ist	ist
+sicher	sicher
 !	!
 
 Internet	Internet
@@ -10385,12 +10385,12 @@ gemacht	gemacht
 hat	hatte
 .	.
 
-Außerdem	Außerdem
-habe	habe
-ich	ich
-totale	tote
-Höhenangst	Höhenangst
-.	.
+Außerdem	<MISMATCH>
+habe	<MISMATCH>
+ich	<MISMATCH>
+totale	<MISMATCH>
+Höhenangst	<MISMATCH>
+.	<MISMATCH>
 
 Lieber	Lieber
 Kemal	Kemal
@@ -10418,7 +10418,7 @@ wie	wie
 sie	sie
 dass	das
 also	also
-erklähren	erklärn
+erklähren	erklären
 kann	kann
 .	.
 
@@ -10434,21 +10434,21 @@ und	und
 danach	danach
 war	war
 sie	sie
-ins	in
+ins	ins
 Supermarkt	Supermarkt
 gegangen	gegangen
 .	.
 
-LIEBE	LIEBE
-MARIA	MARIA
+LIEBE	Liebe
+MARIA	Maria
 ,	,
-WIE	WIE
+WIE	wie
 GETHgeth	GETHgeth
-ES	ES
+ES	es
 DIERdier	DIERdier
 ?	?
 
-ZuAllererst	Zuallererst
+ZuAllererst	ZuAllererst
 lässt	lässt
 sich	sich
 sagen	sagen
@@ -10460,12 +10460,12 @@ Woche	Woche
 in	in
 den	den
 Bergen	Bergen
-,	,
+,	am
 als	als
 auch	auch
-eine	eine
+eine	sind
 Woche	Woche
-am	am
+am	.
 Meer	Meer
 gleich	gleich
 teuer	teuer
@@ -10495,7 +10495,7 @@ hat	hat
 
 ist	es
 Naja	Naja
-,	:
+,	,
 für	für
 Maria	Maria
 war	war
@@ -10589,36 +10589,36 @@ Host	Host
 du	Du
 gehören	gehörst
 was	was
-hat	hat
-gemacht	gemacht
-deine	den
+hat	das
+gemacht	macht
+deine	Deine
 Freundin	Freundin
-im	,
-einem	einem
+im	im
+einem	einen
 Supermarkt	Supermarkt
-.	.
+.	,
 
-Ich	Ich
-möchte	möchte
-dich	dich
-nur	nur
-noch	noch
-einmal	einmal
-darauf	darauf
-Hinweisen	hinweisen
-,	,
-das	dass
-du	du
-bitte	bitte
-nicht	nicht
-unsere	unsere
-Preisgrenze	Preisgrenze
-überschreitest	überschreitest
-.	.
+Ich	<MISMATCH>
+möchte	<MISMATCH>
+dich	<MISMATCH>
+nur	<MISMATCH>
+noch	<MISMATCH>
+einmal	<MISMATCH>
+darauf	<MISMATCH>
+Hinweisen	<MISMATCH>
+,	<MISMATCH>
+das	<MISMATCH>
+du	<MISMATCH>
+bitte	<MISMATCH>
+nicht	<MISMATCH>
+unsere	<MISMATCH>
+Preisgrenze	<MISMATCH>
+überschreitest	<MISMATCH>
+.	<MISMATCH>
 
-Einigen	Einigen
+Einigen	Einige
 "	"
-Fremden	Fremden
+Fremden	Fremde
 "	"
 haben	haben
 mir	mir
@@ -10694,7 +10694,7 @@ sie	sie
 beim	beim
 Obsthändler	Obsthändler
 und	und
-hat	hatte
+hat	hat
 dort	dort
 frisches	frisches
 Obst	Obst
@@ -10742,8 +10742,8 @@ einzukaufen	einzukaufen
 .	.
 
 Hallo	Hallo
-Lisa	Lis
-,	,
+Lisa	Lisa
+,	.
 wie	wie
 geht	geht
 es	es
@@ -10755,7 +10755,7 @@ müssen	müssen
 noch	noch
 entscheiden	entscheiden
 ,	,
-wohin	wohin
+wohin	woher
 wir	wir
 fahren	fahren
 werden	werden
@@ -10767,20 +10767,20 @@ sie	sie
 war	war
 gestern	gestern
 einkaufen	einkaufen
-,	,
-da	da
+,	-
+da	hat
 war	war
 sie	sie
-erst	erst
+erst	ist
 beim	beim
-Obst-	Obst
+Obst-	Obst-
 und	und
 Gemüseladen	Gemüseladen
 und	und
 hat	hat
 dort	dort
 eingekauft	eingekauft
-,	,
+,	.
 und	und
 ist	ist
 dann	dann
@@ -10815,7 +10815,7 @@ deutsch	Deutsch
 sprechen	sprechen
 ,	,
 und	und
-man	man
+man	was
 versteht	versteht
 was	was
 ander	andere
@@ -10846,7 +10846,7 @@ Supermarkt	Supermarkt
 gegangen	gegangen
 und	und
 sie	sie
-hat	hat
+hat	hatte
 ein	ein
 Problem	Problem
 gehabt	gehabt
@@ -10877,7 +10877,7 @@ gewähllt	gewählt
 ,	,
 weil	weil
 alle	alle
-möchten	möchte
+möchten	möchten
 in	in
 der	der
 Sicherheit	Sicherheit
@@ -10885,7 +10885,7 @@ bleiben	bleiben
 nihmant	Niemand
 will	will
 gefahr	Gefahr
-und	und
+und	Und
 warum	warum
 sollen	sollen
 diese	diese
@@ -10942,7 +10942,7 @@ habe	habe
 heute	heute
 etwas	etwas
 sehr	sehr
-lustiges	Lustiges
+lustiges	lustiges
 von	von
 meiner	meiner
 Freundin	Freundin
@@ -10951,67 +10951,67 @@ erzählt	erzählt
 bekommen	bekommen
 !	!
 
-finde	finde
-das	das
-die	die
-Flüchtlinge	Flüchtlinge
-sich	sich
-ein	ein
-bischen	bisschen
-zu	zu
-viel	viel
-Aufspielen	Aufspielen
-und	und
-sich	sich
-sogar	sogar
-getrauen	getrauen
-europärer	europärer
-zu	zu
-sagen	sagen
-er	er
-soll	soll
-in	in
-sein	sein
-Land	Land
-zurück kerren	zurückkehren
-,	,
-eigentlich	eigentlich
-tun	tun
-sie	sie
-mir	mir
-ja	ja
-leid	leid
-und	und
-ich	ich
-finde	finde
-das	das
-am	am
-besten	besten
-wäre	wäre
-einfach	einfach
-das	der
-der	der
-Krieg	Krieg
-aufhören	aufhören
-wurde	wurde
-und	und
-so	so
-konnten	könnten
-alle	alle
-wieder	wieder
-nachhause	nachhause
-zurück kerren	zurückkehren
-,	,
-weil	weil
-ich	ich
-glaube	glaube
-das	dass
-sie	sie
-auch	auch
-lieber	lieber
-zuhause	zuhause
-wären	wären
-.	.
+finde	<MISMATCH>
+das	<MISMATCH>
+die	<MISMATCH>
+Flüchtlinge	<MISMATCH>
+sich	<MISMATCH>
+ein	<MISMATCH>
+bischen	<MISMATCH>
+zu	<MISMATCH>
+viel	<MISMATCH>
+Aufspielen	<MISMATCH>
+und	<MISMATCH>
+sich	<MISMATCH>
+sogar	<MISMATCH>
+getrauen	<MISMATCH>
+europärer	<MISMATCH>
+zu	<MISMATCH>
+sagen	<MISMATCH>
+er	<MISMATCH>
+soll	<MISMATCH>
+in	<MISMATCH>
+sein	<MISMATCH>
+Land	<MISMATCH>
+zurück kerren	<MISMATCH>
+,	<MISMATCH>
+eigentlich	<MISMATCH>
+tun	<MISMATCH>
+sie	<MISMATCH>
+mir	<MISMATCH>
+ja	<MISMATCH>
+leid	<MISMATCH>
+und	<MISMATCH>
+ich	<MISMATCH>
+finde	<MISMATCH>
+das	<MISMATCH>
+am	<MISMATCH>
+besten	<MISMATCH>
+wäre	<MISMATCH>
+einfach	<MISMATCH>
+das	<MISMATCH>
+der	<MISMATCH>
+Krieg	<MISMATCH>
+aufhören	<MISMATCH>
+wurde	<MISMATCH>
+und	<MISMATCH>
+so	<MISMATCH>
+konnten	<MISMATCH>
+alle	<MISMATCH>
+wieder	<MISMATCH>
+nachhause	<MISMATCH>
+zurück kerren	<MISMATCH>
+,	<MISMATCH>
+weil	<MISMATCH>
+ich	<MISMATCH>
+glaube	<MISMATCH>
+das	<MISMATCH>
+sie	<MISMATCH>
+auch	<MISMATCH>
+lieber	<MISMATCH>
+zuhause	<MISMATCH>
+wären	<MISMATCH>
+.	<MISMATCH>
 
 In	bin
 Lieber	Lieber
@@ -11021,7 +11021,7 @@ ich	in
 bin	bist
 traurig	traurig
 dass	dass
-du	,
+du	.
 in	wir
 diese	diese
 Situation	Situation
@@ -11048,7 +11048,7 @@ aber	aber
 dass	dass
 die	die
 Fahrt	Fahrt
-lang	lang
+lang	lange
 war	war
 .	.
 
@@ -11069,7 +11069,7 @@ kramte	kramte
 sie	sie
 in	in
 ihrer	ihrer
-Handtasche	Handtasche
+Handtasche	handtasche
 und	und
 fand	fand
 endlich	endlich
@@ -11105,7 +11105,7 @@ Leute	Leute
 die	die
 Englisch	Englisch
 wissen	wissen
-aber	Aber
+aber	aber
 wenn	wenn
 ich	ich
 nicht	nicht
@@ -11128,13 +11128,13 @@ mit	mit
 ihnen	ihnen
 oder	oder
 sie	sie
-Englisch	Englisch
+Englisch	englisch
 .	.
 
 Weil	Weil
 Sie	Sie
 hat	hat
-Apfel	Apfels
+Apfel	Äpfel
 ,	,
 Ananas	Ananas
 ,	,
@@ -11162,7 +11162,7 @@ beiden	beiden
 Urlauben	Urlauben
 können	können
 wir	wir
-Schwimmen	Schwimmen
+Schwimmen	schwimmen
 gehen	gehen
 entweder	entweder
 im	im
@@ -11173,13 +11173,13 @@ im	im
 Meer	Meer
 .	.
 
-Schreib	Schreib
-mir	mir
-wenn	wenn
-du	du
-Zeit	Zeit
-hast	hast
-!	!
+Schreib	<MISMATCH>
+mir	<MISMATCH>
+wenn	<MISMATCH>
+du	<MISMATCH>
+Zeit	<MISMATCH>
+hast	<MISMATCH>
+!	<MISMATCH>
 
 Das	Das
 ganze	ganze
@@ -11190,9 +11190,9 @@ eskaliert	eskaliert
 die	die
 Kassierin	Kassierin
 war	war
-drauf	darauf
-un	und
-dran	dran
+drauf	drauf
+un	un
+dran	ran
 die	die
 Polizei	Polizei
 zu	zu
@@ -11201,8 +11201,8 @@ rufen	rufen
 aber	aber
 da	da
 kam	kam
-unserer	unserer
-pfiffigen	pfiffigen
+unserer	unsere
+pfiffigen	pfiffige
 Freundin	Freundin
 doch	doch
 noch	noch
@@ -11212,20 +11212,20 @@ Einfall	Einfall
 :	:
 Der	Der
 Laden	Laden
-indem	dem
+indem	indem
 Sie	Sie
 ihr	ihr
 Obst-	Obst
 und	und
 Gemüse	Gemüse
-herholt	herholten
+herholt	herholt
 ,	,
 verkauft	verkauft
 ausschließlich	ausschließlich
 Bio-	Bio
 und	und
 Fair Trade Ware	Fair Trade Ware
-,	,
+,	.
 Artikel	Artikel
 die	die
 der	der
@@ -11249,7 +11249,7 @@ gestolen	gestolen
 
 ich	ich
 groß	groß
-heißt	heißt
+heißt	heiße
 ich	ich
 volle	voll
 nach	nach
@@ -11280,8 +11280,8 @@ unseren	unseren
 ersten	ersten
 gemeinsamen	gemeinsamen
 Urlaub	Urlaub
-,	,
-denn	denn
+,	.
+denn	Denn
 wie	wie
 du	du
 weist	weißt
@@ -11336,7 +11336,7 @@ Obsthändler	Obsthändler
 und	und
 kaufte	kaufte
 ein	ein
-bisschen	bisschen
+bisschen	Bisschen
 Obst	Obst
 und	und
 Gemüse	Gemüse
@@ -11352,7 +11352,7 @@ weg	Weg
 sie	sie
 hatten	hatten
 sich	sich
-ferirt	ferirt
+ferirt	verirrt
 .	.
 
 Als	also
@@ -11363,9 +11363,9 @@ diese	die
 Leute	Leute
 glauben	glauben
 wirklich	wirklich
-keinem	keinem
+keinem	keinen
 anderen	anderen
-ausser	ausser
+ausser	außer
 sich	sich
 selbst	selbst
 !	!
@@ -11394,26 +11394,26 @@ hat	hat
 
 Wie	Wie
 kann	kann
-man	man
+man	mit
 über	über
 eigene	eigene
 Probleme	Probleme
-mit	mit
-Leute	Leuten
+mit	die
+Leute	Leute
 ,	,
-die	die
-man	man
+die	E
+man	Mail
 nie	nie
 gesehen	gesehen
 hat	hat
-,	,
+,	.
 sprechen	sprechen
 oder	oder
 schreiben	schreiben
 ?	?
 
 Der	Der
-Ganzen	ganzen
+Ganzen	ganze
 Welt	Welt
 ist	ist
 schön	schön
@@ -11429,7 +11429,7 @@ aber	Aber
 wie	wie
 und	und
 womit	womit
-gehen	geh
+gehen	gehen
 und	und
 ich	ich
 denke	denke
@@ -11493,7 +11493,7 @@ ICH	Ich
 WARTE	warnte
 DIESE	diese
 RATSCHLÄGE	Ratschläge
-VIELE	vielen
+VIELE	viele
 GRÜSSE	GRÜSSE
 VERONICA	VERONICA
 
@@ -11522,13 +11522,13 @@ Torte	Torte
 Ich	Ich
 denke	denke
 dass	dass
-wir	wir
-konnen	können
+wir	mir
+konnen	konnen
 mit	mit
 dem	dem
 Flugzeug	Flugzeug
-fähren	fahren
-.	.
+fähren	fähren
+.	,
 
 Opa	Opa
 kann	kann
@@ -11582,7 +11582,7 @@ hat	hat
 die	die
 Flüchtlinge	Flüchtlinge
 sollten	sollten
-selber	selber
+selber	selbst
 Arbeiten	Arbeiten
 gehen	gehen
 und	und
@@ -11634,13 +11634,13 @@ gemacht	gemacht
 ,	,
 deshalb	deshalb
 Maria	Maria
-zu	zu
-schlafen	schlafen
+zu	zum
+schlafen	Schlafen
 gegangen	gegangen
 ist	ist
 .	.
 
-Das	Das
+Das	Es
 ganze	ganze
 hat	hat
 angefangen	angefangen
@@ -11652,26 +11652,26 @@ einkaufen	einkaufen
 war	waren
 .	.
 
-Ich	Ich
-weiß	Wir
-dass	dass
-du	,
-weiß	ein
-noch	noch
-nicht	macht
-ob	,
-wir	wo
-unsere	unsere
-Urlaub	Urlaub
-in	wir
-die	die
-Berge	Berge
-oder	oder
-ans	ans
-Meer	Meer
-machen	machen
-sollen	sollen
-.	.
+Ich	<MISMATCH>
+weiß	<MISMATCH>
+dass	<MISMATCH>
+du	<MISMATCH>
+weiß	<MISMATCH>
+noch	<MISMATCH>
+nicht	<MISMATCH>
+ob	<MISMATCH>
+wir	<MISMATCH>
+unsere	<MISMATCH>
+Urlaub	<MISMATCH>
+in	<MISMATCH>
+die	<MISMATCH>
+Berge	<MISMATCH>
+oder	<MISMATCH>
+ans	<MISMATCH>
+Meer	<MISMATCH>
+machen	<MISMATCH>
+sollen	<MISMATCH>
+.	<MISMATCH>
 
 Man	Man
 kann	kann
@@ -11692,7 +11692,7 @@ Das	Das
 macht	macht
 sie	sie
 öfters	öfters
-,	,
+,	.
 da	da
 sie	sie
 die	die
@@ -11702,25 +11702,25 @@ braucht	braucht
 .	.
 
 sagt	sagt
-"	"
+"	,
 danke	danke
-"	"
+"	.
 am	am
 Markus	Markus
 .	.
 
-Die	Die
-,	,
-ich	ich
-lerne	lernen
-deutsch	deutsch
-und	und
-english	english
-.	.
+Die	<MISMATCH>
+,	<MISMATCH>
+ich	<MISMATCH>
+lerne	<MISMATCH>
+deutsch	<MISMATCH>
+und	<MISMATCH>
+english	<MISMATCH>
+.	<MISMATCH>
 
 Für	Für
 so	so
-bekommte	bekammte
+bekommte	bekommte
 die	die
 Familie	Familie
 ganz	ganz
@@ -11752,7 +11752,7 @@ wird	wird
 
 Naja	Naja
 ,	,
-wir	wir
+wir	Wir
 Improvisierten	improvisierten
 und	und
 machten	machten
@@ -11801,7 +11801,7 @@ Ich	Ich
 denke	denke
 auch	auch
 dass	dass
-chatten	Chatten
+chatten	chatten
 gut	gut
 werden	werden
 kann	kann
@@ -11828,15 +11828,15 @@ haben	haben
 wollen	wollen
 .	.
 
-Ich	Ich
-liebe	liebe
-dich	nicht
-bussy bussy	bussy bussy
-deine	deine
-Elisa	Elisa
-!	,
-!	da
-!	.
+Ich	<MISMATCH>
+liebe	<MISMATCH>
+dich	<MISMATCH>
+bussy bussy	<MISMATCH>
+deine	<MISMATCH>
+Elisa	<MISMATCH>
+!	<MISMATCH>
+!	<MISMATCH>
+!	<MISMATCH>
 
 Ich	Ich
 habe	habe
@@ -11874,20 +11874,20 @@ weil	weil
 Maria	Maria
 hat	hat
 keine	keine
-Kassenzettel	Kassenzüettle
+Kassenzettel	Kassenzettel
 für	für
 diese	diese
 Sachen	Sachen
 .	.
 
-Ich	ich
-hoffe	hoffe
-dass	dass
-du	dir
-diese	diese
-Probleme	Probleme
-hasst	hasst
-.	.
+Ich	<MISMATCH>
+hoffe	<MISMATCH>
+dass	<MISMATCH>
+du	<MISMATCH>
+diese	<MISMATCH>
+Probleme	<MISMATCH>
+hasst	<MISMATCH>
+.	<MISMATCH>
 
 Ich	Ich
 sage	sage
@@ -11953,20 +11953,20 @@ verständigen	verständigen
 könnte	könnte
 .	.
 
-Und	Und
-Ich	Ich
-freue	freue
-mich	mich
-schon	schon
-darauf	darauf
-.	.
+Und	<MISMATCH>
+Ich	<MISMATCH>
+freue	<MISMATCH>
+mich	<MISMATCH>
+schon	<MISMATCH>
+darauf	<MISMATCH>
+.	<MISMATCH>
 
 Ich	Ich
 weis	weiß
 nicht	nicht
 ob	ob
 aufs	auf
-Berg	Bergen
+Berg	Berg
 oder	oder
 am	am
 Meer	Meer
@@ -11988,7 +11988,7 @@ Gemüse	Gemüse
 
 Traumberuf	Traumberuf
 ist	ist
-ein	ein
+ein	Ein
 Artist	Artist
 .	.
 
@@ -12048,7 +12048,7 @@ da	da
 der	der
 Supermarkt	Supermarkt
 in	in
-genau	genau
+genau	genauer
 10	10
 Minuten	Minuten
 hätte	hätte
@@ -12109,7 +12109,7 @@ aus	aus
 dem	dem
 Obstladen	Obstladen
 zeigen	zeigen
-.	.
+.	…
 .	,
 .	Ja
 .	so
@@ -12142,21 +12142,21 @@ Apropos	Apropos
 Ferien	Ferien
 :	:
 Ich	Ich
-will	will
-in	in
-den	den
+will	Wir
+in	mit
+den	in
 Ferien	Ferien
-mit	mit
+mit	in
 meiner	meiner
 Freundin	Freundin
 Mareike	Mareike
-in	in
+in	.
 Urlaub	Urlaub
 fahren	fahren
 .	.
 
-Weisst	weißt
-du	du
+Weisst	Weisst
+du	Ja
 ,	,
 dass	dass
 wir	wir
@@ -12216,62 +12216,62 @@ holen	holen
 .	.
 
 manmal	manchmal
-gehe	gehe
-ich	in
-ins	das
-kino	Kino
+gehe	sehe
+ich	im
+ins	ins
+kino	kino
 und	und
 schaue	schaue
 Film	Film
-in	im
-Deutsch	Deutschen
+in	.
+Deutsch	Deutsch
 .	.
 
-studiren	studiren
-finde	finde
-,	Es
-dass	dass
-es	ist
-sehr	sehr
-sinnvoll	sinnvoll
-ist	ist
-auch	auch
-andere	andere
-Sprachen	Sprachen
-zu	,
-lernen	lernen
-,	.
-denn	denn
-wenn	wenn
-man	man
-viele	viele
-Sprachen	Sprachen
-kann	kann
-findet	finde
-man	man
-leicht	leicht
-eine	eine
-gute	gute
-Arbeit	Arbeit
-.	,
+studiren	<MISMATCH>
+finde	<MISMATCH>
+,	<MISMATCH>
+dass	<MISMATCH>
+es	<MISMATCH>
+sehr	<MISMATCH>
+sinnvoll	<MISMATCH>
+ist	<MISMATCH>
+auch	<MISMATCH>
+andere	<MISMATCH>
+Sprachen	<MISMATCH>
+zu	<MISMATCH>
+lernen	<MISMATCH>
+,	<MISMATCH>
+denn	<MISMATCH>
+wenn	<MISMATCH>
+man	<MISMATCH>
+viele	<MISMATCH>
+Sprachen	<MISMATCH>
+kann	<MISMATCH>
+findet	<MISMATCH>
+man	<MISMATCH>
+leicht	<MISMATCH>
+eine	<MISMATCH>
+gute	<MISMATCH>
+Arbeit	<MISMATCH>
+.	<MISMATCH>
 
 Jeder	Jeder
 Danach	Danach
 fährt	fährt
 Maria	Maria
 noch	noch
-zum	zum
+zum	zur
 Supermarkt	Supermarkt
 .	.
 
-Du	nur
-brauchst	brauchst
-ein	ein
-bischen	bischen
-Spaß	Spaß
-zu	zu
-haben	haben
-.	.
+Du	<MISMATCH>
+brauchst	<MISMATCH>
+ein	<MISMATCH>
+bischen	<MISMATCH>
+Spaß	<MISMATCH>
+zu	<MISMATCH>
+haben	<MISMATCH>
+.	<MISMATCH>
 
 Sie	Sie
 erzahlen	erzählen
@@ -12302,7 +12302,7 @@ Ich	Ich
 wollte	wollte
 gerade	gerade
 mein	mein
-Portmonaie	Portmonnaie
+Portmonaie	Portemonnaie
 herausholen	herausholen
 ,	,
 als	als
@@ -12315,12 +12315,12 @@ mehr	mehr
 da	war
 .	.
 
-Antworte	Antworte
-mich	mir
-wehn	wenn
-du	du
-wilst	willst
-.	.
+Antworte	<MISMATCH>
+mich	<MISMATCH>
+wehn	<MISMATCH>
+du	<MISMATCH>
+wilst	<MISMATCH>
+.	<MISMATCH>
 
 IST	ist
 PASSIERT	passiert
@@ -12350,11 +12350,11 @@ hat	hat
 Pfirsiche	Pfirsiche
 ,	,
 Salat	Salat
-,	.
+,	,
 Kartoffeln	Kartoffeln
 gekauft	gekauft
 Zweite	Zweite
-sie	Sie
+sie	sie
 ist	ist
 in	in
 einen	eine
@@ -12375,16 +12375,16 @@ Deshalb	Deshalb
 im	im
 Sommer	Sommer
 fahren	fahren
-wir	wir
+wir	im
 zusammen	zusammen
-ans	ans
+ans	in
 Meer	Meer
 und	und
-im	im
+im	die
 Winter	Winter
 können	können
 wir	wir
-in	in
+in	.
 die	die
 Berge	Berge
 fahren	fahren
@@ -12398,8 +12398,8 @@ wie	wie
 bereits	bereits
 schon	schon
 erwähnt	erwähnt
-,	,
-vorgestern	vorgestern
+,	am
+vorgestern	gestern
 einkaufen	einkaufen
 gewesen	gewesen
 .	.
@@ -12415,15 +12415,15 @@ Seen	Seen
 
 Sie	Sie
 hat	hat
-,	,
+,	in
 leider	leider
-,	,
+,	-
 ein	ein
 schlechtes	schlechtes
 Erlebnis	Erlebnis
-in	in
+in	und
 einem	einem
-Obst-	Obst
+Obst-	Obst-
 Gemüseladen	Gemüseladen
 gelebt	gelebt
 .	.
@@ -12435,7 +12435,7 @@ sie	sie
 meiner	meiner
 meinung	Meinung
 auch	auch
-französisch	französisch
+französisch	Französisch
 lernen	lernen
 weil	weil
 es	es
@@ -12445,11 +12445,11 @@ ist	ist
 .	.
 
 Sie	Sie
-Sie	in
+Sie	Sie
 war	war
 zuerst	zuerst
-beim	beim
-eine	einem
+beim	bei
+eine	einer
 Obst	Obst
 und	und
 Gemüseladen	Gemüseladen
@@ -12467,12 +12467,12 @@ eingekauft	eingekauft
 .	.
 
 Hier	Hier
-hat	hat
-obst	Obst
+hat	ist
+obst	obst
 und	und
-gemüse	Gemüse
+gemüse	gemüse
 gekauft	gekauft
-.	.
+.	:
 
 Wenn	Wenn
 sie	sie
@@ -12503,9 +12503,9 @@ freunde	Freunden
 freundinnen	Freundinnen
 
 Ich	Ich
-Ich	Ich
+Ich	ich
 hoffe	hoffe
-dir	du
+dir	dir
 deine	deine
 Probleme	Probleme
 zu	.
@@ -12528,60 +12528,60 @@ Ich	Ich
 gebe	gebe
 dir	dir
 Cip	Cip
-,	,
+,	.
 mein	mein
 Vogel	Vogel
 .	.
 
-Du	du
-Weißt	Weißt
-du	du
-was	was
-mit	mit
-Maria	Maria
-passiert	passiert
-ist	ist
-?	?
+Du	<MISMATCH>
+Weißt	<MISMATCH>
+du	<MISMATCH>
+was	<MISMATCH>
+mit	<MISMATCH>
+Maria	<MISMATCH>
+passiert	<MISMATCH>
+ist	<MISMATCH>
+?	<MISMATCH>
 
-Ich	Ich
-denke	denke
-dass	dass
-deine	deine
-Situation	Situation
-ein	ein
-bisschen	bisschen
-problematisch	problematisch
-ist	ist
-weil	weil
-du	du
-diese	diese
-Personen	Personen
-nicht	nicht
-kennst	kennst
-und	und
-auf	auf
-diesem	diesem
-Grund	Grund
-wurde	wurde
-ich	ich
-dich	dich
-raten	raten
-nicht	nicht
-zu	zu
-alle	alle
-zu	,
-antworten	antworten
-aber	aber
-nur	nur
-an	an
-diese	die
-Personen	Personen
-die	die
-du	du
-sehr	sehr
-gut	gut
-kennst	kennst
-.	.
+Ich	<MISMATCH>
+denke	<MISMATCH>
+dass	<MISMATCH>
+deine	<MISMATCH>
+Situation	<MISMATCH>
+ein	<MISMATCH>
+bisschen	<MISMATCH>
+problematisch	<MISMATCH>
+ist	<MISMATCH>
+weil	<MISMATCH>
+du	<MISMATCH>
+diese	<MISMATCH>
+Personen	<MISMATCH>
+nicht	<MISMATCH>
+kennst	<MISMATCH>
+und	<MISMATCH>
+auf	<MISMATCH>
+diesem	<MISMATCH>
+Grund	<MISMATCH>
+wurde	<MISMATCH>
+ich	<MISMATCH>
+dich	<MISMATCH>
+raten	<MISMATCH>
+nicht	<MISMATCH>
+zu	<MISMATCH>
+alle	<MISMATCH>
+zu	<MISMATCH>
+antworten	<MISMATCH>
+aber	<MISMATCH>
+nur	<MISMATCH>
+an	<MISMATCH>
+diese	<MISMATCH>
+Personen	<MISMATCH>
+die	<MISMATCH>
+du	<MISMATCH>
+sehr	<MISMATCH>
+gut	<MISMATCH>
+kennst	<MISMATCH>
+.	<MISMATCH>
 
 Dein	Deine
 Situation	Situation
@@ -12600,10 +12600,10 @@ Maria	Maria
 hat	hat
 sicherlich	sicherlich
 etwas	etwas
-gelernt	gelernt
+gelernt	Gelernt
 :	:
 immer	immer
-das	der
+das	das
 Zettel	Zettel
 dabei haben	dabei haben
 !	!
@@ -12701,23 +12701,23 @@ schöner	schöner
 ist	ist
 .	.
 
-Könntest	Könntest
-du	du
-auch	auch
-zu	zu
-einem	einem
-Kurs	Kurs
-gehen	gehen
-(	(
-Sportliches-	sportliches
-oder	oder
-Sprachigeskurs	sprachigeskurs
-)	)
-ob	,
-Personen	Personen
-zu	zu
-kennen	kennen
-!	!
+Könntest	<MISMATCH>
+du	<MISMATCH>
+auch	<MISMATCH>
+zu	<MISMATCH>
+einem	<MISMATCH>
+Kurs	<MISMATCH>
+gehen	<MISMATCH>
+(	<MISMATCH>
+Sportliches-	<MISMATCH>
+oder	<MISMATCH>
+Sprachigeskurs	<MISMATCH>
+)	<MISMATCH>
+ob	<MISMATCH>
+Personen	<MISMATCH>
+zu	<MISMATCH>
+kennen	<MISMATCH>
+!	<MISMATCH>
 
 Das	Das
 war	war
@@ -12744,10 +12744,10 @@ bezahlen	bezahlen
 
 Ergo	Ergo
 :	:
-ein	ein
+ein	Ein
 Urlaub	Urlaub
 zum	zum
-ausspannen	ausspannen
+ausspannen	Ausspannen
 und	und
 Seele	Seele
 baumeln	baumeln
@@ -12818,43 +12818,43 @@ nicht	nicht
 gegrüßt	grüßt
 .	.
 
-An	An
+An	,
 denen	denen
-muss	muss
+muss	dass
 du	du
-nicht	nicht
+nicht	ich
 mehr	mehr
 zurückantworten	zurückantworten
 ,	,
 es	es
 ist	ist
 nicht	nicht
-ein	eine
+ein	ein
 Pflicht	Pflicht
 ,	,
-du	du
+du	nur
 musst	musst
-mache	machen
+mache	mache
 was	was
 du	du
 denkst	denkst
 .	.
 
-Würdest	Würdest
-du	du
+Würdest	würde
+du	,
 einen	einen
-Mensch	Menschen
+Mensch	Mensch
 den	den
-du	du
-nie	nie
+du	,
+nie	wie
 gesehen	gesehen
 hast	hast
 etwas	etwas
 Wichtiges	Wichtiges
 zutrauen	zutrauen
-,	?
-ein	Ein
-Geheimniss	Geheimnis
+,	.
+ein	ein
+Geheimniss	Geheimniss
 zum	zum
 Beispiel	Beispiel
 .	.
@@ -12953,8 +12953,8 @@ zornig	zornig
 sein	sein
 .	.
 
-Bei	bei
-beiden	beidem
+Bei	Beim
+beiden	beiden
 Urlaubsmöglichkeiten	Urlaubsmöglichkeiten
 kann	kann
 man	man
@@ -12963,32 +12963,32 @@ Natur	Natur
 genießen	genießen
 .	.
 
-Sag	Sag
-mir	mir
-nochmal	nochmal
-Bescheid	Bescheid
-,	,
-was	was
-du	du
-am	am
-Besten	besten
-finden	findest
-würdest	würdest
-.	.
+Sag	<MISMATCH>
+mir	<MISMATCH>
+nochmal	<MISMATCH>
+Bescheid	<MISMATCH>
+,	<MISMATCH>
+was	<MISMATCH>
+du	<MISMATCH>
+am	<MISMATCH>
+Besten	<MISMATCH>
+finden	<MISMATCH>
+würdest	<MISMATCH>
+.	<MISMATCH>
 
-du	du
-stellst	stellst
-eine	eine
-Frage	Frage
-zu	zu
-ein	einem
-Englender	Engländer
-,	,
-aber	aber
-du	du
-fragst	fragst
-in	ihn
-deutsch	Deutsch
+du	<MISMATCH>
+stellst	<MISMATCH>
+eine	<MISMATCH>
+Frage	<MISMATCH>
+zu	<MISMATCH>
+ein	<MISMATCH>
+Englender	<MISMATCH>
+,	<MISMATCH>
+aber	<MISMATCH>
+du	<MISMATCH>
+fragst	<MISMATCH>
+in	<MISMATCH>
+deutsch	<MISMATCH>
 
 Ich	ist
 Später	Später
@@ -13038,7 +13038,7 @@ Die	Die
 Verkäuferin	Verkäuferin
 hat	hat
 ihr	ihrem
-der	den
+der	die
 Kassenzettel	Kassenzettel
 gegeben	gegeben
 ,	,
@@ -13062,28 +13062,28 @@ Hause	Hause
 gegangen	gegangen
 .	.
 
-Du	Du
-sollst	sollst
-ihnen	ihnen
-etwas	etwas
-erklären	erklären
-:	:
-wie	wie
-du	du
-dich	dich
-fühlst	fühlst
-,	,
-warum	warum
-du	du
-nicht	nicht
-mehr	mehr
-ihnen	ihnen
-schreibst	schreibst
-,	,
-ecc.	ecc.
-.	in
-.	.
-	
+Du	<MISMATCH>
+sollst	<MISMATCH>
+ihnen	<MISMATCH>
+etwas	<MISMATCH>
+erklären	<MISMATCH>
+:	<MISMATCH>
+wie	<MISMATCH>
+du	<MISMATCH>
+dich	<MISMATCH>
+fühlst	<MISMATCH>
+,	<MISMATCH>
+warum	<MISMATCH>
+du	<MISMATCH>
+nicht	<MISMATCH>
+mehr	<MISMATCH>
+ihnen	<MISMATCH>
+schreibst	<MISMATCH>
+,	<MISMATCH>
+ecc.	<MISMATCH>
+.	<MISMATCH>
+.	<MISMATCH>
+	<MISMATCH>
 
 Ich	Ich
 hoffe	hoffe
@@ -13107,15 +13107,15 @@ finden	finden
 so	also
 telefoniert	telefoniert
 an	(
-Obstgeschaft	Obstgeschäft
+Obstgeschaft	Obstgeschaft
 und	und
-So	so
+So	So
 sind	sind
-ich	in
-in	die
+ich	ich
+in	in
 den	den
 andere	anderen
-Geschaft	Geschäfte
+Geschaft	Geschaft
 gegangen	gegangen
 zu	zu
 der	für
@@ -13172,9 +13172,9 @@ Freunde	Freunde
 mehr	mehr
 ,	,
 nur	nur
-noch	noch
+noch	ich
 eine	eine
-,	,
+,	.
 welche	welche
 ich	ich
 im	im
@@ -13199,7 +13199,7 @@ sind	sind
 
 Jedoch	Jedoch
 Liebe	Liebe
-Jana	Anna
+Jana	Jana
 ,	,
 wie	wie
 geht	geht
@@ -13269,15 +13269,15 @@ glaubte	glaubte
 ihr	ihr
 .	.
 
-Sie	Sie
-kann	kann
-dich	dich
-verstehen	verstehen
-,	,
-ich	ich
-bin	bin
-sicher	sicher
-.	.
+Sie	<MISMATCH>
+kann	<MISMATCH>
+dich	<MISMATCH>
+verstehen	<MISMATCH>
+,	<MISMATCH>
+ich	<MISMATCH>
+bin	<MISMATCH>
+sicher	<MISMATCH>
+.	<MISMATCH>
 
 Endlich	Endlich
 sie	sie
@@ -13293,32 +13293,32 @@ ist	ist
 Maria	Maria
 einkaufen	einkaufen
 gegangen	gegangen
-.	.
+.	,
 
 Maria	Maria
 hat	hat
 ihren	ihren
-Kassezette	Kassenzettel
+Kassezette	Kassezette
 gesucht	gesucht
 ,	,
 aber	aber
 in	in
-ihren	ihren
+ihren	ihrem
 Sack	Sack
-gab	gab
-es	es
+gab	hat
+es	.
 nicht	nicht
 .	.
 
-So	So
-ich	ich
-habe	habe
-dir	dir
-diese	diese
-entspannende	entspannende
-Geschichte	Geschichte
-erzählt	erzählt
-.	.
+So	<MISMATCH>
+ich	<MISMATCH>
+habe	<MISMATCH>
+dir	<MISMATCH>
+diese	<MISMATCH>
+entspannende	<MISMATCH>
+Geschichte	<MISMATCH>
+erzählt	<MISMATCH>
+.	<MISMATCH>
 
 Meine	Meine
 Freundin	Freundin
@@ -13338,19 +13338,19 @@ und	und
 Gemüseladen	Gemüseladen
 .	.
 
-Jetzt	Jetzt
-aber	aber
-möchte	möchte
-ich	ich
-wissen	wissen
-,	,
-wo	wo
-du	du
-am	am
-besten	besten
-gehen	gehen
-willst	willst
-.	.
+Jetzt	<MISMATCH>
+aber	<MISMATCH>
+möchte	<MISMATCH>
+ich	<MISMATCH>
+wissen	<MISMATCH>
+,	<MISMATCH>
+wo	<MISMATCH>
+du	<MISMATCH>
+am	<MISMATCH>
+besten	<MISMATCH>
+gehen	<MISMATCH>
+willst	<MISMATCH>
+.	<MISMATCH>
 
 Sie	Sie
 kaufte	kaufte
@@ -13411,16 +13411,16 @@ der	der
 Onchel	Onchel
 bringen	bringt
 alle	alle
-von	vom
+von	von
 haus	Haus
 und	und
-renen	rennt
+renen	rennen
 wech	weg
 .	.
 
-In	Die
+In	an
 möchte	möchte
-an	:
+an	und
 der	der
 Universität	Universität
 studieren	studieren
@@ -13452,8 +13452,8 @@ hollen	holen
 
 In	Am
 Ende	Ende
-des	des
-Mittelschule	Mittelschulens
+des	der
+Mittelschule	Mittelschule
 will	will
 ich	ich
 das	das
@@ -13461,11 +13461,11 @@ Gymnasium	Gymnasium
 besuchen	besuchen
 .	.
 
-Ich	Ich
+Ich	ich
 Deshalb	Deshalb
 möchte	möchte
 ich	ich
-dir	mir
+dir	dir
 sagen	sagen
 ,	,
 dass	dass
@@ -13499,13 +13499,13 @@ gekauf	gekauft
 hat	hat
 .	.
 
-Ich	Ich
-schenke	schenke
-dir	dir
-ein	einen
-große	großen
-kuss	Kuss
-!	!
+Ich	<MISMATCH>
+schenke	<MISMATCH>
+dir	<MISMATCH>
+ein	<MISMATCH>
+große	<MISMATCH>
+kuss	<MISMATCH>
+!	<MISMATCH>
 
 Hallo	Hallo
 liebe	liebe
@@ -13546,18 +13546,18 @@ Tiere	Tiere
 behandlen	behandeln
 und	und
 wir	wir
-sie	sie
-an	im
+sie	im
+an	.
 Feld	Feld
 arbeiten	arbeiten
 .	.
 
 Ich	Ich
 habe	habe
-eine	eine
+eine	einen
 Zettel	Zettel
 prepariert	prepariert
-,	,
+,	er
 es	ist
 ist	mit
 mit	mit
@@ -13572,7 +13572,7 @@ als	als
 ich	ich
 endlich	endlich
 zu	zu
-Hause	Hause
+Hause	hause
 war	war
 .	.
 
@@ -13586,12 +13586,12 @@ Haus	Haus
 warscheinlich	wahrscheinlich
 weil	weil
 Hans	Hans
-(	(
-ein	einer
+(	,
+ein	ein
 großer	großer
 dickerer	dickerer
 Mann	Mann
-)	)
+)	,
 vergessen	vergessen
 hat	hatte
 ,	,
@@ -13616,17 +13616,17 @@ ist	ist
 .	.
 
 Sohn	Sohn
-mit	mit
-eine	einer
-Schuletasche	Schuletasche
+mit	hat
+eine	eine
+Schuletasche	Schultasche
 und	und
 mit	mit
 die	dem
 Diktat	Diktat
-sein	Seines
+sein	seines
 Vater	Vaters
-leuft	läuft
-in	ins
+leuft	leuft
+in	.
 Haus	Haus
 .	.
 
@@ -13639,7 +13639,7 @@ freundlich	freundlich
 umgehen	umgehen
 .	.
 
-Wir	Wir
+Wir	er
 dieser	dieser
 abfährt	abfährt
 halten	halten
@@ -13653,36 +13653,36 @@ Hand	Hand
 fest	fest
 .	.
 
-Dann	den
+Dann	Dann
 Auf	Auf
-den	es
-Beren	Beren
+den	dem
+Beren	Berg
 ist	ist
-es	,
+es	es
 sehr	sehr
 kalt	kalt
 wir	wir
 mussten	mussten
 sicher	sicher
 auch	auch
-Winterjacken	Winterjacken
+Winterjacken	Winterjackets
 mitbringen	mitbringen
 .	.
 
 Liebe	Liebe
 Sharon	Sharon
 ,	,
-wie	wie
+wie	Wie
 geht	geht
 es	es
 dir	dir
 ?	?
 
 Hallo	Hallo
-Mari	Maria
+Mari	mir
 wie	wie
-geht	geht
-es	es
+geht	gut
+es	.
 dir	dir
 ?	?
 
@@ -13698,8 +13698,8 @@ RECHT	RECHT
 HINZUGEHEN	hinzugehen
 ,	,
 WO	wo
-SIE	SIE
-WOLLEN	WOLLEN
+SIE	sie
+WOLLEN	wollen
 .	.
 
 Ja	Das
@@ -13816,19 +13816,19 @@ war	war
 ?	.
 
 In	In
-Die	die
-Berge	Berge
+Die	den
+Berge	Bergen
 ist	ist
 nicht	nicht
-immes	immes
+immes	immer
 schön	schön
 weil	weil
-das	da
+das	das
 Wetter	Wetter
 ist	ist
 manchmal	manchmal
-calt	calt
-.	,
+calt	kalte
+.	.
 
 Im	ist
 Jahr	sehr
@@ -13843,11 +13843,11 @@ gebracht	gebracht
 sahen	sahen
 sie	sie
 eine	eine
-höle	Hölle
+höle	Höhle
 und	und
 dort	dort
 kammen	kamen
-Seltsame	Seltsame
+Seltsame	seltsame
 stimmen	Stimmen
 heraus	heraus
 .	.
@@ -13899,13 +13899,13 @@ ein	einen
 Rat	Rat
 geben	geben
 ,	,
-geht	gehe
+geht	geh
 in	in
 die	eine
 Bar	Bar
 ,	,
 Diskoteck	Diskoteck
-,	/
+,	,
 Park	Park
 ,	,
 Pub	um
@@ -13932,7 +13932,7 @@ mich	mich
 .	.
 
 zwei	Zwei
-Bett	Betten
+Bett	Bett
 ,	,
 die	die
 Küchen	Küche
@@ -13946,7 +13946,7 @@ Sie	Sie
 hat	hat
 mir	mir
 auch	auch
-Marmeladen	Marmeladen
+Marmeladen	Marmelade
 ,	,
 Schokolade	Schokolade
 ,	,
@@ -13963,23 +13963,23 @@ andere	andere
 Sache	Sachen
 .	.
 
-Ich	Ich
-hoffe	hoffe
-,	,
-dass	dass
-du	du
-dein	dein
-Problem	Problem
-lösen	lösen
-kannst	kannst
-.	.
+Ich	<MISMATCH>
+hoffe	<MISMATCH>
+,	<MISMATCH>
+dass	<MISMATCH>
+du	<MISMATCH>
+dein	<MISMATCH>
+Problem	<MISMATCH>
+lösen	<MISMATCH>
+kannst	<MISMATCH>
+.	<MISMATCH>
 
 bestimmte	bestimmt
 das	dass
 sie	sie
 in	in
 einem	einem
-Wald	Wald
+Wald	Walde
 gehen	gehen
 können	können
 ,	,
@@ -14025,25 +14025,25 @@ du	du
 mit	mit
 mir	mir
 viel	viel
-schwimmen	Schwimmen
+schwimmen	schwimmen
 ,	,
-Sonne	Sonne
+Sonne	sonne
 nehmen	nehmen
 und	und
 Eis	Eis
 essen	essen
 .	.
 
-Und	Und
-als	als
-Stadt	Stadt
-kann	kann
-man	man
-dies	das
-auch	auch
-nicht	nicht
-nennen	nennen
-.	.
+Und	<MISMATCH>
+als	<MISMATCH>
+Stadt	<MISMATCH>
+kann	<MISMATCH>
+man	<MISMATCH>
+dies	<MISMATCH>
+auch	<MISMATCH>
+nicht	<MISMATCH>
+nennen	<MISMATCH>
+.	<MISMATCH>
 
 Ich	Ich
 kann	kann
@@ -14072,19 +14072,19 @@ hat	hat
 aber	aber
 Maria	Maria
 hat	hat
-es	es
+es	.
 nicht	nicht
 .	.
 
 der	der
 Mittelschule	Mittelschule
-,	I
+,	in
 gehe	gehe
-ich	ich
-in	.
+ich	IT
+in	-
 die	E
 I.T.E	I.T.E
-.	.
+.	(
 
 Mein	Mein
 Sie	Sie
@@ -14100,7 +14100,7 @@ Suppe	Suppe
 Es	Es
 wollte	wollte
 der	der
-Kassenzettel	Kassenzettel
+Kassenzettel	Kassenzeichen
 gesehen	gesehen
 aber	aber
 Maria	Maria
@@ -14176,7 +14176,7 @@ wir	wir
 backen	backen
 wollten	wollten
 genommen	genommen
-wenn	Wenn
+wenn	wenn
 sie	sie
 alles	alles
 gehabt	gehabt
@@ -14199,7 +14199,7 @@ Problem	Problem
 .	.
 
 und	und
-ihr	ihrem
+ihr	ihr
 Vater	Vater
 waren	waren
 beim	beim
@@ -14226,12 +14226,12 @@ Maria	<MISMATCH>
 ?	<MISMATCH>
 
 Capitan	Kapitän
-der	der
-Zug	Zug
-pfeipft	pfeipt
+der	des
+Zug	Zuges
+pfeipft	pfeift
 ,	,
 Hans	Hans
-kusst	kusst
+kusst	küsst
 Gretel	Gretel
 und	und
 Hannes	Hannes
@@ -14251,22 +14251,22 @@ nimmt	nimmt
 viele	viele
 Sachelen	Sachen
 und	und
-füllte	füllte
+füllte	füllt
 sehr	sehr
 der	den
 einkaufsswagen	Einkaufswagen
 .	.
 
-Ich	Ich
+Ich	ich
 weiß	weiß
-,	,
+,	.
 dass	dass
 mit	mit
-diese	diesen
+diese	diese
 neuen	neuen
 virtuellen	virtuellen
-Chat	Chats
-,	.
+Chat	Chat
+,	,
 ist	ist
 es	es
 streng	streng
@@ -14285,35 +14285,35 @@ und	und
 die	die
 reelle	reelle
 Freunde	Freunde
-missachten	missachtet
+missachten	missachten
 .	.
 
-In	In
-der	der
+In	an
+der	die
 Supermarkt	Supermarkt
-die	die
-verkaufeärin	Verkäuferin
+die	Sie
+verkaufeärin	verkaufeärin
 sagt	sagt
-an	an
-die	die
+an	,
+die	Sie
 Frau	Frau
 dass	dass
-Sie	Sie
+Sie	in
 hat	hat
 gestollt	gestollt
 ,	,
 weil	weil
-sie	Sie
+sie	viel
 hat	hat
-in	in
-die	viel
+in	und
+die	Sie
 Tasche	Tasche
 viele	viele
 Obst	Obst
 und	und
 Gemüse	Gemüse
 und	und
-sie	Sie
+sie	sie
 hat	hat
 keinen	keinen
 Kassenzettel	Kassenzettel
@@ -14334,11 +14334,11 @@ Mal	Mal
 auch	auch
 ich	ich
 hatte	hatte
-an	im
+an	an
 Internet	Internet
 ein	einen
 Freund	Freund
-kennenzulernt	kennenzulernen
+kennenzulernt	kennenzulernt
 .	.
 
 Später	Später
@@ -14358,7 +14358,7 @@ einzukaufen	einzukaufen
 Hallo	Hallo
 Julia	Julia
 ,	,
-wie	wie
+wie	Wie
 geht	geht
 es	es
 dir	dir
@@ -14377,7 +14377,7 @@ Obst-	Obst
 und	und
 Gemüseladen	Gemüseladen
 gekauft	gekauft
-habe	hat
+habe	hatte
 .	.
 
 Menschen	Menschen
@@ -14393,24 +14393,24 @@ die	mit
 Tasche	Tasche
 mit	mit
 die	den
-Blätter	Blättern
+Blätter	Blattern
 von	von
 Diktate	Diktaten
 .	.
 
-Wenn	Wenn
-Ich	Ich
-well	will
-,	,
-dass	dass
-du	du
-entscheidest	entscheidest
-.	.
+Wenn	<MISMATCH>
+Ich	<MISMATCH>
+well	<MISMATCH>
+,	<MISMATCH>
+dass	<MISMATCH>
+du	<MISMATCH>
+entscheidest	<MISMATCH>
+.	<MISMATCH>
 
-Kennst	kennst
-du	du
+Kennst	Kennst
+du	Ja
 Maria	Maria
-Sie	Sie
+Sie	sie
 hat	hat
 mit	mit
 mir	mir
@@ -14443,17 +14443,17 @@ Auto	<MISMATCH>
 
 Nach	Nach
 Maria	Maria
-hat	hatte
+hat	hat
 den	den
 Kassenzettel	Kassenzettel
 in	in
-der	der
+der	aber
 Tasche	Tasche
 gesucht	gesucht
 ,	,
 aber	aber
 sie	sie
-hat	hatte
+hat	hat
 es	.
 nicht	nicht
 gefunden	gefunden
@@ -14466,14 +14466,14 @@ mir	mir
 das	das
 Profil	Profil
 von	von
-ein	einem
+ein	eines
 wunderschönes	wunderschönen
-Medchen	Mädchen
+Medchen	Mädchens
 da	da
 .	.
 
 Deshalb	Deshalb
-erzähl	erzähle
+erzähl	erzähl
 ich	ich
 dir	dir
 lieber	lieber
@@ -14491,10 +14491,10 @@ Teufel	Teufel
 !	!
 
 VIRFT	VIRFT
-DAS	Das
-PAPIER	PAPIER
-IN	IN
-DEN	DEN
+DAS	das
+PAPIER	Papier
+IN	in
+DEN	den
 FOIER	FOIER
 UND	und
 RAUCH	rauchen
@@ -14504,7 +14504,7 @@ LAUFEN	LAUFEN
 WEIL	weil
 ER	er
 IST	ist
-ANGST	Angst
+ANGST	angest
 .	.
 
 In	ist
@@ -14540,8 +14540,8 @@ Paul	Paul
 ,	Es
 wie	mir
 geht	sehr
-es	,
-dir	Wie
+es	!
+dir	dir
 ?	?
 
 Tages	Tages
@@ -14558,12 +14558,12 @@ Wald	Wald
 
 Sie	Sie
 Diese	Diese
-Urlaub	Urlaub
-kostet	kostet
+Urlaub	Urlaube
+kostet	kosten
 600	600
 euro	Euro
 für	für
-2	2
+2	,
 Wochen	Wochen
 aber	aber
 das	das
@@ -14614,7 +14614,7 @@ dachte	dachte
 dass	dass
 Maria	Maria
 etwas	etwas
-geklaut	geklaut
+geklaut	geklaunt
 hätte	hätte
 ,	,
 da	da
@@ -14630,46 +14630,46 @@ mithatte	mithatte
 Also	Also
 wir	wir
 können	können
-ein	einen
-Bilan	Bilanz
+ein	sind
+Bilan	Bilan
 machen	machen
-:	:
-Bergen	Berge
+:	!
+Bergen	Bergen
 sind	sind
 wunderschön	wunderschön
 !	!
 !	!
 
-meiner	meiner
-Meinung	Meinung
-nach	nach
-,	Es
-wäre	würde
-es	,
-aus	aus
-meiner	meiner
-Sicht	nicht
-besser	besser
-kein	kein
-Italienisch	Italienisch
-zu	.
-lernen	lernen
-.	,
+meiner	<MISMATCH>
+Meinung	<MISMATCH>
+nach	<MISMATCH>
+,	<MISMATCH>
+wäre	<MISMATCH>
+es	<MISMATCH>
+aus	<MISMATCH>
+meiner	<MISMATCH>
+Sicht	<MISMATCH>
+besser	<MISMATCH>
+kein	<MISMATCH>
+Italienisch	<MISMATCH>
+zu	<MISMATCH>
+lernen	<MISMATCH>
+.	<MISMATCH>
 
 Aber	Aber
 Virtuelle	Virtuelle
-Freundschaft	Freundschaften
+Freundschaft	Freundschaft
 sind	sind
-nich	nich
-realität	Realität
+nich	Ich
+realität	realität
 sondern	sondern
 viele	viele
 Leute	Leute
 dass	dass
-du	.
-nicht	nicht
-kennen	kennen
-.	.
+du	du
+nicht	ich
+kennen	keine
+.	zu
 
 Maria	Maria
 öffnete	öffnete
@@ -14685,7 +14685,7 @@ Verfolger	Verfolger
 entpuppte	entpuppte
 sich	sich
 als	als
-Ladendetektiv	Ladenedetektiv
+Ladendetektiv	Ladendetektiv
 .	.
 
 Danach	Danach
@@ -14707,7 +14707,7 @@ verlaufen	<MISMATCH>
 Sie	Sie
 ist	ist
 dann	dann
-in	in
+in	,
 den	den
 Supermarkt	Supermarkt
 gegangen	gegangen
@@ -14718,7 +14718,7 @@ Sachen	Sachen
 gekauft	gekauft
 und	und
 wollte	wollte
-an	an
+an	.
 der	der
 Kasse	Kasse
 zahlen	zahlen
@@ -14731,15 +14731,15 @@ Meinung	Meinung
 haben	haben
 und	und
 wissen	wissen
-du	du
+du	Es
 lieber	lieber
-in	in
-die	die
+in	,
+die	du
 Berge	Berge
-oder	oder
-leiber	lieber
-ans	ans
-Meer	Meer
+oder	der
+leiber	leiber
+ans	und
+Meer	Hier
 fahren	fahren
 willst	willst
 .	.
@@ -14747,12 +14747,12 @@ willst	willst
 Das	Das
 Klima	Klima
 ist	ist
-in	in
-den	den
+in	im
+den	der
 Bergen	Bergen
 erträglicher	erträglicher
-als	als
-am	am
+als	es
+am	.
 Meer	Meer
 ,	,
 weil	weil
@@ -14781,8 +14781,8 @@ besser	besser
 Maria	Maria
 hat	hat
 nicht	nicht
-eine	eine
-schone	schöne
+eine	einen
+schone	schönen
 Tage	Tag
 .	.
 
@@ -14819,7 +14819,7 @@ die	die
 Universität	Universität
 besuchen	besuchen
 und	und
-Medizin	Medizin
+Medizin	medizin
 lernen	lernen
 .	.
 
@@ -14875,7 +14875,7 @@ ginge	ging
 sie	sie
 später	später
 in	in
-das	das
+das	den
 Supermarkt	Supermarkt
 ,	,
 um	um
@@ -14918,7 +14918,7 @@ Sara	Sara
 ich	ich
 habe	habe
 sie	sie
-in	in
+in	.
 Facebook	Facebook
 kennen	kennen
 gelernt	gelernt
@@ -14928,7 +14928,7 @@ Dagegen	Dagegen
 etwas	etwas
 preisgünstiger	preisgünstiger
 ,	,
-1139	139
+1139	1139
 ,-	,
 ,	,
 wäre	wäre
@@ -14954,15 +14954,15 @@ schaffen	schaffen
 kann	kann
 .	.
 
-So	So
+So	Sie
 fand	fand
-sie	sie
-der	den
+sie	die
+der	bei
 Schein	Schein
 und	und
 die	die
 Kassiererin	Kassiererin
-entschuldigt	entschuldigte
+entschuldigt	entschuldigt
 sich	sich
 mit	mit
 Maria	Maria
@@ -14976,13 +14976,13 @@ Tages	Tages
 die	in
 Frau	Frau
 Maria	Maria
-ist	Obst
-zu	-
+ist	ist
+zu	?
 Obsthändier	Obsthändier
 gegangen	gegangen
 .	.
 
-Zu erst	Zuerst
+Zu erst	Zu erst
 bin	bin
 ich	ich
 zum	zum
@@ -14995,13 +14995,13 @@ Gemüse	Gemüse
 gekauft	gekauft
 .	.
 
-werden	werden
-auch	auch
-für	zur
-die	die
-Komunikation	Kommunikation
-verwendet	verwendet
-.	.
+werden	<MISMATCH>
+auch	<MISMATCH>
+für	<MISMATCH>
+die	<MISMATCH>
+Komunikation	<MISMATCH>
+verwendet	<MISMATCH>
+.	<MISMATCH>
 
 Und	in
 man	man
@@ -15027,7 +15027,7 @@ könnte	könnte
 
 Ich	Ich
 heißt	heißt
-es	:
+es	"
 Abschied	Abschied
 nehmen	nehmen
 .	.
@@ -15091,13 +15091,13 @@ gestolen	gestolen
 hat	hat
 .	.
 
-Ich	Ich
-weiß	weiß
-es	es
-war	war
-letztes	letztes
-Jahr	Jahr
-!	!
+Ich	<MISMATCH>
+weiß	<MISMATCH>
+es	<MISMATCH>
+war	<MISMATCH>
+letztes	<MISMATCH>
+Jahr	<MISMATCH>
+!	<MISMATCH>
 
 Sie	Sie
 kontrollierten	kontrollierten
@@ -15122,15 +15122,15 @@ Sticker	Sticker
 hatte	hatte
 .	.
 
-und	und
-Josephin	Josephin
-waren	waren
-auf	auf
-einer	einer
-Ausflugsreise	Ausflugsreise
-ihm	in
-Wald	Wald
-.	.
+und	<MISMATCH>
+Josephin	<MISMATCH>
+waren	<MISMATCH>
+auf	<MISMATCH>
+einer	<MISMATCH>
+Ausflugsreise	<MISMATCH>
+ihm	<MISMATCH>
+Wald	<MISMATCH>
+.	<MISMATCH>
 
 Sie	Ein
 Vater	Vater
@@ -15178,7 +15178,7 @@ Für	Für
 und	und
 ich	ich
 weiß	weiß
-das	das
+das	dass
 ich	ich
 kann	kann
 .	.
@@ -15197,24 +15197,24 @@ Giacomino	Giacomo
 flugzoich	flugzoich
 .	.
 
-Die	wir
-Und	Und
-was	was
-lernen	lernen
-wir	wir
-daraus	daraus
-?	?
+Die	<MISMATCH>
+Und	<MISMATCH>
+was	<MISMATCH>
+lernen	<MISMATCH>
+wir	<MISMATCH>
+daraus	<MISMATCH>
+?	<MISMATCH>
 
-Dann	Dann
+Dann	den
 stieg	stieg
 der	der
 Vater	Vater
-in	in
-dem	den
+in	ein
+dem	dem
 Zug	Zug
 ein	ein
 und	und
-Ister	Iser
+Ister	Ister
 hebte	hebte
 die	die
 Hand	Hand
@@ -15238,7 +15238,7 @@ Mir	Mir
 sind	sind
 zwei	zwei
 besonders	besonders
-vielversprechend	vielversprechend
+vielversprechend	vielversprechende
 aussehende	aussehende
 Angebote	Angebote
 nicht	nicht
@@ -15262,21 +15262,21 @@ Mitte	Mitte
 der	der
 Natur	Natur
 sein	sein
-Da	da
+Da	Da
 können	können
 wir	wir
 auch	auch
 gute	gute
 Luft	Luft
 atmen	atmen
-!	.
+!	!
 
 war	war
 die	die
 Leiche	Leiche
 von	von
 Jenny	Jenny
-!	.
+!	!
 
 Irh	Irh
 Dagegen	Dagegen
@@ -15346,13 +15346,13 @@ Eines	Eines
 Tages	Tages
 aber	aber
 rüttelte	rüttelte
-seine	meine
+seine	seine
 Mutter	Mutter
 wach	wach
 und	und
 holte	holte
-ihn	in
-in	die
+ihn	ihn
+in	in
 die	die
 Reale	reale
 Welt	Welt
@@ -15425,7 +15425,7 @@ Erdbeeben	Erdbeben
 verschluckt	verschluckt
 worden	worden
 .	.
-"	"
+"	“
 
 Jetz	Jetz
 22	22
@@ -15449,16 +15449,16 @@ viel	viel
 Zeit	Zeit
 im	im
 Supermarkt	Supermarkt
-.	.
+.	,
 
 standen	standen
 auf	auf
 und	und
 sie	sie
 sahen	sahen
-ihr	ihn
+ihr	ihr
 Bruder	Bruder
-der	die
+der	der
 hat	mit
 sie	sie
 die	die
@@ -15473,7 +15473,7 @@ terrorisiert	terrorisierte
 Sie	Eine
 Eine	Eine
 gesunde	gesunde
-Dose	Dosis
+Dose	Dose
 Internet	Internet
 schadet	schadet
 niemanden	niemandem
@@ -15522,7 +15522,7 @@ die	die
 Möglichkeit	Möglichkeit
 sich	sich
 zu	zu
-löschen	löschen
+löschen	lösen
 .	.
 
 Maria	Maria
@@ -15550,7 +15550,7 @@ diese	diese
 "	"
 unhöflichen	unhöflichen
 und	und
-inkompetenten	inkompetenten
+inkompetenten	incompetenter
 Verkäuferinnen	Verkäuferinnen
 "	"
 aufgeregt	aufgeregt
@@ -15569,11 +15569,11 @@ Gestern	Gestern
 ist	hat
 sie	sie
 in	,
-einem	einem
+einem	seiner
 Obsthändler	Obsthändler
 gegangen	gegangen
 und	und
-hat	mit
+hat	hat
 viele	viele
 Sachen	Sachen
 gekaeft	gekaeft
@@ -15590,7 +15590,7 @@ wollte	wollte
 
 Maria	Maria
 hatte	hatte
-keiner	keiner
+keiner	keinen
 Kassenzettel	Kassenzettel
 und	und
 die	die
@@ -15601,7 +15601,7 @@ dass	dass
 sie	sie
 die	die
 Gemüse	Gemüse
-geräubt	geraubt
+geräubt	geräubt
 hat	hat
 .	.
 
@@ -15625,7 +15625,7 @@ Zuerst	Zuerst
 wollte	wollte
 sie	sie
 das	das
-frische	frische
+frische	frisches
 Gemüse	Gemüse
 und	und
 Obst	Obst
@@ -15691,15 +15691,15 @@ habe	habe
 gestern	gestern
 meine	meine
 Prüfung	Prüfung
-bestand	bestand
+bestand	bestanden
 und	und
 seit	seit
-vorgestern	vorgestern
+vorgestern	gestern
 habe	habe
 ich	ich
 meine	meinen
 Führerschein	Führerschein
-!	.
+!	!
 !	!
 
 Letzte	Letzte
@@ -15711,7 +15711,7 @@ gegangen	gegangen
 .	.
 
 Nun	Nun
-ja	ja
+ja	Ja
 ,	,
 ich	ich
 würde	würde
@@ -15895,15 +15895,15 @@ wir	wir
 faul	faul
 im	im
 warmen	warmen
-Sand	Sand
+Sand	sand
 liegen	liegen
 und	und
 zur	zur
-Abkühlung	Abkühlung
+Abkühlung	abkühlung
 schwimmen	schwimmen
 .	.
 
-ABEND	Abend
+ABEND	abend
 UND	und
 DER	der
 MUND	Mund
@@ -15912,15 +15912,15 @@ SEHR	sehr
 GROß	groß
 .	.
 
-DIESE	DIESE
+DIESE	die
 Lieber	Lieber
 Paul	Paul
-,	,
-Ich	ich
+,	"
+Ich	Ich
 habe	habe
 deine	deine
 Anzeige	Anzeige
-in	in
+in	"
 der	der
 Zeitung	Zeitung
 "	"
@@ -15947,7 +15947,7 @@ zurück	zurück
 im	im
 Supermarkt	Supermarkt
 war	war
--	–
+-	,
 du	du
 wirst	wirst
 es	es
@@ -15963,9 +15963,9 @@ so	so
 dermaßen	dermaßen
 lang	lang
 ,	,
-so	so
+so	es
 dass	dass
-es	es
+es	den
 schon	schon
 Gedrängel	Gedrängel
 zwischen	zwischen
@@ -15983,7 +15983,7 @@ können	können
 und	und
 vorerst	vorerst
 in	in
-einen	ein
+einen	einem
 Flüchtlingslager	Flüchtlingslager
 leben	leben
 .	.
@@ -16006,12 +16006,12 @@ passiert	passiert
 ist	ist
 .	.
 
-bekommt	bekommt
-Angst	Angst
-und	und
-umarmt	umarmt
-Lydia	Lydia
-.	.
+bekommt	<MISMATCH>
+Angst	<MISMATCH>
+und	<MISMATCH>
+umarmt	<MISMATCH>
+Lydia	<MISMATCH>
+.	<MISMATCH>
 
 Die	ein
 Einmal	Einmal
@@ -16076,8 +16076,8 @@ das	das
 geringste	geringste
 bisschen	bisschen
 erholt	erholt
-,	.
-ich	Ich
+,	;
+ich	ich
 hätte	hätte
 noch	noch
 einen	einen
@@ -16116,26 +16116,26 @@ traurig	traurig
 
 Ich	Ich
 Liebe	Liebe
-Francesca	Francesca
+Francesca	Franchesca
 Mir	mir
 getes	getes
 alles	alles
 gut	gut
 und	und
 dich	dir
-?	.
+?	?
 
-Im	Im
-2012	2012
-habe	habe
-ich	ich
-mit	mit
-einem	einem
-Spiel	Spiel
-für	für
-Computer	Computer
-gespielt	gespielt
-.	.
+Im	<MISMATCH>
+2012	<MISMATCH>
+habe	<MISMATCH>
+ich	<MISMATCH>
+mit	<MISMATCH>
+einem	<MISMATCH>
+Spiel	<MISMATCH>
+für	<MISMATCH>
+Computer	<MISMATCH>
+gespielt	<MISMATCH>
+.	<MISMATCH>
 
 Der	Der
 Strand	Strand
@@ -16181,34 +16181,34 @@ liegen	liegen
 Beim	Beim
 Obsthändler	Obsthändler
 sei	sei
-kaufte	kaufe
+kaufte	kaufte
 :	,
 Tomaten	Tomaten
-,	,
-Salat	Salat
 ,	.
+Salat	Salat
+,	,
 Kartöfeln	Kartöfeln
 .	.
 
-Antworte	Antworte
-an	auf
-Leute	Leute
-die	die
-sich	sich
-für	für
-dich	dich
-interesieren	interessieren
-aber	aber
-mach	mach
-auch	auch
-etwas	etwas
-Anderes	Anderes
-mit	mit
-Leute	Leuten
-die	die
-du	du
-kennst	kennst
-.	.
+Antworte	<MISMATCH>
+an	<MISMATCH>
+Leute	<MISMATCH>
+die	<MISMATCH>
+sich	<MISMATCH>
+für	<MISMATCH>
+dich	<MISMATCH>
+interesieren	<MISMATCH>
+aber	<MISMATCH>
+mach	<MISMATCH>
+auch	<MISMATCH>
+etwas	<MISMATCH>
+Anderes	<MISMATCH>
+mit	<MISMATCH>
+Leute	<MISMATCH>
+die	<MISMATCH>
+du	<MISMATCH>
+kennst	<MISMATCH>
+.	<MISMATCH>
 
 Also	Also
 wir	Wir
@@ -16238,17 +16238,17 @@ ihn	ihn
 aber	aber
 nicht	nicht
 finden	finden
-.	.
+.	,
 
-Ich	Ich
-hoffe	hoffe
-ich	ich
-bin	bin
-dich	dir
-zur	zur
-Hilfe	Hilfe
-gekommen	gekommen
-.	.
+Ich	<MISMATCH>
+hoffe	<MISMATCH>
+ich	<MISMATCH>
+bin	<MISMATCH>
+dich	<MISMATCH>
+zur	<MISMATCH>
+Hilfe	<MISMATCH>
+gekommen	<MISMATCH>
+.	<MISMATCH>
 
 sinken	sinken
 auch	auch
@@ -16264,31 +16264,31 @@ sterben	sterben
 Oft	Oft
 Aber	Aber
 in	in
-die	die
-Berge	Berge
+die	den
+Berge	Bergen
 es	es
 geben	geben
 schöne	schöne
 landschaft	Landschaft
 .	.
 
-Allerdings	Allerdings
-weiß	weiß
-ich	ich
-nicht	nicht
-,	,
-ob	ob
-das	das
-wirklich	wirklich
-so	so
-dein	dein
-Ding	Ding
-ist	ist
-.	.
+Allerdings	<MISMATCH>
+weiß	<MISMATCH>
+ich	<MISMATCH>
+nicht	<MISMATCH>
+,	<MISMATCH>
+ob	<MISMATCH>
+das	<MISMATCH>
+wirklich	<MISMATCH>
+so	<MISMATCH>
+dein	<MISMATCH>
+Ding	<MISMATCH>
+ist	<MISMATCH>
+.	<MISMATCH>
 
 Und	Und
 am	am
-Abend	Abend
+Abend	abenden
 genießen	genießen
 wir	wir
 dann	dann
@@ -16330,57 +16330,57 @@ arbeitsplatze	Arbeitsplätze
 und	und
 Wohnungen	Wohnungen
 sein	sein
-müssen	müssen
+müssen	müssten
 .	.
 
-Zu	In
-In	ich
+Zu	,
+In	es
 diesem	diesem
-Fall	bald
+Fall	Fall
 soll	soll
 ich	ich
 bald	bald
-eine	eine
+eine	ein
 Antwort	Antwort
-von	von
-der	dir
+von	in
+der	der
 haben	haben
-,	,
-so	so
+,	"
+so	da
 dass	dass
 ich	ich
-meinen	meine
-Freunden	Freunde
+meinen	meinen
+Freunden	Freunden
 anrufen	anrufen
 und	und
 neue	neue
 Nachrichten	Nachrichten
-haben	habe
+haben	haben
 kann	kann
-.	.
+.	"
 
-Trotzdem	Trotzdem
-könntest	könntest
-du	du
-mir	mir
-deine	deine
-Meinung	Meinung
-nach	nach
-schreiben	schreiben
-,	,
-so	so
-dass	dass
-wir	wir
-unseren	unseren
-Urlaub	Urlaub
-planen	planen
-können	können
-.	.
+Trotzdem	<MISMATCH>
+könntest	<MISMATCH>
+du	<MISMATCH>
+mir	<MISMATCH>
+deine	<MISMATCH>
+Meinung	<MISMATCH>
+nach	<MISMATCH>
+schreiben	<MISMATCH>
+,	<MISMATCH>
+so	<MISMATCH>
+dass	<MISMATCH>
+wir	<MISMATCH>
+unseren	<MISMATCH>
+Urlaub	<MISMATCH>
+planen	<MISMATCH>
+können	<MISMATCH>
+.	<MISMATCH>
 
-Viel	Viel
+Viel	Vielen
 spaß	Spaß
 werden	werden
-wir	wir
+wir	ihr
 haben	haben
 und	und
 auch	auch
@@ -16389,12 +16389,12 @@ schöne	schöne
 Abronzatur	Abronzatur
 .	.
 
-Mein	<MISMATCH>
-Lieblingsplätze	<MISMATCH>
-sind	<MISMATCH>
-die	<MISMATCH>
-Bergen	<MISMATCH>
-.	<MISMATCH>
+Mein	Mein
+Lieblingsplätze	Lieblingsplätze
+sind	sind
+die	die
+Bergen	Berge
+.	.
 
 Du	du
 sollst	sollst
@@ -16419,7 +16419,7 @@ lernen	lernen
 kannst	kannst
 .	.
 
-es	es
+es	Es
 sollten	sollten
 nur	nur
 Flüchtlinge	Flüchtlinge
@@ -16439,7 +16439,7 @@ wenn	wenn
 sie	sie
 nichts	nichts
 zu	zu
-Essen	Essen
+Essen	essen
 haben	haben
 oder	oder
 wenig	wenig
@@ -16451,7 +16451,7 @@ Ich	Ich
 Dabei	Dabei
 hat	hat
 sie	sie
-total	total
+total	totally
 vergessen	vergessen
 den	den
 Kassenbon	Kassenbon
@@ -16459,7 +16459,7 @@ mitzunehmen	mitzunehmen
 ,	;
 die	die
 Kassiererin	Kassiererin
-meinte	meinte
+meinte	meintete
 noch	noch
 sie	sie
 solle	soll
@@ -16484,8 +16484,8 @@ würde	würde
 wenn	wenn
 man	man
 sich	sich
-vorstellen	vorstellendes
-würde	würden
+vorstellen	vorstellen
+würde	würde
 man	man
 selber	selber
 sei	ein
@@ -16550,12 +16550,12 @@ Polizei	Polizei
 anrufen	anrufen
 .	.
 
-Mit	Mit
+Mit	Die
 einer	einer
 vollen	vollen
 Tasche	Tasche
 ging	ging
-sie	sie
+sie	Mit
 alles	alles
 bezahlen	bezahlen
 und	und
@@ -16563,7 +16563,7 @@ ging	ging
 froh	froh
 aus	aus
 dem	dem
-Leden	Laden
+Leden	Leden
 .	.
 
 die	die
@@ -16642,8 +16642,8 @@ sehen	sehen
 Die	Die
 Verkäuferin	Verkäuferin
 fragte	fragte
-ihr	ihr
-nach	nach
+ihr	ihre
+nach	Nach
 den	den
 Einkaufszettel	Einkaufszetteln
 ,	,
@@ -16693,7 +16693,7 @@ schön	schön
 aber	aber
 venn	wenn
 ich	ich
-entscheiden	entscheiden
+entscheiden	entscheide
 wimirde	wimirde
 ich	ich
 gehe	gehe
@@ -16708,8 +16708,8 @@ bestimmt	bestimmt
 das	das
 ein	ein
 oder	oder
-andere	andere
-süße	süße
+andere	anderes
+süße	süßes
 Mädchen	Mädchen
 .	.
 
@@ -16771,8 +16771,8 @@ stand	stand
 ,	,
 fand	fand
 sie	sie
-ihr	ihre
-Geldbörse	Geldbörse
+ihr	ihr
+Geldbörse	Geldbord
 nicht	nicht
 mehr	mehr
 .	.
@@ -16812,35 +16812,35 @@ war	war
 ganz	ganz
 traurig	traurig
 und	und
-helfte	helfe
+helfte	helfte
 ihren	ihrem
 Sohn	Sohn
-die	den
-Koffer	Koffern
+die	die
+Koffer	Koffer
 zu	zu
 machen	machen
 .	.
 
-Die	sie
-sie	die
-am	,
-abend	abend
-in	ich
-die	sie
-Stadt	Stadt
-fuhr	fuhr
-nahm	nahm
-ich	in
-meine	meine
-Schultasche	Schultasche
-und	und
-hab	hab
-sie	sie
-in	den
-den	Ofen
-Ofen	Ofen
-geschmissen	geschmissen
-.	.
+Die	<MISMATCH>
+sie	<MISMATCH>
+am	<MISMATCH>
+abend	<MISMATCH>
+in	<MISMATCH>
+die	<MISMATCH>
+Stadt	<MISMATCH>
+fuhr	<MISMATCH>
+nahm	<MISMATCH>
+ich	<MISMATCH>
+meine	<MISMATCH>
+Schultasche	<MISMATCH>
+und	<MISMATCH>
+hab	<MISMATCH>
+sie	<MISMATCH>
+in	<MISMATCH>
+den	<MISMATCH>
+Ofen	<MISMATCH>
+geschmissen	<MISMATCH>
+.	<MISMATCH>
 
 Als	Als
 In	In
@@ -16848,12 +16848,12 @@ Peru	Peru
 können	können
 wir	wir
 lange	lange
-Spazierengangen	Spazierengänge
+Spazierengangen	Spaziergänge
 machen	machen
 ,	,
 die	die
 Natur	Natur
-schonen	schönen
+schonen	schönem
 .	.
 
 mir	mir
@@ -16874,25 +16874,25 @@ ist	ist
 
 Wenn	Wenn
 Ich	Ich
-habe	habe
-deine	die
-E-mail	E-mail
+habe	hast
+deine	meine
+E-mail	Mail
 gelesen	gelesen
 und	und
 ich	ich
-möchte	möchte
-dir	dir
-ein	ein
+möchte	möchtest
+dir	mir
+ein	einen
 Rat	Rat
 geben	geben
-!	:
+!	!
 
 Sprachen	Sprachen
 werden	werden
 gelernt	gelernt
 ,	,
-da	da
-sie	sie
+da	in
+sie	in
 in	in
 Italien	Italien
 und	und
@@ -16921,7 +16921,7 @@ müsste	müsste
 sie	sie
 die	die
 ganze	ganze
-Sachen	Sachen
+Sachen	Sache
 die	die
 sie	sie
 beim	beim
@@ -16939,7 +16939,7 @@ einmal	einmal
 zum	zum
 Obsthändler	Obsthändler
 rennen	rennen
-und	und
+und	um
 den	den
 Kassenzeltel	Kassenzettel
 nehmen	nehmen
@@ -16956,7 +16956,7 @@ fragte	fragte
 sich	sich
 was	was
 dort	dort
-drinn	drin
+drinn	drinnen
 alles	alles
 war	war
 .	.
@@ -16988,22 +16988,22 @@ sind	sind
 Sohn	Sohn
 hatte	hatte
 eine	eine
-idee	Idee
-er	er
+idee	idee
+er	Es
 hatte	hatte
-in	in
-der	der
+in	mir
+der	aber
 Schule	Schule
 ein	ein
 Diktat	Diktat
 gemacht	gemacht
 und	und
 er	er
-hat	hat
-ein	Sein
+hat	Satz
+ein	ein
 fünfer	fünfer
 bekommen	bekommen
-das	dass
+das	da
 sein	sein
 Vater	Vater
 wusste	wusste
@@ -17013,29 +17013,29 @@ ihn	ihn
 schon	schon
 getöted	getöted
 und	und
-er	in
-nam	das
+er	.
+nam	nam
 seine	seine
 Diktaten	Diktaten
 und	und
 warf	warf
-in	.
-das	das
+in	ich
+das	den
 Feuer	Feuer
 hinein	hinein
-.	.
+.	,
 
 Der	Der
 bringt	bringt
 seine	seine
-schulsachen	schulsachen
+schulsachen	Schulsachen
 und	und
-er	er
-lasst	lässt
+er	in
+lasst	lasst
 sie	sie
-in	in
+in	den
 die	die
-Feuer	Feuer
+Feuer	Feuern
 .	.
 
 Der	Du
@@ -17051,28 +17051,28 @@ gemacht	gemacht
 hat	hat
 .	.
 
-Liebe	Liebe
-Giovanna	Giovanna
-wie	wie
-geht	geht
-es	es
-dir	dir
-?	?
+Liebe	<MISMATCH>
+Giovanna	<MISMATCH>
+wie	<MISMATCH>
+geht	<MISMATCH>
+es	<MISMATCH>
+dir	<MISMATCH>
+?	<MISMATCH>
 
 Liebe	Liebe
 Matthias	Matthias
-Wie	wie
-geht	geht
-es	es
+Wie	mir
+geht	gut
+es	.
 dir	dir
-?	?
+?	,
 
 muss	muss
 gehen	gehen
-(	(
+(	,
 wehn	weil
 dass	dass
-lebt	lebt
+lebt	leben
 )	.
 im	in
 einem	eine
@@ -17085,7 +17085,7 @@ Volleyball-Schule	Volleyball-Schule
 wo	wo
 ich	ich
 lerne	lerne
-Matematik	Mathematik
+Matematik	Matematik
 ,	,
 Geschichte	Geschichte
 ,	,
@@ -17155,7 +17155,7 @@ ich	ich
 mit	mit
 Maria	Maria
 in	in
-einem	einem
+einem	einer
 Obst-	Obst
 und	und
 Gemüseladen	Gemüseladen
@@ -17183,7 +17183,7 @@ bezahlt	bezahlt
 und	und
 hat	hat
 sich	sich
-getschuld	getschuld
+getschuld	getschuldigt
 mit	mit
 die	der
 Polizei	Polizei
@@ -17216,36 +17216,36 @@ zu	zu
 haben	haben
 .	.
 
-Ich	Ich
-kann	kann
-man	man
-Englisch	Englisch
-sprechen	sprechen
-,	,
-aber	aber
-ich	ich
-habe	habe
-gehört	gehört
-,	,
-dass	dass
-die	die
-Franzosen	Franzosen
-dir	dir
-nur	nur
-in	in
-Französisch	französischen
-antworten	antworten
-,	,
-auch	auch
-wenn	wenn
-sie	sie
-wissen	wissen
-dass	dass
-du	du
-gar	gar
-nichts	nichts
-verstehst	verstehst
-.	.
+Ich	<MISMATCH>
+kann	<MISMATCH>
+man	<MISMATCH>
+Englisch	<MISMATCH>
+sprechen	<MISMATCH>
+,	<MISMATCH>
+aber	<MISMATCH>
+ich	<MISMATCH>
+habe	<MISMATCH>
+gehört	<MISMATCH>
+,	<MISMATCH>
+dass	<MISMATCH>
+die	<MISMATCH>
+Franzosen	<MISMATCH>
+dir	<MISMATCH>
+nur	<MISMATCH>
+in	<MISMATCH>
+Französisch	<MISMATCH>
+antworten	<MISMATCH>
+,	<MISMATCH>
+auch	<MISMATCH>
+wenn	<MISMATCH>
+sie	<MISMATCH>
+wissen	<MISMATCH>
+dass	<MISMATCH>
+du	<MISMATCH>
+gar	<MISMATCH>
+nichts	<MISMATCH>
+verstehst	<MISMATCH>
+.	<MISMATCH>
 
 Weil	Weil
 Maria	Maria
@@ -17273,7 +17273,7 @@ ihre	ihre
 Geldbörse	Geldbörse
 irgendwo	irgendwo
 fallen	fallen
-gelassen	gelassen
+gelassen	lassen
 .	.
 
 muss	muss
@@ -17293,7 +17293,7 @@ Südtirol	Südtirol
 verstehen	verstehen
 auch	auch
 alle	alle
-Deutsch	Deutschen
+Deutsch	Deutsch
 .	.
 
 Englisch	Englisch
@@ -17315,7 +17315,7 @@ in	in
 den	den
 Bergen	Bergen
 sind	sind
-,	,
+,	;
 dann	dann
 würde	würde
 ein	ein
@@ -17333,9 +17333,9 @@ Weltsprache	Weltsprache
 ist	ist
 und	und
 wer	wer
-English	English
+English	Englisch
 gut	gut
-beherscht	beherscht
+beherscht	beherrscht
 ,	,
 der	der
 hat	hat
@@ -17368,17 +17368,17 @@ verschwindenden	verschwindenden
 Zuges	Zuges
 im	im
 Kopf	Kopf
-,	,
+,	es
 und	und
-nie	sie
+nie	nie
 vergaß	vergaß
 sie	sie
-es	es
+es	.
 .	.
 
 Lisa	Lisa
-Lieber	Lieber
-Paulo	Paul
+Lieber	Liebe
+Paulo	Paulo
 ,	,
 im	im
 Internet	Internet
@@ -17390,7 +17390,7 @@ gefunden	gefunden
 .	.
 
 Gerne	Gerne
-faul	faulen
+faul	Faul
 in	in
 der	der
 Sonne	Sonne
@@ -17458,14 +17458,14 @@ passiert	passiert
 ist	ist
 .	.
 
-Es	Du
-muss	musst
-di	die
-regel	Regeln
-im	im
-Eishockey	Eishockey
-lernen	lernen
-.	.
+Es	<MISMATCH>
+muss	<MISMATCH>
+di	<MISMATCH>
+regel	<MISMATCH>
+im	<MISMATCH>
+Eishockey	<MISMATCH>
+lernen	<MISMATCH>
+.	<MISMATCH>
 
 Ich	Ihr
 Vater	Vater
@@ -17514,7 +17514,7 @@ Und	Und
 Die	Die
 kleinen	kleinen
 Shops	Shops
-,	,
+,	am
 entlang	entlang
 am	am
 Strand	Strand
@@ -17527,11 +17527,11 @@ nette	nette
 Ablenkung	Ablenkung
 .	.
 
-Strategie	<MISMATCH>
-ist	<MISMATCH>
-moche	<MISMATCH>
-Hausaufgaben	<MISMATCH>
-.	<MISMATCH>
+Strategie	Strategie
+ist	ist
+moche	mich
+Hausaufgaben	Hausaufgaben
+.	,
 
 Für	<MISMATCH>
 Ich	<MISMATCH>
@@ -17563,15 +17563,15 @@ war	war
 ein	ein
 Jude	Jude
 ,	,
-das	das
+das	dass
 wusste	wusste
 aber	aber
 keiner	keiner
-da	Da
-sie	sie
-dies	dieses
+da	da
+sie	dies
+dies	dies
 geheim	geheim
-hielten	hielten
+hielten	hielt
 .	.
 
 Doch	Doch
@@ -17589,21 +17589,21 @@ eingekauft	gekauft
 .	.
 
 Also	Also
-ich	ich
+ich	Ich
 wollte	wollte
 dir	dir
 wegen	wegen
 dem	dem
 Urlaub	Urlaub
 schreiben	schreiben
-.	.
+.	,
 
 Sie	Sie
 hat	hat
 z.B.	z.B.
-Murmeltiere	Murmeltiere
+Murmeltiere	Murmeltaier
 und	und
-Bergziegen	Bergziegen
+Bergziegen	Bergziege
 gesehen	gesehen
 .	.
 
@@ -17612,9 +17612,9 @@ machte	machte
 sie	sie
 sich	sich
 auf	auf
-dem	dem
+dem	zum
 Weg	Weg
-in	in
+in	.
 den	den
 Supermarkt	Supermarkt
 .	.
@@ -17691,10 +17691,10 @@ ein	ein
 Geräusch	Geräusch
 ,	,
 Eva	Eva
-meinte	meinte
+meinte	eine
 das	das
 wäre	wäre
-eine	eine
+eine	Eule
 Eule	Eule
 also	also
 gingen	gingen
@@ -17723,33 +17723,33 @@ Die	Die
 Stadt	Stadt
 München	München
 ,	,
-wo	wo
-die	die
+wo	,
+die	da
 Familie	Familie
 Boateng	Boateng
-lebte	lebt
+lebte	lebte
 wurde	wurde
 von	von
-der	der
-Sowjet Union	Sowjetunion
+der	es
+Sowjet Union	Sowjet Union
 zerstört	zerstört
-.	.
+.	)
 
-Hallo	Hallo
-Paul	Paul
-,	,
-ich	ich
-habe	habe
-deinen	deine
-e-Mail	Mail
-heute	heute
-gelesen	gelesen
-.	.
+Hallo	<MISMATCH>
+Paul	<MISMATCH>
+,	<MISMATCH>
+ich	<MISMATCH>
+habe	<MISMATCH>
+deinen	<MISMATCH>
+e-Mail	<MISMATCH>
+heute	<MISMATCH>
+gelesen	<MISMATCH>
+.	<MISMATCH>
 
-Ich	Ich
+Ich	ist
 weiß	weiß
 ,	,
-es	es
+es	,
 ist	ist
 keine	keine
 besonders	besonders
@@ -17757,10 +17757,10 @@ spannende	spannende
 Geschichte	Geschichte
 ,	,
 aber	aber
-ich	ich
+ich	euch
 hoffe	hoffe
-es	,
-dient	dient
+es	als
+dient	dienen
 als	als
 Anregung	Anregung
 in	in
@@ -17784,7 +17784,7 @@ den	den
 Abend	Abend
 in	in
 die	die
-Disko	Disco
+Disko	Disko
 gehen	gehen
 .	.
 
@@ -17814,14 +17814,14 @@ kaufen	kaufen
 
 Ich	Ich
 liebe	liebe
-schwimmen	Schwimmen
+schwimmen	schwimmen
 und	und
-du	du
+du	,
 ?	?
 
 Aber	Aber
 dann	dann
-lass	lassen
+lass	lass
 uns	ins
 bitte	bitte
 ins	ins
@@ -17861,13 +17861,13 @@ ist	ist
 schonste	schönste
 .	.
 
-Du	Du
-sollst	solltest
-auch	auch
-mehre	mehrere
-Informationen	Informationen
-fragen	fragen
-.	.
+Du	<MISMATCH>
+sollst	<MISMATCH>
+auch	<MISMATCH>
+mehre	<MISMATCH>
+Informationen	<MISMATCH>
+fragen	<MISMATCH>
+.	<MISMATCH>
 
 hatten	hatten
 sie	sie
@@ -17901,21 +17901,21 @@ Meer	Meer
 gehen	gehen
 .	.
 
-Mir	Mir
-gut	gut
-;	;
-Weißt	Weisst
-du	du
-was	was
-passiert	passiert
-ist	ist
-?	!
-!	!
+Mir	<MISMATCH>
+gut	<MISMATCH>
+;	<MISMATCH>
+Weißt	<MISMATCH>
+du	<MISMATCH>
+was	<MISMATCH>
+passiert	<MISMATCH>
+ist	<MISMATCH>
+?	<MISMATCH>
+!	<MISMATCH>
 
 Ich	Ich
 hab	habe
 sie	sie
-erklärt	erklärt
+erklärt	erklärrt
 ,	,
 dass	dass
 ich	ich
@@ -17940,7 +17940,7 @@ hat	hat
 Maria	Maria
 ein	ein
 Problem	Problem
-in	in
+in	im
 einem	einem
 Supermarkt	Supermarkt
 gehabt	gehabt
@@ -17986,7 +17986,7 @@ im	im
 Internet	Internet
 erzählen	erzählen
 :	:
-lätztes	letzten
+lätztes	Letztes
 Jahr	Jahr
 habe	habe
 ich	ich
@@ -18019,7 +18019,7 @@ lLiebe	liebe
 schwimmen	Schwimmen
 gehen	gehe
 ins	ins
-gesaltzte	gesalzten
+gesaltzte	gesaltzte
 Wasser	Wasser
 .	.
 
@@ -18027,8 +18027,8 @@ Du	Du
 muss	musst
 aus	aus
 mit	mit
-deinem	deinem
-Freunden	Freund
+deinem	deinen
+Freunden	Freunden
 gehen	gehen
 aber	aber
 die	die
@@ -18078,7 +18078,7 @@ nur	nur
 unter	unter
 Druck	Druck
 setzen	setzen
-würde	würden
+würde	würde
 ,	,
 vorallem	vorallem
 wenn	wenn
@@ -18110,7 +18110,7 @@ Francesca	Francesca
 ,	,
 wie	wie
 gehts	geht
-es	es
+es	s
 dir	dir
 ?	?
 
@@ -18138,7 +18138,7 @@ Freund	Freund
 bei	bei
 ihr	ihr
 zu	zu
-essen	essen
+essen	Essen
 und	und
 sie	sie
 wollte	wollte
@@ -18149,20 +18149,20 @@ richten	richten
 
 Dort	Dort
 gab	gab
-es	ein
-ein	an
+es	es
+ein	ein
 Problem	Problem
-an	.
+an	an
 der	der
 Kasse	Kasse
-.	.
+.	,
 
 Die	Die
 Ferien	Ferien
 sind	sind
 endlich	endlich
 angefangen	angefangen
-!	.
+!	!
 
 war	war
 jetzt	jetzt
@@ -18195,20 +18195,20 @@ Mary	Mary
 und	und
 eine	eine
 Tochter	Tochter
-Elisabett	Elisabet
+Elisabett	Elisabett
 .	.
 
 In	Ich
 Ich	Ich
 hatte	hatte
-keinen	keinen
+keinen	keine
 echten	echten
-Freunde	Freund
+Freunde	Freunde
 ,	,
 aber	aber
 ich	ich
 wollte	wollte
-an	an
+an	.
 das	das
 nicht	nicht
 glauben	glauben
@@ -18262,12 +18262,12 @@ lernen	lernen
 .	.
 
 Ich	Ich
-Ins Gesamt	Insgesamt
+Ins Gesamt	Ins Gesamt
 sind	sind
 aber	aber
 die	die
 zwei	zwei
-Orten	Orte
+Orten	Orten
 total	total
 verschieden	verschieden
 .	.
@@ -18276,7 +18276,7 @@ Zuerst	Zuerst
 ging	ging
 sie	sie
 in	in
-einem	einen
+einem	einer
 Obst-	Obst
 und	und
 Gemuseladen	Gemüseladen
@@ -18303,7 +18303,7 @@ Tasche	Tasche
 und	und
 sie	sie
 denkt	denkt
-dass	dass
+dass	das
 Maria	Maria
 hat	hat
 die	die
@@ -18328,9 +18328,9 @@ Eiszeit	Eiszeit
 hierher	hierher
 geflüchtet	geflüchtet
 ist	ist
-man	Man
-,	,
-wie	wie
+man	man
+,	.
+wie	Wie
 sie	sie
 Tiere	Tiere
 toteten	töteten
@@ -18346,23 +18346,23 @@ mit	mit
 ihren	ihren
 guten	guten
 Nase	Nase
-,	.
+,	,
 Sie	Sie
 liefen	liefen
 sofort	sofort
 weg	weg
 die	die
-Freudinen	Freudinen
+Freudinen	Freudeinnen
 .	.
 
-Sie	Sie
-Naturkunde	Naturkunde
-und	und
-Italienisch	Italienisch
-lerne	lerne
-ich	ich
-gern	gerne
-.	.
+Sie	<MISMATCH>
+Naturkunde	<MISMATCH>
+und	<MISMATCH>
+Italienisch	<MISMATCH>
+lerne	<MISMATCH>
+ich	<MISMATCH>
+gern	<MISMATCH>
+.	<MISMATCH>
 
 In	Wir
 :	,
@@ -18377,11 +18377,11 @@ Sprache	Sprache
 ist	ist
 .	.
 
-Und	ins
+Und	Und
 Ich	Ich
-will	viel
+will	will
 immer	immer
-ins	ins
+ins	im
 Wasser	Wasser
 stehen	stehen
 und	und
@@ -18394,7 +18394,7 @@ hat	hat
 mich	mich
 interessiert	interessiert
 und	und
-Deshalb	Deshalb
+Deshalb	deshalb
 möchte	möchte
 ich	ich
 mein	meine
@@ -18404,7 +18404,7 @@ geben	geben
 um	um
 meiner	meiner
 Meinung	Meinung
-zu	.
+zu	zu
 austauschen	austauschen
 .	.
 
@@ -18470,7 +18470,7 @@ zusammen	zusammen
 und	und
 eines	eines
 Tages	Tages
-basiertees	basiert
+basiertees	basierte
 :	:
 "	"
 Schnell	Schnell
@@ -18540,13 +18540,13 @@ gekauft	gekauft
 hat	hat
 .	.
 
-So	So
-das	dass
-ich	ich
-die	die
-Ganze	ganze
-Geschichte	Geschichte
-.	.
+So	<MISMATCH>
+das	<MISMATCH>
+ich	<MISMATCH>
+die	<MISMATCH>
+Ganze	<MISMATCH>
+Geschichte	<MISMATCH>
+.	<MISMATCH>
 
 Bis	Bis
 bald	bald
@@ -18575,25 +18575,25 @@ zu	zu
 rufen	rufen
 .	.
 
-Doch	ich
-Hallo	Hallo
-Paul	Mail
-ich	ich
-hatte	hatte
-deine	deine
-e-mail	e-mail
-gelesen	gelesen
-und	und
-ich	ich
-wollte	wollte
-du	dir
-etwas	etwas
-sagen	sagen
-.	.
+Doch	<MISMATCH>
+Hallo	<MISMATCH>
+Paul	<MISMATCH>
+ich	<MISMATCH>
+hatte	<MISMATCH>
+deine	<MISMATCH>
+e-mail	<MISMATCH>
+gelesen	<MISMATCH>
+und	<MISMATCH>
+ich	<MISMATCH>
+wollte	<MISMATCH>
+du	<MISMATCH>
+etwas	<MISMATCH>
+sagen	<MISMATCH>
+.	<MISMATCH>
 
-Viele	Viel
+Viele	Vielen
 Grüße	Grüße
-bis	ist
+bis	bis
 bald	bald
 Luca	Luca
 
@@ -18656,8 +18656,8 @@ Straße	Straße
 leben	leben
 .	.
 
-Eine	die
-die	in
+Eine	Eine
+die	Das
 Flüchtlinge	Flüchtlinge
 sollen	sollen
 nicht	nicht
@@ -18668,13 +18668,13 @@ kommen	kommen
 .	.
 
 Meine	Meine
-Als	Als
+Als	als
 sie	sie
 ins	ins
-Supermarkt	Supermarkt
+Supermarkt	supermarkt
 währe	währe
 ,	,
-konnte	konnte
+konnte	könnte
 sie	sie
 nicht	nicht
 demonstrieren	demonstrieren
@@ -18698,7 +18698,7 @@ Supermarket	Supermarkt
 gegangen	gegangen
 und	und
 die	die
-Leute	Leute
+Leute	Leuten
 dachten	dachten
 sie	sie
 die	das
@@ -18721,7 +18721,7 @@ hier	hier
 zu	zu
 bleiben	bleiben
 :	:
-aber	aber
+aber	Aber
 gestern	gestern
 ist	ist
 etwas	etwas
@@ -18739,7 +18739,7 @@ Und	an
 Dann	Dann
 erinnert	erinnert
 sie	die
-an	-
+an	und
 ihrer	ihrer
 Tasche	Tasche
 ,	.
@@ -18758,11 +18758,11 @@ davon	von
 abhängig	abhängig
 .	.
 
-mochte	mochte
+mochte	möchte
 das	das
 in	in
 den	den
-faschiedenen	faschiedenen
+faschiedenen	verschiedenen
 Schulen	Schulen
 dialekte	Dialekte
 gelernt	gelernt
@@ -18815,26 +18815,26 @@ Peter	Peter
 Anna	Anna
 weint	weint
 viel	viel
-sie	Sie
+sie	mit
 muss	muss
 allein	allein
 mit	mit
 seine	seiner
 Tochter	Tochter
-zu	zu
+zu	.
 Hause	Hause
 stehen	stehen
 .	.
 
-Anna	Anna
-Überleg	Überlege
-dir	dir
-,	,
-was	was
-du	du
-lieber	lieber
-möchtest	möchtest
-.	.
+Anna	<MISMATCH>
+Überleg	<MISMATCH>
+dir	<MISMATCH>
+,	<MISMATCH>
+was	<MISMATCH>
+du	<MISMATCH>
+lieber	<MISMATCH>
+möchtest	<MISMATCH>
+.	<MISMATCH>
 
 Ich	Ich
 gehe	gehe
@@ -18890,19 +18890,19 @@ dann	dann
 bei	bei
 uns	uns
 sind	sie
-dann	dann
+dann	wenn
 müssen	müssen
-sie	die
+sie	sie
 nicht	nicht
 approffitieren	approffitieren
-,	(
+,	,
 wenn	wenn
 ihnen	ihnen
 das	das
 Land	Land
 Geld	Geld
 gibt	gibt
-.	"
+.	.
 
 Wenn	sein
 Tages	Tages
@@ -18962,8 +18962,8 @@ Nach	ich
 Jetzt	Jetzt
 muss	muss
 ich	ich
-an	an
-meinen	meiner
+an	.
+meinen	meinen
 Arbeit	Arbeit
 zurückkehren	zurückkehren
 .	.
@@ -18990,11 +18990,11 @@ Spanisch	Spanisch
 .	.
 
 Ich	Ich
-,	,
+,	.
 aber	aber
 es	es
 sollen	sollen
-nicht	nicht
+nicht	Ich
 zu	zu
 viele	viele
 kommen	kommen
@@ -19015,13 +19015,13 @@ auch	auch
 schön	schön
 .	.
 
-Ich	Ich
-kann	kann
-mich	mir
-einfach	einfach
-nicht	ich
-entscheiden	entscheiden
-!	!
+Ich	<MISMATCH>
+kann	<MISMATCH>
+mich	<MISMATCH>
+einfach	<MISMATCH>
+nicht	<MISMATCH>
+entscheiden	<MISMATCH>
+!	<MISMATCH>
 
 der	der
 Vater	Vater
@@ -19035,36 +19035,36 @@ und	und
 brachte	brachte
 dann	dann
 die	die
-Teppiche	Teppiche
+Teppiche	Teppichse
 in	in
 Sicherheit	Sicherheit
 
-Schnell	Schnell
-Hallo	Hallo
-Elisa	Elisa
-,	,
-Wie	Wie
-geht	geht
-es	es
-dir	dir
-?	?
+Schnell	<MISMATCH>
+Hallo	<MISMATCH>
+Elisa	<MISMATCH>
+,	<MISMATCH>
+Wie	<MISMATCH>
+geht	<MISMATCH>
+es	<MISMATCH>
+dir	<MISMATCH>
+?	<MISMATCH>
 
 Später	Später
 ging	ging
 sie	sie
-im	zum
+im	ins
 Supermakt	Supermarkt
 .	.
 
 Wenn	Wenn
-sie	eine
-Frend	Freund
-sind	und
+sie	sie
+Frend	Freunde
+sind	sind
 werden	werden
-Sie	Die
-dir	dir
-verstehn	verstehn
-.	:
+Sie	Sie
+dir	mir
+verstehn	verstehen
+.	.
 
 Die	Die
 Junge	Jungen
@@ -19086,57 +19086,57 @@ viele	viel
 Application	Application
 .	,
 
-Ob	,
-ihr	ihr
-antworten	antworten
-wollt	wollt
-,	,
-konnte	konnten
-ihr	ihr
-entscheiden	entscheiden
-ob	ob
-die	die
-Warheit	Wahrheit
-zu	zu
-sagen	sagen
-und	und
-Ihre	Ihre
-Freunde	Freunde
-nicht	nicht
-mehr	mehr
-zu	zu
-"	,
-sehen	sehen
-"	,
-,	,
-oder	oder
-konnt	konnt
-Ihr	Ihr
-entscheiden	entscheiden
-wie	wie
-die	die
-Zeit	Zeit
-zwischen	zwischen
-alle	allen
-Freunde	Freunden
-zu	zu
-Teilen	teilen
-sollte	sollte
-.	.
+Ob	<MISMATCH>
+ihr	<MISMATCH>
+antworten	<MISMATCH>
+wollt	<MISMATCH>
+,	<MISMATCH>
+konnte	<MISMATCH>
+ihr	<MISMATCH>
+entscheiden	<MISMATCH>
+ob	<MISMATCH>
+die	<MISMATCH>
+Warheit	<MISMATCH>
+zu	<MISMATCH>
+sagen	<MISMATCH>
+und	<MISMATCH>
+Ihre	<MISMATCH>
+Freunde	<MISMATCH>
+nicht	<MISMATCH>
+mehr	<MISMATCH>
+zu	<MISMATCH>
+"	<MISMATCH>
+sehen	<MISMATCH>
+"	<MISMATCH>
+,	<MISMATCH>
+oder	<MISMATCH>
+konnt	<MISMATCH>
+Ihr	<MISMATCH>
+entscheiden	<MISMATCH>
+wie	<MISMATCH>
+die	<MISMATCH>
+Zeit	<MISMATCH>
+zwischen	<MISMATCH>
+alle	<MISMATCH>
+Freunde	<MISMATCH>
+zu	<MISMATCH>
+Teilen	<MISMATCH>
+sollte	<MISMATCH>
+.	<MISMATCH>
 
 und	und
-Clara	Claras
-sind	in
-gehen	sehen
-in	.
-der	der
+Clara	Clara
+sind	sind
+gehen	gehen
+in	in
+der	den
 Wald	Wald
-uns	uns
-sehen	sehen
-geist	geist
+uns	und
+sehen	sahen
+geist	Geister
 
 Eine	Eine
-Eine	SIE
+Eine	sie
 Stunde	Stunde
 später	später
 war	war
@@ -19170,13 +19170,13 @@ ich	ich
 hatte	hatte
 mir	mir
 schon	schon
-sorgen	Sorge
+sorgen	sorgen
 gemacht	gemacht
 .	.
 
 Sie	Sie
 hat	hat
-Insalat	Insalat
+Insalat	Salat
 und	und
 viele	viele
 andere	andere
@@ -19185,7 +19185,7 @@ gekauft	gekauft
 .	.
 
 Strategien	Strategien
-Funktionieren	funktionieren
+Funktionieren	Funktionieren
 schlecht	schlecht
 ist	ist
 zum	zum
@@ -19194,7 +19194,7 @@ beim	beim
 Sport	Sport
 im	im
 Tem	Tem
-.	.
+.	(
 
 Meine	Meine
 Maria	Maria
@@ -19235,24 +19235,24 @@ erzählen	<MISMATCH>
 
 Ich	Ich
 glaube	glaube
-dass	dass
-du	du
+dass	muss
+du	:
 hast	hast
 gut	gut
 gemacht	gemacht
-als	als
-du	du
-alte	alte
+als	Es
+du	,
+alte	alt
 Nummern	Nummern
 der	der
 Personen	Personen
 die	die
-du	du
+du	"
 nicht	nicht
 kennst	kennst
 gelöscht	gelöscht
-hatte	hattest
-.	.
+hatte	alte
+.	"
 
 Manchmal	manchmal
 Internet	Internet
@@ -19266,7 +19266,7 @@ ist	ist
 es	es
 Zeit	Zeit
 weg zu gehen	weg zu gehen
-.	zu
+.	,
 
 Der	er
 er	den
@@ -19289,26 +19289,26 @@ Hände	Hände
 nimmt	nimmt
 .	.
 
-In	SIE
-SIE	SIE
-HOREN	HOREN
-VIELE	VIEL
-SCHREI	SCHREIEN
-.	.
+In	<MISMATCH>
+SIE	<MISMATCH>
+HOREN	<MISMATCH>
+VIELE	<MISMATCH>
+SCHREI	<MISMATCH>
+.	<MISMATCH>
 
-IST	ich
+IST	IST
 Für	Für
 dieser	dieser
 Grund	Grund
 habe	habe
-ich	mich
+ich	ich
 entschieden	entschieden
-um	um
+um	Um
 ans	ans
 Meer	Meer
 zu	zu
 gehen	gehen
-.	.
+.	,
 
 Wir	Wir
 konnen	können
@@ -19343,20 +19343,20 @@ Erbsen	Erbse
 .	.
 
 Wie	Wie
-sollen	sollen
+sollen	soll
 am	am
 Meer	Meer
 fahren	fahren
 wo	wo
-wir	wir
+wir	die
 können	können
-die	die
+die	das
 Sonne	Sonne
 nehmen	nehmen
-,	,
+,	im
 das	das
-bad	Bad
-ins	im
+bad	und
+ins	ins
 Meer	Meer
 machen	machen
 ,	.
@@ -19368,12 +19368,12 @@ machen	machen
 
 Vater	Vater
 ist	ist
-in	in
-das	das
-Hause	Haus
+in	im
+das	Haus
+Hause	Hause
 und	und
 virft	wirft
-viele	viel
+viele	viele
 Wasser	Wasser
 wo	wo
 die	die
@@ -19404,7 +19404,7 @@ Abschied	Abschied
 der	der
 Tochter	Tochter
 kommt	kommt
-seine	seine
+seine	seiner
 Frau	Frau
 an	an
 die	die
@@ -19412,16 +19412,16 @@ Reihe	Reihe
 .	.
 
 Paul	Paul
-du	du
+du	Du
 sollst	solltest
 nicht	nicht
 mehr	mehr
 antworten	antworten
 ,	,
-du	du
-sollst	solltest
+du	.
+sollst	sollst
 diese	diese
-"	.
+"	"
 Freunde	Freunde
 "	"
 vergessen	vergessen
@@ -19469,12 +19469,12 @@ sollte	sollte
 und	und
 dass	dass
 er	er
-muss	muss
+muss	musste
 zurückkommen	zurückkommen
 ,	,
 aber	aber
 er	er
-sagt	sagt
+sagt	sagte
 das	dass
 er	er
 nicht	nicht
@@ -19493,53 +19493,53 @@ Aber	Aber
 so	so
 ganz	ganz
 ohne	ohne
-"	"
+"	,
 überflüssiges	überflüssiges
 Papier	Papier
-"	"
+"	.
 ,	,
 selber	selber
 Schuld	Schuld
 .	.
 
-lerne	<MISMATCH>
-eine	<MISMATCH>
-neue	<MISMATCH>
-Sprache	<MISMATCH>
-mit	<MISMATCH>
-Hausaufgaben	<MISMATCH>
-und	<MISMATCH>
-lerne	<MISMATCH>
-eine	<MISMATCH>
-neue	<MISMATCH>
-Sprache	<MISMATCH>
-zu	<MISMATCH>
-lese	<MISMATCH>
-ein	<MISMATCH>
-Bücher	<MISMATCH>
-mit	<MISMATCH>
-mein	<MISMATCH>
-Freundin	<MISMATCH>
-in	<MISMATCH>
-die	<MISMATCH>
-Bibliotheke	<MISMATCH>
-oder	<MISMATCH>
-mit	<MISMATCH>
-ein	<MISMATCH>
-Kurse	<MISMATCH>
-werent	<MISMATCH>
-in	<MISMATCH>
-Sommer	<MISMATCH>
-.	<MISMATCH>
+lerne	lerne
+eine	eine
+neue	neue
+Sprache	Sprache
+mit	mit
+Hausaufgaben	Hausaufgaben
+und	und
+lerne	lerne
+eine	eine
+neue	neue
+Sprache	Sprache
+zu	,
+lese	lese
+ein	ein
+Bücher	Bücher
+mit	mit
+mein	mein
+Freundin	Freundin
+in	in
+die	der
+Bibliotheke	Bibliotheke
+oder	oder
+mit	mit
+ein	ein
+Kurse	Kurse
+werent	werent
+in	in
+Sommer	Sommer
+.	.
 
-Meine	Meiner
+Meine	Meine
 Meine	Meine
 Meinung	Meinung
 nach	nach
 ist	ist
 sehr	sehr
 gut	gut
-virtuelle	virtuelle
+virtuelle	Virtuelle
 Freundschaften	Freundschaften
 haben	haben
 weil	weil
@@ -19551,20 +19551,20 @@ kennenlernen	kennenlernen
 konnte	konnte
 .	.
 
-Zuerst	Zuerst
-will	will
-ich	ich
-dir	dir
-sagen	sagen
-dass	dass
-virtuelle	virtuelle
-Freundschaften	Freundschaften
-nie	nie
-eine	eine
-gute	gute
-Sache	Sache
-sind	sind
-.	.
+Zuerst	<MISMATCH>
+will	<MISMATCH>
+ich	<MISMATCH>
+dir	<MISMATCH>
+sagen	<MISMATCH>
+dass	<MISMATCH>
+virtuelle	<MISMATCH>
+Freundschaften	<MISMATCH>
+nie	<MISMATCH>
+eine	<MISMATCH>
+gute	<MISMATCH>
+Sache	<MISMATCH>
+sind	<MISMATCH>
+.	<MISMATCH>
 
 Sie	Sie
 kaufte	kaufte
@@ -19581,21 +19581,21 @@ Liebe	Liebe
 Meli	Meli
 ,	,
 ich	ich
-erzähle	erzählen
-dir	mit
-was	was
+erzähle	erzähle
+dir	dir
+was	Was
 ist	ist
 Maria	Maria
 passiert	passiert
 .	.
 
-Ich	Ich
-muss	muss
-dich	dich
-viele	viele
-Dingen	Dinge
-sagen	sagen
-.	.
+Ich	<MISMATCH>
+muss	<MISMATCH>
+dich	<MISMATCH>
+viele	<MISMATCH>
+Dingen	<MISMATCH>
+sagen	<MISMATCH>
+.	<MISMATCH>
 
 nach	<MISMATCH>
 der	<MISMATCH>
@@ -19621,14 +19621,14 @@ also	also
 ist	ist
 es	weg
 nicht	nicht
-weit	weit
-weg	es
-.	,
+weit	wir
+weg	weg
+.	.
 
 Wenn	Wenn
 sie	sie
 einkaufen	einkaufen
-war	war
+war	hat
 ,	,
 sie	sie
 hat	hat
@@ -19636,7 +19636,7 @@ alle	alle
 Sachen	Sachen
 gepackt	gepackt
 aber	aber
-sie	sie
+sie	die
 hat	hat
 die	die
 Kassenbilge	Kassenrolle
@@ -19684,7 +19684,7 @@ aus	aus
 und	und
 sie	sie
 gefunde	gefunde
-ihre	ihr
+ihre	ihren
 Auto	Auto
 nicht	nicht
 wo	wo
@@ -19698,9 +19698,9 @@ vergisst	vergisst
 Dort	Dort
 hat	hat
 sie	sie
-Spargel	Spargel
+Spargel	spargel
 und	und
-Gurken	Gurken
+Gurken	gurken
 gekauft	gekauft
 ,	,
 die	die
@@ -19708,7 +19708,7 @@ sie	sie
 daraufhin	daraufhin
 in	in
 ihrem	ihrem
-Rucksack	Rucksack
+Rucksack	rucksack
 untergebracht	untergebracht
 hat	hat
 .	.
@@ -19722,7 +19722,7 @@ Familie	Familie
 an	an
 den	den
 Händen	Händen
-.	.
+.	,
 
 Er	im
 Das	es
@@ -19732,8 +19732,8 @@ in	ein
 Zentrum	Zentrum
 von	von
 Riccione	Riccione
-,	-
-es	-
+,	.
+es	es
 ist	ist
 ein	ein
 vier Sterne Hotel.	vier Sterne Hotel.
@@ -19760,10 +19760,10 @@ bar	Bar
 gegangen	gegangen
 .	.
 
-will	will
-die	die
-sprache	Sprache
-lernen	lernen
+will	<MISMATCH>
+die	<MISMATCH>
+sprache	<MISMATCH>
+lernen	<MISMATCH>
 
 Ich	nicht
 Mir	Mir
@@ -19843,7 +19843,7 @@ r	,
 fing	fing
 an	zu
 zu	zu
-raufen	rauhen
+raufen	rauen
 und	und
 laste	lasste
 die	die
@@ -19902,43 +19902,43 @@ beispiel	Beispiel
 sehen	sehe
 viele	viele
 Film	Filme
-in	und
+in	in
 Deutsch	Deutsch
 oder	oder
-English	English
+English	Englisch
 oder	oder
 lesen	lese
 Buch	Buch
 .	.
 
-Ich	ich
-Eine	die
+Ich	Ich
+Eine	Eine
 Stunde	Stunde
 später	später
 war	war
 sie	sie
-im	zu
+im	im
 Supermarkt	Supermarkt
-um	.
+um	um
 zwei	zwei
 Kartoffeln	Kartoffeln
 zu	zu
 kaufen	kaufen
 .	.
 
-Ich	Ich
-sage	sage
-dir	dir
-ein	ein
-Paar	Paar
-Sache	Sachen
-.	.
-.	.
-.	.
+Ich	<MISMATCH>
+sage	<MISMATCH>
+dir	<MISMATCH>
+ein	<MISMATCH>
+Paar	<MISMATCH>
+Sache	<MISMATCH>
+.	<MISMATCH>
+.	<MISMATCH>
+.	<MISMATCH>
 
 Ich	Ich
-kann	kann
-dir	dir
+kann	kannst
+dir	mir
 keinen	keinen
 richtigen	richtigen
 Rat	Rat
@@ -19969,15 +19969,15 @@ Italienisch	Italienisch
 kann	kann
 dir	dir
 jetzt	jetzt
-auch	auch
+auch	Ich
 sagen	sagen
-,	,
+,	.
 dass	dass
 ich	ich
 eine	eine
-EINS	Eins
+EINS	EINS
 bekommen	bekommen
-haben	habe
+haben	haben
 .	.
 
 Ich	Ich
@@ -19985,7 +19985,7 @@ Strategien	Strategien
 funktionieren	funktionieren
 gut	gut
 in	in
-alles	allem
+alles	Alles
 sind	sind
 studiert	studiert
 und	und
@@ -19993,27 +19993,27 @@ Hausafgabe	Hausaufgaben
 machen	machen
 .	.
 
-Die	in
-Ich	ich
-will	soll
-gehen	gehen
-in	,
-Toscany	Toscany
-von	von
-erinnern	erinnern
-sich	sich
-ihre	ihre
-Erinnerung	Erinnerung
-wan	da
-ihnen	ihnen
-waren	waren
-die	die
-Kinder	Kinder
-.	.
+Die	<MISMATCH>
+Ich	<MISMATCH>
+will	<MISMATCH>
+gehen	<MISMATCH>
+in	<MISMATCH>
+Toscany	<MISMATCH>
+von	<MISMATCH>
+erinnern	<MISMATCH>
+sich	<MISMATCH>
+ihre	<MISMATCH>
+Erinnerung	<MISMATCH>
+wan	<MISMATCH>
+ihnen	<MISMATCH>
+waren	<MISMATCH>
+die	<MISMATCH>
+Kinder	<MISMATCH>
+.	<MISMATCH>
 
 Vater	Vater
 nahm	nahm
-ein	ein
+ein	den
 Ball	Ball
 ,	,
 die	die
@@ -20032,14 +20032,14 @@ die	die
 Pfeife	Pfeife
 .	.
 
-Wenn	Wenn
-Welchen	Welchen
-Voschlag	Vorschlag
-würdest	würdest
-du	du
-sonst	sonst
-unterbreiten	unterbreiten
-?	?
+Wenn	<MISMATCH>
+Welchen	<MISMATCH>
+Voschlag	<MISMATCH>
+würdest	<MISMATCH>
+du	<MISMATCH>
+sonst	<MISMATCH>
+unterbreiten	<MISMATCH>
+?	<MISMATCH>
 
 Dieses	Dieses
 Ding	Ding
@@ -20051,12 +20051,12 @@ wichtig	wichtig
 Aber	Aber
 ich	ich
 weiße	weiß
-dass	dass
-,	.
+dass	das
+,	,
 diese	diese
 ist	ist
-nich	nich
-Richtig	Richtig
+nich	nicht
+Richtig	richtig
 .	.
 
 Am	<MISMATCH>
@@ -20076,7 +20076,7 @@ Vorteile	Vorteile
 dass	dass
 man	man
 schwimmen	schwimmen
-gehen	geht
+gehen	gehen
 kann	kann
 und	und
 dass	dass
@@ -20129,7 +20129,7 @@ ein	ein
 .	.
 
 Wenn	Wenn
-das	das
+das	der
 Moment	Moment
 zu	zu
 bezhalen	bezahlen
@@ -20178,20 +20178,20 @@ wollte	wollte
 .	.
 
 Mit	Mit
-erzlichen	herzlichen
+erzlichen	erzlichen
 Grüßen	Grüßen
 ,	,
 Dein	Dein
 Ivon	Ivan
 
-So	So
-was	war
-war	mir
-mir	nie
-noch	noch
-nie	nie
-passiert	passiert
-!	!
+So	<MISMATCH>
+was	<MISMATCH>
+war	<MISMATCH>
+mir	<MISMATCH>
+noch	<MISMATCH>
+nie	<MISMATCH>
+passiert	<MISMATCH>
+!	<MISMATCH>
 
 Michel	Michel
 kein	kein
@@ -20311,7 +20311,7 @@ der	der
 Vollendung	Vollendung
 des	des
 Werkes	Werkes
-hängen	hängt
+hängen	hängen
 Menschenleben	Menschenleben
 ab	ab
 ,	,
@@ -20343,8 +20343,8 @@ Freundschaften	Freundschaften
 hat	hat
 .	.
 
-vom	vom
-wann	war
+vom	von
+wann	an
 war	war
 ich	ich
 ein	ein
@@ -20404,7 +20404,7 @@ getroffen	getroffen
 Es	Es
 tut	tut
 mir	mir
-Leid	Leid
+Leid	leid
 was	was
 passiert	passiert
 ist	ist
@@ -20450,16 +20450,16 @@ verständigen	verständigen
 kann	kann
 .	.
 
-Deutsch	Deutsch
-Ich	Ich
-warte	wäre
-an	:
-deine	deine
-Antwort	Antwort
-.	.
+Deutsch	<MISMATCH>
+Ich	<MISMATCH>
+warte	<MISMATCH>
+an	<MISMATCH>
+deine	<MISMATCH>
+Antwort	<MISMATCH>
+.	<MISMATCH>
 
 Maria	Maria
-hat	hatte
+hat	was
 nicht	nicht
 mehr	mehr
 gewusst	gewusst
@@ -20476,7 +20476,7 @@ Sommer	Sommer
 ist	ist
 mehr	mehr
 faher	faher
-in	am
+in	im
 Meer	Meer
 ,	,
 Weil	weil
@@ -20500,14 +20500,14 @@ einkaufen	einkaufen
 gegangen	gegangen
 .	.
 
-Dein	Dein
-Problem	Problem
-ist	ist
-ein	ein
-Sehr	sehr
-wircktig	wircktig
-situazion	situazion
-.	.
+Dein	<MISMATCH>
+Problem	<MISMATCH>
+ist	<MISMATCH>
+ein	<MISMATCH>
+Sehr	<MISMATCH>
+wircktig	<MISMATCH>
+situazion	<MISMATCH>
+.	<MISMATCH>
 
 So	So
 könnte	könnte
@@ -20521,7 +20521,7 @@ und	und
 die	die
 neue	neue
 Speise	Speise
-vorstellen	vorstellt
+vorstellen	vorzustellen
 .	.
 
 Dort	Dort
@@ -20545,17 +20545,17 @@ Dort	Dort
 hat	hat
 sie	sie
 etwas	etwas
-anderst	Anderes
+anderst	anderes
 gekauft	gekauft
 .	.
 
-nommt”	nimmt
+nommt”	nommt
 sein	sein
 diktat	Diktat
-(	(
+(	;
 eine	eine
 Hausaufgabe	Hausaufgabe
-)	)
+)	es
 und	und
 sie	sie
 läuft	läuft
@@ -20565,20 +20565,20 @@ Großvaters	Großvaters
 Haus	Haus
 .	.
 
-Die	dir
-Überleg	Überleg
-es	,
-dir	dir
-,	.
-Schatz	Schatz
-.	.
-xxx	xxx
+Die	<MISMATCH>
+Überleg	<MISMATCH>
+es	<MISMATCH>
+dir	<MISMATCH>
+,	<MISMATCH>
+Schatz	<MISMATCH>
+.	<MISMATCH>
+xxx	<MISMATCH>
 
 Später	Später
 im	im
 Supermarkt	Supermarkt
 ,	,
-kaufte	kaufte
+kaufte	kauft
 sie	sie
 die	die
 restlichen	restlichen
@@ -20595,19 +20595,19 @@ Obsthändler	Obsthändler
 gegangen	gegangen
 .	.
 
-Halo	Hallo
-Paul	Paul
-wie	wie
-geht	geht
-es	es
-dir	dir
-?	?
+Halo	<MISMATCH>
+Paul	<MISMATCH>
+wie	<MISMATCH>
+geht	<MISMATCH>
+es	<MISMATCH>
+dir	<MISMATCH>
+?	<MISMATCH>
 
 Auf	Auf
 nie wieder sehen	nie wieder sehen
 mein	meinen
 Mann	Mann
-"	,
+"	"
 sagte	sagte
 die	die
 Frau	Frau
@@ -20616,7 +20616,7 @@ Frau	Frau
 Er	du
 Und	Und
 du	?
-?	-
+?	?
 -	-
 Heute	Heute
 ich	ich
@@ -20628,23 +20628,23 @@ gesehe	gesehe
 und	und
 Tina	Tina
 waren	waren
-beide	beide
+beide	beides
 gute	gute
 Kletterer	Kletterer
 .	.
 
-Sie	Sie
-Guten	Guten
-Tag	Tag
-Herr	Herr
-Paul	Paul
-,	,
-ich	ich
-habe	habe
-deinen	deinen
-Brief	Brief
-gehört	gehört
-.	.
+Sie	<MISMATCH>
+Guten	<MISMATCH>
+Tag	<MISMATCH>
+Herr	<MISMATCH>
+Paul	<MISMATCH>
+,	<MISMATCH>
+ich	<MISMATCH>
+habe	<MISMATCH>
+deinen	<MISMATCH>
+Brief	<MISMATCH>
+gehört	<MISMATCH>
+.	<MISMATCH>
 
 Dass	Das
 wetter	Wetter
@@ -20702,7 +20702,7 @@ oft	oft
 die	die
 Person	Person
 mit	mit
-den	der
+den	dem
 man	man
 glaubt	glaubt
 zu	zu
@@ -20775,7 +20775,7 @@ gingen	gingen
 herum	herum
 und	und
 pflückten	pflückten
-ein	ein
+ein	eine
 paar	paar
 Beeren	Beeren
 .	.
@@ -20949,8 +20949,8 @@ Maria	Maria
 einen	einen
 Kaffee	Kaffee
 trinken	trinken
-,	,
-da	da
+,	.
+da	Da
 sagte	sagte
 sie	sie
 mir	mir
@@ -20958,7 +20958,7 @@ mir	mir
 dass	dass
 ihr	ihr
 letzte	letzten
-Woche	Wochen
+Woche	Woche
 etwas	etwas
 schreckliches	Schreckliches
 passiert	passiert
@@ -21072,7 +21072,7 @@ Pfirziche	Pfirziche
 und	und
 Äpfel	Äpfel
 eingekauft	eingekauft
-.	.
+.	(
 
 Aber	Aber
 der	der
@@ -21085,7 +21085,7 @@ Vorteile	Vorteile
 .	.
 
 Seit	Seit
-einige	einige
+einige	einigen
 Woche	Wochen
 wollte	wollte
 ich	ich
@@ -21117,17 +21117,17 @@ können	können
 ,	,
 die	die
 Person	Person
-selber	selbst
+selber	selber
 .	.
 
 Meinung	Meinung
 nach	nach
 sollen	sollen
-SchülerInnen	Schülerinnen
+SchülerInnen	SchülerInnen
 Deutsch	Deutsch
 und	und
 Italienisch	Italienisch
-umbedingt	umbedingt
+umbedingt	ausbedingt
 wissen	wissen
 ,	,
 denn	denn
@@ -21180,15 +21180,15 @@ und	und
 Tommi	Tommi
 der	der
 kleine	kleine
-,	,
+,	!
 brennt	brennt
-!	.
+!	!
 
 Die	Die
 Hallo	Hallo
 Lisa	Lisa
 ,	,
-Vor	Vor
+Vor	vor
 einigen	einigen
 Tagen	Tagen
 ist	ist
@@ -21201,24 +21201,24 @@ Supermark	Supermarkt
 gegangen	gegangen
 .	.
 
-Sollen	Sollen
-wir	wir
-uns	uns
-lieber	lieber
-einen	einen
-entspannten	entspannten
-Urlaub	Urlaub
-am	am
-Meer	Meer
-gönnen	gönnen
-oder	oder
-in	in
-den	den
-Bergen	Bergen
-unsere	unsere
-Freizeit	Freizeit
-verbringen	verbringen
-?	?
+Sollen	<MISMATCH>
+wir	<MISMATCH>
+uns	<MISMATCH>
+lieber	<MISMATCH>
+einen	<MISMATCH>
+entspannten	<MISMATCH>
+Urlaub	<MISMATCH>
+am	<MISMATCH>
+Meer	<MISMATCH>
+gönnen	<MISMATCH>
+oder	<MISMATCH>
+in	<MISMATCH>
+den	<MISMATCH>
+Bergen	<MISMATCH>
+unsere	<MISMATCH>
+Freizeit	<MISMATCH>
+verbringen	<MISMATCH>
+?	<MISMATCH>
 
 Sie	Sie
 hat	hat
@@ -21230,19 +21230,19 @@ seiner	seiner
 Tasche	Tasche
 vergessen	vergessen
 und	und
-an	an
-der	der
+an	,
+der	die
 Kasse	Kasse
 dachte	dachte
-die	die
+die	der
 Verkäuferin	Verkäuferin
-,	,
+,	im
 dass	dass
 Maria	Maria
 den	den
 Salat	Salat
-im	im
-supermarkt	Supermarkt
+im	.
+supermarkt	supermarkt
 gekauft	gekauft
 hat	hat
 .	.
@@ -21375,13 +21375,13 @@ ein	ein
 gewisses	gewisses
 Maß	Maß
 einhalten	Einhaltung
-,	im
-den	ein
-vor	vor
+,	,
+den	den
+vor	Vor
 allem	allem
-die	die
-Privatspähre	Privatspähre
-im	.
+die	der
+Privatspähre	Privatsphäre
+im	im
 Internet	Internet
 ist	ist
 ein	ein
@@ -21447,13 +21447,13 @@ sicherlich	sicherlich
 wie	wie
 es	es
 sich	sich
-zeigen	zeigen
+zeigen	zeigt
 will	wird
 .	.
 
 und	und
 Rose	Rose
-ließendie	ließende
+ließendie	ließen
 Hand	Hand
 von	von
 ihrem	ihrem
@@ -21470,15 +21470,15 @@ Zug	Zug
 einstieg	einstieg
 .	.
 
-Als	dass
-Ich	ist
-denke	denke
+Als	Es
+Ich	Ich
+denke	denkt
 ,	,
 dass	dass
 es	es
 ist	ist
 besser	besser
-ob	ob
+ob	,
 wir	wir
 ans	ans
 Meer	Meer
@@ -21487,7 +21487,7 @@ fahren	fahren
 weil	weil
 wir	wir
 neben	neben
-die	die
+die	den
 Bergen	Bergen
 wohnen	wohnen
 .	,
@@ -21512,7 +21512,7 @@ was	was
 einer	einer
 Freundin	Freundin
 von	von
-mir	mir
+mir	dir
 passiert	passiert
 ist	ist
 .	.
@@ -21521,7 +21521,7 @@ Zuerst	Zuerst
 versteht	versteht
 Maria	Maria
 nich	nicht
-vas	vor
+vas	was
 passiert	passiert
 und	und
 fragt	fragt
@@ -21542,7 +21542,7 @@ passiert	passiert
 
 hat	hat
 mir	mich
-geschaut	geschaut
+geschaut	angeschaut
 und	und
 geshaut	gesagt
 .	.
@@ -21613,7 +21613,7 @@ und	und
 sie	sie
 konnte	konnte
 nicht	nicht
-ihrer	ihrer
+ihrer	ihre
 Lieblingsspeisen	Lieblingsspeisen
 kochen	kochen
 .	.
@@ -21622,7 +21622,7 @@ hörten	hörten
 sie	sie
 diese	diese
 komischen	komischen
-Gelächer	Gelächerei
+Gelächer	gelacher
 .	.
 
 Ihre	Ihre
@@ -21633,15 +21633,15 @@ Ich	Ich
 bin	bin
 Giulia	Giulia
 und	und
-ich	ich
+ich	in
 habe	habe
-in	in
+in	"
 der	der
 Rubrik	Rubrik
 "	"
 Persönliche	Persönliche
-Briefe	Briefe
-"	"
+Briefe	Brief
+"	.
 der	der
 Zeitung	Zeitung
 "	"
@@ -21701,9 +21701,9 @@ Erfahrungen	Erfahrungen
 Liebe	Liebe
 Markus	Markus
 ,	,
-Wie	Wie
+Wie	wie
 geht	geht
-es	es
+es	s
 dir	dir
 ?	?
 
@@ -21727,7 +21727,7 @@ fahren	fahren
 .	.
 
 Nach	Nach
-langem	langer
+langem	langen
 Zeit	Zeit
 kam	kam
 er	er
@@ -21743,14 +21743,14 @@ besorgt	besorgt
 
 weil	weil
 auf	auf
-der	der
+der	die
 ganzen	ganzen
 Welt	Welt
 spricht	spricht
 man	man
 Englisch	Englisch
 und	und
-wenn	Wenn
+wenn	Welt
 man	man
 Englisch	Englisch
 kann	kann
@@ -21761,23 +21761,23 @@ man	man
 reisen	reisen
 ,	,
 und	und
-wenn	wenn
-man	in
+wenn	Wenn
+man	man
 mal	mal
 groß	groß
 ist	ist
 bekommt	bekommt
-man	man
+man	kann
 leichter	leichter
 Arbeit	Arbeit
 ,	,
-weil	Welt
-fast	ist
-alle	als
+weil	weil
+fast	fast
+alle	alle
 Menschen	Menschen
 Englisch	Englisch
 sprechen	sprechen
-.	,
+.	.
 
 Und	In
 In	ein
@@ -21822,7 +21822,7 @@ der	der
 Mittelschule	Mittelschule
 Ladinisch	Ladinisch
 und	und
-Spanisch	Spanisch
+Spanisch	spanisch
 lernen	lernen
 .	.
 
@@ -21845,8 +21845,8 @@ hatten	hatten
 wir	wir
 Mathematik	Mathematik
 Schularbeit	Schularbeit
-,	,
-unsere	unsere
+,	.
+unsere	Unsere
 Lehrerin	Lehrerin
 ist	ist
 so	so
@@ -21862,8 +21862,8 @@ Rechenheft	Rechenheft
 machen	machen
 lässt	lässt
 da	da
-stehen	stehen
-alle	alle
+stehen	steht
+alle	alles
 Lösungen	Lösungen
 draufgeschrieben	draufgeschrieben
 !	!
@@ -21884,9 +21884,9 @@ Für	Für
 mich	mich
 war	war
 das	das
-eine	eine
-große	große
-Schok	Schok
+eine	ein
+große	großer
+Schok	Schock
 .	.
 
 In	Im
@@ -21913,18 +21913,18 @@ Wohnung	Wohnungen
 Heus	Heus
 .	.
 
-Hallo	Hallo
-Marco	Marco
-,	,
-Wie	Wie
-geht	geht
-es	es
-dir	dir
-?	?
+Hallo	<MISMATCH>
+Marco	<MISMATCH>
+,	<MISMATCH>
+Wie	<MISMATCH>
+geht	<MISMATCH>
+es	<MISMATCH>
+dir	<MISMATCH>
+?	<MISMATCH>
 
 Wenn	Wenn
 wir	wir
-da	,
+da	da
 dort	dort
 gehen	gehen
 werden	werden
@@ -21935,14 +21935,14 @@ Spaß	Spaß
 haben	haben
 !	!
 
-Du	Du
-weißt	weißt
-nicht	nicht
-was	was
-heute	heute
-passiert	passiert
-ist	ist
-!	!
+Du	<MISMATCH>
+weißt	<MISMATCH>
+nicht	<MISMATCH>
+was	<MISMATCH>
+heute	<MISMATCH>
+passiert	<MISMATCH>
+ist	<MISMATCH>
+!	<MISMATCH>
 
 Lichtstrahl	Lichtstrahl
 viel	fiel
@@ -21955,25 +21955,25 @@ an	an
 einen	einen
 Baum	Baum
 stützte	stützte
-„	:
-was	Was
+„	"
+was	was
 ist	ist
 das	das
 ?	?
 
-ist	es
-Du	du
-musst	musst
-sagen	sagen
-,	.
-weil	weil
-du	du
-,	,
-dich	dich
-nicht	nicht
-mehr	mehr
-meldest	meldest
-.	.
+ist	<MISMATCH>
+Du	<MISMATCH>
+musst	<MISMATCH>
+sagen	<MISMATCH>
+,	<MISMATCH>
+weil	<MISMATCH>
+du	<MISMATCH>
+,	<MISMATCH>
+dich	<MISMATCH>
+nicht	<MISMATCH>
+mehr	<MISMATCH>
+meldest	<MISMATCH>
+.	<MISMATCH>
 
 Mal	Male
 ,	,
@@ -21987,7 +21987,7 @@ ein	einen
 Ausflug	Ausflug
 .	.
 
-Ich	ich
+Ich	Ich
 Lieber	Lieber
 Paul	Paul
 ,	,
@@ -22016,7 +22016,7 @@ beweisen	beweisen
 stotterte	stotterte
 plötzlich	plötzlich
 :	:
-„	"
+„	„
 Sky	Sky
 wir	wir
 müssen	müssen
@@ -22077,8 +22077,8 @@ mit	mit
 netten	netten
 Leuten	Leuten
 haben	haben
-und	um
-nicht	nicht
+und	und
+nicht	ich
 die	die
 idyllische	idyllische
 Natur	Natur
@@ -22087,7 +22087,7 @@ genießen	genießen
 
 und	und
 Maia	Maia
-kennten	kannten
+kennten	kennten
 diese	diese
 Leute	Leute
 also	also
@@ -22152,7 +22152,7 @@ nach	nach
 sehen	sehen
 sie	sie
 ,	,
-das	der
+das	das
 den	den
 Baum	Baum
 immer	immer
@@ -22213,23 +22213,23 @@ romantische	romantische
 Woche	Woche
 zusammen	zusammen
 entscheiden	entscheiden
-.	.
+.	,
 
 Ich	Ich
 offe	offe
-mich	mir
+mich	mich
 dass	dass
-du	es
-die	das
+du	du
+die	die
 richtige	richtige
 Wahl	Wahl
 nimmst	nimmst
-.	.
+.	:
 
 Als	Als
 sie	sie
 vor	vor
-den	den
+den	dem
 obst händler	Obsthändler
 steht	steht
 will	will
@@ -22239,11 +22239,11 @@ nachhause	nachhause
 gehen	gehen
 .	.
 
-und	und
+und	Und
 eine	eine
 andere	andere
 menge	Menge
-dumme	dumme
+dumme	dummer
 Spielen	Spiele
 .	.
 
@@ -22263,12 +22263,12 @@ vergessen	vergessen
 mitzunehmen	mitzunehmen
 .	.
 
-Sie	Die
+Sie	Sie
 hatte	hatte
-viele	viele
+viele	viel
 Obst	Obst
 kaufen	kaufen
-.	:
+.	.
 
 Erst	Erst
 jetzt	jetzt
@@ -22285,25 +22285,25 @@ vergessen	vergessen
 hat	hat
 .	.
 
-Heuzutage	Heutzutage
-dein	dein
-Problem	Problem
-ist	ist
-Problem	Problem
-von	von
-vielen	viele
-Menschen	Menschen
-.	.
+Heuzutage	<MISMATCH>
+dein	<MISMATCH>
+Problem	<MISMATCH>
+ist	<MISMATCH>
+Problem	<MISMATCH>
+von	<MISMATCH>
+vielen	<MISMATCH>
+Menschen	<MISMATCH>
+.	<MISMATCH>
 
-Sie	Sie
-sollten	sollten
-das	es
-genau	genau
-den	den
-Betreffenden	Betroffenen
-Menschen	Menschen
-erklaren	erklären
-.	.
+Sie	<MISMATCH>
+sollten	<MISMATCH>
+das	<MISMATCH>
+genau	<MISMATCH>
+den	<MISMATCH>
+Betreffenden	<MISMATCH>
+Menschen	<MISMATCH>
+erklaren	<MISMATCH>
+.	<MISMATCH>
 
 Dann	Dann
 sie	sie
@@ -22315,7 +22315,7 @@ genommen	genommen
 und	und
 sie	sie
 ist	ist
-im	im
+im	ins
 Supermarkt	Supermarkt
 gefahren	gefahren
 .	.
@@ -22334,7 +22334,7 @@ sein	sein
 Jetzt	Jetzt
 steht	steht
 sie	sie
-aber	aber
+aber	hier
 hier	hier
 ,	,
 ohne	ohne
@@ -22391,7 +22391,7 @@ In	In
 die	die
 Hütte	Hütte
 ist	ist
-rauchen	rauchen
+rauchen	Rauchen
 verboten	verboten
 .	.
 
@@ -22402,7 +22402,7 @@ eine	eine
 lustige	lustige
 Geschichte	Geschichte
 erzählt	erzählt
-.	.
+.	,
 
 machen	<MISMATCH>
 lerm	<MISMATCH>
@@ -22496,13 +22496,13 @@ mehr	mehr
 
 Es	Es
 Wenn	Wenn
-wir	wir
+wir	ihr
 nach	nach
 Griechenland	Griechenland
 fahren	fahren
-möchten	möchten
+möchten	möchte
 müssen	müssen
-wir	wir
+wir	ihr
 eine	eine
 lange	lange
 Reise	Reise
@@ -22525,12 +22525,12 @@ Nähe	Nähe
 .	.
 
 Kurz	Kurz
-Zeit	Zeit
+Zeit	zeit
 später	später
 ist	ist
 sie	sie
 im	im
-Supermarkt	Supermarkt
+Supermarkt	supermarkt
 gegangen	gegangen
 .	.
 
@@ -22558,7 +22558,7 @@ stehlen	stehlen
 sie	sie
 hat	hat
 nur	nur
-den	das
+den	den
 Brot	Brot
 in	in
 die	die
@@ -22589,7 +22589,7 @@ war	war
 heute	heute
 erst	erst
 Obst	Obst
-&	&
+&	-
 Gemüse	Gemüse
 beim	beim
 Händler	Händler
@@ -22612,15 +22612,15 @@ unsrem	unserem
 Seminar	Seminar
 .	.
 
-In	In
-der	der
-Schule	Schule
-alles	alles
-ok	okay
-?	.
+In	<MISMATCH>
+der	<MISMATCH>
+Schule	<MISMATCH>
+alles	<MISMATCH>
+ok	<MISMATCH>
+?	<MISMATCH>
 
 Ein	Ein
-Letztes	Letztes
+Letztes	letztes
 mal	Mal
 um-	und
 armten	armten
@@ -22673,9 +22673,9 @@ Sie	Sie
 müsste	müsste
 zuerst	zuerst
 die	die
-Gemüse	Gemüse
+Gemüse	Gemüses
 kaufen	kaufen
-.	,
+.	.
 
 Ich	Ich
 habe	habe
@@ -22683,28 +22683,28 @@ auch	auch
 viele	viele
 Erfahrungen	Erfahrungen
 bezüglich	bezüglich
-des	dem
-Internets	Internet
+des	des
+Internets	Internets
 .	.
 
 Letzte	Letzte
 Woche	Woche
 war	war
-Sie	sie
-in	im
+Sie	im
+in	-
 einem	einem
-Obst-	Obst
+Obst-	Obst-
 und	und
 Gemuselanden	Gemüseladen
 zu	zum
 einkaufen	Einkaufen
 .	.
 
-Ich	Ich
+Ich	auch
 habe	habe
 auch	auch
 einen	einen
-Internet-Freund	Internet-Freund
+Internet-Freund	Internetfreund
 .	.
 
 Die	Die
@@ -22737,11 +22737,11 @@ ist	ist
 heute	heute
 Morgen	Morgen
 etwas	etwas
-peinliches	Einliches
+peinliches	Peinliches
 passiert	passiert
 ,	;
 es	es
-hat	gab
+hat	hat
 ein	ein
 Problem	Problem
 im	im
@@ -22778,20 +22778,20 @@ so	so
 gut	gut
 wail	weil
 unter	unter
-eine	einem
+eine	einer
 Profil	Profile
 konnen	konnen
 vinden	finden
 eine	keine
 andere	anderen
-Person	Personen
+Person	Person
 .	.
 
 Mein	Mein
 Rat	Rat
 ist	ist
 :	:
-du	du
+du	Du
 muss	musst
 für	für
 ein	ein
@@ -22845,12 +22845,12 @@ Mal	Mal
 bezahlen	bezahlen
 !	!
 
-dänke	<MISMATCH>
-dass	<MISMATCH>
-er	<MISMATCH>
-tot	<MISMATCH>
-ist	<MISMATCH>
-.	<MISMATCH>
+dänke	denke
+dass	dass
+er	er
+tot	tot
+ist	ist
+.	.
 
 Meine	Meine
 Sie	Sie
@@ -22916,15 +22916,15 @@ jetzt	jetzt
 sie	sie
 ,	,
 immer	immer
-,	so
+,	,
 den	den
 Kassenzettel	Kassenzettel
 bringen	bringen
 und	und
-so	.
+so	so
 keine	keine
 Probleme	Probleme
-haben	haben
+haben	habe
 .	.
 
 Wir	Wir
@@ -22957,18 +22957,18 @@ Was	Was
 sie	sie
 eingekauft	eingekauft
 hatte	hatte
-blied	blieeb
+blied	blieb
 dort	dort
-im	am
+im	an
 Supermarkt	Supermarkt
-an	an
-die	der
+an	.
+die	die
 Kasse	Kasse
 .	.
 
 In	In
 die	den
-Winter	Wintern
+Winter	Winter
 kannst	kannst
 du	du
 Ski	Ski
@@ -23085,7 +23085,7 @@ viel	viel
 spazieren	spazieren
 und	und
 neue	neue
-Spezialitäte	Spezialität
+Spezialitäte	Spezialitäten
 von	von
 diesen	diesem
 Land	Land
@@ -23115,7 +23115,7 @@ gehen	gehen
 will	will
 .	.
 
-starb	starb
+starb	Starb
 am	am
 19	19
 Juni	Juni
@@ -23153,7 +23153,7 @@ bezogen	bezogen
 
 Ich	auch
 verspreche	verspreche
-dir	dir
+dir	mir
 auch	auch
 mal	mal
 mit	in
@@ -23181,31 +23181,31 @@ ohne	ohne
 vorher	vorher
 nachzufragen	nachzufragen
 den	den
-Ladendetektiv	Ladendetektiv
+Ladendetektiv	LadenDetektiv
 .	.
 
-Außerdem	Außerdem
-speichert	speichert
-sich	sich
-dort	dort
-die	die
-Hitze	Hitze
-und	und
-wir	wir
-können	können
-endlos	endlos
-lange	lange
-in	in
-der	der
-Nacht	Nacht
-im	im
-Sand	Sand
-liegen	liegen
-.	.
+Außerdem	<MISMATCH>
+speichert	<MISMATCH>
+sich	<MISMATCH>
+dort	<MISMATCH>
+die	<MISMATCH>
+Hitze	<MISMATCH>
+und	<MISMATCH>
+wir	<MISMATCH>
+können	<MISMATCH>
+endlos	<MISMATCH>
+lange	<MISMATCH>
+in	<MISMATCH>
+der	<MISMATCH>
+Nacht	<MISMATCH>
+im	<MISMATCH>
+Sand	<MISMATCH>
+liegen	<MISMATCH>
+.	<MISMATCH>
 
 Vor	Vor
 allem	allem
-wären	wären
+wären	würden
 wir	wir
 nicht	nicht
 so	so
@@ -23216,7 +23216,7 @@ dem	dem
 Camp	Camp
 und	und
 wir	wir
-könnten	könnten
+könnten	können
 eigentlich	eigentlich
 machen	machen
 was	was
@@ -23240,10 +23240,10 @@ Ich	dich
 freue	freue
 mich	mich
 darauf	darauf
-,	,
-Dich	mich
+,	.
+Dich	Dich
 bald	bald
-wiederzusehen	wiedersehen
+wiederzusehen	wiederzusehen
 .	.
 
 Die	Die
@@ -23255,12 +23255,12 @@ jetzt	jetzt
 geendet	endet
 .	.
 
-Ruft	Ruft
-mir	wir
-morgen	morgen
-und	uns
-sprechen	sprechen
-.	.
+Ruft	<MISMATCH>
+mir	<MISMATCH>
+morgen	<MISMATCH>
+und	<MISMATCH>
+sprechen	<MISMATCH>
+.	<MISMATCH>
 
 Die	Die
 Verkäuferin	Verkäuferin
@@ -23293,29 +23293,29 @@ nicht	nicht
 mehr	mehr
 .	.
 
-Schreibe	Schreibe
-mir	mir
-doch	doch
-bitte	bitte
-deine	deine
-Meinung	Meinung
-zurück	zurück
-.	,
+Schreibe	<MISMATCH>
+mir	<MISMATCH>
+doch	<MISMATCH>
+bitte	<MISMATCH>
+deine	<MISMATCH>
+Meinung	<MISMATCH>
+zurück	<MISMATCH>
+.	<MISMATCH>
 
-hat	hat
+hat	war
 die	die
 Hand	Hand
-geben	gegeben
+geben	geben
 und	und
 dem	dem
-Kofer	Koffer
+Kofer	Kofer
 bringen	bringen
 und	und
-in	in
+in	"
 den	den
 Zug	Zug
 steigen	steigen
-.	.
+.	(
 
 Es	,
 Sie	sie
@@ -23349,12 +23349,12 @@ an	an
 .	.
 
 Die	Die
-Kassierin	Kassierin
+Kassierin	Kassiererin
 hat	hat
 sie	sie
 gesagt	gesagt
 ,	,
-dass	dass
+dass	das
 sie	sie
 Obst	Obst
 und	und
@@ -23418,8 +23418,8 @@ Sonne	Sonne
 Strand	Strand
 und	und
 Meer	Meer
-,	.
-wir	Wir
+,	,
+wir	wir
 könnten	könnten
 den	den
 ganzen	ganzen
@@ -23473,11 +23473,11 @@ schon	schon
 lange	lange
 nicht	nicht
 mehr	Meer
-am	.
+am	,
 Meer	Meer
-.	.
-.	.
-.	.
+.	es
+.	zu
+.	,
 
 Sie	Sie
 konnte	konnte
@@ -23488,10 +23488,10 @@ finden	finden
 ,	,
 weil	weil
 sie	sie
-ihn	ihn
-in	in
+ihn	im
+in	-
 dem	dem
-Obst-	Obst
+Obst-	Obst-
 und	und
 Gemüseladen	Gemüseladen
 vergessen	vergessen
@@ -23527,7 +23527,7 @@ gehen	gehen
 immer	immer
 zusammen	zusammen
 in	in
-der	der
+der	die
 Schule	Schule
 .	.
 
@@ -23535,7 +23535,7 @@ In	Sie
 Sie	Sie
 sagte	sagte
 :	:
-«	«
+«	"
 Ja	Ja
 ,	,
 ich	ich
@@ -23547,7 +23547,7 @@ sie	sie
 hat	hat
 Salat	Salat
 und	und
-Broten	Brote
+Broten	Brot
 in	in
 meinem	meinem
 Obst-	Obst
@@ -23555,12 +23555,12 @@ und	und
 Gemüseladen	Gemüseladen
 gekauft	gekauft
 !	!
-»	»
+»	"
 
 fragte	fragte
 leise	leise
 :	:
-„	„
+„	"
 Was	Was
 ,	,
 wollen	wollen
@@ -23590,7 +23590,7 @@ kennenzulernen	kennenzulernen
 Wenn	Wenn
 du	du
 mit	mit
-jemand	jemandem
+jemand	jemand
 sprechen	sprechen
 möchtest	möchtest
 ,	,
@@ -23599,8 +23599,8 @@ du	du
 mir	mich
 schreiben	schreiben
 .	.
-.	.
-.	.
+.	,
+.	du
 
 Wollen	Sollen
 wir	wir
@@ -23609,62 +23609,62 @@ vielleicht	vielleicht
 treffen	treffen
 und	und
 zum	zum
-Stall	Stall
+Stall	Stallen
 fahren	fahren
 ?	?
 
-Hallo	Hallo
-Paul	Paul
-Ich	ich
-denke	denke
-,	,
-dass	dass
-du	du
-Recht	recht
-gemacht	gemacht
-hat	hast
-.	.
+Hallo	<MISMATCH>
+Paul	<MISMATCH>
+Ich	<MISMATCH>
+denke	<MISMATCH>
+,	<MISMATCH>
+dass	<MISMATCH>
+du	<MISMATCH>
+Recht	<MISMATCH>
+gemacht	<MISMATCH>
+hat	<MISMATCH>
+.	<MISMATCH>
 
-tragt	trägt
-seine	seine
-Schultasche	Schultasche
-raus	raus
-und	und
-schmeist	schmeißt
-seine	seine
-Diktate	Diktate
-und	und
-Test arbeite	Test arbeite
-ins	ins
-Feuer	Feuer
-.	.
+tragt	<MISMATCH>
+seine	<MISMATCH>
+Schultasche	<MISMATCH>
+raus	<MISMATCH>
+und	<MISMATCH>
+schmeist	<MISMATCH>
+seine	<MISMATCH>
+Diktate	<MISMATCH>
+und	<MISMATCH>
+Test arbeite	<MISMATCH>
+ins	<MISMATCH>
+Feuer	<MISMATCH>
+.	<MISMATCH>
 
 So	sie
 Zuerst	Zuerst
 hat	hat
-sie	in
-einem	einem
+sie	sie
+einem	einen
 Obst-	Obst
 und	und
 Gemüseladen	Gemüseladen
 einkaufen	einkaufen
 .	.
 
-Sie	Die
+Sie	Sie
 wollte	wollte
-10	:
+10	10
 kg	kg
 Hackfleisch	Hackfleisch
 kaufen	kaufen
-.	.
+.	,
 
 In	In
 den	den
 Bergen	Bergen
-ist	ist
-man	man
+ist	bist
+man	in
 viel	viel
-in	in
+in	und
 der	der
 Natur	Natur
 und	und
@@ -23687,7 +23687,7 @@ Meine	Meine
 Freundin	Freundin
 Maria	Maria
 ist	ist
-letzte	letzte
+letzte	letztens
 Woche	Woche
 einkaufen	einkaufen
 gegangen	gegangen
@@ -23698,23 +23698,23 @@ sie	sie
 an	an
 der	der
 Kasse	Kasse
-Zahlen	Zahlen
+Zahlen	zahlen
 wollte	wollte
-hat	hat
+hat	hatte
 sie	sie
 die	die
 Kassierin	Kassierin
 gefragt	gefragt
 was	was
 in	in
-der	der
+der	sei
 Tasche	Tasche
 ist	ist
 .	.
 
 Nachteile	Nachteile
 für	für
-die	die
+die	den
 Alpen	Alpen
 sind	sind
 allerdings	allerdings
@@ -23733,7 +23733,7 @@ Einheimischen	Einheimischen
 Es	Es
 ist	ist
 ein	ein
-Größe	größere
+Größe	Größe
 Park	Park
 wo	wo
 die	die
@@ -23759,7 +23759,7 @@ Tasche	Tasche
 hatte	hatte
 ,	,
 wurde	wurde
-im	im
+im	vom
 Supermarkt	Supermarkt
 von	von
 Ihr	ihr
@@ -23774,8 +23774,8 @@ Internet	Internet
 kann	kann
 auch	auch
 eine	eine
-Schutztmaske	Schutzmaske
-zugunste	zugunsten
+Schutztmaske	Schutzmask
+zugunste	zugunst
 von	von
 Betrügern	Betrügern
 .	.
@@ -23819,7 +23819,7 @@ Mitschüler	Mitschüler
 gesprungen	gesprungen
 und	und
 Zahra	Zahra
-erschreckte	erschrockte
+erschreckte	erschrock
 sich	sich
 zu	zu
 töde	töde
@@ -23840,27 +23840,27 @@ wusste	wusste
 
 Alle	Alle
 Die	Die
-virtuelle	virtuelle
+virtuelle	virtuellen
 Freundschaften	Freundschaften
 sind	sind
 nicht	nicht
 Freundschaften	Freundschaften
 weil	weil
-du	du
+du	die
 nicht	nicht
 die	die
-Leute	Leuten
-in	in
+Leute	Leute
+in	.
 Realität	Realität
-sieht	nicht
+sieht	sieht
 .	.
 
-Er	<MISMATCH>
-wollte	<MISMATCH>
-ihre	<MISMATCH>
-Personalien	<MISMATCH>
-wissen	<MISMATCH>
-.	<MISMATCH>
+Er	Er
+wollte	wollte
+ihre	ihre
+Personalien	Personaliens
+wissen	wissen
+.	.
 
 Ich	Ich
 denke	denkt
@@ -23927,14 +23927,14 @@ substituiren	substituieren
 
 Hallo	Hallo
 Lisa	Lisa
-,	.
-wie	wie
+,	!
+wie	Wie
 geht	geht
 es	es
 dir	dir
 ?	?
 
-Ich	Ich
+Ich	mich
 möchte	möchte
 dich	dich
 bitten	bitten
@@ -23957,12 +23957,12 @@ hinterlasse	hinterlassen
 
 Ich	Ich
 habe	habe
-deiner	deiner
-Artikel	Artikel
+deiner	deines
+Artikel	Artikels
 in	in
 der	der
 "	"
-Persönliche	Persönlichem
+Persönliche	Persönlichen
 Briefe	Briefe
 "	"
 der	der
@@ -23986,7 +23986,7 @@ mit	mit
 den	dem
 Feuer	Feuer
 in	in
-der	der
+der	dem
 Haus	Haus
 ,	.
 dann	Dann
@@ -24015,7 +24015,7 @@ hinüber	hinüber
 und	und
 ich	ich
 sehe	sehe
-wie	wie
+wie	sie
 sie	sie
 weint	weint
 ,	,
@@ -24047,13 +24047,13 @@ konnte	konnte
 nach	nach
 Hause	Hause
 gehen	gehen
-!	.
+!	!
 
-wird	wird
-es	es
+wird	mir
+es	,
 mir	mir
-hier	hier
-echt	echt
+hier	aber
+echt	ich
 zu	zu
 gruselig	gruselig
 .	.
@@ -24106,12 +24106,12 @@ viele	viele
 virtuelle	virtuelle
 Freunde	Freunde
 und	und
-Heute	heutige
+Heute	Heute
 eine	eine
 von	von
 diesen	diesen
 "	"
-virtuelle	virtueller
+virtuelle	Virtueller
 Freund	Freund
 mein	mein
 beste	beste
@@ -24169,12 +24169,12 @@ kennengelernt	kennengelernt
 .	.
 
 Diese	Diese
-Madchen	Mädchen
+Madchen	Madchen
 kann	kann
 aber	aber
 auch	auch
-ein	ein
-Man	Mann
+ein	eine
+Man	Man
 sein	sein
 und	und
 ich	ich
@@ -24249,14 +24249,14 @@ ist	ist
 gering	gering
 .	.
 
-Danach	Danach
-bin	bin
-ich	ich
-in	in
-einem	einem
-Gemüseladen	Gemüseladen
-gegangen	gegangen
-.	.
+Danach	<MISMATCH>
+bin	<MISMATCH>
+ich	<MISMATCH>
+in	<MISMATCH>
+einem	<MISMATCH>
+Gemüseladen	<MISMATCH>
+gegangen	<MISMATCH>
+.	<MISMATCH>
 
 Wir	Wir
 will	will
@@ -24270,7 +24270,7 @@ Wochen	Wochen
 .	.
 
 Jetzt	Jetzt
-ist	ist
+ist	Ihr
 ihr	ihr
 ganz	ganz
 langweilig	langweilig
@@ -24285,7 +24285,7 @@ sie	sie
 wißen	wissen
 nicht	nicht
 was	was
-da	da
+da	war
 war	war
 .	.
 
@@ -24324,7 +24324,7 @@ das	das
 Abendessen	Abendessen
 endlich	endlich
 kochen	kochen
-!	.
+!	!
 
 Wenn	Wenn
 wir	wir
@@ -24368,7 +24368,7 @@ ist	ist
 nicht	nicht
 immer	immer
 das	das
-richtiges	richtige
+richtiges	richtig
 .	.
 
 Unglaublich	Unglaublich
@@ -24377,7 +24377,7 @@ wie	wie
 schnell	schnell
 man	man
 wie	wie
-ein	einem
+ein	ein
 Verbrecher	Verbrecher
 behandelt	behandelt
 wird	wird
@@ -24419,7 +24419,7 @@ Sie	Sie
 weiß	weiß
 es	es
 nicht	nicht
-.	.
+.	,
 
 Lieber	Lieber
 Paul	Paul
@@ -24574,10 +24574,10 @@ die	die
 Personen	Personen
 mit	mit
 denen	denen
-du	du
+du	,
 schreibst	schreibst
-dir	dir
-nicht	nicht
+dir	für
+nicht	mich
 total	total
 fremd	fremd
 sind	sein
@@ -24640,7 +24640,7 @@ dass	dass
 wir	Wir
 wen	wen
 neue	neuen
-Mädchen	Mädchen
+Mädchen	Mädchens
 kennenlernen	kennenlernen
 wollen	wollen
 ,	am
@@ -24650,7 +24650,7 @@ nicht	nicht
 am	,
 Facebook	Facebook
 oder	der
-im	,
+im	im
 Internet	Internet
 chatten	chatten
 aber	oder
@@ -24674,7 +24674,7 @@ kennenlernen	kennenlernen
 
 Sie	Sie
 ist	ist
-erster	erst
+erster	erster
 in	in
 einem	einem
 Obst-	Obst
@@ -24716,7 +24716,7 @@ würde	würden
 uns	uns
 früh	früher
 treffen	treffen
-!	.
+!	!
 
 schreie	Schreie
 im	im
@@ -24745,13 +24745,13 @@ den	den
 Mädels	Mädels
 .	.
 
-Jenny	Jenny
-Ich	Ich
-habe	habe
-mich	mich
-darüber	darüber
-informiert	informiert
-.	,
+Jenny	<MISMATCH>
+Ich	<MISMATCH>
+habe	<MISMATCH>
+mich	<MISMATCH>
+darüber	<MISMATCH>
+informiert	<MISMATCH>
+.	<MISMATCH>
 
 Aber	Aber
 ich	ich
@@ -24779,26 +24779,26 @@ ob	ob
 jemand	jemand
 mit	mit
 einer	einer
-realen	realen
+realen	reellen
 Person	Person
-chattet	chattet
+chattet	chatty
 .	.
 
-Ich	Ich
-möchte	möchte
-dir	dir
-helfen	helfen
-und	und
-ich	ich
-denke	denke
-,	,
-dass	dass
-du	du
-diesen	diese
-Nachrichten	Nachrichten
-antworten	antworten
-sollest	solltest
-.	.
+Ich	<MISMATCH>
+möchte	<MISMATCH>
+dir	<MISMATCH>
+helfen	<MISMATCH>
+und	<MISMATCH>
+ich	<MISMATCH>
+denke	<MISMATCH>
+,	<MISMATCH>
+dass	<MISMATCH>
+du	<MISMATCH>
+diesen	<MISMATCH>
+Nachrichten	<MISMATCH>
+antworten	<MISMATCH>
+sollest	<MISMATCH>
+.	<MISMATCH>
 
 In	In
 dieser	dieser
@@ -24816,14 +24816,14 @@ verbringen	verbringen
 werden	werden
 .	.
 
-Liebe	Lieber
-Stephanie	Stephanie
-,	,
-wie	wie
-geht	geht
-es	es
-dir	dir
-?	?
+Liebe	<MISMATCH>
+Stephanie	<MISMATCH>
+,	<MISMATCH>
+wie	<MISMATCH>
+geht	<MISMATCH>
+es	<MISMATCH>
+dir	<MISMATCH>
+?	<MISMATCH>
 
 Welche	<MISMATCH>
 ist	<MISMATCH>
@@ -24890,8 +24890,8 @@ Deine	Deine
 Serena	Serena
 
 Wenn	Wenn
-ich	ich
-zurück komme	zurückkomme
+ich	ihr
+zurück komme	zurück komme
 müssen	müssen
 wir	wir
 sofort	sofort
@@ -24903,13 +24903,13 @@ viel	viel
 plaudern	plaudern
 .	.
 
-Kannst	kann
-du	es
-dich	dich
-die	mir
-Szenen	Szenen
-vorstellen	vorstellen
-?	.
+Kannst	<MISMATCH>
+du	<MISMATCH>
+dich	<MISMATCH>
+die	<MISMATCH>
+Szenen	<MISMATCH>
+vorstellen	<MISMATCH>
+?	<MISMATCH>
 
 Eigentlich	Eigentlich
 wollte	wollte
@@ -24970,7 +24970,7 @@ dir	dir
 Die	Die
 Kassiererin	Kassiererin
 wurde	wurde
-sie	die
+sie	sie
 zornig	zornig
 und	und
 rufte	rufte
@@ -25009,7 +25009,7 @@ bin	bin
 noch	noch
 nicht	nicht
 sicher	sicher
-wohin	wohin
+wohin	hin
 zu	zu
 fahren	fahren
 .	.
@@ -25071,11 +25071,11 @@ blockieren	blockieren
 ,	,
 so	so
 dass	dass
-Sie	Sie
+Sie	sie
 dich	dich
 nicht	nicht
 mehr	mehr
-ereichen	erreichen
+ereichen	ereichen
 konnen	können
 .	.
 
@@ -25103,7 +25103,7 @@ chatten	chatten
 
 nächsten	nächsten
 Morgen	Morgen
-ging	gingen
+ging	ging
 die	die
 ganze	ganze
 Familie	Familie
@@ -25117,8 +25117,8 @@ denke	denke
 nicht	nicht
 so	so
 schlecht	schlecht
-.	,
-.	!
+.	.
+.	.
 .	.
 .	.
 
@@ -25155,10 +25155,10 @@ Dutzend	Dutzend
 Eier	Eier
 .	.
 
-"	,
+"	"
 Überflüssiges	Überflüssiges
 Papier	Papier
-"	.
+"	"
 ,	,
 sagt	sagt
 sie	sie
@@ -25179,14 +25179,14 @@ Ich	Ich
 hoffe	hoffe
 dieses	dieses
 Argument	Argument
-wird	wird
+wird	wie
 dich	dich
-überzeugen	überzeugt
+überzeugen	überzeugen
 ,	,
 ansonsten	ansonsten
 schreib	schreib
 mir	mir
-so	so
+so	zu
 schnell	schnell
 wie	wie
 möglich	möglich
@@ -25198,7 +25198,7 @@ mal	mal
 zwei	zwei
 Mädchen	Mädchen
 sie	sie
-hießen	hießen
+hießen	hieben
 Laura	Laura
 und	und
 Karin	Karin
@@ -25212,8 +25212,8 @@ erzählten	erzählten
 ,	,
 dass	dass
 sie	sie
-raufgeklettert	raufgeklettert
-sind	sind
+raufgeklettert	rausgeklettern
+sind	und
 und	und
 sich	sich
 nicht	nicht
@@ -25227,8 +25227,8 @@ Der	Der
 ist	ist
 letzte	letzte
 Woche	Woche
-was	das
-Komisches	Komische
+was	etwas
+Komisches	Komisches
 passiert	passiert
 .	.
 
@@ -25262,15 +25262,15 @@ von	von
 ihren	ihren
 brennten	brennten
 Haus	Hut
-mit	in
+mit	im
 Hut	Hut
 ,	,
-eine	einer
+eine	eine
 Pfeife	Pfeife
-,	.
+,	,
 im	im
 Ball	Ball
-eine	eine
+eine	einem
 Schultasche	Schultasche
 und	und
 eine	eine
@@ -25279,7 +25279,7 @@ Pferd	Pferd
 
 Max	Max
 Sie	Sie
-sind	sind
+sind	seid
 nicht	nicht
 Freunden	Freunde
 ,	,
@@ -25297,7 +25297,7 @@ habe	habe
 eine	eine
 Jung	Jung
 gesehen	gesehen
-.	.
+.	,
 
 Ich	<MISMATCH>
 warte	<MISMATCH>
@@ -25319,7 +25319,7 @@ und	und
 die	die
 Soßen	Soßen
 für	für
-heute	Heut
+heute	heut
 Abend	Abend
 kaufen	kaufen
 .	.
@@ -25328,7 +25328,7 @@ musst	musst
 ihn	ihn
 futtern	füttern
 und	und
-Zuwendungen	Zuwendungen
+Zuwendungen	zuwendungen
 geben	geben
 .	.
 "	"
@@ -25342,7 +25342,7 @@ Gesicht	Gesicht
 sowie	sowie
 auch	auch
 das	das
-ihrer	ihrer
+ihrer	ihres
 Mutter	Mutter
 .	.
 
@@ -25380,7 +25380,7 @@ sie	sie
 konnte	konnte
 im	im
 Supermarkt	Supermarkt
-einkaufen	einkehren
+einkaufen	einkaufen
 .	.
 
 Du	Du
@@ -25450,7 +25450,7 @@ dass	dass
 sie	sie
 ein	ein
 Abendessen	Abendessen
-zubereitet	zubereitet
+zubereitet	zubereitete
 .	.
 
 Meine	Meine
@@ -25459,20 +25459,20 @@ Maria	Maria
 war	war
 letzte	letzte
 Woche	Woche
-einkaufen	Einkaufen
-.	.
+einkaufen	einkaufen
+.	,
 
 Wie	Wie
 schon	schon
 besprochen	besprochen
 ,	Es
 gibt	gibt
-es	,
-im	wie
+es	.
+im	im
 Grunde	Grunde
 zwei	zwei
 Möglichkeiten	Möglichkeiten
-.	,
+.	.
 
 Man	Man
 braucht	braucht
@@ -25493,20 +25493,20 @@ Problem	Problem
 an	an
 der	der
 Kasse	Kasse
-!	.
+!	!
 
-Hallo	Hallo
-Paul	Paul
-,	,
-ich	ich
-denke	denke
-dass	dass
-du	du
-mit	mit
-chatten	chatten
-stop	stop
-musst	musst
-.	.
+Hallo	<MISMATCH>
+Paul	<MISMATCH>
+,	<MISMATCH>
+ich	<MISMATCH>
+denke	<MISMATCH>
+dass	<MISMATCH>
+du	<MISMATCH>
+mit	<MISMATCH>
+chatten	<MISMATCH>
+stop	<MISMATCH>
+musst	<MISMATCH>
+.	<MISMATCH>
 
 nimmt	nimmt
 die	die
@@ -25518,17 +25518,17 @@ den	den
 Zug	Zug
 .	.
 
-Bevor	Bevor
-Ich	Ich
-habe	habe
-schon	schon
-entscheiden	entschieden
-ich	ich
-wollte	wollte
-jetzt	jetzt
-deine	deine
-meinung	Meinung
-.	.
+Bevor	<MISMATCH>
+Ich	<MISMATCH>
+habe	<MISMATCH>
+schon	<MISMATCH>
+entscheiden	<MISMATCH>
+ich	<MISMATCH>
+wollte	<MISMATCH>
+jetzt	<MISMATCH>
+deine	<MISMATCH>
+meinung	<MISMATCH>
+.	<MISMATCH>
 
 Dort	Dort
 gibt	gibt
@@ -25557,7 +25557,7 @@ Lebensmittel	Lebensmittel
 aus	aus
 der	der
 Tasche	Tasche
-guckten	guckten
+guckten	guckt
 !	!
 
 Meine	Meine
@@ -25580,8 +25580,8 @@ Gemüseladen	Gemüseladen
 .	.
 
 Also	also
-,	,
-wir	mit
+,	.
+wir	wir
 Mädchen	Mädchen
 wollten	wollten
 gestern	gestern
@@ -25616,8 +25616,8 @@ auf	auf
 als	als
 ich	ich
 mich	mich
-umgedreht	umgedreht
-sah	sah
+umgedreht	umdrehte
+sah	sahe
 ich	ich
 die	die
 alte	alte
@@ -25632,7 +25632,7 @@ die	die
 sie	sie
 mir	mir
 fast	fast
-im	im
+im	in
 Magen	Magen
 einsteckte	einsteckte
 .	.
@@ -25648,40 +25648,40 @@ da	da
 hörte	hörte
 ich	ich
 einen	einen
-furchterregenden	furchterregenden
+furchterregenden	furchtErregenden
 Schrei	Schrei
 .	.
 
-Sofort	Sofort
-weiß	weiß
-nicht	nicht
-wie	wie
-das	das
-passieren	passieren
-sein	sein
-konnte	konnte
-!	!
-!	!
+Sofort	<MISMATCH>
+weiß	<MISMATCH>
+nicht	<MISMATCH>
+wie	<MISMATCH>
+das	<MISMATCH>
+passieren	<MISMATCH>
+sein	<MISMATCH>
+konnte	<MISMATCH>
+!	<MISMATCH>
+!	<MISMATCH>
 
 Es	Der
 Der	Der
 Zug	Zug
-starten	startet
+starten	startete
 und	und
-ließ	sie
+ließ	ließ
 sie	sie
 aus	aus
 .	.
 
-Ich	Ich
-denke	denke
-das	dass
-virtuelle	virtuellen
-Freundschaften	Freundschaften
-nicht	nicht
-gut	gut
-sind	sind
-.	.
+Ich	<MISMATCH>
+denke	<MISMATCH>
+das	<MISMATCH>
+virtuelle	<MISMATCH>
+Freundschaften	<MISMATCH>
+nicht	<MISMATCH>
+gut	<MISMATCH>
+sind	<MISMATCH>
+.	<MISMATCH>
 
 Du	Du
 hat	hast
@@ -25703,12 +25703,12 @@ Bon	Bon
 nicht	nicht
 finden	finden
 ,	,
-Die	Die
+Die	die
 Kassiererin	Kassiererin
 rief	rief
 sofort	sofort
 den	den
-Geschäftsführer	Geschäftsführer
+Geschäftsführer	Geschäftsleiter
 um	um
 die	die
 vermeintliche	vermeintliche
@@ -25730,8 +25730,8 @@ ist	ist
 von	von
 Polizisten	Polizisten
 festgenommen	festgenommen
-worden	worden
-,	.
+worden	werden
+,	!
 erzahle	erzähle
 ich	ich
 die	die
@@ -25760,7 +25760,7 @@ stammten	stammten
 und	und
 Maria	Maria
 diese	diese
-vorhatte	vorhatte
+vorhatte	vorhätte
 zu	zu
 klauen	klauen
 .	.
@@ -25770,7 +25770,7 @@ Meer	Meer
 werden	werden
 wir	wir
 lange	lange
-Baden	Bade
+Baden	baden
 machen	machen
 und	und
 natürlich	natürlich
@@ -25778,7 +25778,7 @@ können	können
 wir	wir
 immer	immer
 schwimmen	schwimmen
-!	!
+!	.
 
 Bald	Bald
 wirst	wirst
@@ -25804,7 +25804,7 @@ werden	werden
 .	.
 
 Die	Die
-Bergen	Bergen
+Bergen	Berge
 aber	aber
 das	das
 Meer	Meer
@@ -25813,7 +25813,7 @@ entscheiden	entscheiden
 
 Die	Die
 Frau	Frau
-versuchte	versuchte
+versuchte	versucht
 zu	zu
 erklären	erklären
 was	was
@@ -25873,7 +25873,7 @@ ihrer	ihrer
 Tasche	Tasche
 nach	nach
 dem	dem
-Kassazettel	Kassazettel
+Kassazettel	Kassenzettel
 zu	zu
 suchen	suchen
 ,	,
@@ -25881,23 +25881,23 @@ doch	doch
 vergeben	vergeben
 .	.
 
-Ich	Ich
-muss	muss
-dir	dir
-etwas	etwas
-erzählen	erzählen
-,	,
-was	das
-mir	mir
-echt	echt
-peinlich	peinlich
-ist	ist
-!	.
+Ich	<MISMATCH>
+muss	<MISMATCH>
+dir	<MISMATCH>
+etwas	<MISMATCH>
+erzählen	<MISMATCH>
+,	<MISMATCH>
+was	<MISMATCH>
+mir	<MISMATCH>
+echt	<MISMATCH>
+peinlich	<MISMATCH>
+ist	<MISMATCH>
+!	<MISMATCH>
 
 In	In
 dieser	diesem
 Fall	Fall
-sollt	soll
+sollt	sollte
 es	es
 kostenlos	kostenlos
 sein	sein
@@ -25952,13 +25952,13 @@ geglaubt	geglaubt
 Ich	Ich
 möchte	möchte
 gern	gerne
-ans	ins
+ans	ans
 Meer	Meer
 gehen	gehen
 ,	,
 weil	weil
 es	es
-wärmer	wärmer
+wärmer	warmer
 ist	ist
 
 Hallo	Hallo
@@ -25971,7 +25971,7 @@ virtuelle	virtuelle
 Freundschaften	Freundschaften
 
 geht	geht
-Marie	Maria
+Marie	Marie
 mit	mit
 ihrer	ihrer
 Mutter	Mutter
@@ -26015,7 +26015,7 @@ schon	schon
 mit	mit
 diese	diesen
 Leuten	Leuten
-chatten	chatten
+chatten	chattet
 aber	aber
 du	du
 musstest	mussttest
@@ -26057,7 +26057,7 @@ denn	denn
 können	können
 wir	wir
 einige	einige
-Disco	Disko
+Disco	Disco
 und	und
 Platze	Plätze
 wo	wo
@@ -26078,12 +26078,12 @@ die	die
 ich	ich
 in	im
 Internet	Internet
-kenne	kennen
+kenne	kenne
 zu	zu
 sehen	sehen
 !	!
 
-Als	Als
+Als	als
 sie	sie
 an	an
 der	der
@@ -26145,14 +26145,14 @@ Kino	Kino
 ecc	ecc
 .	.
 
-Du	Du
-solltest	solltest
-in	in
-einen	eine
-psychologische	psychologische
-zentunrum	zentunrum
-gehen	gehen
-.	.
+Du	<MISMATCH>
+solltest	<MISMATCH>
+in	<MISMATCH>
+einen	<MISMATCH>
+psychologische	<MISMATCH>
+zentunrum	<MISMATCH>
+gehen	<MISMATCH>
+.	<MISMATCH>
 
 Wenn	Wenn
 wir	wir
@@ -26163,7 +26163,7 @@ fahren	fahren
 könnten	könnten
 wir	wir
 nach	nach
-Nizza	Nizza
+Nizza	Niça
 fahren	fahren
 .	.
 
@@ -26190,14 +26190,14 @@ verschwand	verschwand
 
 Jetzt	Jetzt
 sagte	sagte
-ich	ich
-dir	mir
+ich	Ich
+dir	du
 etwas	etwas
-:	,
-auch	auch
+:	:
+auch	Ich
 ich	ich
-habe	habe
-mit	mit
+habe	hast
+mit	mir
 vielen	vielen
 Personen	Personen
 gechattet	gechattet
@@ -26206,45 +26206,45 @@ wegen	wegen
 dieses	dieses
 Grund	Grund
 verstehe	verstehe
-ich	ich
+ich	auch
 deine	deine
 Situation	Situation
-.	.
+.	du
 
 Beppo	Beppo
 ,	,
 Beppo	Beppo
 !	!
 !	!
-!	!
+!	"
 "	,
 rief	rief
 Nele	Nele
-,	er
+,	,
 doch	doch
-er	.
+er	er
 kam	kam
 nicht	nicht
 zurück	zurück
 .	.
 
-„	„
-Ich	Ich
-habe	habe
-eine	eine
-andae	andere
-Frage	Frage
-für	für
-dich	dich
-:	:
-Was	Was
-denkst	denkst
-du	du
-über	über
-die	die
-virtuelle	virtuelle
-Freundschaften	Freundschaften
-?	?
+„	<MISMATCH>
+Ich	<MISMATCH>
+habe	<MISMATCH>
+eine	<MISMATCH>
+andae	<MISMATCH>
+Frage	<MISMATCH>
+für	<MISMATCH>
+dich	<MISMATCH>
+:	<MISMATCH>
+Was	<MISMATCH>
+denkst	<MISMATCH>
+du	<MISMATCH>
+über	<MISMATCH>
+die	<MISMATCH>
+virtuelle	<MISMATCH>
+Freundschaften	<MISMATCH>
+?	<MISMATCH>
 
 Meinen	Meinen
 Urlaub	Urlaub
@@ -26252,7 +26252,7 @@ letzten	letzten
 Sommer	Sommer
 habe	habe
 ich	ich
-am	an
+am	am
 Meer	Meer
 in	in
 Spanien	Spanien
@@ -26268,7 +26268,7 @@ Urlaub	Urlaub
 am	am
 Meer	Meer
 viele	viele
-Vorteile	Vorteile
+Vorteile	vorteile
 mit	mit
 sich	sich
 bringt	bringt
@@ -26297,17 +26297,17 @@ lassen	lassen
 kann	kann
 .	.
 
-Und	Und
-wenn	wenn
-du	du
-anderen	anderen
-Ideen	Ideen
-hast	hast
-,	,
-bitte	bitte
-sag	sage
-mir	mir
-!	!
+Und	<MISMATCH>
+wenn	<MISMATCH>
+du	<MISMATCH>
+anderen	<MISMATCH>
+Ideen	<MISMATCH>
+hast	<MISMATCH>
+,	<MISMATCH>
+bitte	<MISMATCH>
+sag	<MISMATCH>
+mir	<MISMATCH>
+!	<MISMATCH>
 
 Zum	Zum
 Glück	Glück
@@ -26342,16 +26342,16 @@ die	die
 aus	aus
 unserem	unserem
 Physikkurs	Physikkurs
-!	.
+!	-
 
 Sie	seid
 sind	sind
 nicht	nicht
-wahre	wahren
+wahre	wahre
 Freunde	Freunde
 ,	,
 du	du
-kennst	kennst
+kennst	kennt
 ihnen	ihnen
 nicht	nicht
 wirklich	wirklich
@@ -26372,19 +26372,19 @@ es	es
 dir	dir
 ?	?
 
-Ich	Ich
-würde	würde
-mich	mich
-über	über
-eine	eine
-Antwort	Antwort
-von	von
-dir	dir
-sehr	sehr
-freuen	freuen
-,	,
-liebste	liebsten
-Grüße	Grüßen
+Ich	<MISMATCH>
+würde	<MISMATCH>
+mich	<MISMATCH>
+über	<MISMATCH>
+eine	<MISMATCH>
+Antwort	<MISMATCH>
+von	<MISMATCH>
+dir	<MISMATCH>
+sehr	<MISMATCH>
+freuen	<MISMATCH>
+,	<MISMATCH>
+liebste	<MISMATCH>
+Grüße	<MISMATCH>
 
 kam	kam
 auch	auch
@@ -26463,9 +26463,9 @@ hat	hat
 Eine	Eine
 Stunde	Stunde
 später	später
-ist	ist
+ist	im
 sie	sie
-in	in
+in	,
 den	den
 Supermarkt	Supermarkt
 gegangen	gegangen
@@ -26489,7 +26489,7 @@ wunderbare	wunderbare
 Anblick	Anblick
 .	.
 
-Ich	Ich
+Ich	nicht
 möchte	möchte
 dir	dir
 einen	einen
@@ -26503,15 +26503,15 @@ solltest	solltest
 das	das
 Internet	Internet
 nicht	nicht
-so	so
+so	"
 viel	viel
 benutzen	benutzen
 und	und
 etwas	etwas
 mit	mit
 "	"
-echte	echten
-"	"
+echte	echte
+"	.
 Menschen	Menschen
 anfangen	anfangen
 .	.
@@ -26525,19 +26525,19 @@ zum	zum
 Obsthändler	Obsthändler
 ,	,
 damit	damit
-dieser	dieser
+dieser	diese
 Marias	Marias
 Aussage	Aussage
 bestätigen	bestätigen
 kann	kann
 .	.
 
-Du	Du
-musst	musst
-auch	auch
-mehr	mehr
-aufpassen	aufpassen
-.	.
+Du	<MISMATCH>
+musst	<MISMATCH>
+auch	<MISMATCH>
+mehr	<MISMATCH>
+aufpassen	<MISMATCH>
+.	<MISMATCH>
 
 flüstert	flüstert
 ihr	ihr
@@ -26568,23 +26568,23 @@ zu	zu
 haben	haben
 .	.
 
-Ich	Ich
-denke	denke
-dass	dass
-du	du
-gut	gut
-macht	machst
-!	!
+Ich	<MISMATCH>
+denke	<MISMATCH>
+dass	<MISMATCH>
+du	<MISMATCH>
+gut	<MISMATCH>
+macht	<MISMATCH>
+!	<MISMATCH>
 
-Schreibst	Schreibst
-bitte	bitte
-mir	mir
-was	was
-du	du
-getun	getan
-wird	wird
-solltest	solltest
-.	.
+Schreibst	<MISMATCH>
+bitte	<MISMATCH>
+mir	<MISMATCH>
+was	<MISMATCH>
+du	<MISMATCH>
+getun	<MISMATCH>
+wird	<MISMATCH>
+solltest	<MISMATCH>
+.	<MISMATCH>
 
 Es	Es
 gibt	gibt
@@ -26625,7 +26625,7 @@ am	am
 nächsten	nächsten
 Morgen	Morgen
 nicht	nicht
-nochmal	nochmal
+nochmal	nochmals
 einkaufen	einkaufen
 ,	,
 da	da
@@ -26639,7 +26639,7 @@ konnte	konnte
 
 Außerdem	Außerdem
 wäre	wäre
-die	die
+die	Die
 Einsamkeit	Einsamkeit
 und	und
 Ruhe	Ruhe
@@ -26682,7 +26682,7 @@ ist	ist
 eine	eine
 schwere	schwere
 Entscheidung	Entscheidung
-!	!
+!	.
 !	!
 
 Ich	ist
@@ -26700,7 +26700,7 @@ der	der
 man	man
 nicht	nicht
 kennt	kennt
-zu	zu
+zu	.
 chatten	chatten
 .	.
 
@@ -26708,7 +26708,7 @@ Junge	Junge
 musste	musste
 seine	seiner
 Familie	Familie
-abschieden	verabschieden
+abschieden	abschieden
 .	.
 
 Er	Er
@@ -26720,18 +26720,18 @@ und	und
 fragte	fragte
 Maria	Maria
 ihr	ihr
-der	den
+der	das
 Ticket	Ticket
 von	von
 die	die
 andere	anderen
-Produkten	Produkten
+Produkten	Produkte
 zu	zu
 geben	geben
 .	.
 
-Zum	Zum
-anderen	anderem
+Zum	zum
+anderen	anderen
 könnten	könnten
 wir	wir
 ans	ans
@@ -26834,34 +26834,34 @@ kennen	kennen
 gelernt	gelernt
 .	.
 
-sitzten	setzten
+sitzten	sitzten
 sie	sie
 jetzt	jetzt
 ,	,
 im	im
-Wald	Wald
+Wald	Walde
 ,	,
 ganz	ganz
 allein	allein
 .	.
 
-Auf	Auf
-Lieber	Lieber
-Heinrich	Heinrich
-,	,
-wie	wie
-geht´s	geht
-dir	dir
-?	?
+Auf	<MISMATCH>
+Lieber	<MISMATCH>
+Heinrich	<MISMATCH>
+,	<MISMATCH>
+wie	<MISMATCH>
+geht´s	<MISMATCH>
+dir	<MISMATCH>
+?	<MISMATCH>
 
 Nachdem	Nachdem
 sie	sie
-ging	in
-in	den
+ging	ins
+in	,
 den	den
 Supermarkt	Supermarkt
-,	,
-um	um
+,	um
+um	zu
 andere	andere
 Lebensmittel	Lebensmittel
 kaufen	kaufen
@@ -26891,8 +26891,8 @@ entschuldigen	entschuldigen
 
 Als	Als
 Maria	Maria
-bezahlt	bezahlt
-hat	hat
+bezahlt	bezahlte
+hat	mit
 nahm	nahm
 sie	sie
 ihre	ihre
@@ -26918,18 +26918,18 @@ außerdem	außerdem
 noch	noch
 in	in
 den	den
-Supermarkt	Supermarkt
+Supermarkt	denSupermarkt
 ,	,
-um	um
+um	auf
 die	die
-ihr	ihr
+ihr	ihrer
 noch	noch
 fehlenden	fehlenden
 Lebensmittel	Lebensmittel
-auf	auf
+auf	zu
 ihrer	ihrer
 Einkaufsliste	Einkaufsliste
-zu	zu
+zu	.
 besorgen	besorgen
 .	.
 
@@ -26973,7 +26973,7 @@ Frau	Frau
 einen	einen
 letzten	letzten
 Kuss	Kuss
-Er	Er
+Er	er
 muss	muss
 in	in
 den	den
@@ -26984,13 +26984,13 @@ fährt	fährt
 weg	weg
 .	.
 
-diese	diese
-Oder	Oder
-musst	musst
-du	du
-anderest	anderes
-machen	machen
-.	.
+diese	<MISMATCH>
+Oder	<MISMATCH>
+musst	<MISMATCH>
+du	<MISMATCH>
+anderest	<MISMATCH>
+machen	<MISMATCH>
+.	<MISMATCH>
 
 habe	hat
 die	die
@@ -27044,7 +27044,7 @@ dass	dass
 Maria	Maria
 natürlich	natürlich
 nichts	nichts
-getan	getan
+getan	Getanes
 hatte	hatte
 und	und
 zu	zu
@@ -27056,10 +27056,10 @@ konnte	konnte
 Wie	Wie
 wäre	wäre
 es	es
-dann	dann
+dann	denn
 mit	mit
 'nem	einem
-Wochenendtrip	Wochenendtrip
+Wochenendtrip	Wochenende
 nach	nach
 Bayern	Bayern
 oder	oder
@@ -27080,7 +27080,7 @@ sagen	sagen
 zu	zu
 diesen	diesen
 Leuten	Leuten
-meine	meine
+meine	deine
 Meinung	Meinung
 ,	,
 dass	dass
@@ -27106,9 +27106,9 @@ Ich	Ich
 hoffe	hoffe
 ,	,
 dass	dass
-meine	meine
+meine	deine
 Antwort	Antwort
-dir	dir
+dir	mir
 nützlich	nützlich
 wird	wird
 .	.
@@ -27146,14 +27146,14 @@ nur	nur
 die	die
 Wahrheit	Wahrheit
 sagen	sagen
-muss	musst
+muss	muss
 .	.
 
 Deshalb	Deshalb
 hab	habe
 ich	ich
 mit	mit
-Chats	Chats
+Chats	Chatss
 angefangen	angefangen
 .	.
 
@@ -27190,7 +27190,7 @@ sie	sie
 an	an
 der	der
 Kasse	Kasse
-war	wäre
+war	war
 sie	sie
 bezahlt	bezahlt
 was	was
@@ -27210,7 +27210,7 @@ vergessen	vergessen
 
 Hallo	Hallo
 Paul	Paul
-,	,
+,	!
 ich	ich
 bin	bin
 Larissa	Larissa
@@ -27272,7 +27272,7 @@ direkten	direkten
 Weg	Weg
 .	.
 
-Liebe	Liebe
+Liebe	Lieber
 Berta	Berta
 ,	,
 es	es
@@ -27307,7 +27307,7 @@ Bucher	Bücher
 ,	,
 und	und
 nicht	nicht
-chatte	chatte
+chatte	chatten
 mit	mit
 Computer	Computer
 oder	oder
@@ -27337,8 +27337,8 @@ entsetzt	entsetzt
 da	da
 sie	sie
 nichts	nichts
-getan	getan
-hat	hat
+getan	Getan
+hat	hatte
 .	.
 
 So	Ja
@@ -27351,7 +27351,7 @@ oder	oder
 
 Die	Die
 Kassiererin	Kassiererin
-berechnete	berechnete
+berechnete	berechnte
 den	den
 Gesamtpreis	Gesamtpreis
 und	und
@@ -27371,7 +27371,7 @@ Obst	Obst
 hatte	hatte
 .	.
 
-Zuerst	Zuerst
+Zuerst	zuerst
 bin	in
 ich	ich
 in	-
@@ -27414,26 +27414,26 @@ wollten	wollten
 Maren	Maren
 und	und
 Lena	Lena
-in	.
+in	in
 den	den
 Wald	Wald
 spazieren	spazieren
 gehen	gehen
 .	.
 
-Aber	Aber
-Wann	Wann
-möchtest	möchtest
-du	du
-ein	eine
-Meinung	Meinung
-haben	haben
-,	,
-du	du
-kannst	kannst
-mich	mich
-schreiben	schreiben
-.	.
+Aber	<MISMATCH>
+Wann	<MISMATCH>
+möchtest	<MISMATCH>
+du	<MISMATCH>
+ein	<MISMATCH>
+Meinung	<MISMATCH>
+haben	<MISMATCH>
+,	<MISMATCH>
+du	<MISMATCH>
+kannst	<MISMATCH>
+mich	<MISMATCH>
+schreiben	<MISMATCH>
+.	<MISMATCH>
 
 Nur	Nur
 für	für
@@ -27481,8 +27481,8 @@ Dann	Dann
 kaufte	kaufte
 sie	sie
 Gemüseladen	Gemüseladen
-wie	eine
-:	-
+wie	wie
+:	:
 Karotten	Karotten
 ,	,
 Tomaten	Tomaten
@@ -27499,8 +27499,8 @@ denke	denke
 aber	aber
 dass	dass
 diese	diese
-virtuellen	virtuellen
-Freundschaft	Freundschaften
+virtuellen	virtuelle
+Freundschaft	Freundschaft
 nicht	nicht
 nur	nur
 virtuell	virtuell
@@ -27522,7 +27522,7 @@ Leben	Leben
 für	für
 uns	uns
 geopfert	geopfert
-.	,
+.	.
 
 Als	Als
 sie	sie
@@ -27530,7 +27530,7 @@ zum	zum
 Supermarkt	Supermarkt
 ankam	ankam
 ,	,
-ihren	ihre
+ihren	ihren
 Einkaufswagen	Einkaufswagen
 wieder	wieder
 mit	mit
@@ -27540,23 +27540,23 @@ Sachen	Sachen
 gefüllt	gefüllt
 hatte	hatte
 und	und
-zur	auf
-Kasse	dass
+zur	zur
+Kasse	Kasse
 ging	ging
-,	an
+,	,
 fiel	fiel
 Maria	Maria
 auf	auf
-,	-
+,	,
 dass	dass
 sie	sie
 ihr	ihr
 Restgeld	Restgeld
-an	und
+an	an
 der	der
 Kasse	Kasse
-im	.
-Obst-	Obst-
+im	im
+Obst-	Obsts
 und	und
 Gemüseladen	Gemüseladen
 vergessen	vergessen
@@ -27604,7 +27604,7 @@ machen	machen
 und	und
 sich	sich
 nicht	nicht
-davor	davor
+davor	dafür
 schämen	schämen
 .	,
 
@@ -27620,7 +27620,7 @@ man	man
 kann	kann
 sicherlich	sicherlich
 noch	noch
-chatten	chattend
+chatten	chatten
 .	.
 
 Im	Im
@@ -27638,9 +27638,9 @@ Einkaufswagen	Einkaufswagen
 kamen	kamen
 wir	wir
 endlich	endlich
-am	an
+am	am
 Waldrand	Waldrand
-an	.
+an	an
 .	.
 
 Wir	bin
@@ -27653,18 +27653,18 @@ total	total
 überfragt	überfragt
 .	.
 
-Da	Da
-können	können
-wir	wir
-entspannt	entspannt
-in	in
-der	der
-Sonne	Sonne
-liegen	liegen
-und	und
-braun	braun
-werden	werden
-.	.
+Da	<MISMATCH>
+können	<MISMATCH>
+wir	<MISMATCH>
+entspannt	<MISMATCH>
+in	<MISMATCH>
+der	<MISMATCH>
+Sonne	<MISMATCH>
+liegen	<MISMATCH>
+und	<MISMATCH>
+braun	<MISMATCH>
+werden	<MISMATCH>
+.	<MISMATCH>
 
 Klavier	Klavier
 ist	ist
@@ -27695,11 +27695,11 @@ Schnapsleichen	<MISMATCH>
 .	<MISMATCH>
 
 Was	Was
-soll	soll
+soll	sollt
 ich	ich
 tun	tun
-?	,
-,	.
+?	?
+,	,
 fragte	fragte
 sie	sie
 sich	sich
@@ -27724,7 +27724,7 @@ die	die
 alte	alte
 Frau	Frau
 folgte	folgte
-mich	mir
+mich	mit
 mit	mit
 einem	einem
 Messer	Messer
@@ -27734,7 +27734,7 @@ Die	Da
 Da	Da
 ich	ich
 allerdings	allerdings
-Schokofrüchte	Schokofrüchte
+Schokofrüchte	Schokofrüchten
 für	für
 euch	euch
 machen	machen
@@ -27759,13 +27759,13 @@ Viele	Viele
 Grüße	Grüße
 ,	,
 ein	ein
-Bussi	Buschi
+Bussi	Bussi
 Elisa	Elisa
 
 Sie	Sie
 hatte	hatte
 schon	schon
-bei	bei
+bei	beim
 dem	dem
 andere	anderen
 Geschäft	Geschäft
@@ -27775,9 +27775,9 @@ bezahlt	bezahlt
 Eine	Eine
 Stunde	Stunde
 später	später
-ist	ist
+ist	im
 sie	sie
-im	im
+im	.
 Supermarkt	Supermarkt
 gegangen	gegangen
 .	.
@@ -27803,7 +27803,7 @@ natürlich	natürlich
 dass	dass
 sie	sie
 diese	diese
-in	in
+in	im
 einem	einem
 anderen	anderen
 Geschäft	Geschäft
@@ -27813,7 +27813,7 @@ hatte	hatte
 aber	aber
 sie	sie
 hatte	hatte
-dafür	für
+dafür	dafür
 natürlich	natürlich
 keinen	keinen
 Beweis	Beweis
@@ -27830,7 +27830,7 @@ vergessen	vergessen
 
 drei	drei
 Personen	Personen
-armen	Armen
+armen	arm
 und	und
 weinen	weinen
 alles	alles
@@ -27839,7 +27839,7 @@ zusammen	zusammen
 
 Nach	sich
 Und	Und
-so	.
+so	ja
 klärte	klärte
 sich	sich
 der	der
@@ -27868,9 +27868,9 @@ uns	uns
 am	am
 Samstag	Samstag
 ,	,
-viele	vielen
-Grüße	Grüßen
-,	,
+viele	viele
+Grüße	Grüße
+,	.
 Mareike	Mareike
 P.S.	P.S.
 Auch	Auch
@@ -27913,7 +27913,7 @@ Meer	<MISMATCH>
 Entweder	Entweder
 wir	wir
 fahren	fahren
-in	.
+in	in
 die	die
 Berge	Berge
 oder	oder
@@ -27922,7 +27922,7 @@ Meer	Meer
 .	.
 
 Doch	Doch
-wir	wir
+wir	Wir
 haben	haben
 ein	ein
 kleines	kleines
@@ -27979,22 +27979,22 @@ geht	geht
 in	in
 einen	einen
 Supermarkt	Supermarkt
-,	,
+,	t
 und	und
-da	da
+da	zu
 sie	sie
 kauft	kauft
 Wein	Wein
 und	und
-viele	viel
-zu	zu
+viele	viele
+zu	.
 essen	essen
 .	.
 
 Hallo	Hallo
 Julia	Julia
 ,	,
-Ich	Ich
+Ich	ich
 muss	muss
 dir	dir
 unbedingt	unbedingt
@@ -28012,32 +28012,32 @@ ein	ein
 Schreck	Schrecken
 .	.
 
-Nochmal	Nochmal
-zu	zur
-der	dem
-Frage	Frage
-mit	mit
-dem	dem
-Urlaub	Urlaub
-.	.
+Nochmal	<MISMATCH>
+zu	<MISMATCH>
+der	<MISMATCH>
+Frage	<MISMATCH>
+mit	<MISMATCH>
+dem	<MISMATCH>
+Urlaub	<MISMATCH>
+.	<MISMATCH>
 
-Ich	Ich
-muss	muss
-dir	dir
-eine	eine
-Geschichte	Geschichte
-erzählen	erzählen
-,	,
-die	die
-Maria	Maria
-neulich	neulich
-passiert	passiert
-ist	ist
-.	.
+Ich	<MISMATCH>
+muss	<MISMATCH>
+dir	<MISMATCH>
+eine	<MISMATCH>
+Geschichte	<MISMATCH>
+erzählen	<MISMATCH>
+,	<MISMATCH>
+die	<MISMATCH>
+Maria	<MISMATCH>
+neulich	<MISMATCH>
+passiert	<MISMATCH>
+ist	<MISMATCH>
+.	<MISMATCH>
 
 Als	Als
 Maria	Maria
-nun	nun
+nun	an
 nach	nach
 ihrem	ihrem
 Einkauf	Einkauf
@@ -28095,8 +28095,8 @@ Spaß	Spaß
 haben	haben
 .	.
 
-Letzen	Letzte
-Endes	Ende
+Letzen	Letzen
+Endes	Endes
 glaubte	glaubte
 diese	diese
 Maria	Maria
@@ -28123,7 +28123,7 @@ Freundschaften	Freundschaften
 .	.
 
 Viele	Viele
-Grüße	Grüßen
+Grüße	Grüsse
 Mareike	Mareike
 PS	PS
 :	:
@@ -28140,42 +28140,42 @@ dass	dass
 die	die
 Party	Party
 wegen	wegen
-ihrem	ihrem
-Fehler	Fehler
+ihrem	ihres
+Fehler	Fehlers
 nicht	nicht
 stattfinden	stattfinden
-könne	könnte
+könne	könne
 .	.
 
-Oder	Oder
-wollen	wollen
-wir	wir
-in	in
-Frankreich	Frankreich
-die	die
-Tage	Tage
-damit	damit
-verbringen	verbringen
-im	im
-Meer	Meer
-zu	zu
-baden	baden
-und	und
-uns	uns
-zu	zu
-sonnen	sonnen
-und	und
-dann	dann
-jede	jede
-Nacht	Nacht
-eine	eine
-Party	Party
-nach	nach
-der	der
-anderen	anderen
-zu	zu
-feiern	feiern
-.	.
+Oder	<MISMATCH>
+wollen	<MISMATCH>
+wir	<MISMATCH>
+in	<MISMATCH>
+Frankreich	<MISMATCH>
+die	<MISMATCH>
+Tage	<MISMATCH>
+damit	<MISMATCH>
+verbringen	<MISMATCH>
+im	<MISMATCH>
+Meer	<MISMATCH>
+zu	<MISMATCH>
+baden	<MISMATCH>
+und	<MISMATCH>
+uns	<MISMATCH>
+zu	<MISMATCH>
+sonnen	<MISMATCH>
+und	<MISMATCH>
+dann	<MISMATCH>
+jede	<MISMATCH>
+Nacht	<MISMATCH>
+eine	<MISMATCH>
+Party	<MISMATCH>
+nach	<MISMATCH>
+der	<MISMATCH>
+anderen	<MISMATCH>
+zu	<MISMATCH>
+feiern	<MISMATCH>
+.	<MISMATCH>
 
 Trotzdem	Trotzdem
 hoffe	hoffe
@@ -28184,20 +28184,20 @@ ich	ich
 kommst	kommst
 du	du
 zu	zu
-einer	einer
+einer	eine
 Antwort	Antwort
 und	und
 teilst	teilst
-sie	sie
-mir	mir
-so	so
+sie	die
+mir	wie
+so	.
 schnell	schnell
 wie	wie
 möglich	möglich
 mit	mit
 .	.
 
-Lieber	Lieber
+Lieber	Liebe
 Paul	Paul
 ,	,
 ich	ich
@@ -28214,7 +28214,7 @@ geben	geben
 
 Okay	Okay
 ,	,
-wir	wir
+wir	Wir
 könnten	könnten
 nicht	nicht
 durch	durch
@@ -28228,8 +28228,8 @@ könnten	könnten
 wir	wir
 stundenlang	stundenlang
 am	am
-Strand	Strand
-entlanggehen	entlanglaufen
+Strand	strand
+entlanggehen	entlanggehen
 !	!
 
 Dann	Dann
@@ -28247,7 +28247,7 @@ die	die
 sich	sich
 sofort	sofort
 entschuldigte	entschuldigte
-.	.
+.	,
 
 Dann	Dann
 Maria	Maria
@@ -28262,7 +28262,7 @@ Temperaturen	Temperaturen
 sind	sind
 ungefähr	ungefähr
 in	in
-beiden	beiden
+beiden	beidem
 Optionen	Optionen
 gleich	gleich
 .	.
@@ -28302,15 +28302,15 @@ fahren	<MISMATCH>
 sollen	<MISMATCH>
 .	<MISMATCH>
 
-Ich	Ich
-möchte	möchte
-dich	dich
-erzählen	erzählen
-was	was
-Maria	Maria
-passiert	passiert
-ist	ist
-!	!
+Ich	<MISMATCH>
+möchte	<MISMATCH>
+dich	<MISMATCH>
+erzählen	<MISMATCH>
+was	<MISMATCH>
+Maria	<MISMATCH>
+passiert	<MISMATCH>
+ist	<MISMATCH>
+!	<MISMATCH>
 
 Also	Also
 ging	ging
@@ -28378,7 +28378,7 @@ in	in
 meinem	meinem
 Urlaub	Urlaub
 eher	eher
-gemütlich	gemütlicher
+gemütlich	gemütlich
 am	am
 Strand	Strand
 liegen	liegen
@@ -28404,7 +28404,7 @@ gekauft	gekauft
 und	und
 auch	auch
 bezahlt	bezahlt
-hatte	hatten
+hatte	hatte
 .	.
 
 Die	Die
@@ -28444,11 +28444,11 @@ den	den
 Bon	Bon
 .	.
 
-Zum	Zum
-einen	einen
+Zum	Zu
+einen	einem
 in	in
-den	die
-Bergen	Berge
+den	den
+Bergen	Bergen
 und	und
 einmal	einmal
 am	am
@@ -28469,7 +28469,7 @@ hatten	hatten
 
 Viele	Viele
 liebe	liebe
-Grüße	Grüsse
+Grüße	Grüße
 ,	,
 deine	deine
 Maria	Maria
@@ -28520,7 +28520,7 @@ auf	auf
 der	der
 Theke	Theke
 liegen	liegen
-lassen	gelassen
+lassen	lassen
 .	.
 
 Dagegen	Dagegen
@@ -28542,25 +28542,25 @@ Europapark	Europapark
 gehen	gehen
 .	.
 
-Hallo	Hallo
-Daniel	Daniel
-,	,
-ich	ich
-hoffe	hoffe
-dir	dir
-geht	geht
-es	es
-gut	gut
-?	!
+Hallo	<MISMATCH>
+Daniel	<MISMATCH>
+,	<MISMATCH>
+ich	<MISMATCH>
+hoffe	<MISMATCH>
+dir	<MISMATCH>
+geht	<MISMATCH>
+es	<MISMATCH>
+gut	<MISMATCH>
+?	<MISMATCH>
 
 Möglichkeit	Möglichkeit
-1	1
+1	2
 :	:
 Urlaub	Urlaub
 in	in
 den	den
 Bergen	Bergen
-!	.
+!	!
 
 Sie	Sie
 wollte	wollte
@@ -28603,12 +28603,12 @@ den	den
 Bergen	Bergen
 .	.
 
-Abschließend	Abschließend
-möchte	möchte
-ich	ich
-noch	noch
-zusammenfassen	zusammenfassen
-.	.
+Abschließend	<MISMATCH>
+möchte	<MISMATCH>
+ich	<MISMATCH>
+noch	<MISMATCH>
+zusammenfassen	<MISMATCH>
+.	<MISMATCH>
 
 Die	Die
 Frau	Frau
@@ -28643,9 +28643,9 @@ Urlaub	Urlaub
 in	in
 den	den
 Bergen	Bergen
-,	,
+,	es
 gibt	gibt
-es	es
+es	,
 auch	auch
 ganz	ganz
 tolle	tolle
@@ -28664,7 +28664,7 @@ Tieren	Tieren
 
 Der	Der
 Nachteil	Nachteil
-wäre	wäre
+wäre	wär
 ,	,
 dass	dass
 wir	wir
@@ -28688,21 +28688,21 @@ stehen	stehen
 diesmal	diesmal
 ein	ein
 Strandurlaub	Strandurlaub
-in	in
-der	der
+in	im
+der	oder
 Karibik	Karibik
-am	am
+am	in
 Meer	Meer
 ,	,
-oder	oder
+oder	der
 ein	ein
 Wanderurlaub	Wanderurlaub
-in	in
-die	den
-Berge	Bergen
+in	.
+die	die
+Berge	Berge
 ,	,
 in	in
-die	der
+die	die
 Schweiz	Schweiz
 .	.
 
@@ -28763,16 +28763,16 @@ hatte	hatte
 hat	hat
 die	die
 Verkäuferin	Verkäuferin
-dann	dann
+dann	das
 das	das
 Obst	Obst
 gesehen	gesehen
 und	und
 gedacht	gedacht
-,	,
+,	es
 Maria	Maria
 hätte	hätte
-es	es
+es	.
 geklaut	geklaut
 .	.
 
@@ -28782,7 +28782,7 @@ Wanderurlaub	Wanderurlaub
 ruht	ruht
 man	man
 sich	sich
-mehr	mehr
+mehr	eher
 aus	aus
 ,	,
 weil	weil
@@ -28794,15 +28794,15 @@ Strand	Strand
 liegt	liegt
 .	.
 
-Das	Das
-musste	musste
-ich	ich
-Dir	Dir
-unbedingt	unbedingt
-ganz	ganz
-schnell	schnell
-erzählen	erzählen
-!	!
+Das	<MISMATCH>
+musste	<MISMATCH>
+ich	<MISMATCH>
+Dir	<MISMATCH>
+unbedingt	<MISMATCH>
+ganz	<MISMATCH>
+schnell	<MISMATCH>
+erzählen	<MISMATCH>
+!	<MISMATCH>
 
 Das	Das
 wäre	wäre
@@ -28845,22 +28845,22 @@ belebter	belebter
 wäre	wäre
 .	.
 
-Hallo	Hallo
-Ralf	Ralf
-,	,
-kennst	kennst
-du	du
-noch	noch
-meine	meine
-Freundin	Freundin
-Maria	Maria
-?	?
+Hallo	<MISMATCH>
+Ralf	<MISMATCH>
+,	<MISMATCH>
+kennst	<MISMATCH>
+du	<MISMATCH>
+noch	<MISMATCH>
+meine	<MISMATCH>
+Freundin	<MISMATCH>
+Maria	<MISMATCH>
+?	<MISMATCH>
 
 Das	Das
 Klima	Klima
 ist	ist
 angenehm	angenehm
-,	,
+,	;
 wir	wir
 haben	haben
 Berge	Berge
@@ -28952,7 +28952,7 @@ Sonntag	Sonntag
 ihre	ihre
 Mutter	Mutter
 zu	zu
-Besuch	Besuch
+Besuch	besuchen
 kommt	kommt
 .	.
 
@@ -28984,7 +28984,7 @@ Luft	Luft
 dort	dort
 soll	soll
 eine	eine
-genesende	geneßende
+genesende	genesende
 Wirkung	Wirkung
 auf	auf
 den	den
@@ -29016,12 +29016,12 @@ Urlaub	Urlaub
 in	in
 den	den
 Bergen	Bergen
-,	,
-oder	oder
+,	am
+oder	Meer
 für	für
 den	den
 Urlaub	Urlaub
-am	am
+am	.
 Meer	Meer
 entscheiden	entscheiden
 .	.
@@ -29072,14 +29072,14 @@ nicht	nicht
 bezahlen	bezahlen
 .	.
 
-Ich	Ich
-werde	werde
-dir	dir
-beide	beide
-Möglichkeiten	Möglichkeiten
-einmal	einmal
-vorstellen	vorstellen
-.	.
+Ich	<MISMATCH>
+werde	<MISMATCH>
+dir	<MISMATCH>
+beide	<MISMATCH>
+Möglichkeiten	<MISMATCH>
+einmal	<MISMATCH>
+vorstellen	<MISMATCH>
+.	<MISMATCH>
 
 Nachdem	Nachdem
 sie	sie
@@ -29135,7 +29135,7 @@ Sonne	Sonne
 doch	doch
 immer	immer
 gut	gut
-.	.
+.	,
 .	.
 .	.
 
@@ -29168,16 +29168,16 @@ ich	ich
 ihr	ihr
 einfach	einfach
 mitteilen	mitteilen
-.	.
+.	,
 
-Urlaub	<MISMATCH>
-in	<MISMATCH>
-den	<MISMATCH>
-Bergen	<MISMATCH>
-klingt	<MISMATCH>
-ganz	<MISMATCH>
-gut	<MISMATCH>
-.	<MISMATCH>
+Urlaub	Urlaub
+in	in
+den	den
+Bergen	Bergen
+klingt	klingt
+ganz	ganz
+gut	gut
+.	,
 
 Also	Also
 einmal	einmal
@@ -29194,7 +29194,7 @@ einen	einen
 Urlaub	Urlaub
 am	:
 Meer	Meer
-.	da
+.	.
 
 Am	Am
 Meer	Meer
@@ -29205,7 +29205,7 @@ mehr	mehr
 das	das
 typische	typische
 Bild	Bild
-von	vom
+von	von
 Urlaub	Urlaub
 am	am
 Meer	Meer
@@ -29237,7 +29237,7 @@ mehr	mehr
 der	der
 Stamm	Stamm
 der	der
-Chmnghi	Chmińghi
+Chmnghi	Chmnghi
 Indianer	Indianer
 mit	mit
 ihren	ihren
@@ -29253,7 +29253,7 @@ ich	ich
 damals	damals
 mit	mit
 meinen	meinen
-Großeltern	Großmüttern
+Großeltern	Großeltern
 .	.
 .	.
 .	.
@@ -29290,13 +29290,13 @@ Woche	Woche
 war	war
 sie	sie
 einkaufen	einkaufen
-,	-
+,	,
 weil	weil
 wir	wir
-abends	abends
+abends	Abend
 zusammen	zusammen
 kochen	kochen
-wollten	wollen
+wollten	wollten
 .	.
 
 Da	da
@@ -29332,34 +29332,34 @@ Zeitnot	Zeitnot
 
 Ich	Ich
 fand	fand
-die	die
+die	Die
 Geschichte	Geschichte
-so	so
+so	,
 lustig	lustig
 und	und
 musste	musste
-dir	ihr
-das	das
+dir	dir
+das	den
 einfach	einfach
 erzählen	erzählen
-.	.
+.	,
 
-Wie	Wie
-wäre	wäre
-es	es
-mit	mit
-den	den
-ersten	ersten
-beiden	beiden
-Wochen	Wochen
-der	der
-Sommerferien	Sommerferien
-?	?
+Wie	<MISMATCH>
+wäre	<MISMATCH>
+es	<MISMATCH>
+mit	<MISMATCH>
+den	<MISMATCH>
+ersten	<MISMATCH>
+beiden	<MISMATCH>
+Wochen	<MISMATCH>
+der	<MISMATCH>
+Sommerferien	<MISMATCH>
+?	<MISMATCH>
 
 Von	Von
 der	der
 Luft	Luft
-her	sehr
+her	her
 sind	sind
 beide	beide
 Orte	Orte
@@ -29399,7 +29399,7 @@ habe	habe
 mich	mich
 mal	mal
 bezüglich	bezüglich
-unseres	unserem
+unseres	unseres
 Urlaubs	Urlaubes
 umgehört	umgehört
 und	und
@@ -29413,7 +29413,7 @@ gekommen	gekommen
 Lieber	Lieber
 Martin	Martin
 ,	,
-ich	ich
+ich	Ich
 habe	habe
 mir	mir
 einmal	einmal
@@ -29515,28 +29515,28 @@ ihr	ihr
 fehlen	fehlten
 .	.
 
-Sobald	Sobald
-du	du
-Ideen	Ideen
-zu	zum
-dem	dem
-Thema	Thema
-hast	hast
-,	,
-schreib	schreib
-mir	mir
-einfach	einfach
-zurück	zurück
-.	.
+Sobald	<MISMATCH>
+du	<MISMATCH>
+Ideen	<MISMATCH>
+zu	<MISMATCH>
+dem	<MISMATCH>
+Thema	<MISMATCH>
+hast	<MISMATCH>
+,	<MISMATCH>
+schreib	<MISMATCH>
+mir	<MISMATCH>
+einfach	<MISMATCH>
+zurück	<MISMATCH>
+.	<MISMATCH>
 
 Unseren	Unseren
 vorigen	vorigen
 Gesprächen	Gesprächen
-meine	meines
+meine	meine
 ich	ich
 entnommen	entnommen
-zu	zu
-haben	haben
+zu	du
+haben	sagen
 ,	,
 dass	dass
 du	du
@@ -29546,11 +29546,11 @@ oder	oder
 einen	einen
 Urlaub	Urlaub
 in	in
-den	die
+den	den
 Bergen	Bergen
 am	am
 passensten	passensten
-findest	findet
+findest	finde
 .	.
 
 Also	Also
@@ -29586,7 +29586,7 @@ Discos	Discos
 .	.
 
 Sonne	Sonne
-satt	sass
+satt	sitzt
 ,	,
 der	der
 Strand	Strand
@@ -29599,14 +29599,14 @@ knallblau	klangblau
 .	.
 
 Also	Also
-,	,
-alles	alles
-in	in
+,	in
+alles	allem
+in	du
 allem	allem
 musst	musst
-du	du
+du	nur
 dich	dich
-nur	nur
+nur	du
 entscheiden	entscheiden
 ,	,
 ob	ob
@@ -29634,7 +29634,7 @@ sportlich	sportlich
 betätigen	betätigen
 willst	willst
 und	und
-es	.
+es	es
 heimelig	heimelig
 haben	haben
 willst	willst
@@ -29662,51 +29662,51 @@ harmonisch	harmonisch
 vorsingen	singen
 .	.
 
-Ist	Ist
-dir	dir
-auch	auch
-schon	schon
-einmal	einmal
-so	so
-ein	ein
-Missgeschick	Missgeschick
-passiert	passiert
-?	?
+Ist	<MISMATCH>
+dir	<MISMATCH>
+auch	<MISMATCH>
+schon	<MISMATCH>
+einmal	<MISMATCH>
+so	<MISMATCH>
+ein	<MISMATCH>
+Missgeschick	<MISMATCH>
+passiert	<MISMATCH>
+?	<MISMATCH>
 
-Schreib	Schreib
-zurück	zurück
-,	,
-sobald	sobald
-du	du
-dich	dich
-entschieden	entschieden
-hast	hast
-!	!
+Schreib	<MISMATCH>
+zurück	<MISMATCH>
+,	<MISMATCH>
+sobald	<MISMATCH>
+du	<MISMATCH>
+dich	<MISMATCH>
+entschieden	<MISMATCH>
+hast	<MISMATCH>
+!	<MISMATCH>
 
-Lasse	Lasse
-es	,
-mich	mich
-wissen	wissen
-,	.
-wofür	wofür
-Du	Du
-Dich	Dich
-entschieden	entschieden
-hast	hast
-.	.
+Lasse	<MISMATCH>
+es	<MISMATCH>
+mich	<MISMATCH>
+wissen	<MISMATCH>
+,	<MISMATCH>
+wofür	<MISMATCH>
+Du	<MISMATCH>
+Dich	<MISMATCH>
+entschieden	<MISMATCH>
+hast	<MISMATCH>
+.	<MISMATCH>
 
-Pack	Pack
+Pack	Packe
 dein	dein
 Soja	Soja
 und	und
-den	den
+den	ein
 Grillkäse	Grillkäse
-ein	ein
-,	,
-wir	wir
+ein	wir
+,	um
+wir	Uhr
 treffen	treffen
 uns	uns
-um	um
+um	.
 21	21
 Uhr	Uhr
 bei	bei
@@ -29763,14 +29763,14 @@ vegetarisch	vegetarisch
 gegessen	gegessen
 .	.
 
-Lieber	Liebes
-Franz	Fra
-,	,
-wie	wie
-geht	geht
-es	es
-Dir	Dir
-?	?
+Lieber	<MISMATCH>
+Franz	<MISMATCH>
+,	<MISMATCH>
+wie	<MISMATCH>
+geht	<MISMATCH>
+es	<MISMATCH>
+Dir	<MISMATCH>
+?	<MISMATCH>
 
 Maria	Maria
 probierte	probierte
@@ -29833,13 +29833,13 @@ ich	ich
 sagen	sagen
 ,	,
 dass	dass
-der	der
+der	Der
 Urlaubsort	Urlaubsort
 von	von
 deinen	deinen
 und	und
 meinen	meinen
-Erwartungen	Erwartung
+Erwartungen	Erwartungen
 und	und
 Wünschen	Wünschen
 abhängig	abhängig
@@ -29868,11 +29868,11 @@ Kasse	Kasse
 gegangen	gegangen
 .	.
 
-Zuerst	Zuerst
+Zuerst	erst
 kaufte	kaufte
-sie	sie
-im	im
-Obst-	Obst
+sie	im
+im	-
+Obst-	Obst-
 und	und
 Gemüseladen	Gemüseladen
 etwas	etwas
@@ -29931,7 +29931,7 @@ Sowas	Sowas
 kann	kann
 auch	auch
 nur	nur
-der	dem
+der	der
 Maria	Maria
 passieren	passieren
 .	,
@@ -29946,7 +29946,7 @@ lieber	lieber
 Rashid	Rashid
 ,	,
 so	so
-ca	,
+ca	ich
 130	130
 Wörter	Wörter
 aber	aber
@@ -29962,7 +29962,7 @@ Berg	Berg
 wäre	wäre
 man	man
 immer	immer
-in	im
+in	in
 Bewegung	Bewegung
 .	.
 
@@ -30038,23 +30038,23 @@ ohne	ohne
 Erfolg	Erfolg
 .	.
 
-Darum	Darum
-habe	habe
-ich	ich
-mir	mir
-in	in
-den	den
-letzten	letzten
-Wochen	Wochen
-Gedanken	Gedanken
-gemacht	gemacht
-und	und
-bin	bin
-auf	auf
-zwei	zwei
-Alternativen	Alternativen
-gestoßen	gestoßen
-.	,
+Darum	<MISMATCH>
+habe	<MISMATCH>
+ich	<MISMATCH>
+mir	<MISMATCH>
+in	<MISMATCH>
+den	<MISMATCH>
+letzten	<MISMATCH>
+Wochen	<MISMATCH>
+Gedanken	<MISMATCH>
+gemacht	<MISMATCH>
+und	<MISMATCH>
+bin	<MISMATCH>
+auf	<MISMATCH>
+zwei	<MISMATCH>
+Alternativen	<MISMATCH>
+gestoßen	<MISMATCH>
+.	<MISMATCH>
 
 Die	Die
 Unterschiede	Unterschiede
@@ -30069,7 +30069,7 @@ genießt	genießt
 man	man
 die	die
 Sonne	Sonne
-am	am
+am	auf
 weißen	weißen
 Sandstrand	Sandstrand
 mit	mit
@@ -30089,7 +30089,7 @@ badet	badet
 .	.
 
 Mensch	Mensch
-,	,
+,	Es
 war	war
 das	das
 eine	eine
@@ -30169,7 +30169,7 @@ Verkäufer	Verkäufer
 im	im
 Obst-	Obst
 und	und
-Gemüseladen	Gemüseladen
+Gemüseladen	Gemüsesladen
 hat	hat
 dem	den
 Leiter	Leiter
@@ -30185,21 +30185,21 @@ gekauft	gekauft
 hat	hat
 .	.
 
-Sowas	Sowas
-hab	habe
-ich	ich
-nämlich	nämlich
-schonmal	schonmal
-entdeckt	entdeckt
-.	.
+Sowas	<MISMATCH>
+hab	<MISMATCH>
+ich	<MISMATCH>
+nämlich	<MISMATCH>
+schonmal	<MISMATCH>
+entdeckt	<MISMATCH>
+.	<MISMATCH>
 
-Übrigens	Übrigens
-ist	ist
-das	das
-Essensangebot	Essensangebot
-überaus	überaus
-einladend	einladend
-!	!
+Übrigens	<MISMATCH>
+ist	<MISMATCH>
+das	<MISMATCH>
+Essensangebot	<MISMATCH>
+überaus	<MISMATCH>
+einladend	<MISMATCH>
+!	<MISMATCH>
 
 Oder	Oder
 sprich	sprich
@@ -30229,8 +30229,8 @@ schön	schön
 
 Worauf	Worauf
 hast	hast
-du	du
-mehr	mehr
+du	Es
+mehr	der
 Lust	Lust
 ?	?
 

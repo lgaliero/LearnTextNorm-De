@@ -10,7 +10,7 @@ from .prompt_utils import (
     get_examples_interactively,
     extract_examples_from_entry
 )
-from .batch_processor import process_single_sentence, process_batch
+#from .batch_processor import process_single_sentence, process_batch
 
 __all__ = [
     'ModelClient',

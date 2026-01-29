@@ -11,7 +11,8 @@ from .norm_check import (
     fix_norm_file,
     validate_and_fix_norm_files,
     get_norm_statistics,
-    NormValidationError
+    NormValidationError, 
+    batch_validate_from_config
 )
 
 __all__ = [

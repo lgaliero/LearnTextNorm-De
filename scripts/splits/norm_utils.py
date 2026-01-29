@@ -12,7 +12,8 @@ def create_norm_files(
     output_dir: str,
     tsv_path: str,
     extract_dir: Optional[str] = None,
-    splits: Optional[List[str]] = None
+    splits: Optional[List[str]] = None,
+    paths_config: Optional[Dict] = None 
 ) -> None:
     """
     Generate verticalized .norm files for train, dev, and test splits using TSV metadata.
@@ -37,16 +38,26 @@ def create_norm_files(
     print("=" * 80)
     
     # Filter out rows where text_type is numeric (data corruption)
+    df = pd.read_csv(tsv_path, sep='\t', encoding='utf-8', on_bad_lines='warn')
+
     if 'text_type' in df.columns:
         df = df[~df['text_type'].astype(str).str.match(r'^\d+$', na=False)]
-        
+
     # Process each split
     for split_name in splits:
-        indices_file = os.path.join(output_dir, f"{split_name}_indices.tsv")
+        # Try to get path from config first
+        if paths_config:
+            indices_file = paths_config.get(f'{split_name.upper()}_IDXS')
+        else:
+            indices_file = None
+        
+        # Fallback to subdirectory structure
+        if not indices_file:
+            indices_file = os.path.join(output_dir, split_name, f"{split_name}_indices.tsv")
         
         if not os.path.exists(indices_file):
-            print(f"\n⚠️  Skipping {split_name}: indices file not found")
-            continue
+                print(f"\n⚠️  Skipping {split_name}: indices file not found")
+                continue
         
         # Load indices from TSV
         df_indices = pd.read_csv(indices_file, sep='\t', encoding='utf-8')
@@ -135,10 +146,11 @@ def regenerate_splits_from_indices(
     from .file_utils import save_splits
     
     # Load the full corpus TSV
+    df = pd.read_csv(tsv_path, sep='\t', encoding='utf-8', on_bad_lines='warn')
     # Filter out rows where text_type is numeric (data corruption)
     if 'text_type' in df.columns:
         df = df[~df['text_type'].astype(str).str.match(r'^\d+$', na=False)]
-        
+
     # Process each split
     for split_name in ['test', 'train', 'dev']:
         # Get source file path from config or default

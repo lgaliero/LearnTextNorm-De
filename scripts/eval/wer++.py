@@ -123,7 +123,7 @@ def char_to_num(x):
 
 def num_to_char(j):
   if j != "__":
-    return unichr(int(j))
+    return chr(int(j))
   else:
     return j
 
@@ -467,12 +467,16 @@ def calculate_statistics(rec_file, ref_file, options):
     for i in range(len(events)-1,len(events)-1-options.n,-1):
       [n, e] = events[i]
       s=""
-      if 'S' in e:
+      if 'S' in e and len(e) >= 3:  # Substitution: [type, ref, hyp]
         s=colors.c_string("B",e[2]+join_symbol+e[1])
-      elif 'I' in e:
+      elif ('S' in e or 'A' in e) and len(e) == 2:  # Edge case
+        s=colors.c_string("B", e[1])
+      elif 'I' in e or 'O' in e:  # Insertion
         s=colors.c_string("G",e[1])
-      elif 'D' in e:
+      elif 'D' in e:  # Deletion
         s=colors.c_string("R",e[1])
+      else:
+        s = str(e)  # Fallback
       acc+=n
       stdout.write("[Worst-%.2d] %.4f%% %.4f%% - %s\n" %(len(events)-1-i+1, float(n)/ref_count*100,float(acc)/ref_count*100, s.encode("utf-8")))
 

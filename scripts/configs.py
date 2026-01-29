@@ -11,16 +11,19 @@ class Paths:
     TEST_SRC = "../data/test/test.src"
     TEST_TGT = "../data/test/test.tgt"
     TEST_IDXS = "../data/test/test_indices.tsv"
+    TEST_NORM =  "../data/test/test.norm"
     
     # Dev split paths
     DEV_SRC = "../data/dev/dev.src"
     DEV_TGT = "../data/dev/dev.tgt"
     DEV_IDXS = "../data/dev/dev_indices.tsv"
+    DEV_NORM =  "../data/dev/dev.norm"
     
     # Train split paths
     TRAIN_SRC = "../data/train/train.src"
     TRAIN_TGT = "../data/train/train.tgt"
     TRAIN_IDXS = "../data/train/train_indices.tsv"
+    TRAIN_NORM =  "../data/train/train.norm"
     
     # Prompt templates
     LLAMA_JSON = "../data/2S_prompts/llama.json"
@@ -35,6 +38,9 @@ class Paths:
     GPT_2 = "../hypos/gpt-oss/2shot.hyp"
     GEMMA_0 = "../hypos/gemma/0shot.hyp"
     GEMMA_2 = "../hypos/gemma/2shot.hyp"
+
+    #Evaluation report
+    EVAL = "eval_results.txt"
 
 # =======================
 # XML EXTRACTION CONFIGS
@@ -87,7 +93,7 @@ class DataSplits:
 class ApiConfig:
     """Configuration for LLM API testing."""
     HOST = "http://51.124.247.170:80"
-    MODEL = "gpt-oss:20b"  # Options: gpt-oss:20b, llama3.2:latest, gemma3:12b
+    MODEL = "llama3.2:latest"  # Options: gpt-oss:20b, llama3.2:latest, gemma3:12b
     MODE = "baseline"  # Options: "baseline" or "2-shot"
     
     # System prompt for baseline (0-shot) mode

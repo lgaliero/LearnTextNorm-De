@@ -1,6 +1,5 @@
 """
 Core API interaction logic for LLM inference.
-Handles model querying with different modes (baseline, 2-shot, etc.).
 """
 
 import os
@@ -14,13 +13,7 @@ class ModelClient:
     """Client for interacting with LLM APIs."""
     
     def __init__(self, host: str, api_key: str = None):
-        """
-        Initialize the model client.
-        
-        Args:
-            host: API host URL
-            api_key: API key (defaults to OLLAMA_API_KEY env variable)
-        """
+        """Initialize the model client."""
         if api_key is None:
             api_key = os.getenv("OLLAMA_API_KEY")
         
@@ -53,9 +46,6 @@ class ModelClient:
             
         Returns:
             Model's response as a string
-            
-        Raises:
-            ValueError: If 2-shot mode is used without examples
         """
         system_context = (
             system_baseline if mode == "baseline"
@@ -86,9 +76,10 @@ class ModelClient:
             "content": user_content
         })
 
+        # Use streaming like old code (fastest for Ollama)
         response = ""
         for part in self.client.chat(
-            model=model,
+            model=model,  # ← FIXED: Use the model parameter, not hardcoded
             messages=messages,
             stream=True,
         ):
