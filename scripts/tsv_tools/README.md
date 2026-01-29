@@ -25,19 +25,6 @@ Manages batch updates of TSV files from edited NORM files.
 
 ### Usage
 
-**As a CLI:**
-```bash
-# Update from all NORM files in directory
-python tsv_tools/tsv_update_cli.py batch-update \
-    --directory output/extraction \
-    --tsv-name all_corpora.tsv
-
-# Update specific corpora
-python tsv_tools/tsv_update_cli.py update \
-    --tsv-file output/all_corpora.tsv \
-    --corpora LEONIDE Kolipsi_1_L2
-```
-
 **As a library:**
 ```python
 from tsv_tools import batch_update_tsv, find_norm_files_in_directory
@@ -55,3 +42,5 @@ df_updated = batch_update_tsv(
 ```
 
 ---
+**Last Updated:** 29th January 2026  
+**Maintainer:** Lucia Galiero

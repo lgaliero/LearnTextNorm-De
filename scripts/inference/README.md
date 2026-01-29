@@ -18,37 +18,12 @@ Handles LLM-based text normalization with support for different prompting strate
   - `extract_examples_from_entry()` - Extract example pairs from an entry
   - `get_examples_interactively()` - Collect examples from user input
   
-- **`batch_processing.py`** - Sequential batch processing
-  - `process_single_sentence()` - Process one sentence with timing/memory diagnostics
-  - `process_batch()` - Process multiple sentences sequentially (optimized for `OLLAMA_NUM_PARALLEL=1`)
   
-- **`api_query_cli.py`** - CLI wrapper for inference pipeline
-
-### Key Features
-
-- **Sequential Processing** - Optimized for Ollama with `OLLAMA_NUM_PARALLEL=1` (fastest approach)
-- **Streaming Responses** - Low-latency token-by-token streaming from LLM
-- **Memory Monitoring** - Track memory usage and timing for each sentence
-- **Flexible Prompting** - Support for baseline and 2-shot learning modes
-- **JSON Example Management** - Load example pairs from structured JSON files
-
 ### Usage
-
-**As a CLI:**
-```bash
-# Baseline mode (zero-shot)
-python inference/api_query_cli.py --mode baseline --input test.src --model llama3.2
-
-# 2-shot mode with examples from JSON
-python inference/api_query_cli.py --mode 2-shot-json --json examples.json --input test.src --model gpt
-
-# Interactive mode (no input file)
-python inference/api_query_cli.py --mode baseline --model llama3.2
-```
 
 **As a library:**
 ```python
-from inference import ModelClient, load_examples_json, process_batch
+from inference import ModelClient, load_examples_json
 
 # Initialize client
 client = ModelClient(host="http://localhost:11434")
@@ -81,20 +56,5 @@ output = client.query_model(
 print(output)  # Normalized text
 ```
 
-### Performance Notes
-
-- **Sequential is faster** when `OLLAMA_NUM_PARALLEL=1` (Ollama default)
-- Each sentence takes ~40 seconds with GPT-20B quantized model on CPU
-- First sentence includes model loading time (~6.5 minutes for GPT-20B)
-- Use HPC array jobs for large batches (see cluster deployment guide)
-
-### Environment Variables
-
-Set these for optimal Ollama performance:
-```bash
-export OLLAMA_NUM_PARALLEL=1          # Limit concurrent requests
-export OLLAMA_MAX_LOADED_MODELS=1     # Keep only one model in memory
-export OLLAMA_CONTEXT_SIZE=2048       # Reduce context window for speed
-```
-
----
+**Last Updated:** 29th January 2026  
+**Maintainer:** Lucia Galiero

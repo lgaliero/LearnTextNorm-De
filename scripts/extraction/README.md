@@ -132,5 +132,5 @@ Extracts and aligns sentence pairs from German learner corpora (LEONIDE, Kolipsi
 
 ---
 
-**Last Updated:** 28th January 2026  
+**Last Updated:** 29th January 2026  
 **Maintainer:** Lucia Galiero

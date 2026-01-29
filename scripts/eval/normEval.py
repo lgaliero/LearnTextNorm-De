@@ -52,7 +52,7 @@ def loadNormData(path):
                 continue
             
             parts = line.split('\t')
-            if len(parts) >= 2 and parts[0].strip() and parts[1].strip():  # ← ADD THIS CHECK
+            if len(parts) >= 2 and parts[0].strip() and parts[1].strip():
                 rawSent.append(parts[0].strip())
                 goldSent.append(parts[1].strip())
         
