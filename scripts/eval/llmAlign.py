@@ -106,30 +106,31 @@ def align_tokens_with_edits(orig_tokens, hyp_sentence, verbose=False):
     return aligned, is_good_match
 
 
-def load_verticalized_sentences(filepath):
-    """Load verticalized file"""
+def load_vertical_file(filepath):
+    """Load vertical format file (word\tword per line, blank line = sentence boundary)"""
     sentences = []
-    current_sentence = []
-    
     with open(filepath, 'r', encoding='utf-8') as f:
+        current_sent = []
         for line in f:
-            line = line.rstrip('\n')
-            if line.strip() == '':
-                if current_sentence:
-                    sentences.append(current_sentence)
-                    current_sentence = []
-            else:
-                parts = line.split('\t')
-                if len(parts) >= 2:
-                    current_sentence.append((parts[0], parts[1]))
-                elif len(parts) == 1:
-                    current_sentence.append((parts[0], ''))
-    
-    if current_sentence:
-        sentences.append(current_sentence)
+            line = line.rstrip('\n\r')  # Remove trailing newlines
+            
+            # Skip empty lines (sentence boundary)
+            if not line.strip():
+                if current_sent:  # Only append if we have content
+                    sentences.append(current_sent)
+                    current_sent = []
+                continue
+            
+            # Split on tab and strip whitespace
+            parts = line.split('\t')
+            if len(parts) >= 2:
+                current_sent.append((parts[0].strip(), parts[1].strip()))
+        
+        # Don't forget last sentence
+        if current_sent:
+            sentences.append(current_sent)
     
     return sentences
-
 
 def load_hypothesis_sentences(filepath):
     """Load hypothesis sentences"""
@@ -175,7 +176,7 @@ def main():
             placeholder = sys.argv[i + 1]
     
     print(f"Loading original file: {orig_file}")
-    orig_sentences = load_verticalized_sentences(orig_file)
+    orig_sentences = load_vertical_file(orig_file)
     print(f"Loaded {len(orig_sentences)} sentences")
     
     print(f"Loading hypothesis file: {hyp_file}")

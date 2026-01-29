@@ -137,25 +137,61 @@ if [ -f "$TEST_NORM" ]; then
     temp_tgt_sent=$(mktemp)
 
     # Extract and convert to sentence format in one pass
-awk -F'\t' 'BEGIN {sent=""} 
-            {if (NF == 0 || $0 == "") {
-                if (sent != "") print sent; 
-                sent=""
-             } else if (NF >= 2) {
-                if (sent != "") sent = sent " " $1; 
-                else sent = $1
-             }} 
-            END {if (sent != "") print sent}' "$TEST_NORM" > "$temp_src_sent"
+awk -F'\t' '
+    BEGIN {sent=""; has_content=0} 
+    {
+        # Strip whitespace
+        gsub(/^[[:space:]]+|[[:space:]]+$/, "", $0)
+        
+        if ($0 == "") {
+            if (has_content && sent != "") {
+                print sent
+            }
+            sent = ""
+            has_content = 0
+        } else if (NF >= 2) {
+            gsub(/^[[:space:]]+|[[:space:]]+$/, "", $1)
+            if (sent != "") {
+                sent = sent " " $1
+            } else {
+                sent = $1
+            }
+            has_content = 1
+        }
+    } 
+    END {
+        if (has_content && sent != "") {
+            print sent
+        }
+    }' "$TEST_NORM" > "$temp_src_sent"
 
-awk -F'\t' 'BEGIN {sent=""} 
-            {if (NF == 0 || $0 == "") {
-                if (sent != "") print sent; 
-                sent=""
-             } else if (NF >= 2) {
-                if (sent != "") sent = sent " " $2; 
-                else sent = $2
-             }} 
-            END {if (sent != "") print sent}' "$TEST_NORM" > "$temp_tgt_sent"
+# Extract target sentences (column 2)
+awk -F'\t' '
+    BEGIN {sent=""; has_content=0} 
+    {
+        gsub(/^[[:space:]]+|[[:space:]]+$/, "", $0)
+        
+        if ($0 == "") {
+            if (has_content && sent != "") {
+                print sent
+            }
+            sent = ""
+            has_content = 0
+        } else if (NF >= 2) {
+            gsub(/^[[:space:]]+|[[:space:]]+$/, "", $2)
+            if (sent != "") {
+                sent = sent " " $2
+            } else {
+                sent = $2
+            }
+            has_content = 1
+        }
+    } 
+    END {
+        if (has_content && sent != "") {
+            print sent
+        }
+    }' "$TEST_NORM" > "$temp_tgt_sent"
 
     # chrF Score
     if command -v sacrebleu &> /dev/null; then
@@ -252,19 +288,43 @@ for model_name in "${!MODEL_configsS[@]}"; do
         # Create sentence-level files for WER/CER/chrF
         temp_pred=$(mktemp)
         temp_gold=$(mktemp)
-        
-        # Extract predictions and gold from aligned file
-        awk -F'\t' 'BEGIN {sent=""} 
-                    {if ($0 == "") {if (sent != "") print sent; sent=""} 
-                     else if (NF >= 2) {if (sent != "") sent = sent " " $2; else sent = $2}} 
-                    END {if (sent != "") print sent}' "$aligned_file" > "$temp_pred"
-        
-        awk -F'\t' 'BEGIN {sent=""} 
-                    {if ($0 == "") {if (sent != "") print sent; sent=""} 
-                     else if (NF >= 2) {if (sent != "") sent = sent " " $2; else sent = $2}} 
-                    END {if (sent != "") print sent}' "$TEST_NORM" > "$temp_gold"
-        
-        # WER with breakdown
+
+        # Extract predictions
+        awk -F'\t' '
+            BEGIN {sent=""; has_content=0} 
+            {
+                gsub(/^[[:space:]]+|[[:space:]]+$/, "", $0)
+                if ($0 == "") {
+                    if (has_content && sent != "") print sent
+                    sent = ""
+                    has_content = 0
+                } else if (NF >= 2) {
+                    gsub(/^[[:space:]]+|[[:space:]]+$/, "", $2)
+                    if (sent != "") sent = sent " " $2
+                    else sent = $2
+                    has_content = 1
+                }
+            } 
+            END {if (has_content && sent != "") print sent}' "$aligned_file" > "$temp_pred"
+
+        # Extract gold (same logic)
+        awk -F'\t' '
+            BEGIN {sent=""; has_content=0} 
+            {
+                gsub(/^[[:space:]]+|[[:space:]]+$/, "", $0)
+                if ($0 == "") {
+                    if (has_content && sent != "") print sent
+                    sent = ""
+                    has_content = 0
+                } else if (NF >= 2) {
+                    gsub(/^[[:space:]]+|[[:space:]]+$/, "", $2)
+                    if (sent != "") sent = sent " " $2
+                    else sent = $2
+                    has_content = 1
+                }
+            } 
+            END {if (has_content && sent != "") print sent}' "$TEST_NORM" > "$temp_gold"
+                # WER with breakdown
         subsection_header "WER - Word Error Rate"
         log "Computing WER for $model_name..."
         python3 eval/wer++.py "$temp_pred" "$temp_gold" -n 10 >> "$EVAL_FILE" 2>&1

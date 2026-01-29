@@ -33,31 +33,34 @@ def evaluate(raw, gold, pred, ignCaps=False, verbose=False):
     print('ERR:                {:.2f}'.format(error_reduction * 100))  # ← Changed here too
 
     return lai, accuracy, error_reduction  # ← And here
+
 def loadNormData(path):
-    rawData = []
-    goldData = []
-    curSent = []
-
-    for line in open(path):
-        tok = line.strip().split('\t')
-
-        if tok == [''] or tok == []:
-            rawData.append([x[0] for x in curSent])
-            goldData.append([x[1] for x in curSent])
-            curSent = []
-
-        else:
-            if len(tok) > 2:
-                err('erroneous input, line:\n' + line + '\n in file ' + path + ' contains more then two elements')
-            if len(tok) == 1:
-                tok.append('')
-            curSent.append(tok)
-
-    # in case file does not end with newline
-    if curSent != []:
-        rawData.append([x[0] for x in curSent])
-        goldData.append([x[1] for x in curSent])
-    return rawData, goldData
+    raw = []
+    gold = []
+    with open(path, 'r', encoding='utf-8') as f:
+        rawSent = []
+        goldSent = []
+        for line in f:
+            line = line.rstrip('\n\r')
+            
+            if not line.strip():  # Blank line
+                if rawSent and goldSent:
+                    raw.append(rawSent)
+                    gold.append(goldSent)
+                rawSent = []
+                goldSent = []
+                continue
+            
+            parts = line.split('\t')
+            if len(parts) >= 2 and parts[0].strip() and parts[1].strip():  # ← ADD THIS CHECK
+                rawSent.append(parts[0].strip())
+                goldSent.append(parts[1].strip())
+        
+        if rawSent and goldSent:
+            raw.append(rawSent)
+            gold.append(goldSent)
+    
+    return raw, gold
 
 def err(msg):
     print('Error: ' + msg)
