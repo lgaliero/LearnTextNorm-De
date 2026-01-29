@@ -1,4 +1,5 @@
 Folder containing all the modules and their respective execution entry points.
+
 Most of them are also CLI wrappers for integration with the terminal.
 
 Intended workflow: 
