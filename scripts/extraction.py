@@ -13,8 +13,6 @@ if __name__ == "__main__":
                         default=ExtractionParams.FORMAT,
                         choices=['tsv', 'norm', 'both'])
     parser.add_argument('--max-files', type=int, default=None)
-    parser.add_argument('--stats', action='store_true', 
-                    help='Compute and display corpus statistics')
 
     # FIX: Determine which corpora to process
     args = parser.parse_args()
@@ -51,8 +49,6 @@ if __name__ == "__main__":
         print(f"Output format: {args.format}")
         if args.max_files:
             print(f"Max files per corpus: {args.max_files}")
-        if args.stats:
-            print(f"Statistics computation: ENABLED")
         print(f"{'='*80}\n")
         
         df = process_corpora(
@@ -60,7 +56,6 @@ if __name__ == "__main__":
             output_dir=args.output_dir,
             output_format=args.format,
             max_files_per_corpus=args.max_files,
-            compute_stats = args.stats 
         )
 
         if not df.empty:
