@@ -18,3 +18,4 @@ scripts/test_align.py
 data/train/train.norm.bak
 data/dev/dev.norm.bak
 scripts/old_ex.py
+README.md
